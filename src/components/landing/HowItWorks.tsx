@@ -49,11 +49,6 @@ const HowItWorks = () => {
               <div className="absolute inset-0 rounded-2xl bg-gradient-to-b from-primary/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
               
               <div className="relative">
-                {/* Step number */}
-                <div className="text-6xl font-display font-bold text-border/50 absolute -top-2 -left-2">
-                  {step.step}
-                </div>
-
                 {/* Icon */}
                 <div className={`w-14 h-14 rounded-xl flex items-center justify-center mb-6 relative z-10 ${
                   step.color === "primary" 
