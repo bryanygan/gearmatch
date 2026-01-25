@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Menu, X, Crosshair } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -10,14 +11,14 @@ const Navbar = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <a href="/" className="flex items-center gap-2 group">
+          <Link to="/" className="flex items-center gap-2 group">
             <div className="w-8 h-8 rounded-lg bg-primary/20 flex items-center justify-center group-hover:bg-primary/30 transition-colors">
               <Crosshair className="w-5 h-5 text-primary" />
             </div>
             <span className="font-display font-bold text-lg text-foreground">
               GearMatch
             </span>
-          </a>
+          </Link>
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center gap-6">
@@ -34,8 +35,8 @@ const Navbar = () => {
 
           {/* CTA */}
           <div className="hidden md:flex items-center gap-3">
-            <Button variant="hero" size="default">
-              Get Started
+            <Button variant="hero" size="default" asChild>
+              <Link to="/quiz/mouse">Get Started</Link>
             </Button>
           </div>
 
@@ -61,8 +62,8 @@ const Navbar = () => {
               <a href="#why-trust-us" className="text-sm text-muted-foreground hover:text-foreground transition-colors py-2">
                 Why Trust Us
               </a>
-              <Button variant="hero" className="mt-2">
-                Get Started
+              <Button variant="hero" className="mt-2" asChild>
+                <Link to="/quiz/mouse">Get Started</Link>
               </Button>
             </div>
           </div>

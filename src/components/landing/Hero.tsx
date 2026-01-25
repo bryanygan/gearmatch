@@ -1,5 +1,6 @@
 import { ArrowRight, Headphones } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 import RecommendationPreview from "./RecommendationPreview";
 
 const Hero = () => {
@@ -40,13 +41,17 @@ const Hero = () => {
 
             {/* CTAs */}
             <div className="flex flex-col sm:flex-row gap-2 md:gap-3 mb-5 md:mb-8 animate-slide-up" style={{ animationDelay: "0.3s" }}>
-              <Button variant="hero" size="default" className="group text-xs md:text-sm h-9 md:h-11 px-3 md:px-6">
-                Find Your Perfect Mouse
-                <ArrowRight className="w-3 h-3 md:w-4 md:h-4 group-hover:translate-x-1 transition-transform" />
+              <Button variant="hero" size="default" className="group text-xs md:text-sm h-9 md:h-11 px-3 md:px-6" asChild>
+                <Link to="/quiz/mouse">
+                  Find Your Perfect Mouse
+                  <ArrowRight className="w-3 h-3 md:w-4 md:h-4 group-hover:translate-x-1 transition-transform" />
+                </Link>
               </Button>
-              <Button variant="accent" size="default" className="group text-xs md:text-sm h-9 md:h-11 px-3 md:px-6">
-                Get Audio Picks
-                <Headphones className="w-3 h-3 md:w-4 md:h-4" />
+              <Button variant="accent" size="default" className="group text-xs md:text-sm h-9 md:h-11 px-3 md:px-6" asChild>
+                <Link to="/quiz/audio">
+                  Get Audio Picks
+                  <Headphones className="w-3 h-3 md:w-4 md:h-4" />
+                </Link>
               </Button>
             </div>
 
