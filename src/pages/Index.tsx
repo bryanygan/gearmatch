@@ -6,9 +6,16 @@ import TrustSection from "@/components/landing/TrustSection";
 import FinalCTA from "@/components/landing/FinalCTA";
 import Footer from "@/components/landing/Footer";
 
-const Index = () => {
+type IndexProps = {
+  skipAnimations?: boolean;
+};
+
+const Index = ({ skipAnimations = false }: IndexProps) => {
   return (
-    <div className="min-h-screen bg-background">
+    <div
+      className="min-h-screen bg-background"
+      data-landing-animations={skipAnimations ? "off" : "on"}
+    >
       <Navbar />
       <Hero />
       <HowItWorks />

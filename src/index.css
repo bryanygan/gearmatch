@@ -164,6 +164,15 @@
   .animate-fade-in {
     animation: fade-in 0.8s ease-out forwards;
   }
+
+  [data-landing-animations="off"] .animate-float,
+  [data-landing-animations="off"] .animate-pulse-subtle,
+  [data-landing-animations="off"] .animate-slide-up,
+  [data-landing-animations="off"] .animate-fade-in {
+    animation: none !important;
+    opacity: 1;
+    transform: none;
+  }
 }
 
 @keyframes float {
