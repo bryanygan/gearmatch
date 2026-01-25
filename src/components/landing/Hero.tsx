@@ -4,7 +4,7 @@ import RecommendationPreview from "./RecommendationPreview";
 
 const Hero = () => {
   return (
-    <section className="relative min-h-screen pt-16 pb-8 overflow-hidden">
+    <section className="relative min-h-screen pt-24 md:pt-32 pb-8 overflow-hidden">
       {/* Subtle background effects */}
       <div className="absolute inset-0 bg-grid opacity-30" />
       <div className="absolute top-0 right-0 w-2/3 h-full bg-gradient-to-l from-primary/5 to-transparent" />
