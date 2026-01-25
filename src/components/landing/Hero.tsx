@@ -9,9 +9,9 @@ const Hero = () => {
       <div className="absolute inset-0 bg-grid opacity-30" />
       <div className="absolute top-0 right-0 w-2/3 h-full bg-gradient-to-l from-primary/5 to-transparent" />
       
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8 h-full flex flex-col">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 h-full flex flex-col items-center justify-center">
         {/* Always side-by-side grid, scales down together */}
-        <div className="grid grid-cols-12 gap-4 md:gap-6 flex-1 items-center">
+        <div className="grid grid-cols-12 gap-4 md:gap-6 items-center w-full max-w-7xl">
           
           {/* Left Column - Content */}
           <div className="relative z-10 col-span-6 lg:col-span-5">
@@ -125,7 +125,7 @@ const Hero = () => {
         </div>
 
         {/* Recommendation Preview */}
-        <div className="mt-6 md:mt-10">
+        <div className="mt-6 md:mt-10 w-full">
           <RecommendationPreview />
         </div>
       </div>
