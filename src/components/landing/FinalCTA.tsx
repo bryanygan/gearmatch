@@ -1,5 +1,6 @@
 import { ArrowRight, MousePointer2, Headphones } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 
 const FinalCTA = () => {
   return (
@@ -18,14 +19,18 @@ const FinalCTA = () => {
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Button variant="hero" size="xl" className="w-full sm:w-auto group">
-              <MousePointer2 className="w-5 h-5" />
-              Find Your Perfect Mouse
-              <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+            <Button variant="hero" size="xl" className="w-full sm:w-auto group" asChild>
+              <Link to="/quiz/mouse">
+                <MousePointer2 className="w-5 h-5" />
+                Find Your Perfect Mouse
+                <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+              </Link>
             </Button>
-            <Button variant="accent" size="xl" className="w-full sm:w-auto group">
-              <Headphones className="w-5 h-5" />
-              Get Audio Recommendations
+            <Button variant="accent" size="xl" className="w-full sm:w-auto group" asChild>
+              <Link to="/quiz/audio">
+                <Headphones className="w-5 h-5" />
+                Get Audio Recommendations
+              </Link>
             </Button>
           </div>
 
