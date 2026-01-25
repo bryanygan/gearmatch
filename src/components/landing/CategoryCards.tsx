@@ -1,5 +1,6 @@
 import { MousePointer2, Headphones, Keyboard, Gamepad2, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 
 const categories = [
   {
@@ -11,6 +12,7 @@ const categories = [
     available: true,
     cta: "Find Your Mouse",
     accent: "primary" as const,
+    href: "/quiz/mouse",
   },
   {
     id: "audio",
@@ -21,6 +23,7 @@ const categories = [
     available: true,
     cta: "Find Your Audio",
     accent: "accent" as const,
+    href: "/quiz/audio",
   },
   {
     id: "keyboards",
@@ -31,6 +34,7 @@ const categories = [
     available: false,
     cta: "Coming Soon",
     accent: "primary" as const,
+    href: "#",
   },
   {
     id: "controllers",
@@ -41,6 +45,7 @@ const categories = [
     available: false,
     cta: "Coming Soon",
     accent: "accent" as const,
+    href: "#",
   },
 ];
 
@@ -122,10 +127,15 @@ const CategoryCards = () => {
                   variant={category.available ? (category.accent === "primary" ? "hero" : "accent") : "outline"}
                   className="w-full group/btn"
                   disabled={!category.available}
+                  asChild={category.available}
                 >
-                  {category.cta}
-                  {category.available && (
-                    <ArrowRight className="w-4 h-4 group-hover/btn:translate-x-1 transition-transform" />
+                  {category.available ? (
+                    <Link to={category.href}>
+                      {category.cta}
+                      <ArrowRight className="w-4 h-4 group-hover/btn:translate-x-1 transition-transform" />
+                    </Link>
+                  ) : (
+                    <span>{category.cta}</span>
                   )}
                 </Button>
               </div>
