@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Menu, X, Crosshair } from "lucide-react";
+import { Menu, X, MousePointer2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 
@@ -13,7 +13,7 @@ const Navbar = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2 group">
             <div className="w-8 h-8 rounded-lg bg-primary/20 flex items-center justify-center group-hover:bg-primary/30 transition-colors">
-              <Crosshair className="w-5 h-5 text-primary" />
+              <MousePointer2 className="w-5 h-5 text-primary" />
             </div>
             <span className="font-display font-bold text-lg text-foreground">
               GearMatch

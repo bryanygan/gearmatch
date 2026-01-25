@@ -13,7 +13,7 @@ const trustPoints = [
   },
   {
     icon: Heart,
-    title: "Built by Gamers",
+    title: "Built by Enthusiasts",
     description: "We've been through the frustration of bad gear purchases. This tool exists because we needed it ourselves.",
   },
   {
@@ -70,7 +70,7 @@ const TrustSection = () => {
               </div>
               <div className="text-left">
                 <div className="text-sm font-medium">Jake K.</div>
-                <div className="text-xs text-muted-foreground">FPS Player, Medium Hands</div>
+                <div className="text-xs text-muted-foreground">Claw Grip, Medium Hands</div>
               </div>
             </div>
           </div>

@@ -1,10 +1,10 @@
 # GearMatch
 
-A personalized gaming gear recommendation platform that helps gamers find the perfect peripherals based on their specific needs and playstyle.
+A personalized peripheral recommendation platform that helps users find the perfect computer peripherals based on their specific needs and preferences.
 
 ## About
 
-GearMatch takes a quiz-based approach to match users with gaming gear that fits their requirements, rather than relying on generic "top 10" lists. Built by gamers, for gamers.
+GearMatch takes a quiz-based approach to match users with peripherals that fit their requirements, rather than relying on generic "top 10" lists. Built by enthusiasts, for everyone.
 
 **Core Values:**
 - 0% sponsored picks - no brand partnerships
@@ -15,7 +15,7 @@ GearMatch takes a quiz-based approach to match users with gaming gear that fits 
 ## Features
 
 **Available Now:**
-- **Mouse Recommendation Quiz** - 5-question quiz covering hand size, grip style, weight preference, wireless vs wired, and game genre
+- **Mouse Recommendation Quiz** - 5-question quiz covering hand size, grip style, weight preference, wireless vs wired, and primary use
 - **Audio Equipment Quiz** - 5-question quiz covering primary use case, form factor, microphone needs, session length, and budget
 - **Responsive Design** - Fully mobile-optimized interface
 

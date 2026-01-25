@@ -5,10 +5,10 @@ import { Link } from "react-router-dom";
 const categories = [
   {
     id: "mice",
-    title: "Gaming Mice",
-    description: "From lightweight FPS demons to ergonomic MMO beasts. Find the shape, weight, and sensor that matches how you actually play.",
+    title: "Mice",
+    description: "From ultralight precision mice to ergonomic all-day options. Find the shape, weight, and sensor that matches how you actually use your mouse.",
     icon: MousePointer2,
-    factors: ["Hand size & grip style", "Weight preference", "Wireless vs wired", "Game genre"],
+    factors: ["Hand size & grip style", "Weight preference", "Wireless vs wired", "Primary use"],
     available: true,
     cta: "Find Your Mouse",
     accent: "primary" as const,
@@ -17,7 +17,7 @@ const categories = [
   {
     id: "audio",
     title: "Audio Gear",
-    description: "IEMs, headsets, and headphones for every need — competitive footsteps, immersive worlds, or all-day comfort with a solid mic.",
+    description: "IEMs, headsets, and headphones for every need — precise audio clarity, immersive sound, or all-day comfort with a solid mic.",
     icon: Headphones,
     factors: ["Competitive vs immersive", "Mic quality needs", "Comfort priority", "Open vs closed back"],
     available: true,
@@ -28,7 +28,7 @@ const categories = [
   {
     id: "keyboards",
     title: "Keyboards",
-    description: "Switches, layouts, and features that match your typing feel and gaming needs. Coming soon.",
+    description: "Switches, layouts, and features that match your typing feel and workflow. Coming soon.",
     icon: Keyboard,
     factors: ["Switch type", "Form factor", "Actuation speed", "Build quality"],
     available: false,
@@ -39,7 +39,7 @@ const categories = [
   {
     id: "controllers",
     title: "Controllers",
-    description: "Console, PC, or fighting games — find the right controller for your hands and playstyle. Coming soon.",
+    description: "Console, PC, or specialized use — find the right controller for your hands and preferences. Coming soon.",
     icon: Gamepad2,
     factors: ["Platform", "Hand size", "Button layout", "Pro features"],
     available: false,
@@ -59,7 +59,7 @@ const CategoryCards = () => {
             Pick Your <span className="text-gradient-accent">Category</span>
           </h2>
           <p className="text-muted-foreground text-lg">
-            We're starting with what matters most to gamers. More categories are in the works.
+            We're starting with the most popular categories. More are in the works.
           </p>
         </div>
 

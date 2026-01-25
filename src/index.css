@@ -6,7 +6,7 @@
 
 @layer base {
   :root {
-    /* Dark gaming theme - default */
+    /* Dark theme - default */
     --background: 222 47% 6%;
     --foreground: 210 40% 96%;
 
@@ -16,7 +16,7 @@
     --popover: 222 47% 8%;
     --popover-foreground: 210 40% 96%;
 
-    /* Cyan/Teal accent - gamer-friendly */
+    /* Cyan/Teal accent */
     --primary: 186 100% 50%;
     --primary-foreground: 222 47% 6%;
 

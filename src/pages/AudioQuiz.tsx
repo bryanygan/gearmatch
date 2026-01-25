@@ -41,19 +41,19 @@ const questions: QuizQuestion[] = [
       {
         id: "competitive",
         icon: Target,
-        title: "Competitive Gaming",
-        description: "Need to hear every footstep",
+        title: "Precision Audio",
+        description: "Clear audio cues and detail",
       },
       {
         id: "immersive",
         icon: Sparkles,
-        title: "Immersive Gaming",
+        title: "Immersive Listening",
         description: "Rich audio, deep bass",
       },
       {
         id: "mixed",
         icon: Music,
-        title: "Gaming + Music",
+        title: "Mixed Use",
         description: "Best of both worlds",
       },
       {
@@ -122,7 +122,7 @@ const questions: QuizQuestion[] = [
   },
   {
     id: "session-length",
-    title: "How long are your gaming sessions?",
+    title: "How long are your listening sessions?",
     subtitle: "Longer sessions need more comfort-focused options",
     options: [
       {
@@ -135,7 +135,7 @@ const questions: QuizQuestion[] = [
         id: "medium",
         icon: Clock,
         title: "3-5 Hours",
-        description: "Regular gaming nights",
+        description: "Regular sessions",
       },
       {
         id: "long",

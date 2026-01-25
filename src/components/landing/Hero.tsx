@@ -35,8 +35,8 @@ const Hero = () => {
 
             {/* Subheadline */}
             <p className="text-xs sm:text-sm md:text-base lg:text-lg text-muted-foreground max-w-md mb-4 md:mb-6 animate-slide-up leading-relaxed" style={{ animationDelay: "0.2s" }}>
-              Answer a few quick questions about how you play, and we'll match you with gear that actually fits —{" "}
-              <span className="text-foreground font-medium">your grip, your playstyle, your budget.</span>
+              Answer a few quick questions about how you work and play, and we'll match you with gear that actually fits —{" "}
+              <span className="text-foreground font-medium">your grip, your style, your budget.</span>
             </p>
 
             {/* CTAs */}
