@@ -23,7 +23,10 @@ const recommendations = [
 
 const RecommendationPreview = () => {
   return (
-    <div className="w-full max-w-4xl mx-auto animate-fade-in" style={{ animationDelay: "0.5s" }}>
+    <div className="w-full max-w-6xl mx-auto animate-fade-in relative" style={{ animationDelay: "0.5s" }}>
+      {/* Bottom fade effect */}
+      <div className="absolute bottom-0 left-0 right-0 h-24 bg-gradient-to-t from-background via-background/80 to-transparent z-10 pointer-events-none rounded-b-2xl" />
+      
       {/* Browser window container */}
       <div className="bg-[hsl(var(--card))] border border-border/50 rounded-2xl overflow-hidden shadow-2xl">
         {/* macOS title bar */}
