@@ -1,16 +1,17 @@
 import { ArrowRight, Headphones } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import RecommendationPreview from "./RecommendationPreview";
 
 const Hero = () => {
   return (
-    <section className="relative min-h-screen pt-20 overflow-hidden">
+    <section className="relative min-h-screen pt-16 pb-8 overflow-hidden">
       {/* Subtle background effects */}
       <div className="absolute inset-0 bg-grid opacity-30" />
       <div className="absolute top-0 right-0 w-2/3 h-full bg-gradient-to-l from-primary/5 to-transparent" />
       
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8 h-full">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 h-full flex flex-col">
         {/* Always side-by-side grid, scales down together */}
-        <div className="grid grid-cols-12 gap-4 md:gap-6 min-h-[calc(100vh-5rem)] items-center">
+        <div className="grid grid-cols-12 gap-4 md:gap-6 flex-1 items-center">
           
           {/* Left Column - Content */}
           <div className="relative z-10 col-span-6 lg:col-span-5">
@@ -121,6 +122,11 @@ const Hero = () => {
               <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-48 h-48 sm:w-72 sm:h-72 md:w-96 md:h-96 lg:w-[500px] lg:h-[500px] xl:w-[600px] xl:h-[600px] rounded-full border border-border/10 pointer-events-none" />
             </div>
           </div>
+        </div>
+
+        {/* Recommendation Preview */}
+        <div className="mt-6 md:mt-10">
+          <RecommendationPreview />
         </div>
       </div>
 
