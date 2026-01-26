@@ -338,6 +338,7 @@ export const afulExplorer: AudioProduct = {
     latency_class: "very_low", // Wired IEM
     software_support: "none",
     availability_class: "easy",
+    eq_support: false,
 
     // === CRITICAL FOR SCORING ===
     audio_type: "iem",

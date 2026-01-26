@@ -8,6 +8,7 @@
 
 import type { MouseProduct, AudioProduct } from "@/types/products";
 import { newMouseProducts } from "./new-products";
+import { allMouse1Products } from "./mouse1";
 import { newAudioProducts as audioProducts1 } from "./audio-products";
 import { newAudioProducts as audioProducts2 } from "./audio-products2";
 
@@ -393,6 +394,7 @@ export const sampleMouseProducts: MouseProduct[] = [
   logitechGProXSuperlight2,
   pulsarX2,
   ...newMouseProducts,
+  ...allMouse1Products,
 ];
 
 /**

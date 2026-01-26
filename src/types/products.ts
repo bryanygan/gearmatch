@@ -18,7 +18,7 @@ export type PriceTier =
   | "flagship";
 
 /** Platforms where the product works well out-of-the-box */
-export type PlatformFit = "pc" | "playstation" | "xbox" | "switch" | "mobile";
+export type PlatformFit = "pc" | "playstation" | "xbox" | "switch" | "mobile" | "mac";
 
 /** Supported connection methods */
 export type ConnectionType =
@@ -53,10 +53,10 @@ export type PrimarySourceType =
 // =============================================================================
 
 /** Ergonomic handedness of the mouse */
-export type MouseHandedness = "right" | "ambi" | "left";
+export type MouseHandedness = "right" | "ambi" | "left" | "ergo_right" | "ergo_left";
 
 /** Weight classification bucket */
-export type MouseWeightClass = "ultralight" | "light" | "mid" | "heavy";
+export type MouseWeightClass = "ultralight" | "light" | "mid" | "medium" | "heavy";
 
 /** Size classification based on dimensions and feel */
 export type MouseSizeClass = "small" | "medium" | "large";
@@ -67,7 +67,8 @@ export type MouseShapeProfile =
   | "mid_hump"
   | "high_hump"
   | "rear_hump"
-  | "center_hump";
+  | "center_hump"
+  | "ergo_hump";
 
 /** Grip styles the shape supports well */
 export type MouseGripFit = "palm" | "claw" | "fingertip";
@@ -76,16 +77,16 @@ export type MouseGripFit = "palm" | "claw" | "fingertip";
 export type MouseGameFit = "fps" | "moba" | "mmo" | "general" | "productivity";
 
 /** Maximum supported polling rate */
-export type MousePollingRate = "1000" | "2000" | "4000" | "8000";
+export type MousePollingRate = "125" | "500" | "1000" | "2000" | "4000" | "8000";
 
 /** Sensor quality classification */
-export type MouseSensorClass = "budget_ok" | "good" | "great" | "flagship";
+export type MouseSensorClass = "basic" | "budget_ok" | "good" | "great" | "flagship";
 
 /** Build quality rating */
 export type MouseBuildQuality = "ok" | "good" | "great";
 
 /** Stock mouse feet glide quality */
-export type MouseFeetQuality = "basic" | "good" | "great";
+export type MouseFeetQuality = "basic" | "ok" | "good" | "great";
 
 /** Primary surface finish */
 export type MouseCoating = "matte" | "glossy" | "rubberized" | "mixed";
@@ -97,14 +98,39 @@ export type MouseFeelTag =
   | "grippy"
   | "slippery"
   | "large_hands_friendly"
-  | "small_hands_friendly";
+  | "small_hands_friendly"
+  | "thumb_rest"
+  | "feature_rich"
+  | "multi_device"
+  | "productivity"
+  | "works_on_glass"
+  | "premium_feel"
+  | "moddable"
+  | "portable"
+  | "silent_clicks"
+  | "ergonomic"
+  | "vertical"
+  | "honeycomb"
+  | "mmo_buttons"
+  | "esports_shape"
+  | "adjustable_weight"
+  | "trackball"
+  | "stationary"
+  | "mac_optimized"
+  | "touch_gestures"
+  | "basic"
+  | "hot_swap_switches";
 
 /** Scroll wheel feature tags */
 export type MouseScrollFeature =
   | "tilt_left_right"
+  | "tilt"
   | "free_scroll"
   | "infinite_scroll"
-  | "optical_scroll";
+  | "optical_scroll"
+  | "smart_reel"
+  | "thumb_wheel"
+  | "touch_scroll";
 
 /** Button count classification */
 export type MouseButtonCountClass = "low" | "medium" | "high" | "mmo_grid";
