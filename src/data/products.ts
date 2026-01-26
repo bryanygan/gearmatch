@@ -12,6 +12,10 @@ import type {
   AnyProduct,
   PriceTier,
 } from "@/types/products";
+import {
+  sampleMouseProducts,
+  sampleAudioProducts,
+} from "./sample-products";
 
 // Re-export type guards for convenience
 export { isMouseProduct, isAudioProduct } from "@/types/products";
@@ -22,28 +26,26 @@ export { isMouseProduct, isAudioProduct } from "@/types/products";
 
 /**
  * Array of all mouse products in the system.
- * Products are added here as they are sourced and validated.
+ * Currently populated with sample products for testing.
+ * Production data will replace/supplement these.
  *
  * @see MouseProduct for the required data structure
- * @see src/data/sample-products.ts for example products
+ * @see src/data/sample-products.ts for sample product definitions
  */
 export const mouseProducts: MouseProduct[] = [
-  // TODO: Add mouse products here
-  // Products will be sourced from lab testing data (RTINGS, etc.)
-  // Each product must conform to the MouseProduct interface
+  ...sampleMouseProducts,
 ];
 
 /**
  * Array of all audio products in the system.
- * Includes headsets, headphones, IEMs, and earbuds.
+ * Currently populated with sample products for testing.
+ * Production data will replace/supplement these.
  *
  * @see AudioProduct for the required data structure
- * @see src/data/sample-products.ts for example products
+ * @see src/data/sample-products.ts for sample product definitions
  */
 export const audioProducts: AudioProduct[] = [
-  // TODO: Add audio products here
-  // Products will be sourced from lab testing data (RTINGS, etc.)
-  // Each product must conform to the AudioProduct interface
+  ...sampleAudioProducts,
 ];
 
 /**
