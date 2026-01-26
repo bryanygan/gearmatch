@@ -202,9 +202,10 @@ const AudioQuiz = () => {
 
   const handleNext = () => {
     if (isLastQuestion) {
-      // TODO: Navigate to results page with answers
-      console.log("Quiz completed:", answers);
-      navigate("/");
+      // Navigate to results page with answers
+      navigate("/quiz/audio/results", {
+        state: { answers },
+      });
     } else {
       setCurrentStep((prev) => prev + 1);
     }

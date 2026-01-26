@@ -14,6 +14,8 @@ import {
 import Index from "./pages/Index";
 import MouseQuiz from "./pages/MouseQuiz";
 import AudioQuiz from "./pages/AudioQuiz";
+import MouseResults from "./pages/MouseResults";
+import AudioResults from "./pages/AudioResults";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -65,7 +67,9 @@ const App = () => {
               element={<Index skipAnimations={skipLandingAnimations} />}
             />
             <Route path="/quiz/mouse" element={<MouseQuiz />} />
+            <Route path="/quiz/mouse/results" element={<MouseResults />} />
             <Route path="/quiz/audio" element={<AudioQuiz />} />
+            <Route path="/quiz/audio/results" element={<AudioResults />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>
