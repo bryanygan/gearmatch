@@ -180,7 +180,7 @@ export type AudioVirtualSurround =
   | "vendor_specific";
 
 /** Repairability rating for parts replacement */
-export type AudioRepairability = "poor" | "ok" | "good";
+export type AudioRepairability = "poor" | "ok" | "good" | "great";
 
 // =============================================================================
 // Data Quality Interface

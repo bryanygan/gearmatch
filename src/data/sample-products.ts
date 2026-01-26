@@ -7,6 +7,9 @@
  */
 
 import type { MouseProduct, AudioProduct } from "@/types/products";
+import { newMouseProducts } from "./new-products";
+import { newAudioProducts as audioProducts1 } from "./audio-products";
+import { newAudioProducts as audioProducts2 } from "./audio-products2";
 
 // =============================================================================
 // Sample Mouse Products
@@ -389,6 +392,7 @@ export const sampleMouseProducts: MouseProduct[] = [
   razerViperV3Pro,
   logitechGProXSuperlight2,
   pulsarX2,
+  ...newMouseProducts,
 ];
 
 /**
@@ -398,6 +402,8 @@ export const sampleAudioProducts: AudioProduct[] = [
   steelseriesArctisNova7,
   hyperxCloudIIIWireless,
   sennheiserHD560S,
+  ...audioProducts1,
+  ...audioProducts2,
 ];
 
 /**
