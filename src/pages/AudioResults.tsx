@@ -1,5 +1,5 @@
-import { useEffect } from "react";
-import { useNavigate, useLocation, Link } from "react-router-dom";
+import { useEffect, useMemo } from "react";
+import { useNavigate, useLocation, useSearchParams, Link } from "react-router-dom";
 import { Headphones, Mouse, Home } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import {
@@ -15,9 +15,24 @@ import type { AudioQuizAnswers } from "@/lib/scoring";
 const AudioResults = () => {
   const navigate = useNavigate();
   const location = useLocation();
+  const [searchParams] = useSearchParams();
 
-  // Get answers from navigation state
-  const answers = location.state?.answers as AudioQuizAnswers | undefined;
+  // Get answers from URL params first, then fall back to navigation state
+  const answers = useMemo(() => {
+    // Try to get answers from URL params
+    const urlAnswers: Record<string, string> = {};
+    searchParams.forEach((value, key) => {
+      urlAnswers[key] = value;
+    });
+
+    // If URL has answers, use them
+    if (Object.keys(urlAnswers).length > 0) {
+      return urlAnswers as AudioQuizAnswers;
+    }
+
+    // Fall back to navigation state
+    return location.state?.answers as AudioQuizAnswers | undefined;
+  }, [searchParams, location.state]);
 
   // Generate recommendations
   const { recommendations, isLoading, error } = useAudioRecommendations(

@@ -197,10 +197,9 @@ const MouseQuiz = () => {
 
   const handleNext = () => {
     if (isLastQuestion) {
-      // Navigate to results page with answers
-      navigate("/quiz/mouse/results", {
-        state: { answers },
-      });
+      // Navigate to results page with answers encoded in URL
+      const params = new URLSearchParams(answers);
+      navigate(`/quiz/mouse/results?${params.toString()}`);
     } else {
       setCurrentStep((prev) => prev + 1);
     }

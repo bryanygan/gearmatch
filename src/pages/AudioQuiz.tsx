@@ -202,10 +202,9 @@ const AudioQuiz = () => {
 
   const handleNext = () => {
     if (isLastQuestion) {
-      // Navigate to results page with answers
-      navigate("/quiz/audio/results", {
-        state: { answers },
-      });
+      // Navigate to results page with answers encoded in URL
+      const params = new URLSearchParams(answers);
+      navigate(`/quiz/audio/results?${params.toString()}`);
     } else {
       setCurrentStep((prev) => prev + 1);
     }
