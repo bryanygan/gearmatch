@@ -12,10 +12,8 @@ import type {
   AnyProduct,
   PriceTier,
 } from "@/types/products";
-import {
-  sampleMouseProducts,
-  sampleAudioProducts,
-} from "./sample-products";
+import { allMouseProducts } from "./products/mice";
+import { allAudioProducts } from "./products/audio";
 
 // Re-export type guards for convenience
 export { isMouseProduct, isAudioProduct } from "@/types/products";
@@ -26,26 +24,22 @@ export { isMouseProduct, isAudioProduct } from "@/types/products";
 
 /**
  * Array of all mouse products in the system.
- * Currently populated with sample products for testing.
- * Production data will replace/supplement these.
  *
  * @see MouseProduct for the required data structure
- * @see src/data/sample-products.ts for sample product definitions
+ * @see src/data/products/mice.ts for product definitions
  */
 export const mouseProducts: MouseProduct[] = [
-  ...sampleMouseProducts,
+  ...allMouseProducts,
 ];
 
 /**
  * Array of all audio products in the system.
- * Currently populated with sample products for testing.
- * Production data will replace/supplement these.
  *
  * @see AudioProduct for the required data structure
- * @see src/data/sample-products.ts for sample product definitions
+ * @see src/data/products/audio.ts for product definitions
  */
 export const audioProducts: AudioProduct[] = [
-  ...sampleAudioProducts,
+  ...allAudioProducts,
 ];
 
 /**
