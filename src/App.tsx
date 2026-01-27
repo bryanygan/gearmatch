@@ -13,6 +13,7 @@ import {
 } from "react-router-dom";
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
+import { ErrorBoundary } from "./components/ErrorBoundary";
 
 // Lazy load quiz and results pages for code splitting
 const MouseQuiz = lazy(() => import("./pages/MouseQuiz"));
@@ -67,29 +68,31 @@ const App = () => {
   );
 
   return (
-    <QueryClientProvider client={queryClient}>
-      <TooltipProvider>
-        <Toaster />
-        <Sonner />
-        <BrowserRouter>
-          <RouteChangeListener onRouteChange={handleRouteChange} />
-          <Suspense fallback={<PageLoader />}>
-            <Routes>
-              <Route
-                path="/"
-                element={<Index skipAnimations={skipLandingAnimations} />}
-              />
-              <Route path="/quiz/mouse" element={<MouseQuiz />} />
-              <Route path="/quiz/mouse/results" element={<MouseResults />} />
-              <Route path="/quiz/audio" element={<AudioQuiz />} />
-              <Route path="/quiz/audio/results" element={<AudioResults />} />
-              {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
-              <Route path="*" element={<NotFound />} />
-            </Routes>
-          </Suspense>
-        </BrowserRouter>
-      </TooltipProvider>
-    </QueryClientProvider>
+    <ErrorBoundary>
+      <QueryClientProvider client={queryClient}>
+        <TooltipProvider>
+          <Toaster />
+          <Sonner />
+          <BrowserRouter>
+            <RouteChangeListener onRouteChange={handleRouteChange} />
+            <Suspense fallback={<PageLoader />}>
+              <Routes>
+                <Route
+                  path="/"
+                  element={<Index skipAnimations={skipLandingAnimations} />}
+                />
+                <Route path="/quiz/mouse" element={<MouseQuiz />} />
+                <Route path="/quiz/mouse/results" element={<MouseResults />} />
+                <Route path="/quiz/audio" element={<AudioQuiz />} />
+                <Route path="/quiz/audio/results" element={<AudioResults />} />
+                {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
+                <Route path="*" element={<NotFound />} />
+              </Routes>
+            </Suspense>
+          </BrowserRouter>
+        </TooltipProvider>
+      </QueryClientProvider>
+    </ErrorBoundary>
   );
 };
 
