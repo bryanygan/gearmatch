@@ -16,7 +16,7 @@ import type { MouseQuizAnswers, ScoringRule, RuleResult } from "./types";
  * Evaluates how well the mouse shape supports the user's grip style.
  */
 export const gripFitRule: ScoringRule<MouseQuizAnswers, MouseProduct> = {
-  name: "gripFit",
+  name: "Grip Fit",
   weight: 0.25,
   maxPoints: 25,
   evaluate: (answers, product): RuleResult => {
@@ -100,7 +100,7 @@ export const gripFitRule: ScoringRule<MouseQuizAnswers, MouseProduct> = {
  * Evaluates how well the mouse size matches the user's hand size.
  */
 export const sizeHandMatchRule: ScoringRule<MouseQuizAnswers, MouseProduct> = {
-  name: "sizeHandMatch",
+  name: "Size & Hand Match",
   weight: 0.2,
   maxPoints: 20,
   evaluate: (answers, product): RuleResult => {
@@ -192,7 +192,7 @@ export const sizeHandMatchRule: ScoringRule<MouseQuizAnswers, MouseProduct> = {
  * Evaluates how well the mouse weight matches user preference.
  */
 export const weightPreferenceRule: ScoringRule<MouseQuizAnswers, MouseProduct> = {
-  name: "weightPreference",
+  name: "Weight Preference",
   weight: 0.2,
   maxPoints: 20,
   evaluate: (answers, product): RuleResult => {
@@ -266,7 +266,7 @@ export const weightPreferenceRule: ScoringRule<MouseQuizAnswers, MouseProduct> =
  * Evaluates if the mouse meets connection type requirements.
  */
 export const connectionTypeRule: ScoringRule<MouseQuizAnswers, MouseProduct> = {
-  name: "connectionType",
+  name: "Connection Type",
   weight: 0.15,
   maxPoints: 15,
   evaluate: (answers, product): RuleResult => {
@@ -340,7 +340,7 @@ export const connectionTypeRule: ScoringRule<MouseQuizAnswers, MouseProduct> = {
  * Evaluates how well the mouse fits the user's primary use case.
  */
 export const useCaseFitRule: ScoringRule<MouseQuizAnswers, MouseProduct> = {
-  name: "useCaseFit",
+  name: "Use Case Fit",
   weight: 0.15,
   maxPoints: 15,
   evaluate: (answers, product): RuleResult => {
@@ -445,7 +445,7 @@ export const useCaseFitRule: ScoringRule<MouseQuizAnswers, MouseProduct> = {
  * Awards bonus points for extra quality indicators.
  */
 export const bonusPointsRule: ScoringRule<MouseQuizAnswers, MouseProduct> = {
-  name: "bonusPoints",
+  name: "Bonus Points",
   weight: 0.05,
   maxPoints: 5,
   evaluate: (_answers, product): RuleResult => {

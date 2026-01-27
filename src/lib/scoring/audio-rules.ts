@@ -16,7 +16,7 @@ import type { AudioQuizAnswers, ScoringRule, RuleResult } from "./types";
  * Evaluates how well the audio product form factor matches user preference.
  */
 export const formFactorRule: ScoringRule<AudioQuizAnswers, AudioProduct> = {
-  name: "formFactor",
+  name: "Form Factor",
   weight: 0.25,
   maxPoints: 25,
   evaluate: (answers, product): RuleResult => {
@@ -132,7 +132,7 @@ export const formFactorRule: ScoringRule<AudioQuizAnswers, AudioProduct> = {
  * Evaluates how well the audio product fits the user's primary use case.
  */
 export const primaryUseRule: ScoringRule<AudioQuizAnswers, AudioProduct> = {
-  name: "primaryUse",
+  name: "Primary Use",
   weight: 0.2,
   maxPoints: 20,
   evaluate: (answers, product): RuleResult => {
@@ -283,7 +283,7 @@ export const primaryUseRule: ScoringRule<AudioQuizAnswers, AudioProduct> = {
  * Evaluates if the audio product meets microphone requirements.
  */
 export const microphoneRule: ScoringRule<AudioQuizAnswers, AudioProduct> = {
-  name: "microphone",
+  name: "Microphone",
   weight: 0.2,
   maxPoints: 20,
   evaluate: (answers, product): RuleResult => {
@@ -375,7 +375,7 @@ export const microphoneRule: ScoringRule<AudioQuizAnswers, AudioProduct> = {
  * Evaluates if the audio product meets comfort requirements for session length.
  */
 export const comfortSessionRule: ScoringRule<AudioQuizAnswers, AudioProduct> = {
-  name: "comfortSession",
+  name: "Comfort & Session",
   weight: 0.15,
   maxPoints: 15,
   evaluate: (answers, product): RuleResult => {
@@ -468,7 +468,7 @@ export const comfortSessionRule: ScoringRule<AudioQuizAnswers, AudioProduct> = {
  * Evaluates if the audio product fits the user's budget tier.
  */
 export const budgetRule: ScoringRule<AudioQuizAnswers, AudioProduct> = {
-  name: "budget",
+  name: "Budget",
   weight: 0.15,
   maxPoints: 15,
   evaluate: (answers, product): RuleResult => {
@@ -568,7 +568,7 @@ export const budgetRule: ScoringRule<AudioQuizAnswers, AudioProduct> = {
  * Awards bonus points for extra quality indicators.
  */
 export const audioBonusPointsRule: ScoringRule<AudioQuizAnswers, AudioProduct> = {
-  name: "bonusPoints",
+  name: "Bonus Points",
   weight: 0.05,
   maxPoints: 5,
   evaluate: (_answers, product): RuleResult => {
