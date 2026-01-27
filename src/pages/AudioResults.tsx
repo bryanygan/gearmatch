@@ -10,28 +10,32 @@ import {
   NoResultsMessage,
 } from "@/components/results";
 import { useAudioRecommendations } from "@/hooks/use-recommendations";
-import type { AudioQuizAnswers } from "@/lib/scoring";
+import {
+  validateAudioAnswers,
+  searchParamsToObject,
+} from "@/lib/validation";
 
 const AudioResults = () => {
   const navigate = useNavigate();
   const location = useLocation();
   const [searchParams] = useSearchParams();
 
-  // Get answers from URL params first, then fall back to navigation state
+  // Get and validate answers from URL params first, then fall back to navigation state
   const answers = useMemo(() => {
     // Try to get answers from URL params
-    const urlAnswers: Record<string, string> = {};
-    searchParams.forEach((value, key) => {
-      urlAnswers[key] = value;
-    });
+    const urlAnswers = searchParamsToObject(searchParams);
 
-    // If URL has answers, use them
+    // If URL has answers, validate them
     if (Object.keys(urlAnswers).length > 0) {
-      return urlAnswers as AudioQuizAnswers;
+      return validateAudioAnswers(urlAnswers);
     }
 
-    // Fall back to navigation state
-    return location.state?.answers as AudioQuizAnswers | undefined;
+    // Fall back to navigation state (also validate)
+    if (location.state?.answers) {
+      return validateAudioAnswers(location.state.answers);
+    }
+
+    return null;
   }, [searchParams, location.state]);
 
   // Generate recommendations
