@@ -119,7 +119,20 @@ export type MouseFeelTag =
   | "mac_optimized"
   | "touch_gestures"
   | "basic"
-  | "hot_swap_switches";
+  | "hot_swap_switches"
+  | "ergo_right"
+  | "mmo_friendly"
+  | "casual"
+  | "light_clicks"
+  | "fast"
+  | "competitive"
+  | "ultralight"
+  | "no_software"
+  | "driverless"
+  | "fingertip_only"
+  | "rgb"
+  | "versatile"
+  | "free_scroll";
 
 /** Scroll wheel feature tags */
 export type MouseScrollFeature =

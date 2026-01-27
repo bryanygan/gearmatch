@@ -17,6 +17,8 @@ GearMatch takes a quiz-based approach to match users with peripherals that fit t
 ### Quiz System
 - **Mouse Recommendation Quiz** - 5-question quiz covering hand size, grip style, weight preference, wireless vs wired, and primary use case
 - **Audio Equipment Quiz** - 5-question quiz covering primary use case, form factor, microphone needs, session length, and budget
+- **Shareable Results** - URL-based state persistence allows bookmarking and sharing quiz results
+- **Input Validation** - Zod runtime validation ensures URL parameters are valid before processing
 
 ### Recommendation Engine
 - **Weighted Scoring Algorithm** - Products scored 0-100 based on how well they match your preferences
@@ -35,6 +37,11 @@ GearMatch takes a quiz-based approach to match users with peripherals that fit t
 - **22 Audio Products** - IEMs, wireless headsets, and open-back headphones ($23-$500)
 - **Comprehensive Attributes** - Weight, dimensions, grip styles, sensor class, build quality, and more
 
+### Performance & Reliability
+- **Lazy Loading** - Quiz and results pages are lazily loaded for faster initial page load
+- **Error Boundary** - Graceful error handling with sanitized error messages
+- **Loading States** - Skeleton UI components for smooth loading experience
+
 ## Tech Stack
 
 - **React 18** - UI framework
@@ -44,7 +51,8 @@ GearMatch takes a quiz-based approach to match users with peripherals that fit t
 - **shadcn/ui** - Component library
 - **React Router** - Client-side routing
 - **React Query** - Server state management
-- **Vitest** - Testing framework
+- **Zod** - Runtime schema validation
+- **Vitest** - Testing framework (42+ tests)
 
 ## Getting Started
 
@@ -86,58 +94,98 @@ The development server runs at `http://localhost:8080`
 ## Project Structure
 
 ```
-src/
-├── pages/                    # Page components
-│   ├── Index.tsx             # Landing page
-│   ├── MouseQuiz.tsx         # Mouse recommendation quiz
-│   ├── MouseResults.tsx      # Mouse results page
-│   ├── AudioQuiz.tsx         # Audio recommendation quiz
-│   ├── AudioResults.tsx      # Audio results page
-│   └── NotFound.tsx          # 404 page
+gearmatch/
+├── public/                       # Static assets
+│   └── _redirects                # Cloudflare Pages SPA routing
 │
-├── components/
-│   ├── landing/              # Landing page sections
-│   │   ├── Hero.tsx
-│   │   ├── CategoryCards.tsx
-│   │   ├── HowItWorks.tsx
-│   │   ├── TrustSection.tsx
-│   │   └── ...
-│   ├── quiz/                 # Quiz components
-│   │   ├── QuizLayout.tsx    # Shared quiz page wrapper
-│   │   ├── QuizProgress.tsx  # Progress bar and navigation
-│   │   └── QuizOptionCard.tsx
-│   ├── results/              # Results page components
-│   │   ├── ResultsLayout.tsx # Results page wrapper
-│   │   ├── RecommendationCard.tsx
-│   │   ├── ScoreBreakdown.tsx
-│   │   ├── AnswerSummary.tsx
-│   │   ├── ResultsSkeleton.tsx
-│   │   └── NoResultsMessage.tsx
-│   └── ui/                   # shadcn/ui components
+├── workspace/                    # Development documentation
+│   ├── DEVELOPMENT_SUGGESTIONS.md
+│   ├── SCALING_ROADMAP.md
+│   ├── SECURITY_AUDIT.md
+│   └── REVIEW_PARSER_PROMPT.md
 │
-├── data/                     # Product database
-│   ├── products.ts           # Product store and helper functions
-│   ├── sample-products.ts    # Core product definitions
-│   └── new-products.ts       # Additional products
+├── src/
+│   ├── pages/                    # Page components
+│   │   ├── Index.tsx             # Landing page
+│   │   ├── MouseQuiz.tsx         # Mouse recommendation quiz
+│   │   ├── MouseResults.tsx      # Mouse results page
+│   │   ├── AudioQuiz.tsx         # Audio recommendation quiz
+│   │   ├── AudioResults.tsx      # Audio results page
+│   │   └── NotFound.tsx          # 404 page
+│   │
+│   ├── components/
+│   │   ├── ErrorBoundary.tsx     # Global error handling with sanitization
+│   │   ├── NavLink.tsx           # Navigation link component
+│   │   ├── landing/              # Landing page sections
+│   │   │   ├── Hero.tsx          # Hero section with scrolling product gallery
+│   │   │   ├── CategoryCards.tsx
+│   │   │   ├── HowItWorks.tsx
+│   │   │   ├── TrustSection.tsx
+│   │   │   ├── FinalCTA.tsx
+│   │   │   ├── Footer.tsx
+│   │   │   ├── Navbar.tsx
+│   │   │   ├── RecommendationPreview.tsx
+│   │   │   └── ScrollingProductGrid.tsx
+│   │   ├── quiz/                 # Quiz components
+│   │   │   ├── QuizLayout.tsx    # Shared quiz page wrapper
+│   │   │   ├── QuizProgress.tsx  # Progress bar and navigation
+│   │   │   └── QuizOptionCard.tsx
+│   │   ├── results/              # Results page components
+│   │   │   ├── index.ts          # Barrel exports
+│   │   │   ├── ResultsLayout.tsx # Results page wrapper
+│   │   │   ├── RecommendationCard.tsx
+│   │   │   ├── ScoreBreakdown.tsx
+│   │   │   ├── AnswerSummary.tsx
+│   │   │   ├── ResultsSkeleton.tsx
+│   │   │   └── NoResultsMessage.tsx
+│   │   └── ui/                   # shadcn/ui components (50+ components)
+│   │
+│   ├── data/
+│   │   ├── products.ts           # Legacy product exports
+│   │   └── products/             # Product database
+│   │       ├── index.ts          # Aggregated product exports
+│   │       ├── mice.ts           # Gaming mice (10 products)
+│   │       └── audio.ts          # Audio equipment (22 products)
+│   │
+│   ├── lib/
+│   │   ├── utils.ts              # Utility functions (cn, etc.)
+│   │   ├── scoring/              # Recommendation engine
+│   │   │   ├── index.ts          # Public exports
+│   │   │   ├── engine.ts         # Core scoring algorithm
+│   │   │   ├── mouse-rules.ts    # Mouse scoring rules (6 categories)
+│   │   │   ├── audio-rules.ts    # Audio scoring rules (6 categories)
+│   │   │   └── types.ts          # Scoring interfaces
+│   │   └── validation/           # Input validation
+│   │       ├── index.ts          # Public exports
+│   │       └── quiz-schemas.ts   # Zod schemas for quiz answers
+│   │
+│   ├── hooks/                    # Custom React hooks
+│   │   ├── use-recommendations.ts # Quiz → scoring integration
+│   │   ├── use-mobile.tsx
+│   │   └── use-toast.ts
+│   │
+│   ├── types/                    # TypeScript definitions
+│   │   └── products.ts           # Product interfaces and type guards
+│   │
+│   ├── test/                     # Test files
+│   │   ├── setup.ts              # Vitest setup
+│   │   ├── scoring-engine.test.ts # Scoring engine tests
+│   │   └── validation.test.ts    # Validation tests
+│   │
+│   ├── App.tsx                   # Root app component with routing
+│   ├── App.css                   # App-specific styles
+│   ├── main.tsx                  # Entry point
+│   └── index.css                 # Global styles (Tailwind)
 │
-├── lib/
-│   ├── scoring/              # Recommendation engine
-│   │   ├── engine.ts         # Core scoring algorithm
-│   │   ├── mouse-rules.ts    # Mouse scoring rules (6 categories)
-│   │   ├── audio-rules.ts    # Audio scoring rules (6 categories)
-│   │   ├── types.ts          # Scoring interfaces
-│   │   └── index.ts          # Public exports
-│   └── utils.ts              # Utility functions
-│
-├── hooks/                    # Custom React hooks
-│   ├── use-recommendations.ts # Quiz → scoring integration
-│   ├── use-mobile.tsx
-│   └── use-toast.ts
-│
-├── types/                    # TypeScript definitions
-│   └── products.ts           # Product interfaces and type guards
-│
-└── test/                     # Test files
+├── index.html                    # HTML entry point
+├── package.json                  # Dependencies and scripts
+├── vite.config.ts                # Vite configuration
+├── vitest.config.ts              # Vitest configuration
+├── tailwind.config.ts            # Tailwind configuration
+├── tsconfig.json                 # TypeScript configuration
+├── tsconfig.app.json             # App TypeScript config
+├── tsconfig.node.json            # Node TypeScript config
+└── components.json               # shadcn/ui configuration
 ```
 
 ## Routes
@@ -209,6 +257,47 @@ The `public/_redirects` file handles SPA routing:
 **IEMs - Flagship ($300-$500):**
 - Softears VolumeS, XENNS Mangird Tea Pro, XENNS Mangird Top Pro, DUNU DK3001BD
 
+## Recent Updates
+
+### January 2026
+- **Security Hardening** - Sanitized error messages in ErrorBoundary, development-only error details
+- **Zod Validation** - Runtime validation for quiz URL parameters with type-safe parsing
+- **URL State Persistence** - Quiz results can now be shared and bookmarked via URL
+- **Comprehensive Test Suite** - 42+ tests covering scoring engine, validation, and edge cases
+- **Error Boundary** - Global error handling component with graceful fallback UI
+- **Lazy Loading** - Quiz and results pages load on-demand for faster initial load
+- **Scrolling Product Gallery** - New animated Hero section with product showcase
+- **Expanded Product Database** - Additional mice and audio products
+
+## Development Documentation
+
+The `workspace/` folder contains development documentation:
+
+| File | Description |
+|------|-------------|
+| `DEVELOPMENT_SUGGESTIONS.md` | Feature ideas and improvements |
+| `SCALING_ROADMAP.md` | Plans for scaling the product database |
+| `SECURITY_AUDIT.md` | Security vulnerability analysis and remediation |
+| `REVIEW_PARSER_PROMPT.md` | Product review parsing documentation |
+
+## Testing
+
+Run the test suite:
+
+```bash
+# Run all tests
+npm test
+
+# Run tests in watch mode
+npm run test:watch
+```
+
+Test coverage includes:
+- Scoring engine algorithm tests
+- Mouse and audio scoring rule tests
+- Zod validation schema tests
+- Edge cases and boundary conditions
+
 ## Roadmap
 
 - [ ] Keyboard recommendations
@@ -216,6 +305,8 @@ The `public/_redirects` file handles SPA routing:
 - [ ] Expanded audio product database
 - [ ] Product comparison feature
 - [ ] User accounts for saving preferences
+- [ ] Error monitoring integration (Sentry)
+- [ ] Security headers configuration
 
 ## License
 
