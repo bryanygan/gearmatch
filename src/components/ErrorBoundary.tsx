@@ -12,6 +12,31 @@ interface State {
   error?: Error;
 }
 
+/**
+ * Sanitizes an error message for safe display.
+ * - Removes HTML tags
+ * - Truncates to max length
+ * - Replaces control characters
+ */
+function sanitizeErrorMessage(message: string, maxLength = 200): string {
+  if (!message || typeof message !== "string") {
+    return "An unexpected error occurred";
+  }
+
+  // Remove any HTML tags
+  const noHtml = message.replace(/<[^>]*>/g, "");
+
+  // Remove control characters except newlines and tabs
+  const noControl = noHtml.replace(/[\x00-\x08\x0B\x0C\x0E-\x1F\x7F]/g, "");
+
+  // Truncate if too long
+  if (noControl.length > maxLength) {
+    return noControl.slice(0, maxLength) + "...";
+  }
+
+  return noControl;
+}
+
 export class ErrorBoundary extends Component<Props, State> {
   constructor(props: Props) {
     super(props);
@@ -63,10 +88,13 @@ export class ErrorBoundary extends Component<Props, State> {
               </p>
             </div>
 
-            {this.state.error && (
+            {this.state.error && import.meta.env.DEV && (
               <div className="p-4 rounded-lg bg-muted text-left">
+                <p className="text-xs text-muted-foreground mb-1">
+                  Error details (only visible in development):
+                </p>
                 <p className="text-sm font-mono text-muted-foreground break-all">
-                  {this.state.error.message}
+                  {sanitizeErrorMessage(this.state.error.message)}
                 </p>
               </div>
             )}
