@@ -1,6 +1,6 @@
-import { useEffect, useMemo } from "react";
+import { useEffect, useMemo, useState, useRef } from "react";
 import { useNavigate, useLocation, useSearchParams, Link } from "react-router-dom";
-import { Headphones, Mouse, Home } from "lucide-react";
+import { Headphones, Mouse, Home, ChevronDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import {
   ResultsLayout,
@@ -19,6 +19,13 @@ const AudioResults = () => {
   const navigate = useNavigate();
   const location = useLocation();
   const [searchParams] = useSearchParams();
+
+  // State for "Show More" functionality - start with 2 visible alternates
+  const [visibleAlternatesCount, setVisibleAlternatesCount] = useState(2);
+  const ALTERNATES_PER_PAGE = 10;
+
+  // Track if initial animation has played - only animate once per quiz completion
+  const hasAnimatedRef = useRef(false);
 
   // Get and validate answers from URL params first, then fall back to navigation state
   const answers = useMemo(() => {
@@ -101,6 +108,22 @@ const AudioResults = () => {
 
   const { topPicks, alternates, totalEvaluated } = recommendations;
 
+  // Determine if this is the first render with results - animate only once
+  const shouldAnimateInitial = !hasAnimatedRef.current;
+  if (shouldAnimateInitial) {
+    hasAnimatedRef.current = true;
+  }
+
+  const visibleAlternates = alternates.slice(0, visibleAlternatesCount);
+  const hasMoreAlternates = visibleAlternatesCount < alternates.length;
+  const remainingAlternates = alternates.length - visibleAlternatesCount;
+
+  const handleShowMore = () => {
+    setVisibleAlternatesCount((prev) =>
+      Math.min(prev + ALTERNATES_PER_PAGE, alternates.length)
+    );
+  };
+
   return (
     <ResultsLayout category="audio" onRetakeQuiz={handleRetakeQuiz}>
       <div className="space-y-10">
@@ -123,8 +146,11 @@ const AudioResults = () => {
         {/* Top pick (featured) */}
         {topPicks.length > 0 && (
           <div
-            className="animate-in fade-in slide-in-from-bottom-4 duration-500"
-            style={{ animationDelay: "0ms" }}
+            className={
+              shouldAnimateInitial
+                ? "animate-in fade-in slide-in-from-bottom-4 duration-500"
+                : undefined
+            }
           >
             <RecommendationCard
               scoredProduct={topPicks[0]}
@@ -141,8 +167,16 @@ const AudioResults = () => {
             {topPicks.slice(1).map((scored, index) => (
               <div
                 key={scored.product.id}
-                className="animate-in fade-in slide-in-from-bottom-4 duration-500"
-                style={{ animationDelay: `${(index + 1) * 100}ms` }}
+                className={
+                  shouldAnimateInitial
+                    ? "animate-in fade-in slide-in-from-bottom-4 duration-500"
+                    : undefined
+                }
+                style={
+                  shouldAnimateInitial
+                    ? { animationDelay: `${(index + 1) * 100}ms` }
+                    : undefined
+                }
               >
                 <RecommendationCard
                   scoredProduct={scored}
@@ -162,23 +196,48 @@ const AudioResults = () => {
               Also Consider
             </h2>
             <div className="grid gap-4 sm:grid-cols-2">
-              {alternates.map((scored, index) => (
-                <div
-                  key={scored.product.id}
-                  className="animate-in fade-in slide-in-from-bottom-4 duration-500"
-                  style={{
-                    animationDelay: `${(topPicks.length + index) * 100}ms`,
-                  }}
-                >
-                  <RecommendationCard
-                    scoredProduct={scored}
-                    rank={topPicks.length + index + 1}
-                    isTopPick={false}
-                    accentColor="accent"
-                  />
-                </div>
-              ))}
+              {visibleAlternates.map((scored, index) => {
+                // Only animate the initial 2 alternates on first render
+                const shouldAnimate = shouldAnimateInitial && index < 2;
+                return (
+                  <div
+                    key={scored.product.id}
+                    className={
+                      shouldAnimate
+                        ? "animate-in fade-in slide-in-from-bottom-4 duration-500"
+                        : undefined
+                    }
+                    style={
+                      shouldAnimate
+                        ? { animationDelay: `${(topPicks.length + index) * 100}ms` }
+                        : undefined
+                    }
+                  >
+                    <RecommendationCard
+                      scoredProduct={scored}
+                      rank={topPicks.length + index + 1}
+                      isTopPick={false}
+                      accentColor="accent"
+                    />
+                  </div>
+                );
+              })}
             </div>
+            {hasMoreAlternates && (
+              <div className="flex justify-center pt-4">
+                <Button
+                  variant="outline"
+                  onClick={handleShowMore}
+                  className="gap-2"
+                >
+                  <ChevronDown className="h-4 w-4" />
+                  Show {Math.min(ALTERNATES_PER_PAGE, remainingAlternates)} More
+                  <span className="text-muted-foreground">
+                    ({remainingAlternates} remaining)
+                  </span>
+                </Button>
+              </div>
+            )}
           </div>
         )}
 

@@ -123,7 +123,6 @@ export function getMouseRecommendations(
   options: RecommendationOptions = {}
 ): RecommendationResult<MouseProduct> {
   const {
-    limit = 5,
     minScore = 50,
     topPickCount = 3,
   } = options;
@@ -139,8 +138,8 @@ export function getMouseRecommendations(
 
   // If no products meet minimum score, include best available with warnings
   if (qualifyingProducts.length === 0 && scoredProducts.length > 0) {
-    // Take top products even if below threshold
-    qualifyingProducts = scoredProducts.slice(0, limit);
+    // Take top 5 products even if below threshold
+    qualifyingProducts = scoredProducts.slice(0, 5);
     // Add a concern about low match scores
     qualifyingProducts.forEach((sp) => {
       if (!sp.concerns.includes("Lower match score - may not be an ideal fit")) {
@@ -149,12 +148,9 @@ export function getMouseRecommendations(
     });
   }
 
-  // Limit results
-  const limitedProducts = qualifyingProducts.slice(0, limit);
-
-  // Split into top picks and alternates
-  const topPicks = limitedProducts.slice(0, topPickCount);
-  const alternates = limitedProducts.slice(topPickCount);
+  // Split into top picks and all remaining alternates
+  const topPicks = qualifyingProducts.slice(0, topPickCount);
+  const alternates = qualifyingProducts.slice(topPickCount);
 
   return {
     topPicks,
@@ -183,7 +179,6 @@ export function getAudioRecommendations(
   options: RecommendationOptions = {}
 ): RecommendationResult<AudioProduct> {
   const {
-    limit = 5,
     minScore = 50,
     topPickCount = 3,
   } = options;
@@ -199,8 +194,8 @@ export function getAudioRecommendations(
 
   // If no products meet minimum score, include best available with warnings
   if (qualifyingProducts.length === 0 && scoredProducts.length > 0) {
-    // Take top products even if below threshold
-    qualifyingProducts = scoredProducts.slice(0, limit);
+    // Take top 5 products even if below threshold
+    qualifyingProducts = scoredProducts.slice(0, 5);
     // Add a concern about low match scores
     qualifyingProducts.forEach((sp) => {
       if (!sp.concerns.includes("Lower match score - may not be an ideal fit")) {
@@ -209,12 +204,9 @@ export function getAudioRecommendations(
     });
   }
 
-  // Limit results
-  const limitedProducts = qualifyingProducts.slice(0, limit);
-
-  // Split into top picks and alternates
-  const topPicks = limitedProducts.slice(0, topPickCount);
-  const alternates = limitedProducts.slice(topPickCount);
+  // Split into top picks and all remaining alternates
+  const topPicks = qualifyingProducts.slice(0, topPickCount);
+  const alternates = qualifyingProducts.slice(topPickCount);
 
   return {
     topPicks,

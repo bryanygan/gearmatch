@@ -167,8 +167,6 @@ export type ScoredAudioProduct = ScoredProduct<AudioProduct>;
  * Options for recommendation generation.
  */
 export interface RecommendationOptions {
-  /** Maximum number of products to return (default: 5) */
-  limit?: number;
   /** Minimum score threshold (default: 50) */
   minScore?: number;
   /** Number of top picks vs alternates (default: 3) */
@@ -179,7 +177,6 @@ export interface RecommendationOptions {
  * Default recommendation options.
  */
 export const DEFAULT_RECOMMENDATION_OPTIONS: Required<RecommendationOptions> = {
-  limit: 5,
   minScore: 50,
   topPickCount: 3,
 };
