@@ -2,9 +2,11 @@ import { describe, it, expect } from "vitest";
 import {
   validateMouseAnswers,
   validateAudioAnswers,
+  validateKeyboardAnswers,
   searchParamsToObject,
   mouseAnswersSchema,
   audioAnswersSchema,
+  keyboardAnswersSchema,
 } from "@/lib/validation";
 
 // =============================================================================
@@ -231,6 +233,131 @@ describe("Schema Exports", () => {
   it("exports audioAnswersSchema", () => {
     expect(audioAnswersSchema).toBeDefined();
     expect(audioAnswersSchema.safeParse).toBeTypeOf("function");
+  });
+
+  it("exports keyboardAnswersSchema", () => {
+    expect(keyboardAnswersSchema).toBeDefined();
+    expect(keyboardAnswersSchema.safeParse).toBeTypeOf("function");
+  });
+});
+
+// =============================================================================
+// Keyboard Answer Validation Tests
+// =============================================================================
+
+describe("Keyboard Answer Validation", () => {
+  const validKeyboardAnswers = {
+    "primary-use": "competitive-gaming",
+    "form-factor": "tkl",
+    "switch-type": "linear",
+    "gaming-features": "essential",
+    connectivity: "wired-preferred",
+    "priority-feature": "performance",
+    budget: "premium",
+  };
+
+  it("validates correct keyboard answers", () => {
+    const result = validateKeyboardAnswers(validKeyboardAnswers);
+    expect(result).toEqual(validKeyboardAnswers);
+  });
+
+  it("returns null for missing required field", () => {
+    const incomplete = {
+      "primary-use": "competitive-gaming",
+      "form-factor": "tkl",
+      // missing switch-type, gaming-features, connectivity, priority-feature, budget
+    };
+    const result = validateKeyboardAnswers(incomplete);
+    expect(result).toBeNull();
+  });
+
+  it("returns null for invalid enum value", () => {
+    const invalid = {
+      ...validKeyboardAnswers,
+      "primary-use": "gaming", // not a valid option
+    };
+    const result = validateKeyboardAnswers(invalid);
+    expect(result).toBeNull();
+  });
+
+  it("returns null for wrong type", () => {
+    const wrongType = {
+      ...validKeyboardAnswers,
+      budget: 100, // should be string
+    };
+    const result = validateKeyboardAnswers(wrongType);
+    expect(result).toBeNull();
+  });
+
+  it("returns null for empty object", () => {
+    const result = validateKeyboardAnswers({});
+    expect(result).toBeNull();
+  });
+
+  it("returns null for null input", () => {
+    const result = validateKeyboardAnswers(null);
+    expect(result).toBeNull();
+  });
+
+  it("returns null for undefined input", () => {
+    const result = validateKeyboardAnswers(undefined);
+    expect(result).toBeNull();
+  });
+
+  it("validates all valid primary-use options", () => {
+    const uses = ["competitive-gaming", "casual-gaming", "productivity", "programming"];
+    for (const use of uses) {
+      const answers = { ...validKeyboardAnswers, "primary-use": use };
+      expect(validateKeyboardAnswers(answers)).not.toBeNull();
+    }
+  });
+
+  it("validates all valid form-factor options", () => {
+    const factors = ["full-size", "tkl", "75-percent", "60-65-percent"];
+    for (const factor of factors) {
+      const answers = { ...validKeyboardAnswers, "form-factor": factor };
+      expect(validateKeyboardAnswers(answers)).not.toBeNull();
+    }
+  });
+
+  it("validates all valid switch-type options", () => {
+    const switches = ["linear", "tactile", "clicky", "no-preference"];
+    for (const switchType of switches) {
+      const answers = { ...validKeyboardAnswers, "switch-type": switchType };
+      expect(validateKeyboardAnswers(answers)).not.toBeNull();
+    }
+  });
+
+  it("validates all valid gaming-features options", () => {
+    const features = ["essential", "nice-to-have", "not-important"];
+    for (const feature of features) {
+      const answers = { ...validKeyboardAnswers, "gaming-features": feature };
+      expect(validateKeyboardAnswers(answers)).not.toBeNull();
+    }
+  });
+
+  it("validates all valid connectivity options", () => {
+    const options = ["wireless-essential", "wireless-preferred", "wired-preferred", "no-preference"];
+    for (const opt of options) {
+      const answers = { ...validKeyboardAnswers, connectivity: opt };
+      expect(validateKeyboardAnswers(answers)).not.toBeNull();
+    }
+  });
+
+  it("validates all valid priority-feature options", () => {
+    const features = ["performance", "typing-feel", "customization", "quiet"];
+    for (const feature of features) {
+      const answers = { ...validKeyboardAnswers, "priority-feature": feature };
+      expect(validateKeyboardAnswers(answers)).not.toBeNull();
+    }
+  });
+
+  it("validates all valid budget options", () => {
+    const budgets = ["budget", "mid-range", "premium", "enthusiast"];
+    for (const budget of budgets) {
+      const answers = { ...validKeyboardAnswers, budget };
+      expect(validateKeyboardAnswers(answers)).not.toBeNull();
+    }
   });
 });
 

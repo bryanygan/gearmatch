@@ -5,7 +5,7 @@ import { Crosshair } from "lucide-react";
 
 interface QuizLayoutProps {
   children: ReactNode;
-  accentColor?: "primary" | "accent";
+  accentColor?: "primary" | "accent" | "secondary";
 }
 
 const QuizLayout = ({ children, accentColor = "primary" }: QuizLayoutProps) => {
@@ -18,13 +18,17 @@ const QuizLayout = ({ children, accentColor = "primary" }: QuizLayoutProps) => {
             <div
               className={cn(
                 "flex h-8 w-8 items-center justify-center rounded-lg",
-                accentColor === "primary" ? "bg-primary/20" : "bg-accent/20"
+                accentColor === "primary" && "bg-primary/20",
+                accentColor === "accent" && "bg-accent/20",
+                accentColor === "secondary" && "bg-secondary"
               )}
             >
               <Crosshair
                 className={cn(
                   "h-5 w-5",
-                  accentColor === "primary" ? "text-primary" : "text-accent"
+                  accentColor === "primary" && "text-primary",
+                  accentColor === "accent" && "text-accent",
+                  accentColor === "secondary" && "text-foreground"
                 )}
               />
             </div>
@@ -48,13 +52,17 @@ const QuizLayout = ({ children, accentColor = "primary" }: QuizLayoutProps) => {
         <div
           className={cn(
             "absolute -right-40 -top-40 h-96 w-96 rounded-full opacity-10 blur-3xl",
-            accentColor === "primary" ? "bg-primary" : "bg-accent"
+            accentColor === "primary" && "bg-primary",
+            accentColor === "accent" && "bg-accent",
+            accentColor === "secondary" && "bg-muted-foreground"
           )}
         />
         <div
           className={cn(
             "absolute -bottom-40 -left-40 h-96 w-96 rounded-full opacity-10 blur-3xl",
-            accentColor === "primary" ? "bg-primary" : "bg-accent"
+            accentColor === "primary" && "bg-primary",
+            accentColor === "accent" && "bg-accent",
+            accentColor === "secondary" && "bg-muted-foreground"
           )}
         />
       </div>

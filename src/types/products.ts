@@ -2,7 +2,7 @@
  * Product Data Layer Type Definitions
  *
  * Comprehensive TypeScript interfaces for the GearMatch peripheral recommendation system.
- * These types support mice and audio equipment (headsets, headphones, IEMs, earbuds).
+ * These types support mice, audio equipment, and keyboards.
  */
 
 // =============================================================================
@@ -222,6 +222,119 @@ export type AudioVirtualSurround =
 export type AudioRepairability = "poor" | "ok" | "good" | "great";
 
 // =============================================================================
+// Keyboard-Specific Types
+// =============================================================================
+
+/** Keyboard form factor/size */
+export type KeyboardFormFactor =
+  | "60_percent"
+  | "65_percent"
+  | "75_percent"
+  | "tkl_80_percent"
+  | "96_percent"
+  | "full_size_100_percent"
+  | "alice"
+  | "ortholinear"
+  | "split";
+
+/** Keyboard switch type */
+export type KeyboardSwitchType =
+  | "mechanical"
+  | "magnetic_hall_effect"
+  | "magnetic_tmr"
+  | "optical"
+  | "scissor"
+  | "membrane";
+
+/** Keyboard switch feel */
+export type KeyboardSwitchFeel = "linear" | "tactile" | "clicky";
+
+/** Keyboard output type / actuation capability */
+export type KeyboardOutputType =
+  | "non_adjustable"
+  | "adjustable_actuation"
+  | "analog";
+
+/** Keyboard case material */
+export type KeyboardCaseMaterial =
+  | "plastic"
+  | "aluminum"
+  | "zinc_alloy"
+  | "polycarbonate"
+  | "mixed";
+
+/** Keyboard mounting style */
+export type KeyboardMountStyle =
+  | "tray"
+  | "gasket"
+  | "double_gasket"
+  | "top_mount"
+  | "integrated_plate"
+  | "unknown";
+
+/** Keyboard keycap material */
+export type KeyboardKeycapMaterial = "pbt" | "abs" | "pom" | "unknown";
+
+/** Keyboard keycap profile */
+export type KeyboardKeycapProfile =
+  | "oem"
+  | "cherry"
+  | "ksa"
+  | "xda"
+  | "dsa"
+  | "sa"
+  | "mt3"
+  | "low_profile"
+  | "unknown";
+
+/** Keyboard polling rate */
+export type KeyboardPollingRate = "125" | "500" | "1000" | "2000" | "4000" | "8000";
+
+/** Keyboard build quality rating */
+export type KeyboardBuildQuality = "ok" | "good" | "excellent";
+
+/** Keyboard feature tags */
+export type KeyboardFeatureTag =
+  | "hot_swappable"
+  | "rapid_trigger"
+  | "socd"
+  | "analog_output"
+  | "adjustable_actuation"
+  | "rgb_per_key"
+  | "rgb_underglow"
+  | "shine_through_keycaps"
+  | "knob"
+  | "macro_keys"
+  | "volume_wheel"
+  | "low_profile"
+  | "gasket_mount"
+  | "pre_lubed"
+  | "qmk_via"
+  | "onboard_memory"
+  | "dks"
+  | "mod_tap"
+  | "multi_device_bluetooth"
+  | "2_4ghz_wireless"
+  | "usb_c"
+  | "gaming_grade_latency"
+  | "quiet"
+  | "split"
+  | "ergonomic"
+  | "value_pick"
+  | "premium"
+  | "enthusiast";
+
+/** Keyboard use case fit */
+export type KeyboardUseFit =
+  | "competitive_gaming"
+  | "casual_gaming"
+  | "office"
+  | "programming"
+  | "typing"
+  | "productivity"
+  | "portable";
+
+// =============================================================================
 // Data Quality Interface
 // =============================================================================
 
@@ -258,7 +371,7 @@ export interface Product {
   /** Brand/manufacturer name */
   brand: string;
   /** Product category */
-  category: "mouse" | "audio";
+  category: "mouse" | "audio" | "keyboard";
   /** Typical street price range in USD [min, max] */
   price_range_usd: [number, number];
   /** URL to product image (optional) */
@@ -420,6 +533,116 @@ export interface AudioCoreAttributes {
 }
 
 // =============================================================================
+// Keyboard Core Attributes Interface
+// =============================================================================
+
+/**
+ * Core attributes specific to keyboard products.
+ * These are used for scoring and matching against quiz answers.
+ */
+export interface KeyboardCoreAttributes {
+  /** Internal subtype identifier */
+  category_subtype: "keyboard";
+  /** Price bucket for filtering */
+  price_tier: PriceTier;
+  /** Platforms where the keyboard works well */
+  platform_fit: PlatformFit[];
+  /** Supported connection methods */
+  connection_type: ConnectionType[];
+  /** Whether wireless is a primary mode */
+  wireless: boolean;
+  /** Battery life in hours (only for wireless) */
+  battery_life_hr?: number;
+  /** Overall latency classification */
+  latency_class: LatencyClass;
+  /** Companion software usefulness */
+  software_support: SoftwareSupport;
+  /** Purchase availability */
+  availability_class: Availability;
+
+  // Keyboard-specific attributes
+  /** Form factor / size */
+  keyboard_form_factor: KeyboardFormFactor;
+  /** Switch type technology */
+  keyboard_switch_type: KeyboardSwitchType;
+  /** Switch feel (linear, tactile, clicky) */
+  keyboard_switch_feel: KeyboardSwitchFeel;
+  /** Stock switch name */
+  keyboard_switch_name?: string;
+  /** Output type (adjustable actuation, analog, etc.) */
+  keyboard_output_type: KeyboardOutputType;
+  /** Whether switches are hot-swappable */
+  keyboard_hot_swappable: boolean;
+  /** Case material */
+  keyboard_case_material: KeyboardCaseMaterial;
+  /** Mounting style */
+  keyboard_mount_style: KeyboardMountStyle;
+  /** Keycap material */
+  keyboard_keycap_material: KeyboardKeycapMaterial;
+  /** Keycap profile */
+  keyboard_keycap_profile: KeyboardKeycapProfile;
+  /** Maximum polling rate */
+  keyboard_polling_rate_max_hz: KeyboardPollingRate;
+  /** Build quality rating */
+  keyboard_build_quality: KeyboardBuildQuality;
+  /** Weight in grams */
+  keyboard_weight_g?: number;
+  /** Height in mm */
+  keyboard_height_mm?: number;
+  /** Width in mm */
+  keyboard_width_mm?: number;
+  /** Depth in mm */
+  keyboard_depth_mm?: number;
+
+  // Performance metrics
+  /** Single-key latency in ms (best connection) */
+  keyboard_single_key_latency_ms?: number;
+  /** Multi-key latency in ms */
+  keyboard_multi_key_latency_ms?: number;
+  /** Typing noise in dBA */
+  keyboard_typing_noise_dba?: number;
+
+  // Scores from review (0-10 scale)
+  /** Gaming score from review */
+  keyboard_gaming_score?: number;
+  /** Office/productivity score from review */
+  keyboard_office_score?: number;
+  /** Programming score from review */
+  keyboard_programming_score?: number;
+  /** Raw performance score from review */
+  keyboard_raw_performance_score?: number;
+
+  // Feature flags
+  /** Has RGB backlighting */
+  keyboard_has_rgb: boolean;
+  /** Has per-key RGB */
+  keyboard_has_per_key_rgb: boolean;
+  /** Has shine-through keycaps */
+  keyboard_shine_through_keycaps: boolean;
+  /** Has knob/dial */
+  keyboard_has_knob: boolean;
+  /** Number of dedicated macro keys */
+  keyboard_macro_key_count: number;
+  /** Supports rapid trigger */
+  keyboard_supports_rapid_trigger: boolean;
+  /** Supports SOCD */
+  keyboard_supports_socd: boolean;
+  /** Supports analog output */
+  keyboard_supports_analog: boolean;
+  /** Has onboard memory for profiles */
+  keyboard_has_onboard_memory: boolean;
+  /** N-key rollover support */
+  keyboard_nkro: boolean;
+
+  /** Feature tags for recommendation filtering */
+  keyboard_feature_tags: KeyboardFeatureTag[];
+  /** Use case fit */
+  keyboard_use_fit: KeyboardUseFit[];
+  /** Whether this is considered excellent value */
+  keyboard_value_pick: boolean;
+}
+
+// =============================================================================
 // Complete Product Interfaces
 // =============================================================================
 
@@ -442,9 +665,18 @@ export interface AudioProduct extends Product {
 }
 
 /**
+ * Complete keyboard product interface.
+ * Combines base product fields with keyboard-specific core attributes.
+ */
+export interface KeyboardProduct extends Product {
+  category: "keyboard";
+  core_attributes: KeyboardCoreAttributes;
+}
+
+/**
  * Union type for any product in the system.
  */
-export type AnyProduct = MouseProduct | AudioProduct;
+export type AnyProduct = MouseProduct | AudioProduct | KeyboardProduct;
 
 // =============================================================================
 // Type Guards
@@ -484,4 +716,22 @@ export function isMouseProduct(product: Product): product is MouseProduct {
  */
 export function isAudioProduct(product: Product): product is AudioProduct {
   return product.category === "audio";
+}
+
+/**
+ * Type guard to check if a product is a KeyboardProduct.
+ * Enables TypeScript narrowing for keyboard-specific attribute access.
+ *
+ * @param product - The product to check
+ * @returns True if the product is a KeyboardProduct
+ *
+ * @example
+ * ```ts
+ * if (isKeyboardProduct(product)) {
+ *   console.log(product.core_attributes.keyboard_form_factor);
+ * }
+ * ```
+ */
+export function isKeyboardProduct(product: Product): product is KeyboardProduct {
+  return product.category === "keyboard";
 }

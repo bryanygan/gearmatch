@@ -1,23 +1,30 @@
 import { ReactNode } from "react";
 import { Link } from "react-router-dom";
-import { Crosshair, RotateCcw, Mouse, Headphones } from "lucide-react";
+import { Crosshair, RotateCcw, Mouse, Headphones, Keyboard } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 
 interface ResultsLayoutProps {
   children: ReactNode;
-  category: "mouse" | "audio";
+  category: "mouse" | "audio" | "keyboard";
   onRetakeQuiz: () => void;
 }
+
+const categoryConfig = {
+  mouse: { icon: Mouse, label: "Mouse", accent: "primary" as const },
+  audio: { icon: Headphones, label: "Audio", accent: "accent" as const },
+  keyboard: { icon: Keyboard, label: "Keyboard", accent: "secondary" as const },
+};
 
 const ResultsLayout = ({
   children,
   category,
   onRetakeQuiz,
 }: ResultsLayoutProps) => {
-  const accentColor = category === "mouse" ? "primary" : "accent";
-  const CategoryIcon = category === "mouse" ? Mouse : Headphones;
-  const categoryLabel = category === "mouse" ? "Mouse" : "Audio";
+  const config = categoryConfig[category];
+  const accentColor = config.accent;
+  const CategoryIcon = config.icon;
+  const categoryLabel = config.label;
 
   return (
     <div className="min-h-screen bg-background">
@@ -29,13 +36,17 @@ const ResultsLayout = ({
               <div
                 className={cn(
                   "flex h-8 w-8 items-center justify-center rounded-lg",
-                  accentColor === "primary" ? "bg-primary/20" : "bg-accent/20"
+                  accentColor === "primary" && "bg-primary/20",
+                  accentColor === "accent" && "bg-accent/20",
+                  accentColor === "secondary" && "bg-secondary"
                 )}
               >
                 <Crosshair
                   className={cn(
                     "h-5 w-5",
-                    accentColor === "primary" ? "text-primary" : "text-accent"
+                    accentColor === "primary" && "text-primary",
+                    accentColor === "accent" && "text-accent",
+                    accentColor === "secondary" && "text-foreground"
                   )}
                 />
               </div>
@@ -46,9 +57,9 @@ const ResultsLayout = ({
             <div
               className={cn(
                 "hidden items-center gap-1.5 rounded-full px-3 py-1 text-xs font-medium sm:flex",
-                accentColor === "primary"
-                  ? "bg-primary/10 text-primary"
-                  : "bg-accent/10 text-accent"
+                accentColor === "primary" && "bg-primary/10 text-primary",
+                accentColor === "accent" && "bg-accent/10 text-accent",
+                accentColor === "secondary" && "bg-secondary text-foreground"
               )}
             >
               <CategoryIcon className="h-3.5 w-3.5" />
@@ -77,13 +88,17 @@ const ResultsLayout = ({
         <div
           className={cn(
             "absolute -right-40 -top-40 h-96 w-96 rounded-full opacity-10 blur-3xl",
-            accentColor === "primary" ? "bg-primary" : "bg-accent"
+            accentColor === "primary" && "bg-primary",
+            accentColor === "accent" && "bg-accent",
+            accentColor === "secondary" && "bg-muted-foreground"
           )}
         />
         <div
           className={cn(
             "absolute -bottom-40 -left-40 h-96 w-96 rounded-full opacity-10 blur-3xl",
-            accentColor === "primary" ? "bg-primary" : "bg-accent"
+            accentColor === "primary" && "bg-primary",
+            accentColor === "accent" && "bg-accent",
+            accentColor === "secondary" && "bg-muted-foreground"
           )}
         />
       </div>

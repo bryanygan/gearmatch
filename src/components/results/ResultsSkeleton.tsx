@@ -3,7 +3,7 @@ import { Card } from "@/components/ui/card";
 import { cn } from "@/lib/utils";
 
 interface ResultsSkeletonProps {
-  accentColor?: "primary" | "accent";
+  accentColor?: "primary" | "accent" | "secondary";
 }
 
 const ResultsSkeleton = ({ accentColor = "primary" }: ResultsSkeletonProps) => {
@@ -23,7 +23,9 @@ const ResultsSkeleton = ({ accentColor = "primary" }: ResultsSkeletonProps) => {
       <Card
         className={cn(
           "border-2 p-6",
-          accentColor === "primary" ? "border-primary/20" : "border-accent/20"
+          accentColor === "primary" && "border-primary/20",
+          accentColor === "accent" && "border-accent/20",
+          accentColor === "secondary" && "border-border"
         )}
       >
         <div className="space-y-4">

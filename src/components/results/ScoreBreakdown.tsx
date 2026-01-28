@@ -5,22 +5,32 @@ import { cn } from "@/lib/utils";
 
 interface ScoreBreakdownProps {
   breakdown: ScoreBreakdownType;
-  accentColor: "primary" | "accent";
+  accentColor: "primary" | "accent" | "secondary";
 }
 
 // Display names for scoring categories
 const categoryDisplayNames: Record<string, string> = {
+  // Mouse categories
   gripFit: "Grip Fit",
   sizeMatch: "Size Match",
   weightMatch: "Weight Match",
   connectionMatch: "Connection",
   useCaseMatch: "Use Case",
   bonus: "Bonus Features",
+  // Audio categories
   formFactorMatch: "Form Factor",
   primaryUseMatch: "Primary Use",
   microphoneMatch: "Microphone",
   comfortMatch: "Comfort",
   budgetMatch: "Budget",
+  // Keyboard categories
+  formFactor: "Form Factor",
+  primaryUse: "Primary Use",
+  switchType: "Switch Type",
+  gamingFeatures: "Gaming Features",
+  connectivity: "Connectivity",
+  priorityFeature: "Priority Feature",
+  budget: "Budget",
 };
 
 function getCategoryName(key: string): string {

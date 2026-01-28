@@ -37,6 +37,37 @@ export const audioAnswersSchema = z.object({
 export type ValidatedAudioAnswers = z.infer<typeof audioAnswersSchema>;
 
 // =============================================================================
+// Keyboard Quiz Answer Schema
+// =============================================================================
+
+export const keyboardAnswersSchema = z.object({
+  "primary-use": z.enum([
+    "competitive-gaming",
+    "casual-gaming",
+    "productivity",
+    "programming",
+  ]),
+  "form-factor": z.enum(["full-size", "tkl", "75-percent", "60-65-percent"]),
+  "switch-type": z.enum(["linear", "tactile", "clicky", "no-preference"]),
+  "gaming-features": z.enum(["essential", "nice-to-have", "not-important"]),
+  connectivity: z.enum([
+    "wireless-essential",
+    "wireless-preferred",
+    "wired-preferred",
+    "no-preference",
+  ]),
+  "priority-feature": z.enum([
+    "performance",
+    "typing-feel",
+    "customization",
+    "quiet",
+  ]),
+  budget: z.enum(["budget", "mid-range", "premium", "enthusiast"]),
+});
+
+export type ValidatedKeyboardAnswers = z.infer<typeof keyboardAnswersSchema>;
+
+// =============================================================================
 // Validation Helper Functions
 // =============================================================================
 
@@ -67,6 +98,21 @@ export function validateAudioAnswers(
     return result.data;
   }
   console.warn("Invalid audio quiz answers:", result.error.issues);
+  return null;
+}
+
+/**
+ * Validates keyboard quiz answers from URL parameters or state.
+ * Returns validated answers or null if validation fails.
+ */
+export function validateKeyboardAnswers(
+  data: unknown
+): ValidatedKeyboardAnswers | null {
+  const result = keyboardAnswersSchema.safeParse(data);
+  if (result.success) {
+    return result.data;
+  }
+  console.warn("Invalid keyboard quiz answers:", result.error.issues);
   return null;
 }
 

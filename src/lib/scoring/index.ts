@@ -8,6 +8,7 @@
 export type {
   MouseQuizAnswers,
   AudioQuizAnswers,
+  KeyboardQuizAnswers,
   ScoredProduct,
   ScoreBreakdown,
   ScoreCategoryBreakdown,
@@ -18,8 +19,10 @@ export type {
   AppliedFilters,
   MouseRecommendationResult,
   AudioRecommendationResult,
+  KeyboardRecommendationResult,
   ScoredMouseProduct,
   ScoredAudioProduct,
+  ScoredKeyboardProduct,
 } from "./types";
 
 // Constants
@@ -30,6 +33,7 @@ export {
   scoreProducts,
   getMouseRecommendations,
   getAudioRecommendations,
+  getKeyboardRecommendations,
   formatScore,
   getMatchQuality,
   getTopReasons,
@@ -39,3 +43,4 @@ export {
 // Individual rules (for testing or customization)
 export { mouseRules } from "./mouse-rules";
 export { audioRules } from "./audio-rules";
+export { keyboardRules } from "./keyboard-rules";

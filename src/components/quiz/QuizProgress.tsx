@@ -6,7 +6,7 @@ interface QuizProgressProps {
   currentStep: number;
   totalSteps: number;
   onBack?: () => void;
-  accentColor?: "primary" | "accent";
+  accentColor?: "primary" | "accent" | "secondary";
 }
 
 const QuizProgress = ({
@@ -38,7 +38,9 @@ const QuizProgress = ({
           <span
             className={cn(
               "font-medium",
-              accentColor === "primary" ? "text-primary" : "text-accent"
+              accentColor === "primary" && "text-primary",
+              accentColor === "accent" && "text-accent",
+              accentColor === "secondary" && "text-foreground"
             )}
           >
             {Math.round(progress)}%
@@ -49,7 +51,9 @@ const QuizProgress = ({
           <div
             className={cn(
               "h-full transition-all duration-500 ease-out",
-              accentColor === "primary" ? "bg-primary" : "bg-accent"
+              accentColor === "primary" && "bg-primary",
+              accentColor === "accent" && "bg-accent",
+              accentColor === "secondary" && "bg-foreground"
             )}
             style={{ width: `${progress}%` }}
           />

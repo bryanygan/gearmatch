@@ -10,3 +10,6 @@ export { allMouseProducts } from "./mice";
 
 // Audio products
 export { allAudioProducts } from "./audio";
+
+// Keyboard products
+export { allKeyboardProducts } from "./keyboards";

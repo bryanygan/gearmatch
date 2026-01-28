@@ -1,7 +1,7 @@
 import { memo, useMemo } from "react";
 import { Check, AlertTriangle, Trophy, Star } from "lucide-react";
 import type { ScoredProduct } from "@/lib/scoring";
-import type { MouseProduct, AudioProduct } from "@/types/products";
+import type { MouseProduct, AudioProduct, KeyboardProduct } from "@/types/products";
 import { getMatchQuality, getTopReasons, getTopConcerns } from "@/lib/scoring";
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -9,10 +9,10 @@ import ScoreBreakdown from "./ScoreBreakdown";
 import { cn } from "@/lib/utils";
 
 interface RecommendationCardProps {
-  scoredProduct: ScoredProduct<MouseProduct | AudioProduct>;
+  scoredProduct: ScoredProduct<MouseProduct | AudioProduct | KeyboardProduct>;
   rank: number;
   isTopPick: boolean;
-  accentColor: "primary" | "accent";
+  accentColor: "primary" | "accent" | "secondary";
   onViewDetails?: () => void;
 }
 
@@ -92,18 +92,68 @@ function getAudioSpecTags(product: AudioProduct): string[] {
   return tags;
 }
 
+// Helper to get display-friendly spec tags for keyboard products
+function getKeyboardSpecTags(product: KeyboardProduct): string[] {
+  const tags: string[] = [];
+  const attrs = product.core_attributes;
+
+  // Form factor
+  const formFactorLabels: Record<string, string> = {
+    "full-size": "Full-Size",
+    tkl: "TKL",
+    "75-percent": "75%",
+    "65-percent": "65%",
+    "60-percent": "60%",
+  };
+  tags.push(formFactorLabels[attrs.keyboard_form_factor] || attrs.keyboard_form_factor);
+
+  // Switch type/feel
+  const feelLabels: Record<string, string> = {
+    linear: "Linear",
+    tactile: "Tactile",
+    clicky: "Clicky",
+  };
+  if (attrs.keyboard_switch_feel) {
+    tags.push(feelLabels[attrs.keyboard_switch_feel] || attrs.keyboard_switch_feel);
+  }
+
+  // Connection
+  if (attrs.wireless) {
+    tags.push("Wireless");
+  } else {
+    tags.push("Wired");
+  }
+
+  // Special features
+  if (attrs.keyboard_rapid_trigger) {
+    tags.push("Rapid Trigger");
+  }
+  if (attrs.keyboard_hot_swappable) {
+    tags.push("Hot-Swap");
+  }
+
+  return tags;
+}
+
 function getSpecTags(
-  product: MouseProduct | AudioProduct
+  product: MouseProduct | AudioProduct | KeyboardProduct
 ): string[] {
   if (product.category === "mouse") {
     return getMouseSpecTags(product as MouseProduct);
   }
-  return getAudioSpecTags(product as AudioProduct);
+  if (product.category === "audio") {
+    return getAudioSpecTags(product as AudioProduct);
+  }
+  return getKeyboardSpecTags(product as KeyboardProduct);
 }
 
-function getScoreColorClass(score: number, accentColor: "primary" | "accent"): string {
+function getScoreColorClass(score: number, accentColor: "primary" | "accent" | "secondary"): string {
   if (score >= 90) return "text-green-400";
-  if (score >= 80) return accentColor === "primary" ? "text-primary" : "text-accent";
+  if (score >= 80) {
+    if (accentColor === "primary") return "text-primary";
+    if (accentColor === "accent") return "text-accent";
+    return "text-foreground";
+  }
   if (score >= 70) return "text-yellow-400";
   if (score >= 60) return "text-muted-foreground";
   return "text-orange-400";
@@ -149,9 +199,11 @@ const RecommendationCard = memo(function RecommendationCard({
           : "border hover:shadow-md",
         isTopPick && accentColor === "primary" && "border-primary/30 hover:border-primary/50",
         isTopPick && accentColor === "accent" && "border-accent/30 hover:border-accent/50",
+        isTopPick && accentColor === "secondary" && "border-border hover:border-foreground/30",
         !isTopPick && "border-border/50 hover:border-border",
         isFirstPick && accentColor === "primary" && "shadow-primary/10 shadow-lg",
-        isFirstPick && accentColor === "accent" && "shadow-accent/10 shadow-lg"
+        isFirstPick && accentColor === "accent" && "shadow-accent/10 shadow-lg",
+        isFirstPick && accentColor === "secondary" && "shadow-foreground/5 shadow-lg"
       )}
     >
       {/* Glow effect for top pick */}
@@ -159,7 +211,9 @@ const RecommendationCard = memo(function RecommendationCard({
         <div
           className={cn(
             "pointer-events-none absolute inset-0 opacity-5",
-            accentColor === "primary" ? "bg-primary" : "bg-accent"
+            accentColor === "primary" && "bg-primary",
+            accentColor === "accent" && "bg-accent",
+            accentColor === "secondary" && "bg-foreground"
           )}
         />
       )}
@@ -174,9 +228,9 @@ const RecommendationCard = memo(function RecommendationCard({
                 <Badge
                   className={cn(
                     "gap-1",
-                    accentColor === "primary"
-                      ? "bg-primary/20 text-primary hover:bg-primary/20"
-                      : "bg-accent/20 text-accent hover:bg-accent/20"
+                    accentColor === "primary" && "bg-primary/20 text-primary hover:bg-primary/20",
+                    accentColor === "accent" && "bg-accent/20 text-accent hover:bg-accent/20",
+                    accentColor === "secondary" && "bg-secondary text-foreground hover:bg-secondary"
                   )}
                 >
                   {isFirstPick ? (
@@ -277,9 +331,9 @@ const RecommendationCard = memo(function RecommendationCard({
               onClick={onViewDetails}
               className={cn(
                 "text-sm transition-colors",
-                accentColor === "primary"
-                  ? "text-primary hover:text-primary/80"
-                  : "text-accent hover:text-accent/80"
+                accentColor === "primary" && "text-primary hover:text-primary/80",
+                accentColor === "accent" && "text-accent hover:text-accent/80",
+                accentColor === "secondary" && "text-foreground hover:text-foreground/80"
               )}
             >
               View details

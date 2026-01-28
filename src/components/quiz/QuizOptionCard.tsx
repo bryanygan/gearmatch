@@ -8,7 +8,7 @@ interface QuizOptionCardProps {
   description?: string;
   selected: boolean;
   onClick: () => void;
-  accentColor?: "primary" | "accent";
+  accentColor?: "primary" | "accent" | "secondary";
 }
 
 const QuizOptionCard = memo(function QuizOptionCard({
@@ -26,6 +26,7 @@ const QuizOptionCard = memo(function QuizOptionCard({
       glow: "shadow-primary/20",
       iconBg: "bg-primary/20",
       iconText: "text-primary",
+      fill: "bg-primary",
     },
     accent: {
       border: "border-accent",
@@ -33,6 +34,15 @@ const QuizOptionCard = memo(function QuizOptionCard({
       glow: "shadow-accent/20",
       iconBg: "bg-accent/20",
       iconText: "text-accent",
+      fill: "bg-accent",
+    },
+    secondary: {
+      border: "border-foreground",
+      bg: "bg-secondary",
+      glow: "shadow-foreground/10",
+      iconBg: "bg-secondary",
+      iconText: "text-foreground",
+      fill: "bg-foreground",
     },
   };
 
@@ -61,10 +71,7 @@ const QuizOptionCard = memo(function QuizOptionCard({
       >
         {selected && (
           <div
-            className={cn(
-              "absolute inset-1 rounded-full",
-              accentColor === "primary" ? "bg-primary" : "bg-accent"
-            )}
+            className={cn("absolute inset-1 rounded-full", accent.fill)}
           />
         )}
       </div>

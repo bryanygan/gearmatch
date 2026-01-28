@@ -28,13 +28,13 @@ const categories = [
   {
     id: "keyboards",
     title: "Keyboards",
-    description: "Switches, layouts, and features that match your typing feel and workflow. Coming soon.",
+    description: "Switches, layouts, and features that match your typing feel and workflow — from competitive gaming to premium typing experiences.",
     icon: Keyboard,
-    factors: ["Switch type", "Form factor", "Actuation speed", "Build quality"],
-    available: false,
-    cta: "Coming Soon",
+    factors: ["Switch type", "Form factor", "Gaming features", "Connectivity"],
+    available: true,
+    cta: "Find Your Keyboard",
     accent: "primary" as const,
-    href: "#",
+    href: "/quiz/keyboard",
   },
   {
     id: "controllers",

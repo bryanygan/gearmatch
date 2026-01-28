@@ -5,13 +5,15 @@
  * ranked recommendations with explanations.
  */
 
-import type { Product, MouseProduct, AudioProduct } from "@/types/products";
-import { getMouseProducts, getAudioProducts } from "@/data/products";
+import type { Product, MouseProduct, AudioProduct, KeyboardProduct } from "@/types/products";
+import { getMouseProducts, getAudioProducts, getKeyboardProducts } from "@/data/products";
 import { mouseRules } from "./mouse-rules";
 import { audioRules } from "./audio-rules";
+import { keyboardRules } from "./keyboard-rules";
 import type {
   MouseQuizAnswers,
   AudioQuizAnswers,
+  KeyboardQuizAnswers,
   ScoringRule,
   ScoredProduct,
   ScoreBreakdown,
@@ -213,6 +215,62 @@ export function getAudioRecommendations(
     alternates,
     filters: {
       category: "audio",
+    },
+    totalEvaluated: products.length,
+  };
+}
+
+// =============================================================================
+// Keyboard Recommendations
+// =============================================================================
+
+/**
+ * Get keyboard recommendations based on quiz answers.
+ *
+ * @param answers - Keyboard quiz answers
+ * @param options - Optional configuration
+ * @returns Recommendation result with top picks and alternates
+ */
+export function getKeyboardRecommendations(
+  answers: KeyboardQuizAnswers,
+  options: RecommendationOptions = {}
+): RecommendationResult<KeyboardProduct> {
+  const {
+    minScore = 50,
+    topPickCount = 3,
+  } = options;
+
+  // Get all keyboard products
+  const products = getKeyboardProducts();
+
+  // Score all products
+  const scoredProducts = scoreProducts(answers, products, keyboardRules);
+
+  // Filter by minimum score, but keep at least some results
+  let qualifyingProducts = scoredProducts.filter((sp) => sp.score >= minScore);
+
+  // If no products meet minimum score, include best available with warnings
+  if (qualifyingProducts.length === 0 && scoredProducts.length > 0) {
+    // Take top 5 products even if below threshold
+    qualifyingProducts = scoredProducts.slice(0, 5);
+    // Add a concern about low match scores
+    qualifyingProducts.forEach((sp) => {
+      if (!sp.concerns.includes("Lower match score - may not be an ideal fit")) {
+        sp.concerns.unshift("Lower match score - may not be an ideal fit");
+      }
+    });
+  }
+
+  // Split into top picks and all remaining alternates
+  const topPicks = qualifyingProducts.slice(0, topPickCount);
+  const alternates = qualifyingProducts.slice(topPickCount);
+
+  return {
+    topPicks,
+    alternates,
+    filters: {
+      category: "keyboard",
+      wireless: answers.connectivity === "wireless-essential" ? true : undefined,
     },
     totalEvaluated: products.length,
   };

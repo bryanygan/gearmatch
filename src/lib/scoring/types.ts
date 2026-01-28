@@ -5,7 +5,7 @@
  * These types support scoring, ranking, and explaining product recommendations.
  */
 
-import type { Product, MouseProduct, AudioProduct } from "@/types/products";
+import type { Product, MouseProduct, AudioProduct, KeyboardProduct } from "@/types/products";
 
 // =============================================================================
 // Quiz Answer Types
@@ -31,6 +31,19 @@ export interface AudioQuizAnswers {
   "mic-needs": "essential" | "nice-to-have" | "not-needed";
   "session-length": "short" | "medium" | "long" | "all-day";
   budget: "budget" | "mid-range" | "premium" | "no-limit";
+}
+
+/**
+ * Keyboard quiz answer structure from KeyboardQuiz.tsx
+ */
+export interface KeyboardQuizAnswers {
+  "primary-use": "competitive-gaming" | "casual-gaming" | "productivity" | "programming";
+  "form-factor": "full-size" | "tkl" | "75-percent" | "60-65-percent";
+  "switch-type": "linear" | "tactile" | "clicky" | "no-preference";
+  "gaming-features": "essential" | "nice-to-have" | "not-important";
+  connectivity: "wireless-essential" | "wireless-preferred" | "wired-preferred" | "no-preference";
+  "priority-feature": "performance" | "typing-feel" | "customization" | "quiet";
+  budget: "budget" | "mid-range" | "premium" | "enthusiast";
 }
 
 // =============================================================================
@@ -114,7 +127,7 @@ export interface ScoringRule<TAnswers, TProduct extends Product> {
  */
 export interface AppliedFilters {
   /** Product category that was filtered */
-  category: "mouse" | "audio";
+  category: "mouse" | "audio" | "keyboard";
   /** Price range filter if applied */
   priceRange?: [number, number];
   /** Wireless filter if applied */
@@ -158,6 +171,16 @@ export type ScoredMouseProduct = ScoredProduct<MouseProduct>;
  * Audio-specific scored product.
  */
 export type ScoredAudioProduct = ScoredProduct<AudioProduct>;
+
+/**
+ * Keyboard-specific recommendation result.
+ */
+export type KeyboardRecommendationResult = RecommendationResult<KeyboardProduct>;
+
+/**
+ * Keyboard-specific scored product.
+ */
+export type ScoredKeyboardProduct = ScoredProduct<KeyboardProduct>;
 
 // =============================================================================
 // Scoring Options

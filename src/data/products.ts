@@ -9,14 +9,16 @@ import type {
   Product,
   MouseProduct,
   AudioProduct,
+  KeyboardProduct,
   AnyProduct,
   PriceTier,
 } from "@/types/products";
 import { allMouseProducts } from "./products/mice";
 import { allAudioProducts } from "./products/audio";
+import { allKeyboardProducts } from "./products/keyboards";
 
 // Re-export type guards for convenience
-export { isMouseProduct, isAudioProduct } from "@/types/products";
+export { isMouseProduct, isAudioProduct, isKeyboardProduct } from "@/types/products";
 
 // =============================================================================
 // Product Data Arrays
@@ -43,12 +45,23 @@ export const audioProducts: AudioProduct[] = [
 ];
 
 /**
+ * Array of all keyboard products in the system.
+ *
+ * @see KeyboardProduct for the required data structure
+ * @see src/data/products/keyboards.ts for product definitions
+ */
+export const keyboardProducts: KeyboardProduct[] = [
+  ...allKeyboardProducts,
+];
+
+/**
  * Combined array of all products in the system.
  * Useful for cross-category operations and global search.
  */
 export const allProducts: AnyProduct[] = [
   ...mouseProducts,
   ...audioProducts,
+  ...keyboardProducts,
 ];
 
 // =============================================================================
@@ -76,17 +89,18 @@ export function getProductById(id: string): AnyProduct | undefined {
 /**
  * Retrieves all products in a specific category.
  *
- * @param category - The category to filter by ("mouse" or "audio")
+ * @param category - The category to filter by ("mouse", "audio", or "keyboard")
  * @returns Array of products in the specified category
  *
  * @example
  * ```ts
  * const mice = getProductsByCategory("mouse");
  * const audioGear = getProductsByCategory("audio");
+ * const keyboards = getProductsByCategory("keyboard");
  * ```
  */
 export function getProductsByCategory(
-  category: "mouse" | "audio"
+  category: "mouse" | "audio" | "keyboard"
 ): AnyProduct[] {
   return allProducts.filter((product) => product.category === category);
 }
@@ -145,6 +159,25 @@ export function getMouseProducts(): MouseProduct[] {
  */
 export function getAudioProducts(): AudioProduct[] {
   return audioProducts;
+}
+
+/**
+ * Retrieves all keyboard products with proper typing.
+ * Convenience wrapper that ensures type safety.
+ *
+ * @returns Array of all KeyboardProduct items
+ *
+ * @example
+ * ```ts
+ * const keyboards = getKeyboardProducts();
+ * keyboards.forEach(kb => {
+ *   // TypeScript knows this is a KeyboardProduct
+ *   console.log(kb.core_attributes.keyboard_form_factor);
+ * });
+ * ```
+ */
+export function getKeyboardProducts(): KeyboardProduct[] {
+  return keyboardProducts;
 }
 
 /**
@@ -238,6 +271,9 @@ export function getValuePicks(): AnyProduct[] {
     if (product.category === "audio") {
       return (product as AudioProduct).core_attributes.audio_value_pick;
     }
+    if (product.category === "keyboard") {
+      return (product as KeyboardProduct).core_attributes.keyboard_value_pick;
+    }
     return false;
   });
 }
@@ -257,10 +293,12 @@ export function getProductCounts(): {
   total: number;
   mouse: number;
   audio: number;
+  keyboard: number;
 } {
   return {
     total: allProducts.length,
     mouse: mouseProducts.length,
     audio: audioProducts.length,
+    keyboard: keyboardProducts.length,
   };
 }

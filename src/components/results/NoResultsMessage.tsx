@@ -5,7 +5,7 @@ import { Card } from "@/components/ui/card";
 import { cn } from "@/lib/utils";
 
 interface NoResultsMessageProps {
-  category: "mouse" | "audio";
+  category: "mouse" | "audio" | "keyboard";
   onRetakeQuiz: () => void;
 }
 
@@ -13,7 +13,7 @@ const NoResultsMessage = ({
   category,
   onRetakeQuiz,
 }: NoResultsMessageProps) => {
-  const accentColor = category === "mouse" ? "primary" : "accent";
+  const accentColor = category === "mouse" ? "primary" : category === "audio" ? "accent" : "secondary";
 
   return (
     <Card className="mx-auto max-w-md border-2 border-dashed p-8 text-center">
@@ -21,13 +21,17 @@ const NoResultsMessage = ({
         <div
           className={cn(
             "mx-auto flex h-16 w-16 items-center justify-center rounded-full",
-            accentColor === "primary" ? "bg-primary/10" : "bg-accent/10"
+            accentColor === "primary" && "bg-primary/10",
+            accentColor === "accent" && "bg-accent/10",
+            accentColor === "secondary" && "bg-secondary"
           )}
         >
           <AlertCircle
             className={cn(
               "h-8 w-8",
-              accentColor === "primary" ? "text-primary" : "text-accent"
+              accentColor === "primary" && "text-primary",
+              accentColor === "accent" && "text-accent",
+              accentColor === "secondary" && "text-foreground"
             )}
           />
         </div>
@@ -49,7 +53,7 @@ const NoResultsMessage = ({
           </p>
           <ul className="space-y-1 text-left text-sm text-muted-foreground">
             <li>• Consider "No Preference" for connection type</li>
-            <li>• Try a different weight or form factor preference</li>
+            <li>• Try a different {category === "keyboard" ? "form factor or switch type" : "weight or form factor"} preference</li>
             <li>• Expand your budget range</li>
           </ul>
         </div>
@@ -57,7 +61,7 @@ const NoResultsMessage = ({
         <div className="flex flex-col gap-3 pt-4 sm:flex-row sm:justify-center">
           <Button
             onClick={onRetakeQuiz}
-            variant={accentColor === "primary" ? "hero" : "accent"}
+            variant={accentColor === "primary" ? "hero" : accentColor === "accent" ? "accent" : "secondary"}
             className="gap-2"
           >
             <RotateCcw className="h-4 w-4" />

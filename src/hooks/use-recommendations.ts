@@ -6,12 +6,14 @@
  */
 
 import { useMemo } from "react";
-import type { MouseProduct, AudioProduct } from "@/types/products";
+import type { MouseProduct, AudioProduct, KeyboardProduct } from "@/types/products";
 import {
   getMouseRecommendations,
   getAudioRecommendations,
+  getKeyboardRecommendations,
   type MouseQuizAnswers,
   type AudioQuizAnswers,
+  type KeyboardQuizAnswers,
   type RecommendationResult,
   type RecommendationOptions,
 } from "@/lib/scoring";
@@ -163,7 +165,7 @@ export function useAudioRecommendations(
 /**
  * Union type for any quiz answers.
  */
-export type AnyQuizAnswers = MouseQuizAnswers | AudioQuizAnswers;
+export type AnyQuizAnswers = MouseQuizAnswers | AudioQuizAnswers | KeyboardQuizAnswers;
 
 /**
  * Type guard to check if answers are for mouse quiz.
@@ -181,4 +183,85 @@ export function isAudioQuizAnswers(
   answers: AnyQuizAnswers
 ): answers is AudioQuizAnswers {
   return "form-factor" in answers && "mic-needs" in answers;
+}
+
+/**
+ * Type guard to check if answers are for keyboard quiz.
+ */
+export function isKeyboardQuizAnswers(
+  answers: AnyQuizAnswers
+): answers is KeyboardQuizAnswers {
+  return "switch-type" in answers && "gaming-features" in answers;
+}
+
+// =============================================================================
+// Keyboard Recommendations Hook
+// =============================================================================
+
+/**
+ * Hook return type for keyboard recommendations.
+ */
+export interface UseKeyboardRecommendationsResult {
+  /** Recommendation results, null if no answers provided */
+  recommendations: RecommendationResult<KeyboardProduct> | null;
+  /** Always false (sync operation), included for API consistency */
+  isLoading: boolean;
+  /** Error if recommendation generation failed */
+  error: Error | null;
+}
+
+/**
+ * Hook to get keyboard recommendations based on quiz answers.
+ * Memoizes results based on answer changes.
+ *
+ * @param answers - Keyboard quiz answers, or null if quiz not completed
+ * @param options - Optional recommendation configuration
+ * @returns Recommendations result with loading and error states
+ *
+ * @example
+ * ```tsx
+ * const { recommendations, error } = useKeyboardRecommendations(quizAnswers);
+ *
+ * if (error) return <ErrorMessage error={error} />;
+ * if (!recommendations) return <QuizInProgress />;
+ *
+ * return <RecommendationList picks={recommendations.topPicks} />;
+ * ```
+ */
+export function useKeyboardRecommendations(
+  answers: KeyboardQuizAnswers | null,
+  options?: RecommendationOptions
+): UseKeyboardRecommendationsResult {
+  // Use individual answer values as dependencies for better performance
+  // (avoids JSON.stringify overhead on every render)
+  const result = useMemo(() => {
+    if (!answers) {
+      return { recommendations: null, error: null };
+    }
+
+    try {
+      const recommendations = getKeyboardRecommendations(answers, options);
+      return { recommendations, error: null };
+    } catch (e) {
+      const error = e instanceof Error ? e : new Error("Failed to generate recommendations");
+      return { recommendations: null, error };
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [
+    answers?.["primary-use"],
+    answers?.["form-factor"],
+    answers?.["switch-type"],
+    answers?.["gaming-features"],
+    answers?.connectivity,
+    answers?.["priority-feature"],
+    answers?.budget,
+    options?.minScore,
+    options?.topPickCount,
+  ]);
+
+  return {
+    recommendations: result.recommendations,
+    isLoading: false, // Sync operation, never loading
+    error: result.error,
+  };
 }
