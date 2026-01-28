@@ -2809,6 +2809,496 @@ export const sonyPulseElite: AudioProduct = {
 };
 
 // =============================================================================
+// BATCH 7 - New Audio Products from RTINGS Reviews
+// =============================================================================
+
+export const corsairHs75XbWireless: AudioProduct = {
+  id: "corsair_hs75_xb_wireless", name: "Corsair HS75 XB WIRELESS", brand: "Corsair", category: "audio",
+  price_range_usd: [120, 150], image_url: undefined, product_url: undefined,
+  recommendation_tags: ["xbox_gaming", "wireless_gaming", "comfortable", "dolby_atmos", "good_mic"],
+  data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
+  core_attributes: {
+    category_subtype: "headset", price_tier: "upper_midrange", platform_fit: ["xbox", "pc"],
+    connection_type: ["wireless_2_4_dongle"], wireless: true, battery_life_hr: 21.6,
+    latency_class: "medium", software_support: "basic", eq_support: true, availability_class: "easy",
+    audio_type: "headset", audio_open_back: false, audio_has_mic: true, audio_mic_type: "detachable_boom",
+    audio_mic_quality: "great", audio_sound_signature: "bassy", audio_competitive_fps: "ok", audio_immersion: "good",
+    audio_isolation: "low", audio_anc: false, audio_comfort: "great", audio_weight_g: 377, audio_needs_amp: "no",
+    audio_impedance_ohm: undefined, audio_sensitivity_db: undefined, audio_driver_type: "dynamic",
+    audio_wireless_codec_support: undefined, audio_virtual_surround: ["dolby_atmos"],
+    audio_repairability: "ok", audio_value_pick: false,
+  },
+};
+
+export const roccatSynProAirWireless: AudioProduct = {
+  id: "roccat_syn_pro_air_wireless", name: "ROCCAT Syn Pro Air Wireless", brand: "ROCCAT", category: "audio",
+  price_range_usd: [130, 150], image_url: undefined, product_url: undefined,
+  recommendation_tags: ["wireless_gaming", "pc_gaming", "playstation_compatible", "comfortable", "rgb"],
+  data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
+  core_attributes: {
+    category_subtype: "headset", price_tier: "upper_midrange", platform_fit: ["pc", "playstation"],
+    connection_type: ["wireless_2_4_dongle", "wired_usb"], wireless: true, battery_life_hr: 24,
+    latency_class: "low", software_support: "good", eq_support: true, availability_class: "easy",
+    audio_type: "headset", audio_open_back: false, audio_has_mic: true, audio_mic_type: "detachable_boom",
+    audio_mic_quality: "good", audio_sound_signature: "v_shaped", audio_competitive_fps: "ok", audio_immersion: "good",
+    audio_isolation: "medium", audio_anc: true, audio_comfort: "great", audio_weight_g: 370, audio_needs_amp: "no",
+    audio_impedance_ohm: undefined, audio_sensitivity_db: undefined, audio_driver_type: "dynamic",
+    audio_wireless_codec_support: undefined, audio_virtual_surround: ["vendor_specific"],
+    audio_repairability: "ok", audio_value_pick: false,
+  },
+};
+
+export const wyzeWirelessGamingHeadset: AudioProduct = {
+  id: "wyze_wireless_gaming_headset", name: "Wyze Wireless Gaming Headset", brand: "Wyze", category: "audio",
+  price_range_usd: [50, 70], image_url: undefined, product_url: undefined,
+  recommendation_tags: ["budget_friendly", "value_pick", "wireless_gaming", "bluetooth", "multi_platform"],
+  data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
+  core_attributes: {
+    category_subtype: "headset", price_tier: "midrange", platform_fit: ["pc", "playstation", "mobile"],
+    connection_type: ["wireless_2_4_dongle", "bluetooth", "wired_3_5mm"], wireless: true, battery_life_hr: 32,
+    latency_class: "low", software_support: "none", eq_support: false, availability_class: "easy",
+    audio_type: "headset", audio_open_back: false, audio_has_mic: true, audio_mic_type: "detachable_boom",
+    audio_mic_quality: "ok", audio_sound_signature: "warm", audio_competitive_fps: "ok", audio_immersion: "ok",
+    audio_isolation: "low", audio_anc: false, audio_comfort: "good", audio_weight_g: 300, audio_needs_amp: "no",
+    audio_impedance_ohm: undefined, audio_sensitivity_db: undefined, audio_driver_type: "dynamic",
+    audio_wireless_codec_support: ["sbc"], audio_virtual_surround: ["none"],
+    audio_repairability: "ok", audio_value_pick: true,
+  },
+};
+
+export const razerBlackSharkV2ProWireless2020: AudioProduct = {
+  id: "razer_blackshark_v2_pro_wireless_2020", name: "Razer BlackShark V2 Pro Wireless 2020", brand: "Razer", category: "audio",
+  price_range_usd: [150, 180], image_url: undefined, product_url: undefined,
+  recommendation_tags: ["competitive_fps", "wireless_gaming", "great_mic", "comfortable", "esports"],
+  data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
+  core_attributes: {
+    category_subtype: "headset", price_tier: "premium", platform_fit: ["pc", "playstation"],
+    connection_type: ["wireless_2_4_dongle"], wireless: true, battery_life_hr: 24,
+    latency_class: "low", software_support: "great", eq_support: true, availability_class: "easy",
+    audio_type: "headset", audio_open_back: false, audio_has_mic: true, audio_mic_type: "detachable_boom",
+    audio_mic_quality: "great", audio_sound_signature: "neutral", audio_competitive_fps: "good", audio_immersion: "good",
+    audio_isolation: "medium", audio_anc: false, audio_comfort: "great", audio_weight_g: 320, audio_needs_amp: "no",
+    audio_impedance_ohm: undefined, audio_sensitivity_db: undefined, audio_driver_type: "dynamic",
+    audio_wireless_codec_support: undefined, audio_virtual_surround: ["vendor_specific"],
+    audio_repairability: "ok", audio_value_pick: false,
+  },
+};
+
+export const turtleBeachStealth700Gen2Wireless: AudioProduct = {
+  id: "turtle_beach_stealth_700_gen_2_wireless", name: "Turtle Beach Stealth 700 Gen 2 Wireless", brand: "Turtle Beach", category: "audio",
+  price_range_usd: [130, 150], image_url: undefined, product_url: undefined,
+  recommendation_tags: ["xbox_gaming", "wireless_gaming", "bluetooth", "multi_device", "comfortable"],
+  data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
+  core_attributes: {
+    category_subtype: "headset", price_tier: "upper_midrange", platform_fit: ["xbox", "mobile"],
+    connection_type: ["wireless_2_4_dongle", "bluetooth"], wireless: true, battery_life_hr: 20,
+    latency_class: "medium", software_support: "good", eq_support: true, availability_class: "easy",
+    audio_type: "headset", audio_open_back: false, audio_has_mic: true, audio_mic_type: "fixed_boom",
+    audio_mic_quality: "good", audio_sound_signature: "v_shaped", audio_competitive_fps: "ok", audio_immersion: "good",
+    audio_isolation: "medium", audio_anc: false, audio_comfort: "good", audio_weight_g: 365, audio_needs_amp: "no",
+    audio_impedance_ohm: undefined, audio_sensitivity_db: undefined, audio_driver_type: "dynamic",
+    audio_wireless_codec_support: ["sbc"], audio_virtual_surround: ["none"],
+    audio_repairability: "ok", audio_value_pick: false,
+  },
+};
+
+export const corsairVirtuosoRgbWirelessSe: AudioProduct = {
+  id: "corsair_virtuoso_rgb_wireless_se", name: "Corsair Virtuoso RGB Wireless SE", brand: "Corsair", category: "audio",
+  price_range_usd: [150, 180], image_url: undefined, product_url: undefined,
+  recommendation_tags: ["wireless_gaming", "premium_build", "great_mic", "multi_platform", "rgb"],
+  data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
+  core_attributes: {
+    category_subtype: "headset", price_tier: "premium", platform_fit: ["pc", "playstation", "xbox"],
+    connection_type: ["wireless_2_4_dongle", "wired_3_5mm", "wired_usb"], wireless: true, battery_life_hr: 13.3,
+    latency_class: "medium", software_support: "good", eq_support: true, availability_class: "easy",
+    audio_type: "headset", audio_open_back: false, audio_has_mic: true, audio_mic_type: "detachable_boom",
+    audio_mic_quality: "great", audio_sound_signature: "warm", audio_competitive_fps: "ok", audio_immersion: "good",
+    audio_isolation: "medium", audio_anc: false, audio_comfort: "good", audio_weight_g: 390, audio_needs_amp: "no",
+    audio_impedance_ohm: undefined, audio_sensitivity_db: undefined, audio_driver_type: "dynamic",
+    audio_wireless_codec_support: undefined, audio_virtual_surround: ["vendor_specific"],
+    audio_repairability: "ok", audio_value_pick: false,
+  },
+};
+
+export const corsairVirtuosoRgbWirelessXt: AudioProduct = {
+  id: "corsair_virtuoso_rgb_wireless_xt", name: "Corsair VIRTUOSO RGB Wireless XT", brand: "Corsair", category: "audio",
+  price_range_usd: [230, 270], image_url: undefined, product_url: undefined,
+  recommendation_tags: ["wireless_gaming", "bluetooth", "premium_build", "great_mic", "dolby_atmos", "multi_platform"],
+  data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
+  core_attributes: {
+    category_subtype: "headset", price_tier: "premium", platform_fit: ["pc", "playstation", "xbox", "mobile"],
+    connection_type: ["wireless_2_4_dongle", "bluetooth", "wired_3_5mm", "wired_usb"], wireless: true, battery_life_hr: 18.3,
+    latency_class: "low", software_support: "good", eq_support: true, availability_class: "easy",
+    audio_type: "headset", audio_open_back: false, audio_has_mic: true, audio_mic_type: "detachable_boom",
+    audio_mic_quality: "great", audio_sound_signature: "warm", audio_competitive_fps: "ok", audio_immersion: "good",
+    audio_isolation: "low", audio_anc: false, audio_comfort: "good", audio_weight_g: 386, audio_needs_amp: "no",
+    audio_impedance_ohm: undefined, audio_sensitivity_db: undefined, audio_driver_type: "dynamic",
+    audio_wireless_codec_support: ["sbc", "aptx"], audio_virtual_surround: ["dolby_atmos"],
+    audio_repairability: "ok", audio_value_pick: false,
+  },
+};
+
+export const sonyInzoneH7Wireless: AudioProduct = {
+  id: "sony_inzone_h7_wireless", name: "Sony INZONE H7 Wireless", brand: "Sony", category: "audio",
+  price_range_usd: [180, 230], image_url: undefined, product_url: undefined,
+  recommendation_tags: ["playstation_gaming", "wireless_gaming", "bluetooth", "long_battery", "multi_device"],
+  data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
+  core_attributes: {
+    category_subtype: "headset", price_tier: "premium", platform_fit: ["pc", "playstation", "mobile"],
+    connection_type: ["wireless_2_4_dongle", "bluetooth"], wireless: true, battery_life_hr: 49.8,
+    latency_class: "medium", software_support: "good", eq_support: true, availability_class: "easy",
+    audio_type: "headset", audio_open_back: false, audio_has_mic: true, audio_mic_type: "fixed_boom",
+    audio_mic_quality: "good", audio_sound_signature: "v_shaped", audio_competitive_fps: "ok", audio_immersion: "good",
+    audio_isolation: "medium", audio_anc: false, audio_comfort: "good", audio_weight_g: 322, audio_needs_amp: "no",
+    audio_impedance_ohm: undefined, audio_sensitivity_db: undefined, audio_driver_type: "dynamic",
+    audio_wireless_codec_support: ["sbc"], audio_virtual_surround: ["vendor_specific"],
+    audio_repairability: "ok", audio_value_pick: false,
+  },
+};
+
+export const sonyPulse3dWireless: AudioProduct = {
+  id: "sony_pulse_3d_wireless", name: "Sony PULSE 3D Wireless", brand: "Sony", category: "audio",
+  price_range_usd: [80, 100], image_url: undefined, product_url: undefined,
+  recommendation_tags: ["playstation_gaming", "ps5", "value_pick", "wireless_gaming", "3d_audio", "lightweight"],
+  data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
+  core_attributes: {
+    category_subtype: "headset", price_tier: "midrange", platform_fit: ["pc", "playstation", "xbox"],
+    connection_type: ["wireless_2_4_dongle", "wired_3_5mm"], wireless: true, battery_life_hr: 13.4,
+    latency_class: "low", software_support: "basic", eq_support: true, availability_class: "easy",
+    audio_type: "headset", audio_open_back: false, audio_has_mic: true, audio_mic_type: "integrated",
+    audio_mic_quality: "ok", audio_sound_signature: "warm", audio_competitive_fps: "good", audio_immersion: "good",
+    audio_isolation: "low", audio_anc: false, audio_comfort: "ok", audio_weight_g: 295, audio_needs_amp: "no",
+    audio_impedance_ohm: undefined, audio_sensitivity_db: undefined, audio_driver_type: "dynamic",
+    audio_wireless_codec_support: undefined, audio_virtual_surround: ["vendor_specific"],
+    audio_repairability: "ok", audio_value_pick: true,
+  },
+};
+
+export const nobleFokusApollo: AudioProduct = {
+  id: "noble_fokus_apollo", name: "Noble FoKus Apollo", brand: "Noble", category: "audio",
+  price_range_usd: [399, 450], image_url: undefined, product_url: undefined,
+  recommendation_tags: ["audiophile", "premium_build", "great_anc", "bluetooth", "boom_mic", "long_battery", "office"],
+  data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
+  core_attributes: {
+    category_subtype: "headphone", price_tier: "flagship", platform_fit: ["pc", "mobile"],
+    connection_type: ["bluetooth", "wired_3_5mm", "wired_usb_c"], wireless: true, battery_life_hr: 46.2,
+    latency_class: "medium", software_support: "good", eq_support: true, availability_class: "easy",
+    audio_type: "headphone", audio_open_back: false, audio_has_mic: true, audio_mic_type: "detachable_boom",
+    audio_mic_quality: "great", audio_sound_signature: "neutral", audio_competitive_fps: "ok", audio_immersion: "good",
+    audio_isolation: "high", audio_anc: true, audio_comfort: "great", audio_weight_g: 336, audio_needs_amp: "no",
+    audio_impedance_ohm: undefined, audio_sensitivity_db: 110, audio_driver_type: "hybrid",
+    audio_wireless_codec_support: ["sbc", "aac", "aptx", "ldac"], audio_virtual_surround: ["none"],
+    audio_repairability: "ok", audio_value_pick: false,
+  },
+};
+
+export const boseQc35IiGamingHeadset: AudioProduct = {
+  id: "bose_qc35_ii_gaming_headset", name: "Bose QuietComfort 35 II Gaming Headset", brand: "Bose", category: "audio",
+  price_range_usd: [200, 280], image_url: undefined, product_url: undefined,
+  recommendation_tags: ["great_anc", "comfortable", "wired_gaming", "neutral_sound", "office", "travel"],
+  data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
+  core_attributes: {
+    category_subtype: "headset", price_tier: "premium", platform_fit: ["pc", "mobile"],
+    connection_type: ["bluetooth", "wired_3_5mm", "wired_usb"], wireless: true, battery_life_hr: 35.2,
+    latency_class: "medium", software_support: "basic", eq_support: false, availability_class: "easy",
+    audio_type: "headset", audio_open_back: false, audio_has_mic: true, audio_mic_type: "detachable_boom",
+    audio_mic_quality: "good", audio_sound_signature: "neutral", audio_competitive_fps: "good", audio_immersion: "good",
+    audio_isolation: "high", audio_anc: true, audio_comfort: "great", audio_weight_g: 249, audio_needs_amp: "no",
+    audio_impedance_ohm: undefined, audio_sensitivity_db: undefined, audio_driver_type: "dynamic",
+    audio_wireless_codec_support: ["sbc", "aac"], audio_virtual_surround: ["none"],
+    audio_repairability: "ok", audio_value_pick: false,
+  },
+};
+
+export const xboxWirelessHeadset: AudioProduct = {
+  id: "xbox_wireless_headset", name: "Xbox Wireless Headset", brand: "Xbox", category: "audio",
+  price_range_usd: [90, 110], image_url: undefined, product_url: undefined,
+  recommendation_tags: ["xbox_gaming", "wireless_gaming", "bluetooth", "value_pick", "good_mic"],
+  data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
+  core_attributes: {
+    category_subtype: "headset", price_tier: "midrange", platform_fit: ["xbox", "pc", "mobile"],
+    connection_type: ["wireless_2_4_dongle", "bluetooth", "wired_usb_c"], wireless: true, battery_life_hr: 19.1,
+    latency_class: "high", software_support: "good", eq_support: true, availability_class: "easy",
+    audio_type: "headset", audio_open_back: false, audio_has_mic: true, audio_mic_type: "fixed_boom",
+    audio_mic_quality: "great", audio_sound_signature: "bassy", audio_competitive_fps: "ok", audio_immersion: "good",
+    audio_isolation: "low", audio_anc: false, audio_comfort: "good", audio_weight_g: 313, audio_needs_amp: "no",
+    audio_impedance_ohm: undefined, audio_sensitivity_db: undefined, audio_driver_type: "dynamic",
+    audio_wireless_codec_support: ["sbc"], audio_virtual_surround: ["dolby_atmos", "dts_headphone_x"],
+    audio_repairability: "ok", audio_value_pick: true,
+  },
+};
+
+export const asusRogCetraTwsSpeedNova: AudioProduct = {
+  id: "asus_rog_cetra_tws_speednova", name: "ASUS ROG Cetra True Wireless SpeedNova", brand: "ASUS", category: "audio",
+  price_range_usd: [150, 200], image_url: undefined, product_url: undefined,
+  recommendation_tags: ["tws_gaming", "wireless_gaming", "anc", "rgb", "long_battery", "multi_platform"],
+  data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
+  core_attributes: {
+    category_subtype: "iem", price_tier: "premium", platform_fit: ["pc", "playstation", "switch", "mobile"],
+    connection_type: ["wireless_2_4_dongle", "bluetooth"], wireless: true, battery_life_hr: 8,
+    latency_class: "low", software_support: "great", eq_support: true, availability_class: "easy",
+    audio_type: "iem", audio_open_back: false, audio_has_mic: true, audio_mic_type: "integrated",
+    audio_mic_quality: "ok", audio_sound_signature: "v_shaped", audio_competitive_fps: "ok", audio_immersion: "good",
+    audio_isolation: "high", audio_anc: true, audio_comfort: "good", audio_weight_g: 9, audio_needs_amp: "no",
+    audio_impedance_ohm: undefined, audio_sensitivity_db: undefined, audio_driver_type: "dynamic",
+    audio_wireless_codec_support: ["sbc", "aac"], audio_virtual_surround: ["vendor_specific"],
+    audio_repairability: "poor", audio_value_pick: false,
+  },
+};
+
+export const eposGtw270HybridTrulyWireless: AudioProduct = {
+  id: "epos_gtw_270_hybrid_truly_wireless", name: "EPOS GTW 270 Hybrid Truly Wireless", brand: "EPOS", category: "audio",
+  price_range_usd: [150, 200], image_url: undefined, product_url: undefined,
+  recommendation_tags: ["tws_gaming", "low_latency", "aptx_ll", "portable", "sports"],
+  data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
+  core_attributes: {
+    category_subtype: "iem", price_tier: "premium", platform_fit: ["pc", "playstation", "switch", "mobile"],
+    connection_type: ["wireless_2_4_dongle", "bluetooth"], wireless: true, battery_life_hr: 3.2,
+    latency_class: "low", software_support: "good", eq_support: true, availability_class: "sometimes",
+    audio_type: "iem", audio_open_back: false, audio_has_mic: true, audio_mic_type: "integrated",
+    audio_mic_quality: "good", audio_sound_signature: "bassy", audio_competitive_fps: "ok", audio_immersion: "ok",
+    audio_isolation: "medium", audio_anc: false, audio_comfort: "good", audio_weight_g: 14, audio_needs_amp: "no",
+    audio_impedance_ohm: undefined, audio_sensitivity_db: undefined, audio_driver_type: "dynamic",
+    audio_wireless_codec_support: ["sbc", "aac", "aptx", "aptx_ll"], audio_virtual_surround: ["dolby_atmos"],
+    audio_repairability: "poor", audio_value_pick: false,
+  },
+};
+
+export const jblQuantum800Wireless: AudioProduct = {
+  id: "jbl_quantum_800_wireless", name: "JBL Quantum 800 Wireless", brand: "JBL", category: "audio",
+  price_range_usd: [150, 200], image_url: undefined, product_url: undefined,
+  recommendation_tags: ["wireless_gaming", "anc", "rgb", "bluetooth", "multi_platform"],
+  data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
+  core_attributes: {
+    category_subtype: "headset", price_tier: "premium", platform_fit: ["pc", "playstation"],
+    connection_type: ["wireless_2_4_dongle", "bluetooth", "wired_3_5mm"], wireless: true, battery_life_hr: 8,
+    latency_class: "medium", software_support: "good", eq_support: true, availability_class: "easy",
+    audio_type: "headset", audio_open_back: false, audio_has_mic: true, audio_mic_type: "fixed_boom",
+    audio_mic_quality: "good", audio_sound_signature: "bassy", audio_competitive_fps: "ok", audio_immersion: "good",
+    audio_isolation: "high", audio_anc: true, audio_comfort: "good", audio_weight_g: 408, audio_needs_amp: "no",
+    audio_impedance_ohm: undefined, audio_sensitivity_db: undefined, audio_driver_type: "dynamic",
+    audio_wireless_codec_support: ["sbc"], audio_virtual_surround: ["vendor_specific", "dts_headphone_x"],
+    audio_repairability: "ok", audio_value_pick: false,
+  },
+};
+
+export const razerHammerheadProHyperspeedTws: AudioProduct = {
+  id: "razer_hammerhead_pro_hyperspeed_tws", name: "Razer Hammerhead Pro HyperSpeed True Wireless", brand: "Razer", category: "audio",
+  price_range_usd: [150, 180], image_url: undefined, product_url: undefined,
+  recommendation_tags: ["tws_gaming", "wireless_gaming", "anc", "rgb", "balanced_sound", "multi_platform"],
+  data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
+  core_attributes: {
+    category_subtype: "iem", price_tier: "premium", platform_fit: ["pc", "playstation", "switch", "mobile"],
+    connection_type: ["wireless_2_4_dongle", "bluetooth"], wireless: true, battery_life_hr: 5.1,
+    latency_class: "low", software_support: "good", eq_support: true, availability_class: "easy",
+    audio_type: "iem", audio_open_back: false, audio_has_mic: true, audio_mic_type: "integrated",
+    audio_mic_quality: "good", audio_sound_signature: "neutral", audio_competitive_fps: "good", audio_immersion: "good",
+    audio_isolation: "medium", audio_anc: true, audio_comfort: "good", audio_weight_g: 14, audio_needs_amp: "no",
+    audio_impedance_ohm: undefined, audio_sensitivity_db: undefined, audio_driver_type: "dynamic",
+    audio_wireless_codec_support: ["sbc", "aac"], audio_virtual_surround: ["none"],
+    audio_repairability: "poor", audio_value_pick: false,
+  },
+};
+
+export const turtleBeachEliteAtlasAeroWireless: AudioProduct = {
+  id: "turtle_beach_elite_atlas_aero_wireless", name: "Turtle Beach Elite Atlas Aero Wireless", brand: "Turtle Beach", category: "audio",
+  price_range_usd: [130, 170], image_url: undefined, product_url: undefined,
+  recommendation_tags: ["pc_gaming", "wireless_gaming", "long_battery", "good_mic"],
+  data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
+  core_attributes: {
+    category_subtype: "headset", price_tier: "upper_midrange", platform_fit: ["pc"],
+    connection_type: ["wireless_2_4_dongle", "wired_3_5mm"], wireless: true, battery_life_hr: 30.1,
+    latency_class: "medium", software_support: "good", eq_support: true, availability_class: "sometimes",
+    audio_type: "headset", audio_open_back: false, audio_has_mic: true, audio_mic_type: "detachable_boom",
+    audio_mic_quality: "good", audio_sound_signature: "neutral", audio_competitive_fps: "good", audio_immersion: "good",
+    audio_isolation: "low", audio_anc: false, audio_comfort: "good", audio_weight_g: 395, audio_needs_amp: "no",
+    audio_impedance_ohm: undefined, audio_sensitivity_db: undefined, audio_driver_type: "dynamic",
+    audio_wireless_codec_support: undefined, audio_virtual_surround: ["vendor_specific"],
+    audio_repairability: "ok", audio_value_pick: false,
+  },
+};
+
+export const jabraEvolve265Wireless: AudioProduct = {
+  id: "jabra_evolve2_65_wireless", name: "Jabra Evolve2 65 Wireless", brand: "Jabra", category: "audio",
+  price_range_usd: [200, 280], image_url: undefined, product_url: undefined,
+  recommendation_tags: ["office", "business", "long_battery", "great_mic", "bluetooth", "comfortable"],
+  data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
+  core_attributes: {
+    category_subtype: "headset", price_tier: "premium", platform_fit: ["pc", "mobile"],
+    connection_type: ["wireless_2_4_dongle", "bluetooth"], wireless: true, battery_life_hr: 60.8,
+    latency_class: "high", software_support: "good", eq_support: true, availability_class: "easy",
+    audio_type: "headset", audio_open_back: false, audio_has_mic: true, audio_mic_type: "fixed_boom",
+    audio_mic_quality: "great", audio_sound_signature: "warm", audio_competitive_fps: "ok", audio_immersion: "ok",
+    audio_isolation: "low", audio_anc: false, audio_comfort: "good", audio_weight_g: 181, audio_needs_amp: "no",
+    audio_impedance_ohm: undefined, audio_sensitivity_db: undefined, audio_driver_type: "dynamic",
+    audio_wireless_codec_support: ["sbc"], audio_virtual_surround: ["none"],
+    audio_repairability: "ok", audio_value_pick: false,
+  },
+};
+
+export const boseQuietcomfort35IiWireless2018: AudioProduct = {
+  id: "bose_quietcomfort_35_ii_wireless_2018", name: "Bose QuietComfort 35 II/QC35 II Wireless 2018", brand: "Bose", category: "audio",
+  price_range_usd: [250, 350], image_url: undefined, product_url: undefined,
+  recommendation_tags: ["travel", "commute", "anc", "comfortable", "bluetooth", "neutral_sound"],
+  data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
+  core_attributes: {
+    category_subtype: "headphone", price_tier: "flagship", platform_fit: ["pc", "mobile"],
+    connection_type: ["bluetooth", "wired_3_5mm"], wireless: true, battery_life_hr: 20,
+    latency_class: "high", software_support: "basic", eq_support: false, availability_class: "easy",
+    audio_type: "headphone", audio_open_back: false, audio_has_mic: true, audio_mic_type: "integrated",
+    audio_mic_quality: "ok", audio_sound_signature: "neutral", audio_competitive_fps: "ok", audio_immersion: "good",
+    audio_isolation: "high", audio_anc: true, audio_comfort: "great", audio_weight_g: 236, audio_needs_amp: "no",
+    audio_impedance_ohm: undefined, audio_sensitivity_db: undefined, audio_driver_type: "dynamic",
+    audio_wireless_codec_support: ["sbc", "aac"], audio_virtual_surround: ["none"],
+    audio_repairability: "ok", audio_value_pick: false,
+  },
+};
+
+export const boseQuietcomfort45Wireless: AudioProduct = {
+  id: "bose_quietcomfort_45_wireless", name: "Bose QuietComfort 45/QC45 Wireless", brand: "Bose", category: "audio",
+  price_range_usd: [250, 330], image_url: undefined, product_url: undefined,
+  recommendation_tags: ["travel", "commute", "anc", "comfortable", "long_battery", "bluetooth"],
+  data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
+  core_attributes: {
+    category_subtype: "headphone", price_tier: "flagship", platform_fit: ["pc", "mobile"],
+    connection_type: ["bluetooth", "wired_3_5mm"], wireless: true, battery_life_hr: 21,
+    latency_class: "high", software_support: "good", eq_support: true, availability_class: "easy",
+    audio_type: "headphone", audio_open_back: false, audio_has_mic: true, audio_mic_type: "integrated",
+    audio_mic_quality: "ok", audio_sound_signature: "v_shaped", audio_competitive_fps: "ok", audio_immersion: "good",
+    audio_isolation: "high", audio_anc: true, audio_comfort: "great", audio_weight_g: 236, audio_needs_amp: "no",
+    audio_impedance_ohm: undefined, audio_sensitivity_db: 114, audio_driver_type: "dynamic",
+    audio_wireless_codec_support: ["sbc", "aac"], audio_virtual_surround: ["none"],
+    audio_repairability: "ok", audio_value_pick: false,
+  },
+};
+
+export const sonyPulseExploreTrulyWireless: AudioProduct = {
+  id: "sony_pulse_explore_truly_wireless", name: "Sony PULSE Explore Truly Wireless", brand: "Sony", category: "audio",
+  price_range_usd: [180, 220], image_url: undefined, product_url: undefined,
+  recommendation_tags: ["playstation_gaming", "ps5", "planar_magnetic", "truly_wireless", "sports"],
+  data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
+  core_attributes: {
+    category_subtype: "iem", price_tier: "premium", platform_fit: ["playstation", "pc", "mobile"],
+    connection_type: ["wireless_2_4_dongle", "bluetooth"], wireless: true, battery_life_hr: 5,
+    latency_class: "low", software_support: "basic", eq_support: false, availability_class: "easy",
+    audio_type: "iem", audio_open_back: false, audio_has_mic: true, audio_mic_type: "integrated",
+    audio_mic_quality: "poor", audio_sound_signature: "warm", audio_competitive_fps: "ok", audio_immersion: "ok",
+    audio_isolation: "low", audio_anc: false, audio_comfort: "good", audio_weight_g: 14, audio_needs_amp: "no",
+    audio_impedance_ohm: undefined, audio_sensitivity_db: undefined, audio_driver_type: "planar",
+    audio_wireless_codec_support: ["sbc", "aac"], audio_virtual_surround: ["vendor_specific"],
+    audio_repairability: "poor", audio_value_pick: false,
+  },
+};
+
+export const jabraElite10Gen2: AudioProduct = {
+  id: "jabra_elite_10_gen_2", name: "Jabra Elite 10 Gen 2", brand: "Jabra", category: "audio",
+  price_range_usd: [250, 300], image_url: undefined, product_url: undefined,
+  recommendation_tags: ["travel", "anc", "truly_wireless", "dolby_atmos", "comfortable", "sports"],
+  data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
+  core_attributes: {
+    category_subtype: "iem", price_tier: "flagship", platform_fit: ["pc", "mobile"],
+    connection_type: ["bluetooth", "wired_usb_c", "wired_3_5mm"], wireless: true, battery_life_hr: 8,
+    latency_class: "medium", software_support: "great", eq_support: true, availability_class: "easy",
+    audio_type: "iem", audio_open_back: false, audio_has_mic: true, audio_mic_type: "integrated",
+    audio_mic_quality: "good", audio_sound_signature: "neutral", audio_competitive_fps: "ok", audio_immersion: "good",
+    audio_isolation: "high", audio_anc: true, audio_comfort: "good", audio_weight_g: 14, audio_needs_amp: "no",
+    audio_impedance_ohm: undefined, audio_sensitivity_db: undefined, audio_driver_type: "dynamic",
+    audio_wireless_codec_support: ["sbc", "aac"], audio_virtual_surround: ["dolby_atmos"],
+    audio_repairability: "poor", audio_value_pick: false,
+  },
+};
+
+export const jabraElite8ActiveGen2: AudioProduct = {
+  id: "jabra_elite_8_active_gen_2", name: "Jabra Elite 8 Active Gen 2", brand: "Jabra", category: "audio",
+  price_range_usd: [200, 250], image_url: undefined, product_url: undefined,
+  recommendation_tags: ["sports", "fitness", "anc", "truly_wireless", "water_resistant", "travel"],
+  data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
+  core_attributes: {
+    category_subtype: "iem", price_tier: "premium", platform_fit: ["pc", "mobile"],
+    connection_type: ["bluetooth", "wired_usb_c", "wired_3_5mm"], wireless: true, battery_life_hr: 8,
+    latency_class: "medium", software_support: "great", eq_support: true, availability_class: "easy",
+    audio_type: "iem", audio_open_back: false, audio_has_mic: true, audio_mic_type: "integrated",
+    audio_mic_quality: "good", audio_sound_signature: "warm", audio_competitive_fps: "ok", audio_immersion: "good",
+    audio_isolation: "high", audio_anc: true, audio_comfort: "good", audio_weight_g: 9, audio_needs_amp: "no",
+    audio_impedance_ohm: undefined, audio_sensitivity_db: undefined, audio_driver_type: "dynamic",
+    audio_wireless_codec_support: ["sbc", "aac"], audio_virtual_surround: ["vendor_specific"],
+    audio_repairability: "poor", audio_value_pick: false,
+  },
+};
+
+export const sennheiserRs165RfWireless: AudioProduct = {
+  id: "sennheiser_rs_165_rf_wireless", name: "Sennheiser RS 165 RF Wireless", brand: "Sennheiser", category: "audio",
+  price_range_usd: [150, 200], image_url: undefined, product_url: undefined,
+  recommendation_tags: ["home_theater", "tv_listening", "wireless", "long_battery", "comfortable"],
+  data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
+  core_attributes: {
+    category_subtype: "headphone", price_tier: "premium", platform_fit: ["pc"],
+    connection_type: ["wireless_2_4_dongle"], wireless: true, battery_life_hr: 24,
+    latency_class: "low", software_support: "none", eq_support: false, availability_class: "easy",
+    audio_type: "headphone", audio_open_back: false, audio_has_mic: false, audio_mic_type: "none",
+    audio_mic_quality: undefined, audio_sound_signature: "neutral", audio_competitive_fps: "ok", audio_immersion: "ok",
+    audio_isolation: "low", audio_anc: false, audio_comfort: "good", audio_weight_g: 295, audio_needs_amp: "no",
+    audio_impedance_ohm: undefined, audio_sensitivity_db: undefined, audio_driver_type: "dynamic",
+    audio_wireless_codec_support: undefined, audio_virtual_surround: ["none"],
+    audio_repairability: "ok", audio_value_pick: false,
+  },
+};
+
+export const astroA40TrHeadsetMixampPro2019: AudioProduct = {
+  id: "astro_a40_tr_headset_mixamp_pro_2019", name: "Astro A40 TR Headset + MixAmp Pro 2019", brand: "Astro", category: "audio",
+  price_range_usd: [200, 250], image_url: undefined, product_url: undefined,
+  recommendation_tags: ["pc_gaming", "xbox_gaming", "open_back", "great_mic", "esports", "mixamp"],
+  data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
+  core_attributes: {
+    category_subtype: "headset", price_tier: "premium", platform_fit: ["pc", "xbox", "playstation"],
+    connection_type: ["wired_usb", "wired_3_5mm"], wireless: false, battery_life_hr: undefined,
+    latency_class: "very_low", software_support: "good", eq_support: true, availability_class: "easy",
+    audio_type: "headset", audio_open_back: true, audio_has_mic: true, audio_mic_type: "detachable_boom",
+    audio_mic_quality: "great", audio_sound_signature: "neutral", audio_competitive_fps: "good", audio_immersion: "great",
+    audio_isolation: "low", audio_anc: false, audio_comfort: "great", audio_weight_g: 372, audio_needs_amp: "no",
+    audio_impedance_ohm: undefined, audio_sensitivity_db: 110, audio_driver_type: "dynamic",
+    audio_wireless_codec_support: undefined, audio_virtual_surround: ["dolby_atmos"],
+    audio_repairability: "ok", audio_value_pick: false,
+  },
+};
+
+export const boseQuietcomfortUltraHeadphonesWireless: AudioProduct = {
+  id: "bose_quietcomfort_ultra_headphones_wireless", name: "Bose QuietComfort Ultra Headphones Wireless", brand: "Bose", category: "audio",
+  price_range_usd: [350, 430], image_url: undefined, product_url: undefined,
+  recommendation_tags: ["travel", "anc", "premium_build", "comfortable", "immersive_audio", "bluetooth"],
+  data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
+  core_attributes: {
+    category_subtype: "headphone", price_tier: "flagship", platform_fit: ["pc", "mobile"],
+    connection_type: ["bluetooth", "wired_3_5mm"], wireless: true, battery_life_hr: 30,
+    latency_class: "medium", software_support: "great", eq_support: true, availability_class: "easy",
+    audio_type: "headphone", audio_open_back: false, audio_has_mic: true, audio_mic_type: "integrated",
+    audio_mic_quality: "good", audio_sound_signature: "warm", audio_competitive_fps: "ok", audio_immersion: "good",
+    audio_isolation: "high", audio_anc: true, audio_comfort: "great", audio_weight_g: 254, audio_needs_amp: "no",
+    audio_impedance_ohm: undefined, audio_sensitivity_db: undefined, audio_driver_type: "dynamic",
+    audio_wireless_codec_support: ["sbc", "aac", "aptx_adaptive"], audio_virtual_surround: ["vendor_specific"],
+    audio_repairability: "ok", audio_value_pick: false,
+  },
+};
+
+export const bowersWilkinsPi7TrueWireless: AudioProduct = {
+  id: "bowers_wilkins_pi7_true_wireless", name: "Bowers & Wilkins Pi7 True Wireless", brand: "Bowers & Wilkins", category: "audio",
+  price_range_usd: [300, 400], image_url: undefined, product_url: undefined,
+  recommendation_tags: ["premium_build", "anc", "truly_wireless", "audiophile", "aptx"],
+  data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
+  core_attributes: {
+    category_subtype: "iem", price_tier: "flagship", platform_fit: ["pc", "mobile"],
+    connection_type: ["bluetooth", "wired_usb_c", "wired_3_5mm"], wireless: true, battery_life_hr: 2.4,
+    latency_class: "low", software_support: "basic", eq_support: false, availability_class: "sometimes",
+    audio_type: "iem", audio_open_back: false, audio_has_mic: true, audio_mic_type: "integrated",
+    audio_mic_quality: "ok", audio_sound_signature: "bassy", audio_competitive_fps: "ok", audio_immersion: "ok",
+    audio_isolation: "high", audio_anc: true, audio_comfort: "good", audio_weight_g: 14, audio_needs_amp: "no",
+    audio_impedance_ohm: undefined, audio_sensitivity_db: undefined, audio_driver_type: "hybrid",
+    audio_wireless_codec_support: ["sbc", "aac", "aptx"], audio_virtual_surround: ["none"],
+    audio_repairability: "poor", audio_value_pick: false,
+  },
+};
+
+// =============================================================================
 // Export Array - All Audio Products
 // =============================================================================
 
@@ -2864,4 +3354,14 @@ export const allAudioProducts: AudioProduct[] = [
   juzearDefiant, letshuoerS08, afulExplorer, dunuKima2, letshuoerS12Pro, simgotSupermix4,
   kiwiEarsAether, mezeAlba, afulPerformer7, ziigaatOdyssey, softearsVolumeS,
   moondropCrinacleDusk, xennsMangirdTeaPro, xennsMangirdTopPro, dunuDk3001bd,
+  // Batch 7 - New Audio Products
+  corsairHs75XbWireless, roccatSynProAirWireless, wyzeWirelessGamingHeadset,
+  razerBlackSharkV2ProWireless2020, turtleBeachStealth700Gen2Wireless,
+  corsairVirtuosoRgbWirelessSe, corsairVirtuosoRgbWirelessXt, sonyInzoneH7Wireless,
+  sonyPulse3dWireless, nobleFokusApollo, boseQc35IiGamingHeadset, xboxWirelessHeadset,
+  asusRogCetraTwsSpeedNova, eposGtw270HybridTrulyWireless, jblQuantum800Wireless,
+  razerHammerheadProHyperspeedTws, turtleBeachEliteAtlasAeroWireless, jabraEvolve265Wireless,
+  boseQuietcomfort35IiWireless2018, boseQuietcomfort45Wireless, sonyPulseExploreTrulyWireless,
+  jabraElite10Gen2, jabraElite8ActiveGen2, sennheiserRs165RfWireless, astroA40TrHeadsetMixampPro2019,
+  boseQuietcomfortUltraHeadphonesWireless, bowersWilkinsPi7TrueWireless,
 ];
