@@ -54,10 +54,8 @@ export function useMouseRecommendations(
   answers: MouseQuizAnswers | null,
   options?: RecommendationOptions
 ): UseMouseRecommendationsResult {
-  // Serialize answers and options for stable memoization
-  const answersKey = answers ? JSON.stringify(answers) : null;
-  const optionsKey = options ? JSON.stringify(options) : null;
-
+  // Use individual answer values as dependencies for better performance
+  // (avoids JSON.stringify overhead on every render)
   const result = useMemo(() => {
     if (!answers) {
       return { recommendations: null, error: null };
@@ -71,7 +69,15 @@ export function useMouseRecommendations(
       return { recommendations: null, error };
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [answersKey, optionsKey]);
+  }, [
+    answers?.["hand-size"],
+    answers?.["grip-style"],
+    answers?.["weight-preference"],
+    answers?.wireless,
+    answers?.["primary-use"],
+    options?.minScore,
+    options?.topPickCount,
+  ]);
 
   return {
     recommendations: result.recommendations,
@@ -118,10 +124,8 @@ export function useAudioRecommendations(
   answers: AudioQuizAnswers | null,
   options?: RecommendationOptions
 ): UseAudioRecommendationsResult {
-  // Serialize answers and options for stable memoization
-  const answersKey = answers ? JSON.stringify(answers) : null;
-  const optionsKey = options ? JSON.stringify(options) : null;
-
+  // Use individual answer values as dependencies for better performance
+  // (avoids JSON.stringify overhead on every render)
   const result = useMemo(() => {
     if (!answers) {
       return { recommendations: null, error: null };
@@ -135,7 +139,15 @@ export function useAudioRecommendations(
       return { recommendations: null, error };
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [answersKey, optionsKey]);
+  }, [
+    answers?.["primary-use"],
+    answers?.["form-factor"],
+    answers?.["mic-needs"],
+    answers?.["session-length"],
+    answers?.budget,
+    options?.minScore,
+    options?.topPickCount,
+  ]);
 
   return {
     recommendations: result.recommendations,

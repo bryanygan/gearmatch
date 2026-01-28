@@ -1,3 +1,4 @@
+import { memo, useMemo } from "react";
 import { Check, AlertTriangle, Trophy, Star } from "lucide-react";
 import type { ScoredProduct } from "@/lib/scoring";
 import type { MouseProduct, AudioProduct } from "@/types/products";
@@ -115,18 +116,26 @@ function formatPriceRange(range: [number, number]): string {
   return `$${range[0]} - $${range[1]}`;
 }
 
-const RecommendationCard = ({
+const RecommendationCard = memo(function RecommendationCard({
   scoredProduct,
   rank,
   isTopPick,
   accentColor,
   onViewDetails,
-}: RecommendationCardProps) => {
+}: RecommendationCardProps) {
   const { product, score, breakdown } = scoredProduct;
-  const matchQuality = getMatchQuality(score);
-  const topReasons = getTopReasons(scoredProduct, 3);
-  const topConcerns = getTopConcerns(scoredProduct, 2);
-  const specTags = getSpecTags(product);
+
+  // Memoize expensive calculations
+  const matchQuality = useMemo(() => getMatchQuality(score), [score]);
+  const topReasons = useMemo(
+    () => getTopReasons(scoredProduct, 3),
+    [scoredProduct]
+  );
+  const topConcerns = useMemo(
+    () => getTopConcerns(scoredProduct, 2),
+    [scoredProduct]
+  );
+  const specTags = useMemo(() => getSpecTags(product), [product]);
 
   // Determine if this is the #1 pick
   const isFirstPick = rank === 1 && isTopPick;
@@ -285,6 +294,6 @@ const RecommendationCard = ({
       </div>
     </Card>
   );
-};
+});
 
 export default RecommendationCard;

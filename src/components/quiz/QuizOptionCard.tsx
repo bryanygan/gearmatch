@@ -1,3 +1,4 @@
+import { memo } from "react";
 import { cn } from "@/lib/utils";
 import { LucideIcon } from "lucide-react";
 
@@ -10,14 +11,14 @@ interface QuizOptionCardProps {
   accentColor?: "primary" | "accent";
 }
 
-const QuizOptionCard = ({
+const QuizOptionCard = memo(function QuizOptionCard({
   icon: Icon,
   title,
   description,
   selected,
   onClick,
   accentColor = "primary",
-}: QuizOptionCardProps) => {
+}: QuizOptionCardProps) {
   const accentClasses = {
     primary: {
       border: "border-primary",
@@ -99,6 +100,6 @@ const QuizOptionCard = ({
       </div>
     </button>
   );
-};
+});
 
 export default QuizOptionCard;
