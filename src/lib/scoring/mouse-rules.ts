@@ -15,80 +15,107 @@ import type { MouseQuizAnswers, ScoringRule, RuleResult } from "./types";
 /**
  * Evaluates how well the mouse shape supports the user's grip style.
  */
+/**
+ * Helper to evaluate a single grip style.
+ */
+function evaluateSingleGrip(
+  userGrip: string,
+  supportedGrips: MouseGripFit[],
+  isSafeShape: boolean
+): { points: number; reason?: string; concern?: string } {
+  // Handle relaxed-claw: matches both claw and palm grips
+  if (userGrip === "relaxed-claw") {
+    const matchesClaw = supportedGrips.includes("claw");
+    const matchesPalm = supportedGrips.includes("palm");
+
+    if (matchesClaw && matchesPalm) {
+      return {
+        points: 25,
+        reason: "Excellent for relaxed claw grip with support for both claw and palm positions",
+      };
+    }
+    if (matchesClaw || matchesPalm) {
+      return {
+        points: 18,
+        reason: matchesClaw
+          ? "Good claw grip support for your relaxed claw style"
+          : "Good palm support for your relaxed claw style",
+        concern: matchesClaw
+          ? "May lack palm support for full relaxed claw comfort"
+          : "May lack claw support for full relaxed claw comfort",
+      };
+    }
+    return {
+      points: 5,
+      concern: "Shape may not be ideal for relaxed claw grip",
+    };
+  }
+
+  // Direct grip match
+  const gripKey = userGrip as MouseGripFit;
+  if (supportedGrips.includes(gripKey)) {
+    if (isSafeShape) {
+      return {
+        points: 25,
+        reason: `Great ${userGrip} grip support with a safe, versatile shape`,
+      };
+    }
+    return {
+      points: 22,
+      reason: `Supports ${userGrip} grip well`,
+    };
+  }
+
+  // Partial credit for adjacent grips
+  const adjacentGrips: Record<MouseGripFit, MouseGripFit[]> = {
+    palm: ["claw"],
+    claw: ["palm", "fingertip"],
+    fingertip: ["claw"],
+  };
+
+  const adjacent = adjacentGrips[gripKey] || [];
+  const hasAdjacentSupport = adjacent.some((g) => supportedGrips.includes(g));
+
+  if (hasAdjacentSupport) {
+    return {
+      points: 10,
+      concern: `Designed for ${supportedGrips.join("/")} grip, may require adjustment for ${userGrip}`,
+    };
+  }
+
+  return {
+    points: 3,
+    concern: `Shape is optimized for ${supportedGrips.join("/")} grip, not ideal for ${userGrip}`,
+  };
+}
+
 export const gripFitRule: ScoringRule<MouseQuizAnswers, MouseProduct> = {
   name: "Grip Fit",
   weight: 0.25,
   maxPoints: 25,
   evaluate: (answers, product): RuleResult => {
-    const userGrip = answers["grip-style"];
+    const userGrips = answers["grip-style"];
     const supportedGrips = product.core_attributes.mouse_grip_fit;
+    const isSafeShape = product.core_attributes.mouse_feel_tags.includes("safe_shape");
 
-    // Handle relaxed-claw: matches both claw and palm grips
-    if (userGrip === "relaxed-claw") {
-      const matchesClaw = supportedGrips.includes("claw");
-      const matchesPalm = supportedGrips.includes("palm");
+    // Evaluate each selected grip and take the best score
+    const results = userGrips.map((grip) => evaluateSingleGrip(grip, supportedGrips, isSafeShape));
+    const bestResult = results.reduce((best, current) =>
+      current.points > best.points ? current : best
+    );
 
-      if (matchesClaw && matchesPalm) {
-        return {
-          points: 25,
-          reason: "Excellent for relaxed claw grip with support for both claw and palm positions",
-        };
-      }
-      if (matchesClaw || matchesPalm) {
-        return {
-          points: 18,
-          reason: matchesClaw
-            ? "Good claw grip support for your relaxed claw style"
-            : "Good palm support for your relaxed claw style",
-          concern: matchesClaw
-            ? "May lack palm support for full relaxed claw comfort"
-            : "May lack claw support for full relaxed claw comfort",
-        };
-      }
+    // Bonus for products that support multiple selected grips well
+    const goodMatches = results.filter((r) => r.points >= 18).length;
+    if (goodMatches > 1 && bestResult.points < 25) {
       return {
-        points: 5,
-        concern: "Shape may not be ideal for relaxed claw grip",
+        points: Math.min(bestResult.points + 3, 25),
+        reason: bestResult.reason
+          ? `${bestResult.reason} (versatile for multiple grips)`
+          : "Versatile for multiple grip styles",
       };
     }
 
-    // Direct grip match
-    const gripKey = userGrip as MouseGripFit;
-    if (supportedGrips.includes(gripKey)) {
-      // Check if it's a safe shape for extra confidence
-      const isSafeShape = product.core_attributes.mouse_feel_tags.includes("safe_shape");
-      if (isSafeShape) {
-        return {
-          points: 25,
-          reason: `Great ${userGrip} grip support with a safe, versatile shape`,
-        };
-      }
-      return {
-        points: 22,
-        reason: `Supports ${userGrip} grip well`,
-      };
-    }
-
-    // Partial credit for adjacent grips
-    const adjacentGrips: Record<MouseGripFit, MouseGripFit[]> = {
-      palm: ["claw"],
-      claw: ["palm", "fingertip"],
-      fingertip: ["claw"],
-    };
-
-    const adjacent = adjacentGrips[gripKey] || [];
-    const hasAdjacentSupport = adjacent.some((g) => supportedGrips.includes(g));
-
-    if (hasAdjacentSupport) {
-      return {
-        points: 10,
-        concern: `Designed for ${supportedGrips.join("/")} grip, may require adjustment for ${userGrip}`,
-      };
-    }
-
-    return {
-      points: 3,
-      concern: `Shape is optimized for ${supportedGrips.join("/")} grip, not ideal for ${userGrip}`,
-    };
+    return bestResult;
   },
 };
 
@@ -196,7 +223,7 @@ export const weightPreferenceRule: ScoringRule<MouseQuizAnswers, MouseProduct> =
   weight: 0.2,
   maxPoints: 20,
   evaluate: (answers, product): RuleResult => {
-    const preference = answers["weight-preference"];
+    const preferences = answers["weight-preference"];
     const weightClass = product.core_attributes.mouse_weight_class;
     const actualWeight = product.core_attributes.mouse_weight_g;
 
@@ -220,40 +247,40 @@ export const weightPreferenceRule: ScoringRule<MouseQuizAnswers, MouseProduct> =
       },
     };
 
-    const prefs = weightMap[preference];
-    const isIdeal = prefs.ideal.includes(weightClass);
-    const isAcceptable = prefs.acceptable.includes(weightClass);
-
     // Format weight for display
     const weightDisplay = actualWeight ? `${actualWeight}g` : weightClass;
 
-    if (isIdeal) {
-      if (preference === "ultralight" && actualWeight && actualWeight < 55) {
+    // Check if product matches any selected preference ideally
+    for (const preference of preferences) {
+      const prefs = weightMap[preference];
+      if (prefs.ideal.includes(weightClass)) {
+        if (preference === "ultralight" && actualWeight && actualWeight < 55) {
+          return {
+            points: 20,
+            reason: `Ultra-lightweight at ${weightDisplay} for maximum speed and control`,
+          };
+        }
         return {
-          points: 20,
-          reason: `Ultra-lightweight at ${weightDisplay} for maximum speed and control`,
+          points: 18,
+          reason: `${weightClass.charAt(0).toUpperCase() + weightClass.slice(1)} weight (${weightDisplay}) matches your preference`,
         };
       }
-      return {
-        points: 18,
-        reason: `${weightClass.charAt(0).toUpperCase() + weightClass.slice(1)} weight (${weightDisplay}) matches your ${preference} preference`,
-      };
     }
 
-    if (isAcceptable) {
-      return {
-        points: 12,
-        reason: `${weightClass.charAt(0).toUpperCase() + weightClass.slice(1)} weight (${weightDisplay}) is close to your ${preference} preference`,
-        concern:
-          preference === "ultralight"
-            ? "Slightly heavier than ideal for ultralight preference"
-            : undefined,
-      };
+    // Check if product is acceptable for any selected preference
+    for (const preference of preferences) {
+      const prefs = weightMap[preference];
+      if (prefs.acceptable.includes(weightClass)) {
+        return {
+          points: 12,
+          reason: `${weightClass.charAt(0).toUpperCase() + weightClass.slice(1)} weight (${weightDisplay}) is close to your preferences`,
+        };
+      }
     }
 
     return {
       points: 4,
-      concern: `${weightClass.charAt(0).toUpperCase() + weightClass.slice(1)} weight (${weightDisplay}) differs from your ${preference} preference`,
+      concern: `${weightClass.charAt(0).toUpperCase() + weightClass.slice(1)} weight (${weightDisplay}) differs from your preferences`,
     };
   },
 };
@@ -339,101 +366,127 @@ export const connectionTypeRule: ScoringRule<MouseQuizAnswers, MouseProduct> = {
 /**
  * Evaluates how well the mouse fits the user's primary use case.
  */
+/**
+ * Helper to evaluate a single primary use case.
+ */
+function evaluateSingleUseCaseFit(
+  primaryUse: string,
+  product: MouseProduct
+): { points: number; reason?: string; concern?: string } {
+  const gameFit = product.core_attributes.mouse_game_fit;
+  const buttonCount = product.core_attributes.mouse_button_count_class;
+
+  // Map primary use to relevant game_fit values
+  const useCaseMap: Record<string, { primary: string[]; secondary: string[] }> = {
+    precision: {
+      primary: ["fps"],
+      secondary: ["general"],
+    },
+    productivity: {
+      primary: ["productivity"],
+      secondary: ["general"],
+    },
+    creative: {
+      primary: ["productivity"],
+      secondary: ["general"],
+    },
+    mixed: {
+      primary: ["general"],
+      secondary: ["fps", "productivity", "moba", "mmo"],
+    },
+  };
+
+  const mapping = useCaseMap[primaryUse];
+  if (!mapping) return { points: 5 };
+
+  const hasPrimaryFit = mapping.primary.some((fit) => gameFit.includes(fit as typeof gameFit[number]));
+  const hasSecondaryFit = mapping.secondary.some((fit) => gameFit.includes(fit as typeof gameFit[number]));
+
+  // Bonus considerations
+  const hasScrollFeatures = product.core_attributes.mouse_scroll_features.length > 0;
+  const hasHighButtonCount = buttonCount === "high" || buttonCount === "mmo_grid";
+
+  if (hasPrimaryFit) {
+    let points = 15;
+    let reason = "";
+
+    switch (primaryUse) {
+      case "precision":
+        reason = "Optimized for precision work with excellent sensor and control";
+        break;
+      case "productivity":
+        reason = hasScrollFeatures
+          ? "Great for productivity with enhanced scroll features"
+          : "Designed for productivity workflows";
+        if (hasHighButtonCount) {
+          reason += " and extra programmable buttons";
+        }
+        break;
+      case "creative":
+        reason = "Suitable for creative work with precise control";
+        if (hasScrollFeatures) {
+          reason += " and useful scroll features";
+        }
+        break;
+      case "mixed":
+        points = 13;
+        reason = "Versatile all-rounder for mixed use";
+        if (gameFit.length >= 3) {
+          points = 15;
+          reason = "Highly versatile across multiple use cases";
+        }
+        break;
+    }
+
+    return { points, reason };
+  }
+
+  if (hasSecondaryFit) {
+    return {
+      points: 10,
+      reason: `Works for ${primaryUse} use, though not specifically optimized for it`,
+    };
+  }
+
+  if ((primaryUse === "productivity" || primaryUse === "creative") && hasHighButtonCount) {
+    return {
+      points: 8,
+      reason: "Extra buttons useful for productivity shortcuts",
+      concern: "Not specifically designed for productivity workflows",
+    };
+  }
+
+  return {
+    points: 5,
+    concern: `Primarily designed for ${gameFit.join("/")} rather than ${primaryUse} use`,
+  };
+}
+
 export const useCaseFitRule: ScoringRule<MouseQuizAnswers, MouseProduct> = {
   name: "Use Case Fit",
   weight: 0.15,
   maxPoints: 15,
   evaluate: (answers, product): RuleResult => {
-    const primaryUse = answers["primary-use"];
-    const gameFit = product.core_attributes.mouse_game_fit;
-    const buttonCount = product.core_attributes.mouse_button_count_class;
+    const primaryUses = answers["primary-use"];
 
-    // Map primary use to relevant game_fit values
-    const useCaseMap: Record<string, { primary: string[]; secondary: string[] }> = {
-      precision: {
-        primary: ["fps"],
-        secondary: ["general"],
-      },
-      productivity: {
-        primary: ["productivity"],
-        secondary: ["general"],
-      },
-      creative: {
-        primary: ["productivity"],
-        secondary: ["general"],
-      },
-      mixed: {
-        primary: ["general"],
-        secondary: ["fps", "productivity", "moba", "mmo"],
-      },
-    };
+    // Evaluate each selected use case and take the best score
+    const results = primaryUses.map((use) => evaluateSingleUseCaseFit(use, product));
+    const bestResult = results.reduce((best, current) =>
+      current.points > best.points ? current : best
+    );
 
-    const mapping = useCaseMap[primaryUse];
-    const hasPrimaryFit = mapping.primary.some((fit) => gameFit.includes(fit as typeof gameFit[number]));
-    const hasSecondaryFit = mapping.secondary.some((fit) => gameFit.includes(fit as typeof gameFit[number]));
-
-    // Bonus considerations
-    const hasScrollFeatures = product.core_attributes.mouse_scroll_features.length > 0;
-    const hasHighButtonCount = buttonCount === "high" || buttonCount === "mmo_grid";
-
-    if (hasPrimaryFit) {
-      let points = 15;
-      let reason = "";
-
-      switch (primaryUse) {
-        case "precision":
-          reason = "Optimized for precision work with excellent sensor and control";
-          break;
-        case "productivity":
-          reason = hasScrollFeatures
-            ? "Great for productivity with enhanced scroll features"
-            : "Designed for productivity workflows";
-          if (hasHighButtonCount) {
-            reason += " and extra programmable buttons";
-          }
-          break;
-        case "creative":
-          reason = "Suitable for creative work with precise control";
-          if (hasScrollFeatures) {
-            reason += " and useful scroll features";
-          }
-          break;
-        case "mixed":
-          points = 13; // Slightly lower for generic "general" match
-          reason = "Versatile all-rounder for mixed use";
-          if (gameFit.length >= 3) {
-            points = 15;
-            reason = "Highly versatile across multiple use cases";
-          }
-          break;
-      }
-
-      return { points, reason };
-    }
-
-    if (hasSecondaryFit) {
+    // Bonus for products that fit multiple selected use cases well
+    const goodMatches = results.filter((r) => r.points >= 13).length;
+    if (goodMatches > 1 && bestResult.points < 15) {
       return {
-        points: 10,
-        reason: `Works for ${primaryUse} use, though not specifically optimized for it`,
+        points: Math.min(bestResult.points + 2, 15),
+        reason: bestResult.reason
+          ? `${bestResult.reason} (versatile for multiple uses)`
+          : "Versatile for multiple use cases",
       };
     }
 
-    // Check if button count helps for certain use cases
-    if (
-      (primaryUse === "productivity" || primaryUse === "creative") &&
-      hasHighButtonCount
-    ) {
-      return {
-        points: 8,
-        reason: "Extra buttons useful for productivity shortcuts",
-        concern: "Not specifically designed for productivity workflows",
-      };
-    }
-
-    return {
-      points: 5,
-      concern: `Primarily designed for ${gameFit.join("/")} rather than ${primaryUse} use`,
-    };
+    return bestResult;
   },
 };
 

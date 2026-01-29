@@ -9,6 +9,7 @@ interface QuizOptionCardProps {
   selected: boolean;
   onClick: () => void;
   accentColor?: "primary" | "accent" | "secondary";
+  multiSelect?: boolean;
 }
 
 const QuizOptionCard = memo(function QuizOptionCard({
@@ -18,6 +19,7 @@ const QuizOptionCard = memo(function QuizOptionCard({
   selected,
   onClick,
   accentColor = "primary",
+  multiSelect = false,
 }: QuizOptionCardProps) {
   const accentClasses = {
     primary: {
@@ -60,19 +62,32 @@ const QuizOptionCard = memo(function QuizOptionCard({
           : "border-border bg-card hover:border-muted-foreground/50"
       )}
     >
-      {/* Selection indicator */}
+      {/* Selection indicator - checkbox for multiSelect, radio for single */}
       <div
         className={cn(
-          "absolute right-3 top-3 h-5 w-5 rounded-full border-2 transition-all duration-200",
+          "absolute right-3 top-3 h-5 w-5 border-2 transition-all duration-200",
+          multiSelect ? "rounded-md" : "rounded-full",
           selected
             ? `${accent.border} ${accent.bg}`
             : "border-muted-foreground/30"
         )}
       >
         {selected && (
-          <div
-            className={cn("absolute inset-1 rounded-full", accent.fill)}
-          />
+          multiSelect ? (
+            <svg
+              className={cn("absolute inset-0.5 h-3.5 w-3.5", accent.iconText)}
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              strokeWidth={3}
+            >
+              <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
+            </svg>
+          ) : (
+            <div
+              className={cn("absolute inset-1 rounded-full", accent.fill)}
+            />
+          )
         )}
       </div>
 

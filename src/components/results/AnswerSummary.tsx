@@ -116,16 +116,28 @@ const keyboardAnswerLabels: Record<keyof KeyboardQuizAnswers, Record<string, str
   },
 };
 
-function getMouseLabel(key: keyof MouseQuizAnswers, value: string): string {
-  return mouseAnswerLabels[key]?.[value] || value;
+function getMouseLabel(key: keyof MouseQuizAnswers, value: string | string[]): string {
+  const labels = mouseAnswerLabels[key];
+  if (Array.isArray(value)) {
+    return value.map((v) => labels?.[v] || v).join(", ");
+  }
+  return labels?.[value] || value;
 }
 
-function getAudioLabel(key: keyof AudioQuizAnswers, value: string): string {
-  return audioAnswerLabels[key]?.[value] || value;
+function getAudioLabel(key: keyof AudioQuizAnswers, value: string | string[]): string {
+  const labels = audioAnswerLabels[key];
+  if (Array.isArray(value)) {
+    return value.map((v) => labels?.[v] || v).join(", ");
+  }
+  return labels?.[value] || value;
 }
 
-function getKeyboardLabel(key: keyof KeyboardQuizAnswers, value: string): string {
-  return keyboardAnswerLabels[key]?.[value] || value;
+function getKeyboardLabel(key: keyof KeyboardQuizAnswers, value: string | string[]): string {
+  const labels = keyboardAnswerLabels[key];
+  if (Array.isArray(value)) {
+    return value.map((v) => labels?.[v] || v).join(", ");
+  }
+  return labels?.[value] || value;
 }
 
 const AnswerSummary = ({ answers, category }: AnswerSummaryProps) => {

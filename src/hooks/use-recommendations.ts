@@ -56,8 +56,11 @@ export function useMouseRecommendations(
   answers: MouseQuizAnswers | null,
   options?: RecommendationOptions
 ): UseMouseRecommendationsResult {
-  // Use individual answer values as dependencies for better performance
-  // (avoids JSON.stringify overhead on every render)
+  // Stringify array values for stable dependency comparison
+  const gripStyleKey = answers?.["grip-style"]?.join(",") ?? "";
+  const weightPrefKey = answers?.["weight-preference"]?.join(",") ?? "";
+  const primaryUseKey = answers?.["primary-use"]?.join(",") ?? "";
+
   const result = useMemo(() => {
     if (!answers) {
       return { recommendations: null, error: null };
@@ -73,10 +76,10 @@ export function useMouseRecommendations(
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [
     answers?.["hand-size"],
-    answers?.["grip-style"],
-    answers?.["weight-preference"],
+    gripStyleKey,
+    weightPrefKey,
     answers?.wireless,
-    answers?.["primary-use"],
+    primaryUseKey,
     options?.minScore,
     options?.topPickCount,
   ]);
@@ -126,8 +129,12 @@ export function useAudioRecommendations(
   answers: AudioQuizAnswers | null,
   options?: RecommendationOptions
 ): UseAudioRecommendationsResult {
-  // Use individual answer values as dependencies for better performance
-  // (avoids JSON.stringify overhead on every render)
+  // Stringify array values for stable dependency comparison
+  const primaryUseKey = answers?.["primary-use"]?.join(",") ?? "";
+  const formFactorKey = answers?.["form-factor"]?.join(",") ?? "";
+  const sessionLengthKey = answers?.["session-length"]?.join(",") ?? "";
+  const budgetKey = answers?.budget?.join(",") ?? "";
+
   const result = useMemo(() => {
     if (!answers) {
       return { recommendations: null, error: null };
@@ -142,11 +149,11 @@ export function useAudioRecommendations(
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [
-    answers?.["primary-use"],
-    answers?.["form-factor"],
+    primaryUseKey,
+    formFactorKey,
     answers?.["mic-needs"],
-    answers?.["session-length"],
-    answers?.budget,
+    sessionLengthKey,
+    budgetKey,
     options?.minScore,
     options?.topPickCount,
   ]);
@@ -232,8 +239,13 @@ export function useKeyboardRecommendations(
   answers: KeyboardQuizAnswers | null,
   options?: RecommendationOptions
 ): UseKeyboardRecommendationsResult {
-  // Use individual answer values as dependencies for better performance
-  // (avoids JSON.stringify overhead on every render)
+  // Stringify array values for stable dependency comparison
+  const primaryUseKey = answers?.["primary-use"]?.join(",") ?? "";
+  const formFactorKey = answers?.["form-factor"]?.join(",") ?? "";
+  const switchTypeKey = answers?.["switch-type"]?.join(",") ?? "";
+  const priorityFeatureKey = answers?.["priority-feature"]?.join(",") ?? "";
+  const budgetKey = answers?.budget?.join(",") ?? "";
+
   const result = useMemo(() => {
     if (!answers) {
       return { recommendations: null, error: null };
@@ -248,13 +260,13 @@ export function useKeyboardRecommendations(
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [
-    answers?.["primary-use"],
-    answers?.["form-factor"],
-    answers?.["switch-type"],
+    primaryUseKey,
+    formFactorKey,
+    switchTypeKey,
     answers?.["gaming-features"],
     answers?.connectivity,
-    answers?.["priority-feature"],
-    answers?.budget,
+    priorityFeatureKey,
+    budgetKey,
     options?.minScore,
     options?.topPickCount,
   ]);

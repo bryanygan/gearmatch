@@ -24,6 +24,7 @@ interface QuizQuestion {
   id: string;
   title: string;
   subtitle: string;
+  multiSelect?: boolean;
   options: {
     id: string;
     icon: typeof Headphones;
@@ -36,7 +37,8 @@ const questions: QuizQuestion[] = [
   {
     id: "primary-use",
     title: "What's your main use case?",
-    subtitle: "This helps us prioritize features that matter most to you",
+    subtitle: "Select all that apply",
+    multiSelect: true,
     options: [
       {
         id: "competitive",
@@ -67,7 +69,8 @@ const questions: QuizQuestion[] = [
   {
     id: "form-factor",
     title: "What form factor do you prefer?",
-    subtitle: "Each has tradeoffs for comfort, sound, and portability",
+    subtitle: "Select all you'd consider",
+    multiSelect: true,
     options: [
       {
         id: "over-ear",
@@ -123,7 +126,8 @@ const questions: QuizQuestion[] = [
   {
     id: "session-length",
     title: "How long are your listening sessions?",
-    subtitle: "Longer sessions need more comfort-focused options",
+    subtitle: "Select all that apply",
+    multiSelect: true,
     options: [
       {
         id: "short",
@@ -154,7 +158,8 @@ const questions: QuizQuestion[] = [
   {
     id: "budget",
     title: "What's your budget range?",
-    subtitle: "Great options exist at every price point",
+    subtitle: "Select all ranges you'd consider",
+    multiSelect: true,
     options: [
       {
         id: "budget",
@@ -187,23 +192,43 @@ const questions: QuizQuestion[] = [
 const AudioQuiz = () => {
   const navigate = useNavigate();
   const [currentStep, setCurrentStep] = useState(1);
-  const [answers, setAnswers] = useState<Record<string, string>>({});
+  const [answers, setAnswers] = useState<Record<string, string | string[]>>({});
 
   const currentQuestion = questions[currentStep - 1];
   const isLastQuestion = currentStep === questions.length;
-  const hasAnswer = answers[currentQuestion.id];
+  const currentAnswer = answers[currentQuestion.id];
+  const hasAnswer = currentQuestion.multiSelect
+    ? Array.isArray(currentAnswer) && currentAnswer.length > 0
+    : Boolean(currentAnswer);
 
   const handleSelect = (optionId: string) => {
-    setAnswers((prev) => ({
-      ...prev,
-      [currentQuestion.id]: optionId,
-    }));
+    if (currentQuestion.multiSelect) {
+      setAnswers((prev) => {
+        const current = prev[currentQuestion.id];
+        const currentArray = Array.isArray(current) ? current : [];
+        const isSelected = currentArray.includes(optionId);
+        return {
+          ...prev,
+          [currentQuestion.id]: isSelected
+            ? currentArray.filter((id) => id !== optionId)
+            : [...currentArray, optionId],
+        };
+      });
+    } else {
+      setAnswers((prev) => ({
+        ...prev,
+        [currentQuestion.id]: optionId,
+      }));
+    }
   };
 
   const handleNext = () => {
     if (isLastQuestion) {
       // Navigate to results page with answers encoded in URL
-      const params = new URLSearchParams(answers);
+      const params = new URLSearchParams();
+      Object.entries(answers).forEach(([key, value]) => {
+        params.set(key, Array.isArray(value) ? value.join(",") : value);
+      });
       navigate(`/quiz/audio/results?${params.toString()}`);
     } else {
       setCurrentStep((prev) => prev + 1);
@@ -248,17 +273,24 @@ const AudioQuiz = () => {
               : "grid-cols-1 sm:grid-cols-2"
           )}
         >
-          {currentQuestion.options.map((option) => (
-            <QuizOptionCard
-              key={option.id}
-              icon={option.icon}
-              title={option.title}
-              description={option.description}
-              selected={answers[currentQuestion.id] === option.id}
-              onClick={() => handleSelect(option.id)}
-              accentColor="accent"
-            />
-          ))}
+          {currentQuestion.options.map((option) => {
+            const currentAnswer = answers[currentQuestion.id];
+            const isSelected = currentQuestion.multiSelect
+              ? Array.isArray(currentAnswer) && currentAnswer.includes(option.id)
+              : currentAnswer === option.id;
+            return (
+              <QuizOptionCard
+                key={option.id}
+                icon={option.icon}
+                title={option.title}
+                description={option.description}
+                selected={isSelected}
+                onClick={() => handleSelect(option.id)}
+                accentColor="accent"
+                multiSelect={currentQuestion.multiSelect}
+              />
+            );
+          })}
         </div>
 
         {/* Continue button */}

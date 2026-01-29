@@ -14,10 +14,10 @@ import { z } from "zod";
 
 export const mouseAnswersSchema = z.object({
   "hand-size": z.enum(["small", "medium", "large"]),
-  "grip-style": z.enum(["palm", "claw", "fingertip", "relaxed-claw"]),
-  "weight-preference": z.enum(["ultralight", "light", "medium", "heavy"]),
+  "grip-style": z.array(z.enum(["palm", "claw", "fingertip", "relaxed-claw"])).min(1),
+  "weight-preference": z.array(z.enum(["ultralight", "light", "medium", "heavy"])).min(1),
   wireless: z.enum(["wireless", "wired", "either"]),
-  "primary-use": z.enum(["precision", "productivity", "creative", "mixed"]),
+  "primary-use": z.array(z.enum(["precision", "productivity", "creative", "mixed"])).min(1),
 });
 
 export type ValidatedMouseAnswers = z.infer<typeof mouseAnswersSchema>;
@@ -27,11 +27,11 @@ export type ValidatedMouseAnswers = z.infer<typeof mouseAnswersSchema>;
 // =============================================================================
 
 export const audioAnswersSchema = z.object({
-  "primary-use": z.enum(["competitive", "immersive", "mixed", "streaming"]),
-  "form-factor": z.enum(["over-ear", "over-ear-headphone", "iem", "open-back"]),
+  "primary-use": z.array(z.enum(["competitive", "immersive", "mixed", "streaming"])).min(1),
+  "form-factor": z.array(z.enum(["over-ear", "over-ear-headphone", "iem", "open-back"])).min(1),
   "mic-needs": z.enum(["essential", "nice-to-have", "not-needed"]),
-  "session-length": z.enum(["short", "medium", "long", "all-day"]),
-  budget: z.enum(["budget", "mid-range", "premium", "no-limit"]),
+  "session-length": z.array(z.enum(["short", "medium", "long", "all-day"])).min(1),
+  budget: z.array(z.enum(["budget", "mid-range", "premium", "no-limit"])).min(1),
 });
 
 export type ValidatedAudioAnswers = z.infer<typeof audioAnswersSchema>;
@@ -41,14 +41,14 @@ export type ValidatedAudioAnswers = z.infer<typeof audioAnswersSchema>;
 // =============================================================================
 
 export const keyboardAnswersSchema = z.object({
-  "primary-use": z.enum([
+  "primary-use": z.array(z.enum([
     "competitive-gaming",
     "casual-gaming",
     "productivity",
     "programming",
-  ]),
-  "form-factor": z.enum(["full-size", "tkl", "75-percent", "60-65-percent"]),
-  "switch-type": z.enum(["linear", "tactile", "clicky", "no-preference"]),
+  ])).min(1),
+  "form-factor": z.array(z.enum(["full-size", "tkl", "75-percent", "60-65-percent"])).min(1),
+  "switch-type": z.array(z.enum(["linear", "tactile", "clicky", "no-preference"])).min(1),
   "gaming-features": z.enum(["essential", "nice-to-have", "not-important"]),
   connectivity: z.enum([
     "wireless-essential",
@@ -56,13 +56,13 @@ export const keyboardAnswersSchema = z.object({
     "wired-preferred",
     "no-preference",
   ]),
-  "priority-feature": z.enum([
+  "priority-feature": z.array(z.enum([
     "performance",
     "typing-feel",
     "customization",
     "quiet",
-  ]),
-  budget: z.enum(["budget", "mid-range", "premium", "enthusiast"]),
+  ])).min(1),
+  budget: z.array(z.enum(["budget", "mid-range", "premium", "enthusiast"])).min(1),
 });
 
 export type ValidatedKeyboardAnswers = z.infer<typeof keyboardAnswersSchema>;
@@ -117,14 +117,36 @@ export function validateKeyboardAnswers(
 }
 
 /**
+ * Keys that should be parsed as arrays (multi-select questions).
+ */
+const MULTI_SELECT_KEYS = new Set([
+  // Mouse
+  "grip-style",
+  "weight-preference",
+  "primary-use",
+  // Audio
+  "form-factor",
+  "session-length",
+  "budget",
+  // Keyboard
+  "switch-type",
+  "priority-feature",
+]);
+
+/**
  * Converts URLSearchParams to a plain object for validation.
+ * Multi-select fields are parsed from comma-separated values into arrays.
  */
 export function searchParamsToObject(
   params: URLSearchParams
-): Record<string, string> {
-  const obj: Record<string, string> = {};
+): Record<string, string | string[]> {
+  const obj: Record<string, string | string[]> = {};
   params.forEach((value, key) => {
-    obj[key] = value;
+    if (MULTI_SELECT_KEYS.has(key)) {
+      obj[key] = value.split(",").filter(Boolean);
+    } else {
+      obj[key] = value;
+    }
   });
   return obj;
 }

@@ -30,6 +30,7 @@ interface QuizQuestion {
   id: string;
   title: string;
   subtitle: string;
+  multiSelect?: boolean;
   options: {
     id: string;
     icon: typeof Keyboard;
@@ -42,7 +43,8 @@ const questions: QuizQuestion[] = [
   {
     id: "primary-use",
     title: "What's your primary use case?",
-    subtitle: "This helps us prioritize the features that matter most to you",
+    subtitle: "Select all that apply",
+    multiSelect: true,
     options: [
       {
         id: "competitive-gaming",
@@ -73,7 +75,8 @@ const questions: QuizQuestion[] = [
   {
     id: "form-factor",
     title: "What size keyboard do you prefer?",
-    subtitle: "Smaller = more desk space, larger = more dedicated keys",
+    subtitle: "Select all sizes you'd consider",
+    multiSelect: true,
     options: [
       {
         id: "full-size",
@@ -104,7 +107,8 @@ const questions: QuizQuestion[] = [
   {
     id: "switch-type",
     title: "What switch feel do you prefer?",
-    subtitle: "Each type has a distinct typing and gaming experience",
+    subtitle: "Select all that interest you",
+    multiSelect: true,
     options: [
       {
         id: "linear",
@@ -191,7 +195,8 @@ const questions: QuizQuestion[] = [
   {
     id: "priority-feature",
     title: "What's most important to you?",
-    subtitle: "If you could only optimize for one thing...",
+    subtitle: "Select all that matter to you",
+    multiSelect: true,
     options: [
       {
         id: "performance",
@@ -222,7 +227,8 @@ const questions: QuizQuestion[] = [
   {
     id: "budget",
     title: "What's your budget range?",
-    subtitle: "Great keyboards exist at every price point",
+    subtitle: "Select all ranges you'd consider",
+    multiSelect: true,
     options: [
       {
         id: "budget",
@@ -255,23 +261,43 @@ const questions: QuizQuestion[] = [
 const KeyboardQuiz = () => {
   const navigate = useNavigate();
   const [currentStep, setCurrentStep] = useState(1);
-  const [answers, setAnswers] = useState<Record<string, string>>({});
+  const [answers, setAnswers] = useState<Record<string, string | string[]>>({});
 
   const currentQuestion = questions[currentStep - 1];
   const isLastQuestion = currentStep === questions.length;
-  const hasAnswer = answers[currentQuestion.id];
+  const currentAnswer = answers[currentQuestion.id];
+  const hasAnswer = currentQuestion.multiSelect
+    ? Array.isArray(currentAnswer) && currentAnswer.length > 0
+    : Boolean(currentAnswer);
 
   const handleSelect = (optionId: string) => {
-    setAnswers((prev) => ({
-      ...prev,
-      [currentQuestion.id]: optionId,
-    }));
+    if (currentQuestion.multiSelect) {
+      setAnswers((prev) => {
+        const current = prev[currentQuestion.id];
+        const currentArray = Array.isArray(current) ? current : [];
+        const isSelected = currentArray.includes(optionId);
+        return {
+          ...prev,
+          [currentQuestion.id]: isSelected
+            ? currentArray.filter((id) => id !== optionId)
+            : [...currentArray, optionId],
+        };
+      });
+    } else {
+      setAnswers((prev) => ({
+        ...prev,
+        [currentQuestion.id]: optionId,
+      }));
+    }
   };
 
   const handleNext = () => {
     if (isLastQuestion) {
       // Navigate to results page with answers encoded in URL
-      const params = new URLSearchParams(answers);
+      const params = new URLSearchParams();
+      Object.entries(answers).forEach(([key, value]) => {
+        params.set(key, Array.isArray(value) ? value.join(",") : value);
+      });
       navigate(`/quiz/keyboard/results?${params.toString()}`);
     } else {
       setCurrentStep((prev) => prev + 1);
@@ -316,17 +342,24 @@ const KeyboardQuiz = () => {
               : "grid-cols-1 sm:grid-cols-2"
           )}
         >
-          {currentQuestion.options.map((option) => (
-            <QuizOptionCard
-              key={option.id}
-              icon={option.icon}
-              title={option.title}
-              description={option.description}
-              selected={answers[currentQuestion.id] === option.id}
-              onClick={() => handleSelect(option.id)}
-              accentColor="secondary"
-            />
-          ))}
+          {currentQuestion.options.map((option) => {
+            const currentAnswer = answers[currentQuestion.id];
+            const isSelected = currentQuestion.multiSelect
+              ? Array.isArray(currentAnswer) && currentAnswer.includes(option.id)
+              : currentAnswer === option.id;
+            return (
+              <QuizOptionCard
+                key={option.id}
+                icon={option.icon}
+                title={option.title}
+                description={option.description}
+                selected={isSelected}
+                onClick={() => handleSelect(option.id)}
+                accentColor="secondary"
+                multiSelect={currentQuestion.multiSelect}
+              />
+            );
+          })}
         </div>
 
         {/* Continue button */}

@@ -15,134 +15,109 @@ import type { KeyboardQuizAnswers, ScoringRule, RuleResult } from "./types";
 /**
  * Evaluates how well the keyboard matches the user's primary use case.
  */
+/**
+ * Helper to evaluate a single use case and return score info.
+ */
+function evaluateSinglePrimaryUse(
+  use: string,
+  product: KeyboardProduct
+): { points: number; reason?: string; concern?: string } {
+  const useFit = product.core_attributes.keyboard_use_fit;
+  const features = product.core_attributes.keyboard_feature_tags;
+  const gamingScore = product.core_attributes.keyboard_gaming_score;
+  const officeScore = product.core_attributes.keyboard_office_score;
+  const programmingScore = product.core_attributes.keyboard_programming_score;
+
+  if (use === "competitive-gaming") {
+    const hasRapidTrigger = product.core_attributes.keyboard_supports_rapid_trigger;
+    const hasLowLatency = product.core_attributes.latency_class === "very_low";
+
+    if (hasRapidTrigger && hasLowLatency) {
+      return { points: 25, reason: "Rapid Trigger and ultra-low latency for competitive gaming" };
+    }
+    if (hasLowLatency && (gamingScore ?? 0) >= 8.5) {
+      return { points: 22, reason: "Excellent gaming performance with low latency" };
+    }
+    if (useFit.includes("competitive_gaming")) {
+      return { points: 18, reason: "Designed for competitive gaming" };
+    }
+    if (useFit.includes("casual_gaming")) {
+      return { points: 12, concern: "Better suited for casual gaming than competitive" };
+    }
+    return { points: 5, concern: "Not optimized for competitive gaming" };
+  }
+
+  if (use === "casual-gaming") {
+    if (useFit.includes("casual_gaming") || useFit.includes("competitive_gaming")) {
+      const hasRGB = product.core_attributes.keyboard_has_rgb;
+      if ((gamingScore ?? 0) >= 8 && hasRGB) {
+        return { points: 25, reason: "Great gaming performance with RGB customization" };
+      }
+      return { points: 22, reason: "Well-suited for gaming" };
+    }
+    if ((gamingScore ?? 0) >= 7) {
+      return { points: 15, reason: "Capable gaming performance" };
+    }
+    return { points: 8, concern: "Not primarily designed for gaming" };
+  }
+
+  if (use === "productivity") {
+    if (useFit.includes("office") || useFit.includes("productivity")) {
+      const isQuiet = features.includes("quiet") ||
+        (product.core_attributes.keyboard_typing_noise_dba ?? 100) < 45;
+      if ((officeScore ?? 0) >= 8 && isQuiet) {
+        return { points: 25, reason: "Excellent for office use with quiet operation" };
+      }
+      return { points: 22, reason: "Well-suited for productivity work" };
+    }
+    if ((officeScore ?? 0) >= 7.5) {
+      return { points: 18, reason: "Good productivity keyboard" };
+    }
+    return { points: 10, concern: "May not be ideal for office/productivity use" };
+  }
+
+  if (use === "programming") {
+    if (useFit.includes("programming") || useFit.includes("typing")) {
+      const hasGoodTyping = features.includes("gasket_mount") || features.includes("premium");
+      if ((programmingScore ?? 0) >= 8 && hasGoodTyping) {
+        return { points: 25, reason: "Excellent typing experience for programming" };
+      }
+      return { points: 22, reason: "Well-suited for programming and typing" };
+    }
+    if ((programmingScore ?? 0) >= 7.5) {
+      return { points: 18, reason: "Good for programming work" };
+    }
+    return { points: 10, concern: "May not provide ideal typing experience for programming" };
+  }
+
+  return { points: 10 };
+}
+
 export const primaryUseRule: ScoringRule<KeyboardQuizAnswers, KeyboardProduct> = {
   name: "Primary Use",
   weight: 0.25,
   maxPoints: 25,
   evaluate: (answers, product): RuleResult => {
-    const use = answers["primary-use"];
-    const useFit = product.core_attributes.keyboard_use_fit;
-    const features = product.core_attributes.keyboard_feature_tags;
-    const gamingScore = product.core_attributes.keyboard_gaming_score;
-    const officeScore = product.core_attributes.keyboard_office_score;
-    const programmingScore = product.core_attributes.keyboard_programming_score;
+    const uses = answers["primary-use"];
 
-    if (use === "competitive-gaming") {
-      // Need rapid trigger, low latency, good gaming features
-      const hasRapidTrigger = product.core_attributes.keyboard_supports_rapid_trigger;
-      const hasLowLatency = product.core_attributes.latency_class === "very_low";
-      const hasGamingFeatures = features.includes("gaming_grade_latency");
+    // Evaluate each selected use and take the best score
+    const results = uses.map((use) => evaluateSinglePrimaryUse(use, product));
+    const bestResult = results.reduce((best, current) =>
+      current.points > best.points ? current : best
+    );
 
-      if (hasRapidTrigger && hasLowLatency) {
-        return {
-          points: 25,
-          reason: "Rapid Trigger and ultra-low latency for competitive gaming",
-        };
-      }
-      if (hasLowLatency && (gamingScore ?? 0) >= 8.5) {
-        return {
-          points: 22,
-          reason: "Excellent gaming performance with low latency",
-        };
-      }
-      if (useFit.includes("competitive_gaming")) {
-        return {
-          points: 18,
-          reason: "Designed for competitive gaming",
-        };
-      }
-      if (useFit.includes("casual_gaming")) {
-        return {
-          points: 12,
-          concern: "Better suited for casual gaming than competitive",
-        };
-      }
+    // Bonus for products that satisfy multiple selected uses well
+    const goodMatches = results.filter((r) => r.points >= 18).length;
+    if (goodMatches > 1 && bestResult.points < 25) {
       return {
-        points: 5,
-        concern: "Not optimized for competitive gaming",
+        points: Math.min(bestResult.points + 2, 25),
+        reason: bestResult.reason
+          ? `${bestResult.reason} (versatile for multiple uses)`
+          : "Versatile for multiple uses",
       };
     }
 
-    if (use === "casual-gaming") {
-      if (useFit.includes("casual_gaming") || useFit.includes("competitive_gaming")) {
-        const hasRGB = product.core_attributes.keyboard_has_rgb;
-        if ((gamingScore ?? 0) >= 8 && hasRGB) {
-          return {
-            points: 25,
-            reason: "Great gaming performance with RGB customization",
-          };
-        }
-        return {
-          points: 22,
-          reason: "Well-suited for gaming",
-        };
-      }
-      if ((gamingScore ?? 0) >= 7) {
-        return {
-          points: 15,
-          reason: "Capable gaming performance",
-        };
-      }
-      return {
-        points: 8,
-        concern: "Not primarily designed for gaming",
-      };
-    }
-
-    if (use === "productivity") {
-      if (useFit.includes("office") || useFit.includes("productivity")) {
-        const isQuiet = features.includes("quiet") ||
-          (product.core_attributes.keyboard_typing_noise_dba ?? 100) < 45;
-        if ((officeScore ?? 0) >= 8 && isQuiet) {
-          return {
-            points: 25,
-            reason: "Excellent for office use with quiet operation",
-          };
-        }
-        return {
-          points: 22,
-          reason: "Well-suited for productivity work",
-        };
-      }
-      if ((officeScore ?? 0) >= 7.5) {
-        return {
-          points: 18,
-          reason: "Good productivity keyboard",
-        };
-      }
-      return {
-        points: 10,
-        concern: "May not be ideal for office/productivity use",
-      };
-    }
-
-    if (use === "programming") {
-      if (useFit.includes("programming") || useFit.includes("typing")) {
-        const hasGoodTyping = features.includes("gasket_mount") || features.includes("premium");
-        if ((programmingScore ?? 0) >= 8 && hasGoodTyping) {
-          return {
-            points: 25,
-            reason: "Excellent typing experience for programming",
-          };
-        }
-        return {
-          points: 22,
-          reason: "Well-suited for programming and typing",
-        };
-      }
-      if ((programmingScore ?? 0) >= 7.5) {
-        return {
-          points: 18,
-          reason: "Good for programming work",
-        };
-      }
-      return {
-        points: 10,
-        concern: "May not provide ideal typing experience for programming",
-      };
-    }
-
-    return { points: 10 };
+    return bestResult;
   },
 };
 
@@ -158,7 +133,7 @@ export const formFactorRule: ScoringRule<KeyboardQuizAnswers, KeyboardProduct> =
   weight: 0.2,
   maxPoints: 20,
   evaluate: (answers, product): RuleResult => {
-    const preference = answers["form-factor"];
+    const preferences = answers["form-factor"];
     const formFactor = product.core_attributes.keyboard_form_factor;
 
     const matches: Record<string, string[]> = {
@@ -175,24 +150,30 @@ export const formFactorRule: ScoringRule<KeyboardQuizAnswers, KeyboardProduct> =
       "60-65-percent": ["75_percent"],
     };
 
-    if (matches[preference]?.includes(formFactor)) {
-      return {
-        points: 20,
-        reason: `Perfect ${formFactor.replace(/_/g, " ").replace("percent", "%")} layout match`,
-      };
+    // Check for perfect match with any selected preference
+    for (const preference of preferences) {
+      if (matches[preference]?.includes(formFactor)) {
+        return {
+          points: 20,
+          reason: `Perfect ${formFactor.replace(/_/g, " ").replace("percent", "%")} layout match`,
+        };
+      }
     }
 
-    if (acceptable[preference]?.includes(formFactor)) {
-      return {
-        points: 14,
-        reason: `Close size match with ${formFactor.replace(/_/g, " ").replace("percent", "%")} layout`,
-        concern: "Slightly different layout than preferred",
-      };
+    // Check for acceptable match with any selected preference
+    for (const preference of preferences) {
+      if (acceptable[preference]?.includes(formFactor)) {
+        return {
+          points: 14,
+          reason: `Close size match with ${formFactor.replace(/_/g, " ").replace("percent", "%")} layout`,
+          concern: "Slightly different layout than preferred",
+        };
+      }
     }
 
     return {
       points: 5,
-      concern: `Layout (${formFactor.replace(/_/g, " ")}) differs from your ${preference} preference`,
+      concern: `Layout (${formFactor.replace(/_/g, " ")}) differs from your preferences`,
     };
   },
 };
@@ -209,11 +190,12 @@ export const switchTypeRule: ScoringRule<KeyboardQuizAnswers, KeyboardProduct> =
   weight: 0.15,
   maxPoints: 15,
   evaluate: (answers, product): RuleResult => {
-    const preference = answers["switch-type"];
+    const preferences = answers["switch-type"];
     const switchFeel = product.core_attributes.keyboard_switch_feel;
     const isHotSwap = product.core_attributes.keyboard_hot_swappable;
 
-    if (preference === "no-preference") {
+    // If user selected "no-preference"
+    if (preferences.includes("no-preference")) {
       if (isHotSwap) {
         return {
           points: 15,
@@ -226,7 +208,10 @@ export const switchTypeRule: ScoringRule<KeyboardQuizAnswers, KeyboardProduct> =
       };
     }
 
-    if (preference === switchFeel) {
+    // Check if product matches any selected preference
+    const matchesPreference = preferences.includes(switchFeel as typeof preferences[number]);
+
+    if (matchesPreference) {
       if (isHotSwap) {
         return {
           points: 15,
@@ -244,13 +229,13 @@ export const switchTypeRule: ScoringRule<KeyboardQuizAnswers, KeyboardProduct> =
       return {
         points: 10,
         reason: "Hot-swappable — can install your preferred switch type",
-        concern: `Stock switches are ${switchFeel}, not ${preference}`,
+        concern: `Stock switches are ${switchFeel}`,
       };
     }
 
     return {
       points: 4,
-      concern: `Has ${switchFeel} switches, you preferred ${preference}`,
+      concern: `Has ${switchFeel} switches, you preferred ${preferences.join(" or ")}`,
     };
   },
 };
@@ -455,79 +440,107 @@ export const connectivityRule: ScoringRule<KeyboardQuizAnswers, KeyboardProduct>
 /**
  * Evaluates the user's single most important feature priority.
  */
+/**
+ * Helper to evaluate a single priority feature.
+ */
+function evaluateSinglePriority(
+  priority: string,
+  product: KeyboardProduct
+): { points: number; reason?: string; concern?: string } {
+  const features = product.core_attributes.keyboard_feature_tags;
+  const latency = product.core_attributes.keyboard_single_key_latency_ms ?? 10;
+  const noise = product.core_attributes.keyboard_typing_noise_dba ?? 60;
+  const isHotSwap = product.core_attributes.keyboard_hot_swappable;
+  const hasRGB = product.core_attributes.keyboard_has_rgb;
+  const hasQMK = features.includes("qmk_via");
+  const mountStyle = product.core_attributes.keyboard_mount_style;
+
+  if (priority === "performance") {
+    if (latency <= 1) {
+      return { points: 10, reason: "Top-tier latency performance" };
+    }
+    if (latency <= 3) {
+      return { points: 8, reason: "Excellent performance" };
+    }
+    if (latency <= 5) {
+      return { points: 6, reason: "Good performance" };
+    }
+    return { points: 3, concern: "Higher latency than performance-focused options" };
+  }
+
+  if (priority === "typing-feel") {
+    const hasGasket = mountStyle === "gasket" || mountStyle === "double_gasket";
+    const isPremium = features.includes("premium") || features.includes("enthusiast");
+
+    if (hasGasket && isPremium) {
+      return { points: 10, reason: "Premium gasket-mount typing experience" };
+    }
+    if (hasGasket) {
+      return { points: 8, reason: "Gasket-mounted for better typing feel" };
+    }
+    if (isPremium) {
+      return { points: 7, reason: "Premium build quality" };
+    }
+    return { points: 4, concern: "Standard typing feel, not premium-focused" };
+  }
+
+  if (priority === "customization") {
+    let score = 0;
+    const reasons: string[] = [];
+
+    if (isHotSwap) { score += 4; reasons.push("hot-swap"); }
+    if (hasRGB) { score += 2; reasons.push("RGB"); }
+    if (hasQMK) { score += 3; reasons.push("QMK/VIA"); }
+    if (features.includes("onboard_memory")) { score += 1; reasons.push("profiles"); }
+
+    return {
+      points: Math.min(score, 10),
+      reason: reasons.length > 0 ? `Customizable: ${reasons.join(", ")}` : undefined,
+      concern: score < 5 ? "Limited customization options" : undefined,
+    };
+  }
+
+  if (priority === "quiet") {
+    if (noise < 40) {
+      return { points: 10, reason: "Very quiet operation" };
+    }
+    if (noise < 50) {
+      return { points: 8, reason: "Quiet typing" };
+    }
+    if (noise < 55) {
+      return { points: 5, reason: "Moderate noise level" };
+    }
+    return { points: 2, concern: "Louder than quiet-focused options" };
+  }
+
+  return { points: 5 };
+}
+
 export const priorityFeatureRule: ScoringRule<KeyboardQuizAnswers, KeyboardProduct> = {
   name: "Priority Feature",
   weight: 0.1,
   maxPoints: 10,
   evaluate: (answers, product): RuleResult => {
-    const priority = answers["priority-feature"];
-    const features = product.core_attributes.keyboard_feature_tags;
-    const latency = product.core_attributes.keyboard_single_key_latency_ms ?? 10;
-    const noise = product.core_attributes.keyboard_typing_noise_dba ?? 60;
-    const isHotSwap = product.core_attributes.keyboard_hot_swappable;
-    const hasRGB = product.core_attributes.keyboard_has_rgb;
-    const hasQMK = features.includes("qmk_via");
-    const mountStyle = product.core_attributes.keyboard_mount_style;
+    const priorities = answers["priority-feature"];
 
-    if (priority === "performance") {
-      if (latency <= 1) {
-        return { points: 10, reason: "Top-tier latency performance" };
-      }
-      if (latency <= 3) {
-        return { points: 8, reason: "Excellent performance" };
-      }
-      if (latency <= 5) {
-        return { points: 6, reason: "Good performance" };
-      }
-      return { points: 3, concern: "Higher latency than performance-focused options" };
-    }
+    // Evaluate each priority and take the best score
+    const results = priorities.map((p) => evaluateSinglePriority(p, product));
+    const bestResult = results.reduce((best, current) =>
+      current.points > best.points ? current : best
+    );
 
-    if (priority === "typing-feel") {
-      const hasGasket = mountStyle === "gasket" || mountStyle === "double_gasket";
-      const isPremium = features.includes("premium") || features.includes("enthusiast");
-
-      if (hasGasket && isPremium) {
-        return { points: 10, reason: "Premium gasket-mount typing experience" };
-      }
-      if (hasGasket) {
-        return { points: 8, reason: "Gasket-mounted for better typing feel" };
-      }
-      if (isPremium) {
-        return { points: 7, reason: "Premium build quality" };
-      }
-      return { points: 4, concern: "Standard typing feel, not premium-focused" };
-    }
-
-    if (priority === "customization") {
-      let score = 0;
-      const reasons: string[] = [];
-
-      if (isHotSwap) { score += 4; reasons.push("hot-swap"); }
-      if (hasRGB) { score += 2; reasons.push("RGB"); }
-      if (hasQMK) { score += 3; reasons.push("QMK/VIA"); }
-      if (features.includes("onboard_memory")) { score += 1; reasons.push("profiles"); }
-
+    // Bonus for satisfying multiple priorities
+    const goodMatches = results.filter((r) => r.points >= 7).length;
+    if (goodMatches > 1 && bestResult.points < 10) {
       return {
-        points: Math.min(score, 10),
-        reason: reasons.length > 0 ? `Customizable: ${reasons.join(", ")}` : undefined,
-        concern: score < 5 ? "Limited customization options" : undefined,
+        points: Math.min(bestResult.points + 1, 10),
+        reason: bestResult.reason
+          ? `${bestResult.reason} (meets multiple priorities)`
+          : "Meets multiple priorities",
       };
     }
 
-    if (priority === "quiet") {
-      if (noise < 40) {
-        return { points: 10, reason: "Very quiet operation" };
-      }
-      if (noise < 50) {
-        return { points: 8, reason: "Quiet typing" };
-      }
-      if (noise < 55) {
-        return { points: 5, reason: "Moderate noise level" };
-      }
-      return { points: 2, concern: "Louder than quiet-focused options" };
-    }
-
-    return { points: 5 };
+    return bestResult;
   },
 };
 
@@ -543,7 +556,7 @@ export const budgetMatchRule: ScoringRule<KeyboardQuizAnswers, KeyboardProduct> 
   weight: 0.1,
   maxPoints: 10,
   evaluate: (answers, product): RuleResult => {
-    const budgetPref = answers.budget;
+    const budgetPrefs = answers.budget;
     const [minPrice, maxPrice] = product.price_range_usd;
     const avgPrice = (minPrice + maxPrice) / 2;
     const isValuePick = product.core_attributes.keyboard_value_pick;
@@ -555,19 +568,26 @@ export const budgetMatchRule: ScoringRule<KeyboardQuizAnswers, KeyboardProduct> 
       enthusiast: [250, 1000],
     };
 
-    const [budgetMin, budgetMax] = budgetRanges[budgetPref];
-    const isInBudget = avgPrice >= budgetMin && avgPrice <= budgetMax;
-    const isUnderBudget = avgPrice < budgetMin;
-    const isOverBudget = avgPrice > budgetMax;
+    // Check if product fits any selected budget range
+    for (const budgetPref of budgetPrefs) {
+      const [budgetMin, budgetMax] = budgetRanges[budgetPref];
+      const isInBudget = avgPrice >= budgetMin && avgPrice <= budgetMax;
 
-    if (isInBudget) {
-      if (isValuePick) {
-        return { points: 10, reason: "Excellent value within your budget" };
+      if (isInBudget) {
+        if (isValuePick) {
+          return { points: 10, reason: "Excellent value within your budget" };
+        }
+        return { points: 8, reason: "Within your budget range" };
       }
-      return { points: 8, reason: "Within your budget range" };
     }
 
-    if (isUnderBudget) {
+    // Check if under the lowest selected budget
+    const lowestBudget = budgetPrefs.reduce((lowest, pref) => {
+      const [min] = budgetRanges[pref];
+      return Math.min(lowest, min);
+    }, Infinity);
+
+    if (avgPrice < lowestBudget) {
       if (isValuePick) {
         return { points: 9, reason: "Great value under your budget" };
       }
@@ -575,7 +595,12 @@ export const budgetMatchRule: ScoringRule<KeyboardQuizAnswers, KeyboardProduct> 
     }
 
     // Over budget — still give some points, just note the concern
-    const overAmount = avgPrice - budgetMax;
+    const highestBudget = budgetPrefs.reduce((highest, pref) => {
+      const [, max] = budgetRanges[pref];
+      return Math.max(highest, max);
+    }, 0);
+
+    const overAmount = avgPrice - highestBudget;
     if (overAmount <= 50) {
       return {
         points: 5,
