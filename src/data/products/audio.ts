@@ -1855,7 +1855,7 @@ export const steelseriesArctis7PlusWireless: AudioProduct = {
 export const razerBarracudaProWireless: AudioProduct = {
   id: "razer_barracuda_pro_wireless", name: "Razer Barracuda Pro Wireless", brand: "Razer", category: "audio",
   price_range_usd: [250, 300], image_url: undefined, product_url: "https://www.rtings.com/headphones/reviews/razer/barracuda-pro-wireless",
-  recommendation_tags: ["wireless_gaming", "anc", "thx_spatial", "hybrid", "travel"],
+  recommendation_tags: ["wireless_gaming", "anc", "vendor_specific", "hybrid", "travel"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
     category_subtype: "headset", price_tier: "premium", platform_fit: ["pc", "playstation", "mobile"],
@@ -1891,7 +1891,7 @@ export const logitechG735Wireless: AudioProduct = {
 export const razerBlackSharkV2HyperSpeedWireless: AudioProduct = {
   id: "razer_blackshark_v2_hyperspeed_wireless", name: "Razer BlackShark V2 HyperSpeed Wireless", brand: "Razer", category: "audio",
   price_range_usd: [150, 180], image_url: undefined, product_url: "https://www.rtings.com/headphones/reviews/razer/blackshark-v2-hyperspeed-wireless",
-  recommendation_tags: ["wireless_gaming", "long_battery", "bluetooth", "thx_spatial", "lightweight"],
+  recommendation_tags: ["wireless_gaming", "long_battery", "bluetooth", "vendor_specific", "lightweight"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
     category_subtype: "headset", price_tier: "midrange", platform_fit: ["pc", "playstation"],
@@ -2537,7 +2537,7 @@ export const steelseriesArctis1Wireless: AudioProduct = {
 export const razerNariUltimateWireless: AudioProduct = {
   id: "razer_nari_ultimate_wireless", name: "Razer Nari Ultimate Wireless", brand: "Razer", category: "audio",
   price_range_usd: [150, 200], image_url: undefined, product_url: undefined,
-  recommendation_tags: ["wireless_gaming", "haptic_feedback", "thx_spatial"],
+  recommendation_tags: ["wireless_gaming", "haptic_feedback", "vendor_specific"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
     category_subtype: "headset", price_tier: "midrange", platform_fit: ["pc", "playstation"],
@@ -2555,7 +2555,7 @@ export const razerNariUltimateWireless: AudioProduct = {
 export const razerKrakenV3ProWireless: AudioProduct = {
   id: "razer_kraken_v3_pro_wireless", name: "Razer Kraken V3 Pro Wireless", brand: "Razer", category: "audio",
   price_range_usd: [180, 200], image_url: undefined, product_url: undefined,
-  recommendation_tags: ["wireless_gaming", "haptic_feedback", "thx_spatial", "long_battery"],
+  recommendation_tags: ["wireless_gaming", "haptic_feedback", "vendor_specific", "long_battery"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
     category_subtype: "headset", price_tier: "midrange", platform_fit: ["pc", "playstation"],
@@ -2573,7 +2573,7 @@ export const razerKrakenV3ProWireless: AudioProduct = {
 export const razerBarracudaWireless: AudioProduct = {
   id: "razer_barracuda_wireless", name: "Razer Barracuda Wireless", brand: "Razer", category: "audio",
   price_range_usd: [140, 160], image_url: undefined, product_url: undefined,
-  recommendation_tags: ["wireless_gaming", "bluetooth", "hybrid", "thx_spatial"],
+  recommendation_tags: ["wireless_gaming", "bluetooth", "hybrid", "vendor_specific"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
     category_subtype: "headset", price_tier: "midrange", platform_fit: ["pc", "playstation", "mobile"],
@@ -3299,6 +3299,664 @@ export const bowersWilkinsPi7TrueWireless: AudioProduct = {
 };
 
 // =============================================================================
+// SONY HEADPHONES
+// =============================================================================
+
+export const sonyWH1000XM5: AudioProduct = {
+  id: "sony_wh_1000xm5",
+  name: "Sony WH-1000XM5 Wireless",
+  brand: "Sony",
+  category: "audio",
+  price_range_usd: [350, 400],
+  image_url: "https://i.rtings.com/assets/products/Nc33W9lA/sony-wh-1000xm5-wireless/design-medium.jpg?format=auto",
+  product_url: "https://www.rtings.com/headphones/reviews/sony/wh-1000xm5-wireless",
+  recommendation_tags: ["premium_anc", "travel", "office_work", "wireless", "long_battery"],
+  data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
+  core_attributes: {
+    category_subtype: "headphone", price_tier: "premium", platform_fit: ["pc", "mobile", "mac"],
+    connection_type: ["bluetooth", "wired_3_5mm"], wireless: true, battery_life_hr: 27,
+    latency_class: "high", software_support: "great", eq_support: true, availability_class: "easy",
+    audio_type: "headphone", audio_open_back: false, audio_has_mic: true, audio_mic_type: "integrated",
+    audio_mic_quality: "good", audio_sound_signature: "warm", audio_competitive_fps: "ok", audio_immersion: "ok",
+    audio_isolation: "high", audio_anc: true, audio_comfort: "good", audio_weight_g: 250, audio_needs_amp: "no",
+    audio_impedance_ohm: undefined, audio_sensitivity_db: 113, audio_driver_type: "dynamic",
+    audio_wireless_codec_support: ["sbc", "aac", "ldac"], audio_virtual_surround: ["vendor_specific"],
+    audio_repairability: "ok", audio_value_pick: false,
+  },
+};
+
+export const sonyWH1000XM3: AudioProduct = {
+  id: "sony_wh_1000xm3",
+  name: "Sony WH-1000XM3 Wireless",
+  brand: "Sony",
+  category: "audio",
+  price_range_usd: [200, 280],
+  image_url: "https://i.rtings.com/assets/products/g5yfWfUG/sony-wh-1000xm3-wireless/design-medium.jpg?format=auto",
+  product_url: "https://www.rtings.com/headphones/reviews/sony/wh-1000xm3-wireless",
+  recommendation_tags: ["premium_anc", "travel", "office_work", "wireless", "value_pick"],
+  data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
+  core_attributes: {
+    category_subtype: "headphone", price_tier: "upper_midrange", platform_fit: ["pc", "mobile", "mac"],
+    connection_type: ["bluetooth", "wired_3_5mm"], wireless: true, battery_life_hr: 27,
+    latency_class: "high", software_support: "great", eq_support: true, availability_class: "easy",
+    audio_type: "headphone", audio_open_back: false, audio_has_mic: true, audio_mic_type: "integrated",
+    audio_mic_quality: "ok", audio_sound_signature: "warm", audio_competitive_fps: "ok", audio_immersion: "ok",
+    audio_isolation: "high", audio_anc: true, audio_comfort: "great", audio_weight_g: 255, audio_needs_amp: "no",
+    audio_impedance_ohm: undefined, audio_sensitivity_db: undefined, audio_driver_type: "dynamic",
+    audio_wireless_codec_support: ["sbc", "aac", "ldac", "aptx"], audio_virtual_surround: [],
+    audio_repairability: "ok", audio_value_pick: true,
+  },
+};
+
+// =============================================================================
+// STEELSERIES HEADSETS
+// =============================================================================
+
+export const steelSeriesArctisNovaProWireless: AudioProduct = {
+  id: "steelseries_arctis_nova_pro_wireless",
+  name: "SteelSeries Arctis Nova Pro Wireless",
+  brand: "SteelSeries",
+  category: "audio",
+  price_range_usd: [300, 350],
+  image_url: "https://i.rtings.com/assets/products/KDUQUrYp/steelseries-arctis-nova-pro-wireless-pc-ps-xbox/design-medium.jpg?format=auto",
+  product_url: "https://www.rtings.com/headphones/reviews/steelseries/arctis-nova-pro-wireless-pc-ps-xbox",
+  recommendation_tags: ["wireless_gaming", "premium_gaming", "anc", "swappable_battery", "multi_platform"],
+  data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
+  core_attributes: {
+    category_subtype: "headset", price_tier: "premium", platform_fit: ["pc", "playstation", "xbox"],
+    connection_type: ["wireless_2_4_dongle", "bluetooth", "wired_3_5mm"], wireless: true, battery_life_hr: 25,
+    latency_class: "low", software_support: "great", eq_support: true, availability_class: "easy",
+    audio_type: "headset", audio_open_back: false, audio_has_mic: true, audio_mic_type: "fixed_boom",
+    audio_mic_quality: "good", audio_sound_signature: "warm", audio_competitive_fps: "good", audio_immersion: "good",
+    audio_isolation: "medium", audio_anc: true, audio_comfort: "good", audio_weight_g: 340, audio_needs_amp: "no",
+    audio_impedance_ohm: undefined, audio_sensitivity_db: 115.1, audio_driver_type: "dynamic",
+    audio_wireless_codec_support: ["sbc"], audio_virtual_surround: ["sonic"],
+    audio_repairability: "good", audio_value_pick: false,
+  },
+};
+
+export const steelSeriesArctisNovaPro: AudioProduct = {
+  id: "steelseries_arctis_nova_pro_wired",
+  name: "SteelSeries Arctis Nova Pro",
+  brand: "SteelSeries",
+  category: "audio",
+  price_range_usd: [200, 250],
+  image_url: "https://i.rtings.com/assets/products/iD9P4Isq/steelseries-arctis-nova-pro/design-medium.jpg?format=auto",
+  product_url: "https://www.rtings.com/headphones/reviews/steelseries/arctis-nova-pro",
+  recommendation_tags: ["wired_gaming", "console_gaming", "game_dac", "customizable", "good_mic"],
+  data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
+  core_attributes: {
+    category_subtype: "headset", price_tier: "upper_midrange", platform_fit: ["pc", "playstation", "xbox"],
+    connection_type: ["wired_usb", "wired_3_5mm"], wireless: false, battery_life_hr: undefined,
+    latency_class: "very_low", software_support: "great", eq_support: true, availability_class: "easy",
+    audio_type: "headset", audio_open_back: false, audio_has_mic: true, audio_mic_type: "fixed_boom",
+    audio_mic_quality: "good", audio_sound_signature: "warm", audio_competitive_fps: "good", audio_immersion: "good",
+    audio_isolation: "low", audio_anc: false, audio_comfort: "good", audio_weight_g: 310, audio_needs_amp: "no",
+    audio_impedance_ohm: undefined, audio_sensitivity_db: undefined, audio_driver_type: "dynamic",
+    audio_wireless_codec_support: undefined, audio_virtual_surround: ["steelseries_spatial"],
+    audio_repairability: "good", audio_value_pick: false,
+  },
+};
+
+// =============================================================================
+// SENNHEISER HEADPHONES
+// =============================================================================
+
+export const sennheiserMomentum4Wireless: AudioProduct = {
+  id: "sennheiser_momentum_4_wireless",
+  name: "Sennheiser MOMENTUM 4 Wireless",
+  brand: "Sennheiser",
+  category: "audio",
+  price_range_usd: [300, 380],
+  image_url: "https://i.rtings.com/assets/products/0DyKny4w/sennheiser-momentum-4-wireless/design-medium.jpg?format=auto",
+  product_url: "https://www.rtings.com/headphones/reviews/sennheiser/momentum-4-wireless",
+  recommendation_tags: ["premium_anc", "travel", "long_battery", "audiophile", "office_work"],
+  data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
+  core_attributes: {
+    category_subtype: "headphone", price_tier: "premium", platform_fit: ["pc", "mobile", "mac"],
+    connection_type: ["bluetooth", "wired_3_5mm", "wired_usb_c"], wireless: true, battery_life_hr: 62.3,
+    latency_class: "high", software_support: "great", eq_support: true, availability_class: "easy",
+    audio_type: "headphone", audio_open_back: false, audio_has_mic: true, audio_mic_type: "integrated",
+    audio_mic_quality: "ok", audio_sound_signature: "warm", audio_competitive_fps: "ok", audio_immersion: "ok",
+    audio_isolation: "high", audio_anc: true, audio_comfort: "great", audio_weight_g: 295, audio_needs_amp: "no",
+    audio_impedance_ohm: undefined, audio_sensitivity_db: 119.9, audio_driver_type: "dynamic",
+    audio_wireless_codec_support: ["sbc", "aac", "aptx", "aptx_adaptive"], audio_virtual_surround: [],
+    audio_repairability: "ok", audio_value_pick: false,
+  },
+};
+
+export const sennheiserMomentum3Wireless: AudioProduct = {
+  id: "sennheiser_momentum_3_wireless",
+  name: "Sennheiser Momentum 3 Wireless",
+  brand: "Sennheiser",
+  category: "audio",
+  price_range_usd: [200, 300],
+  image_url: "https://i.rtings.com/assets/products/99Eo84st/sennheiser-momentum-3-wireless/design-medium.jpg?format=auto",
+  product_url: "https://www.rtings.com/headphones/reviews/sennheiser/momentum-3-wireless",
+  recommendation_tags: ["premium_anc", "travel", "multi_device", "audiophile", "retro_style"],
+  data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
+  core_attributes: {
+    category_subtype: "headphone", price_tier: "premium", platform_fit: ["pc", "mobile", "mac"],
+    connection_type: ["bluetooth", "wired_3_5mm", "wired_usb_c"], wireless: true, battery_life_hr: 17.8,
+    latency_class: "medium", software_support: "great", eq_support: true, availability_class: "easy",
+    audio_type: "headphone", audio_open_back: false, audio_has_mic: true, audio_mic_type: "integrated",
+    audio_mic_quality: "good", audio_sound_signature: "neutral", audio_competitive_fps: "ok", audio_immersion: "ok",
+    audio_isolation: "high", audio_anc: true, audio_comfort: "great", audio_weight_g: 305, audio_needs_amp: "no",
+    audio_impedance_ohm: undefined, audio_sensitivity_db: undefined, audio_driver_type: "dynamic",
+    audio_wireless_codec_support: ["sbc", "aac", "aptx", "aptx_ll"], audio_virtual_surround: [],
+    audio_repairability: "ok", audio_value_pick: false,
+  },
+};
+
+export const sennheiserAccentumPlus: AudioProduct = {
+  id: "sennheiser_accentum_plus",
+  name: "Sennheiser ACCENTUM Plus",
+  brand: "Sennheiser",
+  category: "audio",
+  price_range_usd: [180, 230],
+  image_url: "https://i.rtings.com/assets/products/3ZaX4eI4/sennheiser-accentum-plus-wireless/design-medium.jpg?format=auto",
+  product_url: "https://www.rtings.com/headphones/reviews/sennheiser/accentum-plus-wireless",
+  recommendation_tags: ["anc", "long_battery", "multi_device", "aptx_adaptive", "midrange_value"],
+  data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
+  core_attributes: {
+    category_subtype: "headphone", price_tier: "upper_midrange", platform_fit: ["pc", "mobile", "mac"],
+    connection_type: ["bluetooth", "wired_3_5mm", "wired_usb"], wireless: true, battery_life_hr: 56,
+    latency_class: "medium", software_support: "great", eq_support: true, availability_class: "easy",
+    audio_type: "headphone", audio_open_back: false, audio_has_mic: true, audio_mic_type: "integrated",
+    audio_mic_quality: "ok", audio_sound_signature: "warm", audio_competitive_fps: "poor", audio_immersion: "ok",
+    audio_isolation: "medium", audio_anc: true, audio_comfort: "good", audio_weight_g: 227, audio_needs_amp: "no",
+    audio_impedance_ohm: undefined, audio_sensitivity_db: undefined, audio_driver_type: "dynamic",
+    audio_wireless_codec_support: ["sbc", "aac", "aptx", "aptx_adaptive"], audio_virtual_surround: [],
+    audio_repairability: "ok", audio_value_pick: true,
+  },
+};
+
+// =============================================================================
+// JABRA HEADPHONES & EARBUDS
+// =============================================================================
+
+export const jabraElite85hWireless: AudioProduct = {
+  id: "jabra_elite_85h_wireless",
+  name: "Jabra Elite 85h Wireless",
+  brand: "Jabra",
+  category: "audio",
+  price_range_usd: [200, 250],
+  image_url: "https://i.rtings.com/assets/products/6bSxRpJe/jabra-elite-85h-wireless/design-medium.jpg?format=auto",
+  product_url: "https://www.rtings.com/headphones/reviews/jabra/elite-85h-wireless",
+  recommendation_tags: ["anc", "office_work", "travel", "long_battery", "good_mic"],
+  data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
+  core_attributes: {
+    category_subtype: "headphone", price_tier: "upper_midrange", platform_fit: ["pc", "mobile", "mac"],
+    connection_type: ["bluetooth", "wired_3_5mm"], wireless: true, battery_life_hr: 34,
+    latency_class: "high", software_support: "great", eq_support: true, availability_class: "easy",
+    audio_type: "headphone", audio_open_back: false, audio_has_mic: true, audio_mic_type: "integrated",
+    audio_mic_quality: "good", audio_sound_signature: "neutral", audio_competitive_fps: "poor", audio_immersion: "ok",
+    audio_isolation: "medium", audio_anc: true, audio_comfort: "great", audio_weight_g: 300, audio_needs_amp: "no",
+    audio_impedance_ohm: undefined, audio_sensitivity_db: undefined, audio_driver_type: "dynamic",
+    audio_wireless_codec_support: ["sbc"], audio_virtual_surround: [],
+    audio_repairability: "ok", audio_value_pick: false,
+  },
+};
+
+export const jabraElite7ProTrueWireless: AudioProduct = {
+  id: "jabra_elite_7_pro_true_wireless",
+  name: "Jabra Elite 7 Pro True Wireless",
+  brand: "Jabra",
+  category: "audio",
+  price_range_usd: [150, 200],
+  image_url: "https://i.rtings.com/assets/products/0uxtlTpz/jabra-elite-7-pro-true-wireless/design-medium.jpg?format=auto",
+  product_url: "https://www.rtings.com/headphones/reviews/jabra/elite-7-pro-true-wireless",
+  recommendation_tags: ["true_wireless", "phone_calls", "commute", "sports", "anc"],
+  data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
+  core_attributes: {
+    category_subtype: "earbud", price_tier: "upper_midrange", platform_fit: ["mobile"],
+    connection_type: ["bluetooth"], wireless: true, battery_life_hr: 8.4,
+    latency_class: "high", software_support: "great", eq_support: true, availability_class: "easy",
+    audio_type: "earbud", audio_open_back: false, audio_has_mic: true, audio_mic_type: "integrated",
+    audio_mic_quality: "good", audio_sound_signature: "neutral", audio_competitive_fps: "poor", audio_immersion: "ok",
+    audio_isolation: "medium", audio_anc: true, audio_comfort: "good", audio_weight_g: 11, audio_needs_amp: "no",
+    audio_impedance_ohm: undefined, audio_sensitivity_db: undefined, audio_driver_type: "dynamic",
+    audio_wireless_codec_support: ["sbc", "aac"], audio_virtual_surround: [],
+    audio_repairability: "poor", audio_value_pick: false,
+  },
+};
+
+export const jabraElite10: AudioProduct = {
+  id: "jabra_elite_10",
+  name: "Jabra Elite 10",
+  brand: "Jabra",
+  category: "audio",
+  price_range_usd: [200, 250],
+  image_url: "https://i.rtings.com/assets/products/81R24T2e/jabra-elite-10-true-wireless/design-medium.jpg?format=auto",
+  product_url: "https://www.rtings.com/headphones/reviews/jabra/elite-10-true-wireless",
+  recommendation_tags: ["true_wireless", "premium_anc", "dolby_atmos", "multi_device", "ip57"],
+  data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
+  core_attributes: {
+    category_subtype: "earbud", price_tier: "premium", platform_fit: ["mobile"],
+    connection_type: ["bluetooth"], wireless: true, battery_life_hr: 7.5,
+    latency_class: "high", software_support: "great", eq_support: true, availability_class: "easy",
+    audio_type: "earbud", audio_open_back: false, audio_has_mic: true, audio_mic_type: "integrated",
+    audio_mic_quality: "good", audio_sound_signature: "neutral", audio_competitive_fps: "poor", audio_immersion: "good",
+    audio_isolation: "high", audio_anc: true, audio_comfort: "great", audio_weight_g: 10, audio_needs_amp: "no",
+    audio_impedance_ohm: undefined, audio_sensitivity_db: undefined, audio_driver_type: "dynamic",
+    audio_wireless_codec_support: ["sbc", "aac"], audio_virtual_surround: ["dolby_atmos"],
+    audio_repairability: "poor", audio_value_pick: false,
+  },
+};
+
+export const jabraElite8Active: AudioProduct = {
+  id: "jabra_elite_8_active",
+  name: "Jabra Elite 8 Active",
+  brand: "Jabra",
+  category: "audio",
+  price_range_usd: [180, 230],
+  image_url: "https://i.rtings.com/assets/products/habp4bbc/jabra-elite-8-active-true-wireless/design-medium.jpg?format=auto",
+  product_url: "https://www.rtings.com/headphones/reviews/jabra/elite-8-active-true-wireless",
+  recommendation_tags: ["sports", "true_wireless", "ip68", "multi_device", "shakegrip"],
+  data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
+  core_attributes: {
+    category_subtype: "earbud", price_tier: "upper_midrange", platform_fit: ["mobile"],
+    connection_type: ["bluetooth"], wireless: true, battery_life_hr: 8.75,
+    latency_class: "high", software_support: "great", eq_support: true, availability_class: "easy",
+    audio_type: "earbud", audio_open_back: false, audio_has_mic: true, audio_mic_type: "integrated",
+    audio_mic_quality: "ok", audio_sound_signature: "warm", audio_competitive_fps: "poor", audio_immersion: "ok",
+    audio_isolation: "medium", audio_anc: true, audio_comfort: "great", audio_weight_g: 10, audio_needs_amp: "no",
+    audio_impedance_ohm: undefined, audio_sensitivity_db: undefined, audio_driver_type: "dynamic",
+    audio_wireless_codec_support: ["sbc", "aac"], audio_virtual_surround: ["dolby_atmos"],
+    audio_repairability: "poor", audio_value_pick: false,
+  },
+};
+
+export const jabraElite7Active: AudioProduct = {
+  id: "jabra_elite_7_active",
+  name: "Jabra Elite 7 Active",
+  brand: "Jabra",
+  category: "audio",
+  price_range_usd: [130, 180],
+  image_url: "https://i.rtings.com/assets/products/6RZRtNVr/jabra-elite-7-active-true-wireless/design-medium.jpg?format=auto",
+  product_url: "https://www.rtings.com/headphones/reviews/jabra/elite-7-active-true-wireless",
+  recommendation_tags: ["sports", "true_wireless", "ip57", "multi_device", "shakegrip"],
+  data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
+  core_attributes: {
+    category_subtype: "earbud", price_tier: "upper_midrange", platform_fit: ["mobile"],
+    connection_type: ["bluetooth"], wireless: true, battery_life_hr: 7.9,
+    latency_class: "high", software_support: "great", eq_support: true, availability_class: "easy",
+    audio_type: "earbud", audio_open_back: false, audio_has_mic: true, audio_mic_type: "integrated",
+    audio_mic_quality: "ok", audio_sound_signature: "neutral", audio_competitive_fps: "poor", audio_immersion: "ok",
+    audio_isolation: "medium", audio_anc: true, audio_comfort: "good", audio_weight_g: 11, audio_needs_amp: "no",
+    audio_impedance_ohm: undefined, audio_sensitivity_db: undefined, audio_driver_type: "dynamic",
+    audio_wireless_codec_support: ["sbc", "aac"], audio_virtual_surround: [],
+    audio_repairability: "poor", audio_value_pick: false,
+  },
+};
+
+// =============================================================================
+// AUDEZE HEADPHONES
+// =============================================================================
+
+export const audezeMobius: AudioProduct = {
+  id: "audeze_mobius",
+  name: "Audeze Mobius",
+  brand: "Audeze",
+  category: "audio",
+  price_range_usd: [300, 400],
+  image_url: "https://i.rtings.com/assets/products/Gay7vPpl/audeze-mobius/design-medium.jpg?format=auto",
+  product_url: "https://www.rtings.com/headphones/reviews/audeze/mobius",
+  recommendation_tags: ["audiophile_gaming", "planar_magnetic", "head_tracking", "3d_audio", "versatile"],
+  data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
+  core_attributes: {
+    category_subtype: "headset", price_tier: "premium", platform_fit: ["pc", "playstation", "mobile"],
+    connection_type: ["bluetooth", "wired_3_5mm", "wired_usb_c"], wireless: true, battery_life_hr: 12,
+    latency_class: "medium", software_support: "good", eq_support: true, availability_class: "easy",
+    audio_type: "headset", audio_open_back: false, audio_has_mic: true, audio_mic_type: "detachable_boom",
+    audio_mic_quality: "great", audio_sound_signature: "warm", audio_competitive_fps: "good", audio_immersion: "great",
+    audio_isolation: "low", audio_anc: false, audio_comfort: "ok", audio_weight_g: 350, audio_needs_amp: "no",
+    audio_impedance_ohm: undefined, audio_sensitivity_db: undefined, audio_driver_type: "planar",
+    audio_wireless_codec_support: ["sbc", "ldac"], audio_virtual_surround: ["vendor_specific"],
+    audio_repairability: "ok", audio_value_pick: true,
+  },
+};
+
+// =============================================================================
+// BOSE HEADPHONES
+// =============================================================================
+
+export const boseQuietComfort35: AudioProduct = {
+  id: "bose_quietcomfort_35",
+  name: "Bose QuietComfort 35/QC35 Wireless 2016",
+  brand: "Bose",
+  category: "audio",
+  price_range_usd: [150, 250],
+  image_url: "https://i.rtings.com/assets/products/NPHzpndA/bose-quietcomfort-35-qc35-wireless-2016/design-medium.jpg?format=auto",
+  product_url: "https://www.rtings.com/headphones/reviews/bose/quietcomfort-35-qc35-wireless-2016",
+  recommendation_tags: ["anc", "travel", "comfortable", "multi_device", "classic"],
+  data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
+  core_attributes: {
+    category_subtype: "headphone", price_tier: "upper_midrange", platform_fit: ["pc", "mobile", "mac"],
+    connection_type: ["bluetooth", "wired_3_5mm"], wireless: true, battery_life_hr: 18.5,
+    latency_class: "high", software_support: "good", eq_support: false, availability_class: "easy",
+    audio_type: "headphone", audio_open_back: false, audio_has_mic: true, audio_mic_type: "integrated",
+    audio_mic_quality: "ok", audio_sound_signature: "neutral", audio_competitive_fps: "poor", audio_immersion: "ok",
+    audio_isolation: "high", audio_anc: true, audio_comfort: "great", audio_weight_g: 234, audio_needs_amp: "no",
+    audio_impedance_ohm: undefined, audio_sensitivity_db: undefined, audio_driver_type: "dynamic",
+    audio_wireless_codec_support: ["sbc", "aac"], audio_virtual_surround: [],
+    audio_repairability: "ok", audio_value_pick: true,
+  },
+};
+
+export const bose700: AudioProduct = {
+  id: "bose_700",
+  name: "Bose 700 Headphones Wireless",
+  brand: "Bose",
+  category: "audio",
+  price_range_usd: [300, 380],
+  image_url: "https://i.rtings.com/assets/products/a1IJ399Y/bose-700-headphones-wireless/design-medium.jpg?format=auto",
+  product_url: "https://www.rtings.com/headphones/reviews/bose/700-headphones-wireless",
+  recommendation_tags: ["premium_anc", "office_work", "travel", "great_mic", "adjustable_anc"],
+  data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
+  core_attributes: {
+    category_subtype: "headphone", price_tier: "premium", platform_fit: ["pc", "mobile", "mac"],
+    connection_type: ["bluetooth", "wired_3_5mm"], wireless: true, battery_life_hr: 20.7,
+    latency_class: "medium", software_support: "great", eq_support: true, availability_class: "easy",
+    audio_type: "headphone", audio_open_back: false, audio_has_mic: true, audio_mic_type: "integrated",
+    audio_mic_quality: "good", audio_sound_signature: "warm", audio_competitive_fps: "poor", audio_immersion: "ok",
+    audio_isolation: "high", audio_anc: true, audio_comfort: "great", audio_weight_g: 263, audio_needs_amp: "no",
+    audio_impedance_ohm: undefined, audio_sensitivity_db: 103.4, audio_driver_type: "dynamic",
+    audio_wireless_codec_support: ["sbc", "aac"], audio_virtual_surround: [],
+    audio_repairability: "ok", audio_value_pick: false,
+  },
+};
+
+export const boseSoundLink2: AudioProduct = {
+  id: "bose_soundlink_2",
+  name: "Bose SoundLink 2 Wireless",
+  brand: "Bose",
+  category: "audio",
+  price_range_usd: [150, 200],
+  image_url: "https://i.rtings.com/assets/products/WOqzLf2b/bose-soundlink-2-wireless/design-medium.jpg?format=auto",
+  product_url: "https://www.rtings.com/headphones/reviews/bose/soundlink-2-wireless",
+  recommendation_tags: ["wireless", "office_work", "multi_device", "lightweight", "comfortable"],
+  data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
+  core_attributes: {
+    category_subtype: "headphone", price_tier: "upper_midrange", platform_fit: ["pc", "mobile", "mac"],
+    connection_type: ["bluetooth", "wired_3_5mm"], wireless: true, battery_life_hr: 20.3,
+    latency_class: "high", software_support: "none", eq_support: false, availability_class: "easy",
+    audio_type: "headphone", audio_open_back: false, audio_has_mic: true, audio_mic_type: "integrated",
+    audio_mic_quality: "ok", audio_sound_signature: "neutral", audio_competitive_fps: "poor", audio_immersion: "ok",
+    audio_isolation: "low", audio_anc: false, audio_comfort: "great", audio_weight_g: 195, audio_needs_amp: "no",
+    audio_impedance_ohm: undefined, audio_sensitivity_db: undefined, audio_driver_type: "dynamic",
+    audio_wireless_codec_support: ["sbc"], audio_virtual_surround: [],
+    audio_repairability: "ok", audio_value_pick: false,
+  },
+};
+
+// =============================================================================
+// AUDIO-TECHNICA HEADPHONES
+// =============================================================================
+
+export const audioTechnicaATHM50xBT2: AudioProduct = {
+  id: "audio_technica_ath_m50xbt2",
+  name: "Audio-Technica ATH-M50xBT2 Wireless",
+  brand: "Audio-Technica",
+  category: "audio",
+  price_range_usd: [180, 220],
+  image_url: "https://i.rtings.com/assets/products/SI3jhZGc/audio-technica-ath-m50xbt2-wireless/design-medium.jpg?format=auto",
+  product_url: "https://www.rtings.com/headphones/reviews/audio-technica/ath-m50xbt2-wireless",
+  recommendation_tags: ["studio_monitor", "neutral_sound", "long_battery", "multi_device", "audiophile"],
+  data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
+  core_attributes: {
+    category_subtype: "headphone", price_tier: "upper_midrange", platform_fit: ["pc", "mobile", "mac"],
+    connection_type: ["bluetooth", "wired_3_5mm"], wireless: true, battery_life_hr: 61.6,
+    latency_class: "high", software_support: "great", eq_support: true, availability_class: "easy",
+    audio_type: "headphone", audio_open_back: false, audio_has_mic: true, audio_mic_type: "integrated",
+    audio_mic_quality: "ok", audio_sound_signature: "neutral", audio_competitive_fps: "ok", audio_immersion: "ok",
+    audio_isolation: "low", audio_anc: false, audio_comfort: "good", audio_weight_g: 307, audio_needs_amp: "no",
+    audio_impedance_ohm: undefined, audio_sensitivity_db: undefined, audio_driver_type: "dynamic",
+    audio_wireless_codec_support: ["sbc", "aac", "ldac"], audio_virtual_surround: [],
+    audio_repairability: "good", audio_value_pick: true,
+  },
+};
+
+// =============================================================================
+// BOWERS & WILKINS HEADPHONES
+// =============================================================================
+
+export const bowersWilkinsPx8: AudioProduct = {
+  id: "bowers_wilkins_px8",
+  name: "Bowers & Wilkins Px8 Wireless",
+  brand: "Bowers & Wilkins",
+  category: "audio",
+  price_range_usd: [600, 700],
+  image_url: "https://i.rtings.com/assets/products/3pwQPwqd/bowers-wilkins-px8-wireless/design-medium.jpg?format=auto",
+  product_url: "https://www.rtings.com/headphones/reviews/bowers-wilkins/px8-wireless",
+  recommendation_tags: ["luxury", "premium_anc", "audiophile", "nappa_leather", "multi_device"],
+  data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
+  core_attributes: {
+    category_subtype: "headphone", price_tier: "flagship", platform_fit: ["pc", "mobile", "mac"],
+    connection_type: ["bluetooth", "wired_usb_c", "wired_3_5mm"], wireless: true, battery_life_hr: 38.1,
+    latency_class: "medium", software_support: "good", eq_support: true, availability_class: "easy",
+    audio_type: "headphone", audio_open_back: false, audio_has_mic: true, audio_mic_type: "integrated",
+    audio_mic_quality: "ok", audio_sound_signature: "warm", audio_competitive_fps: "poor", audio_immersion: "ok",
+    audio_isolation: "medium", audio_anc: true, audio_comfort: "great", audio_weight_g: 320, audio_needs_amp: "no",
+    audio_impedance_ohm: undefined, audio_sensitivity_db: undefined, audio_driver_type: "dynamic",
+    audio_wireless_codec_support: ["sbc", "aac", "aptx", "aptx_adaptive"], audio_virtual_surround: [],
+    audio_repairability: "ok", audio_value_pick: false,
+  },
+};
+
+// =============================================================================
+// SAMSUNG EARBUDS
+// =============================================================================
+
+export const samsungGalaxyBudsPlus: AudioProduct = {
+  id: "samsung_galaxy_buds_plus",
+  name: "Samsung Galaxy Buds+",
+  brand: "Samsung",
+  category: "audio",
+  price_range_usd: [80, 120],
+  image_url: "https://i.rtings.com/assets/products/8Qdevw4f/samsung-galaxy-buds-plus-truly-wireless/design-medium.jpg?format=auto",
+  product_url: "https://www.rtings.com/headphones/reviews/samsung/galaxy-buds-plus-truly-wireless",
+  recommendation_tags: ["true_wireless", "sports", "long_battery", "neutral_sound", "samsung_ecosystem"],
+  data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
+  core_attributes: {
+    category_subtype: "earbud", price_tier: "midrange", platform_fit: ["mobile"],
+    connection_type: ["bluetooth"], wireless: true, battery_life_hr: 13.3,
+    latency_class: "high", software_support: "great", eq_support: true, availability_class: "easy",
+    audio_type: "earbud", audio_open_back: false, audio_has_mic: true, audio_mic_type: "integrated",
+    audio_mic_quality: "ok", audio_sound_signature: "neutral", audio_competitive_fps: "poor", audio_immersion: "ok",
+    audio_isolation: "low", audio_anc: false, audio_comfort: "great", audio_weight_g: 12, audio_needs_amp: "no",
+    audio_impedance_ohm: undefined, audio_sensitivity_db: undefined, audio_driver_type: "dynamic",
+    audio_wireless_codec_support: ["sbc", "aac"], audio_virtual_surround: [],
+    audio_repairability: "poor", audio_value_pick: true,
+  },
+};
+
+// =============================================================================
+// TURTLE BEACH HEADSETS
+// =============================================================================
+
+export const turtleBeachElitePro2SuperAmp: AudioProduct = {
+  id: "turtle_beach_elite_pro_2_superamp",
+  name: "Turtle Beach Elite Pro 2 SuperAmp",
+  brand: "Turtle Beach",
+  category: "audio",
+  price_range_usd: [180, 250],
+  image_url: "https://i.rtings.com/assets/products/WcyRhiHV/turtle-beach-elite-pro-2-superamp/design-medium.jpg?format=auto",
+  product_url: "https://www.rtings.com/headphones/reviews/turtle-beach/elite-pro-2-superamp",
+  recommendation_tags: ["wired_gaming", "console_gaming", "superamp_dac", "great_mic", "premium_gaming"],
+  data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
+  core_attributes: {
+    category_subtype: "headset", price_tier: "upper_midrange", platform_fit: ["pc", "playstation"],
+    connection_type: ["wired_usb", "wired_3_5mm"], wireless: false, battery_life_hr: undefined,
+    latency_class: "very_low", software_support: "great", eq_support: true, availability_class: "easy",
+    audio_type: "headset", audio_open_back: false, audio_has_mic: true, audio_mic_type: "detachable_boom",
+    audio_mic_quality: "great", audio_sound_signature: "neutral", audio_competitive_fps: "good", audio_immersion: "good",
+    audio_isolation: "low", audio_anc: false, audio_comfort: "great", audio_weight_g: 366, audio_needs_amp: "no",
+    audio_impedance_ohm: undefined, audio_sensitivity_db: undefined, audio_driver_type: "dynamic",
+    audio_wireless_codec_support: undefined, audio_virtual_surround: ["dts_headphone_x"],
+    audio_repairability: "ok", audio_value_pick: false,
+  },
+};
+
+// =============================================================================
+// CORSAIR HEADSETS
+// =============================================================================
+
+export const corsairHS70Bluetooth: AudioProduct = {
+  id: "corsair_hs70_bluetooth",
+  name: "Corsair HS70 Bluetooth",
+  brand: "Corsair",
+  category: "audio",
+  price_range_usd: [80, 110],
+  image_url: "https://i.rtings.com/assets/products/dFozQZhZ/corsair-hs70-bluetooth/design-medium.jpg?format=auto",
+  product_url: "https://www.rtings.com/headphones/reviews/corsair/hs70-bluetooth",
+  recommendation_tags: ["wired_gaming", "bluetooth_hybrid", "long_battery", "icue_software", "console_compatible"],
+  data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
+  core_attributes: {
+    category_subtype: "headset", price_tier: "midrange", platform_fit: ["pc", "playstation", "xbox"],
+    connection_type: ["bluetooth", "wired_usb", "wired_3_5mm"], wireless: true, battery_life_hr: 24,
+    latency_class: "medium", software_support: "great", eq_support: true, availability_class: "easy",
+    audio_type: "headset", audio_open_back: false, audio_has_mic: true, audio_mic_type: "detachable_boom",
+    audio_mic_quality: "great", audio_sound_signature: "warm", audio_competitive_fps: "good", audio_immersion: "good",
+    audio_isolation: "low", audio_anc: false, audio_comfort: "great", audio_weight_g: 290, audio_needs_amp: "no",
+    audio_impedance_ohm: undefined, audio_sensitivity_db: undefined, audio_driver_type: "dynamic",
+    audio_wireless_codec_support: ["sbc", "aac"], audio_virtual_surround: ["dolby_atmos"],
+    audio_repairability: "ok", audio_value_pick: true,
+  },
+};
+
+// =============================================================================
+// SONOS HEADPHONES
+// =============================================================================
+
+export const sonosAce: AudioProduct = {
+  id: "sonos_ace",
+  name: "Sonos Ace",
+  brand: "Sonos",
+  category: "audio",
+  price_range_usd: [400, 450],
+  image_url: "https://i.rtings.com/assets/products/yiK0lqbe/sonos-ace-wireless/design-medium.jpg?format=auto",
+  product_url: "https://www.rtings.com/headphones/reviews/sonos/ace-wireless",
+  recommendation_tags: ["premium_anc", "travel", "office_work", "tv_audio_swap", "sonos_ecosystem"],
+  data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
+  core_attributes: {
+    category_subtype: "headphone", price_tier: "premium", platform_fit: ["pc", "mobile", "mac"],
+    connection_type: ["bluetooth", "wired_3_5mm", "wired_usb_c"], wireless: true, battery_life_hr: 35.6,
+    latency_class: "medium", software_support: "good", eq_support: true, availability_class: "easy",
+    audio_type: "headphone", audio_open_back: false, audio_has_mic: true, audio_mic_type: "integrated",
+    audio_mic_quality: "ok", audio_sound_signature: "warm", audio_competitive_fps: "poor", audio_immersion: "ok",
+    audio_isolation: "high", audio_anc: true, audio_comfort: "great", audio_weight_g: 317, audio_needs_amp: "no",
+    audio_impedance_ohm: undefined, audio_sensitivity_db: undefined, audio_driver_type: "dynamic",
+    audio_wireless_codec_support: ["sbc", "aac", "aptx", "aptx_adaptive"], audio_virtual_surround: ["dolby_atmos"],
+    audio_repairability: "ok", audio_value_pick: false,
+  },
+};
+
+// =============================================================================
+// JBL HEADPHONES & EARBUDS
+// =============================================================================
+
+export const jblTune770NC: AudioProduct = {
+  id: "jbl_tune_770nc",
+  name: "JBL Tune 770NC",
+  brand: "JBL",
+  category: "audio",
+  price_range_usd: [80, 130],
+  image_url: "https://i.rtings.com/assets/products/1JJFqGOA/jbl-tune-770nc-wireless/design-medium.jpg?format=auto",
+  product_url: "https://www.rtings.com/headphones/reviews/jbl/tune-770nc-wireless",
+  recommendation_tags: ["budget_anc", "long_battery", "foldable", "multi_device", "value_pick"],
+  data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
+  core_attributes: {
+    category_subtype: "headphone", price_tier: "midrange", platform_fit: ["pc", "mobile", "mac"],
+    connection_type: ["bluetooth", "wired_3_5mm"], wireless: true, battery_life_hr: 47.5,
+    latency_class: "medium", software_support: "great", eq_support: true, availability_class: "easy",
+    audio_type: "headphone", audio_open_back: false, audio_has_mic: true, audio_mic_type: "integrated",
+    audio_mic_quality: "ok", audio_sound_signature: "neutral", audio_competitive_fps: "poor", audio_immersion: "ok",
+    audio_isolation: "medium", audio_anc: true, audio_comfort: "ok", audio_weight_g: 252, audio_needs_amp: "no",
+    audio_impedance_ohm: undefined, audio_sensitivity_db: undefined, audio_driver_type: "dynamic",
+    audio_wireless_codec_support: ["sbc"], audio_virtual_surround: [],
+    audio_repairability: "ok", audio_value_pick: true,
+  },
+};
+
+export const jblClubProPlusTWS: AudioProduct = {
+  id: "jbl_club_pro_plus_tws",
+  name: "JBL CLUB PRO+ TWS",
+  brand: "JBL",
+  category: "audio",
+  price_range_usd: [150, 200],
+  image_url: "https://i.rtings.com/assets/products/Ya9ptWGE/jbl-club-pro-plus-tws-true-wireless/design-medium.jpg?format=auto",
+  product_url: "https://www.rtings.com/headphones/reviews/jbl/club-pro-plus-tws-true-wireless",
+  recommendation_tags: ["true_wireless", "anc", "sports", "parametric_eq", "neutral_sound"],
+  data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
+  core_attributes: {
+    category_subtype: "earbud", price_tier: "upper_midrange", platform_fit: ["mobile"],
+    connection_type: ["bluetooth"], wireless: true, battery_life_hr: 7.4,
+    latency_class: "high", software_support: "great", eq_support: true, availability_class: "easy",
+    audio_type: "earbud", audio_open_back: false, audio_has_mic: true, audio_mic_type: "integrated",
+    audio_mic_quality: "ok", audio_sound_signature: "neutral", audio_competitive_fps: "poor", audio_immersion: "ok",
+    audio_isolation: "medium", audio_anc: true, audio_comfort: "good", audio_weight_g: 14, audio_needs_amp: "no",
+    audio_impedance_ohm: undefined, audio_sensitivity_db: undefined, audio_driver_type: "dynamic",
+    audio_wireless_codec_support: ["sbc"], audio_virtual_surround: [],
+    audio_repairability: "poor", audio_value_pick: false,
+  },
+};
+
+// =============================================================================
+// RAZER HEADPHONES
+// =============================================================================
+
+export const razerOpus2020: AudioProduct = {
+  id: "razer_opus_2020",
+  name: "Razer Opus Wireless 2020",
+  brand: "Razer",
+  category: "audio",
+  price_range_usd: [150, 200],
+  image_url: "https://i.rtings.com/assets/products/qVOIQOsV/razer-opus-wireless-2020/design-medium.jpg?format=auto",
+  product_url: "https://www.rtings.com/headphones/reviews/razer/opus-wireless-2020",
+  recommendation_tags: ["anc", "travel", "office_work", "thx_certified", "neutral_sound"],
+  data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
+  core_attributes: {
+    category_subtype: "headphone", price_tier: "upper_midrange", platform_fit: ["pc", "mobile", "mac", "playstation", "xbox"],
+    connection_type: ["bluetooth", "wired_3_5mm"], wireless: true, battery_life_hr: 32.6,
+    latency_class: "medium", software_support: "good", eq_support: true, availability_class: "easy",
+    audio_type: "headphone", audio_open_back: false, audio_has_mic: true, audio_mic_type: "integrated",
+    audio_mic_quality: "ok", audio_sound_signature: "neutral", audio_competitive_fps: "ok", audio_immersion: "ok",
+    audio_isolation: "high", audio_anc: true, audio_comfort: "great", audio_weight_g: 270, audio_needs_amp: "no",
+    audio_impedance_ohm: undefined, audio_sensitivity_db: undefined, audio_driver_type: "dynamic",
+    audio_wireless_codec_support: ["sbc", "aptx"], audio_virtual_surround: ["vendor_specific"],
+    audio_repairability: "ok", audio_value_pick: true,
+  },
+};
+
+// =============================================================================
+// AKG HEADPHONES
+// =============================================================================
+
+export const akgN700NCM2: AudioProduct = {
+  id: "akg_n700nc_m2",
+  name: "AKG N700NC M2",
+  brand: "AKG",
+  category: "audio",
+  price_range_usd: [180, 250],
+  image_url: "https://i.rtings.com/assets/products/zRugl9Ca/akg-n700nc-m2-wireless/design-medium.jpg?format=auto",
+  product_url: "https://www.rtings.com/headphones/reviews/akg/n700nc-m2-wireless",
+  recommendation_tags: ["anc", "travel", "office_work", "parametric_eq", "multi_device"],
+  data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
+  core_attributes: {
+    category_subtype: "headphone", price_tier: "upper_midrange", platform_fit: ["pc", "mobile", "mac", "playstation", "xbox"],
+    connection_type: ["bluetooth", "wired_3_5mm"], wireless: true, battery_life_hr: 20.7,
+    latency_class: "medium", software_support: "great", eq_support: true, availability_class: "easy",
+    audio_type: "headphone", audio_open_back: false, audio_has_mic: true, audio_mic_type: "integrated",
+    audio_mic_quality: "ok", audio_sound_signature: "warm", audio_competitive_fps: "ok", audio_immersion: "ok",
+    audio_isolation: "high", audio_anc: true, audio_comfort: "good", audio_weight_g: 280, audio_needs_amp: "no",
+    audio_impedance_ohm: undefined, audio_sensitivity_db: undefined, audio_driver_type: "dynamic",
+    audio_wireless_codec_support: ["sbc", "aac"], audio_virtual_surround: [],
+    audio_repairability: "ok", audio_value_pick: false,
+  },
+};
+
+// =============================================================================
 // Export Array - All Audio Products
 // =============================================================================
 
@@ -3364,4 +4022,47 @@ export const allAudioProducts: AudioProduct[] = [
   boseQuietcomfort35IiWireless2018, boseQuietcomfort45Wireless, sonyPulseExploreTrulyWireless,
   jabraElite10Gen2, jabraElite8ActiveGen2, sennheiserRs165RfWireless, astroA40TrHeadsetMixampPro2019,
   boseQuietcomfortUltraHeadphonesWireless, bowersWilkinsPi7TrueWireless,
+
+    // Sony
+  sonyWH1000XM5,
+  sonyWH1000XM3,
+  // SteelSeries
+  steelSeriesArctisNovaProWireless,
+  steelSeriesArctisNovaPro,
+  // Sennheiser
+  sennheiserMomentum4Wireless,
+  sennheiserMomentum3Wireless,
+  sennheiserAccentumPlus,
+  // Jabra
+  jabraElite85hWireless,
+  jabraElite7ProTrueWireless,
+  jabraElite10,
+  jabraElite8Active,
+  jabraElite7Active,
+  // Audeze
+  audezeMobius,
+  // Bose
+  boseQuietComfort35,
+  bose700,
+  boseSoundLink2,
+  // Audio-Technica
+  audioTechnicaATHM50xBT2,
+  // Bowers & Wilkins
+  bowersWilkinsPx8,
+  // Samsung
+  samsungGalaxyBudsPlus,
+  // Turtle Beach
+  turtleBeachElitePro2SuperAmp,
+  // Corsair
+  corsairHS70Bluetooth,
+  // Sonos
+  sonosAce,
+  // JBL
+  jblTune770NC,
+  jblClubProPlusTWS,
+  // AKG
+  akgN700NCM2,
+  // Razer
+  razerOpus2020,
+
 ];
