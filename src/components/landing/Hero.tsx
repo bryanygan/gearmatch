@@ -64,7 +64,7 @@ const Hero = () => {
               </div>
               <div className="w-px bg-border" />
               <div>
-                <div className="font-display text-sm md:text-xl font-bold text-foreground">240+</div>
+                <div className="font-display text-sm md:text-xl font-bold text-foreground">530+</div>
                 <div className="text-[9px] md:text-xs text-muted-foreground">products</div>
               </div>
               <div className="w-px bg-border" />
