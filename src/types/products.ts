@@ -12,6 +12,7 @@
 /** Price bucket for UX filters and value-pick logic */
 export type PriceTier =
   | "budget"
+  | "lower_midrange"
   | "midrange"
   | "upper_midrange"
   | "premium"
@@ -244,7 +245,8 @@ export type KeyboardSwitchType =
   | "magnetic_tmr"
   | "optical"
   | "scissor"
-  | "membrane";
+  | "membrane"
+  | "rubber_dome";
 
 /** Keyboard switch feel */
 export type KeyboardSwitchFeel = "linear" | "tactile" | "clicky";
@@ -270,6 +272,7 @@ export type KeyboardMountStyle =
   | "double_gasket"
   | "top_mount"
   | "integrated_plate"
+  | "plate"
   | "unknown";
 
 /** Keyboard keycap material */
@@ -291,7 +294,7 @@ export type KeyboardKeycapProfile =
 export type KeyboardPollingRate = "125" | "500" | "1000" | "2000" | "4000" | "8000";
 
 /** Keyboard build quality rating */
-export type KeyboardBuildQuality = "ok" | "good" | "excellent";
+export type KeyboardBuildQuality = "ok" | "good" | "great" | "excellent";
 
 /** Keyboard feature tags */
 export type KeyboardFeatureTag =
