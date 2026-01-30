@@ -1,12 +1,7 @@
 import { memo } from "react";
 import { cn } from "@/lib/utils";
-import { LucideIcon, HelpCircle } from "lucide-react";
-import {
-  Tooltip,
-  TooltipContent,
-  TooltipProvider,
-  TooltipTrigger,
-} from "@/components/ui/tooltip";
+import { LucideIcon } from "lucide-react";
+import QuizHelpTooltip from "./QuizHelpTooltip";
 
 interface QuizOptionCardProps {
   icon?: LucideIcon;
@@ -73,21 +68,12 @@ const QuizOptionCard = memo(function QuizOptionCard({
     >
       {/* Help tooltip (top left) */}
       {helpText && (
-        <TooltipProvider delayDuration={200}>
-          <Tooltip>
-            <TooltipTrigger asChild>
-              <span
-                className="absolute left-3 top-3 flex h-5 w-5 items-center justify-center text-muted-foreground/50 transition-colors hover:text-muted-foreground"
-                onClick={(e) => e.stopPropagation()}
-              >
-                <HelpCircle className="h-4 w-4" />
-              </span>
-            </TooltipTrigger>
-            <TooltipContent side="top" className="max-w-xs text-sm">
-              <p>{helpText}</p>
-            </TooltipContent>
-          </Tooltip>
-        </TooltipProvider>
+        <div
+          className="absolute left-3 top-3"
+          onClick={(e) => e.stopPropagation()}
+        >
+          <QuizHelpTooltip content={helpText} />
+        </div>
       )}
 
       {/* Selection indicator - checkbox for multiSelect, radio for single */}

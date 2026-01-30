@@ -820,7 +820,7 @@ export const buttonNeedsRule: ScoringRule<MouseQuizAnswers, MouseProduct> = {
 
 /**
  * Complete set of mouse scoring rules in evaluation order.
- * Weights sum to 1.0:
+ * Weights sum to ~1.05 (normalized by the scoring engine):
  * - Grip Fit: 0.20
  * - Size/Hand: 0.17
  * - Weight: 0.17
@@ -831,8 +831,6 @@ export const buttonNeedsRule: ScoringRule<MouseQuizAnswers, MouseProduct> = {
  * - Shape Profile: 0.05
  * - Gaming Genre: 0.05
  * - Button Needs: 0.05
- *
- * Note: Weights currently sum to 1.05, which is acceptable as they are normalized.
  */
 export const mouseRules: ScoringRule<MouseQuizAnswers, MouseProduct>[] = [
   gripFitRule,

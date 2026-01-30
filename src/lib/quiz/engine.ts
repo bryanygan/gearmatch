@@ -99,8 +99,9 @@ export class QuizEngine<TAnswers extends object> {
    */
   getProgress(): QuizProgress {
     const visible = this.getVisibleQuestions();
-    const current = this.state.currentQuestionIndex + 1;
     const total = visible.length;
+    // Guard against zero visible questions to avoid showing "1 of 0"
+    const current = total === 0 ? 0 : this.state.currentQuestionIndex + 1;
 
     // Calculate progress by category
     const categoryLabels: Record<QuestionCategory, string> = {
