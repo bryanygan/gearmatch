@@ -95,7 +95,7 @@ function evaluateSinglePrimaryUse(
 
 export const primaryUseRule: ScoringRule<KeyboardQuizAnswers, KeyboardProduct> = {
   name: "Primary Use",
-  weight: 0.25,
+  weight: 0.2, // Reduced from 0.25 to accommodate new rules
   maxPoints: 25,
   evaluate: (answers, product): RuleResult => {
     const uses = answers["primary-use"];
@@ -130,7 +130,7 @@ export const primaryUseRule: ScoringRule<KeyboardQuizAnswers, KeyboardProduct> =
  */
 export const formFactorRule: ScoringRule<KeyboardQuizAnswers, KeyboardProduct> = {
   name: "Form Factor",
-  weight: 0.2,
+  weight: 0.17, // Reduced from 0.20 to accommodate new rules
   maxPoints: 20,
   evaluate: (answers, product): RuleResult => {
     const preferences = answers["form-factor"];
@@ -187,7 +187,7 @@ export const formFactorRule: ScoringRule<KeyboardQuizAnswers, KeyboardProduct> =
  */
 export const switchTypeRule: ScoringRule<KeyboardQuizAnswers, KeyboardProduct> = {
   name: "Switch Type",
-  weight: 0.15,
+  weight: 0.12, // Reduced from 0.15 to accommodate new rules
   maxPoints: 15,
   evaluate: (answers, product): RuleResult => {
     const preferences = answers["switch-type"];
@@ -249,7 +249,7 @@ export const switchTypeRule: ScoringRule<KeyboardQuizAnswers, KeyboardProduct> =
  */
 export const gamingFeaturesRule: ScoringRule<KeyboardQuizAnswers, KeyboardProduct> = {
   name: "Gaming Features",
-  weight: 0.15,
+  weight: 0.12, // Reduced from 0.15 to accommodate new rules
   maxPoints: 15,
   evaluate: (answers, product): RuleResult => {
     const need = answers["gaming-features"];
@@ -342,7 +342,7 @@ export const gamingFeaturesRule: ScoringRule<KeyboardQuizAnswers, KeyboardProduc
  */
 export const connectivityRule: ScoringRule<KeyboardQuizAnswers, KeyboardProduct> = {
   name: "Connectivity",
-  weight: 0.15,
+  weight: 0.12, // Reduced from 0.15 to accommodate new rules
   maxPoints: 15,
   evaluate: (answers, product): RuleResult => {
     const preference = answers.connectivity;
@@ -518,7 +518,7 @@ function evaluateSinglePriority(
 
 export const priorityFeatureRule: ScoringRule<KeyboardQuizAnswers, KeyboardProduct> = {
   name: "Priority Feature",
-  weight: 0.1,
+  weight: 0.08, // Reduced from 0.10 to accommodate new rules
   maxPoints: 10,
   evaluate: (answers, product): RuleResult => {
     const priorities = answers["priority-feature"];
@@ -553,7 +553,7 @@ export const priorityFeatureRule: ScoringRule<KeyboardQuizAnswers, KeyboardProdu
  */
 export const budgetMatchRule: ScoringRule<KeyboardQuizAnswers, KeyboardProduct> = {
   name: "Budget Match",
-  weight: 0.1,
+  weight: 0.07, // Reduced from 0.10 to accommodate new rules
   maxPoints: 10,
   evaluate: (answers, product): RuleResult => {
     const budgetPrefs = answers.budget;
@@ -615,11 +615,183 @@ export const budgetMatchRule: ScoringRule<KeyboardQuizAnswers, KeyboardProduct> 
 };
 
 // =============================================================================
+// Rule 8: Switch Technology (weight: 0.06, max: 6 points) - NEW
+// =============================================================================
+
+/**
+ * Evaluates if the keyboard's switch technology matches user preference.
+ * Only applies when user has specified switch technology preference.
+ */
+export const switchTechnologyRule: ScoringRule<KeyboardQuizAnswers, KeyboardProduct> = {
+  name: "Switch Technology",
+  weight: 0.06,
+  maxPoints: 6,
+  evaluate: (answers, product): RuleResult => {
+    const prefs = answers["switch-technology"];
+
+    // If not specified or "any" selected, give base points
+    if (!prefs || prefs.length === 0 || prefs.includes("any")) {
+      return { points: 5, reason: "Switch technology preference not specified" };
+    }
+
+    const switchType = product.core_attributes.keyboard_switch_type;
+
+    // Map user preferences to product switch types
+    const typeMapping: Record<string, string[]> = {
+      mechanical: ["mechanical"],
+      magnetic: ["magnetic_hall_effect", "magnetic_tmr"],
+      optical: ["optical"],
+    };
+
+    // Check for direct match
+    for (const pref of prefs) {
+      if (typeMapping[pref]?.includes(switchType)) {
+        if (pref === "magnetic") {
+          const hasRapidTrigger = product.core_attributes.keyboard_supports_rapid_trigger;
+          if (hasRapidTrigger) {
+            return {
+              points: 6,
+              reason: "Magnetic hall effect switches with Rapid Trigger",
+            };
+          }
+          return { points: 6, reason: "Magnetic switches for adjustable actuation" };
+        }
+        if (pref === "optical") {
+          return { points: 6, reason: "Optical switches for fast actuation" };
+        }
+        return { points: 6, reason: "Traditional mechanical switches" };
+      }
+    }
+
+    // No match but check for similar technologies
+    if (prefs.includes("magnetic") && switchType === "optical") {
+      return {
+        points: 4,
+        reason: "Optical switches (similar fast actuation to magnetic)",
+        concern: "Not magnetic - may lack adjustable actuation",
+      };
+    }
+
+    return {
+      points: 2,
+      concern: `Has ${switchType} switches, you preferred ${prefs.join(" or ")}`,
+    };
+  },
+};
+
+// =============================================================================
+// Rule 9: Media Controls (weight: 0.03, max: 3 points) - NEW
+// =============================================================================
+
+/**
+ * Evaluates if the keyboard has media controls based on user preference.
+ * Only applies when user has specified media controls preference.
+ */
+export const mediaControlsRule: ScoringRule<KeyboardQuizAnswers, KeyboardProduct> = {
+  name: "Media Controls",
+  weight: 0.03,
+  maxPoints: 3,
+  evaluate: (answers, product): RuleResult => {
+    const pref = answers["media-controls"];
+
+    // If not specified, give base points
+    if (!pref) {
+      return { points: 2, reason: "Media controls preference not specified" };
+    }
+
+    const hasKnob = product.core_attributes.keyboard_has_knob;
+    const features = product.core_attributes.keyboard_feature_tags;
+    const hasMediaKeys = features.includes("media_keys");
+
+    switch (pref) {
+      case "essential":
+        if (hasKnob) {
+          return { points: 3, reason: "Dedicated volume knob for media control" };
+        }
+        if (hasMediaKeys) {
+          return { points: 2, reason: "Has media control keys" };
+        }
+        return { points: 0, concern: "No dedicated media controls" };
+
+      case "nice-to-have":
+        if (hasKnob) {
+          return { points: 3, reason: "Bonus: has volume knob" };
+        }
+        if (hasMediaKeys) {
+          return { points: 2, reason: "Has media keys" };
+        }
+        return { points: 1, reason: "No dedicated media controls (not required)" };
+
+      case "not-needed":
+        return { points: 3, reason: "Media controls not needed" };
+    }
+
+    return { points: 2 };
+  },
+};
+
+// =============================================================================
+// Rule 10: Keycap Material (weight: 0.03, max: 3 points) - NEW
+// =============================================================================
+
+/**
+ * Evaluates if the keyboard's keycap material matches user preference.
+ * Only applies when user has specified keycap material preference.
+ */
+export const keycapMaterialRule: ScoringRule<KeyboardQuizAnswers, KeyboardProduct> = {
+  name: "Keycap Material",
+  weight: 0.03,
+  maxPoints: 3,
+  evaluate: (answers, product): RuleResult => {
+    const pref = answers["keycap-material"];
+
+    // If not specified or "any" selected, give base points
+    if (!pref || pref === "any") {
+      return { points: 2, reason: "Keycap material preference not specified" };
+    }
+
+    const material = product.core_attributes.keyboard_keycap_material;
+
+    // Direct match
+    if (pref === material) {
+      if (pref === "pbt") {
+        return { points: 3, reason: "PBT keycaps for durability and texture" };
+      }
+      return { points: 3, reason: "ABS keycaps for smooth feel" };
+    }
+
+    // Hot-swappable keyboards can have keycaps replaced
+    if (product.core_attributes.keyboard_hot_swappable) {
+      return {
+        points: 2,
+        reason: `Has ${material} keycaps (easily replaceable)`,
+      };
+    }
+
+    return {
+      points: 1,
+      concern: `Has ${material} keycaps, you preferred ${pref.toUpperCase()}`,
+    };
+  },
+};
+
+// =============================================================================
 // Combined Rules Export
 // =============================================================================
 
 /**
  * All keyboard scoring rules in evaluation order.
+ * Weights sum to 1.0:
+ * - Primary Use: 0.20
+ * - Form Factor: 0.17
+ * - Switch Type: 0.12
+ * - Gaming Features: 0.12
+ * - Connectivity: 0.12
+ * - Priority Feature: 0.08
+ * - Budget Match: 0.07
+ * - Switch Technology: 0.06 (NEW)
+ * - Media Controls: 0.03 (NEW)
+ * - Keycap Material: 0.03 (NEW)
  */
 export const keyboardRules: ScoringRule<KeyboardQuizAnswers, KeyboardProduct>[] = [
   primaryUseRule,
@@ -629,4 +801,7 @@ export const keyboardRules: ScoringRule<KeyboardQuizAnswers, KeyboardProduct>[] 
   connectivityRule,
   priorityFeatureRule,
   budgetMatchRule,
+  switchTechnologyRule,
+  mediaControlsRule,
+  keycapMaterialRule,
 ];

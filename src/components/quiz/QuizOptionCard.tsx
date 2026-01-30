@@ -1,6 +1,12 @@
 import { memo } from "react";
 import { cn } from "@/lib/utils";
-import { LucideIcon } from "lucide-react";
+import { LucideIcon, HelpCircle } from "lucide-react";
+import {
+  Tooltip,
+  TooltipContent,
+  TooltipProvider,
+  TooltipTrigger,
+} from "@/components/ui/tooltip";
 
 interface QuizOptionCardProps {
   icon?: LucideIcon;
@@ -10,6 +16,8 @@ interface QuizOptionCardProps {
   onClick: () => void;
   accentColor?: "primary" | "accent" | "secondary";
   multiSelect?: boolean;
+  /** Optional help text shown in tooltip */
+  helpText?: string;
 }
 
 const QuizOptionCard = memo(function QuizOptionCard({
@@ -20,6 +28,7 @@ const QuizOptionCard = memo(function QuizOptionCard({
   onClick,
   accentColor = "primary",
   multiSelect = false,
+  helpText,
 }: QuizOptionCardProps) {
   const accentClasses = {
     primary: {
@@ -62,6 +71,25 @@ const QuizOptionCard = memo(function QuizOptionCard({
           : "border-border bg-card hover:border-muted-foreground/50"
       )}
     >
+      {/* Help tooltip (top left) */}
+      {helpText && (
+        <TooltipProvider delayDuration={200}>
+          <Tooltip>
+            <TooltipTrigger asChild>
+              <span
+                className="absolute left-3 top-3 flex h-5 w-5 items-center justify-center text-muted-foreground/50 transition-colors hover:text-muted-foreground"
+                onClick={(e) => e.stopPropagation()}
+              >
+                <HelpCircle className="h-4 w-4" />
+              </span>
+            </TooltipTrigger>
+            <TooltipContent side="top" className="max-w-xs text-sm">
+              <p>{helpText}</p>
+            </TooltipContent>
+          </Tooltip>
+        </TooltipProvider>
+      )}
+
       {/* Selection indicator - checkbox for multiSelect, radio for single */}
       <div
         className={cn(

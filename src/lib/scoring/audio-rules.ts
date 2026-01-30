@@ -76,7 +76,7 @@ function evaluateSingleFormFactor(
 
 export const formFactorRule: ScoringRule<AudioQuizAnswers, AudioProduct> = {
   name: "Form Factor",
-  weight: 0.25,
+  weight: 0.2, // Reduced from 0.25 to accommodate new rules
   maxPoints: 25,
   evaluate: (answers, product): RuleResult => {
     const preferences = answers["form-factor"];
@@ -199,7 +199,7 @@ function evaluateSingleAudioPrimaryUse(
 
 export const primaryUseRule: ScoringRule<AudioQuizAnswers, AudioProduct> = {
   name: "Primary Use",
-  weight: 0.2,
+  weight: 0.15, // Reduced from 0.20 to accommodate new rules
   maxPoints: 20,
   evaluate: (answers, product): RuleResult => {
     const primaryUses = answers["primary-use"];
@@ -234,7 +234,7 @@ export const primaryUseRule: ScoringRule<AudioQuizAnswers, AudioProduct> = {
  */
 export const microphoneRule: ScoringRule<AudioQuizAnswers, AudioProduct> = {
   name: "Microphone",
-  weight: 0.2,
+  weight: 0.15, // Reduced from 0.20 to accommodate new rules
   maxPoints: 20,
   evaluate: (answers, product): RuleResult => {
     const micNeed = answers["mic-needs"];
@@ -394,7 +394,7 @@ function evaluateSingleSessionComfort(
 
 export const comfortSessionRule: ScoringRule<AudioQuizAnswers, AudioProduct> = {
   name: "Comfort & Session",
-  weight: 0.15,
+  weight: 0.1, // Reduced from 0.15 to accommodate new rules
   maxPoints: 15,
   evaluate: (answers, product): RuleResult => {
     const sessionLengths = answers["session-length"];
@@ -421,7 +421,7 @@ export const comfortSessionRule: ScoringRule<AudioQuizAnswers, AudioProduct> = {
  */
 export const budgetRule: ScoringRule<AudioQuizAnswers, AudioProduct> = {
   name: "Budget",
-  weight: 0.15,
+  weight: 0.1, // Reduced from 0.15 to accommodate new rules
   maxPoints: 15,
   evaluate: (answers, product): RuleResult => {
     const budgetPrefs = answers.budget;
@@ -541,11 +541,217 @@ export const audioBonusPointsRule: ScoringRule<AudioQuizAnswers, AudioProduct> =
 };
 
 // =============================================================================
+// Rule 7: Sound Signature (weight: 0.10, max: 10 points) - NEW
+// =============================================================================
+
+/**
+ * Evaluates how well the audio product's sound signature matches user preference.
+ * Only applies when user has specified sound signature preference.
+ */
+export const soundSignatureRule: ScoringRule<AudioQuizAnswers, AudioProduct> = {
+  name: "Sound Signature",
+  weight: 0.1,
+  maxPoints: 10,
+  evaluate: (answers, product): RuleResult => {
+    const prefs = answers["sound-signature"];
+
+    // If not specified, give base points
+    if (!prefs || prefs.length === 0) {
+      return { points: 7, reason: "Sound signature preference not specified" };
+    }
+
+    const productSig = product.core_attributes.audio_sound_signature;
+
+    // Direct match
+    if (prefs.includes(productSig as typeof prefs[number])) {
+      const sigName = productSig.replace(/_/g, "-");
+      return {
+        points: 10,
+        reason: `${sigName.charAt(0).toUpperCase() + sigName.slice(1)} sound signature matches your preference`,
+      };
+    }
+
+    // Similar signatures
+    const similarSignatures: Record<string, string[]> = {
+      neutral: ["bright"], // Both are "accurate" focused
+      warm: ["bassy", "v_shaped"],
+      v_shaped: ["bassy", "warm"],
+      bright: ["neutral"],
+      bassy: ["warm", "v_shaped"],
+      mid_forward: ["neutral"],
+    };
+
+    const isSimilar = prefs.some((pref) =>
+      similarSignatures[pref]?.includes(productSig)
+    );
+
+    if (isSimilar) {
+      return {
+        points: 7,
+        reason: `${productSig.replace(/_/g, "-")} sound signature is similar to your preferences`,
+      };
+    }
+
+    return {
+      points: 4,
+      concern: `${productSig.replace(/_/g, "-")} sound signature differs from your preferences`,
+    };
+  },
+};
+
+// =============================================================================
+// Rule 8: Wireless Preference (weight: 0.08, max: 8 points) - NEW
+// =============================================================================
+
+/**
+ * Evaluates if the audio product meets wireless connectivity preferences.
+ * Only applies when user has specified wireless preference.
+ */
+export const wirelessPreferenceRule: ScoringRule<AudioQuizAnswers, AudioProduct> = {
+  name: "Wireless Preference",
+  weight: 0.08,
+  maxPoints: 8,
+  evaluate: (answers, product): RuleResult => {
+    const pref = answers["wireless-preference"];
+
+    // If not specified, give base points
+    if (!pref) {
+      return { points: 6, reason: "Wireless preference not specified" };
+    }
+
+    const isWireless = product.core_attributes.wireless;
+    const connectionTypes = product.core_attributes.connection_type;
+    const hasWired =
+      connectionTypes.includes("wired_3_5mm") ||
+      connectionTypes.includes("wired_usb") ||
+      connectionTypes.includes("wired_usb_c");
+
+    switch (pref) {
+      case "wireless-required":
+        if (isWireless) {
+          return { points: 8, reason: "Wireless connectivity as required" };
+        }
+        return { points: 0, concern: "Wired only - does not meet wireless requirement" };
+
+      case "wireless-preferred":
+        if (isWireless) {
+          return { points: 8, reason: "Wireless connectivity available" };
+        }
+        if (hasWired) {
+          return { points: 5, reason: "Wired connection (wireless preferred but not required)" };
+        }
+        return { points: 3, concern: "Limited connectivity options" };
+
+      case "wired-preferred":
+        if (hasWired) {
+          if (!isWireless) {
+            return { points: 8, reason: "Dedicated wired connection for reliability" };
+          }
+          return { points: 7, reason: "Wired option available (also has wireless)" };
+        }
+        return { points: 3, concern: "Wireless only - no wired option" };
+
+      case "either":
+        return { points: 7, reason: isWireless ? "Wireless connectivity" : "Wired connectivity" };
+    }
+
+    return { points: 5 };
+  },
+};
+
+// =============================================================================
+// Rule 9: Noise Environment (weight: 0.07, max: 7 points) - NEW
+// =============================================================================
+
+/**
+ * Evaluates if the audio product suits the user's noise environment.
+ * Only applies when user has specified noise environment.
+ */
+export const noiseEnvironmentRule: ScoringRule<AudioQuizAnswers, AudioProduct> = {
+  name: "Noise Environment",
+  weight: 0.07,
+  maxPoints: 7,
+  evaluate: (answers, product): RuleResult => {
+    const env = answers["noise-environment"];
+
+    // If not specified, give base points
+    if (!env) {
+      return { points: 5, reason: "Noise environment not specified" };
+    }
+
+    const isolation = product.core_attributes.audio_isolation;
+    const hasANC = product.core_attributes.audio_anc;
+    const isOpenBack = product.core_attributes.audio_open_back;
+
+    switch (env) {
+      case "quiet":
+        // Open-back actually preferred in quiet environments
+        if (isOpenBack) {
+          return { points: 7, reason: "Open-back design ideal for quiet listening spaces" };
+        }
+        // Isolation doesn't matter much in quiet environments
+        return { points: 6, reason: "Suitable for quiet environments" };
+
+      case "moderate":
+        if (hasANC) {
+          return { points: 7, reason: "ANC helps in moderate noise environments" };
+        }
+        if (isolation === "high") {
+          return { points: 6, reason: "Good passive isolation for moderate noise" };
+        }
+        if (isolation === "medium") {
+          return { points: 5, reason: "Moderate isolation suits your environment" };
+        }
+        if (isOpenBack) {
+          return {
+            points: 3,
+            concern: "Open-back design may let in ambient noise",
+          };
+        }
+        return { points: 4 };
+
+      case "noisy":
+        if (hasANC) {
+          return { points: 7, reason: "Active noise cancellation for noisy environments" };
+        }
+        if (isolation === "high") {
+          return { points: 6, reason: "High passive isolation for noisy spaces" };
+        }
+        if (isolation === "medium") {
+          return {
+            points: 4,
+            concern: "Medium isolation may not fully block noise",
+          };
+        }
+        if (isOpenBack || isolation === "low") {
+          return {
+            points: 2,
+            concern: "Low isolation not ideal for noisy environments",
+          };
+        }
+        return { points: 3 };
+    }
+
+    return { points: 4 };
+  },
+};
+
+// =============================================================================
 // Export All Audio Rules
 // =============================================================================
 
 /**
  * Complete set of audio scoring rules in evaluation order.
+ * Weights sum to 1.0:
+ * - Form Factor: 0.20
+ * - Primary Use: 0.15
+ * - Microphone: 0.15
+ * - Comfort/Session: 0.10
+ * - Budget: 0.10
+ * - Bonus: 0.05
+ * - Sound Signature: 0.10 (NEW)
+ * - Wireless Preference: 0.08 (NEW)
+ * - Noise Environment: 0.07 (NEW)
  */
 export const audioRules: ScoringRule<AudioQuizAnswers, AudioProduct>[] = [
   formFactorRule,
@@ -554,4 +760,7 @@ export const audioRules: ScoringRule<AudioQuizAnswers, AudioProduct>[] = [
   comfortSessionRule,
   budgetRule,
   audioBonusPointsRule,
+  soundSignatureRule,
+  wirelessPreferenceRule,
+  noiseEnvironmentRule,
 ];
