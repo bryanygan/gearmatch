@@ -16,7 +16,7 @@ import {
   Weight,
   Gamepad2,
   Swords,
-  Map,
+  Map as MapIcon,
   Users,
   Grip,
   Square,
@@ -196,7 +196,7 @@ export const mouseQuestions: EnhancedQuizQuestion<ExtendedMouseQuizAnswers>[] = 
       },
       {
         id: "productivity",
-        icon: Map,
+        icon: MapIcon,
         title: "Productivity",
         description: "Office work, browsing, coding",
       },
