@@ -53,10 +53,10 @@ const QuizModeSelector = memo(function QuizModeSelector({
 
   const accent = accentClasses[accentColor];
 
-  const modes: QuizMode[] = ["quick", "personalized", "expert"];
+  const modes = Object.keys(QUIZ_MODE_CONFIG) as QuizMode[];
 
   return (
-    <div className="space-y-4">
+    <div className="space-y-4" role="radiogroup" aria-label="Quiz detail level">
       <div className="text-center">
         <h2 className="font-display text-xl font-bold md:text-2xl">
           How detailed would you like to go?
@@ -77,6 +77,8 @@ const QuizModeSelector = memo(function QuizModeSelector({
             <button
               key={mode}
               type="button"
+              role="radio"
+              aria-checked={isSelected}
               onClick={() => onSelectMode(mode)}
               className={cn(
                 "group relative flex flex-col items-center gap-3 rounded-xl border-2 p-6 text-center transition-all duration-300",

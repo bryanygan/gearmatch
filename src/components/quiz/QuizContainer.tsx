@@ -75,7 +75,6 @@ function QuizContainer<TAnswers extends object>({
   // Get current state from engine
   const currentQuestion = engine.getCurrentQuestion();
   const progress = engine.getProgress();
-  const visibleQuestions = engine.getVisibleQuestions();
   const isLastQuestion = engine.isComplete();
 
   // Check if current question has an answer
@@ -130,11 +129,11 @@ function QuizContainer<TAnswers extends object>({
     engine.skipQuestion(currentQuestion.id);
     if (!isLastQuestion) {
       engine.next();
+      triggerUpdate();
     } else {
       const answers = engine.getFinalAnswers();
       onComplete(answers);
     }
-    triggerUpdate();
   };
 
   // Icon for category badge
