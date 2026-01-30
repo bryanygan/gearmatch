@@ -315,9 +315,9 @@ export class QuizEngine<TAnswers extends object> {
   getFinalAnswers(): TAnswers {
     const answers = { ...this.state.answers } as TAnswers;
 
-    // Apply defaults for visible but unanswered questions
-    const visible = this.getVisibleQuestions();
-    for (const q of visible) {
+    // Apply defaults for ALL questions with defaults (not just visible ones)
+    // This ensures quick mode still gets valid answers for scoring
+    for (const q of this.questions) {
       if (!(q.id in answers) && q.defaultValue !== undefined) {
         (answers as Record<string, unknown>)[q.id] = q.defaultValue;
       }

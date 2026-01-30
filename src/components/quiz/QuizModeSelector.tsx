@@ -90,7 +90,7 @@ const QuizModeSelector = memo(function QuizModeSelector({
               {isRecommended && (
                 <div
                   className={cn(
-                    "absolute -top-3 left-1/2 -translate-x-1/2 rounded-full px-3 py-1 text-xs font-medium",
+                    "absolute bottom-2 left-1/2 -translate-x-1/2 rounded-full px-3 py-1 text-xs font-medium",
                     accent.badge
                   )}
                 >
