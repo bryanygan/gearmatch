@@ -14,6 +14,7 @@ import type { Product, MouseProduct, AudioProduct, KeyboardProduct } from "@/typ
 /**
  * Mouse quiz answer structure from MouseQuiz.tsx
  * Multi-select fields are arrays; single-select fields remain strings.
+ * Optional fields are from the enhanced quiz (Phase 2 questions).
  */
 export interface MouseQuizAnswers {
   "hand-size": "small" | "medium" | "large";
@@ -21,11 +22,17 @@ export interface MouseQuizAnswers {
   "weight-preference": ("ultralight" | "light" | "medium" | "heavy")[];
   wireless: "wireless" | "wired" | "either";
   "primary-use": ("precision" | "productivity" | "creative" | "mixed")[];
+  // Enhanced quiz fields (optional for backwards compatibility)
+  handedness?: "right" | "left" | "ambidextrous";
+  "shape-profile"?: ("low_hump" | "rear_hump" | "center_hump" | "ergo_hump" | "any")[];
+  "gaming-genre"?: ("fps" | "moba" | "mmo" | "general")[];
+  "button-needs"?: ("minimal" | "standard" | "many" | "mmo_grid")[];
 }
 
 /**
  * Audio quiz answer structure from AudioQuiz.tsx
  * Multi-select fields are arrays; single-select fields remain strings.
+ * Optional fields are from the enhanced quiz (Phase 2 questions).
  */
 export interface AudioQuizAnswers {
   "primary-use": ("competitive" | "immersive" | "mixed" | "streaming")[];
@@ -33,11 +40,16 @@ export interface AudioQuizAnswers {
   "mic-needs": "essential" | "nice-to-have" | "not-needed";
   "session-length": ("short" | "medium" | "long" | "all-day")[];
   budget: ("budget" | "mid-range" | "premium" | "no-limit")[];
+  // Enhanced quiz fields (optional for backwards compatibility)
+  "sound-signature"?: ("neutral" | "warm" | "v_shaped" | "bright")[];
+  "wireless-preference"?: "wireless-required" | "wireless-preferred" | "wired-preferred" | "either";
+  "noise-environment"?: "quiet" | "moderate" | "noisy";
 }
 
 /**
  * Keyboard quiz answer structure from KeyboardQuiz.tsx
  * Multi-select fields are arrays; single-select fields remain strings.
+ * Optional fields are from the enhanced quiz (Phase 2 questions).
  */
 export interface KeyboardQuizAnswers {
   "primary-use": ("competitive-gaming" | "casual-gaming" | "productivity" | "programming")[];
@@ -47,6 +59,10 @@ export interface KeyboardQuizAnswers {
   connectivity: "wireless-essential" | "wireless-preferred" | "wired-preferred" | "no-preference";
   "priority-feature": ("performance" | "typing-feel" | "customization" | "quiet")[];
   budget: ("budget" | "mid-range" | "premium" | "enthusiast")[];
+  // Enhanced quiz fields (optional for backwards compatibility)
+  "switch-technology"?: ("mechanical" | "magnetic" | "optical" | "any")[];
+  "media-controls"?: "essential" | "nice-to-have" | "not-needed";
+  "keycap-material"?: "pbt" | "abs" | "any";
 }
 
 // =============================================================================

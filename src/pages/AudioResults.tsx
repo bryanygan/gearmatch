@@ -136,7 +136,7 @@ const AudioResults = () => {
             </span>
           </div>
           <h1 className="font-display text-3xl font-bold md:text-4xl">
-            Your Perfect Audio Matches
+            Your Curated Audio Matches
           </h1>
           <div className="mx-auto max-w-2xl">
             <AnswerSummary answers={answers} category="audio" />

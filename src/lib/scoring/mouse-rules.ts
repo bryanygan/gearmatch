@@ -91,7 +91,7 @@ function evaluateSingleGrip(
 
 export const gripFitRule: ScoringRule<MouseQuizAnswers, MouseProduct> = {
   name: "Grip Fit",
-  weight: 0.25,
+  weight: 0.2, // Reduced from 0.25 to accommodate new rules
   maxPoints: 25,
   evaluate: (answers, product): RuleResult => {
     const userGrips = answers["grip-style"];
@@ -128,7 +128,7 @@ export const gripFitRule: ScoringRule<MouseQuizAnswers, MouseProduct> = {
  */
 export const sizeHandMatchRule: ScoringRule<MouseQuizAnswers, MouseProduct> = {
   name: "Size & Hand Match",
-  weight: 0.2,
+  weight: 0.17, // Reduced from 0.20 to accommodate new rules
   maxPoints: 20,
   evaluate: (answers, product): RuleResult => {
     const handSize = answers["hand-size"];
@@ -220,7 +220,7 @@ export const sizeHandMatchRule: ScoringRule<MouseQuizAnswers, MouseProduct> = {
  */
 export const weightPreferenceRule: ScoringRule<MouseQuizAnswers, MouseProduct> = {
   name: "Weight Preference",
-  weight: 0.2,
+  weight: 0.17, // Reduced from 0.20 to accommodate new rules
   maxPoints: 20,
   evaluate: (answers, product): RuleResult => {
     const preferences = answers["weight-preference"];
@@ -294,7 +294,7 @@ export const weightPreferenceRule: ScoringRule<MouseQuizAnswers, MouseProduct> =
  */
 export const connectionTypeRule: ScoringRule<MouseQuizAnswers, MouseProduct> = {
   name: "Connection Type",
-  weight: 0.15,
+  weight: 0.13, // Reduced from 0.15 to accommodate new rules
   maxPoints: 15,
   evaluate: (answers, product): RuleResult => {
     const preference = answers.wireless;
@@ -464,7 +464,7 @@ function evaluateSingleUseCaseFit(
 
 export const useCaseFitRule: ScoringRule<MouseQuizAnswers, MouseProduct> = {
   name: "Use Case Fit",
-  weight: 0.15,
+  weight: 0.08, // Reduced from 0.15 to accommodate new rules
   maxPoints: 15,
   evaluate: (answers, product): RuleResult => {
     const primaryUses = answers["primary-use"];
@@ -539,11 +539,298 @@ export const bonusPointsRule: ScoringRule<MouseQuizAnswers, MouseProduct> = {
 };
 
 // =============================================================================
+// Rule 7: Handedness (weight: 0.10, max: 10 points) - NEW
+// =============================================================================
+
+/**
+ * Evaluates if the mouse shape matches the user's dominant hand.
+ * Only applies when user has specified handedness preference.
+ */
+export const handednessRule: ScoringRule<MouseQuizAnswers, MouseProduct> = {
+  name: "Handedness",
+  weight: 0.1,
+  maxPoints: 10,
+  evaluate: (answers, product): RuleResult => {
+    const userHand = answers.handedness;
+    // If not specified, treat as right-handed (most common)
+    if (!userHand) {
+      return { points: 8, reason: "Compatible with standard right-handed use" };
+    }
+
+    const mouseHand = product.core_attributes.mouse_handedness;
+
+    // Perfect matches
+    if (userHand === "right") {
+      if (mouseHand === "right" || mouseHand === "ergo_right" || mouseHand === "ambi") {
+        return { points: 10, reason: "Suitable for right-handed use" };
+      }
+      return {
+        points: 2,
+        concern: "Left-handed ergonomic design - not suitable for right hand",
+      };
+    }
+
+    if (userHand === "left") {
+      if (mouseHand === "left" || mouseHand === "ergo_left" || mouseHand === "ambi") {
+        return { points: 10, reason: "Suitable for left-handed use" };
+      }
+      return {
+        points: 2,
+        concern: "Right-handed design - not suitable for left hand",
+      };
+    }
+
+    // Ambidextrous user
+    if (userHand === "ambidextrous") {
+      if (mouseHand === "ambi") {
+        return { points: 10, reason: "Symmetrical ambidextrous design" };
+      }
+      // Ergonomic still works, just not symmetric
+      return {
+        points: 7,
+        reason: `${mouseHand.replace("_", " ")} design works but is not symmetric`,
+      };
+    }
+
+    return { points: 5 };
+  },
+};
+
+// =============================================================================
+// Rule 8: Shape Profile (weight: 0.05, max: 5 points) - NEW
+// =============================================================================
+
+/**
+ * Evaluates if the mouse shape profile matches user preference.
+ * Only applies when user has specified shape preference in expert mode.
+ */
+export const shapeProfileRule: ScoringRule<MouseQuizAnswers, MouseProduct> = {
+  name: "Shape Profile",
+  weight: 0.05,
+  maxPoints: 5,
+  evaluate: (answers, product): RuleResult => {
+    const prefs = answers["shape-profile"];
+
+    // If not specified or "any" selected, give base points
+    if (!prefs || prefs.length === 0 || prefs.includes("any")) {
+      return { points: 4, reason: "Shape profile not specified" };
+    }
+
+    const mouseProfile = product.core_attributes.mouse_shape_profile;
+
+    // Check for direct match
+    if (prefs.includes(mouseProfile as typeof prefs[number])) {
+      const profileName = mouseProfile.replace(/_/g, " ");
+      return {
+        points: 5,
+        reason: `${profileName.charAt(0).toUpperCase() + profileName.slice(1)} profile matches your preference`,
+      };
+    }
+
+    // Partial credit for similar profiles
+    const similarProfiles: Record<string, string[]> = {
+      low_hump: ["mid_hump"],
+      mid_hump: ["low_hump", "center_hump"],
+      high_hump: ["rear_hump"],
+      rear_hump: ["high_hump", "ergo_hump"],
+      center_hump: ["mid_hump"],
+      ergo_hump: ["rear_hump"],
+    };
+
+    const similarToPrefs = prefs.some((pref) =>
+      similarProfiles[pref]?.includes(mouseProfile)
+    );
+
+    if (similarToPrefs) {
+      return {
+        points: 3,
+        reason: `${mouseProfile.replace(/_/g, " ")} profile is similar to your preference`,
+      };
+    }
+
+    return {
+      points: 1,
+      concern: `${mouseProfile.replace(/_/g, " ")} profile differs from your preferred shapes`,
+    };
+  },
+};
+
+// =============================================================================
+// Rule 9: Gaming Genre (weight: 0.05, max: 5 points) - NEW
+// =============================================================================
+
+/**
+ * Evaluates how well the mouse fits specific gaming genres.
+ * Only applies when user has specified gaming genres in expert mode.
+ */
+export const gamingGenreRule: ScoringRule<MouseQuizAnswers, MouseProduct> = {
+  name: "Gaming Genre",
+  weight: 0.05,
+  maxPoints: 5,
+  evaluate: (answers, product): RuleResult => {
+    const genres = answers["gaming-genre"];
+
+    // If not specified, give base points
+    if (!genres || genres.length === 0) {
+      return { points: 3, reason: "Gaming genre not specified" };
+    }
+
+    const gameFit = product.core_attributes.mouse_game_fit;
+    const buttonClass = product.core_attributes.mouse_button_count_class;
+
+    // Check for direct matches
+    const genreMatches = genres.filter((genre) => {
+      if (genre === "general") return gameFit.includes("general");
+      return gameFit.includes(genre as typeof gameFit[number]);
+    });
+
+    if (genreMatches.length > 0) {
+      // Special handling for MMO
+      if (genres.includes("mmo")) {
+        if (buttonClass === "mmo_grid") {
+          return {
+            points: 5,
+            reason: "MMO grid with 12+ buttons perfect for MMO gaming",
+          };
+        }
+        if (buttonClass === "high") {
+          return {
+            points: 4,
+            reason: "Good button count for MMO abilities",
+          };
+        }
+        if (gameFit.includes("mmo")) {
+          return { points: 4, reason: "Designed for MMO gaming" };
+        }
+      }
+
+      // FPS gets bonus for lightweight and precision
+      if (genres.includes("fps") && gameFit.includes("fps")) {
+        return { points: 5, reason: "Optimized for FPS precision aiming" };
+      }
+
+      return {
+        points: 4,
+        reason: `Well-suited for ${genreMatches.join("/")} gaming`,
+      };
+    }
+
+    // General fallback
+    if (gameFit.includes("general")) {
+      return {
+        points: 3,
+        reason: "Versatile mouse suitable for various games",
+      };
+    }
+
+    return {
+      points: 2,
+      concern: `Optimized for ${gameFit.join("/")} rather than ${genres.join("/")}`,
+    };
+  },
+};
+
+// =============================================================================
+// Rule 10: Button Needs (weight: 0.05, max: 5 points) - NEW
+// =============================================================================
+
+/**
+ * Evaluates if the mouse button count matches user preference.
+ * Only applies when user has specified button needs in expert mode.
+ */
+export const buttonNeedsRule: ScoringRule<MouseQuizAnswers, MouseProduct> = {
+  name: "Button Needs",
+  weight: 0.05,
+  maxPoints: 5,
+  evaluate: (answers, product): RuleResult => {
+    const needs = answers["button-needs"];
+
+    // If not specified, give base points
+    if (!needs || needs.length === 0) {
+      return { points: 3, reason: "Button preference not specified" };
+    }
+
+    const buttonClass = product.core_attributes.mouse_button_count_class;
+
+    // Map user preferences to product button classes
+    const buttonClassMap: Record<string, string[]> = {
+      minimal: ["low"],
+      standard: ["standard"],
+      many: ["high"],
+      mmo_grid: ["mmo_grid"],
+    };
+
+    // Check for direct matches
+    for (const need of needs) {
+      const acceptableClasses = buttonClassMap[need];
+      if (acceptableClasses && acceptableClasses.includes(buttonClass)) {
+        switch (need) {
+          case "minimal":
+            return {
+              points: 5,
+              reason: "Minimal button layout for a clean, distraction-free experience",
+            };
+          case "standard":
+            return {
+              points: 5,
+              reason: "Standard button count with convenient side buttons",
+            };
+          case "many":
+            return {
+              points: 5,
+              reason: "High button count for macros and shortcuts",
+            };
+          case "mmo_grid":
+            return {
+              points: 5,
+              reason: "MMO grid with 12+ thumb buttons for ability hotkeys",
+            };
+        }
+      }
+    }
+
+    // Check for adjacent matches (e.g., user wants "many" but product has "standard")
+    const adjacentMatches: Record<string, string[]> = {
+      minimal: ["standard"],
+      standard: ["low", "high"],
+      many: ["standard", "mmo_grid"],
+      mmo_grid: ["high"],
+    };
+
+    for (const need of needs) {
+      const adjacent = adjacentMatches[need];
+      if (adjacent && adjacent.includes(buttonClass)) {
+        return {
+          points: 3,
+          reason: `${buttonClass} button count is close to your ${need} preference`,
+        };
+      }
+    }
+
+    return {
+      points: 1,
+      concern: `${buttonClass} button count doesn't match your preferences (${needs.join("/")})`,
+    };
+  },
+};
+
+// =============================================================================
 // Export All Mouse Rules
 // =============================================================================
 
 /**
  * Complete set of mouse scoring rules in evaluation order.
+ * Weights sum to ~1.05 (normalized by the scoring engine):
+ * - Grip Fit: 0.20
+ * - Size/Hand: 0.17
+ * - Weight: 0.17
+ * - Connection: 0.13
+ * - Use Case: 0.08
+ * - Bonus: 0.05
+ * - Handedness: 0.10
+ * - Shape Profile: 0.05
+ * - Gaming Genre: 0.05
+ * - Button Needs: 0.05
  */
 export const mouseRules: ScoringRule<MouseQuizAnswers, MouseProduct>[] = [
   gripFitRule,
@@ -552,4 +839,8 @@ export const mouseRules: ScoringRule<MouseQuizAnswers, MouseProduct>[] = [
   connectionTypeRule,
   useCaseFitRule,
   bonusPointsRule,
+  handednessRule,
+  shapeProfileRule,
+  gamingGenreRule,
+  buttonNeedsRule,
 ];

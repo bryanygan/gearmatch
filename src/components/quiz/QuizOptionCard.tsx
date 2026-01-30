@@ -1,6 +1,7 @@
 import { memo } from "react";
 import { cn } from "@/lib/utils";
 import { LucideIcon } from "lucide-react";
+import QuizHelpTooltip from "./QuizHelpTooltip";
 
 interface QuizOptionCardProps {
   icon?: LucideIcon;
@@ -10,6 +11,8 @@ interface QuizOptionCardProps {
   onClick: () => void;
   accentColor?: "primary" | "accent" | "secondary";
   multiSelect?: boolean;
+  /** Optional help text shown in tooltip */
+  helpText?: string;
 }
 
 const QuizOptionCard = memo(function QuizOptionCard({
@@ -20,6 +23,7 @@ const QuizOptionCard = memo(function QuizOptionCard({
   onClick,
   accentColor = "primary",
   multiSelect = false,
+  helpText,
 }: QuizOptionCardProps) {
   const accentClasses = {
     primary: {
@@ -62,6 +66,16 @@ const QuizOptionCard = memo(function QuizOptionCard({
           : "border-border bg-card hover:border-muted-foreground/50"
       )}
     >
+      {/* Help tooltip (top left) */}
+      {helpText && (
+        <div
+          className="absolute left-3 top-3"
+          onClick={(e) => e.stopPropagation()}
+        >
+          <QuizHelpTooltip content={helpText} />
+        </div>
+      )}
+
       {/* Selection indicator - checkbox for multiSelect, radio for single */}
       <div
         className={cn(

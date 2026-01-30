@@ -18,6 +18,11 @@ export const mouseAnswersSchema = z.object({
   "weight-preference": z.array(z.enum(["ultralight", "light", "medium", "heavy"])).min(1),
   wireless: z.enum(["wireless", "wired", "either"]),
   "primary-use": z.array(z.enum(["precision", "productivity", "creative", "mixed"])).min(1),
+  // Enhanced quiz fields (optional for backwards compatibility)
+  handedness: z.enum(["right", "left", "ambidextrous"]).optional(),
+  "shape-profile": z.array(z.enum(["low_hump", "rear_hump", "center_hump", "ergo_hump", "any"])).optional(),
+  "gaming-genre": z.array(z.enum(["fps", "moba", "mmo", "general"])).optional(),
+  "button-needs": z.array(z.enum(["minimal", "standard", "many", "mmo_grid"])).optional(),
 });
 
 export type ValidatedMouseAnswers = z.infer<typeof mouseAnswersSchema>;
@@ -32,6 +37,10 @@ export const audioAnswersSchema = z.object({
   "mic-needs": z.enum(["essential", "nice-to-have", "not-needed"]),
   "session-length": z.array(z.enum(["short", "medium", "long", "all-day"])).min(1),
   budget: z.array(z.enum(["budget", "mid-range", "premium", "no-limit"])).min(1),
+  // Enhanced quiz fields (optional for backwards compatibility)
+  "sound-signature": z.array(z.enum(["neutral", "warm", "v_shaped", "bright"])).optional(),
+  "wireless-preference": z.enum(["wireless-required", "wireless-preferred", "wired-preferred", "either"]).optional(),
+  "noise-environment": z.enum(["quiet", "moderate", "noisy"]).optional(),
 });
 
 export type ValidatedAudioAnswers = z.infer<typeof audioAnswersSchema>;
@@ -63,6 +72,10 @@ export const keyboardAnswersSchema = z.object({
     "quiet",
   ])).min(1),
   budget: z.array(z.enum(["budget", "mid-range", "premium", "enthusiast"])).min(1),
+  // Enhanced quiz fields (optional for backwards compatibility)
+  "switch-technology": z.array(z.enum(["mechanical", "magnetic", "optical", "any"])).optional(),
+  "media-controls": z.enum(["essential", "nice-to-have", "not-needed"]).optional(),
+  "keycap-material": z.enum(["pbt", "abs", "any"]).optional(),
 });
 
 export type ValidatedKeyboardAnswers = z.infer<typeof keyboardAnswersSchema>;
@@ -120,17 +133,25 @@ export function validateKeyboardAnswers(
  * Keys that should be parsed as arrays (multi-select questions).
  */
 const MULTI_SELECT_KEYS = new Set([
-  // Mouse
+  // Mouse - core
   "grip-style",
   "weight-preference",
   "primary-use",
-  // Audio
+  // Mouse - enhanced
+  "shape-profile",
+  "gaming-genre",
+  "button-needs",
+  // Audio - core
   "form-factor",
   "session-length",
   "budget",
-  // Keyboard
+  // Audio - enhanced
+  "sound-signature",
+  // Keyboard - core
   "switch-type",
   "priority-feature",
+  // Keyboard - enhanced
+  "switch-technology",
 ]);
 
 /**
