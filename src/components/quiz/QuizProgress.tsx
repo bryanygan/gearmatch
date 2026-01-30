@@ -22,7 +22,9 @@ const QuizProgress = ({
   categories,
   currentCategory,
 }: QuizProgressProps) => {
-  const progress = (currentStep / totalSteps) * 100;
+  // Progress is based on completed questions, so last question shows (n-1)/n
+  // This reserves 100% for the results page
+  const progress = ((currentStep - 1) / totalSteps) * 100;
 
   return (
     <div className="space-y-3">
