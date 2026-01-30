@@ -82,9 +82,6 @@ const Hero = () => {
               <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-64 h-64 md:w-96 md:h-96 blur-3xl bg-primary/10 rounded-full pointer-events-none" />
 
               <ScrollingProductGrid />
-
-              {/* Decorative ring */}
-              <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-48 h-48 sm:w-72 sm:h-72 md:w-96 md:h-96 lg:w-[500px] lg:h-[500px] rounded-full border border-border/10 pointer-events-none" />
             </div>
           </div>
         </div>

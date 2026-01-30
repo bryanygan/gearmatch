@@ -1,49 +1,133 @@
+import { useMemo } from "react";
+
 interface ScrollingProductGridProps {
   skipAnimations?: boolean;
 }
 
-// Placeholder product images for each column
-// Using different image sets per column for visual variety
-const columnImages = [
-  // Column 1 - Mice
-  [
-    "https://placehold.co/200x200/1a1f2e/00d4ff?text=Mouse+1",
-    "https://placehold.co/200x200/1a1f2e/00d4ff?text=Mouse+2",
-    "https://placehold.co/200x200/1a1f2e/00d4ff?text=Mouse+3",
-    "https://placehold.co/200x200/1a1f2e/00d4ff?text=Mouse+4",
-    "https://placehold.co/200x200/1a1f2e/00d4ff?text=Mouse+5",
-    "https://placehold.co/200x200/1a1f2e/00d4ff?text=Mouse+6",
+// Product image data organized by category
+// Each image has base, @2x, and _large variants for responsive loading
+type ProductCategory = "mouse" | "headphone" | "keyboard" | "iem";
+
+interface HeroImage {
+  baseName: string;
+  category: ProductCategory;
+}
+
+const HERO_IMAGES: Record<ProductCategory, string[]> = {
+  mouse: [
+    "22572_1",
+    "26-197-336-01",
+    "32163_1",
+    "35327_1",
+    "619xpFKAXPL",
+    "razer_viper",
+    "8189uwDnMkL",
+    "zowie_ec2",
+    "keychron_m3",
+    "pulsar_tenz",
+    "logitech_superlight",
   ],
-  // Column 2 - Headsets
-  [
-    "https://placehold.co/200x200/1a1f2e/f59e0b?text=Headset+1",
-    "https://placehold.co/200x200/1a1f2e/f59e0b?text=Headset+2",
-    "https://placehold.co/200x200/1a1f2e/f59e0b?text=Headset+3",
-    "https://placehold.co/200x200/1a1f2e/f59e0b?text=Headset+4",
-    "https://placehold.co/200x200/1a1f2e/f59e0b?text=Headset+5",
-    "https://placehold.co/200x200/1a1f2e/f59e0b?text=Headset+6",
+  headphone: [
+    "bosequietcomfort",
+    "logitech",
+    "maxwell",
+    "razer_blackshark",
+    "sennheiserhd800s",
+    "sonyxm6",
+    "steelseries",
+    "technics",
+    "astro",
+    "soundcore",
   ],
-  // Column 3 - IEMs
-  [
-    "https://placehold.co/200x200/1a1f2e/00d4ff?text=IEM+1",
-    "https://placehold.co/200x200/1a1f2e/00d4ff?text=IEM+2",
-    "https://placehold.co/200x200/1a1f2e/00d4ff?text=IEM+3",
-    "https://placehold.co/200x200/1a1f2e/00d4ff?text=IEM+4",
-    "https://placehold.co/200x200/1a1f2e/00d4ff?text=IEM+5",
-    "https://placehold.co/200x200/1a1f2e/00d4ff?text=IEM+6",
+  keyboard: [
+    "aula",
+    "ergo",
+    "fun60",
+    "keyabord",
+    "keyboard",
+    "logiergo",
+    "logikeys",
+    "logiwave",
+    "rk",
+    "corsairk70",
+    "razerkeeb",
   ],
-  // Column 4 - Keyboards
-  [
-    "https://placehold.co/200x200/1a1f2e/f59e0b?text=Keyboard+1",
-    "https://placehold.co/200x200/1a1f2e/f59e0b?text=Keyboard+2",
-    "https://placehold.co/200x200/1a1f2e/f59e0b?text=Keyboard+3",
-    "https://placehold.co/200x200/1a1f2e/f59e0b?text=Keyboard+4",
-    "https://placehold.co/200x200/1a1f2e/f59e0b?text=Keyboard+5",
-    "https://placehold.co/200x200/1a1f2e/f59e0b?text=Keyboard+6",
+  iem: [
+    "51r5xVvVy2L",
+    "sennheiser_ie600",
+    "moondrop_aria",
+    "61KWuxrtzcL",
   ],
-];
+};
+
+const CATEGORY_PATHS: Record<ProductCategory, string> = {
+  mouse: "/hero_images/mouse_images",
+  headphone: "/hero_images/headphone_images",
+  keyboard: "/hero_images/keyboard_images",
+  iem: "/hero_images/iem_images",
+};
+
+// Column configuration - which categories to show in each column
+const COLUMN_CATEGORIES: ProductCategory[] = ["mouse", "headphone", "iem", "keyboard"];
+
+// Seeded random for consistent shuffling across renders (but different per session)
+function seededShuffle<T>(array: T[], seed: number): T[] {
+  const result = [...array];
+  let currentIndex = result.length;
+  let randomValue = seed;
+
+  while (currentIndex !== 0) {
+    // Simple LCG for pseudo-random
+    randomValue = (randomValue * 1103515245 + 12345) & 0x7fffffff;
+    const randomIndex = randomValue % currentIndex;
+    currentIndex--;
+    [result[currentIndex], result[randomIndex]] = [result[randomIndex], result[currentIndex]];
+  }
+
+  return result;
+}
+
+// Generate infinite image sequence for a column by cycling through shuffled images
+function generateColumnImages(category: ProductCategory, seed: number, count: number): HeroImage[] {
+  const categoryImages = HERO_IMAGES[category];
+  const shuffled = seededShuffle(categoryImages, seed);
+  const result: HeroImage[] = [];
+
+  for (let i = 0; i < count; i++) {
+    result.push({
+      baseName: shuffled[i % shuffled.length],
+      category,
+    });
+  }
+
+  return result;
+}
+
+function getImageSrc(image: HeroImage): string {
+  return `${CATEGORY_PATHS[image.category]}/${image.baseName}.webp`;
+}
+
+function getImageSrcSet(image: HeroImage): string {
+  const base = CATEGORY_PATHS[image.category];
+  const name = image.baseName;
+  return `${base}/${name}.webp 1x, ${base}/${name}@2x.webp 2x`;
+}
 
 const ScrollingProductGrid = ({ skipAnimations = false }: ScrollingProductGridProps) => {
+  // Generate column images with stable randomization per session
+  const columnData = useMemo(() => {
+    // Use timestamp at component mount for session-unique seed
+    const sessionSeed = Math.floor(Date.now() / 1000);
+
+    return COLUMN_CATEGORIES.map((category, colIndex) => {
+      // Different seed per column for variety
+      const columnSeed = sessionSeed + colIndex * 1000;
+      // Generate enough images for seamless looping (2x for duplication)
+      const images = generateColumnImages(category, columnSeed, 8);
+      return { category, images };
+    });
+  }, []);
+
   return (
     <div
       className="scrolling-grid-container relative w-full h-[400px] sm:h-[450px] md:h-[500px] lg:h-[550px] overflow-hidden"
@@ -55,7 +139,7 @@ const ScrollingProductGrid = ({ skipAnimations = false }: ScrollingProductGridPr
 
       {/* Grid columns */}
       <div className="flex gap-2 sm:gap-3 md:gap-4 h-full justify-center px-2">
-        {columnImages.map((images, columnIndex) => {
+        {columnData.map(({ images }, columnIndex) => {
           const isScrollingUp = columnIndex % 2 === 1;
           const animationClass = skipAnimations
             ? ""
@@ -79,38 +163,33 @@ const ScrollingProductGrid = ({ skipAnimations = false }: ScrollingProductGridPr
                 }}
               >
                 {/* Original images */}
-                {images.map((src, imgIndex) => (
+                {images.map((image, imgIndex) => (
                   <div
                     key={`original-${imgIndex}`}
-                    className="relative aspect-square rounded-xl md:rounded-2xl overflow-hidden border border-border/30 bg-secondary/50 shadow-lg"
+                    className="relative w-full rounded-xl md:rounded-2xl overflow-hidden border border-border/30 bg-secondary/50 shadow-lg"
                   >
                     <img
-                      src={src}
+                      src={getImageSrc(image)}
+                      srcSet={getImageSrcSet(image)}
                       alt=""
-                      className="w-full h-full object-cover"
+                      className="w-full h-auto object-contain"
                       loading="lazy"
                     />
-                    {/* Subtle glow on some images */}
-                    {imgIndex % 3 === 0 && (
-                      <div className="absolute inset-0 bg-gradient-to-br from-primary/10 to-transparent pointer-events-none" />
-                    )}
                   </div>
                 ))}
                 {/* Duplicated images for seamless loop */}
-                {images.map((src, imgIndex) => (
+                {images.map((image, imgIndex) => (
                   <div
                     key={`duplicate-${imgIndex}`}
-                    className="relative aspect-square rounded-xl md:rounded-2xl overflow-hidden border border-border/30 bg-secondary/50 shadow-lg"
+                    className="relative w-full rounded-xl md:rounded-2xl overflow-hidden border border-border/30 bg-secondary/50 shadow-lg"
                   >
                     <img
-                      src={src}
+                      src={getImageSrc(image)}
+                      srcSet={getImageSrcSet(image)}
                       alt=""
-                      className="w-full h-full object-cover"
+                      className="w-full h-auto object-contain"
                       loading="lazy"
                     />
-                    {imgIndex % 3 === 0 && (
-                      <div className="absolute inset-0 bg-gradient-to-br from-primary/10 to-transparent pointer-events-none" />
-                    )}
                   </div>
                 ))}
               </div>
@@ -119,8 +198,6 @@ const ScrollingProductGrid = ({ skipAnimations = false }: ScrollingProductGridPr
         })}
       </div>
 
-      {/* Overall gradient overlay for text readability */}
-      <div className="absolute inset-0 bg-gradient-to-r from-background via-transparent to-transparent z-5 pointer-events-none" />
     </div>
   );
 };
