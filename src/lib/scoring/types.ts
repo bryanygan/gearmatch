@@ -26,7 +26,7 @@ export interface MouseQuizAnswers {
   handedness?: "right" | "left" | "ambidextrous";
   "shape-profile"?: ("low_hump" | "rear_hump" | "center_hump" | "ergo_hump" | "any")[];
   "gaming-genre"?: ("fps" | "moba" | "mmo" | "general")[];
-  "button-needs"?: "minimal" | "standard" | "many" | "mmo_grid";
+  "button-needs"?: ("minimal" | "standard" | "many" | "mmo_grid")[];
 }
 
 /**

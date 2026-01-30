@@ -32,7 +32,7 @@ export interface ExtendedMouseQuizAnswers extends MouseQuizAnswers {
   handedness?: "right" | "left" | "ambidextrous";
   "shape-profile"?: ("low_hump" | "rear_hump" | "center_hump" | "ergo_hump" | "any")[];
   "gaming-genre"?: ("fps" | "moba" | "mmo" | "general")[];
-  "button-needs"?: "minimal" | "standard" | "many" | "mmo_grid";
+  "button-needs"?: ("minimal" | "standard" | "many" | "mmo_grid")[];
 }
 
 /**
@@ -343,12 +343,13 @@ export const mouseQuestions: EnhancedQuizQuestion<ExtendedMouseQuizAnswers>[] = 
   {
     id: "button-needs",
     title: "How many buttons do you need?",
-    subtitle: "Extra buttons can be useful for macros and shortcuts",
+    subtitle: "Select all that you'd consider",
     helpText:
       "Minimal: just clicks and scroll. Standard: 2 side buttons. Many: programmable buttons. MMO Grid: 12+ thumb buttons.",
     category: "advanced",
     importance: 4,
-    defaultValue: "standard",
+    multiSelect: true,
+    defaultValue: ["standard"],
     options: [
       {
         id: "minimal",

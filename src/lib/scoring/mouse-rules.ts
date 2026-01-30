@@ -731,6 +731,90 @@ export const gamingGenreRule: ScoringRule<MouseQuizAnswers, MouseProduct> = {
 };
 
 // =============================================================================
+// Rule 10: Button Needs (weight: 0.05, max: 5 points) - NEW
+// =============================================================================
+
+/**
+ * Evaluates if the mouse button count matches user preference.
+ * Only applies when user has specified button needs in expert mode.
+ */
+export const buttonNeedsRule: ScoringRule<MouseQuizAnswers, MouseProduct> = {
+  name: "Button Needs",
+  weight: 0.05,
+  maxPoints: 5,
+  evaluate: (answers, product): RuleResult => {
+    const needs = answers["button-needs"];
+
+    // If not specified, give base points
+    if (!needs || needs.length === 0) {
+      return { points: 3, reason: "Button preference not specified" };
+    }
+
+    const buttonClass = product.core_attributes.mouse_button_count_class;
+
+    // Map user preferences to product button classes
+    const buttonClassMap: Record<string, string[]> = {
+      minimal: ["low"],
+      standard: ["standard"],
+      many: ["high"],
+      mmo_grid: ["mmo_grid"],
+    };
+
+    // Check for direct matches
+    for (const need of needs) {
+      const acceptableClasses = buttonClassMap[need];
+      if (acceptableClasses && acceptableClasses.includes(buttonClass)) {
+        switch (need) {
+          case "minimal":
+            return {
+              points: 5,
+              reason: "Minimal button layout for a clean, distraction-free experience",
+            };
+          case "standard":
+            return {
+              points: 5,
+              reason: "Standard button count with convenient side buttons",
+            };
+          case "many":
+            return {
+              points: 5,
+              reason: "High button count for macros and shortcuts",
+            };
+          case "mmo_grid":
+            return {
+              points: 5,
+              reason: "MMO grid with 12+ thumb buttons for ability hotkeys",
+            };
+        }
+      }
+    }
+
+    // Check for adjacent matches (e.g., user wants "many" but product has "standard")
+    const adjacentMatches: Record<string, string[]> = {
+      minimal: ["standard"],
+      standard: ["low", "high"],
+      many: ["standard", "mmo_grid"],
+      mmo_grid: ["high"],
+    };
+
+    for (const need of needs) {
+      const adjacent = adjacentMatches[need];
+      if (adjacent && adjacent.includes(buttonClass)) {
+        return {
+          points: 3,
+          reason: `${buttonClass} button count is close to your ${need} preference`,
+        };
+      }
+    }
+
+    return {
+      points: 1,
+      concern: `${buttonClass} button count doesn't match your preferences (${needs.join("/")})`,
+    };
+  },
+};
+
+// =============================================================================
 // Export All Mouse Rules
 // =============================================================================
 
@@ -743,9 +827,12 @@ export const gamingGenreRule: ScoringRule<MouseQuizAnswers, MouseProduct> = {
  * - Connection: 0.13
  * - Use Case: 0.08
  * - Bonus: 0.05
- * - Handedness: 0.10 (NEW)
- * - Shape Profile: 0.05 (NEW)
- * - Gaming Genre: 0.05 (NEW)
+ * - Handedness: 0.10
+ * - Shape Profile: 0.05
+ * - Gaming Genre: 0.05
+ * - Button Needs: 0.05
+ *
+ * Note: Weights currently sum to 1.05, which is acceptable as they are normalized.
  */
 export const mouseRules: ScoringRule<MouseQuizAnswers, MouseProduct>[] = [
   gripFitRule,
@@ -757,4 +844,5 @@ export const mouseRules: ScoringRule<MouseQuizAnswers, MouseProduct>[] = [
   handednessRule,
   shapeProfileRule,
   gamingGenreRule,
+  buttonNeedsRule,
 ];

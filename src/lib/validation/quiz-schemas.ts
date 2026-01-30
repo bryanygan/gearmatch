@@ -22,7 +22,7 @@ export const mouseAnswersSchema = z.object({
   handedness: z.enum(["right", "left", "ambidextrous"]).optional(),
   "shape-profile": z.array(z.enum(["low_hump", "rear_hump", "center_hump", "ergo_hump", "any"])).optional(),
   "gaming-genre": z.array(z.enum(["fps", "moba", "mmo", "general"])).optional(),
-  "button-needs": z.enum(["minimal", "standard", "many", "mmo_grid"]).optional(),
+  "button-needs": z.array(z.enum(["minimal", "standard", "many", "mmo_grid"])).optional(),
 });
 
 export type ValidatedMouseAnswers = z.infer<typeof mouseAnswersSchema>;
@@ -140,6 +140,7 @@ const MULTI_SELECT_KEYS = new Set([
   // Mouse - enhanced
   "shape-profile",
   "gaming-genre",
+  "button-needs",
   // Audio - core
   "form-factor",
   "session-length",
