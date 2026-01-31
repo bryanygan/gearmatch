@@ -32,9 +32,13 @@ const MonitorResults = () => {
     // Try to get answers from URL params
     const urlAnswers = searchParamsToObject(searchParams);
 
-    // If URL has answers, validate them
+    // If URL has answers, try to validate them
     if (Object.keys(urlAnswers).length > 0) {
-      return validateMonitorAnswers(urlAnswers);
+      const validatedUrl = validateMonitorAnswers(urlAnswers);
+      if (validatedUrl) {
+        return validatedUrl;
+      }
+      // URL params invalid, fall through to try navigation state
     }
 
     // Fall back to navigation state (also validate)

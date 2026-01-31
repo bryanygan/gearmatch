@@ -87,7 +87,7 @@ export const primaryUseFitRule: ScoringRule<MonitorQuizAnswers, MonitorProduct> 
           const gamingScore = attrs.monitor_pc_gaming_score || 0;
           const officeScore = attrs.monitor_office_score || 0;
           const editingScore = attrs.monitor_editing_score || 0;
-          const avgScore = (gamingScore + officeScore + editingScore) / 3;
+          const avgScore = (overallScore + gamingScore + officeScore + editingScore) / 4;
 
           if (avgScore >= 8) {
             useScore = 25;
@@ -567,7 +567,7 @@ export const featuresMatchRule: ScoringRule<MonitorQuizAnswers, MonitorProduct> 
             }
           }
           break;
-        case "ergonomics":
+        case "ergonomics": {
           const ergoFeatures = attrs.monitor_ergonomic_features.length;
           if (ergoFeatures >= 4) {
             matchedFeatures++;
@@ -576,6 +576,7 @@ export const featuresMatchRule: ScoringRule<MonitorQuizAnswers, MonitorProduct> 
             matchedFeatures += 0.5;
           }
           break;
+        }
         case "speakers":
           if (attrs.monitor_speakers) {
             matchedFeatures++;
