@@ -16,10 +16,10 @@ import {
 describe("Mouse Answer Validation", () => {
   const validMouseAnswers = {
     "hand-size": "medium",
-    "grip-style": "claw",
-    "weight-preference": "ultralight",
+    "grip-style": ["claw"],
+    "weight-preference": ["ultralight"],
     wireless: "wireless",
-    "primary-use": "precision",
+    "primary-use": ["precision"],
   };
 
   it("validates correct mouse answers", () => {
@@ -30,7 +30,7 @@ describe("Mouse Answer Validation", () => {
   it("returns null for missing required field", () => {
     const incomplete = {
       "hand-size": "medium",
-      "grip-style": "claw",
+      "grip-style": ["claw"],
       // missing weight-preference, wireless, primary-use
     };
     const result = validateMouseAnswers(incomplete);
@@ -81,7 +81,7 @@ describe("Mouse Answer Validation", () => {
   it("validates all valid grip-style options", () => {
     const grips = ["palm", "claw", "fingertip", "relaxed-claw"];
     for (const grip of grips) {
-      const answers = { ...validMouseAnswers, "grip-style": grip };
+      const answers = { ...validMouseAnswers, "grip-style": [grip] };
       expect(validateMouseAnswers(answers)).not.toBeNull();
     }
   });
@@ -89,7 +89,7 @@ describe("Mouse Answer Validation", () => {
   it("validates all valid weight-preference options", () => {
     const weights = ["ultralight", "light", "medium", "heavy"];
     for (const weight of weights) {
-      const answers = { ...validMouseAnswers, "weight-preference": weight };
+      const answers = { ...validMouseAnswers, "weight-preference": [weight] };
       expect(validateMouseAnswers(answers)).not.toBeNull();
     }
   });
@@ -105,7 +105,7 @@ describe("Mouse Answer Validation", () => {
   it("validates all valid primary-use options", () => {
     const uses = ["precision", "productivity", "creative", "mixed"];
     for (const use of uses) {
-      const answers = { ...validMouseAnswers, "primary-use": use };
+      const answers = { ...validMouseAnswers, "primary-use": [use] };
       expect(validateMouseAnswers(answers)).not.toBeNull();
     }
   });
@@ -117,11 +117,11 @@ describe("Mouse Answer Validation", () => {
 
 describe("Audio Answer Validation", () => {
   const validAudioAnswers = {
-    "primary-use": "competitive",
-    "form-factor": "over-ear",
+    "primary-use": ["competitive"],
+    "form-factor": ["over-ear"],
     "mic-needs": "essential",
-    "session-length": "long",
-    budget: "mid-range",
+    "session-length": ["long"],
+    budget: ["mid-range"],
   };
 
   it("validates correct audio answers", () => {
@@ -131,8 +131,8 @@ describe("Audio Answer Validation", () => {
 
   it("returns null for missing required field", () => {
     const incomplete = {
-      "primary-use": "competitive",
-      "form-factor": "over-ear",
+      "primary-use": ["competitive"],
+      "form-factor": ["over-ear"],
       // missing mic-needs, session-length, budget
     };
     const result = validateAudioAnswers(incomplete);
@@ -142,7 +142,7 @@ describe("Audio Answer Validation", () => {
   it("returns null for invalid enum value", () => {
     const invalid = {
       ...validAudioAnswers,
-      budget: "unlimited", // not a valid option
+      budget: ["unlimited"], // not a valid option
     };
     const result = validateAudioAnswers(invalid);
     expect(result).toBeNull();
@@ -151,7 +151,7 @@ describe("Audio Answer Validation", () => {
   it("validates all valid primary-use options", () => {
     const uses = ["competitive", "immersive", "mixed", "streaming"];
     for (const use of uses) {
-      const answers = { ...validAudioAnswers, "primary-use": use };
+      const answers = { ...validAudioAnswers, "primary-use": [use] };
       expect(validateAudioAnswers(answers)).not.toBeNull();
     }
   });
@@ -159,7 +159,7 @@ describe("Audio Answer Validation", () => {
   it("validates all valid form-factor options", () => {
     const factors = ["over-ear", "over-ear-headphone", "iem", "open-back"];
     for (const factor of factors) {
-      const answers = { ...validAudioAnswers, "form-factor": factor };
+      const answers = { ...validAudioAnswers, "form-factor": [factor] };
       expect(validateAudioAnswers(answers)).not.toBeNull();
     }
   });
@@ -175,7 +175,7 @@ describe("Audio Answer Validation", () => {
   it("validates all valid session-length options", () => {
     const lengths = ["short", "medium", "long", "all-day"];
     for (const length of lengths) {
-      const answers = { ...validAudioAnswers, "session-length": length };
+      const answers = { ...validAudioAnswers, "session-length": [length] };
       expect(validateAudioAnswers(answers)).not.toBeNull();
     }
   });
@@ -183,7 +183,7 @@ describe("Audio Answer Validation", () => {
   it("validates all valid budget options", () => {
     const budgets = ["budget", "mid-range", "premium", "no-limit"];
     for (const budget of budgets) {
-      const answers = { ...validAudioAnswers, budget };
+      const answers = { ...validAudioAnswers, budget: [budget] };
       expect(validateAudioAnswers(answers)).not.toBeNull();
     }
   });
@@ -202,8 +202,8 @@ describe("searchParamsToObject", () => {
 
     expect(result).toEqual({
       "hand-size": "medium",
-      "grip-style": "claw",
-      "weight-preference": "light",
+      "grip-style": ["claw"],
+      "weight-preference": ["light"],
     });
   });
 
@@ -247,13 +247,13 @@ describe("Schema Exports", () => {
 
 describe("Keyboard Answer Validation", () => {
   const validKeyboardAnswers = {
-    "primary-use": "competitive-gaming",
-    "form-factor": "tkl",
-    "switch-type": "linear",
+    "primary-use": ["competitive-gaming"],
+    "form-factor": ["tkl"],
+    "switch-type": ["linear"],
     "gaming-features": "essential",
     connectivity: "wired-preferred",
-    "priority-feature": "performance",
-    budget: "premium",
+    "priority-feature": ["performance"],
+    budget: ["premium"],
   };
 
   it("validates correct keyboard answers", () => {
@@ -263,8 +263,8 @@ describe("Keyboard Answer Validation", () => {
 
   it("returns null for missing required field", () => {
     const incomplete = {
-      "primary-use": "competitive-gaming",
-      "form-factor": "tkl",
+      "primary-use": ["competitive-gaming"],
+      "form-factor": ["tkl"],
       // missing switch-type, gaming-features, connectivity, priority-feature, budget
     };
     const result = validateKeyboardAnswers(incomplete);
@@ -274,7 +274,7 @@ describe("Keyboard Answer Validation", () => {
   it("returns null for invalid enum value", () => {
     const invalid = {
       ...validKeyboardAnswers,
-      "primary-use": "gaming", // not a valid option
+      "primary-use": ["gaming"], // not a valid option
     };
     const result = validateKeyboardAnswers(invalid);
     expect(result).toBeNull();
@@ -307,7 +307,7 @@ describe("Keyboard Answer Validation", () => {
   it("validates all valid primary-use options", () => {
     const uses = ["competitive-gaming", "casual-gaming", "productivity", "programming"];
     for (const use of uses) {
-      const answers = { ...validKeyboardAnswers, "primary-use": use };
+      const answers = { ...validKeyboardAnswers, "primary-use": [use] };
       expect(validateKeyboardAnswers(answers)).not.toBeNull();
     }
   });
@@ -315,7 +315,7 @@ describe("Keyboard Answer Validation", () => {
   it("validates all valid form-factor options", () => {
     const factors = ["full-size", "tkl", "75-percent", "60-65-percent"];
     for (const factor of factors) {
-      const answers = { ...validKeyboardAnswers, "form-factor": factor };
+      const answers = { ...validKeyboardAnswers, "form-factor": [factor] };
       expect(validateKeyboardAnswers(answers)).not.toBeNull();
     }
   });
@@ -323,7 +323,7 @@ describe("Keyboard Answer Validation", () => {
   it("validates all valid switch-type options", () => {
     const switches = ["linear", "tactile", "clicky", "no-preference"];
     for (const switchType of switches) {
-      const answers = { ...validKeyboardAnswers, "switch-type": switchType };
+      const answers = { ...validKeyboardAnswers, "switch-type": [switchType] };
       expect(validateKeyboardAnswers(answers)).not.toBeNull();
     }
   });
@@ -347,7 +347,7 @@ describe("Keyboard Answer Validation", () => {
   it("validates all valid priority-feature options", () => {
     const features = ["performance", "typing-feel", "customization", "quiet"];
     for (const feature of features) {
-      const answers = { ...validKeyboardAnswers, "priority-feature": feature };
+      const answers = { ...validKeyboardAnswers, "priority-feature": [feature] };
       expect(validateKeyboardAnswers(answers)).not.toBeNull();
     }
   });
@@ -355,7 +355,7 @@ describe("Keyboard Answer Validation", () => {
   it("validates all valid budget options", () => {
     const budgets = ["budget", "mid-range", "premium", "enthusiast"];
     for (const budget of budgets) {
-      const answers = { ...validKeyboardAnswers, budget };
+      const answers = { ...validKeyboardAnswers, budget: [budget] };
       expect(validateKeyboardAnswers(answers)).not.toBeNull();
     }
   });
@@ -369,10 +369,10 @@ describe("Security: Malformed Input Handling", () => {
   it("rejects prototype pollution attempts", () => {
     const malicious = {
       "hand-size": "medium",
-      "grip-style": "claw",
-      "weight-preference": "ultralight",
+      "grip-style": ["claw"],
+      "weight-preference": ["ultralight"],
       wireless: "wireless",
-      "primary-use": "precision",
+      "primary-use": ["precision"],
       __proto__: { isAdmin: true },
       constructor: { prototype: { isAdmin: true } },
     };
@@ -381,20 +381,20 @@ describe("Security: Malformed Input Handling", () => {
     const result = validateMouseAnswers(malicious);
     expect(result).toEqual({
       "hand-size": "medium",
-      "grip-style": "claw",
-      "weight-preference": "ultralight",
+      "grip-style": ["claw"],
+      "weight-preference": ["ultralight"],
       wireless: "wireless",
-      "primary-use": "precision",
+      "primary-use": ["precision"],
     });
   });
 
   it("rejects XSS attempts in values", () => {
     const malicious = {
       "hand-size": "<script>alert('xss')</script>",
-      "grip-style": "claw",
-      "weight-preference": "ultralight",
+      "grip-style": ["claw"],
+      "weight-preference": ["ultralight"],
       wireless: "wireless",
-      "primary-use": "precision",
+      "primary-use": ["precision"],
     };
 
     const result = validateMouseAnswers(malicious);
@@ -404,10 +404,10 @@ describe("Security: Malformed Input Handling", () => {
   it("rejects SQL injection attempts in values", () => {
     const malicious = {
       "hand-size": "'; DROP TABLE users; --",
-      "grip-style": "claw",
-      "weight-preference": "ultralight",
+      "grip-style": ["claw"],
+      "weight-preference": ["ultralight"],
       wireless: "wireless",
-      "primary-use": "precision",
+      "primary-use": ["precision"],
     };
 
     const result = validateMouseAnswers(malicious);
@@ -418,23 +418,23 @@ describe("Security: Malformed Input Handling", () => {
     const longString = "a".repeat(10000);
     const malicious = {
       "hand-size": longString,
-      "grip-style": "claw",
-      "weight-preference": "ultralight",
+      "grip-style": ["claw"],
+      "weight-preference": ["ultralight"],
       wireless: "wireless",
-      "primary-use": "precision",
+      "primary-use": ["precision"],
     };
 
     const result = validateMouseAnswers(malicious);
     expect(result).toBeNull();
   });
 
-  it("handles array values instead of strings", () => {
+  it("handles array values instead of strings for non-array fields", () => {
     const malicious = {
-      "hand-size": ["medium", "large"],
-      "grip-style": "claw",
-      "weight-preference": "ultralight",
+      "hand-size": ["medium", "large"], // hand-size should be a string, not an array
+      "grip-style": ["claw"],
+      "weight-preference": ["ultralight"],
       wireless: "wireless",
-      "primary-use": "precision",
+      "primary-use": ["precision"],
     };
 
     const result = validateMouseAnswers(malicious);

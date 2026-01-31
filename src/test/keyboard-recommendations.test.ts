@@ -141,13 +141,13 @@ const createProductivityKeyboard = (
 describe("getKeyboardRecommendations", () => {
   it("returns top picks and alternates for competitive gaming", () => {
     const answers: KeyboardQuizAnswers = {
-      "primary-use": "competitive-gaming",
-      "form-factor": "tkl",
-      "switch-type": "linear",
+      "primary-use": ["competitive-gaming"],
+      "form-factor": ["tkl"],
+      "switch-type": ["linear"],
       "gaming-features": "essential",
       connectivity: "wired-preferred",
-      "priority-feature": "performance",
-      budget: "premium",
+      "priority-feature": ["performance"],
+      budget: ["premium"],
     };
 
     const result = getKeyboardRecommendations(answers);
@@ -160,13 +160,13 @@ describe("getKeyboardRecommendations", () => {
 
   it("returns top picks and alternates for productivity", () => {
     const answers: KeyboardQuizAnswers = {
-      "primary-use": "productivity",
-      "form-factor": "full-size",
-      "switch-type": "tactile",
+      "primary-use": ["productivity"],
+      "form-factor": ["full-size"],
+      "switch-type": ["tactile"],
       "gaming-features": "not-important",
       connectivity: "wireless-preferred",
-      "priority-feature": "quiet",
-      budget: "mid-range",
+      "priority-feature": ["quiet"],
+      budget: ["mid-range"],
     };
 
     const result = getKeyboardRecommendations(answers);
@@ -178,13 +178,13 @@ describe("getKeyboardRecommendations", () => {
 
   it("returns top picks and alternates for programming", () => {
     const answers: KeyboardQuizAnswers = {
-      "primary-use": "programming",
-      "form-factor": "75-percent",
-      "switch-type": "tactile",
+      "primary-use": ["programming"],
+      "form-factor": ["75-percent"],
+      "switch-type": ["tactile"],
       "gaming-features": "not-important",
       connectivity: "wireless-essential",
-      "priority-feature": "typing-feel",
-      budget: "premium",
+      "priority-feature": ["typing-feel"],
+      budget: ["premium"],
     };
 
     const result = getKeyboardRecommendations(answers);
@@ -195,13 +195,13 @@ describe("getKeyboardRecommendations", () => {
 
   it("respects custom options", () => {
     const answers: KeyboardQuizAnswers = {
-      "primary-use": "casual-gaming",
-      "form-factor": "60-65-percent",
-      "switch-type": "no-preference",
+      "primary-use": ["casual-gaming"],
+      "form-factor": ["60-65-percent"],
+      "switch-type": ["no-preference"],
       "gaming-features": "nice-to-have",
       connectivity: "no-preference",
-      "priority-feature": "customization",
-      budget: "budget",
+      "priority-feature": ["customization"],
+      budget: ["budget"],
     };
 
     const result = getKeyboardRecommendations(answers, {
@@ -213,13 +213,13 @@ describe("getKeyboardRecommendations", () => {
 
   it("tracks total products evaluated", () => {
     const answers: KeyboardQuizAnswers = {
-      "primary-use": "competitive-gaming",
-      "form-factor": "tkl",
-      "switch-type": "linear",
+      "primary-use": ["competitive-gaming"],
+      "form-factor": ["tkl"],
+      "switch-type": ["linear"],
       "gaming-features": "essential",
       connectivity: "wired-preferred",
-      "priority-feature": "performance",
-      budget: "premium",
+      "priority-feature": ["performance"],
+      budget: ["premium"],
     };
 
     const result = getKeyboardRecommendations(answers);
@@ -229,13 +229,13 @@ describe("getKeyboardRecommendations", () => {
 
   it("produces consistent scores for same inputs", () => {
     const answers: KeyboardQuizAnswers = {
-      "primary-use": "competitive-gaming",
-      "form-factor": "tkl",
-      "switch-type": "linear",
+      "primary-use": ["competitive-gaming"],
+      "form-factor": ["tkl"],
+      "switch-type": ["linear"],
       "gaming-features": "essential",
       connectivity: "wired-preferred",
-      "priority-feature": "performance",
-      budget: "premium",
+      "priority-feature": ["performance"],
+      budget: ["premium"],
     };
 
     const result1 = getKeyboardRecommendations(answers);
@@ -251,13 +251,13 @@ describe("getKeyboardRecommendations", () => {
 
   it("includes filters for wireless preference", () => {
     const answers: KeyboardQuizAnswers = {
-      "primary-use": "programming",
-      "form-factor": "75-percent",
-      "switch-type": "tactile",
+      "primary-use": ["programming"],
+      "form-factor": ["75-percent"],
+      "switch-type": ["tactile"],
       "gaming-features": "not-important",
       connectivity: "wireless-essential",
-      "priority-feature": "typing-feel",
-      budget: "premium",
+      "priority-feature": ["typing-feel"],
+      budget: ["premium"],
     };
 
     const result = getKeyboardRecommendations(answers);
@@ -279,13 +279,13 @@ describe("scoreProducts with keyboard products", () => {
     ];
 
     const answers: KeyboardQuizAnswers = {
-      "primary-use": "competitive-gaming",
-      "form-factor": "tkl",
-      "switch-type": "linear",
+      "primary-use": ["competitive-gaming"],
+      "form-factor": ["tkl"],
+      "switch-type": ["linear"],
       "gaming-features": "essential",
       connectivity: "wired-preferred",
-      "priority-feature": "performance",
-      budget: "premium",
+      "priority-feature": ["performance"],
+      budget: ["premium"],
     };
 
     const scored = scoreProducts(answers, products, keyboardRules);
@@ -298,13 +298,13 @@ describe("scoreProducts with keyboard products", () => {
   it("calculates scores between 0 and 100", () => {
     const products = [createMockKeyboardProduct()];
     const answers: KeyboardQuizAnswers = {
-      "primary-use": "competitive-gaming",
-      "form-factor": "tkl",
-      "switch-type": "linear",
+      "primary-use": ["competitive-gaming"],
+      "form-factor": ["tkl"],
+      "switch-type": ["linear"],
       "gaming-features": "essential",
       connectivity: "wired-preferred",
-      "priority-feature": "performance",
-      budget: "premium",
+      "priority-feature": ["performance"],
+      budget: ["premium"],
     };
 
     const scored = scoreProducts(answers, products, keyboardRules);
@@ -316,13 +316,13 @@ describe("scoreProducts with keyboard products", () => {
   it("includes breakdown for each rule", () => {
     const products = [createMockKeyboardProduct()];
     const answers: KeyboardQuizAnswers = {
-      "primary-use": "competitive-gaming",
-      "form-factor": "tkl",
-      "switch-type": "linear",
+      "primary-use": ["competitive-gaming"],
+      "form-factor": ["tkl"],
+      "switch-type": ["linear"],
       "gaming-features": "essential",
       connectivity: "wired-preferred",
-      "priority-feature": "performance",
-      budget: "premium",
+      "priority-feature": ["performance"],
+      budget: ["premium"],
     };
 
     const scored = scoreProducts(answers, products, keyboardRules);
@@ -339,13 +339,13 @@ describe("scoreProducts with keyboard products", () => {
 
   it("handles empty product array", () => {
     const answers: KeyboardQuizAnswers = {
-      "primary-use": "competitive-gaming",
-      "form-factor": "tkl",
-      "switch-type": "linear",
+      "primary-use": ["competitive-gaming"],
+      "form-factor": ["tkl"],
+      "switch-type": ["linear"],
       "gaming-features": "essential",
       connectivity: "wired-preferred",
-      "priority-feature": "performance",
-      budget: "premium",
+      "priority-feature": ["performance"],
+      budget: ["premium"],
     };
 
     const scored = scoreProducts(answers, [], keyboardRules);
@@ -355,13 +355,13 @@ describe("scoreProducts with keyboard products", () => {
 
   it("all scores in breakdown sum correctly with weights", () => {
     const answers: KeyboardQuizAnswers = {
-      "primary-use": "competitive-gaming",
-      "form-factor": "tkl",
-      "switch-type": "linear",
+      "primary-use": ["competitive-gaming"],
+      "form-factor": ["tkl"],
+      "switch-type": ["linear"],
       "gaming-features": "essential",
       connectivity: "wired-preferred",
-      "priority-feature": "performance",
-      budget: "premium",
+      "priority-feature": ["performance"],
+      budget: ["premium"],
     };
 
     const result = getKeyboardRecommendations(answers);
@@ -391,13 +391,13 @@ describe("Keyboard Primary Use Rule", () => {
 
   it("awards max points for competitive gaming keyboard with rapid trigger", () => {
     const answers: KeyboardQuizAnswers = {
-      "primary-use": "competitive-gaming",
-      "form-factor": "tkl",
-      "switch-type": "linear",
+      "primary-use": ["competitive-gaming"],
+      "form-factor": ["tkl"],
+      "switch-type": ["linear"],
       "gaming-features": "essential",
       connectivity: "wired-preferred",
-      "priority-feature": "performance",
-      budget: "premium",
+      "priority-feature": ["performance"],
+      budget: ["premium"],
     };
 
     const product = createMockKeyboardProduct({
@@ -417,13 +417,13 @@ describe("Keyboard Primary Use Rule", () => {
 
   it("penalizes non-gaming keyboard for competitive gaming use", () => {
     const answers: KeyboardQuizAnswers = {
-      "primary-use": "competitive-gaming",
-      "form-factor": "full-size",
-      "switch-type": "tactile",
+      "primary-use": ["competitive-gaming"],
+      "form-factor": ["full-size"],
+      "switch-type": ["tactile"],
       "gaming-features": "essential",
       connectivity: "wireless-preferred",
-      "priority-feature": "performance",
-      budget: "mid-range",
+      "priority-feature": ["performance"],
+      budget: ["mid-range"],
     };
 
     const product = createProductivityKeyboard();
@@ -436,13 +436,13 @@ describe("Keyboard Primary Use Rule", () => {
 
   it("rewards productivity keyboard for office use", () => {
     const answers: KeyboardQuizAnswers = {
-      "primary-use": "productivity",
-      "form-factor": "full-size",
-      "switch-type": "tactile",
+      "primary-use": ["productivity"],
+      "form-factor": ["full-size"],
+      "switch-type": ["tactile"],
       "gaming-features": "not-important",
       connectivity: "wireless-preferred",
-      "priority-feature": "quiet",
-      budget: "mid-range",
+      "priority-feature": ["quiet"],
+      budget: ["mid-range"],
     };
 
     const product = createProductivityKeyboard({
@@ -463,13 +463,13 @@ describe("Keyboard Primary Use Rule", () => {
 
   it("handles programming use case correctly", () => {
     const answers: KeyboardQuizAnswers = {
-      "primary-use": "programming",
-      "form-factor": "75-percent",
-      "switch-type": "tactile",
+      "primary-use": ["programming"],
+      "form-factor": ["75-percent"],
+      "switch-type": ["tactile"],
       "gaming-features": "not-important",
       connectivity: "wireless-essential",
-      "priority-feature": "typing-feel",
-      budget: "premium",
+      "priority-feature": ["typing-feel"],
+      budget: ["premium"],
     };
 
     const product = createMockKeyboardProduct({
@@ -488,13 +488,13 @@ describe("Keyboard Primary Use Rule", () => {
 
   it("handles casual gaming use case", () => {
     const answers: KeyboardQuizAnswers = {
-      "primary-use": "casual-gaming",
-      "form-factor": "60-65-percent",
-      "switch-type": "linear",
+      "primary-use": ["casual-gaming"],
+      "form-factor": ["60-65-percent"],
+      "switch-type": ["linear"],
       "gaming-features": "nice-to-have",
       connectivity: "wireless-preferred",
-      "priority-feature": "customization",
-      budget: "budget",
+      "priority-feature": ["customization"],
+      budget: ["budget"],
     };
 
     const product = createMockKeyboardProduct({
@@ -521,13 +521,13 @@ describe("Keyboard Form Factor Rule", () => {
 
   it("awards max points for exact TKL match", () => {
     const answers: KeyboardQuizAnswers = {
-      "primary-use": "competitive-gaming",
-      "form-factor": "tkl",
-      "switch-type": "linear",
+      "primary-use": ["competitive-gaming"],
+      "form-factor": ["tkl"],
+      "switch-type": ["linear"],
       "gaming-features": "essential",
       connectivity: "wired-preferred",
-      "priority-feature": "performance",
-      budget: "premium",
+      "priority-feature": ["performance"],
+      budget: ["premium"],
     };
 
     const product = createMockKeyboardProduct({
@@ -545,13 +545,13 @@ describe("Keyboard Form Factor Rule", () => {
 
   it("awards max points for exact full-size match", () => {
     const answers: KeyboardQuizAnswers = {
-      "primary-use": "productivity",
-      "form-factor": "full-size",
-      "switch-type": "tactile",
+      "primary-use": ["productivity"],
+      "form-factor": ["full-size"],
+      "switch-type": ["tactile"],
       "gaming-features": "not-important",
       connectivity: "wireless-preferred",
-      "priority-feature": "quiet",
-      budget: "mid-range",
+      "priority-feature": ["quiet"],
+      budget: ["mid-range"],
     };
 
     const product = createProductivityKeyboard({
@@ -568,13 +568,13 @@ describe("Keyboard Form Factor Rule", () => {
 
   it("awards partial points for close size match", () => {
     const answers: KeyboardQuizAnswers = {
-      "primary-use": "competitive-gaming",
-      "form-factor": "75-percent",
-      "switch-type": "linear",
+      "primary-use": ["competitive-gaming"],
+      "form-factor": ["75-percent"],
+      "switch-type": ["linear"],
       "gaming-features": "essential",
       connectivity: "wired-preferred",
-      "priority-feature": "performance",
-      budget: "premium",
+      "priority-feature": ["performance"],
+      budget: ["premium"],
     };
 
     const product = createMockKeyboardProduct({
@@ -592,9 +592,9 @@ describe("Keyboard Form Factor Rule", () => {
 
   it("penalizes significantly different form factor", () => {
     const answers: KeyboardQuizAnswers = {
-      "primary-use": "competitive-gaming",
-      "form-factor": "60-65-percent",
-      "switch-type": "linear",
+      "primary-use": ["competitive-gaming"],
+      "form-factor": ["60-65-percent"],
+      "switch-type": ["linear"],
       "gaming-features": "essential",
       connectivity: "wired-preferred",
       "priority-feature": "performance",
@@ -624,13 +624,13 @@ describe("Keyboard Switch Type Rule", () => {
 
   it("awards max points for exact switch match with hot-swap", () => {
     const answers: KeyboardQuizAnswers = {
-      "primary-use": "competitive-gaming",
-      "form-factor": "tkl",
-      "switch-type": "linear",
+      "primary-use": ["competitive-gaming"],
+      "form-factor": ["tkl"],
+      "switch-type": ["linear"],
       "gaming-features": "essential",
       connectivity: "wired-preferred",
-      "priority-feature": "performance",
-      budget: "premium",
+      "priority-feature": ["performance"],
+      budget: ["premium"],
     };
 
     const product = createMockKeyboardProduct({
@@ -673,13 +673,13 @@ describe("Keyboard Switch Type Rule", () => {
 
   it("gives partial points for hot-swap with wrong switch type", () => {
     const answers: KeyboardQuizAnswers = {
-      "primary-use": "productivity",
-      "form-factor": "full-size",
-      "switch-type": "tactile",
+      "primary-use": ["productivity"],
+      "form-factor": ["full-size"],
+      "switch-type": ["tactile"],
       "gaming-features": "not-important",
       connectivity: "wireless-preferred",
-      "priority-feature": "quiet",
-      budget: "mid-range",
+      "priority-feature": ["quiet"],
+      budget: ["mid-range"],
     };
 
     const product = createMockKeyboardProduct({
@@ -699,13 +699,13 @@ describe("Keyboard Switch Type Rule", () => {
 
   it("penalizes non-hot-swap with wrong switch type", () => {
     const answers: KeyboardQuizAnswers = {
-      "primary-use": "programming",
-      "form-factor": "75-percent",
-      "switch-type": "tactile",
+      "primary-use": ["programming"],
+      "form-factor": ["75-percent"],
+      "switch-type": ["tactile"],
       "gaming-features": "not-important",
       connectivity: "wireless-essential",
-      "priority-feature": "typing-feel",
-      budget: "premium",
+      "priority-feature": ["typing-feel"],
+      budget: ["premium"],
     };
 
     const product = createMockKeyboardProduct({
@@ -734,13 +734,13 @@ describe("Keyboard Gaming Features Rule", () => {
 
   it("awards high points for essential gaming with full features", () => {
     const answers: KeyboardQuizAnswers = {
-      "primary-use": "competitive-gaming",
-      "form-factor": "tkl",
-      "switch-type": "linear",
+      "primary-use": ["competitive-gaming"],
+      "form-factor": ["tkl"],
+      "switch-type": ["linear"],
       "gaming-features": "essential",
       connectivity: "wired-preferred",
-      "priority-feature": "performance",
-      budget: "premium",
+      "priority-feature": ["performance"],
+      budget: ["premium"],
     };
 
     const product = createMockKeyboardProduct({
@@ -762,13 +762,13 @@ describe("Keyboard Gaming Features Rule", () => {
 
   it("penalizes missing rapid trigger for essential gaming", () => {
     const answers: KeyboardQuizAnswers = {
-      "primary-use": "competitive-gaming",
-      "form-factor": "tkl",
-      "switch-type": "linear",
+      "primary-use": ["competitive-gaming"],
+      "form-factor": ["tkl"],
+      "switch-type": ["linear"],
       "gaming-features": "essential",
       connectivity: "wired-preferred",
-      "priority-feature": "performance",
-      budget: "premium",
+      "priority-feature": ["performance"],
+      budget: ["premium"],
     };
 
     const product = createProductivityKeyboard({
@@ -813,13 +813,13 @@ describe("Keyboard Gaming Features Rule", () => {
 
   it("awards full points for not-important gaming features", () => {
     const answers: KeyboardQuizAnswers = {
-      "primary-use": "productivity",
-      "form-factor": "full-size",
-      "switch-type": "tactile",
+      "primary-use": ["productivity"],
+      "form-factor": ["full-size"],
+      "switch-type": ["tactile"],
       "gaming-features": "not-important",
       connectivity: "wireless-preferred",
-      "priority-feature": "quiet",
-      budget: "mid-range",
+      "priority-feature": ["quiet"],
+      budget: ["mid-range"],
     };
 
     const product = createProductivityKeyboard();
@@ -842,13 +842,13 @@ describe("Keyboard Connectivity Rule", () => {
 
   it("awards max points for wireless-essential with full wireless", () => {
     const answers: KeyboardQuizAnswers = {
-      "primary-use": "programming",
-      "form-factor": "75-percent",
-      "switch-type": "tactile",
+      "primary-use": ["programming"],
+      "form-factor": ["75-percent"],
+      "switch-type": ["tactile"],
       "gaming-features": "not-important",
       connectivity: "wireless-essential",
-      "priority-feature": "typing-feel",
-      budget: "premium",
+      "priority-feature": ["typing-feel"],
+      budget: ["premium"],
     };
 
     const product = createMockKeyboardProduct({
@@ -868,13 +868,13 @@ describe("Keyboard Connectivity Rule", () => {
 
   it("penalizes wired-only for wireless-essential", () => {
     const answers: KeyboardQuizAnswers = {
-      "primary-use": "programming",
-      "form-factor": "75-percent",
-      "switch-type": "tactile",
+      "primary-use": ["programming"],
+      "form-factor": ["75-percent"],
+      "switch-type": ["tactile"],
       "gaming-features": "not-important",
       connectivity: "wireless-essential",
-      "priority-feature": "typing-feel",
-      budget: "premium",
+      "priority-feature": ["typing-feel"],
+      budget: ["premium"],
     };
 
     const product = createMockKeyboardProduct({
@@ -893,13 +893,13 @@ describe("Keyboard Connectivity Rule", () => {
 
   it("awards max points for wired-preferred with wired keyboard", () => {
     const answers: KeyboardQuizAnswers = {
-      "primary-use": "competitive-gaming",
-      "form-factor": "tkl",
-      "switch-type": "linear",
+      "primary-use": ["competitive-gaming"],
+      "form-factor": ["tkl"],
+      "switch-type": ["linear"],
       "gaming-features": "essential",
       connectivity: "wired-preferred",
-      "priority-feature": "performance",
-      budget: "premium",
+      "priority-feature": ["performance"],
+      budget: ["premium"],
     };
 
     const product = createMockKeyboardProduct({
@@ -952,13 +952,13 @@ describe("Keyboard Priority Feature Rule", () => {
 
   it("awards max points for performance priority with low latency", () => {
     const answers: KeyboardQuizAnswers = {
-      "primary-use": "competitive-gaming",
-      "form-factor": "tkl",
-      "switch-type": "linear",
+      "primary-use": ["competitive-gaming"],
+      "form-factor": ["tkl"],
+      "switch-type": ["linear"],
       "gaming-features": "essential",
       connectivity: "wired-preferred",
-      "priority-feature": "performance",
-      budget: "premium",
+      "priority-feature": ["performance"],
+      budget: ["premium"],
     };
 
     const product = createMockKeyboardProduct({
@@ -976,13 +976,13 @@ describe("Keyboard Priority Feature Rule", () => {
 
   it("awards max points for typing-feel with gasket mount", () => {
     const answers: KeyboardQuizAnswers = {
-      "primary-use": "programming",
-      "form-factor": "75-percent",
-      "switch-type": "tactile",
+      "primary-use": ["programming"],
+      "form-factor": ["75-percent"],
+      "switch-type": ["tactile"],
       "gaming-features": "not-important",
       connectivity: "wireless-essential",
-      "priority-feature": "typing-feel",
-      budget: "premium",
+      "priority-feature": ["typing-feel"],
+      budget: ["premium"],
     };
 
     const product = createMockKeyboardProduct({
@@ -1001,13 +1001,13 @@ describe("Keyboard Priority Feature Rule", () => {
 
   it("awards points for customization with hot-swap and QMK", () => {
     const answers: KeyboardQuizAnswers = {
-      "primary-use": "casual-gaming",
-      "form-factor": "60-65-percent",
-      "switch-type": "no-preference",
+      "primary-use": ["casual-gaming"],
+      "form-factor": ["60-65-percent"],
+      "switch-type": ["no-preference"],
       "gaming-features": "nice-to-have",
       connectivity: "wireless-preferred",
-      "priority-feature": "customization",
-      budget: "budget",
+      "priority-feature": ["customization"],
+      budget: ["budget"],
     };
 
     const product = createMockKeyboardProduct({
@@ -1027,13 +1027,13 @@ describe("Keyboard Priority Feature Rule", () => {
 
   it("awards max points for quiet priority with low noise", () => {
     const answers: KeyboardQuizAnswers = {
-      "primary-use": "productivity",
-      "form-factor": "full-size",
-      "switch-type": "tactile",
+      "primary-use": ["productivity"],
+      "form-factor": ["full-size"],
+      "switch-type": ["tactile"],
       "gaming-features": "not-important",
       connectivity: "wireless-preferred",
-      "priority-feature": "quiet",
-      budget: "mid-range",
+      "priority-feature": ["quiet"],
+      budget: ["mid-range"],
     };
 
     const product = createProductivityKeyboard({
@@ -1051,13 +1051,13 @@ describe("Keyboard Priority Feature Rule", () => {
 
   it("penalizes loud keyboard for quiet priority", () => {
     const answers: KeyboardQuizAnswers = {
-      "primary-use": "productivity",
-      "form-factor": "full-size",
-      "switch-type": "tactile",
+      "primary-use": ["productivity"],
+      "form-factor": ["full-size"],
+      "switch-type": ["tactile"],
       "gaming-features": "not-important",
       connectivity: "wireless-preferred",
-      "priority-feature": "quiet",
-      budget: "mid-range",
+      "priority-feature": ["quiet"],
+      budget: ["mid-range"],
     };
 
     const product = createMockKeyboardProduct({
@@ -1083,13 +1083,13 @@ describe("Keyboard Budget Match Rule", () => {
 
   it("awards full points for matching budget tier", () => {
     const answers: KeyboardQuizAnswers = {
-      "primary-use": "competitive-gaming",
-      "form-factor": "tkl",
-      "switch-type": "linear",
+      "primary-use": ["competitive-gaming"],
+      "form-factor": ["tkl"],
+      "switch-type": ["linear"],
       "gaming-features": "essential",
       connectivity: "wired-preferred",
-      "priority-feature": "performance",
-      budget: "premium",
+      "priority-feature": ["performance"],
+      budget: ["premium"],
     };
 
     const product = createMockKeyboardProduct({
@@ -1109,13 +1109,13 @@ describe("Keyboard Budget Match Rule", () => {
 
   it("awards bonus for value pick within budget", () => {
     const answers: KeyboardQuizAnswers = {
-      "primary-use": "casual-gaming",
-      "form-factor": "60-65-percent",
-      "switch-type": "linear",
+      "primary-use": ["casual-gaming"],
+      "form-factor": ["60-65-percent"],
+      "switch-type": ["linear"],
       "gaming-features": "nice-to-have",
       connectivity: "wireless-preferred",
-      "priority-feature": "customization",
-      budget: "budget",
+      "priority-feature": ["customization"],
+      budget: ["budget"],
     };
 
     const product = createMockKeyboardProduct({
@@ -1134,13 +1134,13 @@ describe("Keyboard Budget Match Rule", () => {
 
   it("still gives points for over-budget products with concern", () => {
     const answers: KeyboardQuizAnswers = {
-      "primary-use": "casual-gaming",
-      "form-factor": "60-65-percent",
-      "switch-type": "linear",
+      "primary-use": ["casual-gaming"],
+      "form-factor": ["60-65-percent"],
+      "switch-type": ["linear"],
       "gaming-features": "nice-to-have",
       connectivity: "wireless-preferred",
-      "priority-feature": "customization",
-      budget: "budget",
+      "priority-feature": ["customization"],
+      budget: ["budget"],
     };
 
     const product = createMockKeyboardProduct({
@@ -1159,13 +1159,13 @@ describe("Keyboard Budget Match Rule", () => {
 
   it("handles under-budget products positively", () => {
     const answers: KeyboardQuizAnswers = {
-      "primary-use": "competitive-gaming",
-      "form-factor": "tkl",
-      "switch-type": "linear",
+      "primary-use": ["competitive-gaming"],
+      "form-factor": ["tkl"],
+      "switch-type": ["linear"],
       "gaming-features": "essential",
       connectivity: "wired-preferred",
-      "priority-feature": "performance",
-      budget: "enthusiast",
+      "priority-feature": ["performance"],
+      budget: ["enthusiast"],
     };
 
     const product = createMockKeyboardProduct({
@@ -1190,13 +1190,13 @@ describe("Keyboard Budget Match Rule", () => {
 describe("Keyboard Edge Cases", () => {
   it("handles products with minimal attributes", () => {
     const answers: KeyboardQuizAnswers = {
-      "primary-use": "competitive-gaming",
-      "form-factor": "tkl",
-      "switch-type": "linear",
+      "primary-use": ["competitive-gaming"],
+      "form-factor": ["tkl"],
+      "switch-type": ["linear"],
       "gaming-features": "essential",
       connectivity: "wired-preferred",
-      "priority-feature": "performance",
-      budget: "premium",
+      "priority-feature": ["performance"],
+      budget: ["premium"],
     };
 
     const minimalProduct = createMockKeyboardProduct();
@@ -1208,13 +1208,13 @@ describe("Keyboard Edge Cases", () => {
 
   it("ranks gaming keyboard higher than productivity for gaming use", () => {
     const answers: KeyboardQuizAnswers = {
-      "primary-use": "competitive-gaming",
-      "form-factor": "tkl",
-      "switch-type": "linear",
+      "primary-use": ["competitive-gaming"],
+      "form-factor": ["tkl"],
+      "switch-type": ["linear"],
       "gaming-features": "essential",
       connectivity: "wired-preferred",
-      "priority-feature": "performance",
-      budget: "premium",
+      "priority-feature": ["performance"],
+      budget: ["premium"],
     };
 
     const gamingKb = createMockKeyboardProduct({ id: "gaming_kb" });
@@ -1232,13 +1232,13 @@ describe("Keyboard Edge Cases", () => {
 
   it("ranks productivity keyboard higher for office use", () => {
     const answers: KeyboardQuizAnswers = {
-      "primary-use": "productivity",
-      "form-factor": "full-size",
-      "switch-type": "tactile",
+      "primary-use": ["productivity"],
+      "form-factor": ["full-size"],
+      "switch-type": ["tactile"],
       "gaming-features": "not-important",
       connectivity: "wireless-preferred",
-      "priority-feature": "quiet",
-      budget: "mid-range",
+      "priority-feature": ["quiet"],
+      budget: ["mid-range"],
     };
 
     const gamingKb = createMockKeyboardProduct({ id: "gaming_kb" });
@@ -1280,13 +1280,13 @@ describe("Keyboard Edge Cases", () => {
       for (const form of formFactors) {
         for (const switchType of switchTypes) {
           const answers: KeyboardQuizAnswers = {
-            "primary-use": use,
-            "form-factor": form,
-            "switch-type": switchType,
+            "primary-use": [use],
+            "form-factor": [form],
+            "switch-type": [switchType],
             "gaming-features": "nice-to-have",
             connectivity: "no-preference",
-            "priority-feature": "customization",
-            budget: "mid-range",
+            "priority-feature": ["customization"],
+            budget: ["mid-range"],
           };
 
           const scored = scoreProducts(answers, products, keyboardRules);
@@ -1307,13 +1307,13 @@ describe("Keyboard Edge Cases", () => {
 describe("Keyboard Match Reasons and Concerns", () => {
   it("includes relevant match reasons for good matches", () => {
     const answers: KeyboardQuizAnswers = {
-      "primary-use": "competitive-gaming",
-      "form-factor": "tkl",
-      "switch-type": "linear",
+      "primary-use": ["competitive-gaming"],
+      "form-factor": ["tkl"],
+      "switch-type": ["linear"],
       "gaming-features": "essential",
       connectivity: "wired-preferred",
-      "priority-feature": "performance",
-      budget: "premium",
+      "priority-feature": ["performance"],
+      budget: ["premium"],
     };
 
     const result = getKeyboardRecommendations(answers);
@@ -1326,13 +1326,13 @@ describe("Keyboard Match Reasons and Concerns", () => {
 
   it("includes relevant concerns for mismatches", () => {
     const answers: KeyboardQuizAnswers = {
-      "primary-use": "competitive-gaming",
-      "form-factor": "tkl",
-      "switch-type": "linear",
+      "primary-use": ["competitive-gaming"],
+      "form-factor": ["tkl"],
+      "switch-type": ["linear"],
       "gaming-features": "essential",
       connectivity: "wireless-essential",
-      "priority-feature": "performance",
-      budget: "budget",
+      "priority-feature": ["performance"],
+      budget: ["budget"],
     };
 
     // Force a mismatch by requesting budget with wireless essential
