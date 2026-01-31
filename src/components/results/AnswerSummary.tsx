@@ -7,7 +7,7 @@ interface AnswerSummaryProps {
 }
 
 // Display label mappings for mouse quiz answers
-const mouseAnswerLabels: Record<keyof MouseQuizAnswers, Record<string, string>> = {
+const mouseAnswerLabels: Partial<Record<keyof MouseQuizAnswers, Record<string, string>>> = {
   "hand-size": {
     small: "Small hands",
     medium: "Medium hands",
@@ -36,10 +36,35 @@ const mouseAnswerLabels: Record<keyof MouseQuizAnswers, Record<string, string>> 
     creative: "Creative work",
     mixed: "Mixed use",
   },
+  // Optional enhanced quiz fields
+  handedness: {
+    right: "Right-handed",
+    left: "Left-handed",
+    ambidextrous: "Ambidextrous",
+  },
+  "shape-profile": {
+    low_hump: "Low hump",
+    rear_hump: "Rear hump",
+    center_hump: "Center hump",
+    ergo_hump: "Ergonomic hump",
+    any: "Any shape",
+  },
+  "gaming-genre": {
+    fps: "FPS",
+    moba: "MOBA",
+    mmo: "MMO",
+    general: "General gaming",
+  },
+  "button-needs": {
+    minimal: "Minimal buttons",
+    standard: "Standard buttons",
+    many: "Many buttons",
+    mmo_grid: "MMO grid",
+  },
 };
 
 // Display label mappings for audio quiz answers
-const audioAnswerLabels: Record<keyof AudioQuizAnswers, Record<string, string>> = {
+const audioAnswerLabels: Partial<Record<keyof AudioQuizAnswers, Record<string, string>>> = {
   "primary-use": {
     competitive: "Precision audio",
     immersive: "Immersive",
@@ -69,10 +94,28 @@ const audioAnswerLabels: Record<keyof AudioQuizAnswers, Record<string, string>> 
     premium: "Premium ($150-300)",
     "no-limit": "No limit ($300+)",
   },
+  // Optional enhanced quiz fields
+  "sound-signature": {
+    neutral: "Neutral sound",
+    warm: "Warm sound",
+    v_shaped: "V-shaped",
+    bright: "Bright sound",
+  },
+  "wireless-preference": {
+    "wireless-required": "Wireless required",
+    "wireless-preferred": "Wireless preferred",
+    "wired-preferred": "Wired preferred",
+    either: "Any connection",
+  },
+  "noise-environment": {
+    quiet: "Quiet environment",
+    moderate: "Moderate noise",
+    noisy: "Noisy environment",
+  },
 };
 
 // Display label mappings for keyboard quiz answers
-const keyboardAnswerLabels: Record<keyof KeyboardQuizAnswers, Record<string, string>> = {
+const keyboardAnswerLabels: Partial<Record<keyof KeyboardQuizAnswers, Record<string, string>>> = {
   "primary-use": {
     "competitive-gaming": "Competitive Gaming",
     "casual-gaming": "Casual Gaming",
@@ -114,10 +157,27 @@ const keyboardAnswerLabels: Record<keyof KeyboardQuizAnswers, Record<string, str
     premium: "Premium ($175-250)",
     enthusiast: "Enthusiast ($250+)",
   },
+  // Optional enhanced quiz fields
+  "switch-technology": {
+    mechanical: "Mechanical",
+    magnetic: "Magnetic",
+    optical: "Optical",
+    any: "Any technology",
+  },
+  "media-controls": {
+    essential: "Media essential",
+    "nice-to-have": "Media preferred",
+    "not-needed": "No media controls",
+  },
+  "keycap-material": {
+    pbt: "PBT keycaps",
+    abs: "ABS keycaps",
+    any: "Any material",
+  },
 };
 
 // Display label mappings for monitor quiz answers
-const monitorAnswerLabels: Record<keyof MonitorQuizAnswers, Record<string, string>> = {
+const monitorAnswerLabels: Partial<Record<keyof MonitorQuizAnswers, Record<string, string>>> = {
   "primary-use": {
     gaming: "Gaming",
     "content-creation": "Content Creation",
@@ -172,7 +232,7 @@ const monitorAnswerLabels: Record<keyof MonitorQuizAnswers, Record<string, strin
   },
   features: {
     "usb-c": "USB-C",
-    "ergonomic-stand": "Ergonomic stand",
+    ergonomics: "Ergonomic stand",
     speakers: "Built-in speakers",
     any: "Any features",
   },
@@ -251,7 +311,9 @@ const AnswerSummary = ({ answers, category }: AnswerSummaryProps) => {
     if (monitorAnswers["panel-type"]) {
       labels.push(getMonitorLabel("panel-type", monitorAnswers["panel-type"]));
     }
-    labels.push(getMonitorLabel("budget", monitorAnswers["budget"]));
+    if (monitorAnswers["budget"]) {
+      labels.push(getMonitorLabel("budget", monitorAnswers["budget"]));
+    }
   }
 
   return (

@@ -125,7 +125,7 @@ function getKeyboardSpecTags(product: KeyboardProduct): string[] {
   }
 
   // Special features
-  if (attrs.keyboard_rapid_trigger) {
+  if (attrs.keyboard_supports_rapid_trigger) {
     tags.push("Rapid Trigger");
   }
   if (attrs.keyboard_hot_swappable) {

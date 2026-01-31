@@ -597,8 +597,8 @@ describe("Keyboard Form Factor Rule", () => {
       "switch-type": ["linear"],
       "gaming-features": "essential",
       connectivity: "wired-preferred",
-      "priority-feature": "performance",
-      budget: "premium",
+      "priority-feature": ["performance"],
+      budget: ["premium"],
     };
 
     const product = createProductivityKeyboard({
@@ -649,13 +649,13 @@ describe("Keyboard Switch Type Rule", () => {
 
   it("awards full points for no-preference with hot-swap", () => {
     const answers: KeyboardQuizAnswers = {
-      "primary-use": "casual-gaming",
-      "form-factor": "60-65-percent",
-      "switch-type": "no-preference",
+      "primary-use": ["casual-gaming"],
+      "form-factor": ["60-65-percent"],
+      "switch-type": ["no-preference"],
       "gaming-features": "nice-to-have",
       connectivity: "wireless-preferred",
-      "priority-feature": "customization",
-      budget: "budget",
+      "priority-feature": ["customization"],
+      budget: ["budget"],
     };
 
     const product = createMockKeyboardProduct({
@@ -789,13 +789,13 @@ describe("Keyboard Gaming Features Rule", () => {
 
   it("is lenient for nice-to-have gaming features", () => {
     const answers: KeyboardQuizAnswers = {
-      "primary-use": "casual-gaming",
-      "form-factor": "60-65-percent",
-      "switch-type": "linear",
+      "primary-use": ["casual-gaming"],
+      "form-factor": ["60-65-percent"],
+      "switch-type": ["linear"],
       "gaming-features": "nice-to-have",
       connectivity: "wireless-preferred",
-      "priority-feature": "customization",
-      budget: "budget",
+      "priority-feature": ["customization"],
+      budget: ["budget"],
     };
 
     const product = createMockKeyboardProduct({
@@ -918,13 +918,13 @@ describe("Keyboard Connectivity Rule", () => {
 
   it("handles no-preference connectivity generously", () => {
     const answers: KeyboardQuizAnswers = {
-      "primary-use": "casual-gaming",
-      "form-factor": "60-65-percent",
-      "switch-type": "linear",
+      "primary-use": ["casual-gaming"],
+      "form-factor": ["60-65-percent"],
+      "switch-type": ["linear"],
       "gaming-features": "nice-to-have",
       connectivity: "no-preference",
-      "priority-feature": "customization",
-      budget: "budget",
+      "priority-feature": ["customization"],
+      budget: ["budget"],
     };
 
     const product = createMockKeyboardProduct({
@@ -1255,19 +1255,19 @@ describe("Keyboard Edge Cases", () => {
   });
 
   it("handles all answer combinations without errors", () => {
-    const primaryUses: KeyboardQuizAnswers["primary-use"][] = [
+    const primaryUses: KeyboardQuizAnswers["primary-use"][number][] = [
       "competitive-gaming",
       "casual-gaming",
       "productivity",
       "programming",
     ];
-    const formFactors: KeyboardQuizAnswers["form-factor"][] = [
+    const formFactors: KeyboardQuizAnswers["form-factor"][number][] = [
       "full-size",
       "tkl",
       "75-percent",
       "60-65-percent",
     ];
-    const switchTypes: KeyboardQuizAnswers["switch-type"][] = [
+    const switchTypes: KeyboardQuizAnswers["switch-type"][number][] = [
       "linear",
       "tactile",
       "clicky",
