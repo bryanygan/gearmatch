@@ -1,13 +1,13 @@
-import type { MouseQuizAnswers, AudioQuizAnswers, KeyboardQuizAnswers } from "@/lib/scoring";
+import type { MouseQuizAnswers, AudioQuizAnswers, KeyboardQuizAnswers, MonitorQuizAnswers } from "@/lib/scoring";
 import { cn } from "@/lib/utils";
 
 interface AnswerSummaryProps {
-  answers: MouseQuizAnswers | AudioQuizAnswers | KeyboardQuizAnswers;
-  category: "mouse" | "audio" | "keyboard";
+  answers: MouseQuizAnswers | AudioQuizAnswers | KeyboardQuizAnswers | MonitorQuizAnswers;
+  category: "mouse" | "audio" | "keyboard" | "monitor";
 }
 
 // Display label mappings for mouse quiz answers
-const mouseAnswerLabels: Record<keyof MouseQuizAnswers, Record<string, string>> = {
+const mouseAnswerLabels: Partial<Record<keyof MouseQuizAnswers, Record<string, string>>> = {
   "hand-size": {
     small: "Small hands",
     medium: "Medium hands",
@@ -36,10 +36,35 @@ const mouseAnswerLabels: Record<keyof MouseQuizAnswers, Record<string, string>> 
     creative: "Creative work",
     mixed: "Mixed use",
   },
+  // Optional enhanced quiz fields
+  handedness: {
+    right: "Right-handed",
+    left: "Left-handed",
+    ambidextrous: "Ambidextrous",
+  },
+  "shape-profile": {
+    low_hump: "Low hump",
+    rear_hump: "Rear hump",
+    center_hump: "Center hump",
+    ergo_hump: "Ergonomic hump",
+    any: "Any shape",
+  },
+  "gaming-genre": {
+    fps: "FPS",
+    moba: "MOBA",
+    mmo: "MMO",
+    general: "General gaming",
+  },
+  "button-needs": {
+    minimal: "Minimal buttons",
+    standard: "Standard buttons",
+    many: "Many buttons",
+    mmo_grid: "MMO grid",
+  },
 };
 
 // Display label mappings for audio quiz answers
-const audioAnswerLabels: Record<keyof AudioQuizAnswers, Record<string, string>> = {
+const audioAnswerLabels: Partial<Record<keyof AudioQuizAnswers, Record<string, string>>> = {
   "primary-use": {
     competitive: "Precision audio",
     immersive: "Immersive",
@@ -69,10 +94,28 @@ const audioAnswerLabels: Record<keyof AudioQuizAnswers, Record<string, string>> 
     premium: "Premium ($150-300)",
     "no-limit": "No limit ($300+)",
   },
+  // Optional enhanced quiz fields
+  "sound-signature": {
+    neutral: "Neutral sound",
+    warm: "Warm sound",
+    v_shaped: "V-shaped",
+    bright: "Bright sound",
+  },
+  "wireless-preference": {
+    "wireless-required": "Wireless required",
+    "wireless-preferred": "Wireless preferred",
+    "wired-preferred": "Wired preferred",
+    either: "Any connection",
+  },
+  "noise-environment": {
+    quiet: "Quiet environment",
+    moderate: "Moderate noise",
+    noisy: "Noisy environment",
+  },
 };
 
 // Display label mappings for keyboard quiz answers
-const keyboardAnswerLabels: Record<keyof KeyboardQuizAnswers, Record<string, string>> = {
+const keyboardAnswerLabels: Partial<Record<keyof KeyboardQuizAnswers, Record<string, string>>> = {
   "primary-use": {
     "competitive-gaming": "Competitive Gaming",
     "casual-gaming": "Casual Gaming",
@@ -114,6 +157,85 @@ const keyboardAnswerLabels: Record<keyof KeyboardQuizAnswers, Record<string, str
     premium: "Premium ($175-250)",
     enthusiast: "Enthusiast ($250+)",
   },
+  // Optional enhanced quiz fields
+  "switch-technology": {
+    mechanical: "Mechanical",
+    magnetic: "Magnetic",
+    optical: "Optical",
+    any: "Any technology",
+  },
+  "media-controls": {
+    essential: "Media essential",
+    "nice-to-have": "Media preferred",
+    "not-needed": "No media controls",
+  },
+  "keycap-material": {
+    pbt: "PBT keycaps",
+    abs: "ABS keycaps",
+    any: "Any material",
+  },
+};
+
+// Display label mappings for monitor quiz answers
+const monitorAnswerLabels: Partial<Record<keyof MonitorQuizAnswers, Record<string, string>>> = {
+  "primary-use": {
+    gaming: "Gaming",
+    "content-creation": "Content Creation",
+    office: "Office/Productivity",
+    mixed: "Mixed Use",
+  },
+  "size-preference": {
+    compact: "24-25\"",
+    standard: "27\"",
+    large: "32\"",
+    ultrawide: "Ultrawide 34\"+",
+    any: "Any size",
+  },
+  resolution: {
+    "1080p": "1080p",
+    "1440p": "1440p",
+    "4k": "4K",
+    any: "Any resolution",
+  },
+  "refresh-rate": {
+    basic: "60-75Hz",
+    standard: "120-165Hz",
+    high: "240Hz+",
+    any: "Any refresh",
+  },
+  "panel-type": {
+    ips: "IPS",
+    va: "VA",
+    oled: "OLED",
+    any: "Any panel",
+  },
+  budget: {
+    budget: "<$300",
+    "mid-range": "$300-600",
+    premium: "$600-1000",
+    enthusiast: "$1000+",
+  },
+  curved: {
+    flat: "Flat",
+    curved: "Curved",
+    either: "Either",
+  },
+  "color-accuracy": {
+    basic: "Basic color",
+    standard: "Standard color",
+    professional: "Professional color",
+  },
+  "hdr-needs": {
+    "not-needed": "No HDR",
+    "nice-to-have": "HDR preferred",
+    important: "HDR important",
+  },
+  features: {
+    "usb-c": "USB-C",
+    ergonomics: "Ergonomic stand",
+    speakers: "Built-in speakers",
+    any: "Any features",
+  },
 };
 
 function getMouseLabel(key: keyof MouseQuizAnswers, value: string | string[]): string {
@@ -140,8 +262,16 @@ function getKeyboardLabel(key: keyof KeyboardQuizAnswers, value: string | string
   return labels?.[value] || value;
 }
 
+function getMonitorLabel(key: keyof MonitorQuizAnswers, value: string | string[]): string {
+  const labels = monitorAnswerLabels[key];
+  if (Array.isArray(value)) {
+    return value.map((v) => labels?.[v] || v).join(", ");
+  }
+  return labels?.[value] || value;
+}
+
 const AnswerSummary = ({ answers, category }: AnswerSummaryProps) => {
-  const accentColor = category === "mouse" ? "primary" : category === "audio" ? "accent" : "secondary";
+  const accentColor = category === "mouse" ? "primary" : category === "audio" ? "accent" : category === "monitor" ? "tertiary" : "secondary";
 
   const labels: string[] = [];
 
@@ -161,7 +291,7 @@ const AnswerSummary = ({ answers, category }: AnswerSummaryProps) => {
     labels.push(getAudioLabel("mic-needs", audioAnswers["mic-needs"]));
     labels.push(getAudioLabel("session-length", audioAnswers["session-length"]));
     labels.push(getAudioLabel("budget", audioAnswers["budget"]));
-  } else {
+  } else if (category === "keyboard") {
     const keyboardAnswers = answers as KeyboardQuizAnswers;
     // Order: use, form, switch, connectivity, budget
     labels.push(getKeyboardLabel("primary-use", keyboardAnswers["primary-use"]));
@@ -169,6 +299,21 @@ const AnswerSummary = ({ answers, category }: AnswerSummaryProps) => {
     labels.push(getKeyboardLabel("switch-type", keyboardAnswers["switch-type"]));
     labels.push(getKeyboardLabel("connectivity", keyboardAnswers["connectivity"]));
     labels.push(getKeyboardLabel("budget", keyboardAnswers["budget"]));
+  } else {
+    const monitorAnswers = answers as MonitorQuizAnswers;
+    // Order: use, size, resolution, refresh, panel, budget
+    labels.push(getMonitorLabel("primary-use", monitorAnswers["primary-use"]));
+    labels.push(getMonitorLabel("size-preference", monitorAnswers["size-preference"]));
+    labels.push(getMonitorLabel("resolution", monitorAnswers["resolution"]));
+    if (monitorAnswers["refresh-rate"]) {
+      labels.push(getMonitorLabel("refresh-rate", monitorAnswers["refresh-rate"]));
+    }
+    if (monitorAnswers["panel-type"]) {
+      labels.push(getMonitorLabel("panel-type", monitorAnswers["panel-type"]));
+    }
+    if (monitorAnswers["budget"]) {
+      labels.push(getMonitorLabel("budget", monitorAnswers["budget"]));
+    }
   }
 
   return (
@@ -180,7 +325,8 @@ const AnswerSummary = ({ answers, category }: AnswerSummaryProps) => {
               "rounded-full px-3 py-1 text-sm",
               accentColor === "primary" && "bg-primary/10 text-primary",
               accentColor === "accent" && "bg-accent/10 text-accent",
-              accentColor === "secondary" && "bg-secondary text-foreground"
+              accentColor === "secondary" && "bg-secondary text-foreground",
+              accentColor === "tertiary" && "bg-violet-500/10 text-violet-600 dark:text-violet-400"
             )}
           >
             {label}

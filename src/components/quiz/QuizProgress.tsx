@@ -7,7 +7,7 @@ interface QuizProgressProps {
   currentStep: number;
   totalSteps: number;
   onBack?: () => void;
-  accentColor?: "primary" | "accent" | "secondary";
+  accentColor?: "primary" | "accent" | "secondary" | "tertiary";
   /** Category progress for enhanced display */
   categories?: CategoryProgress[];
   /** Current category being answered */
@@ -47,7 +47,8 @@ const QuizProgress = ({
                     isCurrent && !isComplete && cn(
                       accentColor === "primary" && "bg-primary/20 text-primary",
                       accentColor === "accent" && "bg-accent/20 text-accent",
-                      accentColor === "secondary" && "bg-secondary text-foreground"
+                      accentColor === "secondary" && "bg-secondary text-foreground",
+                      accentColor === "tertiary" && "bg-violet-500/20 text-violet-600 dark:text-violet-400"
                     ),
                     !isComplete && !isCurrent && "text-muted-foreground"
                   )}
@@ -86,7 +87,8 @@ const QuizProgress = ({
                 "font-medium",
                 accentColor === "primary" && "text-primary",
                 accentColor === "accent" && "text-accent",
-                accentColor === "secondary" && "text-foreground"
+                accentColor === "secondary" && "text-foreground",
+                accentColor === "tertiary" && "text-violet-600 dark:text-violet-400"
               )}
             >
               {Math.round(progress)}%
@@ -99,7 +101,8 @@ const QuizProgress = ({
                 "h-full transition-all duration-500 ease-out",
                 accentColor === "primary" && "bg-primary",
                 accentColor === "accent" && "bg-accent",
-                accentColor === "secondary" && "bg-foreground"
+                accentColor === "secondary" && "bg-foreground",
+                accentColor === "tertiary" && "bg-violet-600"
               )}
               style={{ width: `${progress}%` }}
             />

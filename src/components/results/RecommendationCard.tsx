@@ -1,7 +1,7 @@
 import { memo, useMemo } from "react";
 import { Check, AlertTriangle, Trophy, Star } from "lucide-react";
 import type { ScoredProduct } from "@/lib/scoring";
-import type { MouseProduct, AudioProduct, KeyboardProduct } from "@/types/products";
+import type { MouseProduct, AudioProduct, KeyboardProduct, MonitorProduct } from "@/types/products";
 import { getMatchQuality, getTopReasons, getTopConcerns } from "@/lib/scoring";
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -9,10 +9,10 @@ import ScoreBreakdown from "./ScoreBreakdown";
 import { cn } from "@/lib/utils";
 
 interface RecommendationCardProps {
-  scoredProduct: ScoredProduct<MouseProduct | AudioProduct | KeyboardProduct>;
+  scoredProduct: ScoredProduct<MouseProduct | AudioProduct | KeyboardProduct | MonitorProduct>;
   rank: number;
   isTopPick: boolean;
-  accentColor: "primary" | "accent" | "secondary";
+  accentColor: "primary" | "accent" | "secondary" | "tertiary";
   onViewDetails?: () => void;
 }
 
@@ -125,7 +125,7 @@ function getKeyboardSpecTags(product: KeyboardProduct): string[] {
   }
 
   // Special features
-  if (attrs.keyboard_rapid_trigger) {
+  if (attrs.keyboard_supports_rapid_trigger) {
     tags.push("Rapid Trigger");
   }
   if (attrs.keyboard_hot_swappable) {
@@ -135,8 +135,47 @@ function getKeyboardSpecTags(product: KeyboardProduct): string[] {
   return tags;
 }
 
+// Helper to get display-friendly spec tags for monitor products
+function getMonitorSpecTags(product: MonitorProduct): string[] {
+  const tags: string[] = [];
+  const attrs = product.core_attributes;
+
+  // Size
+  tags.push(`${attrs.monitor_size_inches}"`);
+
+  // Resolution
+  const resLabels: Record<string, string> = {
+    "1080p": "1080p",
+    "1440p": "1440p",
+    "4k": "4K",
+    "5k": "5K",
+  };
+  tags.push(resLabels[attrs.monitor_resolution_class] || attrs.monitor_resolution_class);
+
+  // Refresh rate
+  tags.push(`${attrs.monitor_max_refresh_hz}Hz`);
+
+  // Panel type
+  const panelLabels: Record<string, string> = {
+    IPS: "IPS",
+    VA: "VA",
+    TN: "TN",
+    OLED: "OLED",
+    "Mini-LED": "Mini-LED",
+    "QD-OLED": "QD-OLED",
+  };
+  tags.push(panelLabels[attrs.monitor_panel_type] || attrs.monitor_panel_type);
+
+  // Curved
+  if (attrs.monitor_curved) {
+    tags.push("Curved");
+  }
+
+  return tags;
+}
+
 function getSpecTags(
-  product: MouseProduct | AudioProduct | KeyboardProduct
+  product: MouseProduct | AudioProduct | KeyboardProduct | MonitorProduct
 ): string[] {
   if (product.category === "mouse") {
     return getMouseSpecTags(product as MouseProduct);
@@ -144,14 +183,18 @@ function getSpecTags(
   if (product.category === "audio") {
     return getAudioSpecTags(product as AudioProduct);
   }
-  return getKeyboardSpecTags(product as KeyboardProduct);
+  if (product.category === "keyboard") {
+    return getKeyboardSpecTags(product as KeyboardProduct);
+  }
+  return getMonitorSpecTags(product as MonitorProduct);
 }
 
-function getScoreColorClass(score: number, accentColor: "primary" | "accent" | "secondary"): string {
+function getScoreColorClass(score: number, accentColor: "primary" | "accent" | "secondary" | "tertiary"): string {
   if (score >= 90) return "text-green-400";
   if (score >= 80) {
     if (accentColor === "primary") return "text-primary";
     if (accentColor === "accent") return "text-accent";
+    if (accentColor === "tertiary") return "text-violet-500";
     return "text-foreground";
   }
   if (score >= 70) return "text-yellow-400";
@@ -160,6 +203,9 @@ function getScoreColorClass(score: number, accentColor: "primary" | "accent" | "
 }
 
 function formatPriceRange(range: [number, number]): string {
+  if (range[0] === 0 && range[1] === 0) {
+    return "For price, check retailer/resale market";
+  }
   if (range[0] === range[1]) {
     return `$${range[0]}`;
   }
@@ -200,10 +246,12 @@ const RecommendationCard = memo(function RecommendationCard({
         isTopPick && accentColor === "primary" && "border-primary/30 hover:border-primary/50",
         isTopPick && accentColor === "accent" && "border-accent/30 hover:border-accent/50",
         isTopPick && accentColor === "secondary" && "border-border hover:border-foreground/30",
+        isTopPick && accentColor === "tertiary" && "border-violet-500/30 hover:border-violet-500/50",
         !isTopPick && "border-border/50 hover:border-border",
         isFirstPick && accentColor === "primary" && "shadow-primary/10 shadow-lg",
         isFirstPick && accentColor === "accent" && "shadow-accent/10 shadow-lg",
-        isFirstPick && accentColor === "secondary" && "shadow-foreground/5 shadow-lg"
+        isFirstPick && accentColor === "secondary" && "shadow-foreground/5 shadow-lg",
+        isFirstPick && accentColor === "tertiary" && "shadow-violet-500/10 shadow-lg"
       )}
     >
       {/* Glow effect for top pick */}
@@ -213,7 +261,8 @@ const RecommendationCard = memo(function RecommendationCard({
             "pointer-events-none absolute inset-0 opacity-5",
             accentColor === "primary" && "bg-primary",
             accentColor === "accent" && "bg-accent",
-            accentColor === "secondary" && "bg-foreground"
+            accentColor === "secondary" && "bg-foreground",
+            accentColor === "tertiary" && "bg-violet-500"
           )}
         />
       )}
@@ -230,7 +279,8 @@ const RecommendationCard = memo(function RecommendationCard({
                     "gap-1",
                     accentColor === "primary" && "bg-primary/20 text-primary hover:bg-primary/20",
                     accentColor === "accent" && "bg-accent/20 text-accent hover:bg-accent/20",
-                    accentColor === "secondary" && "bg-secondary text-foreground hover:bg-secondary"
+                    accentColor === "secondary" && "bg-secondary text-foreground hover:bg-secondary",
+                    accentColor === "tertiary" && "bg-violet-500/20 text-violet-600 dark:text-violet-400 hover:bg-violet-500/20"
                   )}
                 >
                   {isFirstPick ? (
@@ -333,7 +383,8 @@ const RecommendationCard = memo(function RecommendationCard({
                 "text-sm transition-colors",
                 accentColor === "primary" && "text-primary hover:text-primary/80",
                 accentColor === "accent" && "text-accent hover:text-accent/80",
-                accentColor === "secondary" && "text-foreground hover:text-foreground/80"
+                accentColor === "secondary" && "text-foreground hover:text-foreground/80",
+                accentColor === "tertiary" && "text-violet-600 dark:text-violet-400 hover:text-violet-500"
               )}
             >
               View details

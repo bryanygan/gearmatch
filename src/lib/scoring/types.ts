@@ -6,6 +6,7 @@
  */
 
 import type { Product, MouseProduct, AudioProduct, KeyboardProduct } from "@/types/products";
+import type { MonitorProduct } from "@/types/monitor";
 
 // =============================================================================
 // Quiz Answer Types
@@ -63,6 +64,26 @@ export interface KeyboardQuizAnswers {
   "switch-technology"?: ("mechanical" | "magnetic" | "optical" | "any")[];
   "media-controls"?: "essential" | "nice-to-have" | "not-needed";
   "keycap-material"?: "pbt" | "abs" | "any";
+}
+
+/**
+ * Monitor quiz answer structure from MonitorQuiz.tsx
+ * Multi-select fields are arrays; single-select fields remain strings.
+ * Optional fields are from the enhanced quiz (Phase 2 questions).
+ */
+export interface MonitorQuizAnswers {
+  "primary-use": ("gaming" | "content-creation" | "office" | "mixed")[];
+  "size-preference": "compact" | "standard" | "large" | "ultrawide" | "any";
+  resolution: "1080p" | "1440p" | "4k" | "any";
+  // Standard quiz fields (optional for backwards compatibility)
+  "refresh-rate"?: "basic" | "standard" | "high" | "any";
+  "panel-type"?: ("ips" | "va" | "oled" | "any")[];
+  budget?: ("budget" | "mid-range" | "premium" | "enthusiast")[];
+  curved?: "flat" | "curved" | "either";
+  // Advanced quiz fields (optional for backwards compatibility)
+  "color-accuracy"?: "basic" | "standard" | "professional";
+  "hdr-needs"?: "not-needed" | "nice-to-have" | "important";
+  features?: ("usb-c" | "ergonomics" | "speakers" | "any")[];
 }
 
 // =============================================================================
@@ -146,7 +167,7 @@ export interface ScoringRule<TAnswers, TProduct extends Product> {
  */
 export interface AppliedFilters {
   /** Product category that was filtered */
-  category: "mouse" | "audio" | "keyboard";
+  category: "mouse" | "audio" | "keyboard" | "monitor";
   /** Price range filter if applied */
   priceRange?: [number, number];
   /** Wireless filter if applied */
@@ -200,6 +221,16 @@ export type KeyboardRecommendationResult = RecommendationResult<KeyboardProduct>
  * Keyboard-specific scored product.
  */
 export type ScoredKeyboardProduct = ScoredProduct<KeyboardProduct>;
+
+/**
+ * Monitor-specific recommendation result.
+ */
+export type MonitorRecommendationResult = RecommendationResult<MonitorProduct>;
+
+/**
+ * Monitor-specific scored product.
+ */
+export type ScoredMonitorProduct = ScoredProduct<MonitorProduct>;
 
 // =============================================================================
 // Scoring Options

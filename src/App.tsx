@@ -18,9 +18,11 @@ import { ErrorBoundary } from "./components/ErrorBoundary";
 const MouseQuiz = lazy(() => import("./pages/MouseQuiz"));
 const AudioQuiz = lazy(() => import("./pages/AudioQuiz"));
 const KeyboardQuiz = lazy(() => import("./pages/KeyboardQuiz"));
+const MonitorQuiz = lazy(() => import("./pages/MonitorQuiz"));
 const MouseResults = lazy(() => import("./pages/MouseResults"));
 const AudioResults = lazy(() => import("./pages/AudioResults"));
 const KeyboardResults = lazy(() => import("./pages/KeyboardResults"));
+const MonitorResults = lazy(() => import("./pages/MonitorResults"));
 
 // Loading fallback for lazy-loaded pages
 const PageLoader = () => (
@@ -87,6 +89,8 @@ const App = () => {
                 <Route path="/quiz/audio/results" element={<AudioResults />} />
                 <Route path="/quiz/keyboard" element={<KeyboardQuiz />} />
                 <Route path="/quiz/keyboard/results" element={<KeyboardResults />} />
+                <Route path="/quiz/monitor" element={<MonitorQuiz />} />
+                <Route path="/quiz/monitor/results" element={<MonitorResults />} />
                 {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
                 <Route path="*" element={<NotFound />} />
               </Routes>

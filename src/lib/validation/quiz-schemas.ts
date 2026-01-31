@@ -81,6 +81,27 @@ export const keyboardAnswersSchema = z.object({
 export type ValidatedKeyboardAnswers = z.infer<typeof keyboardAnswersSchema>;
 
 // =============================================================================
+// Monitor Quiz Answer Schema
+// =============================================================================
+
+export const monitorAnswersSchema = z.object({
+  "primary-use": z.array(z.enum(["gaming", "content-creation", "office", "mixed"])).min(1),
+  "size-preference": z.enum(["compact", "standard", "large", "ultrawide", "any"]),
+  resolution: z.enum(["1080p", "1440p", "4k", "any"]),
+  // Standard quiz fields (optional for backwards compatibility)
+  "refresh-rate": z.enum(["basic", "standard", "high", "any"]).optional(),
+  "panel-type": z.array(z.enum(["ips", "va", "oled", "any"])).optional(),
+  budget: z.array(z.enum(["budget", "mid-range", "premium", "enthusiast"])).optional(),
+  curved: z.enum(["flat", "curved", "either"]).optional(),
+  // Advanced quiz fields (optional for backwards compatibility)
+  "color-accuracy": z.enum(["basic", "standard", "professional"]).optional(),
+  "hdr-needs": z.enum(["not-needed", "nice-to-have", "important"]).optional(),
+  features: z.array(z.enum(["usb-c", "ergonomics", "speakers", "any"])).optional(),
+});
+
+export type ValidatedMonitorAnswers = z.infer<typeof monitorAnswersSchema>;
+
+// =============================================================================
 // Validation Helper Functions
 // =============================================================================
 
@@ -130,6 +151,21 @@ export function validateKeyboardAnswers(
 }
 
 /**
+ * Validates monitor quiz answers from URL parameters or state.
+ * Returns validated answers or null if validation fails.
+ */
+export function validateMonitorAnswers(
+  data: unknown
+): ValidatedMonitorAnswers | null {
+  const result = monitorAnswersSchema.safeParse(data);
+  if (result.success) {
+    return result.data;
+  }
+  console.warn("Invalid monitor quiz answers:", result.error.issues);
+  return null;
+}
+
+/**
  * Keys that should be parsed as arrays (multi-select questions).
  */
 const MULTI_SELECT_KEYS = new Set([
@@ -152,6 +188,9 @@ const MULTI_SELECT_KEYS = new Set([
   "priority-feature",
   // Keyboard - enhanced
   "switch-technology",
+  // Monitor - core and standard
+  "panel-type",
+  "features",
 ]);
 
 /**

@@ -6,7 +6,7 @@ import QuizHelpTooltip from "./QuizHelpTooltip";
 interface QuizSkipButtonProps {
   onSkip: () => void;
   defaultValue?: string | string[];
-  accentColor?: "primary" | "accent" | "secondary";
+  accentColor?: "primary" | "accent" | "secondary" | "tertiary";
 }
 
 /**
@@ -42,7 +42,8 @@ const QuizSkipButton = memo(function QuizSkipButton({
           "focus:outline-none focus:ring-2 focus:ring-offset-2",
           accentColor === "primary" && "focus:ring-primary",
           accentColor === "accent" && "focus:ring-accent",
-          accentColor === "secondary" && "focus:ring-foreground"
+          accentColor === "secondary" && "focus:ring-foreground",
+          accentColor === "tertiary" && "focus:ring-violet-500"
         )}
       >
         <SkipForward className="h-4 w-4 transition-transform group-hover:translate-x-0.5" />

@@ -1,5 +1,5 @@
 import { useState, useCallback, useMemo } from "react";
-import { ArrowRight, Mouse, Headphones, Keyboard } from "lucide-react";
+import { ArrowRight, Mouse, Headphones, Keyboard, Monitor } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import QuizLayout from "./QuizLayout";
 import QuizProgress from "./QuizProgress";
@@ -35,12 +35,14 @@ const categoryIcons = {
   mouse: Mouse,
   audio: Headphones,
   keyboard: Keyboard,
+  monitor: Monitor,
 } as const;
 
 const categoryLabels = {
   mouse: "Mouse Quiz",
   audio: "Audio Quiz",
   keyboard: "Keyboard Quiz",
+  monitor: "Monitor Quiz",
 } as const;
 
 /**
@@ -151,7 +153,8 @@ function QuizContainer<TAnswers extends object>({
                 "mb-4 inline-flex items-center gap-2 rounded-full px-4 py-2 text-sm",
                 accentColor === "primary" && "bg-primary/10 text-primary",
                 accentColor === "accent" && "bg-accent/10 text-accent",
-                accentColor === "secondary" && "bg-secondary/50 text-foreground"
+                accentColor === "secondary" && "bg-secondary/50 text-foreground",
+                accentColor === "tertiary" && "bg-violet-500/10 text-violet-600 dark:text-violet-400"
               )}
             >
               <CategoryIcon className="h-4 w-4" />
@@ -169,10 +172,13 @@ function QuizContainer<TAnswers extends object>({
           {/* Start button */}
           <div className="flex justify-center pt-4">
             <Button
-              variant={accentColor === "primary" ? "hero" : accentColor}
+              variant={accentColor === "primary" ? "hero" : accentColor === "tertiary" ? "default" : accentColor}
               size="xl"
               onClick={handleModeConfirm}
-              className="min-w-[200px] gap-2"
+              className={cn(
+                "min-w-[200px] gap-2",
+                accentColor === "tertiary" && "bg-violet-600 text-white hover:bg-violet-700"
+              )}
             >
               Start Quiz
               <ArrowRight className="h-5 w-5" />
@@ -209,7 +215,8 @@ function QuizContainer<TAnswers extends object>({
               "mb-4 inline-flex items-center gap-2 rounded-full px-4 py-2 text-sm",
               accentColor === "primary" && "bg-primary/10 text-primary",
               accentColor === "accent" && "bg-accent/10 text-accent",
-              accentColor === "secondary" && "bg-secondary/50 text-foreground"
+              accentColor === "secondary" && "bg-secondary/50 text-foreground",
+              accentColor === "tertiary" && "bg-violet-500/10 text-violet-600 dark:text-violet-400"
             )}
           >
             <CategoryIcon className="h-4 w-4" />
@@ -267,11 +274,14 @@ function QuizContainer<TAnswers extends object>({
         {/* Continue button */}
         <div className="flex justify-center pt-4">
           <Button
-            variant={accentColor === "primary" ? "hero" : accentColor}
+            variant={accentColor === "primary" ? "hero" : accentColor === "tertiary" ? "default" : accentColor}
             size="xl"
             onClick={handleNext}
             disabled={!hasAnswer}
-            className="min-w-[200px] gap-2"
+            className={cn(
+              "min-w-[200px] gap-2",
+              accentColor === "tertiary" && "bg-violet-600 text-white hover:bg-violet-700"
+            )}
           >
             {isLastQuestion ? "See My Matches" : "Continue"}
             <ArrowRight className="h-5 w-5" />

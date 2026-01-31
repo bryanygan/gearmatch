@@ -5,7 +5,7 @@ import { Crosshair } from "lucide-react";
 
 interface QuizLayoutProps {
   children: ReactNode;
-  accentColor?: "primary" | "accent" | "secondary";
+  accentColor?: "primary" | "accent" | "secondary" | "tertiary";
 }
 
 const QuizLayout = ({ children, accentColor = "primary" }: QuizLayoutProps) => {
@@ -20,7 +20,8 @@ const QuizLayout = ({ children, accentColor = "primary" }: QuizLayoutProps) => {
                 "flex h-8 w-8 items-center justify-center rounded-lg",
                 accentColor === "primary" && "bg-primary/20",
                 accentColor === "accent" && "bg-accent/20",
-                accentColor === "secondary" && "bg-secondary"
+                accentColor === "secondary" && "bg-secondary",
+                accentColor === "tertiary" && "bg-violet-500/20"
               )}
             >
               <Crosshair
@@ -28,7 +29,8 @@ const QuizLayout = ({ children, accentColor = "primary" }: QuizLayoutProps) => {
                   "h-5 w-5",
                   accentColor === "primary" && "text-primary",
                   accentColor === "accent" && "text-accent",
-                  accentColor === "secondary" && "text-foreground"
+                  accentColor === "secondary" && "text-foreground",
+                  accentColor === "tertiary" && "text-violet-500"
                 )}
               />
             </div>
@@ -54,7 +56,8 @@ const QuizLayout = ({ children, accentColor = "primary" }: QuizLayoutProps) => {
             "absolute -right-40 -top-40 h-96 w-96 rounded-full opacity-10 blur-3xl",
             accentColor === "primary" && "bg-primary",
             accentColor === "accent" && "bg-accent",
-            accentColor === "secondary" && "bg-muted-foreground"
+            accentColor === "secondary" && "bg-muted-foreground",
+            accentColor === "tertiary" && "bg-violet-500"
           )}
         />
         <div
@@ -62,7 +65,8 @@ const QuizLayout = ({ children, accentColor = "primary" }: QuizLayoutProps) => {
             "absolute -bottom-40 -left-40 h-96 w-96 rounded-full opacity-10 blur-3xl",
             accentColor === "primary" && "bg-primary",
             accentColor === "accent" && "bg-accent",
-            accentColor === "secondary" && "bg-muted-foreground"
+            accentColor === "secondary" && "bg-muted-foreground",
+            accentColor === "tertiary" && "bg-violet-500"
           )}
         />
       </div>

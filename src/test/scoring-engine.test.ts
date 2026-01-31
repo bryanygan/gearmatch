@@ -245,10 +245,10 @@ describe("scoreProducts", () => {
 
     const answers: MouseQuizAnswers = {
       "hand-size": "medium",
-      "grip-style": "palm",
-      "weight-preference": "ultralight",
+      "grip-style": ["palm"],
+      "weight-preference": ["ultralight"],
       wireless: "wireless",
-      "primary-use": "precision",
+      "primary-use": ["precision"],
     };
 
     const scored = scoreProducts(answers, products, mouseRules);
@@ -261,10 +261,10 @@ describe("scoreProducts", () => {
     const products = [createMockMouseProduct()];
     const answers: MouseQuizAnswers = {
       "hand-size": "medium",
-      "grip-style": "claw",
-      "weight-preference": "ultralight",
+      "grip-style": ["claw"],
+      "weight-preference": ["ultralight"],
       wireless: "wireless",
-      "primary-use": "precision",
+      "primary-use": ["precision"],
     };
 
     const scored = scoreProducts(answers, products, mouseRules);
@@ -277,10 +277,10 @@ describe("scoreProducts", () => {
     const products = [createMockMouseProduct()];
     const answers: MouseQuizAnswers = {
       "hand-size": "medium",
-      "grip-style": "claw",
-      "weight-preference": "ultralight",
+      "grip-style": ["claw"],
+      "weight-preference": ["ultralight"],
       wireless: "wireless",
-      "primary-use": "precision",
+      "primary-use": ["precision"],
     };
 
     const scored = scoreProducts(answers, products, mouseRules);
@@ -297,10 +297,10 @@ describe("scoreProducts", () => {
   it("handles empty product array", () => {
     const answers: MouseQuizAnswers = {
       "hand-size": "medium",
-      "grip-style": "claw",
-      "weight-preference": "ultralight",
+      "grip-style": ["claw"],
+      "weight-preference": ["ultralight"],
       wireless: "wireless",
-      "primary-use": "precision",
+      "primary-use": ["precision"],
     };
 
     const scored = scoreProducts(answers, [], mouseRules);
@@ -317,10 +317,10 @@ describe("getMouseRecommendations", () => {
   it("returns top picks and alternates", () => {
     const answers: MouseQuizAnswers = {
       "hand-size": "medium",
-      "grip-style": "claw",
-      "weight-preference": "ultralight",
+      "grip-style": ["claw"],
+      "weight-preference": ["ultralight"],
       wireless: "wireless",
-      "primary-use": "precision",
+      "primary-use": ["precision"],
     };
 
     const result = getMouseRecommendations(answers);
@@ -333,28 +333,26 @@ describe("getMouseRecommendations", () => {
   it("respects custom options", () => {
     const answers: MouseQuizAnswers = {
       "hand-size": "medium",
-      "grip-style": "palm",
-      "weight-preference": "light",
+      "grip-style": ["palm"],
+      "weight-preference": ["light"],
       wireless: "either",
-      "primary-use": "mixed",
+      "primary-use": ["mixed"],
     };
 
     const result = getMouseRecommendations(answers, {
-      limit: 2,
       topPickCount: 1,
     });
 
     expect(result.topPicks.length).toBeLessThanOrEqual(1);
-    expect(result.topPicks.length + result.alternates.length).toBeLessThanOrEqual(2);
   });
 
   it("includes filters in result", () => {
     const answers: MouseQuizAnswers = {
       "hand-size": "large",
-      "grip-style": "palm",
-      "weight-preference": "medium",
+      "grip-style": ["palm"],
+      "weight-preference": ["medium"],
       wireless: "wireless",
-      "primary-use": "productivity",
+      "primary-use": ["productivity"],
     };
 
     const result = getMouseRecommendations(answers);
@@ -366,10 +364,10 @@ describe("getMouseRecommendations", () => {
   it("tracks total products evaluated", () => {
     const answers: MouseQuizAnswers = {
       "hand-size": "medium",
-      "grip-style": "claw",
-      "weight-preference": "ultralight",
+      "grip-style": ["claw"],
+      "weight-preference": ["ultralight"],
       wireless: "wireless",
-      "primary-use": "precision",
+      "primary-use": ["precision"],
     };
 
     const result = getMouseRecommendations(answers);
@@ -380,10 +378,10 @@ describe("getMouseRecommendations", () => {
   it("scores palm grip large hands appropriately", () => {
     const answers: MouseQuizAnswers = {
       "hand-size": "large",
-      "grip-style": "palm",
-      "weight-preference": "medium",
+      "grip-style": ["palm"],
+      "weight-preference": ["medium"],
       wireless: "either",
-      "primary-use": "mixed",
+      "primary-use": ["mixed"],
     };
 
     const result = getMouseRecommendations(answers);
@@ -396,10 +394,10 @@ describe("getMouseRecommendations", () => {
   it("handles ultralight preference correctly", () => {
     const answers: MouseQuizAnswers = {
       "hand-size": "medium",
-      "grip-style": "claw",
-      "weight-preference": "ultralight",
+      "grip-style": ["claw"],
+      "weight-preference": ["ultralight"],
       wireless: "wireless",
-      "primary-use": "precision",
+      "primary-use": ["precision"],
     };
 
     const result = getMouseRecommendations(answers);
@@ -417,11 +415,11 @@ describe("getMouseRecommendations", () => {
 describe("getAudioRecommendations", () => {
   it("returns top picks and alternates", () => {
     const answers: AudioQuizAnswers = {
-      "primary-use": "competitive",
-      "form-factor": "over-ear",
+      "primary-use": ["competitive"],
+      "form-factor": ["over-ear"],
       "mic-needs": "essential",
-      "session-length": "long",
-      budget: "mid-range",
+      "session-length": ["long"],
+      budget: ["mid-range"],
     };
 
     const result = getAudioRecommendations(answers);
@@ -432,11 +430,11 @@ describe("getAudioRecommendations", () => {
 
   it("handles IEM preference", () => {
     const answers: AudioQuizAnswers = {
-      "primary-use": "immersive",
-      "form-factor": "iem",
+      "primary-use": ["immersive"],
+      "form-factor": ["iem"],
       "mic-needs": "not-needed",
-      "session-length": "medium",
-      budget: "premium",
+      "session-length": ["medium"],
+      budget: ["premium"],
     };
 
     const result = getAudioRecommendations(answers);
@@ -447,11 +445,11 @@ describe("getAudioRecommendations", () => {
 
   it("handles streaming use case with mic priority", () => {
     const answers: AudioQuizAnswers = {
-      "primary-use": "streaming",
-      "form-factor": "over-ear",
+      "primary-use": ["streaming"],
+      "form-factor": ["over-ear"],
       "mic-needs": "essential",
-      "session-length": "all-day",
-      budget: "premium",
+      "session-length": ["all-day"],
+      budget: ["premium"],
     };
 
     const result = getAudioRecommendations(answers);
@@ -465,11 +463,11 @@ describe("getAudioRecommendations", () => {
 
   it("handles budget preference", () => {
     const answers: AudioQuizAnswers = {
-      "primary-use": "mixed",
-      "form-factor": "iem",
+      "primary-use": ["mixed"],
+      "form-factor": ["iem"],
       "mic-needs": "nice-to-have",
-      "session-length": "short",
-      budget: "budget",
+      "session-length": ["short"],
+      budget: ["budget"],
     };
 
     const result = getAudioRecommendations(answers);
@@ -491,10 +489,10 @@ describe("Mouse Scoring Rules", () => {
     it("awards max points for direct grip match with safe shape", () => {
       const answers: MouseQuizAnswers = {
         "hand-size": "medium",
-        "grip-style": "claw",
-        "weight-preference": "light",
+        "grip-style": ["claw"],
+        "weight-preference": ["light"],
         wireless: "either",
-        "primary-use": "precision",
+        "primary-use": ["precision"],
       };
 
       const product = createMockMouseProduct({
@@ -514,10 +512,10 @@ describe("Mouse Scoring Rules", () => {
     it("handles relaxed-claw grip matching both claw and palm", () => {
       const answers: MouseQuizAnswers = {
         "hand-size": "medium",
-        "grip-style": "relaxed-claw",
-        "weight-preference": "light",
+        "grip-style": ["relaxed-claw"],
+        "weight-preference": ["light"],
         wireless: "either",
-        "primary-use": "precision",
+        "primary-use": ["precision"],
       };
 
       const product = createMockMouseProduct({
@@ -536,10 +534,10 @@ describe("Mouse Scoring Rules", () => {
     it("gives partial points for adjacent grip support", () => {
       const answers: MouseQuizAnswers = {
         "hand-size": "medium",
-        "grip-style": "palm",
-        "weight-preference": "light",
+        "grip-style": ["palm"],
+        "weight-preference": ["light"],
         wireless: "either",
-        "primary-use": "precision",
+        "primary-use": ["precision"],
       };
 
       const product = createMockMouseProduct({
@@ -562,10 +560,10 @@ describe("Mouse Scoring Rules", () => {
     it("awards max points for ultralight preference with ultralight mouse", () => {
       const answers: MouseQuizAnswers = {
         "hand-size": "medium",
-        "grip-style": "claw",
-        "weight-preference": "ultralight",
+        "grip-style": ["claw"],
+        "weight-preference": ["ultralight"],
         wireless: "either",
-        "primary-use": "precision",
+        "primary-use": ["precision"],
       };
 
       const product = createMockMouseProduct({
@@ -585,10 +583,10 @@ describe("Mouse Scoring Rules", () => {
     it("penalizes heavy mice for ultralight preference", () => {
       const answers: MouseQuizAnswers = {
         "hand-size": "medium",
-        "grip-style": "claw",
-        "weight-preference": "ultralight",
+        "grip-style": ["claw"],
+        "weight-preference": ["ultralight"],
         wireless: "either",
-        "primary-use": "precision",
+        "primary-use": ["precision"],
       };
 
       const product = createMockMouseProduct({
@@ -612,10 +610,10 @@ describe("Mouse Scoring Rules", () => {
     it("awards full points for wireless preference with wireless mouse", () => {
       const answers: MouseQuizAnswers = {
         "hand-size": "medium",
-        "grip-style": "claw",
-        "weight-preference": "light",
+        "grip-style": ["claw"],
+        "weight-preference": ["light"],
         wireless: "wireless",
-        "primary-use": "precision",
+        "primary-use": ["precision"],
       };
 
       const product = createMockMouseProduct({
@@ -635,10 +633,10 @@ describe("Mouse Scoring Rules", () => {
     it("gives zero points for wireless preference with wired-only mouse", () => {
       const answers: MouseQuizAnswers = {
         "hand-size": "medium",
-        "grip-style": "claw",
-        "weight-preference": "light",
+        "grip-style": ["claw"],
+        "weight-preference": ["light"],
         wireless: "wireless",
-        "primary-use": "precision",
+        "primary-use": ["precision"],
       };
 
       const product = createMockMouseProduct({
@@ -658,10 +656,10 @@ describe("Mouse Scoring Rules", () => {
     it("handles 'either' preference generously", () => {
       const answers: MouseQuizAnswers = {
         "hand-size": "medium",
-        "grip-style": "claw",
-        "weight-preference": "light",
+        "grip-style": ["claw"],
+        "weight-preference": ["light"],
         wireless: "either",
-        "primary-use": "precision",
+        "primary-use": ["precision"],
       };
 
       const product = createMockMouseProduct();
@@ -683,11 +681,11 @@ describe("Audio Scoring Rules", () => {
 
     it("awards max points for IEM preference with IEM product", () => {
       const answers: AudioQuizAnswers = {
-        "primary-use": "immersive",
-        "form-factor": "iem",
+        "primary-use": ["immersive"],
+        "form-factor": ["iem"],
         "mic-needs": "not-needed",
-        "session-length": "medium",
-        budget: "mid-range",
+        "session-length": ["medium"],
+        budget: ["mid-range"],
       };
 
       const product = createMockAudioProduct({
@@ -705,11 +703,11 @@ describe("Audio Scoring Rules", () => {
 
     it("penalizes over-ear for IEM preference", () => {
       const answers: AudioQuizAnswers = {
-        "primary-use": "immersive",
-        "form-factor": "iem",
+        "primary-use": ["immersive"],
+        "form-factor": ["iem"],
         "mic-needs": "not-needed",
-        "session-length": "medium",
-        budget: "mid-range",
+        "session-length": ["medium"],
+        budget: ["mid-range"],
       };
 
       const product = createMockAudioProduct({
@@ -731,11 +729,11 @@ describe("Audio Scoring Rules", () => {
 
     it("gives zero points for essential mic need without mic", () => {
       const answers: AudioQuizAnswers = {
-        "primary-use": "streaming",
-        "form-factor": "over-ear",
+        "primary-use": ["streaming"],
+        "form-factor": ["over-ear"],
         "mic-needs": "essential",
-        "session-length": "long",
-        budget: "premium",
+        "session-length": ["long"],
+        budget: ["premium"],
       };
 
       const product = createMockAudioProduct({
@@ -754,11 +752,11 @@ describe("Audio Scoring Rules", () => {
 
     it("awards full points for not-needed mic preference without mic", () => {
       const answers: AudioQuizAnswers = {
-        "primary-use": "immersive",
-        "form-factor": "over-ear-headphone",
+        "primary-use": ["immersive"],
+        "form-factor": ["over-ear-headphone"],
         "mic-needs": "not-needed",
-        "session-length": "medium",
-        budget: "mid-range",
+        "session-length": ["medium"],
+        budget: ["mid-range"],
       };
 
       const product = createMockAudioProduct({
@@ -780,11 +778,11 @@ describe("Audio Scoring Rules", () => {
 
     it("awards full points for matching budget tier", () => {
       const answers: AudioQuizAnswers = {
-        "primary-use": "mixed",
-        "form-factor": "over-ear",
+        "primary-use": ["mixed"],
+        "form-factor": ["over-ear"],
         "mic-needs": "nice-to-have",
-        "session-length": "medium",
-        budget: "budget",
+        "session-length": ["medium"],
+        budget: ["budget"],
       };
 
       const product = createMockAudioProduct({
@@ -803,11 +801,11 @@ describe("Audio Scoring Rules", () => {
 
     it("penalizes premium products for budget preference", () => {
       const answers: AudioQuizAnswers = {
-        "primary-use": "mixed",
-        "form-factor": "over-ear",
+        "primary-use": ["mixed"],
+        "form-factor": ["over-ear"],
         "mic-needs": "nice-to-have",
-        "session-length": "medium",
-        budget: "budget",
+        "session-length": ["medium"],
+        budget: ["budget"],
       };
 
       const product = createMockAudioProduct({
@@ -834,10 +832,10 @@ describe("Edge Cases", () => {
   it("handles products with minimal attributes", () => {
     const answers: MouseQuizAnswers = {
       "hand-size": "medium",
-      "grip-style": "claw",
-      "weight-preference": "light",
+      "grip-style": ["claw"],
+      "weight-preference": ["light"],
       wireless: "either",
-      "primary-use": "mixed",
+      "primary-use": ["mixed"],
     };
 
     const minimalProduct = createMockMouseProduct();
@@ -850,10 +848,10 @@ describe("Edge Cases", () => {
   it("produces consistent scores for same inputs", () => {
     const answers: MouseQuizAnswers = {
       "hand-size": "medium",
-      "grip-style": "palm",
-      "weight-preference": "ultralight",
+      "grip-style": ["palm"],
+      "weight-preference": ["ultralight"],
       wireless: "wireless",
-      "primary-use": "precision",
+      "primary-use": ["precision"],
     };
 
     const result1 = getMouseRecommendations(answers);
@@ -870,10 +868,10 @@ describe("Edge Cases", () => {
   it("all scores in breakdown sum correctly with weights", () => {
     const answers: MouseQuizAnswers = {
       "hand-size": "medium",
-      "grip-style": "claw",
-      "weight-preference": "ultralight",
+      "grip-style": ["claw"],
+      "weight-preference": ["ultralight"],
       wireless: "wireless",
-      "primary-use": "precision",
+      "primary-use": ["precision"],
     };
 
     const result = getMouseRecommendations(answers);

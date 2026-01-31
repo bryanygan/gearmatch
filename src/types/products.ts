@@ -2,8 +2,11 @@
  * Product Data Layer Type Definitions
  *
  * Comprehensive TypeScript interfaces for the GearMatch peripheral recommendation system.
- * These types support mice, audio equipment, and keyboards.
+ * These types support mice, audio equipment, keyboards, and monitors.
  */
+
+// Re-export monitor types
+export * from "./monitor";
 
 // =============================================================================
 // Shared Enum Types
@@ -374,7 +377,7 @@ export interface Product {
   /** Brand/manufacturer name */
   brand: string;
   /** Product category */
-  category: "mouse" | "audio" | "keyboard";
+  category: "mouse" | "audio" | "keyboard" | "monitor";
   /** Typical street price range in USD [min, max] */
   price_range_usd: [number, number];
   /** URL to product image (optional) */
@@ -676,10 +679,13 @@ export interface KeyboardProduct extends Product {
   core_attributes: KeyboardCoreAttributes;
 }
 
+// Import MonitorProduct for the union type
+import type { MonitorProduct } from "./monitor";
+
 /**
  * Union type for any product in the system.
  */
-export type AnyProduct = MouseProduct | AudioProduct | KeyboardProduct;
+export type AnyProduct = MouseProduct | AudioProduct | KeyboardProduct | MonitorProduct;
 
 // =============================================================================
 // Type Guards

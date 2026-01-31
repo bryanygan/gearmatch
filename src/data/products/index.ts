@@ -13,3 +13,6 @@ export { allAudioProducts } from "./audio";
 
 // Keyboard products
 export { allKeyboardProducts } from "./keyboards";
+
+// Monitor products
+export { allMonitorProducts, monitorProductCount } from "./monitors";
