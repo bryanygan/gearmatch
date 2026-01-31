@@ -13,12 +13,15 @@ import type {
   AnyProduct,
   PriceTier,
 } from "@/types/products";
+import type { MonitorProduct } from "@/types/monitor";
 import { allMouseProducts } from "./products/mice";
 import { allAudioProducts } from "./products/audio";
 import { allKeyboardProducts } from "./products/keyboards";
+import { allMonitorProducts } from "./products/monitors";
 
 // Re-export type guards for convenience
 export { isMouseProduct, isAudioProduct, isKeyboardProduct } from "@/types/products";
+export { isMonitorProduct } from "@/types/monitor";
 
 // =============================================================================
 // Product Data Arrays
@@ -55,6 +58,16 @@ export const keyboardProducts: KeyboardProduct[] = [
 ];
 
 /**
+ * Array of all monitor products in the system.
+ *
+ * @see MonitorProduct for the required data structure
+ * @see src/data/products/monitors.ts for product definitions
+ */
+export const monitorProducts: MonitorProduct[] = [
+  ...allMonitorProducts,
+];
+
+/**
  * Combined array of all products in the system.
  * Useful for cross-category operations and global search.
  */
@@ -62,6 +75,7 @@ export const allProducts: AnyProduct[] = [
   ...mouseProducts,
   ...audioProducts,
   ...keyboardProducts,
+  ...monitorProducts,
 ];
 
 // =============================================================================
@@ -100,7 +114,7 @@ export function getProductById(id: string): AnyProduct | undefined {
  * ```
  */
 export function getProductsByCategory(
-  category: "mouse" | "audio" | "keyboard"
+  category: "mouse" | "audio" | "keyboard" | "monitor"
 ): AnyProduct[] {
   return allProducts.filter((product) => product.category === category);
 }
@@ -178,6 +192,25 @@ export function getAudioProducts(): AudioProduct[] {
  */
 export function getKeyboardProducts(): KeyboardProduct[] {
   return keyboardProducts;
+}
+
+/**
+ * Retrieves all monitor products with proper typing.
+ * Convenience wrapper that ensures type safety.
+ *
+ * @returns Array of all MonitorProduct items
+ *
+ * @example
+ * ```ts
+ * const monitors = getMonitorProducts();
+ * monitors.forEach(monitor => {
+ *   // TypeScript knows this is a MonitorProduct
+ *   console.log(monitor.core_attributes.monitor_panel_type);
+ * });
+ * ```
+ */
+export function getMonitorProducts(): MonitorProduct[] {
+  return monitorProducts;
 }
 
 /**
@@ -274,6 +307,9 @@ export function getValuePicks(): AnyProduct[] {
     if (product.category === "keyboard") {
       return (product as KeyboardProduct).core_attributes.keyboard_value_pick;
     }
+    if (product.category === "monitor") {
+      return (product as MonitorProduct).core_attributes.monitor_value_pick;
+    }
     return false;
   });
 }
@@ -294,11 +330,13 @@ export function getProductCounts(): {
   mouse: number;
   audio: number;
   keyboard: number;
+  monitor: number;
 } {
   return {
     total: allProducts.length,
     mouse: mouseProducts.length,
     audio: audioProducts.length,
     keyboard: keyboardProducts.length,
+    monitor: monitorProducts.length,
   };
 }

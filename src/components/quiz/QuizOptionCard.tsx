@@ -9,7 +9,7 @@ interface QuizOptionCardProps {
   description?: string;
   selected: boolean;
   onClick: () => void;
-  accentColor?: "primary" | "accent" | "secondary";
+  accentColor?: "primary" | "accent" | "secondary" | "tertiary";
   multiSelect?: boolean;
   /** Optional help text shown in tooltip */
   helpText?: string;
@@ -49,6 +49,14 @@ const QuizOptionCard = memo(function QuizOptionCard({
       iconBg: "bg-secondary",
       iconText: "text-foreground",
       fill: "bg-foreground",
+    },
+    tertiary: {
+      border: "border-violet-500",
+      bg: "bg-violet-500/10",
+      glow: "shadow-violet-500/20",
+      iconBg: "bg-violet-500/20",
+      iconText: "text-violet-600 dark:text-violet-400",
+      fill: "bg-violet-600",
     },
   };
 

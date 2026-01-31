@@ -1,4 +1,4 @@
-import { MousePointer2, Headphones, Keyboard, Gamepad2, ArrowRight } from "lucide-react";
+import { MousePointer2, Headphones, Keyboard, Monitor, Gamepad2, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 
@@ -35,6 +35,17 @@ const categories = [
     cta: "Find Your Keyboard",
     accent: "primary" as const,
     href: "/quiz/keyboard",
+  },
+  {
+    id: "monitors",
+    title: "Monitors",
+    description: "Resolution, refresh rate, and panel tech matched to your use case — from competitive gaming to color-accurate content creation.",
+    icon: Monitor,
+    factors: ["Resolution & size", "Refresh rate", "Panel type", "HDR & color"],
+    available: true,
+    cta: "Find Your Monitor",
+    accent: "tertiary" as const,
+    href: "/quiz/monitor",
   },
   {
     id: "controllers",
@@ -77,8 +88,10 @@ const CategoryCards = () => {
               {/* Glow effect */}
               {category.available && (
                 <div className={`absolute inset-0 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 ${
-                  category.accent === "primary" 
+                  category.accent === "primary"
                     ? "bg-gradient-to-br from-primary/10 via-transparent to-transparent"
+                    : category.accent === "tertiary"
+                    ? "bg-gradient-to-br from-violet-500/10 via-transparent to-transparent"
                     : "bg-gradient-to-br from-accent/10 via-transparent to-transparent"
                 }`} />
               )}
@@ -89,6 +102,8 @@ const CategoryCards = () => {
                   <div className={`w-14 h-14 rounded-xl flex items-center justify-center shrink-0 ${
                     category.accent === "primary"
                       ? "bg-primary/10 text-primary"
+                      : category.accent === "tertiary"
+                      ? "bg-violet-500/10 text-violet-600 dark:text-violet-400"
                       : "bg-accent/10 text-accent"
                   }`}>
                     <category.icon className="w-7 h-7" />
@@ -124,8 +139,8 @@ const CategoryCards = () => {
 
                 {/* CTA */}
                 <Button
-                  variant={category.available ? (category.accent === "primary" ? "hero" : "accent") : "outline"}
-                  className="w-full group/btn"
+                  variant={category.available ? (category.accent === "primary" ? "hero" : category.accent === "tertiary" ? "default" : "accent") : "outline"}
+                  className={`w-full group/btn ${category.accent === "tertiary" && category.available ? "bg-violet-600 text-white hover:bg-violet-700" : ""}`}
                   disabled={!category.available}
                   asChild={category.available}
                 >

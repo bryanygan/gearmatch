@@ -7,13 +7,16 @@
 
 import { useMemo } from "react";
 import type { MouseProduct, AudioProduct, KeyboardProduct } from "@/types/products";
+import type { MonitorProduct } from "@/types/monitor";
 import {
   getMouseRecommendations,
   getAudioRecommendations,
   getKeyboardRecommendations,
+  getMonitorRecommendations,
   type MouseQuizAnswers,
   type AudioQuizAnswers,
   type KeyboardQuizAnswers,
+  type MonitorQuizAnswers,
   type RecommendationResult,
   type RecommendationOptions,
 } from "@/lib/scoring";
@@ -172,7 +175,7 @@ export function useAudioRecommendations(
 /**
  * Union type for any quiz answers.
  */
-export type AnyQuizAnswers = MouseQuizAnswers | AudioQuizAnswers | KeyboardQuizAnswers;
+export type AnyQuizAnswers = MouseQuizAnswers | AudioQuizAnswers | KeyboardQuizAnswers | MonitorQuizAnswers;
 
 /**
  * Type guard to check if answers are for mouse quiz.
@@ -199,6 +202,15 @@ export function isKeyboardQuizAnswers(
   answers: AnyQuizAnswers
 ): answers is KeyboardQuizAnswers {
   return "switch-type" in answers && "gaming-features" in answers;
+}
+
+/**
+ * Type guard to check if answers are for monitor quiz.
+ */
+export function isMonitorQuizAnswers(
+  answers: AnyQuizAnswers
+): answers is MonitorQuizAnswers {
+  return "size-preference" in answers && "resolution" in answers;
 }
 
 // =============================================================================
@@ -267,6 +279,85 @@ export function useKeyboardRecommendations(
     answers?.connectivity,
     priorityFeatureKey,
     budgetKey,
+    options?.minScore,
+    options?.topPickCount,
+  ]);
+
+  return {
+    recommendations: result.recommendations,
+    isLoading: false, // Sync operation, never loading
+    error: result.error,
+  };
+}
+
+// =============================================================================
+// Monitor Recommendations Hook
+// =============================================================================
+
+/**
+ * Hook return type for monitor recommendations.
+ */
+export interface UseMonitorRecommendationsResult {
+  /** Recommendation results, null if no answers provided */
+  recommendations: RecommendationResult<MonitorProduct> | null;
+  /** Always false (sync operation), included for API consistency */
+  isLoading: boolean;
+  /** Error if recommendation generation failed */
+  error: Error | null;
+}
+
+/**
+ * Hook to get monitor recommendations based on quiz answers.
+ * Memoizes results based on answer changes.
+ *
+ * @param answers - Monitor quiz answers, or null if quiz not completed
+ * @param options - Optional recommendation configuration
+ * @returns Recommendations result with loading and error states
+ *
+ * @example
+ * ```tsx
+ * const { recommendations, error } = useMonitorRecommendations(quizAnswers);
+ *
+ * if (error) return <ErrorMessage error={error} />;
+ * if (!recommendations) return <QuizInProgress />;
+ *
+ * return <RecommendationList picks={recommendations.topPicks} />;
+ * ```
+ */
+export function useMonitorRecommendations(
+  answers: MonitorQuizAnswers | null,
+  options?: RecommendationOptions
+): UseMonitorRecommendationsResult {
+  // Stringify array values for stable dependency comparison
+  const primaryUseKey = answers?.["primary-use"]?.join(",") ?? "";
+  const panelTypeKey = answers?.["panel-type"]?.join(",") ?? "";
+  const budgetKey = answers?.budget?.join(",") ?? "";
+  const featuresKey = answers?.features?.join(",") ?? "";
+
+  const result = useMemo(() => {
+    if (!answers) {
+      return { recommendations: null, error: null };
+    }
+
+    try {
+      const recommendations = getMonitorRecommendations(answers, options);
+      return { recommendations, error: null };
+    } catch (e) {
+      const error = e instanceof Error ? e : new Error("Failed to generate recommendations");
+      return { recommendations: null, error };
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [
+    primaryUseKey,
+    answers?.["size-preference"],
+    answers?.resolution,
+    answers?.["refresh-rate"],
+    panelTypeKey,
+    budgetKey,
+    answers?.curved,
+    answers?.["color-accuracy"],
+    answers?.["hdr-needs"],
+    featuresKey,
     options?.minScore,
     options?.topPickCount,
   ]);

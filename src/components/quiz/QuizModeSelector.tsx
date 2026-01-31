@@ -49,6 +49,15 @@ const QuizModeSelector = memo(function QuizModeSelector({
       fill: "bg-foreground",
       badge: "bg-secondary text-foreground",
     },
+    tertiary: {
+      border: "border-violet-500",
+      bg: "bg-violet-500/10",
+      glow: "shadow-violet-500/20",
+      iconBg: "bg-violet-500/20",
+      iconText: "text-violet-600 dark:text-violet-400",
+      fill: "bg-violet-600",
+      badge: "bg-violet-500/10 text-violet-600 dark:text-violet-400",
+    },
   };
 
   const accent = accentClasses[accentColor];

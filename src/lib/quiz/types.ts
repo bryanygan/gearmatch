@@ -162,12 +162,12 @@ export interface CategoryProgress {
 /**
  * Product category that the quiz is for.
  */
-export type QuizCategory = "mouse" | "audio" | "keyboard";
+export type QuizCategory = "mouse" | "audio" | "keyboard" | "monitor";
 
 /**
  * Accent color for quiz UI theming.
  */
-export type QuizAccentColor = "primary" | "accent" | "secondary";
+export type QuizAccentColor = "primary" | "accent" | "secondary" | "tertiary";
 
 /**
  * Maps quiz category to accent color.
@@ -176,4 +176,5 @@ export const QUIZ_ACCENT_COLORS: Record<QuizCategory, QuizAccentColor> = {
   mouse: "primary",
   audio: "accent",
   keyboard: "secondary",
+  monitor: "tertiary",
 };

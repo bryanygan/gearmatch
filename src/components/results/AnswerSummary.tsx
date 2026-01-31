@@ -1,9 +1,9 @@
-import type { MouseQuizAnswers, AudioQuizAnswers, KeyboardQuizAnswers } from "@/lib/scoring";
+import type { MouseQuizAnswers, AudioQuizAnswers, KeyboardQuizAnswers, MonitorQuizAnswers } from "@/lib/scoring";
 import { cn } from "@/lib/utils";
 
 interface AnswerSummaryProps {
-  answers: MouseQuizAnswers | AudioQuizAnswers | KeyboardQuizAnswers;
-  category: "mouse" | "audio" | "keyboard";
+  answers: MouseQuizAnswers | AudioQuizAnswers | KeyboardQuizAnswers | MonitorQuizAnswers;
+  category: "mouse" | "audio" | "keyboard" | "monitor";
 }
 
 // Display label mappings for mouse quiz answers
@@ -116,6 +116,68 @@ const keyboardAnswerLabels: Record<keyof KeyboardQuizAnswers, Record<string, str
   },
 };
 
+// Display label mappings for monitor quiz answers
+const monitorAnswerLabels: Record<keyof MonitorQuizAnswers, Record<string, string>> = {
+  "primary-use": {
+    gaming: "Gaming",
+    "content-creation": "Content Creation",
+    office: "Office/Productivity",
+    mixed: "Mixed Use",
+  },
+  "size-preference": {
+    compact: "24-25\"",
+    standard: "27\"",
+    large: "32\"",
+    ultrawide: "Ultrawide 34\"+",
+    any: "Any size",
+  },
+  resolution: {
+    "1080p": "1080p",
+    "1440p": "1440p",
+    "4k": "4K",
+    any: "Any resolution",
+  },
+  "refresh-rate": {
+    basic: "60-75Hz",
+    standard: "120-165Hz",
+    high: "240Hz+",
+    any: "Any refresh",
+  },
+  "panel-type": {
+    ips: "IPS",
+    va: "VA",
+    oled: "OLED",
+    any: "Any panel",
+  },
+  budget: {
+    budget: "<$300",
+    "mid-range": "$300-600",
+    premium: "$600-1000",
+    enthusiast: "$1000+",
+  },
+  curved: {
+    flat: "Flat",
+    curved: "Curved",
+    either: "Either",
+  },
+  "color-accuracy": {
+    basic: "Basic color",
+    standard: "Standard color",
+    professional: "Professional color",
+  },
+  "hdr-needs": {
+    "not-needed": "No HDR",
+    "nice-to-have": "HDR preferred",
+    important: "HDR important",
+  },
+  features: {
+    "usb-c": "USB-C",
+    "ergonomic-stand": "Ergonomic stand",
+    speakers: "Built-in speakers",
+    any: "Any features",
+  },
+};
+
 function getMouseLabel(key: keyof MouseQuizAnswers, value: string | string[]): string {
   const labels = mouseAnswerLabels[key];
   if (Array.isArray(value)) {
@@ -140,8 +202,16 @@ function getKeyboardLabel(key: keyof KeyboardQuizAnswers, value: string | string
   return labels?.[value] || value;
 }
 
+function getMonitorLabel(key: keyof MonitorQuizAnswers, value: string | string[]): string {
+  const labels = monitorAnswerLabels[key];
+  if (Array.isArray(value)) {
+    return value.map((v) => labels?.[v] || v).join(", ");
+  }
+  return labels?.[value] || value;
+}
+
 const AnswerSummary = ({ answers, category }: AnswerSummaryProps) => {
-  const accentColor = category === "mouse" ? "primary" : category === "audio" ? "accent" : "secondary";
+  const accentColor = category === "mouse" ? "primary" : category === "audio" ? "accent" : category === "monitor" ? "tertiary" : "secondary";
 
   const labels: string[] = [];
 
@@ -161,7 +231,7 @@ const AnswerSummary = ({ answers, category }: AnswerSummaryProps) => {
     labels.push(getAudioLabel("mic-needs", audioAnswers["mic-needs"]));
     labels.push(getAudioLabel("session-length", audioAnswers["session-length"]));
     labels.push(getAudioLabel("budget", audioAnswers["budget"]));
-  } else {
+  } else if (category === "keyboard") {
     const keyboardAnswers = answers as KeyboardQuizAnswers;
     // Order: use, form, switch, connectivity, budget
     labels.push(getKeyboardLabel("primary-use", keyboardAnswers["primary-use"]));
@@ -169,6 +239,19 @@ const AnswerSummary = ({ answers, category }: AnswerSummaryProps) => {
     labels.push(getKeyboardLabel("switch-type", keyboardAnswers["switch-type"]));
     labels.push(getKeyboardLabel("connectivity", keyboardAnswers["connectivity"]));
     labels.push(getKeyboardLabel("budget", keyboardAnswers["budget"]));
+  } else {
+    const monitorAnswers = answers as MonitorQuizAnswers;
+    // Order: use, size, resolution, refresh, panel, budget
+    labels.push(getMonitorLabel("primary-use", monitorAnswers["primary-use"]));
+    labels.push(getMonitorLabel("size-preference", monitorAnswers["size-preference"]));
+    labels.push(getMonitorLabel("resolution", monitorAnswers["resolution"]));
+    if (monitorAnswers["refresh-rate"]) {
+      labels.push(getMonitorLabel("refresh-rate", monitorAnswers["refresh-rate"]));
+    }
+    if (monitorAnswers["panel-type"]) {
+      labels.push(getMonitorLabel("panel-type", monitorAnswers["panel-type"]));
+    }
+    labels.push(getMonitorLabel("budget", monitorAnswers["budget"]));
   }
 
   return (
@@ -180,7 +263,8 @@ const AnswerSummary = ({ answers, category }: AnswerSummaryProps) => {
               "rounded-full px-3 py-1 text-sm",
               accentColor === "primary" && "bg-primary/10 text-primary",
               accentColor === "accent" && "bg-accent/10 text-accent",
-              accentColor === "secondary" && "bg-secondary text-foreground"
+              accentColor === "secondary" && "bg-secondary text-foreground",
+              accentColor === "tertiary" && "bg-violet-500/10 text-violet-600 dark:text-violet-400"
             )}
           >
             {label}

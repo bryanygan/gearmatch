@@ -9,6 +9,7 @@ export type {
   MouseQuizAnswers,
   AudioQuizAnswers,
   KeyboardQuizAnswers,
+  MonitorQuizAnswers,
   ScoredProduct,
   ScoreBreakdown,
   ScoreCategoryBreakdown,
@@ -20,9 +21,11 @@ export type {
   MouseRecommendationResult,
   AudioRecommendationResult,
   KeyboardRecommendationResult,
+  MonitorRecommendationResult,
   ScoredMouseProduct,
   ScoredAudioProduct,
   ScoredKeyboardProduct,
+  ScoredMonitorProduct,
 } from "./types";
 
 // Constants
@@ -34,6 +37,7 @@ export {
   getMouseRecommendations,
   getAudioRecommendations,
   getKeyboardRecommendations,
+  getMonitorRecommendations,
   formatScore,
   getMatchQuality,
   getTopReasons,
@@ -44,3 +48,4 @@ export {
 export { mouseRules } from "./mouse-rules";
 export { audioRules } from "./audio-rules";
 export { keyboardRules } from "./keyboard-rules";
+export { monitorRules } from "./monitor-rules";

@@ -5,7 +5,7 @@ import { cn } from "@/lib/utils";
 
 interface ScoreBreakdownProps {
   breakdown: ScoreBreakdownType;
-  accentColor: "primary" | "accent" | "secondary";
+  accentColor: "primary" | "accent" | "secondary" | "tertiary";
 }
 
 // Display names for scoring categories
@@ -31,6 +31,16 @@ const categoryDisplayNames: Record<string, string> = {
   connectivity: "Connectivity",
   priorityFeature: "Priority Feature",
   budget: "Budget",
+  // Monitor categories
+  primaryUseFit: "Primary Use Fit",
+  resolutionMatch: "Resolution Match",
+  refreshRateMatch: "Refresh Rate",
+  panelTypeMatch: "Panel Type",
+  colorAccuracy: "Color Accuracy",
+  hdrPerformance: "HDR Performance",
+  featuresMatch: "Features",
+  curvedPreference: "Curved Preference",
+  bonusPoints: "Bonus Points",
 };
 
 function getCategoryName(key: string): string {

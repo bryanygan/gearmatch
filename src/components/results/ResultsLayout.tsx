@@ -1,12 +1,12 @@
 import { ReactNode } from "react";
 import { Link } from "react-router-dom";
-import { Crosshair, RotateCcw, Mouse, Headphones, Keyboard } from "lucide-react";
+import { Crosshair, RotateCcw, Mouse, Headphones, Keyboard, Monitor } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 
 interface ResultsLayoutProps {
   children: ReactNode;
-  category: "mouse" | "audio" | "keyboard";
+  category: "mouse" | "audio" | "keyboard" | "monitor";
   onRetakeQuiz: () => void;
 }
 
@@ -14,6 +14,7 @@ const categoryConfig = {
   mouse: { icon: Mouse, label: "Mouse", accent: "primary" as const },
   audio: { icon: Headphones, label: "Audio", accent: "accent" as const },
   keyboard: { icon: Keyboard, label: "Keyboard", accent: "secondary" as const },
+  monitor: { icon: Monitor, label: "Monitor", accent: "tertiary" as const },
 };
 
 const ResultsLayout = ({
@@ -38,7 +39,8 @@ const ResultsLayout = ({
                   "flex h-8 w-8 items-center justify-center rounded-lg",
                   accentColor === "primary" && "bg-primary/20",
                   accentColor === "accent" && "bg-accent/20",
-                  accentColor === "secondary" && "bg-secondary"
+                  accentColor === "secondary" && "bg-secondary",
+                  accentColor === "tertiary" && "bg-violet-500/20"
                 )}
               >
                 <Crosshair
@@ -46,7 +48,8 @@ const ResultsLayout = ({
                     "h-5 w-5",
                     accentColor === "primary" && "text-primary",
                     accentColor === "accent" && "text-accent",
-                    accentColor === "secondary" && "text-foreground"
+                    accentColor === "secondary" && "text-foreground",
+                    accentColor === "tertiary" && "text-violet-600 dark:text-violet-400"
                   )}
                 />
               </div>
@@ -59,7 +62,8 @@ const ResultsLayout = ({
                 "hidden items-center gap-1.5 rounded-full px-3 py-1 text-xs font-medium sm:flex",
                 accentColor === "primary" && "bg-primary/10 text-primary",
                 accentColor === "accent" && "bg-accent/10 text-accent",
-                accentColor === "secondary" && "bg-secondary text-foreground"
+                accentColor === "secondary" && "bg-secondary text-foreground",
+                accentColor === "tertiary" && "bg-violet-500/10 text-violet-600 dark:text-violet-400"
               )}
             >
               <CategoryIcon className="h-3.5 w-3.5" />
@@ -90,7 +94,8 @@ const ResultsLayout = ({
             "absolute -right-40 -top-40 h-96 w-96 rounded-full opacity-10 blur-3xl",
             accentColor === "primary" && "bg-primary",
             accentColor === "accent" && "bg-accent",
-            accentColor === "secondary" && "bg-muted-foreground"
+            accentColor === "secondary" && "bg-muted-foreground",
+            accentColor === "tertiary" && "bg-violet-500"
           )}
         />
         <div
@@ -98,7 +103,8 @@ const ResultsLayout = ({
             "absolute -bottom-40 -left-40 h-96 w-96 rounded-full opacity-10 blur-3xl",
             accentColor === "primary" && "bg-primary",
             accentColor === "accent" && "bg-accent",
-            accentColor === "secondary" && "bg-muted-foreground"
+            accentColor === "secondary" && "bg-muted-foreground",
+            accentColor === "tertiary" && "bg-violet-500"
           )}
         />
       </div>

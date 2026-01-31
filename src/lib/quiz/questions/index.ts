@@ -15,3 +15,7 @@ export type { ExtendedAudioQuizAnswers } from "./audio-questions";
 // Keyboard questions
 export { keyboardQuestions } from "./keyboard-questions";
 export type { ExtendedKeyboardQuizAnswers } from "./keyboard-questions";
+
+// Monitor questions
+export { monitorQuestions } from "./monitor-questions";
+export type { ExtendedMonitorQuizAnswers } from "./monitor-questions";
