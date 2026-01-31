@@ -203,6 +203,9 @@ function getScoreColorClass(score: number, accentColor: "primary" | "accent" | "
 }
 
 function formatPriceRange(range: [number, number]): string {
+  if (range[0] === 0 && range[1] === 0) {
+    return "For price, check retailer/resale market";
+  }
   if (range[0] === range[1]) {
     return `$${range[0]}`;
   }
