@@ -17,6 +17,8 @@ const buttonVariants = cva(
         link: "text-primary underline-offset-4 hover:underline",
         hero: "bg-primary text-primary-foreground font-bold hover:bg-primary/90 hover:shadow-xl hover:shadow-primary/30 hover:-translate-y-0.5 active:translate-y-0",
         accent: "bg-accent text-accent-foreground font-bold hover:bg-accent/90 hover:shadow-xl hover:shadow-accent/30 hover:-translate-y-0.5 active:translate-y-0",
+        keyboard: "bg-white text-gray-900 font-bold hover:bg-gray-100 hover:shadow-xl hover:shadow-white/30 hover:-translate-y-0.5 active:translate-y-0",
+        monitor: "bg-violet-600 text-white font-bold hover:bg-violet-700 hover:shadow-xl hover:shadow-violet-600/30 hover:-translate-y-0.5 active:translate-y-0",
         glass: "bg-card/80 backdrop-blur-sm border border-border text-foreground hover:bg-card hover:border-primary/50",
       },
       size: {

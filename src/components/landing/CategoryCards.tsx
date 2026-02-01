@@ -33,7 +33,7 @@ const categories = [
     factors: ["Switch type", "Form factor", "Gaming features", "Connectivity"],
     available: true,
     cta: "Find Your Keyboard",
-    accent: "primary" as const,
+    accent: "keyboard" as const,
     href: "/quiz/keyboard",
   },
   {
@@ -92,6 +92,8 @@ const CategoryCards = () => {
                     ? "bg-gradient-to-br from-primary/10 via-transparent to-transparent"
                     : category.accent === "tertiary"
                     ? "bg-gradient-to-br from-violet-500/10 via-transparent to-transparent"
+                    : category.accent === "keyboard"
+                    ? "bg-gradient-to-br from-white/10 via-transparent to-transparent"
                     : "bg-gradient-to-br from-accent/10 via-transparent to-transparent"
                 }`} />
               )}
@@ -104,6 +106,8 @@ const CategoryCards = () => {
                       ? "bg-primary/10 text-primary"
                       : category.accent === "tertiary"
                       ? "bg-violet-500/10 text-violet-600 dark:text-violet-400"
+                      : category.accent === "keyboard"
+                      ? "bg-white/10 text-white"
                       : "bg-accent/10 text-accent"
                   }`}>
                     <category.icon className="w-7 h-7" />
@@ -139,7 +143,7 @@ const CategoryCards = () => {
 
                 {/* CTA */}
                 <Button
-                  variant={category.available ? (category.accent === "primary" ? "hero" : category.accent === "tertiary" ? "default" : "accent") : "outline"}
+                  variant={category.available ? (category.accent === "primary" ? "hero" : category.accent === "tertiary" ? "default" : category.accent === "keyboard" ? "keyboard" : "accent") : "outline"}
                   className={`w-full group/btn ${category.accent === "tertiary" && category.available ? "bg-violet-600 text-white hover:bg-violet-700" : ""}`}
                   disabled={!category.available}
                   asChild={category.available}

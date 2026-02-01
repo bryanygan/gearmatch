@@ -1,4 +1,4 @@
-import { ArrowRight, Headphones } from "lucide-react";
+import { ArrowRight, Headphones, Keyboard, Monitor } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import RecommendationPreview from "./RecommendationPreview";
@@ -21,7 +21,7 @@ const Hero = () => {
             <div className="inline-flex items-center gap-1.5 md:gap-2 px-2 md:px-3 py-1 md:py-1.5 rounded-full bg-secondary/80 border border-border mb-3 md:mb-5 animate-slide-up">
               <span className="w-1 md:w-1.5 h-1 md:h-1.5 rounded-full bg-primary animate-pulse-subtle" />
               <span className="text-[9px] md:text-xs text-muted-foreground whitespace-nowrap">
-                Mice + audio live — keyboards soon
+                Mice, audio, keyboards & monitors live
               </span>
             </div>
 
@@ -41,17 +41,29 @@ const Hero = () => {
             </p>
 
             {/* CTAs */}
-            <div className="flex flex-col sm:flex-row gap-2 md:gap-3 mb-5 md:mb-8 animate-slide-up" style={{ animationDelay: "0.3s" }}>
+            <div className="grid grid-cols-2 gap-2 md:gap-3 mb-5 md:mb-8 animate-slide-up" style={{ animationDelay: "0.3s" }}>
               <Button variant="hero" size="default" className="group text-xs md:text-sm h-9 md:h-11 px-3 md:px-6" asChild>
                 <Link to="/quiz/mouse">
-                  Find Your Perfect Mouse
+                  Find Your Mouse
                   <ArrowRight className="w-3 h-3 md:w-4 md:h-4 group-hover:translate-x-1 transition-transform" />
                 </Link>
               </Button>
               <Button variant="accent" size="default" className="group text-xs md:text-sm h-9 md:h-11 px-3 md:px-6" asChild>
                 <Link to="/quiz/audio">
-                  Get Audio Picks
+                  Audio Picks
                   <Headphones className="w-3 h-3 md:w-4 md:h-4" />
+                </Link>
+              </Button>
+              <Button variant="keyboard" size="default" className="group text-xs md:text-sm h-9 md:h-11 px-3 md:px-6" asChild>
+                <Link to="/quiz/keyboard">
+                  Keyboard Match
+                  <Keyboard className="w-3 h-3 md:w-4 md:h-4" />
+                </Link>
+              </Button>
+              <Button variant="monitor" size="default" className="group text-xs md:text-sm h-9 md:h-11 px-3 md:px-6" asChild>
+                <Link to="/quiz/monitor">
+                  Monitor Finder
+                  <Monitor className="w-3 h-3 md:w-4 md:h-4" />
                 </Link>
               </Button>
             </div>
@@ -64,7 +76,7 @@ const Hero = () => {
               </div>
               <div className="w-px bg-border" />
               <div>
-                <div className="font-display text-sm md:text-xl font-bold text-foreground">530+</div>
+                <div className="font-display text-sm md:text-xl font-bold text-foreground">890+</div>
                 <div className="text-[9px] md:text-xs text-muted-foreground">products</div>
               </div>
               <div className="w-px bg-border" />
