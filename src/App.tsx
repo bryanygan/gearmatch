@@ -25,6 +25,7 @@ const KeyboardResults = lazy(() => import("./pages/KeyboardResults"));
 const MonitorResults = lazy(() => import("./pages/MonitorResults"));
 const HowItWorksPage = lazy(() => import("./pages/HowItWorksPage"));
 const AboutPage = lazy(() => import("./pages/AboutPage"));
+const ContactPage = lazy(() => import("./pages/ContactPage"));
 
 // Loading fallback for lazy-loaded pages
 const PageLoader = () => (
@@ -95,6 +96,7 @@ const App = () => {
                 <Route path="/quiz/monitor/results" element={<MonitorResults />} />
                 <Route path="/how-it-works" element={<HowItWorksPage />} />
                 <Route path="/about" element={<AboutPage />} />
+                <Route path="/contact" element={<ContactPage />} />
                 {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
                 <Route path="*" element={<NotFound />} />
               </Routes>
