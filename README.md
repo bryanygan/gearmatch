@@ -1,6 +1,6 @@
 # GearMatch
 
-A personalized peripheral recommendation platform that helps users find the perfect gaming mice and audio equipment based on their specific needs and preferences.
+A personalized peripheral recommendation platform that helps users find the perfect gaming mice, audio equipment, keyboards, and monitors based on their specific needs and preferences.
 
 ## About
 
@@ -17,6 +17,8 @@ GearMatch takes a quiz-based approach to match users with peripherals that fit t
 ### Quiz System
 - **Mouse Recommendation Quiz** - 5-question quiz covering hand size, grip style, weight preference, wireless vs wired, and primary use case
 - **Audio Equipment Quiz** - 5-question quiz covering primary use case, form factor, microphone needs, session length, and budget
+- **Keyboard Recommendation Quiz** - 6-question quiz covering primary use, form factor, switch type, gaming features, connectivity, and priority features
+- **Monitor Recommendation Quiz** - Quiz covering primary use, size, resolution, refresh rate, panel type, budget, and additional preferences
 - **Shareable Results** - URL-based state persistence allows bookmarking and sharing quiz results
 - **Input Validation** - Zod runtime validation ensures URL parameters are valid before processing
 
@@ -33,9 +35,12 @@ GearMatch takes a quiz-based approach to match users with peripherals that fit t
 - **Score Breakdown** - Collapsible detailed view of how each product scored
 
 ### Product Database
-- **10 Gaming Mice** - From ultralight competitive ($30) to feature-rich ergo ($160)
-- **22 Audio Products** - IEMs, wireless headsets, and open-back headphones ($23-$500)
-- **Comprehensive Attributes** - Weight, dimensions, grip styles, sensor class, build quality, and more
+- **185 Gaming Mice** - From budget ultralight to premium esports ($30-$200+)
+- **198 Audio Products** - IEMs, wireless headsets, and open-back headphones ($23-$500)
+- **279 Keyboards** - Mechanical, magnetic hall effect, and optical switches ($50-$350+)
+- **378 Monitors** - RTINGS lab-tested data, IPS/VA/OLED panels, 24"-49" sizes
+- **1,040+ Total Products** - Comprehensive database across all categories
+- **Rich Attributes** - Weight, dimensions, grip styles, sensor class, switch types, panel specs, and more
 
 ### Performance & Reliability
 - **Lazy Loading** - Quiz and results pages are lazily loaded for faster initial page load
@@ -52,7 +57,7 @@ GearMatch takes a quiz-based approach to match users with peripherals that fit t
 - **React Router** - Client-side routing
 - **React Query** - Server state management
 - **Zod** - Runtime schema validation
-- **Vitest** - Testing framework (42+ tests)
+- **Vitest** - Testing framework (100+ tests)
 
 ## Getting Started
 
@@ -111,6 +116,10 @@ gearmatch/
 │   │   ├── MouseResults.tsx      # Mouse results page
 │   │   ├── AudioQuiz.tsx         # Audio recommendation quiz
 │   │   ├── AudioResults.tsx      # Audio results page
+│   │   ├── KeyboardQuiz.tsx      # Keyboard recommendation quiz
+│   │   ├── KeyboardResults.tsx   # Keyboard results page
+│   │   ├── MonitorQuiz.tsx       # Monitor recommendation quiz
+│   │   ├── MonitorResults.tsx    # Monitor results page
 │   │   └── NotFound.tsx          # 404 page
 │   │
 │   ├── components/
@@ -144,8 +153,10 @@ gearmatch/
 │   │   ├── products.ts           # Legacy product exports
 │   │   └── products/             # Product database
 │   │       ├── index.ts          # Aggregated product exports
-│   │       ├── mice.ts           # Gaming mice (10 products)
-│   │       └── audio.ts          # Audio equipment (22 products)
+│   │       ├── mice.ts           # Gaming mice (185 products)
+│   │       ├── audio.ts          # Audio equipment (198 products)
+│   │       ├── keyboards.ts      # Keyboards (279 products)
+│   │       └── monitors.ts       # Monitors (378 products, RTINGS data)
 │   │
 │   ├── lib/
 │   │   ├── utils.ts              # Utility functions (cn, etc.)
@@ -154,6 +165,8 @@ gearmatch/
 │   │   │   ├── engine.ts         # Core scoring algorithm
 │   │   │   ├── mouse-rules.ts    # Mouse scoring rules (6 categories)
 │   │   │   ├── audio-rules.ts    # Audio scoring rules (6 categories)
+│   │   │   ├── keyboard-rules.ts # Keyboard scoring rules (10 categories)
+│   │   │   ├── monitor-rules.ts  # Monitor scoring rules (11 categories)
 │   │   │   └── types.ts          # Scoring interfaces
 │   │   └── validation/           # Input validation
 │   │       ├── index.ts          # Public exports
@@ -165,7 +178,8 @@ gearmatch/
 │   │   └── use-toast.ts
 │   │
 │   ├── types/                    # TypeScript definitions
-│   │   └── products.ts           # Product interfaces and type guards
+│   │   ├── products.ts           # Product interfaces and type guards
+│   │   └── monitor.ts            # Monitor type definitions
 │   │
 │   ├── test/                     # Test files
 │   │   ├── setup.ts              # Vitest setup
@@ -197,6 +211,10 @@ gearmatch/
 | `/quiz/mouse/results` | Mouse recommendations results |
 | `/quiz/audio` | Audio equipment quiz |
 | `/quiz/audio/results` | Audio recommendations results |
+| `/quiz/keyboard` | Keyboard recommendation quiz |
+| `/quiz/keyboard/results` | Keyboard recommendations results |
+| `/quiz/monitor` | Monitor recommendation quiz |
+| `/quiz/monitor/results` | Monitor recommendations results |
 
 ## Scoring System
 
@@ -220,6 +238,35 @@ gearmatch/
 | Budget | 15% | Price tier alignment |
 | Bonus | 5% | Extra features (value picks, EQ support) |
 
+### Keyboard Scoring Categories
+| Category | Weight | Description |
+|----------|--------|-------------|
+| Primary Use | 20% | Competitive gaming, casual gaming, productivity, programming |
+| Form Factor | 17% | Full-size, TKL, 75%, 60-65% layout preference |
+| Switch Type | 12% | Linear, tactile, or clicky switch feel |
+| Gaming Features | 12% | Rapid Trigger, polling rate, low latency |
+| Connectivity | 12% | Wireless (2.4GHz, Bluetooth) or wired |
+| Priority Feature | 8% | Performance, typing feel, customization, quiet |
+| Budget Match | 7% | Price tier alignment |
+| Switch Technology | 6% | Mechanical, magnetic hall effect, optical |
+| Media Controls | 3% | Volume knob, media keys |
+| Keycap Material | 3% | PBT vs ABS preference |
+
+### Monitor Scoring Categories
+| Category | Weight | Description |
+|----------|--------|-------------|
+| Primary Use Fit | 25% | Gaming, content creation, office, mixed use |
+| Size Match | 15% | Screen size preference (24"-49"+) |
+| Resolution Match | 15% | 1080p, 1440p, 4K preference |
+| Refresh Rate | 12% | 60Hz to 360Hz+ based on gaming needs |
+| Panel Type | 8% | IPS, VA, or OLED preference |
+| Budget Match | 8% | Price tier alignment |
+| Color Accuracy | 6% | sRGB, Adobe RGB, DCI-P3 coverage |
+| HDR Performance | 4% | HDR10, brightness, local dimming |
+| Features | 4% | USB-C, ergonomics, speakers |
+| Bonus Points | 3% | Value picks, VRR support |
+| Curved Preference | 3% | Flat vs curved screen |
+
 ## Deployment
 
 The app is configured for static hosting platforms like Cloudflare Pages.
@@ -235,35 +282,44 @@ The `public/_redirects` file handles SPA routing:
 
 ## Current Product Database
 
-### Gaming Mice (10 products)
-- Razer Viper V3 Pro, Logitech G Pro X Superlight 2, Pulsar X2
-- Hitscan Hyperlight, Endgame Gear OP1 8k v2, Scyrox V8, MCHOSE L7 Ultra
-- Logitech G502 X PLUS, Razer Basilisk V3, Logitech G305
+### Gaming Mice (185 products)
+- **Premium Competitive:** Razer Viper V3 Pro, Logitech G Pro X Superlight 2, Pulsar X2, Finalmouse UltralightX
+- **Budget Options:** Logitech G305, Razer DeathAdder V3, various ultralight alternatives
+- **Ergonomic:** Logitech G502, Razer Basilisk series, Logitech MX Master
+- **Price Range:** $30-$200+
 
-### Audio (22 products)
+### Audio Equipment (198 products)
+- **Gaming Headsets:** SteelSeries Arctis, HyperX Cloud, Razer BlackShark series
+- **Open-Back Headphones:** Sennheiser HD 560S, beyerdynamic DT 900 Pro X, audiophile options
+- **IEMs:** Budget ($23-$50), Mid-range ($69-$120), Premium ($150-$250), Flagship ($300-$500)
 
-**Headsets & Headphones:**
-- SteelSeries Arctis Nova 7 Wireless, HyperX Cloud III Wireless, Sennheiser HD 560S
+### Keyboards (279 products)
+- **Magnetic/Hall Effect:** Wooting 60HE+, MonsGeek M1 HE, DrunkDeer A75 with Rapid Trigger
+- **Mechanical:** Premium gasket-mount to budget options
+- **Form Factors:** Full-size, TKL, 75%, 65%, 60%
+- **Price Range:** $50-$350+
 
-**IEMs - Budget ($23-$50):**
-- Moondrop Chu II, 7Hz x Crinacle Zero:2, KEFINE Klean
-
-**IEMs - Mid-Range ($69-$120):**
-- ARTTI T10, SIMGOT EW300, TRUTHEAR HEXA, JUZEAR Defiant, LETSHUOER S08, AFUL Explorer, DUNU Kima 2
-
-**IEMs - Premium ($150-$250):**
-- SIMGOT SuperMix 4, Kiwi Ears Aether, LETSHUOER S12 PRO, AFUL Performer 7, ZiiGaat Odyssey
-
-**IEMs - Flagship ($300-$500):**
-- Softears VolumeS, XENNS Mangird Tea Pro, XENNS Mangird Top Pro, DUNU DK3001BD
+### Monitors (378 products)
+- **Data Source:** RTINGS lab-tested measurements and scores
+- **Panel Types:** IPS, VA, OLED, QD-OLED, Mini-LED
+- **Sizes:** 24" compact to 49" super ultrawide
+- **Resolutions:** 1080p, 1440p, 4K, 5K
+- **Refresh Rates:** 60Hz to 360Hz+
 
 ## Recent Updates
+
+### February 2026
+- **Keyboard Recommendation System** - Full quiz with 279 products, 10 scoring categories, magnetic/mechanical/optical switch support
+- **Monitor Recommendation System** - Full quiz with 378 products, RTINGS data integration, 11 scoring categories
+- **Massive Database Expansion** - From 32 products to 1,040+ products across all categories
+- **Hero Section Update** - All 4 product categories displayed with scrolling gallery
+- **Footer Improvements** - Updated layout and spacing for new pages
 
 ### January 2026
 - **Security Hardening** - Sanitized error messages in ErrorBoundary, development-only error details
 - **Zod Validation** - Runtime validation for quiz URL parameters with type-safe parsing
 - **URL State Persistence** - Quiz results can now be shared and bookmarked via URL
-- **Comprehensive Test Suite** - 42+ tests covering scoring engine, validation, and edge cases
+- **Comprehensive Test Suite** - 100+ tests covering scoring engine, validation, and edge cases
 - **Error Boundary** - Global error handling component with graceful fallback UI
 - **Lazy Loading** - Quiz and results pages load on-demand for faster initial load
 - **Scrolling Product Gallery** - New animated Hero section with product showcase
@@ -294,15 +350,21 @@ npm run test:watch
 
 Test coverage includes:
 - Scoring engine algorithm tests
-- Mouse and audio scoring rule tests
+- Mouse, audio, keyboard, and monitor scoring rule tests
+- Keyboard and monitor recommendation scenario tests
 - Zod validation schema tests
 - Edge cases and boundary conditions
 
 ## Roadmap
 
-- [ ] Keyboard recommendations
+### Completed
+- [x] Keyboard recommendations (279 products)
+- [x] Monitor recommendations (378 products, RTINGS integration)
+- [x] Expanded product databases (1,040+ total products)
+
+### Coming Soon
+- [ ] Keyboard switches guide
 - [ ] Controller recommendations
-- [ ] Expanded audio product database
 - [ ] Product comparison feature
 - [ ] User accounts for saving preferences
 - [ ] Error monitoring integration (Sentry)

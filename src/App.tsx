@@ -23,6 +23,7 @@ const MouseResults = lazy(() => import("./pages/MouseResults"));
 const AudioResults = lazy(() => import("./pages/AudioResults"));
 const KeyboardResults = lazy(() => import("./pages/KeyboardResults"));
 const MonitorResults = lazy(() => import("./pages/MonitorResults"));
+const HowItWorksPage = lazy(() => import("./pages/HowItWorksPage"));
 
 // Loading fallback for lazy-loaded pages
 const PageLoader = () => (
@@ -91,6 +92,7 @@ const App = () => {
                 <Route path="/quiz/keyboard/results" element={<KeyboardResults />} />
                 <Route path="/quiz/monitor" element={<MonitorQuiz />} />
                 <Route path="/quiz/monitor/results" element={<MonitorResults />} />
+                <Route path="/how-it-works" element={<HowItWorksPage />} />
                 {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
                 <Route path="*" element={<NotFound />} />
               </Routes>
