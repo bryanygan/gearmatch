@@ -1,4 +1,4 @@
-import { MousePointer2, Headphones, Keyboard, Monitor, Gamepad2, ArrowRight } from "lucide-react";
+import { MousePointer2, Headphones, Keyboard, Monitor, Gamepad2, ArrowRight, ToggleRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 
@@ -46,6 +46,17 @@ const categories = [
     cta: "Find Your Monitor",
     accent: "tertiary" as const,
     href: "/quiz/monitor",
+  },
+  {
+    id: "switches",
+    title: "Keyboard Switches",
+    description: "Linear, tactile, or clicky — find the perfect switch for your typing feel and sound preference. Coming soon.",
+    icon: ToggleRight,
+    factors: ["Switch type", "Actuation force", "Sound level", "Travel distance"],
+    available: false,
+    cta: "Coming Soon",
+    accent: "keyboard" as const,
+    href: "#",
   },
   {
     id: "controllers",
