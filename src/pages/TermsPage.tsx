@@ -43,6 +43,22 @@ const TermsPage = () => {
                 </p>
               </div>
 
+              {/* Eligibility */}
+              <div>
+                <h2 className="font-display text-2xl md:text-3xl font-bold mb-4">
+                  Eligibility
+                </h2>
+                <p className="text-muted-foreground leading-relaxed">
+                  You must be at least 13 years of age to use GearMatch. By using this
+                  service, you represent and warrant that you are at least 13 years old.
+                  If you are under 18, you represent that you have your parent or
+                  guardian's permission to use the service. We do not knowingly collect
+                  or solicit personal information from children under 13. If we learn
+                  that we have collected personal information from a child under 13, we
+                  will delete that information promptly.
+                </p>
+              </div>
+
               {/* Description of Service */}
               <div>
                 <h2 className="font-display text-2xl md:text-3xl font-bold mb-4">
@@ -116,6 +132,24 @@ const TermsPage = () => {
                 </div>
               </div>
 
+              {/* Product Information Disclaimer */}
+              <div>
+                <h2 className="font-display text-2xl md:text-3xl font-bold mb-4">
+                  Product Information Disclaimer
+                </h2>
+                <p className="text-muted-foreground leading-relaxed">
+                  GearMatch explicitly disclaims responsibility for any inaccuracies,
+                  errors, or omissions in our product database. Product information,
+                  including but not limited to specifications, features, dimensions,
+                  weights, and compatibility details, is compiled from various sources
+                  and may not always be complete, accurate, or up-to-date. Manufacturers
+                  may change product specifications at any time without notice. You
+                  should always verify product details directly with the manufacturer
+                  or retailer before making a purchase decision. GearMatch shall not be
+                  held liable for any decisions made based on information in our database.
+                </p>
+              </div>
+
               {/* Affiliate Relationships */}
               <div>
                 <h2 className="font-display text-2xl md:text-3xl font-bold mb-4">
@@ -175,6 +209,23 @@ const TermsPage = () => {
                     </span>
                   </li>
                 </ul>
+              </div>
+
+              {/* Termination */}
+              <div>
+                <h2 className="font-display text-2xl md:text-3xl font-bold mb-4">
+                  Termination
+                </h2>
+                <p className="text-muted-foreground leading-relaxed">
+                  We reserve the right to terminate or suspend your access to GearMatch
+                  immediately, without prior notice or liability, for any reason
+                  whatsoever, including without limitation if you breach these Terms of
+                  Service. Upon termination, your right to use the service will
+                  immediately cease. All provisions of these Terms which by their nature
+                  should survive termination shall survive termination, including,
+                  without limitation, ownership provisions, warranty disclaimers,
+                  indemnity, and limitations of liability.
+                </p>
               </div>
 
               {/* Intellectual Property */}
@@ -253,8 +304,70 @@ const TermsPage = () => {
                   Governing Law
                 </h2>
                 <p className="text-muted-foreground leading-relaxed">
-                  These terms shall be governed by and construed in accordance with
-                  applicable laws, without regard to conflict of law principles.
+                  These Terms of Service shall be governed by and construed in
+                  accordance with the laws of the Commonwealth of Pennsylvania, United
+                  States, without regard to its conflict of law provisions. Our failure
+                  to enforce any right or provision of these Terms will not be
+                  considered a waiver of those rights.
+                </p>
+              </div>
+
+              {/* Dispute Resolution */}
+              <div>
+                <h2 className="font-display text-2xl md:text-3xl font-bold mb-4">
+                  Dispute Resolution
+                </h2>
+                <div className="space-y-4 text-muted-foreground leading-relaxed">
+                  <p>
+                    Any dispute, controversy, or claim arising out of or relating to
+                    these Terms of Service, or the breach, termination, or invalidity
+                    thereof, shall first be attempted to be resolved through informal
+                    negotiation. If the dispute cannot be resolved through informal
+                    negotiation within thirty (30) days, either party may initiate
+                    binding arbitration.
+                  </p>
+                  <p>
+                    Arbitration shall be conducted by a single arbitrator in accordance
+                    with the rules of the American Arbitration Association. The
+                    arbitration shall take place in Pennsylvania, and the language of
+                    the arbitration shall be English. The arbitrator's decision shall
+                    be final and binding.
+                  </p>
+                  <p>
+                    You agree that any arbitration or court proceeding shall be
+                    conducted only on an individual basis and not in a class,
+                    consolidated, or representative action. If for any reason a claim
+                    proceeds in court rather than arbitration, you waive any right to a
+                    jury trial.
+                  </p>
+                </div>
+              </div>
+
+              {/* Severability */}
+              <div>
+                <h2 className="font-display text-2xl md:text-3xl font-bold mb-4">
+                  Severability
+                </h2>
+                <p className="text-muted-foreground leading-relaxed">
+                  If any provision of these Terms of Service is held to be invalid,
+                  illegal, or unenforceable by a court or other tribunal of competent
+                  jurisdiction, such provision shall be limited or eliminated to the
+                  minimum extent necessary, and the remaining provisions of these Terms
+                  shall remain in full force and effect.
+                </p>
+              </div>
+
+              {/* Entire Agreement */}
+              <div>
+                <h2 className="font-display text-2xl md:text-3xl font-bold mb-4">
+                  Entire Agreement
+                </h2>
+                <p className="text-muted-foreground leading-relaxed">
+                  These Terms of Service, together with our Privacy Policy and
+                  Affiliate Disclosure, constitute the entire agreement between you and
+                  GearMatch regarding your use of the service and supersede all prior
+                  and contemporaneous written or oral agreements, communications, and
+                  other understandings relating to the subject matter hereof.
                 </p>
               </div>
 
