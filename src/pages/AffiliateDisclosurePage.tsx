@@ -146,20 +146,32 @@ const AffiliateDisclosurePage = () => {
                 </div>
               </div>
 
+              {/* Amazon Associates Disclosure */}
+              <div className="bg-primary/5 border border-primary/20 rounded-2xl p-6 md:p-8">
+                <h2 className="font-display text-2xl md:text-3xl font-bold mb-4">
+                  Amazon Associates Disclosure
+                </h2>
+                <p className="text-lg font-semibold text-foreground mb-4">
+                  As an Amazon Associate I earn from qualifying purchases.
+                </p>
+                <p className="text-muted-foreground leading-relaxed">
+                  GearMatch is a participant in the Amazon Services LLC Associates
+                  Program, an affiliate advertising program designed to provide a
+                  means for sites to earn advertising fees by advertising and linking
+                  to Amazon.com.
+                </p>
+              </div>
+
               {/* Affiliate Programs */}
               <div>
                 <h2 className="font-display text-2xl md:text-3xl font-bold mb-4">
-                  Affiliate Programs We Participate In
+                  Other Affiliate Programs We Participate In
                 </h2>
                 <p className="text-muted-foreground leading-relaxed mb-4">
-                  GearMatch is a participant in various affiliate programs, which may
-                  include:
+                  In addition to Amazon Associates, GearMatch may participate in other
+                  affiliate programs, which may include:
                 </p>
                 <ul className="space-y-2 text-muted-foreground">
-                  <li className="flex items-start gap-3">
-                    <span className="text-accent mt-1">•</span>
-                    <span>Amazon Associates Program</span>
-                  </li>
                   <li className="flex items-start gap-3">
                     <span className="text-accent mt-1">•</span>
                     <span>Retailer-specific affiliate programs</span>
@@ -205,15 +217,59 @@ const AffiliateDisclosurePage = () => {
               {/* FTC Compliance */}
               <div>
                 <h2 className="font-display text-2xl md:text-3xl font-bold mb-4">
-                  FTC Compliance
+                  FTC Compliance & Disclosure Requirements
                 </h2>
-                <p className="text-muted-foreground leading-relaxed">
-                  In accordance with FTC guidelines, we disclose that GearMatch may
-                  receive compensation for links to products. This disclosure is provided
-                  here and in our website footer. We are committed to transparency and
-                  compliance with all applicable regulations regarding affiliate
-                  marketing.
-                </p>
+                <div className="space-y-4 text-muted-foreground leading-relaxed">
+                  <p>
+                    In accordance with Federal Trade Commission (FTC) regulations, we
+                    are committed to transparent disclosure of our affiliate
+                    relationships. Our disclosures are designed to be:
+                  </p>
+                  <ul className="space-y-3">
+                    <li className="flex items-start gap-3">
+                      <span className="text-primary mt-1 font-bold">•</span>
+                      <span>
+                        <strong className="text-foreground">Clear.</strong> We use
+                        straightforward language such as "(paid link)", "#ad", or
+                        "#CommissionsEarned" to identify affiliate links.
+                      </span>
+                    </li>
+                    <li className="flex items-start gap-3">
+                      <span className="text-primary mt-1 font-bold">•</span>
+                      <span>
+                        <strong className="text-foreground">Conspicuous.</strong>{" "}
+                        Disclosures are placed near affiliate links and product
+                        recommendations in locations that are easy to notice.
+                      </span>
+                    </li>
+                  </ul>
+                  <p>
+                    This disclosure page, along with notices in our website footer and
+                    near product links, ensures you always know when we may earn a
+                    commission from your purchases.
+                  </p>
+                  <p className="text-sm">
+                    For more information about FTC endorsement guidelines, visit the{" "}
+                    <a
+                      href="https://www.ftc.gov/tips-advice/business-center/guidance/ftcs-endorsement-guides-what-people-are-asking#affiliate"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-primary hover:underline"
+                    >
+                      FTC's Endorsement Guides FAQ
+                    </a>{" "}
+                    or the{" "}
+                    <a
+                      href="https://www.ftc.gov/business-guidance/resources/disclosures-101-social-media-influencers"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-primary hover:underline"
+                    >
+                      FTC's Disclosures 101 for Social Media Influencers
+                    </a>
+                    .
+                  </p>
+                </div>
               </div>
 
               {/* Questions */}
