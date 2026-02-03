@@ -15,7 +15,7 @@ const aoc_24g15n: MonitorProduct = {
   category: "monitor",
   price_range_usd: [143, 143],
   image_url: "https://i.rtings.com/assets/products/SPUJMofg/aoc-24g15n/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/aoc/24g15n",
+  product_url: "https://www.amazon.com/s?k=AOC+24G15N&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","hdr","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -102,7 +102,7 @@ const aoc_24g2: MonitorProduct = {
   category: "monitor",
   price_range_usd: [109, 109],
   image_url: "https://i.rtings.com/assets/products/nsQ7SgPb/aoc-24g2/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/aoc/24g2",
+  product_url: "https://www.amazon.com/s?k=AOC+24G2&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -189,7 +189,7 @@ const lg_24gl600f: MonitorProduct = {
   category: "monitor",
   price_range_usd: [285, 285],
   image_url: "https://i.rtings.com/assets/products/7zeWnCdq/lg-24gl600f/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/lg/24gl600f",
+  product_url: "https://www.amazon.com/s?k=LG+24GL600F&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -276,7 +276,7 @@ const lg_24gs65f_b: MonitorProduct = {
   category: "monitor",
   price_range_usd: [189, 189],
   image_url: "https://i.rtings.com/assets/products/XKi5Obob/lg-24gs65f-b/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/lg/24gs65f-b",
+  product_url: "https://www.amazon.com/s?k=LG+24GS65F-B&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","hdr","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -363,7 +363,7 @@ const lg_24mp59g_p: MonitorProduct = {
   category: "monitor",
   price_range_usd: [197, 197],
   image_url: "https://i.rtings.com/assets/products/hzzxtIYa/lg-24mp59g-p/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/lg/24mp59g-p",
+  product_url: "https://www.amazon.com/s?k=LG+24MP59G-P&tag=gearmatch-20",
   recommendation_tags: ["gsync"],
   data_quality: {
     data_confidence: "high",
@@ -450,7 +450,7 @@ const hp_27f: MonitorProduct = {
   category: "monitor",
   price_range_usd: [149, 149],
   image_url: "https://i.rtings.com/assets/products/jJqItJdo/hp-27f/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/hp/27f",
+  product_url: "https://www.amazon.com/s?k=HP+27F&tag=gearmatch-20",
   recommendation_tags: ["freesync"],
   data_quality: {
     data_confidence: "high",
@@ -537,7 +537,7 @@ const lg_27g850a_b: MonitorProduct = {
   category: "monitor",
   price_range_usd: [496, 496],
   image_url: "https://i.rtings.com/assets/products/Uw4KtFAj/lg-27g850a-b/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/lg/27g850a-b",
+  product_url: "https://www.amazon.com/s?k=LG+27G850A-B&tag=gearmatch-20",
   recommendation_tags: ["4k","high_refresh","hdr","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -624,7 +624,7 @@ const lg_27gl650f_b: MonitorProduct = {
   category: "monitor",
   price_range_usd: [227, 227],
   image_url: "https://i.rtings.com/assets/products/BvoOWCAQ/lg-27gl650f-b/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/lg/27gl650f-b",
+  product_url: "https://www.amazon.com/s?k=LG+27GL650F-B&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","hdr","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -711,7 +711,7 @@ const lg_27gl850_b_27gl83a_b: MonitorProduct = {
   category: "monitor",
   price_range_usd: [199, 199],
   image_url: "https://i.rtings.com/assets/products/bTTntxbz/lg-27gl850-b-27gl83a-b/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/lg/27gl850-b-27gl83a-b",
+  product_url: "https://www.amazon.com/s?k=LG+27GL850-B%2F27GL83A-B&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","hdr","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -798,7 +798,7 @@ const lg_27gn650_b: MonitorProduct = {
   category: "monitor",
   price_range_usd: [299, 299],
   image_url: "https://i.rtings.com/assets/products/qCddOQtF/lg-27gn650-b/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/lg/27gn650-b",
+  product_url: "https://www.amazon.com/s?k=LG+27GN650-B&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","hdr","gsync","freesync"],
   data_quality: {
     data_confidence: "high",
@@ -885,7 +885,7 @@ const lg_27gn750_b: MonitorProduct = {
   category: "monitor",
   price_range_usd: [399, 399],
   image_url: "https://i.rtings.com/assets/products/BikfqIpk/lg-27gn750-b/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/lg/27gn750-b",
+  product_url: "https://www.amazon.com/s?k=LG+27GN750-B&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","hdr","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -972,7 +972,7 @@ const lg_27gn800_b: MonitorProduct = {
   category: "monitor",
   price_range_usd: [299, 299],
   image_url: "https://i.rtings.com/assets/products/jd8Fhifq/lg-27gn800-b/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/lg/27gn800-b",
+  product_url: "https://www.amazon.com/s?k=LG+27GN800-B&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","hdr","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -1059,7 +1059,7 @@ const lg_27gn850_b_27gn880_b: MonitorProduct = {
   category: "monitor",
   price_range_usd: [499, 499],
   image_url: "https://i.rtings.com/assets/products/bMiEd2nb/lg-27gn850-b-27gn880-b/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/lg/27gn850-b-27gn880-b",
+  product_url: "https://www.amazon.com/s?k=LG+27GN850-B%2F27GN880-B&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","hdr","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -1146,7 +1146,7 @@ const lg_27gn950_b: MonitorProduct = {
   category: "monitor",
   price_range_usd: [799, 799],
   image_url: "https://i.rtings.com/assets/products/26VakdHN/lg-27gn950-b/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/lg/27gn950-b",
+  product_url: "https://www.amazon.com/s?k=LG+27GN950-B&tag=gearmatch-20",
   recommendation_tags: ["4k","high_refresh","hdr","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -1233,7 +1233,7 @@ const lg_27gp850_b_27gp83b_b: MonitorProduct = {
   category: "monitor",
   price_range_usd: [399, 399],
   image_url: "https://i.rtings.com/assets/products/2Pi8NDec/lg-27gp850-b-27gp83b-b/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/lg/27gp850-b-27gp83b-b",
+  product_url: "https://www.amazon.com/s?k=LG+27GP850-B%2F27GP83B-B&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","color_accurate","hdr","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -1320,7 +1320,7 @@ const lg_27gp950_b: MonitorProduct = {
   category: "monitor",
   price_range_usd: [899, 899],
   image_url: "https://i.rtings.com/assets/products/HTYNRWWN/lg-27gp950-b/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/lg/27gp950-b",
+  product_url: "https://www.amazon.com/s?k=LG+27GP950-B&tag=gearmatch-20",
   recommendation_tags: ["4k","high_refresh","hdr","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -1407,7 +1407,7 @@ const lg_27gr75q_b: MonitorProduct = {
   category: "monitor",
   price_range_usd: [299, 299],
   image_url: "https://i.rtings.com/assets/products/JztY13a9/lg-27gr75q-b/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/lg/27gr75q-b",
+  product_url: "https://www.amazon.com/s?k=LG+27GR75Q-B&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","hdr","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -1494,7 +1494,7 @@ const lg_27gr83q_b: MonitorProduct = {
   category: "monitor",
   price_range_usd: [324, 324],
   image_url: "https://i.rtings.com/assets/products/bijil2Z0/lg-27gr83q-b/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/lg/27gr83q-b",
+  product_url: "https://www.amazon.com/s?k=LG+27GR83Q-B&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","hdr","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -1581,7 +1581,7 @@ const lg_27gr93u_b: MonitorProduct = {
   category: "monitor",
   price_range_usd: [499, 499],
   image_url: "https://i.rtings.com/assets/products/1TZEeivq/lg-27gr93u-b/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/lg/27gr93u-b",
+  product_url: "https://www.amazon.com/s?k=LG+27GR93U-B&tag=gearmatch-20",
   recommendation_tags: ["4k","high_refresh","color_accurate","hdr","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -1668,7 +1668,7 @@ const lg_27gr95qe_b: MonitorProduct = {
   category: "monitor",
   price_range_usd: [999, 999],
   image_url: "https://i.rtings.com/assets/products/i3CeRj9L/lg-27gr95qe-b/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/lg/27gr95qe-b",
+  product_url: "https://www.amazon.com/s?k=LG+27GR95QE-B&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","gaming","esports","content_creation","color_accurate","hdr","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -1755,7 +1755,7 @@ const lg_27gr95um_b: MonitorProduct = {
   category: "monitor",
   price_range_usd: [899, 899],
   image_url: "https://i.rtings.com/assets/products/8mwV0Whg/lg-27gr95um-b/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/lg/27gr95um-b",
+  product_url: "https://www.amazon.com/s?k=LG+27GR95UM-B&tag=gearmatch-20",
   recommendation_tags: ["4k","high_refresh","hdr","speakers","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -1842,7 +1842,7 @@ const lg_27gs95qe_b: MonitorProduct = {
   category: "monitor",
   price_range_usd: [629, 629],
   image_url: "https://i.rtings.com/assets/products/cBQmoTWl/lg-27gs95qe-b/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/lg/27gs95qe-b",
+  product_url: "https://www.amazon.com/s?k=LG+27GS95QE-B&tag=gearmatch-20",
   recommendation_tags: ["oled","high_refresh","fast_response","gaming","esports","content_creation","color_accurate","hdr","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -1929,7 +1929,7 @@ const lg_27gx700a_b: MonitorProduct = {
   category: "monitor",
   price_range_usd: [849, 849],
   image_url: "https://i.rtings.com/assets/products/vZTVDcx1/lg-27gx700a-b/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/lg/27gx700a-b",
+  product_url: "https://www.amazon.com/s?k=LG+27GX700A-B&tag=gearmatch-20",
   recommendation_tags: ["oled","high_refresh","fast_response","gaming","esports","content_creation","color_accurate","hdr","gsync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -2016,7 +2016,7 @@ const lg_27gx790a_b: MonitorProduct = {
   category: "monitor",
   price_range_usd: [676, 676],
   image_url: "https://i.rtings.com/assets/products/woVShorI/lg-27gx790a-b/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/lg/27gx790a-b",
+  product_url: "https://www.amazon.com/s?k=LG+27GX790A-B&tag=gearmatch-20",
   recommendation_tags: ["oled","high_refresh","fast_response","gaming","esports","content_creation","hdr","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -2103,7 +2103,7 @@ const innocn_27m2v: MonitorProduct = {
   category: "monitor",
   price_range_usd: [373, 373],
   image_url: "https://i.rtings.com/assets/products/9urFpTRm/innocn-27m2v/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/innocn/27m2v",
+  product_url: "https://www.amazon.com/s?k=INNOCN+27M2V&tag=gearmatch-20",
   recommendation_tags: ["4k","high_refresh","hdr","usb_c_hub","speakers","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -2190,7 +2190,7 @@ const lg_27mn60t_w: MonitorProduct = {
   category: "monitor",
   price_range_usd: [100, 140],
   image_url: "https://i.rtings.com/assets/products/hy8X3KpM/lg-27mn60t-w/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/lg/27mn60t-w",
+  product_url: "https://www.amazon.com/s?k=LG+27MN60T-W&tag=gearmatch-20",
   recommendation_tags: ["freesync"],
   data_quality: {
     data_confidence: "high",
@@ -2277,7 +2277,7 @@ const hp_27q: MonitorProduct = {
   category: "monitor",
   price_range_usd: [149, 149],
   image_url: "https://i.rtings.com/assets/products/FmPqzrOf/hp-27q/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/hp/27q",
+  product_url: "https://www.amazon.com/s?k=HP+27Q&tag=gearmatch-20",
   recommendation_tags: ["gsync"],
   data_quality: {
     data_confidence: "high",
@@ -2364,7 +2364,7 @@ const lg_27ud58_b: MonitorProduct = {
   category: "monitor",
   price_range_usd: [383, 383],
   image_url: "https://i.rtings.com/assets/products/P5cGqaA5/lg-27ud58-b/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/lg/27ud58-b",
+  product_url: "https://www.amazon.com/s?k=LG+27UD58-B&tag=gearmatch-20",
   recommendation_tags: ["4k","gsync"],
   data_quality: {
     data_confidence: "high",
@@ -2451,7 +2451,7 @@ const lg_27ud68_b: MonitorProduct = {
   category: "monitor",
   price_range_usd: [469, 469],
   image_url: "https://i.rtings.com/assets/products/fbFFWHWG/lg-27ud68-b/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/lg/27ud68-b",
+  product_url: "https://www.amazon.com/s?k=LG+27UD68-B&tag=gearmatch-20",
   recommendation_tags: ["4k","gsync"],
   data_quality: {
     data_confidence: "high",
@@ -2538,7 +2538,7 @@ const lg_27uk650_w: MonitorProduct = {
   category: "monitor",
   price_range_usd: [650, 650],
   image_url: "https://i.rtings.com/assets/products/q4FFfAP3/lg-27uk650-w/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/lg/27uk650-w",
+  product_url: "https://www.amazon.com/s?k=LG+27UK650-W&tag=gearmatch-20",
   recommendation_tags: ["4k","hdr","gsync","freesync"],
   data_quality: {
     data_confidence: "high",
@@ -2625,7 +2625,7 @@ const lg_29um69g_b: MonitorProduct = {
   category: "monitor",
   price_range_usd: [278, 278],
   image_url: "https://i.rtings.com/assets/products/qVeZ3Vwz/lg-29um69g-b/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/lg/29um69g-b",
+  product_url: "https://www.amazon.com/s?k=LG+29UM69G-B&tag=gearmatch-20",
   recommendation_tags: ["ultrawide","speakers","gsync"],
   data_quality: {
     data_confidence: "high",
@@ -2712,7 +2712,7 @@ const lg_32gk650f_b: MonitorProduct = {
   category: "monitor",
   price_range_usd: [309, 309],
   image_url: "https://i.rtings.com/assets/products/6eWz1YT9/lg-32gk650f-b/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/lg/32gk650f-b",
+  product_url: "https://www.amazon.com/s?k=LG+32GK650F-B&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","gsync","freesync"],
   data_quality: {
     data_confidence: "high",
@@ -2799,7 +2799,7 @@ const lg_32gk850g_b: MonitorProduct = {
   category: "monitor",
   price_range_usd: [746, 746],
   image_url: "https://i.rtings.com/assets/products/DfrlBm2z/lg-32gk850g-b/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/lg/32gk850g-b",
+  product_url: "https://www.amazon.com/s?k=LG+32GK850G-B&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","gsync"],
   data_quality: {
     data_confidence: "high",
@@ -2886,7 +2886,7 @@ const lg_32gn50t_b: MonitorProduct = {
   category: "monitor",
   price_range_usd: [499, 499],
   image_url: "https://i.rtings.com/assets/products/ha60TKnY/lg-32gn50t-b/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/lg/32gn50t-b",
+  product_url: "https://www.amazon.com/s?k=LG+32GN50T-B&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","hdr","gsync","freesync"],
   data_quality: {
     data_confidence: "high",
@@ -2973,7 +2973,7 @@ const lg_32gn600_b: MonitorProduct = {
   category: "monitor",
   price_range_usd: [229, 229],
   image_url: "https://i.rtings.com/assets/products/SY9jYpZk/lg-32gn600-b/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/lg/32gn600-b",
+  product_url: "https://www.amazon.com/s?k=LG+32GN600-B&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","hdr","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -3060,7 +3060,7 @@ const lg_32gn650_b_32gn63t_b: MonitorProduct = {
   category: "monitor",
   price_range_usd: [299, 299],
   image_url: "https://i.rtings.com/assets/products/JqlrUjb6/lg-32gn650-b-32gn63t-b/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/lg/32gn650-b-32gn63t-b",
+  product_url: "https://www.amazon.com/s?k=LG+32GN650-B%2F32GN63T-B&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","hdr","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -3147,7 +3147,7 @@ const lg_32gp850_b_32gp83b_b: MonitorProduct = {
   category: "monitor",
   price_range_usd: [449, 449],
   image_url: "https://i.rtings.com/assets/products/i1wXQc5h/lg-32gp850-b-32gp83b-b/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/lg/32gp850-b-32gp83b-b",
+  product_url: "https://www.amazon.com/s?k=LG+32GP850-B%2F32GP83B-B&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","color_accurate","hdr","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -3234,7 +3234,7 @@ const lg_32gq950_b: MonitorProduct = {
   category: "monitor",
   price_range_usd: [1299, 1299],
   image_url: "https://i.rtings.com/assets/products/h0JMklFD/lg-32gq950-b/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/lg/32gq950-b",
+  product_url: "https://www.amazon.com/s?k=LG+32GQ950-B&tag=gearmatch-20",
   recommendation_tags: ["4k","high_refresh","color_accurate","hdr","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -3321,7 +3321,7 @@ const lg_32gr93u_b: MonitorProduct = {
   category: "monitor",
   price_range_usd: [553, 553],
   image_url: "https://i.rtings.com/assets/products/yX59BGoQ/lg-32gr93u-b/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/lg/32gr93u-b",
+  product_url: "https://www.amazon.com/s?k=LG+32GR93U-B&tag=gearmatch-20",
   recommendation_tags: ["4k","high_refresh","color_accurate","hdr","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -3408,7 +3408,7 @@ const lg_32gs95ue_b: MonitorProduct = {
   category: "monitor",
   price_range_usd: [1399, 1399],
   image_url: "https://i.rtings.com/assets/products/ZEJJcoVy/lg-32gs95ue-b/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/lg/32gs95ue-b",
+  product_url: "https://www.amazon.com/s?k=LG+32GS95UE-B&tag=gearmatch-20",
   recommendation_tags: ["oled","4k","high_refresh","fast_response","gaming","esports","content_creation","hdr","speakers","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -3495,7 +3495,7 @@ const lg_32qn55t_b: MonitorProduct = {
   category: "monitor",
   price_range_usd: [90, 130],
   image_url: "https://i.rtings.com/assets/products/UZUODNOs/lg-32qn55t-b/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/lg/32qn55t-b",
+  product_url: "https://www.amazon.com/s?k=LG+32QN55T-B&tag=gearmatch-20",
   recommendation_tags: ["hdr","freesync"],
   data_quality: {
     data_confidence: "high",
@@ -3582,7 +3582,7 @@ const lg_32ud59_b: MonitorProduct = {
   category: "monitor",
   price_range_usd: [351, 351],
   image_url: "https://i.rtings.com/assets/products/7UbtWkef/lg-32ud59-b/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/lg/32ud59-b",
+  product_url: "https://www.amazon.com/s?k=LG+32UD59-B&tag=gearmatch-20",
   recommendation_tags: ["4k","speakers","gsync"],
   data_quality: {
     data_confidence: "high",
@@ -3669,7 +3669,7 @@ const lg_32ud99_w: MonitorProduct = {
   category: "monitor",
   price_range_usd: [200, 200],
   image_url: "https://i.rtings.com/assets/products/nrMAcbGo/lg-32ud99-w/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/lg/32ud99-w",
+  product_url: "https://www.amazon.com/s?k=LG+32UD99-W&tag=gearmatch-20",
   recommendation_tags: ["4k","hdr","speakers","gsync","freesync"],
   data_quality: {
     data_confidence: "high",
@@ -3756,7 +3756,7 @@ const lg_32ul500_w: MonitorProduct = {
   category: "monitor",
   price_range_usd: [394, 394],
   image_url: "https://i.rtings.com/assets/products/yzhawiLw/lg-32ul500-w/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/lg/32ul500-w",
+  product_url: "https://www.amazon.com/s?k=LG+32UL500-W&tag=gearmatch-20",
   recommendation_tags: ["4k","hdr","speakers","gsync","freesync"],
   data_quality: {
     data_confidence: "high",
@@ -3843,7 +3843,7 @@ const lg_32ul950_w: MonitorProduct = {
   category: "monitor",
   price_range_usd: [1856, 1856],
   image_url: "https://i.rtings.com/assets/products/ODrnGonF/lg-32ul950-w/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/lg/32ul950-w",
+  product_url: "https://www.amazon.com/s?k=LG+32UL950-W&tag=gearmatch-20",
   recommendation_tags: ["4k","hdr","speakers","gsync","freesync"],
   data_quality: {
     data_confidence: "high",
@@ -3930,7 +3930,7 @@ const lg_34gk950f_b: MonitorProduct = {
   category: "monitor",
   price_range_usd: [1063, 1063],
   image_url: "https://i.rtings.com/assets/products/VQmzDobU/lg-34gk950f-b/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/lg/34gk950f-b",
+  product_url: "https://www.amazon.com/s?k=LG+34GK950F-B&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","hdr","curved","ultrawide","gsync","freesync"],
   data_quality: {
     data_confidence: "high",
@@ -4017,7 +4017,7 @@ const lg_34gn850_b: MonitorProduct = {
   category: "monitor",
   price_range_usd: [749, 749],
   image_url: "https://i.rtings.com/assets/products/7A4bsXUk/lg-34gn850-b/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/lg/34gn850-b",
+  product_url: "https://www.amazon.com/s?k=LG+34GN850-B&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","hdr","curved","ultrawide","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -4104,7 +4104,7 @@ const lg_34gp83a_b: MonitorProduct = {
   category: "monitor",
   price_range_usd: [749, 749],
   image_url: "https://i.rtings.com/assets/products/sT2TNf6M/lg-34gp83a-b/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/lg/34gp83a-b",
+  product_url: "https://www.amazon.com/s?k=LG+34GP83A-B&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","color_accurate","hdr","curved","ultrawide","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -4191,7 +4191,7 @@ const lg_34gp950g_b: MonitorProduct = {
   category: "monitor",
   price_range_usd: [1299, 1299],
   image_url: "https://i.rtings.com/assets/products/RpnZ0Fon/lg-34gp950g-b/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/lg/34gp950g-b",
+  product_url: "https://www.amazon.com/s?k=LG+34GP950G-B&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","hdr","curved","ultrawide","gsync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -4278,7 +4278,7 @@ const lg_34gs95qe_b: MonitorProduct = {
   category: "monitor",
   price_range_usd: [1299, 1299],
   image_url: "https://i.rtings.com/assets/products/l1gRLpBX/lg-34gs95qe-b/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/lg/34gs95qe-b",
+  product_url: "https://www.amazon.com/s?k=LG+34GS95QE-B&tag=gearmatch-20",
   recommendation_tags: ["oled","high_refresh","fast_response","gaming","esports","content_creation","color_accurate","hdr","curved","ultrawide","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -4365,7 +4365,7 @@ const lg_34uc79g_b: MonitorProduct = {
   category: "monitor",
   price_range_usd: [230, 270],
   image_url: "https://i.rtings.com/assets/products/dSmR6LUS/lg-34uc79g-b/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/lg/34uc79g-b",
+  product_url: "https://www.amazon.com/s?k=LG+34UC79G-B&tag=gearmatch-20",
   recommendation_tags: ["curved","ultrawide","gsync"],
   data_quality: {
     data_confidence: "high",
@@ -4452,7 +4452,7 @@ const lg_34wk95u_w: MonitorProduct = {
   category: "monitor",
   price_range_usd: [700, 800],
   image_url: "https://i.rtings.com/assets/products/fHegYHmI/lg-34wk95u-w/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/lg/34wk95u-w",
+  product_url: "https://www.amazon.com/s?k=LG+34WK95U-W&tag=gearmatch-20",
   recommendation_tags: ["hdr","ultrawide","speakers","gsync"],
   data_quality: {
     data_confidence: "high",
@@ -4539,7 +4539,7 @@ const lg_35wn65c_b: MonitorProduct = {
   category: "monitor",
   price_range_usd: [399, 399],
   image_url: "https://i.rtings.com/assets/products/bKBu1Q01/lg-35wn65c-b/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/lg/35wn65c-b",
+  product_url: "https://www.amazon.com/s?k=LG+35WN65C-B&tag=gearmatch-20",
   recommendation_tags: ["hdr","curved","ultrawide","speakers","gsync","freesync"],
   data_quality: {
     data_confidence: "high",
@@ -4626,7 +4626,7 @@ const lg_38gl950g_b: MonitorProduct = {
   category: "monitor",
   price_range_usd: [3800, 3800],
   image_url: "https://i.rtings.com/assets/products/qhJv6aog/lg-38gl950g-b/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/lg/38gl950g-b",
+  product_url: "https://www.amazon.com/s?k=LG+38GL950G-B&tag=gearmatch-20",
   recommendation_tags: ["4k","high_refresh","hdr","curved","ultrawide","gsync"],
   data_quality: {
     data_confidence: "high",
@@ -4713,7 +4713,7 @@ const lg_38gn950_b: MonitorProduct = {
   category: "monitor",
   price_range_usd: [1400, 1600],
   image_url: "https://i.rtings.com/assets/products/ahZPnqXN/lg-38gn950-b/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/lg/38gn950-b",
+  product_url: "https://www.amazon.com/s?k=LG+38GN950-B&tag=gearmatch-20",
   recommendation_tags: ["4k","high_refresh","hdr","curved","ultrawide","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -4800,7 +4800,7 @@ const lg_38wn95c_w: MonitorProduct = {
   category: "monitor",
   price_range_usd: [1599, 1599],
   image_url: "https://i.rtings.com/assets/products/s0kxFLO3/lg-38wn95c-w/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/lg/38wn95c-w",
+  product_url: "https://www.amazon.com/s?k=LG+38WN95C-W&tag=gearmatch-20",
   recommendation_tags: ["4k","high_refresh","hdr","curved","ultrawide","usb_c_hub","speakers","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -4887,7 +4887,7 @@ const lg_40wp95c_w: MonitorProduct = {
   category: "monitor",
   price_range_usd: [1499, 1499],
   image_url: "https://i.rtings.com/assets/products/LAqgUUDg/lg-40wp95c-w/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/lg/40wp95c-w",
+  product_url: "https://www.amazon.com/s?k=LG+40WP95C-W&tag=gearmatch-20",
   recommendation_tags: ["color_accurate","hdr","curved","ultrawide","usb_c_hub","speakers","gsync","freesync"],
   data_quality: {
     data_confidence: "high",
@@ -4974,7 +4974,7 @@ const sony_42_a90k_oled: MonitorProduct = {
   category: "monitor",
   price_range_usd: [1199, 1199],
   image_url: "https://i.rtings.com/assets/products/COp2Xw7l/sony-42-a90k-oled/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/sony/42-a90k-oled",
+  product_url: "https://www.amazon.com/s?k=Sony+42+A90K+OLED&tag=gearmatch-20",
   recommendation_tags: ["4k","hdr","speakers","gsync"],
   data_quality: {
     data_confidence: "high",
@@ -5061,7 +5061,7 @@ const lg_c2_42_oled: MonitorProduct = {
   category: "monitor",
   price_range_usd: [799, 799],
   image_url: "https://i.rtings.com/assets/products/UIB3vInx/lg-42-c2-oled/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/lg/42-c2-oled",
+  product_url: "https://www.amazon.com/s?k=LG+C2+42+OLED&tag=gearmatch-20",
   recommendation_tags: ["4k","fast_response","hdr","speakers","gsync","freesync"],
   data_quality: {
     data_confidence: "high",
@@ -5148,7 +5148,7 @@ const lg_c4_42_oled: MonitorProduct = {
   category: "monitor",
   price_range_usd: [2065, 2065],
   image_url: "https://i.rtings.com/assets/products/BVs0Q1Zk/lg-42-c4-oled/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/lg/42-c4-oled",
+  product_url: "https://www.amazon.com/s?k=LG+C4+42+OLED&tag=gearmatch-20",
   recommendation_tags: ["oled","4k","high_refresh","fast_response","gaming","content_creation","color_accurate","hdr","speakers","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -5235,7 +5235,7 @@ const lg_42_oled_flex: MonitorProduct = {
   category: "monitor",
   price_range_usd: [1999, 1999],
   image_url: "https://i.rtings.com/assets/products/UhCk8w8w/lg-42-oled-flex/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/lg/42-oled-flex",
+  product_url: "https://www.amazon.com/s?k=LG+42+OLED+Flex&tag=gearmatch-20",
   recommendation_tags: ["4k","fast_response","hdr","curved","speakers","gsync","freesync"],
   data_quality: {
     data_confidence: "high",
@@ -5322,7 +5322,7 @@ const samsung_43_qn90b_qled: MonitorProduct = {
   category: "monitor",
   price_range_usd: [1299, 1299],
   image_url: "https://i.rtings.com/assets/products/mMN3Ggpb/samsung-43-qn90b-qled/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/samsung/43-qn90b-qled",
+  product_url: "https://www.amazon.com/s?k=Samsung+43+QN90B+QLED&tag=gearmatch-20",
   recommendation_tags: ["4k","high_refresh","hdr","speakers","gsync","freesync"],
   data_quality: {
     data_confidence: "high",
@@ -5409,7 +5409,7 @@ const lg_43ud79_b: MonitorProduct = {
   category: "monitor",
   price_range_usd: [985, 985],
   image_url: "https://i.rtings.com/assets/products/h2YDDTed/lg-43ud79-b/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/lg/43ud79-b",
+  product_url: "https://www.amazon.com/s?k=LG+43UD79-B&tag=gearmatch-20",
   recommendation_tags: ["4k","speakers","gsync"],
   data_quality: {
     data_confidence: "high",
@@ -5496,7 +5496,7 @@ const lg_45gr95qe_b: MonitorProduct = {
   category: "monitor",
   price_range_usd: [1699, 1699],
   image_url: "https://i.rtings.com/assets/products/RL8C9hbD/lg-45gr95qe-b/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/lg/45gr95qe-b",
+  product_url: "https://www.amazon.com/s?k=LG+45GR95QE-B&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","hdr","curved","ultrawide","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -5583,7 +5583,7 @@ const lg_45gx950a_b: MonitorProduct = {
   category: "monitor",
   price_range_usd: [1749, 1749],
   image_url: "https://i.rtings.com/assets/products/PmpdEp3r/lg-45gx950a-b/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/lg/45gx950a-b",
+  product_url: "https://www.amazon.com/s?k=LG+45GX950A-B&tag=gearmatch-20",
   recommendation_tags: ["oled","high_refresh","fast_response","gaming","esports","content_creation","color_accurate","hdr","curved","ultrawide","usb_c_hub","speakers","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -5670,7 +5670,7 @@ const lg_c1_48_oled: MonitorProduct = {
   category: "monitor",
   price_range_usd: [899, 899],
   image_url: "https://i.rtings.com/assets/products/BKG7j2x9/lg-48-c1-oled/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/lg/48-c1-oled",
+  product_url: "https://www.amazon.com/s?k=LG+C1+48+OLED&tag=gearmatch-20",
   recommendation_tags: ["4k","fast_response","hdr","speakers","gsync","freesync"],
   data_quality: {
     data_confidence: "high",
@@ -5757,7 +5757,7 @@ const lg_48_cx_oled: MonitorProduct = {
   category: "monitor",
   price_range_usd: [594, 594],
   image_url: "https://i.rtings.com/assets/products/t90JF7wr/lg-48-cx-oled/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/lg/48-cx-oled",
+  product_url: "https://www.amazon.com/s?k=LG+48+CX+OLED&tag=gearmatch-20",
   recommendation_tags: ["4k","fast_response","hdr","speakers","gsync","freesync"],
   data_quality: {
     data_confidence: "high",
@@ -5844,7 +5844,7 @@ const lg_48gq900_b: MonitorProduct = {
   category: "monitor",
   price_range_usd: [1499, 1499],
   image_url: "https://i.rtings.com/assets/products/V2gvoUU4/lg-48gq900-b/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/lg/48gq900-b",
+  product_url: "https://www.amazon.com/s?k=LG+48GQ900-B&tag=gearmatch-20",
   recommendation_tags: ["4k","fast_response","hdr","speakers","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -5931,7 +5931,7 @@ const lg_49gr85dc_b: MonitorProduct = {
   category: "monitor",
   price_range_usd: [1299, 1299],
   image_url: "https://i.rtings.com/assets/products/QofEShCP/lg-49gr85dc-b/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/lg/49gr85dc-b",
+  product_url: "https://www.amazon.com/s?k=LG+49GR85DC-B&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","hdr","curved","ultrawide","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -6018,7 +6018,7 @@ const lg_49wl95c_w: MonitorProduct = {
   category: "monitor",
   price_range_usd: [1299, 1299],
   image_url: "https://i.rtings.com/assets/products/YiPQ7pOC/lg-49wl95c-w/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/lg/49wl95c-w",
+  product_url: "https://www.amazon.com/s?k=LG+49WL95C-W&tag=gearmatch-20",
   recommendation_tags: ["hdr","curved","ultrawide","speakers"],
   data_quality: {
     data_confidence: "high",
@@ -6105,7 +6105,7 @@ const aoc_agon_ag271qx: MonitorProduct = {
   category: "monitor",
   price_range_usd: [199, 199],
   image_url: "https://i.rtings.com/assets/products/dle4Yp8K/aoc-agon-ag271qx/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/aoc/agon-ag271qx",
+  product_url: "https://www.amazon.com/s?k=AOC+AGON+AG271QX&tag=gearmatch-20",
   recommendation_tags: ["speakers","gsync"],
   data_quality: {
     data_confidence: "high",
@@ -6192,7 +6192,7 @@ const aoc_agon_pro_ag276qzd2: MonitorProduct = {
   category: "monitor",
   price_range_usd: [499, 499],
   image_url: "https://i.rtings.com/assets/products/seyvrTEq/aoc-agon-pro-ag276qzd2/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/aoc/agon-pro-ag276qzd2",
+  product_url: "https://www.amazon.com/s?k=AOC+AGON+PRO+AG276QZD2&tag=gearmatch-20",
   recommendation_tags: ["oled","high_refresh","fast_response","gaming","esports","content_creation","color_accurate","hdr","speakers","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -6279,7 +6279,7 @@ const dell_alienware_aw2521h: MonitorProduct = {
   category: "monitor",
   price_range_usd: [229, 229],
   image_url: "https://i.rtings.com/assets/products/z2gV67uZ/dell-alienware-aw2521h/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/dell/alienware-aw2521h",
+  product_url: "https://www.amazon.com/s?k=Dell+Alienware+AW2521H&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","hdr","gsync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -6366,7 +6366,7 @@ const dell_alienware_aw2521hf: MonitorProduct = {
   category: "monitor",
   price_range_usd: [305, 305],
   image_url: "https://i.rtings.com/assets/products/zZZxOU15/dell-alienware-aw2521hf/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/dell/alienware-aw2521hf",
+  product_url: "https://www.amazon.com/s?k=Dell+Alienware+AW2521HF&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -6453,7 +6453,7 @@ const dell_alienware_aw2523hf: MonitorProduct = {
   category: "monitor",
   price_range_usd: [299, 299],
   image_url: "https://i.rtings.com/assets/products/zHzMezyH/dell-alienware-aw2523hf/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/dell/alienware-aw2523hf",
+  product_url: "https://www.amazon.com/s?k=Dell+Alienware+AW2523HF&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","hdr","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -6540,7 +6540,7 @@ const dell_alienware_aw2524h: MonitorProduct = {
   category: "monitor",
   price_range_usd: [479, 479],
   image_url: "https://i.rtings.com/assets/products/HF99ze7r/dell-alienware-aw2524h/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/dell/alienware-aw2524h",
+  product_url: "https://www.amazon.com/s?k=Dell+Alienware+AW2524H&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","hdr","gsync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -6627,7 +6627,7 @@ const dell_alienware_aw2720hf: MonitorProduct = {
   category: "monitor",
   price_range_usd: [229, 229],
   image_url: "https://i.rtings.com/assets/products/f6XpP6Nd/dell-alienware-aw2720hf/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/dell/alienware-aw2720hf",
+  product_url: "https://www.amazon.com/s?k=Dell+Alienware+AW2720HF&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","gsync","freesync"],
   data_quality: {
     data_confidence: "high",
@@ -6714,7 +6714,7 @@ const dell_alienware_aw2721d: MonitorProduct = {
   category: "monitor",
   price_range_usd: [229, 229],
   image_url: "https://i.rtings.com/assets/products/03mNJxC3/dell-alienware-aw2721d/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/dell/alienware-aw2721d",
+  product_url: "https://www.amazon.com/s?k=Dell+Alienware+AW2721D&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","hdr","gsync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -6801,7 +6801,7 @@ const dell_alienware_aw2723df: MonitorProduct = {
   category: "monitor",
   price_range_usd: [441, 441],
   image_url: "https://i.rtings.com/assets/products/JMifD6zI/dell-alienware-aw2723df/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/dell/alienware-aw2723df",
+  product_url: "https://www.amazon.com/s?k=Dell+Alienware+AW2723DF&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","color_accurate","hdr","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -6888,7 +6888,7 @@ const dell_alienware_aw2724dm: MonitorProduct = {
   category: "monitor",
   price_range_usd: [358, 358],
   image_url: "https://i.rtings.com/assets/products/3ERJ1NPk/dell-alienware-aw2724dm/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/dell/alienware-aw2724dm",
+  product_url: "https://www.amazon.com/s?k=Dell+Alienware+AW2724DM&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","color_accurate","hdr","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -6975,7 +6975,7 @@ const dell_alienware_aw2725df: MonitorProduct = {
   category: "monitor",
   price_range_usd: [645, 645],
   image_url: "https://i.rtings.com/assets/products/2vl7SnXp/dell-alienware-aw2725df/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/dell/alienware-aw2725df",
+  product_url: "https://www.amazon.com/s?k=Dell+Alienware+AW2725DF&tag=gearmatch-20",
   recommendation_tags: ["oled","high_refresh","fast_response","gaming","esports","content_creation","color_accurate","hdr","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -7062,7 +7062,7 @@ const dell_alienware_aw2725q: MonitorProduct = {
   category: "monitor",
   price_range_usd: [727, 727],
   image_url: "https://i.rtings.com/assets/products/6QJi4FnI/dell-alienware-aw2725q/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/dell/alienware-aw2725q",
+  product_url: "https://www.amazon.com/s?k=Dell+Alienware+AW2725Q&tag=gearmatch-20",
   recommendation_tags: ["oled","4k","high_refresh","fast_response","gaming","esports","content_creation","hdr","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -7149,7 +7149,7 @@ const dell_alienware_aw2725qf: MonitorProduct = {
   category: "monitor",
   price_range_usd: [499, 499],
   image_url: "https://i.rtings.com/assets/products/FeGMVEAe/dell-alienware-aw2725qf/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/dell/alienware-aw2725qf",
+  product_url: "https://www.amazon.com/s?k=Dell+Alienware+AW2725QF&tag=gearmatch-20",
   recommendation_tags: ["4k","high_refresh","color_accurate","hdr","gsync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -7236,7 +7236,7 @@ const dell_alienware_aw3225dm: MonitorProduct = {
   category: "monitor",
   price_range_usd: [319, 319],
   image_url: "https://i.rtings.com/assets/products/CA6dYKwp/dell-alienware-aw3225dm/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/dell/alienware-aw3225dm",
+  product_url: "https://www.amazon.com/s?k=Dell+Alienware+AW3225DM&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","color_accurate","hdr","curved","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -7323,7 +7323,7 @@ const dell_alienware_aw3225qf: MonitorProduct = {
   category: "monitor",
   price_range_usd: [1199, 1199],
   image_url: "https://i.rtings.com/assets/products/wXTgx30J/dell-alienware-aw3225qf/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/dell/alienware-aw3225qf",
+  product_url: "https://www.amazon.com/s?k=Dell+Alienware+AW3225QF&tag=gearmatch-20",
   recommendation_tags: ["oled","4k","high_refresh","fast_response","gaming","esports","content_creation","color_accurate","hdr","curved","gsync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -7410,7 +7410,7 @@ const dell_alienware_aw3418dw: MonitorProduct = {
   category: "monitor",
   price_range_usd: [399, 399],
   image_url: "https://i.rtings.com/assets/products/Ds59uShP/dell-alienware-aw3418dw/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/dell/alienware-aw3418dw",
+  product_url: "https://www.amazon.com/s?k=Dell+Alienware+AW3418DW&tag=gearmatch-20",
   recommendation_tags: ["curved","ultrawide","gsync"],
   data_quality: {
     data_confidence: "high",
@@ -7497,7 +7497,7 @@ const dell_alienware_aw3420dw: MonitorProduct = {
   category: "monitor",
   price_range_usd: [719, 719],
   image_url: "https://i.rtings.com/assets/products/UptLKOcZ/dell-alienware-aw3420dw/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/dell/alienware-aw3420dw",
+  product_url: "https://www.amazon.com/s?k=Dell+Alienware+AW3420DW&tag=gearmatch-20",
   recommendation_tags: ["curved","ultrawide","gsync"],
   data_quality: {
     data_confidence: "high",
@@ -7584,7 +7584,7 @@ const dell_alienware_aw3423dw: MonitorProduct = {
   category: "monitor",
   price_range_usd: [799, 799],
   image_url: "https://i.rtings.com/assets/products/Mt9XEA4s/dell-alienware-aw3423dw/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/dell/alienware-aw3423dw",
+  product_url: "https://www.amazon.com/s?k=Dell+Alienware+AW3423DW&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","fast_response","gaming","content_creation","color_accurate","hdr","curved","ultrawide","gsync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -7671,7 +7671,7 @@ const dell_alienware_aw3423dwf: MonitorProduct = {
   category: "monitor",
   price_range_usd: [590, 590],
   image_url: "https://i.rtings.com/assets/products/7Num8D2P/dell-alienware-aw3423dwf/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/dell/alienware-aw3423dwf",
+  product_url: "https://www.amazon.com/s?k=Dell+Alienware+AW3423DWF&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","fast_response","gaming","content_creation","color_accurate","hdr","curved","ultrawide","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -7758,7 +7758,7 @@ const dell_alienware_aw3425dw: MonitorProduct = {
   category: "monitor",
   price_range_usd: [799, 799],
   image_url: "https://i.rtings.com/assets/products/ThIgNA4u/dell-alienware-aw3425dw/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/dell/alienware-aw3425dw",
+  product_url: "https://www.amazon.com/s?k=Dell+Alienware+AW3425DW&tag=gearmatch-20",
   recommendation_tags: ["oled","high_refresh","fast_response","gaming","esports","content_creation","color_accurate","hdr","curved","ultrawide","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -7845,7 +7845,7 @@ const dell_alienware_aw3425dwm: MonitorProduct = {
   category: "monitor",
   price_range_usd: [385, 385],
   image_url: "https://i.rtings.com/assets/products/kTy4pu4T/dell-alienware-aw3425dwm/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/dell/alienware-aw3425dwm",
+  product_url: "https://www.amazon.com/s?k=Dell+Alienware+AW3425DWM&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","hdr","curved","ultrawide","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -7932,7 +7932,7 @@ const dell_alienware_aw3821dw: MonitorProduct = {
   category: "monitor",
   price_range_usd: [399, 399],
   image_url: "https://i.rtings.com/assets/products/mPqRuDZf/dell-alienware-aw3821dw/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/dell/alienware-aw3821dw",
+  product_url: "https://www.amazon.com/s?k=Dell+Alienware+AW3821DW&tag=gearmatch-20",
   recommendation_tags: ["4k","high_refresh","hdr","curved","ultrawide","gsync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -8019,7 +8019,7 @@ const gigabyte_aorus_ad27qd: MonitorProduct = {
   category: "monitor",
   price_range_usd: [489, 489],
   image_url: "https://i.rtings.com/assets/products/DDi6ca4d/gigabyte-aorus-ad27qd/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/gigabyte/aorus-ad27qd",
+  product_url: "https://www.amazon.com/s?k=Gigabyte+AORUS+AD27QD&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","hdr","gsync","freesync"],
   data_quality: {
     data_confidence: "high",
@@ -8106,7 +8106,7 @@ const gigabyte_aorus_fi27q_x: MonitorProduct = {
   category: "monitor",
   price_range_usd: [799, 799],
   image_url: "https://i.rtings.com/assets/products/ius7tbqx/gigabyte-aorus-fi27q-x/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/gigabyte/aorus-fi27q-x",
+  product_url: "https://www.amazon.com/s?k=Gigabyte+AORUS+FI27Q-X&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","hdr","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -8193,7 +8193,7 @@ const gigabyte_aorus_fi27q: MonitorProduct = {
   category: "monitor",
   price_range_usd: [569, 569],
   image_url: "https://i.rtings.com/assets/products/ycbt7DeQ/gigabyte-aorus-fi27q/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/gigabyte/aorus-fi27q",
+  product_url: "https://www.amazon.com/s?k=Gigabyte+AORUS+FI27Q&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","hdr","gsync","freesync"],
   data_quality: {
     data_confidence: "high",
@@ -8280,7 +8280,7 @@ const gigabyte_aorus_fi32u: MonitorProduct = {
   category: "monitor",
   price_range_usd: [816, 816],
   image_url: "https://i.rtings.com/assets/products/uUOz2MFK/gigabyte-aorus-fi32u/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/gigabyte/aorus-fi32u",
+  product_url: "https://www.amazon.com/s?k=Gigabyte+AORUS+FI32U&tag=gearmatch-20",
   recommendation_tags: ["4k","high_refresh","hdr","usb_c_hub","kvm","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -8367,7 +8367,7 @@ const gigabyte_aorus_fo27q3: MonitorProduct = {
   category: "monitor",
   price_range_usd: [532, 532],
   image_url: "https://i.rtings.com/assets/products/z98nikFO/gigabyte-aorus-fo27q3/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/gigabyte/aorus-fo27q3",
+  product_url: "https://www.amazon.com/s?k=Gigabyte+AORUS+FO27Q3&tag=gearmatch-20",
   recommendation_tags: ["oled","high_refresh","fast_response","gaming","esports","content_creation","color_accurate","hdr","usb_c_hub","kvm","speakers","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -8454,7 +8454,7 @@ const gigabyte_aorus_fo32u2p: MonitorProduct = {
   category: "monitor",
   price_range_usd: [1442, 1442],
   image_url: "https://i.rtings.com/assets/products/H2SFbEsd/gigabyte-aorus-fo32u2p/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/gigabyte/aorus-fo32u2p",
+  product_url: "https://www.amazon.com/s?k=Gigabyte+AORUS+FO32U2P&tag=gearmatch-20",
   recommendation_tags: ["oled","4k","high_refresh","fast_response","gaming","esports","content_creation","color_accurate","hdr","usb_c_hub","kvm","speakers","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -8541,7 +8541,7 @@ const gigabyte_aorus_fo48u_oled: MonitorProduct = {
   category: "monitor",
   price_range_usd: [1600, 1600],
   image_url: "https://i.rtings.com/assets/products/MI0KS5vF/gigabyte-aorus-fo48u-oled/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/gigabyte/aorus-fo48u-oled",
+  product_url: "https://www.amazon.com/s?k=Gigabyte+AORUS+FO48U+OLED&tag=gearmatch-20",
   recommendation_tags: ["4k","fast_response","hdr","usb_c_hub","kvm","speakers","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -8628,7 +8628,7 @@ const gigabyte_aorus_fv43u: MonitorProduct = {
   category: "monitor",
   price_range_usd: [871, 871],
   image_url: "https://i.rtings.com/assets/products/l7bWJxo8/gigabyte-aorus-fv43u/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/gigabyte/aorus-fv43u",
+  product_url: "https://www.amazon.com/s?k=Gigabyte+AORUS+FV43U&tag=gearmatch-20",
   recommendation_tags: ["4k","high_refresh","hdr","usb_c_hub","kvm","speakers","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -8715,7 +8715,7 @@ const dell_c1422h: MonitorProduct = {
   category: "monitor",
   price_range_usd: [109, 109],
   image_url: "https://i.rtings.com/assets/products/5Sq5JUeO/dell-c1422h/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/dell/c1422h",
+  product_url: "https://www.amazon.com/s?k=Dell+C1422H&tag=gearmatch-20",
   recommendation_tags: ["portable"],
   data_quality: {
     data_confidence: "high",
@@ -8802,7 +8802,7 @@ const samsung_c27rg5: MonitorProduct = {
   category: "monitor",
   price_range_usd: [559, 559],
   image_url: "https://i.rtings.com/assets/products/cOmlwwus/samsung-c27rg5/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/samsung/c27rg5",
+  product_url: "https://www.amazon.com/s?k=Samsung+C27RG5&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","curved","gsync"],
   data_quality: {
     data_confidence: "high",
@@ -8889,7 +8889,7 @@ const sceptre_c325w: MonitorProduct = {
   category: "monitor",
   price_range_usd: [149, 149],
   image_url: "https://i.rtings.com/assets/products/wP3nwzYG/sceptre-c325w/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/sceptre/c325w",
+  product_url: "https://www.amazon.com/s?k=Sceptre+C325W&tag=gearmatch-20",
   recommendation_tags: ["curved","gsync"],
   data_quality: {
     data_confidence: "high",
@@ -8976,7 +8976,7 @@ const samsung_c34f791_cf791: MonitorProduct = {
   category: "monitor",
   price_range_usd: [750, 800],
   image_url: "https://i.rtings.com/assets/products/hPatXwi6/samsung-c34f791-cf791/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/samsung/c34f791-cf791",
+  product_url: "https://www.amazon.com/s?k=Samsung+C34F791%2FCF791&tag=gearmatch-20",
   recommendation_tags: ["curved","ultrawide","speakers","gsync"],
   data_quality: {
     data_confidence: "high",
@@ -9063,7 +9063,7 @@ const samsung_c34j791_cj791: MonitorProduct = {
   category: "monitor",
   price_range_usd: [429, 429],
   image_url: "https://i.rtings.com/assets/products/5wlMtbcS/samsung-c34j791-cj791/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/samsung/c34j791-cj791",
+  product_url: "https://www.amazon.com/s?k=Samsung+C34J791%2FCJ791&tag=gearmatch-20",
   recommendation_tags: ["curved","ultrawide","speakers","gsync"],
   data_quality: {
     data_confidence: "high",
@@ -9150,7 +9150,7 @@ const samsung_c49hg90_chg90: MonitorProduct = {
   category: "monitor",
   price_range_usd: [899, 899],
   image_url: "https://i.rtings.com/assets/products/T2fniJpO/samsung-c49hg90-chg90/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/samsung/c49hg90-chg90",
+  product_url: "https://www.amazon.com/s?k=Samsung+C49HG90%2FCHG90&tag=gearmatch-20",
   recommendation_tags: ["4k","hdr","curved","ultrawide","gsync"],
   data_quality: {
     data_confidence: "high",
@@ -9237,7 +9237,7 @@ const samsung_c49rg9_crg9: MonitorProduct = {
   category: "monitor",
   price_range_usd: [1299, 1299],
   image_url: "https://i.rtings.com/assets/products/IGzD6xwG/samsung-c49rg9-crg9/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/samsung/c49rg9-crg9",
+  product_url: "https://www.amazon.com/s?k=Samsung+C49RG9%2FCRG9&tag=gearmatch-20",
   recommendation_tags: ["hdr","curved","ultrawide","freesync"],
   data_quality: {
     data_confidence: "high",
@@ -9324,7 +9324,7 @@ const lg_c5_42_oled: MonitorProduct = {
   category: "monitor",
   price_range_usd: [896, 896],
   image_url: "https://i.rtings.com/assets/products/GVECns5t/lg-c5-42-oled/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/lg/c5-42-oled",
+  product_url: "https://www.amazon.com/s?k=LG+C5+42+OLED&tag=gearmatch-20",
   recommendation_tags: ["oled","4k","high_refresh","fast_response","gaming","content_creation","color_accurate","hdr","speakers","gsync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -9411,7 +9411,7 @@ const samsung_cf398: MonitorProduct = {
   category: "monitor",
   price_range_usd: [174, 174],
   image_url: "https://i.rtings.com/assets/products/gBcqXKo6/samsung-cf398/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/samsung/cf398",
+  product_url: "https://www.amazon.com/s?k=Samsung+CF398&tag=gearmatch-20",
   recommendation_tags: ["curved","gsync"],
   data_quality: {
     data_confidence: "high",
@@ -9498,7 +9498,7 @@ const samsung_chg70: MonitorProduct = {
   category: "monitor",
   price_range_usd: [349, 349],
   image_url: "https://i.rtings.com/assets/products/ED9VJgHQ/samsung-chg70/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/samsung/chg70",
+  product_url: "https://www.amazon.com/s?k=Samsung+CHG70&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","hdr","curved","gsync","freesync"],
   data_quality: {
     data_confidence: "high",
@@ -9585,7 +9585,7 @@ const aoc_cq27g1: MonitorProduct = {
   category: "monitor",
   price_range_usd: [249, 249],
   image_url: "https://i.rtings.com/assets/products/uiLEtB6X/aoc-cq27g1/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/aoc/cq27g1",
+  product_url: "https://www.amazon.com/s?k=AOC+CQ27G1&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","curved","freesync"],
   data_quality: {
     data_confidence: "high",
@@ -9672,7 +9672,7 @@ const aoc_cq27g2: MonitorProduct = {
   category: "monitor",
   price_range_usd: [449, 449],
   image_url: "https://i.rtings.com/assets/products/CpR57udp/aoc-cq27g2/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/aoc/cq27g2",
+  product_url: "https://www.amazon.com/s?k=AOC+CQ27G2&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","curved","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -9759,7 +9759,7 @@ const aoc_cq32g1: MonitorProduct = {
   category: "monitor",
   price_range_usd: [495, 495],
   image_url: "https://i.rtings.com/assets/products/n3ND8Qmf/aoc-cq32g1/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/aoc/cq32g1",
+  product_url: "https://www.amazon.com/s?k=AOC+CQ32G1&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","curved","gsync","freesync"],
   data_quality: {
     data_confidence: "high",
@@ -9846,7 +9846,7 @@ const aoc_cu34g2x: MonitorProduct = {
   category: "monitor",
   price_range_usd: [379, 379],
   image_url: "https://i.rtings.com/assets/products/tgi1g3Rw/aoc-cu34g2x/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/aoc/cu34g2x",
+  product_url: "https://www.amazon.com/s?k=AOC+CU34G2X&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","hdr","curved","ultrawide","gsync","freesync"],
   data_quality: {
     data_confidence: "high",
@@ -9933,7 +9933,7 @@ const lenovo_d27_30: MonitorProduct = {
   category: "monitor",
   price_range_usd: [674, 674],
   image_url: "https://i.rtings.com/assets/products/db5GVFFR/lenovo-d27-30/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/lenovo/d27-30",
+  product_url: "https://www.amazon.com/s?k=Lenovo+D27-30&tag=gearmatch-20",
   recommendation_tags: ["freesync"],
   data_quality: {
     data_confidence: "high",
@@ -10020,7 +10020,7 @@ const dell_d3218hn: MonitorProduct = {
   category: "monitor",
   price_range_usd: [635, 635],
   image_url: "https://i.rtings.com/assets/products/eudjlCXl/dell-d3218hn/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/dell/d3218hn",
+  product_url: "https://www.amazon.com/s?k=Dell+D3218HN&tag=gearmatch-20",
   recommendation_tags: ["gsync"],
   data_quality: {
     data_confidence: "high",
@@ -10107,7 +10107,7 @@ const espresso_display_15_touch: MonitorProduct = {
   category: "monitor",
   price_range_usd: [499, 499],
   image_url: "https://i.rtings.com/assets/products/4dVGlThy/espresso-display-15-touch/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/espresso/display-15-touch",
+  product_url: "https://www.amazon.com/s?k=espresso+Display+15+Touch&tag=gearmatch-20",
   recommendation_tags: ["usb_c_hub","speakers","portable"],
   data_quality: {
     data_confidence: "high",
@@ -10194,7 +10194,7 @@ const mobile_pixels_duex_plus: MonitorProduct = {
   category: "monitor",
   price_range_usd: [169, 169],
   image_url: "https://i.rtings.com/assets/products/ZgnpHVp0/mobile-pixels-duex-plus/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/mobile-pixels/duex-plus",
+  product_url: "https://www.amazon.com/s?k=Mobile+Pixels+DUEX+Plus&tag=gearmatch-20",
   recommendation_tags: ["portable"],
   data_quality: {
     data_confidence: "high",
@@ -10281,7 +10281,7 @@ const dell_e2220h: MonitorProduct = {
   category: "monitor",
   price_range_usd: [94, 94],
   image_url: "https://i.rtings.com/assets/products/1efpAevI/dell-e2220h/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/dell/e2220h",
+  product_url: "https://www.amazon.com/s?k=Dell+E2220H&tag=gearmatch-20",
   recommendation_tags: [],
   data_quality: {
     data_confidence: "high",
@@ -10368,7 +10368,7 @@ const nixeus_edg_34: MonitorProduct = {
   category: "monitor",
   price_range_usd: [399, 399],
   image_url: "https://i.rtings.com/assets/products/ppHv1reu/nixeus-edg-34/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/nixeus/edg-34",
+  product_url: "https://www.amazon.com/s?k=Nixeus+EDG+34&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","hdr","curved","ultrawide","gsync","freesync"],
   data_quality: {
     data_confidence: "high",
@@ -10455,7 +10455,7 @@ const benq_el2870u: MonitorProduct = {
   category: "monitor",
   price_range_usd: [245, 245],
   image_url: "https://i.rtings.com/assets/products/PeafKFgH/benq-el2870u/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/benq/el2870u",
+  product_url: "https://www.amazon.com/s?k=BenQ+EL2870U&tag=gearmatch-20",
   recommendation_tags: ["4k","hdr","speakers","gsync","freesync"],
   data_quality: {
     data_confidence: "high",
@@ -10542,7 +10542,7 @@ const viewsonic_elite_xg270: MonitorProduct = {
   category: "monitor",
   price_range_usd: [499, 499],
   image_url: "https://i.rtings.com/assets/products/KIW5fz5Y/viewsonic-elite-xg270/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/viewsonic/elite-xg270",
+  product_url: "https://www.amazon.com/s?k=ViewSonic+Elite+XG270&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","hdr","speakers","gsync","freesync"],
   data_quality: {
     data_confidence: "high",
@@ -10629,7 +10629,7 @@ const viewsonic_elite_xg270qg: MonitorProduct = {
   category: "monitor",
   price_range_usd: [499, 499],
   image_url: "https://i.rtings.com/assets/products/6xh1rnev/viewsonic-elite-xg270qg/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/viewsonic/elite-xg270qg",
+  product_url: "https://www.amazon.com/s?k=ViewSonic+Elite+XG270QG&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","speakers","gsync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -10716,7 +10716,7 @@ const benq_ew3270u: MonitorProduct = {
   category: "monitor",
   price_range_usd: [413, 413],
   image_url: "https://i.rtings.com/assets/products/jLQFPf74/benq-ew3270u/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/benq/ew3270u",
+  product_url: "https://www.amazon.com/s?k=BenQ+EW3270U&tag=gearmatch-20",
   recommendation_tags: ["4k","hdr","speakers","gsync","freesync"],
   data_quality: {
     data_confidence: "high",
@@ -10803,7 +10803,7 @@ const benq_ex2780q: MonitorProduct = {
   category: "monitor",
   price_range_usd: [549, 549],
   image_url: "https://i.rtings.com/assets/products/Bu1wyB8u/benq-ex2780q/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/benq/ex2780q",
+  product_url: "https://www.amazon.com/s?k=BenQ+EX2780Q&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","hdr","speakers","gsync","freesync"],
   data_quality: {
     data_confidence: "high",
@@ -10890,7 +10890,7 @@ const xiaomi_g_pro_27i: MonitorProduct = {
   category: "monitor",
   price_range_usd: [344, 344],
   image_url: "https://i.rtings.com/assets/products/VOdOiTKb/xiaomi-g-pro-27i/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/xiaomi/g-pro-27i",
+  product_url: "https://www.amazon.com/s?k=Xiaomi+G+Pro+27i&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","hdr","gsync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -10977,7 +10977,7 @@ const dell_g2524h: MonitorProduct = {
   category: "monitor",
   price_range_usd: [259, 259],
   image_url: "https://i.rtings.com/assets/products/VOccLWnx/dell-g2524h/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/dell/g2524h",
+  product_url: "https://www.amazon.com/s?k=Dell+G2524H&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -11064,7 +11064,7 @@ const acer_g257hu_smidpx: MonitorProduct = {
   category: "monitor",
   price_range_usd: [279, 279],
   image_url: "https://i.rtings.com/assets/products/QLE3o8vR/acer-g257hu-smidpx/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/acer/g257hu-smidpx",
+  product_url: "https://www.amazon.com/s?k=Acer+G257HU+Smidpx&tag=gearmatch-20",
   recommendation_tags: ["speakers","gsync"],
   data_quality: {
     data_confidence: "high",
@@ -11151,7 +11151,7 @@ const dell_g2722hs: MonitorProduct = {
   category: "monitor",
   price_range_usd: [109, 109],
   image_url: "https://i.rtings.com/assets/products/49jOp1yO/dell-g2722hs/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/dell/g2722hs",
+  product_url: "https://www.amazon.com/s?k=Dell+G2722HS&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -11238,7 +11238,7 @@ const dell_g2724d: MonitorProduct = {
   category: "monitor",
   price_range_usd: [269, 269],
   image_url: "https://i.rtings.com/assets/products/GJXT3M5v/dell-g2724d/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/dell/g2724d",
+  product_url: "https://www.amazon.com/s?k=Dell+G2724D&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","color_accurate","hdr","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -11325,7 +11325,7 @@ const dell_g2725d: MonitorProduct = {
   category: "monitor",
   price_range_usd: [269, 269],
   image_url: "https://i.rtings.com/assets/products/Jo0FpYAI/dell-g2725d/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/dell/g2725d",
+  product_url: "https://www.amazon.com/s?k=Dell+G2725D&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -11412,7 +11412,7 @@ const msi_g274qpf_qd: MonitorProduct = {
   category: "monitor",
   price_range_usd: [139, 139],
   image_url: "https://i.rtings.com/assets/products/Wc6KyQ8s/msi-g274qpf-qd/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/msi/g274qpf-qd",
+  product_url: "https://www.amazon.com/s?k=MSI+G274QPF-QD&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","hdr","usb_c_hub","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -11499,7 +11499,7 @@ const gigabyte_g27q: MonitorProduct = {
   category: "monitor",
   price_range_usd: [240, 260],
   image_url: "https://i.rtings.com/assets/products/7ax5KcOV/gigabyte-g27q/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/gigabyte/g27q",
+  product_url: "https://www.amazon.com/s?k=Gigabyte+G27Q&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","hdr","speakers","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -11586,7 +11586,7 @@ const gigabyte_g27qc: MonitorProduct = {
   category: "monitor",
   price_range_usd: [220, 240],
   image_url: "https://i.rtings.com/assets/products/kvEAbTgp/gigabyte-g27qc/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/gigabyte/g27qc",
+  product_url: "https://www.amazon.com/s?k=Gigabyte+G27QC&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","hdr","curved","speakers","gsync","freesync"],
   data_quality: {
     data_confidence: "high",
@@ -11673,7 +11673,7 @@ const dell_g3223q: MonitorProduct = {
   category: "monitor",
   price_range_usd: [691, 691],
   image_url: "https://i.rtings.com/assets/products/fiDAO4y5/dell-g3223q/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/dell/g3223q",
+  product_url: "https://www.amazon.com/s?k=Dell+G3223Q&tag=gearmatch-20",
   recommendation_tags: ["4k","high_refresh","content_creation","color_accurate","hdr","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -11760,7 +11760,7 @@ const gigabyte_g32qc: MonitorProduct = {
   category: "monitor",
   price_range_usd: [402, 402],
   image_url: "https://i.rtings.com/assets/products/CJnWgilW/gigabyte-g32qc/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/gigabyte/g32qc",
+  product_url: "https://www.amazon.com/s?k=Gigabyte+G32QC&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","hdr","curved","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -11847,7 +11847,7 @@ const gigabyte_g34wqc: MonitorProduct = {
   category: "monitor",
   price_range_usd: [436, 436],
   image_url: "https://i.rtings.com/assets/products/5ycEpBPq/gigabyte-g34wqc/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/gigabyte/g34wqc",
+  product_url: "https://www.amazon.com/s?k=Gigabyte+G34WQC&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","hdr","curved","ultrawide","speakers","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -11934,7 +11934,7 @@ const acer_gn246hl_bbid: MonitorProduct = {
   category: "monitor",
   price_range_usd: [291, 291],
   image_url: "https://i.rtings.com/assets/products/F0PAl770/acer-gn246hl-bbid/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/acer/gn246hl-bbid",
+  product_url: "https://www.amazon.com/s?k=Acer+GN246HL+Bbid&tag=gearmatch-20",
   recommendation_tags: ["gsync"],
   data_quality: {
     data_confidence: "high",
@@ -12021,7 +12021,7 @@ const gigabyte_gs27qc: MonitorProduct = {
   category: "monitor",
   price_range_usd: [251, 251],
   image_url: "https://i.rtings.com/assets/products/MuS4gmvJ/gigabyte-gs27qc/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/gigabyte/gs27qc",
+  product_url: "https://www.amazon.com/s?k=Gigabyte+GS27QC&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","hdr","curved","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -12108,7 +12108,7 @@ const sony_inzone_m10s: MonitorProduct = {
   category: "monitor",
   price_range_usd: [1198, 1198],
   image_url: "https://i.rtings.com/assets/products/0e2IJcvP/sony-inzone-m10s/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/sony/inzone-m10s",
+  product_url: "https://www.amazon.com/s?k=Sony+INZONE+M10S&tag=gearmatch-20",
   recommendation_tags: ["oled","high_refresh","fast_response","gaming","esports","content_creation","color_accurate","hdr","gsync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -12195,7 +12195,7 @@ const sony_inzone_m3: MonitorProduct = {
   category: "monitor",
   price_range_usd: [279, 279],
   image_url: "https://i.rtings.com/assets/products/frgsxYYM/sony-inzone-m3/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/sony/inzone-m3",
+  product_url: "https://www.amazon.com/s?k=Sony+INZONE+M3&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","hdr","usb_c_hub","speakers","gsync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -12282,7 +12282,7 @@ const sony_inzone_m9_ii: MonitorProduct = {
   category: "monitor",
   price_range_usd: [948, 948],
   image_url: "https://i.rtings.com/assets/products/pOTsvYdI/sony-inzone-m9-ii/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/sony/inzone-m9-ii",
+  product_url: "https://www.amazon.com/s?k=Sony+INZONE+M9+II&tag=gearmatch-20",
   recommendation_tags: ["4k","high_refresh","color_accurate","hdr","speakers","gsync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -12369,7 +12369,7 @@ const sony_inzone_m9: MonitorProduct = {
   category: "monitor",
   price_range_usd: [269, 269],
   image_url: "https://i.rtings.com/assets/products/5HaFqdUy/sony-inzone-m9/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/sony/inzone-m9",
+  product_url: "https://www.amazon.com/s?k=Sony+INZONE+M9&tag=gearmatch-20",
   recommendation_tags: ["4k","high_refresh","hdr","usb_c_hub","kvm","speakers","gsync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -12456,7 +12456,7 @@ const samsung_jg50: MonitorProduct = {
   category: "monitor",
   price_range_usd: [175, 175],
   image_url: "https://i.rtings.com/assets/products/AYFQsu1m/samsung-jg50/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/samsung/jg50",
+  product_url: "https://www.amazon.com/s?k=Samsung+JG50&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","curved"],
   data_quality: {
     data_confidence: "high",
@@ -12543,7 +12543,7 @@ const lenovo_legion_y27q_20: MonitorProduct = {
   category: "monitor",
   price_range_usd: [432, 432],
   image_url: "https://i.rtings.com/assets/products/qGNLmWUJ/lenovo-legion-y27q-20/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/lenovo/legion-y27q-20",
+  product_url: "https://www.amazon.com/s?k=Lenovo+Legion+Y27q-20&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","hdr","gsync","freesync"],
   data_quality: {
     data_confidence: "high",
@@ -12630,7 +12630,7 @@ const lenovo_legion_y32p_30: MonitorProduct = {
   category: "monitor",
   price_range_usd: [674, 674],
   image_url: "https://i.rtings.com/assets/products/tfByOXKs/lenovo-legion-y32p-30/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/lenovo/legion-y32p-30",
+  product_url: "https://www.amazon.com/s?k=Lenovo+Legion+Y32p-30&tag=gearmatch-20",
   recommendation_tags: ["4k","high_refresh","color_accurate","hdr","usb_c_hub","kvm","speakers","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -12717,7 +12717,7 @@ const gigabyte_m27q_p: MonitorProduct = {
   category: "monitor",
   price_range_usd: [269, 269],
   image_url: "https://i.rtings.com/assets/products/7Pgy2JC8/gigabyte-m27q-p/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/gigabyte/m27q-p",
+  product_url: "https://www.amazon.com/s?k=Gigabyte+M27Q+P&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","hdr","usb_c_hub","kvm","speakers","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -12804,7 +12804,7 @@ const gigabyte_m27q_rev_1_0: MonitorProduct = {
   category: "monitor",
   price_range_usd: [278, 278],
   image_url: "https://i.rtings.com/assets/products/v5Og9fwG/gigabyte-m27q-rev-1-0/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/gigabyte/m27q-rev-1-0",
+  product_url: "https://www.amazon.com/s?k=Gigabyte+M27Q+(rev.+1.0)&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","color_accurate","hdr","usb_c_hub","kvm","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -12891,7 +12891,7 @@ const gigabyte_m27q_rev_2_0: MonitorProduct = {
   category: "monitor",
   price_range_usd: [489, 489],
   image_url: "https://i.rtings.com/assets/products/mwTbpPbi/gigabyte-m27q-rev-2-0/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/gigabyte/m27q-rev-2-0",
+  product_url: "https://www.amazon.com/s?k=Gigabyte+M27Q+(rev.+2.0)&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","color_accurate","hdr","usb_c_hub","kvm","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -12978,7 +12978,7 @@ const gigabyte_m27q_x: MonitorProduct = {
   category: "monitor",
   price_range_usd: [616, 616],
   image_url: "https://i.rtings.com/assets/products/25xUaFGF/gigabyte-m27q-x/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/gigabyte/m27q-x",
+  product_url: "https://www.amazon.com/s?k=Gigabyte+M27Q+X&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","color_accurate","hdr","usb_c_hub","kvm","speakers","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -13065,7 +13065,7 @@ const gigabyte_m27u: MonitorProduct = {
   category: "monitor",
   price_range_usd: [650, 650],
   image_url: "https://i.rtings.com/assets/products/jOjL7pIn/gigabyte-m27u/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/gigabyte/m27u",
+  product_url: "https://www.amazon.com/s?k=Gigabyte+M27U&tag=gearmatch-20",
   recommendation_tags: ["4k","high_refresh","color_accurate","hdr","usb_c_hub","kvm","speakers","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -13152,7 +13152,7 @@ const gigabyte_m28u: MonitorProduct = {
   category: "monitor",
   price_range_usd: [838, 838],
   image_url: "https://i.rtings.com/assets/products/Tish1RbB/gigabyte-m28u/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/gigabyte/m28u",
+  product_url: "https://www.amazon.com/s?k=Gigabyte+M28U&tag=gearmatch-20",
   recommendation_tags: ["4k","high_refresh","hdr","usb_c_hub","kvm","speakers","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -13239,7 +13239,7 @@ const gigabyte_m32q: MonitorProduct = {
   category: "monitor",
   price_range_usd: [233, 233],
   image_url: "https://i.rtings.com/assets/products/SsrXMjAk/gigabyte-m32q/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/gigabyte/m32q",
+  product_url: "https://www.amazon.com/s?k=Gigabyte+M32Q&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","hdr","usb_c_hub","kvm","speakers","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -13326,7 +13326,7 @@ const gigabyte_m32u: MonitorProduct = {
   category: "monitor",
   price_range_usd: [795, 795],
   image_url: "https://i.rtings.com/assets/products/52g4mafI/gigabyte-m32u/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/gigabyte/m32u",
+  product_url: "https://www.amazon.com/s?k=Gigabyte+M32U&tag=gearmatch-20",
   recommendation_tags: ["4k","high_refresh","color_accurate","hdr","usb_c_hub","kvm","speakers","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -13413,7 +13413,7 @@ const gigabyte_m32uc: MonitorProduct = {
   category: "monitor",
   price_range_usd: [737, 737],
   image_url: "https://i.rtings.com/assets/products/G6K6BLuT/gigabyte-m32uc/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/gigabyte/m32uc",
+  product_url: "https://www.amazon.com/s?k=Gigabyte+M32UC&tag=gearmatch-20",
   recommendation_tags: ["4k","high_refresh","hdr","curved","usb_c_hub","kvm","speakers","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -13500,7 +13500,7 @@ const gigabyte_m34wq: MonitorProduct = {
   category: "monitor",
   price_range_usd: [708, 708],
   image_url: "https://i.rtings.com/assets/products/prFWQswU/gigabyte-m34wq/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/gigabyte/m34wq",
+  product_url: "https://www.amazon.com/s?k=Gigabyte+M34WQ&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","hdr","ultrawide","usb_c_hub","kvm","speakers","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -13587,7 +13587,7 @@ const msi_mag_274upf: MonitorProduct = {
   category: "monitor",
   price_range_usd: [129, 129],
   image_url: "https://i.rtings.com/assets/products/oaFJ1Kt9/msi-mag-274upf/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/msi/mag-274upf",
+  product_url: "https://www.amazon.com/s?k=MSI+MAG+274UPF&tag=gearmatch-20",
   recommendation_tags: ["4k","high_refresh","hdr","usb_c_hub","kvm","gsync","freesync"],
   data_quality: {
     data_confidence: "high",
@@ -13674,7 +13674,7 @@ const msi_meg_342c_qd_oled: MonitorProduct = {
   category: "monitor",
   price_range_usd: [1024, 1024],
   image_url: "https://i.rtings.com/assets/products/Ew150aby/msi-meg-342c-qd-oled/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/msi/meg-342c-qd-oled",
+  product_url: "https://www.amazon.com/s?k=MSI+MEG+342C+QD-OLED&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","fast_response","gaming","content_creation","color_accurate","hdr","curved","ultrawide","usb_c_hub","kvm","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -13761,7 +13761,7 @@ const gigabyte_mo27q28g: MonitorProduct = {
   category: "monitor",
   price_range_usd: [599, 599],
   image_url: "https://i.rtings.com/assets/products/F2GjnbK4/gigabyte-mo27q28g/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/gigabyte/mo27q28g",
+  product_url: "https://www.amazon.com/s?k=Gigabyte+MO27Q28G&tag=gearmatch-20",
   recommendation_tags: ["oled","high_refresh","fast_response","gaming","esports","content_creation","color_accurate","hdr","usb_c_hub","kvm","speakers","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -13848,7 +13848,7 @@ const benq_mobiuz_ex321ux: MonitorProduct = {
   category: "monitor",
   price_range_usd: [658, 658],
   image_url: "https://i.rtings.com/assets/products/j5k8uyRl/benq-mobiuz-ex321ux/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/benq/mobiuz-ex321ux",
+  product_url: "https://www.amazon.com/s?k=BenQ+MOBIUZ+EX321UX&tag=gearmatch-20",
   recommendation_tags: ["4k","high_refresh","content_creation","color_accurate","hdr","usb_c_hub","kvm","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -13935,7 +13935,7 @@ const philips_momentum_436m6vbpab: MonitorProduct = {
   category: "monitor",
   price_range_usd: [399, 399],
   image_url: "https://i.rtings.com/assets/products/S5dU2GNr/philips-momentum-436m6vbpab/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/philips/momentum-436m6vbpab",
+  product_url: "https://www.amazon.com/s?k=Philips+Momentum+436M6VBPAB&tag=gearmatch-20",
   recommendation_tags: ["4k","hdr","speakers","gsync","freesync"],
   data_quality: {
     data_confidence: "high",
@@ -14022,7 +14022,7 @@ const msi_mpg_271qrx_qd_oled: MonitorProduct = {
   category: "monitor",
   price_range_usd: [649, 649],
   image_url: "https://i.rtings.com/assets/products/C8pZ0JS4/msi-mpg-271qrx-qd-oled/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/msi/mpg-271qrx-qd-oled",
+  product_url: "https://www.amazon.com/s?k=MSI+MPG+271QRX+QD-OLED&tag=gearmatch-20",
   recommendation_tags: ["oled","high_refresh","fast_response","gaming","esports","content_creation","color_accurate","hdr","usb_c_hub","kvm","gsync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -14109,7 +14109,7 @@ const msi_mpg_272urx_qd_oled: MonitorProduct = {
   category: "monitor",
   price_range_usd: [923, 923],
   image_url: "https://i.rtings.com/assets/products/TNrCOHNJ/msi-mpg-272urx-qd-oled/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/msi/mpg-272urx-qd-oled",
+  product_url: "https://www.amazon.com/s?k=MSI+MPG+272URX+QD-OLED&tag=gearmatch-20",
   recommendation_tags: ["oled","4k","high_refresh","fast_response","gaming","esports","content_creation","color_accurate","hdr","usb_c_hub","kvm","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -14196,7 +14196,7 @@ const msi_mpg_274urdfw_e16m: MonitorProduct = {
   category: "monitor",
   price_range_usd: [499, 499],
   image_url: "https://i.rtings.com/assets/products/fWdxkZ6m/msi-mpg-274urdfw-e16m/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/msi/mpg-274urdfw-e16m",
+  product_url: "https://www.amazon.com/s?k=MSI+MPG+274URDFW+E16M&tag=gearmatch-20",
   recommendation_tags: ["4k","high_refresh","hdr","usb_c_hub","kvm","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -14283,7 +14283,7 @@ const msi_mpg_321urx_qd_oled: MonitorProduct = {
   category: "monitor",
   price_range_usd: [940, 940],
   image_url: "https://i.rtings.com/assets/products/2aeDz60O/msi-mpg-321urx-qd-oled/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/msi/mpg-321urx-qd-oled",
+  product_url: "https://www.amazon.com/s?k=MSI+MPG+321URX+QD-OLED&tag=gearmatch-20",
   recommendation_tags: ["oled","4k","high_refresh","fast_response","gaming","esports","content_creation","color_accurate","hdr","usb_c_hub","kvm","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -14370,7 +14370,7 @@ const msi_mpg_322urx_qd_oled: MonitorProduct = {
   category: "monitor",
   price_range_usd: [999, 999],
   image_url: "https://i.rtings.com/assets/products/fo4yivlT/msi-mpg-322urx-qd-oled/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/msi/mpg-322urx-qd-oled",
+  product_url: "https://www.amazon.com/s?k=MSI+MPG+322URX+QD-OLED&tag=gearmatch-20",
   recommendation_tags: ["oled","4k","high_refresh","fast_response","gaming","esports","content_creation","color_accurate","hdr","usb_c_hub","kvm","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -14457,7 +14457,7 @@ const msi_mpg_341cqpx_qd_oled: MonitorProduct = {
   category: "monitor",
   price_range_usd: [799, 799],
   image_url: "https://i.rtings.com/assets/products/0IaIOA09/msi-mpg-341cqpx-qd-oled/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/msi/mpg-341cqpx-qd-oled",
+  product_url: "https://www.amazon.com/s?k=MSI+MPG+341CQPX+QD-OLED&tag=gearmatch-20",
   recommendation_tags: ["oled","high_refresh","fast_response","gaming","esports","content_creation","color_accurate","hdr","curved","ultrawide","usb_c_hub","kvm","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -14544,7 +14544,7 @@ const asus_mx279hs: MonitorProduct = {
   category: "monitor",
   price_range_usd: [225, 225],
   image_url: "https://i.rtings.com/assets/products/Rqgu5YHV/asus-mx279hs/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/asus/mx279hs",
+  product_url: "https://www.amazon.com/s?k=ASUS+MX279HS&tag=gearmatch-20",
   recommendation_tags: ["speakers"],
   data_quality: {
     data_confidence: "high",
@@ -14631,7 +14631,7 @@ const acer_nitro_rg241y_pbiipx: MonitorProduct = {
   category: "monitor",
   price_range_usd: [352, 352],
   image_url: "https://i.rtings.com/assets/products/4BzijCtG/acer-nitro-rg241y-pbiipx/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/acer/nitro-rg241y-pbiipx",
+  product_url: "https://www.amazon.com/s?k=Acer+Nitro+RG241Y+Pbiipx&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","hdr","freesync"],
   data_quality: {
     data_confidence: "high",
@@ -14718,7 +14718,7 @@ const acer_nitro_vg271_pbmiipx: MonitorProduct = {
   category: "monitor",
   price_range_usd: [443, 443],
   image_url: "https://i.rtings.com/assets/products/QAGjARv9/acer-nitro-vg271-pbmiipx/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/acer/nitro-vg271-pbmiipx",
+  product_url: "https://www.amazon.com/s?k=Acer+Nitro+VG271+Pbmiipx&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","hdr","speakers","gsync","freesync"],
   data_quality: {
     data_confidence: "high",
@@ -14805,7 +14805,7 @@ const acer_nitro_vg271up_pbmiipx: MonitorProduct = {
   category: "monitor",
   price_range_usd: [443, 443],
   image_url: "https://i.rtings.com/assets/products/GBZurEGf/acer-nitro-vg271up-pbmiipx/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/acer/nitro-vg271up-pbmiipx",
+  product_url: "https://www.amazon.com/s?k=Acer+Nitro+VG271UP+Pbmiipx&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","hdr","speakers","gsync","freesync"],
   data_quality: {
     data_confidence: "high",
@@ -14892,7 +14892,7 @@ const acer_nitro_xf243y_pbmiiprx: MonitorProduct = {
   category: "monitor",
   price_range_usd: [105, 105],
   image_url: "https://i.rtings.com/assets/products/MGQzcR5I/acer-nitro-xf243y-pbmiiprx/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/acer/nitro-xf243y-pbmiiprx",
+  product_url: "https://www.amazon.com/s?k=Acer+Nitro+XF243Y+Pbmiiprx&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","hdr","speakers","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -14979,7 +14979,7 @@ const acer_nitro_xf252q_xbmiiprzx: MonitorProduct = {
   category: "monitor",
   price_range_usd: [209, 209],
   image_url: "https://i.rtings.com/assets/products/GIKe8Ceh/acer-nitro-xf252q-xbmiiprzx/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/acer/nitro-xf252q-xbmiiprzx",
+  product_url: "https://www.amazon.com/s?k=Acer+Nitro+XF252Q+Xbmiiprzx&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","hdr","speakers","gsync","freesync"],
   data_quality: {
     data_confidence: "high",
@@ -15066,7 +15066,7 @@ const acer_nitro_xv252q_fbmiiprx: MonitorProduct = {
   category: "monitor",
   price_range_usd: [499, 499],
   image_url: "https://i.rtings.com/assets/products/XxjbR8bA/acer-nitro-xv252q-fbmiiprx/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/acer/nitro-xv252q-fbmiiprx",
+  product_url: "https://www.amazon.com/s?k=Acer+Nitro+XV252Q+Fbmiiprx&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","hdr","speakers","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -15153,7 +15153,7 @@ const acer_nitro_xv272u_kvbmiiprzx: MonitorProduct = {
   category: "monitor",
   price_range_usd: [399, 399],
   image_url: "https://i.rtings.com/assets/products/ZrdsnKXj/acer-nitro-xv272u-kvbmiiprzx/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/acer/nitro-xv272u-kvbmiiprzx",
+  product_url: "https://www.amazon.com/s?k=Acer+Nitro+XV272U+KVbmiiprzx&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","hdr","speakers","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -15240,7 +15240,7 @@ const acer_nitro_xv273_xbmiiprzx: MonitorProduct = {
   category: "monitor",
   price_range_usd: [244, 244],
   image_url: "https://i.rtings.com/assets/products/4Tw02Ols/acer-nitro-xv273-xbmiiprzx/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/acer/nitro-xv273-xbmiiprzx",
+  product_url: "https://www.amazon.com/s?k=Acer+Nitro+XV273+Xbmiiprzx&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","hdr","speakers","gsync","freesync"],
   data_quality: {
     data_confidence: "high",
@@ -15327,7 +15327,7 @@ const acer_nitro_xv275k_p3biipruzx: MonitorProduct = {
   category: "monitor",
   price_range_usd: [764, 764],
   image_url: "https://i.rtings.com/assets/products/mta2grJK/acer-nitro-xv275k-p3biipruzx/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/acer/nitro-xv275k-p3biipruzx",
+  product_url: "https://www.amazon.com/s?k=Acer+Nitro+XV275K+P3biipruzx&tag=gearmatch-20",
   recommendation_tags: ["4k","high_refresh","content_creation","color_accurate","hdr","usb_c_hub","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -15414,7 +15414,7 @@ const acer_nitro_xv275k_p5biipruzx: MonitorProduct = {
   category: "monitor",
   price_range_usd: [399, 399],
   image_url: "https://i.rtings.com/assets/products/cbFyy7oT/acer-nitro-xv275k-p5biipruzx/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/acer/nitro-xv275k-p5biipruzx",
+  product_url: "https://www.amazon.com/s?k=Acer+Nitro+XV275K+P5biipruzx&tag=gearmatch-20",
   recommendation_tags: ["4k","high_refresh","color_accurate","hdr","usb_c_hub","kvm","gsync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -15501,7 +15501,7 @@ const acer_nitro_xv275u_p3biipx: MonitorProduct = {
   category: "monitor",
   price_range_usd: [570, 570],
   image_url: "https://i.rtings.com/assets/products/yFBnOTFC/acer-nitro-xv275u-p3biipx/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/acer/nitro-xv275u-p3biipx",
+  product_url: "https://www.amazon.com/s?k=Acer+Nitro+XV275U+P3biipx&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","hdr","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -15588,7 +15588,7 @@ const acer_nitro_xv282k_kvbmiipruzx: MonitorProduct = {
   category: "monitor",
   price_range_usd: [503, 503],
   image_url: "https://i.rtings.com/assets/products/jmcS9FwQ/acer-nitro-xv282k-kvbmiipruzx/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/acer/nitro-xv282k-kvbmiipruzx",
+  product_url: "https://www.amazon.com/s?k=Acer+Nitro+XV282K+KVbmiipruzx&tag=gearmatch-20",
   recommendation_tags: ["4k","high_refresh","hdr","usb_c_hub","speakers","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -15675,7 +15675,7 @@ const acer_nitro_xv340ck_pbmiipphzx: MonitorProduct = {
   category: "monitor",
   price_range_usd: [156, 156],
   image_url: "https://i.rtings.com/assets/products/ZSzAV6uw/acer-nitro-xv340ck-pbmiipphzx/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/acer/nitro-xv340ck-pbmiipphzx",
+  product_url: "https://www.amazon.com/s?k=Acer+Nitro+XV340CK+Pbmiipphzx&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","hdr","ultrawide","speakers","gsync","freesync"],
   data_quality: {
     data_confidence: "high",
@@ -15762,7 +15762,7 @@ const acer_nitro_xz322qu_v3bmiiphx: MonitorProduct = {
   category: "monitor",
   price_range_usd: [295, 295],
   image_url: "https://i.rtings.com/assets/products/TfFk9M1P/acer-nitro-xz322qu-v3bmiiphx/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/acer/nitro-xz322qu-v3bmiiphx",
+  product_url: "https://www.amazon.com/s?k=Acer+Nitro+XZ322QU+V3bmiiphx&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","color_accurate","hdr","curved","speakers","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -15849,7 +15849,7 @@ const msi_oculux_nxg253r: MonitorProduct = {
   category: "monitor",
   price_range_usd: [599, 599],
   image_url: "https://i.rtings.com/assets/products/lXALQMhC/msi-oculux-nxg253r/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/msi/oculux-nxg253r",
+  product_url: "https://www.amazon.com/s?k=MSI+Oculux+NXG253R&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","hdr","gsync"],
   data_quality: {
     data_confidence: "high",
@@ -15936,7 +15936,7 @@ const samsung_odyssey_3d_g90xf_s27fg900x: MonitorProduct = {
   category: "monitor",
   price_range_usd: [1799, 1799],
   image_url: "https://i.rtings.com/assets/products/jk0cwtFB/samsung-odyssey-3d-g90xf-s27fg900x/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/samsung/odyssey-3d-g90xf-s27fg900x",
+  product_url: "https://www.amazon.com/s?k=Samsung+Odyssey+3D+G90XF+S27FG900X&tag=gearmatch-20",
   recommendation_tags: ["4k","high_refresh","hdr","speakers","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -16023,7 +16023,7 @@ const samsung_odyssey_ark_s55bg970: MonitorProduct = {
   category: "monitor",
   price_range_usd: [1599, 1599],
   image_url: "https://i.rtings.com/assets/products/e4GSdW3b/samsung-odyssey-ark-s55bg970/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/samsung/odyssey-ark-s55bg970",
+  product_url: "https://www.amazon.com/s?k=Samsung+Odyssey+Ark+S55BG970&tag=gearmatch-20",
   recommendation_tags: ["4k","high_refresh","hdr","curved","speakers","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -16110,7 +16110,7 @@ const samsung_odyssey_g3_f27g35t: MonitorProduct = {
   category: "monitor",
   price_range_usd: [180, 250],
   image_url: "https://i.rtings.com/assets/products/GCxiOtUa/samsung-odyssey-g3-f27g35t/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/samsung/odyssey-g3-f27g35t",
+  product_url: "https://www.amazon.com/s?k=Samsung+Odyssey+G3+F27G35T&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -16197,7 +16197,7 @@ const samsung_odyssey_g3_s24ag30: MonitorProduct = {
   category: "monitor",
   price_range_usd: [189, 189],
   image_url: "https://i.rtings.com/assets/products/W8pjLqVe/samsung-odyssey-g3-s24ag30/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/samsung/odyssey-g3-s24ag30",
+  product_url: "https://www.amazon.com/s?k=Samsung+Odyssey+G3+S24AG30&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","gsync","freesync"],
   data_quality: {
     data_confidence: "high",
@@ -16284,7 +16284,7 @@ const samsung_odyssey_g4_g40b_s27bg40: MonitorProduct = {
   category: "monitor",
   price_range_usd: [299, 299],
   image_url: "https://i.rtings.com/assets/products/Cxz8Hmmj/samsung-odyssey-g4-g40b-s27bg40/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/samsung/odyssey-g4-g40b-s27bg40",
+  product_url: "https://www.amazon.com/s?k=Samsung+Odyssey+G4%2FG40B+S27BG40&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","hdr","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -16371,7 +16371,7 @@ const samsung_odyssey_g55t_c27g55t: MonitorProduct = {
   category: "monitor",
   price_range_usd: [235, 235],
   image_url: "https://i.rtings.com/assets/products/g6OJI6SI/samsung-odyssey-g5-c27g55t/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/samsung/odyssey-g5-c27g55t",
+  product_url: "https://www.amazon.com/s?k=Samsung+Odyssey+G55T+C27G55T&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","hdr","curved","speakers","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -16458,7 +16458,7 @@ const samsung_odyssey_g55t_c34g55t: MonitorProduct = {
   category: "monitor",
   price_range_usd: [399, 399],
   image_url: "https://i.rtings.com/assets/products/3g1KgQst/samsung-odyssey-g5-c34g55t/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/samsung/odyssey-g5-c34g55t",
+  product_url: "https://www.amazon.com/s?k=Samsung+Odyssey+G55T+C34G55T&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","hdr","curved","ultrawide","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -16545,7 +16545,7 @@ const samsung_odyssey_g50d_s27dg50: MonitorProduct = {
   category: "monitor",
   price_range_usd: [269, 269],
   image_url: "https://i.rtings.com/assets/products/iWxkHsK5/samsung-odyssey-g5-g50d-s27dg50/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/samsung/odyssey-g5-g50d-s27dg50",
+  product_url: "https://www.amazon.com/s?k=Samsung+Odyssey+G50D+S27DG50&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","hdr","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -16632,7 +16632,7 @@ const samsung_odyssey_g51c_s27cg51: MonitorProduct = {
   category: "monitor",
   price_range_usd: [249, 249],
   image_url: "https://i.rtings.com/assets/products/YvuB2EBq/samsung-odyssey-g5-g51c-s27cg51/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/samsung/odyssey-g5-g51c-s27cg51",
+  product_url: "https://www.amazon.com/s?k=Samsung+Odyssey+G51C+S27CG51&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","hdr","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -16719,7 +16719,7 @@ const samsung_odyssey_g55a_s27ag55: MonitorProduct = {
   category: "monitor",
   price_range_usd: [249, 249],
   image_url: "https://i.rtings.com/assets/products/4VMrzLY9/samsung-odyssey-g5-g55a-s27ag55/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/samsung/odyssey-g5-g55a-s27ag55",
+  product_url: "https://www.amazon.com/s?k=Samsung+Odyssey+G55A+S27AG55&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","color_accurate","hdr","curved","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -16806,7 +16806,7 @@ const samsung_odyssey_g55c_s27cg55: MonitorProduct = {
   category: "monitor",
   price_range_usd: [299, 299],
   image_url: "https://i.rtings.com/assets/products/O1a2Hey4/samsung-odyssey-g5-g55c-s27cg55/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/samsung/odyssey-g5-g55c-s27cg55",
+  product_url: "https://www.amazon.com/s?k=Samsung+Odyssey+G55C+S27CG55&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","color_accurate","hdr","curved","gsync","freesync"],
   data_quality: {
     data_confidence: "high",
@@ -16893,7 +16893,7 @@ const samsung_odyssey_g50a_s27ag50: MonitorProduct = {
   category: "monitor",
   price_range_usd: [397, 397],
   image_url: "https://i.rtings.com/assets/products/MqzkxHmP/samsung-odyssey-g5-s27ag50/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/samsung/odyssey-g5-s27ag50",
+  product_url: "https://www.amazon.com/s?k=Samsung+Odyssey+G50A+S27AG50&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","hdr","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -16980,7 +16980,7 @@ const samsung_odyssey_g65d_s32bg65d: MonitorProduct = {
   category: "monitor",
   price_range_usd: [606, 606],
   image_url: "https://i.rtings.com/assets/products/bfrPCPAS/samsung-odyssey-g6-g65d-s32bg65d/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/samsung/odyssey-g6-g65d-s32bg65d",
+  product_url: "https://www.amazon.com/s?k=Samsung+Odyssey+G65D+S32BG65D&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","color_accurate","hdr","curved","speakers","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -17067,7 +17067,7 @@ const samsung_odyssey_g65b_s32bg65: MonitorProduct = {
   category: "monitor",
   price_range_usd: [799, 799],
   image_url: "https://i.rtings.com/assets/products/4Nq5lzjj/samsung-odyssey-g6-s32bg65/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/samsung/odyssey-g6-s32bg65",
+  product_url: "https://www.amazon.com/s?k=Samsung+Odyssey+G65B+S32BG65&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","hdr","curved","speakers","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -17154,7 +17154,7 @@ const samsung_odyssey_g7_c32g75t: MonitorProduct = {
   category: "monitor",
   price_range_usd: [500, 550],
   image_url: "https://i.rtings.com/assets/products/FcMJrghC/samsung-odyssey-g7-c32g75t/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/samsung/odyssey-g7-c32g75t",
+  product_url: "https://www.amazon.com/s?k=Samsung+Odyssey+G7+C32G75T&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","hdr","curved","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -17241,7 +17241,7 @@ const samsung_odyssey_g7_g70b_s32bg70: MonitorProduct = {
   category: "monitor",
   price_range_usd: [599, 599],
   image_url: "https://i.rtings.com/assets/products/KZGcKPO8/samsung-odyssey-g7-g70b-s32bg70/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/samsung/odyssey-g7-g70b-s32bg70",
+  product_url: "https://www.amazon.com/s?k=Samsung+Odyssey+G7%2FG70B+S32BG70&tag=gearmatch-20",
   recommendation_tags: ["4k","high_refresh","color_accurate","hdr","speakers","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -17328,7 +17328,7 @@ const samsung_odyssey_g7_s28ag70: MonitorProduct = {
   category: "monitor",
   price_range_usd: [439, 439],
   image_url: "https://i.rtings.com/assets/products/tEss7z6Q/samsung-odyssey-g7-s28ag70/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/samsung/odyssey-g7-s28ag70",
+  product_url: "https://www.amazon.com/s?k=Samsung+Odyssey+G7+S28AG70&tag=gearmatch-20",
   recommendation_tags: ["4k","high_refresh","hdr","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -17415,7 +17415,7 @@ const samsung_odyssey_g70d_s32dg70: MonitorProduct = {
   category: "monitor",
   price_range_usd: [799, 799],
   image_url: "https://i.rtings.com/assets/products/02aWbjim/samsung-odyssey-g70d-s32dg70/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/samsung/odyssey-g70d-s32dg70",
+  product_url: "https://www.amazon.com/s?k=Samsung+Odyssey+G70D+S32DG70&tag=gearmatch-20",
   recommendation_tags: ["4k","high_refresh","hdr","speakers","gsync","freesync"],
   data_quality: {
     data_confidence: "high",
@@ -17502,7 +17502,7 @@ const samsung_odyssey_g9_c49g95t: MonitorProduct = {
   category: "monitor",
   price_range_usd: [1344, 1344],
   image_url: "https://i.rtings.com/assets/products/gAJH0RQC/samsung-odyssey-g9/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/samsung/odyssey-g9",
+  product_url: "https://www.amazon.com/s?k=Samsung+Odyssey+G9+C49G95T&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","hdr","curved","ultrawide","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -17589,7 +17589,7 @@ const samsung_odyssey_neo_g7_s32bg75: MonitorProduct = {
   category: "monitor",
   price_range_usd: [599, 599],
   image_url: "https://i.rtings.com/assets/products/nTJuwimy/samsung-odyssey-neo-g7-s32bg75/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/samsung/odyssey-neo-g7-s32bg75",
+  product_url: "https://www.amazon.com/s?k=Samsung+Odyssey+Neo+G7+S32BG75&tag=gearmatch-20",
   recommendation_tags: ["4k","high_refresh","hdr","curved","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -17676,7 +17676,7 @@ const samsung_odyssey_neo_g8_s32bg85: MonitorProduct = {
   category: "monitor",
   price_range_usd: [1001, 1001],
   image_url: "https://i.rtings.com/assets/products/yJiseRa7/samsung-odyssey-neo-g8-s32bg85/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/samsung/odyssey-neo-g8-s32bg85",
+  product_url: "https://www.amazon.com/s?k=Samsung+Odyssey+Neo+G8+S32BG85&tag=gearmatch-20",
   recommendation_tags: ["4k","high_refresh","gaming","esports","content_creation","color_accurate","hdr","curved","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -17763,7 +17763,7 @@ const samsung_odyssey_neo_g9_g95na_s49ag95: MonitorProduct = {
   category: "monitor",
   price_range_usd: [1629, 1629],
   image_url: "https://i.rtings.com/assets/products/XOm4r4Is/samsung-odyssey-neo-g9-g95na-s49ag95/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/samsung/odyssey-neo-g9-g95na-s49ag95",
+  product_url: "https://www.amazon.com/s?k=Samsung+Odyssey+Neo+G9%2FG95NA+S49AG95&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","gaming","esports","hdr","curved","ultrawide","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -17850,7 +17850,7 @@ const samsung_odyssey_neo_g9_g95nc_s57cg95: MonitorProduct = {
   category: "monitor",
   price_range_usd: [1699, 1699],
   image_url: "https://i.rtings.com/assets/products/6E5B8xdk/samsung-odyssey-neo-g9-g95nc-s57cg95/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/samsung/odyssey-neo-g9-g95nc-s57cg95",
+  product_url: "https://www.amazon.com/s?k=Samsung+Odyssey+Neo+G9%2FG95NC+S57CG95&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","gaming","esports","hdr","curved","ultrawide","kvm","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -17937,7 +17937,7 @@ const samsung_odyssey_oled_g60sd_s27dg602s: MonitorProduct = {
   category: "monitor",
   price_range_usd: [899, 899],
   image_url: "https://i.rtings.com/assets/products/EVeSarqn/samsung-odyssey-oled-g6-g60sd-s27dg60/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/samsung/odyssey-oled-g6-g60sd-s27dg60",
+  product_url: "https://www.amazon.com/s?k=Samsung+Odyssey+OLED+G60SD+S27DG602S&tag=gearmatch-20",
   recommendation_tags: ["oled","high_refresh","fast_response","gaming","esports","content_creation","color_accurate","hdr","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -18024,7 +18024,7 @@ const samsung_odyssey_oled_g80sd_s32dg80: MonitorProduct = {
   category: "monitor",
   price_range_usd: [979, 979],
   image_url: "https://i.rtings.com/assets/products/BR7hVWOK/samsung-odyssey-oled-g8-g80sd-s32dg80/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/samsung/odyssey-oled-g8-g80sd-s32dg80",
+  product_url: "https://www.amazon.com/s?k=Samsung+Odyssey+OLED+G80SD+S32DG80&tag=gearmatch-20",
   recommendation_tags: ["oled","4k","high_refresh","fast_response","gaming","esports","content_creation","hdr","speakers","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -18111,7 +18111,7 @@ const samsung_odyssey_oled_g85sb_s34bg85: MonitorProduct = {
   category: "monitor",
   price_range_usd: [821, 821],
   image_url: "https://i.rtings.com/assets/products/fUMo2NZ8/samsung-odyssey-oled-g8-g85sb-s34bg85/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/samsung/odyssey-oled-g8-g85sb-s34bg85",
+  product_url: "https://www.amazon.com/s?k=Samsung+Odyssey+OLED+G85SB+S34BG85&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","fast_response","gaming","content_creation","hdr","curved","ultrawide","usb_c_hub","speakers","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -18198,7 +18198,7 @@ const samsung_odyssey_oled_g81sf_s27fg810s: MonitorProduct = {
   category: "monitor",
   price_range_usd: [1299, 1299],
   image_url: "https://i.rtings.com/assets/products/nS1pyI3r/samsung-odyssey-oled-g81sf-s27fg810s/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/samsung/odyssey-oled-g81sf-s27fg810s",
+  product_url: "https://www.amazon.com/s?k=Samsung+Odyssey+OLED+G81SF+S27FG810S&tag=gearmatch-20",
   recommendation_tags: ["oled","4k","high_refresh","fast_response","gaming","esports","content_creation","color_accurate","hdr","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -18285,7 +18285,7 @@ const samsung_odyssey_oled_g9_g95sc_s49cg95: MonitorProduct = {
   category: "monitor",
   price_range_usd: [900, 900],
   image_url: "https://i.rtings.com/assets/products/juqbbyEi/samsung-odyssey-oled-g9-g95sc-s49cg95/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/samsung/odyssey-oled-g9-g95sc-s49cg95",
+  product_url: "https://www.amazon.com/s?k=Samsung+Odyssey+OLED+G9%2FG95SC+S49CG95&tag=gearmatch-20",
   recommendation_tags: ["oled","high_refresh","fast_response","gaming","esports","content_creation","color_accurate","hdr","curved","ultrawide","speakers","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -18372,7 +18372,7 @@ const hp_omen_27: MonitorProduct = {
   category: "monitor",
   price_range_usd: [399, 399],
   image_url: "https://i.rtings.com/assets/products/Qm9sdBEH/hp-omen-27/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/hp/omen-27",
+  product_url: "https://www.amazon.com/s?k=HP+OMEN+27&tag=gearmatch-20",
   recommendation_tags: ["gsync"],
   data_quality: {
     data_confidence: "high",
@@ -18459,7 +18459,7 @@ const hp_omen_27c: MonitorProduct = {
   category: "monitor",
   price_range_usd: [399, 399],
   image_url: "https://i.rtings.com/assets/products/5qayr0e6/hp-omen-27c/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/hp/omen-27c",
+  product_url: "https://www.amazon.com/s?k=HP+OMEN+27c&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","hdr","curved","gsync","freesync"],
   data_quality: {
     data_confidence: "high",
@@ -18546,7 +18546,7 @@ const hp_omen_27i: MonitorProduct = {
   category: "monitor",
   price_range_usd: [239, 239],
   image_url: "https://i.rtings.com/assets/products/Kv754dcr/hp-omen-27i/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/hp/omen-27i",
+  product_url: "https://www.amazon.com/s?k=HP+OMEN+27i&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -18633,7 +18633,7 @@ const hp_omen_27q: MonitorProduct = {
   category: "monitor",
   price_range_usd: [239, 239],
   image_url: "https://i.rtings.com/assets/products/bfYKKmHM/hp-omen-27q/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/hp/omen-27q",
+  product_url: "https://www.amazon.com/s?k=HP+OMEN+27q&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","hdr","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -18720,7 +18720,7 @@ const hp_omen_27qs: MonitorProduct = {
   category: "monitor",
   price_range_usd: [335, 335],
   image_url: "https://i.rtings.com/assets/products/gm75u6oQ/hp-omen-27qs/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/hp/omen-27qs",
+  product_url: "https://www.amazon.com/s?k=HP+OMEN+27qs&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","color_accurate","hdr","speakers","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -18807,7 +18807,7 @@ const hp_omen_34c: MonitorProduct = {
   category: "monitor",
   price_range_usd: [299, 299],
   image_url: "https://i.rtings.com/assets/products/f2c9EXr6/hp-omen-34c/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/hp/omen-34c",
+  product_url: "https://www.amazon.com/s?k=HP+OMEN+34c&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","hdr","curved","ultrawide","speakers","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -18894,7 +18894,7 @@ const hp_omen_x_25f: MonitorProduct = {
   category: "monitor",
   price_range_usd: [576, 576],
   image_url: "https://i.rtings.com/assets/products/7dbmx7RU/hp-omen-x-25f/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/hp/omen-x-25f",
+  product_url: "https://www.amazon.com/s?k=HP+OMEN+X+25f&tag=gearmatch-20",
   recommendation_tags: ["gsync"],
   data_quality: {
     data_confidence: "high",
@@ -18981,7 +18981,7 @@ const hp_omen_x_27: MonitorProduct = {
   category: "monitor",
   price_range_usd: [745, 745],
   image_url: "https://i.rtings.com/assets/products/tLaMwZgD/hp-omen-x-27/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/hp/omen-x-27",
+  product_url: "https://www.amazon.com/s?k=HP+OMEN+X+27&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","hdr","gsync","freesync"],
   data_quality: {
     data_confidence: "high",
@@ -19068,7 +19068,7 @@ const msi_optix_g272: MonitorProduct = {
   category: "monitor",
   price_range_usd: [369, 369],
   image_url: "https://i.rtings.com/assets/products/zYpVNgVB/msi-optix-g272/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/msi/optix-g272",
+  product_url: "https://www.amazon.com/s?k=MSI+Optix+G272&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","gsync","freesync"],
   data_quality: {
     data_confidence: "high",
@@ -19155,7 +19155,7 @@ const msi_optix_g273: MonitorProduct = {
   category: "monitor",
   price_range_usd: [258, 258],
   image_url: "https://i.rtings.com/assets/products/aM9EEkNe/msi-optix-g273/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/msi/optix-g273",
+  product_url: "https://www.amazon.com/s?k=MSI+Optix+G273&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","gsync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -19242,7 +19242,7 @@ const msi_optix_g273qf: MonitorProduct = {
   category: "monitor",
   price_range_usd: [349, 349],
   image_url: "https://i.rtings.com/assets/products/2LqWrPxW/msi-optix-g273qf/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/msi/optix-g273qf",
+  product_url: "https://www.amazon.com/s?k=MSI+Optix+G273QF&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -19329,7 +19329,7 @@ const msi_optix_g27c: MonitorProduct = {
   category: "monitor",
   price_range_usd: [280, 300],
   image_url: "https://i.rtings.com/assets/products/L0DspMBS/msi-optix-g27c/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/msi/optix-g27c",
+  product_url: "https://www.amazon.com/s?k=MSI+Optix+G27C&tag=gearmatch-20",
   recommendation_tags: ["curved","speakers","gsync"],
   data_quality: {
     data_confidence: "high",
@@ -19416,7 +19416,7 @@ const msi_optix_g27c4: MonitorProduct = {
   category: "monitor",
   price_range_usd: [171, 171],
   image_url: "https://i.rtings.com/assets/products/JcAi5nvG/msi-optix-g27c4/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/msi/optix-g27c4",
+  product_url: "https://www.amazon.com/s?k=MSI+Optix+G27C4&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","curved","gsync","freesync"],
   data_quality: {
     data_confidence: "high",
@@ -19503,7 +19503,7 @@ const msi_optix_g27c5: MonitorProduct = {
   category: "monitor",
   price_range_usd: [257, 257],
   image_url: "https://i.rtings.com/assets/products/ewhFgnUN/msi-optix-g27c5/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/msi/optix-g27c5",
+  product_url: "https://www.amazon.com/s?k=MSI+Optix+G27C5&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","curved","gsync","freesync"],
   data_quality: {
     data_confidence: "high",
@@ -19590,7 +19590,7 @@ const msi_optix_g27c6: MonitorProduct = {
   category: "monitor",
   price_range_usd: [218, 218],
   image_url: "https://i.rtings.com/assets/products/rdWF8UAL/msi-optix-g27c6/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/msi/optix-g27c6",
+  product_url: "https://www.amazon.com/s?k=MSI+Optix+G27C6&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","curved","gsync","freesync"],
   data_quality: {
     data_confidence: "high",
@@ -19677,7 +19677,7 @@ const msi_optix_g27cq4: MonitorProduct = {
   category: "monitor",
   price_range_usd: [230, 280],
   image_url: "https://i.rtings.com/assets/products/cieLhesy/msi-optix-g27cq4/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/msi/optix-g27cq4",
+  product_url: "https://www.amazon.com/s?k=MSI+Optix+G27CQ4&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","curved","gsync","freesync"],
   data_quality: {
     data_confidence: "high",
@@ -19764,7 +19764,7 @@ const msi_optix_g321cu: MonitorProduct = {
   category: "monitor",
   price_range_usd: [429, 429],
   image_url: "https://i.rtings.com/assets/products/QmUMLgUx/msi-optix-g321cu/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/msi/optix-g321cu",
+  product_url: "https://www.amazon.com/s?k=MSI+Optix+G321CU&tag=gearmatch-20",
   recommendation_tags: ["4k","high_refresh","hdr","curved","usb_c_hub","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -19851,7 +19851,7 @@ const msi_optix_mag161v: MonitorProduct = {
   category: "monitor",
   price_range_usd: [230, 230],
   image_url: "https://i.rtings.com/assets/products/oIHtch5j/msi-optix-mag161v/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/msi/optix-mag161v",
+  product_url: "https://www.amazon.com/s?k=MSI+Optix+MAG161V&tag=gearmatch-20",
   recommendation_tags: ["speakers","portable"],
   data_quality: {
     data_confidence: "high",
@@ -19938,7 +19938,7 @@ const msi_optix_mag271cqr: MonitorProduct = {
   category: "monitor",
   price_range_usd: [399, 399],
   image_url: "https://i.rtings.com/assets/products/1I1psZ9x/msi-optix-mag271cqr/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/msi/optix-mag271cqr",
+  product_url: "https://www.amazon.com/s?k=MSI+Optix+MAG271CQR&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","curved","gsync","freesync"],
   data_quality: {
     data_confidence: "high",
@@ -20025,7 +20025,7 @@ const msi_optix_mag273r: MonitorProduct = {
   category: "monitor",
   price_range_usd: [282, 282],
   image_url: "https://i.rtings.com/assets/products/FBlvifiC/msi-optix-mag273r/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/msi/optix-mag273r",
+  product_url: "https://www.amazon.com/s?k=MSI+Optix+MAG273R&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","hdr","gsync","freesync"],
   data_quality: {
     data_confidence: "high",
@@ -20112,7 +20112,7 @@ const msi_optix_mag274qrf_qd: MonitorProduct = {
   category: "monitor",
   price_range_usd: [383, 383],
   image_url: "https://i.rtings.com/assets/products/swaRnP2n/msi-optix-mag274qrf-qd/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/msi/optix-mag274qrf-qd",
+  product_url: "https://www.amazon.com/s?k=MSI+Optix+MAG274QRF-QD&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","hdr","usb_c_hub","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -20199,7 +20199,7 @@ const msi_optix_mpg27cq: MonitorProduct = {
   category: "monitor",
   price_range_usd: [429, 429],
   image_url: "https://i.rtings.com/assets/products/w0qZDIOO/msi-optix-mpg27cq/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/msi/optix-mpg27cq",
+  product_url: "https://www.amazon.com/s?k=MSI+Optix+MPG27CQ&tag=gearmatch-20",
   recommendation_tags: ["curved","gsync"],
   data_quality: {
     data_confidence: "high",
@@ -20286,7 +20286,7 @@ const dell_p2217h: MonitorProduct = {
   category: "monitor",
   price_range_usd: [219, 219],
   image_url: "https://i.rtings.com/assets/products/4llpmSMf/dell-p2217h/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/dell/p2217h",
+  product_url: "https://www.amazon.com/s?k=Dell+P2217H&tag=gearmatch-20",
   recommendation_tags: ["gsync"],
   data_quality: {
     data_confidence: "high",
@@ -20373,7 +20373,7 @@ const dell_p2417h: MonitorProduct = {
   category: "monitor",
   price_range_usd: [192, 192],
   image_url: "https://i.rtings.com/assets/products/IGI6S3sn/dell-p2417h/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/dell/p2417h",
+  product_url: "https://www.amazon.com/s?k=Dell+P2417H&tag=gearmatch-20",
   recommendation_tags: ["gsync"],
   data_quality: {
     data_confidence: "high",
@@ -20460,7 +20460,7 @@ const dell_p2423d: MonitorProduct = {
   category: "monitor",
   price_range_usd: [290, 350],
   image_url: "https://i.rtings.com/assets/products/RE4ZWIz8/dell-p2423d/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/dell/p2423d",
+  product_url: "https://www.amazon.com/s?k=Dell+P2423D&tag=gearmatch-20",
   recommendation_tags: [],
   data_quality: {
     data_confidence: "high",
@@ -20547,7 +20547,7 @@ const dell_p2425h: MonitorProduct = {
   category: "monitor",
   price_range_usd: [218, 218],
   image_url: "https://i.rtings.com/assets/products/Lf9HXCQY/dell-p2425h/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/dell/p2425h",
+  product_url: "https://www.amazon.com/s?k=Dell+P2425H&tag=gearmatch-20",
   recommendation_tags: [],
   data_quality: {
     data_confidence: "high",
@@ -20634,7 +20634,7 @@ const dell_p3223de: MonitorProduct = {
   category: "monitor",
   price_range_usd: [365, 365],
   image_url: "https://i.rtings.com/assets/products/1vtcZq2T/dell-p3223de/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/dell/p3223de",
+  product_url: "https://www.amazon.com/s?k=Dell+P3223DE&tag=gearmatch-20",
   recommendation_tags: ["usb_c_hub"],
   data_quality: {
     data_confidence: "high",
@@ -20721,7 +20721,7 @@ const hp_pavilion_22cwa: MonitorProduct = {
   category: "monitor",
   price_range_usd: [105, 105],
   image_url: "https://i.rtings.com/assets/products/9yj64Lub/hp-pavilion-22cwa/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/hp/pavilion-22cwa",
+  product_url: "https://www.amazon.com/s?k=HP+Pavilion+22CWA&tag=gearmatch-20",
   recommendation_tags: ["gsync"],
   data_quality: {
     data_confidence: "high",
@@ -20808,7 +20808,7 @@ const asus_pb277q: MonitorProduct = {
   category: "monitor",
   price_range_usd: [258, 258],
   image_url: "https://i.rtings.com/assets/products/evUydksi/asus-pb277q/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/asus/pb277q",
+  product_url: "https://www.amazon.com/s?k=ASUS+PB277Q&tag=gearmatch-20",
   recommendation_tags: ["speakers","gsync"],
   data_quality: {
     data_confidence: "high",
@@ -20895,7 +20895,7 @@ const benq_pd3225u: MonitorProduct = {
   category: "monitor",
   price_range_usd: [999, 999],
   image_url: "https://i.rtings.com/assets/products/kmJpwPtc/benq-pd3225u/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/benq/pd3225u",
+  product_url: "https://www.amazon.com/s?k=BenQ+PD3225U&tag=gearmatch-20",
   recommendation_tags: ["4k","hdr","usb_c_hub","kvm","speakers"],
   data_quality: {
     data_confidence: "high",
@@ -20982,7 +20982,7 @@ const acer_predator_x25_bmiiprzx: MonitorProduct = {
   category: "monitor",
   price_range_usd: [300, 300],
   image_url: "https://i.rtings.com/assets/products/VyQRJX08/acer-predator-x25-bmiiprzx/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/acer/predator-x25-bmiiprzx",
+  product_url: "https://www.amazon.com/s?k=Acer+Predator+X25+bmiiprzx&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","hdr","speakers","gsync"],
   data_quality: {
     data_confidence: "high",
@@ -21069,7 +21069,7 @@ const acer_predator_x27_bmiphzx: MonitorProduct = {
   category: "monitor",
   price_range_usd: [499, 499],
   image_url: "https://i.rtings.com/assets/products/D9FjUlmI/acer-predator-x27-bmiphzx/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/acer/predator-x27-bmiphzx",
+  product_url: "https://www.amazon.com/s?k=Acer+Predator+X27+bmiphzx&tag=gearmatch-20",
   recommendation_tags: ["4k","high_refresh","hdr","speakers","gsync"],
   data_quality: {
     data_confidence: "high",
@@ -21156,7 +21156,7 @@ const acer_predator_x27u_bmiipruzx: MonitorProduct = {
   category: "monitor",
   price_range_usd: [899, 899],
   image_url: "https://i.rtings.com/assets/products/a84Iceq4/acer-predator-x27u-bmiipruzx/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/acer/predator-x27u-bmiipruzx",
+  product_url: "https://www.amazon.com/s?k=Acer+Predator+X27U+bmiipruzx&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","hdr","usb_c_hub","kvm","speakers","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -21243,7 +21243,7 @@ const acer_predator_x32_fpbmiiiiphuzx: MonitorProduct = {
   category: "monitor",
   price_range_usd: [757, 757],
   image_url: "https://i.rtings.com/assets/products/NOZ4PpKm/acer-predator-x32-fpbmiiiiphuzx/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/acer/predator-x32-fpbmiiiiphuzx",
+  product_url: "https://www.amazon.com/s?k=Acer+%E2%80%8EPredator+X32+Fpbmiiiiphuzx&tag=gearmatch-20",
   recommendation_tags: ["4k","high_refresh","hdr","usb_c_hub","kvm","speakers","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -21330,7 +21330,7 @@ const acer_predator_xb271hu_bmiprz: MonitorProduct = {
   category: "monitor",
   price_range_usd: [400, 500],
   image_url: "https://i.rtings.com/assets/products/xhJaf67A/acer-predator-xb271hu-bmiprz/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/acer/predator-xb271hu-bmiprz",
+  product_url: "https://www.amazon.com/s?k=Acer+Predator+XB271HU+Bmiprz&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","speakers","gsync"],
   data_quality: {
     data_confidence: "high",
@@ -21417,7 +21417,7 @@ const acer_predator_xb273k_pbmiphzx: MonitorProduct = {
   category: "monitor",
   price_range_usd: [1350, 1350],
   image_url: "https://i.rtings.com/assets/products/U1VcaaXz/acer-predator-xb273k-pbmiphzx/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/acer/predator-xb273k-pbmiphzx",
+  product_url: "https://www.amazon.com/s?k=Acer+Predator+XB273K+Pbmiphzx&tag=gearmatch-20",
   recommendation_tags: ["4k","high_refresh","hdr","speakers","gsync"],
   data_quality: {
     data_confidence: "high",
@@ -21504,7 +21504,7 @@ const acer_predator_xb273u_gxbmiipruzx: MonitorProduct = {
   category: "monitor",
   price_range_usd: [429, 429],
   image_url: "https://i.rtings.com/assets/products/7aw5VAXj/acer-predator-xb273u-gxbmiipruzx/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/acer/predator-xb273u-gxbmiipruzx",
+  product_url: "https://www.amazon.com/s?k=Acer+Predator+XB273U+GXbmiipruzx&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","color_accurate","hdr","usb_c_hub","speakers","gsync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -21591,7 +21591,7 @@ const acer_predator_z35p_bmiphz: MonitorProduct = {
   category: "monitor",
   price_range_usd: [1250, 1250],
   image_url: "https://i.rtings.com/assets/products/uZx3hz5b/acer-predator-z35p-bmiphz/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/acer/predator-z35p-bmiphz",
+  product_url: "https://www.amazon.com/s?k=Acer+Predator+Z35P+Bmiphz&tag=gearmatch-20",
   recommendation_tags: ["curved","ultrawide","speakers","gsync"],
   data_quality: {
     data_confidence: "high",
@@ -21678,7 +21678,7 @@ const asus_proart_display_6k_pa32qcv: MonitorProduct = {
   category: "monitor",
   price_range_usd: [1289, 1289],
   image_url: "https://i.rtings.com/assets/products/ZFFrFStU/asus-proart-display-6k-pa32qcv/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/asus/proart-display-6k-pa32qcv",
+  product_url: "https://www.amazon.com/s?k=ASUS+ProArt+Display+6K+PA32QCV&tag=gearmatch-20",
   recommendation_tags: ["content_creation","color_accurate","hdr","usb_c_hub","kvm","speakers","gsync"],
   data_quality: {
     data_confidence: "high",
@@ -21765,7 +21765,7 @@ const asus_proart_display_pa278cv: MonitorProduct = {
   category: "monitor",
   price_range_usd: [229, 229],
   image_url: "https://i.rtings.com/assets/products/O9c3SKLG/asus-proart-display-pa278cv/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/asus/proart-display-pa278cv",
+  product_url: "https://www.amazon.com/s?k=ASUS+ProArt+Display+PA278CV&tag=gearmatch-20",
   recommendation_tags: ["usb_c_hub","speakers","gsync"],
   data_quality: {
     data_confidence: "high",
@@ -21852,7 +21852,7 @@ const asus_proart_display_pa278qv: MonitorProduct = {
   category: "monitor",
   price_range_usd: [229, 229],
   image_url: "https://i.rtings.com/assets/products/0Hf25MAv/asus-proart-display-pa278qv/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/asus/proart-display-pa278qv",
+  product_url: "https://www.amazon.com/s?k=ASUS+ProArt+Display+PA278QV&tag=gearmatch-20",
   recommendation_tags: ["speakers","gsync"],
   data_quality: {
     data_confidence: "high",
@@ -21939,7 +21939,7 @@ const asus_proart_display_pa279crv: MonitorProduct = {
   category: "monitor",
   price_range_usd: [429, 429],
   image_url: "https://i.rtings.com/assets/products/GxUyxMSa/asus-proart-display-pa279crv/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/asus/proart-display-pa279crv",
+  product_url: "https://www.amazon.com/s?k=ASUS+ProArt+Display+PA279CRV&tag=gearmatch-20",
   recommendation_tags: ["4k","color_accurate","hdr","usb_c_hub","speakers","gsync"],
   data_quality: {
     data_confidence: "high",
@@ -22026,7 +22026,7 @@ const asus_proart_display_pa27jcv: MonitorProduct = {
   category: "monitor",
   price_range_usd: [798, 798],
   image_url: "https://i.rtings.com/assets/products/I1thrune/asus-proart-display-pa27jcv/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/asus/proart-display-pa27jcv",
+  product_url: "https://www.amazon.com/s?k=ASUS+ProArt+Display+PA27JCV&tag=gearmatch-20",
   recommendation_tags: ["color_accurate","hdr","usb_c_hub","kvm","speakers","gsync"],
   data_quality: {
     data_confidence: "high",
@@ -22113,7 +22113,7 @@ const asus_proart_pa148ctv: MonitorProduct = {
   category: "monitor",
   price_range_usd: [359, 359],
   image_url: "https://i.rtings.com/assets/products/3hxOeCfH/asus-proart-pa148ctv/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/asus/proart-pa148ctv",
+  product_url: "https://www.amazon.com/s?k=ASUS+ProArt+PA148CTV&tag=gearmatch-20",
   recommendation_tags: ["speakers","portable"],
   data_quality: {
     data_confidence: "high",
@@ -22200,7 +22200,7 @@ const pixio_px7_prime: MonitorProduct = {
   category: "monitor",
   price_range_usd: [269, 269],
   image_url: "https://i.rtings.com/assets/products/vKWXgLkX/pixio-px7-prime/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/pixio/px7-prime",
+  product_url: "https://www.amazon.com/s?k=Pixio+PX7+Prime&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","hdr","gsync","freesync"],
   data_quality: {
     data_confidence: "high",
@@ -22287,7 +22287,7 @@ const aoc_q27g3xmn: MonitorProduct = {
   category: "monitor",
   price_range_usd: [279, 279],
   image_url: "https://i.rtings.com/assets/products/u0t7sCPJ/aoc-q27g3xmn/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/aoc/q27g3xmn",
+  product_url: "https://www.amazon.com/s?k=AOC+Q27G3XMN&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","gaming","color_accurate","hdr","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -22374,7 +22374,7 @@ const aoc_q27g40xmn: MonitorProduct = {
   category: "monitor",
   price_range_usd: [229, 229],
   image_url: "https://i.rtings.com/assets/products/IEZOnemh/aoc-q27g40xmn/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/aoc/q27g40xmn",
+  product_url: "https://www.amazon.com/s?k=AOC+Q27G40XMN&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","gaming","content_creation","color_accurate","hdr","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -22461,7 +22461,7 @@ const lenovo_q27q_10: MonitorProduct = {
   category: "monitor",
   price_range_usd: [399, 399],
   image_url: "https://i.rtings.com/assets/products/rKKPzkba/lenovo-q27q-10/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/lenovo/q27q-10",
+  product_url: "https://www.amazon.com/s?k=Lenovo+Q27q-10&tag=gearmatch-20",
   recommendation_tags: ["speakers","gsync","freesync"],
   data_quality: {
     data_confidence: "high",
@@ -22548,7 +22548,7 @@ const razer_raptor_27_144hz: MonitorProduct = {
   category: "monitor",
   price_range_usd: [762, 762],
   image_url: "https://i.rtings.com/assets/products/SzwIYTBy/razer-raptor-27-144hz/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/razer/raptor-27-144hz",
+  product_url: "https://www.amazon.com/s?k=Razer+Raptor+27+144Hz&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","hdr","gsync","freesync"],
   data_quality: {
     data_confidence: "high",
@@ -22635,7 +22635,7 @@ const razer_raptor_27_165hz: MonitorProduct = {
   category: "monitor",
   price_range_usd: [432, 432],
   image_url: "https://i.rtings.com/assets/products/nYuLzZGJ/razer-raptor-27-165hz/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/razer/raptor-27-165hz",
+  product_url: "https://www.amazon.com/s?k=Razer+Raptor+27+165Hz&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","hdr","gsync","freesync"],
   data_quality: {
     data_confidence: "high",
@@ -22722,7 +22722,7 @@ const asus_rog_strix_oled_xg27acdng: MonitorProduct = {
   category: "monitor",
   price_range_usd: [679, 679],
   image_url: "https://i.rtings.com/assets/products/JZMvjZBJ/asus-rog-strix-oled-xg27acdng/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/asus/rog-strix-oled-xg27acdng",
+  product_url: "https://www.amazon.com/s?k=ASUS+ROG+Strix+OLED+XG27ACDNG&tag=gearmatch-20",
   recommendation_tags: ["oled","high_refresh","fast_response","gaming","esports","content_creation","color_accurate","hdr","usb_c_hub","kvm","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -22809,7 +22809,7 @@ const asus_rog_strix_oled_xg27aqdmg: MonitorProduct = {
   category: "monitor",
   price_range_usd: [662, 662],
   image_url: "https://i.rtings.com/assets/products/8DGgxKIu/asus-rog-strix-oled-xg27aqdmg/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/asus/rog-strix-oled-xg27aqdmg",
+  product_url: "https://www.amazon.com/s?k=ASUS+ROG+Strix+OLED+XG27AQDMG&tag=gearmatch-20",
   recommendation_tags: ["oled","high_refresh","fast_response","gaming","esports","content_creation","hdr","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -22896,7 +22896,7 @@ const asus_rog_strix_oled_xg32ucwmg: MonitorProduct = {
   category: "monitor",
   price_range_usd: [1582, 1582],
   image_url: "https://i.rtings.com/assets/products/BIvg3SqC/asus-rog-strix-oled-xg32ucwmg/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/asus/rog-strix-oled-xg32ucwmg",
+  product_url: "https://www.amazon.com/s?k=ASUS+ROG+Strix+OLED+XG32UCWMG&tag=gearmatch-20",
   recommendation_tags: ["oled","4k","high_refresh","fast_response","gaming","esports","content_creation","color_accurate","hdr","usb_c_hub","kvm","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -22983,7 +22983,7 @@ const asus_rog_strix_xg16ahpe: MonitorProduct = {
   category: "monitor",
   price_range_usd: [385, 385],
   image_url: "https://i.rtings.com/assets/products/QZQI23iX/asus-rog-strix-xg16ahpe/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/asus/rog-strix-xg16ahpe",
+  product_url: "https://www.amazon.com/s?k=ASUS+ROG+Strix+XG16AHPE&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","speakers","gsync","portable"],
   data_quality: {
     data_confidence: "high",
@@ -23070,7 +23070,7 @@ const asus_rog_strix_xg17ahpe: MonitorProduct = {
   category: "monitor",
   price_range_usd: [395, 395],
   image_url: "https://i.rtings.com/assets/products/hFI7bNnl/asus-rog-strix-xg17ahpe/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/asus/rog-strix-xg17ahpe",
+  product_url: "https://www.amazon.com/s?k=ASUS+ROG+Strix+XG17AHPE&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","speakers","gsync","freesync","portable"],
   data_quality: {
     data_confidence: "high",
@@ -23157,7 +23157,7 @@ const asus_rog_strix_xg279q: MonitorProduct = {
   category: "monitor",
   price_range_usd: [617, 617],
   image_url: "https://i.rtings.com/assets/products/ZWTkARvj/asus-rog-strix-xg279q/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/asus/rog-strix-xg279q",
+  product_url: "https://www.amazon.com/s?k=ASUS+ROG+Strix+XG279Q&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","hdr","speakers","gsync"],
   data_quality: {
     data_confidence: "high",
@@ -23244,7 +23244,7 @@ const asus_rog_strix_xg27acs: MonitorProduct = {
   category: "monitor",
   price_range_usd: [299, 299],
   image_url: "https://i.rtings.com/assets/products/b6MKEtMQ/asus-rog-strix-xg27acs/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/asus/rog-strix-xg27acs",
+  product_url: "https://www.amazon.com/s?k=ASUS+ROG+Strix+XG27ACS&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","color_accurate","hdr","usb_c_hub","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -23331,7 +23331,7 @@ const asus_rog_strix_xg27aq: MonitorProduct = {
   category: "monitor",
   price_range_usd: [349, 349],
   image_url: "https://i.rtings.com/assets/products/rbPY1Jis/asus-rog-strix-xg27aq/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/asus/rog-strix-xg27aq",
+  product_url: "https://www.amazon.com/s?k=ASUS+ROG+Strix+XG27AQ&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","hdr","speakers","gsync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -23418,7 +23418,7 @@ const asus_rog_strix_xg27uq: MonitorProduct = {
   category: "monitor",
   price_range_usd: [315, 315],
   image_url: "https://i.rtings.com/assets/products/QDJelU5B/asus-rog-strix-xg27uq/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/asus/rog-strix-xg27uq",
+  product_url: "https://www.amazon.com/s?k=ASUS+ROG+Strix+XG27UQ&tag=gearmatch-20",
   recommendation_tags: ["4k","high_refresh","hdr","gsync"],
   data_quality: {
     data_confidence: "high",
@@ -23505,7 +23505,7 @@ const asus_rog_strix_xg27uqr: MonitorProduct = {
   category: "monitor",
   price_range_usd: [788, 788],
   image_url: "https://i.rtings.com/assets/products/TQa67VLU/asus-rog-strix-xg27uqr/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/asus/rog-strix-xg27uqr",
+  product_url: "https://www.amazon.com/s?k=ASUS+ROG+Strix+XG27UQR&tag=gearmatch-20",
   recommendation_tags: ["4k","high_refresh","hdr","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -23592,7 +23592,7 @@ const asus_rog_swift_360hz_pg259qn: MonitorProduct = {
   category: "monitor",
   price_range_usd: [825, 825],
   image_url: "https://i.rtings.com/assets/products/hWiRtdDV/asus-rog-swift-360hz-pg259qn/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/asus/rog-swift-360hz-pg259qn",
+  product_url: "https://www.amazon.com/s?k=ASUS+ROG+Swift+360Hz+PG259QN&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","hdr","gsync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -23679,7 +23679,7 @@ const asus_rog_swift_360hz_pg27aqn: MonitorProduct = {
   category: "monitor",
   price_range_usd: [679, 679],
   image_url: "https://i.rtings.com/assets/products/nlvVooAr/asus-rog-swift-360hz-pg27aqn/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/asus/rog-swift-360hz-pg27aqn",
+  product_url: "https://www.amazon.com/s?k=ASUS+ROG+Swift+360Hz+PG27AQN&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","hdr","gsync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -23766,7 +23766,7 @@ const asus_rog_swift_oled_pg27aqdm: MonitorProduct = {
   category: "monitor",
   price_range_usd: [749, 749],
   image_url: "https://i.rtings.com/assets/products/1kK1PmWU/asus-rog-swift-oled-pg27aqdm/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/asus/rog-swift-oled-pg27aqdm",
+  product_url: "https://www.amazon.com/s?k=ASUS+ROG+Swift+OLED+PG27AQDM&tag=gearmatch-20",
   recommendation_tags: ["oled","high_refresh","fast_response","gaming","esports","content_creation","color_accurate","hdr","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -23853,7 +23853,7 @@ const asus_rog_swift_oled_pg27aqdp: MonitorProduct = {
   category: "monitor",
   price_range_usd: [799, 799],
   image_url: "https://i.rtings.com/assets/products/mQvBvCOz/asus-rog-swift-oled-pg27aqdp/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/asus/rog-swift-oled-pg27aqdp",
+  product_url: "https://www.amazon.com/s?k=ASUS+ROG+Swift+OLED+PG27AQDP&tag=gearmatch-20",
   recommendation_tags: ["oled","high_refresh","fast_response","gaming","esports","content_creation","color_accurate","hdr","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -23940,7 +23940,7 @@ const asus_rog_swift_oled_pg27ucdm: MonitorProduct = {
   category: "monitor",
   price_range_usd: [1199, 1199],
   image_url: "https://i.rtings.com/assets/products/OJanXy77/asus-rog-swift-oled-pg27ucdm/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/asus/rog-swift-oled-pg27ucdm",
+  product_url: "https://www.amazon.com/s?k=ASUS+ROG+Swift+OLED+PG27UCDM&tag=gearmatch-20",
   recommendation_tags: ["oled","4k","high_refresh","fast_response","gaming","esports","content_creation","color_accurate","hdr","usb_c_hub","kvm","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -24027,7 +24027,7 @@ const asus_rog_swift_oled_pg32ucdm: MonitorProduct = {
   category: "monitor",
   price_range_usd: [1243, 1243],
   image_url: "https://i.rtings.com/assets/products/g33RcXth/asus-rog-swift-oled-pg32ucdm/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/asus/rog-swift-oled-pg32ucdm",
+  product_url: "https://www.amazon.com/s?k=ASUS+ROG+Swift+OLED+PG32UCDM&tag=gearmatch-20",
   recommendation_tags: ["oled","4k","high_refresh","fast_response","gaming","esports","content_creation","hdr","usb_c_hub","kvm","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -24114,7 +24114,7 @@ const asus_rog_swift_oled_pg32ucdp: MonitorProduct = {
   category: "monitor",
   price_range_usd: [1188, 1188],
   image_url: "https://i.rtings.com/assets/products/uzV7ZnUi/asus-rog-swift-oled-pg32ucdp/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/asus/rog-swift-oled-pg32ucdp",
+  product_url: "https://www.amazon.com/s?k=ASUS+ROG+Swift+OLED+PG32UCDP&tag=gearmatch-20",
   recommendation_tags: ["oled","4k","high_refresh","fast_response","gaming","esports","content_creation","color_accurate","hdr","usb_c_hub","kvm","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -24201,7 +24201,7 @@ const asus_rog_swift_oled_pg34wcdm: MonitorProduct = {
   category: "monitor",
   price_range_usd: [984, 984],
   image_url: "https://i.rtings.com/assets/products/SHhlP0cI/asus-rog-swift-oled-pg34wcdm/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/asus/rog-swift-oled-pg34wcdm",
+  product_url: "https://www.amazon.com/s?k=ASUS+ROG+Swift+OLED+PG34WCDM&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","fast_response","gaming","esports","content_creation","color_accurate","hdr","curved","ultrawide","usb_c_hub","kvm","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -24288,7 +24288,7 @@ const asus_rog_swift_oled_pg42uq: MonitorProduct = {
   category: "monitor",
   price_range_usd: [1192, 1192],
   image_url: "https://i.rtings.com/assets/products/5i0Hz2U9/asus-rog-swift-oled-pg42uq/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/asus/rog-swift-oled-pg42uq",
+  product_url: "https://www.amazon.com/s?k=ASUS+ROG+Swift+OLED+PG42UQ&tag=gearmatch-20",
   recommendation_tags: ["4k","hdr","speakers","gsync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -24375,7 +24375,7 @@ const asus_rog_swift_pg279q: MonitorProduct = {
   category: "monitor",
   price_range_usd: [742, 742],
   image_url: "https://i.rtings.com/assets/products/hzQF2Tsv/asus-rog-swift-pg279q/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/asus/rog-swift-pg279q",
+  product_url: "https://www.amazon.com/s?k=ASUS+ROG+Swift+PG279Q&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","speakers","gsync"],
   data_quality: {
     data_confidence: "high",
@@ -24462,7 +24462,7 @@ const asus_rog_swift_pg279qm: MonitorProduct = {
   category: "monitor",
   price_range_usd: [829, 829],
   image_url: "https://i.rtings.com/assets/products/muhDpBhD/asus-rog-swift-pg279qm/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/asus/rog-swift-pg279qm",
+  product_url: "https://www.amazon.com/s?k=ASUS+ROG+Swift+PG279QM&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","color_accurate","hdr","speakers","gsync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -24549,7 +24549,7 @@ const asus_rog_swift_pg279qz: MonitorProduct = {
   category: "monitor",
   price_range_usd: [349, 349],
   image_url: "https://i.rtings.com/assets/products/BHD5nWoZ/asus-rog-swift-pg279qz/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/asus/rog-swift-pg279qz",
+  product_url: "https://www.amazon.com/s?k=ASUS+ROG+Swift+PG279QZ&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","speakers","gsync"],
   data_quality: {
     data_confidence: "high",
@@ -24636,7 +24636,7 @@ const asus_rog_swift_pg27uqr: MonitorProduct = {
   category: "monitor",
   price_range_usd: [1406, 1406],
   image_url: "https://i.rtings.com/assets/products/xtjdx9Kd/asus-rog-swift-pg27uqr/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/asus/rog-swift-pg27uqr",
+  product_url: "https://www.amazon.com/s?k=ASUS+ROG+Swift+PG27UQR&tag=gearmatch-20",
   recommendation_tags: ["4k","high_refresh","hdr","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -24723,7 +24723,7 @@ const asus_rog_swift_pg348q: MonitorProduct = {
   category: "monitor",
   price_range_usd: [250, 250],
   image_url: "https://i.rtings.com/assets/products/BbuWq2Ck/asus-rog-swift-pg348q/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/asus/rog-swift-pg348q",
+  product_url: "https://www.amazon.com/s?k=ASUS+ROG+Swift+PG348Q&tag=gearmatch-20",
   recommendation_tags: ["curved","ultrawide","speakers","gsync"],
   data_quality: {
     data_confidence: "high",
@@ -24810,7 +24810,7 @@ const asus_rog_swift_pro_pg248qp: MonitorProduct = {
   category: "monitor",
   price_range_usd: [959, 959],
   image_url: "https://i.rtings.com/assets/products/BibvEJq9/asus-rog-swift-pro-pg248qp/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/asus/rog-swift-pro-pg248qp",
+  product_url: "https://www.amazon.com/s?k=ASUS+ROG+Swift+Pro+PG248QP&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","hdr","gsync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -24897,7 +24897,7 @@ const dell_s2417dg: MonitorProduct = {
   category: "monitor",
   price_range_usd: [150, 300],
   image_url: "https://i.rtings.com/assets/products/kymuSLa4/dell-s2417dg/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/dell/s2417dg",
+  product_url: "https://www.amazon.com/s?k=Dell+S2417DG&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","gsync"],
   data_quality: {
     data_confidence: "high",
@@ -24984,7 +24984,7 @@ const dell_s2419hgf: MonitorProduct = {
   category: "monitor",
   price_range_usd: [100, 200],
   image_url: "https://i.rtings.com/assets/products/CgJR16sM/dell-s2419hgf/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/dell/s2419hgf",
+  product_url: "https://www.amazon.com/s?k=Dell+S2419HGF&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","gsync","freesync"],
   data_quality: {
     data_confidence: "high",
@@ -25071,7 +25071,7 @@ const dell_s2421h: MonitorProduct = {
   category: "monitor",
   price_range_usd: [109, 109],
   image_url: "https://i.rtings.com/assets/products/cmTm9njJ/dell-s2421h/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/dell/s2421h",
+  product_url: "https://www.amazon.com/s?k=Dell+S2421H&tag=gearmatch-20",
   recommendation_tags: ["speakers","freesync"],
   data_quality: {
     data_confidence: "high",
@@ -25158,7 +25158,7 @@ const dell_s2716dg: MonitorProduct = {
   category: "monitor",
   price_range_usd: [799, 799],
   image_url: "https://i.rtings.com/assets/products/ZAiFC5XI/dell-s2716dg/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/dell/s2716dg",
+  product_url: "https://www.amazon.com/s?k=Dell+S2716DG&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","gsync"],
   data_quality: {
     data_confidence: "high",
@@ -25245,7 +25245,7 @@ const dell_s2719dgf: MonitorProduct = {
   category: "monitor",
   price_range_usd: [250, 300],
   image_url: "https://i.rtings.com/assets/products/4r2P7igo/dell-s2719dgf/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/dell/s2719dgf",
+  product_url: "https://www.amazon.com/s?k=Dell+S2719DGF&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","gsync","freesync"],
   data_quality: {
     data_confidence: "high",
@@ -25332,7 +25332,7 @@ const dell_s2721d: MonitorProduct = {
   category: "monitor",
   price_range_usd: [259, 259],
   image_url: "https://i.rtings.com/assets/products/Z34XkpNA/dell-s2721d/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/dell/s2721d",
+  product_url: "https://www.amazon.com/s?k=Dell+S2721D&tag=gearmatch-20",
   recommendation_tags: ["speakers","gsync","freesync"],
   data_quality: {
     data_confidence: "high",
@@ -25419,7 +25419,7 @@ const dell_s2721dgf: MonitorProduct = {
   category: "monitor",
   price_range_usd: [229, 229],
   image_url: "https://i.rtings.com/assets/products/1tGWF8XE/dell-s2721dgf/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/dell/s2721dgf",
+  product_url: "https://www.amazon.com/s?k=Dell+S2721DGF&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","hdr","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -25506,7 +25506,7 @@ const dell_s2721hgf: MonitorProduct = {
   category: "monitor",
   price_range_usd: [329, 329],
   image_url: "https://i.rtings.com/assets/products/56Y8foew/dell-s2721hgf/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/dell/s2721hgf",
+  product_url: "https://www.amazon.com/s?k=Dell+S2721HGF&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","curved","gsync","freesync"],
   data_quality: {
     data_confidence: "high",
@@ -25593,7 +25593,7 @@ const dell_s2721qs: MonitorProduct = {
   category: "monitor",
   price_range_usd: [299, 299],
   image_url: "https://i.rtings.com/assets/products/0S7VeG90/dell-s2721qs/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/dell/s2721qs",
+  product_url: "https://www.amazon.com/s?k=Dell+S2721QS&tag=gearmatch-20",
   recommendation_tags: ["4k","hdr","speakers","gsync","freesync"],
   data_quality: {
     data_confidence: "high",
@@ -25680,7 +25680,7 @@ const dell_s2722dgm: MonitorProduct = {
   category: "monitor",
   price_range_usd: [269, 269],
   image_url: "https://i.rtings.com/assets/products/HDgt1zaQ/dell-s2722dgm/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/dell/s2722dgm",
+  product_url: "https://www.amazon.com/s?k=Dell+S2722DGM&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","curved","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -25767,7 +25767,7 @@ const dell_s2722qc: MonitorProduct = {
   category: "monitor",
   price_range_usd: [329, 329],
   image_url: "https://i.rtings.com/assets/products/O1cPkxSN/dell-s2722qc/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/dell/s2722qc",
+  product_url: "https://www.amazon.com/s?k=Dell+S2722QC&tag=gearmatch-20",
   recommendation_tags: ["4k","hdr","usb_c_hub","speakers","gsync","freesync"],
   data_quality: {
     data_confidence: "high",
@@ -25854,7 +25854,7 @@ const dell_s2725dc: MonitorProduct = {
   category: "monitor",
   price_range_usd: [259, 259],
   image_url: "https://i.rtings.com/assets/products/Z5CKmykh/dell-s2725dc/in-test-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/dell/s2725dc",
+  product_url: "https://www.amazon.com/s?k=Dell+S2725DC&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","gsync"],
   data_quality: {
     data_confidence: "high",
@@ -25941,7 +25941,7 @@ const dell_s2725qc: MonitorProduct = {
   category: "monitor",
   price_range_usd: [315, 315],
   image_url: "https://i.rtings.com/assets/products/XJou44if/dell-s2725qc/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/dell/s2725qc",
+  product_url: "https://www.amazon.com/s?k=Dell+S2725QC&tag=gearmatch-20",
   recommendation_tags: ["4k","color_accurate","hdr","usb_c_hub","speakers","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -26028,7 +26028,7 @@ const dell_s2725qs: MonitorProduct = {
   category: "monitor",
   price_range_usd: [278, 278],
   image_url: "https://i.rtings.com/assets/products/hc7TelR3/dell-s2725qs/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/dell/s2725qs",
+  product_url: "https://www.amazon.com/s?k=Dell+S2725QS&tag=gearmatch-20",
   recommendation_tags: ["4k","color_accurate","hdr","speakers","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -26115,7 +26115,7 @@ const dell_s3219d: MonitorProduct = {
   category: "monitor",
   price_range_usd: [399, 399],
   image_url: "https://i.rtings.com/assets/products/Y8Vd8ezM/dell-s3219d/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/dell/s3219d",
+  product_url: "https://www.amazon.com/s?k=Dell+S3219D&tag=gearmatch-20",
   recommendation_tags: ["speakers","gsync"],
   data_quality: {
     data_confidence: "high",
@@ -26202,7 +26202,7 @@ const dell_s3220dgf: MonitorProduct = {
   category: "monitor",
   price_range_usd: [229, 229],
   image_url: "https://i.rtings.com/assets/products/MagILfIu/dell-s3220dgf/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/dell/s3220dgf",
+  product_url: "https://www.amazon.com/s?k=Dell+S3220DGF&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","hdr","curved","gsync","freesync"],
   data_quality: {
     data_confidence: "high",
@@ -26289,7 +26289,7 @@ const dell_s3221qs: MonitorProduct = {
   category: "monitor",
   price_range_usd: [369, 369],
   image_url: "https://i.rtings.com/assets/products/Cwx44rgo/dell-s3221qs/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/dell/s3221qs",
+  product_url: "https://www.amazon.com/s?k=Dell+S3221QS&tag=gearmatch-20",
   recommendation_tags: ["4k","hdr","curved","speakers","gsync","freesync"],
   data_quality: {
     data_confidence: "high",
@@ -26376,7 +26376,7 @@ const dell_s3222dgm: MonitorProduct = {
   category: "monitor",
   price_range_usd: [369, 369],
   image_url: "https://i.rtings.com/assets/products/GKfHfu82/dell-s3222dgm/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/dell/s3222dgm",
+  product_url: "https://www.amazon.com/s?k=Dell+S3222DGM&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","curved","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -26463,7 +26463,7 @@ const dell_s3225qc: MonitorProduct = {
   category: "monitor",
   price_range_usd: [645, 645],
   image_url: "https://i.rtings.com/assets/products/Dg7sGEDq/dell-s3225qc/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/dell/s3225qc",
+  product_url: "https://www.amazon.com/s?k=Dell+S3225QC&tag=gearmatch-20",
   recommendation_tags: ["oled","4k","fast_response","gaming","content_creation","hdr","usb_c_hub","speakers","gsync","freesync"],
   data_quality: {
     data_confidence: "high",
@@ -26550,7 +26550,7 @@ const dell_s3225qs: MonitorProduct = {
   category: "monitor",
   price_range_usd: [316, 316],
   image_url: "https://i.rtings.com/assets/products/emV7Vqkm/dell-s3225qs/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/dell/s3225qs",
+  product_url: "https://www.amazon.com/s?k=Dell+S3225QS&tag=gearmatch-20",
   recommendation_tags: ["4k","color_accurate","hdr","speakers","gsync","freesync"],
   data_quality: {
     data_confidence: "high",
@@ -26637,7 +26637,7 @@ const dell_s3422dwg: MonitorProduct = {
   category: "monitor",
   price_range_usd: [344, 344],
   image_url: "https://i.rtings.com/assets/products/6RDCghNf/dell-s3422dwg/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/dell/s3422dwg",
+  product_url: "https://www.amazon.com/s?k=Dell+S3422DWG&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","hdr","curved","ultrawide","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -26724,7 +26724,7 @@ const samsung_smart_monitor_m7_m70c_s32cm70: MonitorProduct = {
   category: "monitor",
   price_range_usd: [599, 599],
   image_url: "https://i.rtings.com/assets/products/pzBVBsQG/samsung-smart-monitor-m7-m70c-s32cm70/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/samsung/smart-monitor-m7-m70c-s32cm70",
+  product_url: "https://www.amazon.com/s?k=Samsung+Smart+Monitor+M7%2FM70C+S32CM70&tag=gearmatch-20",
   recommendation_tags: ["4k","hdr","usb_c_hub","speakers"],
   data_quality: {
     data_confidence: "high",
@@ -26811,7 +26811,7 @@ const samsung_smart_monitor_m7_s43bm70: MonitorProduct = {
   category: "monitor",
   price_range_usd: [449, 449],
   image_url: "https://i.rtings.com/assets/products/GW1TbS8y/samsung-smart-monitor-m7-s43bm70/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/samsung/smart-monitor-m7-s43bm70",
+  product_url: "https://www.amazon.com/s?k=Samsung+Smart+Monitor+M7+S43BM70&tag=gearmatch-20",
   recommendation_tags: ["4k","hdr","usb_c_hub","speakers"],
   data_quality: {
     data_confidence: "high",
@@ -26898,7 +26898,7 @@ const samsung_smart_monitor_m80c_s32cm80: MonitorProduct = {
   category: "monitor",
   price_range_usd: [499, 499],
   image_url: "https://i.rtings.com/assets/products/zu6RJm0S/samsung-smart-monitor-m8-m80c-s32cm80/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/samsung/smart-monitor-m8-m80c-s32cm80",
+  product_url: "https://www.amazon.com/s?k=Samsung+Smart+Monitor+M80C+S32CM80&tag=gearmatch-20",
   recommendation_tags: ["4k","hdr","usb_c_hub","speakers"],
   data_quality: {
     data_confidence: "high",
@@ -26985,7 +26985,7 @@ const samsung_smart_monitor_m80d_s32dm80: MonitorProduct = {
   category: "monitor",
   price_range_usd: [499, 499],
   image_url: "https://i.rtings.com/assets/products/zfTcNNjI/samsung-smart-monitor-m8-m80d-s32dm80/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/samsung/smart-monitor-m8-m80d-s32dm80",
+  product_url: "https://www.amazon.com/s?k=Samsung+Smart+Monitor+M80D+S32DM80&tag=gearmatch-20",
   recommendation_tags: ["4k","hdr","usb_c_hub","speakers"],
   data_quality: {
     data_confidence: "high",
@@ -27072,7 +27072,7 @@ const samsung_smart_monitor_m80b_s32bm80: MonitorProduct = {
   category: "monitor",
   price_range_usd: [699, 699],
   image_url: "https://i.rtings.com/assets/products/PQ6rpcM4/samsung-smart-monitor-m8-s32bm80/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/samsung/smart-monitor-m8-s32bm80",
+  product_url: "https://www.amazon.com/s?k=Samsung+Smart+Monitor+M80B+S32BM80&tag=gearmatch-20",
   recommendation_tags: ["4k","hdr","usb_c_hub","speakers"],
   data_quality: {
     data_confidence: "high",
@@ -27159,7 +27159,7 @@ const samsung_space_sr75: MonitorProduct = {
   category: "monitor",
   price_range_usd: [200, 270],
   image_url: "https://i.rtings.com/assets/products/bzI5l0vu/samsung-space-sr75/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/samsung/space-sr75",
+  product_url: "https://www.amazon.com/s?k=Samsung+Space+SR75&tag=gearmatch-20",
   recommendation_tags: ["gsync"],
   data_quality: {
     data_confidence: "high",
@@ -27246,7 +27246,7 @@ const apple_studio_display: MonitorProduct = {
   category: "monitor",
   price_range_usd: [1848, 1848],
   image_url: "https://i.rtings.com/assets/products/Cqhc5EEq/apple-studio-display/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/apple/studio-display",
+  product_url: "https://www.amazon.com/s?k=Apple+Studio+Display&tag=gearmatch-20",
   recommendation_tags: ["color_accurate","usb_c_hub","speakers"],
   data_quality: {
     data_confidence: "high",
@@ -27333,7 +27333,7 @@ const samsung_t55: MonitorProduct = {
   category: "monitor",
   price_range_usd: [150, 170],
   image_url: "https://i.rtings.com/assets/products/QPSZSpkg/samsung-t55/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/samsung/t55",
+  product_url: "https://www.amazon.com/s?k=Samsung+T55&tag=gearmatch-20",
   recommendation_tags: ["curved","speakers","gsync","freesync"],
   data_quality: {
     data_confidence: "high",
@@ -27420,7 +27420,7 @@ const cooler_master_tempest_gp27u: MonitorProduct = {
   category: "monitor",
   price_range_usd: [961, 961],
   image_url: "https://i.rtings.com/assets/products/nUhZ2c6g/cooler-master-tempest-gp27u/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/cooler-master/tempest-gp27u",
+  product_url: "https://www.amazon.com/s?k=Cooler+Master+Tempest+GP27U&tag=gearmatch-20",
   recommendation_tags: ["4k","high_refresh","hdr","usb_c_hub","kvm","speakers","gsync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -27507,7 +27507,7 @@ const lenovo_thinkvision_m14: MonitorProduct = {
   category: "monitor",
   price_range_usd: [259, 259],
   image_url: "https://i.rtings.com/assets/products/3dVQw7GT/lenovo-thinkvision-m14/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/lenovo/thinkvision-m14",
+  product_url: "https://www.amazon.com/s?k=Lenovo+ThinkVision+M14&tag=gearmatch-20",
   recommendation_tags: ["portable"],
   data_quality: {
     data_confidence: "high",
@@ -27594,7 +27594,7 @@ const mobile_pixels_trio: MonitorProduct = {
   category: "monitor",
   price_range_usd: [399, 399],
   image_url: "https://i.rtings.com/assets/products/C9KbA7o8/mobile-pixels-trio/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/mobile-pixels/trio",
+  product_url: "https://www.amazon.com/s?k=Mobile+Pixels+TRIO&tag=gearmatch-20",
   recommendation_tags: ["portable"],
   data_quality: {
     data_confidence: "high",
@@ -27681,7 +27681,7 @@ const asus_tuf_gaming_vg249q1a: MonitorProduct = {
   category: "monitor",
   price_range_usd: [176, 176],
   image_url: "https://i.rtings.com/assets/products/BpFBLafd/asus-tuf-gaming-vg249q1a/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/asus/tuf-gaming-vg249q1a",
+  product_url: "https://www.amazon.com/s?k=ASUS+TUF+Gaming+VG249Q1A&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","speakers","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -27768,7 +27768,7 @@ const asus_tuf_gaming_vg258qm: MonitorProduct = {
   category: "monitor",
   price_range_usd: [184, 184],
   image_url: "https://i.rtings.com/assets/products/TgjYrJ2f/asus-tuf-gaming-vg258qm/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/asus/tuf-gaming-vg258qm",
+  product_url: "https://www.amazon.com/s?k=ASUS+TUF+Gaming+VG258QM&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","hdr","speakers","gsync"],
   data_quality: {
     data_confidence: "high",
@@ -27855,7 +27855,7 @@ const asus_tuf_gaming_vg259qm: MonitorProduct = {
   category: "monitor",
   price_range_usd: [249, 249],
   image_url: "https://i.rtings.com/assets/products/1E3ZgNdz/asus-tuf-gaming-vg259qm/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/asus/tuf-gaming-vg259qm",
+  product_url: "https://www.amazon.com/s?k=ASUS+TUF+Gaming+VG259QM&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","hdr","speakers","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -27942,7 +27942,7 @@ const asus_tuf_gaming_vg27aql1a: MonitorProduct = {
   category: "monitor",
   price_range_usd: [334, 334],
   image_url: "https://i.rtings.com/assets/products/uoc0nVDE/asus-tuf-gaming-vg27aql1a/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/asus/tuf-gaming-vg27aql1a",
+  product_url: "https://www.amazon.com/s?k=ASUS+TUF+Gaming+VG27AQL1A&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","hdr","speakers","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -28029,7 +28029,7 @@ const asus_tuf_gaming_vg27wq1b: MonitorProduct = {
   category: "monitor",
   price_range_usd: [380, 380],
   image_url: "https://i.rtings.com/assets/products/0owe6LxT/asus-tuf-gaming-vg27wq1b/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/asus/tuf-gaming-vg27wq1b",
+  product_url: "https://www.amazon.com/s?k=ASUS+TUF+Gaming+VG27WQ1B&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","hdr","curved","speakers","gsync","freesync"],
   data_quality: {
     data_confidence: "high",
@@ -28116,7 +28116,7 @@ const asus_tuf_gaming_vg34vql1b: MonitorProduct = {
   category: "monitor",
   price_range_usd: [369, 369],
   image_url: "https://i.rtings.com/assets/products/kfINW7jC/asus-tuf-gaming-vg34vql1b/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/asus/tuf-gaming-vg34vql1b",
+  product_url: "https://www.amazon.com/s?k=ASUS+TUF+Gaming+VG34VQL1B&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","hdr","curved","ultrawide","speakers","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -28203,7 +28203,7 @@ const asus_tuf_vg27aq: MonitorProduct = {
   category: "monitor",
   price_range_usd: [279, 279],
   image_url: "https://i.rtings.com/assets/products/9BKzvwWk/asus-tuf-vg27aq/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/asus/tuf-vg27aq",
+  product_url: "https://www.amazon.com/s?k=ASUS+TUF+VG27AQ&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","hdr","speakers","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -28290,7 +28290,7 @@ const asus_tuf_vg27vq: MonitorProduct = {
   category: "monitor",
   price_range_usd: [449, 449],
   image_url: "https://i.rtings.com/assets/products/PWJR8Fzt/asus-tuf-vg27vq/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/asus/tuf-vg27vq",
+  product_url: "https://www.amazon.com/s?k=ASUS+TUF+VG27VQ&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","curved","speakers","gsync","freesync"],
   data_quality: {
     data_confidence: "high",
@@ -28377,7 +28377,7 @@ const asus_tuf_vg32vq: MonitorProduct = {
   category: "monitor",
   price_range_usd: [304, 304],
   image_url: "https://i.rtings.com/assets/products/7vcQypiR/asus-tuf-vg32vq/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/asus/tuf-vg32vq",
+  product_url: "https://www.amazon.com/s?k=ASUS+TUF+VG32VQ&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","hdr","curved","speakers","freesync"],
   data_quality: {
     data_confidence: "high",
@@ -28464,7 +28464,7 @@ const dell_u2415: MonitorProduct = {
   category: "monitor",
   price_range_usd: [585, 585],
   image_url: "https://i.rtings.com/assets/products/kdVmprDu/dell-u2415/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/dell/u2415",
+  product_url: "https://www.amazon.com/s?k=Dell+U2415&tag=gearmatch-20",
   recommendation_tags: ["gsync"],
   data_quality: {
     data_confidence: "high",
@@ -28551,7 +28551,7 @@ const dell_u2515h: MonitorProduct = {
   category: "monitor",
   price_range_usd: [269, 269],
   image_url: "https://i.rtings.com/assets/products/UE4LkcOY/dell-u2515h/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/dell/u2515h",
+  product_url: "https://www.amazon.com/s?k=Dell+U2515H&tag=gearmatch-20",
   recommendation_tags: ["gsync"],
   data_quality: {
     data_confidence: "high",
@@ -28638,7 +28638,7 @@ const dell_u2518d: MonitorProduct = {
   category: "monitor",
   price_range_usd: [269, 269],
   image_url: "https://i.rtings.com/assets/products/dAYlpAt3/dell-u2518d/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/dell/u2518d",
+  product_url: "https://www.amazon.com/s?k=Dell+U2518D&tag=gearmatch-20",
   recommendation_tags: ["hdr"],
   data_quality: {
     data_confidence: "high",
@@ -28725,7 +28725,7 @@ const dell_u2715h: MonitorProduct = {
   category: "monitor",
   price_range_usd: [269, 269],
   image_url: "https://i.rtings.com/assets/products/wzC8ftgv/dell-u2715h/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/dell/u2715h",
+  product_url: "https://www.amazon.com/s?k=Dell+U2715H&tag=gearmatch-20",
   recommendation_tags: ["gsync"],
   data_quality: {
     data_confidence: "high",
@@ -28812,7 +28812,7 @@ const dell_u2717d: MonitorProduct = {
   category: "monitor",
   price_range_usd: [269, 269],
   image_url: "https://i.rtings.com/assets/products/OG4S70tk/dell-u2717d/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/dell/u2717d",
+  product_url: "https://www.amazon.com/s?k=Dell+U2717D&tag=gearmatch-20",
   recommendation_tags: ["gsync"],
   data_quality: {
     data_confidence: "high",
@@ -28899,7 +28899,7 @@ const dell_u2718q: MonitorProduct = {
   category: "monitor",
   price_range_usd: [299, 299],
   image_url: "https://i.rtings.com/assets/products/UJlX0zkh/dell-u2718q/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/dell/u2718q",
+  product_url: "https://www.amazon.com/s?k=Dell+U2718Q&tag=gearmatch-20",
   recommendation_tags: ["4k","hdr"],
   data_quality: {
     data_confidence: "high",
@@ -28986,7 +28986,7 @@ const dell_u2719d: MonitorProduct = {
   category: "monitor",
   price_range_usd: [369, 369],
   image_url: "https://i.rtings.com/assets/products/GUEQfRW8/dell-u2719d/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/dell/u2719d",
+  product_url: "https://www.amazon.com/s?k=Dell+U2719D&tag=gearmatch-20",
   recommendation_tags: ["gsync"],
   data_quality: {
     data_confidence: "high",
@@ -29073,7 +29073,7 @@ const dell_u2723qe: MonitorProduct = {
   category: "monitor",
   price_range_usd: [626, 626],
   image_url: "https://i.rtings.com/assets/products/LfEkmKrO/dell-u2723qe/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/dell/u2723qe",
+  product_url: "https://www.amazon.com/s?k=Dell+U2723QE&tag=gearmatch-20",
   recommendation_tags: ["4k","color_accurate","hdr","usb_c_hub","kvm"],
   data_quality: {
     data_confidence: "high",
@@ -29160,7 +29160,7 @@ const dell_u2725qe: MonitorProduct = {
   category: "monitor",
   price_range_usd: [659, 659],
   image_url: "https://i.rtings.com/assets/products/EJnSIT8d/dell-u2725qe/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/dell/u2725qe",
+  product_url: "https://www.amazon.com/s?k=Dell+U2725QE&tag=gearmatch-20",
   recommendation_tags: ["4k","hdr","usb_c_hub","kvm","gsync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -29247,7 +29247,7 @@ const dell_u3219q: MonitorProduct = {
   category: "monitor",
   price_range_usd: [1029, 1029],
   image_url: "https://i.rtings.com/assets/products/lYbPvW83/dell-u3219q/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/dell/u3219q",
+  product_url: "https://www.amazon.com/s?k=Dell+U3219Q&tag=gearmatch-20",
   recommendation_tags: ["4k","hdr"],
   data_quality: {
     data_confidence: "high",
@@ -29334,7 +29334,7 @@ const dell_u3223qe: MonitorProduct = {
   category: "monitor",
   price_range_usd: [818, 818],
   image_url: "https://i.rtings.com/assets/products/fy0dUinh/dell-u3223qe/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/dell/u3223qe",
+  product_url: "https://www.amazon.com/s?k=Dell+U3223QE&tag=gearmatch-20",
   recommendation_tags: ["4k","content_creation","color_accurate","hdr","usb_c_hub","kvm"],
   data_quality: {
     data_confidence: "high",
@@ -29421,7 +29421,7 @@ const dell_u3225qe: MonitorProduct = {
   category: "monitor",
   price_range_usd: [1029, 1029],
   image_url: "https://i.rtings.com/assets/products/L59W3KZp/dell-u3225qe/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/dell/u3225qe",
+  product_url: "https://www.amazon.com/s?k=Dell+U3225QE&tag=gearmatch-20",
   recommendation_tags: ["4k","content_creation","color_accurate","hdr","usb_c_hub","kvm","gsync"],
   data_quality: {
     data_confidence: "high",
@@ -29508,7 +29508,7 @@ const samsung_u32j590: MonitorProduct = {
   category: "monitor",
   price_range_usd: [219, 219],
   image_url: "https://i.rtings.com/assets/products/nLQaQDxm/samsung-u32j590/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/samsung/u32j590",
+  product_url: "https://www.amazon.com/s?k=Samsung+U32J590&tag=gearmatch-20",
   recommendation_tags: ["4k","gsync","freesync"],
   data_quality: {
     data_confidence: "high",
@@ -29595,7 +29595,7 @@ const dell_u3417w: MonitorProduct = {
   category: "monitor",
   price_range_usd: [399, 399],
   image_url: "https://i.rtings.com/assets/products/QR2JFpzY/dell-u3417w/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/dell/u3417w",
+  product_url: "https://www.amazon.com/s?k=Dell+U3417W&tag=gearmatch-20",
   recommendation_tags: ["curved","ultrawide","speakers","gsync"],
   data_quality: {
     data_confidence: "high",
@@ -29682,7 +29682,7 @@ const dell_u3425we: MonitorProduct = {
   category: "monitor",
   price_range_usd: [779, 779],
   image_url: "https://i.rtings.com/assets/products/PH2mKSQo/dell-u3425we/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/dell/u3425we",
+  product_url: "https://www.amazon.com/s?k=Dell+U3425WE&tag=gearmatch-20",
   recommendation_tags: ["color_accurate","curved","ultrawide","usb_c_hub","kvm","speakers","gsync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -29769,7 +29769,7 @@ const dell_u3818dw: MonitorProduct = {
   category: "monitor",
   price_range_usd: [1349, 1349],
   image_url: "https://i.rtings.com/assets/products/NtL9XAPD/dell-u3818dw/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/dell/u3818dw",
+  product_url: "https://www.amazon.com/s?k=Dell+U3818DW&tag=gearmatch-20",
   recommendation_tags: ["4k","curved","ultrawide","speakers"],
   data_quality: {
     data_confidence: "high",
@@ -29856,7 +29856,7 @@ const dell_u4025qw: MonitorProduct = {
   category: "monitor",
   price_range_usd: [1838, 1838],
   image_url: "https://i.rtings.com/assets/products/NV0UEOvn/dell-u4025qw/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/dell/u4025qw",
+  product_url: "https://www.amazon.com/s?k=Dell+U4025QW&tag=gearmatch-20",
   recommendation_tags: ["content_creation","color_accurate","hdr","curved","ultrawide","usb_c_hub","kvm","speakers","gsync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -29943,7 +29943,7 @@ const dell_u4919dw: MonitorProduct = {
   category: "monitor",
   price_range_usd: [1229, 1229],
   image_url: "https://i.rtings.com/assets/products/07ykLpj0/dell-u4919dw/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/dell/u4919dw",
+  product_url: "https://www.amazon.com/s?k=Dell+U4919DW&tag=gearmatch-20",
   recommendation_tags: ["curved","ultrawide","gsync"],
   data_quality: {
     data_confidence: "high",
@@ -30030,7 +30030,7 @@ const samsung_ue590: MonitorProduct = {
   category: "monitor",
   price_range_usd: [339, 339],
   image_url: "https://i.rtings.com/assets/products/rbnUXhbF/samsung-ue590/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/samsung/ue590",
+  product_url: "https://www.amazon.com/s?k=Samsung+UE590&tag=gearmatch-20",
   recommendation_tags: ["4k","freesync"],
   data_quality: {
     data_confidence: "high",
@@ -30117,7 +30117,7 @@ const lg_ultrafine_4k: MonitorProduct = {
   category: "monitor",
   price_range_usd: [374, 374],
   image_url: "https://i.rtings.com/assets/products/XcIkeJMh/lg-ultrafine-4k/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/lg/ultrafine-4k",
+  product_url: "https://www.amazon.com/s?k=LG+UltraFine+4k&tag=gearmatch-20",
   recommendation_tags: ["4k","speakers","gsync"],
   data_quality: {
     data_confidence: "high",
@@ -30204,7 +30204,7 @@ const dell_ultrasharp_u2520d: MonitorProduct = {
   category: "monitor",
   price_range_usd: [469, 469],
   image_url: "https://i.rtings.com/assets/products/UqZHZNXM/dell-ultrasharp-u2520d/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/dell/ultrasharp-u2520d",
+  product_url: "https://www.amazon.com/s?k=Dell+UltraSharp+U2520D&tag=gearmatch-20",
   recommendation_tags: ["hdr"],
   data_quality: {
     data_confidence: "high",
@@ -30291,7 +30291,7 @@ const dell_ultrasharp_u2720q: MonitorProduct = {
   category: "monitor",
   price_range_usd: [618, 618],
   image_url: "https://i.rtings.com/assets/products/U2Ut7yZC/dell-ultrasharp-u2720q/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/dell/ultrasharp-u2720q",
+  product_url: "https://www.amazon.com/s?k=Dell+UltraSharp+U2720Q&tag=gearmatch-20",
   recommendation_tags: ["4k","hdr","usb_c_hub"],
   data_quality: {
     data_confidence: "high",
@@ -30378,7 +30378,7 @@ const dell_ultrasharp_u2721de: MonitorProduct = {
   category: "monitor",
   price_range_usd: [375, 580],
   image_url: "https://i.rtings.com/assets/products/3wGz1392/dell-ultrasharp-u2721de/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/dell/ultrasharp-u2721de",
+  product_url: "https://www.amazon.com/s?k=Dell+UltraSharp+U2721DE&tag=gearmatch-20",
   recommendation_tags: [],
   data_quality: {
     data_confidence: "high",
@@ -30465,7 +30465,7 @@ const dell_ultrasharp_u4021qw: MonitorProduct = {
   category: "monitor",
   price_range_usd: [1500, 1800],
   image_url: "https://i.rtings.com/assets/products/yocoPB5x/dell-ultrasharp-u4021qw/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/dell/ultrasharp-u4021qw",
+  product_url: "https://www.amazon.com/s?k=Dell+UltraSharp+U4021QW&tag=gearmatch-20",
   recommendation_tags: ["curved","ultrawide","speakers"],
   data_quality: {
     data_confidence: "high",
@@ -30552,7 +30552,7 @@ const viewsonic_vg1655: MonitorProduct = {
   category: "monitor",
   price_range_usd: [199, 199],
   image_url: "https://i.rtings.com/assets/products/SwqmymzV/viewsonic-vg1655/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/viewsonic/vg1655",
+  product_url: "https://www.amazon.com/s?k=ViewSonic+VG1655&tag=gearmatch-20",
   recommendation_tags: ["speakers","portable"],
   data_quality: {
     data_confidence: "high",
@@ -30639,7 +30639,7 @@ const asus_vg245h: MonitorProduct = {
   category: "monitor",
   price_range_usd: [84, 84],
   image_url: "https://i.rtings.com/assets/products/ZY8vdQ7R/asus-vg245h/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/asus/vg245h",
+  product_url: "https://www.amazon.com/s?k=ASUS+VG245H&tag=gearmatch-20",
   recommendation_tags: ["speakers","freesync"],
   data_quality: {
     data_confidence: "high",
@@ -30726,7 +30726,7 @@ const asus_vg246h: MonitorProduct = {
   category: "monitor",
   price_range_usd: [232, 232],
   image_url: "https://i.rtings.com/assets/products/xVj9N06Y/asus-vg246h/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/asus/vg246h",
+  product_url: "https://www.amazon.com/s?k=ASUS+VG246H&tag=gearmatch-20",
   recommendation_tags: ["speakers","freesync"],
   data_quality: {
     data_confidence: "high",
@@ -30813,7 +30813,7 @@ const asus_vg248qe: MonitorProduct = {
   category: "monitor",
   price_range_usd: [321, 321],
   image_url: "https://i.rtings.com/assets/products/ibCC2389/asus-vg248qe/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/asus/vg248qe",
+  product_url: "https://www.amazon.com/s?k=ASUS+VG248QE&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","speakers"],
   data_quality: {
     data_confidence: "high",
@@ -30900,7 +30900,7 @@ const asus_vg248qg: MonitorProduct = {
   category: "monitor",
   price_range_usd: [309, 309],
   image_url: "https://i.rtings.com/assets/products/tNfrMgCX/asus-vg248qg/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/asus/vg248qg",
+  product_url: "https://www.amazon.com/s?k=ASUS+VG248QG&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","speakers","gsync","freesync"],
   data_quality: {
     data_confidence: "high",
@@ -30987,7 +30987,7 @@ const asus_vg279q: MonitorProduct = {
   category: "monitor",
   price_range_usd: [349, 349],
   image_url: "https://i.rtings.com/assets/products/ACc3nzdx/asus-vg279q/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/asus/vg279q",
+  product_url: "https://www.amazon.com/s?k=ASUS+VG279Q&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","speakers","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -31074,7 +31074,7 @@ const asus_vg279qm: MonitorProduct = {
   category: "monitor",
   price_range_usd: [220, 250],
   image_url: "https://i.rtings.com/assets/products/nvfS0m1d/asus-vg279qm/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/asus/vg279qm",
+  product_url: "https://www.amazon.com/s?k=ASUS+VG279QM&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","hdr","speakers","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -31161,7 +31161,7 @@ const viewsonic_vx2758_2kp_mhd: MonitorProduct = {
   category: "monitor",
   price_range_usd: [269, 269],
   image_url: "https://i.rtings.com/assets/products/kV7qsNG0/viewsonic-vx2758-2kp-mhd/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/viewsonic/vx2758-2kp-mhd",
+  product_url: "https://www.amazon.com/s?k=ViewSonic+VX2758-2KP-MHD&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","speakers","gsync","freesync"],
   data_quality: {
     data_confidence: "high",
@@ -31248,7 +31248,7 @@ const hp_x24ih: MonitorProduct = {
   category: "monitor",
   price_range_usd: [329, 329],
   image_url: "https://i.rtings.com/assets/products/L4wwEZGj/hp-x24ih/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/hp/x24ih",
+  product_url: "https://www.amazon.com/s?k=HP+X24ih&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","gsync","freesync"],
   data_quality: {
     data_confidence: "high",
@@ -31335,7 +31335,7 @@ const hp_x27q: MonitorProduct = {
   category: "monitor",
   price_range_usd: [389, 389],
   image_url: "https://i.rtings.com/assets/products/PKNxn7qH/hp-x27q/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/hp/x27q",
+  product_url: "https://www.amazon.com/s?k=HP+X27q&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","hdr","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -31422,7 +31422,7 @@ const corsair_xeneon_27qhd240: MonitorProduct = {
   category: "monitor",
   price_range_usd: [1021, 1021],
   image_url: "https://i.rtings.com/assets/products/dmvk6IvV/corsair-xeneon-27qhd240/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/corsair/xeneon-27qhd240",
+  product_url: "https://www.amazon.com/s?k=Corsair+XENEON+27QHD240&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","fast_response","gaming","esports","content_creation","hdr","usb_c_hub","kvm","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -31509,7 +31509,7 @@ const corsair_xeneon_32qhd165: MonitorProduct = {
   category: "monitor",
   price_range_usd: [801, 801],
   image_url: "https://i.rtings.com/assets/products/iPMgZI7H/corsair-xeneon-32qhd165/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/corsair/xeneon-32qhd165",
+  product_url: "https://www.amazon.com/s?k=Corsair+XENEON+32QHD165&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","hdr","gsync","freesync"],
   data_quality: {
     data_confidence: "high",
@@ -31596,7 +31596,7 @@ const corsair_xeneon_flex_45wqhd240: MonitorProduct = {
   category: "monitor",
   price_range_usd: [2198, 2198],
   image_url: "https://i.rtings.com/assets/products/dWD9Pg4Q/corsair-xeneon-flex-45wqhd240/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/corsair/xeneon-flex-45wqhd240",
+  product_url: "https://www.amazon.com/s?k=Corsair+XENEON+FLEX+45WQHD240&tag=gearmatch-20",
   recommendation_tags: ["oled","high_refresh","fast_response","gaming","esports","content_creation","color_accurate","hdr","curved","ultrawide","usb_c_hub","kvm","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -31683,7 +31683,7 @@ const acer_xf251q_bmiirx: MonitorProduct = {
   category: "monitor",
   price_range_usd: [343, 343],
   image_url: "https://i.rtings.com/assets/products/BmXcTt8O/acer-xf251q-bmiirx/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/acer/xf251q-bmiirx",
+  product_url: "https://www.amazon.com/s?k=Acer+XF251Q+Bmiirx&tag=gearmatch-20",
   recommendation_tags: ["speakers","gsync"],
   data_quality: {
     data_confidence: "high",
@@ -31770,7 +31770,7 @@ const viewsonic_xg2402: MonitorProduct = {
   category: "monitor",
   price_range_usd: [629, 629],
   image_url: "https://i.rtings.com/assets/products/e498lCsN/viewsonic-xg2402/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/viewsonic/xg2402",
+  product_url: "https://www.amazon.com/s?k=ViewSonic+XG2402&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","speakers","gsync","freesync"],
   data_quality: {
     data_confidence: "high",
@@ -31857,7 +31857,7 @@ const viewsonic_xg2431: MonitorProduct = {
   category: "monitor",
   price_range_usd: [239, 239],
   image_url: "https://i.rtings.com/assets/products/zphMAF48/viewsonic-xg2431/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/viewsonic/xg2431",
+  product_url: "https://www.amazon.com/s?k=ViewSonic+XG2431&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","color_accurate","hdr","speakers","gsync","freesync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -31944,7 +31944,7 @@ const lepow_z1_gamut: MonitorProduct = {
   category: "monitor",
   price_range_usd: [269, 269],
   image_url: "https://i.rtings.com/assets/products/xqPRp1Am/lepow-z1-gamut/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/lepow/z1-gamut",
+  product_url: "https://www.amazon.com/s?k=Lepow+Z1+Gamut&tag=gearmatch-20",
   recommendation_tags: ["hdr","usb_c_hub","speakers","portable"],
   data_quality: {
     data_confidence: "high",
@@ -32031,7 +32031,7 @@ const lepow_z1: MonitorProduct = {
   category: "monitor",
   price_range_usd: [229, 229],
   image_url: "https://i.rtings.com/assets/products/4KMCJzww/lepow-z1/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/lepow/z1",
+  product_url: "https://www.amazon.com/s?k=Lepow+Z1&tag=gearmatch-20",
   recommendation_tags: ["hdr","speakers","portable"],
   data_quality: {
     data_confidence: "high",
@@ -32118,7 +32118,7 @@ const asus_zenscreen_go_mb16ahp: MonitorProduct = {
   category: "monitor",
   price_range_usd: [279, 279],
   image_url: "https://i.rtings.com/assets/products/PgLXlmRY/asus-zenscreen-go-mb16ahp/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/asus/zenscreen-go-mb16ahp",
+  product_url: "https://www.amazon.com/s?k=ASUS+ZenScreen+Go+MB16AHP&tag=gearmatch-20",
   recommendation_tags: ["speakers","portable"],
   data_quality: {
     data_confidence: "high",
@@ -32205,7 +32205,7 @@ const asus_zenscreen_mb14ac: MonitorProduct = {
   category: "monitor",
   price_range_usd: [190, 190],
   image_url: "https://i.rtings.com/assets/products/j8cXMmVo/asus-zenscreen-mb14ac/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/asus/zenscreen-mb14ac",
+  product_url: "https://www.amazon.com/s?k=ASUS+ZenScreen+MB14AC&tag=gearmatch-20",
   recommendation_tags: ["portable"],
   data_quality: {
     data_confidence: "high",
@@ -32292,7 +32292,7 @@ const asus_zenscreen_touch_mb16amt: MonitorProduct = {
   category: "monitor",
   price_range_usd: [211, 211],
   image_url: "https://i.rtings.com/assets/products/FD8CAyg6/asus-zenscreen-touch-mb16amt/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/asus/zenscreen-touch-mb16amt",
+  product_url: "https://www.amazon.com/s?k=ASUS+ZenScreen+Touch+MB16AMT&tag=gearmatch-20",
   recommendation_tags: ["speakers","portable"],
   data_quality: {
     data_confidence: "high",
@@ -32379,7 +32379,7 @@ const benq_zowie_xl2411p: MonitorProduct = {
   category: "monitor",
   price_range_usd: [129, 129],
   image_url: "https://i.rtings.com/assets/products/OCYMWgzX/benq-zowie-xl2411p/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/benq/zowie-xl2411p",
+  product_url: "https://www.amazon.com/s?k=BenQ+ZOWIE+XL2411P&tag=gearmatch-20",
   recommendation_tags: ["high_refresh"],
   data_quality: {
     data_confidence: "high",
@@ -32466,7 +32466,7 @@ const benq_zowie_xl2540: MonitorProduct = {
   category: "monitor",
   price_range_usd: [320, 350],
   image_url: "https://i.rtings.com/assets/products/xVHMD6OX/benq-zowie-xl2540/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/benq/zowie-xl2540",
+  product_url: "https://www.amazon.com/s?k=BenQ+ZOWIE+XL2540&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","gsync","freesync"],
   data_quality: {
     data_confidence: "high",
@@ -32553,7 +32553,7 @@ const benq_zowie_xl2546k: MonitorProduct = {
   category: "monitor",
   price_range_usd: [499, 499],
   image_url: "https://i.rtings.com/assets/products/6LGE0Gi5/benq-zowie-xl2546k/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/benq/zowie-xl2546k",
+  product_url: "https://www.amazon.com/s?k=BenQ+ZOWIE+XL2546K&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","gsync","freesync"],
   data_quality: {
     data_confidence: "high",
@@ -32640,7 +32640,7 @@ const benq_zowie_xl2546x: MonitorProduct = {
   category: "monitor",
   price_range_usd: [499, 499],
   image_url: "https://i.rtings.com/assets/products/iZbvI0Cz/benq-zowie-xl2546x/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/benq/zowie-xl2546x",
+  product_url: "https://www.amazon.com/s?k=BenQ+ZOWIE+XL2546X&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","gsync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -32727,7 +32727,7 @@ const benq_zowie_xl2566k: MonitorProduct = {
   category: "monitor",
   price_range_usd: [649, 649],
   image_url: "https://i.rtings.com/assets/products/DIRjZWvz/benq-zowie-xl2566k/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/benq/zowie-xl2566k",
+  product_url: "https://www.amazon.com/s?k=BenQ+ZOWIE+XL2566K&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","gsync","low_input_lag"],
   data_quality: {
     data_confidence: "high",
@@ -32814,7 +32814,7 @@ const benq_zowie_xl2586x: MonitorProduct = {
   category: "monitor",
   price_range_usd: [999, 999],
   image_url: "https://i.rtings.com/assets/products/71xxOQKN/benq-zowie-xl2586x/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/monitor/reviews/benq/zowie-xl2586x",
+  product_url: "https://www.amazon.com/s?k=BenQ+ZOWIE+XL2586X&tag=gearmatch-20",
   recommendation_tags: ["high_refresh","gsync","low_input_lag"],
   data_quality: {
     data_confidence: "high",

@@ -18,7 +18,7 @@ export const razerViperV3Pro: MouseProduct = {
   category: "mouse",
   price_range_usd: [150, 180],
   image_url: undefined,
-  product_url: undefined,
+  product_url: "https://www.amazon.com/s?k=Razer+Viper+V3+Pro&tag=gearmatch-20",
   recommendation_tags: [
     "top_tier_competitive_fps",
     "ultralight",
@@ -74,7 +74,7 @@ export const logitechGProXSuperlight2: MouseProduct = {
   category: "mouse",
   price_range_usd: [150, 160],
   image_url: undefined,
-  product_url: undefined,
+  product_url: "https://www.amazon.com/s?k=Logitech+G+Pro+X+Superlight+2&tag=gearmatch-20",
   recommendation_tags: [
     "top_tier_competitive_fps",
     "ultralight",
@@ -130,7 +130,7 @@ export const pulsarX2: MouseProduct = {
   category: "mouse",
   price_range_usd: [90, 110],
   image_url: undefined,
-  product_url: undefined,
+  product_url: "https://www.amazon.com/s?k=Pulsar+X2&tag=gearmatch-20",
   recommendation_tags: [
     "competitive_fps",
     "ultralight",
@@ -186,7 +186,7 @@ export const endgameGearOp1_8k: MouseProduct = {
   category: "mouse",
   price_range_usd: [70, 100],
   image_url: undefined,
-  product_url: undefined,
+  product_url: "https://www.amazon.com/s?k=Endgame+Gear+OP1+8k&tag=gearmatch-20",
   recommendation_tags: [
     "competitive_fps",
     "wired",
@@ -242,7 +242,7 @@ export const hitscanHyperlight: MouseProduct = {
   category: "mouse",
   price_range_usd: [70, 120],
   image_url: undefined,
-  product_url: undefined,
+  product_url: "https://www.amazon.com/s?k=Hitscan+Hyperlight&tag=gearmatch-20",
   recommendation_tags: [
     "ultralight",
     "competitive_fps",
@@ -298,7 +298,7 @@ export const scyroxV8: MouseProduct = {
   category: "mouse",
   price_range_usd: [60, 100],
   image_url: undefined,
-  product_url: undefined,
+  product_url: "https://www.amazon.com/s?k=Scyrox+V8&tag=gearmatch-20",
   recommendation_tags: [
     "competitive_fps",
     "ultralight",
@@ -354,7 +354,7 @@ export const ninjutsoSoraV2: MouseProduct = {
   category: "mouse",
   price_range_usd: [70, 100],
   image_url: undefined,
-  product_url: undefined,
+  product_url: "https://www.amazon.com/s?k=Ninjutso+Sora+V2&tag=gearmatch-20",
   recommendation_tags: [
     "competitive_fps",
     "ultralight",
@@ -410,7 +410,7 @@ export const atkBlazingSkyU2Ultimate: MouseProduct = {
   category: "mouse",
   price_range_usd: [55, 80],
   image_url: undefined,
-  product_url: undefined,
+  product_url: "https://www.amazon.com/s?k=ATK+Blazing+Sky+U2+Ultimate&tag=gearmatch-20",
   recommendation_tags: [
     "competitive_fps",
     "ultralight",
@@ -466,7 +466,7 @@ export const logitechGProXSuperlight2SE: MouseProduct = {
   category: "mouse",
   price_range_usd: [100, 140],
   image_url: undefined,
-  product_url: undefined,
+  product_url: "https://www.amazon.com/s?k=Logitech+G+PRO+X+SUPERLIGHT+2+SE&tag=gearmatch-20",
   recommendation_tags: [
     "competitive_fps",
     "ultralight",
@@ -521,7 +521,7 @@ export const endgameGearOp1_8kV2: MouseProduct = {
   category: "mouse",
   price_range_usd: [70, 90],
   image_url: undefined,
-  product_url: undefined,
+  product_url: "https://www.amazon.com/s?k=Endgame+Gear+OP1+8k+v2&tag=gearmatch-20",
   recommendation_tags: [
     "competitive_fps",
     "wired",
@@ -577,7 +577,7 @@ export const mchoseL7Ultra: MouseProduct = {
   category: "mouse",
   price_range_usd: [45, 70],
   image_url: undefined,
-  product_url: undefined,
+  product_url: "https://www.amazon.com/s?k=MCHOSE+L7+Ultra&tag=gearmatch-20",
   recommendation_tags: [
     "competitive_fps",
     "ultralight",
@@ -633,7 +633,7 @@ export const mchoseL7Pro: MouseProduct = {
   category: "mouse",
   price_range_usd: [30, 45],
   image_url: undefined,
-  product_url: undefined,
+  product_url: "https://www.amazon.com/s?k=MCHOSE+L7+Pro&tag=gearmatch-20",
   recommendation_tags: ["competitive_fps", "ultralight", "8k_polling", "value_pick"],
   data_quality: {
     data_confidence: "high",
@@ -687,7 +687,7 @@ export const roccatKonePro: MouseProduct = {
   category: "mouse",
   price_range_usd: [50, 80],
   image_url: undefined,
-  product_url: undefined,
+  product_url: "https://www.amazon.com/s?k=ROCCAT+Kone+Pro&tag=gearmatch-20",
   recommendation_tags: [
     "competitive_fps",
     "lightweight",
@@ -743,7 +743,7 @@ export const steelseriesPrime: MouseProduct = {
   category: "mouse",
   price_range_usd: [50, 70],
   image_url: undefined,
-  product_url: undefined,
+  product_url: "https://www.amazon.com/s?k=SteelSeries+Prime&tag=gearmatch-20",
   recommendation_tags: ["competitive_fps", "wired", "ultralight", "value_pick"],
   data_quality: {
     data_confidence: "high",
@@ -797,7 +797,7 @@ export const razerCobra: MouseProduct = {
   category: "mouse",
   price_range_usd: [30, 50],
   image_url: undefined,
-  product_url: undefined,
+  product_url: "https://www.amazon.com/s?k=Razer+Cobra&tag=gearmatch-20",
   recommendation_tags: [
     "budget",
     "wired",
@@ -853,7 +853,7 @@ export const logitechG203: MouseProduct = {
   category: "mouse",
   price_range_usd: [30, 45],
   image_url: undefined,
-  product_url: undefined,
+  product_url: "https://www.amazon.com/s?k=Logitech+G203+LIGHTSYNC&tag=gearmatch-20",
   recommendation_tags: ["budget_gaming", "wired", "value_pick", "rgb"],
   data_quality: {
     data_confidence: "high",
@@ -903,7 +903,7 @@ export const logitechG305: MouseProduct = {
   category: "mouse",
   price_range_usd: [30, 55],
   image_url: undefined,
-  product_url: undefined,
+  product_url: "https://www.amazon.com/s?k=Logitech+G305+LIGHTSPEED&tag=gearmatch-20",
   recommendation_tags: [
     "wireless_gaming",
     "value_pick",
@@ -958,7 +958,7 @@ export const keychronM3Mini: MouseProduct = {
   category: "mouse",
   price_range_usd: [40, 60],
   image_url: undefined,
-  product_url: undefined,
+  product_url: "https://www.amazon.com/s?k=Keychron+M3+Mini&tag=gearmatch-20",
   recommendation_tags: [
     "competitive_fps",
     "ultralight",
@@ -1013,7 +1013,7 @@ export const logitechM100: MouseProduct = {
   category: "mouse",
   price_range_usd: [8, 15],
   image_url: undefined,
-  product_url: undefined,
+  product_url: "https://www.amazon.com/s?k=Logitech+M100&tag=gearmatch-20",
   recommendation_tags: ["basic", "budget", "wired"],
   data_quality: {
     data_confidence: "high",
@@ -1067,7 +1067,7 @@ export const razerViperV3HyperSpeed: MouseProduct = {
   category: "mouse",
   price_range_usd: [60, 90],
   image_url: undefined,
-  product_url: undefined,
+  product_url: "https://www.amazon.com/s?k=Razer+Viper+V3+HyperSpeed&tag=gearmatch-20",
   recommendation_tags: [
     "wireless_gaming",
     "competitive_fps",
@@ -1122,7 +1122,7 @@ export const corsairHarpoonRGBWireless: MouseProduct = {
   category: "mouse",
   price_range_usd: [30, 50],
   image_url: undefined,
-  product_url: undefined,
+  product_url: "https://www.amazon.com/s?k=Corsair+HARPOON+RGB+Wireless&tag=gearmatch-20",
   recommendation_tags: [
     "budget",
     "wireless_gaming",
@@ -1177,7 +1177,7 @@ export const logitechM240: MouseProduct = {
   category: "mouse",
   price_range_usd: [20, 30],
   image_url: undefined,
-  product_url: undefined,
+  product_url: "https://www.amazon.com/s?k=Logitech+M240&tag=gearmatch-20",
   recommendation_tags: ["portable", "silent_clicks", "budget", "wireless"],
   data_quality: {
     data_confidence: "high",
@@ -1231,7 +1231,7 @@ export const corsairM75Air: MouseProduct = {
   category: "mouse",
   price_range_usd: [100, 140],
   image_url: undefined,
-  product_url: undefined,
+  product_url: "https://www.amazon.com/s?k=Corsair+M75+AIR&tag=gearmatch-20",
   recommendation_tags: [
     "wireless_gaming",
     "competitive_fps",
@@ -1290,7 +1290,7 @@ export const logitechG502X: MouseProduct = {
   category: "mouse",
   price_range_usd: [60, 90],
   image_url: undefined,
-  product_url: undefined,
+  product_url: "https://www.amazon.com/s?k=Logitech+G502+X&tag=gearmatch-20",
   recommendation_tags: [
     "wired",
     "ergo",
@@ -1346,7 +1346,7 @@ export const logitechG502XPlus: MouseProduct = {
   category: "mouse",
   price_range_usd: [110, 170],
   image_url: undefined,
-  product_url: undefined,
+  product_url: "https://www.amazon.com/s?k=Logitech+G502+X+PLUS&tag=gearmatch-20",
   recommendation_tags: [
     "wireless_gaming",
     "ergo",
@@ -1402,7 +1402,7 @@ export const logitechG502Hero: MouseProduct = {
   category: "mouse",
   price_range_usd: [40, 60],
   image_url: undefined,
-  product_url: undefined,
+  product_url: "https://www.amazon.com/s?k=Logitech+G502+HERO&tag=gearmatch-20",
   recommendation_tags: ["feature_rich", "wired", "value_pick", "adjustable_weight"],
   data_quality: {
     data_confidence: "high",
@@ -1452,7 +1452,7 @@ export const razerBasiliskV3: MouseProduct = {
   category: "mouse",
   price_range_usd: [40, 80],
   image_url: undefined,
-  product_url: undefined,
+  product_url: "https://www.amazon.com/s?k=Razer+Basilisk+V3&tag=gearmatch-20",
   recommendation_tags: [
     "ergo",
     "productivity",
@@ -1508,7 +1508,7 @@ export const razerBasiliskV3XHyperSpeed: MouseProduct = {
   category: "mouse",
   price_range_usd: [60, 80],
   image_url: undefined,
-  product_url: undefined,
+  product_url: "https://www.amazon.com/s?k=Razer+Basilisk+V3+X+HyperSpeed&tag=gearmatch-20",
   recommendation_tags: ["wireless", "ergonomic", "value_pick", "multi_genre"],
   data_quality: {
     data_confidence: "high",
@@ -1562,7 +1562,7 @@ export const razerNagaPro: MouseProduct = {
   category: "mouse",
   price_range_usd: [100, 150],
   image_url: undefined,
-  product_url: undefined,
+  product_url: "https://www.amazon.com/s?k=Razer+Naga+Pro&tag=gearmatch-20",
   recommendation_tags: [
     "mmo_buttons",
     "wireless_gaming",
@@ -1617,7 +1617,7 @@ export const razerNagaV2Pro: MouseProduct = {
   category: "mouse",
   price_range_usd: [150, 200],
   image_url: undefined,
-  product_url: undefined,
+  product_url: "https://www.amazon.com/s?k=Razer+Naga+V2+Pro&tag=gearmatch-20",
   recommendation_tags: [
     "mmo_buttons",
     "wireless_gaming",
@@ -1673,7 +1673,7 @@ export const corsairScimitarEliteWireless: MouseProduct = {
   category: "mouse",
   price_range_usd: [110, 150],
   image_url: undefined,
-  product_url: undefined,
+  product_url: "https://www.amazon.com/s?k=Corsair+SCIMITAR+ELITE+WIRELESS&tag=gearmatch-20",
   recommendation_tags: [
     "mmo_buttons",
     "wireless_gaming",
@@ -1728,7 +1728,7 @@ export const corsairScimitarRGBElite: MouseProduct = {
   category: "mouse",
   price_range_usd: [60, 90],
   image_url: undefined,
-  product_url: undefined,
+  product_url: "https://www.amazon.com/s?k=Corsair+SCIMITAR+RGB+ELITE&tag=gearmatch-20",
   recommendation_tags: [
     "mmo_buttons",
     "wired",
@@ -1784,7 +1784,7 @@ export const steelseriesAerox9Wireless: MouseProduct = {
   category: "mouse",
   price_range_usd: [120, 150],
   image_url: undefined,
-  product_url: undefined,
+  product_url: "https://www.amazon.com/s?k=SteelSeries+Aerox+9+Wireless&tag=gearmatch-20",
   recommendation_tags: ["mmo", "wireless", "many_buttons", "lightweight_mmo"],
   data_quality: {
     data_confidence: "high",
@@ -1838,7 +1838,7 @@ export const steelseriesAerox5Wireless: MouseProduct = {
   category: "mouse",
   price_range_usd: [80, 130],
   image_url: undefined,
-  product_url: undefined,
+  product_url: "https://www.amazon.com/s?k=SteelSeries+Aerox+5+Wireless&tag=gearmatch-20",
   recommendation_tags: [
     "wireless_gaming",
     "lightweight",
@@ -1894,7 +1894,7 @@ export const hyperxPulsefireSagaPro: MouseProduct = {
   category: "mouse",
   price_range_usd: [80, 120],
   image_url: undefined,
-  product_url: undefined,
+  product_url: "https://www.amazon.com/s?k=HyperX+Pulsefire+Saga+Pro&tag=gearmatch-20",
   recommendation_tags: [
     "wireless_gaming",
     "modular",
@@ -1953,7 +1953,7 @@ export const logitechM720Triathlon: MouseProduct = {
   category: "mouse",
   price_range_usd: [40, 60],
   image_url: undefined,
-  product_url: undefined,
+  product_url: "https://www.amazon.com/s?k=Logitech+M720+Triathlon&tag=gearmatch-20",
   recommendation_tags: [
     "productivity",
     "multi_device",
@@ -2008,7 +2008,7 @@ export const logitechMxMaster4: MouseProduct = {
   category: "mouse",
   price_range_usd: [120, 140],
   image_url: undefined,
-  product_url: undefined,
+  product_url: "https://www.amazon.com/s?k=Logitech+MX+Master+4&tag=gearmatch-20",
   recommendation_tags: [
     "productivity",
     "premium",
@@ -2063,7 +2063,7 @@ export const logitechMxMaster3S: MouseProduct = {
   category: "mouse",
   price_range_usd: [90, 110],
   image_url: undefined,
-  product_url: undefined,
+  product_url: "https://www.amazon.com/s?k=Logitech+MX+Master+3S&tag=gearmatch-20",
   recommendation_tags: ["productivity", "premium", "silent_clicks", "multi_device"],
   data_quality: {
     data_confidence: "high",
@@ -2113,7 +2113,7 @@ export const logitechMxMaster2S: MouseProduct = {
   category: "mouse",
   price_range_usd: [60, 80],
   image_url: undefined,
-  product_url: undefined,
+  product_url: "https://www.amazon.com/s?k=Logitech+MX+Master+2S&tag=gearmatch-20",
   recommendation_tags: ["productivity", "multi_device", "value_pick", "works_on_glass"],
   data_quality: {
     data_confidence: "high",
@@ -2163,7 +2163,7 @@ export const razerProClickMini: MouseProduct = {
   category: "mouse",
   price_range_usd: [70, 90],
   image_url: undefined,
-  product_url: undefined,
+  product_url: "https://www.amazon.com/s?k=Razer+Pro+Click+Mini&tag=gearmatch-20",
   recommendation_tags: [
     "productivity",
     "portable",
@@ -2218,7 +2218,7 @@ export const logitechMxErgo: MouseProduct = {
   category: "mouse",
   price_range_usd: [80, 110],
   image_url: undefined,
-  product_url: undefined,
+  product_url: "https://www.amazon.com/s?k=Logitech+MX+ERGO&tag=gearmatch-20",
   recommendation_tags: ["trackball", "ergonomic", "multi_device", "productivity"],
   data_quality: {
     data_confidence: "high",
@@ -2272,7 +2272,7 @@ export const logitechLift: MouseProduct = {
   category: "mouse",
   price_range_usd: [60, 80],
   image_url: undefined,
-  product_url: undefined,
+  product_url: "https://www.amazon.com/s?k=Logitech+Lift&tag=gearmatch-20",
   recommendation_tags: ["ergonomic", "vertical", "multi_device", "wireless"],
   data_quality: {
     data_confidence: "high",
@@ -2322,7 +2322,7 @@ export const razerProClickV2Vertical: MouseProduct = {
   category: "mouse",
   price_range_usd: [120, 140],
   image_url: undefined,
-  product_url: undefined,
+  product_url: "https://www.amazon.com/s?k=Razer+Pro+Click+V2+Vertical&tag=gearmatch-20",
   recommendation_tags: ["ergonomic", "vertical", "gaming_vertical", "multi_device"],
   data_quality: {
     data_confidence: "high",
@@ -2376,7 +2376,7 @@ export const appleMagicMouse2: MouseProduct = {
   category: "mouse",
   price_range_usd: [70, 100],
   image_url: undefined,
-  product_url: undefined,
+  product_url: "https://www.amazon.com/s?k=Apple+Magic+Mouse+2&tag=gearmatch-20",
   recommendation_tags: ["mac_only", "touch_gestures", "portable"],
   data_quality: {
     data_confidence: "high",
@@ -2430,7 +2430,7 @@ export const corsairIronclawRgbWireless: MouseProduct = {
   category: "mouse",
   price_range_usd: [70, 100],
   image_url: undefined,
-  product_url: undefined,
+  product_url: "https://www.amazon.com/s?k=Corsair+IRONCLAW+RGB+Wireless&tag=gearmatch-20",
   recommendation_tags: ["large_hands", "ergonomic", "wireless", "rgb"],
   data_quality: {
     data_confidence: "high",
@@ -2485,7 +2485,7 @@ export const razerDeathAdderV4Pro: MouseProduct = {
   category: "mouse",
   price_range_usd: [159, 179],
   image_url: undefined,
-  product_url: "https://www.rtings.com/mouse/reviews/razer/deathadder-v4-pro",
+  product_url: "https://www.amazon.com/s?k=Razer+DeathAdder+V4+Pro&tag=gearmatch-20",
   recommendation_tags: [
     "competitive_fps",
     "ergo_right",
@@ -2542,7 +2542,7 @@ export const pulsarTenzSignatureEdition: MouseProduct = {
   category: "mouse",
   price_range_usd: [100, 120],
   image_url: undefined,
-  product_url: "https://www.rtings.com/mouse/reviews/pulsar/tenz-signature-edition",
+  product_url: "https://www.amazon.com/s?k=Pulsar+TenZ+Signature+Edition&tag=gearmatch-20",
   recommendation_tags: [
     "competitive_fps",
     "ultralight",
@@ -2598,7 +2598,7 @@ export const sonyInzoneMouseA: MouseProduct = {
   category: "mouse",
   price_range_usd: [149, 159],
   image_url: undefined,
-  product_url: "https://www.rtings.com/mouse/reviews/sony/inzone-mouse-a",
+  product_url: "https://www.amazon.com/s?k=Sony+INZONE+Mouse-A&tag=gearmatch-20",
   recommendation_tags: [
     "competitive_fps",
     "ultralight",
@@ -2655,7 +2655,7 @@ export const lofreeHypace: MouseProduct = {
   category: "mouse",
   price_range_usd: [159, 179],
   image_url: undefined,
-  product_url: "https://www.rtings.com/mouse/reviews/lofree/hypace",
+  product_url: "https://www.amazon.com/s?k=Lofree+Hypace&tag=gearmatch-20",
   recommendation_tags: [
     "competitive_fps",
     "ultralight",
@@ -2712,7 +2712,7 @@ export const orbitalPathfinder: MouseProduct = {
   category: "mouse",
   price_range_usd: [150, 180],
   image_url: undefined,
-  product_url: "https://www.rtings.com/mouse/reviews/orbital/pathfinder",
+  product_url: "https://www.amazon.com/s?k=Orbital+Pathfinder&tag=gearmatch-20",
   recommendation_tags: [
     "competitive_fps",
     "modular",
@@ -2768,7 +2768,7 @@ export const logitechGProXSuperlight2c: MouseProduct = {
   category: "mouse",
   price_range_usd: [159, 169],
   image_url: undefined,
-  product_url: "https://www.rtings.com/mouse/reviews/logitech/g-pro-x-superlight-2c",
+  product_url: "https://www.amazon.com/s?k=Logitech+G+PRO+X+SUPERLIGHT+2c&tag=gearmatch-20",
   recommendation_tags: [
     "competitive_fps",
     "ultralight",
@@ -2825,7 +2825,7 @@ export const razerCobraHyperSpeed: MouseProduct = {
   category: "mouse",
   price_range_usd: [70, 80],
   image_url: undefined,
-  product_url: "https://www.rtings.com/mouse/reviews/razer/cobra-hyperspeed",
+  product_url: "https://www.amazon.com/s?k=Razer+Cobra+HyperSpeed&tag=gearmatch-20",
   recommendation_tags: [
     "wireless_gaming",
     "rgb",
@@ -2882,7 +2882,7 @@ export const gWolvesFenrirMax: MouseProduct = {
   category: "mouse",
   price_range_usd: [150, 170],
   image_url: undefined,
-  product_url: "https://www.rtings.com/mouse/reviews/g-wolves/fenrir-max",
+  product_url: "https://www.amazon.com/s?k=G-Wolves+Fenrir+Max&tag=gearmatch-20",
   recommendation_tags: [
     "competitive_fps",
     "ultralight",
@@ -2939,7 +2939,7 @@ export const steelSeriesRival3WirelessGen2: MouseProduct = {
   category: "mouse",
   price_range_usd: [35, 50],
   image_url: undefined,
-  product_url: "https://www.rtings.com/mouse/reviews/steelseries/rival-3-wireless-gen-2",
+  product_url: "https://www.amazon.com/s?k=SteelSeries+Rival+3+Wireless+Gen+2&tag=gearmatch-20",
   recommendation_tags: [
     "budget",
     "wireless_gaming",
@@ -2995,7 +2995,7 @@ export const steelSeriesRival3Gen2: MouseProduct = {
   category: "mouse",
   price_range_usd: [35, 45],
   image_url: undefined,
-  product_url: "https://www.rtings.com/mouse/reviews/steelseries/rival-3-gen-2",
+  product_url: "https://www.amazon.com/s?k=SteelSeries+Rival+3+Gen+2&tag=gearmatch-20",
   recommendation_tags: [
     "budget",
     "wired_gaming",
@@ -3050,7 +3050,7 @@ export const vaxeeXeV2Wireless4k: MouseProduct = {
   category: "mouse",
   price_range_usd: [130, 150],
   image_url: undefined,
-  product_url: "https://www.rtings.com/mouse/reviews/vaxee/xe-v2-wireless-4k",
+  product_url: "https://www.amazon.com/s?k=Vaxee+XE+v2+Wireless+(4K)&tag=gearmatch-20",
   recommendation_tags: [
     "competitive_fps",
     "ergo_right",
@@ -3105,7 +3105,7 @@ export const razerProClickV2: MouseProduct = {
   category: "mouse",
   price_range_usd: [100, 120],
   image_url: undefined,
-  product_url: "https://www.rtings.com/mouse/reviews/razer/pro-click-v2",
+  product_url: "https://www.amazon.com/s?k=Razer+Pro+Click+V2&tag=gearmatch-20",
   recommendation_tags: [
     "productivity",
     "wireless",
@@ -3161,7 +3161,7 @@ export const pulsarX2CrazyLight: MouseProduct = {
   category: "mouse",
   price_range_usd: [130, 150],
   image_url: undefined,
-  product_url: "https://www.rtings.com/mouse/reviews/pulsar/x2-crazylight",
+  product_url: "https://www.amazon.com/s?k=Pulsar+X2+CrazyLight&tag=gearmatch-20",
   recommendation_tags: [
     "competitive_fps",
     "ultralight",
@@ -3217,7 +3217,7 @@ export const benqZowieEc2Dw: MouseProduct = {
   category: "mouse",
   price_range_usd: [120, 140],
   image_url: undefined,
-  product_url: "https://www.rtings.com/mouse/reviews/benq/zowie-ec2-dw",
+  product_url: "https://www.amazon.com/s?k=BenQ+ZOWIE+EC2-DW&tag=gearmatch-20",
   recommendation_tags: [
     "competitive_fps",
     "ergo_right",
@@ -3273,7 +3273,7 @@ export const wlmouseStrider: MouseProduct = {
   category: "mouse",
   price_range_usd: [130, 150],
   image_url: undefined,
-  product_url: "https://www.rtings.com/mouse/reviews/wlmouse/strider",
+  product_url: "https://www.amazon.com/s?k=WLmouse+Strider&tag=gearmatch-20",
   recommendation_tags: [
     "competitive_fps",
     "ultralight",
@@ -3330,7 +3330,7 @@ export const pwnageTrinityCf: MouseProduct = {
   category: "mouse",
   price_range_usd: [200, 230],
   image_url: undefined,
-  product_url: "https://www.rtings.com/mouse/reviews/pwnage/trinity-cf",
+  product_url: "https://www.amazon.com/s?k=Pwnage+Trinity+CF&tag=gearmatch-20",
   recommendation_tags: [
     "competitive_fps",
     "ultralight",
@@ -3387,7 +3387,7 @@ export const lamzuInca: MouseProduct = {
   category: "mouse",
   price_range_usd: [100, 120],
   image_url: undefined,
-  product_url: "https://www.rtings.com/mouse/reviews/lamzu/inca",
+  product_url: "https://www.amazon.com/s?k=LAMZU+Inca&tag=gearmatch-20",
   recommendation_tags: [
     "competitive_fps",
     "ultralight",
@@ -3444,7 +3444,7 @@ export const keychronM5: MouseProduct = {
   category: "mouse",
   price_range_usd: [100, 120],
   image_url: undefined,
-  product_url: "https://www.rtings.com/mouse/reviews/keychron/m5",
+  product_url: "https://www.amazon.com/s?k=Keychron+M5&tag=gearmatch-20",
   recommendation_tags: [
     "ergonomic",
     "vertical",
@@ -3502,7 +3502,7 @@ export const logitechGProXSuperlight2Dex: MouseProduct = {
   category: "mouse",
   price_range_usd: [159, 169],
   image_url: undefined,
-  product_url: "https://www.rtings.com/mouse/reviews/logitech/g-pro-x-superlight-2-dex",
+  product_url: "https://www.amazon.com/s?k=Logitech+G+PRO+X+SUPERLIGHT+2+DEX&tag=gearmatch-20",
   recommendation_tags: [
     "competitive_fps",
     "ergo_right",
@@ -3558,7 +3558,7 @@ export const vaxeeXeSWireless4k: MouseProduct = {
   category: "mouse",
   price_range_usd: [120, 140],
   image_url: undefined,
-  product_url: "https://www.rtings.com/mouse/reviews/vaxee/xe-s-wireless-4k",
+  product_url: "https://www.amazon.com/s?k=Vaxee+XE-S+Wireless+(4K)&tag=gearmatch-20",
   recommendation_tags: [
     "competitive_fps",
     "wireless_gaming",
@@ -3614,7 +3614,7 @@ export const pulsarX2hV3: MouseProduct = {
   category: "mouse",
   price_range_usd: [120, 140],
   image_url: undefined,
-  product_url: "https://www.rtings.com/mouse/reviews/pulsar/x2h-v3",
+  product_url: "https://www.amazon.com/s?k=Pulsar+X2H+v3&tag=gearmatch-20",
   recommendation_tags: [
     "competitive_fps",
     "ultralight",
@@ -3670,7 +3670,7 @@ export const vxeR1Pro: MouseProduct = {
   category: "mouse",
   price_range_usd: [50, 70],
   image_url: undefined,
-  product_url: "https://www.rtings.com/mouse/reviews/vxe/r1-pro",
+  product_url: "https://www.amazon.com/s?k=VXE+R1+Pro&tag=gearmatch-20",
   recommendation_tags: [
     "competitive_fps",
     "ultralight",
@@ -3726,7 +3726,7 @@ export const razerBasiliskV3Pro35k: MouseProduct = {
   category: "mouse",
   price_range_usd: [150, 180],
   image_url: undefined,
-  product_url: "https://www.rtings.com/mouse/reviews/razer/basilisk-v3-pro-35k",
+  product_url: "https://www.amazon.com/s?k=Razer+Basilisk+V3+Pro+35K&tag=gearmatch-20",
   recommendation_tags: [
     "mmo",
     "multi_genre",
@@ -3784,7 +3784,7 @@ export const scyroxV6: MouseProduct = {
   category: "mouse",
   price_range_usd: [70, 90],
   image_url: undefined,
-  product_url: "https://www.rtings.com/mouse/reviews/scyrox/v6",
+  product_url: "https://www.amazon.com/s?k=Scyrox+V6&tag=gearmatch-20",
   recommendation_tags: [
     "competitive_fps",
     "ultralight",
@@ -3841,7 +3841,7 @@ export const fnaticLamzuMaya8k: MouseProduct = {
   category: "mouse",
   price_range_usd: [120, 140],
   image_url: undefined,
-  product_url: "https://www.rtings.com/mouse/reviews/fnatic/x-lamzu-maya-8k",
+  product_url: "https://www.amazon.com/s?k=Fnatic+x+LAMZU+MAYA+8K&tag=gearmatch-20",
   recommendation_tags: [
     "competitive_fps",
     "ultralight",
@@ -3897,7 +3897,7 @@ export const logitechGPro2Lightspeed: MouseProduct = {
   category: "mouse",
   price_range_usd: [130, 150],
   image_url: undefined,
-  product_url: "https://www.rtings.com/mouse/reviews/logitech/g-pro-2-lightspeed",
+  product_url: "https://www.amazon.com/s?k=Logitech+G+PRO+2+LIGHTSPEED&tag=gearmatch-20",
   recommendation_tags: [
     "competitive_fps",
     "true_ambidextrous",
@@ -3953,7 +3953,7 @@ export const benqZowieU2: MouseProduct = {
   category: "mouse",
   price_range_usd: [130, 150],
   image_url: undefined,
-  product_url: "https://www.rtings.com/mouse/reviews/benq/zowie-u2",
+  product_url: "https://www.amazon.com/s?k=BenQ+ZOWIE+U2&tag=gearmatch-20",
   recommendation_tags: [
     "competitive_fps",
     "claw_grip",
@@ -4010,7 +4010,7 @@ export const wlmouseBeastXMax: MouseProduct = {
   category: "mouse",
   price_range_usd: [130, 150],
   image_url: undefined,
-  product_url: "https://www.rtings.com/mouse/reviews/wlmouse/beast-x-max",
+  product_url: "https://www.amazon.com/s?k=WLmouse+Beast+X+Max&tag=gearmatch-20",
   recommendation_tags: [
     "competitive_fps",
     "ultralight",
@@ -4066,7 +4066,7 @@ export const logitechM340: MouseProduct = {
   category: "mouse",
   price_range_usd: [20, 30],
   image_url: undefined,
-  product_url: "https://www.rtings.com/mouse/reviews/logitech/m340",
+  product_url: "https://www.amazon.com/s?k=Logitech+M340&tag=gearmatch-20",
   recommendation_tags: [
     "budget",
     "portable",
@@ -4122,7 +4122,7 @@ export const keychronM7: MouseProduct = {
   category: "mouse",
   price_range_usd: [80, 100],
   image_url: undefined,
-  product_url: "https://www.rtings.com/mouse/reviews/keychron/m7",
+  product_url: "https://www.amazon.com/s?k=Keychron+M7&tag=gearmatch-20",
   recommendation_tags: [
     "competitive_fps",
     "wired_gaming",
@@ -4178,7 +4178,7 @@ export const logitechG309Lightspeed: MouseProduct = {
   category: "mouse",
   price_range_usd: [70, 90],
   image_url: undefined,
-  product_url: "https://www.rtings.com/mouse/reviews/logitech/g309-lightspeed",
+  product_url: "https://www.amazon.com/s?k=Logitech+G309+LIGHTSPEED&tag=gearmatch-20",
   recommendation_tags: [
     "wireless_gaming",
     "bluetooth",
@@ -4234,7 +4234,7 @@ export const razerDeathAdderV3HyperSpeed: MouseProduct = {
   category: "mouse",
   price_range_usd: [70, 90],
   image_url: undefined,
-  product_url: "https://www.rtings.com/mouse/reviews/razer/deathadder-v3-hyperspeed",
+  product_url: "https://www.amazon.com/s?k=Razer+DeathAdder+V3+HyperSpeed&tag=gearmatch-20",
   recommendation_tags: [
     "competitive_fps",
     "ultralight",
@@ -4290,7 +4290,7 @@ export const gloriousModelD2: MouseProduct = {
   category: "mouse",
   price_range_usd: [50, 70],
   image_url: undefined,
-  product_url: "https://www.rtings.com/mouse/reviews/glorious/model-d-2",
+  product_url: "https://www.amazon.com/s?k=GLORIOUS+Model+D+2&tag=gearmatch-20",
   recommendation_tags: [
     "wired_gaming",
     "ergo_right",
@@ -4346,7 +4346,7 @@ export const gloriousModelD2Wireless: MouseProduct = {
   category: "mouse",
   price_range_usd: [80, 100],
   image_url: undefined,
-  product_url: "https://www.rtings.com/mouse/reviews/glorious/model-d-2-wireless",
+  product_url: "https://www.amazon.com/s?k=GLORIOUS+Model+D+2+Wireless&tag=gearmatch-20",
   recommendation_tags: [
     "wireless_gaming",
     "ergo_right",
@@ -4402,7 +4402,7 @@ export const asusRogKerisIiAce: MouseProduct = {
   category: "mouse",
   price_range_usd: [140, 160],
   image_url: undefined,
-  product_url: "https://www.rtings.com/mouse/reviews/asus/rog-keris-ii-ace",
+  product_url: "https://www.amazon.com/s?k=ASUS+ROG+Keris+II+Ace&tag=gearmatch-20",
   recommendation_tags: [
     "competitive_fps",
     "ultralight",
@@ -4459,7 +4459,7 @@ export const finalmouseUlxProSeries: MouseProduct = {
   category: "mouse",
   price_range_usd: [200, 250],
   image_url: undefined,
-  product_url: "https://www.rtings.com/mouse/reviews/finalmouse/ulx-pro-series",
+  product_url: "https://www.amazon.com/s?k=Finalmouse+ULX+Pro+Series&tag=gearmatch-20",
   recommendation_tags: [
     "competitive_fps",
     "ultralight",
@@ -4517,7 +4517,7 @@ export const keychronM3: MouseProduct = {
   category: "mouse",
   price_range_usd: [60, 80],
   image_url: undefined,
-  product_url: "https://www.rtings.com/mouse/reviews/keychron/m3",
+  product_url: "https://www.amazon.com/s?k=Keychron+M3&tag=gearmatch-20",
   recommendation_tags: [
     "wireless_gaming",
     "bluetooth",
@@ -4572,7 +4572,7 @@ export const hyperxPulsefireHaste2: MouseProduct = {
   category: "mouse",
   price_range_usd: [50, 70],
   image_url: undefined,
-  product_url: "https://www.rtings.com/mouse/reviews/hyperx/pulsefire-haste-2",
+  product_url: "https://www.amazon.com/s?k=HyperX+Pulsefire+Haste+2&tag=gearmatch-20",
   recommendation_tags: [
     "competitive_fps",
     "ultralight",
@@ -4628,7 +4628,7 @@ export const hyperxPulsefireHaste2Wireless: MouseProduct = {
   category: "mouse",
   price_range_usd: [70, 90],
   image_url: undefined,
-  product_url: "https://www.rtings.com/mouse/reviews/hyperx/pulsefire-haste-2-wireless",
+  product_url: "https://www.amazon.com/s?k=HyperX+Pulsefire+Haste+2+Wireless&tag=gearmatch-20",
   recommendation_tags: [
     "wireless_gaming",
     "lightweight",
@@ -4683,7 +4683,7 @@ export const vgnDragonflyF1ProMax: MouseProduct = {
   category: "mouse",
   price_range_usd: [40, 60],
   image_url: undefined,
-  product_url: "https://www.rtings.com/mouse/reviews/vgn/dragonfly-f1-pro-max",
+  product_url: "https://www.amazon.com/s?k=VGN+Dragonfly+F1+Pro+Max&tag=gearmatch-20",
   recommendation_tags: [
     "competitive_fps",
     "ultralight",
@@ -4739,7 +4739,7 @@ export const pulsarX3: MouseProduct = {
   category: "mouse",
   price_range_usd: [100, 120],
   image_url: undefined,
-  product_url: "https://www.rtings.com/mouse/reviews/pulsar/x3",
+  product_url: "https://www.amazon.com/s?k=Pulsar+X3&tag=gearmatch-20",
   recommendation_tags: [
     "competitive_fps",
     "ultralight",
@@ -4797,7 +4797,7 @@ export const endgameGearXm2w4k: MouseProduct = {
   category: "mouse",
   price_range_usd: [100, 120],
   image_url: undefined,
-  product_url: "https://www.rtings.com/mouse/reviews/endgame-gear/xm2w-4k",
+  product_url: "https://www.amazon.com/s?k=Endgame+Gear+XM2w+4k&tag=gearmatch-20",
   recommendation_tags: [
     "competitive_fps",
     "wireless_gaming",
@@ -4853,7 +4853,7 @@ export const lamzuMayaX: MouseProduct = {
   category: "mouse",
   price_range_usd: [120, 140],
   image_url: undefined,
-  product_url: "https://www.rtings.com/mouse/reviews/lamzu/maya-x",
+  product_url: "https://www.amazon.com/s?k=LAMZU+MAYA+X&tag=gearmatch-20",
   recommendation_tags: [
     "competitive_fps",
     "ultralight",
@@ -4908,7 +4908,7 @@ export const endgameGearXm28k: MouseProduct = {
   category: "mouse",
   price_range_usd: [80, 100],
   image_url: undefined,
-  product_url: "https://www.rtings.com/mouse/reviews/endgame-gear/xm2-8k",
+  product_url: "https://www.amazon.com/s?k=Endgame+Gear+XM2+8k&tag=gearmatch-20",
   recommendation_tags: [
     "competitive_fps",
     "ultralight",
@@ -4966,7 +4966,7 @@ export const gloriousModelI2Wireless: MouseProduct = {
   category: "mouse",
   price_range_usd: [70, 90],
   image_url: undefined,
-  product_url: "https://www.rtings.com/mouse/reviews/glorious/model-i-2-wireless",
+  product_url: "https://www.amazon.com/s?k=GLORIOUS+Model+I+2+Wireless&tag=gearmatch-20",
   recommendation_tags: ["mmo", "casual", "thumb_rest"],
   data_quality: {
     data_confidence: "high",
@@ -5016,7 +5016,7 @@ export const razerDeathAdderV3Wired: MouseProduct = {
   category: "mouse",
   price_range_usd: [70, 90],
   image_url: undefined,
-  product_url: "https://www.rtings.com/mouse/reviews/razer/deathadder-v3",
+  product_url: "https://www.amazon.com/s?k=Razer+DeathAdder+V3&tag=gearmatch-20",
   recommendation_tags: ["fps", "competitive", "esports"],
   data_quality: {
     data_confidence: "high",
@@ -5066,7 +5066,7 @@ export const lamzuThorn: MouseProduct = {
   category: "mouse",
   price_range_usd: [80, 100],
   image_url: undefined,
-  product_url: "https://www.rtings.com/mouse/reviews/lamzu/thorn",
+  product_url: "https://www.amazon.com/s?k=LAMZU+THORN&tag=gearmatch-20",
   recommendation_tags: ["fps", "competitive", "ultralight"],
   data_quality: {
     data_confidence: "high",
@@ -5116,7 +5116,7 @@ export const vaxeeXeWireless: MouseProduct = {
   category: "mouse",
   price_range_usd: [90, 120],
   image_url: undefined,
-  product_url: "https://www.rtings.com/mouse/reviews/vaxee/xe-wireless",
+  product_url: "https://www.amazon.com/s?k=Vaxee+XE+Wireless&tag=gearmatch-20",
   recommendation_tags: ["fps", "competitive", "driverless"],
   data_quality: {
     data_confidence: "high",
@@ -5166,7 +5166,7 @@ export const pulsarX2V2: MouseProduct = {
   category: "mouse",
   price_range_usd: [90, 110],
   image_url: undefined,
-  product_url: "https://www.rtings.com/mouse/reviews/pulsar/x2v2",
+  product_url: "https://www.amazon.com/s?k=Pulsar+X2V2&tag=gearmatch-20",
   recommendation_tags: ["fps", "competitive", "ultralight"],
   data_quality: {
     data_confidence: "high",
@@ -5216,7 +5216,7 @@ export const keychronM6: MouseProduct = {
   category: "mouse",
   price_range_usd: [60, 80],
   image_url: undefined,
-  product_url: "https://www.rtings.com/mouse/reviews/keychron/m6",
+  product_url: "https://www.amazon.com/s?k=Keychron+M6&tag=gearmatch-20",
   recommendation_tags: ["productivity", "casual", "thumb_rest"],
   data_quality: {
     data_confidence: "high",
@@ -5266,7 +5266,7 @@ export const keychronM4: MouseProduct = {
   category: "mouse",
   price_range_usd: [60, 80],
   image_url: undefined,
-  product_url: "https://www.rtings.com/mouse/reviews/keychron/m4",
+  product_url: "https://www.amazon.com/s?k=Keychron+M4&tag=gearmatch-20",
   recommendation_tags: ["fps", "fingertip", "ultralight"],
   data_quality: {
     data_confidence: "high",
@@ -5316,7 +5316,7 @@ export const razerCobraPro: MouseProduct = {
   category: "mouse",
   price_range_usd: [100, 130],
   image_url: undefined,
-  product_url: "https://www.rtings.com/mouse/reviews/razer/cobra-pro",
+  product_url: "https://www.amazon.com/s?k=Razer+Cobra+Pro&tag=gearmatch-20",
   recommendation_tags: ["fps", "rgb", "versatile"],
   data_quality: {
     data_confidence: "high",
@@ -5370,7 +5370,7 @@ export const gloriousModelI: MouseProduct = {
   category: "mouse",
   price_range_usd: [40, 55],
   image_url: undefined,
-  product_url: undefined,
+  product_url: "https://www.amazon.com/s?k=Glorious+Model+I&tag=gearmatch-20",
   recommendation_tags: [
     "ergo_shape",
     "mmo_gaming",
@@ -5427,7 +5427,7 @@ export const hyperxPulsefireHasteWireless: MouseProduct = {
   category: "mouse",
   price_range_usd: [50, 70],
   image_url: undefined,
-  product_url: undefined,
+  product_url: "https://www.amazon.com/s?k=HyperX+Pulsefire+Haste+Wireless&tag=gearmatch-20",
   recommendation_tags: [
     "ultralight",
     "wireless_gaming",
@@ -5484,7 +5484,7 @@ export const logitechSignatureM650: MouseProduct = {
   category: "mouse",
   price_range_usd: [35, 50],
   image_url: undefined,
-  product_url: undefined,
+  product_url: "https://www.amazon.com/s?k=Logitech+Signature+M650&tag=gearmatch-20",
   recommendation_tags: [
     "productivity",
     "silent_clicks",
@@ -5541,7 +5541,7 @@ export const lamzuAtlantis: MouseProduct = {
   category: "mouse",
   price_range_usd: [75, 100],
   image_url: undefined,
-  product_url: undefined,
+  product_url: "https://www.amazon.com/s?k=LAMZU+Atlantis&tag=gearmatch-20",
   recommendation_tags: [
     "ultralight",
     "competitive_fps",
@@ -5598,7 +5598,7 @@ export const logitechG705: MouseProduct = {
   category: "mouse",
   price_range_usd: [70, 90],
   image_url: undefined,
-  product_url: undefined,
+  product_url: "https://www.amazon.com/s?k=Logitech+G705&tag=gearmatch-20",
   recommendation_tags: [
     "small_hands",
     "wireless_gaming",
@@ -5655,7 +5655,7 @@ export const razerBasiliskV3Pro: MouseProduct = {
   category: "mouse",
   price_range_usd: [140, 180],
   image_url: undefined,
-  product_url: undefined,
+  product_url: "https://www.amazon.com/s?k=Razer+Basilisk+V3+Pro&tag=gearmatch-20",
   recommendation_tags: [
     "feature_rich",
     "wireless_gaming",
@@ -5713,7 +5713,7 @@ export const fantechAriaXd7: MouseProduct = {
   category: "mouse",
   price_range_usd: [55, 75],
   image_url: undefined,
-  product_url: undefined,
+  product_url: "https://www.amazon.com/s?k=Fantech+Aria+XD7&tag=gearmatch-20",
   recommendation_tags: [
     "ultralight",
     "wireless_gaming",
@@ -5771,7 +5771,7 @@ export const attackSharkX3: MouseProduct = {
   category: "mouse",
   price_range_usd: [25, 40],
   image_url: undefined,
-  product_url: undefined,
+  product_url: "https://www.amazon.com/s?k=ATTACK+SHARK+X3&tag=gearmatch-20",
   recommendation_tags: [
     "budget_friendly",
     "ultralight",
@@ -5828,7 +5828,7 @@ export const vaxeeZygenNp01sWireless4k: MouseProduct = {
   category: "mouse",
   price_range_usd: [90, 120],
   image_url: undefined,
-  product_url: undefined,
+  product_url: "https://www.amazon.com/s?k=Vaxee+ZYGEN+NP-01S+Wireless+(4K)&tag=gearmatch-20",
   recommendation_tags: [
     "competitive_fps",
     "esports_proven",
@@ -5890,7 +5890,7 @@ export const corsairDarkstarWireless: MouseProduct = {
   category: "mouse",
   price_range_usd: [100, 150],
   image_url: undefined,
-  product_url: undefined,
+  product_url: "https://www.amazon.com/s?k=Corsair+DARKSTAR+WIRELESS&tag=gearmatch-20",
   recommendation_tags: ["mmo_gaming", "wireless_gaming", "many_buttons", "bluetooth", "comfortable"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -5935,7 +5935,7 @@ export const logitechMxAnywhere3s: MouseProduct = {
   category: "mouse",
   price_range_usd: [70, 90],
   image_url: undefined,
-  product_url: undefined,
+  product_url: "https://www.amazon.com/s?k=Logitech+MX+Anywhere+3S&tag=gearmatch-20",
   recommendation_tags: ["productivity", "portable", "bluetooth", "multi_device", "works_on_glass", "quiet_clicks"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -5980,7 +5980,7 @@ export const keychronM1Wireless: MouseProduct = {
   category: "mouse",
   price_range_usd: [40, 60],
   image_url: undefined,
-  product_url: undefined,
+  product_url: "https://www.amazon.com/s?k=Keychron+M1+Wireless&tag=gearmatch-20",
   recommendation_tags: ["budget_friendly", "value_pick", "wireless_gaming", "ambidextrous", "bluetooth"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -6025,7 +6025,7 @@ export const benqZowieEc2Cw: MouseProduct = {
   category: "mouse",
   price_range_usd: [130, 160],
   image_url: undefined,
-  product_url: undefined,
+  product_url: "https://www.amazon.com/s?k=BenQ+ZOWIE+EC2-CW&tag=gearmatch-20",
   recommendation_tags: ["esports", "competitive_fps", "wireless_gaming", "no_software", "plug_and_play"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -6070,7 +6070,7 @@ export const razerViperMiniSignatureEdition: MouseProduct = {
   category: "mouse",
   price_range_usd: [250, 300],
   image_url: undefined,
-  product_url: undefined,
+  product_url: "https://www.amazon.com/s?k=Razer+Viper+Mini+Signature+Edition&tag=gearmatch-20",
   recommendation_tags: ["ultra_lightweight", "esports", "competitive_fps", "wireless_gaming", "8000hz_polling", "flagship"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -6115,7 +6115,7 @@ export const gloriousModelO2: MouseProduct = {
   category: "mouse",
   price_range_usd: [50, 70],
   image_url: undefined,
-  product_url: undefined,
+  product_url: "https://www.amazon.com/s?k=GLORIOUS+Model+O+2&tag=gearmatch-20",
   recommendation_tags: ["lightweight", "wired_gaming", "rgb", "value_pick", "budget_friendly"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -6160,7 +6160,7 @@ export const asusRogHarpeAceAimLabEdition: MouseProduct = {
   category: "mouse",
   price_range_usd: [130, 160],
   image_url: undefined,
-  product_url: undefined,
+  product_url: "https://www.amazon.com/s?k=ASUS+ROG+Harpe+Ace+Aim+Lab+Edition&tag=gearmatch-20",
   recommendation_tags: ["esports", "competitive_fps", "wireless_gaming", "lightweight", "aim_lab", "bluetooth"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -6205,7 +6205,7 @@ export const pwnageStormBreaker: MouseProduct = {
   category: "mouse",
   price_range_usd: [150, 200],
   image_url: undefined,
-  product_url: undefined,
+  product_url: "https://www.amazon.com/s?k=Pwnage+StormBreaker&tag=gearmatch-20",
   recommendation_tags: ["esports", "competitive_fps", "wireless_gaming", "ultra_lightweight", "magnesium_alloy", "4000hz_polling"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -6250,7 +6250,7 @@ export const gloriousModelO2Wireless: MouseProduct = {
   category: "mouse",
   price_range_usd: [70, 100],
   image_url: undefined,
-  product_url: undefined,
+  product_url: "https://www.amazon.com/s?k=GLORIOUS+Model+O+2+Wireless&tag=gearmatch-20",
   recommendation_tags: ["wireless_gaming", "lightweight", "bluetooth", "long_battery", "rgb"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -6295,7 +6295,7 @@ export const ploopyAdeptTrackball: MouseProduct = {
   category: "mouse",
   price_range_usd: [80, 120],
   image_url: undefined,
-  product_url: undefined,
+  product_url: "https://www.amazon.com/s?k=Ploopy+Adept+Trackball&tag=gearmatch-20",
   recommendation_tags: ["trackball", "ergonomic", "open_source", "qmk_via", "ambidextrous", "wired"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -6340,7 +6340,7 @@ export const endgameGearOp1we: MouseProduct = {
   category: "mouse",
   price_range_usd: [70, 90],
   image_url: undefined,
-  product_url: undefined,
+  product_url: "https://www.amazon.com/s?k=Endgame+Gear+OP1we&tag=gearmatch-20",
   recommendation_tags: ["lightweight", "wireless_gaming", "claw_grip", "fingertip_grip", "hot_swappable_switches", "small_hands"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -6385,7 +6385,7 @@ export const logitechPebbleMouse2M350s: MouseProduct = {
   category: "mouse",
   price_range_usd: [25, 40],
   image_url: undefined,
-  product_url: undefined,
+  product_url: "https://www.amazon.com/s?k=Logitech+Pebble+Mouse+2+M350s&tag=gearmatch-20",
   recommendation_tags: ["portable", "compact", "bluetooth", "multi_device", "quiet_clicks", "budget_friendly"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -6430,7 +6430,7 @@ export const lamzuMaya: MouseProduct = {
   category: "mouse",
   price_range_usd: [80, 110],
   image_url: undefined,
-  product_url: undefined,
+  product_url: "https://www.amazon.com/s?k=LAMZU+MAYA&tag=gearmatch-20",
   recommendation_tags: ["ultra_lightweight", "wireless_gaming", "competitive_fps", "esports", "versatile_grip"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -6475,7 +6475,7 @@ export const pulsarXliteV3: MouseProduct = {
   category: "mouse",
   price_range_usd: [90, 120],
   image_url: undefined,
-  product_url: undefined,
+  product_url: "https://www.amazon.com/s?k=Pulsar+Xlite+V3&tag=gearmatch-20",
   recommendation_tags: ["lightweight", "wireless_gaming", "competitive_fps", "ergonomic_right", "esports"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -6520,7 +6520,7 @@ export const wlmouseBeastX: MouseProduct = {
   category: "mouse",
   price_range_usd: [130, 160],
   image_url: undefined,
-  product_url: undefined,
+  product_url: "https://www.amazon.com/s?k=WLmouse+Beast+X&tag=gearmatch-20",
   recommendation_tags: ["ultra_lightweight", "magnesium_alloy", "wireless_gaming", "competitive_fps", "esports", "4000hz_polling"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -6565,7 +6565,7 @@ export const lamzuAtlantisMini4k: MouseProduct = {
   category: "mouse",
   price_range_usd: [100, 130],
   image_url: undefined,
-  product_url: undefined,
+  product_url: "https://www.amazon.com/s?k=LAMZU+Atlantis+Mini+4K&tag=gearmatch-20",
   recommendation_tags: ["ultra_lightweight", "wireless_gaming", "competitive_fps", "esports", "4000hz_polling", "claw_grip"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -6610,7 +6610,7 @@ export const finalmouseUltralightX: MouseProduct = {
   category: "mouse",
   price_range_usd: [190, 250],
   image_url: undefined,
-  product_url: undefined,
+  product_url: "https://www.amazon.com/s?k=Finalmouse+UltralightX&tag=gearmatch-20",
   recommendation_tags: ["ultra_lightweight", "carbon_fiber", "wireless_gaming", "competitive_fps", "esports", "8000hz_polling", "flagship"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -6655,7 +6655,7 @@ export const corsairNightsabreWireless: MouseProduct = {
   category: "mouse",
   price_range_usd: [90, 130],
   image_url: undefined,
-  product_url: undefined,
+  product_url: "https://www.amazon.com/s?k=Corsair+NIGHTSABRE+WIRELESS&tag=gearmatch-20",
   recommendation_tags: ["wireless_gaming", "multi_genre", "rgb", "bluetooth", "many_buttons"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -6710,7 +6710,7 @@ export const razerDeathAdderV3Pro: MouseProduct = {
   category: "mouse",
   price_range_usd: [150, 180],
   image_url: "https://i.rtings.com/assets/products/XZTWfCaG/razer-deathadder-v3-pro/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/mouse/reviews/razer/deathadder-v3-pro",
+  product_url: "https://www.amazon.com/s?k=Razer+DeathAdder+V3+Pro&tag=gearmatch-20",
   recommendation_tags: [
     "competitive_fps",
     "ergo_shape",
@@ -6767,7 +6767,7 @@ export const razerViperV2Pro: MouseProduct = {
   category: "mouse",
   price_range_usd: [130, 160],
   image_url: "https://i.rtings.com/assets/products/gl1IW2fn/razer-viper-v2-pro/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/mouse/reviews/razer/viper-v2-pro",
+  product_url: "https://www.amazon.com/s?k=Razer+Viper+V2+Pro&tag=gearmatch-20",
   recommendation_tags: [
     "top_tier_competitive_fps",
     "ultralight",
@@ -6827,7 +6827,7 @@ export const logitechGProXSuperlight: MouseProduct = {
   category: "mouse",
   price_range_usd: [120, 160],
   image_url: "https://i.rtings.com/assets/products/lFKKRdTZ/logitech-g-pro-x-superlight/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/mouse/reviews/logitech/g-pro-x-superlight",
+  product_url: "https://www.amazon.com/s?k=Logitech+G+PRO+X+SUPERLIGHT&tag=gearmatch-20",
   recommendation_tags: [
     "top_tier_competitive_fps",
     "ultralight",
@@ -6883,7 +6883,7 @@ export const logitechG703Lightspeed: MouseProduct = {
   category: "mouse",
   price_range_usd: [80, 100],
   image_url: "https://i.rtings.com/assets/products/xRUxJwmc/logitech-g703-lightspeed-with-hero-sensor/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/mouse/reviews/logitech/g703-lightspeed-with-hero-sensor",
+  product_url: "https://www.amazon.com/s?k=Logitech+G703+LIGHTSPEED&tag=gearmatch-20",
   recommendation_tags: [
     "wireless_gaming",
     "ergo_shape",
@@ -6939,7 +6939,7 @@ export const logitechG502Lightspeed: MouseProduct = {
   category: "mouse",
   price_range_usd: [100, 150],
   image_url: "https://i.rtings.com/assets/products/TpxOayO5/logitech-g502-lightspeed/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/mouse/reviews/logitech/g502-lightspeed",
+  product_url: "https://www.amazon.com/s?k=Logitech+G502+LIGHTSPEED&tag=gearmatch-20",
   recommendation_tags: [
     "wireless_gaming",
     "mmo_gaming",
@@ -6995,7 +6995,7 @@ export const logitechGProWireless: MouseProduct = {
   category: "mouse",
   price_range_usd: [100, 130],
   image_url: "https://i.rtings.com/assets/products/ZZ9SdscN/logitech-g-pro-wireless/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/mouse/reviews/logitech/g-pro-wireless",
+  product_url: "https://www.amazon.com/s?k=Logitech+G+Pro+Wireless&tag=gearmatch-20",
   recommendation_tags: [
     "competitive_fps",
     "safe_shape",
@@ -7051,7 +7051,7 @@ export const logitechG903Lightspeed: MouseProduct = {
   category: "mouse",
   price_range_usd: [100, 150],
   image_url: "https://i.rtings.com/assets/products/k0yzRxSz/logitech-g903-lightspeed/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/mouse/reviews/logitech/g903-lightspeed",
+  product_url: "https://www.amazon.com/s?k=Logitech+G903+LIGHTSPEED&tag=gearmatch-20",
   recommendation_tags: [
     "wireless_gaming",
     "ambidextrous",
@@ -7107,7 +7107,7 @@ export const logitechG604Lightspeed: MouseProduct = {
   category: "mouse",
   price_range_usd: [80, 100],
   image_url: "https://i.rtings.com/assets/products/EBCToL8h/logitech-g604-lightspeed/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/mouse/reviews/logitech/g604-lightspeed",
+  product_url: "https://www.amazon.com/s?k=Logitech+G604+LIGHTSPEED&tag=gearmatch-20",
   recommendation_tags: [
     "mmo_gaming",
     "productivity",
@@ -7165,7 +7165,7 @@ export const razerViperUltimate: MouseProduct = {
   category: "mouse",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/3Qc0DBcV/razer-viper-ultimate/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/mouse/reviews/razer/viper-ultimate",
+  product_url: "https://www.amazon.com/s?k=Razer+Viper+Ultimate&tag=gearmatch-20",
   recommendation_tags: [
     "competitive_fps",
     "wireless_gaming",
@@ -7221,7 +7221,7 @@ export const razerViperMini: MouseProduct = {
   category: "mouse",
   price_range_usd: [30, 50],
   image_url: "https://i.rtings.com/assets/products/c6Hvibeq/razer-viper-mini/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/mouse/reviews/razer/viper-mini",
+  product_url: "https://www.amazon.com/s?k=Razer+Viper+Mini&tag=gearmatch-20",
   recommendation_tags: [
     "competitive_fps",
     "ultralight",
@@ -7277,7 +7277,7 @@ export const razerViper8khz: MouseProduct = {
   category: "mouse",
   price_range_usd: [60, 80],
   image_url: "https://i.rtings.com/assets/products/ip9cVSnj/razer-viper-8khz/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/mouse/reviews/razer/viper-8khz",
+  product_url: "https://www.amazon.com/s?k=Razer+Viper+8KHz&tag=gearmatch-20",
   recommendation_tags: [
     "competitive_fps",
     "8k_polling",
@@ -7333,7 +7333,7 @@ export const razerDeathAdderV2Pro: MouseProduct = {
   category: "mouse",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/0Sg9uoW8/razer-deathadder-v2-pro/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/mouse/reviews/razer/deathadder-v2-pro",
+  product_url: "https://www.amazon.com/s?k=Razer+DeathAdder+V2+Pro&tag=gearmatch-20",
   recommendation_tags: [
     "wireless_gaming",
     "ergo_shape",
@@ -7389,7 +7389,7 @@ export const razerDeathAdderV2: MouseProduct = {
   category: "mouse",
   price_range_usd: [50, 70],
   image_url: "https://i.rtings.com/assets/products/ElJvpiyf/razer-deathadder-v2/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/mouse/reviews/razer/deathadder-v2",
+  product_url: "https://www.amazon.com/s?k=Razer+DeathAdder+V2&tag=gearmatch-20",
   recommendation_tags: [
     "competitive_fps",
     "ergo_shape",
@@ -7445,7 +7445,7 @@ export const razerBasiliskUltimate: MouseProduct = {
   category: "mouse",
   price_range_usd: [100, 150],
   image_url: "https://i.rtings.com/assets/products/6UfiX6UZ/razer-basilisk-ultimate/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/mouse/reviews/razer/basilisk-ultimate",
+  product_url: "https://www.amazon.com/s?k=Razer+Basilisk+Ultimate&tag=gearmatch-20",
   recommendation_tags: [
     "wireless_gaming",
     "mmo_gaming",
@@ -7501,7 +7501,7 @@ export const razerNagaV2Hyperspeed: MouseProduct = {
   category: "mouse",
   price_range_usd: [80, 100],
   image_url: "https://i.rtings.com/assets/products/RFz7PsNy/razer-naga-v2-hyperspeed/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/mouse/reviews/razer/naga-v2-hyperspeed",
+  product_url: "https://www.amazon.com/s?k=Razer+Naga+V2+HyperSpeed&tag=gearmatch-20",
   recommendation_tags: [
     "mmo_gaming",
     "wireless_gaming",
@@ -7557,7 +7557,7 @@ export const razerOrochiV2: MouseProduct = {
   category: "mouse",
   price_range_usd: [50, 70],
   image_url: "https://i.rtings.com/assets/products/GLIVs2vm/razer-orochi-v2/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/mouse/reviews/razer/orochi-v2",
+  product_url: "https://www.amazon.com/s?k=Razer+Orochi+V2&tag=gearmatch-20",
   recommendation_tags: [
     "wireless_gaming",
     "portable",
@@ -7617,7 +7617,7 @@ export const gloriousModelOWireless: MouseProduct = {
   category: "mouse",
   price_range_usd: [70, 90],
   image_url: "https://i.rtings.com/assets/products/NVfJKRvL/glorious-model-o-wireless/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/mouse/reviews/glorious/model-o-wireless",
+  product_url: "https://www.amazon.com/s?k=GLORIOUS+Model+O+Wireless&tag=gearmatch-20",
   recommendation_tags: [
     "competitive_fps",
     "ultralight",
@@ -7677,7 +7677,7 @@ export const pulsarXliteV2: MouseProduct = {
   category: "mouse",
   price_range_usd: [60, 80],
   image_url: "https://i.rtings.com/assets/products/OJCrdhuF/pulsar-xlite-v2/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/mouse/reviews/pulsar/xlite-v2",
+  product_url: "https://www.amazon.com/s?k=Pulsar+Xlite+V2&tag=gearmatch-20",
   recommendation_tags: [
     "competitive_fps",
     "ultralight",
@@ -7737,7 +7737,7 @@ export const logitechMXMaster3: MouseProduct = {
   category: "mouse",
   price_range_usd: [80, 100],
   image_url: "https://i.rtings.com/assets/products/UPOdtAiR/logitech-mx-master-3/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/mouse/reviews/logitech/mx-master-3",
+  product_url: "https://www.amazon.com/s?k=Logitech+MX+Master+3&tag=gearmatch-20",
   recommendation_tags: [
     "productivity",
     "office_work",
@@ -7798,7 +7798,7 @@ export const finalmouseStarlight12Small: MouseProduct = {
   category: "mouse",
   price_range_usd: [150, 300],
   image_url: "https://i.rtings.com/assets/products/uQnQBE5p/finalmouse-starlight-12-small/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/mouse/reviews/finalmouse/starlight-12-small",
+  product_url: "https://www.amazon.com/s?k=Finalmouse+Starlight-12+Small&tag=gearmatch-20",
   recommendation_tags: [
     "ultralight",
     "competitive_fps",
@@ -7859,7 +7859,7 @@ export const endgameGearXM2we: MouseProduct = {
   category: "mouse",
   price_range_usd: [80, 100],
   image_url: "https://i.rtings.com/assets/products/KXst7pxz/endgame-gear-xm2we/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/mouse/reviews/endgame-gear/xm2we",
+  product_url: "https://www.amazon.com/s?k=Endgame+Gear+XM2we&tag=gearmatch-20",
   recommendation_tags: [
     "competitive_fps",
     "claw_grip",
@@ -7915,7 +7915,7 @@ export const gloriousModelDWireless: MouseProduct = {
   category: "mouse",
   price_range_usd: [70, 90],
   image_url: "https://i.rtings.com/assets/products/aWAvRjsW/glorious-model-d-wireless/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/mouse/reviews/glorious/model-d-wireless",
+  product_url: "https://www.amazon.com/s?k=GLORIOUS+Model+D+Wireless&tag=gearmatch-20",
   recommendation_tags: [
     "competitive_fps",
     "ultralight",
@@ -7976,7 +7976,7 @@ export const corsairDarkCoreRgbPro: MouseProduct = {
   category: "mouse",
   price_range_usd: [70, 90],
   image_url: "https://i.rtings.com/assets/products/r3YpGetx/corsair-dark-core-rgb-pro/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/mouse/reviews/corsair/dark-core-rgb-pro",
+  product_url: "https://www.amazon.com/s?k=Corsair+DARK+CORE+RGB+PRO&tag=gearmatch-20",
   recommendation_tags: [
     "wireless_gaming",
     "ergo_shape",
@@ -8032,7 +8032,7 @@ export const corsairM65RgbUltraWireless: MouseProduct = {
   category: "mouse",
   price_range_usd: [100, 130],
   image_url: "https://i.rtings.com/assets/products/Wsj9Vkvp/corsair-m65-rgb-ultra-wireless/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/mouse/reviews/corsair/m65-rgb-ultra-wireless",
+  product_url: "https://www.amazon.com/s?k=Corsair+M65+RGB+ULTRA+WIRELESS&tag=gearmatch-20",
   recommendation_tags: [
     "wireless_gaming",
     "fps_gaming",
@@ -8088,7 +8088,7 @@ export const corsairSabreRgbProWireless: MouseProduct = {
   category: "mouse",
   price_range_usd: [70, 100],
   image_url: "https://i.rtings.com/assets/products/5Zv3dcYn/corsair-sabre-rgb-pro-wireless/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/mouse/reviews/corsair/sabre-rgb-pro-wireless",
+  product_url: "https://www.amazon.com/s?k=Corsair+SABRE+RGB+PRO+WIRELESS&tag=gearmatch-20",
   recommendation_tags: [
     "competitive_fps",
     "wireless_gaming",
@@ -8148,7 +8148,7 @@ export const hyperxPulsefireHaste: MouseProduct = {
   category: "mouse",
   price_range_usd: [40, 50],
   image_url: "https://i.rtings.com/assets/products/Y46YGJtC/hyperx-pulsefire-haste/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/mouse/reviews/hyperx/pulsefire-haste",
+  product_url: "https://www.amazon.com/s?k=HyperX+Pulsefire+Haste&tag=gearmatch-20",
   recommendation_tags: [
     "competitive_fps",
     "ultralight",
@@ -8208,7 +8208,7 @@ export const coolerMasterMM720: MouseProduct = {
   category: "mouse",
   price_range_usd: [40, 50],
   image_url: "https://i.rtings.com/assets/products/ljrpQL24/cooler-master-mm720/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/mouse/reviews/cooler-master/mm720",
+  product_url: "https://www.amazon.com/s?k=Cooler+Master+MM720&tag=gearmatch-20",
   recommendation_tags: [
     "competitive_fps",
     "ultralight",
@@ -8264,7 +8264,7 @@ export const endgameGearXM1r: MouseProduct = {
   category: "mouse",
   price_range_usd: [50, 70],
   image_url: "https://i.rtings.com/assets/products/W9fhm1zJ/endgame-gear-xm1r/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/mouse/reviews/endgame-gear/xm1r",
+  product_url: "https://www.amazon.com/s?k=Endgame+Gear+XM1r&tag=gearmatch-20",
   recommendation_tags: [
     "competitive_fps",
     "claw_grip",
@@ -8320,7 +8320,7 @@ export const gloriousModelO: MouseProduct = {
   category: "mouse",
   price_range_usd: [40, 60],
   image_url: "https://i.rtings.com/assets/products/m8aj5QAP/glorious-model-o/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/mouse/reviews/glorious/model-o",
+  product_url: "https://www.amazon.com/s?k=GLORIOUS+Model+O&tag=gearmatch-20",
   recommendation_tags: [
     "competitive_fps",
     "ultralight",
@@ -8380,7 +8380,7 @@ export const ninjutsoSora: MouseProduct = {
   category: "mouse",
   price_range_usd: [60, 80],
   image_url: "https://i.rtings.com/assets/products/NZGyN33j/ninjutso-sora/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/mouse/reviews/ninjutso/sora",
+  product_url: "https://www.amazon.com/s?k=Ninjutso+Sora&tag=gearmatch-20",
   recommendation_tags: [
     "competitive_fps",
     "ultralight",
@@ -8436,7 +8436,7 @@ export const razerBasiliskXHyperspeed: MouseProduct = {
   category: "mouse",
   price_range_usd: [40, 60],
   image_url: "https://i.rtings.com/assets/products/8zYCLvLD/razer-basilisk-x-hyperspeed/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/mouse/reviews/razer/basilisk-x-hyperspeed",
+  product_url: "https://www.amazon.com/s?k=Razer+Basilisk+X+Hyperspeed&tag=gearmatch-20",
   recommendation_tags: [
     "wireless_gaming",
     "ergo_shape",
@@ -8492,7 +8492,7 @@ export const logitechG303ShroudEdition: MouseProduct = {
   category: "mouse",
   price_range_usd: [100, 130],
   image_url: "https://i.rtings.com/assets/products/8ASf7TFJ/logitech-g303-shroud-edition/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/mouse/reviews/logitech/g303-shroud-edition",
+  product_url: "https://www.amazon.com/s?k=Logitech+G303+Shroud+Edition&tag=gearmatch-20",
   recommendation_tags: [
     "competitive_fps",
     "claw_grip",
@@ -8550,7 +8550,7 @@ export const logitechMXAnywhere3: MouseProduct = {
   category: "mouse",
   price_range_usd: [70, 80],
   image_url: "https://i.rtings.com/assets/products/rDCOljJG/logitech-mx-anywhere-3/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/mouse/reviews/logitech/mx-anywhere-3",
+  product_url: "https://www.amazon.com/s?k=Logitech+MX+Anywhere+3&tag=gearmatch-20",
   recommendation_tags: [
     "productivity",
     "travel",
@@ -8606,7 +8606,7 @@ export const logitechErgoM575: MouseProduct = {
   category: "mouse",
   price_range_usd: [40, 60],
   image_url: "https://i.rtings.com/assets/products/iI921hER/logitech-ergo-m575/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/mouse/reviews/logitech/ergo-m575",
+  product_url: "https://www.amazon.com/s?k=Logitech+ERGO+M575&tag=gearmatch-20",
   recommendation_tags: [
     "trackball",
     "ergonomic",
@@ -8664,7 +8664,7 @@ export const razerNagaTrinity: MouseProduct = {
   category: "mouse",
   price_range_usd: [80, 100],
   image_url: "https://i.rtings.com/assets/products/7gwBMQqC/razer-naga-trinity/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/mouse/reviews/razer/naga-trinity",
+  product_url: "https://www.amazon.com/s?k=Razer+Naga+Trinity&tag=gearmatch-20",
   recommendation_tags: [
     "mmo_gaming",
     "swappable_panels",
@@ -8720,7 +8720,7 @@ export const logitechG600MMO: MouseProduct = {
   category: "mouse",
   price_range_usd: [35, 50],
   image_url: "https://i.rtings.com/assets/products/RHxMt456/logitech-g600-mmo-gaming/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/mouse/reviews/logitech/g600-mmo-gaming",
+  product_url: "https://www.amazon.com/s?k=Logitech+G600+MMO+Gaming&tag=gearmatch-20",
   recommendation_tags: [
     "mmo_gaming",
     "many_buttons",
@@ -8780,7 +8780,7 @@ export const finalmouseStarlightProTenZMedium: MouseProduct = {
   category: "mouse",
   price_range_usd: [180, 250],
   image_url: "https://i.rtings.com/assets/products/caJQ8rj7/finalmouse-starlight-pro-tenz-medium/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/mouse/reviews/finalmouse/starlight-pro-tenz-medium",
+  product_url: "https://www.amazon.com/s?k=Finalmouse+Starlight+Pro+-+TenZ+Medium&tag=gearmatch-20",
   recommendation_tags: [
     "ultralight",
     "fps_gaming",
@@ -8840,7 +8840,7 @@ export const zaunkoenigM2K: MouseProduct = {
   category: "mouse",
   price_range_usd: [200, 300],
   image_url: "https://i.rtings.com/assets/products/UKZfnJVl/zaunkoenig-m2k/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/mouse/reviews/zaunkoenig/m2k",
+  product_url: "https://www.amazon.com/s?k=Zaunkoenig+M2K&tag=gearmatch-20",
   recommendation_tags: [
     "ultralight_extreme",
     "fps_gaming",
@@ -8900,7 +8900,7 @@ export const gloriousSeriesOnePro: MouseProduct = {
   category: "mouse",
   price_range_usd: [70, 100],
   image_url: "https://i.rtings.com/assets/products/VRSEduzh/glorious-series-one-pro/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/mouse/reviews/glorious/series-one-pro",
+  product_url: "https://www.amazon.com/s?k=GLORIOUS+Series+One+PRO&tag=gearmatch-20",
   recommendation_tags: [
     "ultralight",
     "fps_gaming",
@@ -8960,7 +8960,7 @@ export const vaxeeXE: MouseProduct = {
   category: "mouse",
   price_range_usd: [60, 80],
   image_url: "https://i.rtings.com/assets/products/ZYN5oUN1/vaxee-xe/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/mouse/reviews/vaxee/xe",
+  product_url: "https://www.amazon.com/s?k=Vaxee+XE&tag=gearmatch-20",
   recommendation_tags: [
     "fps_gaming",
     "wired_gaming",
@@ -9016,7 +9016,7 @@ export const gloriousModelOPro: MouseProduct = {
   category: "mouse",
   price_range_usd: [70, 100],
   image_url: "https://i.rtings.com/assets/products/ajizZHpg/glorious-model-o-pro/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/mouse/reviews/glorious/model-o-pro",
+  product_url: "https://www.amazon.com/s?k=GLORIOUS+Model+O+PRO&tag=gearmatch-20",
   recommendation_tags: [
     "ultralight",
     "fps_gaming",
@@ -9072,7 +9072,7 @@ export const finalmouseStarlight12PoseidonSmall: MouseProduct = {
   category: "mouse",
   price_range_usd: [150, 250],
   image_url: "https://i.rtings.com/assets/products/fMe0OPNG/finalmouse-starlight-12-poseidon-small/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/mouse/reviews/finalmouse/starlight-12-poseidon-small",
+  product_url: "https://www.amazon.com/s?k=Finalmouse+Starlight-12+Poseidon+Small&tag=gearmatch-20",
   recommendation_tags: [
     "ultralight_extreme",
     "fps_gaming",
@@ -9128,7 +9128,7 @@ export const logitechMXVertical: MouseProduct = {
   category: "mouse",
   price_range_usd: [80, 100],
   image_url: "https://i.rtings.com/assets/products/dBSZbFYV/logitech-mx-vertical/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/mouse/reviews/logitech/mx-vertical",
+  product_url: "https://www.amazon.com/s?k=Logitech+MX+Vertical&tag=gearmatch-20",
   recommendation_tags: [
     "vertical_ergonomic",
     "office_work",
@@ -9184,7 +9184,7 @@ export const logitechMXMaster: MouseProduct = {
   category: "mouse",
   price_range_usd: [60, 80],
   image_url: "https://i.rtings.com/assets/products/gPW2huyI/logitech-mx-master/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/mouse/reviews/logitech/mx-master",
+  product_url: "https://www.amazon.com/s?k=Logitech+MX+Master&tag=gearmatch-20",
   recommendation_tags: [
     "productivity",
     "office_work",
@@ -9240,7 +9240,7 @@ export const logitechPebbleM350: MouseProduct = {
   category: "mouse",
   price_range_usd: [25, 35],
   image_url: "https://i.rtings.com/assets/products/pJEfEC8r/logitech-pebble-m350/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/mouse/reviews/logitech/pebble-m350",
+  product_url: "https://www.amazon.com/s?k=Logitech+Pebble+M350&tag=gearmatch-20",
   recommendation_tags: [
     "portable",
     "travel",
@@ -9300,7 +9300,7 @@ export const kensingtonSlimBladeProTrackball: MouseProduct = {
   category: "mouse",
   price_range_usd: [100, 130],
   image_url: "https://i.rtings.com/assets/products/U9TNMUJL/kensington-slimblade-pro-trackball/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/mouse/reviews/kensington/slimblade-pro-trackball",
+  product_url: "https://www.amazon.com/s?k=Kensington+SlimBlade+Pro+Trackball&tag=gearmatch-20",
   recommendation_tags: [
     "trackball",
     "ergonomic",
@@ -9360,7 +9360,7 @@ export const threeDconnexionCadMouseProWireless: MouseProduct = {
   category: "mouse",
   price_range_usd: [100, 130],
   image_url: "https://i.rtings.com/assets/products/ptJvodM1/3dconnexion-cadmouse-pro-wireless/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/mouse/reviews/3dconnexion/cadmouse-pro-wireless",
+  product_url: "https://www.amazon.com/s?k=3Dconnexion+CadMouse+Pro+Wireless&tag=gearmatch-20",
   recommendation_tags: [
     "cad_work",
     "productivity",
@@ -9416,7 +9416,7 @@ export const logitechM510: MouseProduct = {
   category: "mouse",
   price_range_usd: [20, 35],
   image_url: "https://i.rtings.com/assets/products/0IovU6pU/logitech-m510/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/mouse/reviews/logitech/m510",
+  product_url: "https://www.amazon.com/s?k=Logitech+M510&tag=gearmatch-20",
   recommendation_tags: [
     "budget",
     "office_work",
@@ -9476,7 +9476,7 @@ export const microsoftArcMouse: MouseProduct = {
   category: "mouse",
   price_range_usd: [60, 80],
   image_url: "https://i.rtings.com/assets/products/vdMb1hBy/microsoft-arc-mouse/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/mouse/reviews/microsoft/arc-mouse",
+  product_url: "https://www.amazon.com/s?k=Microsoft+Arc+Mouse&tag=gearmatch-20",
   recommendation_tags: [
     "travel",
     "portable",
@@ -9542,7 +9542,7 @@ export const threeDconnexionCadmouseProWireless: MouseProduct = {
   category: "mouse",
   price_range_usd: [120, 160],
   image_url: "https://i.rtings.com/assets/products/ptJvodM1/3dconnexion-cadmouse-pro-wireless/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/mouse/reviews/3dconnexion/cadmouse-pro-wireless",
+  product_url: "https://www.amazon.com/s?k=3Dconnexion+CadMouse+Pro+Wireless&tag=gearmatch-20",
   recommendation_tags: ["wireless","mmo_gaming"],
   data_quality: {
     data_confidence: "high",
@@ -9592,7 +9592,7 @@ export const logitechG203Lightsync: MouseProduct = {
   category: "mouse",
   price_range_usd: [20, 40],
   image_url: "https://i.rtings.com/assets/products/1IDV7MWt/logitech-g203-lightsync/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/mouse/reviews/logitech/g203-lightsync",
+  product_url: "https://www.amazon.com/s?k=Logitech+G203+LIGHTSYNC&tag=gearmatch-20",
   recommendation_tags: ["ambidextrous","mmo_gaming"],
   data_quality: {
     data_confidence: "high",
@@ -9642,7 +9642,7 @@ export const logitechG305Lightspeed: MouseProduct = {
   category: "mouse",
   price_range_usd: [50, 80],
   image_url: "https://i.rtings.com/assets/products/R7qRwqbG/logitech-g305-lightspeed/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/mouse/reviews/logitech/g305-lightspeed",
+  product_url: "https://www.amazon.com/s?k=Logitech+G305+LIGHTSPEED&tag=gearmatch-20",
   recommendation_tags: ["wireless","ambidextrous","mmo_gaming"],
   data_quality: {
     data_confidence: "high",
@@ -9692,7 +9692,7 @@ export const logitechG600MmoGaming: MouseProduct = {
   category: "mouse",
   price_range_usd: [50, 80],
   image_url: "https://i.rtings.com/assets/products/RHxMt456/logitech-g600-mmo-gaming/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/mouse/reviews/logitech/g600-mmo-gaming",
+  product_url: "https://www.amazon.com/s?k=Logitech+G600+MMO+Gaming&tag=gearmatch-20",
   recommendation_tags: ["mmo_gaming","many_buttons"],
   data_quality: {
     data_confidence: "high",
@@ -9742,7 +9742,7 @@ export const logitechG703LightspeedWithHeroSensor: MouseProduct = {
   category: "mouse",
   price_range_usd: [50, 80],
   image_url: "https://i.rtings.com/assets/products/xRUxJwmc/logitech-g703-lightspeed-with-hero-sensor/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/mouse/reviews/logitech/g703-lightspeed-with-hero-sensor",
+  product_url: "https://www.amazon.com/s?k=Logitech+G703+LIGHTSPEED+with+HERO+Sensor&tag=gearmatch-20",
   recommendation_tags: ["wireless","mmo_gaming"],
   data_quality: {
     data_confidence: "high",
@@ -9792,7 +9792,7 @@ export const gWolvesHskPro4k: MouseProduct = {
   category: "mouse",
   price_range_usd: [120, 160],
   image_url: "https://i.rtings.com/assets/products/L17jx9Yd/g-wolves-hsk-pro-4k/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/mouse/reviews/g-wolves/hsk-pro-4k",
+  product_url: "https://www.amazon.com/s?k=G-Wolves+HSK+Pro+4K&tag=gearmatch-20",
   recommendation_tags: ["ultralight","esports_grade_latency","wireless","competitive_fps","ambidextrous"],
   data_quality: {
     data_confidence: "high",
@@ -9842,7 +9842,7 @@ export const gloriousModelO3Wireless: MouseProduct = {
   category: "mouse",
   price_range_usd: [50, 80],
   image_url: "https://i.rtings.com/assets/products/JZ68muuv/glorious-model-o3-wireless/in-test-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/mouse/reviews/glorious/model-o3-wireless",
+  product_url: "https://www.amazon.com/s?k=GLORIOUS+Model+O3+Wireless&tag=gearmatch-20",
   recommendation_tags: ["esports_grade_latency","8k_polling","wireless","ambidextrous"],
   data_quality: {
     data_confidence: "high",
@@ -9892,7 +9892,7 @@ export const endgameGearOp18kV2: MouseProduct = {
   category: "mouse",
   price_range_usd: [20, 40],
   image_url: "https://i.rtings.com/assets/products/Tr5jkHPy/endgame-gear-op1-8k-v2/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/mouse/reviews/endgame-gear/op1-8k-v2",
+  product_url: "https://www.amazon.com/s?k=Endgame+Gear+OP1+8k+v2&tag=gearmatch-20",
   recommendation_tags: ["ultralight","8k_polling","competitive_fps","ambidextrous","mmo_gaming"],
   data_quality: {
     data_confidence: "high",
@@ -9942,7 +9942,7 @@ export const endgameGearOp18k: MouseProduct = {
   category: "mouse",
   price_range_usd: [50, 80],
   image_url: "https://i.rtings.com/assets/products/mGJHptEb/endgame-gear-op1-8k/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/mouse/reviews/endgame-gear/op1-8k",
+  product_url: "https://www.amazon.com/s?k=Endgame+Gear+OP1+8k&tag=gearmatch-20",
   recommendation_tags: ["ultralight","8k_polling","competitive_fps","ambidextrous","mmo_gaming"],
   data_quality: {
     data_confidence: "high",
@@ -9992,7 +9992,7 @@ export const ploopyThumbTrackball: MouseProduct = {
   category: "mouse",
   price_range_usd: [50, 80],
   image_url: "https://i.rtings.com/assets/products/DodvTfEp/ploopy-thumb-trackball/in-test-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/mouse/reviews/ploopy/thumb-trackball",
+  product_url: "https://www.amazon.com/s?k=Ploopy+Thumb+Trackball&tag=gearmatch-20",
   recommendation_tags: [],
   data_quality: {
     data_confidence: "high",
@@ -10042,7 +10042,7 @@ export const finalmouseUltralightxCompetition: MouseProduct = {
   category: "mouse",
   price_range_usd: [150, 200],
   image_url: "https://i.rtings.com/assets/products/ZMbXxoau/finalmouse-ultralightx-competition/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/mouse/reviews/finalmouse/ultralightx-competition",
+  product_url: "https://www.amazon.com/s?k=Finalmouse+UltralightX+Competition&tag=gearmatch-20",
   recommendation_tags: ["ultralight","esports_grade_latency","8k_polling","wireless","competitive_fps"],
   data_quality: {
     data_confidence: "high",

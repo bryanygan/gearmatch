@@ -16,7 +16,7 @@ export const steelseriesArctisNova7: AudioProduct = {
   category: "audio",
   price_range_usd: [140, 180],
   image_url: undefined,
-  product_url: undefined,
+  product_url: "https://www.amazon.com/s?k=SteelSeries+Arctis+Nova+7+Wireless&tag=gearmatch-20",
   recommendation_tags: ["great_for_long_sessions", "dual_wireless_bluetooth_plus_dongle", "strong_bass_presence", "not_for_travel_noise", "multi_platform"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -39,7 +39,7 @@ export const hyperxCloudIIIWireless: AudioProduct = {
   category: "audio",
   price_range_usd: [150, 170],
   image_url: undefined,
-  product_url: undefined,
+  product_url: "https://www.amazon.com/s?k=HyperX+Cloud+III+Wireless&tag=gearmatch-20",
   recommendation_tags: ["great_mic_quality", "comfortable_fit", "durable_build", "good_isolation"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -62,7 +62,7 @@ export const razerBlackSharkV3Pro: AudioProduct = {
   category: "audio",
   price_range_usd: [180, 220],
   image_url: undefined,
-  product_url: undefined,
+  product_url: "https://www.amazon.com/s?k=Razer+BlackShark+V3+Pro&tag=gearmatch-20",
   recommendation_tags: ["competitive_fps", "wireless_gaming", "great_mic", "multiplatform", "long_battery"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -85,7 +85,7 @@ export const audezeMaxwell: AudioProduct = {
   category: "audio",
   price_range_usd: [280, 350],
   image_url: undefined,
-  product_url: undefined,
+  product_url: "https://www.amazon.com/s?k=Audeze+Maxwell&tag=gearmatch-20",
   recommendation_tags: ["audiophile_gaming", "planar_magnetic", "wireless_gaming", "great_mic", "music_first"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -108,7 +108,7 @@ export const steelseriesArctis7Wireless2017: AudioProduct = {
   category: "audio",
   price_range_usd: [100, 150],
   image_url: undefined,
-  product_url: "https://www.rtings.com/headphones/reviews/steelseries/arctis-7-wireless-2017",
+  product_url: "https://www.amazon.com/s?k=SteelSeries+Arctis+7+Wireless+2017&tag=gearmatch-20",
   recommendation_tags: ["wireless_gaming", "long_battery", "ski_band", "retractable_mic"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -131,7 +131,7 @@ export const razerKairaProWireless: AudioProduct = {
   category: "audio",
   price_range_usd: [100, 150],
   image_url: undefined,
-  product_url: "https://www.rtings.com/headphones/reviews/razer/kaira-pro-wireless",
+  product_url: "https://www.amazon.com/s?k=Razer+Kaira+Pro+Wireless&tag=gearmatch-20",
   recommendation_tags: ["wireless_gaming", "xbox", "playstation", "bluetooth", "rgb"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -154,7 +154,7 @@ export const steelseriesArctisNova3: AudioProduct = {
   category: "audio",
   price_range_usd: [70, 100],
   image_url: undefined,
-  product_url: "https://www.rtings.com/headphones/reviews/steelseries/arctis-nova-3",
+  product_url: "https://www.amazon.com/s?k=SteelSeries+Arctis+Nova+3&tag=gearmatch-20",
   recommendation_tags: ["wired_gaming", "budget", "rgb", "usb_audio", "steelseries"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -177,7 +177,7 @@ export const astroA50Gen4: AudioProduct = {
   category: "audio",
   price_range_usd: [250, 300],
   image_url: undefined,
-  product_url: "https://www.rtings.com/headphones/reviews/astro/a50-gen-4",
+  product_url: "https://www.amazon.com/s?k=Astro+A50+Gen+4&tag=gearmatch-20",
   recommendation_tags: ["wireless_gaming", "premium", "dock", "dolby_atmos", "semi_open"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -200,7 +200,7 @@ export const astroA50X: AudioProduct = {
   category: "audio",
   price_range_usd: [350, 400],
   image_url: undefined,
-  product_url: "https://www.rtings.com/headphones/reviews/astro/a50-x",
+  product_url: "https://www.amazon.com/s?k=Astro+A50+X&tag=gearmatch-20",
   recommendation_tags: ["wireless_gaming", "premium", "playsync", "hdmi_passthrough", "multi_platform"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -223,7 +223,7 @@ export const turtleBeachStealth600Gen3: AudioProduct = {
   category: "audio",
   price_range_usd: [100, 100],
   image_url: "https://m.media-amazon.com/images/I/71g7q9lnzTL._AC_SL1500_.jpg",
-  product_url: "https://www.amazon.com/dp/B0D5SM8P4H",
+  product_url: "https://www.amazon.com/s?k=Turtle+Beach+Stealth+600+(Gen+3)&tag=gearmatch-20",
   recommendation_tags: ["gaming", "wireless_gaming", "multiplatform", "long_battery", "value_pick"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -246,7 +246,7 @@ export const logitechG435Lightspeed: AudioProduct = {
   category: "audio",
   price_range_usd: [60, 60],
   image_url: "https://m.media-amazon.com/images/I/71wEqNKKfKL._AC_SL1500_.jpg",
-  product_url: "https://www.amazon.com/dp/B08R8FRKL8",
+  product_url: "https://www.amazon.com/s?k=Logitech+G435+LIGHTSPEED+Wireless&tag=gearmatch-20",
   recommendation_tags: ["budget_gaming", "wireless_gaming", "lightweight", "value_pick"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -269,7 +269,7 @@ export const logitechG432: AudioProduct = {
   category: "audio",
   price_range_usd: [50, 50],
   image_url: undefined,
-  product_url: "https://www.rtings.com/headphones/reviews/logitech/g432",
+  product_url: "https://www.amazon.com/s?k=Logitech+G432&tag=gearmatch-20",
   recommendation_tags: ["gaming", "budget_gaming", "voice_chat", "multiplatform", "value_pick"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -292,7 +292,7 @@ export const hyperxCloudIII: AudioProduct = {
   category: "audio",
   price_range_usd: [100, 100],
   image_url: undefined,
-  product_url: undefined,
+  product_url: "https://www.amazon.com/s?k=HyperX+Cloud+III&tag=gearmatch-20",
   recommendation_tags: ["pc_gaming", "playstation", "competitive_gaming", "voice_chat", "great_mic"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -315,7 +315,7 @@ export const astroA10: AudioProduct = {
   category: "audio",
   price_range_usd: [60, 60],
   image_url: undefined,
-  product_url: undefined,
+  product_url: "https://www.amazon.com/s?k=Astro+A10&tag=gearmatch-20",
   recommendation_tags: ["budget_gaming", "console_gaming", "voice_chat", "beginners", "great_mic"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -338,7 +338,7 @@ export const turtleBeachRecon50: AudioProduct = {
   category: "audio",
   price_range_usd: [25, 25],
   image_url: undefined,
-  product_url: undefined,
+  product_url: "https://www.amazon.com/s?k=Turtle+Beach+Recon+50X%2F50P&tag=gearmatch-20",
   recommendation_tags: ["ultra_budget_gaming", "casual_gaming", "beginners", "great_mic", "value_pick"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -361,7 +361,7 @@ export const jabraEvolve285Wireless: AudioProduct = {
   category: "audio",
   price_range_usd: [449, 449],
   image_url: undefined,
-  product_url: undefined,
+  product_url: "https://www.amazon.com/s?k=Jabra+Evolve2+85+Wireless&tag=gearmatch-20",
   recommendation_tags: ["professional_office", "conference_calls", "remote_work", "travel", "anc", "boom_mic"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -384,7 +384,7 @@ export const dropSennheiserPC38X: AudioProduct = {
   category: "audio",
   price_range_usd: [130, 170],
   image_url: undefined,
-  product_url: undefined,
+  product_url: "https://www.amazon.com/s?k=Drop+%2B+Sennheiser%2FEPOS+PC38X&tag=gearmatch-20",
   recommendation_tags: ["gaming", "pc_gaming", "xbox_series", "ps5", "open_back", "competitive_fps", "mic_quality"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -407,7 +407,7 @@ export const steelSeriesTusq: AudioProduct = {
   category: "audio",
   price_range_usd: [40, 40],
   image_url: undefined,
-  product_url: "https://www.rtings.com/headphones/reviews/steelseries/tusq",
+  product_url: "https://www.amazon.com/s?k=SteelSeries+TUSQ&tag=gearmatch-20",
   recommendation_tags: ["gaming", "competitive_gaming", "iem", "detachable_mic", "budget"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -430,7 +430,7 @@ export const steelSeriesArctisGameBuds: AudioProduct = {
   category: "audio",
   price_range_usd: [160, 160],
   image_url: undefined,
-  product_url: undefined,
+  product_url: "https://www.amazon.com/s?k=SteelSeries+Arctis+GameBuds&tag=gearmatch-20",
   recommendation_tags: ["wireless_gaming", "playstation", "pc_gaming", "sports_gaming", "multi_use", "anc"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -457,7 +457,7 @@ export const sennheiserHD560S: AudioProduct = {
   category: "audio",
   price_range_usd: [150, 200],
   image_url: undefined,
-  product_url: undefined,
+  product_url: "https://www.amazon.com/s?k=Sennheiser+HD+560S&tag=gearmatch-20",
   recommendation_tags: ["audiophile_entry", "wide_soundstage", "excellent_imaging", "no_mic_included", "needs_quiet_environment"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -480,7 +480,7 @@ export const sennheiserHd800s: AudioProduct = {
   category: "audio",
   price_range_usd: [1600, 1800],
   image_url: undefined,
-  product_url: undefined,
+  product_url: "https://www.amazon.com/s?k=Sennheiser+HD+800+S&tag=gearmatch-20",
   recommendation_tags: ["audiophile", "open_back", "reference", "studio", "critical_listening", "flagship"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -503,7 +503,7 @@ export const sennheiserHD490PRO: AudioProduct = {
   category: "audio",
   price_range_usd: [350, 400],
   image_url: undefined,
-  product_url: undefined,
+  product_url: "https://www.amazon.com/s?k=Sennheiser+HD+490+PRO&tag=gearmatch-20",
   recommendation_tags: ["audiophile", "studio_monitor", "critical_listening", "open_back", "swappable_pads"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -526,7 +526,7 @@ export const philipsShp9500: AudioProduct = {
   category: "audio",
   price_range_usd: [80, 80],
   image_url: "https://m.media-amazon.com/images/I/71wAp8kBi5L._AC_SL1500_.jpg",
-  product_url: "https://www.amazon.com/dp/B00ENMK1DW",
+  product_url: "https://www.amazon.com/s?k=Philips+SHP9500&tag=gearmatch-20",
   recommendation_tags: ["audiophile_entry", "open_back", "critical_listening", "gaming", "value_pick"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -549,7 +549,7 @@ export const focalStellia: AudioProduct = {
   category: "audio",
   price_range_usd: [2900, 3000],
   image_url: undefined,
-  product_url: "https://www.rtings.com/headphones/reviews/focal/stellia",
+  product_url: "https://www.amazon.com/s?k=Focal+Stellia&tag=gearmatch-20",
   recommendation_tags: ["audiophile", "closed_back", "premium", "beryllium_driver", "xlr_cable"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -572,7 +572,7 @@ export const audezeLcdX: AudioProduct = {
   category: "audio",
   price_range_usd: [1100, 1200],
   image_url: undefined,
-  product_url: "https://www.rtings.com/headphones/reviews/audeze/lcd-x",
+  product_url: "https://www.amazon.com/s?k=Audeze+LCD-X&tag=gearmatch-20",
   recommendation_tags: ["audiophile", "open_back", "planar_magnetic", "studio", "warm"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -595,7 +595,7 @@ export const hifimanAryaStealthMagnet: AudioProduct = {
   category: "audio",
   price_range_usd: [1100, 1300],
   image_url: undefined,
-  product_url: "https://www.rtings.com/headphones/reviews/hifiman/arya-stealth-magnet-version",
+  product_url: "https://www.amazon.com/s?k=HiFiMan+Arya+Stealth+Magnet+Version&tag=gearmatch-20",
   recommendation_tags: ["audiophile", "open_back", "planar_magnetic", "bright", "stealth_magnet"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -618,7 +618,7 @@ export const audioTechnicaAthM20x: AudioProduct = {
   category: "audio",
   price_range_usd: [50, 50],
   image_url: "https://m.media-amazon.com/images/I/71dVWwxXJNL._AC_SL1500_.jpg",
-  product_url: "https://www.amazon.com/dp/B00HVLUR18",
+  product_url: "https://www.amazon.com/s?k=Audio-Technica+ATH-M20x&tag=gearmatch-20",
   recommendation_tags: ["studio_monitor", "budget", "neutral", "gaming", "value_pick"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -641,7 +641,7 @@ export const sonyMdr7506: AudioProduct = {
   category: "audio",
   price_range_usd: [100, 100],
   image_url: undefined,
-  product_url: "https://www.rtings.com/headphones/reviews/sony/mdr-7506",
+  product_url: "https://www.amazon.com/s?k=Sony+MDR-7506&tag=gearmatch-20",
   recommendation_tags: ["studio_monitoring", "critical_listening", "podcasting", "gaming", "industry_standard", "value_pick"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -664,7 +664,7 @@ export const beyerdynamicDt770Pro250: AudioProduct = {
   category: "audio",
   price_range_usd: [160, 160],
   image_url: undefined,
-  product_url: "https://www.rtings.com/headphones/reviews/beyerdynamic/dt-770-pro",
+  product_url: "https://www.amazon.com/s?k=Beyerdynamic+DT+770+PRO&tag=gearmatch-20",
   recommendation_tags: ["studio_monitoring", "mixing", "critical_listening", "gaming", "professional"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -687,7 +687,7 @@ export const beyerdynamicDt1770Pro: AudioProduct = {
   category: "audio",
   price_range_usd: [500, 500],
   image_url: undefined,
-  product_url: "https://www.rtings.com/headphones/reviews/beyerdynamic/dt-1770-pro",
+  product_url: "https://www.amazon.com/s?k=Beyerdynamic+DT+1770+PRO&tag=gearmatch-20",
   recommendation_tags: ["studio_monitoring", "mixing", "mastering", "critical_listening", "professional"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -710,7 +710,7 @@ export const focalBathysWireless: AudioProduct = {
   category: "audio",
   price_range_usd: [600, 800],
   image_url: undefined,
-  product_url: undefined,
+  product_url: "https://www.amazon.com/s?k=Focal+Bathys+Wireless&tag=gearmatch-20",
   recommendation_tags: ["audiophile", "critical_listening", "closed_back", "usb_c_audio", "premium_anc", "travel"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -732,7 +732,7 @@ export const focalBathysWireless: AudioProduct = {
 
 export const sonyWh1000xm6: AudioProduct = {
   id: "sony_wh_1000xm6", name: "Sony WH-1000XM6", brand: "Sony", category: "audio",
-  price_range_usd: [400, 400], image_url: undefined, product_url: undefined,
+  price_range_usd: [400, 400], image_url: undefined, product_url: "https://www.amazon.com/s?k=Sony+WH-1000XM6&tag=gearmatch-20",
   recommendation_tags: ["anc_flagship", "travel", "office", "wireless", "ldac", "lc3", "multipoint"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -750,7 +750,7 @@ export const sonyWh1000xm6: AudioProduct = {
 
 export const sonyWH1000XM4: AudioProduct = {
   id: "sony_wh_1000xm4", name: "Sony WH-1000XM4 Wireless", brand: "Sony", category: "audio",
-  price_range_usd: [200, 280], image_url: undefined, product_url: undefined,
+  price_range_usd: [200, 280], image_url: undefined, product_url: "https://www.amazon.com/s?k=Sony+WH-1000XM4+Wireless&tag=gearmatch-20",
   recommendation_tags: ["premium_anc", "travel", "music_first", "wireless_bluetooth", "ldac"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -768,7 +768,7 @@ export const sonyWH1000XM4: AudioProduct = {
 
 export const boseQcUltra2ndGen: AudioProduct = {
   id: "bose_qc_ultra_headphones_2nd_gen", name: "Bose QuietComfort Ultra Headphones (2nd Gen)", brand: "Bose", category: "audio",
-  price_range_usd: [430, 430], image_url: undefined, product_url: undefined,
+  price_range_usd: [430, 430], image_url: undefined, product_url: "https://www.amazon.com/s?k=Bose+QuietComfort+Ultra+Headphones+(2nd+Gen)&tag=gearmatch-20",
   recommendation_tags: ["premium_anc", "travel", "flagship", "work", "commute", "aptx_adaptive"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -786,7 +786,7 @@ export const boseQcUltra2ndGen: AudioProduct = {
 
 export const boseQcHeadphonesWireless: AudioProduct = {
   id: "bose_qc_headphones_wireless", name: "Bose QuietComfort Headphones Wireless", brand: "Bose", category: "audio",
-  price_range_usd: [249, 249], image_url: undefined, product_url: undefined,
+  price_range_usd: [249, 249], image_url: undefined, product_url: "https://www.amazon.com/s?k=Bose+QuietComfort+Headphones+Wireless&tag=gearmatch-20",
   recommendation_tags: ["anc", "travel", "commute", "office", "casual_listening", "bose"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -804,7 +804,7 @@ export const boseQcHeadphonesWireless: AudioProduct = {
 
 export const bowersWilkinsPx7S2Wireless: AudioProduct = {
   id: "bowers_wilkins_px7_s2_wireless", name: "Bowers & Wilkins Px7 S2 Wireless", brand: "Bowers & Wilkins", category: "audio",
-  price_range_usd: [350, 400], image_url: undefined, product_url: undefined,
+  price_range_usd: [350, 400], image_url: undefined, product_url: "https://www.amazon.com/s?k=Bowers+%26+Wilkins+Px7+S2+Wireless&tag=gearmatch-20",
   recommendation_tags: ["anc", "travel", "premium", "aptx_adaptive", "usb_c_audio"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -822,7 +822,7 @@ export const bowersWilkinsPx7S2Wireless: AudioProduct = {
 
 export const ankerSoundcoreLifeQ30: AudioProduct = {
   id: "anker_soundcore_life_q30", name: "Anker Soundcore Life Q30 Wireless", brand: "Anker", category: "audio",
-  price_range_usd: [60, 80], image_url: undefined, product_url: undefined,
+  price_range_usd: [60, 80], image_url: undefined, product_url: "https://www.amazon.com/s?k=Anker+Soundcore+Life+Q30+Wireless&tag=gearmatch-20",
   recommendation_tags: ["budget_anc", "travel", "commute", "value_pick", "wireless_bluetooth"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -840,7 +840,7 @@ export const ankerSoundcoreLifeQ30: AudioProduct = {
 
 export const ankerSpaceQ45: AudioProduct = {
   id: "anker_soundcore_space_q45", name: "Anker Soundcore Space Q45", brand: "Anker", category: "audio",
-  price_range_usd: [100, 150], image_url: undefined, product_url: undefined,
+  price_range_usd: [100, 150], image_url: undefined, product_url: "https://www.amazon.com/s?k=Anker+Soundcore+Space+Q45&tag=gearmatch-20",
   recommendation_tags: ["budget_anc", "travel", "office", "ldac", "multipoint", "value_pick"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -858,7 +858,7 @@ export const ankerSpaceQ45: AudioProduct = {
 
 export const ankerLifeQ20_2024: AudioProduct = {
   id: "anker_soundcore_life_q20_2024", name: "Anker Soundcore Life Q20 2024", brand: "Anker", category: "audio",
-  price_range_usd: [50, 50], image_url: undefined, product_url: undefined,
+  price_range_usd: [50, 50], image_url: undefined, product_url: "https://www.amazon.com/s?k=Anker+Soundcore+Life+Q20+2024&tag=gearmatch-20",
   recommendation_tags: ["ultra_budget_anc", "travel", "office", "multipoint", "value_pick"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -876,7 +876,7 @@ export const ankerLifeQ20_2024: AudioProduct = {
 
 export const sennheiserHDB630: AudioProduct = {
   id: "sennheiser_hdb_630", name: "Sennheiser HDB 630", brand: "Sennheiser", category: "audio",
-  price_range_usd: [350, 450], image_url: undefined, product_url: undefined,
+  price_range_usd: [350, 450], image_url: undefined, product_url: "https://www.amazon.com/s?k=Sennheiser+HDB+630&tag=gearmatch-20",
   recommendation_tags: ["audiophile", "premium_anc", "travel", "music_first", "balanced_signature"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -894,7 +894,7 @@ export const sennheiserHDB630: AudioProduct = {
 
 export const sonyUltWear: AudioProduct = {
   id: "sony_ult_wear", name: "Sony ULT WEAR", brand: "Sony", category: "audio",
-  price_range_usd: [200, 200], image_url: undefined, product_url: undefined,
+  price_range_usd: [200, 200], image_url: undefined, product_url: "https://www.amazon.com/s?k=Sony+ULT+WEAR&tag=gearmatch-20",
   recommendation_tags: ["bass_lovers", "anc", "travel", "commute", "casual_listening", "ldac"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -912,7 +912,7 @@ export const sonyUltWear: AudioProduct = {
 
 export const treblabZ7ProWireless: AudioProduct = {
   id: "treblab_z7_pro_wireless", name: "TREBLAB Z7 Pro Wireless", brand: "TREBLAB", category: "audio",
-  price_range_usd: [100, 100], image_url: undefined, product_url: undefined,
+  price_range_usd: [100, 100], image_url: undefined, product_url: "https://www.amazon.com/s?k=TREBLAB+Z7+Pro+Wireless&tag=gearmatch-20",
   recommendation_tags: ["anc", "commute", "travel", "sports", "casual_listening", "ipx4"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -930,7 +930,7 @@ export const treblabZ7ProWireless: AudioProduct = {
 
 export const beatsStudioProWireless: AudioProduct = {
   id: "beats_studio_pro_wireless", name: "Beats Studio Pro Wireless", brand: "Beats", category: "audio",
-  price_range_usd: [350, 350], image_url: undefined, product_url: undefined,
+  price_range_usd: [350, 350], image_url: undefined, product_url: "https://www.amazon.com/s?k=Beats+Studio+Pro+Wireless&tag=gearmatch-20",
   recommendation_tags: ["anc", "travel", "commute", "apple_ecosystem", "casual_listening", "vendor_specific"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -948,7 +948,7 @@ export const beatsStudioProWireless: AudioProduct = {
 
 export const beatsSolo4: AudioProduct = {
   id: "beats_solo_4", name: "Beats Solo 4", brand: "Beats", category: "audio",
-  price_range_usd: [150, 200], image_url: undefined, product_url: undefined,
+  price_range_usd: [150, 200], image_url: undefined, product_url: "https://www.amazon.com/s?k=Beats+Solo+4&tag=gearmatch-20",
   recommendation_tags: ["on_ear", "beats", "usb_c_audio", "stylish", "portable"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -966,7 +966,7 @@ export const beatsSolo4: AudioProduct = {
 
 export const jblTune520bt: AudioProduct = {
   id: "jbl_tune_520bt", name: "JBL Tune 520BT", brand: "JBL", category: "audio",
-  price_range_usd: [50, 50], image_url: undefined, product_url: undefined,
+  price_range_usd: [50, 50], image_url: undefined, product_url: "https://www.amazon.com/s?k=JBL+Tune+520BT&tag=gearmatch-20",
   recommendation_tags: ["budget", "on_ear", "wireless", "casual_listening", "commute"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -984,7 +984,7 @@ export const jblTune520bt: AudioProduct = {
 
 export const jblTune760NC: AudioProduct = {
   id: "jbl_tune_760nc", name: "JBL Tune 760NC Wireless", brand: "JBL", category: "audio",
-  price_range_usd: [80, 130], image_url: undefined, product_url: undefined,
+  price_range_usd: [80, 130], image_url: undefined, product_url: "https://www.amazon.com/s?k=JBL+Tune+760NC+Wireless&tag=gearmatch-20",
   recommendation_tags: ["budget_anc", "budget_wireless", "over_ear_under_100", "casual_listening"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -1002,7 +1002,7 @@ export const jblTune760NC: AudioProduct = {
 
 export const sonyWHCH520: AudioProduct = {
   id: "sony_wh_ch520", name: "Sony WH-CH520 Wireless", brand: "Sony", category: "audio",
-  price_range_usd: [40, 60], image_url: undefined, product_url: undefined,
+  price_range_usd: [40, 60], image_url: undefined, product_url: "https://www.amazon.com/s?k=Sony+WH-CH520+Wireless&tag=gearmatch-20",
   recommendation_tags: ["budget", "budget_wireless", "under_50", "wireless_under_100", "sony", "casual_listening"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -1024,7 +1024,7 @@ export const sonyWHCH520: AudioProduct = {
 
 export const appleAirpodsPro3: AudioProduct = {
   id: "apple_airpods_pro_3", name: "Apple AirPods Pro 3", brand: "Apple", category: "audio",
-  price_range_usd: [250, 250], image_url: undefined, product_url: undefined,
+  price_range_usd: [250, 250], image_url: undefined, product_url: "https://www.amazon.com/s?k=Apple+AirPods+Pro+3&tag=gearmatch-20",
   recommendation_tags: ["tws", "anc", "ios", "apple_ecosystem", "vendor_specific", "hearing_aid", "heart_rate"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -1042,7 +1042,7 @@ export const appleAirpodsPro3: AudioProduct = {
 
 export const appleAirpods4Anc: AudioProduct = {
   id: "apple_airpods_4_anc", name: "Apple AirPods 4 with Active Noise Cancellation", brand: "Apple", category: "audio",
-  price_range_usd: [179, 179], image_url: undefined, product_url: undefined,
+  price_range_usd: [179, 179], image_url: undefined, product_url: "https://www.amazon.com/s?k=Apple+AirPods+4+with+Active+Noise+Cancellation&tag=gearmatch-20",
   recommendation_tags: ["tws", "anc", "open_fit", "casual_listening", "sports", "phone_calls", "apple_ecosystem"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -1060,7 +1060,7 @@ export const appleAirpods4Anc: AudioProduct = {
 
 export const sonyWf1000xm5: AudioProduct = {
   id: "sony_wf_1000xm5", name: "Sony WF-1000XM5", brand: "Sony", category: "audio",
-  price_range_usd: [280, 280], image_url: undefined, product_url: undefined,
+  price_range_usd: [280, 280], image_url: undefined, product_url: "https://www.amazon.com/s?k=Sony+WF-1000XM5&tag=gearmatch-20",
   recommendation_tags: ["premium_tws", "anc", "travel", "ldac", "sony"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -1078,7 +1078,7 @@ export const sonyWf1000xm5: AudioProduct = {
 
 export const samsungGalaxyBuds3Pro: AudioProduct = {
   id: "samsung_galaxy_buds3_pro", name: "Samsung Galaxy Buds3 Pro", brand: "Samsung", category: "audio",
-  price_range_usd: [250, 250], image_url: undefined, product_url: undefined,
+  price_range_usd: [250, 250], image_url: undefined, product_url: "https://www.amazon.com/s?k=Samsung+Galaxy+Buds3+Pro&tag=gearmatch-20",
   recommendation_tags: ["premium_tws", "anc", "travel", "sports", "phone_calls", "samsung", "auracast"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -1096,7 +1096,7 @@ export const samsungGalaxyBuds3Pro: AudioProduct = {
 
 export const boseQcUltraEarbuds2ndGen: AudioProduct = {
   id: "bose_qc_ultra_earbuds_2nd_gen", name: "Bose QuietComfort Ultra Earbuds (2nd Gen)", brand: "Bose", category: "audio",
-  price_range_usd: [299, 299], image_url: undefined, product_url: undefined,
+  price_range_usd: [299, 299], image_url: undefined, product_url: "https://www.amazon.com/s?k=Bose+QuietComfort+Ultra+Earbuds+(2nd+Gen)&tag=gearmatch-20",
   recommendation_tags: ["premium_tws", "anc", "travel", "commute", "office", "sports", "aptx_adaptive"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -1114,7 +1114,7 @@ export const boseQcUltraEarbuds2ndGen: AudioProduct = {
 
 export const boseQcUltraEarbuds1stGen: AudioProduct = {
   id: "bose_qc_ultra_earbuds_1st_gen", name: "Bose QuietComfort Ultra Earbuds Truly Wireless", brand: "Bose", category: "audio",
-  price_range_usd: [249, 249], image_url: undefined, product_url: undefined,
+  price_range_usd: [249, 249], image_url: undefined, product_url: "https://www.amazon.com/s?k=Bose+QuietComfort+Ultra+Earbuds+Truly+Wireless&tag=gearmatch-20",
   recommendation_tags: ["premium_tws", "anc", "travel", "commute", "sports", "aptx_adaptive", "value_pick"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -1132,7 +1132,7 @@ export const boseQcUltraEarbuds1stGen: AudioProduct = {
 
 export const sennheiserMomentumTW4: AudioProduct = {
   id: "sennheiser_momentum_tw4", name: "Sennheiser MOMENTUM True Wireless 4", brand: "Sennheiser", category: "audio",
-  price_range_usd: [280, 330], image_url: undefined, product_url: undefined,
+  price_range_usd: [280, 330], image_url: undefined, product_url: "https://www.amazon.com/s?k=Sennheiser+MOMENTUM+True+Wireless+4&tag=gearmatch-20",
   recommendation_tags: ["premium_tws", "anc", "music_first", "warm_signature", "auracast"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -1150,7 +1150,7 @@ export const sennheiserMomentumTW4: AudioProduct = {
 
 export const technicsEahAz100: AudioProduct = {
   id: "technics_eah_az100", name: "Technics EAH-AZ100", brand: "Technics", category: "audio",
-  price_range_usd: [300, 300], image_url: undefined, product_url: undefined,
+  price_range_usd: [300, 300], image_url: undefined, product_url: "https://www.amazon.com/s?k=Technics+EAH-AZ100&tag=gearmatch-20",
   recommendation_tags: ["premium_tws", "anc", "travel", "multipoint", "ldac", "dolby_atmos"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -1168,7 +1168,7 @@ export const technicsEahAz100: AudioProduct = {
 
 export const technicsEAHAZ80: AudioProduct = {
   id: "technics_eah_az80", name: "Technics EAH-AZ80", brand: "Technics", category: "audio",
-  price_range_usd: [200, 300], image_url: undefined, product_url: undefined,
+  price_range_usd: [200, 300], image_url: undefined, product_url: "https://www.amazon.com/s?k=Technics+EAH-AZ80&tag=gearmatch-20",
   recommendation_tags: ["premium_tws", "anc_earbuds", "running", "phone_calls", "small_ear", "office", "airpods_alternative", "ldac"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -1186,7 +1186,7 @@ export const technicsEAHAZ80: AudioProduct = {
 
 export const nothingEar: AudioProduct = {
   id: "nothing_ear_2024", name: "Nothing Ear", brand: "Nothing", category: "audio",
-  price_range_usd: [150, 150], image_url: undefined, product_url: undefined,
+  price_range_usd: [150, 150], image_url: undefined, product_url: "https://www.amazon.com/s?k=Nothing+Ear&tag=gearmatch-20",
   recommendation_tags: ["tws", "anc", "android", "ios", "transparent_design", "pinch_controls"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -1204,7 +1204,7 @@ export const nothingEar: AudioProduct = {
 
 export const nothingEarA: AudioProduct = {
   id: "nothing_ear_a", name: "Nothing Ear (a)", brand: "Nothing", category: "audio",
-  price_range_usd: [99, 99], image_url: undefined, product_url: undefined,
+  price_range_usd: [99, 99], image_url: undefined, product_url: "https://www.amazon.com/s?k=Nothing+Ear+(a)&tag=gearmatch-20",
   recommendation_tags: ["budget_anc_tws", "sports", "casual_listening", "commute", "ldac", "value_pick"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -1222,7 +1222,7 @@ export const nothingEarA: AudioProduct = {
 
 export const ankerSpaceA40: AudioProduct = {
   id: "anker_soundcore_space_a40", name: "Anker Soundcore Space A40", brand: "Anker", category: "audio",
-  price_range_usd: [50, 80], image_url: undefined, product_url: undefined,
+  price_range_usd: [50, 80], image_url: undefined, product_url: "https://www.amazon.com/s?k=Anker+Soundcore+Space+A40&tag=gearmatch-20",
   recommendation_tags: ["budget_anc_tws", "ldac", "multipoint", "adaptive_anc", "value_pick"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -1240,7 +1240,7 @@ export const ankerSpaceA40: AudioProduct = {
 
 export const ankerSoundcoreLiberty4Nc: AudioProduct = {
   id: "anker_soundcore_liberty_4_nc", name: "Anker Soundcore Liberty 4 NC Truly Wireless", brand: "Anker", category: "audio",
-  price_range_usd: [80, 80], image_url: undefined, product_url: undefined,
+  price_range_usd: [80, 80], image_url: undefined, product_url: "https://www.amazon.com/s?k=Anker+Soundcore+Liberty+4+NC+Truly+Wireless&tag=gearmatch-20",
   recommendation_tags: ["budget_anc_tws", "travel", "commute", "sports", "bass", "ldac", "value_pick"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -1258,7 +1258,7 @@ export const ankerSoundcoreLiberty4Nc: AudioProduct = {
 
 export const jblVibeBuds: AudioProduct = {
   id: "jbl_vibe_buds", name: "JBL Vibe Buds", brand: "JBL", category: "audio",
-  price_range_usd: [30, 50], image_url: undefined, product_url: undefined,
+  price_range_usd: [30, 50], image_url: undefined, product_url: "https://www.amazon.com/s?k=JBL+Vibe+Buds&tag=gearmatch-20",
   recommendation_tags: ["budget_tws", "bass", "workout", "android", "value_pick"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -1276,7 +1276,7 @@ export const jblVibeBuds: AudioProduct = {
 
 export const skullcandyDime3: AudioProduct = {
   id: "skullcandy_dime_3", name: "Skullcandy Dime 3 True Wireless", brand: "Skullcandy", category: "audio",
-  price_range_usd: [30, 30], image_url: undefined, product_url: undefined,
+  price_range_usd: [30, 30], image_url: undefined, product_url: "https://www.amazon.com/s?k=Skullcandy+Dime+3+True+Wireless&tag=gearmatch-20",
   recommendation_tags: ["ultra_budget", "tws", "casual", "fitness", "value_pick"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -1294,7 +1294,7 @@ export const skullcandyDime3: AudioProduct = {
 
 export const skullcandyPushActive: AudioProduct = {
   id: "skullcandy_push_active", name: "Skullcandy Push Active True Wireless", brand: "Skullcandy", category: "audio",
-  price_range_usd: [50, 70], image_url: undefined, product_url: undefined,
+  price_range_usd: [50, 70], image_url: undefined, product_url: "https://www.amazon.com/s?k=Skullcandy+Push+Active+True+Wireless&tag=gearmatch-20",
   recommendation_tags: ["sports", "running", "budget_tws", "water_resistant", "voice_control"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -1312,7 +1312,7 @@ export const skullcandyPushActive: AudioProduct = {
 
 export const jlabGoAirPop: AudioProduct = {
   id: "jlab_go_air_pop", name: "JLab Audio GO Air POP True Wireless", brand: "JLab", category: "audio",
-  price_range_usd: [20, 30], image_url: undefined, product_url: undefined,
+  price_range_usd: [20, 30], image_url: undefined, product_url: "https://www.amazon.com/s?k=JLab+Audio+GO+Air+POP+True+Wireless&tag=gearmatch-20",
   recommendation_tags: ["ultra_budget", "earbuds_under_50", "wireless_earbuds_under_50", "bass", "value_pick"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -1330,7 +1330,7 @@ export const jlabGoAirPop: AudioProduct = {
 
 export const ankerSoundcoreP25i: AudioProduct = {
   id: "anker_soundcore_p25i", name: "Anker Soundcore P25i", brand: "Anker", category: "audio",
-  price_range_usd: [25, 25], image_url: undefined, product_url: undefined,
+  price_range_usd: [25, 25], image_url: undefined, product_url: "https://www.amazon.com/s?k=Anker+Soundcore+P25i&tag=gearmatch-20",
   recommendation_tags: ["ultra_budget", "sports", "budget_listening", "casual", "value_pick"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -1348,7 +1348,7 @@ export const ankerSoundcoreP25i: AudioProduct = {
 
 export const tozoT6TrulyWireless: AudioProduct = {
   id: "tozo_t6_truly_wireless", name: "TOZO T6 Truly Wireless", brand: "TOZO", category: "audio",
-  price_range_usd: [30, 30], image_url: undefined, product_url: undefined,
+  price_range_usd: [30, 30], image_url: undefined, product_url: "https://www.amazon.com/s?k=TOZO+T6+Truly+Wireless&tag=gearmatch-20",
   recommendation_tags: ["ultra_budget", "sports", "gym", "casual_listening", "ipx8", "value_pick"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -1366,7 +1366,7 @@ export const tozoT6TrulyWireless: AudioProduct = {
 
 export const beatsPowerbeatsPro2: AudioProduct = {
   id: "beats_powerbeats_pro_2", name: "Beats Powerbeats Pro 2", brand: "Beats", category: "audio",
-  price_range_usd: [200, 250], image_url: undefined, product_url: undefined,
+  price_range_usd: [200, 250], image_url: undefined, product_url: "https://www.amazon.com/s?k=Beats+Powerbeats+Pro+2&tag=gearmatch-20",
   recommendation_tags: ["sports_fitness", "running", "iphone_earbuds", "beats", "anc_earbuds", "stable_fit"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -1384,7 +1384,7 @@ export const beatsPowerbeatsPro2: AudioProduct = {
 
 export const beatsFlexWireless: AudioProduct = {
   id: "beats_flex_wireless", name: "Beats Flex Wireless", brand: "Beats", category: "audio",
-  price_range_usd: [50, 50], image_url: undefined, product_url: undefined,
+  price_range_usd: [50, 50], image_url: undefined, product_url: "https://www.amazon.com/s?k=Beats+Flex+Wireless&tag=gearmatch-20",
   recommendation_tags: ["budget", "neckband", "apple_ecosystem", "fitness", "value_pick"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -1402,7 +1402,7 @@ export const beatsFlexWireless: AudioProduct = {
 
 export const boseUltraOpenEarbuds: AudioProduct = {
   id: "bose_ultra_open_earbuds", name: "Bose Ultra Open Earbuds", brand: "Bose", category: "audio",
-  price_range_usd: [250, 300], image_url: undefined, product_url: undefined,
+  price_range_usd: [250, 300], image_url: undefined, product_url: "https://www.amazon.com/s?k=Bose+Ultra+Open+Earbuds&tag=gearmatch-20",
   recommendation_tags: ["sports_fitness", "open_fit", "situational_awareness", "running", "small_ear", "bose"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -1420,7 +1420,7 @@ export const boseUltraOpenEarbuds: AudioProduct = {
 
 export const ankerSoundcoreC30i: AudioProduct = {
   id: "anker_soundcore_c30i", name: "Anker Soundcore C30i", brand: "Anker", category: "audio",
-  price_range_usd: [50, 50], image_url: undefined, product_url: undefined,
+  price_range_usd: [50, 50], image_url: undefined, product_url: "https://www.amazon.com/s?k=Anker+Soundcore+C30i&tag=gearmatch-20",
   recommendation_tags: ["sports", "running", "open_ear", "situational_awareness"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -1442,7 +1442,7 @@ export const ankerSoundcoreC30i: AudioProduct = {
 
 export const moondropChu2: AudioProduct = {
   id: "moondrop_chu_2", name: "Moondrop Chu II", brand: "Moondrop", category: "audio",
-  price_range_usd: [23, 23], image_url: undefined, product_url: undefined,
+  price_range_usd: [23, 23], image_url: undefined, product_url: "https://www.amazon.com/s?k=Moondrop+Chu+II&tag=gearmatch-20",
   recommendation_tags: ["budget_king", "neutral", "value_pick", "beginner_friendly"],
   data_quality: { data_confidence: "high", primary_source_type: "community_poll", source_name: "HiFiGo + community consensus", last_verified: "2026-01" },
   core_attributes: {
@@ -1460,7 +1460,7 @@ export const moondropChu2: AudioProduct = {
 
 export const salnotes7hzZero2: AudioProduct = {
   id: "7hz_zero_2", name: "7Hz x Crinacle Zero:2", brand: "7Hz", category: "audio",
-  price_range_usd: [25, 25], image_url: undefined, product_url: undefined,
+  price_range_usd: [25, 25], image_url: undefined, product_url: "https://www.amazon.com/s?k=7Hz+x+Crinacle+Zero%3A2&tag=gearmatch-20",
   recommendation_tags: ["budget_king", "harman_tuned", "value_pick", "beginner_friendly"],
   data_quality: { data_confidence: "medium", primary_source_type: "community_poll", source_name: "HiFiGo", last_verified: "2026-01" },
   core_attributes: {
@@ -1478,7 +1478,7 @@ export const salnotes7hzZero2: AudioProduct = {
 
 export const kefineKlean: AudioProduct = {
   id: "kefine_klean", name: "KEFINE Klean", brand: "KEFINE", category: "audio",
-  price_range_usd: [44, 49], image_url: undefined, product_url: undefined,
+  price_range_usd: [44, 49], image_url: undefined, product_url: "https://www.amazon.com/s?k=KEFINE+Klean&tag=gearmatch-20",
   recommendation_tags: ["budget", "tunable", "dlc_driver", "value_pick"],
   data_quality: { data_confidence: "medium", primary_source_type: "community_poll", source_name: "HiFiGo", last_verified: "2026-01" },
   core_attributes: {
@@ -1500,7 +1500,7 @@ export const kefineKlean: AudioProduct = {
 
 export const arttiT10: AudioProduct = {
   id: "artti_t10", name: "ARTTI T10", brand: "ARTTI", category: "audio",
-  price_range_usd: [69, 72], image_url: undefined, product_url: undefined,
+  price_range_usd: [69, 72], image_url: undefined, product_url: "https://www.amazon.com/s?k=ARTTI+T10&tag=gearmatch-20",
   recommendation_tags: ["budget_planar", "detailed", "analytical", "value_pick"],
   data_quality: { data_confidence: "medium", primary_source_type: "community_poll", source_name: "Amazon reviews", last_verified: "2026-01" },
   core_attributes: {
@@ -1518,7 +1518,7 @@ export const arttiT10: AudioProduct = {
 
 export const simgotEw300: AudioProduct = {
   id: "simgot_ew300", name: "SIMGOT EW300", brand: "SIMGOT", category: "audio",
-  price_range_usd: [80, 91], image_url: undefined, product_url: undefined,
+  price_range_usd: [80, 91], image_url: undefined, product_url: "https://www.amazon.com/s?k=SIMGOT+EW300&tag=gearmatch-20",
   recommendation_tags: ["competitive_fps", "gaming", "balanced", "tunable", "value_pick"],
   data_quality: { data_confidence: "medium", primary_source_type: "community_poll", source_name: "Linsoul reviews", last_verified: "2026-01" },
   core_attributes: {
@@ -1536,7 +1536,7 @@ export const simgotEw300: AudioProduct = {
 
 export const truthearHexa: AudioProduct = {
   id: "truthear_hexa", name: "TRUTHEAR HEXA", brand: "TRUTHEAR", category: "audio",
-  price_range_usd: [90, 90], image_url: undefined, product_url: undefined,
+  price_range_usd: [90, 90], image_url: undefined, product_url: "https://www.amazon.com/s?k=TRUTHEAR+HEXA&tag=gearmatch-20",
   recommendation_tags: ["music_first", "neutral", "technical", "tip_rolling", "value_pick"],
   data_quality: { data_confidence: "high", primary_source_type: "community_poll", source_name: "TRUTHEAR official + community consensus", last_verified: "2026-01" },
   core_attributes: {
@@ -1554,7 +1554,7 @@ export const truthearHexa: AudioProduct = {
 
 export const juzearDefiant: AudioProduct = {
   id: "juzear_defiant", name: "JUZEAR x Z Reviews Defiant", brand: "JUZEAR", category: "audio",
-  price_range_usd: [90, 100], image_url: undefined, product_url: undefined,
+  price_range_usd: [90, 100], image_url: undefined, product_url: "https://www.amazon.com/s?k=JUZEAR+x+Z+Reviews+Defiant&tag=gearmatch-20",
   recommendation_tags: ["fun_tuning", "reviewer_collab", "hybrid", "all_rounder"],
   data_quality: { data_confidence: "medium", primary_source_type: "community_poll", source_name: "HiFiGo", last_verified: "2026-01" },
   core_attributes: {
@@ -1572,7 +1572,7 @@ export const juzearDefiant: AudioProduct = {
 
 export const letshuoerS08: AudioProduct = {
   id: "letshuoer_s08", name: "LETSHUOER S08", brand: "LETSHUOER", category: "audio",
-  price_range_usd: [99, 99], image_url: undefined, product_url: undefined,
+  price_range_usd: [99, 99], image_url: undefined, product_url: "https://www.amazon.com/s?k=LETSHUOER+S08&tag=gearmatch-20",
   recommendation_tags: ["planar", "warm_bass", "value_pick"],
   data_quality: { data_confidence: "low", primary_source_type: "community_poll", source_name: "Linsoul", last_verified: "2026-01" },
   core_attributes: {
@@ -1590,7 +1590,7 @@ export const letshuoerS08: AudioProduct = {
 
 export const afulExplorer: AudioProduct = {
   id: "aful_explorer", name: "AFUL Explorer", brand: "AFUL", category: "audio",
-  price_range_usd: [108, 120], image_url: undefined, product_url: undefined,
+  price_range_usd: [108, 120], image_url: undefined, product_url: "https://www.amazon.com/s?k=AFUL+Explorer&tag=gearmatch-20",
   recommendation_tags: ["music_first", "warm_sound", "comfortable", "value_pick", "easy_to_drive"],
   data_quality: { data_confidence: "medium", primary_source_type: "community_poll", source_name: "Amazon reviews", last_verified: "2026-01" },
   core_attributes: {
@@ -1608,7 +1608,7 @@ export const afulExplorer: AudioProduct = {
 
 export const dunuKima2: AudioProduct = {
   id: "dunu_kima_2", name: "DUNU Kima 2", brand: "DUNU", category: "audio",
-  price_range_usd: [110, 120], image_url: undefined, product_url: undefined,
+  price_range_usd: [110, 120], image_url: undefined, product_url: "https://www.amazon.com/s?k=DUNU+Kima+2&tag=gearmatch-20",
   recommendation_tags: ["single_dd", "dlc_driver", "premium_build", "modular_cable"],
   data_quality: { data_confidence: "medium", primary_source_type: "community_poll", source_name: "HiFiGo", last_verified: "2026-01" },
   core_attributes: {
@@ -1630,7 +1630,7 @@ export const dunuKima2: AudioProduct = {
 
 export const letshuoerS12Pro: AudioProduct = {
   id: "letshuoer_s12_pro", name: "LETSHUOER S12 PRO", brand: "LETSHUOER", category: "audio",
-  price_range_usd: [169, 169], image_url: undefined, product_url: undefined,
+  price_range_usd: [169, 169], image_url: undefined, product_url: "https://www.amazon.com/s?k=LETSHUOER+S12+PRO&tag=gearmatch-20",
   recommendation_tags: ["planar", "easy_to_drive", "modular_cable", "audiophile_entry"],
   data_quality: { data_confidence: "high", primary_source_type: "community_poll", source_name: "Linsoul + community", last_verified: "2026-01" },
   core_attributes: {
@@ -1648,7 +1648,7 @@ export const letshuoerS12Pro: AudioProduct = {
 
 export const simgotSupermix4: AudioProduct = {
   id: "simgot_supermix_4", name: "SIMGOT SuperMix 4", brand: "SIMGOT", category: "audio",
-  price_range_usd: [170, 170], image_url: undefined, product_url: undefined,
+  price_range_usd: [170, 170], image_url: undefined, product_url: "https://www.amazon.com/s?k=SIMGOT+SuperMix+4&tag=gearmatch-20",
   recommendation_tags: ["music_first", "detailed", "analytical", "wide_soundstage", "hybrid_drivers"],
   data_quality: { data_confidence: "medium", primary_source_type: "community_poll", source_name: "Linsoul reviews", last_verified: "2026-01" },
   core_attributes: {
@@ -1666,7 +1666,7 @@ export const simgotSupermix4: AudioProduct = {
 
 export const kiwiEarsAether: AudioProduct = {
   id: "kiwi_ears_aether", name: "Kiwi Ears Aether", brand: "Kiwi Ears", category: "audio",
-  price_range_usd: [170, 170], image_url: undefined, product_url: undefined,
+  price_range_usd: [170, 170], image_url: undefined, product_url: "https://www.amazon.com/s?k=Kiwi+Ears+Aether&tag=gearmatch-20",
   recommendation_tags: ["music_first", "wide_soundstage", "planar_driver", "open_back_like", "audiophile_entry", "value_pick"],
   data_quality: { data_confidence: "medium", primary_source_type: "community_poll", source_name: "Linsoul reviews + Head-Fi", last_verified: "2026-01" },
   core_attributes: {
@@ -1684,7 +1684,7 @@ export const kiwiEarsAether: AudioProduct = {
 
 export const mezeAlba: AudioProduct = {
   id: "meze_alba", name: "Meze ALBA", brand: "Meze", category: "audio",
-  price_range_usd: [199, 199], image_url: undefined, product_url: undefined,
+  price_range_usd: [199, 199], image_url: undefined, product_url: "https://www.amazon.com/s?k=Meze+ALBA&tag=gearmatch-20",
   recommendation_tags: ["audiophile", "critical_listening", "music_production", "wired_gaming", "iem"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -1702,7 +1702,7 @@ export const mezeAlba: AudioProduct = {
 
 export const afulPerformer7: AudioProduct = {
   id: "aful_performer_7", name: "AFUL Performer 5+2 / Performer 7", brand: "AFUL", category: "audio",
-  price_range_usd: [216, 240], image_url: undefined, product_url: undefined,
+  price_range_usd: [216, 240], image_url: undefined, product_url: "https://www.amazon.com/s?k=AFUL+Performer+5%2B2+%2F+Performer+7&tag=gearmatch-20",
   recommendation_tags: ["tribrid", "technical", "wide_frequency", "audiophile"],
   data_quality: { data_confidence: "high", primary_source_type: "community_poll", source_name: "HiFiGo", last_verified: "2026-01" },
   core_attributes: {
@@ -1720,7 +1720,7 @@ export const afulPerformer7: AudioProduct = {
 
 export const ziigaatOdyssey: AudioProduct = {
   id: "ziigaat_odyssey", name: "ZiiGaat Odyssey", brand: "ZiiGaat", category: "audio",
-  price_range_usd: [229, 229], image_url: undefined, product_url: undefined,
+  price_range_usd: [229, 229], image_url: undefined, product_url: "https://www.amazon.com/s?k=ZiiGaat+Odyssey&tag=gearmatch-20",
   recommendation_tags: ["smooth", "musical", "knowles_drivers", "all_rounder", "gaming"],
   data_quality: { data_confidence: "high", primary_source_type: "community_poll", source_name: "Linsoul", last_verified: "2026-01" },
   core_attributes: {
@@ -1742,7 +1742,7 @@ export const ziigaatOdyssey: AudioProduct = {
 
 export const softearsVolumeS: AudioProduct = {
   id: "softears_volume_s", name: "Softears VolumeS", brand: "Softears", category: "audio",
-  price_range_usd: [319, 319], image_url: undefined, product_url: undefined,
+  price_range_usd: [319, 319], image_url: undefined, product_url: "https://www.amazon.com/s?k=Softears+VolumeS&tag=gearmatch-20",
   recommendation_tags: ["dual_tuning", "classical", "pop", "premium_build", "audiophile"],
   data_quality: { data_confidence: "medium", primary_source_type: "community_poll", source_name: "HiFiGo", last_verified: "2026-01" },
   core_attributes: {
@@ -1760,7 +1760,7 @@ export const softearsVolumeS: AudioProduct = {
 
 export const moondropCrinacleDusk: AudioProduct = {
   id: "moondrop_crinacle_dusk", name: "MOONDROP x Crinacle DUSK", brand: "MOONDROP", category: "audio",
-  price_range_usd: [320, 320], image_url: undefined, product_url: undefined,
+  price_range_usd: [320, 320], image_url: undefined, product_url: "https://www.amazon.com/s?k=MOONDROP+x+Crinacle+DUSK&tag=gearmatch-20",
   recommendation_tags: ["audiophile", "critical_listening", "warm_signature", "android", "iem", "hybrid_driver"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -1778,7 +1778,7 @@ export const moondropCrinacleDusk: AudioProduct = {
 
 export const xennsMangirdTeaPro: AudioProduct = {
   id: "xenns_mangird_tea_pro", name: "XENNS Mangird Tea Pro", brand: "XENNS", category: "audio",
-  price_range_usd: [359, 359], image_url: undefined, product_url: undefined,
+  price_range_usd: [359, 359], image_url: undefined, product_url: "https://www.amazon.com/s?k=XENNS+Mangird+Tea+Pro&tag=gearmatch-20",
   recommendation_tags: ["hybrid", "knowles_drivers", "bass_enhanced", "audiophile"],
   data_quality: { data_confidence: "high", primary_source_type: "community_poll", source_name: "Linsoul", last_verified: "2026-01" },
   core_attributes: {
@@ -1796,7 +1796,7 @@ export const xennsMangirdTeaPro: AudioProduct = {
 
 export const xennsMangirdTopPro: AudioProduct = {
   id: "xenns_mangird_top_pro", name: "XENNS Mangird Top Pro", brand: "XENNS", category: "audio",
-  price_range_usd: [499, 499], image_url: undefined, product_url: undefined,
+  price_range_usd: [499, 499], image_url: undefined, product_url: "https://www.amazon.com/s?k=XENNS+Mangird+Top+Pro&tag=gearmatch-20",
   recommendation_tags: ["flagship", "10_driver", "knowles_sonion", "audiophile"],
   data_quality: { data_confidence: "high", primary_source_type: "community_poll", source_name: "Linsoul", last_verified: "2026-01" },
   core_attributes: {
@@ -1814,7 +1814,7 @@ export const xennsMangirdTopPro: AudioProduct = {
 
 export const dunuDk3001bd: AudioProduct = {
   id: "dunu_dk3001bd", name: "DUNU DK3001BD", brand: "DUNU", category: "audio",
-  price_range_usd: [500, 500], image_url: undefined, product_url: undefined,
+  price_range_usd: [500, 500], image_url: undefined, product_url: "https://www.amazon.com/s?k=DUNU+DK3001BD&tag=gearmatch-20",
   recommendation_tags: ["tribrid", "micro_planar", "flagship", "audiophile"],
   data_quality: { data_confidence: "medium", primary_source_type: "community_poll", source_name: "HiFiGo", last_verified: "2026-01" },
   core_attributes: {
@@ -1836,7 +1836,7 @@ export const dunuDk3001bd: AudioProduct = {
 
 export const steelseriesArctis7PlusWireless: AudioProduct = {
   id: "steelseries_arctis_7_plus_wireless", name: "SteelSeries Arctis 7+ Wireless", brand: "SteelSeries", category: "audio",
-  price_range_usd: [150, 170], image_url: undefined, product_url: "https://www.rtings.com/headphones/reviews/steelseries/arctis-7-plus-wireless",
+  price_range_usd: [150, 170], image_url: undefined, product_url: "https://www.amazon.com/s?k=SteelSeries+Arctis+7%2B+Wireless&tag=gearmatch-20",
   recommendation_tags: ["wireless_gaming", "long_battery", "sonar", "chat_mix", "ski_band"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -1854,7 +1854,7 @@ export const steelseriesArctis7PlusWireless: AudioProduct = {
 
 export const razerBarracudaProWireless: AudioProduct = {
   id: "razer_barracuda_pro_wireless", name: "Razer Barracuda Pro Wireless", brand: "Razer", category: "audio",
-  price_range_usd: [250, 300], image_url: undefined, product_url: "https://www.rtings.com/headphones/reviews/razer/barracuda-pro-wireless",
+  price_range_usd: [250, 300], image_url: undefined, product_url: "https://www.amazon.com/s?k=Razer+Barracuda+Pro+Wireless&tag=gearmatch-20",
   recommendation_tags: ["wireless_gaming", "anc", "vendor_specific", "hybrid", "travel"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -1872,7 +1872,7 @@ export const razerBarracudaProWireless: AudioProduct = {
 
 export const logitechG735Wireless: AudioProduct = {
   id: "logitech_g735_wireless", name: "Logitech G735 Wireless", brand: "Logitech", category: "audio",
-  price_range_usd: [200, 230], image_url: undefined, product_url: "https://www.rtings.com/headphones/reviews/logitech/g735-wireless",
+  price_range_usd: [200, 230], image_url: undefined, product_url: "https://www.amazon.com/s?k=Logitech+G735+Wireless&tag=gearmatch-20",
   recommendation_tags: ["wireless_gaming", "rgb", "small_heads", "bluetooth", "blue_voice"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -1890,7 +1890,7 @@ export const logitechG735Wireless: AudioProduct = {
 
 export const razerBlackSharkV2HyperSpeedWireless: AudioProduct = {
   id: "razer_blackshark_v2_hyperspeed_wireless", name: "Razer BlackShark V2 HyperSpeed Wireless", brand: "Razer", category: "audio",
-  price_range_usd: [150, 180], image_url: undefined, product_url: "https://www.rtings.com/headphones/reviews/razer/blackshark-v2-hyperspeed-wireless",
+  price_range_usd: [150, 180], image_url: undefined, product_url: "https://www.amazon.com/s?k=Razer+BlackShark+V2+HyperSpeed+Wireless&tag=gearmatch-20",
   recommendation_tags: ["wireless_gaming", "long_battery", "bluetooth", "vendor_specific", "lightweight"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -1908,7 +1908,7 @@ export const razerBlackSharkV2HyperSpeedWireless: AudioProduct = {
 
 export const hyperxCloudFlightS: AudioProduct = {
   id: "hyperx_cloud_flight_s", name: "HyperX Cloud Flight S", brand: "HyperX", category: "audio",
-  price_range_usd: [130, 160], image_url: undefined, product_url: "https://www.rtings.com/headphones/reviews/hyperx/cloud-flight-s",
+  price_range_usd: [130, 160], image_url: undefined, product_url: "https://www.amazon.com/s?k=HyperX+Cloud+Flight+S&tag=gearmatch-20",
   recommendation_tags: ["wireless_gaming", "qi_charging", "programmable_buttons", "long_battery"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -1926,7 +1926,7 @@ export const hyperxCloudFlightS: AudioProduct = {
 
 export const steelseriesArctis7XWireless: AudioProduct = {
   id: "steelseries_arctis_7x_wireless", name: "SteelSeries Arctis 7X Wireless", brand: "SteelSeries", category: "audio",
-  price_range_usd: [140, 170], image_url: undefined, product_url: "https://www.rtings.com/headphones/reviews/steelseries/arctis-7x-wireless",
+  price_range_usd: [140, 170], image_url: undefined, product_url: "https://www.amazon.com/s?k=SteelSeries+Arctis+7X+Wireless&tag=gearmatch-20",
   recommendation_tags: ["wireless_gaming", "xbox", "playstation", "multi_platform", "ski_band"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -1944,7 +1944,7 @@ export const steelseriesArctis7XWireless: AudioProduct = {
 
 export const steelseriesArctisNovaElite: AudioProduct = {
   id: "steelseries_arctis_nova_elite", name: "SteelSeries Arctis Nova Elite", brand: "SteelSeries", category: "audio",
-  price_range_usd: [350, 400], image_url: undefined, product_url: "https://www.rtings.com/headphones/reviews/steelseries/arctis-nova-elite",
+  price_range_usd: [350, 400], image_url: undefined, product_url: "https://www.amazon.com/s?k=SteelSeries+Arctis+Nova+Elite&tag=gearmatch-20",
   recommendation_tags: ["wireless_gaming", "premium", "anc", "gamehub", "hot_swap_battery", "multi_platform"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -1962,7 +1962,7 @@ export const steelseriesArctisNovaElite: AudioProduct = {
 
 export const steelseriesArctisProWireless: AudioProduct = {
   id: "steelseries_arctis_pro_wireless", name: "SteelSeries Arctis Pro Wireless", brand: "SteelSeries", category: "audio",
-  price_range_usd: [300, 350], image_url: undefined, product_url: "https://www.rtings.com/headphones/reviews/steelseries/arctis-pro-wireless",
+  price_range_usd: [300, 350], image_url: undefined, product_url: "https://www.amazon.com/s?k=SteelSeries+Arctis+Pro+Wireless&tag=gearmatch-20",
   recommendation_tags: ["wireless_gaming", "premium", "dual_battery", "bluetooth", "dock"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -1980,7 +1980,7 @@ export const steelseriesArctisProWireless: AudioProduct = {
 
 export const astroA50Gen3: AudioProduct = {
   id: "astro_a50_gen_3", name: "Astro A50 Gen 3", brand: "Astro", category: "audio",
-  price_range_usd: [200, 250], image_url: undefined, product_url: "https://www.rtings.com/headphones/reviews/astro/a50-gen-3",
+  price_range_usd: [200, 250], image_url: undefined, product_url: "https://www.amazon.com/s?k=Astro+A50+Gen+3&tag=gearmatch-20",
   recommendation_tags: ["wireless_gaming", "dock", "dolby_7_1", "premium_build"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -2002,7 +2002,7 @@ export const astroA50Gen3: AudioProduct = {
 
 export const astroA20Wireless: AudioProduct = {
   id: "astro_a20_wireless", name: "Astro A20 Wireless", brand: "Astro", category: "audio",
-  price_range_usd: [100, 120], image_url: undefined, product_url: "https://www.rtings.com/headphones/reviews/astro/a20-wireless",
+  price_range_usd: [100, 120], image_url: undefined, product_url: "https://www.amazon.com/s?k=Astro+A20+Wireless&tag=gearmatch-20",
   recommendation_tags: ["gaming", "wireless", "console", "budget_gaming"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -2020,7 +2020,7 @@ export const astroA20Wireless: AudioProduct = {
 
 export const steelseriesArctis9xWireless: AudioProduct = {
   id: "steelseries_arctis_9x_wireless", name: "SteelSeries Arctis 9X Wireless", brand: "SteelSeries", category: "audio",
-  price_range_usd: [180, 200], image_url: undefined, product_url: "https://www.rtings.com/headphones/reviews/steelseries/arctis-9x-wireless",
+  price_range_usd: [180, 200], image_url: undefined, product_url: "https://www.amazon.com/s?k=SteelSeries+Arctis+9X+Wireless&tag=gearmatch-20",
   recommendation_tags: ["gaming", "wireless", "xbox", "bluetooth"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -2038,7 +2038,7 @@ export const steelseriesArctis9xWireless: AudioProduct = {
 
 export const steelseriesArctis7pWireless: AudioProduct = {
   id: "steelseries_arctis_7p_wireless", name: "SteelSeries Arctis 7P Wireless", brand: "SteelSeries", category: "audio",
-  price_range_usd: [140, 160], image_url: undefined, product_url: "https://www.rtings.com/headphones/reviews/steelseries/arctis-7p-wireless",
+  price_range_usd: [140, 160], image_url: undefined, product_url: "https://www.amazon.com/s?k=SteelSeries+Arctis+7P+Wireless&tag=gearmatch-20",
   recommendation_tags: ["gaming", "wireless", "playstation", "pc"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -2056,7 +2056,7 @@ export const steelseriesArctis7pWireless: AudioProduct = {
 
 export const audezePenroseWireless: AudioProduct = {
   id: "audeze_penrose_wireless", name: "Audeze Penrose Wireless", brand: "Audeze", category: "audio",
-  price_range_usd: [250, 300], image_url: undefined, product_url: "https://www.rtings.com/headphones/reviews/audeze/penrose-wireless",
+  price_range_usd: [250, 300], image_url: undefined, product_url: "https://www.amazon.com/s?k=Audeze+Penrose+Wireless&tag=gearmatch-20",
   recommendation_tags: ["gaming", "wireless", "planar_magnetic", "audiophile_gaming"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -2074,7 +2074,7 @@ export const audezePenroseWireless: AudioProduct = {
 
 export const hyperxCloudAlphaWireless: AudioProduct = {
   id: "hyperx_cloud_alpha_wireless", name: "HyperX Cloud Alpha Wireless", brand: "HyperX", category: "audio",
-  price_range_usd: [170, 200], image_url: undefined, product_url: "https://www.rtings.com/headphones/reviews/hyperx/cloud-alpha-wireless",
+  price_range_usd: [170, 200], image_url: undefined, product_url: "https://www.amazon.com/s?k=HyperX+Cloud+Alpha+Wireless&tag=gearmatch-20",
   recommendation_tags: ["gaming", "wireless", "long_battery", "pc", "playstation"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -2092,7 +2092,7 @@ export const hyperxCloudAlphaWireless: AudioProduct = {
 
 export const razerBlacksharkV2ProWireless2023: AudioProduct = {
   id: "razer_blackshark_v2_pro_wireless_2023", name: "Razer BlackShark V2 Pro Wireless 2023", brand: "Razer", category: "audio",
-  price_range_usd: [180, 200], image_url: undefined, product_url: "https://www.rtings.com/headphones/reviews/razer/blackshark-v2-pro-wireless-2023",
+  price_range_usd: [180, 200], image_url: undefined, product_url: "https://www.amazon.com/s?k=Razer+BlackShark+V2+Pro+Wireless+2023&tag=gearmatch-20",
   recommendation_tags: ["gaming", "wireless", "bluetooth", "pc", "playstation"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -2110,7 +2110,7 @@ export const razerBlacksharkV2ProWireless2023: AudioProduct = {
 
 export const logitechG733LightspeedWireless: AudioProduct = {
   id: "logitech_g733_lightspeed_wireless", name: "Logitech G733 LIGHTSPEED Wireless", brand: "Logitech", category: "audio",
-  price_range_usd: [120, 150], image_url: undefined, product_url: "https://www.rtings.com/headphones/reviews/logitech/g733-lightspeed-wireless",
+  price_range_usd: [120, 150], image_url: undefined, product_url: "https://www.amazon.com/s?k=Logitech+G733+LIGHTSPEED+Wireless&tag=gearmatch-20",
   recommendation_tags: ["gaming", "wireless", "rgb", "pc", "playstation"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -2128,7 +2128,7 @@ export const logitechG733LightspeedWireless: AudioProduct = {
 
 export const astroA30Wireless: AudioProduct = {
   id: "astro_a30_wireless", name: "Astro A30 Wireless", brand: "Astro", category: "audio",
-  price_range_usd: [200, 230], image_url: undefined, product_url: "https://www.rtings.com/headphones/reviews/astro/a30-wireless",
+  price_range_usd: [200, 230], image_url: undefined, product_url: "https://www.amazon.com/s?k=Astro+A30+Wireless&tag=gearmatch-20",
   recommendation_tags: ["gaming", "wireless", "bluetooth", "stylish", "multi_platform"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -2146,7 +2146,7 @@ export const astroA30Wireless: AudioProduct = {
 
 export const steelseriesArctis9Wireless: AudioProduct = {
   id: "steelseries_arctis_9_wireless", name: "SteelSeries Arctis 9 Wireless", brand: "SteelSeries", category: "audio",
-  price_range_usd: [180, 200], image_url: undefined, product_url: "https://www.rtings.com/headphones/reviews/steelseries/arctis-9-wireless",
+  price_range_usd: [180, 200], image_url: undefined, product_url: "https://www.amazon.com/s?k=SteelSeries+Arctis+9+Wireless&tag=gearmatch-20",
   recommendation_tags: ["gaming", "wireless", "bluetooth", "pc", "playstation"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -2168,7 +2168,7 @@ export const steelseriesArctis9Wireless: AudioProduct = {
 
 export const turtleBeachStealth500: AudioProduct = {
   id: "turtle_beach_stealth_500", name: "Turtle Beach Stealth 500", brand: "Turtle Beach", category: "audio",
-  price_range_usd: [60, 80], image_url: undefined, product_url: "https://www.rtings.com/headphones/reviews/turtle-beach/stealth-500",
+  price_range_usd: [60, 80], image_url: undefined, product_url: "https://www.amazon.com/s?k=Turtle+Beach+Stealth+500&tag=gearmatch-20",
   recommendation_tags: ["budget_gaming", "wireless", "long_battery", "pc_gaming", "playstation"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -2186,7 +2186,7 @@ export const turtleBeachStealth500: AudioProduct = {
 
 export const turtleBeachElite800Wireless: AudioProduct = {
   id: "turtle_beach_elite_800_wireless", name: "Turtle Beach Elite 800 Wireless", brand: "Turtle Beach", category: "audio",
-  price_range_usd: [200, 250], image_url: undefined, product_url: "https://www.rtings.com/headphones/reviews/turtle-beach/elite-800-wireless",
+  price_range_usd: [200, 250], image_url: undefined, product_url: "https://www.amazon.com/s?k=Turtle+Beach+Elite+800+Wireless&tag=gearmatch-20",
   recommendation_tags: ["gaming", "wireless", "anc", "playstation", "charging_dock"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -2204,7 +2204,7 @@ export const turtleBeachElite800Wireless: AudioProduct = {
 
 export const lucidsoundLs31Wireless: AudioProduct = {
   id: "lucidsound_ls31_wireless", name: "LucidSound LS31 Wireless", brand: "LucidSound", category: "audio",
-  price_range_usd: [100, 150], image_url: undefined, product_url: "https://www.rtings.com/headphones/reviews/lucidsound/ls31-wireless",
+  price_range_usd: [100, 150], image_url: undefined, product_url: "https://www.amazon.com/s?k=LucidSound+LS31+Wireless&tag=gearmatch-20",
   recommendation_tags: ["gaming", "wireless", "dual_mic", "channel_mixing", "detachable_mic"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -2222,7 +2222,7 @@ export const lucidsoundLs31Wireless: AudioProduct = {
 
 export const hyperxCloudFlight: AudioProduct = {
   id: "hyperx_cloud_flight", name: "HyperX Cloud Flight", brand: "HyperX", category: "audio",
-  price_range_usd: [100, 140], image_url: undefined, product_url: "https://www.rtings.com/headphones/reviews/hyperx/cloud-flight",
+  price_range_usd: [100, 140], image_url: undefined, product_url: "https://www.amazon.com/s?k=HyperX+Cloud+Flight&tag=gearmatch-20",
   recommendation_tags: ["gaming", "wireless", "long_battery", "detachable_mic", "playstation", "pc_gaming"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -2240,7 +2240,7 @@ export const hyperxCloudFlight: AudioProduct = {
 
 export const roccatElo71AirWireless: AudioProduct = {
   id: "roccat_elo_7_1_air_wireless", name: "ROCCAT Elo 7.1 Air Wireless", brand: "ROCCAT", category: "audio",
-  price_range_usd: [80, 100], image_url: undefined, product_url: "https://www.rtings.com/headphones/reviews/roccat/elo-7-1-air-wireless",
+  price_range_usd: [80, 100], image_url: undefined, product_url: "https://www.amazon.com/s?k=ROCCAT+Elo+7.1+Air+Wireless&tag=gearmatch-20",
   recommendation_tags: ["gaming", "wireless", "rgb", "virtual_surround", "detachable_mic", "playstation"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -2258,7 +2258,7 @@ export const roccatElo71AirWireless: AudioProduct = {
 
 export const steelseriesArctis72019Wireless: AudioProduct = {
   id: "steelseries_arctis_7_2019_wireless", name: "SteelSeries Arctis 7 2019 Edition Wireless", brand: "SteelSeries", category: "audio",
-  price_range_usd: [130, 160], image_url: undefined, product_url: "https://www.rtings.com/headphones/reviews/steelseries/arctis-7-2019-edition-wireless",
+  price_range_usd: [130, 160], image_url: undefined, product_url: "https://www.amazon.com/s?k=SteelSeries+Arctis+7+2019+Edition+Wireless&tag=gearmatch-20",
   recommendation_tags: ["gaming", "wireless", "long_battery", "ski_band", "playstation", "pc_gaming"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -2276,7 +2276,7 @@ export const steelseriesArctis72019Wireless: AudioProduct = {
 
 export const turtleBeachStealthProWireless: AudioProduct = {
   id: "turtle_beach_stealth_pro_wireless", name: "Turtle Beach Stealth Pro Wireless", brand: "Turtle Beach", category: "audio",
-  price_range_usd: [300, 350], image_url: undefined, product_url: "https://www.rtings.com/headphones/reviews/turtle-beach/stealth-pro-wireless",
+  price_range_usd: [300, 350], image_url: undefined, product_url: "https://www.amazon.com/s?k=Turtle+Beach+Stealth+Pro+Wireless&tag=gearmatch-20",
   recommendation_tags: ["premium_gaming", "wireless", "anc", "dual_battery", "xbox", "playstation", "fps"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -2294,7 +2294,7 @@ export const turtleBeachStealthProWireless: AudioProduct = {
 
 export const corsairVoidProRgbWireless: AudioProduct = {
   id: "corsair_void_pro_rgb_wireless", name: "Corsair Void PRO RGB Wireless", brand: "Corsair", category: "audio",
-  price_range_usd: [70, 100], image_url: undefined, product_url: "https://www.rtings.com/headphones/reviews/corsair/void-pro-rgb-wireless",
+  price_range_usd: [70, 100], image_url: undefined, product_url: "https://www.amazon.com/s?k=Corsair+Void+PRO+RGB+Wireless&tag=gearmatch-20",
   recommendation_tags: ["gaming", "wireless", "rgb", "budget", "playstation", "pc_gaming"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -2316,7 +2316,7 @@ export const corsairVoidProRgbWireless: AudioProduct = {
 
 export const steelseriesArctisNovaProWireless: AudioProduct = {
   id: "steelseries_arctis_nova_pro_wireless", name: "SteelSeries Arctis Nova Pro Wireless", brand: "SteelSeries", category: "audio",
-  price_range_usd: [350, 350], image_url: undefined, product_url: "https://www.rtings.com/headphones/reviews/steelseries/arctis-nova-pro-wireless-pc-ps-xbox",
+  price_range_usd: [350, 350], image_url: undefined, product_url: "https://www.amazon.com/s?k=SteelSeries+Arctis+Nova+Pro+Wireless&tag=gearmatch-20",
   recommendation_tags: ["premium_gaming", "wireless", "anc", "dual_battery", "multi_platform"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -2334,7 +2334,7 @@ export const steelseriesArctisNovaProWireless: AudioProduct = {
 
 export const fractalScape: AudioProduct = {
   id: "fractal_scape", name: "Fractal Scape", brand: "Fractal", category: "audio",
-  price_range_usd: [180, 180], image_url: undefined, product_url: "https://www.rtings.com/headphones/reviews/fractal/scape",
+  price_range_usd: [180, 180], image_url: undefined, product_url: "https://www.amazon.com/s?k=Fractal+Scape&tag=gearmatch-20",
   recommendation_tags: ["wireless_gaming", "great_mic", "scandinavian_design", "long_battery"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -2352,7 +2352,7 @@ export const fractalScape: AudioProduct = {
 
 export const logitechG933Wireless: AudioProduct = {
   id: "logitech_g933_wireless", name: "Logitech G933 Wireless", brand: "Logitech", category: "audio",
-  price_range_usd: [150, 150], image_url: undefined, product_url: "https://www.rtings.com/headphones/reviews/logitech/g933-wireless",
+  price_range_usd: [150, 150], image_url: undefined, product_url: "https://www.amazon.com/s?k=Logitech+G933+Wireless&tag=gearmatch-20",
   recommendation_tags: ["wireless_gaming", "programmable", "rgb", "surround_sound"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -2370,7 +2370,7 @@ export const logitechG933Wireless: AudioProduct = {
 
 export const logitechG930Wireless: AudioProduct = {
   id: "logitech_g930_wireless", name: "Logitech G930 Wireless", brand: "Logitech", category: "audio",
-  price_range_usd: [100, 100], image_url: undefined, product_url: "https://www.rtings.com/headphones/reviews/logitech/g930-wireless",
+  price_range_usd: [100, 100], image_url: undefined, product_url: "https://www.amazon.com/s?k=Logitech+G930+Wireless&tag=gearmatch-20",
   recommendation_tags: ["wireless_gaming", "classic", "7_1_surround"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -2388,7 +2388,7 @@ export const logitechG930Wireless: AudioProduct = {
 
 export const corsairHs70Wireless: AudioProduct = {
   id: "corsair_hs70_wireless", name: "Corsair HS70 Wireless", brand: "Corsair", category: "audio",
-  price_range_usd: [100, 100], image_url: undefined, product_url: "https://www.rtings.com/headphones/reviews/corsair/hs70-wireless",
+  price_range_usd: [100, 100], image_url: undefined, product_url: "https://www.amazon.com/s?k=Corsair+HS70+Wireless&tag=gearmatch-20",
   recommendation_tags: ["wireless_gaming", "neutral_sound", "metal_build", "value"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -2406,7 +2406,7 @@ export const corsairHs70Wireless: AudioProduct = {
 
 export const plantronicsRig800lxWireless: AudioProduct = {
   id: "plantronics_rig_800lx_wireless", name: "Plantronics RIG 800LX Wireless", brand: "Plantronics", category: "audio",
-  price_range_usd: [120, 120], image_url: undefined, product_url: "https://www.rtings.com/headphones/reviews/plantronics/rig-800lx-wireless",
+  price_range_usd: [120, 120], image_url: undefined, product_url: "https://www.amazon.com/s?k=Plantronics+RIG+800LX+Wireless&tag=gearmatch-20",
   recommendation_tags: ["wireless_gaming", "long_battery", "very_low_latency", "lightweight"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -2424,7 +2424,7 @@ export const plantronicsRig800lxWireless: AudioProduct = {
 
 export const logitechG533Wireless: AudioProduct = {
   id: "logitech_g533_wireless", name: "Logitech G533 Wireless", brand: "Logitech", category: "audio",
-  price_range_usd: [100, 100], image_url: undefined, product_url: "https://www.rtings.com/headphones/reviews/logitech/g533-wireless",
+  price_range_usd: [100, 100], image_url: undefined, product_url: "https://www.amazon.com/s?k=Logitech+G533+Wireless&tag=gearmatch-20",
   recommendation_tags: ["wireless_gaming", "dts_7_1", "retractable_mic", "long_range"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -2442,7 +2442,7 @@ export const logitechG533Wireless: AudioProduct = {
 
 export const hyperxCloudIIWireless2020: AudioProduct = {
   id: "hyperx_cloud_ii_wireless_2020", name: "HyperX Cloud II Wireless 2020", brand: "HyperX", category: "audio",
-  price_range_usd: [150, 150], image_url: undefined, product_url: "https://www.rtings.com/headphones/reviews/hyperx/cloud-ii-wireless-2020",
+  price_range_usd: [150, 150], image_url: undefined, product_url: "https://www.amazon.com/s?k=HyperX+Cloud+II+Wireless+2020&tag=gearmatch-20",
   recommendation_tags: ["wireless_gaming", "great_mic", "long_battery", "comfortable"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -2460,7 +2460,7 @@ export const hyperxCloudIIWireless2020: AudioProduct = {
 
 export const steelseriesArctis7pPlusWireless: AudioProduct = {
   id: "steelseries_arctis_7p_plus_wireless", name: "SteelSeries Arctis 7P+ Wireless", brand: "SteelSeries", category: "audio",
-  price_range_usd: [170, 170], image_url: undefined, product_url: "https://www.rtings.com/headphones/reviews/steelseries/arctis-7p-plus-wireless",
+  price_range_usd: [170, 170], image_url: undefined, product_url: "https://www.amazon.com/s?k=SteelSeries+Arctis+7P%2B+Wireless&tag=gearmatch-20",
   recommendation_tags: ["wireless_gaming", "playstation", "long_battery", "tempest_3d"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -2482,7 +2482,7 @@ export const steelseriesArctis7pPlusWireless: AudioProduct = {
 
 export const logitechG935Wireless: AudioProduct = {
   id: "logitech_g935_wireless", name: "Logitech G935 Wireless", brand: "Logitech", category: "audio",
-  price_range_usd: [130, 170], image_url: undefined, product_url: undefined,
+  price_range_usd: [130, 170], image_url: undefined, product_url: "https://www.amazon.com/s?k=Logitech+G935+Wireless&tag=gearmatch-20",
   recommendation_tags: ["wireless_gaming", "dts_surround", "rgb"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -2500,7 +2500,7 @@ export const logitechG935Wireless: AudioProduct = {
 
 export const turtleBeachStealth600: AudioProduct = {
   id: "turtle_beach_stealth_600", name: "Turtle Beach Stealth 600", brand: "Turtle Beach", category: "audio",
-  price_range_usd: [80, 100], image_url: undefined, product_url: undefined,
+  price_range_usd: [80, 100], image_url: undefined, product_url: "https://www.amazon.com/s?k=Turtle+Beach+Stealth+600&tag=gearmatch-20",
   recommendation_tags: ["wireless_gaming", "budget", "playstation", "value"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -2518,7 +2518,7 @@ export const turtleBeachStealth600: AudioProduct = {
 
 export const steelseriesArctis1Wireless: AudioProduct = {
   id: "steelseries_arctis_1_wireless", name: "SteelSeries Arctis 1 Wireless", brand: "SteelSeries", category: "audio",
-  price_range_usd: [80, 100], image_url: undefined, product_url: undefined,
+  price_range_usd: [80, 100], image_url: undefined, product_url: "https://www.amazon.com/s?k=SteelSeries+Arctis+1+Wireless&tag=gearmatch-20",
   recommendation_tags: ["wireless_gaming", "budget", "multi_platform", "value"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -2536,7 +2536,7 @@ export const steelseriesArctis1Wireless: AudioProduct = {
 
 export const razerNariUltimateWireless: AudioProduct = {
   id: "razer_nari_ultimate_wireless", name: "Razer Nari Ultimate Wireless", brand: "Razer", category: "audio",
-  price_range_usd: [150, 200], image_url: undefined, product_url: undefined,
+  price_range_usd: [150, 200], image_url: undefined, product_url: "https://www.amazon.com/s?k=Razer+Nari+Ultimate+Wireless&tag=gearmatch-20",
   recommendation_tags: ["wireless_gaming", "haptic_feedback", "vendor_specific"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -2554,7 +2554,7 @@ export const razerNariUltimateWireless: AudioProduct = {
 
 export const razerKrakenV3ProWireless: AudioProduct = {
   id: "razer_kraken_v3_pro_wireless", name: "Razer Kraken V3 Pro Wireless", brand: "Razer", category: "audio",
-  price_range_usd: [180, 200], image_url: undefined, product_url: undefined,
+  price_range_usd: [180, 200], image_url: undefined, product_url: "https://www.amazon.com/s?k=Razer+Kraken+V3+Pro+Wireless&tag=gearmatch-20",
   recommendation_tags: ["wireless_gaming", "haptic_feedback", "vendor_specific", "long_battery"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -2572,7 +2572,7 @@ export const razerKrakenV3ProWireless: AudioProduct = {
 
 export const razerBarracudaWireless: AudioProduct = {
   id: "razer_barracuda_wireless", name: "Razer Barracuda Wireless", brand: "Razer", category: "audio",
-  price_range_usd: [140, 160], image_url: undefined, product_url: undefined,
+  price_range_usd: [140, 160], image_url: undefined, product_url: "https://www.amazon.com/s?k=Razer+Barracuda+Wireless&tag=gearmatch-20",
   recommendation_tags: ["wireless_gaming", "bluetooth", "hybrid", "vendor_specific"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -2590,7 +2590,7 @@ export const razerBarracudaWireless: AudioProduct = {
 
 export const corsairHs80MaxWireless: AudioProduct = {
   id: "corsair_hs80_max_wireless", name: "Corsair HS80 MAX Wireless", brand: "Corsair", category: "audio",
-  price_range_usd: [150, 180], image_url: undefined, product_url: undefined,
+  price_range_usd: [150, 180], image_url: undefined, product_url: "https://www.amazon.com/s?k=Corsair+HS80+MAX+Wireless&tag=gearmatch-20",
   recommendation_tags: ["wireless_gaming", "bluetooth", "long_battery", "dolby_atmos"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -2608,7 +2608,7 @@ export const corsairHs80MaxWireless: AudioProduct = {
 
 export const logitechG535LightspeedWireless: AudioProduct = {
   id: "logitech_g535_lightspeed_wireless", name: "Logitech G535 LIGHTSPEED Wireless", brand: "Logitech", category: "audio",
-  price_range_usd: [80, 100], image_url: undefined, product_url: undefined,
+  price_range_usd: [80, 100], image_url: undefined, product_url: "https://www.amazon.com/s?k=Logitech+G535+LIGHTSPEED+Wireless&tag=gearmatch-20",
   recommendation_tags: ["wireless_gaming", "budget", "lightweight", "long_battery"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -2626,7 +2626,7 @@ export const logitechG535LightspeedWireless: AudioProduct = {
 
 export const steelseriesArctisNova5: AudioProduct = {
   id: "steelseries_arctis_nova_5", name: "SteelSeries Arctis Nova 5", brand: "SteelSeries", category: "audio",
-  price_range_usd: [110, 130], image_url: undefined, product_url: undefined,
+  price_range_usd: [110, 130], image_url: undefined, product_url: "https://www.amazon.com/s?k=SteelSeries+Arctis+Nova+5&tag=gearmatch-20",
   recommendation_tags: ["wireless_gaming", "bluetooth", "multi_platform", "great_mic", "value"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -2648,7 +2648,7 @@ export const steelseriesArctisNova5: AudioProduct = {
 
 export const razerBarracudaXWireless2021: AudioProduct = {
   id: "razer_barracuda_x_wireless_2021", name: "Razer Barracuda X Wireless 2021", brand: "Razer", category: "audio",
-  price_range_usd: [100, 100], image_url: undefined, product_url: "https://www.rtings.com/headphones/reviews/razer/barracuda-x-wireless-2021",
+  price_range_usd: [100, 100], image_url: undefined, product_url: "https://www.amazon.com/s?k=Razer+Barracuda+X+Wireless+2021&tag=gearmatch-20",
   recommendation_tags: ["wireless_gaming", "budget", "lightweight", "multi_platform"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -2666,7 +2666,7 @@ export const razerBarracudaXWireless2021: AudioProduct = {
 
 export const turtleBeachStealth700Wireless: AudioProduct = {
   id: "turtle_beach_stealth_700_wireless", name: "Turtle Beach Stealth 700 Wireless", brand: "Turtle Beach", category: "audio",
-  price_range_usd: [150, 150], image_url: undefined, product_url: "https://www.rtings.com/headphones/reviews/turtle-beach/stealth-700-wireless",
+  price_range_usd: [150, 150], image_url: undefined, product_url: "https://www.amazon.com/s?k=Turtle+Beach+Stealth+700+Wireless&tag=gearmatch-20",
   recommendation_tags: ["wireless_gaming", "anc", "bluetooth", "dolby_atmos"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -2684,7 +2684,7 @@ export const turtleBeachStealth700Wireless: AudioProduct = {
 
 export const bangOlufsenBeoplayPortal: AudioProduct = {
   id: "bang_olufsen_beoplay_portal", name: "Bang & Olufsen Beoplay Portal", brand: "Bang & Olufsen", category: "audio",
-  price_range_usd: [500, 500], image_url: undefined, product_url: "https://www.rtings.com/headphones/reviews/bang-and-olufsen/beoplay-portal",
+  price_range_usd: [500, 500], image_url: undefined, product_url: "https://www.amazon.com/s?k=Bang+%26+Olufsen+Beoplay+Portal&tag=gearmatch-20",
   recommendation_tags: ["premium_gaming", "anc", "xbox_wireless", "audiophile"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -2702,7 +2702,7 @@ export const bangOlufsenBeoplayPortal: AudioProduct = {
 
 export const corsairHs80RgbWireless: AudioProduct = {
   id: "corsair_hs80_rgb_wireless", name: "Corsair HS80 RGB Wireless", brand: "Corsair", category: "audio",
-  price_range_usd: [150, 150], image_url: undefined, product_url: "https://www.rtings.com/headphones/reviews/corsair/hs80-rgb-wireless",
+  price_range_usd: [150, 150], image_url: undefined, product_url: "https://www.amazon.com/s?k=Corsair+HS80+RGB+Wireless&tag=gearmatch-20",
   recommendation_tags: ["wireless_gaming", "ski_band", "great_mic", "dolby_atmos"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -2720,7 +2720,7 @@ export const corsairHs80RgbWireless: AudioProduct = {
 
 export const sonyInzoneH9Wireless: AudioProduct = {
   id: "sony_inzone_h9_wireless", name: "Sony INZONE H9 Wireless", brand: "Sony", category: "audio",
-  price_range_usd: [300, 300], image_url: undefined, product_url: "https://www.rtings.com/headphones/reviews/sony/inzone-h9-wireless",
+  price_range_usd: [300, 300], image_url: undefined, product_url: "https://www.amazon.com/s?k=Sony+INZONE+H9+Wireless&tag=gearmatch-20",
   recommendation_tags: ["premium_gaming", "anc", "tempest_3d", "playstation"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -2738,7 +2738,7 @@ export const sonyInzoneH9Wireless: AudioProduct = {
 
 export const turtleBeachStealth600Gen2: AudioProduct = {
   id: "turtle_beach_stealth_600_gen_2", name: "Turtle Beach Stealth 600 Gen 2", brand: "Turtle Beach", category: "audio",
-  price_range_usd: [100, 100], image_url: undefined, product_url: "https://www.rtings.com/headphones/reviews/turtle-beach/stealth-600-gen-2",
+  price_range_usd: [100, 100], image_url: undefined, product_url: "https://www.amazon.com/s?k=Turtle+Beach+Stealth+600+Gen+2&tag=gearmatch-20",
   recommendation_tags: ["wireless_gaming", "budget", "long_battery", "console"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -2756,7 +2756,7 @@ export const turtleBeachStealth600Gen2: AudioProduct = {
 
 export const astroA20Gen2Wireless: AudioProduct = {
   id: "astro_a20_gen_2_wireless", name: "Astro A20 Gen 2 Wireless", brand: "Astro", category: "audio",
-  price_range_usd: [120, 120], image_url: undefined, product_url: "https://www.rtings.com/headphones/reviews/astro/a20-gen-2-wireless",
+  price_range_usd: [120, 120], image_url: undefined, product_url: "https://www.amazon.com/s?k=Astro+A20+Gen+2+Wireless&tag=gearmatch-20",
   recommendation_tags: ["wireless_gaming", "console", "low_latency"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -2774,7 +2774,7 @@ export const astroA20Gen2Wireless: AudioProduct = {
 
 export const sonyInzoneBuds: AudioProduct = {
   id: "sony_inzone_buds", name: "Sony INZONE Buds", brand: "Sony", category: "audio",
-  price_range_usd: [200, 200], image_url: undefined, product_url: "https://www.rtings.com/headphones/reviews/sony/inzone-buds-truly-wireless",
+  price_range_usd: [200, 200], image_url: undefined, product_url: "https://www.amazon.com/s?k=Sony+INZONE+Buds&tag=gearmatch-20",
   recommendation_tags: ["gaming_earbuds", "anc", "low_latency", "playstation"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -2792,7 +2792,7 @@ export const sonyInzoneBuds: AudioProduct = {
 
 export const sonyPulseElite: AudioProduct = {
   id: "sony_pulse_elite", name: "Sony PULSE Elite", brand: "Sony", category: "audio",
-  price_range_usd: [150, 150], image_url: undefined, product_url: "https://www.rtings.com/headphones/reviews/sony/pulse-elite",
+  price_range_usd: [150, 150], image_url: undefined, product_url: "https://www.amazon.com/s?k=Sony+PULSE+Elite&tag=gearmatch-20",
   recommendation_tags: ["wireless_gaming", "planar_magnetic", "tempest_3d", "playstation", "great_mic"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -2814,7 +2814,7 @@ export const sonyPulseElite: AudioProduct = {
 
 export const corsairHs75XbWireless: AudioProduct = {
   id: "corsair_hs75_xb_wireless", name: "Corsair HS75 XB WIRELESS", brand: "Corsair", category: "audio",
-  price_range_usd: [120, 150], image_url: undefined, product_url: undefined,
+  price_range_usd: [120, 150], image_url: undefined, product_url: "https://www.amazon.com/s?k=Corsair+HS75+XB+WIRELESS&tag=gearmatch-20",
   recommendation_tags: ["xbox_gaming", "wireless_gaming", "comfortable", "dolby_atmos", "good_mic"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -2832,7 +2832,7 @@ export const corsairHs75XbWireless: AudioProduct = {
 
 export const roccatSynProAirWireless: AudioProduct = {
   id: "roccat_syn_pro_air_wireless", name: "ROCCAT Syn Pro Air Wireless", brand: "ROCCAT", category: "audio",
-  price_range_usd: [130, 150], image_url: undefined, product_url: undefined,
+  price_range_usd: [130, 150], image_url: undefined, product_url: "https://www.amazon.com/s?k=ROCCAT+Syn+Pro+Air+Wireless&tag=gearmatch-20",
   recommendation_tags: ["wireless_gaming", "pc_gaming", "playstation_compatible", "comfortable", "rgb"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -2850,7 +2850,7 @@ export const roccatSynProAirWireless: AudioProduct = {
 
 export const wyzeWirelessGamingHeadset: AudioProduct = {
   id: "wyze_wireless_gaming_headset", name: "Wyze Wireless Gaming Headset", brand: "Wyze", category: "audio",
-  price_range_usd: [50, 70], image_url: undefined, product_url: undefined,
+  price_range_usd: [50, 70], image_url: undefined, product_url: "https://www.amazon.com/s?k=Wyze+Wireless+Gaming+Headset&tag=gearmatch-20",
   recommendation_tags: ["budget_friendly", "value_pick", "wireless_gaming", "bluetooth", "multi_platform"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -2868,7 +2868,7 @@ export const wyzeWirelessGamingHeadset: AudioProduct = {
 
 export const razerBlackSharkV2ProWireless2020: AudioProduct = {
   id: "razer_blackshark_v2_pro_wireless_2020", name: "Razer BlackShark V2 Pro Wireless 2020", brand: "Razer", category: "audio",
-  price_range_usd: [150, 180], image_url: undefined, product_url: undefined,
+  price_range_usd: [150, 180], image_url: undefined, product_url: "https://www.amazon.com/s?k=Razer+BlackShark+V2+Pro+Wireless+2020&tag=gearmatch-20",
   recommendation_tags: ["competitive_fps", "wireless_gaming", "great_mic", "comfortable", "esports"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -2886,7 +2886,7 @@ export const razerBlackSharkV2ProWireless2020: AudioProduct = {
 
 export const turtleBeachStealth700Gen2Wireless: AudioProduct = {
   id: "turtle_beach_stealth_700_gen_2_wireless", name: "Turtle Beach Stealth 700 Gen 2 Wireless", brand: "Turtle Beach", category: "audio",
-  price_range_usd: [130, 150], image_url: undefined, product_url: undefined,
+  price_range_usd: [130, 150], image_url: undefined, product_url: "https://www.amazon.com/s?k=Turtle+Beach+Stealth+700+Gen+2+Wireless&tag=gearmatch-20",
   recommendation_tags: ["xbox_gaming", "wireless_gaming", "bluetooth", "multi_device", "comfortable"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -2904,7 +2904,7 @@ export const turtleBeachStealth700Gen2Wireless: AudioProduct = {
 
 export const corsairVirtuosoRgbWirelessSe: AudioProduct = {
   id: "corsair_virtuoso_rgb_wireless_se", name: "Corsair Virtuoso RGB Wireless SE", brand: "Corsair", category: "audio",
-  price_range_usd: [150, 180], image_url: undefined, product_url: undefined,
+  price_range_usd: [150, 180], image_url: undefined, product_url: "https://www.amazon.com/s?k=Corsair+Virtuoso+RGB+Wireless+SE&tag=gearmatch-20",
   recommendation_tags: ["wireless_gaming", "premium_build", "great_mic", "multi_platform", "rgb"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -2922,7 +2922,7 @@ export const corsairVirtuosoRgbWirelessSe: AudioProduct = {
 
 export const corsairVirtuosoRgbWirelessXt: AudioProduct = {
   id: "corsair_virtuoso_rgb_wireless_xt", name: "Corsair VIRTUOSO RGB Wireless XT", brand: "Corsair", category: "audio",
-  price_range_usd: [230, 270], image_url: undefined, product_url: undefined,
+  price_range_usd: [230, 270], image_url: undefined, product_url: "https://www.amazon.com/s?k=Corsair+VIRTUOSO+RGB+Wireless+XT&tag=gearmatch-20",
   recommendation_tags: ["wireless_gaming", "bluetooth", "premium_build", "great_mic", "dolby_atmos", "multi_platform"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -2940,7 +2940,7 @@ export const corsairVirtuosoRgbWirelessXt: AudioProduct = {
 
 export const sonyInzoneH7Wireless: AudioProduct = {
   id: "sony_inzone_h7_wireless", name: "Sony INZONE H7 Wireless", brand: "Sony", category: "audio",
-  price_range_usd: [180, 230], image_url: undefined, product_url: undefined,
+  price_range_usd: [180, 230], image_url: undefined, product_url: "https://www.amazon.com/s?k=Sony+INZONE+H7+Wireless&tag=gearmatch-20",
   recommendation_tags: ["playstation_gaming", "wireless_gaming", "bluetooth", "long_battery", "multi_device"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -2958,7 +2958,7 @@ export const sonyInzoneH7Wireless: AudioProduct = {
 
 export const sonyPulse3dWireless: AudioProduct = {
   id: "sony_pulse_3d_wireless", name: "Sony PULSE 3D Wireless", brand: "Sony", category: "audio",
-  price_range_usd: [80, 100], image_url: undefined, product_url: undefined,
+  price_range_usd: [80, 100], image_url: undefined, product_url: "https://www.amazon.com/s?k=Sony+PULSE+3D+Wireless&tag=gearmatch-20",
   recommendation_tags: ["playstation_gaming", "ps5", "value_pick", "wireless_gaming", "3d_audio", "lightweight"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -2976,7 +2976,7 @@ export const sonyPulse3dWireless: AudioProduct = {
 
 export const nobleFokusApollo: AudioProduct = {
   id: "noble_fokus_apollo", name: "Noble FoKus Apollo", brand: "Noble", category: "audio",
-  price_range_usd: [399, 450], image_url: undefined, product_url: undefined,
+  price_range_usd: [399, 450], image_url: undefined, product_url: "https://www.amazon.com/s?k=Noble+FoKus+Apollo&tag=gearmatch-20",
   recommendation_tags: ["audiophile", "premium_build", "great_anc", "bluetooth", "boom_mic", "long_battery", "office"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -2994,7 +2994,7 @@ export const nobleFokusApollo: AudioProduct = {
 
 export const boseQc35IiGamingHeadset: AudioProduct = {
   id: "bose_qc35_ii_gaming_headset", name: "Bose QuietComfort 35 II Gaming Headset", brand: "Bose", category: "audio",
-  price_range_usd: [200, 280], image_url: undefined, product_url: undefined,
+  price_range_usd: [200, 280], image_url: undefined, product_url: "https://www.amazon.com/s?k=Bose+QuietComfort+35+II+Gaming+Headset&tag=gearmatch-20",
   recommendation_tags: ["great_anc", "comfortable", "wired_gaming", "neutral_sound", "office", "travel"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -3012,7 +3012,7 @@ export const boseQc35IiGamingHeadset: AudioProduct = {
 
 export const xboxWirelessHeadset: AudioProduct = {
   id: "xbox_wireless_headset", name: "Xbox Wireless Headset", brand: "Xbox", category: "audio",
-  price_range_usd: [90, 110], image_url: undefined, product_url: undefined,
+  price_range_usd: [90, 110], image_url: undefined, product_url: "https://www.amazon.com/s?k=Xbox+Wireless+Headset&tag=gearmatch-20",
   recommendation_tags: ["xbox_gaming", "wireless_gaming", "bluetooth", "value_pick", "good_mic"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -3030,7 +3030,7 @@ export const xboxWirelessHeadset: AudioProduct = {
 
 export const asusRogCetraTwsSpeedNova: AudioProduct = {
   id: "asus_rog_cetra_tws_speednova", name: "ASUS ROG Cetra True Wireless SpeedNova", brand: "ASUS", category: "audio",
-  price_range_usd: [150, 200], image_url: undefined, product_url: undefined,
+  price_range_usd: [150, 200], image_url: undefined, product_url: "https://www.amazon.com/s?k=ASUS+ROG+Cetra+True+Wireless+SpeedNova&tag=gearmatch-20",
   recommendation_tags: ["tws_gaming", "wireless_gaming", "anc", "rgb", "long_battery", "multi_platform"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -3048,7 +3048,7 @@ export const asusRogCetraTwsSpeedNova: AudioProduct = {
 
 export const eposGtw270HybridTrulyWireless: AudioProduct = {
   id: "epos_gtw_270_hybrid_truly_wireless", name: "EPOS GTW 270 Hybrid Truly Wireless", brand: "EPOS", category: "audio",
-  price_range_usd: [150, 200], image_url: undefined, product_url: undefined,
+  price_range_usd: [150, 200], image_url: undefined, product_url: "https://www.amazon.com/s?k=EPOS+GTW+270+Hybrid+Truly+Wireless&tag=gearmatch-20",
   recommendation_tags: ["tws_gaming", "low_latency", "aptx_ll", "portable", "sports"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -3066,7 +3066,7 @@ export const eposGtw270HybridTrulyWireless: AudioProduct = {
 
 export const jblQuantum800Wireless: AudioProduct = {
   id: "jbl_quantum_800_wireless", name: "JBL Quantum 800 Wireless", brand: "JBL", category: "audio",
-  price_range_usd: [150, 200], image_url: undefined, product_url: undefined,
+  price_range_usd: [150, 200], image_url: undefined, product_url: "https://www.amazon.com/s?k=JBL+Quantum+800+Wireless&tag=gearmatch-20",
   recommendation_tags: ["wireless_gaming", "anc", "rgb", "bluetooth", "multi_platform"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -3084,7 +3084,7 @@ export const jblQuantum800Wireless: AudioProduct = {
 
 export const razerHammerheadProHyperspeedTws: AudioProduct = {
   id: "razer_hammerhead_pro_hyperspeed_tws", name: "Razer Hammerhead Pro HyperSpeed True Wireless", brand: "Razer", category: "audio",
-  price_range_usd: [150, 180], image_url: undefined, product_url: undefined,
+  price_range_usd: [150, 180], image_url: undefined, product_url: "https://www.amazon.com/s?k=Razer+Hammerhead+Pro+HyperSpeed+True+Wireless&tag=gearmatch-20",
   recommendation_tags: ["tws_gaming", "wireless_gaming", "anc", "rgb", "balanced_sound", "multi_platform"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -3102,7 +3102,7 @@ export const razerHammerheadProHyperspeedTws: AudioProduct = {
 
 export const turtleBeachEliteAtlasAeroWireless: AudioProduct = {
   id: "turtle_beach_elite_atlas_aero_wireless", name: "Turtle Beach Elite Atlas Aero Wireless", brand: "Turtle Beach", category: "audio",
-  price_range_usd: [130, 170], image_url: undefined, product_url: undefined,
+  price_range_usd: [130, 170], image_url: undefined, product_url: "https://www.amazon.com/s?k=Turtle+Beach+Elite+Atlas+Aero+Wireless&tag=gearmatch-20",
   recommendation_tags: ["pc_gaming", "wireless_gaming", "long_battery", "good_mic"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -3120,7 +3120,7 @@ export const turtleBeachEliteAtlasAeroWireless: AudioProduct = {
 
 export const jabraEvolve265Wireless: AudioProduct = {
   id: "jabra_evolve2_65_wireless", name: "Jabra Evolve2 65 Wireless", brand: "Jabra", category: "audio",
-  price_range_usd: [200, 280], image_url: undefined, product_url: undefined,
+  price_range_usd: [200, 280], image_url: undefined, product_url: "https://www.amazon.com/s?k=Jabra+Evolve2+65+Wireless&tag=gearmatch-20",
   recommendation_tags: ["office", "business", "long_battery", "great_mic", "bluetooth", "comfortable"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -3138,7 +3138,7 @@ export const jabraEvolve265Wireless: AudioProduct = {
 
 export const boseQuietcomfort35IiWireless2018: AudioProduct = {
   id: "bose_quietcomfort_35_ii_wireless_2018", name: "Bose QuietComfort 35 II/QC35 II Wireless 2018", brand: "Bose", category: "audio",
-  price_range_usd: [250, 350], image_url: undefined, product_url: undefined,
+  price_range_usd: [250, 350], image_url: undefined, product_url: "https://www.amazon.com/s?k=Bose+QuietComfort+35+II%2FQC35+II+Wireless+2018&tag=gearmatch-20",
   recommendation_tags: ["travel", "commute", "anc", "comfortable", "bluetooth", "neutral_sound"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -3156,7 +3156,7 @@ export const boseQuietcomfort35IiWireless2018: AudioProduct = {
 
 export const boseQuietcomfort45Wireless: AudioProduct = {
   id: "bose_quietcomfort_45_wireless", name: "Bose QuietComfort 45/QC45 Wireless", brand: "Bose", category: "audio",
-  price_range_usd: [250, 330], image_url: undefined, product_url: undefined,
+  price_range_usd: [250, 330], image_url: undefined, product_url: "https://www.amazon.com/s?k=Bose+QuietComfort+45%2FQC45+Wireless&tag=gearmatch-20",
   recommendation_tags: ["travel", "commute", "anc", "comfortable", "long_battery", "bluetooth"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -3174,7 +3174,7 @@ export const boseQuietcomfort45Wireless: AudioProduct = {
 
 export const sonyPulseExploreTrulyWireless: AudioProduct = {
   id: "sony_pulse_explore_truly_wireless", name: "Sony PULSE Explore Truly Wireless", brand: "Sony", category: "audio",
-  price_range_usd: [180, 220], image_url: undefined, product_url: undefined,
+  price_range_usd: [180, 220], image_url: undefined, product_url: "https://www.amazon.com/s?k=Sony+PULSE+Explore+Truly+Wireless&tag=gearmatch-20",
   recommendation_tags: ["playstation_gaming", "ps5", "planar_magnetic", "truly_wireless", "sports"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -3192,7 +3192,7 @@ export const sonyPulseExploreTrulyWireless: AudioProduct = {
 
 export const jabraElite10Gen2: AudioProduct = {
   id: "jabra_elite_10_gen_2", name: "Jabra Elite 10 Gen 2", brand: "Jabra", category: "audio",
-  price_range_usd: [250, 300], image_url: undefined, product_url: undefined,
+  price_range_usd: [250, 300], image_url: undefined, product_url: "https://www.amazon.com/s?k=Jabra+Elite+10+Gen+2&tag=gearmatch-20",
   recommendation_tags: ["travel", "anc", "truly_wireless", "dolby_atmos", "comfortable", "sports"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -3210,7 +3210,7 @@ export const jabraElite10Gen2: AudioProduct = {
 
 export const jabraElite8ActiveGen2: AudioProduct = {
   id: "jabra_elite_8_active_gen_2", name: "Jabra Elite 8 Active Gen 2", brand: "Jabra", category: "audio",
-  price_range_usd: [200, 250], image_url: undefined, product_url: undefined,
+  price_range_usd: [200, 250], image_url: undefined, product_url: "https://www.amazon.com/s?k=Jabra+Elite+8+Active+Gen+2&tag=gearmatch-20",
   recommendation_tags: ["sports", "fitness", "anc", "truly_wireless", "water_resistant", "travel"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -3228,7 +3228,7 @@ export const jabraElite8ActiveGen2: AudioProduct = {
 
 export const sennheiserRs165RfWireless: AudioProduct = {
   id: "sennheiser_rs_165_rf_wireless", name: "Sennheiser RS 165 RF Wireless", brand: "Sennheiser", category: "audio",
-  price_range_usd: [150, 200], image_url: undefined, product_url: undefined,
+  price_range_usd: [150, 200], image_url: undefined, product_url: "https://www.amazon.com/s?k=Sennheiser+RS+165+RF+Wireless&tag=gearmatch-20",
   recommendation_tags: ["home_theater", "tv_listening", "wireless", "long_battery", "comfortable"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -3246,7 +3246,7 @@ export const sennheiserRs165RfWireless: AudioProduct = {
 
 export const astroA40TrHeadsetMixampPro2019: AudioProduct = {
   id: "astro_a40_tr_headset_mixamp_pro_2019", name: "Astro A40 TR Headset + MixAmp Pro 2019", brand: "Astro", category: "audio",
-  price_range_usd: [200, 250], image_url: undefined, product_url: undefined,
+  price_range_usd: [200, 250], image_url: undefined, product_url: "https://www.amazon.com/s?k=Astro+A40+TR+Headset+%2B+MixAmp+Pro+2019&tag=gearmatch-20",
   recommendation_tags: ["pc_gaming", "xbox_gaming", "open_back", "great_mic", "esports", "mixamp"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -3264,7 +3264,7 @@ export const astroA40TrHeadsetMixampPro2019: AudioProduct = {
 
 export const boseQuietcomfortUltraHeadphonesWireless: AudioProduct = {
   id: "bose_quietcomfort_ultra_headphones_wireless", name: "Bose QuietComfort Ultra Headphones Wireless", brand: "Bose", category: "audio",
-  price_range_usd: [350, 430], image_url: undefined, product_url: undefined,
+  price_range_usd: [350, 430], image_url: undefined, product_url: "https://www.amazon.com/s?k=Bose+QuietComfort+Ultra+Headphones+Wireless&tag=gearmatch-20",
   recommendation_tags: ["travel", "anc", "premium_build", "comfortable", "immersive_audio", "bluetooth"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -3282,7 +3282,7 @@ export const boseQuietcomfortUltraHeadphonesWireless: AudioProduct = {
 
 export const bowersWilkinsPi7TrueWireless: AudioProduct = {
   id: "bowers_wilkins_pi7_true_wireless", name: "Bowers & Wilkins Pi7 True Wireless", brand: "Bowers & Wilkins", category: "audio",
-  price_range_usd: [300, 400], image_url: undefined, product_url: undefined,
+  price_range_usd: [300, 400], image_url: undefined, product_url: "https://www.amazon.com/s?k=Bowers+%26+Wilkins+Pi7+True+Wireless&tag=gearmatch-20",
   recommendation_tags: ["premium_build", "anc", "truly_wireless", "audiophile", "aptx"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -3309,7 +3309,7 @@ export const sonyWH1000XM5: AudioProduct = {
   category: "audio",
   price_range_usd: [350, 400],
   image_url: "https://i.rtings.com/assets/products/Nc33W9lA/sony-wh-1000xm5-wireless/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/headphones/reviews/sony/wh-1000xm5-wireless",
+  product_url: "https://www.amazon.com/s?k=Sony+WH-1000XM5+Wireless&tag=gearmatch-20",
   recommendation_tags: ["premium_anc", "travel", "office_work", "wireless", "long_battery"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -3332,7 +3332,7 @@ export const sonyWH1000XM3: AudioProduct = {
   category: "audio",
   price_range_usd: [200, 280],
   image_url: "https://i.rtings.com/assets/products/g5yfWfUG/sony-wh-1000xm3-wireless/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/headphones/reviews/sony/wh-1000xm3-wireless",
+  product_url: "https://www.amazon.com/s?k=Sony+WH-1000XM3+Wireless&tag=gearmatch-20",
   recommendation_tags: ["premium_anc", "travel", "office_work", "wireless", "value_pick"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -3359,7 +3359,7 @@ export const steelSeriesArctisNovaProWireless: AudioProduct = {
   category: "audio",
   price_range_usd: [300, 350],
   image_url: "https://i.rtings.com/assets/products/KDUQUrYp/steelseries-arctis-nova-pro-wireless-pc-ps-xbox/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/headphones/reviews/steelseries/arctis-nova-pro-wireless-pc-ps-xbox",
+  product_url: "https://www.amazon.com/s?k=SteelSeries+Arctis+Nova+Pro+Wireless&tag=gearmatch-20",
   recommendation_tags: ["wireless_gaming", "premium_gaming", "anc", "swappable_battery", "multi_platform"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -3382,7 +3382,7 @@ export const steelSeriesArctisNovaPro: AudioProduct = {
   category: "audio",
   price_range_usd: [200, 250],
   image_url: "https://i.rtings.com/assets/products/iD9P4Isq/steelseries-arctis-nova-pro/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/headphones/reviews/steelseries/arctis-nova-pro",
+  product_url: "https://www.amazon.com/s?k=SteelSeries+Arctis+Nova+Pro&tag=gearmatch-20",
   recommendation_tags: ["wired_gaming", "console_gaming", "game_dac", "customizable", "good_mic"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -3409,7 +3409,7 @@ export const sennheiserMomentum4Wireless: AudioProduct = {
   category: "audio",
   price_range_usd: [300, 380],
   image_url: "https://i.rtings.com/assets/products/0DyKny4w/sennheiser-momentum-4-wireless/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/headphones/reviews/sennheiser/momentum-4-wireless",
+  product_url: "https://www.amazon.com/s?k=Sennheiser+MOMENTUM+4+Wireless&tag=gearmatch-20",
   recommendation_tags: ["premium_anc", "travel", "long_battery", "audiophile", "office_work"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -3432,7 +3432,7 @@ export const sennheiserMomentum3Wireless: AudioProduct = {
   category: "audio",
   price_range_usd: [200, 300],
   image_url: "https://i.rtings.com/assets/products/99Eo84st/sennheiser-momentum-3-wireless/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/headphones/reviews/sennheiser/momentum-3-wireless",
+  product_url: "https://www.amazon.com/s?k=Sennheiser+Momentum+3+Wireless&tag=gearmatch-20",
   recommendation_tags: ["premium_anc", "travel", "multi_device", "audiophile", "retro_style"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -3455,7 +3455,7 @@ export const sennheiserAccentumPlus: AudioProduct = {
   category: "audio",
   price_range_usd: [180, 230],
   image_url: "https://i.rtings.com/assets/products/3ZaX4eI4/sennheiser-accentum-plus-wireless/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/headphones/reviews/sennheiser/accentum-plus-wireless",
+  product_url: "https://www.amazon.com/s?k=Sennheiser+ACCENTUM+Plus&tag=gearmatch-20",
   recommendation_tags: ["anc", "long_battery", "multi_device", "aptx_adaptive", "midrange_value"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -3482,7 +3482,7 @@ export const jabraElite85hWireless: AudioProduct = {
   category: "audio",
   price_range_usd: [200, 250],
   image_url: "https://i.rtings.com/assets/products/6bSxRpJe/jabra-elite-85h-wireless/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/headphones/reviews/jabra/elite-85h-wireless",
+  product_url: "https://www.amazon.com/s?k=Jabra+Elite+85h+Wireless&tag=gearmatch-20",
   recommendation_tags: ["anc", "office_work", "travel", "long_battery", "good_mic"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -3505,7 +3505,7 @@ export const jabraElite7ProTrueWireless: AudioProduct = {
   category: "audio",
   price_range_usd: [150, 200],
   image_url: "https://i.rtings.com/assets/products/0uxtlTpz/jabra-elite-7-pro-true-wireless/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/headphones/reviews/jabra/elite-7-pro-true-wireless",
+  product_url: "https://www.amazon.com/s?k=Jabra+Elite+7+Pro+True+Wireless&tag=gearmatch-20",
   recommendation_tags: ["true_wireless", "phone_calls", "commute", "sports", "anc"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -3528,7 +3528,7 @@ export const jabraElite10: AudioProduct = {
   category: "audio",
   price_range_usd: [200, 250],
   image_url: "https://i.rtings.com/assets/products/81R24T2e/jabra-elite-10-true-wireless/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/headphones/reviews/jabra/elite-10-true-wireless",
+  product_url: "https://www.amazon.com/s?k=Jabra+Elite+10&tag=gearmatch-20",
   recommendation_tags: ["true_wireless", "premium_anc", "dolby_atmos", "multi_device", "ip57"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -3551,7 +3551,7 @@ export const jabraElite8Active: AudioProduct = {
   category: "audio",
   price_range_usd: [180, 230],
   image_url: "https://i.rtings.com/assets/products/habp4bbc/jabra-elite-8-active-true-wireless/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/headphones/reviews/jabra/elite-8-active-true-wireless",
+  product_url: "https://www.amazon.com/s?k=Jabra+Elite+8+Active&tag=gearmatch-20",
   recommendation_tags: ["sports", "true_wireless", "ip68", "multi_device", "shakegrip"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -3574,7 +3574,7 @@ export const jabraElite7Active: AudioProduct = {
   category: "audio",
   price_range_usd: [130, 180],
   image_url: "https://i.rtings.com/assets/products/6RZRtNVr/jabra-elite-7-active-true-wireless/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/headphones/reviews/jabra/elite-7-active-true-wireless",
+  product_url: "https://www.amazon.com/s?k=Jabra+Elite+7+Active&tag=gearmatch-20",
   recommendation_tags: ["sports", "true_wireless", "ip57", "multi_device", "shakegrip"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -3601,7 +3601,7 @@ export const audezeMobius: AudioProduct = {
   category: "audio",
   price_range_usd: [300, 400],
   image_url: "https://i.rtings.com/assets/products/Gay7vPpl/audeze-mobius/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/headphones/reviews/audeze/mobius",
+  product_url: "https://www.amazon.com/s?k=Audeze+Mobius&tag=gearmatch-20",
   recommendation_tags: ["audiophile_gaming", "planar_magnetic", "head_tracking", "3d_audio", "versatile"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -3628,7 +3628,7 @@ export const boseQuietComfort35: AudioProduct = {
   category: "audio",
   price_range_usd: [150, 250],
   image_url: "https://i.rtings.com/assets/products/NPHzpndA/bose-quietcomfort-35-qc35-wireless-2016/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/headphones/reviews/bose/quietcomfort-35-qc35-wireless-2016",
+  product_url: "https://www.amazon.com/s?k=Bose+QuietComfort+35%2FQC35+Wireless+2016&tag=gearmatch-20",
   recommendation_tags: ["anc", "travel", "comfortable", "multi_device", "classic"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -3651,7 +3651,7 @@ export const bose700: AudioProduct = {
   category: "audio",
   price_range_usd: [300, 380],
   image_url: "https://i.rtings.com/assets/products/a1IJ399Y/bose-700-headphones-wireless/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/headphones/reviews/bose/700-headphones-wireless",
+  product_url: "https://www.amazon.com/s?k=Bose+700+Headphones+Wireless&tag=gearmatch-20",
   recommendation_tags: ["premium_anc", "office_work", "travel", "great_mic", "adjustable_anc"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -3674,7 +3674,7 @@ export const boseSoundLink2: AudioProduct = {
   category: "audio",
   price_range_usd: [150, 200],
   image_url: "https://i.rtings.com/assets/products/WOqzLf2b/bose-soundlink-2-wireless/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/headphones/reviews/bose/soundlink-2-wireless",
+  product_url: "https://www.amazon.com/s?k=Bose+SoundLink+2+Wireless&tag=gearmatch-20",
   recommendation_tags: ["wireless", "office_work", "multi_device", "lightweight", "comfortable"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -3701,7 +3701,7 @@ export const audioTechnicaATHM50xBT2: AudioProduct = {
   category: "audio",
   price_range_usd: [180, 220],
   image_url: "https://i.rtings.com/assets/products/SI3jhZGc/audio-technica-ath-m50xbt2-wireless/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/headphones/reviews/audio-technica/ath-m50xbt2-wireless",
+  product_url: "https://www.amazon.com/s?k=Audio-Technica+ATH-M50xBT2+Wireless&tag=gearmatch-20",
   recommendation_tags: ["studio_monitor", "neutral_sound", "long_battery", "multi_device", "audiophile"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -3728,7 +3728,7 @@ export const bowersWilkinsPx8: AudioProduct = {
   category: "audio",
   price_range_usd: [600, 700],
   image_url: "https://i.rtings.com/assets/products/3pwQPwqd/bowers-wilkins-px8-wireless/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/headphones/reviews/bowers-wilkins/px8-wireless",
+  product_url: "https://www.amazon.com/s?k=Bowers+%26+Wilkins+Px8+Wireless&tag=gearmatch-20",
   recommendation_tags: ["luxury", "premium_anc", "audiophile", "nappa_leather", "multi_device"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -3755,7 +3755,7 @@ export const samsungGalaxyBudsPlus: AudioProduct = {
   category: "audio",
   price_range_usd: [80, 120],
   image_url: "https://i.rtings.com/assets/products/8Qdevw4f/samsung-galaxy-buds-plus-truly-wireless/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/headphones/reviews/samsung/galaxy-buds-plus-truly-wireless",
+  product_url: "https://www.amazon.com/s?k=Samsung+Galaxy+Buds%2B&tag=gearmatch-20",
   recommendation_tags: ["true_wireless", "sports", "long_battery", "neutral_sound", "samsung_ecosystem"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -3782,7 +3782,7 @@ export const turtleBeachElitePro2SuperAmp: AudioProduct = {
   category: "audio",
   price_range_usd: [180, 250],
   image_url: "https://i.rtings.com/assets/products/WcyRhiHV/turtle-beach-elite-pro-2-superamp/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/headphones/reviews/turtle-beach/elite-pro-2-superamp",
+  product_url: "https://www.amazon.com/s?k=Turtle+Beach+Elite+Pro+2+SuperAmp&tag=gearmatch-20",
   recommendation_tags: ["wired_gaming", "console_gaming", "superamp_dac", "great_mic", "premium_gaming"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -3809,7 +3809,7 @@ export const corsairHS70Bluetooth: AudioProduct = {
   category: "audio",
   price_range_usd: [80, 110],
   image_url: "https://i.rtings.com/assets/products/dFozQZhZ/corsair-hs70-bluetooth/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/headphones/reviews/corsair/hs70-bluetooth",
+  product_url: "https://www.amazon.com/s?k=Corsair+HS70+Bluetooth&tag=gearmatch-20",
   recommendation_tags: ["wired_gaming", "bluetooth_hybrid", "long_battery", "icue_software", "console_compatible"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -3836,7 +3836,7 @@ export const sonosAce: AudioProduct = {
   category: "audio",
   price_range_usd: [400, 450],
   image_url: "https://i.rtings.com/assets/products/yiK0lqbe/sonos-ace-wireless/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/headphones/reviews/sonos/ace-wireless",
+  product_url: "https://www.amazon.com/s?k=Sonos+Ace&tag=gearmatch-20",
   recommendation_tags: ["premium_anc", "travel", "office_work", "tv_audio_swap", "sonos_ecosystem"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -3863,7 +3863,7 @@ export const jblTune770NC: AudioProduct = {
   category: "audio",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/1JJFqGOA/jbl-tune-770nc-wireless/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/headphones/reviews/jbl/tune-770nc-wireless",
+  product_url: "https://www.amazon.com/s?k=JBL+Tune+770NC&tag=gearmatch-20",
   recommendation_tags: ["budget_anc", "long_battery", "foldable", "multi_device", "value_pick"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -3886,7 +3886,7 @@ export const jblClubProPlusTWS: AudioProduct = {
   category: "audio",
   price_range_usd: [150, 200],
   image_url: "https://i.rtings.com/assets/products/Ya9ptWGE/jbl-club-pro-plus-tws-true-wireless/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/headphones/reviews/jbl/club-pro-plus-tws-true-wireless",
+  product_url: "https://www.amazon.com/s?k=JBL+CLUB+PRO%2B+TWS&tag=gearmatch-20",
   recommendation_tags: ["true_wireless", "anc", "sports", "parametric_eq", "neutral_sound"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -3913,7 +3913,7 @@ export const razerOpus2020: AudioProduct = {
   category: "audio",
   price_range_usd: [150, 200],
   image_url: "https://i.rtings.com/assets/products/qVOIQOsV/razer-opus-wireless-2020/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/headphones/reviews/razer/opus-wireless-2020",
+  product_url: "https://www.amazon.com/s?k=Razer+Opus+Wireless+2020&tag=gearmatch-20",
   recommendation_tags: ["anc", "travel", "office_work", "thx_certified", "neutral_sound"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -3940,7 +3940,7 @@ export const akgN700NCM2: AudioProduct = {
   category: "audio",
   price_range_usd: [180, 250],
   image_url: "https://i.rtings.com/assets/products/zRugl9Ca/akg-n700nc-m2-wireless/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/headphones/reviews/akg/n700nc-m2-wireless",
+  product_url: "https://www.amazon.com/s?k=AKG+N700NC+M2&tag=gearmatch-20",
   recommendation_tags: ["anc", "travel", "office_work", "parametric_eq", "multi_device"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {

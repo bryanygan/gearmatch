@@ -1,5 +1,5 @@
 import { memo, useMemo } from "react";
-import { Check, AlertTriangle, Trophy, Star } from "lucide-react";
+import { Check, AlertTriangle, Trophy, Star, ExternalLink } from "lucide-react";
 import type { ScoredProduct } from "@/lib/scoring";
 import type { MouseProduct, AudioProduct, KeyboardProduct, MonitorProduct } from "@/types/products";
 import { getMatchQuality, getTopReasons, getTopConcerns } from "@/lib/scoring";
@@ -371,7 +371,7 @@ const RecommendationCard = memo(function RecommendationCard({
           </div>
         )}
 
-        {/* Price range */}
+        {/* Price range and action buttons */}
         <div className="flex items-center justify-between pt-2">
           <span className="text-sm text-muted-foreground">
             {formatPriceRange(product.price_range_usd)}
@@ -391,6 +391,22 @@ const RecommendationCard = memo(function RecommendationCard({
             </button>
           )}
         </div>
+
+        {/* Retailer buttons */}
+        {product.product_url && (
+          <div className="flex flex-wrap items-center gap-2 pt-2">
+            <a
+              href={product.product_url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-md text-sm font-medium text-white bg-[#FF9900] hover:bg-[#E68A00] transition-colors"
+            >
+              Amazon
+              <ExternalLink className="w-3.5 h-3.5" />
+            </a>
+            {/* Room for 2-3 more retailer buttons */}
+          </div>
+        )}
 
         {/* Score breakdown (collapsible) */}
         {isTopPick && (
