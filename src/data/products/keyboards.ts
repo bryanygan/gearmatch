@@ -487,6 +487,7 @@ export const brydge102KeyboardForAppleIpad: KeyboardProduct = {
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/6whGMAiQ/brydge-10-2-keyboard-for-apple-ipad/design-medium.jpg?format=auto",
   product_url: "https://www.amazon.com/s?k=Brydge+10.2+Keyboard+for+Apple+iPad&tag=gearmatch-20",
+  manufacturer_url: "https://www.brydge.com/10-2-maxplus",
   recommendation_tags: ["wireless"],
   data_quality: {
     data_confidence: "high",
@@ -556,7 +557,7 @@ export const dasKeyboard4Professional: KeyboardProduct = {
   price_range_usd: [150, 220],
   image_url: "https://i.rtings.com/assets/products/aQF1Hv3Q/das-keyboard-4-professional/design-medium.jpg?format=auto",
   product_url: "https://www.amazon.com/s?k=Das+Keyboard+4+Professional&tag=gearmatch-20",
-  manufacturer_url: "https://www.daskeyboard.com/",
+  manufacturer_url: "https://www.daskeyboard.com/daskeyboard-4-professional/",
   recommendation_tags: [],
   data_quality: {
     data_confidence: "high",
