@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 import { Mail, MessageSquare, Bug, Lightbulb, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import Navbar from "@/components/landing/Navbar";
@@ -131,10 +132,10 @@ const ContactPage = () => {
 
           <div className="flex flex-wrap justify-center gap-4">
             <Button variant="hero" size="lg" asChild>
-              <Link to="/#categories">
+              <HashLink to="/#categories">
                 Browse Categories
                 <ArrowRight className="w-4 h-4" />
-              </Link>
+              </HashLink>
             </Button>
           </div>
         </div>

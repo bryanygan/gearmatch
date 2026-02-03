@@ -254,7 +254,7 @@ const HowItWorksPage = () => {
               Our <span className="text-gradient">Database</span>
             </h2>
             <p className="text-muted-foreground text-lg">
-              890+ products across 4 categories, with detailed specs and real performance data.
+              1,040+ products across 4 categories, with detailed specs and real performance data.
             </p>
           </div>
 

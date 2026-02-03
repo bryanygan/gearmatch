@@ -239,6 +239,7 @@ gearmatch/
 | Bonus | 5% | Extra features (value picks, EQ support) |
 
 ### Keyboard Scoring Categories
+
 | Category | Weight | Description |
 |----------|--------|-------------|
 | Primary Use | 20% | Competitive gaming, casual gaming, productivity, programming |
@@ -253,6 +254,7 @@ gearmatch/
 | Keycap Material | 3% | PBT vs ABS preference |
 
 ### Monitor Scoring Categories
+
 | Category | Weight | Description |
 |----------|--------|-------------|
 | Primary Use Fit | 25% | Gaming, content creation, office, mixed use |
