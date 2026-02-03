@@ -131,6 +131,7 @@ export const pulsarX2: MouseProduct = {
   price_range_usd: [90, 110],
   image_url: undefined,
   product_url: "https://www.amazon.com/s?k=Pulsar+X2&tag=gearmatch-20",
+  manufacturer_url: "https://www.pulsar.gg/",
   recommendation_tags: [
     "competitive_fps",
     "ultralight",
@@ -187,6 +188,7 @@ export const endgameGearOp1_8k: MouseProduct = {
   price_range_usd: [70, 100],
   image_url: undefined,
   product_url: "https://www.amazon.com/s?k=Endgame+Gear+OP1+8k&tag=gearmatch-20",
+  manufacturer_url: "https://www.endgamegear.com/en-us/op1-series",
   recommendation_tags: [
     "competitive_fps",
     "wired",
@@ -243,6 +245,7 @@ export const hitscanHyperlight: MouseProduct = {
   price_range_usd: [70, 120],
   image_url: undefined,
   product_url: "https://www.amazon.com/s?k=Hitscan+Hyperlight&tag=gearmatch-20",
+  manufacturer_url: "https://hitscan.com/",
   recommendation_tags: [
     "ultralight",
     "competitive_fps",
@@ -299,6 +302,7 @@ export const scyroxV8: MouseProduct = {
   price_range_usd: [60, 100],
   image_url: undefined,
   product_url: "https://www.amazon.com/s?k=Scyrox+V8&tag=gearmatch-20",
+  manufacturer_url: "https://scyrox.com/",
   recommendation_tags: [
     "competitive_fps",
     "ultralight",
@@ -355,6 +359,7 @@ export const ninjutsoSoraV2: MouseProduct = {
   price_range_usd: [70, 100],
   image_url: undefined,
   product_url: "https://www.amazon.com/s?k=Ninjutso+Sora+V2&tag=gearmatch-20",
+  manufacturer_url: "https://ninjutso.com/",
   recommendation_tags: [
     "competitive_fps",
     "ultralight",
@@ -522,6 +527,7 @@ export const endgameGearOp1_8kV2: MouseProduct = {
   price_range_usd: [70, 90],
   image_url: undefined,
   product_url: "https://www.amazon.com/s?k=Endgame+Gear+OP1+8k+v2&tag=gearmatch-20",
+  manufacturer_url: "https://www.endgamegear.com/en-us/op1-series",
   recommendation_tags: [
     "competitive_fps",
     "wired",
@@ -578,6 +584,7 @@ export const mchoseL7Ultra: MouseProduct = {
   price_range_usd: [45, 70],
   image_url: undefined,
   product_url: "https://www.amazon.com/s?k=MCHOSE+L7+Ultra&tag=gearmatch-20",
+  manufacturer_url: "https://www.mchose.store/",
   recommendation_tags: [
     "competitive_fps",
     "ultralight",
@@ -634,6 +641,7 @@ export const mchoseL7Pro: MouseProduct = {
   price_range_usd: [30, 45],
   image_url: undefined,
   product_url: "https://www.amazon.com/s?k=MCHOSE+L7+Pro&tag=gearmatch-20",
+  manufacturer_url: "https://www.mchose.store/",
   recommendation_tags: ["competitive_fps", "ultralight", "8k_polling", "value_pick"],
   data_quality: {
     data_confidence: "high",
@@ -9893,6 +9901,7 @@ export const endgameGearOp18kV2: MouseProduct = {
   price_range_usd: [20, 40],
   image_url: "https://i.rtings.com/assets/products/Tr5jkHPy/endgame-gear-op1-8k-v2/design-medium.jpg?format=auto",
   product_url: "https://www.amazon.com/s?k=Endgame+Gear+OP1+8k+v2&tag=gearmatch-20",
+  manufacturer_url: "https://www.endgamegear.com/en-us/op1-series",
   recommendation_tags: ["ultralight","8k_polling","competitive_fps","ambidextrous","mmo_gaming"],
   data_quality: {
     data_confidence: "high",
@@ -9943,6 +9952,7 @@ export const endgameGearOp18k: MouseProduct = {
   price_range_usd: [50, 80],
   image_url: "https://i.rtings.com/assets/products/mGJHptEb/endgame-gear-op1-8k/design-medium.jpg?format=auto",
   product_url: "https://www.amazon.com/s?k=Endgame+Gear+OP1+8k&tag=gearmatch-20",
+  manufacturer_url: "https://www.endgamegear.com/en-us/op1-series",
   recommendation_tags: ["ultralight","8k_polling","competitive_fps","ambidextrous","mmo_gaming"],
   data_quality: {
     data_confidence: "high",

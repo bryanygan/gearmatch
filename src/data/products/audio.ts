@@ -86,6 +86,7 @@ export const audezeMaxwell: AudioProduct = {
   price_range_usd: [280, 350],
   image_url: undefined,
   product_url: "https://www.amazon.com/s?k=Audeze+Maxwell&tag=gearmatch-20",
+  manufacturer_url: "https://www.audeze.com/",
   recommendation_tags: ["audiophile_gaming", "planar_magnetic", "wireless_gaming", "great_mic", "music_first"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -550,6 +551,7 @@ export const focalStellia: AudioProduct = {
   price_range_usd: [2900, 3000],
   image_url: undefined,
   product_url: "https://www.amazon.com/s?k=Focal+Stellia&tag=gearmatch-20",
+  manufacturer_url: "https://www.focal.com/",
   recommendation_tags: ["audiophile", "closed_back", "premium", "beryllium_driver", "xlr_cable"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -573,6 +575,7 @@ export const audezeLcdX: AudioProduct = {
   price_range_usd: [1100, 1200],
   image_url: undefined,
   product_url: "https://www.amazon.com/s?k=Audeze+LCD-X&tag=gearmatch-20",
+  manufacturer_url: "https://www.audeze.com/products/lcd-x",
   recommendation_tags: ["audiophile", "open_back", "planar_magnetic", "studio", "warm"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -1205,6 +1208,7 @@ export const nothingEar: AudioProduct = {
 export const nothingEarA: AudioProduct = {
   id: "nothing_ear_a", name: "Nothing Ear (a)", brand: "Nothing", category: "audio",
   price_range_usd: [99, 99], image_url: undefined, product_url: "https://www.amazon.com/s?k=Nothing+Ear+(a)&tag=gearmatch-20",
+  manufacturer_url: "https://nothing.tech/",
   recommendation_tags: ["budget_anc_tws", "sports", "casual_listening", "commute", "ldac", "value_pick"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -1277,6 +1281,7 @@ export const jblVibeBuds: AudioProduct = {
 export const skullcandyDime3: AudioProduct = {
   id: "skullcandy_dime_3", name: "Skullcandy Dime 3 True Wireless", brand: "Skullcandy", category: "audio",
   price_range_usd: [30, 30], image_url: undefined, product_url: "https://www.amazon.com/s?k=Skullcandy+Dime+3+True+Wireless&tag=gearmatch-20",
+  manufacturer_url: "https://www.skullcandy.com/",
   recommendation_tags: ["ultra_budget", "tws", "casual", "fitness", "value_pick"],
   data_quality: { data_confidence: "high", primary_source_type: "lab_test", source_name: "RTINGS", last_verified: "2026-01" },
   core_attributes: {
@@ -1479,6 +1484,7 @@ export const salnotes7hzZero2: AudioProduct = {
 export const kefineKlean: AudioProduct = {
   id: "kefine_klean", name: "KEFINE Klean", brand: "KEFINE", category: "audio",
   price_range_usd: [44, 49], image_url: undefined, product_url: "https://www.amazon.com/s?k=KEFINE+Klean&tag=gearmatch-20",
+  manufacturer_url: "https://kefineelec.com/",
   recommendation_tags: ["budget", "tunable", "dlc_driver", "value_pick"],
   data_quality: { data_confidence: "medium", primary_source_type: "community_poll", source_name: "HiFiGo", last_verified: "2026-01" },
   core_attributes: {
@@ -1501,6 +1507,7 @@ export const kefineKlean: AudioProduct = {
 export const arttiT10: AudioProduct = {
   id: "artti_t10", name: "ARTTI T10", brand: "ARTTI", category: "audio",
   price_range_usd: [69, 72], image_url: undefined, product_url: "https://www.amazon.com/s?k=ARTTI+T10&tag=gearmatch-20",
+  manufacturer_url: "https://artti.cn/",
   recommendation_tags: ["budget_planar", "detailed", "analytical", "value_pick"],
   data_quality: { data_confidence: "medium", primary_source_type: "community_poll", source_name: "Amazon reviews", last_verified: "2026-01" },
   core_attributes: {
@@ -1537,6 +1544,7 @@ export const simgotEw300: AudioProduct = {
 export const truthearHexa: AudioProduct = {
   id: "truthear_hexa", name: "TRUTHEAR HEXA", brand: "TRUTHEAR", category: "audio",
   price_range_usd: [90, 90], image_url: undefined, product_url: "https://www.amazon.com/s?k=TRUTHEAR+HEXA&tag=gearmatch-20",
+  manufacturer_url: "https://truthear.com/products/hexa",
   recommendation_tags: ["music_first", "neutral", "technical", "tip_rolling", "value_pick"],
   data_quality: { data_confidence: "high", primary_source_type: "community_poll", source_name: "TRUTHEAR official + community consensus", last_verified: "2026-01" },
   core_attributes: {
@@ -1631,6 +1639,10 @@ export const dunuKima2: AudioProduct = {
 export const letshuoerS12Pro: AudioProduct = {
   id: "letshuoer_s12_pro", name: "LETSHUOER S12 PRO", brand: "LETSHUOER", category: "audio",
   price_range_usd: [169, 169], image_url: undefined, product_url: "https://www.amazon.com/s?k=LETSHUOER+S12+PRO&tag=gearmatch-20",
+  manufacturer_url: "https://letshuoer.net/",
+  retailer_urls: {
+    linsoul: "https://www.linsoul.com/products/letshuoer-s12-pro"
+  },
   recommendation_tags: ["planar", "easy_to_drive", "modular_cable", "audiophile_entry"],
   data_quality: { data_confidence: "high", primary_source_type: "community_poll", source_name: "Linsoul + community", last_verified: "2026-01" },
   core_attributes: {
@@ -1649,6 +1661,7 @@ export const letshuoerS12Pro: AudioProduct = {
 export const simgotSupermix4: AudioProduct = {
   id: "simgot_supermix_4", name: "SIMGOT SuperMix 4", brand: "SIMGOT", category: "audio",
   price_range_usd: [170, 170], image_url: undefined, product_url: "https://www.amazon.com/s?k=SIMGOT+SuperMix+4&tag=gearmatch-20",
+  manufacturer_url: "http://www.simgot.com/",
   recommendation_tags: ["music_first", "detailed", "analytical", "wide_soundstage", "hybrid_drivers"],
   data_quality: { data_confidence: "medium", primary_source_type: "community_poll", source_name: "Linsoul reviews", last_verified: "2026-01" },
   core_attributes: {
@@ -1721,6 +1734,10 @@ export const afulPerformer7: AudioProduct = {
 export const ziigaatOdyssey: AudioProduct = {
   id: "ziigaat_odyssey", name: "ZiiGaat Odyssey", brand: "ZiiGaat", category: "audio",
   price_range_usd: [229, 229], image_url: undefined, product_url: "https://www.amazon.com/s?k=ZiiGaat+Odyssey&tag=gearmatch-20",
+  manufacturer_url: "https://www.ziigaat.com/products/ziigaat-odyssey",
+  retailer_urls: {
+    linsoul: "https://www.linsoul.com/products/ziigaat-odyssey"
+  },
   recommendation_tags: ["smooth", "musical", "knowles_drivers", "all_rounder", "gaming"],
   data_quality: { data_confidence: "high", primary_source_type: "community_poll", source_name: "Linsoul", last_verified: "2026-01" },
   core_attributes: {
@@ -1743,6 +1760,7 @@ export const ziigaatOdyssey: AudioProduct = {
 export const softearsVolumeS: AudioProduct = {
   id: "softears_volume_s", name: "Softears VolumeS", brand: "Softears", category: "audio",
   price_range_usd: [319, 319], image_url: undefined, product_url: "https://www.amazon.com/s?k=Softears+VolumeS&tag=gearmatch-20",
+  manufacturer_url: "https://www.softears.net/volume-s/",
   recommendation_tags: ["dual_tuning", "classical", "pop", "premium_build", "audiophile"],
   data_quality: { data_confidence: "medium", primary_source_type: "community_poll", source_name: "HiFiGo", last_verified: "2026-01" },
   core_attributes: {
@@ -1779,6 +1797,10 @@ export const moondropCrinacleDusk: AudioProduct = {
 export const xennsMangirdTeaPro: AudioProduct = {
   id: "xenns_mangird_tea_pro", name: "XENNS Mangird Tea Pro", brand: "XENNS", category: "audio",
   price_range_usd: [359, 359], image_url: undefined, product_url: "https://www.amazon.com/s?k=XENNS+Mangird+Tea+Pro&tag=gearmatch-20",
+  manufacturer_url: "https://www.linsoul.com/collections/xenns-mangird",
+  retailer_urls: {
+    linsoul: "https://www.linsoul.com/products/xenns-mangird-tea-pro-kiwi-ears-allegro-pro"
+  },
   recommendation_tags: ["hybrid", "knowles_drivers", "bass_enhanced", "audiophile"],
   data_quality: { data_confidence: "high", primary_source_type: "community_poll", source_name: "Linsoul", last_verified: "2026-01" },
   core_attributes: {
@@ -1797,6 +1819,10 @@ export const xennsMangirdTeaPro: AudioProduct = {
 export const xennsMangirdTopPro: AudioProduct = {
   id: "xenns_mangird_top_pro", name: "XENNS Mangird Top Pro", brand: "XENNS", category: "audio",
   price_range_usd: [499, 499], image_url: undefined, product_url: "https://www.amazon.com/s?k=XENNS+Mangird+Top+Pro&tag=gearmatch-20",
+  manufacturer_url: "https://www.linsoul.com/collections/xenns-mangird",
+  retailer_urls: {
+    linsoul: "https://www.linsoul.com/collections/xenns-mangird"
+  },
   recommendation_tags: ["flagship", "10_driver", "knowles_sonion", "audiophile"],
   data_quality: { data_confidence: "high", primary_source_type: "community_poll", source_name: "Linsoul", last_verified: "2026-01" },
   core_attributes: {
