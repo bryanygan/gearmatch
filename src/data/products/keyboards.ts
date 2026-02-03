@@ -19,6 +19,7 @@ export const monsgeekFun60Ultra: KeyboardProduct = {
   price_range_usd: [100, 130],
   image_url: undefined,
   product_url: "https://www.amazon.com/s?k=MonsGeek+FUN60+Ultra&tag=gearmatch-20",
+  manufacturer_url: "https://www.monsgeek.com/product/fun60-ultra/",
   recommendation_tags: [
     "competitive_gaming",
     "budget_gaming",
@@ -112,6 +113,7 @@ export const wooting80HE: KeyboardProduct = {
   price_range_usd: [175, 250],
   image_url: undefined,
   product_url: "https://www.amazon.com/s?k=Wooting+80HE&tag=gearmatch-20",
+  manufacturer_url: "https://wooting.io/wooting-80he",
   recommendation_tags: [
     "top_tier_competitive_gaming",
     "analog_output",
@@ -204,6 +206,7 @@ export const nuphyField75HE: KeyboardProduct = {
   price_range_usd: [170, 200],
   image_url: undefined,
   product_url: "https://www.amazon.com/s?k=NuPhy+Field75+HE&tag=gearmatch-20",
+  manufacturer_url: "https://nuphy.com/products/field75",
   recommendation_tags: [
     "competitive_gaming",
     "rapid_trigger",
@@ -553,6 +556,7 @@ export const dasKeyboard4Professional: KeyboardProduct = {
   price_range_usd: [150, 220],
   image_url: "https://i.rtings.com/assets/products/aQF1Hv3Q/das-keyboard-4-professional/design-medium.jpg?format=auto",
   product_url: "https://www.amazon.com/s?k=Das+Keyboard+4+Professional&tag=gearmatch-20",
+  manufacturer_url: "https://www.daskeyboard.com/",
   recommendation_tags: [],
   data_quality: {
     data_confidence: "high",
@@ -622,6 +626,7 @@ export const wooting60heV2: KeyboardProduct = {
   price_range_usd: [150, 250],
   image_url: "https://i.rtings.com/assets/products/AVosvbf1/wooting-60he-v2/in-test-medium.jpg?format=auto",
   product_url: "https://www.amazon.com/s?k=Wooting+60HE+v2&tag=gearmatch-20",
+  manufacturer_url: "https://wooting.io/wooting-60he",
   recommendation_tags: ["hot_swappable"],
   data_quality: {
     data_confidence: "high",
@@ -691,6 +696,7 @@ export const wooting60he: KeyboardProduct = {
   price_range_usd: [150, 250],
   image_url: "https://i.rtings.com/assets/products/m4mw0QFt/wooting-60he/design-medium.jpg?format=auto",
   product_url: "https://www.amazon.com/s?k=Wooting+60HE&tag=gearmatch-20",
+  manufacturer_url: "https://wooting.io/wooting-60he",
   recommendation_tags: ["gaming","hot_swappable"],
   data_quality: {
     data_confidence: "high",
@@ -760,6 +766,7 @@ export const aescoA67A83: KeyboardProduct = {
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/CBZ2i6PC/aesco-a67-a83/design-medium.jpg?format=auto",
   product_url: "https://www.amazon.com/s?k=Aesco+A67%2FA83&tag=gearmatch-20",
+  manufacturer_url: "https://www.aescolife.com/",
   recommendation_tags: ["wireless","gaming","hot_swappable"],
   data_quality: {
     data_confidence: "high",
@@ -829,6 +836,7 @@ export const drunkdeerA75: KeyboardProduct = {
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/vvtd6xLZ/drunkdeer-a75/design-medium.jpg?format=auto",
   product_url: "https://www.amazon.com/s?k=DrunkDeer+A75&tag=gearmatch-20",
+  manufacturer_url: "https://drunkdeer.com/products/adjustable-keyboard-magnetic-switch-a75",
   recommendation_tags: ["rapid_trigger","gaming","hot_swappable"],
   data_quality: {
     data_confidence: "high",
@@ -898,6 +906,7 @@ export const mchoseAce60Pro: KeyboardProduct = {
   price_range_usd: [30, 60],
   image_url: "https://i.rtings.com/assets/products/0cwcG6KN/mchose-ace-60-pro/design-medium.jpg?format=auto",
   product_url: "https://www.amazon.com/s?k=MCHOSE+Ace+60+Pro&tag=gearmatch-20",
+  manufacturer_url: "https://www.mchose.store/",
   recommendation_tags: ["rapid_trigger","gaming","hot_swappable"],
   data_quality: {
     data_confidence: "high",

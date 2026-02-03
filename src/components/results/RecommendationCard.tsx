@@ -1,5 +1,5 @@
 import { memo, useMemo } from "react";
-import { Check, AlertTriangle, Trophy, Star, ExternalLink } from "lucide-react";
+import { Check, AlertTriangle, Trophy, Star, ExternalLink, Building2, ShoppingBag } from "lucide-react";
 import type { ScoredProduct } from "@/lib/scoring";
 import type { MouseProduct, AudioProduct, KeyboardProduct, MonitorProduct } from "@/types/products";
 import { getMatchQuality, getTopReasons, getTopConcerns } from "@/lib/scoring";
@@ -393,18 +393,53 @@ const RecommendationCard = memo(function RecommendationCard({
         </div>
 
         {/* Retailer buttons */}
-        {product.product_url && (
+        {(product.product_url || product.manufacturer_url || product.retailer_urls) && (
           <div className="flex flex-wrap items-center gap-2 pt-2">
-            <a
-              href={product.product_url}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-md text-sm font-medium text-white bg-[#FF9900] hover:bg-[#E68A00] transition-colors"
-            >
-              Amazon
-              <ExternalLink className="w-3.5 h-3.5" />
-            </a>
-            {/* Room for 2-3 more retailer buttons */}
+            {/* Amazon button */}
+            {product.product_url && (
+              <a
+                href={product.product_url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-md text-sm font-medium text-white bg-[#FF9900] hover:bg-[#E68A00] transition-colors"
+              >
+                <ShoppingBag className="w-3.5 h-3.5" />
+                Amazon
+              </a>
+            )}
+            
+            {/* Manufacturer/Brand button */}
+            {product.manufacturer_url && (
+              <a
+                href={product.manufacturer_url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-md text-sm font-medium bg-secondary text-secondary-foreground hover:bg-secondary/80 transition-colors"
+              >
+                <Building2 className="w-3.5 h-3.5" />
+                {product.brand}
+              </a>
+            )}
+            
+            {/* Additional retailer buttons (up to 2) */}
+            {product.retailer_urls && Object.entries(product.retailer_urls).slice(0, 2).map(([retailer, url]) => {
+              // Format retailer name (e.g., "hifigo" -> "HiFiGo", "linsoul" -> "Linsoul")
+              const retailerName = retailer
+                .replace(/([a-z])([A-Z])/g, '$1 $2')
+                .replace(/^./, str => str.toUpperCase());
+              return (
+                <a
+                  key={retailer}
+                  href={url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-md text-sm font-medium bg-muted text-muted-foreground hover:bg-muted/80 transition-colors"
+                >
+                  <ExternalLink className="w-3.5 h-3.5" />
+                  {retailerName}
+                </a>
+              );
+            })}
           </div>
         )}
 

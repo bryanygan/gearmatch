@@ -384,6 +384,10 @@ export interface Product {
   image_url?: string;
   /** URL to product page or affiliate link (optional) */
   product_url?: string;
+  /** URL to manufacturer website (optional) */
+  manufacturer_url?: string;
+  /** URLs to specific retailers (optional) */
+  retailer_urls?: Record<string, string>;
   /** Tags used for recommendation filtering and explanations */
   recommendation_tags: string[];
   /** Data sourcing and confidence metadata */
