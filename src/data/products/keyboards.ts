@@ -18,7 +18,7 @@ export const monsgeekFun60Ultra: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [100, 130],
   image_url: undefined,
-  product_url: undefined,
+  product_url: "https://www.amazon.com/s?k=MonsGeek+FUN60+Ultra&tag=gearmatch-20",
   recommendation_tags: [
     "competitive_gaming",
     "budget_gaming",
@@ -111,7 +111,7 @@ export const wooting80HE: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [175, 250],
   image_url: undefined,
-  product_url: undefined,
+  product_url: "https://www.amazon.com/s?k=Wooting+80HE&tag=gearmatch-20",
   recommendation_tags: [
     "top_tier_competitive_gaming",
     "analog_output",
@@ -203,7 +203,7 @@ export const nuphyField75HE: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [170, 200],
   image_url: undefined,
-  product_url: undefined,
+  product_url: "https://www.amazon.com/s?k=NuPhy+Field75+HE&tag=gearmatch-20",
   recommendation_tags: [
     "competitive_gaming",
     "rapid_trigger",
@@ -296,7 +296,7 @@ export const logitechMXKeysS: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [100, 120],
   image_url: undefined,
-  product_url: undefined,
+  product_url: "https://www.amazon.com/s?k=Logitech+MX+Keys+S&tag=gearmatch-20",
   recommendation_tags: [
     "productivity",
     "office",
@@ -383,7 +383,7 @@ export const keychronQ5Max: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [200, 230],
   image_url: undefined,
-  product_url: undefined,
+  product_url: "https://www.amazon.com/s?k=Keychron+Q5+Max&tag=gearmatch-20",
   recommendation_tags: [
     "premium_mechanical",
     "wireless",
@@ -483,7 +483,7 @@ export const brydge102KeyboardForAppleIpad: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/6whGMAiQ/brydge-10-2-keyboard-for-apple-ipad/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/brydge/10-2-keyboard-for-apple-ipad",
+  product_url: "https://www.amazon.com/s?k=Brydge+10.2+Keyboard+for+Apple+iPad&tag=gearmatch-20",
   recommendation_tags: ["wireless"],
   data_quality: {
     data_confidence: "high",
@@ -552,7 +552,7 @@ export const dasKeyboard4Professional: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [150, 220],
   image_url: "https://i.rtings.com/assets/products/aQF1Hv3Q/das-keyboard-4-professional/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/das-keyboard/4-professional",
+  product_url: "https://www.amazon.com/s?k=Das+Keyboard+4+Professional&tag=gearmatch-20",
   recommendation_tags: [],
   data_quality: {
     data_confidence: "high",
@@ -621,7 +621,7 @@ export const wooting60heV2: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [150, 250],
   image_url: "https://i.rtings.com/assets/products/AVosvbf1/wooting-60he-v2/in-test-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/wooting/60he-v2",
+  product_url: "https://www.amazon.com/s?k=Wooting+60HE+v2&tag=gearmatch-20",
   recommendation_tags: ["hot_swappable"],
   data_quality: {
     data_confidence: "high",
@@ -690,7 +690,7 @@ export const wooting60he: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [150, 250],
   image_url: "https://i.rtings.com/assets/products/m4mw0QFt/wooting-60he/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/wooting/60he",
+  product_url: "https://www.amazon.com/s?k=Wooting+60HE&tag=gearmatch-20",
   recommendation_tags: ["gaming","hot_swappable"],
   data_quality: {
     data_confidence: "high",
@@ -759,7 +759,7 @@ export const aescoA67A83: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/CBZ2i6PC/aesco-a67-a83/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/aesco/a67-a83",
+  product_url: "https://www.amazon.com/s?k=Aesco+A67%2FA83&tag=gearmatch-20",
   recommendation_tags: ["wireless","gaming","hot_swappable"],
   data_quality: {
     data_confidence: "high",
@@ -828,7 +828,7 @@ export const drunkdeerA75: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/vvtd6xLZ/drunkdeer-a75/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/drunkdeer/a75",
+  product_url: "https://www.amazon.com/s?k=DrunkDeer+A75&tag=gearmatch-20",
   recommendation_tags: ["rapid_trigger","gaming","hot_swappable"],
   data_quality: {
     data_confidence: "high",
@@ -897,7 +897,7 @@ export const mchoseAce60Pro: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [30, 60],
   image_url: "https://i.rtings.com/assets/products/0cwcG6KN/mchose-ace-60-pro/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/mchose/ace-60-pro",
+  product_url: "https://www.amazon.com/s?k=MCHOSE+Ace+60+Pro&tag=gearmatch-20",
   recommendation_tags: ["rapid_trigger","gaming","hot_swappable"],
   data_quality: {
     data_confidence: "high",
@@ -966,7 +966,7 @@ export const nuphyAir60He: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/AlsZCFSr/nuphy-air60-he/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/nuphy/air60-he",
+  product_url: "https://www.amazon.com/s?k=NuPhy+Air60+HE&tag=gearmatch-20",
   recommendation_tags: ["rapid_trigger","gaming","hot_swappable"],
   data_quality: {
     data_confidence: "high",
@@ -1035,7 +1035,7 @@ export const nuphyAir75He: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/SJ0l7NwZ/nuphy-air75-he/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/nuphy/air75-he",
+  product_url: "https://www.amazon.com/s?k=NuPhy+Air75+HE&tag=gearmatch-20",
   recommendation_tags: ["rapid_trigger","gaming","hot_swappable"],
   data_quality: {
     data_confidence: "high",
@@ -1104,7 +1104,7 @@ export const nuphyAir75V2Air60V2Air96V2: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/RODjFo4y/nuphy-air75-v2-air60-v2-air96-v2/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/nuphy/air75-v2-air60-v2-air96-v2",
+  product_url: "https://www.amazon.com/s?k=NuPhy+Air75+V2+%5BAir60+V2%2C+Air96+V2%5D&tag=gearmatch-20",
   recommendation_tags: ["wireless","hot_swappable"],
   data_quality: {
     data_confidence: "high",
@@ -1173,7 +1173,7 @@ export const nuphyAir75V3: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/RSJD0lwe/nuphy-air75-v3/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/nuphy/air75-v3",
+  product_url: "https://www.amazon.com/s?k=NuPhy+Air75+V3&tag=gearmatch-20",
   recommendation_tags: ["wireless","hot_swappable"],
   data_quality: {
     data_confidence: "high",
@@ -1242,7 +1242,7 @@ export const nuphyAir75: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/LrSS2kiX/nuphy-air75/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/nuphy/air75",
+  product_url: "https://www.amazon.com/s?k=NuPhy+Air75&tag=gearmatch-20",
   recommendation_tags: ["wireless","hot_swappable"],
   data_quality: {
     data_confidence: "high",
@@ -1311,7 +1311,7 @@ export const hyperxAlloyCoreRgb: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [30, 60],
   image_url: "https://i.rtings.com/assets/products/VchTOxoB/hyperx-alloy-core-rgb/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/hyperx/alloy-core-rgb",
+  product_url: "https://www.amazon.com/s?k=HyperX+Alloy+Core+RGB&tag=gearmatch-20",
   recommendation_tags: [],
   data_quality: {
     data_confidence: "high",
@@ -1380,7 +1380,7 @@ export const hyperxAlloyElite2: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/ZI7lsSo6/hyperx-alloy-elite-2/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/hyperx/alloy-elite-2",
+  product_url: "https://www.amazon.com/s?k=HyperX+Alloy+Elite+2&tag=gearmatch-20",
   recommendation_tags: ["gaming"],
   data_quality: {
     data_confidence: "high",
@@ -1449,7 +1449,7 @@ export const hyperxAlloyFpsPro: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [30, 60],
   image_url: "https://i.rtings.com/assets/products/4A0krySf/hyperx-alloy-fps-pro/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/hyperx/alloy-fps-pro",
+  product_url: "https://www.amazon.com/s?k=HyperX+Alloy+FPS+Pro&tag=gearmatch-20",
   recommendation_tags: [],
   data_quality: {
     data_confidence: "high",
@@ -1518,7 +1518,7 @@ export const hyperxAlloyFpsRgb: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/6GxWvlcb/hyperx-alloy-fps-rgb/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/hyperx/alloy-fps-rgb",
+  product_url: "https://www.amazon.com/s?k=HyperX+Alloy+FPS+RGB&tag=gearmatch-20",
   recommendation_tags: ["gaming"],
   data_quality: {
     data_confidence: "high",
@@ -1587,7 +1587,7 @@ export const hyperxAlloyOrigins60: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/dVid8XJA/hyperx-alloy-origins-60/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/hyperx/alloy-origins-60",
+  product_url: "https://www.amazon.com/s?k=HyperX+Alloy+Origins+60&tag=gearmatch-20",
   recommendation_tags: [],
   data_quality: {
     data_confidence: "high",
@@ -1656,7 +1656,7 @@ export const hyperxAlloyOrigins65: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [30, 60],
   image_url: "https://i.rtings.com/assets/products/DhRj5jnP/hyperx-alloy-origins-65/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/hyperx/alloy-origins-65",
+  product_url: "https://www.amazon.com/s?k=HyperX+Alloy+Origins+65&tag=gearmatch-20",
   recommendation_tags: ["gaming"],
   data_quality: {
     data_confidence: "high",
@@ -1725,7 +1725,7 @@ export const hyperxAlloyOrigins: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/cqsqkoO8/hyperx-alloy-origins/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/hyperx/alloy-origins",
+  product_url: "https://www.amazon.com/s?k=HyperX+Alloy+Origins&tag=gearmatch-20",
   recommendation_tags: ["gaming"],
   data_quality: {
     data_confidence: "high",
@@ -1794,7 +1794,7 @@ export const hyperxAlloyRise: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/L2224cRL/hyperx-alloy-rise/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/hyperx/alloy-rise",
+  product_url: "https://www.amazon.com/s?k=HyperX+Alloy+Rise&tag=gearmatch-20",
   recommendation_tags: ["hot_swappable"],
   data_quality: {
     data_confidence: "high",
@@ -1863,7 +1863,7 @@ export const dropAlt: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/3ZYs3Fir/drop-alt/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/drop/alt",
+  product_url: "https://www.amazon.com/s?k=Drop+ALT&tag=gearmatch-20",
   recommendation_tags: [],
   data_quality: {
     data_confidence: "high",
@@ -1932,7 +1932,7 @@ export const logitechAltoKeysK98m: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/GCn7VvbA/logitech-alto-keys-k98m/in-test-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/logitech/alto-keys-k98m",
+  product_url: "https://www.amazon.com/s?k=Logitech+Alto+Keys+K98M&tag=gearmatch-20",
   recommendation_tags: ["wireless","hot_swappable"],
   data_quality: {
     data_confidence: "high",
@@ -2001,7 +2001,7 @@ export const obinslabAnnePro2: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [150, 220],
   image_url: "https://i.rtings.com/assets/products/7hXsBfDZ/obinslab-anne-pro-2/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/obinslab/anne-pro-2",
+  product_url: "https://www.amazon.com/s?k=Obinslab+Anne+Pro+2&tag=gearmatch-20",
   recommendation_tags: ["wireless"],
   data_quality: {
     data_confidence: "high",
@@ -2070,7 +2070,7 @@ export const steelseriesApex3Tkl: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/2zAWjxbO/steelseries-apex-3-tkl/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/steelseries/apex-3-tkl",
+  product_url: "https://www.amazon.com/s?k=SteelSeries+Apex+3+TKL&tag=gearmatch-20",
   recommendation_tags: [],
   data_quality: {
     data_confidence: "high",
@@ -2139,7 +2139,7 @@ export const steelseriesApex3: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [30, 60],
   image_url: "https://i.rtings.com/assets/products/ORDsSuYM/steelseries-apex-3/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/steelseries/apex-3",
+  product_url: "https://www.amazon.com/s?k=SteelSeries+Apex+3&tag=gearmatch-20",
   recommendation_tags: [],
   data_quality: {
     data_confidence: "high",
@@ -2208,7 +2208,7 @@ export const steelseriesApex5: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/9mXmuqv6/steelseries-apex-5/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/steelseries/apex-5",
+  product_url: "https://www.amazon.com/s?k=SteelSeries+Apex+5&tag=gearmatch-20",
   recommendation_tags: ["gaming","hot_swappable"],
   data_quality: {
     data_confidence: "high",
@@ -2277,7 +2277,7 @@ export const steelseriesApex7Tkl: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/rwLV5A2l/steelseries-apex-7-tkl/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/steelseries/apex-7-tkl",
+  product_url: "https://www.amazon.com/s?k=SteelSeries+Apex+7+TKL&tag=gearmatch-20",
   recommendation_tags: [],
   data_quality: {
     data_confidence: "high",
@@ -2346,7 +2346,7 @@ export const steelseriesApex9: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [30, 60],
   image_url: "https://i.rtings.com/assets/products/Y5AVUkh4/steelseries-apex-9/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/steelseries/apex-9",
+  product_url: "https://www.amazon.com/s?k=SteelSeries+Apex+9&tag=gearmatch-20",
   recommendation_tags: ["gaming","hot_swappable"],
   data_quality: {
     data_confidence: "high",
@@ -2415,7 +2415,7 @@ export const steelseriesApexProGen3: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [150, 220],
   image_url: "https://i.rtings.com/assets/products/akP7exTE/steelseries-apex-pro-gen-3/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/steelseries/apex-pro-gen-3",
+  product_url: "https://www.amazon.com/s?k=SteelSeries+Apex+Pro+Gen+3&tag=gearmatch-20",
   recommendation_tags: ["gaming"],
   data_quality: {
     data_confidence: "high",
@@ -2484,7 +2484,7 @@ export const steelseriesApexProMiniWireless: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [150, 220],
   image_url: "https://i.rtings.com/assets/products/TK9SBXxz/steelseries-apex-pro-mini-wireless/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/steelseries/apex-pro-mini-wireless",
+  product_url: "https://www.amazon.com/s?k=SteelSeries+Apex+Pro+Mini+Wireless&tag=gearmatch-20",
   recommendation_tags: ["wireless","gaming"],
   data_quality: {
     data_confidence: "high",
@@ -2553,7 +2553,7 @@ export const steelseriesApexProMini: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [150, 220],
   image_url: "https://i.rtings.com/assets/products/paxJjX4s/steelseries-apex-pro-mini/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/steelseries/apex-pro-mini",
+  product_url: "https://www.amazon.com/s?k=SteelSeries+Apex+Pro+Mini&tag=gearmatch-20",
   recommendation_tags: ["gaming"],
   data_quality: {
     data_confidence: "high",
@@ -2622,7 +2622,7 @@ export const steelseriesApexProTkl2023: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [150, 220],
   image_url: "https://i.rtings.com/assets/products/6F9FAU2A/steelseries-apex-pro-tkl-2023/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/steelseries/apex-pro-tkl-2023",
+  product_url: "https://www.amazon.com/s?k=SteelSeries+Apex+Pro+TKL+(2023)&tag=gearmatch-20",
   recommendation_tags: ["gaming"],
   data_quality: {
     data_confidence: "high",
@@ -2691,7 +2691,7 @@ export const steelseriesApexPro: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [150, 220],
   image_url: "https://i.rtings.com/assets/products/HzdoSZrX/steelseries-apex-pro/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/steelseries/apex-pro",
+  product_url: "https://www.amazon.com/s?k=SteelSeries+Apex+Pro&tag=gearmatch-20",
   recommendation_tags: ["gaming"],
   data_quality: {
     data_confidence: "high",
@@ -2760,7 +2760,7 @@ export const keychronB1B6Pro: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [30, 60],
   image_url: "https://i.rtings.com/assets/products/ciPPrwBN/keychron-b1-b6-pro/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/keychron/b1-b6-pro",
+  product_url: "https://www.amazon.com/s?k=Keychron+B1%2FB6+Pro&tag=gearmatch-20",
   recommendation_tags: ["wireless"],
   data_quality: {
     data_confidence: "high",
@@ -2829,7 +2829,7 @@ export const keychronB33B36: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [30, 60],
   image_url: "https://i.rtings.com/assets/products/lzjvmKiS/keychron-b33-b36-wireless/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/keychron/b33-b36-wireless",
+  product_url: "https://www.amazon.com/s?k=Keychron+B33%2FB36&tag=gearmatch-20",
   recommendation_tags: ["wireless"],
   data_quality: {
     data_confidence: "high",
@@ -2898,7 +2898,7 @@ export const nuphyxBh65: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/m4qDPJUU/nuphyx-bh65/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/nuphyx/bh65",
+  product_url: "https://www.amazon.com/s?k=NuPhyX+BH65&tag=gearmatch-20",
   recommendation_tags: ["rapid_trigger","gaming","hot_swappable"],
   data_quality: {
     data_confidence: "high",
@@ -2967,7 +2967,7 @@ export const razerBlackwidowElite: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/fnVz162F/razer-blackwidow-elite/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/razer/blackwidow-elite",
+  product_url: "https://www.amazon.com/s?k=Razer+BlackWidow+Elite&tag=gearmatch-20",
   recommendation_tags: ["gaming"],
   data_quality: {
     data_confidence: "high",
@@ -3036,7 +3036,7 @@ export const razerBlackwidowLite: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/yGv6kL9Y/razer-blackwidow-lite/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/razer/blackwidow-lite",
+  product_url: "https://www.amazon.com/s?k=Razer+BlackWidow+Lite&tag=gearmatch-20",
   recommendation_tags: ["gaming"],
   data_quality: {
     data_confidence: "high",
@@ -3105,7 +3105,7 @@ export const razerBlackwidowTournamentEditionChromaV2: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/ZwnjntgC/razer-blackwidow-tournament-edition-chroma-v2/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/razer/blackwidow-tournament-edition-chroma-v2",
+  product_url: "https://www.amazon.com/s?k=Razer+BlackWidow+Tournament+Edition+Chroma+V2&tag=gearmatch-20",
   recommendation_tags: ["gaming"],
   data_quality: {
     data_confidence: "high",
@@ -3174,7 +3174,7 @@ export const razerBlackwidowV3MiniHyperspeed: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/QaSwMBZa/razer-blackwidow-v3-mini-hyperspeed/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/razer/blackwidow-v3-mini-hyperspeed",
+  product_url: "https://www.amazon.com/s?k=Razer+BlackWidow+V3+Mini+HyperSpeed&tag=gearmatch-20",
   recommendation_tags: ["wireless","gaming"],
   data_quality: {
     data_confidence: "high",
@@ -3243,7 +3243,7 @@ export const razerBlackwidowV3Pro: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [150, 220],
   image_url: "https://i.rtings.com/assets/products/dNEsjXpY/razer-blackwidow-v3-pro/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/razer/blackwidow-v3-pro",
+  product_url: "https://www.amazon.com/s?k=Razer+BlackWidow+V3+Pro&tag=gearmatch-20",
   recommendation_tags: ["wireless","gaming"],
   data_quality: {
     data_confidence: "high",
@@ -3312,7 +3312,7 @@ export const razerBlackwidowV3: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/E4SMfANn/razer-blackwidow-v3/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/razer/blackwidow-v3",
+  product_url: "https://www.amazon.com/s?k=Razer+BlackWidow+V3&tag=gearmatch-20",
   recommendation_tags: ["gaming"],
   data_quality: {
     data_confidence: "high",
@@ -3381,7 +3381,7 @@ export const razerBlackwidowV475: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/4EiDZbsj/razer-blackwidow-v4-75/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/razer/blackwidow-v4-75",
+  product_url: "https://www.amazon.com/s?k=Razer+BlackWidow+V4+75%25&tag=gearmatch-20",
   recommendation_tags: ["gaming","hot_swappable"],
   data_quality: {
     data_confidence: "high",
@@ -3450,7 +3450,7 @@ export const razerBlackwidowV4Pro: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [150, 220],
   image_url: "https://i.rtings.com/assets/products/MMgt3UYQ/razer-blackwidow-v4-pro/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/razer/blackwidow-v4-pro",
+  product_url: "https://www.amazon.com/s?k=Razer+BlackWidow+V4+Pro&tag=gearmatch-20",
   recommendation_tags: ["gaming"],
   data_quality: {
     data_confidence: "high",
@@ -3519,7 +3519,7 @@ export const razerBlackwidowV4: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/XQWbFPNJ/razer-blackwidow-v4/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/razer/blackwidow-v4",
+  product_url: "https://www.amazon.com/s?k=Razer+BlackWidow+V4&tag=gearmatch-20",
   recommendation_tags: ["gaming"],
   data_quality: {
     data_confidence: "high",
@@ -3588,7 +3588,7 @@ export const razerBlackwidow: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [30, 60],
   image_url: "https://i.rtings.com/assets/products/5mHSDD8N/razer-blackwidow/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/razer/blackwidow",
+  product_url: "https://www.amazon.com/s?k=Razer+BlackWidow&tag=gearmatch-20",
   recommendation_tags: ["gaming"],
   data_quality: {
     data_confidence: "high",
@@ -3657,7 +3657,7 @@ export const keychronC1ProC2Pro: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [150, 220],
   image_url: "https://i.rtings.com/assets/products/sphTVV70/keychron-c1-pro-c2-pro/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/keychron/c1-pro-c2-pro",
+  product_url: "https://www.amazon.com/s?k=Keychron+C1+Pro%2FC2+Pro&tag=gearmatch-20",
   recommendation_tags: [],
   data_quality: {
     data_confidence: "high",
@@ -3726,7 +3726,7 @@ export const keychronC1: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [30, 60],
   image_url: "https://i.rtings.com/assets/products/NNCSyYNT/keychron-c1/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/keychron/c1",
+  product_url: "https://www.amazon.com/s?k=Keychron+C1&tag=gearmatch-20",
   recommendation_tags: [],
   data_quality: {
     data_confidence: "high",
@@ -3795,7 +3795,7 @@ export const keychronC2: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/HPGQKxvo/keychron-c2/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/keychron/c2",
+  product_url: "https://www.amazon.com/s?k=Keychron+C2&tag=gearmatch-20",
   recommendation_tags: [],
   data_quality: {
     data_confidence: "high",
@@ -3864,7 +3864,7 @@ export const logitechComboTouch: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/tMDwD1QC/logitech-combo-touch/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/logitech/combo-touch",
+  product_url: "https://www.amazon.com/s?k=Logitech+Combo+Touch&tag=gearmatch-20",
   recommendation_tags: [],
   data_quality: {
     data_confidence: "high",
@@ -3933,7 +3933,7 @@ export const logitechCraft: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/XvmnwNx2/logitech-craft/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/logitech/craft",
+  product_url: "https://www.amazon.com/s?k=Logitech+Craft&tag=gearmatch-20",
   recommendation_tags: ["wireless"],
   data_quality: {
     data_confidence: "high",
@@ -4002,7 +4002,7 @@ export const dropCtrl: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/V3iGcqyO/drop-ctrl/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/drop/ctrl",
+  product_url: "https://www.amazon.com/s?k=Drop+CTRL&tag=gearmatch-20",
   recommendation_tags: ["hot_swappable"],
   data_quality: {
     data_confidence: "high",
@@ -4071,7 +4071,7 @@ export const razerCynosaChroma: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [30, 60],
   image_url: "https://i.rtings.com/assets/products/RrA8pWm6/razer-cynosa-chroma/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/razer/cynosa-chroma",
+  product_url: "https://www.amazon.com/s?k=Razer+Cynosa+Chroma&tag=gearmatch-20",
   recommendation_tags: [],
   data_quality: {
     data_confidence: "high",
@@ -4140,7 +4140,7 @@ export const razerCynosaV2: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/qkEg6Ji9/razer-cynosa-v2/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/razer/cynosa-v2",
+  product_url: "https://www.amazon.com/s?k=Razer+Cynosa+V2&tag=gearmatch-20",
   recommendation_tags: [],
   data_quality: {
     data_confidence: "high",
@@ -4209,7 +4209,7 @@ export const razerDeathstalkerV2Pro: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [150, 220],
   image_url: "https://i.rtings.com/assets/products/5UPm2cJN/razer-deathstalker-v2-pro/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/razer/deathstalker-v2-pro",
+  product_url: "https://www.amazon.com/s?k=Razer+DeathStalker+V2+Pro&tag=gearmatch-20",
   recommendation_tags: ["wireless","gaming","hot_swappable"],
   data_quality: {
     data_confidence: "high",
@@ -4278,7 +4278,7 @@ export const redragonDragonbornK630Rgb: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [30, 60],
   image_url: "https://i.rtings.com/assets/products/bqmuHhRo/redragon-dragonborn-k630-rgb/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/redragon/dragonborn-k630-rgb",
+  product_url: "https://www.amazon.com/s?k=Redragon+Dragonborn+K630+RGB&tag=gearmatch-20",
   recommendation_tags: ["gaming"],
   data_quality: {
     data_confidence: "high",
@@ -4347,7 +4347,7 @@ export const dreamMachinesDreamkey: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/VhvclQef/dream-machines-dreamkey/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/dream-machines/dreamkey",
+  product_url: "https://www.amazon.com/s?k=Dream+Machines+DreamKey&tag=gearmatch-20",
   recommendation_tags: ["gaming"],
   data_quality: {
     data_confidence: "high",
@@ -4416,7 +4416,7 @@ export const dropEntr: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/f6zDIPjy/drop-entr/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/drop/entr",
+  product_url: "https://www.amazon.com/s?k=Drop+ENTR&tag=gearmatch-20",
   recommendation_tags: [],
   data_quality: {
     data_confidence: "high",
@@ -4485,7 +4485,7 @@ export const logitechErgoK860: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/297MKpuk/logitech-ergo-k860/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/logitech/ergo-k860",
+  product_url: "https://www.amazon.com/s?k=Logitech+ERGO+K860&tag=gearmatch-20",
   recommendation_tags: ["wireless"],
   data_quality: {
     data_confidence: "high",
@@ -4554,7 +4554,7 @@ export const matiasErgoPro: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [150, 220],
   image_url: "https://i.rtings.com/assets/products/6qsssY40/matias-ergo-pro/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/matias/ergo-pro",
+  product_url: "https://www.amazon.com/s?k=Matias+Ergo+Pro&tag=gearmatch-20",
   recommendation_tags: ["productivity"],
   data_quality: {
     data_confidence: "high",
@@ -4623,7 +4623,7 @@ export const mountainEverestMax: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [150, 220],
   image_url: "https://i.rtings.com/assets/products/BhTcpNGO/mountain-everest-max/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/mountain/everest-max",
+  product_url: "https://www.amazon.com/s?k=Mountain+Everest+Max&tag=gearmatch-20",
   recommendation_tags: ["hot_swappable"],
   data_quality: {
     data_confidence: "high",
@@ -4692,7 +4692,7 @@ export const ergodoxEz: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/Xy4ym5mM/ergodox-ez/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/ergodox/ez",
+  product_url: "https://www.amazon.com/s?k=ErgoDox+EZ&tag=gearmatch-20",
   recommendation_tags: ["hot_swappable"],
   data_quality: {
     data_confidence: "high",
@@ -4761,7 +4761,7 @@ export const iqunixEz60Ez63: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/FyEOc61l/iqunix-ez60-ez63/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/iqunix/ez60-ez63",
+  product_url: "https://www.amazon.com/s?k=IQUNIX+EZ60%2FEZ63&tag=gearmatch-20",
   recommendation_tags: ["rapid_trigger","gaming","hot_swappable"],
   data_quality: {
     data_confidence: "high",
@@ -4830,7 +4830,7 @@ export const iqunixEz80Ez75: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/MX4AHW2m/iqunix-ez80/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/iqunix/ez80",
+  product_url: "https://www.amazon.com/s?k=IQUNIX+EZ80%2FEZ75&tag=gearmatch-20",
   recommendation_tags: ["rapid_trigger","gaming","hot_swappable"],
   data_quality: {
     data_confidence: "high",
@@ -4899,7 +4899,7 @@ export const iqunixF97: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/cOlbbfWi/iqunix-f97/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/iqunix/f97",
+  product_url: "https://www.amazon.com/s?k=IQUNIX+F97&tag=gearmatch-20",
   recommendation_tags: ["wireless","hot_swappable"],
   data_quality: {
     data_confidence: "high",
@@ -4968,7 +4968,7 @@ export const aulaF99F75: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [30, 60],
   image_url: "https://i.rtings.com/assets/products/lSTk40bJ/aula-f99-f75/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/aula/f99-f75",
+  product_url: "https://www.amazon.com/s?k=AULA+F99%2FF75&tag=gearmatch-20",
   recommendation_tags: ["wireless","hot_swappable"],
   data_quality: {
     data_confidence: "high",
@@ -5037,7 +5037,7 @@ export const leopoldFc900r: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/j0zSybOx/leopold-fc900r/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/leopold/fc900r",
+  product_url: "https://www.amazon.com/s?k=Leopold+FC900R&tag=gearmatch-20",
   recommendation_tags: [],
   data_quality: {
     data_confidence: "high",
@@ -5106,7 +5106,7 @@ export const nuphyField75: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/urA9sJhz/nuphy-field75/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/nuphy/field75",
+  product_url: "https://www.amazon.com/s?k=NuPhy+Field75&tag=gearmatch-20",
   recommendation_tags: ["wireless","gaming","hot_swappable"],
   data_quality: {
     data_confidence: "high",
@@ -5175,7 +5175,7 @@ export const logitechFlipFolio: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/tSs2QoeJ/logitech-flip-folio/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/logitech/flip-folio",
+  product_url: "https://www.amazon.com/s?k=Logitech+Flip+Folio&tag=gearmatch-20",
   recommendation_tags: ["wireless"],
   data_quality: {
     data_confidence: "high",
@@ -5244,7 +5244,7 @@ export const lofreeFlow2: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [30, 60],
   image_url: "https://i.rtings.com/assets/products/WOhGiqWZ/lofree-flow-2/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/lofree/flow-2-mechanical",
+  product_url: "https://www.amazon.com/s?k=Lofree+Flow+2&tag=gearmatch-20",
   recommendation_tags: ["wireless","hot_swappable"],
   data_quality: {
     data_confidence: "high",
@@ -5313,7 +5313,7 @@ export const lofreeFlow84Flow100: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [30, 60],
   image_url: "https://i.rtings.com/assets/products/mTRAfcwX/lofree-flow84-flow100/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/lofree/flow84-flow100",
+  product_url: "https://www.amazon.com/s?k=Lofree+Flow84%2FFlow100&tag=gearmatch-20",
   recommendation_tags: ["wireless","hot_swappable"],
   data_quality: {
     data_confidence: "high",
@@ -5382,7 +5382,7 @@ export const logitechFolioTouch: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/enFsqQOP/logitech-folio-touch/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/logitech/folio-touch",
+  product_url: "https://www.amazon.com/s?k=Logitech+Folio+Touch&tag=gearmatch-20",
   recommendation_tags: [],
   data_quality: {
     data_confidence: "high",
@@ -5451,7 +5451,7 @@ export const kinesisFreestyleEdgeRgb: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/trvWbdni/kinesis-freestyle-edge-rgb/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/kinesis/freestyle-edge-rgb",
+  product_url: "https://www.amazon.com/s?k=Kinesis+Freestyle+Edge+RGB&tag=gearmatch-20",
   recommendation_tags: [],
   data_quality: {
     data_confidence: "high",
@@ -5520,7 +5520,7 @@ export const kinesisFreestylePro: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [150, 220],
   image_url: "https://i.rtings.com/assets/products/QKPpYKmd/kinesis-freestyle-pro/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/kinesis/freestyle-pro",
+  product_url: "https://www.amazon.com/s?k=Kinesis+Freestyle+Pro&tag=gearmatch-20",
   recommendation_tags: [],
   data_quality: {
     data_confidence: "high",
@@ -5589,7 +5589,7 @@ export const nzxtFunction: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/HdD3dChY/nzxt-function/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/nzxt/function",
+  product_url: "https://www.amazon.com/s?k=NZXT+Function&tag=gearmatch-20",
   recommendation_tags: ["gaming","hot_swappable"],
   data_quality: {
     data_confidence: "high",
@@ -5658,7 +5658,7 @@ export const logitechGProKeyboard: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [150, 220],
   image_url: "https://i.rtings.com/assets/products/yPRXGbwb/logitech-g-pro-keyboard/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/logitech/g-pro-keyboard",
+  product_url: "https://www.amazon.com/s?k=Logitech+G+PRO+Keyboard&tag=gearmatch-20",
   recommendation_tags: [],
   data_quality: {
     data_confidence: "high",
@@ -5727,7 +5727,7 @@ export const logitechGProX60: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [150, 220],
   image_url: "https://i.rtings.com/assets/products/eNJbqiaW/logitech-g-pro-x-60/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/logitech/g-pro-x-60",
+  product_url: "https://www.amazon.com/s?k=Logitech+G+PRO+X+60&tag=gearmatch-20",
   recommendation_tags: ["wireless","gaming"],
   data_quality: {
     data_confidence: "high",
@@ -5796,7 +5796,7 @@ export const logitechGProXKeyboard: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [150, 220],
   image_url: "https://i.rtings.com/assets/products/L8en5jwj/logitech-g-pro-x-keyboard/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/logitech/g-pro-x-keyboard",
+  product_url: "https://www.amazon.com/s?k=Logitech+G+PRO+X+Keyboard&tag=gearmatch-20",
   recommendation_tags: ["hot_swappable"],
   data_quality: {
     data_confidence: "high",
@@ -5865,7 +5865,7 @@ export const logitechGProXTklRapid: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [150, 220],
   image_url: "https://i.rtings.com/assets/products/2BRBNPYk/logitech-g-pro-x-tkl-rapid/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/logitech/g-pro-x-tkl-rapid",
+  product_url: "https://www.amazon.com/s?k=Logitech+G+PRO+X+TKL+RAPID&tag=gearmatch-20",
   recommendation_tags: ["rapid_trigger","gaming","hot_swappable"],
   data_quality: {
     data_confidence: "high",
@@ -5934,7 +5934,7 @@ export const logitechGProXTkl: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [150, 220],
   image_url: "https://i.rtings.com/assets/products/9myqrW6B/logitech-g-pro-x-tkl/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/logitech/g-pro-x-tkl",
+  product_url: "https://www.amazon.com/s?k=Logitech+G+PRO+X+TKL&tag=gearmatch-20",
   recommendation_tags: ["wireless"],
   data_quality: {
     data_confidence: "high",
@@ -6003,7 +6003,7 @@ export const logitechG213Prodigy: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [150, 220],
   image_url: "https://i.rtings.com/assets/products/KeQ4JjJs/logitech-g213-prodigy/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/logitech/g213-prodigy",
+  product_url: "https://www.amazon.com/s?k=Logitech+G213+Prodigy&tag=gearmatch-20",
   recommendation_tags: [],
   data_quality: {
     data_confidence: "high",
@@ -6072,7 +6072,7 @@ export const logitechG413Se: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [30, 60],
   image_url: "https://i.rtings.com/assets/products/9wHtJeC1/logitech-g413-se/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/logitech/g413-se",
+  product_url: "https://www.amazon.com/s?k=Logitech+G413+SE&tag=gearmatch-20",
   recommendation_tags: [],
   data_quality: {
     data_confidence: "high",
@@ -6141,7 +6141,7 @@ export const logitechG413: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [30, 60],
   image_url: "https://i.rtings.com/assets/products/Qm7QP4YJ/logitech-g413/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/logitech/g413",
+  product_url: "https://www.amazon.com/s?k=Logitech+G413&tag=gearmatch-20",
   recommendation_tags: ["gaming"],
   data_quality: {
     data_confidence: "high",
@@ -6210,7 +6210,7 @@ export const logitechG512SpecialEdition: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/LMvU98fU/logitech-g512-special-edition/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/logitech/g512-special-edition",
+  product_url: "https://www.amazon.com/s?k=Logitech+G512+Special+Edition&tag=gearmatch-20",
   recommendation_tags: ["gaming"],
   data_quality: {
     data_confidence: "high",
@@ -6279,7 +6279,7 @@ export const logitechG513: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/db8TmOZe/logitech-g513/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/logitech/g513",
+  product_url: "https://www.amazon.com/s?k=Logitech+G513&tag=gearmatch-20",
   recommendation_tags: ["gaming"],
   data_quality: {
     data_confidence: "high",
@@ -6348,7 +6348,7 @@ export const logitechG515LightspeedTkl: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/4mP6l0oN/logitech-g515-lightspeed-tkl/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/logitech/g515-lightspeed-tkl",
+  product_url: "https://www.amazon.com/s?k=Logitech+G515+LIGHTSPEED+TKL&tag=gearmatch-20",
   recommendation_tags: ["wireless","gaming"],
   data_quality: {
     data_confidence: "high",
@@ -6417,7 +6417,7 @@ export const logitechG515RapidTkl: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/HjtbV3YS/logitech-g515-rapid-tkl-magnetic/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/logitech/g515-rapid-tkl-magnetic",
+  product_url: "https://www.amazon.com/s?k=Logitech+G515+RAPID+TKL&tag=gearmatch-20",
   recommendation_tags: ["gaming"],
   data_quality: {
     data_confidence: "high",
@@ -6486,7 +6486,7 @@ export const logitechG613Lightspeed: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/TMENSsDj/logitech-g613-lightspeed/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/logitech/g613-lightspeed",
+  product_url: "https://www.amazon.com/s?k=Logitech+G613+LIGHTSPEED&tag=gearmatch-20",
   recommendation_tags: ["wireless"],
   data_quality: {
     data_confidence: "high",
@@ -6555,7 +6555,7 @@ export const logitechG715: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/QZF3exYl/logitech-g715/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/logitech/g715",
+  product_url: "https://www.amazon.com/s?k=Logitech+G715&tag=gearmatch-20",
   recommendation_tags: ["wireless","gaming"],
   data_quality: {
     data_confidence: "high",
@@ -6624,7 +6624,7 @@ export const logitechG815LightsyncRgb: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/BAcbM4T9/logitech-g815-lightsync-rgb/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/logitech/g815-lightsync-rgb",
+  product_url: "https://www.amazon.com/s?k=Logitech+G815+LIGHTSYNC+RGB&tag=gearmatch-20",
   recommendation_tags: ["gaming"],
   data_quality: {
     data_confidence: "high",
@@ -6693,7 +6693,7 @@ export const logitechG910OrionSpark: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/ezqVWhLY/logitech-g910-orion-spark/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/logitech/g910-orion-spark",
+  product_url: "https://www.amazon.com/s?k=Logitech+G910+Orion+Spark&tag=gearmatch-20",
   recommendation_tags: ["gaming"],
   data_quality: {
     data_confidence: "high",
@@ -6762,7 +6762,7 @@ export const logitechG915Lightspeed: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/YYXgfsoo/logitech-g915-lightspeed/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/logitech/g915-lightspeed",
+  product_url: "https://www.amazon.com/s?k=Logitech+G915+LIGHTSPEED&tag=gearmatch-20",
   recommendation_tags: ["wireless","gaming"],
   data_quality: {
     data_confidence: "high",
@@ -6831,7 +6831,7 @@ export const logitechG915XLightspeed: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/xiNDwnf8/logitech-g915-x-lightspeed/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/logitech/g915-x-lightspeed",
+  product_url: "https://www.amazon.com/s?k=Logitech+G915+X+LIGHTSPEED&tag=gearmatch-20",
   recommendation_tags: ["wireless","gaming"],
   data_quality: {
     data_confidence: "high",
@@ -6900,7 +6900,7 @@ export const logitechG915X: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/0G5hh7pZ/logitech-g915-x/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/logitech/g915-x",
+  product_url: "https://www.amazon.com/s?k=Logitech+G915+X&tag=gearmatch-20",
   recommendation_tags: ["gaming"],
   data_quality: {
     data_confidence: "high",
@@ -6969,7 +6969,7 @@ export const nuphyGem80: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/pkWezlhr/nuphy-gem80/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/nuphy/gem80",
+  product_url: "https://www.amazon.com/s?k=NuPhy+Gem80&tag=gearmatch-20",
   recommendation_tags: ["wireless","hot_swappable"],
   data_quality: {
     data_confidence: "high",
@@ -7038,7 +7038,7 @@ export const moergoGlove80: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/PycI4HCt/moergo-glove80/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/moergo/glove80",
+  product_url: "https://www.amazon.com/s?k=MoErgo+Glove80&tag=gearmatch-20",
   recommendation_tags: ["wireless"],
   data_quality: {
     data_confidence: "high",
@@ -7107,7 +7107,7 @@ export const gloriousGmmk2: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/bX7P3TZO/glorious-gmmk-2/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/glorious/gmmk-2",
+  product_url: "https://www.amazon.com/s?k=GLORIOUS+GMMK+2&tag=gearmatch-20",
   recommendation_tags: ["hot_swappable"],
   data_quality: {
     data_confidence: "high",
@@ -7176,7 +7176,7 @@ export const gloriousGmmk3ProHe: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [150, 220],
   image_url: "https://i.rtings.com/assets/products/7EAuyQQS/glorious-gmmk-3-pro-he/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/glorious/gmmk-3-pro-he",
+  product_url: "https://www.amazon.com/s?k=GLORIOUS+GMMK+3+PRO+HE&tag=gearmatch-20",
   recommendation_tags: ["wireless","gaming","hot_swappable"],
   data_quality: {
     data_confidence: "high",
@@ -7245,7 +7245,7 @@ export const gloriousGmmk3: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [30, 60],
   image_url: "https://i.rtings.com/assets/products/SBJ3xUe4/glorious-gmmk-3/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/glorious/gmmk-3",
+  product_url: "https://www.amazon.com/s?k=GLORIOUS+GMMK+3&tag=gearmatch-20",
   recommendation_tags: ["hot_swappable"],
   data_quality: {
     data_confidence: "high",
@@ -7314,7 +7314,7 @@ export const gloriousGmmkPro: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [150, 220],
   image_url: "https://i.rtings.com/assets/products/233EqdKI/glorious-gmmk-pro/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/glorious/gmmk-pro",
+  product_url: "https://www.amazon.com/s?k=GLORIOUS+GMMK+PRO&tag=gearmatch-20",
   recommendation_tags: ["hot_swappable"],
   data_quality: {
     data_confidence: "high",
@@ -7383,7 +7383,7 @@ export const gloriousGmmk: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [30, 60],
   image_url: "https://i.rtings.com/assets/products/WqjwtJoL/glorious-gmmk/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/glorious/gmmk",
+  product_url: "https://www.amazon.com/s?k=GLORIOUS+GMMK&tag=gearmatch-20",
   recommendation_tags: ["hot_swappable"],
   data_quality: {
     data_confidence: "high",
@@ -7452,7 +7452,7 @@ export const realforceGx1: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/We9VgdcD/realforce-gx1/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/realforce/gx1",
+  product_url: "https://www.amazon.com/s?k=REALFORCE+GX1&tag=gearmatch-20",
   recommendation_tags: [],
   data_quality: {
     data_confidence: "high",
@@ -7521,7 +7521,7 @@ export const nuphyHalo65He: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/avT02nzk/nuphy-halo65-he/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/nuphy/halo65-he",
+  product_url: "https://www.amazon.com/s?k=NuPhy+Halo65+HE&tag=gearmatch-20",
   recommendation_tags: ["rapid_trigger","gaming","hot_swappable"],
   data_quality: {
     data_confidence: "high",
@@ -7590,7 +7590,7 @@ export const nuphyHalo96Halo65Halo75: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/bhfzbJW3/nuphy-halo96-halo65-halo75/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/nuphy/halo96-halo65-halo75",
+  product_url: "https://www.amazon.com/s?k=NuPhy+Halo96+%5BHalo65%2C+Halo75%5D&tag=gearmatch-20",
   recommendation_tags: ["wireless","hot_swappable"],
   data_quality: {
     data_confidence: "high",
@@ -7659,7 +7659,7 @@ export const nuphyHalo96Halo75V2: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/jhnS6Om8/nuphy-halo96-halo75-v2/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/nuphy/halo96-halo75-v2",
+  product_url: "https://www.amazon.com/s?k=NuPhy+Halo96%2FHalo75+V2&tag=gearmatch-20",
   recommendation_tags: ["wireless","hot_swappable"],
   data_quality: {
     data_confidence: "high",
@@ -7728,7 +7728,7 @@ export const qwertykeysHex80: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/1Lwi9Ey1/qwertykeys-hex80/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/qwertykeys/hex80-magnetic",
+  product_url: "https://www.amazon.com/s?k=Qwertykeys+Hex80&tag=gearmatch-20",
   recommendation_tags: ["rapid_trigger","gaming","hot_swappable"],
   data_quality: {
     data_confidence: "high",
@@ -7797,7 +7797,7 @@ export const razerHuntsmanElite: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/59GmJGpL/razer-huntsman-elite/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/razer/huntsman-elite",
+  product_url: "https://www.amazon.com/s?k=Razer+Huntsman+Elite&tag=gearmatch-20",
   recommendation_tags: ["gaming"],
   data_quality: {
     data_confidence: "high",
@@ -7866,7 +7866,7 @@ export const razerHuntsmanMiniAnalog: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/hLZOqI3I/razer-huntsman-mini-analog/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/razer/huntsman-mini-analog",
+  product_url: "https://www.amazon.com/s?k=Razer+Huntsman+Mini+Analog&tag=gearmatch-20",
   recommendation_tags: ["gaming"],
   data_quality: {
     data_confidence: "high",
@@ -7935,7 +7935,7 @@ export const razerHuntsmanMini: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/x1GdylGN/razer-huntsman-mini/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/razer/huntsman-mini",
+  product_url: "https://www.amazon.com/s?k=Razer+Huntsman+Mini&tag=gearmatch-20",
   recommendation_tags: ["gaming"],
   data_quality: {
     data_confidence: "high",
@@ -8004,7 +8004,7 @@ export const razerHuntsmanTournamentEdition: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/pCyctyTD/razer-huntsman-tournament-edition/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/razer/huntsman-tournament-edition",
+  product_url: "https://www.amazon.com/s?k=Razer+Huntsman+Tournament+Edition&tag=gearmatch-20",
   recommendation_tags: ["gaming"],
   data_quality: {
     data_confidence: "high",
@@ -8073,7 +8073,7 @@ export const razerHuntsmanV2Analog: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/6TqAEZFv/razer-huntsman-v2-analog/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/razer/huntsman-v2-analog",
+  product_url: "https://www.amazon.com/s?k=Razer+Huntsman+V2+Analog&tag=gearmatch-20",
   recommendation_tags: ["gaming"],
   data_quality: {
     data_confidence: "high",
@@ -8142,7 +8142,7 @@ export const razerHuntsmanV2: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/hOXKtxra/razer-huntsman-v2/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/razer/huntsman-v2",
+  product_url: "https://www.amazon.com/s?k=Razer+Huntsman+V2&tag=gearmatch-20",
   recommendation_tags: ["gaming"],
   data_quality: {
     data_confidence: "high",
@@ -8211,7 +8211,7 @@ export const razerHuntsmanV3Pro8khz: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [150, 220],
   image_url: "https://i.rtings.com/assets/products/yZRTcQyb/razer-huntsman-v3-pro-8khz/in-test-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/razer/huntsman-v3-pro-8khz",
+  product_url: "https://www.amazon.com/s?k=Razer+Huntsman+V3+Pro+8KHz&tag=gearmatch-20",
   recommendation_tags: [],
   data_quality: {
     data_confidence: "high",
@@ -8280,7 +8280,7 @@ export const razerHuntsmanV3ProMiniTkl: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [150, 220],
   image_url: "https://i.rtings.com/assets/products/N8ekVbeI/razer-huntsman-v3-pro-mini-tkl/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/razer/huntsman-v3-pro-mini-tkl",
+  product_url: "https://www.amazon.com/s?k=Razer+Huntsman+V3+Pro+%5BMini%2C+TKL%5D&tag=gearmatch-20",
   recommendation_tags: ["gaming"],
   data_quality: {
     data_confidence: "high",
@@ -8349,7 +8349,7 @@ export const razerHuntsman: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/WAOeVNZJ/razer-huntsman/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/razer/huntsman",
+  product_url: "https://www.amazon.com/s?k=Razer+Huntsman&tag=gearmatch-20",
   recommendation_tags: ["gaming"],
   data_quality: {
     data_confidence: "high",
@@ -8418,7 +8418,7 @@ export const sonyInzoneKbdH75: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/gH7yPgTY/sony-inzone-kbd-h75/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/sony/inzone-kbd-h75",
+  product_url: "https://www.amazon.com/s?k=Sony+INZONE+KBD-H75&tag=gearmatch-20",
   recommendation_tags: ["gaming","hot_swappable"],
   data_quality: {
     data_confidence: "high",
@@ -8487,7 +8487,7 @@ export const razerJoro: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/2lv68VZs/razer-joro/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/razer/joro",
+  product_url: "https://www.amazon.com/s?k=Razer+Joro&tag=gearmatch-20",
   recommendation_tags: ["wireless"],
   data_quality: {
     data_confidence: "high",
@@ -8556,7 +8556,7 @@ export const keychronK1: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/uLDNV18x/keychron-k1/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/keychron/k1",
+  product_url: "https://www.amazon.com/s?k=Keychron+K1&tag=gearmatch-20",
   recommendation_tags: ["wireless"],
   data_quality: {
     data_confidence: "high",
@@ -8625,7 +8625,7 @@ export const keychronK10: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/KXyZv5tD/keychron-k10/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/keychron/k10",
+  product_url: "https://www.amazon.com/s?k=Keychron+K10&tag=gearmatch-20",
   recommendation_tags: ["wireless"],
   data_quality: {
     data_confidence: "high",
@@ -8694,7 +8694,7 @@ export const corsairK100Air: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/b5GWp8Z4/corsair-k100-air/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/corsair/k100-air",
+  product_url: "https://www.amazon.com/s?k=Corsair+K100+AIR&tag=gearmatch-20",
   recommendation_tags: ["wireless","gaming"],
   data_quality: {
     data_confidence: "high",
@@ -8763,7 +8763,7 @@ export const corsairK100Rgb: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/jKPIu5Wo/corsair-k100-rgb/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/corsair/k100-rgb",
+  product_url: "https://www.amazon.com/s?k=Corsair+K100+RGB&tag=gearmatch-20",
   recommendation_tags: ["gaming"],
   data_quality: {
     data_confidence: "high",
@@ -8832,7 +8832,7 @@ export const keychronK12: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/8sstzkK1/keychron-k12/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/keychron/k12",
+  product_url: "https://www.amazon.com/s?k=Keychron+K12&tag=gearmatch-20",
   recommendation_tags: ["wireless"],
   data_quality: {
     data_confidence: "high",
@@ -8901,7 +8901,7 @@ export const keychronK14: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/5MpHsmeU/keychron-k14/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/keychron/k14",
+  product_url: "https://www.amazon.com/s?k=Keychron+K14&tag=gearmatch-20",
   recommendation_tags: ["wireless"],
   data_quality: {
     data_confidence: "high",
@@ -8970,7 +8970,7 @@ export const keychronK2HeK4HeK8HeEtc: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [30, 60],
   image_url: "https://i.rtings.com/assets/products/M5QM2eTk/keychron-k2-he/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/keychron/k2-he",
+  product_url: "https://www.amazon.com/s?k=Keychron+K2+HE+%5BK4+HE%2C+K8+HE%2C+etc.%5D&tag=gearmatch-20",
   recommendation_tags: ["rapid_trigger","wireless","gaming","hot_swappable"],
   data_quality: {
     data_confidence: "high",
@@ -9039,7 +9039,7 @@ export const keychronK2Version2: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/wZBvFZvM/keychron-k2-version-2/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/keychron/k2-version-2",
+  product_url: "https://www.amazon.com/s?k=Keychron+K2+(Version+2)&tag=gearmatch-20",
   recommendation_tags: ["wireless"],
   data_quality: {
     data_confidence: "high",
@@ -9108,7 +9108,7 @@ export const npetK20: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [30, 60],
   image_url: "https://i.rtings.com/assets/products/PU2t7Qw2/npet-k20/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/npet/k20",
+  product_url: "https://www.amazon.com/s?k=NPET+K20&tag=gearmatch-20",
   recommendation_tags: [],
   data_quality: {
     data_confidence: "high",
@@ -9177,7 +9177,7 @@ export const keychronK3Version2: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/MSgrVKR1/keychron-k3-version-2/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/keychron/k3-version-2",
+  product_url: "https://www.amazon.com/s?k=Keychron+K3+(Version+2)&tag=gearmatch-20",
   recommendation_tags: ["wireless"],
   data_quality: {
     data_confidence: "high",
@@ -9246,7 +9246,7 @@ export const keychronK3: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/tIQHM9R1/keychron-k3/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/keychron/k3",
+  product_url: "https://www.amazon.com/s?k=Keychron+K3&tag=gearmatch-20",
   recommendation_tags: ["wireless"],
   data_quality: {
     data_confidence: "high",
@@ -9315,7 +9315,7 @@ export const logitechK350: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [30, 60],
   image_url: "https://i.rtings.com/assets/products/mbIJAO3h/logitech-k350/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/logitech/k350",
+  product_url: "https://www.amazon.com/s?k=Logitech+K350&tag=gearmatch-20",
   recommendation_tags: ["wireless"],
   data_quality: {
     data_confidence: "high",
@@ -9384,7 +9384,7 @@ export const logitechK360: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/6jYEBU4D/logitech-k360/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/logitech/k360",
+  product_url: "https://www.amazon.com/s?k=Logitech+K360&tag=gearmatch-20",
   recommendation_tags: ["wireless"],
   data_quality: {
     data_confidence: "high",
@@ -9453,7 +9453,7 @@ export const logitechK380: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/UpbK7qDu/logitech-k380/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/logitech/k380",
+  product_url: "https://www.amazon.com/s?k=Logitech+K380&tag=gearmatch-20",
   recommendation_tags: ["wireless"],
   data_quality: {
     data_confidence: "high",
@@ -9522,7 +9522,7 @@ export const keychronK4: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/GNJQkP78/keychron-k4/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/keychron/k4",
+  product_url: "https://www.amazon.com/s?k=Keychron+K4&tag=gearmatch-20",
   recommendation_tags: ["wireless"],
   data_quality: {
     data_confidence: "high",
@@ -9591,7 +9591,7 @@ export const logitechK400Plus: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [30, 60],
   image_url: "https://i.rtings.com/assets/products/2UlIt6ED/logitech-k400-plus/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/logitech/k400-plus",
+  product_url: "https://www.amazon.com/s?k=Logitech+K400+Plus&tag=gearmatch-20",
   recommendation_tags: ["wireless"],
   data_quality: {
     data_confidence: "high",
@@ -9660,7 +9660,7 @@ export const logitechK480: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/GOwDkUBa/logitech-k480/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/logitech/k480",
+  product_url: "https://www.amazon.com/s?k=Logitech+K480&tag=gearmatch-20",
   recommendation_tags: ["wireless"],
   data_quality: {
     data_confidence: "high",
@@ -9729,7 +9729,7 @@ export const amazonbasicsK4r: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/c2S9FGaD/amazonbasics-k4r/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/amazonbasics/k4r",
+  product_url: "https://www.amazon.com/s?k=AmazonBasics+K4R&tag=gearmatch-20",
   recommendation_tags: ["wireless"],
   data_quality: {
     data_confidence: "high",
@@ -9798,7 +9798,7 @@ export const keychronK5MaxK1MaxK3MaxEtc: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [150, 220],
   image_url: "https://i.rtings.com/assets/products/kzTRGbUy/keychron-k5-max-k1-max-k3-max-etc/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/keychron/k5-max-k1-max-k3-max-etc",
+  product_url: "https://www.amazon.com/s?k=Keychron+K5+Max+%5BK1+Max%2C+K3+Max%2C+etc.%5D&tag=gearmatch-20",
   recommendation_tags: ["wireless"],
   data_quality: {
     data_confidence: "high",
@@ -9867,7 +9867,7 @@ export const corsairK55RgbProXt: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [30, 60],
   image_url: "https://i.rtings.com/assets/products/3q3v3F8Z/corsair-k55-rgb-pro-xt/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/corsair/k55-rgb-pro-xt",
+  product_url: "https://www.amazon.com/s?k=Corsair+K55+RGB+PRO+XT&tag=gearmatch-20",
   recommendation_tags: [],
   data_quality: {
     data_confidence: "high",
@@ -9936,7 +9936,7 @@ export const corsairK55RgbPro: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [30, 60],
   image_url: "https://i.rtings.com/assets/products/oSvuoJZQ/corsair-k55-rgb-pro/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/corsair/k55-rgb-pro",
+  product_url: "https://www.amazon.com/s?k=Corsair+K55+RGB+PRO&tag=gearmatch-20",
   recommendation_tags: [],
   data_quality: {
     data_confidence: "high",
@@ -10005,7 +10005,7 @@ export const corsairK55Rgb: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/FxSgLNGK/corsair-k55-rgb/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/corsair/k55-rgb",
+  product_url: "https://www.amazon.com/s?k=Corsair+K55+RGB&tag=gearmatch-20",
   recommendation_tags: [],
   data_quality: {
     data_confidence: "high",
@@ -10074,7 +10074,7 @@ export const redragonK552KumaraRgb: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [30, 60],
   image_url: "https://i.rtings.com/assets/products/uzBgHoio/redragon-k552-kumara-rgb/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/redragon/k552-kumara-rgb",
+  product_url: "https://www.amazon.com/s?k=Redragon+K552+KUMARA+RGB&tag=gearmatch-20",
   recommendation_tags: ["hot_swappable"],
   data_quality: {
     data_confidence: "high",
@@ -10143,7 +10143,7 @@ export const corsairK57RgbWireless: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/IF62HW56/corsair-k57-rgb-wireless/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/corsair/k57-rgb-wireless",
+  product_url: "https://www.amazon.com/s?k=Corsair+K57+RGB+WIRELESS&tag=gearmatch-20",
   recommendation_tags: ["wireless"],
   data_quality: {
     data_confidence: "high",
@@ -10212,7 +10212,7 @@ export const redragonK582SuraraRgb: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [30, 60],
   image_url: "https://i.rtings.com/assets/products/bc3jSAeO/redragon-k582-surara-rgb/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/redragon/k582-surara-rgb",
+  product_url: "https://www.amazon.com/s?k=Redragon+K582+SURARA+RGB&tag=gearmatch-20",
   recommendation_tags: ["gaming"],
   data_quality: {
     data_confidence: "high",
@@ -10281,7 +10281,7 @@ export const logitechK585: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/3lxRFltR/logitech-k585/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/logitech/k585",
+  product_url: "https://www.amazon.com/s?k=Logitech+K585&tag=gearmatch-20",
   recommendation_tags: ["wireless"],
   data_quality: {
     data_confidence: "high",
@@ -10350,7 +10350,7 @@ export const keychronK6: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/tQ2RTucR/keychron-k6/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/keychron/k6",
+  product_url: "https://www.amazon.com/s?k=Keychron+K6&tag=gearmatch-20",
   recommendation_tags: ["wireless"],
   data_quality: {
     data_confidence: "high",
@@ -10419,7 +10419,7 @@ export const corsairK60RgbProLowProfile: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [150, 220],
   image_url: "https://i.rtings.com/assets/products/i8DpfhxU/corsair-k60-rgb-pro-low-profile/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/corsair/k60-rgb-pro-low-profile",
+  product_url: "https://www.amazon.com/s?k=Corsair+K60+RGB+PRO+Low+Profile&tag=gearmatch-20",
   recommendation_tags: [],
   data_quality: {
     data_confidence: "high",
@@ -10488,7 +10488,7 @@ export const corsairK63Wireless: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/MGlNamui/corsair-k63-wireless/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/corsair/k63-wireless",
+  product_url: "https://www.amazon.com/s?k=Corsair+K63+Wireless&tag=gearmatch-20",
   recommendation_tags: ["wireless","gaming"],
   data_quality: {
     data_confidence: "high",
@@ -10557,7 +10557,7 @@ export const corsairK65LuxRgb: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/fNArbgUu/corsair-k65-lux-rgb/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/corsair/k65-lux-rgb",
+  product_url: "https://www.amazon.com/s?k=Corsair+K65+LUX+RGB&tag=gearmatch-20",
   recommendation_tags: ["gaming"],
   data_quality: {
     data_confidence: "high",
@@ -10626,7 +10626,7 @@ export const corsairK65PlusWireless: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/HUuQotaE/corsair-k65-plus-wireless/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/corsair/k65-plus-wireless",
+  product_url: "https://www.amazon.com/s?k=Corsair+K65+PLUS+WIRELESS&tag=gearmatch-20",
   recommendation_tags: ["wireless","hot_swappable"],
   data_quality: {
     data_confidence: "high",
@@ -10695,7 +10695,7 @@ export const corsairK65ProMini: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [150, 220],
   image_url: "https://i.rtings.com/assets/products/gYI87KP4/corsair-k65-pro-mini/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/corsair/k65-pro-mini",
+  product_url: "https://www.amazon.com/s?k=Corsair+K65+PRO+MINI&tag=gearmatch-20",
   recommendation_tags: ["gaming","hot_swappable"],
   data_quality: {
     data_confidence: "high",
@@ -10764,7 +10764,7 @@ export const corsairK65RgbMini: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/S8vsKrRf/corsair-k65-rgb-mini/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/corsair/k65-rgb-mini",
+  product_url: "https://www.amazon.com/s?k=Corsair+K65+RGB+MINI&tag=gearmatch-20",
   recommendation_tags: ["gaming"],
   data_quality: {
     data_confidence: "high",
@@ -10833,7 +10833,7 @@ export const corsairK68Rgb: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/GGXTfz7z/corsair-k68-rgb/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/corsair/k68-rgb",
+  product_url: "https://www.amazon.com/s?k=Corsair+K68+RGB&tag=gearmatch-20",
   recommendation_tags: ["gaming"],
   data_quality: {
     data_confidence: "high",
@@ -10902,7 +10902,7 @@ export const keychronK7: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/dAfA08xH/keychron-k7/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/keychron/k7",
+  product_url: "https://www.amazon.com/s?k=Keychron+K7&tag=gearmatch-20",
   recommendation_tags: ["wireless"],
   data_quality: {
     data_confidence: "high",
@@ -10971,7 +10971,7 @@ export const corsairK70Core: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [30, 60],
   image_url: "https://i.rtings.com/assets/products/wm4hmyRx/corsair-k70-core/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/corsair/k70-core",
+  product_url: "https://www.amazon.com/s?k=Corsair+K70+CORE&tag=gearmatch-20",
   recommendation_tags: ["gaming"],
   data_quality: {
     data_confidence: "high",
@@ -11040,7 +11040,7 @@ export const corsairK70Max: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [150, 220],
   image_url: "https://i.rtings.com/assets/products/qjWMcTrm/corsair-k70-max/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/corsair/k70-max",
+  product_url: "https://www.amazon.com/s?k=Corsair+K70+MAX&tag=gearmatch-20",
   recommendation_tags: ["gaming","hot_swappable"],
   data_quality: {
     data_confidence: "high",
@@ -11109,7 +11109,7 @@ export const corsairK70ProMiniWireless: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [150, 220],
   image_url: "https://i.rtings.com/assets/products/J9tXvE5l/corsair-k70-pro-mini-wireless/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/corsair/k70-pro-mini-wireless",
+  product_url: "https://www.amazon.com/s?k=Corsair+K70+PRO+MINI+WIRELESS&tag=gearmatch-20",
   recommendation_tags: ["wireless","gaming","hot_swappable"],
   data_quality: {
     data_confidence: "high",
@@ -11178,7 +11178,7 @@ export const corsairK70ProTkl: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [150, 220],
   image_url: "https://i.rtings.com/assets/products/Ogc9G1tS/corsair-k70-pro-tkl/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/corsair/k70-pro-tkl",
+  product_url: "https://www.amazon.com/s?k=Corsair+K70+PRO+TKL&tag=gearmatch-20",
   recommendation_tags: ["gaming","hot_swappable"],
   data_quality: {
     data_confidence: "high",
@@ -11247,7 +11247,7 @@ export const corsairK70Rapidfire: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/32mcsLA2/corsair-k70-rapidfire/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/corsair/k70-rapidfire",
+  product_url: "https://www.amazon.com/s?k=Corsair+K70+RAPIDFIRE&tag=gearmatch-20",
   recommendation_tags: ["gaming"],
   data_quality: {
     data_confidence: "high",
@@ -11316,7 +11316,7 @@ export const corsairK70RgbMk2: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/6uBekNnb/corsair-k70-rgb-mk-2/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/corsair/k70-rgb-mk-2",
+  product_url: "https://www.amazon.com/s?k=Corsair+K70+RGB+MK.2&tag=gearmatch-20",
   recommendation_tags: [],
   data_quality: {
     data_confidence: "high",
@@ -11385,7 +11385,7 @@ export const corsairK70RgbPro: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [150, 220],
   image_url: "https://i.rtings.com/assets/products/ZhMid36o/corsair-k70-rgb-pro/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/corsair/k70-rgb-pro",
+  product_url: "https://www.amazon.com/s?k=Corsair+K70+RGB+PRO&tag=gearmatch-20",
   recommendation_tags: ["gaming"],
   data_quality: {
     data_confidence: "high",
@@ -11454,7 +11454,7 @@ export const corsairK70RgbTkl: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/yHgZJIi6/corsair-k70-rgb-tkl/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/corsair/k70-rgb-tkl",
+  product_url: "https://www.amazon.com/s?k=Corsair+K70+RGB+TKL&tag=gearmatch-20",
   recommendation_tags: ["gaming"],
   data_quality: {
     data_confidence: "high",
@@ -11523,7 +11523,7 @@ export const logitechK780: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/XuDDq8CC/logitech-k780/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/logitech/k780",
+  product_url: "https://www.amazon.com/s?k=Logitech+K780&tag=gearmatch-20",
   recommendation_tags: ["wireless"],
   data_quality: {
     data_confidence: "high",
@@ -11592,7 +11592,7 @@ export const keychronK8MaxK2MaxK10MaxEtc: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [30, 60],
   image_url: "https://i.rtings.com/assets/products/FMA3BfKo/keychron-k8-max-k2-max-k10-max-etc/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/keychron/k8-max-k2-max-k10-max-etc",
+  product_url: "https://www.amazon.com/s?k=Keychron+K8+Max+%5BK2+Max%2C+K10+Max%2C+etc.%5D&tag=gearmatch-20",
   recommendation_tags: ["wireless","gaming","hot_swappable"],
   data_quality: {
     data_confidence: "high",
@@ -11661,7 +11661,7 @@ export const keychronK8ProK2ProK3ProK4ProEtc: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [150, 220],
   image_url: "https://i.rtings.com/assets/products/XSuXWhSC/keychron-k8-pro-k2-pro-k3-pro-k4-pro-etc/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/keychron/k8-pro-k2-pro-k3-pro-k4-pro-etc",
+  product_url: "https://www.amazon.com/s?k=Keychron+K8+Pro+%5BK2+Pro%2C+K3+Pro%2C+K4+Pro%2C+etc.%5D&tag=gearmatch-20",
   recommendation_tags: ["wireless","hot_swappable"],
   data_quality: {
     data_confidence: "high",
@@ -11730,7 +11730,7 @@ export const keychronK8: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/9wmNlcA9/keychron-k8/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/keychron/k8",
+  product_url: "https://www.amazon.com/s?k=Keychron+K8&tag=gearmatch-20",
   recommendation_tags: ["wireless"],
   data_quality: {
     data_confidence: "high",
@@ -11799,7 +11799,7 @@ export const logitechK800: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [30, 60],
   image_url: "https://i.rtings.com/assets/products/3Ktkf482/logitech-k800/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/logitech/k800",
+  product_url: "https://www.amazon.com/s?k=Logitech+K800&tag=gearmatch-20",
   recommendation_tags: ["wireless"],
   data_quality: {
     data_confidence: "high",
@@ -11868,7 +11868,7 @@ export const corsairK83Wireless: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [30, 60],
   image_url: "https://i.rtings.com/assets/products/jejV5EOQ/corsair-k83-wireless/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/corsair/k83-wireless",
+  product_url: "https://www.amazon.com/s?k=Corsair+K83+Wireless&tag=gearmatch-20",
   recommendation_tags: ["wireless"],
   data_quality: {
     data_confidence: "high",
@@ -11937,7 +11937,7 @@ export const logitechK840: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/a6s8ek39/logitech-k840/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/logitech/k840",
+  product_url: "https://www.amazon.com/s?k=Logitech+K840&tag=gearmatch-20",
   recommendation_tags: [],
   data_quality: {
     data_confidence: "high",
@@ -12006,7 +12006,7 @@ export const logitechK845: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [30, 60],
   image_url: "https://i.rtings.com/assets/products/X2up9ItF/logitech-k845/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/logitech/k845",
+  product_url: "https://www.amazon.com/s?k=Logitech+K845&tag=gearmatch-20",
   recommendation_tags: [],
   data_quality: {
     data_confidence: "high",
@@ -12075,7 +12075,7 @@ export const corsairK95Platinum: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/Y3Izdfyr/corsair-k95-platinum/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/corsair/k95-platinum",
+  product_url: "https://www.amazon.com/s?k=Corsair+K95+PLATINUM&tag=gearmatch-20",
   recommendation_tags: ["gaming"],
   data_quality: {
     data_confidence: "high",
@@ -12144,7 +12144,7 @@ export const corsairK95RgbPlatinumXt: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/ZjkU4u3N/corsair-k95-rgb-platinum-xt/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/corsair/k95-rgb-platinum-xt",
+  product_url: "https://www.amazon.com/s?k=Corsair+K95+RGB+PLATINUM+XT&tag=gearmatch-20",
   recommendation_tags: [],
   data_quality: {
     data_confidence: "high",
@@ -12213,7 +12213,7 @@ export const dellKb216: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/grP7vfOK/dell-kb216/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/dell/kb216",
+  product_url: "https://www.amazon.com/s?k=Dell+KB216&tag=gearmatch-20",
   recommendation_tags: [],
   data_quality: {
     data_confidence: "high",
@@ -12282,7 +12282,7 @@ export const logitechKeysToGo2: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/tXt7C9Iv/logitech-keys-to-go-2/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/logitech/keys-to-go-2",
+  product_url: "https://www.amazon.com/s?k=Logitech+Keys-To-Go+2&tag=gearmatch-20",
   recommendation_tags: ["wireless"],
   data_quality: {
     data_confidence: "high",
@@ -12351,7 +12351,7 @@ export const logitechKeysToGo: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/QCOpSBsP/logitech-keys-to-go/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/logitech/keys-to-go",
+  product_url: "https://www.amazon.com/s?k=Logitech+Keys-To-Go&tag=gearmatch-20",
   recommendation_tags: ["wireless"],
   data_quality: {
     data_confidence: "high",
@@ -12420,7 +12420,7 @@ export const nuphyKick75: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [30, 60],
   image_url: "https://i.rtings.com/assets/products/saHelEO3/nuphy-kick75/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/nuphy/kick75",
+  product_url: "https://www.amazon.com/s?k=NuPhy+Kick75&tag=gearmatch-20",
   recommendation_tags: ["wireless","hot_swappable"],
   data_quality: {
     data_confidence: "high",
@@ -12489,7 +12489,7 @@ export const aukeyKmG9: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [30, 60],
   image_url: "https://i.rtings.com/assets/products/u8ytev9R/aukey-km-g9/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/aukey/km-g9",
+  product_url: "https://www.amazon.com/s?k=AUKEY+KM-G9&tag=gearmatch-20",
   recommendation_tags: [],
   data_quality: {
     data_confidence: "high",
@@ -12558,7 +12558,7 @@ export const system76Launch: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/JloeM7Nf/system76-launch/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/system76/launch",
+  product_url: "https://www.amazon.com/s?k=System76+Launch&tag=gearmatch-20",
   recommendation_tags: [],
   data_quality: {
     data_confidence: "high",
@@ -12627,7 +12627,7 @@ export const keychronLemokeyL3: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/d3gX6OlY/keychron-lemokey-l3/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/keychron/lemokey-l3",
+  product_url: "https://www.amazon.com/s?k=Keychron+Lemokey+L3&tag=gearmatch-20",
   recommendation_tags: ["wireless","gaming","hot_swappable"],
   data_quality: {
     data_confidence: "high",
@@ -12696,7 +12696,7 @@ export const appleMagicKeyboard2017: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [100, 200],
   image_url: "https://i.rtings.com/assets/products/pKsmUrxc/apple-magic-keyboard-2017/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/apple/magic-keyboard-2017",
+  product_url: "https://www.amazon.com/s?k=Apple+Magic+Keyboard+2017&tag=gearmatch-20",
   recommendation_tags: ["wireless"],
   data_quality: {
     data_confidence: "high",
@@ -12765,7 +12765,7 @@ export const appleMagicKeyboardForIpad2021: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [100, 200],
   image_url: "https://i.rtings.com/assets/products/APTAxTMn/apple-magic-keyboard-for-ipad-2021/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/apple/magic-keyboard-for-ipad-2021",
+  product_url: "https://www.amazon.com/s?k=Apple+Magic+Keyboard+for+iPad+2021&tag=gearmatch-20",
   recommendation_tags: [],
   data_quality: {
     data_confidence: "high",
@@ -12834,7 +12834,7 @@ export const appleMagicKeyboardForIpadProM4: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [150, 220],
   image_url: "https://i.rtings.com/assets/products/ePBBhqYw/apple-magic-keyboard-for-ipad-pro-m4/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/apple/magic-keyboard-for-ipad-pro-m4",
+  product_url: "https://www.amazon.com/s?k=Apple+Magic+Keyboard+for+iPad+Pro+(M4)&tag=gearmatch-20",
   recommendation_tags: [],
   data_quality: {
     data_confidence: "high",
@@ -12903,7 +12903,7 @@ export const appleMagicKeyboardWithTouchIdAndNumericKeypad: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [100, 200],
   image_url: "https://i.rtings.com/assets/products/7f1YORi4/apple-magic-keyboard-with-touch-id-and-numeric-keypad/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/apple/magic-keyboard-with-touch-id-and-numeric-keypad",
+  product_url: "https://www.amazon.com/s?k=Apple+Magic+Keyboard+with+Touch+ID+and+Numeric+Keypad&tag=gearmatch-20",
   recommendation_tags: ["wireless"],
   data_quality: {
     data_confidence: "high",
@@ -12972,7 +12972,7 @@ export const roccatMagma: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [30, 60],
   image_url: "https://i.rtings.com/assets/products/7ce7f6PF/roccat-magma/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/roccat/magma",
+  product_url: "https://www.amazon.com/s?k=ROCCAT+Magma&tag=gearmatch-20",
   recommendation_tags: [],
   data_quality: {
     data_confidence: "high",
@@ -13041,7 +13041,7 @@ export const duckyMechaMiniV2: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/QYVPYy6k/ducky-mecha-mini-v2/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/ducky/mecha-mini-v2",
+  product_url: "https://www.amazon.com/s?k=Ducky+Mecha+Mini+V2&tag=gearmatch-20",
   recommendation_tags: ["gaming"],
   data_quality: {
     data_confidence: "high",
@@ -13110,7 +13110,7 @@ export const fnaticMinistreak: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/Bmiualq2/fnatic-ministreak/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/fnatic/ministreak",
+  product_url: "https://www.amazon.com/s?k=Fnatic+miniSTREAK&tag=gearmatch-20",
   recommendation_tags: ["gaming"],
   data_quality: {
     data_confidence: "high",
@@ -13179,7 +13179,7 @@ export const duckyMiyaPro: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [150, 220],
   image_url: "https://i.rtings.com/assets/products/8xiMHcHi/ducky-miya-pro/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/ducky/miya-pro",
+  product_url: "https://www.amazon.com/s?k=Ducky+MIYA+Pro&tag=gearmatch-20",
   recommendation_tags: ["gaming"],
   data_quality: {
     data_confidence: "high",
@@ -13248,7 +13248,7 @@ export const coolerMasterMk730: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/2cHREyEh/cooler-master-mk730/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/cooler-master/mk730",
+  product_url: "https://www.amazon.com/s?k=Cooler+Master+MK730&tag=gearmatch-20",
   recommendation_tags: ["gaming"],
   data_quality: {
     data_confidence: "high",
@@ -13317,7 +13317,7 @@ export const akkoMod007HePc: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/K2alofby/akko-mod007-he-pc/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/akko/mod007-he-pc",
+  product_url: "https://www.amazon.com/s?k=Akko+MOD007-HE+PC&tag=gearmatch-20",
   recommendation_tags: ["rapid_trigger","hot_swappable"],
   data_quality: {
     data_confidence: "high",
@@ -13386,7 +13386,7 @@ export const ibmModelM: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/ZDmfP7qT/ibm-model-m/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/ibm/model-m",
+  product_url: "https://www.amazon.com/s?k=IBM+Model+M&tag=gearmatch-20",
   recommendation_tags: [],
   data_quality: {
     data_confidence: "high",
@@ -13455,7 +13455,7 @@ export const dasKeyboardModelSProfessional: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [150, 220],
   image_url: "https://i.rtings.com/assets/products/N7OYSji3/das-keyboard-model-s-professional/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/das-keyboard/model-s-professional",
+  product_url: "https://www.amazon.com/s?k=Das+Keyboard+Model+S+Professional&tag=gearmatch-20",
   recommendation_tags: [],
   data_quality: {
     data_confidence: "high",
@@ -13524,7 +13524,7 @@ export const zsaMoonlander: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/vm5qwMHv/zsa-moonlander/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/zsa/moonlander",
+  product_url: "https://www.amazon.com/s?k=ZSA+Moonlander&tag=gearmatch-20",
   recommendation_tags: ["gaming","hot_swappable"],
   data_quality: {
     data_confidence: "high",
@@ -13593,7 +13593,7 @@ export const logitechMxKeysMini: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/ZOlaCGaR/logitech-mx-keys-mini/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/logitech/mx-keys-mini",
+  product_url: "https://www.amazon.com/s?k=Logitech+MX+Keys+Mini&tag=gearmatch-20",
   recommendation_tags: ["wireless"],
   data_quality: {
     data_confidence: "high",
@@ -13662,7 +13662,7 @@ export const logitechMxKeys: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/O5lpmgG7/logitech-mx-keys/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/logitech/mx-keys",
+  product_url: "https://www.amazon.com/s?k=Logitech+MX+Keys&tag=gearmatch-20",
   recommendation_tags: ["wireless"],
   data_quality: {
     data_confidence: "high",
@@ -13731,7 +13731,7 @@ export const logitechMxMechanical: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/xkcz0Jpn/logitech-mx-mechanical/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/logitech/mx-mechanical",
+  product_url: "https://www.amazon.com/s?k=Logitech+MX+Mechanical&tag=gearmatch-20",
   recommendation_tags: ["wireless"],
   data_quality: {
     data_confidence: "high",
@@ -13800,7 +13800,7 @@ export const nuphyNos75: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/UkKGJ9j0/nuphy-nos75/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/nuphy/nos75",
+  product_url: "https://www.amazon.com/s?k=NuPhy+Nos75&tag=gearmatch-20",
   recommendation_tags: ["gaming","hot_swappable"],
   data_quality: {
     data_confidence: "high",
@@ -13869,7 +13869,7 @@ export const duckyOne2MiniV1: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/cVIV7Lc4/ducky-one-2-mini-v1/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/ducky/one-2-mini-v1",
+  product_url: "https://www.amazon.com/s?k=Ducky+One+2+Mini+V1&tag=gearmatch-20",
   recommendation_tags: [],
   data_quality: {
     data_confidence: "high",
@@ -13938,7 +13938,7 @@ export const duckyOne2MiniV2: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/yKOa8H65/ducky-one-2-mini-v2/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/ducky/one-2-mini-v2",
+  product_url: "https://www.amazon.com/s?k=Ducky+One+2+Mini+V2&tag=gearmatch-20",
   recommendation_tags: ["gaming"],
   data_quality: {
     data_confidence: "high",
@@ -14007,7 +14007,7 @@ export const duckyOne2RgbTkl: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/1kPRwpen/ducky-one-2-rgb-tkl/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/ducky/one-2-rgb-tkl",
+  product_url: "https://www.amazon.com/s?k=Ducky+One+2+RGB+TKL&tag=gearmatch-20",
   recommendation_tags: ["gaming"],
   data_quality: {
     data_confidence: "high",
@@ -14076,7 +14076,7 @@ export const duckyOne2Sf: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/dAtXdFBE/ducky-one-2-sf/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/ducky/one-2-sf",
+  product_url: "https://www.amazon.com/s?k=Ducky+One+2+SF&tag=gearmatch-20",
   recommendation_tags: [],
   data_quality: {
     data_confidence: "high",
@@ -14145,7 +14145,7 @@ export const duckyOne2: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/LixbpPEu/ducky-one-2/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/ducky/one-2",
+  product_url: "https://www.amazon.com/s?k=Ducky+One+2&tag=gearmatch-20",
   recommendation_tags: [],
   data_quality: {
     data_confidence: "high",
@@ -14214,7 +14214,7 @@ export const duckyOne3: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/9CkdxVbX/ducky-one-3/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/ducky/one-3",
+  product_url: "https://www.amazon.com/s?k=Ducky+One+3&tag=gearmatch-20",
   recommendation_tags: ["hot_swappable"],
   data_quality: {
     data_confidence: "high",
@@ -14283,7 +14283,7 @@ export const duckyOneX: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/a4VkdLRe/ducky-one-x/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/ducky/one-x",
+  product_url: "https://www.amazon.com/s?k=Ducky+One+X&tag=gearmatch-20",
   recommendation_tags: ["wireless","gaming","hot_swappable"],
   data_quality: {
     data_confidence: "high",
@@ -14352,7 +14352,7 @@ export const wootingOne: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [30, 60],
   image_url: "https://i.rtings.com/assets/products/rebVaOBN/wooting-one/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/wooting/one",
+  product_url: "https://www.amazon.com/s?k=Wooting+one&tag=gearmatch-20",
   recommendation_tags: ["gaming"],
   data_quality: {
     data_confidence: "high",
@@ -14421,7 +14421,7 @@ export const razerOrnataChroma: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/CbTcUBeK/razer-ornata-chroma/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/razer/ornata-chroma",
+  product_url: "https://www.amazon.com/s?k=Razer+Ornata+Chroma&tag=gearmatch-20",
   recommendation_tags: [],
   data_quality: {
     data_confidence: "high",
@@ -14490,7 +14490,7 @@ export const razerOrnataV2: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/C6qWrcsk/razer-ornata-v2/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/razer/ornata-v2",
+  product_url: "https://www.amazon.com/s?k=Razer+Ornata+V2&tag=gearmatch-20",
   recommendation_tags: [],
   data_quality: {
     data_confidence: "high",
@@ -14559,7 +14559,7 @@ export const razerOrnataV3X: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [30, 60],
   image_url: "https://i.rtings.com/assets/products/be8ZvIEE/razer-ornata-v3-x/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/razer/ornata-v3-x",
+  product_url: "https://www.amazon.com/s?k=Razer+Ornata+V3+X&tag=gearmatch-20",
   recommendation_tags: [],
   data_quality: {
     data_confidence: "high",
@@ -14628,7 +14628,7 @@ export const razerOrnataV3: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [30, 60],
   image_url: "https://i.rtings.com/assets/products/x6U6b51r/razer-ornata-v3/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/razer/ornata-v3",
+  product_url: "https://www.amazon.com/s?k=Razer+Ornata+V3&tag=gearmatch-20",
   recommendation_tags: [],
   data_quality: {
     data_confidence: "high",
@@ -14697,7 +14697,7 @@ export const lemokeyP1He: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [30, 60],
   image_url: "https://i.rtings.com/assets/products/DEwaWQg7/lemokey-p1-he/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/lemokey/p1-he",
+  product_url: "https://www.amazon.com/s?k=Lemokey+P1+HE&tag=gearmatch-20",
   recommendation_tags: ["rapid_trigger","wireless","gaming","hot_swappable"],
   data_quality: {
     data_confidence: "high",
@@ -14766,7 +14766,7 @@ export const logitechPebbleKeys2K380s: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [30, 60],
   image_url: "https://i.rtings.com/assets/products/iojwln6x/logitech-pebble-keys-2-k380s/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/logitech/pebble-keys-2-k380s",
+  product_url: "https://www.amazon.com/s?k=Logitech+Pebble+Keys+2+K380s&tag=gearmatch-20",
   recommendation_tags: ["wireless"],
   data_quality: {
     data_confidence: "high",
@@ -14835,7 +14835,7 @@ export const logitechPopKeys: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/W2RG08MN/logitech-pop-keys/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/logitech/pop-keys",
+  product_url: "https://www.amazon.com/s?k=Logitech+POP+Keys&tag=gearmatch-20",
   recommendation_tags: ["wireless"],
   data_quality: {
     data_confidence: "high",
@@ -14904,7 +14904,7 @@ export const kensingtonProFitErgoWirelessKeyboard: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [150, 220],
   image_url: "https://i.rtings.com/assets/products/bek2IpSu/kensington-pro-fit-ergo-wireless-keyboard/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/kensington/pro-fit-ergo-wireless-keyboard",
+  product_url: "https://www.amazon.com/s?k=Kensington+Pro+Fit+Ergo+Wireless+Keyboard&tag=gearmatch-20",
   recommendation_tags: ["wireless"],
   data_quality: {
     data_confidence: "high",
@@ -14973,7 +14973,7 @@ export const zaggProKeys2: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [150, 220],
   image_url: "https://i.rtings.com/assets/products/Xfcb8gNY/zagg-pro-keys-2/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/zagg/pro-keys-2",
+  product_url: "https://www.amazon.com/s?k=ZAGG+Pro+Keys+2&tag=gearmatch-20",
   recommendation_tags: ["wireless"],
   data_quality: {
     data_confidence: "high",
@@ -15042,7 +15042,7 @@ export const zaggProKeys: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [150, 220],
   image_url: "https://i.rtings.com/assets/products/Si6OEhqO/zagg-pro-keys/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/zagg/pro-keys",
+  product_url: "https://www.amazon.com/s?k=ZAGG+Pro+Keys&tag=gearmatch-20",
   recommendation_tags: ["wireless"],
   data_quality: {
     data_confidence: "high",
@@ -15111,7 +15111,7 @@ export const razerProTypeUltra: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [150, 220],
   image_url: "https://i.rtings.com/assets/products/Dea2hN8R/razer-pro-type-ultra/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/razer/pro-type-ultra",
+  product_url: "https://www.amazon.com/s?k=Razer+Pro+Type+Ultra&tag=gearmatch-20",
   recommendation_tags: ["wireless","gaming"],
   data_quality: {
     data_confidence: "high",
@@ -15180,7 +15180,7 @@ export const razerProType: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [150, 220],
   image_url: "https://i.rtings.com/assets/products/2wbyhXTT/razer-pro-type/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/razer/pro-type",
+  product_url: "https://www.amazon.com/s?k=Razer+Pro+Type&tag=gearmatch-20",
   recommendation_tags: ["wireless","gaming"],
   data_quality: {
     data_confidence: "high",
@@ -15249,7 +15249,7 @@ export const roccatPyro: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [30, 60],
   image_url: "https://i.rtings.com/assets/products/OjHGKhQU/roccat-pyro/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/roccat/pyro",
+  product_url: "https://www.amazon.com/s?k=ROCCAT+Pyro&tag=gearmatch-20",
   recommendation_tags: [],
   data_quality: {
     data_confidence: "high",
@@ -15318,7 +15318,7 @@ export const keychronQProSeriesQ1ProQ2ProEtc: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [30, 60],
   image_url: "https://i.rtings.com/assets/products/pP29sg7u/keychron-q-pro-series-q1-pro-q2-pro-etc/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/keychron/q-pro-series-q1-pro-q2-pro-etc",
+  product_url: "https://www.amazon.com/s?k=Keychron+Q+Pro+Series+%5BQ1+Pro%2C+Q2+Pro%2C+etc.%5D&tag=gearmatch-20",
   recommendation_tags: ["wireless","hot_swappable"],
   data_quality: {
     data_confidence: "high",
@@ -15387,7 +15387,7 @@ export const keychronQ1HeQ5HeQ6HeEtc: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [150, 200],
   image_url: "https://i.rtings.com/assets/products/I577RbKO/keychron-q1-he/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/keychron/q1-he",
+  product_url: "https://www.amazon.com/s?k=Keychron+Q1+HE+%5BQ5+HE%2C+Q6+HE%2C+etc.%5D&tag=gearmatch-20",
   recommendation_tags: ["rapid_trigger","wireless","hot_swappable"],
   data_quality: {
     data_confidence: "high",
@@ -15456,7 +15456,7 @@ export const keychronQ1: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [150, 200],
   image_url: "https://i.rtings.com/assets/products/jagfhnw9/keychron-q1/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/keychron/q1",
+  product_url: "https://www.amazon.com/s?k=Keychron+Q1&tag=gearmatch-20",
   recommendation_tags: ["gaming"],
   data_quality: {
     data_confidence: "high",
@@ -15525,7 +15525,7 @@ export const keychronQ2: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [150, 200],
   image_url: "https://i.rtings.com/assets/products/HTS5CxMC/keychron-q2/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/keychron/q2",
+  product_url: "https://www.amazon.com/s?k=Keychron+Q2&tag=gearmatch-20",
   recommendation_tags: ["gaming"],
   data_quality: {
     data_confidence: "high",
@@ -15594,7 +15594,7 @@ export const keychronQ3: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [150, 200],
   image_url: "https://i.rtings.com/assets/products/BDGgIlVc/keychron-q3/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/keychron/q3",
+  product_url: "https://www.amazon.com/s?k=Keychron+Q3&tag=gearmatch-20",
   recommendation_tags: [],
   data_quality: {
     data_confidence: "high",
@@ -15663,7 +15663,7 @@ export const keychronQ4: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [150, 200],
   image_url: "https://i.rtings.com/assets/products/HXGdlefT/keychron-q4/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/keychron/q4",
+  product_url: "https://www.amazon.com/s?k=Keychron+Q4&tag=gearmatch-20",
   recommendation_tags: ["gaming"],
   data_quality: {
     data_confidence: "high",
@@ -15732,7 +15732,7 @@ export const keychronQ5MaxQ1MaxQ2MaxEtc: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [30, 60],
   image_url: "https://i.rtings.com/assets/products/tMO2Tk6W/keychron-q5-max-q1-max-q2-max-etc/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/keychron/q5-max-q1-max-q2-max-etc",
+  product_url: "https://www.amazon.com/s?k=Keychron+Q5+Max+%5BQ1+Max%2C+Q2+Max%2C+etc.%5D&tag=gearmatch-20",
   recommendation_tags: ["wireless","hot_swappable"],
   data_quality: {
     data_confidence: "high",
@@ -15801,7 +15801,7 @@ export const keychronQ5: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [150, 200],
   image_url: "https://i.rtings.com/assets/products/UYHKvnyW/keychron-q5/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/keychron/q5",
+  product_url: "https://www.amazon.com/s?k=Keychron+Q5&tag=gearmatch-20",
   recommendation_tags: ["gaming"],
   data_quality: {
     data_confidence: "high",
@@ -15870,7 +15870,7 @@ export const keychronQ6: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [150, 200],
   image_url: "https://i.rtings.com/assets/products/aNuGpu9q/keychron-q6/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/keychron/q6",
+  product_url: "https://www.amazon.com/s?k=Keychron+Q6&tag=gearmatch-20",
   recommendation_tags: ["hot_swappable"],
   data_quality: {
     data_confidence: "high",
@@ -15939,7 +15939,7 @@ export const keychronQ7: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [30, 60],
   image_url: "https://i.rtings.com/assets/products/NhG1rFEh/keychron-q7/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/keychron/q7",
+  product_url: "https://www.amazon.com/s?k=Keychron+Q7&tag=gearmatch-20",
   recommendation_tags: ["gaming"],
   data_quality: {
     data_confidence: "high",
@@ -16008,7 +16008,7 @@ export const keychronQ8: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [30, 60],
   image_url: "https://i.rtings.com/assets/products/41EFE7TI/keychron-q8/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/keychron/q8",
+  product_url: "https://www.amazon.com/s?k=Keychron+Q8&tag=gearmatch-20",
   recommendation_tags: ["gaming","productivity"],
   data_quality: {
     data_confidence: "high",
@@ -16077,7 +16077,7 @@ export const realforceR2: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/tJVgZmas/realforce-r2/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/realforce/r2",
+  product_url: "https://www.amazon.com/s?k=REALFORCE+R2&tag=gearmatch-20",
   recommendation_tags: [],
   data_quality: {
     data_confidence: "high",
@@ -16146,7 +16146,7 @@ export const vortexRace3: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/ul5hKS9z/vortex-race-3/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/vortex/race-3",
+  product_url: "https://www.amazon.com/s?k=Vortex+Race+3&tag=gearmatch-20",
   recommendation_tags: [],
   data_quality: {
     data_confidence: "high",
@@ -16215,7 +16215,7 @@ export const dygmaRaise2: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/If8KkOTC/dygma-raise-2/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/dygma/raise-2",
+  product_url: "https://www.amazon.com/s?k=Dygma+Raise+2&tag=gearmatch-20",
   recommendation_tags: ["wireless","gaming","productivity","hot_swappable"],
   data_quality: {
     data_confidence: "high",
@@ -16284,7 +16284,7 @@ export const dygmaRaise: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/7uKM8LxM/dygma-raise/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/dygma/raise",
+  product_url: "https://www.amazon.com/s?k=Dygma+Raise&tag=gearmatch-20",
   recommendation_tags: ["gaming","hot_swappable"],
   data_quality: {
     data_confidence: "high",
@@ -16353,7 +16353,7 @@ export const eightBitdoRetroMechanicalKeyboard: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/otzr9lyt/8bitdo-retro-mechanical-keyboard/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/8bitdo/retro-mechanical-keyboard",
+  product_url: "https://www.amazon.com/s?k=8BitDo+Retro+Mechanical+Keyboard&tag=gearmatch-20",
   recommendation_tags: ["wireless","hot_swappable"],
   data_quality: {
     data_confidence: "high",
@@ -16422,7 +16422,7 @@ export const royalKludgeRk61: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/Z6N6ewyB/royal-kludge-rk61/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/royal-kludge/rk61",
+  product_url: "https://www.amazon.com/s?k=ROYAL+KLUDGE+RK61&tag=gearmatch-20",
   recommendation_tags: ["wireless","hot_swappable"],
   data_quality: {
     data_confidence: "high",
@@ -16491,7 +16491,7 @@ export const asusRogAzothExtreme: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/hLMW70wN/asus-rog-azoth-extreme/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/asus/rog-azoth-extreme",
+  product_url: "https://www.amazon.com/s?k=ASUS+ROG+Azoth+Extreme&tag=gearmatch-20",
   recommendation_tags: ["wireless","gaming","hot_swappable"],
   data_quality: {
     data_confidence: "high",
@@ -16560,7 +16560,7 @@ export const asusRogAzoth: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/hRpGIkWi/asus-rog-azoth/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/asus/rog-azoth",
+  product_url: "https://www.amazon.com/s?k=ASUS+ROG+Azoth&tag=gearmatch-20",
   recommendation_tags: ["wireless","gaming","hot_swappable"],
   data_quality: {
     data_confidence: "high",
@@ -16629,7 +16629,7 @@ export const asusRogClaymoreIi: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/3vjaiw3E/asus-rog-claymore-ii/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/asus/rog-claymore-ii",
+  product_url: "https://www.amazon.com/s?k=ASUS+ROG+Claymore+II&tag=gearmatch-20",
   recommendation_tags: ["wireless","gaming"],
   data_quality: {
     data_confidence: "high",
@@ -16698,7 +16698,7 @@ export const asusRogFalchionRxLowProfile: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [150, 220],
   image_url: "https://i.rtings.com/assets/products/jD8S3Fsh/asus-rog-falchion-rx-low-profile/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/asus/rog-falchion-rx-low-profile",
+  product_url: "https://www.amazon.com/s?k=ASUS+ROG+Falchion+RX+Low+Profile&tag=gearmatch-20",
   recommendation_tags: ["wireless","gaming"],
   data_quality: {
     data_confidence: "high",
@@ -16767,7 +16767,7 @@ export const asusRogFalchion: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/mJW94FBE/asus-rog-falchion/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/asus/rog-falchion",
+  product_url: "https://www.amazon.com/s?k=ASUS+ROG+Falchion&tag=gearmatch-20",
   recommendation_tags: ["wireless","gaming"],
   data_quality: {
     data_confidence: "high",
@@ -16836,7 +16836,7 @@ export const asusRogStrixFlareIiAnimate: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [30, 60],
   image_url: "https://i.rtings.com/assets/products/V1Gmr7cH/asus-rog-strix-flare-ii-animate/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/asus/rog-strix-flare-ii-animate",
+  product_url: "https://www.amazon.com/s?k=ASUS+ROG+Strix+Flare+II+Animate&tag=gearmatch-20",
   recommendation_tags: ["gaming","hot_swappable"],
   data_quality: {
     data_confidence: "high",
@@ -16905,7 +16905,7 @@ export const asusRogStrixScopeIi96Wireless: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/C1LHNeM6/asus-rog-strix-scope-ii-96-wireless/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/asus/rog-strix-scope-ii-96-wireless",
+  product_url: "https://www.amazon.com/s?k=ASUS+ROG+Strix+Scope+II+96+Wireless&tag=gearmatch-20",
   recommendation_tags: ["wireless","gaming","hot_swappable"],
   data_quality: {
     data_confidence: "high",
@@ -16974,7 +16974,7 @@ export const asusRogStrixScopeTkl: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/OEceb9vW/asus-rog-strix-scope-tkl/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/asus/rog-strix-scope-tkl",
+  product_url: "https://www.amazon.com/s?k=ASUS+ROG+Strix+Scope+TKL&tag=gearmatch-20",
   recommendation_tags: ["gaming"],
   data_quality: {
     data_confidence: "high",
@@ -17043,7 +17043,7 @@ export const keychronSSeries: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/D3w1QaIm/keychron-s-series/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/keychron/s-series",
+  product_url: "https://www.amazon.com/s?k=Keychron+S+Series&tag=gearmatch-20",
   recommendation_tags: ["gaming","hot_swappable"],
   data_quality: {
     data_confidence: "high",
@@ -17112,7 +17112,7 @@ export const microsoftSculptErgonomicKeyboard: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/TAsoYNy6/microsoft-sculpt-ergonomic-keyboard/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/microsoft/sculpt-ergonomic-keyboard",
+  product_url: "https://www.amazon.com/s?k=Microsoft+Sculpt+Ergonomic+Keyboard&tag=gearmatch-20",
   recommendation_tags: ["wireless"],
   data_quality: {
     data_confidence: "high",
@@ -17181,7 +17181,7 @@ export const dropShift: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/bdppQTx4/drop-shift/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/drop/shift",
+  product_url: "https://www.amazon.com/s?k=Drop+SHIFT&tag=gearmatch-20",
   recommendation_tags: [],
   data_quality: {
     data_confidence: "high",
@@ -17250,7 +17250,7 @@ export const duckyShine7: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/IlPIlcO1/ducky-shine-7/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/ducky/shine-7",
+  product_url: "https://www.amazon.com/s?k=Ducky+Shine+7&tag=gearmatch-20",
   recommendation_tags: ["gaming"],
   data_quality: {
     data_confidence: "high",
@@ -17319,7 +17319,7 @@ export const logitechSignatureK650: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [30, 60],
   image_url: "https://i.rtings.com/assets/products/KZBkYBfM/logitech-signature-k650/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/logitech/signature-k650",
+  product_url: "https://www.amazon.com/s?k=Logitech+Signature+K650&tag=gearmatch-20",
   recommendation_tags: ["wireless"],
   data_quality: {
     data_confidence: "high",
@@ -17388,7 +17388,7 @@ export const logitechSignatureSlimKeyboardK950: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/hkw7PbgJ/logitech-signature-slim-keyboard-k950/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/logitech/signature-slim-keyboard-k950",
+  product_url: "https://www.amazon.com/s?k=Logitech+Signature+Slim+Keyboard+K950&tag=gearmatch-20",
   recommendation_tags: ["wireless"],
   data_quality: {
     data_confidence: "high",
@@ -17457,7 +17457,7 @@ export const logitechSlimFolioPro: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [150, 220],
   image_url: "https://i.rtings.com/assets/products/nO9wmsSS/logitech-slim-folio-pro/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/logitech/slim-folio-pro",
+  product_url: "https://www.amazon.com/s?k=Logitech+Slim+Folio+Pro&tag=gearmatch-20",
   recommendation_tags: ["wireless"],
   data_quality: {
     data_confidence: "high",
@@ -17526,7 +17526,7 @@ export const fintieSoftTpuKeyboardCaseForIpad7thGen: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/yaIKFj46/fintie-soft-tpu-keyboard-case-for-ipad-7th-gen/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/fintie/soft-tpu-keyboard-case-for-ipad-7th-gen",
+  product_url: "https://www.amazon.com/s?k=Fintie+Soft+TPU+Keyboard+Case+For+iPad+7th+Gen&tag=gearmatch-20",
   recommendation_tags: ["wireless"],
   data_quality: {
     data_confidence: "high",
@@ -17595,7 +17595,7 @@ export const corsairStrafeRgbMk2: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/BKQB5kOY/corsair-strafe-rgb-mk-2/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/corsair/strafe-rgb-mk-2",
+  product_url: "https://www.amazon.com/s?k=Corsair+STRAFE+RGB+MK.2&tag=gearmatch-20",
   recommendation_tags: ["gaming"],
   data_quality: {
     data_confidence: "high",
@@ -17664,7 +17664,7 @@ export const hhkbStudio: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/JawoHVPT/hhkb-studio/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/hhkb/studio",
+  product_url: "https://www.amazon.com/s?k=HHKB+Studio&tag=gearmatch-20",
   recommendation_tags: ["wireless","hot_swappable"],
   data_quality: {
     data_confidence: "high",
@@ -17733,7 +17733,7 @@ export const microsoftSurfaceErgonomicKeyboard: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/bSrxGgja/microsoft-surface-ergonomic-keyboard/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/microsoft/surface-ergonomic-keyboard",
+  product_url: "https://www.amazon.com/s?k=Microsoft+Surface+Ergonomic+Keyboard&tag=gearmatch-20",
   recommendation_tags: ["wireless"],
   data_quality: {
     data_confidence: "high",
@@ -17802,7 +17802,7 @@ export const microsoftSurfaceKeyboard: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/ImyDPoU2/microsoft-surface-keyboard/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/microsoft/surface-keyboard",
+  product_url: "https://www.amazon.com/s?k=Microsoft+Surface+Keyboard&tag=gearmatch-20",
   recommendation_tags: ["wireless"],
   data_quality: {
     data_confidence: "high",
@@ -17871,7 +17871,7 @@ export const durgodTaurusK320: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/8XUCYxgw/durgod-taurus-k320/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/durgod/taurus-k320",
+  product_url: "https://www.amazon.com/s?k=Durgod+Taurus+K320&tag=gearmatch-20",
   recommendation_tags: [],
   data_quality: {
     data_confidence: "high",
@@ -17940,7 +17940,7 @@ export const epomakerTh80Pro: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [150, 220],
   image_url: "https://i.rtings.com/assets/products/9nPmVi23/epomaker-th80-pro/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/epomaker/th80-pro",
+  product_url: "https://www.amazon.com/s?k=Epomaker+TH80+Pro&tag=gearmatch-20",
   recommendation_tags: ["wireless","hot_swappable"],
   data_quality: {
     data_confidence: "high",
@@ -18009,7 +18009,7 @@ export const lenovoThinkpadTrackpointKeyboardIi: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/8KVED8ey/lenovo-thinkpad-trackpoint-keyboard-ii/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/lenovo/thinkpad-trackpoint-keyboard-ii",
+  product_url: "https://www.amazon.com/s?k=Lenovo+ThinkPad+TrackPoint+Keyboard+II&tag=gearmatch-20",
   recommendation_tags: ["wireless"],
   data_quality: {
     data_confidence: "high",
@@ -18078,7 +18078,7 @@ export const icleverTriFoldingKeyboardBk08: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/APNXHSwg/iclever-tri-folding-keyboard-bk08/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/iclever/tri-folding-keyboard-bk08",
+  product_url: "https://www.amazon.com/s?k=iClever+Tri-Folding+Keyboard+BK08&tag=gearmatch-20",
   recommendation_tags: ["wireless"],
   data_quality: {
     data_confidence: "high",
@@ -18147,7 +18147,7 @@ export const adessoTruForm150: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/jv37T7hc/adesso-tru-form-150/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/adesso/tru-form-150",
+  product_url: "https://www.amazon.com/s?k=Adesso+Tru-Form+150&tag=gearmatch-20",
   recommendation_tags: [],
   data_quality: {
     data_confidence: "high",
@@ -18216,7 +18216,7 @@ export const wootingTwoHe: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [30, 60],
   image_url: "https://i.rtings.com/assets/products/c6zl5Pt6/wooting-two-he/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/wooting/two-he",
+  product_url: "https://www.amazon.com/s?k=Wooting+two+HE&tag=gearmatch-20",
   recommendation_tags: ["gaming","hot_swappable"],
   data_quality: {
     data_confidence: "high",
@@ -18285,7 +18285,7 @@ export const keychronVSeries: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/MVMnbcAt/keychron-v-series/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/keychron/v-series",
+  product_url: "https://www.amazon.com/s?k=Keychron+V+Series&tag=gearmatch-20",
   recommendation_tags: ["hot_swappable"],
   data_quality: {
     data_confidence: "high",
@@ -18354,7 +18354,7 @@ export const keychronV5MaxV1MaxV2MaxEtc: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [30, 60],
   image_url: "https://i.rtings.com/assets/products/53aJ58bV/keychron-v5-max-v1-max-v2-max-etc/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/keychron/v5-max-v1-max-v2-max-etc",
+  product_url: "https://www.amazon.com/s?k=Keychron+V5+Max+%5BV1+Max%2C+V2+Max%2C+etc.%5D&tag=gearmatch-20",
   recommendation_tags: ["wireless","hot_swappable"],
   data_quality: {
     data_confidence: "high",
@@ -18423,7 +18423,7 @@ export const varmiloVa87m: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/bJrHmS7E/varmilo-va87m/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/varmilo/va87m",
+  product_url: "https://www.amazon.com/s?k=Varmilo+VA87M&tag=gearmatch-20",
   recommendation_tags: [],
   data_quality: {
     data_confidence: "high",
@@ -18492,7 +18492,7 @@ export const geonworksVenom60He: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/v6i27Wcg/geonworks-venom-60-he/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/geonworks/venom-60-he",
+  product_url: "https://www.amazon.com/s?k=Geonworks+Venom+60+HE&tag=gearmatch-20",
   recommendation_tags: ["hot_swappable"],
   data_quality: {
     data_confidence: "high",
@@ -18561,7 +18561,7 @@ export const roccatVulcan120Aimo: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/PNqLo1Cc/roccat-vulcan-120-aimo/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/roccat/vulcan-120-aimo",
+  product_url: "https://www.amazon.com/s?k=ROCCAT+Vulcan+120+AIMO&tag=gearmatch-20",
   recommendation_tags: ["gaming"],
   data_quality: {
     data_confidence: "high",
@@ -18630,7 +18630,7 @@ export const roccatVulcanIiMaxMini: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [150, 220],
   image_url: "https://i.rtings.com/assets/products/mftmroLr/roccat-vulcan-ii-max-mini/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/roccat/vulcan-ii-max-mini",
+  product_url: "https://www.amazon.com/s?k=ROCCAT+Vulcan+II+Max%2FMini&tag=gearmatch-20",
   recommendation_tags: ["gaming"],
   data_quality: {
     data_confidence: "high",
@@ -18699,7 +18699,7 @@ export const roccatVulcanIiMiniAir: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/XeMSsvpX/roccat-vulcan-ii-mini-air/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/roccat/vulcan-ii-mini-air",
+  product_url: "https://www.amazon.com/s?k=ROCCAT+Vulcan+II+Mini+Air&tag=gearmatch-20",
   recommendation_tags: ["wireless"],
   data_quality: {
     data_confidence: "high",
@@ -18768,7 +18768,7 @@ export const roccatVulcanPro: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [150, 220],
   image_url: "https://i.rtings.com/assets/products/IORWRndo/roccat-vulcan-pro/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/roccat/vulcan-pro",
+  product_url: "https://www.amazon.com/s?k=ROCCAT+Vulcan+Pro&tag=gearmatch-20",
   recommendation_tags: ["gaming"],
   data_quality: {
     data_confidence: "high",
@@ -18837,7 +18837,7 @@ export const roccatVulcanTkl: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/9HVDje1D/roccat-vulcan-tkl/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/roccat/vulcan-tkl",
+  product_url: "https://www.amazon.com/s?k=ROCCAT+Vulcan+TKL&tag=gearmatch-20",
   recommendation_tags: ["gaming"],
   data_quality: {
     data_confidence: "high",
@@ -18906,7 +18906,7 @@ export const logitechWaveKeys: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [30, 60],
   image_url: "https://i.rtings.com/assets/products/BNqzalYw/logitech-wave-keys/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/logitech/wave-keys",
+  product_url: "https://www.amazon.com/s?k=Logitech+Wave+Keys&tag=gearmatch-20",
   recommendation_tags: ["wireless"],
   data_quality: {
     data_confidence: "high",
@@ -18975,7 +18975,7 @@ export const dieryaXKemoveDk61Pro: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [150, 220],
   image_url: "https://i.rtings.com/assets/products/l9YflBkA/dierya-x-kemove-dk61-pro/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/dierya/x-kemove-dk61-pro",
+  product_url: "https://www.amazon.com/s?k=Dierya+x+KEMOVE+DK61+Pro&tag=gearmatch-20",
   recommendation_tags: ["wireless","gaming"],
   data_quality: {
     data_confidence: "high",
@@ -19044,7 +19044,7 @@ export const dasKeyboardX50q: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/MHLn3vpm/das-keyboard-x50q/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/das-keyboard/x50q",
+  product_url: "https://www.amazon.com/s?k=Das+Keyboard+X50Q&tag=gearmatch-20",
   recommendation_tags: ["gaming"],
   data_quality: {
     data_confidence: "high",
@@ -19113,7 +19113,7 @@ export const evgaZ12: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [30, 60],
   image_url: "https://i.rtings.com/assets/products/z95b29bq/evga-z12/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/evga/z12",
+  product_url: "https://www.amazon.com/s?k=EVGA+Z12&tag=gearmatch-20",
   recommendation_tags: [],
   data_quality: {
     data_confidence: "high",
@@ -19182,7 +19182,7 @@ export const evgaZ15: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/aZznOtUS/evga-z15/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/evga/z15",
+  product_url: "https://www.amazon.com/s?k=EVGA+Z15&tag=gearmatch-20",
   recommendation_tags: ["gaming","hot_swappable"],
   data_quality: {
     data_confidence: "high",
@@ -19251,7 +19251,7 @@ export const evgaZ20: KeyboardProduct = {
   category: "keyboard",
   price_range_usd: [80, 130],
   image_url: "https://i.rtings.com/assets/products/3BTgvJZL/evga-z20/design-medium.jpg?format=auto",
-  product_url: "https://www.rtings.com/keyboard/reviews/evga/z20",
+  product_url: "https://www.amazon.com/s?k=EVGA+Z20&tag=gearmatch-20",
   recommendation_tags: ["gaming"],
   data_quality: {
     data_confidence: "high",
