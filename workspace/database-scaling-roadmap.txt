@@ -1,0 +1,266 @@
+# GearMatch Product Database Scaling Roadmap
+
+## Target Architecture: Hybrid (Client Scoring + Thin API)
+
+Goal: Scale to 3,000-10,000 products while maintaining fast quiz experience
+
+Approach:
+- Keep quiz/scoring client-side (fast, no network latency)
+- Add thin API layer for search, pagination, and pre-filtering
+- Products stored as JSON, served via edge functions
+
+================================================================================
+CURRENT STATE
+================================================================================
+
+| Metric            | Value                                    |
+|-------------------|------------------------------------------|
+| Total Products    | 1,039                                    |
+| Data Size         | 2.6 MB TypeScript (67K lines)            |
+| Largest File      | monitors.ts (1.1 MB, 378 products)       |
+| Architecture      | All data bundled client-side in Vite SPA |
+| Query Pattern     | O(n) in-memory array filtering           |
+
+Pain Points:
+- Large file sizes make editing difficult
+- All products load on initial page visit
+- No search capability
+- No pagination or lazy loading
+- Adding products requires code changes
+- Will not scale beyond ~3,000 products without UX degradation
+
+================================================================================
+PHASE 1: QUICK WINS (No Backend Required)
+================================================================================
+
+1.1 Dynamic Imports by Category
+--------------------------------
+Split product loading so only the active category loads.
+
+Files to modify:
+- src/data/products.ts - Convert to async getters
+- src/hooks/use-recommendations.ts - Use React Query for async loading
+- src/lib/scoring/engine.ts - Make scoring functions async
+
+Benefits: Users download 300KB (mice) instead of 2.6MB (all). Faster initial load.
+
+
+1.2 Enable React Query Caching
+-------------------------------
+TanStack Query is already installed but unused.
+
+Files to modify:
+- src/hooks/use-recommendations.ts - Replace useMemo with useQuery
+
+Benefits: Automatic caching, loading states, DevTools.
+
+================================================================================
+PHASE 2: EXTRACT DATA TO JSON
+================================================================================
+
+2.1 Convert TypeScript to JSON Files
+-------------------------------------
+Move product data out of source code.
+
+New structure:
+  data/
+    products/
+      mice.json
+      keyboards.json
+      monitors.json
+      audio.json
+
+Files to create:
+- scripts/convert-ts-to-json.ts - Migration script
+- src/lib/schemas/product-schemas.ts - Zod validation schemas
+
+Benefits:
+- Non-developers can edit JSON directly
+- Better git diffs for data changes
+- Foundation for admin tooling
+- Can update data without full rebuild
+
+
+2.2 Build-Time Validation
+--------------------------
+Add Vite plugin to validate JSON at build time.
+
+Files to create:
+- vite-plugins/validate-products.ts
+
+================================================================================
+PHASE 3: THIN API LAYER (Edge Functions)
+================================================================================
+
+Architecture: Static JSON on CDN + Vercel/Cloudflare Edge Functions
+
+3.1 Product API Endpoints
+--------------------------
+
+Files to create:
+- api/products/[category].ts - Get products by category (paginated)
+- api/products/search.ts - Full-text search across products
+- api/products/filter.ts - Pre-filter candidates for scoring
+
+Endpoints:
+  GET /api/products/mice?page=1&limit=50
+  GET /api/products/search?q=razer&category=mouse
+  POST /api/products/filter  (body: quiz answers, returns candidate IDs)
+
+
+3.2 Smart Pre-Filtering
+------------------------
+
+Instead of scoring ALL products client-side:
+1. Client sends quiz answers to /api/products/filter
+2. API applies hard filters (wireless required? budget limit?)
+3. Returns ~100-200 candidate product IDs
+4. Client fetches only those products and scores them
+
+Benefits:
+- User downloads 200 products (~500KB) instead of 5,000 (~12MB)
+- Scoring 200 products takes ~20ms instead of ~1 second
+- Works great on mobile and low-end devices
+
+
+3.3 Hosting Options
+--------------------
+
+| Platform           | Pros                                    | Cons                    |
+|--------------------|-----------------------------------------|-------------------------|
+| Vercel Edge        | Easy Vite integration, generous free    | Vendor lock-in          |
+| Cloudflare Workers | Fastest, great free tier                | Separate deploy process |
+| Netlify Functions  | Simple setup                            | Slower cold starts      |
+
+Recommended: Vercel (if already using) or Cloudflare Workers (best performance)
+
+================================================================================
+PHASE 4: PERFORMANCE OPTIMIZATION
+================================================================================
+
+4.1 Web Worker Scoring
+-----------------------
+Move scoring engine to Web Worker to prevent UI blocking.
+
+Files to create:
+- src/workers/scoring-worker.ts
+- src/lib/scoring/worker-client.ts
+
+Benefits: UI stays responsive during scoring of thousands of products.
+
+
+4.2 Pre-Filtering Strategy
+---------------------------
+Filter products before scoring to reduce workload.
+
+Example: If user requires wireless, eliminate 50% of products before scoring.
+
+
+4.3 Product Indexing
+---------------------
+Create indices for common attributes.
+
+Example:
+  const indices = {
+    byCategory: { mouse: ['id1', 'id2'], keyboard: ['id3'] },
+    byWireless: { true: ['id1'], false: ['id2', 'id3'] },
+    byPriceTier: { budget: ['id2'], premium: ['id1'] }
+  };
+
+Benefits: O(1) lookups instead of O(n) filtering.
+
+
+4.4 Client-Side Search
+-----------------------
+Add Fuse.js for fuzzy search on product names/brands.
+
+Files to create:
+- src/lib/search/index.ts
+- src/hooks/use-product-search.ts
+- src/components/search/SearchBar.tsx
+
+================================================================================
+PHASE 5: DEVELOPER EXPERIENCE
+================================================================================
+
+5.1 Validation CLI
+-------------------
+Pre-commit hook to validate product JSON.
+
+Files to create:
+- scripts/validate-products.ts
+- .husky/pre-commit
+
+Checks: Schema compliance, duplicate IDs, URL validity.
+
+
+5.2 CSV Import/Export
+----------------------
+Allow bulk editing via spreadsheet.
+
+Files to create:
+- scripts/import-csv.ts
+- scripts/export-csv.ts
+
+
+5.3 Admin UI (Optional)
+------------------------
+Simple product editor within the app.
+
+Files to create:
+- src/pages/admin/ProductList.tsx
+- src/pages/admin/ProductEditor.tsx
+
+Features:
+- List all products with search/filter
+- Edit form with validation
+- Download as JSON for commit
+
+
+5.4 GitHub Actions CI
+----------------------
+Automate validation on PRs.
+
+Files to create:
+- .github/workflows/validate-products.yml
+
+================================================================================
+RECOMMENDED IMPLEMENTATION ORDER
+================================================================================
+
+| Week  | Tasks                              | Impact                              |
+|-------|------------------------------------|-------------------------------------|
+| 1-2   | JSON extraction + validation CLI   | Foundation for everything else      |
+| 3-4   | Dynamic imports + React Query      | 80% bundle reduction for current    |
+| 5-6   | Edge functions API (search+filter) | Scalable to 10K products            |
+| 7-8   | Web Worker scoring + indexing      | Fast client-side scoring            |
+| 9-10  | Admin UI + CSV import              | Non-dev editing                     |
+
+Why This Order?
+1. JSON first - Everything else depends on data being in JSON format
+2. Code splitting - Immediate performance win for existing users
+3. API layer - Critical for scaling beyond 3K products
+4. Web Workers - Nice-to-have optimization, not blocking
+5. Admin UI - Improves DX but can manually edit JSON until then
+
+================================================================================
+CRITICAL FILES REFERENCE
+================================================================================
+
+| File                             | Purpose                              |
+|----------------------------------|--------------------------------------|
+| src/data/products.ts             | Central data access (refactor async) |
+| src/lib/scoring/engine.ts        | Scoring logic (optimize for scale)   |
+| src/types/products.ts            | Type definitions (Zod schema basis)  |
+| src/hooks/use-recommendations.ts | React hooks (add React Query)        |
+| vite.config.ts                   | Build config (add plugins)           |
+
+================================================================================
+VERIFICATION
+================================================================================
+
+After each phase:
+1. Run `npm run build` - Verify bundle size reduction
+2. Run `npm run dev` - Test quiz flow end-to-end
+3. Check Lighthouse performance score
+4. Verify all 4 quiz categories still return correct recommendations
