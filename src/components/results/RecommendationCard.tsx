@@ -393,7 +393,7 @@ const RecommendationCard = memo(function RecommendationCard({
         </div>
 
         {/* Retailer buttons */}
-        {(product.product_url || product.manufacturer_url || product.retailer_urls) && (
+        {(product.product_url || product.manufacturer_url || (product.retailer_urls && Object.keys(product.retailer_urls).length > 0)) && (
           <div className="flex flex-wrap items-center gap-2 pt-2">
             {/* Amazon button */}
             {product.product_url && (
@@ -423,8 +423,11 @@ const RecommendationCard = memo(function RecommendationCard({
             
             {/* Additional retailer buttons (up to 2) */}
             {product.retailer_urls && Object.entries(product.retailer_urls).slice(0, 2).map(([retailer, url]) => {
-              // Format retailer name (e.g., "hifigo" -> "HiFiGo", "linsoul" -> "Linsoul")
-              const retailerName = retailer
+              const RETAILER_DISPLAY_NAMES: Record<string, string> = {
+                hifigo: "HiFiGo",
+                linsoul: "Linsoul",
+              };
+              const retailerName = RETAILER_DISPLAY_NAMES[retailer] ?? retailer
                 .replace(/([a-z])([A-Z])/g, '$1 $2')
                 .replace(/^./, str => str.toUpperCase());
               return (
