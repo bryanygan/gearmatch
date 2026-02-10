@@ -61,55 +61,39 @@ Completed as part of 1.1 — useQuery with staleTime: Infinity, gcTime: 30min.
 PHASE 2: EXTRACT DATA TO JSON
 ================================================================================
 
-2.1 Convert TypeScript to JSON Files
+2.1 Convert TypeScript to JSON Files                       ✅ DONE (beb594d)
 -------------------------------------
 Move product data out of source code.
 
 New structure:
-  data/
-    products/
-      mice.json
-      keyboards.json
-      monitors.json
-      audio.json
+  src/data/products/
+    mice.json      (182 products, 348 KB)
+    keyboards.json (278 products, 675 KB)
+    monitors.json  (378 products, 1.1 MB)
+    audio.json     (197 products, 332 KB)
 
-Files to create:
-- scripts/convert-ts-to-json.ts - Migration script
-- src/lib/schemas/product-schemas.ts - Zod validation schemas
+Changes made:
+- src/data/products/*.json - Product data as validated JSON files
+- src/lib/schemas/product-schemas.ts - Zod validation schemas for all 4 categories
+- scripts/convert-ts-to-json.ts - Validation script (npm run convert:products)
+- src/data/products.ts - Async getters with dynamic import() for JSON files
 
-Safe Migration Workflow (scripts/convert-ts-to-json.ts):
-- auditNonSerializable(): Scan TS product modules for functions, getters,
-  computed properties, or symbols that won't JSON-serialize. Fail migration
-  if any are found and report the offending fields.
-- migrateAndCompare(): Write JSON output, then load both the original TS
-  export and the generated JSON. Run deep comparison (compareProductObjects)
-  to fail the migration on any missing fields or type changes.
-- normalizeOptionalFields(): Codify an optional-field policy (undefined vs
-  null vs omit) in product-schemas.ts. Normalize fields like manufacturer_url
-  and retailer_urls during conversion so the JSON output is consistent.
-- extractCommentsToMetadata(): Optionally preserve maintainer notes and
-  update timestamps by extracting them into an explicit metadata field in
-  each product's JSON representation.
-
-Validation Schemas (src/lib/schemas/product-schemas.ts):
-- Define Zod schemas for each product category matching TypeScript types
-- Enforce the optional-field policy (choose undefined vs null vs omit)
-- Validate URL formats, price ranges, enum values, and required fields
-
-Benefits:
-- Non-developers can edit JSON directly
-- Better git diffs for data changes
-- Foundation for admin tooling
-- Can update data without full rebuild
-- Migration is verified — no silent data loss
+Result: Removed 67K lines of TypeScript data files, replaced with validated JSON.
+Zod schemas enforce all enums, required fields, and type constraints.
 
 
-2.2 Build-Time Validation
+2.2 Build-Time Validation                                  ✅ DONE
 --------------------------
 Add Vite plugin to validate JSON at build time.
 
-Files to create:
-- vite-plugins/validate-products.ts
+Changes made:
+- vite-plugins/validate-products.ts - Vite plugin using Zod schemas
+- vite.config.ts - Plugin registered in plugins array
+- tsconfig.node.json - Includes vite-plugins directory
+
+Result: Every `npm run build` and `npm run dev` validates all product JSON
+against Zod schemas. Invalid data fails the build with clear error messages
+showing the exact field path and issue. 214 tests pass.
 
 ================================================================================
 PHASE 3: THIN API LAYER (Edge Functions)
