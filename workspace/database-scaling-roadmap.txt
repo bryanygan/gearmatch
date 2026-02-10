@@ -13,13 +13,17 @@ Approach:
 CURRENT STATE
 ================================================================================
 
-| Metric            | Value                                    |
-|-------------------|------------------------------------------|
-| Total Products    | 1,039                                    |
-| Data Size         | 2.6 MB TypeScript (67K lines)            |
-| Largest File      | monitors.ts (1.1 MB, 378 products)       |
-| Architecture      | All data bundled client-side in Vite SPA |
-| Query Pattern     | O(n) in-memory array filtering           |
+| Metric            | Value                                              |
+|-------------------|----------------------------------------------------|
+| Total Products    | 662 individual exports + 378 in monitors array     |
+|                   | Breakdown: audio: 198, keyboards: 279, mice: 184,  |
+|                   | monitors: 1 array export (allMonitorProducts[378]) |
+| Data Size         | 2.4 MB TypeScript (67K lines)                      |
+| Largest File      | monitors.ts (1.1 MB) — exports a single array      |
+|                   | (allMonitorProducts: MonitorProduct[]) not 378      |
+|                   | individual exports like other category files        |
+| Architecture      | All data bundled client-side in Vite SPA            |
+| Query Pattern     | O(n) in-memory array filtering                      |
 
 Pain Points:
 - Large file sizes make editing difficult
@@ -74,11 +78,31 @@ Files to create:
 - scripts/convert-ts-to-json.ts - Migration script
 - src/lib/schemas/product-schemas.ts - Zod validation schemas
 
+Safe Migration Workflow (scripts/convert-ts-to-json.ts):
+- auditNonSerializable(): Scan TS product modules for functions, getters,
+  computed properties, or symbols that won't JSON-serialize. Fail migration
+  if any are found and report the offending fields.
+- migrateAndCompare(): Write JSON output, then load both the original TS
+  export and the generated JSON. Run deep comparison (compareProductObjects)
+  to fail the migration on any missing fields or type changes.
+- normalizeOptionalFields(): Codify an optional-field policy (undefined vs
+  null vs omit) in product-schemas.ts. Normalize fields like manufacturer_url
+  and retailer_urls during conversion so the JSON output is consistent.
+- extractCommentsToMetadata(): Optionally preserve maintainer notes and
+  update timestamps by extracting them into an explicit metadata field in
+  each product's JSON representation.
+
+Validation Schemas (src/lib/schemas/product-schemas.ts):
+- Define Zod schemas for each product category matching TypeScript types
+- Enforce the optional-field policy (choose undefined vs null vs omit)
+- Validate URL formats, price ranges, enum values, and required fields
+
 Benefits:
 - Non-developers can edit JSON directly
 - Better git diffs for data changes
 - Foundation for admin tooling
 - Can update data without full rebuild
+- Migration is verified — no silent data loss
 
 
 2.2 Build-Time Validation
@@ -108,7 +132,40 @@ Endpoints:
   POST /api/products/filter  (body: quiz answers, returns candidate IDs)
 
 
-3.2 Smart Pre-Filtering
+3.2 Security
+-------------
+
+Authentication & Authorization:
+- GET endpoints (/api/products/[category], /api/products/search) are public
+  read-only — no auth required.
+- POST /api/products/filter is public but requires input validation (see below).
+- Any future write endpoints (admin CRUD) require authenticated admin role via
+  the chosen auth provider (NextAuth/Clerk/Auth0).
+
+Input Validation & Sanitization:
+- POST /api/products/filter: Validate quiz answer payloads against a strict
+  Zod schema. Reject malformed requests, unexpected fields, and values outside
+  allowed enums. Sanitize string inputs to prevent injection.
+- GET /api/products/search: Validate and sanitize the `q` parameter (max
+  length, strip special characters, escape for search backend).
+
+Rate Limiting:
+- GET /api/products/search: Rate limit to prevent abuse (e.g., 30 req/min/IP).
+- POST /api/products/filter: Rate limit to prevent quiz-spam (e.g., 10 req/min/IP).
+- Options: Upstash Redis (edge-compatible), Cloudflare Rate Limiting (if using
+  CF Workers), or Vercel's built-in edge rate limiting.
+
+CORS & Headers:
+- Set explicit CORS policy: allow only the app's own origin in production.
+- Recommended headers for edge deployments: Content-Security-Policy, Strict-
+  Transport-Security (HSTS), X-Content-Type-Options: nosniff, X-Frame-Options.
+
+Monitoring & Logging:
+- Log request volumes, error rates, and latency per endpoint.
+- Alert on unusual traffic patterns (potential abuse or scraping).
+
+
+3.3 Smart Pre-Filtering
 ------------------------
 
 Instead of scoring ALL products client-side:
@@ -123,7 +180,7 @@ Benefits:
 - Works great on mobile and low-end devices
 
 
-3.3 Hosting Options
+3.4 Hosting Options
 --------------------
 
 | Platform           | Pros                                    | Cons                    |
@@ -201,20 +258,67 @@ Allow bulk editing via spreadsheet.
 Files to create:
 - scripts/import-csv.ts
 - scripts/export-csv.ts
+- docs/csv-format.md - Example CSV/YAML samples and field rules
+
+Cell Sanitization (sanitizeCell in import-csv.ts):
+- Neutralize formula injection for values starting with '=', '+', '-', '@'
+  by prefixing with a single quote or escaping.
+- Normalize/strip UTF-8 BOM from input files and unify line endings (CRLF → LF).
+
+Row Validation (validateRow in import-csv.ts):
+- Strict schema field checks against product Zod schemas.
+- URL format validation (and optional reachability check).
+- Price range sanity checks (min > 0, min < max, within category norms).
+- Required field enforcement (id, name, brand, category).
+- Duplicate product ID detection/handling (warn or reject).
+- Schema-versioning checks to detect field drift between CSV and current schema.
+
+Dry-Run / Preview Mode:
+- import-csv.ts --dry-run flag: Perform full validation without writing changes.
+- Produce a validation report (pass/fail per row, warnings, summary stats).
+- Exit with non-zero code if any validation errors found.
+
+Export (export-csv.ts):
+- Include all fields defined in the Zod schema.
+- Add header comments with schema version and export timestamp.
+- Document field rules alongside exports for reviewable commits.
 
 
 5.3 Admin UI (Optional)
 ------------------------
-Simple product editor within the app.
+Simple product editor within the app. Requires authentication and role-based
+authorization before any admin routes or components render.
 
 Files to create:
 - src/pages/admin/ProductList.tsx
 - src/pages/admin/ProductEditor.tsx
+- src/components/admin/AdminRouteGuard.tsx - Client-side auth/role gate
+
+Authentication & Authorization:
+- Require authenticated admin role via chosen provider (NextAuth/Clerk/Auth0)
+  before rendering admin routes/components.
+- AdminRouteGuard.tsx wraps all /admin/* routes — redirects unauthenticated
+  or non-admin users to login or 403 page.
+- Server-side guard checks on admin API endpoints (verify JWT/session and
+  admin role before processing any write request).
+
+Audit Logging:
+- Log all product edits: who (user ID), what (product ID + field), when
+  (timestamp), delta (old value → new value).
+- Persist audit logs to an auditable store (database table, append-only log
+  file, or external service like Datadog/Sentry).
+- Surface recent edit history in the Admin UI for accountability.
+
+Environment Isolation:
+- Gate admin routes behind a feature flag (e.g., VITE_ENABLE_ADMIN=true)
+  or build-time check so they are not exposed in unprotected production builds.
+- Admin bundle should be code-split so it's never downloaded by regular users.
 
 Features:
 - List all products with search/filter
 - Edit form with validation
 - Download as JSON for commit
+- View audit log of recent changes
 
 
 5.4 GitHub Actions CI
