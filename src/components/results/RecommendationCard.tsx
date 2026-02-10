@@ -395,18 +395,36 @@ const RecommendationCard = memo(function RecommendationCard({
         {/* Retailer buttons */}
         {(product.product_url || product.manufacturer_url || (product.retailer_urls && Object.keys(product.retailer_urls).length > 0)) && (
           <div className="flex flex-wrap items-center gap-2 pt-2">
-            {/* Amazon button */}
-            {product.product_url && (
-              <a
-                href={product.product_url}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-md text-sm font-medium text-white bg-[#FF9900] hover:bg-[#E68A00] transition-colors"
-              >
-                <ShoppingBag className="w-3.5 h-3.5" />
-                Amazon
-              </a>
-            )}
+            {/* Product URL button - Amazon-branded if amazon domain, neutral otherwise */}
+            {product.product_url && (() => {
+              const isAmazon = (() => {
+                try { return new URL(product.product_url!).hostname.includes("amazon."); }
+                catch { return false; }
+              })();
+              return isAmazon ? (
+                <a
+                  href={product.product_url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label={`View ${product.name} on Amazon`}
+                  className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-md text-sm font-medium text-white bg-[#FF9900] hover:bg-[#E68A00] transition-colors"
+                >
+                  <ShoppingBag className="w-3.5 h-3.5" />
+                  Amazon
+                </a>
+              ) : (
+                <a
+                  href={product.product_url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label={`View ${product.name} product page`}
+                  className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-md text-sm font-medium bg-secondary text-secondary-foreground hover:bg-secondary/80 transition-colors"
+                >
+                  <ExternalLink className="w-3.5 h-3.5" />
+                  View product
+                </a>
+              );
+            })()}
             
             {/* Manufacturer/Brand button */}
             {product.manufacturer_url && (
