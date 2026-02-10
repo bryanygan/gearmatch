@@ -16,7 +16,7 @@ const Hero = () => {
         <div className="grid grid-cols-12 gap-4 md:gap-6 items-center w-full max-w-7xl">
           
           {/* Left Column - Content */}
-          <div className="relative z-10 col-span-6 lg:col-span-5">
+          <div className="relative z-10 col-span-12 md:col-span-6 lg:col-span-5">
             {/* Badge */}
             <div className="inline-flex items-center gap-1.5 md:gap-2 px-2 md:px-3 py-1 md:py-1.5 rounded-full bg-secondary/80 border border-border mb-3 md:mb-5 animate-slide-up">
               <span className="w-1 md:w-1.5 h-1 md:h-1.5 rounded-full bg-primary animate-pulse-subtle" />
@@ -88,7 +88,7 @@ const Hero = () => {
           </div>
 
           {/* Right Column - Scrolling Product Grid */}
-          <div className="relative col-span-6 lg:col-span-7 h-full flex items-center justify-center">
+          <div className="relative col-span-12 md:col-span-6 lg:col-span-7 h-full flex items-center justify-center">
             <div className="relative w-full animate-fade-in" style={{ animationDelay: "0.2s" }}>
               {/* Glow effect behind grid */}
               <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-64 h-64 md:w-96 md:h-96 blur-3xl bg-primary/10 rounded-full pointer-events-none" />
