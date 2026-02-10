@@ -130,7 +130,7 @@ const ScrollingProductGrid = ({ skipAnimations = false }: ScrollingProductGridPr
 
   return (
     <div
-      className="scrolling-grid-container relative w-full h-[400px] sm:h-[450px] md:h-[500px] lg:h-[550px] overflow-hidden"
+      className="scrolling-grid-container relative w-full h-[280px] sm:h-[350px] md:h-[500px] lg:h-[550px] overflow-hidden"
       aria-hidden="true"
     >
       {/* Gradient overlays for fade effect at top and bottom */}
