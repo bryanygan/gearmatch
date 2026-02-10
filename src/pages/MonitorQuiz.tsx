@@ -1,6 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import QuizContainer from "@/components/quiz/QuizContainer";
 import { monitorQuestions, type ExtendedMonitorQuizAnswers } from "@/lib/quiz/questions";
+import { usePrefetchProducts } from "@/hooks/use-prefetch-products";
 
 /**
  * Monitor Quiz Page
@@ -10,6 +11,7 @@ import { monitorQuestions, type ExtendedMonitorQuizAnswers } from "@/lib/quiz/qu
  */
 const MonitorQuiz = () => {
   const navigate = useNavigate();
+  usePrefetchProducts("monitor");
 
   const handleComplete = (answers: ExtendedMonitorQuizAnswers) => {
     // Encode answers to URL parameters

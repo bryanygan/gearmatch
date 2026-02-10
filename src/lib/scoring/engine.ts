@@ -123,17 +123,17 @@ function scoreProduct<TAnswers, TProduct extends Product>(
  * @param options - Optional configuration
  * @returns Recommendation result with top picks and alternates
  */
-export function getMouseRecommendations(
+export async function getMouseRecommendations(
   answers: MouseQuizAnswers,
   options: RecommendationOptions = {}
-): RecommendationResult<MouseProduct> {
+): Promise<RecommendationResult<MouseProduct>> {
   const {
     minScore = 50,
     topPickCount = 3,
   } = options;
 
   // Get all mouse products
-  const products = getMouseProducts();
+  const products = await getMouseProducts();
 
   // Score all products
   const scoredProducts = scoreProducts(answers, products, mouseRules);
@@ -179,17 +179,17 @@ export function getMouseRecommendations(
  * @param options - Optional configuration
  * @returns Recommendation result with top picks and alternates
  */
-export function getAudioRecommendations(
+export async function getAudioRecommendations(
   answers: AudioQuizAnswers,
   options: RecommendationOptions = {}
-): RecommendationResult<AudioProduct> {
+): Promise<RecommendationResult<AudioProduct>> {
   const {
     minScore = 50,
     topPickCount = 3,
   } = options;
 
   // Get all audio products
-  const products = getAudioProducts();
+  const products = await getAudioProducts();
 
   // Score all products
   const scoredProducts = scoreProducts(answers, products, audioRules);
@@ -234,17 +234,17 @@ export function getAudioRecommendations(
  * @param options - Optional configuration
  * @returns Recommendation result with top picks and alternates
  */
-export function getKeyboardRecommendations(
+export async function getKeyboardRecommendations(
   answers: KeyboardQuizAnswers,
   options: RecommendationOptions = {}
-): RecommendationResult<KeyboardProduct> {
+): Promise<RecommendationResult<KeyboardProduct>> {
   const {
     minScore = 50,
     topPickCount = 3,
   } = options;
 
   // Get all keyboard products
-  const products = getKeyboardProducts();
+  const products = await getKeyboardProducts();
 
   // Score all products
   const scoredProducts = scoreProducts(answers, products, keyboardRules);
@@ -290,17 +290,17 @@ export function getKeyboardRecommendations(
  * @param options - Optional configuration
  * @returns Recommendation result with top picks and alternates
  */
-export function getMonitorRecommendations(
+export async function getMonitorRecommendations(
   answers: MonitorQuizAnswers,
   options: RecommendationOptions = {}
-): RecommendationResult<MonitorProduct> {
+): Promise<RecommendationResult<MonitorProduct>> {
   const {
     minScore = 50,
     topPickCount = 3,
   } = options;
 
   // Get all monitor products
-  const products = getMonitorProducts();
+  const products = await getMonitorProducts();
 
   // Score all products
   const scoredProducts = scoreProducts(answers, products, monitorRules);

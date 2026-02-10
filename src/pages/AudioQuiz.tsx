@@ -1,6 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import QuizContainer from "@/components/quiz/QuizContainer";
 import { audioQuestions, type ExtendedAudioQuizAnswers } from "@/lib/quiz/questions";
+import { usePrefetchProducts } from "@/hooks/use-prefetch-products";
 
 /**
  * Audio Quiz Page
@@ -10,6 +11,7 @@ import { audioQuestions, type ExtendedAudioQuizAnswers } from "@/lib/quiz/questi
  */
 const AudioQuiz = () => {
   const navigate = useNavigate();
+  usePrefetchProducts("audio");
 
   const handleComplete = (answers: ExtendedAudioQuizAnswers) => {
     // Encode answers to URL parameters

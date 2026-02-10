@@ -284,7 +284,7 @@ const createUltrawideMonitor = (
 // =============================================================================
 
 describe("getMonitorRecommendations", () => {
-  it("returns top picks and alternates for gaming use", () => {
+  it("returns top picks and alternates for gaming use", async () => {
     const answers: MonitorQuizAnswers = {
       "primary-use": ["gaming"],
       "size-preference": "standard",
@@ -295,7 +295,7 @@ describe("getMonitorRecommendations", () => {
       curved: "flat",
     };
 
-    const result = getMonitorRecommendations(answers);
+    const result = await getMonitorRecommendations(answers);
 
     expect(result.topPicks).toBeDefined();
     expect(result.alternates).toBeDefined();
@@ -303,7 +303,7 @@ describe("getMonitorRecommendations", () => {
     expect(result.filters.category).toBe("monitor");
   });
 
-  it("returns top picks and alternates for content creation", () => {
+  it("returns top picks and alternates for content creation", async () => {
     const answers: MonitorQuizAnswers = {
       "primary-use": ["content-creation"],
       "size-preference": "large",
@@ -312,14 +312,14 @@ describe("getMonitorRecommendations", () => {
       budget: ["premium"],
     };
 
-    const result = getMonitorRecommendations(answers);
+    const result = await getMonitorRecommendations(answers);
 
     expect(result.topPicks).toBeDefined();
     expect(result.alternates).toBeDefined();
     expect(result.totalEvaluated).toBeGreaterThan(0);
   });
 
-  it("returns top picks and alternates for office use", () => {
+  it("returns top picks and alternates for office use", async () => {
     const answers: MonitorQuizAnswers = {
       "primary-use": ["office"],
       "size-preference": "standard",
@@ -328,52 +328,52 @@ describe("getMonitorRecommendations", () => {
       features: ["ergonomics"],
     };
 
-    const result = getMonitorRecommendations(answers);
+    const result = await getMonitorRecommendations(answers);
 
     expect(result.topPicks).toBeDefined();
     expect(result.totalEvaluated).toBeGreaterThan(0);
   });
 
-  it("returns top picks for mixed use", () => {
+  it("returns top picks for mixed use", async () => {
     const answers: MonitorQuizAnswers = {
       "primary-use": ["mixed"],
       "size-preference": "any",
       resolution: "any",
     };
 
-    const result = getMonitorRecommendations(answers);
+    const result = await getMonitorRecommendations(answers);
 
     expect(result.topPicks).toBeDefined();
     expect(result.totalEvaluated).toBeGreaterThan(0);
   });
 
-  it("respects custom options", () => {
+  it("respects custom options", async () => {
     const answers: MonitorQuizAnswers = {
       "primary-use": ["gaming"],
       "size-preference": "standard",
       resolution: "1440p",
     };
 
-    const result = getMonitorRecommendations(answers, {
+    const result = await getMonitorRecommendations(answers, {
       topPickCount: 1,
     });
 
     expect(result.topPicks.length).toBeLessThanOrEqual(1);
   });
 
-  it("tracks total products evaluated", () => {
+  it("tracks total products evaluated", async () => {
     const answers: MonitorQuizAnswers = {
       "primary-use": ["gaming"],
       "size-preference": "standard",
       resolution: "1440p",
     };
 
-    const result = getMonitorRecommendations(answers);
+    const result = await getMonitorRecommendations(answers);
 
     expect(result.totalEvaluated).toBeGreaterThan(0);
   });
 
-  it("produces consistent scores for same inputs", () => {
+  it("produces consistent scores for same inputs", async () => {
     const answers: MonitorQuizAnswers = {
       "primary-use": ["gaming"],
       "size-preference": "standard",
@@ -383,8 +383,8 @@ describe("getMonitorRecommendations", () => {
       budget: ["mid-range"],
     };
 
-    const result1 = getMonitorRecommendations(answers);
-    const result2 = getMonitorRecommendations(answers);
+    const result1 = await getMonitorRecommendations(answers);
+    const result2 = await getMonitorRecommendations(answers);
 
     expect(result1.topPicks.map((p) => p.product.id)).toEqual(
       result2.topPicks.map((p) => p.product.id)
@@ -465,7 +465,7 @@ describe("scoreProducts with monitor products", () => {
     expect(scored).toEqual([]);
   });
 
-  it("all scores in breakdown sum correctly with weights", () => {
+  it("all scores in breakdown sum correctly with weights", async () => {
     const answers: MonitorQuizAnswers = {
       "primary-use": ["gaming"],
       "size-preference": "standard",
@@ -475,7 +475,7 @@ describe("scoreProducts with monitor products", () => {
       budget: ["mid-range"],
     };
 
-    const result = getMonitorRecommendations(answers);
+    const result = await getMonitorRecommendations(answers);
     const topPick = result.topPicks[0];
 
     if (topPick) {
@@ -1709,7 +1709,7 @@ describe("Monitor Edge Cases", () => {
 // =============================================================================
 
 describe("Monitor Match Reasons and Concerns", () => {
-  it("includes relevant match reasons for good matches", () => {
+  it("includes relevant match reasons for good matches", async () => {
     const answers: MonitorQuizAnswers = {
       "primary-use": ["gaming"],
       "size-preference": "standard",
@@ -1718,7 +1718,7 @@ describe("Monitor Match Reasons and Concerns", () => {
       "panel-type": ["ips"],
     };
 
-    const result = getMonitorRecommendations(answers);
+    const result = await getMonitorRecommendations(answers);
 
     if (result.topPicks.length > 0) {
       const topPick = result.topPicks[0];
@@ -1726,7 +1726,7 @@ describe("Monitor Match Reasons and Concerns", () => {
     }
   });
 
-  it("includes relevant concerns for mismatches", () => {
+  it("includes relevant concerns for mismatches", async () => {
     const answers: MonitorQuizAnswers = {
       "primary-use": ["gaming"],
       "size-preference": "compact",
@@ -1737,21 +1737,21 @@ describe("Monitor Match Reasons and Concerns", () => {
     };
 
     // Force a mismatch by requesting conflicting specs
-    const result = getMonitorRecommendations(answers);
+    const result = await getMonitorRecommendations(answers);
 
     // Some products may have concerns due to budget/feature mismatch
     const hasAnyConcerns = result.topPicks.some((p) => p.concerns.length > 0);
     expect(hasAnyConcerns).toBeDefined();
   });
 
-  it("provides useful breakdown details", () => {
+  it("provides useful breakdown details", async () => {
     const answers: MonitorQuizAnswers = {
       "primary-use": ["gaming"],
       "size-preference": "standard",
       resolution: "1440p",
     };
 
-    const result = getMonitorRecommendations(answers);
+    const result = await getMonitorRecommendations(answers);
 
     if (result.topPicks.length > 0) {
       const breakdown = result.topPicks[0].breakdown;
