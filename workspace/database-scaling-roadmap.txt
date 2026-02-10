@@ -37,26 +37,25 @@ Pain Points:
 PHASE 1: QUICK WINS (No Backend Required)
 ================================================================================
 
-1.1 Dynamic Imports by Category
+1.1 Dynamic Imports by Category                              ✅ DONE (423d10c)
 --------------------------------
 Split product loading so only the active category loads.
 
-Files to modify:
-- src/data/products.ts - Convert to async getters
-- src/hooks/use-recommendations.ts - Use React Query for async loading
-- src/lib/scoring/engine.ts - Make scoring functions async
+Changes made:
+- src/data/products.ts - Converted to async getters with dynamic import()
+- src/hooks/use-recommendations.ts - Replaced useMemo with useQuery
+- src/lib/scoring/engine.ts - Made scoring functions async
+- src/hooks/use-prefetch-products.ts - New prefetch hook
+- Quiz pages - Added prefetch calls
+- Test files - Updated with async/await
 
-Benefits: Users download 300KB (mice) instead of 2.6MB (all). Faster initial load.
+Result: Separate chunks per category (mice 244KB, audio 244KB, keyboards 525KB,
+monitors 913KB). 214 tests pass. Users download only the category they need.
 
 
-1.2 Enable React Query Caching
+1.2 Enable React Query Caching                               ✅ DONE (423d10c)
 -------------------------------
-TanStack Query is already installed but unused.
-
-Files to modify:
-- src/hooks/use-recommendations.ts - Replace useMemo with useQuery
-
-Benefits: Automatic caching, loading states, DevTools.
+Completed as part of 1.1 — useQuery with staleTime: Infinity, gcTime: 30min.
 
 ================================================================================
 PHASE 2: EXTRACT DATA TO JSON

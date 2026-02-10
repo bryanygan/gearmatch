@@ -3,10 +3,10 @@ import { useEffect } from "react";
 type ProductCategory = "mouse" | "audio" | "keyboard" | "monitor";
 
 const prefetchMap: Record<ProductCategory, () => Promise<unknown>> = {
-  mouse: () => import("@/data/products/mice"),
-  audio: () => import("@/data/products/audio"),
-  keyboard: () => import("@/data/products/keyboards"),
-  monitor: () => import("@/data/products/monitors"),
+  mouse: () => import("@/data/products/mice.json"),
+  audio: () => import("@/data/products/audio.json"),
+  keyboard: () => import("@/data/products/keyboards.json"),
+  monitor: () => import("@/data/products/monitors.json"),
 };
 
 /**

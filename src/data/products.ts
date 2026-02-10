@@ -1,7 +1,7 @@
 /**
  * Product Store
  *
- * Async product loaders that dynamically import category data on demand.
+ * Async product loaders that dynamically import category JSON data on demand.
  * Each category is loaded only when needed, enabling code splitting.
  */
 
@@ -23,30 +23,30 @@ export { isMonitorProduct } from "@/types/monitor";
  * The JS runtime caches import() calls, so repeated calls are instant.
  */
 export async function getMouseProducts(): Promise<MouseProduct[]> {
-  const { allMouseProducts } = await import("./products/mice");
-  return allMouseProducts;
+  const data = await import("./products/mice.json");
+  return data.default as MouseProduct[];
 }
 
 /**
  * Dynamically loads all audio products.
  */
 export async function getAudioProducts(): Promise<AudioProduct[]> {
-  const { allAudioProducts } = await import("./products/audio");
-  return allAudioProducts;
+  const data = await import("./products/audio.json");
+  return data.default as AudioProduct[];
 }
 
 /**
  * Dynamically loads all keyboard products.
  */
 export async function getKeyboardProducts(): Promise<KeyboardProduct[]> {
-  const { allKeyboardProducts } = await import("./products/keyboards");
-  return allKeyboardProducts;
+  const data = await import("./products/keyboards.json");
+  return data.default as KeyboardProduct[];
 }
 
 /**
  * Dynamically loads all monitor products.
  */
 export async function getMonitorProducts(): Promise<MonitorProduct[]> {
-  const { allMonitorProducts } = await import("./products/monitors");
-  return allMonitorProducts;
+  const data = await import("./products/monitors.json");
+  return data.default as MonitorProduct[];
 }
