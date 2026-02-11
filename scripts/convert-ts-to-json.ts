@@ -54,8 +54,6 @@ for (const cat of categories) {
     continue;
   }
 
-  console.log(`  Products: ${data.length}`);
-
   // Validate with Zod
   const result = cat.schema.safeParse(data);
   if (!result.success) {
@@ -68,10 +66,11 @@ for (const cat of categories) {
     continue;
   }
 
+  const validated = result.data as unknown[];
+  console.log(`  Products: ${validated.length}`);
   console.log(`  ✓ Validation passed`);
 
   // Rewrite with consistent formatting (use Zod-validated output to persist defaults/transforms)
-  const validated = result.data as unknown[];
   const output = JSON.stringify(validated, null, 2);
   fs.writeFileSync(filePath, output + "\n", "utf-8");
 

@@ -7,7 +7,7 @@
     "dev": "vite",
     "dev:api": "wrangler pages dev --proxy 8080 -- npm run dev",
     "build": "npm run copy:products && vite build",
-    "build:dev": "vite build --mode development",
+    "build:dev": "npm run copy:products && vite build --mode development",
     "lint": "eslint .",
     "preview": "vite preview",
     "copy:products": "mkdir -p public/data/products && cp src/data/products/*.json public/data/products/",

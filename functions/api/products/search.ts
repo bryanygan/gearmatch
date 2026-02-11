@@ -17,14 +17,14 @@ interface ProductRecord {
   [key: string]: unknown;
 }
 
-const VALID_CATEGORIES = ["mice", "keyboards", "audio", "monitors"] as const;
+const VALID_CATEGORIES = ["mouse", "keyboard", "audio", "monitor"] as const;
 type ValidCategory = (typeof VALID_CATEGORIES)[number];
 
 const CATEGORY_FILE_MAP: Record<ValidCategory, string> = {
-  mice: "mice.json",
-  keyboards: "keyboards.json",
+  mouse: "mice.json",
+  keyboard: "keyboards.json",
   audio: "audio.json",
-  monitors: "monitors.json",
+  monitor: "monitors.json",
 };
 
 async function fetchProducts(

@@ -62,6 +62,9 @@ export function useProductSearch(options?: {
   category?: Product["category"];
   limit?: number;
 }): UseProductSearchResult {
+  const category = options?.category;
+  const limit = options?.limit;
+
   const [query, setQuery] = useState("");
   const [debouncedQuery, setDebouncedQuery] = useState("");
 
@@ -72,8 +75,8 @@ export function useProductSearch(options?: {
 
   const results = useMemo(() => {
     if (debouncedQuery.length < 2) return [];
-    return searchProducts(debouncedQuery, options);
-  }, [debouncedQuery, options]);
+    return searchProducts(debouncedQuery, { category, limit });
+  }, [debouncedQuery, category, limit]);
 
   return {
     results,

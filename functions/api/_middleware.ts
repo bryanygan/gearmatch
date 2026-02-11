@@ -41,8 +41,10 @@ function checkRateLimit(ip: string, endpoint: string): { allowed: boolean; remai
 }
 
 function getRateLimitEndpoint(pathname: string): string | null {
-  if (pathname.includes("/search")) return "search";
-  if (pathname.includes("/filter")) return "filter";
+  const segments = pathname.split("/").filter(Boolean);
+  const last = segments[segments.length - 1];
+  if (last === "search") return "search";
+  if (last === "filter") return "filter";
   return null;
 }
 
