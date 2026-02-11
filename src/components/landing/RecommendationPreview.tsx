@@ -264,7 +264,7 @@ const RecommendationPreview = () => {
               <div
                 key={pack.id}
                 style={{ animationDelay: `${0.6 + index * 0.1}s` }}
-                className="animate-fade-in"
+                className={`animate-fade-in${index >= 2 ? " hidden sm:block" : ""}`}
               >
                 <PackCard pack={pack} />
               </div>
