@@ -1,9 +1,5 @@
 import { useMemo } from "react";
 
-interface ScrollingProductGridProps {
-  skipAnimations?: boolean;
-}
-
 // Product image data organized by category
 // Each image has base, @2x, and _large variants for responsive loading
 type ProductCategory = "mouse" | "headphone" | "keyboard" | "iem";
@@ -113,7 +109,7 @@ function getImageSrcSet(image: HeroImage): string {
   return `${base}/${name}.webp 1x, ${base}/${name}@2x.webp 2x`;
 }
 
-const ScrollingProductGrid = ({ skipAnimations = false }: ScrollingProductGridProps) => {
+const ScrollingProductGrid = () => {
   // Generate column images with stable randomization per session
   const columnData = useMemo(() => {
     // Use timestamp at component mount for session-unique seed
@@ -141,11 +137,9 @@ const ScrollingProductGrid = ({ skipAnimations = false }: ScrollingProductGridPr
       <div className="flex gap-2 sm:gap-3 md:gap-4 h-full justify-center px-2">
         {columnData.map(({ images }, columnIndex) => {
           const isScrollingUp = columnIndex % 2 === 1;
-          const animationClass = skipAnimations
-            ? ""
-            : isScrollingUp
-              ? "animate-scroll-up"
-              : "animate-scroll-down";
+          const animationClass = isScrollingUp
+            ? "animate-scroll-up"
+            : "animate-scroll-down";
 
           // Scale factor for outer columns (depth effect)
           const isOuterColumn = columnIndex === 0 || columnIndex === 3;
