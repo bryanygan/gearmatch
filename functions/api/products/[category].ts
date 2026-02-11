@@ -68,7 +68,15 @@ export const onRequestGet: PagesFunction<Env> = async (context) => {
     );
   }
 
-  const products: unknown[] = await assetResponse.json();
+  let products: unknown[];
+  try {
+    products = await assetResponse.json();
+  } catch {
+    return new Response(
+      JSON.stringify({ error: "Failed to parse product data" }),
+      { status: 500 }
+    );
+  }
   const totalProducts = products.length;
   const totalPages = Math.ceil(totalProducts / limit);
   const offset = (page - 1) * limit;

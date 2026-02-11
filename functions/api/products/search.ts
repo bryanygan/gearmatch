@@ -37,7 +37,11 @@ async function fetchProducts(
     new URL(`/data/products/${file}`, requestUrl)
   );
   if (!response.ok) return [];
-  return response.json() as Promise<ProductRecord[]>;
+  try {
+    return await response.json() as ProductRecord[];
+  } catch {
+    return [];
+  }
 }
 
 function matchesSearch(product: ProductRecord, terms: string[]): boolean {
@@ -120,7 +124,8 @@ export const onRequestGet: PagesFunction<Env> = async (context) => {
     JSON.stringify({
       data: allResults.slice(0, limit),
       query,
-      totalResults: allResults.length,
+      returnedResults: allResults.length,
+      hasMore: allResults.length >= limit,
       category: categoryParam || null,
     })
   );

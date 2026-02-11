@@ -24,7 +24,7 @@ import type { Product } from "@/types/products";
  * Initialize the Fuse.js search index by loading all product categories.
  * Should be triggered when the search dialog opens.
  */
-export function useInitSearchIndex() {
+export function useInitSearchIndex(options?: { enabled?: boolean }) {
   return useQuery({
     queryKey: ["search-index-init"],
     queryFn: async () => {
@@ -43,6 +43,7 @@ export function useInitSearchIndex() {
       ] as Product[]);
       return true;
     },
+    enabled: options?.enabled !== false,
     staleTime: Infinity,
     gcTime: Infinity,
   });
@@ -50,7 +51,6 @@ export function useInitSearchIndex() {
 
 export interface UseProductSearchResult {
   results: SearchResult[];
-  isIndexLoading: boolean;
   query: string;
   setQuery: (query: string) => void;
 }
@@ -64,7 +64,6 @@ export function useProductSearch(options?: {
 }): UseProductSearchResult {
   const [query, setQuery] = useState("");
   const [debouncedQuery, setDebouncedQuery] = useState("");
-  const { isLoading: isIndexLoading } = useInitSearchIndex();
 
   useEffect(() => {
     const timer = setTimeout(() => setDebouncedQuery(query), 150);
@@ -78,7 +77,6 @@ export function useProductSearch(options?: {
 
   return {
     results,
-    isIndexLoading,
     query,
     setQuery,
   };

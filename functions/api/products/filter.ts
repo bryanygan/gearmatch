@@ -125,6 +125,7 @@ function filterAudio(products: ProductRecord[], answers: Record<string, unknown>
       if (maxIdx !== null) {
         const priceTier = attrs.price_tier as string;
         const tierIdx = PRICE_TIER_ORDER.indexOf(priceTier as typeof PRICE_TIER_ORDER[number]);
+        if (tierIdx === -1) return false;
         if (tierIdx > maxIdx) return false;
       }
     }
@@ -147,6 +148,7 @@ function filterKeyboard(products: ProductRecord[], answers: Record<string, unkno
       if (maxIdx !== null) {
         const priceTier = attrs.price_tier as string;
         const tierIdx = PRICE_TIER_ORDER.indexOf(priceTier as typeof PRICE_TIER_ORDER[number]);
+        if (tierIdx === -1) return false;
         if (tierIdx > maxIdx) return false;
       }
     }
@@ -182,6 +184,7 @@ function filterMonitor(products: ProductRecord[], answers: Record<string, unknow
       if (maxIdx !== null) {
         const priceTier = attrs.price_tier as string;
         const tierIdx = PRICE_TIER_ORDER.indexOf(priceTier as typeof PRICE_TIER_ORDER[number]);
+        if (tierIdx === -1) return false;
         if (tierIdx > maxIdx) return false;
       }
     }
@@ -197,8 +200,6 @@ const CATEGORY_FILTERS: Record<FilterCategory, (products: ProductRecord[], answe
   monitor: filterMonitor,
 };
 
-const MIN_CANDIDATES = 10;
-
 export const onRequestPost: PagesFunction<Env> = async (context) => {
   // Parse request body
   let body: unknown;
@@ -207,7 +208,7 @@ export const onRequestPost: PagesFunction<Env> = async (context) => {
   } catch {
     return new Response(
       JSON.stringify({ error: "Invalid JSON body" }),
-      { status: 400 }
+      { status: 400, headers: { "Content-Type": "application/json" } }
     );
   }
 
@@ -219,7 +220,7 @@ export const onRequestPost: PagesFunction<Env> = async (context) => {
         error: "Invalid request",
         details: outerResult.error.issues,
       }),
-      { status: 400 }
+      { status: 400, headers: { "Content-Type": "application/json" } }
     );
   }
 
@@ -235,7 +236,7 @@ export const onRequestPost: PagesFunction<Env> = async (context) => {
         category,
         details: answersResult.error.issues,
       }),
-      { status: 400 }
+      { status: 400, headers: { "Content-Type": "application/json" } }
     );
   }
 
@@ -248,7 +249,7 @@ export const onRequestPost: PagesFunction<Env> = async (context) => {
   if (!assetResponse.ok) {
     return new Response(
       JSON.stringify({ error: "Product data not found" }),
-      { status: 404 }
+      { status: 404, headers: { "Content-Type": "application/json" } }
     );
   }
 
@@ -257,12 +258,7 @@ export const onRequestPost: PagesFunction<Env> = async (context) => {
 
   // Apply hard filters
   const filterFn = CATEGORY_FILTERS[category];
-  let candidates = filterFn(allProducts, answersResult.data as Record<string, unknown>);
-
-  // Fallback: if too few candidates, return all products
-  if (candidates.length < MIN_CANDIDATES) {
-    candidates = allProducts;
-  }
+  const candidates = filterFn(allProducts, answersResult.data as Record<string, unknown>);
 
   // Cap at maxCandidates
   const cappedCandidates = candidates.slice(0, maxCandidates);
@@ -274,6 +270,7 @@ export const onRequestPost: PagesFunction<Env> = async (context) => {
       totalCandidates: candidates.length,
       returnedCandidates: cappedCandidates.length,
       category,
-    })
+    }),
+    { headers: { "Content-Type": "application/json" } }
   );
 };

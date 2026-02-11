@@ -55,7 +55,7 @@ monitors 913KB). 214 tests pass. Users download only the category they need.
 
 1.2 Enable React Query Caching                               ✅ DONE (423d10c)
 -------------------------------
-Completed as part of 1.1 — useQuery with staleTime: Infinity, gcTime: 30min.
+Completed as part of 1.1 — useQuery with staleTime: Infinity, gcTime: 30 minutes.
 
 ================================================================================
 PHASE 2: EXTRACT DATA TO JSON

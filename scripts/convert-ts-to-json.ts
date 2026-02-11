@@ -43,8 +43,16 @@ for (const cat of categories) {
   console.log(`\n=== ${cat.name} ===`);
 
   const filePath = path.join(dataDir, cat.file);
-  const raw = fs.readFileSync(filePath, "utf-8");
-  const data = JSON.parse(raw) as unknown[];
+  let raw: string;
+  let data: unknown[];
+  try {
+    raw = fs.readFileSync(filePath, "utf-8");
+    data = JSON.parse(raw) as unknown[];
+  } catch (err) {
+    hasErrors = true;
+    console.error(`  ❌ Failed to read/parse ${cat.file}: ${err}`);
+    continue;
+  }
 
   console.log(`  Products: ${data.length}`);
 

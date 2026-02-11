@@ -143,9 +143,7 @@ describe("searchProducts", () => {
     expect(searchProducts("")).toHaveLength(0);
   });
 
-  it("returns empty before index is built", () => {
-    // This tests the guard clause — results are still returned
-    // since we initialized in beforeAll. Testing the "no match" case instead.
+  it("returns empty for non-matching query", () => {
     const results = searchProducts("nonexistentproductxyz123");
     expect(results).toHaveLength(0);
   });

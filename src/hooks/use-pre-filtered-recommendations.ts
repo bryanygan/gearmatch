@@ -15,6 +15,7 @@ import {
   getMonitorProducts,
 } from "@/data/products";
 import { scoreProducts } from "@/lib/scoring/engine";
+import { applyThresholdAndSplit } from "@/lib/scoring/threshold";
 import { mouseRules } from "@/lib/scoring/mouse-rules";
 import { audioRules } from "@/lib/scoring/audio-rules";
 import { keyboardRules } from "@/lib/scoring/keyboard-rules";
@@ -29,7 +30,6 @@ import type {
   RecommendationResult,
   RecommendationOptions,
   ScoringRule,
-  ScoredProduct,
 } from "@/lib/scoring/types";
 import type { FilterRequest } from "@/lib/api/types";
 
@@ -80,6 +80,7 @@ async function getPreFilteredRecommendations<T extends Product>(
   const { minScore = 50, topPickCount = 3 } = options;
 
   let products = (await config.getProducts()) as T[];
+  const totalEvaluated = products.length;
 
   // Attempt API pre-filter if feature flag is enabled
   if (USE_API_PREFILTER) {
@@ -103,26 +104,13 @@ async function getPreFilteredRecommendations<T extends Product>(
     config.rules as ScoringRule<AnyQuizAnswers, T>[]
   );
 
-  // Apply minimum score threshold
-  let qualifying = scoredProducts.filter((sp) => sp.score >= minScore);
-
-  if (qualifying.length === 0 && scoredProducts.length > 0) {
-    qualifying = scoredProducts.slice(0, 5);
-    qualifying.forEach((sp) => {
-      if (!sp.concerns.includes("Lower match score - may not be an ideal fit")) {
-        sp.concerns.unshift("Lower match score - may not be an ideal fit");
-      }
-    });
-  }
-
-  const topPicks = qualifying.slice(0, topPickCount);
-  const alternates = qualifying.slice(topPickCount);
+  const { topPicks, alternates } = applyThresholdAndSplit(scoredProducts, minScore, topPickCount);
 
   return {
     topPicks,
     alternates,
     filters: { category },
-    totalEvaluated: products.length,
+    totalEvaluated,
   };
 }
 

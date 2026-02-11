@@ -6,6 +6,7 @@
  */
 
 import { scoreProducts } from "../engine";
+import { applyThresholdAndSplit } from "../threshold";
 import { mouseRules } from "../mouse-rules";
 import { audioRules } from "../audio-rules";
 import { keyboardRules } from "../keyboard-rules";
@@ -59,7 +60,15 @@ self.onmessage = async (event: MessageEvent<WorkerRequest>) => {
   const { minScore = 50, topPickCount = 3 } = options;
 
   try {
-    const config = CONFIGS[category];
+    const config = CONFIGS[category as keyof typeof CONFIGS];
+    if (!config) {
+      (self as unknown as Worker).postMessage({
+        id,
+        type: "error",
+        error: `Invalid category: ${category}`,
+      } satisfies WorkerResponse);
+      return;
+    }
     const allProducts = await config.load();
 
     // Pre-filter
@@ -77,27 +86,17 @@ self.onmessage = async (event: MessageEvent<WorkerRequest>) => {
     );
 
     // Apply minimum score + split
-    let qualifying = scoredProducts.filter((sp) => sp.score >= minScore);
-    if (qualifying.length === 0 && scoredProducts.length > 0) {
-      qualifying = scoredProducts.slice(0, 5);
-      qualifying.forEach((sp) => {
-        if (
-          !sp.concerns.includes(
-            "Lower match score - may not be an ideal fit"
-          )
-        ) {
-          sp.concerns.unshift("Lower match score - may not be an ideal fit");
-        }
-      });
-    }
+    const { topPicks, alternates } = applyThresholdAndSplit(scoredProducts, minScore, topPickCount);
 
-    const topPicks = qualifying.slice(0, topPickCount);
-    const alternates = qualifying.slice(topPickCount);
+    const wireless =
+      category === "mouse" ? (answers.wireless === "wireless" ? true : undefined) :
+      category === "keyboard" ? (answers.connectivity === "wireless-essential" ? true : undefined) :
+      undefined;
 
     const result = {
       topPicks,
       alternates,
-      filters: { category },
+      filters: { category, wireless },
       totalEvaluated: allProducts.length,
     };
 

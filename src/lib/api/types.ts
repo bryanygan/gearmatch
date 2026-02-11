@@ -23,7 +23,8 @@ export interface ProductsResponse {
 export interface SearchResponse {
   data: Product[];
   query: string;
-  totalResults: number;
+  returnedResults: number;
+  hasMore: boolean;
   category: string | null;
 }
 

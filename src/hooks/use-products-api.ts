@@ -20,7 +20,7 @@ export function useProductsByCategory(
   });
 }
 
-export function useProductSearch(query: string, category?: string) {
+export function useApiProductSearch(query: string, category?: string) {
   return useQuery({
     queryKey: ["api-search", query, category],
     queryFn: () => productsApi.search(query, category),

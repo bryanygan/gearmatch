@@ -17,6 +17,7 @@ import { mousePreFilters } from "@/lib/filtering/mouse-filters";
 import { audioPreFilters } from "@/lib/filtering/audio-filters";
 import { keyboardPreFilters } from "@/lib/filtering/keyboard-filters";
 import { monitorPreFilters } from "@/lib/filtering/monitor-filters";
+import { applyThresholdAndSplit } from "./threshold";
 import type {
   MouseQuizAnswers,
   AudioQuizAnswers,
@@ -145,25 +146,7 @@ export async function getMouseRecommendations(
 
   // Score remaining products
   const scoredProducts = scoreProducts(answers, products, mouseRules);
-
-  // Filter by minimum score, but keep at least some results
-  let qualifyingProducts = scoredProducts.filter((sp) => sp.score >= minScore);
-
-  // If no products meet minimum score, include best available with warnings
-  if (qualifyingProducts.length === 0 && scoredProducts.length > 0) {
-    // Take top 5 products even if below threshold
-    qualifyingProducts = scoredProducts.slice(0, 5);
-    // Add a concern about low match scores
-    qualifyingProducts.forEach((sp) => {
-      if (!sp.concerns.includes("Lower match score - may not be an ideal fit")) {
-        sp.concerns.unshift("Lower match score - may not be an ideal fit");
-      }
-    });
-  }
-
-  // Split into top picks and all remaining alternates
-  const topPicks = qualifyingProducts.slice(0, topPickCount);
-  const alternates = qualifyingProducts.slice(topPickCount);
+  const { topPicks, alternates } = applyThresholdAndSplit(scoredProducts, minScore, topPickCount);
 
   return {
     topPicks,
@@ -204,25 +187,7 @@ export async function getAudioRecommendations(
 
   // Score remaining products
   const scoredProducts = scoreProducts(answers, products, audioRules);
-
-  // Filter by minimum score, but keep at least some results
-  let qualifyingProducts = scoredProducts.filter((sp) => sp.score >= minScore);
-
-  // If no products meet minimum score, include best available with warnings
-  if (qualifyingProducts.length === 0 && scoredProducts.length > 0) {
-    // Take top 5 products even if below threshold
-    qualifyingProducts = scoredProducts.slice(0, 5);
-    // Add a concern about low match scores
-    qualifyingProducts.forEach((sp) => {
-      if (!sp.concerns.includes("Lower match score - may not be an ideal fit")) {
-        sp.concerns.unshift("Lower match score - may not be an ideal fit");
-      }
-    });
-  }
-
-  // Split into top picks and all remaining alternates
-  const topPicks = qualifyingProducts.slice(0, topPickCount);
-  const alternates = qualifyingProducts.slice(topPickCount);
+  const { topPicks, alternates } = applyThresholdAndSplit(scoredProducts, minScore, topPickCount);
 
   return {
     topPicks,
@@ -262,25 +227,7 @@ export async function getKeyboardRecommendations(
 
   // Score remaining products
   const scoredProducts = scoreProducts(answers, products, keyboardRules);
-
-  // Filter by minimum score, but keep at least some results
-  let qualifyingProducts = scoredProducts.filter((sp) => sp.score >= minScore);
-
-  // If no products meet minimum score, include best available with warnings
-  if (qualifyingProducts.length === 0 && scoredProducts.length > 0) {
-    // Take top 5 products even if below threshold
-    qualifyingProducts = scoredProducts.slice(0, 5);
-    // Add a concern about low match scores
-    qualifyingProducts.forEach((sp) => {
-      if (!sp.concerns.includes("Lower match score - may not be an ideal fit")) {
-        sp.concerns.unshift("Lower match score - may not be an ideal fit");
-      }
-    });
-  }
-
-  // Split into top picks and all remaining alternates
-  const topPicks = qualifyingProducts.slice(0, topPickCount);
-  const alternates = qualifyingProducts.slice(topPickCount);
+  const { topPicks, alternates } = applyThresholdAndSplit(scoredProducts, minScore, topPickCount);
 
   return {
     topPicks,
@@ -321,25 +268,7 @@ export async function getMonitorRecommendations(
 
   // Score remaining products
   const scoredProducts = scoreProducts(answers, products, monitorRules);
-
-  // Filter by minimum score, but keep at least some results
-  let qualifyingProducts = scoredProducts.filter((sp) => sp.score >= minScore);
-
-  // If no products meet minimum score, include best available with warnings
-  if (qualifyingProducts.length === 0 && scoredProducts.length > 0) {
-    // Take top 5 products even if below threshold
-    qualifyingProducts = scoredProducts.slice(0, 5);
-    // Add a concern about low match scores
-    qualifyingProducts.forEach((sp) => {
-      if (!sp.concerns.includes("Lower match score - may not be an ideal fit")) {
-        sp.concerns.unshift("Lower match score - may not be an ideal fit");
-      }
-    });
-  }
-
-  // Split into top picks and all remaining alternates
-  const topPicks = qualifyingProducts.slice(0, topPickCount);
-  const alternates = qualifyingProducts.slice(topPickCount);
+  const { topPicks, alternates } = applyThresholdAndSplit(scoredProducts, minScore, topPickCount);
 
   return {
     topPicks,

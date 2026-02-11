@@ -10,7 +10,7 @@ import {
 } from "@/components/ui/command";
 import { Badge } from "@/components/ui/badge";
 import { Mouse, Headphones, Keyboard, Monitor } from "lucide-react";
-import { useProductSearch } from "@/hooks/use-product-search";
+import { useProductSearch, useInitSearchIndex } from "@/hooks/use-product-search";
 import type { SearchableProduct } from "@/lib/search";
 
 const CATEGORY_ICONS = {
@@ -30,7 +30,8 @@ const CATEGORY_LABELS = {
 export function SearchBar() {
   const [open, setOpen] = useState(false);
   const navigate = useNavigate();
-  const { results, isIndexLoading, query, setQuery } = useProductSearch({
+  const { isLoading: isIndexLoading } = useInitSearchIndex({ enabled: open });
+  const { results, query, setQuery } = useProductSearch({
     limit: 15,
   });
 

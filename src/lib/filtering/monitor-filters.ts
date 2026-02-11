@@ -24,18 +24,29 @@ export const resolutionFilter: PreFilter<
 };
 
 /**
- * Eliminate non-ultrawide monitors when user specifically wants ultrawide.
+ * Eliminate monitors outside the user's size preference (±1 step).
+ * Matches server-side filterMonitor/getNeighborValues logic.
  */
+const SIZE_CLASS_ORDER = ["compact", "standard", "large", "ultrawide", "super_ultrawide"];
+
+function getNeighborValues(ordered: string[], target: string): Set<string> {
+  const idx = ordered.indexOf(target);
+  if (idx === -1) return new Set(ordered);
+  const result = new Set<string>();
+  if (idx > 0) result.add(ordered[idx - 1]);
+  result.add(ordered[idx]);
+  if (idx < ordered.length - 1) result.add(ordered[idx + 1]);
+  return result;
+}
+
 export const sizeFilter: PreFilter<MonitorQuizAnswers, MonitorProduct> = (
   answers,
   product
 ) => {
-  if (answers["size-preference"] === "ultrawide") {
-    return ["ultrawide", "super_ultrawide"].includes(
-      product.core_attributes.monitor_size_class
-    );
-  }
-  return true;
+  const pref = answers["size-preference"];
+  if (!pref || pref === "any") return true;
+  const allowed = getNeighborValues(SIZE_CLASS_ORDER, pref);
+  return allowed.has(product.core_attributes.monitor_size_class);
 };
 
 export const monitorPreFilters: PreFilter<

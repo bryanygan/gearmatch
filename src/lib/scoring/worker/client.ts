@@ -46,6 +46,7 @@ function getWorker(): Worker {
         handler.reject(new Error(`Worker error: ${err.message}`));
         pending.delete(id);
       }
+      worker = null;
     };
   }
   return worker;

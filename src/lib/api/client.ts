@@ -66,7 +66,7 @@ export const productsApi = {
   ): Promise<SearchResponse> {
     const params = new URLSearchParams({ q: query });
     if (category) params.set("category", category);
-    if (limit) params.set("limit", String(limit));
+    if (limit !== undefined) params.set("limit", String(limit));
     return fetchJson<SearchResponse>(
       `${API_BASE}/search?${params}`
     );

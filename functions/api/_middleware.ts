@@ -71,17 +71,18 @@ export const onRequest: PagesFunction<Env> = async (context) => {
     const { allowed, remaining } = checkRateLimit(ip, endpoint);
 
     if (!allowed) {
-      return new Response(
+      const res = new Response(
         JSON.stringify({ error: "Too many requests", retryAfterSeconds: 60 }),
         {
           status: 429,
           headers: {
             "Content-Type": "application/json",
             "Retry-After": "60",
-            "Access-Control-Allow-Origin": origin,
           },
         }
       );
+      addSecurityHeaders(res, origin);
+      return res;
     }
 
     // Attach rate limit info to pass downstream (via headers on response)

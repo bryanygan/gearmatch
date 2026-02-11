@@ -394,10 +394,12 @@ describe("Monitor Pre-Filters", () => {
       expect(sizeFilter(answers, createMockMonitor({ monitor_size_class: "standard" }))).toBe(false);
     });
 
-    it("keeps all when user selects standard", () => {
+    it("keeps neighbors when user selects standard", () => {
       const answers = { ...baseMonitorAnswers, "size-preference": "standard" as const };
+      expect(sizeFilter(answers, createMockMonitor({ monitor_size_class: "compact" }))).toBe(true);
       expect(sizeFilter(answers, createMockMonitor({ monitor_size_class: "standard" }))).toBe(true);
-      expect(sizeFilter(answers, createMockMonitor({ monitor_size_class: "ultrawide" }))).toBe(true);
+      expect(sizeFilter(answers, createMockMonitor({ monitor_size_class: "large" }))).toBe(true);
+      expect(sizeFilter(answers, createMockMonitor({ monitor_size_class: "ultrawide" }))).toBe(false);
     });
   });
 });
