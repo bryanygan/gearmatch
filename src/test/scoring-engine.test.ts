@@ -314,7 +314,7 @@ describe("scoreProducts", () => {
 // =============================================================================
 
 describe("getMouseRecommendations", () => {
-  it("returns top picks and alternates", () => {
+  it("returns top picks and alternates", async () => {
     const answers: MouseQuizAnswers = {
       "hand-size": "medium",
       "grip-style": ["claw"],
@@ -323,14 +323,14 @@ describe("getMouseRecommendations", () => {
       "primary-use": ["precision"],
     };
 
-    const result = getMouseRecommendations(answers);
+    const result = await getMouseRecommendations(answers);
 
     expect(result.topPicks).toBeDefined();
     expect(result.alternates).toBeDefined();
     expect(result.topPicks.length).toBeLessThanOrEqual(3);
   });
 
-  it("respects custom options", () => {
+  it("respects custom options", async () => {
     const answers: MouseQuizAnswers = {
       "hand-size": "medium",
       "grip-style": ["palm"],
@@ -339,14 +339,14 @@ describe("getMouseRecommendations", () => {
       "primary-use": ["mixed"],
     };
 
-    const result = getMouseRecommendations(answers, {
+    const result = await getMouseRecommendations(answers, {
       topPickCount: 1,
     });
 
     expect(result.topPicks.length).toBeLessThanOrEqual(1);
   });
 
-  it("includes filters in result", () => {
+  it("includes filters in result", async () => {
     const answers: MouseQuizAnswers = {
       "hand-size": "large",
       "grip-style": ["palm"],
@@ -355,13 +355,13 @@ describe("getMouseRecommendations", () => {
       "primary-use": ["productivity"],
     };
 
-    const result = getMouseRecommendations(answers);
+    const result = await getMouseRecommendations(answers);
 
     expect(result.filters.category).toBe("mouse");
     expect(result.filters.wireless).toBe(true);
   });
 
-  it("tracks total products evaluated", () => {
+  it("tracks total products evaluated", async () => {
     const answers: MouseQuizAnswers = {
       "hand-size": "medium",
       "grip-style": ["claw"],
@@ -370,12 +370,12 @@ describe("getMouseRecommendations", () => {
       "primary-use": ["precision"],
     };
 
-    const result = getMouseRecommendations(answers);
+    const result = await getMouseRecommendations(answers);
 
     expect(result.totalEvaluated).toBeGreaterThan(0);
   });
 
-  it("scores palm grip large hands appropriately", () => {
+  it("scores palm grip large hands appropriately", async () => {
     const answers: MouseQuizAnswers = {
       "hand-size": "large",
       "grip-style": ["palm"],
@@ -384,14 +384,14 @@ describe("getMouseRecommendations", () => {
       "primary-use": ["mixed"],
     };
 
-    const result = getMouseRecommendations(answers);
+    const result = await getMouseRecommendations(answers);
 
     // Top picks should have reasonable scores
     expect(result.topPicks.length).toBeGreaterThan(0);
     expect(result.topPicks[0].score).toBeGreaterThan(50);
   });
 
-  it("handles ultralight preference correctly", () => {
+  it("handles ultralight preference correctly", async () => {
     const answers: MouseQuizAnswers = {
       "hand-size": "medium",
       "grip-style": ["claw"],
@@ -400,7 +400,7 @@ describe("getMouseRecommendations", () => {
       "primary-use": ["precision"],
     };
 
-    const result = getMouseRecommendations(answers);
+    const result = await getMouseRecommendations(answers);
 
     // Check that breakdown includes weight match info
     const topPick = result.topPicks[0];
@@ -413,7 +413,7 @@ describe("getMouseRecommendations", () => {
 // =============================================================================
 
 describe("getAudioRecommendations", () => {
-  it("returns top picks and alternates", () => {
+  it("returns top picks and alternates", async () => {
     const answers: AudioQuizAnswers = {
       "primary-use": ["competitive"],
       "form-factor": ["over-ear"],
@@ -422,13 +422,13 @@ describe("getAudioRecommendations", () => {
       budget: ["mid-range"],
     };
 
-    const result = getAudioRecommendations(answers);
+    const result = await getAudioRecommendations(answers);
 
     expect(result.topPicks).toBeDefined();
     expect(result.alternates).toBeDefined();
   });
 
-  it("handles IEM preference", () => {
+  it("handles IEM preference", async () => {
     const answers: AudioQuizAnswers = {
       "primary-use": ["immersive"],
       "form-factor": ["iem"],
@@ -437,13 +437,13 @@ describe("getAudioRecommendations", () => {
       budget: ["premium"],
     };
 
-    const result = getAudioRecommendations(answers);
+    const result = await getAudioRecommendations(answers);
 
     expect(result.filters.category).toBe("audio");
     expect(result.totalEvaluated).toBeGreaterThan(0);
   });
 
-  it("handles streaming use case with mic priority", () => {
+  it("handles streaming use case with mic priority", async () => {
     const answers: AudioQuizAnswers = {
       "primary-use": ["streaming"],
       "form-factor": ["over-ear"],
@@ -452,7 +452,7 @@ describe("getAudioRecommendations", () => {
       budget: ["premium"],
     };
 
-    const result = getAudioRecommendations(answers);
+    const result = await getAudioRecommendations(answers);
 
     // Streaming should prioritize products with mics
     if (result.topPicks.length > 0) {
@@ -461,7 +461,7 @@ describe("getAudioRecommendations", () => {
     }
   });
 
-  it("handles budget preference", () => {
+  it("handles budget preference", async () => {
     const answers: AudioQuizAnswers = {
       "primary-use": ["mixed"],
       "form-factor": ["iem"],
@@ -470,7 +470,7 @@ describe("getAudioRecommendations", () => {
       budget: ["budget"],
     };
 
-    const result = getAudioRecommendations(answers);
+    const result = await getAudioRecommendations(answers);
 
     if (result.topPicks.length > 0) {
       expect(result.topPicks[0].breakdown["Budget"]).toBeDefined();
@@ -845,7 +845,7 @@ describe("Edge Cases", () => {
     expect(typeof scored[0].score).toBe("number");
   });
 
-  it("produces consistent scores for same inputs", () => {
+  it("produces consistent scores for same inputs", async () => {
     const answers: MouseQuizAnswers = {
       "hand-size": "medium",
       "grip-style": ["palm"],
@@ -854,8 +854,8 @@ describe("Edge Cases", () => {
       "primary-use": ["precision"],
     };
 
-    const result1 = getMouseRecommendations(answers);
-    const result2 = getMouseRecommendations(answers);
+    const result1 = await getMouseRecommendations(answers);
+    const result2 = await getMouseRecommendations(answers);
 
     expect(result1.topPicks.map((p) => p.product.id)).toEqual(
       result2.topPicks.map((p) => p.product.id)
@@ -865,7 +865,7 @@ describe("Edge Cases", () => {
     );
   });
 
-  it("all scores in breakdown sum correctly with weights", () => {
+  it("all scores in breakdown sum correctly with weights", async () => {
     const answers: MouseQuizAnswers = {
       "hand-size": "medium",
       "grip-style": ["claw"],
@@ -874,7 +874,7 @@ describe("Edge Cases", () => {
       "primary-use": ["precision"],
     };
 
-    const result = getMouseRecommendations(answers);
+    const result = await getMouseRecommendations(answers);
     const topPick = result.topPicks[0];
 
     if (topPick) {

@@ -139,7 +139,7 @@ const createProductivityKeyboard = (
 // =============================================================================
 
 describe("getKeyboardRecommendations", () => {
-  it("returns top picks and alternates for competitive gaming", () => {
+  it("returns top picks and alternates for competitive gaming", async () => {
     const answers: KeyboardQuizAnswers = {
       "primary-use": ["competitive-gaming"],
       "form-factor": ["tkl"],
@@ -150,7 +150,7 @@ describe("getKeyboardRecommendations", () => {
       budget: ["premium"],
     };
 
-    const result = getKeyboardRecommendations(answers);
+    const result = await getKeyboardRecommendations(answers);
 
     expect(result.topPicks).toBeDefined();
     expect(result.alternates).toBeDefined();
@@ -158,7 +158,7 @@ describe("getKeyboardRecommendations", () => {
     expect(result.filters.category).toBe("keyboard");
   });
 
-  it("returns top picks and alternates for productivity", () => {
+  it("returns top picks and alternates for productivity", async () => {
     const answers: KeyboardQuizAnswers = {
       "primary-use": ["productivity"],
       "form-factor": ["full-size"],
@@ -169,14 +169,14 @@ describe("getKeyboardRecommendations", () => {
       budget: ["mid-range"],
     };
 
-    const result = getKeyboardRecommendations(answers);
+    const result = await getKeyboardRecommendations(answers);
 
     expect(result.topPicks).toBeDefined();
     expect(result.alternates).toBeDefined();
     expect(result.totalEvaluated).toBeGreaterThan(0);
   });
 
-  it("returns top picks and alternates for programming", () => {
+  it("returns top picks and alternates for programming", async () => {
     const answers: KeyboardQuizAnswers = {
       "primary-use": ["programming"],
       "form-factor": ["75-percent"],
@@ -187,13 +187,13 @@ describe("getKeyboardRecommendations", () => {
       budget: ["premium"],
     };
 
-    const result = getKeyboardRecommendations(answers);
+    const result = await getKeyboardRecommendations(answers);
 
     expect(result.topPicks).toBeDefined();
     expect(result.totalEvaluated).toBeGreaterThan(0);
   });
 
-  it("respects custom options", () => {
+  it("respects custom options", async () => {
     const answers: KeyboardQuizAnswers = {
       "primary-use": ["casual-gaming"],
       "form-factor": ["60-65-percent"],
@@ -204,14 +204,14 @@ describe("getKeyboardRecommendations", () => {
       budget: ["budget"],
     };
 
-    const result = getKeyboardRecommendations(answers, {
+    const result = await getKeyboardRecommendations(answers, {
       topPickCount: 1,
     });
 
     expect(result.topPicks.length).toBeLessThanOrEqual(1);
   });
 
-  it("tracks total products evaluated", () => {
+  it("tracks total products evaluated", async () => {
     const answers: KeyboardQuizAnswers = {
       "primary-use": ["competitive-gaming"],
       "form-factor": ["tkl"],
@@ -222,12 +222,12 @@ describe("getKeyboardRecommendations", () => {
       budget: ["premium"],
     };
 
-    const result = getKeyboardRecommendations(answers);
+    const result = await getKeyboardRecommendations(answers);
 
     expect(result.totalEvaluated).toBeGreaterThan(0);
   });
 
-  it("produces consistent scores for same inputs", () => {
+  it("produces consistent scores for same inputs", async () => {
     const answers: KeyboardQuizAnswers = {
       "primary-use": ["competitive-gaming"],
       "form-factor": ["tkl"],
@@ -238,8 +238,8 @@ describe("getKeyboardRecommendations", () => {
       budget: ["premium"],
     };
 
-    const result1 = getKeyboardRecommendations(answers);
-    const result2 = getKeyboardRecommendations(answers);
+    const result1 = await getKeyboardRecommendations(answers);
+    const result2 = await getKeyboardRecommendations(answers);
 
     expect(result1.topPicks.map((p) => p.product.id)).toEqual(
       result2.topPicks.map((p) => p.product.id)
@@ -249,7 +249,7 @@ describe("getKeyboardRecommendations", () => {
     );
   });
 
-  it("includes filters for wireless preference", () => {
+  it("includes filters for wireless preference", async () => {
     const answers: KeyboardQuizAnswers = {
       "primary-use": ["programming"],
       "form-factor": ["75-percent"],
@@ -260,7 +260,7 @@ describe("getKeyboardRecommendations", () => {
       budget: ["premium"],
     };
 
-    const result = getKeyboardRecommendations(answers);
+    const result = await getKeyboardRecommendations(answers);
 
     expect(result.filters.category).toBe("keyboard");
     expect(result.filters.wireless).toBe(true);
@@ -353,7 +353,7 @@ describe("scoreProducts with keyboard products", () => {
     expect(scored).toEqual([]);
   });
 
-  it("all scores in breakdown sum correctly with weights", () => {
+  it("all scores in breakdown sum correctly with weights", async () => {
     const answers: KeyboardQuizAnswers = {
       "primary-use": ["competitive-gaming"],
       "form-factor": ["tkl"],
@@ -364,7 +364,7 @@ describe("scoreProducts with keyboard products", () => {
       budget: ["premium"],
     };
 
-    const result = getKeyboardRecommendations(answers);
+    const result = await getKeyboardRecommendations(answers);
     const topPick = result.topPicks[0];
 
     if (topPick) {
@@ -1305,7 +1305,7 @@ describe("Keyboard Edge Cases", () => {
 // =============================================================================
 
 describe("Keyboard Match Reasons and Concerns", () => {
-  it("includes relevant match reasons for good matches", () => {
+  it("includes relevant match reasons for good matches", async () => {
     const answers: KeyboardQuizAnswers = {
       "primary-use": ["competitive-gaming"],
       "form-factor": ["tkl"],
@@ -1316,7 +1316,7 @@ describe("Keyboard Match Reasons and Concerns", () => {
       budget: ["premium"],
     };
 
-    const result = getKeyboardRecommendations(answers);
+    const result = await getKeyboardRecommendations(answers);
 
     if (result.topPicks.length > 0) {
       const topPick = result.topPicks[0];
@@ -1324,7 +1324,7 @@ describe("Keyboard Match Reasons and Concerns", () => {
     }
   });
 
-  it("includes relevant concerns for mismatches", () => {
+  it("includes relevant concerns for mismatches", async () => {
     const answers: KeyboardQuizAnswers = {
       "primary-use": ["competitive-gaming"],
       "form-factor": ["tkl"],
@@ -1336,7 +1336,7 @@ describe("Keyboard Match Reasons and Concerns", () => {
     };
 
     // Force a mismatch by requesting budget with wireless essential
-    const result = getKeyboardRecommendations(answers);
+    const result = await getKeyboardRecommendations(answers);
 
     // Some products may have concerns due to budget/wireless mismatch
     const hasAnyConcerns = result.topPicks.some((p) => p.concerns.length > 0);

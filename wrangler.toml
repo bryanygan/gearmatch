@@ -1,0 +1,10 @@
+name = "gearmatch"
+compatibility_date = "2024-12-01"
+
+[vars]
+# Dev/preview: allow all origins
+ALLOWED_ORIGIN = "*"
+
+[env.production.vars]
+# Production: restrict to real origin
+ALLOWED_ORIGIN = "https://gearmatch.com"

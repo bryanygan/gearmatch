@@ -2,10 +2,10 @@
  * Recommendation Hooks
  *
  * React hooks for integrating the scoring engine with quiz components.
- * Handles memoization and provides a clean interface for getting recommendations.
+ * Uses React Query for async data fetching and caching.
  */
 
-import { useMemo } from "react";
+import { useQuery } from "@tanstack/react-query";
 import type { MouseProduct, AudioProduct, KeyboardProduct } from "@/types/products";
 import type { MonitorProduct } from "@/types/monitor";
 import {
@@ -21,6 +21,9 @@ import {
   type RecommendationOptions,
 } from "@/lib/scoring";
 
+// Feature flag — set to true to use Web Worker scoring
+const USE_WORKER_SCORING = false;
+
 // =============================================================================
 // Mouse Recommendations Hook
 // =============================================================================
@@ -31,7 +34,7 @@ import {
 export interface UseMouseRecommendationsResult {
   /** Recommendation results, null if no answers provided */
   recommendations: RecommendationResult<MouseProduct> | null;
-  /** Always false (sync operation), included for API consistency */
+  /** True while recommendations are being computed */
   isLoading: boolean;
   /** Error if recommendation generation failed */
   error: Error | null;
@@ -39,58 +42,34 @@ export interface UseMouseRecommendationsResult {
 
 /**
  * Hook to get mouse recommendations based on quiz answers.
- * Memoizes results based on answer changes.
+ * Uses React Query for async caching.
  *
  * @param answers - Mouse quiz answers, or null if quiz not completed
  * @param options - Optional recommendation configuration
  * @returns Recommendations result with loading and error states
- *
- * @example
- * ```tsx
- * const { recommendations, error } = useMouseRecommendations(quizAnswers);
- *
- * if (error) return <ErrorMessage error={error} />;
- * if (!recommendations) return <QuizInProgress />;
- *
- * return <RecommendationList picks={recommendations.topPicks} />;
- * ```
  */
 export function useMouseRecommendations(
   answers: MouseQuizAnswers | null,
   options?: RecommendationOptions
 ): UseMouseRecommendationsResult {
-  // Stringify array values for stable dependency comparison
-  const gripStyleKey = answers?.["grip-style"]?.join(",") ?? "";
-  const weightPrefKey = answers?.["weight-preference"]?.join(",") ?? "";
-  const primaryUseKey = answers?.["primary-use"]?.join(",") ?? "";
-
-  const result = useMemo(() => {
-    if (!answers) {
-      return { recommendations: null, error: null };
-    }
-
-    try {
-      const recommendations = getMouseRecommendations(answers, options);
-      return { recommendations, error: null };
-    } catch (e) {
-      const error = e instanceof Error ? e : new Error("Failed to generate recommendations");
-      return { recommendations: null, error };
-    }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [
-    answers?.["hand-size"],
-    gripStyleKey,
-    weightPrefKey,
-    answers?.wireless,
-    primaryUseKey,
-    options?.minScore,
-    options?.topPickCount,
-  ]);
+  const { data, isLoading, error } = useQuery({
+    queryKey: ["recommendations", "mouse", answers, options],
+    queryFn: async () => {
+      if (USE_WORKER_SCORING) {
+        const { getMouseRecommendationsWorker } = await import("@/lib/scoring/worker");
+        return getMouseRecommendationsWorker(answers!, options);
+      }
+      return getMouseRecommendations(answers!, options);
+    },
+    enabled: answers !== null,
+    staleTime: Infinity,
+    gcTime: 1000 * 60 * 30,
+  });
 
   return {
-    recommendations: result.recommendations,
-    isLoading: false, // Sync operation, never loading
-    error: result.error,
+    recommendations: data ?? null,
+    isLoading,
+    error: error as Error | null,
   };
 }
 
@@ -104,7 +83,7 @@ export function useMouseRecommendations(
 export interface UseAudioRecommendationsResult {
   /** Recommendation results, null if no answers provided */
   recommendations: RecommendationResult<AudioProduct> | null;
-  /** Always false (sync operation), included for API consistency */
+  /** True while recommendations are being computed */
   isLoading: boolean;
   /** Error if recommendation generation failed */
   error: Error | null;
@@ -112,59 +91,34 @@ export interface UseAudioRecommendationsResult {
 
 /**
  * Hook to get audio recommendations based on quiz answers.
- * Memoizes results based on answer changes.
+ * Uses React Query for async caching.
  *
  * @param answers - Audio quiz answers, or null if quiz not completed
  * @param options - Optional recommendation configuration
  * @returns Recommendations result with loading and error states
- *
- * @example
- * ```tsx
- * const { recommendations, error } = useAudioRecommendations(quizAnswers);
- *
- * if (error) return <ErrorMessage error={error} />;
- * if (!recommendations) return <QuizInProgress />;
- *
- * return <RecommendationList picks={recommendations.topPicks} />;
- * ```
  */
 export function useAudioRecommendations(
   answers: AudioQuizAnswers | null,
   options?: RecommendationOptions
 ): UseAudioRecommendationsResult {
-  // Stringify array values for stable dependency comparison
-  const primaryUseKey = answers?.["primary-use"]?.join(",") ?? "";
-  const formFactorKey = answers?.["form-factor"]?.join(",") ?? "";
-  const sessionLengthKey = answers?.["session-length"]?.join(",") ?? "";
-  const budgetKey = answers?.budget?.join(",") ?? "";
-
-  const result = useMemo(() => {
-    if (!answers) {
-      return { recommendations: null, error: null };
-    }
-
-    try {
-      const recommendations = getAudioRecommendations(answers, options);
-      return { recommendations, error: null };
-    } catch (e) {
-      const error = e instanceof Error ? e : new Error("Failed to generate recommendations");
-      return { recommendations: null, error };
-    }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [
-    primaryUseKey,
-    formFactorKey,
-    answers?.["mic-needs"],
-    sessionLengthKey,
-    budgetKey,
-    options?.minScore,
-    options?.topPickCount,
-  ]);
+  const { data, isLoading, error } = useQuery({
+    queryKey: ["recommendations", "audio", answers, options],
+    queryFn: async () => {
+      if (USE_WORKER_SCORING) {
+        const { getAudioRecommendationsWorker } = await import("@/lib/scoring/worker");
+        return getAudioRecommendationsWorker(answers!, options);
+      }
+      return getAudioRecommendations(answers!, options);
+    },
+    enabled: answers !== null,
+    staleTime: Infinity,
+    gcTime: 1000 * 60 * 30,
+  });
 
   return {
-    recommendations: result.recommendations,
-    isLoading: false, // Sync operation, never loading
-    error: result.error,
+    recommendations: data ?? null,
+    isLoading,
+    error: error as Error | null,
   };
 }
 
@@ -223,7 +177,7 @@ export function isMonitorQuizAnswers(
 export interface UseKeyboardRecommendationsResult {
   /** Recommendation results, null if no answers provided */
   recommendations: RecommendationResult<KeyboardProduct> | null;
-  /** Always false (sync operation), included for API consistency */
+  /** True while recommendations are being computed */
   isLoading: boolean;
   /** Error if recommendation generation failed */
   error: Error | null;
@@ -231,62 +185,34 @@ export interface UseKeyboardRecommendationsResult {
 
 /**
  * Hook to get keyboard recommendations based on quiz answers.
- * Memoizes results based on answer changes.
+ * Uses React Query for async caching.
  *
  * @param answers - Keyboard quiz answers, or null if quiz not completed
  * @param options - Optional recommendation configuration
  * @returns Recommendations result with loading and error states
- *
- * @example
- * ```tsx
- * const { recommendations, error } = useKeyboardRecommendations(quizAnswers);
- *
- * if (error) return <ErrorMessage error={error} />;
- * if (!recommendations) return <QuizInProgress />;
- *
- * return <RecommendationList picks={recommendations.topPicks} />;
- * ```
  */
 export function useKeyboardRecommendations(
   answers: KeyboardQuizAnswers | null,
   options?: RecommendationOptions
 ): UseKeyboardRecommendationsResult {
-  // Stringify array values for stable dependency comparison
-  const primaryUseKey = answers?.["primary-use"]?.join(",") ?? "";
-  const formFactorKey = answers?.["form-factor"]?.join(",") ?? "";
-  const switchTypeKey = answers?.["switch-type"]?.join(",") ?? "";
-  const priorityFeatureKey = answers?.["priority-feature"]?.join(",") ?? "";
-  const budgetKey = answers?.budget?.join(",") ?? "";
-
-  const result = useMemo(() => {
-    if (!answers) {
-      return { recommendations: null, error: null };
-    }
-
-    try {
-      const recommendations = getKeyboardRecommendations(answers, options);
-      return { recommendations, error: null };
-    } catch (e) {
-      const error = e instanceof Error ? e : new Error("Failed to generate recommendations");
-      return { recommendations: null, error };
-    }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [
-    primaryUseKey,
-    formFactorKey,
-    switchTypeKey,
-    answers?.["gaming-features"],
-    answers?.connectivity,
-    priorityFeatureKey,
-    budgetKey,
-    options?.minScore,
-    options?.topPickCount,
-  ]);
+  const { data, isLoading, error } = useQuery({
+    queryKey: ["recommendations", "keyboard", answers, options],
+    queryFn: async () => {
+      if (USE_WORKER_SCORING) {
+        const { getKeyboardRecommendationsWorker } = await import("@/lib/scoring/worker");
+        return getKeyboardRecommendationsWorker(answers!, options);
+      }
+      return getKeyboardRecommendations(answers!, options);
+    },
+    enabled: answers !== null,
+    staleTime: Infinity,
+    gcTime: 1000 * 60 * 30,
+  });
 
   return {
-    recommendations: result.recommendations,
-    isLoading: false, // Sync operation, never loading
-    error: result.error,
+    recommendations: data ?? null,
+    isLoading,
+    error: error as Error | null,
   };
 }
 
@@ -300,7 +226,7 @@ export function useKeyboardRecommendations(
 export interface UseMonitorRecommendationsResult {
   /** Recommendation results, null if no answers provided */
   recommendations: RecommendationResult<MonitorProduct> | null;
-  /** Always false (sync operation), included for API consistency */
+  /** True while recommendations are being computed */
   isLoading: boolean;
   /** Error if recommendation generation failed */
   error: Error | null;
@@ -308,63 +234,33 @@ export interface UseMonitorRecommendationsResult {
 
 /**
  * Hook to get monitor recommendations based on quiz answers.
- * Memoizes results based on answer changes.
+ * Uses React Query for async caching.
  *
  * @param answers - Monitor quiz answers, or null if quiz not completed
  * @param options - Optional recommendation configuration
  * @returns Recommendations result with loading and error states
- *
- * @example
- * ```tsx
- * const { recommendations, error } = useMonitorRecommendations(quizAnswers);
- *
- * if (error) return <ErrorMessage error={error} />;
- * if (!recommendations) return <QuizInProgress />;
- *
- * return <RecommendationList picks={recommendations.topPicks} />;
- * ```
  */
 export function useMonitorRecommendations(
   answers: MonitorQuizAnswers | null,
   options?: RecommendationOptions
 ): UseMonitorRecommendationsResult {
-  // Stringify array values for stable dependency comparison
-  const primaryUseKey = answers?.["primary-use"]?.join(",") ?? "";
-  const panelTypeKey = answers?.["panel-type"]?.join(",") ?? "";
-  const budgetKey = answers?.budget?.join(",") ?? "";
-  const featuresKey = answers?.features?.join(",") ?? "";
-
-  const result = useMemo(() => {
-    if (!answers) {
-      return { recommendations: null, error: null };
-    }
-
-    try {
-      const recommendations = getMonitorRecommendations(answers, options);
-      return { recommendations, error: null };
-    } catch (e) {
-      const error = e instanceof Error ? e : new Error("Failed to generate recommendations");
-      return { recommendations: null, error };
-    }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [
-    primaryUseKey,
-    answers?.["size-preference"],
-    answers?.resolution,
-    answers?.["refresh-rate"],
-    panelTypeKey,
-    budgetKey,
-    answers?.curved,
-    answers?.["color-accuracy"],
-    answers?.["hdr-needs"],
-    featuresKey,
-    options?.minScore,
-    options?.topPickCount,
-  ]);
+  const { data, isLoading, error } = useQuery({
+    queryKey: ["recommendations", "monitor", answers, options],
+    queryFn: async () => {
+      if (USE_WORKER_SCORING) {
+        const { getMonitorRecommendationsWorker } = await import("@/lib/scoring/worker");
+        return getMonitorRecommendationsWorker(answers!, options);
+      }
+      return getMonitorRecommendations(answers!, options);
+    },
+    enabled: answers !== null,
+    staleTime: Infinity,
+    gcTime: 1000 * 60 * 30,
+  });
 
   return {
-    recommendations: result.recommendations,
-    isLoading: false, // Sync operation, never loading
-    error: result.error,
+    recommendations: data ?? null,
+    isLoading,
+    error: error as Error | null,
   };
 }

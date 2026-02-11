@@ -1,6 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import QuizContainer from "@/components/quiz/QuizContainer";
 import { mouseQuestions, type ExtendedMouseQuizAnswers } from "@/lib/quiz/questions";
+import { usePrefetchProducts } from "@/hooks/use-prefetch-products";
 
 /**
  * Mouse Quiz Page
@@ -10,6 +11,7 @@ import { mouseQuestions, type ExtendedMouseQuizAnswers } from "@/lib/quiz/questi
  */
 const MouseQuiz = () => {
   const navigate = useNavigate();
+  usePrefetchProducts("mouse");
 
   const handleComplete = (answers: ExtendedMouseQuizAnswers) => {
     // Encode answers to URL parameters

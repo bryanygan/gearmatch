@@ -12,6 +12,12 @@ import { mouseRules } from "./mouse-rules";
 import { audioRules } from "./audio-rules";
 import { keyboardRules } from "./keyboard-rules";
 import { monitorRules } from "./monitor-rules";
+import { applyPreFilters } from "@/lib/filtering/apply-filters";
+import { mousePreFilters } from "@/lib/filtering/mouse-filters";
+import { audioPreFilters } from "@/lib/filtering/audio-filters";
+import { keyboardPreFilters } from "@/lib/filtering/keyboard-filters";
+import { monitorPreFilters } from "@/lib/filtering/monitor-filters";
+import { applyThresholdAndSplit } from "./threshold";
 import type {
   MouseQuizAnswers,
   AudioQuizAnswers,
@@ -123,39 +129,24 @@ function scoreProduct<TAnswers, TProduct extends Product>(
  * @param options - Optional configuration
  * @returns Recommendation result with top picks and alternates
  */
-export function getMouseRecommendations(
+export async function getMouseRecommendations(
   answers: MouseQuizAnswers,
   options: RecommendationOptions = {}
-): RecommendationResult<MouseProduct> {
+): Promise<RecommendationResult<MouseProduct>> {
   const {
     minScore = 50,
     topPickCount = 3,
   } = options;
 
   // Get all mouse products
-  const products = getMouseProducts();
+  const allProducts = await getMouseProducts();
 
-  // Score all products
+  // Pre-filter: eliminate obvious mismatches
+  const { filtered: products } = applyPreFilters(answers, allProducts, mousePreFilters);
+
+  // Score remaining products
   const scoredProducts = scoreProducts(answers, products, mouseRules);
-
-  // Filter by minimum score, but keep at least some results
-  let qualifyingProducts = scoredProducts.filter((sp) => sp.score >= minScore);
-
-  // If no products meet minimum score, include best available with warnings
-  if (qualifyingProducts.length === 0 && scoredProducts.length > 0) {
-    // Take top 5 products even if below threshold
-    qualifyingProducts = scoredProducts.slice(0, 5);
-    // Add a concern about low match scores
-    qualifyingProducts.forEach((sp) => {
-      if (!sp.concerns.includes("Lower match score - may not be an ideal fit")) {
-        sp.concerns.unshift("Lower match score - may not be an ideal fit");
-      }
-    });
-  }
-
-  // Split into top picks and all remaining alternates
-  const topPicks = qualifyingProducts.slice(0, topPickCount);
-  const alternates = qualifyingProducts.slice(topPickCount);
+  const { topPicks, alternates } = applyThresholdAndSplit(scoredProducts, minScore, topPickCount);
 
   return {
     topPicks,
@@ -164,7 +155,7 @@ export function getMouseRecommendations(
       category: "mouse",
       wireless: answers.wireless === "wireless" ? true : undefined,
     },
-    totalEvaluated: products.length,
+    totalEvaluated: allProducts.length,
   };
 }
 
@@ -179,39 +170,24 @@ export function getMouseRecommendations(
  * @param options - Optional configuration
  * @returns Recommendation result with top picks and alternates
  */
-export function getAudioRecommendations(
+export async function getAudioRecommendations(
   answers: AudioQuizAnswers,
   options: RecommendationOptions = {}
-): RecommendationResult<AudioProduct> {
+): Promise<RecommendationResult<AudioProduct>> {
   const {
     minScore = 50,
     topPickCount = 3,
   } = options;
 
   // Get all audio products
-  const products = getAudioProducts();
+  const allProducts = await getAudioProducts();
 
-  // Score all products
+  // Pre-filter: eliminate obvious mismatches
+  const { filtered: products } = applyPreFilters(answers, allProducts, audioPreFilters);
+
+  // Score remaining products
   const scoredProducts = scoreProducts(answers, products, audioRules);
-
-  // Filter by minimum score, but keep at least some results
-  let qualifyingProducts = scoredProducts.filter((sp) => sp.score >= minScore);
-
-  // If no products meet minimum score, include best available with warnings
-  if (qualifyingProducts.length === 0 && scoredProducts.length > 0) {
-    // Take top 5 products even if below threshold
-    qualifyingProducts = scoredProducts.slice(0, 5);
-    // Add a concern about low match scores
-    qualifyingProducts.forEach((sp) => {
-      if (!sp.concerns.includes("Lower match score - may not be an ideal fit")) {
-        sp.concerns.unshift("Lower match score - may not be an ideal fit");
-      }
-    });
-  }
-
-  // Split into top picks and all remaining alternates
-  const topPicks = qualifyingProducts.slice(0, topPickCount);
-  const alternates = qualifyingProducts.slice(topPickCount);
+  const { topPicks, alternates } = applyThresholdAndSplit(scoredProducts, minScore, topPickCount);
 
   return {
     topPicks,
@@ -219,7 +195,7 @@ export function getAudioRecommendations(
     filters: {
       category: "audio",
     },
-    totalEvaluated: products.length,
+    totalEvaluated: allProducts.length,
   };
 }
 
@@ -234,39 +210,24 @@ export function getAudioRecommendations(
  * @param options - Optional configuration
  * @returns Recommendation result with top picks and alternates
  */
-export function getKeyboardRecommendations(
+export async function getKeyboardRecommendations(
   answers: KeyboardQuizAnswers,
   options: RecommendationOptions = {}
-): RecommendationResult<KeyboardProduct> {
+): Promise<RecommendationResult<KeyboardProduct>> {
   const {
     minScore = 50,
     topPickCount = 3,
   } = options;
 
   // Get all keyboard products
-  const products = getKeyboardProducts();
+  const allProducts = await getKeyboardProducts();
 
-  // Score all products
+  // Pre-filter: eliminate obvious mismatches
+  const { filtered: products } = applyPreFilters(answers, allProducts, keyboardPreFilters);
+
+  // Score remaining products
   const scoredProducts = scoreProducts(answers, products, keyboardRules);
-
-  // Filter by minimum score, but keep at least some results
-  let qualifyingProducts = scoredProducts.filter((sp) => sp.score >= minScore);
-
-  // If no products meet minimum score, include best available with warnings
-  if (qualifyingProducts.length === 0 && scoredProducts.length > 0) {
-    // Take top 5 products even if below threshold
-    qualifyingProducts = scoredProducts.slice(0, 5);
-    // Add a concern about low match scores
-    qualifyingProducts.forEach((sp) => {
-      if (!sp.concerns.includes("Lower match score - may not be an ideal fit")) {
-        sp.concerns.unshift("Lower match score - may not be an ideal fit");
-      }
-    });
-  }
-
-  // Split into top picks and all remaining alternates
-  const topPicks = qualifyingProducts.slice(0, topPickCount);
-  const alternates = qualifyingProducts.slice(topPickCount);
+  const { topPicks, alternates } = applyThresholdAndSplit(scoredProducts, minScore, topPickCount);
 
   return {
     topPicks,
@@ -275,7 +236,7 @@ export function getKeyboardRecommendations(
       category: "keyboard",
       wireless: answers.connectivity === "wireless-essential" ? true : undefined,
     },
-    totalEvaluated: products.length,
+    totalEvaluated: allProducts.length,
   };
 }
 
@@ -290,39 +251,24 @@ export function getKeyboardRecommendations(
  * @param options - Optional configuration
  * @returns Recommendation result with top picks and alternates
  */
-export function getMonitorRecommendations(
+export async function getMonitorRecommendations(
   answers: MonitorQuizAnswers,
   options: RecommendationOptions = {}
-): RecommendationResult<MonitorProduct> {
+): Promise<RecommendationResult<MonitorProduct>> {
   const {
     minScore = 50,
     topPickCount = 3,
   } = options;
 
   // Get all monitor products
-  const products = getMonitorProducts();
+  const allProducts = await getMonitorProducts();
 
-  // Score all products
+  // Pre-filter: eliminate obvious mismatches
+  const { filtered: products } = applyPreFilters(answers, allProducts, monitorPreFilters);
+
+  // Score remaining products
   const scoredProducts = scoreProducts(answers, products, monitorRules);
-
-  // Filter by minimum score, but keep at least some results
-  let qualifyingProducts = scoredProducts.filter((sp) => sp.score >= minScore);
-
-  // If no products meet minimum score, include best available with warnings
-  if (qualifyingProducts.length === 0 && scoredProducts.length > 0) {
-    // Take top 5 products even if below threshold
-    qualifyingProducts = scoredProducts.slice(0, 5);
-    // Add a concern about low match scores
-    qualifyingProducts.forEach((sp) => {
-      if (!sp.concerns.includes("Lower match score - may not be an ideal fit")) {
-        sp.concerns.unshift("Lower match score - may not be an ideal fit");
-      }
-    });
-  }
-
-  // Split into top picks and all remaining alternates
-  const topPicks = qualifyingProducts.slice(0, topPickCount);
-  const alternates = qualifyingProducts.slice(topPickCount);
+  const { topPicks, alternates } = applyThresholdAndSplit(scoredProducts, minScore, topPickCount);
 
   return {
     topPicks,
@@ -330,7 +276,7 @@ export function getMonitorRecommendations(
     filters: {
       category: "monitor",
     },
-    totalEvaluated: products.length,
+    totalEvaluated: allProducts.length,
   };
 }
 

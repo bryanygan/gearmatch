@@ -2,6 +2,7 @@ import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react-swc";
 import path from "path";
 import { componentTagger } from "lovable-tagger";
+import { validateProducts } from "./vite-plugins/validate-products";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
@@ -12,7 +13,10 @@ export default defineConfig(({ mode }) => ({
       overlay: false,
     },
   },
-  plugins: [react(), mode === "development" && componentTagger()].filter(Boolean),
+  plugins: [react(), validateProducts(), mode === "development" && componentTagger()].filter(Boolean),
+  worker: {
+    format: "es",
+  },
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),

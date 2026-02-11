@@ -1,6 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import QuizContainer from "@/components/quiz/QuizContainer";
 import { keyboardQuestions, type ExtendedKeyboardQuizAnswers } from "@/lib/quiz/questions";
+import { usePrefetchProducts } from "@/hooks/use-prefetch-products";
 
 /**
  * Keyboard Quiz Page
@@ -10,6 +11,7 @@ import { keyboardQuestions, type ExtendedKeyboardQuizAnswers } from "@/lib/quiz/
  */
 const KeyboardQuiz = () => {
   const navigate = useNavigate();
+  usePrefetchProducts("keyboard");
 
   const handleComplete = (answers: ExtendedKeyboardQuizAnswers) => {
     // Encode answers to URL parameters
