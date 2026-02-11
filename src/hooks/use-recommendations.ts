@@ -21,6 +21,9 @@ import {
   type RecommendationOptions,
 } from "@/lib/scoring";
 
+// Feature flag — set to true to use Web Worker scoring
+const USE_WORKER_SCORING = false;
+
 // =============================================================================
 // Mouse Recommendations Hook
 // =============================================================================
@@ -51,7 +54,13 @@ export function useMouseRecommendations(
 ): UseMouseRecommendationsResult {
   const { data, isLoading, error } = useQuery({
     queryKey: ["recommendations", "mouse", answers, options],
-    queryFn: () => getMouseRecommendations(answers!, options),
+    queryFn: async () => {
+      if (USE_WORKER_SCORING) {
+        const { getMouseRecommendationsWorker } = await import("@/lib/scoring/worker");
+        return getMouseRecommendationsWorker(answers!, options);
+      }
+      return getMouseRecommendations(answers!, options);
+    },
     enabled: answers !== null,
     staleTime: Infinity,
     gcTime: 1000 * 60 * 30,
@@ -94,7 +103,13 @@ export function useAudioRecommendations(
 ): UseAudioRecommendationsResult {
   const { data, isLoading, error } = useQuery({
     queryKey: ["recommendations", "audio", answers, options],
-    queryFn: () => getAudioRecommendations(answers!, options),
+    queryFn: async () => {
+      if (USE_WORKER_SCORING) {
+        const { getAudioRecommendationsWorker } = await import("@/lib/scoring/worker");
+        return getAudioRecommendationsWorker(answers!, options);
+      }
+      return getAudioRecommendations(answers!, options);
+    },
     enabled: answers !== null,
     staleTime: Infinity,
     gcTime: 1000 * 60 * 30,
@@ -182,7 +197,13 @@ export function useKeyboardRecommendations(
 ): UseKeyboardRecommendationsResult {
   const { data, isLoading, error } = useQuery({
     queryKey: ["recommendations", "keyboard", answers, options],
-    queryFn: () => getKeyboardRecommendations(answers!, options),
+    queryFn: async () => {
+      if (USE_WORKER_SCORING) {
+        const { getKeyboardRecommendationsWorker } = await import("@/lib/scoring/worker");
+        return getKeyboardRecommendationsWorker(answers!, options);
+      }
+      return getKeyboardRecommendations(answers!, options);
+    },
     enabled: answers !== null,
     staleTime: Infinity,
     gcTime: 1000 * 60 * 30,
@@ -225,7 +246,13 @@ export function useMonitorRecommendations(
 ): UseMonitorRecommendationsResult {
   const { data, isLoading, error } = useQuery({
     queryKey: ["recommendations", "monitor", answers, options],
-    queryFn: () => getMonitorRecommendations(answers!, options),
+    queryFn: async () => {
+      if (USE_WORKER_SCORING) {
+        const { getMonitorRecommendationsWorker } = await import("@/lib/scoring/worker");
+        return getMonitorRecommendationsWorker(answers!, options);
+      }
+      return getMonitorRecommendations(answers!, options);
+    },
     enabled: answers !== null,
     staleTime: Infinity,
     gcTime: 1000 * 60 * 30,

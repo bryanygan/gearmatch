@@ -49,3 +49,12 @@ export { mouseRules } from "./mouse-rules";
 export { audioRules } from "./audio-rules";
 export { keyboardRules } from "./keyboard-rules";
 export { monitorRules } from "./monitor-rules";
+
+// Worker-based scoring (opt-in via USE_WORKER_SCORING flag)
+export {
+  getMouseRecommendationsWorker,
+  getAudioRecommendationsWorker,
+  getKeyboardRecommendationsWorker,
+  getMonitorRecommendationsWorker,
+  terminateScoringWorker,
+} from "./worker";

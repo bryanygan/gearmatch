@@ -12,6 +12,11 @@ import { mouseRules } from "./mouse-rules";
 import { audioRules } from "./audio-rules";
 import { keyboardRules } from "./keyboard-rules";
 import { monitorRules } from "./monitor-rules";
+import { applyPreFilters } from "@/lib/filtering/apply-filters";
+import { mousePreFilters } from "@/lib/filtering/mouse-filters";
+import { audioPreFilters } from "@/lib/filtering/audio-filters";
+import { keyboardPreFilters } from "@/lib/filtering/keyboard-filters";
+import { monitorPreFilters } from "@/lib/filtering/monitor-filters";
 import type {
   MouseQuizAnswers,
   AudioQuizAnswers,
@@ -133,9 +138,12 @@ export async function getMouseRecommendations(
   } = options;
 
   // Get all mouse products
-  const products = await getMouseProducts();
+  const allProducts = await getMouseProducts();
 
-  // Score all products
+  // Pre-filter: eliminate obvious mismatches
+  const { filtered: products } = applyPreFilters(answers, allProducts, mousePreFilters);
+
+  // Score remaining products
   const scoredProducts = scoreProducts(answers, products, mouseRules);
 
   // Filter by minimum score, but keep at least some results
@@ -164,7 +172,7 @@ export async function getMouseRecommendations(
       category: "mouse",
       wireless: answers.wireless === "wireless" ? true : undefined,
     },
-    totalEvaluated: products.length,
+    totalEvaluated: allProducts.length,
   };
 }
 
@@ -189,9 +197,12 @@ export async function getAudioRecommendations(
   } = options;
 
   // Get all audio products
-  const products = await getAudioProducts();
+  const allProducts = await getAudioProducts();
 
-  // Score all products
+  // Pre-filter: eliminate obvious mismatches
+  const { filtered: products } = applyPreFilters(answers, allProducts, audioPreFilters);
+
+  // Score remaining products
   const scoredProducts = scoreProducts(answers, products, audioRules);
 
   // Filter by minimum score, but keep at least some results
@@ -219,7 +230,7 @@ export async function getAudioRecommendations(
     filters: {
       category: "audio",
     },
-    totalEvaluated: products.length,
+    totalEvaluated: allProducts.length,
   };
 }
 
@@ -244,9 +255,12 @@ export async function getKeyboardRecommendations(
   } = options;
 
   // Get all keyboard products
-  const products = await getKeyboardProducts();
+  const allProducts = await getKeyboardProducts();
 
-  // Score all products
+  // Pre-filter: eliminate obvious mismatches
+  const { filtered: products } = applyPreFilters(answers, allProducts, keyboardPreFilters);
+
+  // Score remaining products
   const scoredProducts = scoreProducts(answers, products, keyboardRules);
 
   // Filter by minimum score, but keep at least some results
@@ -275,7 +289,7 @@ export async function getKeyboardRecommendations(
       category: "keyboard",
       wireless: answers.connectivity === "wireless-essential" ? true : undefined,
     },
-    totalEvaluated: products.length,
+    totalEvaluated: allProducts.length,
   };
 }
 
@@ -300,9 +314,12 @@ export async function getMonitorRecommendations(
   } = options;
 
   // Get all monitor products
-  const products = await getMonitorProducts();
+  const allProducts = await getMonitorProducts();
 
-  // Score all products
+  // Pre-filter: eliminate obvious mismatches
+  const { filtered: products } = applyPreFilters(answers, allProducts, monitorPreFilters);
+
+  // Score remaining products
   const scoredProducts = scoreProducts(answers, products, monitorRules);
 
   // Filter by minimum score, but keep at least some results
@@ -330,7 +347,7 @@ export async function getMonitorRecommendations(
     filters: {
       category: "monitor",
     },
-    totalEvaluated: products.length,
+    totalEvaluated: allProducts.length,
   };
 }
 

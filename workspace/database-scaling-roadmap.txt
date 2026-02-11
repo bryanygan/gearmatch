@@ -187,46 +187,77 @@ Results pages need zero changes.
 PHASE 4: PERFORMANCE OPTIMIZATION
 ================================================================================
 
-4.1 Web Worker Scoring
+4.1 Web Worker Scoring                                          ✅ DONE
 -----------------------
 Move scoring engine to Web Worker to prevent UI blocking.
 
-Files to create:
-- src/workers/scoring-worker.ts
-- src/lib/scoring/worker-client.ts
+Files created:
+- src/lib/scoring/worker/scoring.worker.ts - Worker that loads products
+  internally, applies pre-filters, and scores. No large postMessage payloads.
+- src/lib/scoring/worker/client.ts - Main-thread wrapper with same async
+  interface. Single worker instance, request-ID promise resolution.
+- src/lib/scoring/worker/index.ts - Barrel export
 
-Benefits: UI stays responsive during scoring of thousands of products.
+Changes:
+- src/hooks/use-recommendations.ts - USE_WORKER_SCORING feature flag
+  (default false). Each hook conditionally dynamic-imports worker client.
+- src/lib/scoring/index.ts - Re-exports worker functions
+- vite.config.ts - Added worker.format: "es" for code-splitting support
+
+Result: Worker chunk emitted in build (scoring.worker-*.js). Feature flag
+  toggles between main-thread and worker scoring. Same results either way.
 
 
-4.2 Pre-Filtering Strategy
+4.2 Pre-Filtering Strategy                                     ✅ DONE
 ---------------------------
-Filter products before scoring to reduce workload.
+Client-side pre-filters eliminate obvious mismatches before scoring.
+Only hard constraints are filtered (e.g. wireless required → eliminate wired).
 
-Example: If user requires wireless, eliminate 50% of products before scoring.
+Files created:
+- src/lib/filtering/types.ts - PreFilter<TAnswers, TProduct> type
+- src/lib/filtering/apply-filters.ts - Generic applyPreFilters() runner
+- src/lib/filtering/mouse-filters.ts - wirelessFilter, handednessFilter
+- src/lib/filtering/audio-filters.ts - micFilter, wirelessFilter
+- src/lib/filtering/keyboard-filters.ts - connectivityFilter
+- src/lib/filtering/monitor-filters.ts - resolutionFilter, sizeFilter
+- src/lib/filtering/index.ts - Barrel export
+
+Changes:
+- src/lib/scoring/engine.ts - Pre-filter step inserted before scoreProducts()
+  in all 4 get*Recommendations() functions. totalEvaluated still shows full
+  product count.
+
+Result: 22 new tests pass. Pre-filters reduce scoring workload without
+  affecting top pick quality (only eliminates definitionally wrong matches).
 
 
-4.3 Product Indexing
+4.3 Product Indexing                                            DEFERRED
 ---------------------
-Create indices for common attributes.
-
-Example:
-  const indices = {
-    byCategory: { mouse: ['id1', 'id2'], keyboard: ['id3'] },
-    byWireless: { true: ['id1'], false: ['id2', 'id3'] },
-    byPriceTier: { budget: ['id2'], premium: ['id1'] }
-  };
-
-Benefits: O(1) lookups instead of O(n) filtering.
+Deferred — not needed at current scale (max 378 products per category).
+O(n) property checks in pre-filters take <1ms. The pre-filtering strategy
+(4.2) accomplishes the same goal more simply. Will revisit when product
+counts exceed 3,000 per category.
 
 
-4.4 Client-Side Search
+4.4 Client-Side Search                                          ✅ DONE
 -----------------------
-Add Fuse.js for fuzzy search on product names/brands.
+Fuse.js fuzzy search across all products, surfaced via Cmd+K command palette.
 
-Files to create:
-- src/lib/search/index.ts
-- src/hooks/use-product-search.ts
-- src/components/search/SearchBar.tsx
+Files created:
+- src/lib/search/index.ts - Fuse.js module: initSearchIndex(), searchProducts(),
+  toSearchable(). Keys: name(0.5), brand(0.3), tags(0.2), threshold 0.4.
+- src/hooks/use-product-search.ts - useInitSearchIndex() loads all categories
+  on first open (staleTime: Infinity). useProductSearch() with 150ms debounce.
+- src/components/search/SearchBar.tsx - Cmd+K / Ctrl+K modal using existing
+  CommandDialog component. Groups results by category with icons. Selecting
+  navigates to /quiz/{category}.
+
+Changes:
+- src/App.tsx - Added <SearchBar /> inside BrowserRouter
+- package.json - Added fuse.js dependency (~6KB gzipped)
+
+Result: 11 new tests pass. Users can search all 1,040 products by name,
+  brand, or tags from anywhere in the app via Cmd+K.
 
 ================================================================================
 PHASE 5: DEVELOPER EXPERIENCE
@@ -324,13 +355,13 @@ Files to create:
 RECOMMENDED IMPLEMENTATION ORDER
 ================================================================================
 
-| Week  | Tasks                              | Impact                              |
-|-------|------------------------------------|-------------------------------------|
-| 1-2   | JSON extraction + validation CLI   | Foundation for everything else      |
-| 3-4   | Dynamic imports + React Query      | 80% bundle reduction for current    |
-| 5-6   | Edge functions API (search+filter) | Scalable to 10K products            |
-| 7-8   | Web Worker scoring + indexing      | Fast client-side scoring            |
-| 9-10  | Admin UI + CSV import              | Non-dev editing                     |
+| Week  | Tasks                              | Impact                        | Status |
+|-------|------------------------------------|-------------------------------|--------|
+| 1-2   | JSON extraction + validation CLI   | Foundation for everything     | ✅ DONE |
+| 3-4   | Dynamic imports + React Query      | 80% bundle reduction          | ✅ DONE |
+| 5-6   | Edge functions API (search+filter) | Scalable to 10K products      | ✅ DONE |
+| 7-8   | Pre-filter + Worker + Client Search| Fast scoring + search UX      | ✅ DONE |
+| 9-10  | Admin UI + CSV import              | Non-dev editing               |        |
 
 Why This Order?
 1. JSON first - Everything else depends on data being in JSON format

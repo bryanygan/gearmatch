@@ -13,6 +13,7 @@ import {
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 import { ErrorBoundary } from "./components/ErrorBoundary";
+import { SearchBar } from "./components/search/SearchBar";
 
 // Lazy load quiz and results pages for code splitting
 const MouseQuiz = lazy(() => import("./pages/MouseQuiz"));
@@ -84,6 +85,7 @@ const App = () => {
           <Sonner />
           <BrowserRouter>
             <RouteChangeListener onRouteChange={handleRouteChange} />
+            <SearchBar />
             <Suspense fallback={<PageLoader />}>
               <Routes>
                 <Route
