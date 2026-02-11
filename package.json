@@ -5,10 +5,12 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "dev:api": "wrangler pages dev --proxy 8080 -- npm run dev",
+    "build": "npm run copy:products && vite build",
     "build:dev": "vite build --mode development",
     "lint": "eslint .",
     "preview": "vite preview",
+    "copy:products": "mkdir -p public/data/products && cp src/data/products/*.json public/data/products/",
     "convert:products": "tsx --tsconfig tsconfig.app.json scripts/convert-ts-to-json.ts",
     "test": "vitest run",
     "test:watch": "vitest"
@@ -66,6 +68,7 @@
     "zod": "^3.25.76"
   },
   "devDependencies": {
+    "@cloudflare/workers-types": "^4.20260210.0",
     "@eslint/js": "^9.32.0",
     "@tailwindcss/typography": "^0.5.16",
     "@testing-library/jest-dom": "^6.6.0",
@@ -88,6 +91,7 @@
     "typescript": "^5.8.3",
     "typescript-eslint": "^8.38.0",
     "vite": "^7.3.1",
-    "vitest": "^3.2.4"
+    "vitest": "^3.2.4",
+    "wrangler": "^4.64.0"
   }
 }

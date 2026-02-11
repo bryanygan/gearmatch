@@ -96,83 +96,92 @@ against Zod schemas. Invalid data fails the build with clear error messages
 showing the exact field path and issue. 214 tests pass.
 
 ================================================================================
-PHASE 3: THIN API LAYER (Edge Functions)
+PHASE 3: THIN API LAYER (Cloudflare Pages Functions)             ✅ DONE
 ================================================================================
 
-Architecture: Static JSON on CDN + Vercel/Cloudflare Edge Functions
+Architecture: Static JSON on CDN + Cloudflare Pages Functions
+Platform: Cloudflare Pages (ASSETS binding for static JSON, zero external infra)
 
-3.1 Product API Endpoints
+3.1 Product API Endpoints                                        ✅ DONE
 --------------------------
 
-Files to create:
-- api/products/[category].ts - Get products by category (paginated)
-- api/products/search.ts - Full-text search across products
-- api/products/filter.ts - Pre-filter candidates for scoring
+Files created:
+- functions/api/_middleware.ts - CORS, rate limiting, security headers
+- functions/api/products/[category].ts - GET paginated products by category
+- functions/api/products/search.ts - GET full-text search across products
+- functions/api/products/filter.ts - POST pre-filter candidates for scoring
+- public/data/products/*.json - Static copies of product JSON for API access
 
 Endpoints:
   GET /api/products/mice?page=1&limit=50
   GET /api/products/search?q=razer&category=mouse
-  POST /api/products/filter  (body: quiz answers, returns candidate IDs)
+  POST /api/products/filter  (body: { category, answers, maxCandidates? })
 
 
-3.2 Security
+3.2 Security                                                     ✅ DONE
 -------------
 
-Authentication & Authorization:
-- GET endpoints (/api/products/[category], /api/products/search) are public
-  read-only — no auth required.
-- POST /api/products/filter is public but requires input validation (see below).
-- Any future write endpoints (admin CRUD) require authenticated admin role via
-  the chosen auth provider (NextAuth/Clerk/Auth0).
+Implemented in functions/api/_middleware.ts:
 
-Input Validation & Sanitization:
-- POST /api/products/filter: Validate quiz answer payloads against a strict
-  Zod schema. Reject malformed requests, unexpected fields, and values outside
-  allowed enums. Sanitize string inputs to prevent injection.
-- GET /api/products/search: Validate and sanitize the `q` parameter (max
-  length, strip special characters, escape for search backend).
+CORS: Preflight handling, configurable ALLOWED_ORIGIN (default "*" for dev,
+  set to app origin in prod via wrangler.toml [vars]).
 
-Rate Limiting:
-- GET /api/products/search: Rate limit to prevent abuse (e.g., 30 req/min/IP).
-- POST /api/products/filter: Rate limit to prevent quiz-spam (e.g., 10 req/min/IP).
-- Options: Upstash Redis (edge-compatible), Cloudflare Rate Limiting (if using
-  CF Workers), or Vercel's built-in edge rate limiting.
+Rate Limiting: In-memory Map per isolate.
+  - Search: 30 req/min/IP (via CF-Connecting-IP header)
+  - Filter: 10 req/min/IP
 
-CORS & Headers:
-- Set explicit CORS policy: allow only the app's own origin in production.
-- Recommended headers for edge deployments: Content-Security-Policy, Strict-
-  Transport-Security (HSTS), X-Content-Type-Options: nosniff, X-Frame-Options.
+Security Headers: X-Content-Type-Options: nosniff, X-Frame-Options: DENY,
+  Strict-Transport-Security (1 year + includeSubDomains), Content-Type: application/json.
 
-Monitoring & Logging:
-- Log request volumes, error rates, and latency per endpoint.
-- Alert on unusual traffic patterns (potential abuse or scraping).
+Input Validation:
+  - Filter endpoint validates answers against category-specific Zod schemas
+    (shared from src/lib/validation/quiz-schemas.ts, bundled by wrangler esbuild)
+  - Search validates q param (1-100 chars, trimmed, lowercased)
+  - Category endpoint validates category enum and pagination params
 
 
-3.3 Smart Pre-Filtering
+3.3 Smart Pre-Filtering                                          ✅ DONE
 ------------------------
 
-Instead of scoring ALL products client-side:
-1. Client sends quiz answers to /api/products/filter
-2. API applies hard filters (wireless required? budget limit?)
-3. Returns ~100-200 candidate product IDs
-4. Client fetches only those products and scores them
+Implemented in functions/api/products/filter.ts and
+  src/hooks/use-pre-filtered-recommendations.ts.
 
-Benefits:
-- User downloads 200 products (~500KB) instead of 5,000 (~12MB)
-- Scoring 200 products takes ~20ms instead of ~1 second
-- Works great on mobile and low-end devices
+Flow:
+1. Client sends quiz answers to POST /api/products/filter
+2. API validates answers with Zod, applies category-specific hard filters:
+   - Mice: wireless (bool), handedness (left users need left/ambi)
+   - Audio: audio_has_mic (if essential), wireless (if required), price_tier
+   - Keyboards: wireless (if essential), price_tier
+   - Monitors: size_class (within 1 step), resolution_class (within 1 step), price_tier
+3. Returns candidate IDs (fallback: returns all if <10 candidates)
+4. Client filters products to candidates, scores client-side
+
+Feature flag: USE_API_PREFILTER (default false) in use-pre-filtered-recommendations.ts.
+Graceful degradation: falls back to full client-side scoring if API fails.
 
 
-3.4 Hosting Options
---------------------
+3.4 Client Integration                                           ✅ DONE
+------------------------
 
-| Platform           | Pros                                    | Cons                    |
-|--------------------|-----------------------------------------|-------------------------|
-| Vercel Edge        | Easy Vite integration, generous free    | Vendor lock-in          |
-| Cloudflare Workers | Fastest, great free tier                | Separate deploy process |
-| Netlify Functions  | Simple setup                            | Slower cold starts      |
+Files created:
+- src/lib/api/types.ts - API request/response type definitions
+- src/lib/api/client.ts - Fetch wrapper (productsApi.getByCategory/search/filter)
+- src/hooks/use-products-api.ts - React Query hooks (staleTime 5min)
+- src/hooks/use-pre-filtered-recommendations.ts - Integration hook
 
-Recommended: Vercel (if already using) or Cloudflare Workers (best performance)
+Client hooks return same RecommendationResult<T> interface as existing hooks.
+Results pages need zero changes.
+
+
+3.5 Infrastructure                                               ✅ DONE
+-------------------
+
+- wrangler.toml - Cloudflare Pages local dev config
+- package.json scripts:
+  - "dev:api" - wrangler pages dev + Vite (local API testing)
+  - "copy:products" - copies src/data/products/*.json to public/data/products/
+  - "build" - updated to run copy:products before vite build
+- Dev deps: wrangler, @cloudflare/workers-types
 
 ================================================================================
 PHASE 4: PERFORMANCE OPTIMIZATION
