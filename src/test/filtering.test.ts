@@ -364,9 +364,9 @@ describe("Monitor Pre-Filters", () => {
       expect(resolutionFilter(answers, createMockMonitor({ monitor_resolution_class: "4k" }))).toBe(false);
     });
 
-    it("keeps 1080p, 1440p, and 4k when user selects 1440p", () => {
+    it("keeps 1440p and 4k when user selects 1440p", () => {
       const answers = { ...baseMonitorAnswers, resolution: "1440p" as const };
-      expect(resolutionFilter(answers, createMockMonitor({ monitor_resolution_class: "1080p" }))).toBe(true);
+      expect(resolutionFilter(answers, createMockMonitor({ monitor_resolution_class: "1080p" }))).toBe(false);
       expect(resolutionFilter(answers, createMockMonitor({ monitor_resolution_class: "1440p" }))).toBe(true);
       expect(resolutionFilter(answers, createMockMonitor({ monitor_resolution_class: "4k" }))).toBe(true);
       expect(resolutionFilter(answers, createMockMonitor({ monitor_resolution_class: "5k" }))).toBe(false);

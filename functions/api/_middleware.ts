@@ -105,5 +105,7 @@ function addSecurityHeaders(response: Response, origin: string): void {
   response.headers.set("X-Content-Type-Options", "nosniff");
   response.headers.set("X-Frame-Options", "DENY");
   response.headers.set("Strict-Transport-Security", "max-age=31536000; includeSubDomains");
-  response.headers.set("Content-Type", "application/json");
+  if (!response.headers.has("Content-Type")) {
+    response.headers.set("Content-Type", "application/json");
+  }
 }

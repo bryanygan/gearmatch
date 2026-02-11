@@ -56,8 +56,17 @@ const PRICE_TIER_ORDER = [
   "flagship",
 ] as const;
 
+// Valid quiz budget answer values
+const VALID_BUDGET_VALUES = new Set(["no-limit", "enthusiast", "premium", "mid-range", "budget"]);
+
 // Map quiz budget values to max allowed price tier index
 function getMaxPriceTierIndex(budgetValues: string[]): number | null {
+  const unknown = budgetValues.filter((v) => !VALID_BUDGET_VALUES.has(v));
+  if (unknown.length > 0) {
+    console.warn(`getMaxPriceTierIndex: unknown budget values: ${unknown.join(", ")}; defaulting to conservative filter`);
+    return 1; // Conservative: up to "lower_midrange"
+  }
+
   if (budgetValues.includes("no-limit") || budgetValues.includes("enthusiast")) {
     return null; // No price filter
   }
@@ -98,10 +107,17 @@ function filterMouse(products: ProductRecord[], answers: Record<string, unknown>
     if (answers.wireless === "wireless" && attrs.wireless !== true) return false;
     if (answers.wireless === "wired" && attrs.wireless !== false) return false;
 
-    // Handedness filter: left-handed users need left or ambi mice
+    // Handedness filter: mirrors client-side handednessFilter
     if (answers.handedness === "left") {
       const handedness = attrs.mouse_handedness as string;
-      if (handedness !== "left" && handedness !== "ambi") return false;
+      if (handedness !== "left" && handedness !== "ambi" && handedness !== "ergo_left") return false;
+    }
+    if (answers.handedness === "right") {
+      const handedness = attrs.mouse_handedness as string;
+      if (handedness !== "right" && handedness !== "ambi" && handedness !== "ergo_right") return false;
+    }
+    if (answers.handedness === "ambidextrous") {
+      if (attrs.mouse_handedness !== "ambi") return false;
     }
 
     return true;
@@ -169,12 +185,18 @@ function filterMonitor(products: ProductRecord[], answers: Record<string, unknow
       if (!allowed.has(productSize)) return false;
     }
 
-    // Resolution class filter (within 1 step)
+    // Resolution class filter — matches client resolutionFilter (value + one step up)
     const resolution = answers.resolution as string | undefined;
     if (resolution && resolution !== "any") {
-      const allowed = getNeighborValues(RESOLUTION_CLASS_ORDER, resolution);
       const productRes = attrs.monitor_resolution_class as string;
-      if (!allowed.has(productRes)) return false;
+      let allowed: string[];
+      switch (resolution) {
+        case "1080p": allowed = ["1080p", "1440p"]; break;
+        case "1440p": allowed = ["1440p", "4k"]; break;
+        case "4k":    allowed = ["4k", "5k"]; break;
+        default:      allowed = RESOLUTION_CLASS_ORDER; break;
+      }
+      if (!allowed.includes(productRes)) return false;
     }
 
     // Budget filter
@@ -253,7 +275,24 @@ export const onRequestPost: PagesFunction<Env> = async (context) => {
     );
   }
 
-  const allProducts: ProductRecord[] = await assetResponse.json();
+  let parsed: unknown;
+  try {
+    parsed = await assetResponse.json();
+  } catch {
+    return new Response(
+      JSON.stringify({ error: "Failed to parse product data" }),
+      { status: 500, headers: { "Content-Type": "application/json" } }
+    );
+  }
+
+  if (!Array.isArray(parsed)) {
+    return new Response(
+      JSON.stringify({ error: "Product data is not an array" }),
+      { status: 500, headers: { "Content-Type": "application/json" } }
+    );
+  }
+
+  const allProducts = parsed as ProductRecord[];
   const totalProducts = allProducts.length;
 
   // Apply hard filters

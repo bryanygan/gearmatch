@@ -19,22 +19,24 @@ export const wirelessFilter: PreFilter<MouseQuizAnswers, MouseProduct> = (
 };
 
 /**
- * Eliminate mice that don't match handedness when user specifies left-handed.
+ * Eliminate mice that don't match handedness preference.
  */
 export const handednessFilter: PreFilter<MouseQuizAnswers, MouseProduct> = (
   answers,
   product
 ) => {
   if (!answers.handedness) return true; // optional field
+  const hand = product.core_attributes.mouse_handedness;
   if (answers.handedness === "left") {
-    return ["left", "ambi", "ergo_left"].includes(
-      product.core_attributes.mouse_handedness
-    );
+    return ["left", "ambi", "ergo_left"].includes(hand);
+  }
+  if (answers.handedness === "right") {
+    return ["right", "ambi", "ergo_right"].includes(hand);
   }
   if (answers.handedness === "ambidextrous") {
-    return product.core_attributes.mouse_handedness === "ambi";
+    return hand === "ambi";
   }
-  return true; // "right" keeps all (most mice are right-handed)
+  return true;
 };
 
 export const mousePreFilters: PreFilter<MouseQuizAnswers, MouseProduct>[] = [

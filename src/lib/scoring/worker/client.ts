@@ -105,6 +105,9 @@ export function terminateScoringWorker(): void {
   if (worker) {
     worker.terminate();
     worker = null;
-    pending.clear();
+    for (const [id, handler] of pending) {
+      handler.reject(new Error("Worker terminated"));
+      pending.delete(id);
+    }
   }
 }

@@ -70,12 +70,13 @@ for (const cat of categories) {
 
   console.log(`  ✓ Validation passed`);
 
-  // Rewrite with consistent formatting
-  const output = JSON.stringify(data, null, 2);
+  // Rewrite with consistent formatting (use Zod-validated output to persist defaults/transforms)
+  const validated = result.data as unknown[];
+  const output = JSON.stringify(validated, null, 2);
   fs.writeFileSync(filePath, output + "\n", "utf-8");
 
   const sizeKB = (Buffer.byteLength(output, "utf-8") / 1024).toFixed(1);
-  console.log(`  ✓ Wrote ${filePath} (${data.length} products, ${sizeKB} KB)`);
+  console.log(`  ✓ Wrote ${filePath} (${validated.length} products, ${sizeKB} KB)`);
 }
 
 console.log("");

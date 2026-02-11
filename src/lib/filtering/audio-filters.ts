@@ -28,6 +28,9 @@ export const wirelessFilter: PreFilter<AudioQuizAnswers, AudioProduct> = (
   return true;
 };
 
+// Note: Server-side filterAudio also applies budget/price_tier filtering.
+// Client pre-filters intentionally omit budget — it's a soft preference
+// handled by the scoring engine's weighted rules, not a hard constraint.
 export const audioPreFilters: PreFilter<AudioQuizAnswers, AudioProduct>[] = [
   micFilter,
   wirelessFilter,

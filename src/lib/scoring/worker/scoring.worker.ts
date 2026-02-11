@@ -90,6 +90,7 @@ self.onmessage = async (event: MessageEvent<WorkerRequest>) => {
 
     const wireless =
       category === "mouse" ? (answers.wireless === "wireless" ? true : undefined) :
+      category === "audio" ? (answers["wireless-preference"] === "wireless-required" ? true : undefined) :
       category === "keyboard" ? (answers.connectivity === "wireless-essential" ? true : undefined) :
       undefined;
 

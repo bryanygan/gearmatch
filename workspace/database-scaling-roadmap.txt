@@ -153,7 +153,7 @@ Flow:
    - Audio: audio_has_mic (if essential), wireless (if required), price_tier
    - Keyboards: wireless (if essential), price_tier
    - Monitors: size_class (within 1 step), resolution_class (within 1 step), price_tier
-3. Returns candidate IDs (fallback: returns all if <10 candidates)
+3. Returns candidate IDs (hard-filtered only; client handles low-result scoring)
 4. Client filters products to candidates, scores client-side
 
 Feature flag: USE_API_PREFILTER (default false) in use-pre-filtered-recommendations.ts.

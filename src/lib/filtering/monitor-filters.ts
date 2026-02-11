@@ -4,7 +4,7 @@ import type { PreFilter } from "./types";
 
 /**
  * Eliminate monitors outside the user's resolution preference.
- * Allows one step up to avoid being too aggressive.
+ * Allows one step up (not down) to avoid being too aggressive.
  */
 export const resolutionFilter: PreFilter<
   MonitorQuizAnswers,
@@ -15,7 +15,7 @@ export const resolutionFilter: PreFilter<
     case "1080p":
       return ["1080p", "1440p"].includes(res);
     case "1440p":
-      return ["1080p", "1440p", "4k"].includes(res);
+      return ["1440p", "4k"].includes(res);
     case "4k":
       return ["4k", "5k"].includes(res);
     default:
@@ -49,6 +49,9 @@ export const sizeFilter: PreFilter<MonitorQuizAnswers, MonitorProduct> = (
   return allowed.has(product.core_attributes.monitor_size_class);
 };
 
+// Note: Server-side filterMonitor also applies budget/price_tier filtering.
+// Client pre-filters intentionally omit budget — it's a soft preference
+// handled by the scoring engine's weighted rules, not a hard constraint.
 export const monitorPreFilters: PreFilter<
   MonitorQuizAnswers,
   MonitorProduct

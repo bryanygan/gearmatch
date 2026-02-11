@@ -16,6 +16,11 @@ import {
 } from "@/data/products";
 import { scoreProducts } from "@/lib/scoring/engine";
 import { applyThresholdAndSplit } from "@/lib/scoring/threshold";
+import { applyPreFilters } from "@/lib/filtering/apply-filters";
+import { mousePreFilters } from "@/lib/filtering/mouse-filters";
+import { audioPreFilters } from "@/lib/filtering/audio-filters";
+import { keyboardPreFilters } from "@/lib/filtering/keyboard-filters";
+import { monitorPreFilters } from "@/lib/filtering/monitor-filters";
 import { mouseRules } from "@/lib/scoring/mouse-rules";
 import { audioRules } from "@/lib/scoring/audio-rules";
 import { keyboardRules } from "@/lib/scoring/keyboard-rules";
@@ -31,6 +36,7 @@ import type {
   RecommendationOptions,
   ScoringRule,
 } from "@/lib/scoring/types";
+import type { PreFilter } from "@/lib/filtering/types";
 import type { FilterRequest } from "@/lib/api/types";
 
 // Feature flag — set to true to enable API pre-filtering
@@ -40,6 +46,7 @@ type CategoryConfig = {
   category: FilterRequest["category"];
   getProducts: () => Promise<Product[]>;
   rules: ScoringRule<unknown, Product>[];
+  preFilters: PreFilter<unknown, Product>[];
 };
 
 const CATEGORY_CONFIGS: Record<string, CategoryConfig> = {
@@ -47,21 +54,25 @@ const CATEGORY_CONFIGS: Record<string, CategoryConfig> = {
     category: "mouse",
     getProducts: getMouseProducts as () => Promise<Product[]>,
     rules: mouseRules as unknown as ScoringRule<unknown, Product>[],
+    preFilters: mousePreFilters as unknown as PreFilter<unknown, Product>[],
   },
   audio: {
     category: "audio",
     getProducts: getAudioProducts as () => Promise<Product[]>,
     rules: audioRules as unknown as ScoringRule<unknown, Product>[],
+    preFilters: audioPreFilters as unknown as PreFilter<unknown, Product>[],
   },
   keyboard: {
     category: "keyboard",
     getProducts: getKeyboardProducts as () => Promise<Product[]>,
     rules: keyboardRules as unknown as ScoringRule<unknown, Product>[],
+    preFilters: keyboardPreFilters as unknown as PreFilter<unknown, Product>[],
   },
   monitor: {
     category: "monitor",
     getProducts: getMonitorProducts as () => Promise<Product[]>,
     rules: monitorRules as unknown as ScoringRule<unknown, Product>[],
+    preFilters: monitorPreFilters as unknown as PreFilter<unknown, Product>[],
   },
 };
 
@@ -79,8 +90,16 @@ async function getPreFilteredRecommendations<T extends Product>(
   const config = CATEGORY_CONFIGS[category];
   const { minScore = 50, topPickCount = 3 } = options;
 
-  let products = (await config.getProducts()) as T[];
-  const totalEvaluated = products.length;
+  const allProducts = (await config.getProducts()) as T[];
+  const totalEvaluated = allProducts.length;
+
+  // Apply client-side pre-filters (same as engine.ts)
+  const { filtered } = applyPreFilters(
+    answers,
+    allProducts,
+    config.preFilters as PreFilter<AnyQuizAnswers, T>[]
+  );
+  let products = filtered;
 
   // Attempt API pre-filter if feature flag is enabled
   if (USE_API_PREFILTER) {
@@ -93,7 +112,7 @@ async function getPreFilteredRecommendations<T extends Product>(
       const candidateSet = new Set(filterResponse.candidateIds);
       products = products.filter((p) => candidateSet.has(p.id));
     } catch {
-      // Graceful fallback: use all products if API fails
+      // Graceful fallback: client-side pre-filters already applied above
     }
   }
 

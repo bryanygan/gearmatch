@@ -15,6 +15,9 @@ export const connectivityFilter: PreFilter<
   return true;
 };
 
+// Note: Server-side filterKeyboard also applies budget/price_tier filtering.
+// Client pre-filters intentionally omit budget — it's a soft preference
+// handled by the scoring engine's weighted rules, not a hard constraint.
 export const keyboardPreFilters: PreFilter<
   KeyboardQuizAnswers,
   KeyboardProduct
