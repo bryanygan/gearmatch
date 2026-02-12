@@ -1,4 +1,4 @@
-import { ArrowRight, MousePointer2, Headphones } from "lucide-react";
+import { ArrowRight, MousePointer2, Headphones, Keyboard, Monitor } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 
@@ -18,18 +18,30 @@ const FinalCTA = () => {
             2-3 minutes. Zero spam. Just personalized picks based on how you actually play.
           </p>
 
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Button variant="hero" size="xl" className="w-full sm:w-auto group" asChild>
+          <div className="grid grid-cols-2 gap-3 sm:gap-4 max-w-2xl mx-auto">
+            <Button variant="hero" size="xl" className="w-full group text-sm sm:text-lg h-11 sm:h-14 px-4 sm:px-8" asChild>
               <Link to="/quiz/mouse">
-                <MousePointer2 className="w-5 h-5" />
-                Find Your Perfect Mouse
-                <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+                <MousePointer2 className="w-4 h-4 sm:w-5 sm:h-5" />
+                Find Your Mouse
+                <ArrowRight className="w-4 h-4 sm:w-5 sm:h-5 group-hover:translate-x-1 transition-transform" />
               </Link>
             </Button>
-            <Button variant="accent" size="xl" className="w-full sm:w-auto group" asChild>
+            <Button variant="accent" size="xl" className="w-full group text-sm sm:text-lg h-11 sm:h-14 px-4 sm:px-8" asChild>
               <Link to="/quiz/audio">
-                <Headphones className="w-5 h-5" />
-                Get Audio Recommendations
+                <Headphones className="w-4 h-4 sm:w-5 sm:h-5" />
+                Audio Picks
+              </Link>
+            </Button>
+            <Button variant="keyboard" size="xl" className="w-full group text-sm sm:text-lg h-11 sm:h-14 px-4 sm:px-8" asChild>
+              <Link to="/quiz/keyboard">
+                <Keyboard className="w-4 h-4 sm:w-5 sm:h-5" />
+                Keyboard Match
+              </Link>
+            </Button>
+            <Button variant="monitor" size="xl" className="w-full group text-sm sm:text-lg h-11 sm:h-14 px-4 sm:px-8" asChild>
+              <Link to="/quiz/monitor">
+                <Monitor className="w-4 h-4 sm:w-5 sm:h-5" />
+                Monitor Finder
               </Link>
             </Button>
           </div>

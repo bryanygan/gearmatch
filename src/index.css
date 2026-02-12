@@ -172,9 +172,7 @@
   [data-landing-animations="off"] .animate-float,
   [data-landing-animations="off"] .animate-pulse-subtle,
   [data-landing-animations="off"] .animate-slide-up,
-  [data-landing-animations="off"] .animate-fade-in,
-  [data-landing-animations="off"] .animate-scroll-up,
-  [data-landing-animations="off"] .animate-scroll-down {
+  [data-landing-animations="off"] .animate-fade-in {
     animation: none !important;
     opacity: 1;
     transform: none;

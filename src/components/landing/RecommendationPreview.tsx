@@ -1,4 +1,11 @@
 import { MessageCircle } from "lucide-react";
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselPrevious,
+  CarouselNext,
+} from "@/components/ui/carousel";
 
 // Placeholder peripheral packs - fill in your own data later
 const peripheralPacks = [
@@ -258,18 +265,21 @@ const RecommendationPreview = () => {
 
         {/* Content area */}
         <div className="p-4 md:p-6">
-          {/* Card Grid */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
-            {peripheralPacks.map((pack, index) => (
-              <div
-                key={pack.id}
-                style={{ animationDelay: `${0.6 + index * 0.1}s` }}
-                className="animate-fade-in"
-              >
-                <PackCard pack={pack} />
-              </div>
-            ))}
-          </div>
+          {/* Card Carousel */}
+          <Carousel opts={{ loop: true, align: "start" }} className="w-full">
+            <CarouselContent>
+              {peripheralPacks.map((pack) => (
+                <CarouselItem
+                  key={pack.id}
+                  className="basis-full sm:basis-1/2 lg:basis-1/3"
+                >
+                  <PackCard pack={pack} />
+                </CarouselItem>
+              ))}
+            </CarouselContent>
+            <CarouselPrevious className="hidden sm:flex -left-4 md:-left-5" />
+            <CarouselNext className="hidden sm:flex -right-4 md:-right-5" />
+          </Carousel>
         </div>
       </div>
     </div>

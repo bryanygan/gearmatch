@@ -65,7 +65,7 @@ const QuizModeSelector = memo(function QuizModeSelector({
   const modes = Object.keys(QUIZ_MODE_CONFIG) as QuizMode[];
 
   return (
-    <div className="space-y-4" role="radiogroup" aria-label="Quiz detail level">
+    <div className="flex h-full flex-col gap-3 md:gap-4" role="radiogroup" aria-label="Quiz detail level">
       <div className="text-center">
         <h2 className="font-display text-xl font-bold md:text-2xl">
           How detailed would you like to go?
@@ -75,7 +75,7 @@ const QuizModeSelector = memo(function QuizModeSelector({
         </p>
       </div>
 
-      <div className="grid gap-4 md:grid-cols-3">
+      <div className="grid flex-1 gap-3 md:gap-4 md:grid-cols-3">
         {modes.map((mode) => {
           const config = QUIZ_MODE_CONFIG[mode];
           const Icon = modeIcons[mode];
@@ -90,7 +90,7 @@ const QuizModeSelector = memo(function QuizModeSelector({
               aria-checked={isSelected}
               onClick={() => onSelectMode(mode)}
               className={cn(
-                "group relative flex flex-col items-center gap-3 rounded-xl border-2 p-6 text-center transition-all duration-300",
+                "group relative flex h-full flex-col items-center gap-2 md:gap-3 rounded-xl border-2 p-3 md:p-5 text-center transition-all duration-300",
                 "hover:scale-[1.02] hover:shadow-lg active:scale-[0.98]",
                 isSelected
                   ? `${accent.border} ${accent.bg} shadow-lg ${accent.glow}`
@@ -128,13 +128,13 @@ const QuizModeSelector = memo(function QuizModeSelector({
               {/* Icon */}
               <div
                 className={cn(
-                  "flex h-14 w-14 items-center justify-center rounded-xl transition-colors duration-200",
+                  "flex h-10 w-10 md:h-14 md:w-14 items-center justify-center rounded-xl transition-colors duration-200",
                   isSelected ? accent.iconBg : "bg-secondary"
                 )}
               >
                 <Icon
                   className={cn(
-                    "h-7 w-7 transition-colors duration-200",
+                    "h-5 w-5 md:h-7 md:w-7 transition-colors duration-200",
                     isSelected ? accent.iconText : "text-muted-foreground"
                   )}
                 />

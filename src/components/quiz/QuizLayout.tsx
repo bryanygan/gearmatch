@@ -10,7 +10,7 @@ interface QuizLayoutProps {
 
 const QuizLayout = ({ children, accentColor = "primary" }: QuizLayoutProps) => {
   return (
-    <div className="min-h-screen bg-background">
+    <div className="h-dvh flex flex-col overflow-hidden bg-background">
       {/* Header */}
       <header className="fixed left-0 right-0 top-0 z-50 border-b border-border/50 bg-background/80 backdrop-blur-md">
         <div className="mx-auto flex h-16 max-w-4xl items-center justify-between px-6">
@@ -47,7 +47,7 @@ const QuizLayout = ({ children, accentColor = "primary" }: QuizLayoutProps) => {
       </header>
 
       {/* Main content */}
-      <main className="mx-auto max-w-4xl px-6 pb-12 pt-28">{children}</main>
+      <main className="mx-auto flex flex-1 flex-col min-h-0 w-full max-w-4xl px-6 pb-4 md:pb-6 pt-20">{children}</main>
 
       {/* Decorative background elements */}
       <div className="pointer-events-none fixed inset-0 overflow-hidden">

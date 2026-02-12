@@ -1,9 +1,5 @@
 import { useMemo } from "react";
 
-interface ScrollingProductGridProps {
-  skipAnimations?: boolean;
-}
-
 // Product image data organized by category
 // Each image has base, @2x, and _large variants for responsive loading
 type ProductCategory = "mouse" | "headphone" | "keyboard" | "iem";
@@ -113,7 +109,7 @@ function getImageSrcSet(image: HeroImage): string {
   return `${base}/${name}.webp 1x, ${base}/${name}@2x.webp 2x`;
 }
 
-const ScrollingProductGrid = ({ skipAnimations = false }: ScrollingProductGridProps) => {
+const ScrollingProductGrid = () => {
   // Generate column images with stable randomization per session
   const columnData = useMemo(() => {
     // Use timestamp at component mount for session-unique seed
@@ -130,31 +126,32 @@ const ScrollingProductGrid = ({ skipAnimations = false }: ScrollingProductGridPr
 
   return (
     <div
-      className="scrolling-grid-container relative w-full h-[280px] sm:h-[350px] md:h-[500px] lg:h-[550px] overflow-hidden"
+      className="scrolling-grid-container relative w-full h-[350px] sm:h-[400px] md:h-[500px] lg:h-[550px] overflow-hidden"
       aria-hidden="true"
+      style={{
+        maskImage: "linear-gradient(to bottom, transparent, black 15%, black 85%, transparent)",
+        WebkitMaskImage: "linear-gradient(to bottom, transparent, black 15%, black 85%, transparent)",
+      }}
     >
-      {/* Gradient overlays for fade effect at top and bottom */}
-      <div className="absolute inset-x-0 top-0 h-16 md:h-24 bg-gradient-to-b from-background to-transparent z-10 pointer-events-none" />
-      <div className="absolute inset-x-0 bottom-0 h-16 md:h-24 bg-gradient-to-t from-background to-transparent z-10 pointer-events-none" />
 
       {/* Grid columns */}
       <div className="flex gap-2 sm:gap-3 md:gap-4 h-full justify-center px-2">
         {columnData.map(({ images }, columnIndex) => {
           const isScrollingUp = columnIndex % 2 === 1;
-          const animationClass = skipAnimations
-            ? ""
-            : isScrollingUp
-              ? "animate-scroll-up"
-              : "animate-scroll-down";
+          const animationClass = isScrollingUp
+            ? "animate-scroll-up"
+            : "animate-scroll-down";
 
           // Scale factor for outer columns (depth effect)
           const isOuterColumn = columnIndex === 0 || columnIndex === 3;
           const scaleClass = isOuterColumn ? "scale-95 opacity-70" : "";
+          // Hide last column on narrow mobile to prevent cramping
+          const hiddenOnMobile = columnIndex === 3 ? "hidden sm:block" : "";
 
           return (
             <div
               key={columnIndex}
-              className={`scrolling-column flex-1 max-w-[100px] sm:max-w-[120px] md:max-w-[140px] lg:max-w-[160px] overflow-hidden ${scaleClass}`}
+              className={`scrolling-column flex-1 max-w-[100px] sm:max-w-[120px] md:max-w-[140px] lg:max-w-[160px] overflow-hidden ${scaleClass} ${hiddenOnMobile}`}
             >
               <div
                 className={`scroll-content flex flex-col gap-2 sm:gap-3 md:gap-4 ${animationClass}`}
@@ -166,7 +163,7 @@ const ScrollingProductGrid = ({ skipAnimations = false }: ScrollingProductGridPr
                 {images.map((image, imgIndex) => (
                   <div
                     key={`original-${imgIndex}`}
-                    className="relative w-full rounded-xl md:rounded-2xl overflow-hidden border border-border/30 bg-secondary/50 shadow-lg"
+                    className="relative w-full"
                   >
                     <img
                       src={getImageSrc(image)}
@@ -181,7 +178,7 @@ const ScrollingProductGrid = ({ skipAnimations = false }: ScrollingProductGridPr
                 {images.map((image, imgIndex) => (
                   <div
                     key={`duplicate-${imgIndex}`}
-                    className="relative w-full rounded-xl md:rounded-2xl overflow-hidden border border-border/30 bg-secondary/50 shadow-lg"
+                    className="relative w-full"
                   >
                     <img
                       src={getImageSrc(image)}

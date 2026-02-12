@@ -145,12 +145,12 @@ function QuizContainer<TAnswers extends object>({
   if (showModeSelect) {
     return (
       <QuizLayout accentColor={accentColor}>
-        <div className="space-y-8">
+        <div className="flex flex-1 flex-col justify-center gap-4 md:gap-6">
           {/* Category badge */}
           <div className="text-center">
             <div
               className={cn(
-                "mb-4 inline-flex items-center gap-2 rounded-full px-4 py-2 text-sm",
+                "inline-flex items-center gap-2 rounded-full px-4 py-2 text-sm",
                 accentColor === "primary" && "bg-primary/10 text-primary",
                 accentColor === "accent" && "bg-accent/10 text-accent",
                 accentColor === "secondary" && "bg-secondary/50 text-foreground",
@@ -163,14 +163,16 @@ function QuizContainer<TAnswers extends object>({
           </div>
 
           {/* Mode selector */}
-          <QuizModeSelector
-            selectedMode={selectedMode}
-            onSelectMode={setSelectedMode}
-            accentColor={accentColor}
-          />
+          <div>
+            <QuizModeSelector
+              selectedMode={selectedMode}
+              onSelectMode={setSelectedMode}
+              accentColor={accentColor}
+            />
+          </div>
 
           {/* Start button */}
-          <div className="flex justify-center pt-4">
+          <div className="flex justify-center">
             <Button
               variant={accentColor === "primary" ? "hero" : accentColor === "tertiary" ? "default" : accentColor}
               size="xl"
@@ -197,7 +199,7 @@ function QuizContainer<TAnswers extends object>({
   // Main quiz screen
   return (
     <QuizLayout accentColor={accentColor}>
-      <div className="space-y-8">
+      <div className="flex flex-col gap-4 md:gap-6">
         {/* Progress */}
         <QuizProgress
           currentStep={progress.current}
@@ -209,10 +211,10 @@ function QuizContainer<TAnswers extends object>({
         />
 
         {/* Question header */}
-        <div className="space-y-2 text-center">
+        <div className="space-y-1 text-center">
           <div
             className={cn(
-              "mb-4 inline-flex items-center gap-2 rounded-full px-4 py-2 text-sm",
+              "mb-2 inline-flex items-center gap-2 rounded-full px-4 py-1.5 text-sm",
               accentColor === "primary" && "bg-primary/10 text-primary",
               accentColor === "accent" && "bg-accent/10 text-accent",
               accentColor === "secondary" && "bg-secondary/50 text-foreground",
@@ -223,23 +225,24 @@ function QuizContainer<TAnswers extends object>({
             <span>{categoryLabels[category]}</span>
           </div>
           <div className="flex items-center justify-center gap-2">
-            <h1 className="font-display text-2xl font-bold md:text-3xl">
+            <h1 className="font-display text-xl font-bold md:text-3xl">
               {currentQuestion.title}
             </h1>
             {currentQuestion.helpText && (
               <QuizHelpTooltip content={currentQuestion.helpText} />
             )}
           </div>
-          <p className="text-muted-foreground">{currentQuestion.subtitle}</p>
+          <p className="text-sm text-muted-foreground md:text-base">{currentQuestion.subtitle}</p>
         </div>
 
         {/* Options grid */}
         <div
           className={cn(
-            "grid gap-4",
-            currentQuestion.options.length === 3
-              ? "grid-cols-1 sm:grid-cols-3"
-              : "grid-cols-1 sm:grid-cols-2"
+            "grid gap-3 md:gap-4",
+            currentQuestion.options.length <= 2 && "grid-cols-2",
+            currentQuestion.options.length === 3 && "grid-cols-3",
+            currentQuestion.options.length === 4 && "grid-cols-2",
+            currentQuestion.options.length >= 5 && "grid-cols-3",
           )}
         >
           {currentQuestion.options.map((option) => {
@@ -262,17 +265,15 @@ function QuizContainer<TAnswers extends object>({
           })}
         </div>
 
-        {/* Skip button (for optional questions) */}
-        {currentQuestion.defaultValue !== undefined && currentQuestion.category !== "core" && (
-          <QuizSkipButton
-            onSkip={handleSkip}
-            defaultValue={currentQuestion.defaultValue}
-            accentColor={accentColor}
-          />
-        )}
-
-        {/* Continue button */}
-        <div className="flex justify-center pt-4">
+        {/* Actions row — skip + continue on same line */}
+        <div className="flex items-center justify-center gap-4">
+          {currentQuestion.defaultValue !== undefined && currentQuestion.category !== "core" && (
+            <QuizSkipButton
+              onSkip={handleSkip}
+              defaultValue={currentQuestion.defaultValue}
+              accentColor={accentColor}
+            />
+          )}
           <Button
             variant={accentColor === "primary" ? "hero" : accentColor === "tertiary" ? "default" : accentColor}
             size="xl"
