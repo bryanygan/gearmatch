@@ -277,8 +277,8 @@ const RecommendationPreview = () => {
                 </CarouselItem>
               ))}
             </CarouselContent>
-            <CarouselPrevious className="hidden sm:flex -left-4 md:-left-5" />
-            <CarouselNext className="hidden sm:flex -right-4 md:-right-5" />
+            <CarouselPrevious className="hidden sm:flex left-0" />
+            <CarouselNext className="hidden sm:flex right-0" />
           </Carousel>
         </div>
       </div>

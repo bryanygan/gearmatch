@@ -5,10 +5,14 @@
     "brand": "SteelSeries",
     "category": "audio",
     "price_range_usd": [
-      140,
-      180
+      200,
+      270
     ],
     "product_url": "https://www.amazon.com/s?k=SteelSeries+Arctis+Nova+7+Wireless&tag=gearmatch-20",
+    "retailer_urls": {
+      "manufacturer": "https://www.walmart.com/ip/SteelSeries-Arctis-Nova-7P-Multi-Platform-Premium-Wireless-Gaming-Headset-Black/1005415209",
+      "newegg": "https://www.newegg.com/p/3EE-0005-00078"
+    },
     "recommendation_tags": [
       "great_for_long_sessions",
       "dual_wireless_bluetooth_plus_dongle",
@@ -20,7 +24,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -76,8 +80,8 @@
     "brand": "HyperX",
     "category": "audio",
     "price_range_usd": [
-      150,
-      170
+      219,
+      219
     ],
     "product_url": "https://www.amazon.com/s?k=HyperX+Cloud+III+Wireless&tag=gearmatch-20",
     "recommendation_tags": [
@@ -90,7 +94,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -138,10 +142,16 @@
     "brand": "Razer",
     "category": "audio",
     "price_range_usd": [
-      180,
-      220
+      219,
+      250
     ],
     "product_url": "https://www.amazon.com/s?k=Razer+BlackShark+V3+Pro&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/razer-blackshark-v3-pro-anc-wireless-over-the-ear-gaming-headset-for-xbox-pc-mac-playstation-nintendo-switch-smartphone-black/J39HWFH434/sku/6632768",
+      "manufacturer": "https://www.razer.com/gaming-headsets/razer-blackshark-v3-pro/RZ04-05400500-R3UA",
+      "walmart": "https://www.walmart.com/ip/Razer-Blackshark-V3-Pro-Wireless-ANC-PC-Gaming-Esports-Hadset-2-4Ghz-Bluetooth-White/17114656625",
+      "microcenter": "https://www.microcenter.com/product/697977/razer-blackshark-v3-pro-xbox-active-noise-cancelling-bluetooth-wireless-headset-black"
+    },
     "recommendation_tags": [
       "competitive_fps",
       "wireless_gaming",
@@ -153,7 +163,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -207,8 +217,8 @@
     "brand": "Audeze",
     "category": "audio",
     "price_range_usd": [
-      280,
-      350
+      185,
+      471
     ],
     "product_url": "https://www.amazon.com/s?k=Audeze+Maxwell&tag=gearmatch-20",
     "manufacturer_url": "https://www.audeze.com/products/maxwell-wireless-gaming-headset",
@@ -223,7 +233,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -339,10 +349,13 @@
     "brand": "Razer",
     "category": "audio",
     "price_range_usd": [
-      100,
+      48,
       150
     ],
     "product_url": "https://www.amazon.com/s?k=Razer+Kaira+Pro+Wireless&tag=gearmatch-20",
+    "retailer_urls": {
+      "newegg": "https://www.newegg.com/p/3EE-003B-00006"
+    },
     "recommendation_tags": [
       "wireless_gaming",
       "xbox",
@@ -354,7 +367,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -404,10 +417,15 @@
     "brand": "SteelSeries",
     "category": "audio",
     "price_range_usd": [
-      70,
+      100,
       100
     ],
     "product_url": "https://www.amazon.com/s?k=SteelSeries+Arctis+Nova+3&tag=gearmatch-20",
+    "retailer_urls": {
+      "microcenter": "https://www.microcenter.com/product/651284/steelseries-arctis-nova-3-multi-system-gaming-headset",
+      "walmart": "https://www.walmart.com/ip/New-SteelSeries-Arctis-Nova-3-Multi-Platform-Gaming-Headset-PC-PS5-PS4-Xbox-Series-X-S-Switch-Mobile/373575873",
+      "manufacturer": "https://steelseries.com/gaming-headsets/arctis-nova-3"
+    },
     "recommendation_tags": [
       "wired_gaming",
       "budget",
@@ -419,7 +437,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -481,7 +499,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -528,10 +546,16 @@
     "brand": "Astro",
     "category": "audio",
     "price_range_usd": [
-      350,
+      380,
       400
     ],
     "product_url": "https://www.amazon.com/s?k=Astro+A50+X&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/logitech-astro-a50-x-lightspeed-wireless-w-playsync-over-the-ear-gaming-headset-base-station-for-xbox-series-xs-ps5-pc-mac-black/J7H7ZYG3LJ/sku/6572603",
+      "microcenter": "https://www.microcenter.com/product/676829/A50_X_LIGHTSPEED_Wireless_Gaming_Headset_w-Base_Station_-_Black;_LIGHTSPEED_wireless,_G_HUB,_HDMI_21_Passthru,_Graphene_drivers,_Dolby_Atmos,_3D_audio",
+      "target": "https://www.target.com/p/astro-a50-x-gaming-headset-stereo-bluetooth-39-4-ft-20-hz-20-khz-over-the-head-over-the-ear-binaural-circumaural/-/A-1001323359",
+      "newegg": "https://www.newegg.com/p/N82E16879778022"
+    },
     "recommendation_tags": [
       "wireless_gaming",
       "premium",
@@ -543,7 +567,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -658,11 +682,15 @@
     "brand": "Logitech",
     "category": "audio",
     "price_range_usd": [
-      60,
-      60
+      40,
+      90
     ],
     "image_url": "https://m.media-amazon.com/images/I/71wEqNKKfKL._AC_SL1500_.jpg",
     "product_url": "https://www.amazon.com/s?k=Logitech+G435+LIGHTSPEED+Wireless&tag=gearmatch-20",
+    "retailer_urls": {
+      "manufacturer": "https://www.logitechg.com/en-us/shop/p/g435-wireless-bluetooth-gaming-headset.981-001049",
+      "newegg": "https://www.newegg.com/logitech-g933-7-1-surround-sound-gaming-headset/p/2J5-0051-00073"
+    },
     "recommendation_tags": [
       "budget_gaming",
       "wireless_gaming",
@@ -673,7 +701,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -724,10 +752,14 @@
     "brand": "Logitech",
     "category": "audio",
     "price_range_usd": [
-      50,
-      50
+      45,
+      64
     ],
     "product_url": "https://www.amazon.com/s?k=Logitech+G432&tag=gearmatch-20",
+    "retailer_urls": {
+      "manufacturer": "https://www.logitech.com/en-us/shop/p/g432-7-1-surround-sound-gaming-headset.981-000769",
+      "newegg": "https://www.newegg.com/p/1VH-000J-006E3"
+    },
     "recommendation_tags": [
       "gaming",
       "budget_gaming",
@@ -739,7 +771,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -847,10 +879,17 @@
     "brand": "Astro",
     "category": "audio",
     "price_range_usd": [
-      60,
-      60
+      41,
+      70
     ],
     "product_url": "https://www.amazon.com/s?k=Astro+A10&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/astro-gaming-a10-gen-2-wired-over-the-ear-gaming-headset-for-xbox-one-xbox-series-xs-windows-macos-black/J7H7ZY8J29/sku/6497930",
+      "walmart": "https://www.walmart.com/ip/ASTRO-A10-Gaming-Headset-Gen-2-Wired-Over-ear-gaming-headphones-flip-to-mute-microphone-32-mm-drivers-compatible-PlayStation-PC-Black/734018666",
+      "target": "https://www.target.com/p/astro-a10-wired-gaming-headset-for-xbox-series-x-s-xbox-one-black/-/A-86083190",
+      "bhphoto": "https://www.bhphotovideo.com/c/product/1692945-REG/astro_gaming_939_002055_a10_gen_2_wired.html",
+      "newegg": "https://www.newegg.com/logitech-939-002045-black/p/N82E16826197549"
+    },
     "recommendation_tags": [
       "budget_gaming",
       "console_gaming",
@@ -862,7 +901,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -907,10 +946,17 @@
     "brand": "Turtle Beach",
     "category": "audio",
     "price_range_usd": [
-      25,
-      25
+      23,
+      28
     ],
     "product_url": "https://www.amazon.com/s?k=Turtle+Beach+Recon+50X%2F50P&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/turtle-beach-recon-50x-wired-over-ear-gaming-headset-for-xbox-series-xs-xbox-one-ps5-ps4-ps4-pro-pc-mobile-black-green/JXK5HF4S4P/sku/9539004",
+      "target": "https://www.target.com/p/turtle-beach-recon-50x-stereo-gaming-headset-for-xbox-one-series-x-s-black-green/-/A-49145947",
+      "microcenter": "https://www.microcenter.com/product/679789/turtle-beach-ear-force-recon-50x-stereo-gaming-headset",
+      "manufacturer": "https://www.turtlebeach.com/products/recon-50-headset",
+      "newegg": "https://www.newegg.com/p/1VH-054Y-000D7"
+    },
     "recommendation_tags": [
       "ultra_budget_gaming",
       "casual_gaming",
@@ -922,7 +968,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -967,10 +1013,13 @@
     "brand": "Jabra",
     "category": "audio",
     "price_range_usd": [
-      449,
-      449
+      274,
+      499
     ],
     "product_url": "https://www.amazon.com/s?k=Jabra+Evolve2+85+Wireless&tag=gearmatch-20",
+    "retailer_urls": {
+      "newegg": "https://www.newegg.com/p/1VH-01EX-000C4"
+    },
     "recommendation_tags": [
       "professional_office",
       "conference_calls",
@@ -983,7 +1032,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -1096,9 +1145,12 @@
     "category": "audio",
     "price_range_usd": [
       40,
-      40
+      49
     ],
     "product_url": "https://www.amazon.com/s?k=SteelSeries+TUSQ&tag=gearmatch-20",
+    "retailer_urls": {
+      "manufacturer": "https://steelseries.com/gaming-in-ear-headsets/tusq"
+    },
     "recommendation_tags": [
       "gaming",
       "competitive_gaming",
@@ -1110,7 +1162,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "iem",
@@ -1219,10 +1271,13 @@
     "brand": "SteelSeries",
     "category": "audio",
     "price_range_usd": [
-      150,
-      170
+      221,
+      221
     ],
     "product_url": "https://www.amazon.com/s?k=SteelSeries+Arctis+7%2B+Wireless&tag=gearmatch-20",
+    "retailer_urls": {
+      "newegg": "https://www.newegg.com/p/3EE-0005-00062"
+    },
     "recommendation_tags": [
       "wireless_gaming",
       "long_battery",
@@ -1234,7 +1289,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -1282,9 +1337,13 @@
     "category": "audio",
     "price_range_usd": [
       250,
-      300
+      290
     ],
     "product_url": "https://www.amazon.com/s?k=Razer+Barracuda+Pro+Wireless&tag=gearmatch-20",
+    "retailer_urls": {
+      "manufacturer": "https://www.razer.com/gaming-headsets/razer-barracuda-pro/RZ04-03780100-R3U1",
+      "bestbuy": "https://www.bestbuy.com/product/razer-barracuda-pro-wireless-over-the-ear-gaming-headset-for-pc-mac-nintendo-switch-steam-deck-mobile-and-tablet-black/J3GTVWWJH2"
+    },
     "recommendation_tags": [
       "wireless_gaming",
       "anc",
@@ -1296,7 +1355,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -1347,10 +1406,18 @@
     "brand": "Logitech",
     "category": "audio",
     "price_range_usd": [
-      200,
-      230
+      150,
+      260
     ],
     "product_url": "https://www.amazon.com/s?k=Logitech+G735+Wireless&tag=gearmatch-20",
+    "retailer_urls": {
+      "manufacturer": "https://www.logitechg.com/en-us/shop/p/g735-wireless-bluetooth-headset.981-001082",
+      "bestbuy": "https://www.bestbuy.com/product/logitech-g735-aurora-collection-wireless-over-the-ear-gaming-headset-for-windows-mobile-white-mist/J7H7ZY3KYJ/sku/11255297",
+      "target": "https://www.target.com/p/logitech-g735-gaming-headset-mini-phone-3-5mm-usb-wired-wireless-bluetooth-rf-65-6-ft-38-ohm-20-hz-20-khz-on-ear-ear-cup/-/A-1001323350",
+      "microcenter": "https://www.microcenter.com/product/651172/logitech-g735-rgb-wireless-gaming-headset-white-mist",
+      "bhphoto": "https://www.bhphotovideo.com/c/product/1715999-REG/logitech_981_001082_g735_lightspeed_wireless_rgb.html",
+      "newegg": "https://www.newegg.com/logitech-g735-981-001082-white-usb-type-c/p/N82E16826197592"
+    },
     "recommendation_tags": [
       "wireless_gaming",
       "rgb",
@@ -1362,7 +1429,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -1413,10 +1480,14 @@
     "brand": "Razer",
     "category": "audio",
     "price_range_usd": [
-      150,
-      180
+      80,
+      130
     ],
     "product_url": "https://www.amazon.com/s?k=Razer+BlackShark+V2+HyperSpeed+Wireless&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/razer-blackshark-v2-hyperspeed-wireless-over-the-ear-gaming-headset-for-pc-mac-playstation-switch-steam-deck-mobile-white/J3GV6528JT",
+      "manufacturer": "https://www.razer.com/gaming-headsets/razer-blackshark-v2-hyperspeed/RZ04-04960200-R3U1"
+    },
     "recommendation_tags": [
       "wireless_gaming",
       "long_battery",
@@ -1428,7 +1499,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -1538,10 +1609,14 @@
     "brand": "SteelSeries",
     "category": "audio",
     "price_range_usd": [
-      140,
-      170
+      151,
+      215
     ],
     "product_url": "https://www.amazon.com/s?k=SteelSeries+Arctis+7X+Wireless&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/steelseries-arctis-nova-7p-wireless-gaming-headset-for-ps5-ps4-white/J3GTVPH2W5/sku/6557038",
+      "newegg": "https://www.newegg.com/p/3EE-0005-00048"
+    },
     "recommendation_tags": [
       "wireless_gaming",
       "xbox",
@@ -1553,7 +1628,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -1618,7 +1693,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -1672,10 +1747,13 @@
     "brand": "SteelSeries",
     "category": "audio",
     "price_range_usd": [
-      300,
-      350
+      160,
+      399
     ],
     "product_url": "https://www.amazon.com/s?k=SteelSeries+Arctis+Pro+Wireless&tag=gearmatch-20",
+    "retailer_urls": {
+      "newegg": "https://www.newegg.com/p/3EE-0005-000D2"
+    },
     "recommendation_tags": [
       "wireless_gaming",
       "premium",
@@ -1687,7 +1765,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -1799,10 +1877,16 @@
     "brand": "SteelSeries",
     "category": "audio",
     "price_range_usd": [
-      350,
-      350
+      280,
+      385
     ],
     "product_url": "https://www.amazon.com/s?k=SteelSeries+Arctis+Nova+Pro+Wireless&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/steelseries-arctis-nova-pro-wired-multi-gaming-headset-for-pc-ps5-ps4-switch-black/J3LG47VKX9/sku/6506214",
+      "microcenter": "https://www.microcenter.com/product/649561/Arctis_Nova_Pro_Gaming_Headset_for_PC_and_PlayStation",
+      "manufacturer": "https://steelseries.com/gaming-headsets/arctis-nova-pro",
+      "newegg": "https://www.newegg.com/steelseries-arctis-nova-pro-wireless-61520-black-usb/p/N82E16826249269"
+    },
     "recommendation_tags": [
       "premium_gaming",
       "wireless",
@@ -1814,7 +1898,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -1946,7 +2030,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -2053,8 +2137,8 @@
     "brand": "Corsair",
     "category": "audio",
     "price_range_usd": [
-      100,
-      100
+      110,
+      110
     ],
     "product_url": "https://www.amazon.com/s?k=Corsair+HS70+Wireless&tag=gearmatch-20",
     "recommendation_tags": [
@@ -2067,7 +2151,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -2186,7 +2270,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -2232,10 +2316,13 @@
     "brand": "HyperX",
     "category": "audio",
     "price_range_usd": [
-      150,
-      150
+      110,
+      132
     ],
     "product_url": "https://www.amazon.com/s?k=HyperX+Cloud+II+Wireless+2020&tag=gearmatch-20",
+    "retailer_urls": {
+      "newegg": "https://www.newegg.com/p/1VH-00HE-000Z9"
+    },
     "recommendation_tags": [
       "wireless_gaming",
       "great_mic",
@@ -2246,7 +2333,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -2307,7 +2394,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -2418,10 +2505,13 @@
     "brand": "SteelSeries",
     "category": "audio",
     "price_range_usd": [
-      180,
-      200
+      100,
+      220
     ],
     "product_url": "https://www.amazon.com/s?k=SteelSeries+Arctis+9X+Wireless&tag=gearmatch-20",
+    "retailer_urls": {
+      "newegg": "https://www.newegg.com/p/3EE-0005-00080"
+    },
     "recommendation_tags": [
       "gaming",
       "wireless",
@@ -2432,7 +2522,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -2496,7 +2586,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -2607,10 +2697,16 @@
     "brand": "HyperX",
     "category": "audio",
     "price_range_usd": [
-      170,
-      200
+      126,
+      126
     ],
     "product_url": "https://www.amazon.com/s?k=HyperX+Cloud+Alpha+Wireless&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/hyperx-cloud-alpha-wireless-gaming-headset-for-pc-ps5-and-ps4-black-red/JJG2RHYFHS/sku/6499569",
+      "walmart": "https://www.walmart.com/ip/HyperX-Cloud-Alpha-Wireless-Over-Ear-Gaming-Headset-Red/553448134",
+      "manufacturer": "https://hyperx.com/products/hyperx-cloud-alpha-wireless?variant=42135502422173",
+      "newegg": "https://www.newegg.com/hyperx-cloud-alpha-wireless-dts-black-red/p/3EE-0025-00012"
+    },
     "recommendation_tags": [
       "gaming",
       "wireless",
@@ -2622,7 +2718,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -2668,10 +2764,17 @@
     "brand": "Razer",
     "category": "audio",
     "price_range_usd": [
-      180,
+      130,
       200
     ],
     "product_url": "https://www.amazon.com/s?k=Razer+BlackShark+V2+Pro+Wireless+2023&tag=gearmatch-20",
+    "retailer_urls": {
+      "manufacturer": "https://www.razer.com/gaming-headsets/razer-blackshark-v2-pro/RZ04-04530100-R3U1",
+      "bestbuy": "https://www.bestbuy.com/product/razer-blackshark-v2-pro-wireless-over-the-ear-gaming-headset-for-xbox-black/J39HWFH9LZ",
+      "walmart": "https://www.walmart.com/ip/Razer-BlackShark-V2-Pro-Wireless-PC-Gaming-Headset-2-4GHz-BT-HyperSpeed-Wireless-70Hr-Battery-320g-Black/1278691914",
+      "bhphoto": "https://www.bhphotovideo.com/c/product/1851614-REG/razer_rz04_04530100_r3u1_blackshark_v2_pro_wireless.html",
+      "newegg": "https://www.newegg.com/razer-rz04-04530500-r3ua-wireless-black/p/0TH-00TR-00167"
+    },
     "recommendation_tags": [
       "gaming",
       "wireless",
@@ -2683,7 +2786,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -2794,10 +2897,13 @@
     "brand": "Astro",
     "category": "audio",
     "price_range_usd": [
-      200,
-      230
+      99,
+      269
     ],
     "product_url": "https://www.amazon.com/s?k=Astro+A30+Wireless&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/astro-gaming-a30-wireless-over-the-ear-gaming-headset-for-xbox-one-xbox-series-xs-nintendo-switch-pc-mobile-white/J7H7ZY3W43/sku/6515570"
+    },
     "recommendation_tags": [
       "gaming",
       "wireless",
@@ -2809,7 +2915,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -2861,10 +2967,13 @@
     "brand": "SteelSeries",
     "category": "audio",
     "price_range_usd": [
-      180,
-      200
+      280,
+      280
     ],
     "product_url": "https://www.amazon.com/s?k=SteelSeries+Arctis+9+Wireless&tag=gearmatch-20",
+    "retailer_urls": {
+      "newegg": "https://www.newegg.com/p/3EE-0005-00069"
+    },
     "recommendation_tags": [
       "gaming",
       "wireless",
@@ -2876,7 +2985,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -2926,10 +3035,15 @@
     "brand": "Logitech",
     "category": "audio",
     "price_range_usd": [
-      130,
-      170
+      126,
+      180
     ],
     "product_url": "https://www.amazon.com/s?k=Logitech+G935+Wireless&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/logitech-g935-wireless-over-the-ear-gaming-headset-for-windows-black-blue/J7H7ZYX83L/sku/6320787",
+      "microcenter": "https://www.microcenter.com/product/602489/G935_RGB_Wireless_LIGHTSYNC_Gaming_Headset_w-_71_Surround_Sound;_DTS_HeadphoneX_20,_50_mm_Pro-G_Audio_Drivers,_Up_to_40_ft_Wireless_Connection_-_Black",
+      "newegg": "https://www.newegg.com/p/2J5-0051-00015"
+    },
     "recommendation_tags": [
       "wireless_gaming",
       "dts_surround",
@@ -2939,7 +3053,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -2986,10 +3100,17 @@
     "brand": "Turtle Beach",
     "category": "audio",
     "price_range_usd": [
-      80,
-      100
+      90,
+      94
     ],
     "product_url": "https://www.amazon.com/s?k=Turtle+Beach+Stealth+600&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/turtle-beach-stealth-600-wireless-over-ear-multiplatform-gaming-headset-for-xbox-series-xs-xbox-one-ps5-ps4-pc-mobile-black/JXK5HF4LQV/sku/6577968",
+      "target": "https://www.target.com/p/turtle-beach-stealth-600-gen-3-wireless-headset-for-playstation-white/-/A-91190385",
+      "microcenter": "https://www.microcenter.com/product/679333/turtle-beach-stealth-600-gen-3-wireless-gaming-headset-for-pc-80hr-battery-life-ultra-lightweight-premium-50mm-nanoclear-drivers-prospecs-glasses-frie",
+      "newegg": "https://www.newegg.com/p/3EE-0035-00034",
+      "manufacturer": "https://www.turtlebeach.com/products/stealth-600-headset"
+    },
     "recommendation_tags": [
       "wireless_gaming",
       "budget",
@@ -3000,7 +3121,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -3043,10 +3164,13 @@
     "brand": "SteelSeries",
     "category": "audio",
     "price_range_usd": [
-      80,
-      100
+      91,
+      96
     ],
     "product_url": "https://www.amazon.com/s?k=SteelSeries+Arctis+1+Wireless&tag=gearmatch-20",
+    "retailer_urls": {
+      "newegg": "https://www.newegg.com/steelseries-arctis-1-wireless/p/N82E16826249245"
+    },
     "recommendation_tags": [
       "wireless_gaming",
       "budget",
@@ -3057,7 +3181,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -3104,8 +3228,8 @@
     "brand": "Razer",
     "category": "audio",
     "price_range_usd": [
-      150,
-      200
+      113,
+      217
     ],
     "product_url": "https://www.amazon.com/s?k=Razer+Nari+Ultimate+Wireless&tag=gearmatch-20",
     "recommendation_tags": [
@@ -3117,7 +3241,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -3165,9 +3289,14 @@
     "category": "audio",
     "price_range_usd": [
       180,
-      200
+      180
     ],
     "product_url": "https://www.amazon.com/s?k=Razer+Kraken+V3+Pro+Wireless&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/razer-kraken-kitty-v3-pro-bluetooth-wireless-over-the-ear-gaming-headset-for-pc-mac-playstation-nintendo-switch-steam-deck-black/J39HWFHKT9/sku/6635953",
+      "manufacturer": "https://www.razer.com/gaming-headsets/razer-kraken-kitty-v3-pro/RZ04-05170300-R3U1",
+      "microcenter": "https://www.microcenter.com/product/700018/razer-kraken-kitty-v3-pro-black"
+    },
     "recommendation_tags": [
       "wireless_gaming",
       "haptic_feedback",
@@ -3178,7 +3307,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -3225,10 +3354,14 @@
     "brand": "Razer",
     "category": "audio",
     "price_range_usd": [
-      140,
+      113,
       160
     ],
     "product_url": "https://www.amazon.com/s?k=Razer+Barracuda+Wireless&tag=gearmatch-20",
+    "retailer_urls": {
+      "manufacturer": "https://www.razer.com/gaming-headsets/razer-barracuda/RZ04-03790300-R3U1",
+      "walmart": "https://www.walmart.com/ip/Razer-Barracuda-Wireless-Gaming-Headset-for-PC-PS5-PS4-Switch-Mobile-2-4GHz-Bluetooth-Mercury/2574996476"
+    },
     "recommendation_tags": [
       "wireless_gaming",
       "bluetooth",
@@ -3239,7 +3372,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -3290,10 +3423,14 @@
     "brand": "Corsair",
     "category": "audio",
     "price_range_usd": [
-      150,
-      180
+      140,
+      190
     ],
     "product_url": "https://www.amazon.com/s?k=Corsair+HS80+MAX+Wireless&tag=gearmatch-20",
+    "retailer_urls": {
+      "manufacturer": "https://www.corsair.com/us/en/p/gaming-headsets/CA-9011296-NA/hs80-max-wireless-gaming-headset-white-ca-9011296-na",
+      "bhphoto": "https://www.bhphotovideo.com/c/product/1915329-REG/corsair_ca_9011296_na_hs80_max_wireless_headset.html"
+    },
     "recommendation_tags": [
       "wireless_gaming",
       "bluetooth",
@@ -3304,7 +3441,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -3353,10 +3490,17 @@
     "brand": "Logitech",
     "category": "audio",
     "price_range_usd": [
-      80,
-      100
+      100,
+      120
     ],
     "product_url": "https://www.amazon.com/s?k=Logitech+G535+LIGHTSPEED+Wireless&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/logitech-g535-lightspeed-wireless-over-the-ear-gaming-headset-for-ps5-ps4-windows-black-blue/J7H7ZYGTJ7/sku/6582440",
+      "manufacturer": "https://www.logitech.com/en-us/shop/p/g535-wireless-headset",
+      "bhphoto": "https://www.bhphotovideo.com/c/product/1671067-REG/logitech_981_000971_lightspeed_wireless_headset_black.html",
+      "microcenter": "https://www.microcenter.com/product/647744/logitech-g-g535-lightspeed-wireless-gaming-headset-lightweight-on-ear-headphones,-flip-to-mute-mic,-stereo,-compatible-with-pc,-ps4,-ps5,-usb-recharge",
+      "newegg": "https://www.newegg.com/logitech-g535/p/N82E16826197595"
+    },
     "recommendation_tags": [
       "wireless_gaming",
       "budget",
@@ -3367,7 +3511,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -3413,10 +3557,17 @@
     "brand": "SteelSeries",
     "category": "audio",
     "price_range_usd": [
-      110,
-      130
+      130,
+      150
     ],
     "product_url": "https://www.amazon.com/s?k=SteelSeries+Arctis+Nova+5&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/steelseries-arctis-nova-5-wireless-gaming-headset-for-pc-ps5-and-ps4-black/J3GTVPH7ZR/sku/6576706",
+      "target": "https://www.target.com/p/steelseries-arctis-nova-5x-headset-black/-/A-94794785",
+      "manufacturer": "https://steelseries.com/gaming-headsets/arctis-nova-5",
+      "microcenter": "https://www.microcenter.com/product/679610/Arctis_Nova_5X_Wireless_Gaming_Headset_(Black)_-_24GHz_Wireless__Bluetooth_-_Neodymium_Magentic_Drivers_-_Xbox,_PC,_PlayStation,_Switch,_Meta_Quest,_H",
+      "newegg": "https://www.newegg.com/steelseries-arctis-nova-5-wireless-black/p/N82E16826249275"
+    },
     "recommendation_tags": [
       "wireless_gaming",
       "bluetooth",
@@ -3428,7 +3579,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -3478,10 +3629,18 @@
     "brand": "Turtle Beach",
     "category": "audio",
     "price_range_usd": [
-      60,
-      80
+      90,
+      110
     ],
     "product_url": "https://www.amazon.com/s?k=Turtle+Beach+Stealth+500&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/turtle-beach-stealth-500-wireless-over-ear-gaming-headset-for-pc-ps5-ps4-mobile-black/JXK5HFF8TC/sku/6579296",
+      "target": "https://www.target.com/p/turtle-beach-stealth-500-black-pc-gaming-headset/-/A-1004778324",
+      "walmart": "https://www.walmart.com/ip/Turtle-Beach-Stealth-500-Wireless-Gaming-Headset-Licensed-for-Xbox-Series-X-S-One/5113233515",
+      "microcenter": "https://www.microcenter.com/product/679332/Stealth_500_Wireless_Amplified_Gaming_Headset_for_PC,_PS5,_PS4,_Nintendo_Switch,_-_Mobile_-_40Hr_Battery_Life_-_Ultra-Lightweight_-_Premium_40mm_Drive",
+      "manufacturer": "https://www.turtlebeach.com/products/stealth-500-headset",
+      "newegg": "https://www.newegg.com/p/1VH-004K-00167"
+    },
     "recommendation_tags": [
       "budget_gaming",
       "wireless",
@@ -3493,7 +3652,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -3558,7 +3717,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -3608,8 +3767,8 @@
     "brand": "LucidSound",
     "category": "audio",
     "price_range_usd": [
-      100,
-      150
+      149,
+      149
     ],
     "product_url": "https://www.amazon.com/s?k=LucidSound+LS31+Wireless&tag=gearmatch-20",
     "recommendation_tags": [
@@ -3623,7 +3782,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -3669,10 +3828,15 @@
     "brand": "HyperX",
     "category": "audio",
     "price_range_usd": [
-      100,
-      140
+      70,
+      152
     ],
     "product_url": "https://www.amazon.com/s?k=HyperX+Cloud+Flight&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/hyperx-cloud-flight-wireless-gaming-headset-for-pc-laptop-ps5-and-ps4-black/JJG2RHP7TY/sku/11441640",
+      "target": "https://www.target.com/p/hyperx-cloud-flight-wireless-gaming-headset-for-playstation-4-5/-/A-86873154",
+      "newegg": "https://www.newegg.com/p/2SK-00BX-00014"
+    },
     "recommendation_tags": [
       "gaming",
       "wireless",
@@ -3685,7 +3849,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -3746,7 +3910,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -3875,7 +4039,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -3927,8 +4091,8 @@
     "brand": "Corsair",
     "category": "audio",
     "price_range_usd": [
-      70,
-      100
+      109,
+      109
     ],
     "product_url": "https://www.amazon.com/s?k=Corsair+Void+PRO+RGB+Wireless&tag=gearmatch-20",
     "recommendation_tags": [
@@ -3943,7 +4107,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -3989,10 +4153,18 @@
     "brand": "Razer",
     "category": "audio",
     "price_range_usd": [
-      100,
+      69,
       100
     ],
     "product_url": "https://www.amazon.com/s?k=Razer+Barracuda+X+Wireless+2021&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/razer-barracuda-x-2022-edition-wireless-over-the-ear-gaming-headset-for-pc-mac-playstation-switch-steam-deck-mobile-mercury/J39HWFQH57",
+      "manufacturer": "https://www.razer.com/gaming-headsets/razer-barracuda-x/RZ04-04430200-R3U1",
+      "walmart": "https://www.walmart.com/ip/Razer-Barracuda-X-Wireless-Gaming-Headset-for-PC-PS5-PS4-NS-2-4GHz-Bluetooth-250g-Quartz-Pink/1146288370",
+      "target": "https://www.target.com/p/razer-barracuda-x-wireless-gaming-headset-for-playstation-4-5-pc-black/-/A-86375595",
+      "newegg": "https://www.newegg.com/razer-barracuda-x-2022-edition-rz04-04430200-r3u1-mercury-3-5mm-usb-type-c/p/N82E16826153347",
+      "bhphoto": "https://www.bhphotovideo.com/c/product/1851610-REG/razer_rz04_04430100_r3u1_barracuda_x_wireless_multi_platform.html"
+    },
     "recommendation_tags": [
       "wireless_gaming",
       "budget",
@@ -4003,7 +4175,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -4050,10 +4222,17 @@
     "brand": "Turtle Beach",
     "category": "audio",
     "price_range_usd": [
-      150,
-      150
+      195,
+      200
     ],
     "product_url": "https://www.amazon.com/s?k=Turtle+Beach+Stealth+700+Wireless&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/turtle-beach-stealth-700-gen-3-wireless-over-ear-multiplatform-gaming-headset-for-pc-ps5-ps4-mobile-with-80-hr-battery-black/JXK5HFF8Q4/sku/6590340",
+      "microcenter": "https://www.microcenter.com/product/685197/Stealth_700_Wireless_Gaming_Headset_Xbox_(Black);_CrossPlay_Wireless_System;_Huge_60mm_Drivers;_Flip_to_Mute_Mic;_80Hr_Battery_Life",
+      "walmart": "https://www.walmart.com/ip/Turtle-Beach-Stealth-700-Wireless-Gaming-Headset-for-Xbox-X-S-Xbox-One-PC-PS5-PS4-NSW-Mobile/6534722115",
+      "newegg": "https://www.newegg.com/p/N82E16826502090",
+      "manufacturer": "https://www.turtlebeach.com/products/stealth-700-gen-3-headset"
+    },
     "recommendation_tags": [
       "wireless_gaming",
       "anc",
@@ -4064,7 +4243,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -4242,10 +4421,16 @@
     "brand": "Sony",
     "category": "audio",
     "price_range_usd": [
-      300,
-      300
+      198,
+      328
     ],
     "product_url": "https://www.amazon.com/s?k=Sony+INZONE+H9+Wireless&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/sony-inzone-h9-wireless-noise-canceling-gaming-headset-perfect-for-ps5-ps4-pc-white/J7XSRH5CQ5/sku/10904763",
+      "manufacturer": "https://electronics.sony.com/audio/gaming-audio/inzone-headsets/p/whg900n-w",
+      "bhphoto": "https://www.bhphotovideo.com/c/product/1720017-REG/sony_whg900n_w_inzone_h9_wireless_headset.html",
+      "newegg": "https://www.newegg.com/p/0TH-000U-00JU0"
+    },
     "recommendation_tags": [
       "premium_gaming",
       "anc",
@@ -4256,7 +4441,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -4305,10 +4490,13 @@
     "brand": "Turtle Beach",
     "category": "audio",
     "price_range_usd": [
-      100,
-      100
+      49,
+      130
     ],
     "product_url": "https://www.amazon.com/s?k=Turtle+Beach+Stealth+600+Gen+2&tag=gearmatch-20",
+    "retailer_urls": {
+      "newegg": "https://www.newegg.com/p/3EE-0035-00006"
+    },
     "recommendation_tags": [
       "wireless_gaming",
       "budget",
@@ -4319,7 +4507,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -4420,10 +4608,16 @@
     "brand": "Sony",
     "category": "audio",
     "price_range_usd": [
-      200,
-      200
+      218,
+      220
     ],
     "product_url": "https://www.amazon.com/s?k=Sony+INZONE+Buds&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/sony-inzone-buds-truly-wireless-noise-canceling-gaming-earbuds-perfect-for-ps5-pc-black/J7XSRH5YWG/sku/6562123",
+      "manufacturer": "https://electronics.sony.com/audio/gaming-audio/all-inzone-headsets/p/wfg700n-b",
+      "bhphoto": "https://www.bhphotovideo.com/c/product/1791649-REG/sony_wfg700n_b_inzone_buds_truly_wireless.html",
+      "newegg": "https://www.newegg.com/p/0TH-000U-00K01"
+    },
     "recommendation_tags": [
       "gaming_earbuds",
       "anc",
@@ -4434,7 +4628,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "earbud",
@@ -4482,8 +4676,8 @@
     "brand": "Sony",
     "category": "audio",
     "price_range_usd": [
-      150,
-      150
+      141,
+      287
     ],
     "product_url": "https://www.amazon.com/s?k=Sony+PULSE+Elite&tag=gearmatch-20",
     "recommendation_tags": [
@@ -4497,7 +4691,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -4605,10 +4799,14 @@
     "brand": "Sennheiser",
     "category": "audio",
     "price_range_usd": [
-      1600,
-      1800
+      1580,
+      1700
     ],
     "product_url": "https://www.amazon.com/s?k=Sennheiser+HD+800+S&tag=gearmatch-20",
+    "retailer_urls": {
+      "manufacturer": "http://en-us.sennheiser.com/high-resolution-headphones-3d-audio-hd-800-s",
+      "bhphoto": "https://www.bhphotovideo.com/c/product/803387448-USE/sennheiser_506911_hd_800_s_dynamic.html/"
+    },
     "recommendation_tags": [
       "audiophile",
       "open_back",
@@ -4621,7 +4819,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "headphone",
@@ -4663,10 +4861,13 @@
     "brand": "Sennheiser",
     "category": "audio",
     "price_range_usd": [
-      350,
-      400
+      278,
+      587
     ],
     "product_url": "https://www.amazon.com/s?k=Sennheiser+HD+490+PRO&tag=gearmatch-20",
+    "retailer_urls": {
+      "bhphoto": "https://www.bhphotovideo.com/c/product/1798205-REG/sennheiser_700286_hd_490_pro.html"
+    },
     "recommendation_tags": [
       "audiophile",
       "studio_monitor",
@@ -4678,7 +4879,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "headphone",
@@ -4737,7 +4938,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "headphone",
@@ -4897,10 +5098,13 @@
     "brand": "HiFiMan",
     "category": "audio",
     "price_range_usd": [
-      1100,
-      1300
+      749,
+      1428
     ],
     "product_url": "https://www.amazon.com/s?k=HiFiMan+Arya+Stealth+Magnet+Version&tag=gearmatch-20",
+    "retailer_urls": {
+      "manufacturer": "https://kr.hifiman.com/en/products/arya-organic-open-box"
+    },
     "recommendation_tags": [
       "audiophile",
       "open_back",
@@ -4912,7 +5116,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "headphone",
@@ -4971,7 +5175,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "headphone",
@@ -5012,10 +5216,17 @@
     "brand": "Sony",
     "category": "audio",
     "price_range_usd": [
-      100,
-      100
+      105,
+      135
     ],
     "product_url": "https://www.amazon.com/s?k=Sony+MDR-7506&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/sony-professional-studio-headphones-black/J7XSRH8HQC/sku/11645347",
+      "manufacturer": "https://electronics.sony.com/audio/headphones/all-headphones/p/mdr7506",
+      "microcenter": "https://www.microcenter.com/product/688329/MDR7506_Professional_Stereo_Monitor_Headphones_-_Black",
+      "bhphoto": "https://www.bhphotovideo.com/c/product/1320363-REG/sony_mdr_7506_headphones_with_sheepskin.html",
+      "newegg": "https://www.newegg.com/sony-mdr-7506-other-black/p/0WF-000Y-00023"
+    },
     "recommendation_tags": [
       "studio_monitoring",
       "critical_listening",
@@ -5028,7 +5239,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "headphone",
@@ -5070,10 +5281,16 @@
     "brand": "Beyerdynamic",
     "category": "audio",
     "price_range_usd": [
-      160,
-      160
+      200,
+      200
     ],
     "product_url": "https://www.amazon.com/s?k=Beyerdynamic+DT+770+PRO&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/beyerdynamic-dt-770-pro-80-ohm-over-ear-studio-headphones-black/CJG7S2GYRW/sku/10416928",
+      "manufacturer": "https://www.walmart.com/ip/beyerdynamic-Noise-Canceling-Over-Ear-Headphones-Black-DT-770-PRO-250-OHM/128049551",
+      "bhphoto": "https://www.bhphotovideo.com/c/product/984399-REG/beyerdynamic_ams_dt_770_pro_32_dt_770_pro_studio_headphones.html",
+      "newegg": "https://www.newegg.com/beyerdynamic-dt-770-pro-grey/p/0TF-00D2-00002"
+    },
     "recommendation_tags": [
       "studio_monitoring",
       "mixing",
@@ -5085,7 +5302,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "headphone",
@@ -5127,10 +5344,13 @@
     "brand": "Beyerdynamic",
     "category": "audio",
     "price_range_usd": [
-      500,
-      500
+      349,
+      766
     ],
     "product_url": "https://www.amazon.com/s?k=Beyerdynamic+DT+1770+PRO&tag=gearmatch-20",
+    "retailer_urls": {
+      "manufacturer": "https://north-america.beyerdynamic.com/p/dt-1770-pro-b-stock"
+    },
     "recommendation_tags": [
       "studio_monitoring",
       "mixing",
@@ -5142,7 +5362,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "headphone",
@@ -5183,10 +5403,14 @@
     "brand": "Focal",
     "category": "audio",
     "price_range_usd": [
-      600,
-      800
+      699,
+      1169
     ],
     "product_url": "https://www.amazon.com/s?k=Focal+Bathys+Wireless&tag=gearmatch-20",
+    "retailer_urls": {
+      "bhphoto": "https://www.bhphotovideo.com/c/product/1729936-REG/focal_fbathys_bathys_noise_canceling_wireless_over_ear.html",
+      "newegg": "https://www.newegg.com/p/0TH-00DF-002G2"
+    },
     "recommendation_tags": [
       "audiophile",
       "critical_listening",
@@ -5199,7 +5423,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "headphone",
@@ -5252,8 +5476,8 @@
     "brand": "Sony",
     "category": "audio",
     "price_range_usd": [
-      400,
-      400
+      372,
+      410
     ],
     "product_url": "https://www.amazon.com/s?k=Sony+WH-1000XM6&tag=gearmatch-20",
     "recommendation_tags": [
@@ -5269,7 +5493,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "headphone",
@@ -5392,10 +5616,17 @@
     "brand": "Bose",
     "category": "audio",
     "price_range_usd": [
-      430,
-      430
+      249,
+      250
     ],
     "product_url": "https://www.amazon.com/s?k=Bose+QuietComfort+Ultra+Headphones+(2nd+Gen)&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/bose-quietcomfort-ultra-2nd-gen-true-wireless-noise-cancelling-in-ear-earbuds-black/J7C5V6WCKZ/sku/6628900",
+      "manufacturer": "https://www.bose.com/p/earbuds/bose-quietcomfort-ultra-earbuds-2nd-gen/QCUE2-HEADPHONEIN.html",
+      "target": "https://www.target.com/p/bose-quietcomfort-ultra-earbuds-2nd-gen-black/-/A-94630131",
+      "bhphoto": "https://www.bhphotovideo.com/c/product/1914425-REG/bose_896637_0010_quietcomfort_ultra_true_wireless.html",
+      "newegg": "https://www.newegg.com/bose-896637-0010-earbud-black/p/N82E16826627170"
+    },
     "recommendation_tags": [
       "premium_anc",
       "travel",
@@ -5408,7 +5639,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "headphone",
@@ -5458,10 +5689,13 @@
     "brand": "Bose",
     "category": "audio",
     "price_range_usd": [
-      249,
-      249
+      150,
+      299
     ],
     "product_url": "https://www.amazon.com/s?k=Bose+QuietComfort+Headphones+Wireless&tag=gearmatch-20",
+    "retailer_urls": {
+      "bhphoto": "https://www.bhphotovideo.com/c/product/803284741-USE/bose_789564_0030_quietcomfort_35_series_ii.html/"
+    },
     "recommendation_tags": [
       "anc",
       "travel",
@@ -5474,7 +5708,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "headphone",
@@ -5593,6 +5827,11 @@
       80
     ],
     "product_url": "https://www.amazon.com/s?k=Anker+Soundcore+Life+Q30+Wireless&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/soundcore-life-q30-by-anker-hybrid-active-noise-cancelling-headphones-black/JJ8586KVPG/sku/10846514",
+      "manufacturer": "https://www.walmart.com/ip/Soundcore-by-Anker-Life-Q30-Hybrid-Active-Noise-Cancelling-Headphones-with-Multiple-Modes-Hi-Res-Sound-Custom-EQ-via-App-40H-Playtime/674401559",
+      "newegg": "https://www.newegg.com/p/0TH-033Y-000F4"
+    },
     "recommendation_tags": [
       "budget_anc",
       "travel",
@@ -5604,7 +5843,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "headphone",
@@ -5734,7 +5973,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "headphone",
@@ -5783,10 +6022,14 @@
     "brand": "Sennheiser",
     "category": "audio",
     "price_range_usd": [
-      350,
-      450
+      500,
+      500
     ],
     "product_url": "https://www.amazon.com/s?k=Sennheiser+HDB+630&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/sennheiser-hdb-630-around-the-ear-bluetooth-wireless-headphones-black/J3GW2LH9HF/sku/6645991",
+      "bhphoto": "https://www.bhphotovideo.com/c/product/1922246-REG/sennheiser_700445_hdb_630_closed_back_wireless.html"
+    },
     "recommendation_tags": [
       "audiophile",
       "premium_anc",
@@ -5798,7 +6041,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "headphone",
@@ -5850,10 +6093,17 @@
     "brand": "Sony",
     "category": "audio",
     "price_range_usd": [
-      200,
-      200
+      148,
+      249
     ],
     "product_url": "https://www.amazon.com/s?k=Sony+ULT+WEAR&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/sony-ult-wear-wireless-noise-cancelling-headphones-with-wireless-audio-adapter-black/JJG2F38ZGX/sku/10210524",
+      "manufacturer": "https://electronics.sony.com/audio/headphones/all-headphones/p/whult900n-w",
+      "walmart": "https://www.walmart.com/ip/Sony-ULT-WEAR-Wireless-Noise-Cancelling-Headphones-Off-White/5212591695",
+      "bhphoto": "https://www.bhphotovideo.com/c/product/1824830-REG/sony_whult900n_b_ult_wear_wireless_noise.html",
+      "newegg": "https://www.newegg.com/p/0TH-000U-00K21"
+    },
     "recommendation_tags": [
       "bass_lovers",
       "anc",
@@ -5866,7 +6116,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "headphone",
@@ -5981,10 +6231,18 @@
     "brand": "Beats",
     "category": "audio",
     "price_range_usd": [
-      350,
+      169,
       350
     ],
     "product_url": "https://www.amazon.com/s?k=Beats+Studio+Pro+Wireless&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/beats-studio-pro-wireless-noise-cancelling-over-the-ear-headphones-sandstone/JJ8ZHR9KSJ/sku/12202478",
+      "target": "https://www.target.com/p/beats-studio-pro-bluetooth-wireless-headphones-matte-pink/-/A-94778650",
+      "walmart": "https://www.walmart.com/ip/Beats-Studio-Pro-Wireless-Headphones-Sandstone/3305094887",
+      "manufacturer": "https://www.beatsbydre.com/headphones/studio-pro-wireless/MQTR3/sandstone",
+      "bhphoto": "https://www.bhphotovideo.com/c/product/1774620-REG/beats_by_dr_dre_mqtp3ll_a_studio_pro_wireless_over_ear.html",
+      "microcenter": "https://www.microcenter.com/product/668682/Beats_Studio_Pro_Active_Noise_Cancelling_Bluetooth_Wireless_Headphones_-_Sandstone"
+    },
     "recommendation_tags": [
       "anc",
       "travel",
@@ -5997,7 +6255,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "headphone",
@@ -6049,10 +6307,17 @@
     "brand": "Beats",
     "category": "audio",
     "price_range_usd": [
-      150,
+      118,
       200
     ],
     "product_url": "https://www.amazon.com/s?k=Beats+Solo+4&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/beats-solo-4-bluetooth-wireless-on-ear-headphones-matte-mg7j4lla-gray/JJGCQL6QYX/sku/11961203",
+      "target": "https://www.target.com/p/beats-solo-4-bluetooth-wireless-on-ear-headphones-warm-white/-/A-93124207",
+      "walmart": "https://www.walmart.com/ip/Beats-Solo4-Wireless-Headphones-On-Ear-Wireless-Headphones-Drenced-Gray/17203508556",
+      "manufacturer": "https://www.beatsbydre.com/headphones/solo4-wireless/MUW23/solo4-matteblack",
+      "bhphoto": "https://www.bhphotovideo.com/c/product/1821789-REG/beats_by_dr_dre_muw23ll_a_solo4_wireless_headphones_on_ear.html"
+    },
     "recommendation_tags": [
       "on_ear",
       "beats",
@@ -6064,7 +6329,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "headphone",
@@ -6123,6 +6388,12 @@
       50
     ],
     "product_url": "https://www.amazon.com/s?k=JBL+Tune+520BT&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/jbl-tune520bt-wireless-on-ear-headphones-2024-black/J7LXFWX857/sku/6572450",
+      "manufacturer": "https://www.jbl.com/JBLT520BTBLKAM.html",
+      "target": "https://www.target.com/p/jbl-tune-520bt-bluetooth-wireless-on-ear-headphones-black/-/A-90571849",
+      "bhphoto": "https://www.bhphotovideo.com/c/product/1808937-REG/jbl_jblt520btblkam_tune_520bt_wireless_on_ear.html"
+    },
     "recommendation_tags": [
       "budget",
       "on_ear",
@@ -6134,7 +6405,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "headphone",
@@ -6180,10 +6451,16 @@
     "brand": "JBL",
     "category": "audio",
     "price_range_usd": [
-      80,
-      130
+      67,
+      145
     ],
     "product_url": "https://www.amazon.com/s?k=JBL+Tune+760NC+Wireless&tag=gearmatch-20",
+    "retailer_urls": {
+      "walmart": "https://www.walmart.com/ip/JBL-Tune-760NC-Wireless-Over-Ear-Active-Noise-Cancelling-Headphones-Black/321593887",
+      "bestbuy": "https://www.bestbuy.com/product/jbl-tune-760nc-noise-canceling-wireless-over-ear-headphones-white/J7LXFW2KYW/sku/11297501",
+      "newegg": "https://www.newegg.com/p/0TH-001X-008Y5",
+      "manufacturer": "https://www.walmart.com/ip/Restored-JBL-Tune-760NC-Noise-Canceling-Wireless-Over-Ear-Headphones-White-Refurbished/5164962785"
+    },
     "recommendation_tags": [
       "budget_anc",
       "budget_wireless",
@@ -6194,7 +6471,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "headphone",
@@ -6243,10 +6520,18 @@
     "brand": "Sony",
     "category": "audio",
     "price_range_usd": [
-      40,
-      60
+      48,
+      70
     ],
     "product_url": "https://www.amazon.com/s?k=Sony+WH-CH520+Wireless&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/sony-wh-ch520-wireless-headphone-with-microphone-black/J7XSRH53L3/sku/10893393",
+      "manufacturer": "https://electronics.sony.com/audio/headphones/headband/p/whch520-l",
+      "walmart": "https://www.walmart.com/ip/Sony-WH-CH520-Wireless-Headphones/2075569936",
+      "bhphoto": "https://www.bhphotovideo.com/c/product/1754496-REG/sony_whch520_b_wireless_on_ear_headphones_with.html",
+      "microcenter": "https://www.microcenter.com/product/664668/WH-CH520_Wireless_Bluetooth_Headphones_-_Black",
+      "newegg": "https://www.newegg.com/p/0TH-000U-00JR1"
+    },
     "recommendation_tags": [
       "budget",
       "budget_wireless",
@@ -6259,7 +6544,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "headphone",
@@ -6501,8 +6786,8 @@
     "brand": "Samsung",
     "category": "audio",
     "price_range_usd": [
-      250,
-      250
+      114,
+      238
     ],
     "product_url": "https://www.amazon.com/s?k=Samsung+Galaxy+Buds3+Pro&tag=gearmatch-20",
     "recommendation_tags": [
@@ -6518,7 +6803,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "earbud",
@@ -7213,11 +7498,16 @@
     "brand": "Skullcandy",
     "category": "audio",
     "price_range_usd": [
-      30,
-      30
+      20,
+      35
     ],
     "product_url": "https://www.amazon.com/s?k=Skullcandy+Dime+3+True+Wireless&tag=gearmatch-20",
     "manufacturer_url": "https://www.skullcandy.com/products/dime-3-true-wireless-earbuds",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/skullcandy-dime-3-true-wireless-earbuds-black/J3GTFHVJ9P/sku/6580352",
+      "manufacturer": "https://www.skullcandy.com/products/dime-3-true-wireless-earbuds?variant=42411339382841",
+      "bhphoto": "https://www.bhphotovideo.com/c/product/1795530-REG/skullcandy_s2dcw_r740_dime_3_true_wireless.html"
+    },
     "recommendation_tags": [
       "ultra_budget",
       "tws",
@@ -7229,7 +7519,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "earbud",
@@ -7528,6 +7818,12 @@
       250
     ],
     "product_url": "https://www.amazon.com/s?k=Beats+Powerbeats+Pro+2&tag=gearmatch-20",
+    "retailer_urls": {
+      "target": "https://www.target.com/p/powerbeats-pro-2-high-performance-earbuds-jet-black/-/A-94577837",
+      "bestbuy": "https://www.bestbuy.com/product/beats-powerbeats-pro-2-true-wireless-active-noise-canceling-earbuds-jet-black/JJGCQ3FZLV/sku/6558860",
+      "walmart": "https://www.walmart.com/ip/Beats-Powerbeats-Pro-2-High-Performance-Earbuds-Jet-Black/15075506141",
+      "manufacturer": "https://www.beatsbydre.com/earbuds/powerbeats-pro-2/MX723/jet-black"
+    },
     "recommendation_tags": [
       "sports_fitness",
       "running",
@@ -7540,7 +7836,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "earbud",
@@ -7589,10 +7885,17 @@
     "brand": "Beats",
     "category": "audio",
     "price_range_usd": [
-      50,
-      50
+      45,
+      70
     ],
     "product_url": "https://www.amazon.com/s?k=Beats+Flex+Wireless&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/beats-flex-wireless-earphones-black/JJ8XJS9G9S/sku/12035911",
+      "target": "https://www.target.com/p/beats-flex-all-day-bluetooth-wireless-earphones-beats-black/-/A-81804770",
+      "walmart": "https://www.walmart.com/ip/Beats-Flex-All-Day-Wireless-Earphones-Beats-Black/696881930",
+      "manufacturer": "https://www.beatsbydre.com/earbuds/beats-flex/MYMC2/beats-black",
+      "bhphoto": "https://www.bhphotovideo.com/c/product/1598855-REG/apple_mymc2ll_a_beats_flex_wireless_in_ear.html"
+    },
     "recommendation_tags": [
       "budget",
       "neckband",
@@ -7604,7 +7907,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "earbud",
@@ -7651,10 +7954,18 @@
     "brand": "Bose",
     "category": "audio",
     "price_range_usd": [
-      250,
-      300
+      199,
+      200
     ],
     "product_url": "https://www.amazon.com/s?k=Bose+Ultra+Open+Earbuds&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/bose-ultra-open-ear-true-wireless-open-earbuds-black/J7C5V6T3CX/sku/6568949",
+      "manufacturer": "https://www.bose.com/p/earbuds/bose-ultra-open-earbuds/ULT-HEADPHONEOPN.html",
+      "target": "https://www.target.com/p/bose-ultra-open-ear-true-wireless-bluetooth-open-earbuds-black/-/A-90291518",
+      "bhphoto": "https://www.bhphotovideo.com/c/product/1806757-REG/bose_881046_0010_bose_ultra_open_earbuds.html",
+      "microcenter": "https://www.microcenter.com/product/677212/Ultra_Open_True_Wireless_Bluetooth_Earbuds_-_Black",
+      "newegg": "https://www.newegg.com/bose-881046-0010-earbud-black/p/N82E16826627148"
+    },
     "recommendation_tags": [
       "sports_fitness",
       "open_fit",
@@ -7667,7 +7978,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "earbud",
@@ -7779,7 +8090,7 @@
     "category": "audio",
     "price_range_usd": [
       23,
-      23
+      26
     ],
     "product_url": "https://www.amazon.com/s?k=Moondrop+Chu+II&tag=gearmatch-20",
     "recommendation_tags": [
@@ -7792,7 +8103,7 @@
       "data_confidence": "high",
       "primary_source_type": "community_poll",
       "source_name": "HiFiGo + community consensus",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "iem",
@@ -7848,7 +8159,7 @@
       "data_confidence": "medium",
       "primary_source_type": "community_poll",
       "source_name": "HiFiGo",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "iem",
@@ -8057,8 +8368,8 @@
     "brand": "TRUTHEAR",
     "category": "audio",
     "price_range_usd": [
-      90,
-      90
+      80,
+      146
     ],
     "product_url": "https://www.amazon.com/s?k=TRUTHEAR+HEXA&tag=gearmatch-20",
     "manufacturer_url": "https://truthear.com/products/hexa",
@@ -8073,7 +8384,7 @@
       "data_confidence": "high",
       "primary_source_type": "community_poll",
       "source_name": "TRUTHEAR official + community consensus",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "iem",
@@ -8518,10 +8829,14 @@
     "brand": "Meze",
     "category": "audio",
     "price_range_usd": [
-      199,
-      199
+      159,
+      159
     ],
     "product_url": "https://www.amazon.com/s?k=Meze+ALBA&tag=gearmatch-20",
+    "retailer_urls": {
+      "target": "https://www.target.com/p/meze-audio-alba-in-ear-headphones/-/A-1000911189",
+      "manufacturer": "https://mezeaudio.com/products/alba?variant=48500605944153"
+    },
     "recommendation_tags": [
       "audiophile",
       "critical_listening",
@@ -8533,7 +8848,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "iem",
@@ -8710,7 +9025,7 @@
       "data_confidence": "medium",
       "primary_source_type": "community_poll",
       "source_name": "HiFiGo",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "iem",
@@ -9177,10 +9492,17 @@
     "brand": "Razer",
     "category": "audio",
     "price_range_usd": [
-      150,
-      180
+      130,
+      200
     ],
     "product_url": "https://www.amazon.com/s?k=Razer+BlackShark+V2+Pro+Wireless+2020&tag=gearmatch-20",
+    "retailer_urls": {
+      "manufacturer": "https://www.razer.com/gaming-headsets/razer-blackshark-v2-pro/RZ04-04530100-R3U1",
+      "bestbuy": "https://www.bestbuy.com/product/razer-blackshark-v2-pro-wireless-over-the-ear-gaming-headset-for-xbox-black/J39HWFH9LZ",
+      "walmart": "https://www.walmart.com/ip/Razer-BlackShark-V2-Pro-Wireless-PC-Gaming-Headset-2-4GHz-BT-HyperSpeed-Wireless-70Hr-Battery-320g-Black/1278691914",
+      "bhphoto": "https://www.bhphotovideo.com/c/product/1851614-REG/razer_rz04_04530100_r3u1_blackshark_v2_pro_wireless.html",
+      "newegg": "https://www.newegg.com/razer-rz04-04530500-r3ua-wireless-black/p/0TH-00TR-00167"
+    },
     "recommendation_tags": [
       "competitive_fps",
       "wireless_gaming",
@@ -9192,7 +9514,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -9237,10 +9559,17 @@
     "brand": "Turtle Beach",
     "category": "audio",
     "price_range_usd": [
-      130,
-      150
+      195,
+      200
     ],
     "product_url": "https://www.amazon.com/s?k=Turtle+Beach+Stealth+700+Gen+2+Wireless&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/turtle-beach-stealth-700-gen-3-wireless-over-ear-multiplatform-gaming-headset-for-pc-ps5-ps4-mobile-with-80-hr-battery-black/JXK5HFF8Q4/sku/6590340",
+      "microcenter": "https://www.microcenter.com/product/685197/Stealth_700_Wireless_Gaming_Headset_Xbox_(Black);_CrossPlay_Wireless_System;_Huge_60mm_Drivers;_Flip_to_Mute_Mic;_80Hr_Battery_Life",
+      "walmart": "https://www.walmart.com/ip/Turtle-Beach-Stealth-700-Wireless-Gaming-Headset-for-Xbox-X-S-Xbox-One-PC-PS5-PS4-NSW-Mobile/6534722115",
+      "newegg": "https://www.newegg.com/p/N82E16826502090",
+      "manufacturer": "https://www.turtlebeach.com/products/stealth-700-gen-3-headset"
+    },
     "recommendation_tags": [
       "xbox_gaming",
       "wireless_gaming",
@@ -9252,7 +9581,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -9434,8 +9763,8 @@
     "brand": "Sony",
     "category": "audio",
     "price_range_usd": [
-      180,
-      230
+      112,
+      210
     ],
     "product_url": "https://www.amazon.com/s?k=Sony+INZONE+H7+Wireless&tag=gearmatch-20",
     "recommendation_tags": [
@@ -9449,7 +9778,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -9633,8 +9962,8 @@
     "brand": "Bose",
     "category": "audio",
     "price_range_usd": [
-      200,
-      280
+      170,
+      299
     ],
     "product_url": "https://www.amazon.com/s?k=Bose+QuietComfort+35+II+Gaming+Headset&tag=gearmatch-20",
     "recommendation_tags": [
@@ -9649,7 +9978,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -9700,10 +10029,15 @@
     "brand": "Xbox",
     "category": "audio",
     "price_range_usd": [
-      90,
-      110
+      98,
+      113
     ],
     "product_url": "https://www.amazon.com/s?k=Xbox+Wireless+Headset&tag=gearmatch-20",
+    "retailer_urls": {
+      "target": "https://www.target.com/p/xbox-wireless-stereo-headset-norland-refresh/-/A-92751008",
+      "bestbuy": "https://www.bestbuy.com/product/microsoft-xbox-bluetooth-wireless-gaming-over-the-ear-headset-for-xbox-series-xbox-series-s-xbox-one-and-windows-1011-black/JJGXP2QTYJ/sku/10865018",
+      "manufacturer": "https://www.xbox.com/en-US/accessories/headsets/xbox-wireless-headset"
+    },
     "recommendation_tags": [
       "xbox_gaming",
       "wireless_gaming",
@@ -9715,7 +10049,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -9768,9 +10102,15 @@
     "category": "audio",
     "price_range_usd": [
       150,
-      200
+      220
     ],
     "product_url": "https://www.amazon.com/s?k=ASUS+ROG+Cetra+True+Wireless+SpeedNova&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/asus-rog-cetra-true-wireless-speednova-in-ear-gaming-earbuds-white/JJGGLRTGJ5",
+      "microcenter": "https://www.microcenter.com/product/679181/ROG_Cetra_True_Wireless_Gaming_Headphones_(24_GHz_-_Bluetooth_53,_ROG_SpeedNova,_24-bit_96_kHz_audio,_Bone-Conduction_AI_Microphones,_Adaptive_ANC,_46",
+      "manufacturer": "https://shop.asus.com/us/90yh03y0-btaa00-rog-cetra-true-wireless-speednova.html",
+      "newegg": "https://www.newegg.com/asus-rog-cetra-true-wireless-speednova-90yh03y0-btaa00-black-usb-type-c/p/N82E16826785264"
+    },
     "recommendation_tags": [
       "tws_gaming",
       "wireless_gaming",
@@ -9783,7 +10123,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "iem",
@@ -9904,10 +10244,13 @@
     "brand": "JBL",
     "category": "audio",
     "price_range_usd": [
-      150,
-      200
+      262,
+      262
     ],
     "product_url": "https://www.amazon.com/s?k=JBL+Quantum+800+Wireless&tag=gearmatch-20",
+    "retailer_urls": {
+      "newegg": "https://www.newegg.com/jbl-quantum800-black/p/N82E16826985135"
+    },
     "recommendation_tags": [
       "wireless_gaming",
       "anc",
@@ -9919,7 +10262,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -9970,8 +10313,8 @@
     "brand": "Razer",
     "category": "audio",
     "price_range_usd": [
-      150,
-      180
+      116,
+      116
     ],
     "product_url": "https://www.amazon.com/s?k=Razer+Hammerhead+Pro+HyperSpeed+True+Wireless&tag=gearmatch-20",
     "recommendation_tags": [
@@ -9986,7 +10329,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "iem",
@@ -10052,7 +10395,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -10228,8 +10571,8 @@
     "brand": "Bose",
     "category": "audio",
     "price_range_usd": [
-      250,
-      330
+      179,
+      514
     ],
     "product_url": "https://www.amazon.com/s?k=Bose+QuietComfort+45%2FQC45+Wireless&tag=gearmatch-20",
     "recommendation_tags": [
@@ -10244,7 +10587,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "headphone",
@@ -10295,10 +10638,15 @@
     "brand": "Sony",
     "category": "audio",
     "price_range_usd": [
-      180,
-      220
+      195,
+      200
     ],
     "product_url": "https://www.amazon.com/s?k=Sony+PULSE+Explore+Truly+Wireless&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/sony-pulse-explore-wireless-gaming-earbuds-for-ps5-white/JXHQ3CCYGQ/sku/11981056",
+      "target": "https://www.target.com/p/pulse-explore-wireless-earbuds-for-playstation-5/-/A-90283305",
+      "newegg": "https://www.newegg.com/p/2J5-004U-000D1"
+    },
     "recommendation_tags": [
       "playstation_gaming",
       "ps5",
@@ -10310,7 +10658,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "iem",
@@ -10616,10 +10964,13 @@
     "brand": "Bose",
     "category": "audio",
     "price_range_usd": [
-      350,
-      430
+      299,
+      675
     ],
     "product_url": "https://www.amazon.com/s?k=Bose+QuietComfort+Ultra+Headphones+Wireless&tag=gearmatch-20",
+    "retailer_urls": {
+      "target": "https://www.target.com/p/bose-quietcomfort-ultra-bluetooth-wireless-noise-cancelling-headphones-black/-/A-88914398"
+    },
     "recommendation_tags": [
       "travel",
       "anc",
@@ -10632,7 +10983,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "headphone",
@@ -10683,10 +11034,16 @@
     "brand": "Bowers & Wilkins",
     "category": "audio",
     "price_range_usd": [
-      300,
-      400
+      449,
+      499
     ],
     "product_url": "https://www.amazon.com/s?k=Bowers+%26+Wilkins+Pi7+True+Wireless&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/bowers-wilkins-pi8-true-wireless-noise-cancelling-in-ear-earbuds-midnight-blue/JXT7VJHLHF/sku/6595082",
+      "manufacturer": "https://www.bowerswilkins.com/en-us/product/wireless-earbuds/pi8/300965-40-00-309.html",
+      "microcenter": "https://www.microcenter.com/product/686389/bowers-wilkins-pi8-anthracite-true-wireless-bluetooth-earbuds-midnight-blue",
+      "bhphoto": "https://www.bhphotovideo.com/c/product/1843242-REG/bowers_wilkins_fp45829_pi8_true_wireless_noise_canceling.html"
+    },
     "recommendation_tags": [
       "premium_build",
       "anc",
@@ -10698,7 +11055,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "iem",
@@ -10750,11 +11107,17 @@
     "brand": "Sony",
     "category": "audio",
     "price_range_usd": [
-      350,
-      400
+      264,
+      300
     ],
     "image_url": "https://i.rtings.com/assets/products/Nc33W9lA/sony-wh-1000xm5-wireless/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Sony+WH-1000XM5+Wireless&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/sony-wh-1000xm5-wireless-noise-canceling-over-the-ear-headphones-silver/J7XSRH5CXV/sku/11835293",
+      "manufacturer": "https://electronics.sony.com/audio/headphones/headband/p/wh1000xm5-s",
+      "bhphoto": "https://www.bhphotovideo.com/c/product/1706293-REG/sony_6505727_sony_wh_1000xm5_wireless_noise_canceling.html",
+      "newegg": "https://www.newegg.com/p/0TH-000U-00JM8"
+    },
     "recommendation_tags": [
       "premium_anc",
       "travel",
@@ -10766,7 +11129,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "headphone",
@@ -10819,11 +11182,14 @@
     "brand": "Sony",
     "category": "audio",
     "price_range_usd": [
-      200,
-      280
+      95,
+      268
     ],
     "image_url": "https://i.rtings.com/assets/products/g5yfWfUG/sony-wh-1000xm3-wireless/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Sony+WH-1000XM3+Wireless&tag=gearmatch-20",
+    "retailer_urls": {
+      "newegg": "https://www.newegg.com/silver-sony-wh-1000xm3-s-headphone/p/0TH-000U-008U7"
+    },
     "recommendation_tags": [
       "premium_anc",
       "travel",
@@ -10835,7 +11201,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "headphone",
@@ -10970,7 +11336,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -11016,11 +11382,17 @@
     "brand": "Sennheiser",
     "category": "audio",
     "price_range_usd": [
-      300,
-      380
+      240,
+      300
     ],
     "image_url": "https://i.rtings.com/assets/products/0DyKny4w/sennheiser-momentum-4-wireless/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Sennheiser+MOMENTUM+4+Wireless&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/sennheiser-momemtum-4-wireless-adaptive-noise-canceling-over-the-ear-headphones-denim/J3GW2LH65F/sku/6557562",
+      "manufacturer": "https://www.sennheiser-hearing.com/en-US/p/momentum-4-denim",
+      "bhphoto": "https://www.bhphotovideo.com/c/product/1719439-REG/sennheiser_509266_momentum_4_noise_canceling_wireless.html",
+      "newegg": "https://www.newegg.com/sennheiser-momentum-4-headphone-graphite/p/0TH-0036-00EA6"
+    },
     "recommendation_tags": [
       "premium_anc",
       "travel",
@@ -11032,7 +11404,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "headphone",
@@ -11153,11 +11525,16 @@
     "brand": "Sennheiser",
     "category": "audio",
     "price_range_usd": [
-      180,
-      230
+      250,
+      250
     ],
     "image_url": "https://i.rtings.com/assets/products/3ZaX4eI4/sennheiser-accentum-plus-wireless/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Sennheiser+ACCENTUM+Plus&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/sennheiser-accentum-plus-wireless-bluetooth-headphones-adaptive-hybrid-anc-smart-adaptive-features-black/J3GW2LHGFT/sku/10904786",
+      "bhphoto": "https://www.bhphotovideo.com/c/product/1806325-REG/sennheiser_700176_accentum_plus_wireless_black.html",
+      "manufacturer": "https://www.walmart.com/ip/Sennheiser-ACCENTUM-Plus-Wireless-Bluetooth-Headphones-Quick-Charge-Feature-50-Hr-Battery-Playtime-Adaptive-Hybrid-ANC-Sound-Personalization-Touch-Co/5410964775"
+    },
     "recommendation_tags": [
       "anc",
       "long_battery",
@@ -11169,7 +11546,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "headphone",
@@ -11363,7 +11740,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "earbud",
@@ -11427,7 +11804,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "earbud",
@@ -11553,7 +11930,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -11605,11 +11982,14 @@
     "brand": "Bose",
     "category": "audio",
     "price_range_usd": [
-      150,
-      250
+      130,
+      180
     ],
     "image_url": "https://i.rtings.com/assets/products/NPHzpndA/bose-quietcomfort-35-qc35-wireless-2016/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Bose+QuietComfort+35%2FQC35+Wireless+2016&tag=gearmatch-20",
+    "retailer_urls": {
+      "bhphoto": "https://www.bhphotovideo.com/c/product/803364660-USE/bose_759944_0010_quietcomfort_35_wireless_noise.html"
+    },
     "recommendation_tags": [
       "anc",
       "travel",
@@ -11621,7 +12001,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "headphone",
@@ -11800,11 +12180,18 @@
     "brand": "Audio-Technica",
     "category": "audio",
     "price_range_usd": [
-      180,
-      220
+      219,
+      225
     ],
     "image_url": "https://i.rtings.com/assets/products/SI3jhZGc/audio-technica-ath-m50xbt2-wireless/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Audio-Technica+ATH-M50xBT2+Wireless&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/audio-technica-m50xbt-studio-monitor-headphones-black/CG9462VV5L/sku/10101587",
+      "manufacturer": "https://www.audio-technica.com/en-us/ath-m50xbt2",
+      "microcenter": "https://www.microcenter.com/product/640392/audio-technica-ath-m50xbt2-wireless-bluetooth-headphones-black",
+      "bhphoto": "https://www.bhphotovideo.com/c/product/1663134-REG/audio_technica_consumer_ath_m50bt2_wireless_over_ear_headphones_with.html",
+      "newegg": "https://www.newegg.com/audio-technica-ath-m50xbt2-over-the-ear-black/p/0TH-0045-008M1"
+    },
     "recommendation_tags": [
       "studio_monitor",
       "neutral_sound",
@@ -11816,7 +12203,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "headphone",
@@ -11866,11 +12253,16 @@
     "brand": "Bowers & Wilkins",
     "category": "audio",
     "price_range_usd": [
-      600,
-      700
+      699,
+      1000
     ],
     "image_url": "https://i.rtings.com/assets/products/3pwQPwqd/bowers-wilkins-px8-wireless/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Bowers+%26+Wilkins+Px8+Wireless&tag=gearmatch-20",
+    "retailer_urls": {
+      "manufacturer": "https://www.bowerswilkins.com/en-us/product/over-ear-headphones/px8/300494-38-00-308.html",
+      "bhphoto": "https://www.bhphotovideo.com/c/product/1719106-REG/bowers_wilkins_fp42978_px8_noise_canceling_wireless_over_ear.html",
+      "newegg": "https://www.newegg.com/p/0TH-00ZM-000B1"
+    },
     "recommendation_tags": [
       "luxury",
       "premium_anc",
@@ -11882,7 +12274,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "headphone",
@@ -11950,7 +12342,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "earbud",
@@ -12125,11 +12517,19 @@
     "brand": "Sonos",
     "category": "audio",
     "price_range_usd": [
-      400,
-      450
+      319,
+      638
     ],
     "image_url": "https://i.rtings.com/assets/products/yiK0lqbe/sonos-ace-wireless/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Sonos+Ace&tag=gearmatch-20",
+    "retailer_urls": {
+      "manufacturer": "https://www.sonos.com/en-us/shop/sonos-ace-black.html",
+      "bestbuy": "https://www.bestbuy.com/product/sonos-ace-wireless-over-the-ear-headphones-with-active-noise-cancellation-each-black/J39H3735Q5/sku/6580673",
+      "walmart": "https://www.walmart.com/ip/Sonos-Ace-Wireless-Noise-Canceling-Headphones-White/6309069930",
+      "bhphoto": "https://www.bhphotovideo.com/c/product/1832282-REG/sonos_ace_wireless_noise_canceling_over_ear.html",
+      "microcenter": "https://www.microcenter.com/product/680659/sonos-ace-active-noise-cancelling-bluetooth-headphones-white",
+      "newegg": "https://www.newegg.com/p/0TH-07JT-000V7"
+    },
     "recommendation_tags": [
       "premium_anc",
       "travel",
@@ -12141,7 +12541,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "headphone",
@@ -12195,11 +12595,16 @@
     "brand": "JBL",
     "category": "audio",
     "price_range_usd": [
-      80,
-      130
+      94,
+      150
     ],
     "image_url": "https://i.rtings.com/assets/products/1JJFqGOA/jbl-tune-770nc-wireless/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=JBL+Tune+770NC&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/jbl-tune-770nc-adaptive-noise-cancelling-wireless-over-ear-headphone-2024-white/J7LXFWXLRC/sku/11919868",
+      "walmart": "https://www.walmart.com/ip/JBL-Tune-770NC-Adaptive-Noise-Cancelling-Wireless-over-Ear-Headphones-White/5262667670",
+      "manufacturer": "https://www.walmart.com/ip/JBL-Tune-770NC-Adaptive-Noise-Cancelling-Wireless-over-Ear-Headphones-White/5262667670"
+    },
     "recommendation_tags": [
       "budget_anc",
       "long_battery",
@@ -12211,7 +12616,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "headphone",
@@ -12259,8 +12664,8 @@
     "brand": "JBL",
     "category": "audio",
     "price_range_usd": [
-      150,
-      200
+      60,
+      142
     ],
     "image_url": "https://i.rtings.com/assets/products/Ya9ptWGE/jbl-club-pro-plus-tws-true-wireless/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=JBL+CLUB+PRO%2B+TWS&tag=gearmatch-20",
@@ -12275,7 +12680,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "earbud",
@@ -12320,8 +12725,8 @@
     "brand": "AKG",
     "category": "audio",
     "price_range_usd": [
-      180,
-      250
+      150,
+      190
     ],
     "image_url": "https://i.rtings.com/assets/products/zRugl9Ca/akg-n700nc-m2-wireless/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=AKG+N700NC+M2&tag=gearmatch-20",
@@ -12336,7 +12741,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "headphone",
