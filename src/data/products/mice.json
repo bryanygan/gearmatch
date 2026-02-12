@@ -5,10 +5,16 @@
     "brand": "Razer",
     "category": "mouse",
     "price_range_usd": [
-      150,
+      100,
       180
     ],
     "product_url": "https://www.amazon.com/s?k=Razer+Viper+V3+Pro&tag=gearmatch-20",
+    "retailer_urls": {
+      "manufacturer": "https://www.razer.com/gaming-mice/razer-viper-v3-pro-se/RZ01-04550100-R3U1",
+      "bestbuy": "https://www.bestbuy.com/product/razer-viper-v3-pro-ultra-lightweight-optical-gaming-mouse-with-95-hour-battery-life-8k-polling-rate-wireless-white/J39HWFH93Z",
+      "microcenter": "https://www.microcenter.com/product/695768/razer-viper-v3-pro-wireless-gaming-mouse-faker-edition",
+      "newegg": "https://www.newegg.com/p/32K-0091-00022"
+    },
     "recommendation_tags": [
       "top_tier_competitive_fps",
       "ultralight",
@@ -20,7 +26,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -78,10 +84,15 @@
     "brand": "Logitech",
     "category": "mouse",
     "price_range_usd": [
-      150,
-      160
+      90,
+      130
     ],
     "product_url": "https://www.amazon.com/s?k=Logitech+G+Pro+X+Superlight+2&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/logitech-pro-x-superlight-lightweight-wireless-optical-gaming-mouse-with-hero-25k-sensor-wireless-black/J7H7ZY3CZT/sku/12130162",
+      "walmart": "https://www.walmart.com/ip/Logitech-G-Pro-X-Superlight-Wireless-Gaming-Mouse-Ultra-Lightweight-HERO-25K-Sensor-Black/403548050",
+      "newegg": "https://www.newegg.com/logitech-910-005878-pro-x-rf-lightspeed-wireless/p/N82E16826197421"
+    },
     "recommendation_tags": [
       "top_tier_competitive_fps",
       "ultralight",
@@ -93,7 +104,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -150,7 +161,7 @@
     "brand": "Pulsar",
     "category": "mouse",
     "price_range_usd": [
-      90,
+      110,
       110
     ],
     "product_url": "https://www.amazon.com/s?k=Pulsar+X2&tag=gearmatch-20",
@@ -166,7 +177,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -520,7 +531,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -589,7 +600,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -857,8 +868,8 @@
     "brand": "ROCCAT",
     "category": "mouse",
     "price_range_usd": [
-      50,
-      80
+      43,
+      43
     ],
     "product_url": "https://www.amazon.com/s?k=ROCCAT+Kone+Pro&tag=gearmatch-20",
     "recommendation_tags": [
@@ -872,7 +883,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -991,10 +1002,17 @@
     "brand": "Razer",
     "category": "mouse",
     "price_range_usd": [
-      30,
-      50
+      31,
+      35
     ],
     "product_url": "https://www.amazon.com/s?k=Razer+Cobra&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/site/razer-cobra-wired-gaming-mouse-with-chroma-rgb-lighting-and-58g-lightweight-design-black/6548181.p",
+      "microcenter": "https://www.microcenter.com/product/666879/Cobra_Lightweight_Wired_Gaming_Mouse_-_Black",
+      "walmart": "https://www.walmart.com/ip/Razer-Cobra-Wired-Gaming-Mouse-58g-Lightweight-Design-Gen-3-Optical-Switches-RGB-Lighting-Black/2306255875",
+      "bhphoto": "https://www.bhphotovideo.com/c/product/1851355-REG/razer_rz01_04650100_r3u1_cobra_wired_gaming_mouse.html",
+      "newegg": "https://www.newegg.com/p/N82E16826153358"
+    },
     "recommendation_tags": [
       "budget",
       "wired",
@@ -1006,7 +1024,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -1059,10 +1077,13 @@
     "brand": "Logitech",
     "category": "mouse",
     "price_range_usd": [
-      30,
-      45
+      20,
+      66
     ],
     "product_url": "https://www.amazon.com/s?k=Logitech+G203+LIGHTSYNC&tag=gearmatch-20",
+    "retailer_urls": {
+      "manufacturer": "https://www.logitechg.com/en-us/shop/p/g203-lightsync-rgb-gaming-mouse.910-005790"
+    },
     "recommendation_tags": [
       "budget_gaming",
       "wired",
@@ -1073,7 +1094,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -1127,9 +1148,12 @@
     "category": "mouse",
     "price_range_usd": [
       30,
-      55
+      57
     ],
     "product_url": "https://www.amazon.com/s?k=Logitech+G305+LIGHTSPEED&tag=gearmatch-20",
+    "retailer_urls": {
+      "manufacturer": "https://www.logitechg.com/en-us/shop/p/g305-lightspeed-wireless-gaming-mouse.910-005280"
+    },
     "recommendation_tags": [
       "wireless_gaming",
       "value_pick",
@@ -1140,7 +1164,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -1198,9 +1222,12 @@
     "category": "mouse",
     "price_range_usd": [
       40,
-      60
+      92
     ],
     "product_url": "https://www.amazon.com/s?k=Keychron+M3+Mini&tag=gearmatch-20",
+    "retailer_urls": {
+      "manufacturer": "https://www.keychron.com/products/keychron-m3-mini-wireless-mouse?variant=42587404402777"
+    },
     "recommendation_tags": [
       "competitive_fps",
       "ultralight",
@@ -1211,7 +1238,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -1268,10 +1295,18 @@
     "brand": "Logitech",
     "category": "mouse",
     "price_range_usd": [
-      8,
-      15
+      10,
+      20
     ],
     "product_url": "https://www.amazon.com/s?k=Logitech+M100&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/logitech-m100-wired-optical-ambidextrous-pc-mouse-with-1000-dpi-optical-tracking-wired-gray/J7H7ZLVCL2/sku/1147528",
+      "manufacturer": "https://www.logitech.com/en-us/products/mice/m100-usb-mouse.910-001601.html",
+      "target": "https://www.target.com/p/logitech-m100-wired-mouse-gray/-/A-52135859",
+      "microcenter": "https://www.microcenter.com/product/510353/Mouse_M100_-_Black",
+      "bhphoto": "https://www.bhphotovideo.com/c/product/758675-REG/Logitech_910_001601_M100_Mouse.html",
+      "newegg": "https://www.newegg.com/p/0TP-000C-017Z4"
+    },
     "recommendation_tags": [
       "basic",
       "budget",
@@ -1281,7 +1316,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -1335,9 +1370,15 @@
     "category": "mouse",
     "price_range_usd": [
       60,
-      90
+      64
     ],
     "product_url": "https://www.amazon.com/s?k=Razer+Viper+V3+HyperSpeed&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/razer-viper-v3-hyperspeed-lightweight-optical-gaming-mouse-with-280-hour-battery-life-wireless-black/J39HWFHGV2",
+      "manufacturer": "https://www.razer.com/gaming-mice/razer-viper-v3-hyperspeed/RZ01-04910100-R3U1",
+      "walmart": "https://www.walmart.com/ip/Razer-Viper-V3-Hyperspeed-Wireless-Esports-Mouse-for-PC-82g-Black/5098188380",
+      "bhphoto": "https://www.bhphotovideo.com/c/product/1851358-REG/razer_rz01_04910100_r3u1_viper_v3_hyperspeed_wireless.html"
+    },
     "recommendation_tags": [
       "wireless_gaming",
       "competitive_fps",
@@ -1348,7 +1389,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -1472,10 +1513,13 @@
     "brand": "Logitech",
     "category": "mouse",
     "price_range_usd": [
-      20,
-      30
+      14,
+      15
     ],
     "product_url": "https://www.amazon.com/s?k=Logitech+M240&tag=gearmatch-20",
+    "retailer_urls": {
+      "manufacturer": "https://www.logitech.com/en-us/shop/p/m240-silent-bluetooth-mouse.910-007113"
+    },
     "recommendation_tags": [
       "portable",
       "silent_clicks",
@@ -1486,7 +1530,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -1629,7 +1673,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -1688,10 +1732,13 @@
     "brand": "Logitech",
     "category": "mouse",
     "price_range_usd": [
-      110,
-      170
+      150,
+      165
     ],
     "product_url": "https://www.amazon.com/s?k=Logitech+G502+X+PLUS&tag=gearmatch-20",
+    "retailer_urls": {
+      "manufacturer": "https://www.logitechg.com/en-us/shop/p/g502-x-plus-wireless-lightforce.910-006160"
+    },
     "recommendation_tags": [
       "wireless_gaming",
       "ergo",
@@ -1703,7 +1750,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -1779,7 +1826,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -1851,7 +1898,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -1981,10 +2028,14 @@
     "brand": "Razer",
     "category": "mouse",
     "price_range_usd": [
-      100,
-      150
+      180,
+      180
     ],
     "product_url": "https://www.amazon.com/s?k=Razer+Naga+Pro&tag=gearmatch-20",
+    "retailer_urls": {
+      "manufacturer": "https://www.razer.com/gaming-mice/razer-naga-v2-pro/RZ01-04400100-R3U1",
+      "newegg": "https://www.newegg.com/p/N82E16826153336"
+    },
     "recommendation_tags": [
       "mmo_buttons",
       "wireless_gaming",
@@ -1995,7 +2046,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -2051,10 +2102,14 @@
     "brand": "Razer",
     "category": "mouse",
     "price_range_usd": [
-      150,
-      200
+      180,
+      180
     ],
     "product_url": "https://www.amazon.com/s?k=Razer+Naga+V2+Pro&tag=gearmatch-20",
+    "retailer_urls": {
+      "manufacturer": "https://www.razer.com/gaming-mice/razer-naga-v2-pro/RZ01-04400100-R3U1",
+      "newegg": "https://www.newegg.com/p/N82E16826153336"
+    },
     "recommendation_tags": [
       "mmo_buttons",
       "wireless_gaming",
@@ -2066,7 +2121,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -2330,10 +2385,16 @@
     "brand": "SteelSeries",
     "category": "mouse",
     "price_range_usd": [
-      80,
-      130
+      65,
+      80
     ],
     "product_url": "https://www.amazon.com/s?k=SteelSeries+Aerox+5+Wireless&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/steelseries-aerox-3-super-light-honeycomb-wireless-rgb-optical-gaming-mouse-wireless-snow/J3R8HS2H35/sku/6485249",
+      "manufacturer": "https://steelseries.com/gaming-mice/aerox-3-2022",
+      "walmart": "https://www.walmart.com/ip/SteelSeries-62608-Aerox-3-Wireless-Optical-Gaming-Mouse-with-Ultra-Lightweight-Design-White/293366417",
+      "microcenter": "https://www.microcenter.com/product/643174/Aerox_3_Wired_Ultra-Lightweight_Gaming_Mouse_-_Snow"
+    },
     "recommendation_tags": [
       "wireless_gaming",
       "lightweight",
@@ -2345,7 +2406,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -2402,10 +2463,16 @@
     "brand": "HyperX",
     "category": "mouse",
     "price_range_usd": [
-      80,
+      100,
       120
     ],
     "product_url": "https://www.amazon.com/s?k=HyperX+Pulsefire+Saga+Pro&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/hyperx-pulsefire-saga-pro-lightweight-wireless-optical-gaming-mouse-with-4k-polling-rate-wireless-black/JJG9TTPCHL/sku/6626281",
+      "manufacturer": "https://hyperx.com/products/hyperx-pulsefire-saga-pro-wireless-gaming-mouse?variant=46426553548957",
+      "target": "https://www.target.com/p/hyperx-pulsefire-saga-pro-wireless-gaming-mouse/-/A-94734416",
+      "newegg": "https://www.newegg.com/p/N82E16826738045"
+    },
     "recommendation_tags": [
       "wireless_gaming",
       "modular",
@@ -2416,7 +2483,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -2472,10 +2539,17 @@
     "brand": "Logitech",
     "category": "mouse",
     "price_range_usd": [
-      40,
-      60
+      38,
+      38
     ],
     "product_url": "https://www.amazon.com/s?k=Logitech+M720+Triathlon&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/logitech-m720-triathlon-wireless-optical-mouse-wireless-black/J7H7ZYCZ7V/sku/5592421",
+      "manufacturer": "https://www.logitech.com/en-us/shop/p/m720-triathlon.910-004790",
+      "walmart": "https://www.walmart.com/ip/Logitech-M720-Triathlon-Multi-Computer-Wireless-Mouse/55541168",
+      "bhphoto": "https://www.bhphotovideo.com/c/product/1357320-REG/logitech_910004790_m720_triathlon_mouse.html",
+      "newegg": "https://www.newegg.com/logitech-910-004790-m720-triathlon-rf-wireless/p/N82E16826197219"
+    },
     "recommendation_tags": [
       "productivity",
       "multi_device",
@@ -2486,7 +2560,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -2617,10 +2691,18 @@
     "brand": "Logitech",
     "category": "mouse",
     "price_range_usd": [
-      90,
-      110
+      80,
+      120
     ],
     "product_url": "https://www.amazon.com/s?k=Logitech+MX+Master+3S&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/logitech-mx-master-3s-bluetooth-edition-performance-wireless-optical-mouse-with-ultra-fast-scrolling-and-quiet-clicks-wireless-black/J7H7ZYG559/sku/6633199",
+      "manufacturer": "https://www.logitech.com/en-us/shop/p/mx-master-3s.910-007499",
+      "target": "https://www.target.com/p/logitech-mx-master-3s-wireless-mouse-black-910007500/-/A-1008322068",
+      "walmart": "https://www.walmart.com/ip/Logitech-MX-Master-3S-for-Mac-Performance-Wireless-Mouse-Space-Gray-Space-Gray/1028399963",
+      "newegg": "https://www.newegg.com/p/0TP-000C-01K99",
+      "bhphoto": "https://www.bhphotovideo.com/c/product/803311527-USE/logitech_910_006569_mx_master_3s_for.html/qa"
+    },
     "recommendation_tags": [
       "productivity",
       "premium",
@@ -2631,7 +2713,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -2691,10 +2773,17 @@
     "brand": "Logitech",
     "category": "mouse",
     "price_range_usd": [
-      60,
-      80
+      80,
+      120
     ],
     "product_url": "https://www.amazon.com/s?k=Logitech+MX+Master+2S&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/logitech-mx-master-3s-bluetooth-edition-performance-wireless-optical-mouse-with-ultra-fast-scrolling-and-quiet-clicks-wireless-black/J7H7ZYG559/sku/6633199",
+      "manufacturer": "https://www.logitech.com/en-us/shop/p/mx-master-3s.910-007499",
+      "target": "https://www.target.com/p/logitech-mx-master-3s-wireless-mouse-black-910007500/-/A-1008322068",
+      "bhphoto": "https://www.bhphotovideo.com/c/product/1703320-REG/logitech_910_006556_mx_master_3s_black.html",
+      "newegg": "https://www.newegg.com/p/0TP-000C-01K99"
+    },
     "recommendation_tags": [
       "productivity",
       "multi_device",
@@ -2705,7 +2794,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -2764,8 +2853,8 @@
     "brand": "Razer",
     "category": "mouse",
     "price_range_usd": [
-      70,
-      90
+      66,
+      123
     ],
     "product_url": "https://www.amazon.com/s?k=Razer+Pro+Click+Mini&tag=gearmatch-20",
     "recommendation_tags": [
@@ -2778,7 +2867,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -2838,10 +2927,13 @@
     "brand": "Logitech",
     "category": "mouse",
     "price_range_usd": [
-      80,
-      110
+      55,
+      142
     ],
     "product_url": "https://www.amazon.com/s?k=Logitech+MX+ERGO&tag=gearmatch-20",
+    "retailer_urls": {
+      "newegg": "https://www.newegg.com/logitech-910-005177-mx-ergo/p/N82E16826197302"
+    },
     "recommendation_tags": [
       "trackball",
       "ergonomic",
@@ -2852,7 +2944,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -2910,10 +3002,13 @@
     "brand": "Logitech",
     "category": "mouse",
     "price_range_usd": [
-      60,
-      80
+      70,
+      74
     ],
     "product_url": "https://www.amazon.com/s?k=Logitech+Lift&tag=gearmatch-20",
+    "retailer_urls": {
+      "manufacturer": "https://www.logitech.com/en-us/shop/p/lift-vertical-ergonomic-mouse.910-006466"
+    },
     "recommendation_tags": [
       "ergonomic",
       "vertical",
@@ -2924,7 +3019,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -3053,10 +3148,17 @@
     "brand": "Apple",
     "category": "mouse",
     "price_range_usd": [
-      70,
+      68,
       100
     ],
     "product_url": "https://www.amazon.com/s?k=Apple+Magic+Mouse+2&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/apple-magic-mouse-multi-touch-surface-usb-c-wireless-white-multi-touch-surface/JJGCQ8CVPL/sku/6276703",
+      "manufacturer": "https://www.apple.com/us/xc/product/MXK63AM/A",
+      "walmart": "https://www.walmart.com/ip/Apple-Wireless-USB-C-Magic-Mouse-with-Multi-Touch-Surface-Black/14963657228",
+      "bhphoto": "https://www.bhphotovideo.com/c/product/1861346-REG/apple_mxk53am_a_magic_mouse_white.html",
+      "microcenter": "https://www.microcenter.com/product/688114/apple-magic-mouse-multi-touch-surface-black"
+    },
     "recommendation_tags": [
       "mac_only",
       "touch_gestures",
@@ -3066,7 +3168,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -3191,10 +3293,17 @@
     "brand": "Razer",
     "category": "mouse",
     "price_range_usd": [
-      159,
-      179
+      100,
+      120
     ],
     "product_url": "https://www.amazon.com/s?k=Razer+DeathAdder+V4+Pro&tag=gearmatch-20",
+    "retailer_urls": {
+      "manufacturer": "https://www.razer.com/gaming-mice/razer-deathadder-v3-pro/RZ01-04630100-R3U1",
+      "bestbuy": "https://www.bestbuy.com/site/razer-deathadder-v3-pro-lightweight-wireless-optical-gaming-mouse-with-90-hour-battery-black/6514425.p",
+      "walmart": "https://www.walmart.com/ip/Razer-DeathAdder-V3-Pro-Wireless-Esports-Gaming-Mouse-64g-5-Buttons-2-4GHz-Bluetooth-White/1632496311",
+      "bhphoto": "https://www.bhphotovideo.com/c/product/1851352-REG/razer_rz01_04630100_r3u1_deathadder_v3_pro_ergonomic.html",
+      "newegg": "https://www.newegg.com/p/N82E16826153334"
+    },
     "recommendation_tags": [
       "competitive_fps",
       "ergo_right",
@@ -3207,7 +3316,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -3335,8 +3444,8 @@
     "brand": "Sony",
     "category": "mouse",
     "price_range_usd": [
-      149,
-      159
+      176,
+      176
     ],
     "product_url": "https://www.amazon.com/s?k=Sony+INZONE+Mouse-A&tag=gearmatch-20",
     "recommendation_tags": [
@@ -3351,7 +3460,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -3559,10 +3668,16 @@
     "brand": "Logitech",
     "category": "mouse",
     "price_range_usd": [
-      159,
-      169
+      90,
+      130
     ],
     "product_url": "https://www.amazon.com/s?k=Logitech+G+PRO+X+SUPERLIGHT+2c&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/logitech-pro-x-superlight-lightweight-wireless-optical-gaming-mouse-with-hero-25k-sensor-wireless-black/J7H7ZY3CZT/sku/12130162",
+      "walmart": "https://www.walmart.com/ip/Logitech-G-Pro-X-Superlight-Wireless-Gaming-Mouse-Ultra-Lightweight-HERO-25K-Sensor-Black/403548050",
+      "bhphoto": "https://www.bhphotovideo.com/c/product/1609024-REG/logitech_g_910_005878_pro_x_superilght_wireless.html",
+      "newegg": "https://www.newegg.com/logitech-910-005878-pro-x-rf-lightspeed-wireless/p/N82E16826197421"
+    },
     "recommendation_tags": [
       "competitive_fps",
       "ultralight",
@@ -3575,7 +3690,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -3635,10 +3750,15 @@
     "brand": "Razer",
     "category": "mouse",
     "price_range_usd": [
-      70,
-      80
+      93,
+      100
     ],
     "product_url": "https://www.amazon.com/s?k=Razer+Cobra+HyperSpeed&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/razer-cobra-hyperspeed-lightweight-optical-gaming-mouse-with-chroma-rgb-backlighting-wireless-black/J39HWFHV5G",
+      "manufacturer": "https://www.razer.com/gaming-mice/razer-cobra-hyperspeed/RZ01-05570100-R3U1",
+      "microcenter": "https://www.microcenter.com/product/697684/Cobra_HyperSpeed_RGB_Optical_Gaming_Mouse_-_Black"
+    },
     "recommendation_tags": [
       "wireless_gaming",
       "rgb",
@@ -3651,7 +3771,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -3779,8 +3899,8 @@
     "brand": "SteelSeries",
     "category": "mouse",
     "price_range_usd": [
-      35,
-      50
+      40,
+      40
     ],
     "product_url": "https://www.amazon.com/s?k=SteelSeries+Rival+3+Wireless+Gen+2&tag=gearmatch-20",
     "recommendation_tags": [
@@ -3793,7 +3913,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -3849,8 +3969,8 @@
     "brand": "SteelSeries",
     "category": "mouse",
     "price_range_usd": [
-      35,
-      45
+      40,
+      40
     ],
     "product_url": "https://www.amazon.com/s?k=SteelSeries+Rival+3+Gen+2&tag=gearmatch-20",
     "recommendation_tags": [
@@ -3863,7 +3983,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -3987,10 +4107,17 @@
     "brand": "Razer",
     "category": "mouse",
     "price_range_usd": [
-      100,
-      120
+      130,
+      180
     ],
     "product_url": "https://www.amazon.com/s?k=Razer+Pro+Click+V2&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/razer-blackshark-v2-pro-wireless-over-the-ear-gaming-headset-for-playstation-pc-mac-xbox-nintendo-switch-smartphone-white/J39HWFH99K",
+      "manufacturer": "https://www.razer.com/gaming-headsets/razer-blackshark-v2-pro/RZ04-04530100-R3U1",
+      "walmart": "https://www.walmart.com/ip/Razer-BlackShark-V2-Pro-Wireless-PC-Gaming-Headset-2-4GHz-BT-HyperSpeed-Wireless-70Hr-Battery-320g-Black/1278691914",
+      "bhphoto": "https://www.bhphotovideo.com/c/product/1851614-REG/razer_rz04_04530100_r3u1_blackshark_v2_pro_wireless.html",
+      "newegg": "https://www.newegg.com/razer-rz04-04530500-r3ua-wireless-black/p/0TH-00TR-00167"
+    },
     "recommendation_tags": [
       "productivity",
       "wireless",
@@ -4002,7 +4129,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -4065,8 +4192,8 @@
     "brand": "Pulsar",
     "category": "mouse",
     "price_range_usd": [
-      130,
-      150
+      110,
+      110
     ],
     "product_url": "https://www.amazon.com/s?k=Pulsar+X2+CrazyLight&tag=gearmatch-20",
     "recommendation_tags": [
@@ -4080,7 +4207,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -4151,7 +4278,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -4429,10 +4556,14 @@
     "brand": "Keychron",
     "category": "mouse",
     "price_range_usd": [
-      100,
-      120
+      70,
+      70
     ],
     "product_url": "https://www.amazon.com/s?k=Keychron+M5&tag=gearmatch-20",
+    "retailer_urls": {
+      "manufacturer": "https://www.keychron.com/products/keychron-m5-wireless-ergonomic-mouse?variant=42257163452505",
+      "microcenter": "https://www.microcenter.com/product/694770/keychron-m5-8k-wireless-ergonomic-mouse-black"
+    },
     "recommendation_tags": [
       "ergonomic",
       "vertical",
@@ -4445,7 +4576,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -4506,10 +4637,18 @@
     "brand": "Logitech",
     "category": "mouse",
     "price_range_usd": [
-      159,
-      169
+      130,
+      180
     ],
     "product_url": "https://www.amazon.com/s?k=Logitech+G+PRO+X+SUPERLIGHT+2+DEX&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/logitech-pro-x-superlight-2-dex-lightweight-wireless-optical-hero-2-sensor-44-000-dpi-gaming-mouse-with-5-programmable-buttons-wireless-magenta/J7H7ZYGZWG/sku/6595182",
+      "manufacturer": "https://www.logitechg.com/en-us/shop/p/pro-x-superlight-2-dex.910-007371",
+      "microcenter": "https://www.microcenter.com/product/685305/logitech-pro-x-superlight-dex-2-wireless-gaming-mouse-magenta",
+      "target": "https://www.target.com/p/logitech-g-pro-x-superlight-2-dex-lightspeed-wireless-gaming-mouse-60g-pro-grade-lightweight-mouse-with-5-programmable-buttons-32k-dpi-sensor-us/-/A-1001323965",
+      "bhphoto": "https://www.bhphotovideo.com/c/product/1851731-REG/logitech_g_910_007371_pro_x_superlight_2.html",
+      "newegg": "https://www.newegg.com/p/N82E16826197658"
+    },
     "recommendation_tags": [
       "competitive_fps",
       "ergo_right",
@@ -4521,7 +4660,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -4723,10 +4862,14 @@
     "brand": "VXE",
     "category": "mouse",
     "price_range_usd": [
-      50,
-      70
+      29,
+      113
     ],
     "product_url": "https://www.amazon.com/s?k=VXE+R1+Pro&tag=gearmatch-20",
+    "retailer_urls": {
+      "manufacturer": "https://vxe.com/products/vxe-dragonfly-r1-series-wireless-mouse?variant=47700096843990",
+      "newegg": "https://www.newegg.com/p/0TP-02YX-000N4"
+    },
     "recommendation_tags": [
       "competitive_fps",
       "ultralight",
@@ -4738,7 +4881,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -4812,7 +4955,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -4951,7 +5094,7 @@
       120,
       140
     ],
-    "product_url": "https://www.amazon.com/s?k=Fnatic+x+LAMZU+MAYA+8K&tag=gearmatch-20",
+    "product_url": "https://www.amazon.com/s?k=LAMZU+Fnatic+x+LAMZU+MAYA+8K&tag=gearmatch-20",
     "recommendation_tags": [
       "competitive_fps",
       "ultralight",
@@ -5021,8 +5164,8 @@
     "brand": "Logitech",
     "category": "mouse",
     "price_range_usd": [
-      130,
-      150
+      200,
+      200
     ],
     "product_url": "https://www.amazon.com/s?k=Logitech+G+PRO+2+LIGHTSPEED&tag=gearmatch-20",
     "recommendation_tags": [
@@ -5036,7 +5179,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -5109,7 +5252,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -5238,10 +5381,14 @@
     "brand": "Logitech",
     "category": "mouse",
     "price_range_usd": [
-      20,
-      30
+      30,
+      40
     ],
     "product_url": "https://www.amazon.com/s?k=Logitech+M340&tag=gearmatch-20",
+    "retailer_urls": {
+      "target": "https://www.target.com/p/logitech-pebble-bluetooth-mouse-m350-blue-gray/-/A-78862718",
+      "newegg": "https://www.newegg.com/pebble-m350-pink-rose-logitech-pebble-m350-wireless-mouse-with-bluetooth-or-usb/p/0TP-000C-01FR8"
+    },
     "recommendation_tags": [
       "budget",
       "portable",
@@ -5253,7 +5400,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -5307,10 +5454,13 @@
     "brand": "Keychron",
     "category": "mouse",
     "price_range_usd": [
-      80,
+      40,
       100
     ],
     "product_url": "https://www.amazon.com/s?k=Keychron+M7&tag=gearmatch-20",
+    "retailer_urls": {
+      "manufacturer": "https://www.keychron.com/products/keychron-m7-wireless-mouse?variant=41218470903897"
+    },
     "recommendation_tags": [
       "competitive_fps",
       "wired_gaming",
@@ -5322,7 +5472,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -5664,8 +5814,8 @@
     "brand": "ASUS",
     "category": "mouse",
     "price_range_usd": [
-      140,
-      160
+      164,
+      164
     ],
     "product_url": "https://www.amazon.com/s?k=ASUS+ROG+Keris+II+Ace&tag=gearmatch-20",
     "recommendation_tags": [
@@ -5680,7 +5830,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -5950,10 +6100,16 @@
     "brand": "HyperX",
     "category": "mouse",
     "price_range_usd": [
-      70,
+      90,
       90
     ],
     "product_url": "https://www.amazon.com/s?k=HyperX+Pulsefire+Haste+2+Wireless&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/hyperx-pulsefire-haste-2-lightweight-wireless-optical-gaming-mouse-with-rgb-lighting-wireless-black/JJG8754SCX/sku/6537573",
+      "manufacturer": "https://hyperx.com/products/hyperx-pulsefire-haste-2-wireless-gaming-mouse?variant=43416225185949",
+      "target": "https://www.target.com/p/hyperx-pulsefire-haste-2-wireless-gaming-mouse-black/-/A-91803219",
+      "newegg": "https://www.newegg.com/p/N82E16826738041"
+    },
     "recommendation_tags": [
       "wireless_gaming",
       "lightweight",
@@ -5964,7 +6120,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -6452,10 +6608,17 @@
     "brand": "Razer",
     "category": "mouse",
     "price_range_usd": [
-      70,
-      90
+      100,
+      120
     ],
     "product_url": "https://www.amazon.com/s?k=Razer+DeathAdder+V3&tag=gearmatch-20",
+    "retailer_urls": {
+      "manufacturer": "https://www.razer.com/gaming-mice/razer-deathadder-v3-pro/RZ01-04630100-R3U1",
+      "bestbuy": "https://www.bestbuy.com/site/razer-deathadder-v3-pro-lightweight-wireless-optical-gaming-mouse-with-90-hour-battery-black/6514425.p",
+      "walmart": "https://www.walmart.com/ip/Razer-DeathAdder-V3-Pro-Wireless-Esports-Gaming-Mouse-64g-5-Buttons-2-4GHz-Bluetooth-White/1632496311",
+      "bhphoto": "https://www.bhphotovideo.com/c/product/1851352-REG/razer_rz01_04630100_r3u1_deathadder_v3_pro_ergonomic.html",
+      "newegg": "https://www.newegg.com/p/N82E16826153334"
+    },
     "recommendation_tags": [
       "fps",
       "competitive",
@@ -6465,7 +6628,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -6726,10 +6889,15 @@
     "brand": "Keychron",
     "category": "mouse",
     "price_range_usd": [
-      60,
-      80
+      40,
+      42
     ],
     "product_url": "https://www.amazon.com/s?k=Keychron+M6&tag=gearmatch-20",
+    "retailer_urls": {
+      "manufacturer": "https://www.keychron.com/products/keychron-m6-wireless-mouse?variant=42816201130073",
+      "microcenter": "https://www.microcenter.com/product/702313/keychron-keychron-m6-1k-bk",
+      "bestbuy": "https://www.bestbuy.com/product/keychron-m6-ergonomic-wired-wireless-laser-mouse-w-macro-button-fast-scrolling-metal-wheel-for-windows-pc-mac-wired-black/CGJVZ4YC3G/sku/6644716"
+    },
     "recommendation_tags": [
       "productivity",
       "casual",
@@ -6739,7 +6907,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -6798,10 +6966,13 @@
     "brand": "Keychron",
     "category": "mouse",
     "price_range_usd": [
-      60,
+      50,
       80
     ],
     "product_url": "https://www.amazon.com/s?k=Keychron+M4&tag=gearmatch-20",
+    "retailer_urls": {
+      "manufacturer": "https://www.keychron.com/products/keychron-m4-wireless-mouse?variant=40702236098649"
+    },
     "recommendation_tags": [
       "fps",
       "fingertip",
@@ -6811,7 +6982,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -7009,10 +7180,16 @@
     "brand": "HyperX",
     "category": "mouse",
     "price_range_usd": [
-      50,
-      70
+      90,
+      90
     ],
     "product_url": "https://www.amazon.com/s?k=HyperX+Pulsefire+Haste+Wireless&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/hyperx-pulsefire-haste-2-lightweight-wireless-optical-gaming-mouse-with-rgb-lighting-wireless-black/JJG8754SCX/sku/6537573",
+      "manufacturer": "https://hyperx.com/products/hyperx-pulsefire-haste-2-wireless-gaming-mouse?variant=43416225185949",
+      "target": "https://www.target.com/p/hyperx-pulsefire-haste-2-wireless-gaming-mouse-black/-/A-91803219",
+      "newegg": "https://www.newegg.com/p/N82E16826738041"
+    },
     "recommendation_tags": [
       "ultralight",
       "wireless_gaming",
@@ -7025,7 +7202,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -7082,10 +7259,13 @@
     "brand": "Logitech",
     "category": "mouse",
     "price_range_usd": [
-      35,
-      50
+      30,
+      49
     ],
     "product_url": "https://www.amazon.com/s?k=Logitech+Signature+M650&tag=gearmatch-20",
+    "retailer_urls": {
+      "manufacturer": "https://www.logitech.com/en-us/shop/p/m650-signature-wireless-mouse.910-006250"
+    },
     "recommendation_tags": [
       "productivity",
       "silent_clicks",
@@ -7098,7 +7278,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -7175,7 +7355,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -7308,10 +7488,17 @@
     "brand": "Razer",
     "category": "mouse",
     "price_range_usd": [
-      140,
-      180
+      89,
+      149
     ],
     "product_url": "https://www.amazon.com/s?k=Razer+Basilisk+V3+Pro&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/razer-basilisk-v3-pro-optical-gaming-mouse-with-hyperscroll-tilt-wheel-wireless-white/J39HWFQFFX",
+      "manufacturer": "https://www.razer.com/gaming-mice/razer-basilisk-v3-pro/RZ01-04620100-R3U1",
+      "walmart": "https://www.walmart.com/ip/Razer-Basilisk-V3-Pro-Wireless-Gaming-Mouse-HyperScroll-Tilt-Wheel-2-4Ghz-Bluetooth-RGB-Black/1981900339",
+      "bhphoto": "https://www.bhphotovideo.com/c/product/1851350-REG/razer_rz01_04620100_r3u1_basilisk_v3_pro_ergonomic.html",
+      "newegg": "https://www.newegg.com/p/N82E16826153335"
+    },
     "recommendation_tags": [
       "feature_rich",
       "wireless_gaming",
@@ -7325,7 +7512,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -7484,7 +7671,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -7618,10 +7805,14 @@
     "brand": "Corsair",
     "category": "mouse",
     "price_range_usd": [
-      100,
+      130,
       150
     ],
     "product_url": "https://www.amazon.com/s?k=Corsair+DARKSTAR+WIRELESS&tag=gearmatch-20",
+    "retailer_urls": {
+      "manufacturer": "https://www.corsair.com/us/en/p/gaming-mouse/CH-931A011-NA/darkstar-wireless-rgb-mmo-gaming-mouse-ch-931a011-na",
+      "newegg": "https://www.newegg.com/corsair-darkstar-wireless-rgb-ch-931a011-na-usb-bluetooth-2-4ghz-wired/p/N82E16826816206"
+    },
     "recommendation_tags": [
       "mmo_gaming",
       "wireless_gaming",
@@ -7633,7 +7824,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -7690,10 +7881,13 @@
     "brand": "Logitech",
     "category": "mouse",
     "price_range_usd": [
-      70,
-      90
+      75,
+      116
     ],
     "product_url": "https://www.amazon.com/s?k=Logitech+MX+Anywhere+3S&tag=gearmatch-20",
+    "retailer_urls": {
+      "manufacturer": "https://www.logitech.com/en-us/shop/p/mx-anywhere-3s.910-006925"
+    },
     "recommendation_tags": [
       "productivity",
       "portable",
@@ -7706,7 +7900,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -7853,7 +8047,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -7925,7 +8119,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -7981,10 +8175,13 @@
     "brand": "Glorious",
     "category": "mouse",
     "price_range_usd": [
-      50,
-      70
+      35,
+      59
     ],
     "product_url": "https://www.amazon.com/s?k=GLORIOUS+Model+O+2&tag=gearmatch-20",
+    "retailer_urls": {
+      "manufacturer": "https://www.newegg.com/glorious-model-o/p/173-01RW-00001"
+    },
     "recommendation_tags": [
       "lightweight",
       "wired_gaming",
@@ -7996,7 +8193,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -8122,10 +8319,13 @@
     "brand": "Pwnage",
     "category": "mouse",
     "price_range_usd": [
-      150,
-      200
+      169,
+      270
     ],
     "product_url": "https://www.amazon.com/s?k=Pwnage+StormBreaker&tag=gearmatch-20",
+    "retailer_urls": {
+      "manufacturer": "https://pwnage.com/products/stormbreaker?variant=42194765480127"
+    },
     "recommendation_tags": [
       "esports",
       "competitive_fps",
@@ -8138,7 +8338,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -8405,10 +8605,15 @@
     "brand": "Logitech",
     "category": "mouse",
     "price_range_usd": [
-      25,
-      40
+      19,
+      36
     ],
     "product_url": "https://www.amazon.com/s?k=Logitech+Pebble+Mouse+2+M350s&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/logitech-pebble-mouse-2-m350s-slim-lightweight-wireless-bluetooth-optical-silent-ambidextrous-mouse-with-customizable-buttons-wireless-rose/J7H7ZY8458/sku/6554349",
+      "manufacturer": "https://www.logitech.com/en-us/shop/p/pebble-2-m350s-wireless-mouse.910-007023",
+      "target": "https://www.target.com/p/logitech-pebble-mouse-2-m350s-ambidextrous-3-button-bluetooth-tonal-rose/-/A-1008322071"
+    },
     "recommendation_tags": [
       "portable",
       "compact",
@@ -8421,7 +8626,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -8547,8 +8752,8 @@
     "brand": "Pulsar",
     "category": "mouse",
     "price_range_usd": [
-      90,
-      120
+      130,
+      130
     ],
     "product_url": "https://www.amazon.com/s?k=Pulsar+Xlite+V3&tag=gearmatch-20",
     "recommendation_tags": [
@@ -8562,7 +8767,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -8617,10 +8822,13 @@
     "brand": "WLmouse",
     "category": "mouse",
     "price_range_usd": [
-      130,
-      160
+      140,
+      145
     ],
     "product_url": "https://www.amazon.com/s?k=WLmouse+Beast+X&tag=gearmatch-20",
+    "retailer_urls": {
+      "manufacturer": "https://www.wlmouse.com/products/x-pro?variant=49844790198570"
+    },
     "recommendation_tags": [
       "ultra_lightweight",
       "magnesium_alloy",
@@ -8633,7 +8841,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -8704,7 +8912,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -8775,7 +8983,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -8904,11 +9112,15 @@
     "brand": "Razer",
     "category": "mouse",
     "price_range_usd": [
-      150,
-      180
+      120,
+      120
     ],
     "image_url": "https://i.rtings.com/assets/products/XZTWfCaG/razer-deathadder-v3-pro/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Razer+DeathAdder+V3+Pro&tag=gearmatch-20",
+    "retailer_urls": {
+      "bhphoto": "https://www.bhphotovideo.com/c/product/1851352-REG/razer_rz01_04630100_r3u1_deathadder_v3_pro_ergonomic.html",
+      "newegg": "https://www.newegg.com/p/N82E16826153334"
+    },
     "recommendation_tags": [
       "competitive_fps",
       "ergo_shape",
@@ -8921,7 +9133,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -8982,11 +9194,17 @@
     "brand": "Razer",
     "category": "mouse",
     "price_range_usd": [
-      130,
-      160
+      100,
+      180
     ],
     "image_url": "https://i.rtings.com/assets/products/gl1IW2fn/razer-viper-v2-pro/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Razer+Viper+V2+Pro&tag=gearmatch-20",
+    "retailer_urls": {
+      "manufacturer": "https://www.razer.com/gaming-mice/razer-viper-v3-pro-se/RZ01-04550100-R3U1",
+      "bestbuy": "https://www.bestbuy.com/product/razer-viper-v3-pro-ultra-lightweight-optical-gaming-mouse-with-95-hour-battery-life-8k-polling-rate-wireless-white/J39HWFH93Z",
+      "microcenter": "https://www.microcenter.com/product/695768/razer-viper-v3-pro-wireless-gaming-mouse-faker-edition",
+      "newegg": "https://www.newegg.com/p/32K-0091-00022"
+    },
     "recommendation_tags": [
       "top_tier_competitive_fps",
       "ultralight",
@@ -8998,7 +9216,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -9076,7 +9294,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -9152,7 +9370,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -9210,8 +9428,8 @@
     "brand": "Razer",
     "category": "mouse",
     "price_range_usd": [
-      60,
-      80
+      58,
+      98
     ],
     "image_url": "https://i.rtings.com/assets/products/ip9cVSnj/razer-viper-8khz/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Razer+Viper+8KHz&tag=gearmatch-20",
@@ -9226,7 +9444,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -9285,11 +9503,18 @@
     "brand": "Razer",
     "category": "mouse",
     "price_range_usd": [
-      80,
-      130
+      100,
+      120
     ],
     "image_url": "https://i.rtings.com/assets/products/0Sg9uoW8/razer-deathadder-v2-pro/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Razer+DeathAdder+V2+Pro&tag=gearmatch-20",
+    "retailer_urls": {
+      "manufacturer": "https://www.razer.com/gaming-mice/razer-deathadder-v3-pro/RZ01-04630100-R3U1",
+      "bestbuy": "https://www.bestbuy.com/site/razer-deathadder-v3-pro-lightweight-wireless-optical-gaming-mouse-with-90-hour-battery-black/6514425.p",
+      "walmart": "https://www.walmart.com/ip/Razer-DeathAdder-V3-Pro-Wireless-Esports-Gaming-Mouse-64g-5-Buttons-2-4GHz-Bluetooth-White/1632496311",
+      "bhphoto": "https://www.bhphotovideo.com/c/product/1851352-REG/razer_rz01_04630100_r3u1_deathadder_v3_pro_ergonomic.html",
+      "newegg": "https://www.newegg.com/p/N82E16826153334"
+    },
     "recommendation_tags": [
       "wireless_gaming",
       "ergo_shape",
@@ -9301,7 +9526,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -9436,7 +9661,7 @@
     "category": "mouse",
     "price_range_usd": [
       100,
-      150
+      143
     ],
     "image_url": "https://i.rtings.com/assets/products/6UfiX6UZ/razer-basilisk-ultimate/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Razer+Basilisk+Ultimate&tag=gearmatch-20",
@@ -9451,7 +9676,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -9588,11 +9813,16 @@
     "brand": "Razer",
     "category": "mouse",
     "price_range_usd": [
-      80,
-      100
+      63,
+      90
     ],
     "image_url": "https://i.rtings.com/assets/products/RFz7PsNy/razer-naga-v2-hyperspeed/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Razer+Naga+V2+HyperSpeed&tag=gearmatch-20",
+    "retailer_urls": {
+      "manufacturer": "https://www.razer.com/gaming-mice/razer-naga-v2-hyperspeed/RZ01-03600100-R3U1",
+      "newegg": "https://www.newegg.com/p/N82E16826153337",
+      "bhphoto": "https://www.bhphotovideo.com/c/product/803393638-USE/razer_rz01_03600100_r3u1_naga_v2_hyperspeed_wireless.html/"
+    },
     "recommendation_tags": [
       "mmo_gaming",
       "wireless_gaming",
@@ -9604,7 +9834,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -9743,11 +9973,18 @@
     "brand": "Razer",
     "category": "mouse",
     "price_range_usd": [
-      50,
+      33,
       70
     ],
     "image_url": "https://i.rtings.com/assets/products/GLIVs2vm/razer-orochi-v2/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Razer+Orochi+V2&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/site/razer-orochi-v2-wireless-optical-gaming-mouse-white/6460407.p",
+      "manufacturer": "https://www.razer.com/gaming-mice/razer-orochi-v2/RZ01-03731200-R3U1",
+      "walmart": "https://www.walmart.com/ip/Razer-Orochi-V2-Wireless-Optical-Gaming-Mouse-for-PC-6-Buttons-2-4GHz-Bluetooth-Black/735296861",
+      "bhphoto": "https://www.bhphotovideo.com/c/product/1851345-REG/razer_rz01_03731200_r3u1_orochi_v2_wireless_gaming.html",
+      "newegg": "https://www.newegg.com/razer-rz01-03730400-r3u1-orochi-v2-wireless-dual/p/32K-000N-00162"
+    },
     "recommendation_tags": [
       "wireless_gaming",
       "portable",
@@ -9759,7 +9996,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -9818,11 +10055,17 @@
     "brand": "Logitech",
     "category": "mouse",
     "price_range_usd": [
-      120,
-      160
+      90,
+      130
     ],
     "image_url": "https://i.rtings.com/assets/products/lFKKRdTZ/logitech-g-pro-x-superlight/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Logitech+G+PRO+X+SUPERLIGHT&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/logitech-pro-x-superlight-lightweight-wireless-optical-gaming-mouse-with-hero-25k-sensor-wireless-black/J7H7ZY3CZT/sku/12130162",
+      "walmart": "https://www.walmart.com/ip/Logitech-G-Pro-X-Superlight-Wireless-Gaming-Mouse-Ultra-Lightweight-HERO-25K-Sensor-Black/403548050",
+      "bhphoto": "https://www.bhphotovideo.com/c/product/1609024-REG/logitech_g_910_005878_pro_x_superilght_wireless.html",
+      "newegg": "https://www.newegg.com/logitech-910-005878-pro-x-rf-lightspeed-wireless/p/N82E16826197421"
+    },
     "recommendation_tags": [
       "top_tier_competitive_fps",
       "ultralight",
@@ -9834,7 +10077,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -9896,11 +10139,17 @@
     "brand": "Logitech",
     "category": "mouse",
     "price_range_usd": [
-      100,
+      70,
       130
     ],
     "image_url": "https://i.rtings.com/assets/products/ZZ9SdscN/logitech-g-pro-wireless/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Logitech+G+Pro+Wireless&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/logitech-pro-lightweight-wireless-optical-ambidextrous-gaming-mouse-with-rgb-lighting-wireless-black/J7H7ZY2KYS/sku/12146512",
+      "walmart": "https://www.walmart.com/ip/Logitech-G-Pro-League-of-Legends-Lightspeed-Pro-Wireless-Gaming-Mouse-910-006449/317368431",
+      "bhphoto": "https://www.bhphotovideo.com/c/product/1674845-REG/logitech_g_910_006449_g_pro_wireless_mouse.html",
+      "newegg": "https://www.newegg.com/logitech-910-005270-pro-wireless-gaming-mouse-lightspeed-wireless/p/32K-0002-000P4"
+    },
     "recommendation_tags": [
       "competitive_fps",
       "safe_shape",
@@ -9912,7 +10161,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -10050,11 +10299,17 @@
     "brand": "Logitech",
     "category": "mouse",
     "price_range_usd": [
-      100,
-      150
+      90,
+      210
     ],
     "image_url": "https://i.rtings.com/assets/products/TpxOayO5/logitech-g502-lightspeed/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Logitech+G502+LIGHTSPEED&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/logitech-g502-lightspeed-wireless-optical-gaming-mouse-with-rgb-lighting-wireless-black/J7H7ZYXGY4/sku/6333841",
+      "manufacturer": "https://www.logitechg.com/en-us/shop/p/g502-lightspeed-wireless-gaming-mouse.910-005565",
+      "bhphoto": "https://www.bhphotovideo.com/c/product/1882241-REG/logitech_g_g502_lightspeed_gaming_mouse.html",
+      "newegg": "https://www.newegg.com/logitech-910-005565-g502-usb-lightspeed-wireless/p/N82E16826197336"
+    },
     "recommendation_tags": [
       "wireless_gaming",
       "mmo_gaming",
@@ -10066,7 +10321,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -10132,11 +10387,20 @@
     "brand": "Logitech",
     "category": "mouse",
     "price_range_usd": [
-      100,
-      150
+      99,
+      137
     ],
     "image_url": "https://i.rtings.com/assets/products/k0yzRxSz/logitech-g903-lightspeed/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Logitech+G903+LIGHTSPEED&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/logitech-g903-lightspeed-wireless-optical-gaming-ambidextrous-mouse-with-rgb-lighting-wireless-black/J7H7ZYX6Y6/sku/6333839",
+      "manufacturer": "https://www.logitechg.com/en-us/shop/p/g903-hero-wireless-gaming-mouse.910-005670",
+      "microcenter": "https://www.microcenter.com/product/608592/G903_LIGHTSPEED_RGB_Wireless_Optical_Gaming_Mouse_-_Black",
+      "walmart": "https://www.walmart.com/ip/Logitech-G903-LIGHTSPEED-Wireless-Gaming-Mouse-w-HERO-25K-Sensor-140-Hour-Rechargeable-Battery-LIGHTSYNC-RGB-POWERPLAY-Compatible-Ambidextrous-107g-1/115749915",
+      "target": "https://www.target.com/p/logitech-g903-lightspeed-wireless-gaming-mouse-w-hero-16k-sensor/-/A-1008322252",
+      "bhphoto": "https://www.bhphotovideo.com/c/product/1486567-REG/logitech_910_005670_g903_lightspeed_wireless_gaming.html",
+      "newegg": "https://www.newegg.com/logitech-910-005670-g903-usb-lightspeed-wireless/p/N82E16826197341"
+    },
     "recommendation_tags": [
       "wireless_gaming",
       "ambidextrous",
@@ -10148,7 +10412,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -10229,7 +10493,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -10309,7 +10573,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -10384,7 +10648,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -10600,11 +10864,18 @@
     "brand": "Logitech",
     "category": "mouse",
     "price_range_usd": [
-      40,
-      60
+      45,
+      50
     ],
     "image_url": "https://i.rtings.com/assets/products/iI921hER/logitech-ergo-m575/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Logitech+ERGO+M575&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/logitech-ergo-m575-wireless-trackball-ergonomic-mouse-for-business-wireless-graphite/J7H7ZY3TKS/sku/6583842",
+      "walmart": "https://www.walmart.com/ip/Logitech-ERGO-M575-Wireless-Trackball-Mouse-Easy-thumb-control-precision-smooth-tracking-ergonomic-comfort-design-Windows-PC-Mac-Bluetooth-USB-capabi/491039222",
+      "target": "https://www.target.com/p/logitech-ergo-m575-wireless-trackball-mouse-black/-/A-91466590",
+      "bhphoto": "https://www.bhphotovideo.com/c/product/1745744-REG/logitech_910006197_ergo_m575_for_business.html",
+      "newegg": "https://www.newegg.com/p/0TP-000C-01H14"
+    },
     "recommendation_tags": [
       "trackball",
       "ergonomic",
@@ -10616,7 +10887,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -10744,11 +11015,18 @@
     "brand": "Logitech",
     "category": "mouse",
     "price_range_usd": [
-      60,
-      80
+      80,
+      120
     ],
     "image_url": "https://i.rtings.com/assets/products/gPW2huyI/logitech-mx-master/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Logitech+MX+Master&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/logitech-mx-master-3s-bluetooth-edition-performance-wireless-optical-mouse-with-ultra-fast-scrolling-and-quiet-clicks-wireless-black/J7H7ZYG559/sku/6633199",
+      "manufacturer": "https://www.logitech.com/en-us/shop/p/mx-master-3s.910-007499",
+      "target": "https://www.target.com/p/logitech-mx-master-3s-wireless-mouse-black-910007500/-/A-1008322068",
+      "bhphoto": "https://www.bhphotovideo.com/c/product/1703320-REG/logitech_910_006556_mx_master_3s_black.html",
+      "newegg": "https://www.newegg.com/p/0TP-000C-01K99"
+    },
     "recommendation_tags": [
       "productivity",
       "office_work",
@@ -10760,7 +11038,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -10821,11 +11099,14 @@
     "brand": "Logitech",
     "category": "mouse",
     "price_range_usd": [
-      25,
-      35
+      17,
+      50
     ],
     "image_url": "https://i.rtings.com/assets/products/pJEfEC8r/logitech-pebble-m350/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Logitech+Pebble+M350&tag=gearmatch-20",
+    "retailer_urls": {
+      "target": "https://www.target.com/p/logitech-pebble-bluetooth-mouse-m350-blue-gray/-/A-78862718"
+    },
     "recommendation_tags": [
       "portable",
       "travel",
@@ -10837,7 +11118,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -10964,11 +11245,14 @@
     "brand": "Glorious",
     "category": "mouse",
     "price_range_usd": [
-      70,
-      90
+      35,
+      59
     ],
     "image_url": "https://i.rtings.com/assets/products/NVfJKRvL/glorious-model-o-wireless/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=GLORIOUS+Model+O+Wireless&tag=gearmatch-20",
+    "retailer_urls": {
+      "manufacturer": "https://www.newegg.com/glorious-model-o/p/173-01RW-00001"
+    },
     "recommendation_tags": [
       "competitive_fps",
       "ultralight",
@@ -10980,7 +11264,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -11040,11 +11324,14 @@
     "brand": "Glorious",
     "category": "mouse",
     "price_range_usd": [
-      70,
-      90
+      80,
+      139
     ],
     "image_url": "https://i.rtings.com/assets/products/aWAvRjsW/glorious-model-d-wireless/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=GLORIOUS+Model+D+Wireless&tag=gearmatch-20",
+    "retailer_urls": {
+      "newegg": "https://www.newegg.com/p/0TP-031R-00001"
+    },
     "recommendation_tags": [
       "competitive_fps",
       "ultralight",
@@ -11057,7 +11344,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -11117,11 +11404,14 @@
     "brand": "Glorious",
     "category": "mouse",
     "price_range_usd": [
-      40,
-      60
+      38,
+      59
     ],
     "image_url": "https://i.rtings.com/assets/products/m8aj5QAP/glorious-model-o/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=GLORIOUS+Model+O&tag=gearmatch-20",
+    "retailer_urls": {
+      "manufacturer": "https://www.newegg.com/glorious-model-o/p/173-01RW-00001"
+    },
     "recommendation_tags": [
       "competitive_fps",
       "ultralight",
@@ -11133,7 +11423,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -11191,11 +11481,14 @@
     "brand": "Glorious",
     "category": "mouse",
     "price_range_usd": [
-      70,
-      100
+      35,
+      59
     ],
     "image_url": "https://i.rtings.com/assets/products/ajizZHpg/glorious-model-o-pro/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=GLORIOUS+Model+O+PRO&tag=gearmatch-20",
+    "retailer_urls": {
+      "manufacturer": "https://www.newegg.com/glorious-model-o/p/173-01RW-00001"
+    },
     "recommendation_tags": [
       "ultralight",
       "fps_gaming",
@@ -11207,7 +11500,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -11336,8 +11629,8 @@
     "brand": "Pulsar",
     "category": "mouse",
     "price_range_usd": [
-      60,
-      80
+      70,
+      70
     ],
     "image_url": "https://i.rtings.com/assets/products/OJCrdhuF/pulsar-xlite-v2/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Pulsar+Xlite+V2&tag=gearmatch-20",
@@ -11352,7 +11645,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -11562,8 +11855,8 @@
     "brand": "Finalmouse",
     "category": "mouse",
     "price_range_usd": [
-      180,
-      250
+      310,
+      310
     ],
     "image_url": "https://i.rtings.com/assets/products/caJQ8rj7/finalmouse-starlight-pro-tenz-medium/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Finalmouse+Starlight+Pro+-+TenZ+Medium&tag=gearmatch-20",
@@ -11578,7 +11871,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -11783,10 +12076,16 @@
     "category": "mouse",
     "price_range_usd": [
       70,
-      90
+      70
     ],
     "image_url": "https://i.rtings.com/assets/products/r3YpGetx/corsair-dark-core-rgb-pro/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Corsair+DARK+CORE+RGB+PRO&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/corsair-dark-core-rgb-pro-se-wireless-optical-gaming-mouse-with-qi-wireless-charging-wireless-black/J39QHHFPTS/sku/11961469",
+      "manufacturer": "https://www.corsair.com/us/en/p/gaming-mouse/CH-9315511-NA/dark-core-rgb-pro-se-wireless-gaming-mouse-ch-9315511-na",
+      "microcenter": "https://www.microcenter.com/product/618580/Dark_Core_RGB_Pro_SE,_Wireless_FPS-MOBA_Gaming_Mouse_w-_Slipstream_Technology,_Backlit_RGB_LED,_18000_DPI,_Optical,_Qi_Wireless_Charging_Certified__-_",
+      "newegg": "https://www.newegg.com/corsair-ch-9315511-na-dark-core-rgb-pro-wired-wireless/p/N82E16826816162"
+    },
     "recommendation_tags": [
       "wireless_gaming",
       "ergo_shape",
@@ -11798,7 +12097,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -11859,11 +12158,17 @@
     "brand": "Corsair",
     "category": "mouse",
     "price_range_usd": [
-      100,
-      130
+      36,
+      80
     ],
     "image_url": "https://i.rtings.com/assets/products/Wsj9Vkvp/corsair-m65-rgb-ultra-wireless/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Corsair+M65+RGB+ULTRA+WIRELESS&tag=gearmatch-20",
+    "retailer_urls": {
+      "manufacturer": "https://www.corsair.com/us/en/p/revival-series/CH-9309411-NA2-RV/m65-rgb-ultra-tunable-fps-gaming-mouse-revival-series-ch-9309411-na2-rv",
+      "bestbuy": "https://www.bestbuy.com/product/corsair-m65-rgb-ultra-wired-optical-gaming-mouse-with-adjustable-weights-wired-black/J39QHTJCX6/sku/6485744",
+      "microcenter": "https://www.microcenter.com/product/641497/M65_RGB_ULTRA_Wired_Mouse",
+      "newegg": "https://www.newegg.com/corsair-ch-9309411-na2-m65-rgb-usb-2-0-wired/p/N82E16826816184"
+    },
     "recommendation_tags": [
       "wireless_gaming",
       "fps_gaming",
@@ -11875,7 +12180,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -12088,11 +12393,16 @@
     "brand": "Cooler Master",
     "category": "mouse",
     "price_range_usd": [
-      40,
-      50
+      26,
+      30
     ],
     "image_url": "https://i.rtings.com/assets/products/ljrpQL24/cooler-master-mm720/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Cooler+Master+MM720&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/cooler-master-hyper-212-120mm-cpu-cooling-fan-black-edition/J3K4GJ8C4X/sku/6316584",
+      "newegg": "https://www.newegg.com/cooler-master-hyper-212-black-120mm-intel-lga-1700-1200-1151-1150-1155-1156-amd-am5-am4/p/N82E16835103364",
+      "bhphoto": "https://www.bhphotovideo.com/c/product/1805059-REG/cooler_master_rr_s4kk_25sn_r1_hyper_212_black_edition.html"
+    },
     "recommendation_tags": [
       "competitive_fps",
       "ultralight",
@@ -12104,7 +12414,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -12176,7 +12486,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -12377,11 +12687,17 @@
     "brand": "Kensington",
     "category": "mouse",
     "price_range_usd": [
-      100,
-      130
+      110,
+      148
     ],
     "image_url": "https://i.rtings.com/assets/products/U9TNMUJL/kensington-slimblade-pro-trackball/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Kensington+SlimBlade+Pro+Trackball&tag=gearmatch-20",
+    "retailer_urls": {
+      "manufacturer": "https://www.kensington.com/p/products/ergonomic-desk-accessories/ergonomic-input-devices/slimblade-trackball3-1/",
+      "bestbuy": "https://www.bestbuy.com/product/kensington-slimblade-wired-trackball-ambidextrous-mouse-with-4-button-design-graphite-ruby-red/J7RJZZQG34/sku/11099445",
+      "bhphoto": "https://www.bhphotovideo.com/c/product/1718142-REG/kensington_k72327ww_slimblade_trackball.html",
+      "newegg": "https://www.newegg.com/p/N82E16826125183"
+    },
     "recommendation_tags": [
       "trackball",
       "ergonomic",
@@ -12393,7 +12709,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -12448,8 +12764,8 @@
     "brand": "3Dconnexion",
     "category": "mouse",
     "price_range_usd": [
-      100,
-      130
+      137,
+      137
     ],
     "image_url": "https://i.rtings.com/assets/products/ptJvodM1/3dconnexion-cadmouse-pro-wireless/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=3Dconnexion+CadMouse+Pro+Wireless&tag=gearmatch-20",
@@ -12464,7 +12780,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -12522,11 +12838,18 @@
     "brand": "Microsoft",
     "category": "mouse",
     "price_range_usd": [
-      60,
-      80
+      67,
+      100
     ],
     "image_url": "https://i.rtings.com/assets/products/vdMb1hBy/microsoft-arc-mouse/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Microsoft+Arc+Mouse&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/microsoft-surface-arc-bluetooth-bluetrack-ambidextrous-mouse-wireless-light-gray/J3ZKKZFT64/sku/10148510",
+      "microcenter": "https://www.microcenter.com/product/695025/microsoft-surface-arc-wireless-mouse-violet",
+      "target": "https://www.target.com/p/microsoft-arc-mouse-black/-/A-92419304",
+      "bhphoto": "https://www.bhphotovideo.com/c/product/1876149-REG/microsoft_fhd_00016_surface_arc_mouse_black.html",
+      "newegg": "https://www.newegg.com/microsoft-czv-00001-arc-mouse/p/0TP-000K-00638"
+    },
     "recommendation_tags": [
       "travel",
       "portable",
@@ -12538,7 +12861,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -12730,11 +13053,14 @@
     "brand": "Logitech",
     "category": "mouse",
     "price_range_usd": [
-      50,
-      80
+      30,
+      57
     ],
     "image_url": "https://i.rtings.com/assets/products/R7qRwqbG/logitech-g305-lightspeed/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Logitech+G305+LIGHTSPEED&tag=gearmatch-20",
+    "retailer_urls": {
+      "manufacturer": "https://www.logitechg.com/en-us/shop/p/g305-lightspeed-wireless-gaming-mouse.910-005280"
+    },
     "recommendation_tags": [
       "wireless",
       "ambidextrous",
@@ -12744,7 +13070,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -13024,7 +13350,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -13154,7 +13480,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "mouse",
