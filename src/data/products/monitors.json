@@ -5,8 +5,8 @@
     "brand": "AOC",
     "category": "monitor",
     "price_range_usd": [
-      143,
-      143
+      135,
+      135
     ],
     "image_url": "https://i.rtings.com/assets/products/SPUJMofg/aoc-24g15n/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=AOC+24G15N&tag=gearmatch-20",
@@ -20,7 +20,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -520,18 +521,25 @@
     "brand": "HP",
     "category": "monitor",
     "price_range_usd": [
-      149,
-      149
+      140,
+      230
     ],
     "image_url": "https://i.rtings.com/assets/products/jJqItJdo/hp-27f/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=HP+27F&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/hp-527sw-27-class-full-hd-led-monitor-169-27-viewable-in-plane-switching-ips-technology-edge-led-white/JJGLF5GPHH/sku/10748399",
+      "manufacturer": "https://www.hp.com/us-en/shop/pdp/hp-series-5-27-inch-fhd-white-monitor-527sw",
+      "target": "https://www.target.com/p/hewlett-packard-527sw-series-5-27-fhd-1080p-100hz-16-9-ips-monitor-94f46aa/-/A-1005912549",
+      "newegg": "https://www.newegg.com/hp-series-5-527sw-27-fhd/p/0JC-0019-02H59"
+    },
     "recommendation_tags": [
       "freesync"
     ],
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -625,7 +633,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -849,7 +858,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -948,8 +958,8 @@
     "brand": "LG",
     "category": "monitor",
     "price_range_usd": [
-      299,
-      299
+      309,
+      309
     ],
     "image_url": "https://i.rtings.com/assets/products/qCddOQtF/lg-27gn650-b/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=LG+27GN650-B&tag=gearmatch-20",
@@ -962,7 +972,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -1045,8 +1056,8 @@
     "brand": "LG",
     "category": "monitor",
     "price_range_usd": [
-      399,
-      399
+      369,
+      800
     ],
     "image_url": "https://i.rtings.com/assets/products/BikfqIpk/lg-27gn750-b/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=LG+27GN750-B&tag=gearmatch-20",
@@ -1060,7 +1071,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -1166,7 +1178,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -1256,8 +1269,8 @@
     "brand": "LG",
     "category": "monitor",
     "price_range_usd": [
-      499,
-      499
+      380,
+      380
     ],
     "image_url": "https://i.rtings.com/assets/products/bMiEd2nb/lg-27gn850-b-27gn880-b/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=LG+27GN850-B%2F27GN880-B&tag=gearmatch-20",
@@ -1271,7 +1284,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -1362,8 +1376,8 @@
     "brand": "LG",
     "category": "monitor",
     "price_range_usd": [
-      799,
-      799
+      499,
+      840
     ],
     "image_url": "https://i.rtings.com/assets/products/26VakdHN/lg-27gn950-b/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=LG+27GN950-B&tag=gearmatch-20",
@@ -1378,7 +1392,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -1486,7 +1501,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -1586,8 +1602,8 @@
     "brand": "LG",
     "category": "monitor",
     "price_range_usd": [
-      899,
-      899
+      499,
+      840
     ],
     "image_url": "https://i.rtings.com/assets/products/HTYNRWWN/lg-27gp950-b/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=LG+27GP950-B&tag=gearmatch-20",
@@ -1602,7 +1618,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -1694,11 +1711,15 @@
     "brand": "LG",
     "category": "monitor",
     "price_range_usd": [
-      299,
-      299
+      229,
+      439
     ],
     "image_url": "https://i.rtings.com/assets/products/JztY13a9/lg-27gr75q-b/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=LG+27GR75Q-B&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/lg-27gr75qb-b-27-class-gaming-lcd-monitor-169-high-glossy-black-matte-black-27-viewable-matte-purple-gray/JJ8VPZH2H9/sku/12196904",
+      "bhphoto": "https://www.bhphotovideo.com/c/product/1817893-REG/lg_27gr75qb_b_27_qhd_ips.html"
+    },
     "recommendation_tags": [
       "high_refresh",
       "hdr",
@@ -1709,7 +1730,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -1808,8 +1830,8 @@
     "brand": "LG",
     "category": "monitor",
     "price_range_usd": [
-      324,
-      324
+      275,
+      598
     ],
     "image_url": "https://i.rtings.com/assets/products/bijil2Z0/lg-27gr83q-b/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=LG+27GR83Q-B&tag=gearmatch-20",
@@ -1823,7 +1845,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -1924,8 +1947,8 @@
     "brand": "LG",
     "category": "monitor",
     "price_range_usd": [
-      499,
-      499
+      275,
+      598
     ],
     "image_url": "https://i.rtings.com/assets/products/1TZEeivq/lg-27gr93u-b/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=LG+27GR93U-B&tag=gearmatch-20",
@@ -1941,7 +1964,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -2045,11 +2069,16 @@
     "brand": "LG",
     "category": "monitor",
     "price_range_usd": [
-      999,
-      999
+      800,
+      1410
     ],
     "image_url": "https://i.rtings.com/assets/products/i3CeRj9L/lg-27gr95qe-b/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=LG+27GR95QE-B&tag=gearmatch-20",
+    "retailer_urls": {
+      "walmart": "https://www.walmart.com/ip/LG-27-UltraGear-OLED-Gaming-Monitor-QHD-with-240Hz-Refresh-Rate-0-03ms-Response-Time-27GR95QE-B/2864745318",
+      "bhphoto": "https://www.bhphotovideo.com/c/product/1745626-REG/lg_27gr95qe_b_27_ultragear_curved_oled.html",
+      "newegg": "https://www.newegg.com/lg-27gr95qe-b-27-qhd-240-hz-ultragear-oled/p/N82E16824026351"
+    },
     "recommendation_tags": [
       "high_refresh",
       "gaming",
@@ -2064,7 +2093,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -2291,11 +2321,15 @@
     "brand": "LG",
     "category": "monitor",
     "price_range_usd": [
-      629,
-      629
+      630,
+      801
     ],
     "image_url": "https://i.rtings.com/assets/products/cBQmoTWl/lg-27gs95qe-b/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=LG+27GS95QE-B&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/lg-ultragear-27-oled-qhd-240hz-0-03ms-freesync-and-nvidia-g-sync-compatible-gaming-monitor-with-hdr400-black/JJ8VPZQTPH/sku/6573635",
+      "newegg": "https://www.newegg.com/lg-27gs95qe-b-27-qhd-240-hz-ultragear-oled/p/N82E16824026405"
+    },
     "recommendation_tags": [
       "oled",
       "high_refresh",
@@ -2312,7 +2346,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -2418,11 +2453,19 @@
     "brand": "LG",
     "category": "monitor",
     "price_range_usd": [
-      849,
-      849
+      997,
+      1000
     ],
     "image_url": "https://i.rtings.com/assets/products/vZTVDcx1/lg-27gx700a-b/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=LG+27GX700A-B&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/lg-ultragear-27-oled-qhd-480hz-0-03ms-nvidia-g-sync-amd-freesync-premium-pro-gaming-monitor-hdmi-x2-displayport-usb-black/JJ8VPZTF8C/sku/10904887",
+      "microcenter": "https://www.microcenter.com/product/690108/UltraGear_27GX790A-BAUS_265%22_2K_WQHD_(2560_x_1440)_480Hz_Gaming_Monitor;_AMD_FreeSync_Premium_Pro_-_Nvidia_G-Sync_Compatible;_HDR;_DisplayPort_HDMI;_R",
+      "target": "https://www.target.com/p/lg-27-ultragear-oled-qhd-gaming-monitor-480hz-0-03ms-g-sync/-/A-1005913428",
+      "bhphoto": "https://www.bhphotovideo.com/c/product/1869420-REG/lg_ultragear_oled_27gx790a_b_26_5.html",
+      "manufacturer": "https://www.walmart.com/ip/LG-UltraGear-27-480-Hz-OLED-QHD-Gaming-Monitor-0-03ms-FreeSync-Premium-G-Sync-Compatible-2560-x-1440-2K-DCI-P3-98-5/15027211854",
+      "newegg": "https://www.newegg.com/lg-27gx790a-b-aus-27-qhd-480-hz-ultragear-oled-black/p/N82E16824026450"
+    },
     "recommendation_tags": [
       "oled",
       "high_refresh",
@@ -2438,7 +2481,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -2544,11 +2588,19 @@
     "brand": "LG",
     "category": "monitor",
     "price_range_usd": [
-      676,
-      676
+      997,
+      1000
     ],
     "image_url": "https://i.rtings.com/assets/products/woVShorI/lg-27gx790a-b/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=LG+27GX790A-B&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/lg-ultragear-27-oled-qhd-480hz-0-03ms-nvidia-g-sync-amd-freesync-premium-pro-gaming-monitor-hdmi-x2-displayport-usb-black/JJ8VPZTF8C/sku/10904887",
+      "microcenter": "https://www.microcenter.com/product/690108/UltraGear_27GX790A-BAUS_265%22_2K_WQHD_(2560_x_1440)_480Hz_Gaming_Monitor;_AMD_FreeSync_Premium_Pro_-_Nvidia_G-Sync_Compatible;_HDR;_DisplayPort_HDMI;_R",
+      "target": "https://www.target.com/p/lg-27-ultragear-oled-qhd-gaming-monitor-480hz-0-03ms-g-sync/-/A-1005913428",
+      "bhphoto": "https://www.bhphotovideo.com/c/product/1869420-REG/lg_ultragear_oled_27gx790a_b_26_5.html",
+      "manufacturer": "https://www.walmart.com/ip/LG-UltraGear-27-480-Hz-OLED-QHD-Gaming-Monitor-0-03ms-FreeSync-Premium-G-Sync-Compatible-2560-x-1440-2K-DCI-P3-98-5/15027211854",
+      "newegg": "https://www.newegg.com/lg-27gx790a-b-aus-27-qhd-480-hz-ultragear-oled-black/p/N82E16824026450"
+    },
     "recommendation_tags": [
       "oled",
       "high_refresh",
@@ -2564,7 +2616,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -2900,7 +2953,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -3160,8 +3214,8 @@
     "brand": "LG",
     "category": "monitor",
     "price_range_usd": [
-      650,
-      650
+      440,
+      679
     ],
     "image_url": "https://i.rtings.com/assets/products/q4FFfAP3/lg-27uk650-w/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=LG+27UK650-W&tag=gearmatch-20",
@@ -3174,7 +3228,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -3635,11 +3690,15 @@
     "brand": "LG",
     "category": "monitor",
     "price_range_usd": [
-      229,
-      229
+      180,
+      190
     ],
     "image_url": "https://i.rtings.com/assets/products/SY9jYpZk/lg-32gn600-b/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=LG+32GN600-B&tag=gearmatch-20",
+    "retailer_urls": {
+      "newegg": "https://www.newegg.com/p/3D4-0003-00086",
+      "target": "https://www.target.com/p/refurbished-lg-ultragear-32gn600-b-32-qhd-display-computer-monitor-manufacturer-refurbished/-/A-1006792053"
+    },
     "recommendation_tags": [
       "high_refresh",
       "hdr",
@@ -3650,7 +3709,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -3740,11 +3800,14 @@
     "brand": "LG",
     "category": "monitor",
     "price_range_usd": [
-      299,
-      299
+      270,
+      506
     ],
     "image_url": "https://i.rtings.com/assets/products/JqlrUjb6/lg-32gn650-b-32gn63t-b/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=LG+32GN650-B%2F32GN63T-B&tag=gearmatch-20",
+    "retailer_urls": {
+      "newegg": "https://www.newegg.com/p/3C6-0004-001J2"
+    },
     "recommendation_tags": [
       "high_refresh",
       "hdr",
@@ -3755,7 +3818,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -4091,8 +4155,8 @@
     "brand": "LG",
     "category": "monitor",
     "price_range_usd": [
-      553,
-      553
+      353,
+      910
     ],
     "image_url": "https://i.rtings.com/assets/products/yX59BGoQ/lg-32gr93u-b/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=LG+32GR93U-B&tag=gearmatch-20",
@@ -4108,7 +4172,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -4212,11 +4277,15 @@
     "brand": "LG",
     "category": "monitor",
     "price_range_usd": [
-      1399,
-      1399
+      980,
+      1657
     ],
     "image_url": "https://i.rtings.com/assets/products/ZEJJcoVy/lg-32gs95ue-b/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=LG+32GS95UE-B&tag=gearmatch-20",
+    "retailer_urls": {
+      "newegg": "https://www.newegg.com/p/N82E16824026437",
+      "bhphoto": "https://www.bhphotovideo.com/c/product/803379765-USE/lg_32gs95ue_b_ultragear_oled_31_5_4k.html/"
+    },
     "recommendation_tags": [
       "oled",
       "4k",
@@ -4234,7 +4303,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -4835,8 +4905,8 @@
     "brand": "LG",
     "category": "monitor",
     "price_range_usd": [
-      1063,
-      1063
+      1333,
+      1333
     ],
     "image_url": "https://i.rtings.com/assets/products/VQmzDobU/lg-34gk950f-b/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=LG+34GK950F-B&tag=gearmatch-20",
@@ -4851,7 +4921,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -4953,7 +5024,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -5164,8 +5236,8 @@
     "brand": "LG",
     "category": "monitor",
     "price_range_usd": [
-      1299,
-      1299
+      1333,
+      1333
     ],
     "image_url": "https://i.rtings.com/assets/products/RpnZ0Fon/lg-34gp950g-b/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=LG+34GP950G-B&tag=gearmatch-20",
@@ -5180,7 +5252,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -5271,11 +5344,18 @@
     "brand": "LG",
     "category": "monitor",
     "price_range_usd": [
-      1299,
-      1299
+      1199,
+      1700
     ],
     "image_url": "https://i.rtings.com/assets/products/l1gRLpBX/lg-34gs95qe-b/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=LG+34GS95QE-B&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/lg-45gs95qe-ultragear-oled-curved-gaming-monitor-45-inch-wqhd-800r-240hz-black/BGTKK3ZWYP/sku/10225403",
+      "target": "https://www.target.com/p/lg-34-ultragear-oled-curved-gaming-monitor-wqhd-with-240hz-refresh-rate/-/A-1005913643",
+      "bhphoto": "https://www.bhphotovideo.com/c/product/1817547-REG/lg_34gs95qe_b_34_ultragear_wqhd_oled.html",
+      "manufacturer": "https://www.walmart.com/ip/LG-UltraGear-45GS95QE-B-45-Class-UW-QHD-Curved-Screen-Gaming-OLED-Monitor-21-9-True-Black/5555727202",
+      "newegg": "https://www.newegg.com/lg-34gs95qe-b-34-wqhd-240-hz-ultragear-oled/p/3D4-0003-00080"
+    },
     "recommendation_tags": [
       "oled",
       "high_refresh",
@@ -5294,7 +5374,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -5508,7 +5589,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -5815,7 +5897,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -5928,7 +6011,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -6025,11 +6109,14 @@
     "brand": "LG",
     "category": "monitor",
     "price_range_usd": [
-      1499,
-      1499
+      1120,
+      1800
     ],
     "image_url": "https://i.rtings.com/assets/products/LAqgUUDg/lg-40wp95c-w/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=LG+40WP95C-W&tag=gearmatch-20",
+    "retailer_urls": {
+      "bhphoto": "https://www.bhphotovideo.com/c/product/803292027-USE/lg_40bp95c_w_bp95c_w_39_7_2160p_hdr.html/"
+    },
     "recommendation_tags": [
       "color_accurate",
       "hdr",
@@ -6043,7 +6130,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -6148,11 +6236,16 @@
     "brand": "Sony",
     "category": "monitor",
     "price_range_usd": [
-      1199,
-      1199
+      1298,
+      1398
     ],
     "image_url": "https://i.rtings.com/assets/products/COp2Xw7l/sony-42-a90k-oled/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Sony+42+A90K+OLED&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/sony-42-class-bravia-xr-a90k-oled-4k-uhd-smart-google-tv-2022/J7XSRH5XSF/sku/10562728",
+      "manufacturer": "https://electronics.sony.com/tv-video/televisions/all-tvs/p/xr42a90k",
+      "walmart": "https://www.walmart.com/ip/Sony-48-Class-A90K-4K-HDR-OLED-TV-with-smart-Google-TV-XR48A90K-2022-Model/712975793"
+    },
     "recommendation_tags": [
       "4k",
       "hdr",
@@ -6162,7 +6255,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -6481,11 +6575,14 @@
     "brand": "LG",
     "category": "monitor",
     "price_range_usd": [
-      1999,
-      1999
+      2440,
+      2498
     ],
     "image_url": "https://i.rtings.com/assets/products/UhCk8w8w/lg-42-oled-flex/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=LG+42+OLED+Flex&tag=gearmatch-20",
+    "retailer_urls": {
+      "bhphoto": "https://www.bhphotovideo.com/c/product/1770965-REG/lg_42lx3qpua_42_class_flex_oled.html"
+    },
     "recommendation_tags": [
       "4k",
       "fast_response",
@@ -6498,7 +6595,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -6604,7 +6702,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -6803,7 +6902,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -6894,11 +6994,16 @@
     "brand": "LG",
     "category": "monitor",
     "price_range_usd": [
-      1749,
-      1749
+      1997,
+      2000
     ],
     "image_url": "https://i.rtings.com/assets/products/PmpdEp3r/lg-45gx950a-b/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=LG+45GX950A-B&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/lg-ultragear-45-oled-dual-mode-5k2k-wuhd-165hz-wfhd-330hz-0-03ms-g-sync-freesync-premium-pro-gaming-monitor-black/JJ8VPZWPY9/sku/6619492",
+      "bhphoto": "https://www.bhphotovideo.com/c/product/1894511-REG/lg_45gx950a_b_aus_45_ultragear_oled_5k2k.html",
+      "newegg": "https://www.newegg.com/lg-45gx950a-b-45-wuhd-330-hz-oled-black/p/N82E16824026470"
+    },
     "recommendation_tags": [
       "oled",
       "high_refresh",
@@ -6919,7 +7024,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -7236,8 +7342,8 @@
     "brand": "LG",
     "category": "monitor",
     "price_range_usd": [
-      1499,
-      1499
+      1070,
+      1500
     ],
     "image_url": "https://i.rtings.com/assets/products/V2gvoUU4/lg-48gq900-b/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=LG+48GQ900-B&tag=gearmatch-20",
@@ -7253,7 +7359,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -7464,8 +7571,8 @@
     "brand": "LG",
     "category": "monitor",
     "price_range_usd": [
-      1299,
-      1299
+      967,
+      1750
     ],
     "image_url": "https://i.rtings.com/assets/products/YiPQ7pOC/lg-49wl95c-w/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=LG+49WL95C-W&tag=gearmatch-20",
@@ -7478,7 +7585,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -7573,7 +7681,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -7674,7 +7783,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -8096,11 +8206,14 @@
     "brand": "Dell",
     "category": "monitor",
     "price_range_usd": [
-      479,
-      479
+      380,
+      1050
     ],
     "image_url": "https://i.rtings.com/assets/products/HF99ze7r/dell-alienware-aw2524h/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Dell+Alienware+AW2524H&tag=gearmatch-20",
+    "retailer_urls": {
+      "manufacturer": "https://www.dell.com/en-us/shop/alienware-500hz-gaming-monitor-aw2524hf/apd/210-bjws/monitors-monitor-accessories"
+    },
     "recommendation_tags": [
       "high_refresh",
       "hdr",
@@ -8110,7 +8223,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -8220,7 +8334,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -8315,7 +8430,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -8761,11 +8877,15 @@
     "brand": "Dell",
     "category": "monitor",
     "price_range_usd": [
-      727,
-      727
+      900,
+      900
     ],
     "image_url": "https://i.rtings.com/assets/products/6QJi4FnI/dell-alienware-aw2725q/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Dell+Alienware+AW2725Q&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/alienware-aw2725q-27-qd-oled-4k-uhd-240hz-0-03-ms-freesync-premium-pro-and-g-sync-gaming-monitor-with-hdr-hdmi-displayport-interstellar-indigo/J3K4L63R85/sku/6640501",
+      "manufacturer": "https://www.dell.com/en-us/shop/alienware-27-4k-qd-oled-gaming-monitor-aw2725q/apd/210-brfr/monitors-monitor-accessories"
+    },
     "recommendation_tags": [
       "oled",
       "4k",
@@ -8782,7 +8902,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -8890,11 +9011,17 @@
     "brand": "Dell",
     "category": "monitor",
     "price_range_usd": [
-      499,
-      499
+      500,
+      600
     ],
     "image_url": "https://i.rtings.com/assets/products/FeGMVEAe/dell-alienware-aw2725qf/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Dell+Alienware+AW2725QF&tag=gearmatch-20",
+    "retailer_urls": {
+      "manufacturer": "https://www.dell.com/en-us/shop/alienware-27-4k-dual-resolution-gaming-monitor-aw2725qf/apd/210-bnjj/monitors-monitor-accessories",
+      "microcenter": "https://www.microcenter.com/product/691347/alienware-aw2725qf-27-4k-uhd-(3840-x-2160)-180hz-gaming-monitor",
+      "bestbuy": "https://www.bestbuy.com/product/alienware-aw2725qf-27-ips-led-4k-uhd-180hz-5-ms-g-sync-compatible-dual-resolution-gaming-monitor-with-hdr-hdmi-displayport-black/J3K4L6XJ6S/sku/6606085",
+      "newegg": "https://www.newegg.com/p/3D4-000V-00091"
+    },
     "recommendation_tags": [
       "4k",
       "high_refresh",
@@ -8906,7 +9033,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -9127,11 +9255,16 @@
     "brand": "Dell",
     "category": "monitor",
     "price_range_usd": [
-      1199,
-      1199
+      1000,
+      1200
     ],
     "image_url": "https://i.rtings.com/assets/products/wXTgx30J/dell-alienware-aw3225qf/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Dell+Alienware+AW3225QF&tag=gearmatch-20",
+    "retailer_urls": {
+      "manufacturer": "https://www.dell.com/en-us/shop/alienware-32-4k-qd-oled-gaming-monitor-aw3225qf/apd/210-blmq/monitors-monitor-accessories",
+      "bestbuy": "https://www.bestbuy.com/product/alienware-aw3225qf-31-6-qd-oled-curved-4k-uhd-240hz-03-ms-g-sync-compatible-gaming-monitor-with-hdr-hdmi-usb-c-lunar-light/J3K4L62597/sku/6576612",
+      "newegg": "https://www.newegg.com/p/3D4-000V-00088"
+    },
     "recommendation_tags": [
       "oled",
       "4k",
@@ -9149,7 +9282,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -10353,8 +10487,8 @@
     "brand": "Gigabyte",
     "category": "monitor",
     "price_range_usd": [
-      816,
-      816
+      920,
+      920
     ],
     "image_url": "https://i.rtings.com/assets/products/uUOz2MFK/gigabyte-aorus-fi32u/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Gigabyte+AORUS+FI32U&tag=gearmatch-20",
@@ -10371,7 +10505,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -10603,11 +10738,14 @@
     "brand": "Gigabyte",
     "category": "monitor",
     "price_range_usd": [
-      1442,
-      1442
+      939,
+      2142
     ],
     "image_url": "https://i.rtings.com/assets/products/H2SFbEsd/gigabyte-aorus-fo32u2p/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Gigabyte+AORUS+FO32U2P&tag=gearmatch-20",
+    "retailer_urls": {
+      "newegg": "https://www.newegg.com/gigabyte-aorus-fo32u2-32-uhd-240-hz-qd-oled/p/N82E16824012081"
+    },
     "recommendation_tags": [
       "oled",
       "4k",
@@ -10628,7 +10766,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -10742,8 +10881,8 @@
     "brand": "Gigabyte",
     "category": "monitor",
     "price_range_usd": [
-      1600,
-      1600
+      980,
+      1260
     ],
     "image_url": "https://i.rtings.com/assets/products/MI0KS5vF/gigabyte-aorus-fo48u-oled/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Gigabyte+AORUS+FO48U+OLED&tag=gearmatch-20",
@@ -10761,7 +10900,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -10985,7 +11125,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -11637,11 +11778,18 @@
     "brand": "LG",
     "category": "monitor",
     "price_range_usd": [
-      896,
-      896
+      897,
+      1045
     ],
     "image_url": "https://i.rtings.com/assets/products/GVECns5t/lg-c5-42-oled/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=LG+C5+42+OLED&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/lg-42-class-c5-series-oled-evo-ai-4k-uhd-smart-webos-tv-2025/JJ8VPZTHLJ/sku/10772223",
+      "walmart": "https://www.walmart.com/ip/LG-OLED42C5PUA-42-4K-UHD-OLED-evo-C5-Smart-TV/15999414659",
+      "bhphoto": "https://www.bhphotovideo.com/c/product/1885598-REG/lg_oled42c5pua_oled_evo_ai_c5.html",
+      "newegg": "https://www.newegg.com/lg-electronics-lg-oled-evo-c5-4k-tv-42/p/16C-000P-007C8",
+      "target": "https://www.target.com/p/lg-42-inch-class-c5-series-oled-evo-4k-uhd-smart-webos-tv-2025-refurbished/-/A-1005664586"
+    },
     "recommendation_tags": [
       "oled",
       "4k",
@@ -11658,7 +11806,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -11762,11 +11911,14 @@
     "brand": "Samsung",
     "category": "monitor",
     "price_range_usd": [
-      174,
-      174
+      120,
+      376
     ],
     "image_url": "https://i.rtings.com/assets/products/gBcqXKo6/samsung-cf398/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Samsung+CF398&tag=gearmatch-20",
+    "retailer_urls": {
+      "bhphoto": "https://www.bhphotovideo.com/c/product/1237290-REG/samsung_390_series_c24f390_24.html"
+    },
     "recommendation_tags": [
       "curved",
       "gsync"
@@ -11774,7 +11926,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -11965,7 +12118,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -12046,8 +12200,8 @@
     "brand": "AOC",
     "category": "monitor",
     "price_range_usd": [
-      449,
-      449
+      450,
+      450
     ],
     "image_url": "https://i.rtings.com/assets/products/CpR57udp/aoc-cq27g2/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=AOC+CQ27G2&tag=gearmatch-20",
@@ -12061,7 +12215,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -12362,7 +12517,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -12527,11 +12683,14 @@
     "brand": "espresso",
     "category": "monitor",
     "price_range_usd": [
-      499,
-      499
+      469,
+      469
     ],
     "image_url": "https://i.rtings.com/assets/products/4dVGlThy/espresso-display-15-touch/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=espresso+Display+15+Touch&tag=gearmatch-20",
+    "retailer_urls": {
+      "manufacturer": "https://us.espres.so/products/espresso-touch?variant=41957891702924"
+    },
     "recommendation_tags": [
       "usb_c_hub",
       "speakers",
@@ -12540,7 +12699,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -12624,18 +12784,22 @@
     "brand": "Mobile",
     "category": "monitor",
     "price_range_usd": [
-      169,
-      169
+      185,
+      301
     ],
     "image_url": "https://i.rtings.com/assets/products/ZgnpHVp0/mobile-pixels-duex-plus/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Mobile+Pixels+DUEX+Plus&tag=gearmatch-20",
+    "retailer_urls": {
+      "newegg": "https://www.newegg.com/mobile-pixels-duexplus-13-3-full-hd/p/15Z-028Y-00013"
+    },
     "recommendation_tags": [
       "portable"
     ],
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -12719,7 +12883,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -13193,8 +13358,8 @@
     "brand": "BenQ",
     "category": "monitor",
     "price_range_usd": [
-      413,
-      413
+      500,
+      529
     ],
     "image_url": "https://i.rtings.com/assets/products/jLQFPf74/benq-ew3270u/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=BenQ+EW3270U&tag=gearmatch-20",
@@ -13208,7 +13373,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -13292,11 +13458,14 @@
     "brand": "BenQ",
     "category": "monitor",
     "price_range_usd": [
-      549,
-      549
+      320,
+      506
     ],
     "image_url": "https://i.rtings.com/assets/products/Bu1wyB8u/benq-ex2780q/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=BenQ+EX2780Q&tag=gearmatch-20",
+    "retailer_urls": {
+      "newegg": "https://www.newegg.com/p/3C6-00AB-000C2"
+    },
     "recommendation_tags": [
       "high_refresh",
       "hdr",
@@ -13307,7 +13476,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -13391,8 +13561,8 @@
     "brand": "Xiaomi",
     "category": "monitor",
     "price_range_usd": [
-      344,
-      344
+      317,
+      317
     ],
     "image_url": "https://i.rtings.com/assets/products/VOdOiTKb/xiaomi-g-pro-27i/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Xiaomi+G+Pro+27i&tag=gearmatch-20",
@@ -13405,7 +13575,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -13505,11 +13676,14 @@
     "brand": "Dell",
     "category": "monitor",
     "price_range_usd": [
-      259,
-      259
+      200,
+      431
     ],
     "image_url": "https://i.rtings.com/assets/products/VOccLWnx/dell-g2524h/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Dell+G2524H&tag=gearmatch-20",
+    "retailer_urls": {
+      "newegg": "https://www.newegg.com/p/3C6-000M-00951"
+    },
     "recommendation_tags": [
       "high_refresh",
       "gsync",
@@ -13519,7 +13693,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -13921,8 +14096,8 @@
     "brand": "Dell",
     "category": "monitor",
     "price_range_usd": [
-      269,
-      269
+      200,
+      200
     ],
     "image_url": "https://i.rtings.com/assets/products/Jo0FpYAI/dell-g2725d/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Dell+G2725D&tag=gearmatch-20",
@@ -13935,7 +14110,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -14045,7 +14221,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -14148,7 +14325,7 @@
     "category": "monitor",
     "price_range_usd": [
       240,
-      260
+      240
     ],
     "image_url": "https://i.rtings.com/assets/products/7ax5KcOV/gigabyte-g27q/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Gigabyte+G27Q&tag=gearmatch-20",
@@ -14163,7 +14340,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -14254,8 +14432,8 @@
     "brand": "Gigabyte",
     "category": "monitor",
     "price_range_usd": [
-      220,
-      240
+      230,
+      328
     ],
     "image_url": "https://i.rtings.com/assets/products/kvEAbTgp/gigabyte-g27qc/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Gigabyte+G27QC&tag=gearmatch-20",
@@ -14270,7 +14448,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -14475,8 +14654,8 @@
     "brand": "Gigabyte",
     "category": "monitor",
     "price_range_usd": [
-      402,
-      402
+      248,
+      410
     ],
     "image_url": "https://i.rtings.com/assets/products/CJnWgilW/gigabyte-g32qc/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Gigabyte+G32QC&tag=gearmatch-20",
@@ -14491,7 +14670,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -14582,8 +14762,8 @@
     "brand": "Gigabyte",
     "category": "monitor",
     "price_range_usd": [
-      436,
-      436
+      379,
+      437
     ],
     "image_url": "https://i.rtings.com/assets/products/5ycEpBPq/gigabyte-g34wqc/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Gigabyte+G34WQC&tag=gearmatch-20",
@@ -14600,7 +14780,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -14780,11 +14961,14 @@
     "brand": "Gigabyte",
     "category": "monitor",
     "price_range_usd": [
-      251,
-      251
+      250,
+      500
     ],
     "image_url": "https://i.rtings.com/assets/products/MuS4gmvJ/gigabyte-gs27qc/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Gigabyte+GS27QC&tag=gearmatch-20",
+    "retailer_urls": {
+      "newegg": "https://www.newegg.com/gigabyte-gs27qc-27-qhd-165hz-oc-170hz-va-black/p/N82E16824012064"
+    },
     "recommendation_tags": [
       "high_refresh",
       "hdr",
@@ -14796,7 +14980,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -14895,11 +15080,17 @@
     "brand": "Sony",
     "category": "monitor",
     "price_range_usd": [
-      1198,
-      1198
+      1098,
+      1100
     ],
     "image_url": "https://i.rtings.com/assets/products/0e2IJcvP/sony-inzone-m10s/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Sony+INZONE+M10S&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/sony-27-inzone-m10s-oled-qhd-480hz-0-03ms-nvidia-g-sync-gaming-monitor-with-hdr400-displayport-2-1-uhbr10-black/J7XSRH56RP/sku/10316940",
+      "manufacturer": "https://electronics.sony.com/audio/gaming-audio/all-inzone-headsets/p/sdm27q10sb",
+      "bhphoto": "https://www.bhphotovideo.com/c/product/1857768-REG/sony_sdm27q10sb_27_inzone_m10s_oled.html",
+      "newegg": "https://www.newegg.com/p/3D4-003X-00009"
+    },
     "recommendation_tags": [
       "oled",
       "high_refresh",
@@ -14915,7 +15106,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -15035,7 +15227,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -15129,11 +15322,15 @@
     "brand": "Sony",
     "category": "monitor",
     "price_range_usd": [
-      948,
-      948
+      616,
+      950
     ],
     "image_url": "https://i.rtings.com/assets/products/pOTsvYdI/sony-inzone-m9-ii/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Sony+INZONE+M9+II&tag=gearmatch-20",
+    "retailer_urls": {
+      "manufacturer": "https://electronics.sony.com/audio/gaming-audio/all-inzone-headsets/p/sdm27u9m2b",
+      "bhphoto": "https://www.bhphotovideo.com/c/product/803260781-USE/sony_sdm27u9m2b_inzone_m9_ii_26_9.html/"
+    },
     "recommendation_tags": [
       "4k",
       "high_refresh",
@@ -15146,7 +15343,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -15464,11 +15662,14 @@
     "brand": "Lenovo",
     "category": "monitor",
     "price_range_usd": [
-      432,
-      432
+      499,
+      718
     ],
     "image_url": "https://i.rtings.com/assets/products/qGNLmWUJ/lenovo-legion-y27q-20/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Lenovo+Legion+Y27q-20&tag=gearmatch-20",
+    "retailer_urls": {
+      "newegg": "https://www.newegg.com/p/0JC-0006-00YB8"
+    },
     "recommendation_tags": [
       "high_refresh",
       "hdr",
@@ -15478,7 +15679,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -15705,7 +15907,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -16299,8 +16502,8 @@
     "brand": "Gigabyte",
     "category": "monitor",
     "price_range_usd": [
-      838,
-      838
+      603,
+      654
     ],
     "image_url": "https://i.rtings.com/assets/products/Tish1RbB/gigabyte-m28u/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Gigabyte+M28U&tag=gearmatch-20",
@@ -16318,7 +16521,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -16655,8 +16859,8 @@
     "brand": "Gigabyte",
     "category": "monitor",
     "price_range_usd": [
-      737,
-      737
+      750,
+      750
     ],
     "image_url": "https://i.rtings.com/assets/products/G6K6BLuT/gigabyte-m32uc/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Gigabyte+M32UC&tag=gearmatch-20",
@@ -16675,7 +16879,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -16915,7 +17120,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -17022,8 +17228,8 @@
     "brand": "MSI",
     "category": "monitor",
     "price_range_usd": [
-      1024,
-      1024
+      981,
+      1269
     ],
     "image_url": "https://i.rtings.com/assets/products/Ew150aby/msi-meg-342c-qd-oled/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=MSI+MEG+342C+QD-OLED&tag=gearmatch-20",
@@ -17045,7 +17251,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -17158,11 +17365,15 @@
     "brand": "Gigabyte",
     "category": "monitor",
     "price_range_usd": [
-      599,
-      599
+      550,
+      720
     ],
     "image_url": "https://i.rtings.com/assets/products/F2GjnbK4/gigabyte-mo27q28g/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Gigabyte+MO27Q28G&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/gigabyte-mo27q28g-27-w-oled-gaming-monitor-black/J3ZW9X78WP/sku/11960045",
+      "newegg": "https://www.newegg.com/gigabyte-mo27q28g-sa1-27-oled-280-hz-qhd/p/N82E16824012111"
+    },
     "recommendation_tags": [
       "oled",
       "high_refresh",
@@ -17182,7 +17393,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -17315,7 +17527,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -17524,11 +17737,16 @@
     "brand": "MSI",
     "category": "monitor",
     "price_range_usd": [
-      649,
-      649
+      630,
+      630
     ],
     "image_url": "https://i.rtings.com/assets/products/C8pZ0JS4/msi-mpg-271qrx-qd-oled/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=MSI+MPG+271QRX+QD-OLED&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/msi-mpg271qrxqdoled-27-quantum-dot-oled-qhd-360hz-0-03ms-freesyncpremium-monitor-with-hdr400-displayport-hdmi-usb-black/J3P7TXYV5P/sku/6576568",
+      "manufacturer": "https://us-store.msi.com/Monitors/Gaming-Monitors/MPG-271QRX-QD-OLED",
+      "bhphoto": "https://www.bhphotovideo.com/c/product/1808681-REG/msi_mpg_271qrx_qd_oled_27_wqhd_oled_16_9.html"
+    },
     "recommendation_tags": [
       "oled",
       "high_refresh",
@@ -17546,7 +17764,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -17793,8 +18012,8 @@
     "brand": "MSI",
     "category": "monitor",
     "price_range_usd": [
-      499,
-      499
+      400,
+      748
     ],
     "image_url": "https://i.rtings.com/assets/products/fWdxkZ6m/msi-mpg-274urdfw-e16m/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=MSI+MPG+274URDFW+E16M&tag=gearmatch-20",
@@ -17811,7 +18030,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -17919,11 +18139,18 @@
     "brand": "MSI",
     "category": "monitor",
     "price_range_usd": [
-      940,
-      940
+      899,
+      1100
     ],
     "image_url": "https://i.rtings.com/assets/products/2aeDz60O/msi-mpg-321urx-qd-oled/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=MSI+MPG+321URX+QD-OLED&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/msi-mpg-321urxw-qd-oled-32-quantum-dot-oled-uhd-240hz-0-03ms-gaming-monitor-with-hdr400-displayport-hdmi-usb-metallic-white/J3P7TX9HTV/sku/10891372",
+      "walmart": "https://www.walmart.com/ip/MSI-32-240-Hz-QD-OLED-UHD-Gaming-Monitor-Adaptive-Sync-3840-x-2160-4K-MPG-321URXW-QD-OLED/14771516680",
+      "newegg": "https://www.newegg.com/msi-mpg-321urxw-qd-oled-32-uhd-240-hz-metallic-white-rgb/p/N82E16824475454",
+      "manufacturer": "https://us-store.msi.com/Monitors/Gaming-Monitors/MPG-321URXW-QD-OLED",
+      "bhphoto": "https://www.bhphotovideo.com/c/product/1892976-REG/msi_mpg321urxwqdoled_32_qd_oled_4k_uhd.html"
+    },
     "recommendation_tags": [
       "oled",
       "4k",
@@ -17943,7 +18170,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -18055,11 +18283,17 @@
     "brand": "MSI",
     "category": "monitor",
     "price_range_usd": [
-      999,
-      999
+      950,
+      1080
     ],
     "image_url": "https://i.rtings.com/assets/products/fo4yivlT/msi-mpg-322urx-qd-oled/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=MSI+MPG+322URX+QD-OLED&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/msi-mpg-322urx-qd-oled-32-quantum-dot-oled-uhd-240hz-0-03ms-gaming-monitor-with-hdr400-displayport-2-1a-hdmi-usb-black/J3P7TX99VT/sku/6614908",
+      "microcenter": "https://www.microcenter.com/product/692382/msi-mpg-322urx-315-uhd-(3840-x-2160)-240hz-gaming-qd-oled-monitor",
+      "bhphoto": "https://www.bhphotovideo.com/c/product/1885817-REG/msi_mpg_322urx_qd_oled_32.html",
+      "manufacturer": "https://us-store.msi.com/Monitors/Gaming-Monitors/MPG-322URX-QD-OLED"
+    },
     "recommendation_tags": [
       "oled",
       "4k",
@@ -18079,7 +18313,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -18216,7 +18451,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -18417,8 +18653,8 @@
     "brand": "Acer",
     "category": "monitor",
     "price_range_usd": [
-      352,
-      352
+      213,
+      213
     ],
     "image_url": "https://i.rtings.com/assets/products/4BzijCtG/acer-nitro-rg241y-pbiipx/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Acer+Nitro+RG241Y+Pbiipx&tag=gearmatch-20",
@@ -18430,7 +18666,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -18512,8 +18749,8 @@
     "brand": "Acer",
     "category": "monitor",
     "price_range_usd": [
-      443,
-      443
+      289,
+      289
     ],
     "image_url": "https://i.rtings.com/assets/products/QAGjARv9/acer-nitro-vg271-pbmiipx/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Acer+Nitro+VG271+Pbmiipx&tag=gearmatch-20",
@@ -18527,7 +18764,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -18611,8 +18849,8 @@
     "brand": "Acer",
     "category": "monitor",
     "price_range_usd": [
-      443,
-      443
+      289,
+      289
     ],
     "image_url": "https://i.rtings.com/assets/products/GBZurEGf/acer-nitro-vg271up-pbmiipx/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Acer+Nitro+VG271UP+Pbmiipx&tag=gearmatch-20",
@@ -18626,7 +18864,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -18915,8 +19154,8 @@
     "brand": "Acer",
     "category": "monitor",
     "price_range_usd": [
-      499,
-      499
+      500,
+      500
     ],
     "image_url": "https://i.rtings.com/assets/products/XxjbR8bA/acer-nitro-xv252q-fbmiiprx/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Acer+Nitro+XV252Q+Fbmiiprx&tag=gearmatch-20",
@@ -18931,7 +19170,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -19246,7 +19486,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -20027,11 +20268,18 @@
     "brand": "Samsung",
     "category": "monitor",
     "price_range_usd": [
-      1799,
-      1799
+      1050,
+      2000
     ],
     "image_url": "https://i.rtings.com/assets/products/jk0cwtFB/samsung-odyssey-3d-g90xf-s27fg900x/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Samsung+Odyssey+3D+G90XF+S27FG900X&tag=gearmatch-20",
+    "retailer_urls": {
+      "target": "https://www.target.com/p/samsung-odyssey-3d-g90xf-27-4k-uhd-2160p-165hz-1ms-amd-freesync-gaming-monitor/-/A-1006585247",
+      "bestbuy": "https://www.bestbuy.com/product/samsung-27-odyssey-glasses-free-3d-g90xf-4k-uhd-165hz-1ms-g-sync-compatible-and-freesync-prem-pro-gaming-monitor-mercury-silver/J3ZYG2VCH9/sku/6621151",
+      "microcenter": "https://www.microcenter.com/product/693199/Odyssey_3D_G90XF_27%22_4K_UHD_(3840_x_2160)_165Hz_Gaming_Monitor;_NVIDIA_G-Sync_-_Adaptive_Sync_Compatible;_HDR;_DisplayPort_HDMI;_Glasses-Free_3D;_AI_3",
+      "newegg": "https://www.newegg.com/p/N82E16824027360",
+      "bhphoto": "https://www.bhphotovideo.com/c/product/803343421-USE/samsung_ls27fg900xnxza_odyssey_3d_g90xf_27.html/"
+    },
     "recommendation_tags": [
       "4k",
       "high_refresh",
@@ -20044,7 +20292,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -20451,11 +20700,16 @@
     "brand": "Samsung",
     "category": "monitor",
     "price_range_usd": [
-      299,
-      299
+      245,
+      350
     ],
     "image_url": "https://i.rtings.com/assets/products/Cxz8Hmmj/samsung-odyssey-g4-g40b-s27bg40/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Samsung+Odyssey+G4%2FG40B+S27BG40&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/samsung-25-odyssey-g40b-fhd-ips-240hz-1ms-g-sync-gaming-monitor-black/J3ZYG23W75/sku/11927665",
+      "walmart": "https://www.walmart.com/ip/SAMSUNG-25-Class-Odyssey-G40B-FHD-IPS-240Hz-1ms-G-Sync-Compatible-Gaming-Monitor-LS25BG402ENXGO/1525779978",
+      "bhphoto": "https://www.bhphotovideo.com/c/product/1697047-REG/samsung_ls25bg402enxgo_g40b_25_240hz_fhd.html"
+    },
     "recommendation_tags": [
       "high_refresh",
       "hdr",
@@ -20466,7 +20720,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -21233,11 +21488,18 @@
     "brand": "Samsung",
     "category": "monitor",
     "price_range_usd": [
-      397,
-      397
+      325,
+      430
     ],
     "image_url": "https://i.rtings.com/assets/products/MqzkxHmP/samsung-odyssey-g5-s27ag50/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Samsung+Odyssey+G50A+S27AG50&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/samsung-32-odyssey-g50d-qhd-ips-180hz-1ms-amd-freesync-and-g-sync-compatible-gaming-monitor-with-hdr-400-displayport-hdmi-black/J3ZYG2HPL9/sku/6577214",
+      "walmart": "https://www.walmart.com/ip/SAMSUNG-32-Odyssey-G50D-QHD-Fast-IPS-180Hz-1ms-DisplayHDR-400-Gaming-Monitor/5512368459",
+      "target": "https://www.target.com/p/samsung-32-odyssey-g50d-qhd-fast-ips-180hz-1ms-displayhdr-400-g-sync-gaming-monitor/-/A-1006587761",
+      "bhphoto": "https://www.bhphotovideo.com/c/product/1804725-REG/samsung_ls32dg502enxza_32_odyssey_g50d_qhd.html",
+      "newegg": "https://www.newegg.com/samsung-ls32dg502enxza-32-qhd-180-hz-odyssey-g50d-fast-ips-black/p/N82E16824027314"
+    },
     "recommendation_tags": [
       "high_refresh",
       "hdr",
@@ -21248,7 +21510,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -21695,11 +21958,15 @@
     "brand": "Samsung",
     "category": "monitor",
     "price_range_usd": [
-      599,
-      599
+      330,
+      800
     ],
     "image_url": "https://i.rtings.com/assets/products/KZGcKPO8/samsung-odyssey-g7-g70b-s32bg70/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Samsung+Odyssey+G7%2FG70B+S32BG70&tag=gearmatch-20",
+    "retailer_urls": {
+      "walmart": "https://www.walmart.com/ip/SAMSUNG-32-Class-Odyssey-G70B-Curved-Gaming-Monitor-LS32BG702ENXGO/1814931848",
+      "microcenter": "https://www.microcenter.com/product/696859/samsung-odyssey-g7-28-4k-uhd-(3840-x-2160)-144hz-smart-gaming-monito-(refurbished)"
+    },
     "recommendation_tags": [
       "4k",
       "high_refresh",
@@ -21713,7 +21980,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -22169,7 +22437,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -22526,8 +22795,8 @@
     "brand": "Samsung",
     "category": "monitor",
     "price_range_usd": [
-      1699,
-      1699
+      1978,
+      1978
     ],
     "image_url": "https://i.rtings.com/assets/products/6E5B8xdk/samsung-odyssey-neo-g9-g95nc-s57cg95/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Samsung+Odyssey+Neo+G9%2FG95NC+S57CG95&tag=gearmatch-20",
@@ -22546,7 +22815,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -22653,11 +22923,18 @@
     "brand": "Samsung",
     "category": "monitor",
     "price_range_usd": [
-      899,
-      899
+      842,
+      1562
     ],
     "image_url": "https://i.rtings.com/assets/products/EVeSarqn/samsung-odyssey-oled-g6-g60sd-s27dg60/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Samsung+Odyssey+OLED+G60SD+S27DG602S&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/samsung-27-odyssey-oled-g6-g60sd-qhd-360hz-0-03ms-freesync-premium-pro-gaming-monitor-with-hdr-silver/J3ZYG2TG2X/sku/10924851",
+      "microcenter": "https://www.microcenter.com/product/681068/Odyssey_QD-OLED_S27DG602_266%22_2K_QHD_(2560_x_1440)_360Hz_Gaming_Monitor;_NVIDIA_-_AMD_FreeSync_Premium_Pro;_HDR;_HDMI_DisplayPort;_Eye_Saver_Mode;_Pic",
+      "walmart": "https://www.walmart.com/ip/SAMSUNG-27-Odyssey-OLED-G6-G60SD-QHD-360Hz-0-03ms-FreeSync-Premium-Pro-Gaming-Monitor-with-Sleek-Metal-Design/5603660360",
+      "bhphoto": "https://www.bhphotovideo.com/c/product/1949302-REG/samsung_dual_27_odyssey_qd_oled.html",
+      "newegg": "https://www.newegg.com/samsung-g60sd-27-qhd-360-hz-qd-oled-g6-silver/p/N82E16824027372"
+    },
     "recommendation_tags": [
       "oled",
       "high_refresh",
@@ -22674,7 +22951,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -22779,11 +23057,15 @@
     "brand": "Samsung",
     "category": "monitor",
     "price_range_usd": [
-      979,
-      979
+      900,
+      1300
     ],
     "image_url": "https://i.rtings.com/assets/products/BR7hVWOK/samsung-odyssey-oled-g8-g80sd-s32dg80/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Samsung+Odyssey+OLED+G80SD+S32DG80&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/samsung-32-odyssey-oled-g8-g80sd-4k-uhd-240hz-0-03ms-smart-gaming-monitor-with-hdr-silver/J3ZYG2TXQ5/sku/6573686",
+      "walmart": "https://www.walmart.com/ip/SAMSUNG-32-Odyssey-OLED-G8-G80SD-4K-UHD-240Hz-0-03ms-Smart-Gaming-Monitor-with-Sleek-Metal-Design/5727601235"
+    },
     "recommendation_tags": [
       "oled",
       "4k",
@@ -22801,7 +23083,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -22908,11 +23191,17 @@
     "brand": "Samsung",
     "category": "monitor",
     "price_range_usd": [
-      821,
-      821
+      1064,
+      1200
     ],
     "image_url": "https://i.rtings.com/assets/products/fUMo2NZ8/samsung-odyssey-oled-g8-g85sb-s34bg85/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Samsung+Odyssey+OLED+G85SB+S34BG85&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/samsung-34-odyssey-oled-g8-curved-ultra-wqhd-175hz-freesync-prem-pro-and-g-sync-compatible-smart-glare-free-gaming-monitor-silver/J3ZYG2Z7Z4/sku/6588057",
+      "microcenter": "https://www.microcenter.com/product/682989/LS34DG856SNXZA_34%22_2K_UWQHD_(3440_x_1440)_175Hz_UltraWide_Curved_Screen_QD-OLED_Gaming_Monitor;_AMD_FreeSync_Premium_Pro_and_G-Sync_Compatible;_HDR10;",
+      "bhphoto": "https://www.bhphotovideo.com/c/product/1838021-REG/samsung_ls34dg856snxza_odyssey_oled_g85sd_1140p.html",
+      "newegg": "https://www.newegg.com/samsung-ls34dg856snxza-34-uwqhd-175-hz-oled-black/p/N82E16824027346"
+    },
     "recommendation_tags": [
       "high_refresh",
       "fast_response",
@@ -22930,7 +23219,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -23039,11 +23329,15 @@
     "brand": "Samsung",
     "category": "monitor",
     "price_range_usd": [
-      1299,
-      1299
+      900,
+      1000
     ],
     "image_url": "https://i.rtings.com/assets/products/nS1pyI3r/samsung-odyssey-oled-g81sf-s27fg810s/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Samsung+Odyssey+OLED+G81SF+S27FG810S&tag=gearmatch-20",
+    "retailer_urls": {
+      "microcenter": "https://www.microcenter.com/product/703024/Odyssey_OLED_G8_G81SF_32%22_4K_UHD_(3840_x_2160)_240Hz_Gaming_Monitor;_NVIDIA_G-Sync_-_AMD_FreeSync_Premium_Pro_Compatible;_HDR;_DisplayPort_HDMI;_Eye_S",
+      "bestbuy": "https://www.bestbuy.com/product/samsung-32-odyssey-oled-g8-g81sf-4k-uhd-240hz-0-03ms-amd-freesync-premium-pro-glare-free-hdr-400-gaming-monitor-silver/J3ZYG2FQKR/sku/6619366"
+    },
     "recommendation_tags": [
       "oled",
       "4k",
@@ -23061,7 +23355,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -23169,11 +23464,16 @@
     "brand": "Samsung",
     "category": "monitor",
     "price_range_usd": [
-      900,
-      900
+      820,
+      1300
     ],
     "image_url": "https://i.rtings.com/assets/products/juqbbyEi/samsung-odyssey-oled-g9-g95sc-s49cg95/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Samsung+Odyssey+OLED+G9%2FG95SC+S49CG95&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/samsung-49-inch-odyssey-g9-dual-qd-oled-curved-ultrawide-gaming-monitor-ls49dg910snxza-silver/J3ZYG245K6/sku/11174467",
+      "microcenter": "https://www.microcenter.com/product/704271/samsung-odyssey-oled-g9-g91sd-49-5k-2k-qhd-(5120-x-1440)-144hz-curved-ultrawide-gaming-qd-oled-monitor",
+      "target": "https://www.target.com/p/samsung-49-inch-odyssey-g9-dual-qd-oled-g91sd-curved-ultrawide-gaming-monitor/-/A-1006088640"
+    },
     "recommendation_tags": [
       "oled",
       "high_refresh",
@@ -23193,7 +23493,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -23589,11 +23890,14 @@
     "brand": "HP",
     "category": "monitor",
     "price_range_usd": [
-      239,
-      239
+      200,
+      477
     ],
     "image_url": "https://i.rtings.com/assets/products/bfYKKmHM/hp-omen-27q/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=HP+OMEN+27q&tag=gearmatch-20",
+    "retailer_urls": {
+      "walmart": "https://www.walmart.com/ip/OMEN-by-HP-27q-LED-monitor-gaming-27-2560-x-1440-QHD-165-Hz-IPS-400-cd-m-1000-1-HDR400-1-ms-2xHDMI-DisplayPort-black/5044369347"
+    },
     "recommendation_tags": [
       "high_refresh",
       "hdr",
@@ -23604,7 +23908,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -23695,8 +24000,8 @@
     "brand": "HP",
     "category": "monitor",
     "price_range_usd": [
-      335,
-      335
+      436,
+      530
     ],
     "image_url": "https://i.rtings.com/assets/products/gm75u6oQ/hp-omen-27qs/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=HP+OMEN+27qs&tag=gearmatch-20",
@@ -23712,7 +24017,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -23814,10 +24120,14 @@
     "category": "monitor",
     "price_range_usd": [
       299,
-      299
+      425
     ],
     "image_url": "https://i.rtings.com/assets/products/f2c9EXr6/hp-omen-34c/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=HP+OMEN+34c&tag=gearmatch-20",
+    "retailer_urls": {
+      "walmart": "https://www.walmart.com/ip/OMEN-by-HP-34-inch-WQHD-165Hz-Curved-Gaming-Monitor-OMEN-34c-34-WQHD-3440-x/2270863420",
+      "newegg": "https://www.newegg.com/omen-34-qhd/p/0JC-0019-02F69"
+    },
     "recommendation_tags": [
       "high_refresh",
       "hdr",
@@ -23831,7 +24141,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -24110,8 +24421,8 @@
     "brand": "MSI",
     "category": "monitor",
     "price_range_usd": [
-      369,
-      369
+      213,
+      238
     ],
     "image_url": "https://i.rtings.com/assets/products/zYpVNgVB/msi-optix-g272/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=MSI+Optix+G272&tag=gearmatch-20",
@@ -24123,7 +24434,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -24205,8 +24517,8 @@
     "brand": "MSI",
     "category": "monitor",
     "price_range_usd": [
-      258,
-      258
+      245,
+      245
     ],
     "image_url": "https://i.rtings.com/assets/products/aM9EEkNe/msi-optix-g273/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=MSI+Optix+G273&tag=gearmatch-20",
@@ -24218,7 +24530,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -24495,8 +24808,8 @@
     "brand": "MSI",
     "category": "monitor",
     "price_range_usd": [
-      171,
-      171
+      182,
+      182
     ],
     "image_url": "https://i.rtings.com/assets/products/JcAi5nvG/msi-optix-g27c4/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=MSI+Optix+G27C4&tag=gearmatch-20",
@@ -24509,7 +24822,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -24593,7 +24907,7 @@
     "category": "monitor",
     "price_range_usd": [
       257,
-      257
+      474
     ],
     "image_url": "https://i.rtings.com/assets/products/ewhFgnUN/msi-optix-g27c5/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=MSI+Optix+G27C5&tag=gearmatch-20",
@@ -24606,7 +24920,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -24786,8 +25101,8 @@
     "brand": "MSI",
     "category": "monitor",
     "price_range_usd": [
-      230,
-      280
+      160,
+      326
     ],
     "image_url": "https://i.rtings.com/assets/products/cieLhesy/msi-optix-g27cq4/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=MSI+Optix+G27CQ4&tag=gearmatch-20",
@@ -24800,7 +25115,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -25098,8 +25414,8 @@
     "brand": "MSI",
     "category": "monitor",
     "price_range_usd": [
-      399,
-      399
+      376,
+      464
     ],
     "image_url": "https://i.rtings.com/assets/products/1I1psZ9x/msi-optix-mag271cqr/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=MSI+Optix+MAG271CQR&tag=gearmatch-20",
@@ -25112,7 +25428,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -25195,8 +25512,8 @@
     "brand": "MSI",
     "category": "monitor",
     "price_range_usd": [
-      282,
-      282
+      246,
+      246
     ],
     "image_url": "https://i.rtings.com/assets/products/FBlvifiC/msi-optix-mag273r/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=MSI+Optix+MAG273R&tag=gearmatch-20",
@@ -25209,7 +25526,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -25292,8 +25610,8 @@
     "brand": "MSI",
     "category": "monitor",
     "price_range_usd": [
-      383,
-      383
+      340,
+      675
     ],
     "image_url": "https://i.rtings.com/assets/products/swaRnP2n/msi-optix-mag274qrf-qd/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=MSI+Optix+MAG274QRF-QD&tag=gearmatch-20",
@@ -25308,7 +25626,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -25592,18 +25911,22 @@
     "brand": "Dell",
     "category": "monitor",
     "price_range_usd": [
-      192,
-      192
+      73,
+      190
     ],
     "image_url": "https://i.rtings.com/assets/products/IGI6S3sn/dell-p2417h/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Dell+P2417H&tag=gearmatch-20",
+    "retailer_urls": {
+      "newegg": "https://www.newegg.com/dell-p2417h-24/p/N82E16824260648"
+    },
     "recommendation_tags": [
       "gsync"
     ],
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -25682,16 +26005,20 @@
     "brand": "Dell",
     "category": "monitor",
     "price_range_usd": [
-      290,
-      350
+      207,
+      629
     ],
     "image_url": "https://i.rtings.com/assets/products/RE4ZWIz8/dell-p2423d/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Dell+P2423D&tag=gearmatch-20",
+    "retailer_urls": {
+      "bhphoto": "https://www.bhphotovideo.com/c/product/803396161-USE/dell_p2423d_23_8_1440p_monitor.html/"
+    },
     "recommendation_tags": [],
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -25781,16 +26108,23 @@
     "brand": "Dell",
     "category": "monitor",
     "price_range_usd": [
-      218,
-      218
+      160,
+      290
     ],
     "image_url": "https://i.rtings.com/assets/products/Lf9HXCQY/dell-p2425h/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Dell+P2425H&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/dell-23-8-ips-led-fhd-100hz-monitor-vga-usb-hdmi-black-silver-multicolor/J3K4L62V5Y/sku/12145376",
+      "manufacturer": "https://www.dell.com/en-us/shop/dell-pro-24-plus-monitor-p2425h-without-stand/apd/210-bmgj/monitors-monitor-accessories",
+      "bhphoto": "https://www.bhphotovideo.com/c/product/1933366-REG/dell_dual_24_p2425h_monitor.html",
+      "newegg": "https://www.newegg.com/dell-p2425h-24-fhd-100-hz-ips-silver/p/0JC-0004-00VJ1"
+    },
     "recommendation_tags": [],
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -25881,8 +26215,8 @@
     "brand": "Dell",
     "category": "monitor",
     "price_range_usd": [
-      365,
-      365
+      230,
+      575
     ],
     "image_url": "https://i.rtings.com/assets/products/1vtcZq2T/dell-p3223de/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Dell+P3223DE&tag=gearmatch-20",
@@ -25892,7 +26226,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -26600,7 +26935,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -27104,11 +27440,16 @@
     "brand": "ASUS",
     "category": "monitor",
     "price_range_usd": [
-      1289,
-      1289
+      1299,
+      1300
     ],
     "image_url": "https://i.rtings.com/assets/products/ZFFrFStU/asus-proart-display-6k-pa32qcv/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=ASUS+ProArt+Display+6K+PA32QCV&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/asus-proart-32-6k-ips-professional-monitor-with-hdr-10-displayport-hdmi-black/JJGGLQVYFC/sku/6641137",
+      "microcenter": "https://www.microcenter.com/product/701864/asus-proart-pa32qcv-315-6k-(6016-x-3384)-60hz-led-monitor",
+      "bhphoto": "https://www.bhphotovideo.com/c/product/1908824-REG/asus_proart_display_pa32qcv_31_5.html"
+    },
     "recommendation_tags": [
       "content_creation",
       "color_accurate",
@@ -27121,7 +27462,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -27226,11 +27568,18 @@
     "brand": "ASUS",
     "category": "monitor",
     "price_range_usd": [
-      229,
-      229
+      276,
+      332
     ],
     "image_url": "https://i.rtings.com/assets/products/O9c3SKLG/asus-proart-display-pa278cv/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=ASUS+ProArt+Display+PA278CV&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/asus-proart-27-lcd-monitor-displayport-usb-hdmi-silver-black/JJ8Q7R58J3/sku/12011100",
+      "manufacturer": "https://shop.asus.com/us/90lm06q1-b023b0-proart-display-pa278cv.html",
+      "target": "https://www.target.com/p/asus-proart-display-27-75hz-1440p-monitor-350-nits-27-class-in-plane-switching-ips-technology-2560-x-1440-16-7-million-colors/-/A-88251442",
+      "bhphoto": "https://www.bhphotovideo.com/c/product/1630911-REG/asus_pa278cv_proart_display_27_wqhd_monitor.html",
+      "newegg": "https://www.newegg.com/asus-pa278cv-27-qhd/p/N82E16824281112"
+    },
     "recommendation_tags": [
       "usb_c_hub",
       "speakers",
@@ -27239,7 +27588,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -27424,8 +27774,8 @@
     "brand": "ASUS",
     "category": "monitor",
     "price_range_usd": [
-      429,
-      429
+      442,
+      465
     ],
     "image_url": "https://i.rtings.com/assets/products/GxUyxMSa/asus-proart-display-pa279crv/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=ASUS+ProArt+Display+PA279CRV&tag=gearmatch-20",
@@ -27440,7 +27790,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -27544,11 +27895,18 @@
     "brand": "ASUS",
     "category": "monitor",
     "price_range_usd": [
-      798,
-      798
+      729,
+      866
     ],
     "image_url": "https://i.rtings.com/assets/products/I1thrune/asus-proart-display-pa27jcv/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=ASUS+ProArt+Display+PA27JCV&tag=gearmatch-20",
+    "retailer_urls": {
+      "manufacturer": "https://shop.asus.com/us/90lm0al1-b01kb2-proart-display-pa27jcv.html",
+      "bestbuy": "https://www.bestbuy.com/product/asus-proart-27-5k-ips-professional-monitor-with-hdr-displayport-hdmi-black/JJGGLQP8YY/sku/6620167",
+      "walmart": "https://www.walmart.com/ip/Asus-ProArt-PA27JCV-27-Class-5K-LED-Monitor-16-9-Black/13478916164",
+      "target": "https://www.target.com/p/asus-proart-pa27jcv-27-5k-5120x2880-60hz-5ms-aglr-ips-monitor/-/A-1008268485",
+      "newegg": "https://www.newegg.com/p/N82E16824281343"
+    },
     "recommendation_tags": [
       "color_accurate",
       "hdr",
@@ -27560,7 +27918,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -27665,10 +28024,17 @@
     "category": "monitor",
     "price_range_usd": [
       359,
-      359
+      399
     ],
     "image_url": "https://i.rtings.com/assets/products/3hxOeCfH/asus-proart-pa148ctv/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=ASUS+ProArt+PA148CTV&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/asus-proart-14-fhd-ips-professional-monitor-usb-c-micro-hdmi-black/JJ8Q7Q7SS6/sku/6566261",
+      "manufacturer": "https://shop.asus.com/us/90lm06e0-b011b0-proart-display-pa148ctv.html",
+      "target": "https://www.target.com/p/asus-proart-display-14-1080p-portable-touchscreen-monitor-pa148ctv/-/A-86096564",
+      "bhphoto": "https://www.bhphotovideo.com/c/product/1643638-REG/asus_pa148ctv_14_portable_touch_screen.html",
+      "newegg": "https://www.newegg.com/14-asus-90lm06e0-b011b0-capacitive-10-point-multi-touch/p/N82E16824281120"
+    },
     "recommendation_tags": [
       "speakers",
       "portable"
@@ -27676,7 +28042,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -27869,7 +28236,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -28091,8 +28459,8 @@
     "brand": "Lenovo",
     "category": "monitor",
     "price_range_usd": [
-      399,
-      399
+      299,
+      299
     ],
     "image_url": "https://i.rtings.com/assets/products/rKKPzkba/lenovo-q27q-10/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Lenovo+Q27q-10&tag=gearmatch-20",
@@ -28104,7 +28472,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -28297,7 +28666,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -28380,11 +28750,16 @@
     "brand": "ASUS",
     "category": "monitor",
     "price_range_usd": [
-      679,
-      679
+      748,
+      759
     ],
     "image_url": "https://i.rtings.com/assets/products/JZMvjZBJ/asus-rog-strix-oled-xg27acdng/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=ASUS+ROG+Strix+OLED+XG27ACDNG&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/asus-rog-strix-27-2k-oled-360hz-0-03ms-gaming-monitor-with-freesync-premium-pro-and-hdr-displayport-hdmi-black/JJGGLQ63Y3/sku/6616980",
+      "microcenter": "https://www.microcenter.com/product/685348/XG27ACDNG_ROG_Strix_265%22_2K_WQHD_(2560_x_1440)_360Hz_LED_Monitor;_AMD_FreeSync_Premium_-_G-Sync_Compatible;_HDR;_HDMI_DisplayPort_USB_Type-C;_Built_In",
+      "manufacturer": "https://shop.asus.com/us/90lm0an0-b019b0-rog-strix-oled-xg27acdng.html"
+    },
     "recommendation_tags": [
       "oled",
       "high_refresh",
@@ -28403,7 +28778,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -28535,7 +28911,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -28640,8 +29017,8 @@
     "brand": "ASUS",
     "category": "monitor",
     "price_range_usd": [
-      1582,
-      1582
+      931,
+      1005
     ],
     "image_url": "https://i.rtings.com/assets/products/BIvg3SqC/asus-rog-strix-oled-xg32ucwmg/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=ASUS+ROG+Strix+OLED+XG32UCWMG&tag=gearmatch-20",
@@ -28664,7 +29041,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -28982,7 +29360,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -29064,11 +29443,16 @@
     "brand": "ASUS",
     "category": "monitor",
     "price_range_usd": [
-      299,
-      299
+      259,
+      349
     ],
     "image_url": "https://i.rtings.com/assets/products/b6MKEtMQ/asus-rog-strix-xg27acs/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=ASUS+ROG+Strix+XG27ACS&tag=gearmatch-20",
+    "retailer_urls": {
+      "manufacturer": "https://shop.asus.com/us/90lm09q0-b011b0-rog-strix-xg27acs.html",
+      "walmart": "https://www.walmart.com/ip/Asus-ROG-Strix-27-2560-x-1440-LED-Anti-glare-sRGB-Gaming-Monitor-XG27ACS/5455305344",
+      "newegg": "https://www.newegg.com/asus-xg27acs-27-qhd-180-hz-rog-strix-fast-ips/p/N82E16824281306"
+    },
     "recommendation_tags": [
       "high_refresh",
       "color_accurate",
@@ -29081,7 +29465,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -29186,8 +29571,8 @@
     "brand": "ASUS",
     "category": "monitor",
     "price_range_usd": [
-      349,
-      349
+      347,
+      499
     ],
     "image_url": "https://i.rtings.com/assets/products/rbPY1Jis/asus-rog-strix-xg27aq/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=ASUS+ROG+Strix+XG27AQ&tag=gearmatch-20",
@@ -29201,7 +29586,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -29306,7 +29692,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -29388,8 +29775,8 @@
     "brand": "ASUS",
     "category": "monitor",
     "price_range_usd": [
-      788,
-      788
+      725,
+      1317
     ],
     "image_url": "https://i.rtings.com/assets/products/TQa67VLU/asus-rog-strix-xg27uqr/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=ASUS+ROG+Strix+XG27UQR&tag=gearmatch-20",
@@ -29404,7 +29791,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -29599,11 +29987,15 @@
     "brand": "ASUS",
     "category": "monitor",
     "price_range_usd": [
-      679,
-      679
+      680,
+      890
     ],
     "image_url": "https://i.rtings.com/assets/products/nlvVooAr/asus-rog-swift-360hz-pg27aqn/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=ASUS+ROG+Swift+360Hz+PG27AQN&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/asus-pg27aqn-27-led-qhd-monitor-black/JJG7VTXX77/sku/11526581",
+      "newegg": "https://www.newegg.com/asus-pg27aqn-27-wqhd-360-hz-ips/p/N82E16824281235"
+    },
     "recommendation_tags": [
       "high_refresh",
       "hdr",
@@ -29613,7 +30005,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -29703,8 +30096,8 @@
     "brand": "ASUS",
     "category": "monitor",
     "price_range_usd": [
-      749,
-      749
+      645,
+      1200
     ],
     "image_url": "https://i.rtings.com/assets/products/1kK1PmWU/asus-rog-swift-oled-pg27aqdm/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=ASUS+ROG+Swift+OLED+PG27AQDM&tag=gearmatch-20",
@@ -29724,7 +30117,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -29829,8 +30223,8 @@
     "brand": "ASUS",
     "category": "monitor",
     "price_range_usd": [
-      799,
-      799
+      645,
+      1200
     ],
     "image_url": "https://i.rtings.com/assets/products/mQvBvCOz/asus-rog-swift-oled-pg27aqdp/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=ASUS+ROG+Swift+OLED+PG27AQDP&tag=gearmatch-20",
@@ -29850,7 +30244,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -29958,7 +30353,7 @@
     "category": "monitor",
     "price_range_usd": [
       1199,
-      1199
+      1248
     ],
     "image_url": "https://i.rtings.com/assets/products/OJanXy77/asus-rog-swift-oled-pg27ucdm/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=ASUS+ROG+Swift+OLED+PG27UCDM&tag=gearmatch-20",
@@ -29981,7 +30376,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -30094,11 +30490,17 @@
     "brand": "ASUS",
     "category": "monitor",
     "price_range_usd": [
-      1243,
-      1243
+      1117,
+      1300
     ],
     "image_url": "https://i.rtings.com/assets/products/g33RcXth/asus-rog-swift-oled-pg32ucdm/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=ASUS+ROG+Swift+OLED+PG32UCDM&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/asus-rog-strix-32-4k-oled-240hz-0-03ms-gaming-monitor-with-g-sync-freesync-premium-pro-and-hdr-displayport-hdmi-black/JJGHGPJXX6/sku/6638578",
+      "microcenter": "https://www.microcenter.com/product/676972/ROG_Swift_PG32UCDM_315%22_4K_UHD_(3840_x_2160)_240Hz_Gaming_Monitor;_AMD_FreeSync_Premium_Pro_-_NVIDA_G-Sync_Compatible;_HDR;_HDMI_DisplayPort_USB_Type-",
+      "newegg": "https://www.newegg.com/asus-pg32ucdm-31-5-uhd-240-hz-rog-swift-oled-qd-oled-black/p/N82E16824281297",
+      "bhphoto": "https://www.bhphotovideo.com/c/product/803376686-USE/asus_pg32ucdm_republic_of_gamers_swift.html/reviews"
+    },
     "recommendation_tags": [
       "oled",
       "4k",
@@ -30117,7 +30519,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -30229,11 +30632,16 @@
     "brand": "ASUS",
     "category": "monitor",
     "price_range_usd": [
-      1188,
-      1188
+      1189,
+      1299
     ],
     "image_url": "https://i.rtings.com/assets/products/uzV7ZnUi/asus-rog-swift-oled-pg32ucdp/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=ASUS+ROG+Swift+OLED+PG32UCDP&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/asus-rog-swift-32-dual-mode-4k-240hz-fhd-480hz-oled-0-03ms-gaming-monitor-with-freesync-and-hdr-displayport-hdmi-black/JJGGLR4HC4/sku/6588545",
+      "manufacturer": "https://shop.asus.com/us/90lm0a50-b013b0-rog-swift-oled-pg32ucdp.html",
+      "newegg": "https://www.newegg.com/asus-pg32ucdp-32-uhd-dual-mode-4k-240hz-fhd-480hz-rog-swift-woled/p/N82E16824281314"
+    },
     "recommendation_tags": [
       "oled",
       "4k",
@@ -30253,7 +30661,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -30366,8 +30775,8 @@
     "brand": "ASUS",
     "category": "monitor",
     "price_range_usd": [
-      984,
-      984
+      985,
+      1046
     ],
     "image_url": "https://i.rtings.com/assets/products/SHhlP0cI/asus-rog-swift-oled-pg34wcdm/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=ASUS+ROG+Swift+OLED+PG34WCDM&tag=gearmatch-20",
@@ -30390,7 +30799,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -30503,8 +30913,8 @@
     "brand": "ASUS",
     "category": "monitor",
     "price_range_usd": [
-      1192,
-      1192
+      985,
+      1046
     ],
     "image_url": "https://i.rtings.com/assets/products/5i0Hz2U9/asus-rog-swift-oled-pg42uq/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=ASUS+ROG+Swift+OLED+PG42UQ&tag=gearmatch-20",
@@ -30518,7 +30928,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -30702,11 +31113,16 @@
     "brand": "ASUS",
     "category": "monitor",
     "price_range_usd": [
-      829,
-      829
+      499,
+      1839
     ],
     "image_url": "https://i.rtings.com/assets/products/muhDpBhD/asus-rog-swift-pg279qm/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=ASUS+ROG+Swift+PG279QM&tag=gearmatch-20",
+    "retailer_urls": {
+      "manufacturer": "https://shop.asus.com/us/90lm0235-b013b0-rog-swift-pg279qm.html",
+      "bhphoto": "https://www.bhphotovideo.com/c/product/1661120-REG/asus_pg279qm_27_wqhd_fast_ips.html",
+      "newegg": "https://www.newegg.com/p/0JC-001P-00N54"
+    },
     "recommendation_tags": [
       "high_refresh",
       "color_accurate",
@@ -30718,7 +31134,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -30833,7 +31250,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -30914,11 +31332,15 @@
     "brand": "ASUS",
     "category": "monitor",
     "price_range_usd": [
-      1406,
-      1406
+      680,
+      890
     ],
     "image_url": "https://i.rtings.com/assets/products/xtjdx9Kd/asus-rog-swift-pg27uqr/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=ASUS+ROG+Swift+PG27UQR&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/asus-pg27aqn-27-led-qhd-monitor-black/JJG7VTXX77/sku/11526581",
+      "newegg": "https://www.newegg.com/asus-pg27aqn-27-wqhd-360-hz-ips/p/N82E16824281235"
+    },
     "recommendation_tags": [
       "4k",
       "high_refresh",
@@ -30930,7 +31352,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -31241,7 +31664,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -31428,7 +31852,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -31507,8 +31932,8 @@
     "brand": "Dell",
     "category": "monitor",
     "price_range_usd": [
-      799,
-      799
+      334,
+      686
     ],
     "image_url": "https://i.rtings.com/assets/products/ZAiFC5XI/dell-s2716dg/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Dell+S2716DG&tag=gearmatch-20",
@@ -31519,7 +31944,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -31695,8 +32121,8 @@
     "brand": "Dell",
     "category": "monitor",
     "price_range_usd": [
-      259,
-      259
+      189,
+      358
     ],
     "image_url": "https://i.rtings.com/assets/products/Z34XkpNA/dell-s2721d/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Dell+S2721D&tag=gearmatch-20",
@@ -31708,7 +32134,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -31790,8 +32217,8 @@
     "brand": "Dell",
     "category": "monitor",
     "price_range_usd": [
-      229,
-      229
+      209,
+      380
     ],
     "image_url": "https://i.rtings.com/assets/products/1tGWF8XE/dell-s2721dgf/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Dell+S2721DGF&tag=gearmatch-20",
@@ -31805,7 +32232,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -31896,8 +32324,8 @@
     "brand": "Dell",
     "category": "monitor",
     "price_range_usd": [
-      329,
-      329
+      209,
+      380
     ],
     "image_url": "https://i.rtings.com/assets/products/56Y8foew/dell-s2721hgf/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Dell+S2721HGF&tag=gearmatch-20",
@@ -31910,7 +32338,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -32008,7 +32437,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -32121,7 +32551,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -32224,7 +32655,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -32325,11 +32757,14 @@
     "brand": "Dell",
     "category": "monitor",
     "price_range_usd": [
-      259,
-      259
+      245,
+      355
     ],
     "image_url": "https://i.rtings.com/assets/products/Z5CKmykh/dell-s2725dc/in-test-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Dell+S2725DC&tag=gearmatch-20",
+    "retailer_urls": {
+      "manufacturer": "https://www.dell.com/en-us/shop/dell-27-plus-qhd-usb-c-monitor-s2725dc/apd/210-btgn/monitors-monitor-accessories"
+    },
     "recommendation_tags": [
       "high_refresh",
       "gsync"
@@ -32337,7 +32772,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -32414,11 +32850,16 @@
     "brand": "Dell",
     "category": "monitor",
     "price_range_usd": [
-      315,
-      315
+      279,
+      280
     ],
     "image_url": "https://i.rtings.com/assets/products/XJou44if/dell-s2725qc/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Dell+S2725QC&tag=gearmatch-20",
+    "retailer_urls": {
+      "manufacturer": "https://www.dell.com/en-us/shop/dell-27-plus-4k-monitor-s2725qs/apd/210-brnd/monitors-monitor-accessories",
+      "microcenter": "https://www.microcenter.com/product/693763/27_Plus_S2725QS_27%22_4K_UHD_(3840_x_2160)_120Hz_LED_Monitor;_AMD_FreeSync_Premium_Compatible;_HDR;_DisplayPort_HDMI;_Narrow_Bezel;_Eye_Comfort_Technolo",
+      "walmart": "https://www.walmart.com/ip/Dell-27-Plus-4K-Monitor-S2725QS-27-inch-3840-x-2160-120Hz-16-9-Display-IPS-Panel-AMD-FreeSync-Premium-sRGB-99-Integrated-Speakers-1500-1-Contrast-Rat/15667851157"
+    },
     "recommendation_tags": [
       "4k",
       "color_accurate",
@@ -32432,7 +32873,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -32536,11 +32978,16 @@
     "brand": "Dell",
     "category": "monitor",
     "price_range_usd": [
-      278,
-      278
+      279,
+      280
     ],
     "image_url": "https://i.rtings.com/assets/products/hc7TelR3/dell-s2725qs/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Dell+S2725QS&tag=gearmatch-20",
+    "retailer_urls": {
+      "manufacturer": "https://www.dell.com/en-us/shop/dell-27-plus-4k-monitor-s2725qs/apd/210-brnd/monitors-monitor-accessories",
+      "microcenter": "https://www.microcenter.com/product/693763/27_Plus_S2725QS_27%22_4K_UHD_(3840_x_2160)_120Hz_LED_Monitor;_AMD_FreeSync_Premium_Compatible;_HDR;_DisplayPort_HDMI;_Narrow_Bezel;_Eye_Comfort_Technolo",
+      "walmart": "https://www.walmart.com/ip/Dell-27-Plus-4K-Monitor-S2725QS-27-inch-3840-x-2160-120Hz-16-9-Display-IPS-Panel-AMD-FreeSync-Premium-sRGB-99-Integrated-Speakers-1500-1-Contrast-Rat/15667851157"
+    },
     "recommendation_tags": [
       "4k",
       "color_accurate",
@@ -32553,7 +33000,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -32746,8 +33194,8 @@
     "brand": "Dell",
     "category": "monitor",
     "price_range_usd": [
-      229,
-      229
+      285,
+      380
     ],
     "image_url": "https://i.rtings.com/assets/products/MagILfIu/dell-s3220dgf/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Dell+S3220DGF&tag=gearmatch-20",
@@ -32761,7 +33209,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -32860,7 +33309,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -32951,8 +33401,8 @@
     "brand": "Dell",
     "category": "monitor",
     "price_range_usd": [
-      369,
-      369
+      285,
+      380
     ],
     "image_url": "https://i.rtings.com/assets/products/GKfHfu82/dell-s3222dgm/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Dell+S3222DGM&tag=gearmatch-20",
@@ -32966,7 +33416,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -33053,11 +33504,17 @@
     "brand": "Dell",
     "category": "monitor",
     "price_range_usd": [
-      645,
+      330,
       645
     ],
     "image_url": "https://i.rtings.com/assets/products/Dg7sGEDq/dell-s3225qc/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Dell+S3225QC&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/dell-s3225qs-31-5-va-led-4k-uhd-120hz-freesync-premium-monitor-with-hdr-hdmi-displayport-ash-white/J3K4L63J38/sku/6619489",
+      "manufacturer": "https://www.dell.com/en-us/shop/dell-32-plus-4k-monitor-s3225qs/apd/210-brmt/monitors-monitor-accessories",
+      "microcenter": "https://www.microcenter.com/product/693762/dell-32-plus-s3225qs-315-4k-uhd-(3840-x-2160)-120hz-led-monitor",
+      "newegg": "https://www.newegg.com/p/0JC-0004-00WD9"
+    },
     "recommendation_tags": [
       "oled",
       "4k",
@@ -33073,7 +33530,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -33195,7 +33653,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -33297,11 +33756,14 @@
     "brand": "Dell",
     "category": "monitor",
     "price_range_usd": [
-      344,
-      344
+      296,
+      590
     ],
     "image_url": "https://i.rtings.com/assets/products/6RDCghNf/dell-s3422dwg/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Dell+S3422DWG&tag=gearmatch-20",
+    "retailer_urls": {
+      "newegg": "https://www.newegg.com/p/1VH-00KP-00064"
+    },
     "recommendation_tags": [
       "high_refresh",
       "hdr",
@@ -33314,7 +33776,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -33414,11 +33877,14 @@
     "brand": "Samsung",
     "category": "monitor",
     "price_range_usd": [
-      599,
-      599
+      230,
+      500
     ],
     "image_url": "https://i.rtings.com/assets/products/pzBVBsQG/samsung-smart-monitor-m7-m70c-s32cm70/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Samsung+Smart+Monitor+M7%2FM70C+S32CM70&tag=gearmatch-20",
+    "retailer_urls": {
+      "bhphoto": "https://www.bhphotovideo.com/c/product/803299493-USE/samsung_ls32dm702unxgo_m70d_32_4k_hdr.html/"
+    },
     "recommendation_tags": [
       "4k",
       "hdr",
@@ -33428,7 +33894,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -33519,11 +33986,14 @@
     "brand": "Samsung",
     "category": "monitor",
     "price_range_usd": [
-      449,
-      449
+      230,
+      565
     ],
     "image_url": "https://i.rtings.com/assets/products/GW1TbS8y/samsung-smart-monitor-m7-s43bm70/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Samsung+Smart+Monitor+M7+S43BM70&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/samsung-32-m70f-4k-uhd-smart-monitor-with-samsungvision-ai-built-in-speakers-usb-c-black/JJGRFXVKP5/sku/6632215"
+    },
     "recommendation_tags": [
       "4k",
       "hdr",
@@ -33533,7 +34003,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -33742,7 +34213,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -33842,8 +34314,8 @@
     "brand": "Samsung",
     "category": "monitor",
     "price_range_usd": [
-      699,
-      699
+      700,
+      1170
     ],
     "image_url": "https://i.rtings.com/assets/products/PQ6rpcM4/samsung-smart-monitor-m8-s32bm80/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Samsung+Smart+Monitor+M80B+S32BM80&tag=gearmatch-20",
@@ -33856,7 +34328,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -34032,11 +34505,16 @@
     "brand": "Apple",
     "category": "monitor",
     "price_range_usd": [
-      1848,
-      1848
+      1549,
+      1899
     ],
     "image_url": "https://i.rtings.com/assets/products/Cqhc5EEq/apple-studio-display/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Apple+Studio+Display&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/apple-studio-display-standard-glass-tilt-adjustable-stand-silver/JJGCQ8YFQK/sku/11087130",
+      "manufacturer": "https://www.apple.com/us/xc/product/MYJG3LL/A",
+      "bhphoto": "https://www.bhphotovideo.com/c/product/1694973-REG/apple_mmyx3ll_a_studio_display_nano_texture.html"
+    },
     "recommendation_tags": [
       "color_accurate",
       "usb_c_hub",
@@ -34045,7 +34523,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -34151,7 +34630,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -34359,7 +34839,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -34636,7 +35117,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -34718,8 +35200,8 @@
     "brand": "ASUS",
     "category": "monitor",
     "price_range_usd": [
-      249,
-      249
+      228,
+      468
     ],
     "image_url": "https://i.rtings.com/assets/products/1E3ZgNdz/asus-tuf-gaming-vg259qm/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=ASUS+TUF+Gaming+VG259QM&tag=gearmatch-20",
@@ -34734,7 +35216,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -34825,11 +35308,14 @@
     "brand": "ASUS",
     "category": "monitor",
     "price_range_usd": [
-      334,
-      334
+      210,
+      669
     ],
     "image_url": "https://i.rtings.com/assets/products/uoc0nVDE/asus-tuf-gaming-vg27aql1a/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=ASUS+TUF+Gaming+VG27AQL1A&tag=gearmatch-20",
+    "retailer_urls": {
+      "newegg": "https://www.newegg.com/p/3C6-0005-00413"
+    },
     "recommendation_tags": [
       "high_refresh",
       "hdr",
@@ -34841,7 +35327,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -35041,11 +35528,17 @@
     "brand": "ASUS",
     "category": "monitor",
     "price_range_usd": [
-      369,
-      369
+      289,
+      403
     ],
     "image_url": "https://i.rtings.com/assets/products/kfINW7jC/asus-tuf-gaming-vg34vql1b/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=ASUS+TUF+Gaming+VG34VQL1B&tag=gearmatch-20",
+    "retailer_urls": {
+      "manufacturer": "https://shop.asus.com/us/90lm06f0-b011b3-tuf-gaming-vg34vql1b.html",
+      "bestbuy": "https://www.bestbuy.com/product/asus-tuf-gaming-34lcd-curved-wqhd-freesync-monitor-2-x-hdmi-2-0-input-2-x-displayport-1-4-input-1-x-usb-type-b-input-black/JJ8Q7RFL69/sku/11146219",
+      "target": "https://www.target.com/p/asus-tuf-vg34vql1b-34-3440x1440-uwqhd-1ms-165hz-curved-desktop-monitor/-/A-92610947",
+      "newegg": "https://www.newegg.com/asus-vg34vql1b-34-uwqhd-165-hz-tuf-gaming-va-black/p/N82E16824281097"
+    },
     "recommendation_tags": [
       "high_refresh",
       "hdr",
@@ -35059,7 +35552,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -35151,11 +35645,18 @@
     "brand": "ASUS",
     "category": "monitor",
     "price_range_usd": [
-      279,
-      279
+      289,
+      349
     ],
     "image_url": "https://i.rtings.com/assets/products/9BKzvwWk/asus-tuf-vg27aq/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=ASUS+TUF+VG27AQ&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/asus-tuf-gaming-27-2k-ips-165hz-1ms-gaming-monitor-with-g-sync-and-hdr-displayport-hdmi-black/JJ8Q76LQGK/sku/11124293",
+      "walmart": "https://www.walmart.com/ip/ASUS-TUF-Gaming-27-QHD-2560x1440-Monitor-IPS-165Hz-Extreme-Low-Motion-Blur-Sync-NVIDIA-G-SYNC-Compatible-Adaptive-Sync-1ms-MPRT-HDR10-VG27AQ/951231478",
+      "target": "https://www.target.com/p/asus-tuf-gaming-27-2k-hdr-gaming-monitor-vg27aq-qhd-2560-x-1440-165hz-supports-144hz-1ms-extreme-low-motion-blur-g-sync-compatible-black/-/A-87801276",
+      "bhphoto": "https://www.bhphotovideo.com/c/product/1500997-REG/asus_vg27aq_tuf_gaming_27_wqhd.html",
+      "newegg": "https://www.newegg.com/asus-27/p/0JC-001P-00NH7"
+    },
     "recommendation_tags": [
       "high_refresh",
       "hdr",
@@ -35167,7 +35668,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -35266,8 +35768,8 @@
     "brand": "ASUS",
     "category": "monitor",
     "price_range_usd": [
-      449,
-      449
+      190,
+      334
     ],
     "image_url": "https://i.rtings.com/assets/products/PWJR8Fzt/asus-tuf-vg27vq/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=ASUS+TUF+VG27VQ&tag=gearmatch-20",
@@ -35281,7 +35783,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -35379,7 +35882,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -35563,7 +36067,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -35642,18 +36147,22 @@
     "brand": "Dell",
     "category": "monitor",
     "price_range_usd": [
-      269,
-      269
+      250,
+      478
     ],
     "image_url": "https://i.rtings.com/assets/products/dAYlpAt3/dell-u2518d/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Dell+U2518D&tag=gearmatch-20",
+    "retailer_urls": {
+      "newegg": "https://www.newegg.com/dell-u2518d-25-qhd/p/0JC-0004-00950"
+    },
     "recommendation_tags": [
       "hdr"
     ],
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -35743,7 +36252,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -35833,7 +36343,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -35924,7 +36435,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -36005,18 +36517,22 @@
     "brand": "Dell",
     "category": "monitor",
     "price_range_usd": [
-      369,
-      369
+      398,
+      614
     ],
     "image_url": "https://i.rtings.com/assets/products/GUEQfRW8/dell-u2719d/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Dell+U2719D&tag=gearmatch-20",
+    "retailer_urls": {
+      "walmart": "https://www.walmart.com/ip/Dell-U2719D-27-inch/581233523"
+    },
     "recommendation_tags": [
       "gsync"
     ],
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -36094,11 +36610,14 @@
     "brand": "Dell",
     "category": "monitor",
     "price_range_usd": [
-      626,
-      626
+      369,
+      1408
     ],
     "image_url": "https://i.rtings.com/assets/products/LfEkmKrO/dell-u2723qe/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Dell+U2723QE&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/dell-ultrasharp-27-4k-usb-c-hub-monitor-with-2-year-warranty/JJG3SJSGGQ/sku/12144409"
+    },
     "recommendation_tags": [
       "4k",
       "color_accurate",
@@ -36109,7 +36628,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -36346,7 +36866,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -36426,11 +36947,14 @@
     "brand": "Dell",
     "category": "monitor",
     "price_range_usd": [
-      818,
-      818
+      620,
+      1291
     ],
     "image_url": "https://i.rtings.com/assets/products/fy0dUinh/dell-u3223qe/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Dell+U3223QE&tag=gearmatch-20",
+    "retailer_urls": {
+      "newegg": "https://www.newegg.com/p/3C6-000M-009K4"
+    },
     "recommendation_tags": [
       "4k",
       "content_creation",
@@ -36442,7 +36966,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -36545,11 +37070,17 @@
     "brand": "Dell",
     "category": "monitor",
     "price_range_usd": [
-      1029,
-      1029
+      700,
+      1030
     ],
     "image_url": "https://i.rtings.com/assets/products/L59W3KZp/dell-u3225qe/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Dell+U3225QE&tag=gearmatch-20",
+    "retailer_urls": {
+      "bhphoto": "https://www.bhphotovideo.com/c/product/1898926-REG/dell_u3225qe_ultrasharp_32_4k_uhd.html",
+      "bestbuy": "https://www.bestbuy.com/product/dell-ultrasharp-31-5-ips-led-4k-uhd-120hz-monitor-with-hdr-usb-hdmi-black-silver-dual-color/J3K4L637GS/sku/10220711",
+      "manufacturer": "https://www.dell.com/en-us/shop/dell-ultrasharp-32-4k-thunderbolt-hub-monitor-u3225qe/apd/210-bqhs/monitors-monitor-accessories",
+      "newegg": "https://www.newegg.com/dell-u3225qe-32-31-5-viewable-uhd-120-hz-ultrasharp-ips-silver/p/15Z-0006-00B74"
+    },
     "recommendation_tags": [
       "4k",
       "content_creation",
@@ -36562,7 +37093,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -36681,7 +37213,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -36858,11 +37391,17 @@
     "brand": "Dell",
     "category": "monitor",
     "price_range_usd": [
-      779,
-      779
+      750,
+      1050
     ],
     "image_url": "https://i.rtings.com/assets/products/PH2mKSQo/dell-u3425we/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Dell+U3425WE&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/dell-ultrasharp-34-inch-1440p-120-hz-curved-monitor-with-dock-pro-station-bundle-black/JJG2FX3RQK",
+      "manufacturer": "https://www.dell.com/en-us/shop/dell-ultrasharp-34-curved-thunderbolt-hub-monitor-u3425we/apd/210-bmds/monitors-monitor-accessories",
+      "bhphoto": "https://www.bhphotovideo.com/c/product/1817112-REG/dell_u3425we_ultrasharp_34_wqhd_ips.html",
+      "newegg": "https://www.newegg.com/dell-34/p/2S3-0007-002Y0"
+    },
     "recommendation_tags": [
       "color_accurate",
       "curved",
@@ -36876,7 +37415,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -36976,8 +37516,8 @@
     "brand": "Dell",
     "category": "monitor",
     "price_range_usd": [
-      1349,
-      1349
+      670,
+      1566
     ],
     "image_url": "https://i.rtings.com/assets/products/NtL9XAPD/dell-u3818dw/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Dell+U3818DW&tag=gearmatch-20",
@@ -36990,7 +37530,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -37072,11 +37613,16 @@
     "brand": "Dell",
     "category": "monitor",
     "price_range_usd": [
-      1838,
-      1838
+      1900,
+      1970
     ],
     "image_url": "https://i.rtings.com/assets/products/NV0UEOvn/dell-u4025qw/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Dell+U4025QW&tag=gearmatch-20",
+    "retailer_urls": {
+      "microcenter": "https://www.microcenter.com/product/678791/U4025QW_397%22_5K_WQHD_(5120_x_2160)_120Hz_Wide_Curved__Screen_Monitor;_Adaptive_Sync;_HDR;_HDMI_DisplayPort_Thunderbolt_4;_Ambient_Light_Sensor;_Comfor",
+      "manufacturer": "https://www.dell.com/en-us/shop/dell-ultrasharp-40-curved-thunderbolt-hub-monitor-u4025qw/apd/210-bmdp/monitors-monitor-accessories",
+      "bhphoto": "https://www.bhphotovideo.com/c/product/1814581-REG/dell_u4025qw_40_curved_5k_120hz.html"
+    },
     "recommendation_tags": [
       "content_creation",
       "color_accurate",
@@ -37092,7 +37638,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -37199,11 +37746,15 @@
     "brand": "Dell",
     "category": "monitor",
     "price_range_usd": [
-      1229,
-      1229
+      128,
+      1379
     ],
     "image_url": "https://i.rtings.com/assets/products/07ykLpj0/dell-u4919dw/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Dell+U4919DW&tag=gearmatch-20",
+    "retailer_urls": {
+      "newegg": "https://www.newegg.com/dell-u4919dw-49/p/N82E16824260628",
+      "bhphoto": "https://www.bhphotovideo.com/c/product/802240578-USE/dell_u4919dw_49_32_9_curved.html/amp"
+    },
     "recommendation_tags": [
       "curved",
       "ultrawide",
@@ -37212,7 +37763,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -37398,7 +37950,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -37473,8 +38026,8 @@
     "brand": "Dell",
     "category": "monitor",
     "price_range_usd": [
-      469,
-      469
+      390,
+      390
     ],
     "image_url": "https://i.rtings.com/assets/products/UqZHZNXM/dell-ultrasharp-u2520d/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Dell+UltraSharp+U2520D&tag=gearmatch-20",
@@ -37484,7 +38037,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -37564,11 +38118,14 @@
     "brand": "Dell",
     "category": "monitor",
     "price_range_usd": [
-      618,
-      618
+      700,
+      711
     ],
     "image_url": "https://i.rtings.com/assets/products/U2Ut7yZC/dell-ultrasharp-u2720q/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Dell+UltraSharp+U2720Q&tag=gearmatch-20",
+    "retailer_urls": {
+      "newegg": "https://www.newegg.com/dell-27/p/0JC-0004-00R31"
+    },
     "recommendation_tags": [
       "4k",
       "hdr",
@@ -37577,7 +38134,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -37755,8 +38313,8 @@
     "brand": "Dell",
     "category": "monitor",
     "price_range_usd": [
-      1500,
-      1800
+      1649,
+      3009
     ],
     "image_url": "https://i.rtings.com/assets/products/yocoPB5x/dell-ultrasharp-u4021qw/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Dell+UltraSharp+U4021QW&tag=gearmatch-20",
@@ -37768,7 +38326,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -37850,11 +38409,16 @@
     "brand": "ViewSonic",
     "category": "monitor",
     "price_range_usd": [
-      199,
-      199
+      130,
+      200
     ],
     "image_url": "https://i.rtings.com/assets/products/SwqmymzV/viewsonic-vg1655/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=ViewSonic+VG1655&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/viewsonic-vg1655-15-6-lcd-fhd-monitor-displayport-usb-hdmi-silver/J37H88FSLH/sku/6428014",
+      "manufacturer": "https://www.walmart.com/ip/ViewSonic-15-6-Inch-1080p-Portable-Monitor-with-2-Way-Powered-60W-USB-C-IPS-Eye-Care-Dual-Speakers-Built-in-Stand-with-Cover-VG1655/650601269",
+      "bhphoto": "https://www.bhphotovideo.com/c/product/803258725-USE/viewsonic_vg1655_15_6_16_9_portable.html/"
+    },
     "recommendation_tags": [
       "speakers",
       "portable"
@@ -37862,7 +38426,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -38314,8 +38879,8 @@
     "brand": "ASUS",
     "category": "monitor",
     "price_range_usd": [
-      349,
-      349
+      300,
+      603
     ],
     "image_url": "https://i.rtings.com/assets/products/ACc3nzdx/asus-vg279q/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=ASUS+VG279Q&tag=gearmatch-20",
@@ -38329,7 +38894,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -38432,7 +38998,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -38523,8 +39090,8 @@
     "brand": "ViewSonic",
     "category": "monitor",
     "price_range_usd": [
-      269,
-      269
+      330,
+      330
     ],
     "image_url": "https://i.rtings.com/assets/products/kV7qsNG0/viewsonic-vx2758-2kp-mhd/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=ViewSonic+VX2758-2KP-MHD&tag=gearmatch-20",
@@ -38537,7 +39104,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -38821,8 +39389,8 @@
     "brand": "Corsair",
     "category": "monitor",
     "price_range_usd": [
-      1021,
-      1021
+      928,
+      1038
     ],
     "image_url": "https://i.rtings.com/assets/products/dmvk6IvV/corsair-xeneon-27qhd240/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Corsair+XENEON+27QHD240&tag=gearmatch-20",
@@ -38842,7 +39410,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -38951,8 +39520,8 @@
     "brand": "Corsair",
     "category": "monitor",
     "price_range_usd": [
-      801,
-      801
+      714,
+      741
     ],
     "image_url": "https://i.rtings.com/assets/products/iPMgZI7H/corsair-xeneon-32qhd165/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Corsair+XENEON+32QHD165&tag=gearmatch-20",
@@ -38965,7 +39534,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -39288,7 +39858,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -39371,11 +39942,16 @@
     "brand": "ViewSonic",
     "category": "monitor",
     "price_range_usd": [
-      239,
-      239
+      240,
+      270
     ],
     "image_url": "https://i.rtings.com/assets/products/zphMAF48/viewsonic-xg2431/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=ViewSonic+XG2431&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/viewsonic-xg2431-23-8-lcd-fhd-freesync-premium-gaming-monitor-with-hdr-displayport-usb-hdmi-black/J37H88FTTV/sku/11067528",
+      "bhphoto": "https://www.bhphotovideo.com/c/product/1652586-REG/viewsonic_xg2431_24_1080p_240hz_gaming.html",
+      "newegg": "https://www.newegg.com/viewsonic-xg2431-24-fhd-240-hz-ips-black/p/N82E16824117068"
+    },
     "recommendation_tags": [
       "high_refresh",
       "color_accurate",
@@ -39388,7 +39964,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -39686,11 +40263,18 @@
     "brand": "ASUS",
     "category": "monitor",
     "price_range_usd": [
-      279,
-      279
+      229,
+      280
     ],
     "image_url": "https://i.rtings.com/assets/products/PgLXlmRY/asus-zenscreen-go-mb16ahp/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=ASUS+ZenScreen+Go+MB16AHP&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/asus-zenscreen-go-15-6-fhd-ips-portable-monitor-with-foldable-smart-case-usb-c-micro-hdmi-black/JJ8Q76YXZG/sku/10953937",
+      "walmart": "https://www.walmart.com/ip/ASUS-ZenScreen-GO-MB16AHP-15-6-Full-HD-1920x1080-USB-Type-C-Micro-HDMI-Flicker-Free-Blue-Light-Filter-Built-in-Battery-Portable-IPS-Monitor/743167407",
+      "bhphoto": "https://www.bhphotovideo.com/c/product/1495791-REG/asus_zenscreen_go_mb16ahp_15_6.html",
+      "newegg": "https://www.newegg.com/asus-90lm04t0-b011b0-15-6-full-hd/p/N82E16824236979",
+      "manufacturer": "https://www.walmart.com/ip/ASUS-ZenScreen-GO-MB16AHP-15-6-Full-HD-1920x1080-USB-Type-C-Micro-HDMI-Flicker-Free-Blue-Light-Filter-Built-in-Battery-Portable-IPS-Monitor/743167407"
+    },
     "recommendation_tags": [
       "speakers",
       "portable"
@@ -39698,7 +40282,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -39777,18 +40362,23 @@
     "brand": "ASUS",
     "category": "monitor",
     "price_range_usd": [
-      190,
-      190
+      105,
+      199
     ],
     "image_url": "https://i.rtings.com/assets/products/j8cXMmVo/asus-zenscreen-mb14ac/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=ASUS+ZenScreen+MB14AC&tag=gearmatch-20",
+    "retailer_urls": {
+      "manufacturer": "https://shop.asus.com/us/90lm0631-b011b0-zenscreen-mb14ac.html",
+      "newegg": "https://www.newegg.com/asus-mb14ac-14-full-hd/p/N82E16824281074"
+    },
     "recommendation_tags": [
       "portable"
     ],
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -39875,7 +40465,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -40045,8 +40636,8 @@
     "brand": "BenQ",
     "category": "monitor",
     "price_range_usd": [
-      320,
-      350
+      329,
+      528
     ],
     "image_url": "https://i.rtings.com/assets/products/xVHMD6OX/benq-zowie-xl2540/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=BenQ+ZOWIE+XL2540&tag=gearmatch-20",
@@ -40058,7 +40649,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -40235,11 +40827,16 @@
     "brand": "BenQ",
     "category": "monitor",
     "price_range_usd": [
-      499,
-      499
+      500,
+      500
     ],
     "image_url": "https://i.rtings.com/assets/products/iZbvI0Cz/benq-zowie-xl2546x/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=BenQ+ZOWIE+XL2546X&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/benq-zowie-xl2546x-24-1-tn-led-280hz-gaming-monitor-black/J39QZT58ST/sku/6614815",
+      "manufacturer": "https://zowie.benq.com/en-us/monitor/xl2546x-plus.html",
+      "bhphoto": "https://www.bhphotovideo.com/c/product/1871885-REG/benq_xl2546x_esports_24_1_full_hd.html"
+    },
     "recommendation_tags": [
       "high_refresh",
       "gsync",
@@ -40248,7 +40845,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",
@@ -40448,8 +41046,8 @@
     "brand": "BenQ",
     "category": "monitor",
     "price_range_usd": [
-      999,
-      999
+      1040,
+      1224
     ],
     "image_url": "https://i.rtings.com/assets/products/71xxOQKN/benq-zowie-xl2586x/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=BenQ+ZOWIE+XL2586X&tag=gearmatch-20",
@@ -40461,7 +41059,8 @@
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
-      "source_name": "RTINGS"
+      "source_name": "RTINGS",
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "monitor",

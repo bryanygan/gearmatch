@@ -1,0 +1,3071 @@
+{
+  "lastProcessedIndex": 377,
+  "results": {
+    "aoc_24g15n": {
+      "oldPrice": [
+        143,
+        143
+      ],
+      "newPrice": [
+        135,
+        135
+      ],
+      "retailerUrls": {},
+      "offersFound": 1
+    },
+    "hp_27f": {
+      "oldPrice": [
+        149,
+        149
+      ],
+      "newPrice": [
+        140,
+        230
+      ],
+      "retailerUrls": {
+        "bestbuy": "https://www.bestbuy.com/product/hp-527sw-27-class-full-hd-led-monitor-169-27-viewable-in-plane-switching-ips-technology-edge-led-white/JJGLF5GPHH/sku/10748399",
+        "manufacturer": "https://www.hp.com/us-en/shop/pdp/hp-series-5-27-inch-fhd-white-monitor-527sw",
+        "target": "https://www.target.com/p/hewlett-packard-527sw-series-5-27-fhd-1080p-100hz-16-9-ips-monitor-94f46aa/-/A-1005912549",
+        "newegg": "https://www.newegg.com/hp-series-5-527sw-27-fhd/p/0JC-0019-02H59"
+      },
+      "offersFound": 28
+    },
+    "lg_27g850a_b": {
+      "oldPrice": [
+        496,
+        496
+      ],
+      "newPrice": [
+        440,
+        1088
+      ],
+      "retailerUrls": {
+        "newegg": "https://www.newegg.com/p/2RC-00JM-001H0"
+      },
+      "offersFound": 11
+    },
+    "lg_27gl850_b_27gl83a_b": {
+      "oldPrice": [
+        199,
+        199
+      ],
+      "newPrice": [
+        360,
+        449
+      ],
+      "retailerUrls": {},
+      "offersFound": 2
+    },
+    "lg_27gn650_b": {
+      "oldPrice": [
+        299,
+        299
+      ],
+      "newPrice": [
+        309,
+        309
+      ],
+      "retailerUrls": {},
+      "offersFound": 1
+    },
+    "lg_27gn750_b": {
+      "oldPrice": [
+        399,
+        399
+      ],
+      "newPrice": [
+        369,
+        800
+      ],
+      "retailerUrls": {},
+      "offersFound": 4
+    },
+    "lg_27gn800_b": {
+      "oldPrice": [
+        299,
+        299
+      ],
+      "newPrice": [
+        482,
+        616
+      ],
+      "retailerUrls": {
+        "newegg": "https://www.newegg.com/p/3C6-0004-00173"
+      },
+      "offersFound": 7
+    },
+    "lg_27gn850_b_27gn880_b": {
+      "oldPrice": [
+        499,
+        499
+      ],
+      "newPrice": [
+        380,
+        380
+      ],
+      "retailerUrls": {},
+      "offersFound": 1
+    },
+    "lg_27gn950_b": {
+      "oldPrice": [
+        799,
+        799
+      ],
+      "newPrice": [
+        499,
+        840
+      ],
+      "retailerUrls": {},
+      "offersFound": 4
+    },
+    "lg_27gp850_b_27gp83b_b": {
+      "oldPrice": [
+        399,
+        399
+      ],
+      "newPrice": [
+        440,
+        1088
+      ],
+      "retailerUrls": {
+        "newegg": "https://www.newegg.com/p/2RC-00JM-001H0"
+      },
+      "offersFound": 11
+    },
+    "lg_27gp950_b": {
+      "oldPrice": [
+        899,
+        899
+      ],
+      "newPrice": [
+        499,
+        840
+      ],
+      "retailerUrls": {},
+      "offersFound": 4
+    },
+    "lg_27gr75q_b": {
+      "oldPrice": [
+        299,
+        299
+      ],
+      "newPrice": [
+        229,
+        439
+      ],
+      "retailerUrls": {
+        "bestbuy": "https://www.bestbuy.com/product/lg-27gr75qb-b-27-class-gaming-lcd-monitor-169-high-glossy-black-matte-black-27-viewable-matte-purple-gray/JJ8VPZH2H9/sku/12196904",
+        "bhphoto": "https://www.bhphotovideo.com/c/product/1817893-REG/lg_27gr75qb_b_27_qhd_ips.html"
+      },
+      "offersFound": 28
+    },
+    "lg_27gr83q_b": {
+      "oldPrice": [
+        324,
+        324
+      ],
+      "newPrice": [
+        275,
+        598
+      ],
+      "retailerUrls": {},
+      "offersFound": 6
+    },
+    "lg_27gr93u_b": {
+      "oldPrice": [
+        499,
+        499
+      ],
+      "newPrice": [
+        275,
+        598
+      ],
+      "retailerUrls": {},
+      "offersFound": 6
+    },
+    "lg_27gr95qe_b": {
+      "oldPrice": [
+        999,
+        999
+      ],
+      "newPrice": [
+        800,
+        1410
+      ],
+      "retailerUrls": {
+        "walmart": "https://www.walmart.com/ip/LG-27-UltraGear-OLED-Gaming-Monitor-QHD-with-240Hz-Refresh-Rate-0-03ms-Response-Time-27GR95QE-B/2864745318",
+        "bhphoto": "https://www.bhphotovideo.com/c/product/1745626-REG/lg_27gr95qe_b_27_ultragear_curved_oled.html",
+        "newegg": "https://www.newegg.com/lg-27gr95qe-b-27-qhd-240-hz-ultragear-oled/p/N82E16824026351"
+      },
+      "offersFound": 9
+    },
+    "lg_27gs95qe_b": {
+      "oldPrice": [
+        629,
+        629
+      ],
+      "newPrice": [
+        630,
+        801
+      ],
+      "retailerUrls": {
+        "bestbuy": "https://www.bestbuy.com/product/lg-ultragear-27-oled-qhd-240hz-0-03ms-freesync-and-nvidia-g-sync-compatible-gaming-monitor-with-hdr400-black/JJ8VPZQTPH/sku/6573635",
+        "newegg": "https://www.newegg.com/lg-27gs95qe-b-27-qhd-240-hz-ultragear-oled/p/N82E16824026405"
+      },
+      "offersFound": 38
+    },
+    "lg_27gx700a_b": {
+      "oldPrice": [
+        849,
+        849
+      ],
+      "newPrice": [
+        997,
+        1000
+      ],
+      "retailerUrls": {
+        "bestbuy": "https://www.bestbuy.com/product/lg-ultragear-27-oled-qhd-480hz-0-03ms-nvidia-g-sync-amd-freesync-premium-pro-gaming-monitor-hdmi-x2-displayport-usb-black/JJ8VPZTF8C/sku/10904887",
+        "microcenter": "https://www.microcenter.com/product/690108/UltraGear_27GX790A-BAUS_265%22_2K_WQHD_(2560_x_1440)_480Hz_Gaming_Monitor;_AMD_FreeSync_Premium_Pro_-_Nvidia_G-Sync_Compatible;_HDR;_DisplayPort_HDMI;_R",
+        "target": "https://www.target.com/p/lg-27-ultragear-oled-qhd-gaming-monitor-480hz-0-03ms-g-sync/-/A-1005913428",
+        "bhphoto": "https://www.bhphotovideo.com/c/product/1869420-REG/lg_ultragear_oled_27gx790a_b_26_5.html",
+        "manufacturer": "https://www.walmart.com/ip/LG-UltraGear-27-480-Hz-OLED-QHD-Gaming-Monitor-0-03ms-FreeSync-Premium-G-Sync-Compatible-2560-x-1440-2K-DCI-P3-98-5/15027211854",
+        "newegg": "https://www.newegg.com/lg-27gx790a-b-aus-27-qhd-480-hz-ultragear-oled-black/p/N82E16824026450"
+      },
+      "offersFound": 35
+    },
+    "lg_27gx790a_b": {
+      "oldPrice": [
+        676,
+        676
+      ],
+      "newPrice": [
+        997,
+        1000
+      ],
+      "retailerUrls": {
+        "bestbuy": "https://www.bestbuy.com/product/lg-ultragear-27-oled-qhd-480hz-0-03ms-nvidia-g-sync-amd-freesync-premium-pro-gaming-monitor-hdmi-x2-displayport-usb-black/JJ8VPZTF8C/sku/10904887",
+        "microcenter": "https://www.microcenter.com/product/690108/UltraGear_27GX790A-BAUS_265%22_2K_WQHD_(2560_x_1440)_480Hz_Gaming_Monitor;_AMD_FreeSync_Premium_Pro_-_Nvidia_G-Sync_Compatible;_HDR;_DisplayPort_HDMI;_R",
+        "target": "https://www.target.com/p/lg-27-ultragear-oled-qhd-gaming-monitor-480hz-0-03ms-g-sync/-/A-1005913428",
+        "bhphoto": "https://www.bhphotovideo.com/c/product/1869420-REG/lg_ultragear_oled_27gx790a_b_26_5.html",
+        "manufacturer": "https://www.walmart.com/ip/LG-UltraGear-27-480-Hz-OLED-QHD-Gaming-Monitor-0-03ms-FreeSync-Premium-G-Sync-Compatible-2560-x-1440-2K-DCI-P3-98-5/15027211854",
+        "newegg": "https://www.newegg.com/lg-27gx790a-b-aus-27-qhd-480-hz-ultragear-oled-black/p/N82E16824026450"
+      },
+      "offersFound": 34
+    },
+    "hp_27q": {
+      "oldPrice": [
+        149,
+        149
+      ],
+      "newPrice": [
+        200,
+        477
+      ],
+      "retailerUrls": {
+        "walmart": "https://www.walmart.com/ip/OMEN-by-HP-27q-LED-monitor-gaming-27-2560-x-1440-QHD-165-Hz-IPS-400-cd-m-1000-1-HDR400-1-ms-2xHDMI-DisplayPort-black/5044369347"
+      },
+      "offersFound": 12
+    },
+    "lg_27uk650_w": {
+      "oldPrice": [
+        650,
+        650
+      ],
+      "newPrice": [
+        440,
+        679
+      ],
+      "retailerUrls": {},
+      "offersFound": 2
+    },
+    "lg_32gn600_b": {
+      "oldPrice": [
+        229,
+        229
+      ],
+      "newPrice": [
+        180,
+        190
+      ],
+      "retailerUrls": {
+        "newegg": "https://www.newegg.com/p/3D4-0003-00086",
+        "target": "https://www.target.com/p/refurbished-lg-ultragear-32gn600-b-32-qhd-display-computer-monitor-manufacturer-refurbished/-/A-1006792053"
+      },
+      "offersFound": 8
+    },
+    "lg_32gn650_b_32gn63t_b": {
+      "oldPrice": [
+        299,
+        299
+      ],
+      "newPrice": [
+        270,
+        506
+      ],
+      "retailerUrls": {
+        "newegg": "https://www.newegg.com/p/3C6-0004-001J2"
+      },
+      "offersFound": 5
+    },
+    "lg_32gr93u_b": {
+      "oldPrice": [
+        553,
+        553
+      ],
+      "newPrice": [
+        353,
+        910
+      ],
+      "retailerUrls": {},
+      "offersFound": 12
+    },
+    "lg_32gs95ue_b": {
+      "oldPrice": [
+        1399,
+        1399
+      ],
+      "newPrice": [
+        980,
+        1657
+      ],
+      "retailerUrls": {
+        "newegg": "https://www.newegg.com/p/N82E16824026437",
+        "bhphoto": "https://www.bhphotovideo.com/c/product/803379765-USE/lg_32gs95ue_b_ultragear_oled_31_5_4k.html/"
+      },
+      "offersFound": 9
+    },
+    "lg_34gk950f_b": {
+      "oldPrice": [
+        1063,
+        1063
+      ],
+      "newPrice": [
+        1333,
+        1333
+      ],
+      "retailerUrls": {},
+      "offersFound": 1
+    },
+    "lg_34gn850_b": {
+      "oldPrice": [
+        749,
+        749
+      ],
+      "newPrice": [
+        679,
+        1814
+      ],
+      "retailerUrls": {
+        "newegg": "https://www.newegg.com/p/15Z-000W-00DC5"
+      },
+      "offersFound": 7
+    },
+    "lg_34gp950g_b": {
+      "oldPrice": [
+        1299,
+        1299
+      ],
+      "newPrice": [
+        1333,
+        1333
+      ],
+      "retailerUrls": {},
+      "offersFound": 1
+    },
+    "lg_34gs95qe_b": {
+      "oldPrice": [
+        1299,
+        1299
+      ],
+      "newPrice": [
+        1199,
+        1700
+      ],
+      "retailerUrls": {
+        "bestbuy": "https://www.bestbuy.com/product/lg-45gs95qe-ultragear-oled-curved-gaming-monitor-45-inch-wqhd-800r-240hz-black/BGTKK3ZWYP/sku/10225403",
+        "target": "https://www.target.com/p/lg-34-ultragear-oled-curved-gaming-monitor-wqhd-with-240hz-refresh-rate/-/A-1005913643",
+        "bhphoto": "https://www.bhphotovideo.com/c/product/1817547-REG/lg_34gs95qe_b_34_ultragear_wqhd_oled.html",
+        "manufacturer": "https://www.walmart.com/ip/LG-UltraGear-45GS95QE-B-45-Class-UW-QHD-Curved-Screen-Gaming-OLED-Monitor-21-9-True-Black/5555727202",
+        "newegg": "https://www.newegg.com/lg-34gs95qe-b-34-wqhd-240-hz-ultragear-oled/p/3D4-0003-00080"
+      },
+      "offersFound": 36
+    },
+    "lg_34wk95u_w": {
+      "oldPrice": [
+        700,
+        800
+      ],
+      "newPrice": [
+        1302,
+        1302
+      ],
+      "retailerUrls": {},
+      "offersFound": 2
+    },
+    "lg_38gn950_b": {
+      "oldPrice": [
+        1400,
+        1600
+      ],
+      "newPrice": [
+        3800,
+        3800
+      ],
+      "retailerUrls": {},
+      "offersFound": 2
+    },
+    "lg_38wn95c_w": {
+      "oldPrice": [
+        1599,
+        1599
+      ],
+      "newPrice": [
+        3800,
+        3800
+      ],
+      "retailerUrls": {},
+      "offersFound": 3
+    },
+    "lg_40wp95c_w": {
+      "oldPrice": [
+        1499,
+        1499
+      ],
+      "newPrice": [
+        1120,
+        1800
+      ],
+      "retailerUrls": {
+        "bhphoto": "https://www.bhphotovideo.com/c/product/803292027-USE/lg_40bp95c_w_bp95c_w_39_7_2160p_hdr.html/"
+      },
+      "offersFound": 3
+    },
+    "sony_42_a90k_oled": {
+      "oldPrice": [
+        1199,
+        1199
+      ],
+      "newPrice": [
+        1298,
+        1398
+      ],
+      "retailerUrls": {
+        "bestbuy": "https://www.bestbuy.com/product/sony-42-class-bravia-xr-a90k-oled-4k-uhd-smart-google-tv-2022/J7XSRH5XSF/sku/10562728",
+        "manufacturer": "https://electronics.sony.com/tv-video/televisions/all-tvs/p/xr42a90k",
+        "walmart": "https://www.walmart.com/ip/Sony-48-Class-A90K-4K-HDR-OLED-TV-with-smart-Google-TV-XR48A90K-2022-Model/712975793"
+      },
+      "offersFound": 3
+    },
+    "lg_42_oled_flex": {
+      "oldPrice": [
+        1999,
+        1999
+      ],
+      "newPrice": [
+        2440,
+        2498
+      ],
+      "retailerUrls": {
+        "bhphoto": "https://www.bhphotovideo.com/c/product/1770965-REG/lg_42lx3qpua_42_class_flex_oled.html"
+      },
+      "offersFound": 3
+    },
+    "samsung_43_qn90b_qled": {
+      "oldPrice": [
+        1299,
+        1299
+      ],
+      "newPrice": [
+        1198,
+        2739
+      ],
+      "retailerUrls": {},
+      "offersFound": 15
+    },
+    "lg_45gr95qe_b": {
+      "oldPrice": [
+        1699,
+        1699
+      ],
+      "newPrice": [
+        2640,
+        2640
+      ],
+      "retailerUrls": {
+        "newegg": "https://www.newegg.com/lg-45gr95qe-b-45-qhd-240-hz-oled-black/p/N82E16824026375"
+      },
+      "offersFound": 2
+    },
+    "lg_45gx950a_b": {
+      "oldPrice": [
+        1749,
+        1749
+      ],
+      "newPrice": [
+        1997,
+        2000
+      ],
+      "retailerUrls": {
+        "bestbuy": "https://www.bestbuy.com/product/lg-ultragear-45-oled-dual-mode-5k2k-wuhd-165hz-wfhd-330hz-0-03ms-g-sync-freesync-premium-pro-gaming-monitor-black/JJ8VPZWPY9/sku/6619492",
+        "bhphoto": "https://www.bhphotovideo.com/c/product/1894511-REG/lg_45gx950a_b_aus_45_ultragear_oled_5k2k.html",
+        "newegg": "https://www.newegg.com/lg-45gx950a-b-45-wuhd-330-hz-oled-black/p/N82E16824026470"
+      },
+      "offersFound": 25
+    },
+    "lg_48gq900_b": {
+      "oldPrice": [
+        1499,
+        1499
+      ],
+      "newPrice": [
+        1070,
+        1500
+      ],
+      "retailerUrls": {},
+      "offersFound": 2
+    },
+    "lg_49wl95c_w": {
+      "oldPrice": [
+        1299,
+        1299
+      ],
+      "newPrice": [
+        967,
+        1750
+      ],
+      "retailerUrls": {},
+      "offersFound": 3
+    },
+    "aoc_agon_ag271qx": {
+      "oldPrice": [
+        199,
+        199
+      ],
+      "newPrice": [
+        660,
+        660
+      ],
+      "retailerUrls": {},
+      "offersFound": 1
+    },
+    "aoc_agon_pro_ag276qzd2": {
+      "oldPrice": [
+        499,
+        499
+      ],
+      "newPrice": [
+        777,
+        777
+      ],
+      "retailerUrls": {},
+      "offersFound": 1
+    },
+    "dell_alienware_aw2524h": {
+      "oldPrice": [
+        479,
+        479
+      ],
+      "newPrice": [
+        380,
+        1050
+      ],
+      "retailerUrls": {
+        "manufacturer": "https://www.dell.com/en-us/shop/alienware-500hz-gaming-monitor-aw2524hf/apd/210-bjws/monitors-monitor-accessories"
+      },
+      "offersFound": 14
+    },
+    "dell_alienware_aw2720hf": {
+      "oldPrice": [
+        229,
+        229
+      ],
+      "newPrice": [
+        410,
+        991
+      ],
+      "retailerUrls": {
+        "newegg": "https://www.newegg.com/p/3D4-000V-00091"
+      },
+      "offersFound": 10
+    },
+    "dell_alienware_aw2721d": {
+      "oldPrice": [
+        229,
+        229
+      ],
+      "newPrice": [
+        900,
+        900
+      ],
+      "retailerUrls": {
+        "bestbuy": "https://www.bestbuy.com/product/alienware-aw2725q-27-qd-oled-4k-uhd-240hz-0-03-ms-freesync-premium-pro-and-g-sync-gaming-monitor-with-hdr-hdmi-displayport-interstellar-indigo/J3K4L63R85/sku/6640501",
+        "manufacturer": "https://www.dell.com/en-us/shop/alienware-27-4k-qd-oled-gaming-monitor-aw2725q/apd/210-brfr/monitors-monitor-accessories"
+      },
+      "offersFound": 7
+    },
+    "dell_alienware_aw2725q": {
+      "oldPrice": [
+        727,
+        727
+      ],
+      "newPrice": [
+        900,
+        900
+      ],
+      "retailerUrls": {
+        "bestbuy": "https://www.bestbuy.com/product/alienware-aw2725q-27-qd-oled-4k-uhd-240hz-0-03-ms-freesync-premium-pro-and-g-sync-gaming-monitor-with-hdr-hdmi-displayport-interstellar-indigo/J3K4L63R85/sku/6640501",
+        "manufacturer": "https://www.dell.com/en-us/shop/alienware-27-4k-qd-oled-gaming-monitor-aw2725q/apd/210-brfr/monitors-monitor-accessories"
+      },
+      "offersFound": 2
+    },
+    "dell_alienware_aw2725qf": {
+      "oldPrice": [
+        499,
+        499
+      ],
+      "newPrice": [
+        500,
+        600
+      ],
+      "retailerUrls": {
+        "manufacturer": "https://www.dell.com/en-us/shop/alienware-27-4k-dual-resolution-gaming-monitor-aw2725qf/apd/210-bnjj/monitors-monitor-accessories",
+        "microcenter": "https://www.microcenter.com/product/691347/alienware-aw2725qf-27-4k-uhd-(3840-x-2160)-180hz-gaming-monitor",
+        "bestbuy": "https://www.bestbuy.com/product/alienware-aw2725qf-27-ips-led-4k-uhd-180hz-5-ms-g-sync-compatible-dual-resolution-gaming-monitor-with-hdr-hdmi-displayport-black/J3K4L6XJ6S/sku/6606085",
+        "newegg": "https://www.newegg.com/p/3D4-000V-00091"
+      },
+      "offersFound": 14
+    },
+    "dell_alienware_aw3225qf": {
+      "oldPrice": [
+        1199,
+        1199
+      ],
+      "newPrice": [
+        1000,
+        1200
+      ],
+      "retailerUrls": {
+        "manufacturer": "https://www.dell.com/en-us/shop/alienware-32-4k-qd-oled-gaming-monitor-aw3225qf/apd/210-blmq/monitors-monitor-accessories",
+        "bestbuy": "https://www.bestbuy.com/product/alienware-aw3225qf-31-6-qd-oled-curved-4k-uhd-240hz-03-ms-g-sync-compatible-gaming-monitor-with-hdr-hdmi-usb-c-lunar-light/J3K4L62597/sku/6576612",
+        "newegg": "https://www.newegg.com/p/3D4-000V-00088"
+      },
+      "offersFound": 7
+    },
+    "gigabyte_aorus_fi32u": {
+      "oldPrice": [
+        816,
+        816
+      ],
+      "newPrice": [
+        920,
+        920
+      ],
+      "retailerUrls": {},
+      "offersFound": 1
+    },
+    "gigabyte_aorus_fo32u2p": {
+      "oldPrice": [
+        1442,
+        1442
+      ],
+      "newPrice": [
+        939,
+        2142
+      ],
+      "retailerUrls": {
+        "newegg": "https://www.newegg.com/gigabyte-aorus-fo32u2-32-uhd-240-hz-qd-oled/p/N82E16824012081"
+      },
+      "offersFound": 12
+    },
+    "gigabyte_aorus_fo48u_oled": {
+      "oldPrice": [
+        1600,
+        1600
+      ],
+      "newPrice": [
+        980,
+        1260
+      ],
+      "retailerUrls": {},
+      "offersFound": 2
+    },
+    "dell_c1422h": {
+      "oldPrice": [
+        109,
+        109
+      ],
+      "newPrice": [
+        310,
+        732
+      ],
+      "retailerUrls": {
+        "newegg": "https://www.newegg.com/p/2RC-003G-02GS7"
+      },
+      "offersFound": 3
+    },
+    "lg_c5_42_oled": {
+      "oldPrice": [
+        896,
+        896
+      ],
+      "newPrice": [
+        897,
+        1045
+      ],
+      "retailerUrls": {
+        "bestbuy": "https://www.bestbuy.com/product/lg-42-class-c5-series-oled-evo-ai-4k-uhd-smart-webos-tv-2025/JJ8VPZTHLJ/sku/10772223",
+        "walmart": "https://www.walmart.com/ip/LG-OLED42C5PUA-42-4K-UHD-OLED-evo-C5-Smart-TV/15999414659",
+        "bhphoto": "https://www.bhphotovideo.com/c/product/1885598-REG/lg_oled42c5pua_oled_evo_ai_c5.html",
+        "newegg": "https://www.newegg.com/lg-electronics-lg-oled-evo-c5-4k-tv-42/p/16C-000P-007C8",
+        "target": "https://www.target.com/p/lg-42-inch-class-c5-series-oled-evo-4k-uhd-smart-webos-tv-2025-refurbished/-/A-1005664586"
+      },
+      "offersFound": 46
+    },
+    "samsung_cf398": {
+      "oldPrice": [
+        174,
+        174
+      ],
+      "newPrice": [
+        120,
+        376
+      ],
+      "retailerUrls": {
+        "bhphoto": "https://www.bhphotovideo.com/c/product/1237290-REG/samsung_390_series_c24f390_24.html"
+      },
+      "offersFound": 35
+    },
+    "aoc_cq27g1": {
+      "oldPrice": [
+        249,
+        249
+      ],
+      "newPrice": [
+        450,
+        450
+      ],
+      "retailerUrls": {},
+      "offersFound": 1
+    },
+    "aoc_cq27g2": {
+      "oldPrice": [
+        449,
+        449
+      ],
+      "newPrice": [
+        450,
+        450
+      ],
+      "retailerUrls": {},
+      "offersFound": 1
+    },
+    "lenovo_d27_30": {
+      "oldPrice": [
+        674,
+        674
+      ],
+      "newPrice": [
+        201,
+        220
+      ],
+      "retailerUrls": {},
+      "offersFound": 2
+    },
+    "espresso_display_15_touch": {
+      "oldPrice": [
+        499,
+        499
+      ],
+      "newPrice": [
+        469,
+        469
+      ],
+      "retailerUrls": {
+        "manufacturer": "https://us.espres.so/products/espresso-touch?variant=41957891702924"
+      },
+      "offersFound": 1
+    },
+    "mobile_pixels_duex_plus": {
+      "oldPrice": [
+        169,
+        169
+      ],
+      "newPrice": [
+        185,
+        301
+      ],
+      "retailerUrls": {
+        "newegg": "https://www.newegg.com/mobile-pixels-duexplus-13-3-full-hd/p/15Z-028Y-00013"
+      },
+      "offersFound": 4
+    },
+    "dell_e2220h": {
+      "oldPrice": [
+        94,
+        94
+      ],
+      "newPrice": [
+        97,
+        249
+      ],
+      "retailerUrls": {
+        "newegg": "https://www.newegg.com/dell-e2420h-23-8-full-hd/p/N82E16824260713"
+      },
+      "offersFound": 8
+    },
+    "benq_ew3270u": {
+      "oldPrice": [
+        413,
+        413
+      ],
+      "newPrice": [
+        500,
+        529
+      ],
+      "retailerUrls": {},
+      "offersFound": 2
+    },
+    "benq_ex2780q": {
+      "oldPrice": [
+        549,
+        549
+      ],
+      "newPrice": [
+        320,
+        506
+      ],
+      "retailerUrls": {
+        "newegg": "https://www.newegg.com/p/3C6-00AB-000C2"
+      },
+      "offersFound": 3
+    },
+    "xiaomi_g_pro_27i": {
+      "oldPrice": [
+        344,
+        344
+      ],
+      "newPrice": [
+        317,
+        317
+      ],
+      "retailerUrls": {},
+      "offersFound": 1
+    },
+    "dell_g2524h": {
+      "oldPrice": [
+        259,
+        259
+      ],
+      "newPrice": [
+        200,
+        431
+      ],
+      "retailerUrls": {
+        "newegg": "https://www.newegg.com/p/3C6-000M-00951"
+      },
+      "offersFound": 3
+    },
+    "dell_g2725d": {
+      "oldPrice": [
+        269,
+        269
+      ],
+      "newPrice": [
+        200,
+        200
+      ],
+      "retailerUrls": {},
+      "offersFound": 2
+    },
+    "msi_g274qpf_qd": {
+      "oldPrice": [
+        139,
+        139
+      ],
+      "newPrice": [
+        146,
+        335
+      ],
+      "retailerUrls": {
+        "newegg": "https://www.newegg.com/p/3C6-008M-002E5"
+      },
+      "offersFound": 13
+    },
+    "gigabyte_g27q": {
+      "oldPrice": [
+        240,
+        260
+      ],
+      "newPrice": [
+        240,
+        240
+      ],
+      "retailerUrls": {},
+      "offersFound": 1
+    },
+    "gigabyte_g27qc": {
+      "oldPrice": [
+        220,
+        240
+      ],
+      "newPrice": [
+        230,
+        328
+      ],
+      "retailerUrls": {},
+      "offersFound": 2
+    },
+    "gigabyte_g32qc": {
+      "oldPrice": [
+        402,
+        402
+      ],
+      "newPrice": [
+        248,
+        410
+      ],
+      "retailerUrls": {},
+      "offersFound": 4
+    },
+    "gigabyte_g34wqc": {
+      "oldPrice": [
+        436,
+        436
+      ],
+      "newPrice": [
+        379,
+        437
+      ],
+      "retailerUrls": {},
+      "offersFound": 2
+    },
+    "gigabyte_gs27qc": {
+      "oldPrice": [
+        251,
+        251
+      ],
+      "newPrice": [
+        250,
+        500
+      ],
+      "retailerUrls": {
+        "newegg": "https://www.newegg.com/gigabyte-gs27qc-27-qhd-165hz-oc-170hz-va-black/p/N82E16824012064"
+      },
+      "offersFound": 6
+    },
+    "sony_inzone_m10s": {
+      "oldPrice": [
+        1198,
+        1198
+      ],
+      "newPrice": [
+        1098,
+        1100
+      ],
+      "retailerUrls": {
+        "bestbuy": "https://www.bestbuy.com/product/sony-27-inzone-m10s-oled-qhd-480hz-0-03ms-nvidia-g-sync-gaming-monitor-with-hdr400-displayport-2-1-uhbr10-black/J7XSRH56RP/sku/10316940",
+        "manufacturer": "https://electronics.sony.com/audio/gaming-audio/all-inzone-headsets/p/sdm27q10sb",
+        "bhphoto": "https://www.bhphotovideo.com/c/product/1857768-REG/sony_sdm27q10sb_27_inzone_m10s_oled.html",
+        "newegg": "https://www.newegg.com/p/3D4-003X-00009"
+      },
+      "offersFound": 10
+    },
+    "sony_inzone_m3": {
+      "oldPrice": [
+        279,
+        279
+      ],
+      "newPrice": [
+        900,
+        900
+      ],
+      "retailerUrls": {},
+      "offersFound": 2
+    },
+    "sony_inzone_m9_ii": {
+      "oldPrice": [
+        948,
+        948
+      ],
+      "newPrice": [
+        616,
+        950
+      ],
+      "retailerUrls": {
+        "manufacturer": "https://electronics.sony.com/audio/gaming-audio/all-inzone-headsets/p/sdm27u9m2b",
+        "bhphoto": "https://www.bhphotovideo.com/c/product/803260781-USE/sony_sdm27u9m2b_inzone_m9_ii_26_9.html/"
+      },
+      "offersFound": 8
+    },
+    "lenovo_legion_y27q_20": {
+      "oldPrice": [
+        432,
+        432
+      ],
+      "newPrice": [
+        499,
+        718
+      ],
+      "retailerUrls": {
+        "newegg": "https://www.newegg.com/p/0JC-0006-00YB8"
+      },
+      "offersFound": 8
+    },
+    "gigabyte_m27q_p": {
+      "oldPrice": [
+        269,
+        269
+      ],
+      "newPrice": [
+        491,
+        491
+      ],
+      "retailerUrls": {},
+      "offersFound": 1
+    },
+    "gigabyte_m28u": {
+      "oldPrice": [
+        838,
+        838
+      ],
+      "newPrice": [
+        603,
+        654
+      ],
+      "retailerUrls": {},
+      "offersFound": 2
+    },
+    "gigabyte_m32uc": {
+      "oldPrice": [
+        737,
+        737
+      ],
+      "newPrice": [
+        750,
+        750
+      ],
+      "retailerUrls": {},
+      "offersFound": 1
+    },
+    "msi_mag_274upf": {
+      "oldPrice": [
+        129,
+        129
+      ],
+      "newPrice": [
+        1189,
+        1219
+      ],
+      "retailerUrls": {
+        "newegg": "https://www.newegg.com/p/0JC-00B1-00180"
+      },
+      "offersFound": 4
+    },
+    "msi_meg_342c_qd_oled": {
+      "oldPrice": [
+        1024,
+        1024
+      ],
+      "newPrice": [
+        981,
+        1269
+      ],
+      "retailerUrls": {},
+      "offersFound": 3
+    },
+    "gigabyte_mo27q28g": {
+      "oldPrice": [
+        599,
+        599
+      ],
+      "newPrice": [
+        550,
+        720
+      ],
+      "retailerUrls": {
+        "bestbuy": "https://www.bestbuy.com/product/gigabyte-mo27q28g-27-w-oled-gaming-monitor-black/J3ZW9X78WP/sku/11960045",
+        "newegg": "https://www.newegg.com/gigabyte-mo27q28g-sa1-27-oled-280-hz-qhd/p/N82E16824012111"
+      },
+      "offersFound": 7
+    },
+    "benq_mobiuz_ex321ux": {
+      "oldPrice": [
+        658,
+        658
+      ],
+      "newPrice": [
+        1050,
+        1300
+      ],
+      "retailerUrls": {},
+      "offersFound": 4
+    },
+    "msi_mpg_271qrx_qd_oled": {
+      "oldPrice": [
+        649,
+        649
+      ],
+      "newPrice": [
+        630,
+        630
+      ],
+      "retailerUrls": {
+        "bestbuy": "https://www.bestbuy.com/product/msi-mpg271qrxqdoled-27-quantum-dot-oled-qhd-360hz-0-03ms-freesyncpremium-monitor-with-hdr400-displayport-hdmi-usb-black/J3P7TXYV5P/sku/6576568",
+        "manufacturer": "https://us-store.msi.com/Monitors/Gaming-Monitors/MPG-271QRX-QD-OLED",
+        "bhphoto": "https://www.bhphotovideo.com/c/product/1808681-REG/msi_mpg_271qrx_qd_oled_27_wqhd_oled_16_9.html"
+      },
+      "offersFound": 33
+    },
+    "msi_mpg_274urdfw_e16m": {
+      "oldPrice": [
+        499,
+        499
+      ],
+      "newPrice": [
+        400,
+        748
+      ],
+      "retailerUrls": {},
+      "offersFound": 4
+    },
+    "msi_mpg_321urx_qd_oled": {
+      "oldPrice": [
+        940,
+        940
+      ],
+      "newPrice": [
+        899,
+        1100
+      ],
+      "retailerUrls": {
+        "bestbuy": "https://www.bestbuy.com/product/msi-mpg-321urxw-qd-oled-32-quantum-dot-oled-uhd-240hz-0-03ms-gaming-monitor-with-hdr400-displayport-hdmi-usb-metallic-white/J3P7TX9HTV/sku/10891372",
+        "walmart": "https://www.walmart.com/ip/MSI-32-240-Hz-QD-OLED-UHD-Gaming-Monitor-Adaptive-Sync-3840-x-2160-4K-MPG-321URXW-QD-OLED/14771516680",
+        "newegg": "https://www.newegg.com/msi-mpg-321urxw-qd-oled-32-uhd-240-hz-metallic-white-rgb/p/N82E16824475454",
+        "manufacturer": "https://us-store.msi.com/Monitors/Gaming-Monitors/MPG-321URXW-QD-OLED",
+        "bhphoto": "https://www.bhphotovideo.com/c/product/1892976-REG/msi_mpg321urxwqdoled_32_qd_oled_4k_uhd.html"
+      },
+      "offersFound": 38
+    },
+    "msi_mpg_322urx_qd_oled": {
+      "oldPrice": [
+        999,
+        999
+      ],
+      "newPrice": [
+        950,
+        1080
+      ],
+      "retailerUrls": {
+        "bestbuy": "https://www.bestbuy.com/product/msi-mpg-322urx-qd-oled-32-quantum-dot-oled-uhd-240hz-0-03ms-gaming-monitor-with-hdr400-displayport-2-1a-hdmi-usb-black/J3P7TX99VT/sku/6614908",
+        "microcenter": "https://www.microcenter.com/product/692382/msi-mpg-322urx-315-uhd-(3840-x-2160)-240hz-gaming-qd-oled-monitor",
+        "bhphoto": "https://www.bhphotovideo.com/c/product/1885817-REG/msi_mpg_322urx_qd_oled_32.html",
+        "manufacturer": "https://us-store.msi.com/Monitors/Gaming-Monitors/MPG-322URX-QD-OLED"
+      },
+      "offersFound": 26
+    },
+    "msi_mpg_341cqpx_qd_oled": {
+      "oldPrice": [
+        799,
+        799
+      ],
+      "newPrice": [
+        750,
+        1879
+      ],
+      "retailerUrls": {
+        "bestbuy": "https://www.bestbuy.com/product/msi-mpg341cqpxqdoled-34-curved-oled-qhd-240hz-0-03ms-adaptive-sync-gaming-monitor-with-hdr400-displayport-hdmi-usb-c-black/J3P7TXPHWF/sku/6583873"
+      },
+      "offersFound": 17
+    },
+    "acer_nitro_rg241y_pbiipx": {
+      "oldPrice": [
+        352,
+        352
+      ],
+      "newPrice": [
+        213,
+        213
+      ],
+      "retailerUrls": {},
+      "offersFound": 1
+    },
+    "acer_nitro_vg271_pbmiipx": {
+      "oldPrice": [
+        443,
+        443
+      ],
+      "newPrice": [
+        289,
+        289
+      ],
+      "retailerUrls": {},
+      "offersFound": 1
+    },
+    "acer_nitro_vg271up_pbmiipx": {
+      "oldPrice": [
+        443,
+        443
+      ],
+      "newPrice": [
+        289,
+        289
+      ],
+      "retailerUrls": {},
+      "offersFound": 1
+    },
+    "acer_nitro_xv252q_fbmiiprx": {
+      "oldPrice": [
+        499,
+        499
+      ],
+      "newPrice": [
+        500,
+        500
+      ],
+      "retailerUrls": {},
+      "offersFound": 2
+    },
+    "acer_nitro_xv275k_p3biipruzx": {
+      "oldPrice": [
+        764,
+        764
+      ],
+      "newPrice": [
+        250,
+        400
+      ],
+      "retailerUrls": {
+        "bestbuy": "https://www.bestbuy.com/product/acer-nitro-xv275k-27-4k-uhd-miniled-320hz-1ms-freesync-premium-gaming-monitor-with-hdr1000-usb-type-c-displayport-hdmi-black/JJ8V8HXZ5Q/sku/6639154",
+        "target": "https://www.target.com/p/acer-nitro-p3-27-monitor-uhd-3840x2160-160hz-ips-1ms-1000nit-hdmi-displayport-manufacturer-refurbished/-/A-93253789"
+      },
+      "offersFound": 8
+    },
+    "samsung_odyssey_3d_g90xf_s27fg900x": {
+      "oldPrice": [
+        1799,
+        1799
+      ],
+      "newPrice": [
+        1050,
+        2000
+      ],
+      "retailerUrls": {
+        "target": "https://www.target.com/p/samsung-odyssey-3d-g90xf-27-4k-uhd-2160p-165hz-1ms-amd-freesync-gaming-monitor/-/A-1006585247",
+        "bestbuy": "https://www.bestbuy.com/product/samsung-27-odyssey-glasses-free-3d-g90xf-4k-uhd-165hz-1ms-g-sync-compatible-and-freesync-prem-pro-gaming-monitor-mercury-silver/J3ZYG2VCH9/sku/6621151",
+        "microcenter": "https://www.microcenter.com/product/693199/Odyssey_3D_G90XF_27%22_4K_UHD_(3840_x_2160)_165Hz_Gaming_Monitor;_NVIDIA_G-Sync_-_Adaptive_Sync_Compatible;_HDR;_DisplayPort_HDMI;_Glasses-Free_3D;_AI_3",
+        "newegg": "https://www.newegg.com/p/N82E16824027360",
+        "bhphoto": "https://www.bhphotovideo.com/c/product/803343421-USE/samsung_ls27fg900xnxza_odyssey_3d_g90xf_27.html/"
+      },
+      "offersFound": 24
+    },
+    "samsung_odyssey_g4_g40b_s27bg40": {
+      "oldPrice": [
+        299,
+        299
+      ],
+      "newPrice": [
+        245,
+        350
+      ],
+      "retailerUrls": {
+        "bestbuy": "https://www.bestbuy.com/product/samsung-25-odyssey-g40b-fhd-ips-240hz-1ms-g-sync-gaming-monitor-black/J3ZYG23W75/sku/11927665",
+        "walmart": "https://www.walmart.com/ip/SAMSUNG-25-Class-Odyssey-G40B-FHD-IPS-240Hz-1ms-G-Sync-Compatible-Gaming-Monitor-LS25BG402ENXGO/1525779978",
+        "bhphoto": "https://www.bhphotovideo.com/c/product/1697047-REG/samsung_ls25bg402enxgo_g40b_25_240hz_fhd.html"
+      },
+      "offersFound": 22
+    },
+    "samsung_odyssey_g50a_s27ag50": {
+      "oldPrice": [
+        397,
+        397
+      ],
+      "newPrice": [
+        325,
+        430
+      ],
+      "retailerUrls": {
+        "bestbuy": "https://www.bestbuy.com/product/samsung-32-odyssey-g50d-qhd-ips-180hz-1ms-amd-freesync-and-g-sync-compatible-gaming-monitor-with-hdr-400-displayport-hdmi-black/J3ZYG2HPL9/sku/6577214",
+        "walmart": "https://www.walmart.com/ip/SAMSUNG-32-Odyssey-G50D-QHD-Fast-IPS-180Hz-1ms-DisplayHDR-400-Gaming-Monitor/5512368459",
+        "target": "https://www.target.com/p/samsung-32-odyssey-g50d-qhd-fast-ips-180hz-1ms-displayhdr-400-g-sync-gaming-monitor/-/A-1006587761",
+        "bhphoto": "https://www.bhphotovideo.com/c/product/1804725-REG/samsung_ls32dg502enxza_32_odyssey_g50d_qhd.html",
+        "newegg": "https://www.newegg.com/samsung-ls32dg502enxza-32-qhd-180-hz-odyssey-g50d-fast-ips-black/p/N82E16824027314"
+      },
+      "offersFound": 17
+    },
+    "samsung_odyssey_g7_g70b_s32bg70": {
+      "oldPrice": [
+        599,
+        599
+      ],
+      "newPrice": [
+        330,
+        800
+      ],
+      "retailerUrls": {
+        "walmart": "https://www.walmart.com/ip/SAMSUNG-32-Class-Odyssey-G70B-Curved-Gaming-Monitor-LS32BG702ENXGO/1814931848",
+        "microcenter": "https://www.microcenter.com/product/696859/samsung-odyssey-g7-28-4k-uhd-(3840-x-2160)-144hz-smart-gaming-monito-(refurbished)"
+      },
+      "offersFound": 10
+    },
+    "samsung_odyssey_neo_g7_s32bg75": {
+      "oldPrice": [
+        599,
+        599
+      ],
+      "newPrice": [
+        640,
+        1604
+      ],
+      "retailerUrls": {},
+      "offersFound": 5
+    },
+    "samsung_odyssey_neo_g9_g95nc_s57cg95": {
+      "oldPrice": [
+        1699,
+        1699
+      ],
+      "newPrice": [
+        1978,
+        1978
+      ],
+      "retailerUrls": {},
+      "offersFound": 1
+    },
+    "samsung_odyssey_oled_g60sd_s27dg602s": {
+      "oldPrice": [
+        899,
+        899
+      ],
+      "newPrice": [
+        842,
+        1562
+      ],
+      "retailerUrls": {
+        "bestbuy": "https://www.bestbuy.com/product/samsung-27-odyssey-oled-g6-g60sd-qhd-360hz-0-03ms-freesync-premium-pro-gaming-monitor-with-hdr-silver/J3ZYG2TG2X/sku/10924851",
+        "microcenter": "https://www.microcenter.com/product/681068/Odyssey_QD-OLED_S27DG602_266%22_2K_QHD_(2560_x_1440)_360Hz_Gaming_Monitor;_NVIDIA_-_AMD_FreeSync_Premium_Pro;_HDR;_HDMI_DisplayPort;_Eye_Saver_Mode;_Pic",
+        "walmart": "https://www.walmart.com/ip/SAMSUNG-27-Odyssey-OLED-G6-G60SD-QHD-360Hz-0-03ms-FreeSync-Premium-Pro-Gaming-Monitor-with-Sleek-Metal-Design/5603660360",
+        "bhphoto": "https://www.bhphotovideo.com/c/product/1949302-REG/samsung_dual_27_odyssey_qd_oled.html",
+        "newegg": "https://www.newegg.com/samsung-g60sd-27-qhd-360-hz-qd-oled-g6-silver/p/N82E16824027372"
+      },
+      "offersFound": 31
+    },
+    "samsung_odyssey_oled_g80sd_s32dg80": {
+      "oldPrice": [
+        979,
+        979
+      ],
+      "newPrice": [
+        900,
+        1300
+      ],
+      "retailerUrls": {
+        "bestbuy": "https://www.bestbuy.com/product/samsung-32-odyssey-oled-g8-g80sd-4k-uhd-240hz-0-03ms-smart-gaming-monitor-with-hdr-silver/J3ZYG2TXQ5/sku/6573686",
+        "walmart": "https://www.walmart.com/ip/SAMSUNG-32-Odyssey-OLED-G8-G80SD-4K-UHD-240Hz-0-03ms-Smart-Gaming-Monitor-with-Sleek-Metal-Design/5727601235"
+      },
+      "offersFound": 18
+    },
+    "samsung_odyssey_oled_g85sb_s34bg85": {
+      "oldPrice": [
+        821,
+        821
+      ],
+      "newPrice": [
+        1064,
+        1200
+      ],
+      "retailerUrls": {
+        "bestbuy": "https://www.bestbuy.com/product/samsung-34-odyssey-oled-g8-curved-ultra-wqhd-175hz-freesync-prem-pro-and-g-sync-compatible-smart-glare-free-gaming-monitor-silver/J3ZYG2Z7Z4/sku/6588057",
+        "microcenter": "https://www.microcenter.com/product/682989/LS34DG856SNXZA_34%22_2K_UWQHD_(3440_x_1440)_175Hz_UltraWide_Curved_Screen_QD-OLED_Gaming_Monitor;_AMD_FreeSync_Premium_Pro_and_G-Sync_Compatible;_HDR10;",
+        "bhphoto": "https://www.bhphotovideo.com/c/product/1838021-REG/samsung_ls34dg856snxza_odyssey_oled_g85sd_1140p.html",
+        "newegg": "https://www.newegg.com/samsung-ls34dg856snxza-34-uwqhd-175-hz-oled-black/p/N82E16824027346"
+      },
+      "offersFound": 28
+    },
+    "samsung_odyssey_oled_g81sf_s27fg810s": {
+      "oldPrice": [
+        1299,
+        1299
+      ],
+      "newPrice": [
+        900,
+        1000
+      ],
+      "retailerUrls": {
+        "microcenter": "https://www.microcenter.com/product/703024/Odyssey_OLED_G8_G81SF_32%22_4K_UHD_(3840_x_2160)_240Hz_Gaming_Monitor;_NVIDIA_G-Sync_-_AMD_FreeSync_Premium_Pro_Compatible;_HDR;_DisplayPort_HDMI;_Eye_S",
+        "bestbuy": "https://www.bestbuy.com/product/samsung-32-odyssey-oled-g8-g81sf-4k-uhd-240hz-0-03ms-amd-freesync-premium-pro-glare-free-hdr-400-gaming-monitor-silver/J3ZYG2FQKR/sku/6619366"
+      },
+      "offersFound": 7
+    },
+    "samsung_odyssey_oled_g9_g95sc_s49cg95": {
+      "oldPrice": [
+        900,
+        900
+      ],
+      "newPrice": [
+        820,
+        1300
+      ],
+      "retailerUrls": {
+        "bestbuy": "https://www.bestbuy.com/product/samsung-49-inch-odyssey-g9-dual-qd-oled-curved-ultrawide-gaming-monitor-ls49dg910snxza-silver/J3ZYG245K6/sku/11174467",
+        "microcenter": "https://www.microcenter.com/product/704271/samsung-odyssey-oled-g9-g91sd-49-5k-2k-qhd-(5120-x-1440)-144hz-curved-ultrawide-gaming-qd-oled-monitor",
+        "target": "https://www.target.com/p/samsung-49-inch-odyssey-g9-dual-qd-oled-g91sd-curved-ultrawide-gaming-monitor/-/A-1006088640"
+      },
+      "offersFound": 16
+    },
+    "hp_omen_27q": {
+      "oldPrice": [
+        239,
+        239
+      ],
+      "newPrice": [
+        200,
+        477
+      ],
+      "retailerUrls": {
+        "walmart": "https://www.walmart.com/ip/OMEN-by-HP-27q-LED-monitor-gaming-27-2560-x-1440-QHD-165-Hz-IPS-400-cd-m-1000-1-HDR400-1-ms-2xHDMI-DisplayPort-black/5044369347"
+      },
+      "offersFound": 13
+    },
+    "hp_omen_27qs": {
+      "oldPrice": [
+        335,
+        335
+      ],
+      "newPrice": [
+        436,
+        530
+      ],
+      "retailerUrls": {},
+      "offersFound": 3
+    },
+    "hp_omen_34c": {
+      "oldPrice": [
+        299,
+        299
+      ],
+      "newPrice": [
+        299,
+        425
+      ],
+      "retailerUrls": {
+        "walmart": "https://www.walmart.com/ip/OMEN-by-HP-34-inch-WQHD-165Hz-Curved-Gaming-Monitor-OMEN-34c-34-WQHD-3440-x/2270863420",
+        "newegg": "https://www.newegg.com/omen-34-qhd/p/0JC-0019-02F69"
+      },
+      "offersFound": 10
+    },
+    "msi_optix_g272": {
+      "oldPrice": [
+        369,
+        369
+      ],
+      "newPrice": [
+        213,
+        238
+      ],
+      "retailerUrls": {},
+      "offersFound": 3
+    },
+    "msi_optix_g273": {
+      "oldPrice": [
+        258,
+        258
+      ],
+      "newPrice": [
+        245,
+        245
+      ],
+      "retailerUrls": {},
+      "offersFound": 1
+    },
+    "msi_optix_g27c4": {
+      "oldPrice": [
+        171,
+        171
+      ],
+      "newPrice": [
+        182,
+        182
+      ],
+      "retailerUrls": {},
+      "offersFound": 1
+    },
+    "msi_optix_g27c5": {
+      "oldPrice": [
+        257,
+        257
+      ],
+      "newPrice": [
+        257,
+        474
+      ],
+      "retailerUrls": {},
+      "offersFound": 2
+    },
+    "msi_optix_g27cq4": {
+      "oldPrice": [
+        230,
+        280
+      ],
+      "newPrice": [
+        160,
+        326
+      ],
+      "retailerUrls": {},
+      "offersFound": 3
+    },
+    "msi_optix_mag271cqr": {
+      "oldPrice": [
+        399,
+        399
+      ],
+      "newPrice": [
+        376,
+        464
+      ],
+      "retailerUrls": {},
+      "offersFound": 3
+    },
+    "msi_optix_mag273r": {
+      "oldPrice": [
+        282,
+        282
+      ],
+      "newPrice": [
+        246,
+        246
+      ],
+      "retailerUrls": {},
+      "offersFound": 1
+    },
+    "msi_optix_mag274qrf_qd": {
+      "oldPrice": [
+        383,
+        383
+      ],
+      "newPrice": [
+        340,
+        675
+      ],
+      "retailerUrls": {},
+      "offersFound": 9
+    },
+    "dell_p2417h": {
+      "oldPrice": [
+        192,
+        192
+      ],
+      "newPrice": [
+        73,
+        190
+      ],
+      "retailerUrls": {
+        "newegg": "https://www.newegg.com/dell-p2417h-24/p/N82E16824260648"
+      },
+      "offersFound": 17
+    },
+    "dell_p2423d": {
+      "oldPrice": [
+        290,
+        350
+      ],
+      "newPrice": [
+        207,
+        629
+      ],
+      "retailerUrls": {
+        "bhphoto": "https://www.bhphotovideo.com/c/product/803396161-USE/dell_p2423d_23_8_1440p_monitor.html/"
+      },
+      "offersFound": 15
+    },
+    "dell_p2425h": {
+      "oldPrice": [
+        218,
+        218
+      ],
+      "newPrice": [
+        160,
+        290
+      ],
+      "retailerUrls": {
+        "bestbuy": "https://www.bestbuy.com/product/dell-23-8-ips-led-fhd-100hz-monitor-vga-usb-hdmi-black-silver-multicolor/J3K4L62V5Y/sku/12145376",
+        "manufacturer": "https://www.dell.com/en-us/shop/dell-pro-24-plus-monitor-p2425h-without-stand/apd/210-bmgj/monitors-monitor-accessories",
+        "bhphoto": "https://www.bhphotovideo.com/c/product/1933366-REG/dell_dual_24_p2425h_monitor.html",
+        "newegg": "https://www.newegg.com/dell-p2425h-24-fhd-100-hz-ips-silver/p/0JC-0004-00VJ1"
+      },
+      "offersFound": 74
+    },
+    "dell_p3223de": {
+      "oldPrice": [
+        365,
+        365
+      ],
+      "newPrice": [
+        230,
+        575
+      ],
+      "retailerUrls": {},
+      "offersFound": 16
+    },
+    "acer_predator_x32_fpbmiiiiphuzx": {
+      "oldPrice": [
+        757,
+        757
+      ],
+      "newPrice": [
+        1497,
+        1497
+      ],
+      "retailerUrls": {},
+      "offersFound": 1
+    },
+    "asus_proart_display_6k_pa32qcv": {
+      "oldPrice": [
+        1289,
+        1289
+      ],
+      "newPrice": [
+        1299,
+        1300
+      ],
+      "retailerUrls": {
+        "bestbuy": "https://www.bestbuy.com/product/asus-proart-32-6k-ips-professional-monitor-with-hdr-10-displayport-hdmi-black/JJGGLQVYFC/sku/6641137",
+        "microcenter": "https://www.microcenter.com/product/701864/asus-proart-pa32qcv-315-6k-(6016-x-3384)-60hz-led-monitor",
+        "bhphoto": "https://www.bhphotovideo.com/c/product/1908824-REG/asus_proart_display_pa32qcv_31_5.html"
+      },
+      "offersFound": 25
+    },
+    "asus_proart_display_pa278cv": {
+      "oldPrice": [
+        229,
+        229
+      ],
+      "newPrice": [
+        276,
+        332
+      ],
+      "retailerUrls": {
+        "bestbuy": "https://www.bestbuy.com/product/asus-proart-27-lcd-monitor-displayport-usb-hdmi-silver-black/JJ8Q7R58J3/sku/12011100",
+        "manufacturer": "https://shop.asus.com/us/90lm06q1-b023b0-proart-display-pa278cv.html",
+        "target": "https://www.target.com/p/asus-proart-display-27-75hz-1440p-monitor-350-nits-27-class-in-plane-switching-ips-technology-2560-x-1440-16-7-million-colors/-/A-88251442",
+        "bhphoto": "https://www.bhphotovideo.com/c/product/1630911-REG/asus_pa278cv_proart_display_27_wqhd_monitor.html",
+        "newegg": "https://www.newegg.com/asus-pa278cv-27-qhd/p/N82E16824281112"
+      },
+      "offersFound": 70
+    },
+    "asus_proart_display_pa279crv": {
+      "oldPrice": [
+        429,
+        429
+      ],
+      "newPrice": [
+        442,
+        465
+      ],
+      "retailerUrls": {},
+      "offersFound": 2
+    },
+    "asus_proart_display_pa27jcv": {
+      "oldPrice": [
+        798,
+        798
+      ],
+      "newPrice": [
+        729,
+        866
+      ],
+      "retailerUrls": {
+        "manufacturer": "https://shop.asus.com/us/90lm0al1-b01kb2-proart-display-pa27jcv.html",
+        "bestbuy": "https://www.bestbuy.com/product/asus-proart-27-5k-ips-professional-monitor-with-hdr-displayport-hdmi-black/JJGGLQP8YY/sku/6620167",
+        "walmart": "https://www.walmart.com/ip/Asus-ProArt-PA27JCV-27-Class-5K-LED-Monitor-16-9-Black/13478916164",
+        "target": "https://www.target.com/p/asus-proart-pa27jcv-27-5k-5120x2880-60hz-5ms-aglr-ips-monitor/-/A-1008268485",
+        "newegg": "https://www.newegg.com/p/N82E16824281343"
+      },
+      "offersFound": 49
+    },
+    "asus_proart_pa148ctv": {
+      "oldPrice": [
+        359,
+        359
+      ],
+      "newPrice": [
+        359,
+        399
+      ],
+      "retailerUrls": {
+        "bestbuy": "https://www.bestbuy.com/product/asus-proart-14-fhd-ips-professional-monitor-usb-c-micro-hdmi-black/JJ8Q7Q7SS6/sku/6566261",
+        "manufacturer": "https://shop.asus.com/us/90lm06e0-b011b0-proart-display-pa148ctv.html",
+        "target": "https://www.target.com/p/asus-proart-display-14-1080p-portable-touchscreen-monitor-pa148ctv/-/A-86096564",
+        "bhphoto": "https://www.bhphotovideo.com/c/product/1643638-REG/asus_pa148ctv_14_portable_touch_screen.html",
+        "newegg": "https://www.newegg.com/14-asus-90lm06e0-b011b0-capacitive-10-point-multi-touch/p/N82E16824281120"
+      },
+      "offersFound": 62
+    },
+    "aoc_q27g3xmn": {
+      "oldPrice": [
+        279,
+        279
+      ],
+      "newPrice": [
+        299,
+        587
+      ],
+      "retailerUrls": {
+        "newegg": "https://www.newegg.com/aoc-q27g3xmn-27-qhd-180-hz-144-hz-va-black-red/p/N82E16824160516"
+      },
+      "offersFound": 9
+    },
+    "lenovo_q27q_10": {
+      "oldPrice": [
+        399,
+        399
+      ],
+      "newPrice": [
+        299,
+        299
+      ],
+      "retailerUrls": {},
+      "offersFound": 1
+    },
+    "razer_raptor_27_165hz": {
+      "oldPrice": [
+        432,
+        432
+      ],
+      "newPrice": [
+        849,
+        866
+      ],
+      "retailerUrls": {},
+      "offersFound": 2
+    },
+    "asus_rog_strix_oled_xg27acdng": {
+      "oldPrice": [
+        679,
+        679
+      ],
+      "newPrice": [
+        748,
+        759
+      ],
+      "retailerUrls": {
+        "bestbuy": "https://www.bestbuy.com/product/asus-rog-strix-27-2k-oled-360hz-0-03ms-gaming-monitor-with-freesync-premium-pro-and-hdr-displayport-hdmi-black/JJGGLQ63Y3/sku/6616980",
+        "microcenter": "https://www.microcenter.com/product/685348/XG27ACDNG_ROG_Strix_265%22_2K_WQHD_(2560_x_1440)_360Hz_LED_Monitor;_AMD_FreeSync_Premium_-_G-Sync_Compatible;_HDR;_HDMI_DisplayPort_USB_Type-C;_Built_In",
+        "manufacturer": "https://shop.asus.com/us/90lm0an0-b019b0-rog-strix-oled-xg27acdng.html"
+      },
+      "offersFound": 12
+    },
+    "asus_rog_strix_oled_xg27aqdmg": {
+      "oldPrice": [
+        662,
+        662
+      ],
+      "newPrice": [
+        931,
+        1151
+      ],
+      "retailerUrls": {},
+      "offersFound": 4
+    },
+    "asus_rog_strix_oled_xg32ucwmg": {
+      "oldPrice": [
+        1582,
+        1582
+      ],
+      "newPrice": [
+        931,
+        1005
+      ],
+      "retailerUrls": {},
+      "offersFound": 3
+    },
+    "asus_rog_strix_xg279q": {
+      "oldPrice": [
+        617,
+        617
+      ],
+      "newPrice": [
+        1741,
+        1741
+      ],
+      "retailerUrls": {},
+      "offersFound": 1
+    },
+    "asus_rog_strix_xg27acs": {
+      "oldPrice": [
+        299,
+        299
+      ],
+      "newPrice": [
+        259,
+        349
+      ],
+      "retailerUrls": {
+        "manufacturer": "https://shop.asus.com/us/90lm09q0-b011b0-rog-strix-xg27acs.html",
+        "walmart": "https://www.walmart.com/ip/Asus-ROG-Strix-27-2560-x-1440-LED-Anti-glare-sRGB-Gaming-Monitor-XG27ACS/5455305344",
+        "newegg": "https://www.newegg.com/asus-xg27acs-27-qhd-180-hz-rog-strix-fast-ips/p/N82E16824281306"
+      },
+      "offersFound": 17
+    },
+    "asus_rog_strix_xg27aq": {
+      "oldPrice": [
+        349,
+        349
+      ],
+      "newPrice": [
+        347,
+        499
+      ],
+      "retailerUrls": {},
+      "offersFound": 3
+    },
+    "asus_rog_strix_xg27uq": {
+      "oldPrice": [
+        315,
+        315
+      ],
+      "newPrice": [
+        725,
+        1317
+      ],
+      "retailerUrls": {},
+      "offersFound": 4
+    },
+    "asus_rog_strix_xg27uqr": {
+      "oldPrice": [
+        788,
+        788
+      ],
+      "newPrice": [
+        725,
+        1317
+      ],
+      "retailerUrls": {},
+      "offersFound": 4
+    },
+    "asus_rog_swift_360hz_pg27aqn": {
+      "oldPrice": [
+        679,
+        679
+      ],
+      "newPrice": [
+        680,
+        890
+      ],
+      "retailerUrls": {
+        "bestbuy": "https://www.bestbuy.com/product/asus-pg27aqn-27-led-qhd-monitor-black/JJG7VTXX77/sku/11526581",
+        "newegg": "https://www.newegg.com/asus-pg27aqn-27-wqhd-360-hz-ips/p/N82E16824281235"
+      },
+      "offersFound": 16
+    },
+    "asus_rog_swift_oled_pg27aqdm": {
+      "oldPrice": [
+        749,
+        749
+      ],
+      "newPrice": [
+        645,
+        1200
+      ],
+      "retailerUrls": {},
+      "offersFound": 9
+    },
+    "asus_rog_swift_oled_pg27aqdp": {
+      "oldPrice": [
+        799,
+        799
+      ],
+      "newPrice": [
+        645,
+        1200
+      ],
+      "retailerUrls": {},
+      "offersFound": 9
+    },
+    "asus_rog_swift_oled_pg27ucdm": {
+      "oldPrice": [
+        1199,
+        1199
+      ],
+      "newPrice": [
+        1199,
+        1248
+      ],
+      "retailerUrls": {},
+      "offersFound": 2
+    },
+    "asus_rog_swift_oled_pg32ucdm": {
+      "oldPrice": [
+        1243,
+        1243
+      ],
+      "newPrice": [
+        1117,
+        1300
+      ],
+      "retailerUrls": {
+        "bestbuy": "https://www.bestbuy.com/product/asus-rog-strix-32-4k-oled-240hz-0-03ms-gaming-monitor-with-g-sync-freesync-premium-pro-and-hdr-displayport-hdmi-black/JJGHGPJXX6/sku/6638578",
+        "microcenter": "https://www.microcenter.com/product/676972/ROG_Swift_PG32UCDM_315%22_4K_UHD_(3840_x_2160)_240Hz_Gaming_Monitor;_AMD_FreeSync_Premium_Pro_-_NVIDA_G-Sync_Compatible;_HDR;_HDMI_DisplayPort_USB_Type-",
+        "newegg": "https://www.newegg.com/asus-pg32ucdm-31-5-uhd-240-hz-rog-swift-oled-qd-oled-black/p/N82E16824281297",
+        "bhphoto": "https://www.bhphotovideo.com/c/product/803376686-USE/asus_pg32ucdm_republic_of_gamers_swift.html/reviews"
+      },
+      "offersFound": 53
+    },
+    "asus_rog_swift_oled_pg32ucdp": {
+      "oldPrice": [
+        1188,
+        1188
+      ],
+      "newPrice": [
+        1189,
+        1299
+      ],
+      "retailerUrls": {
+        "bestbuy": "https://www.bestbuy.com/product/asus-rog-swift-32-dual-mode-4k-240hz-fhd-480hz-oled-0-03ms-gaming-monitor-with-freesync-and-hdr-displayport-hdmi-black/JJGGLR4HC4/sku/6588545",
+        "manufacturer": "https://shop.asus.com/us/90lm0a50-b013b0-rog-swift-oled-pg32ucdp.html",
+        "newegg": "https://www.newegg.com/asus-pg32ucdp-32-uhd-dual-mode-4k-240hz-fhd-480hz-rog-swift-woled/p/N82E16824281314"
+      },
+      "offersFound": 24
+    },
+    "asus_rog_swift_oled_pg34wcdm": {
+      "oldPrice": [
+        984,
+        984
+      ],
+      "newPrice": [
+        985,
+        1046
+      ],
+      "retailerUrls": {},
+      "offersFound": 2
+    },
+    "asus_rog_swift_oled_pg42uq": {
+      "oldPrice": [
+        1192,
+        1192
+      ],
+      "newPrice": [
+        985,
+        1046
+      ],
+      "retailerUrls": {},
+      "offersFound": 2
+    },
+    "asus_rog_swift_pg279qm": {
+      "oldPrice": [
+        829,
+        829
+      ],
+      "newPrice": [
+        499,
+        1839
+      ],
+      "retailerUrls": {
+        "manufacturer": "https://shop.asus.com/us/90lm0235-b013b0-rog-swift-pg279qm.html",
+        "bhphoto": "https://www.bhphotovideo.com/c/product/1661120-REG/asus_pg279qm_27_wqhd_fast_ips.html",
+        "newegg": "https://www.newegg.com/p/0JC-001P-00N54"
+      },
+      "offersFound": 14
+    },
+    "asus_rog_swift_pg279qz": {
+      "oldPrice": [
+        349,
+        349
+      ],
+      "newPrice": [
+        499,
+        1839
+      ],
+      "retailerUrls": {
+        "manufacturer": "https://shop.asus.com/us/90lm0235-b013b0-rog-swift-pg279qm.html",
+        "bhphoto": "https://www.bhphotovideo.com/c/product/1661120-REG/asus_pg279qm_27_wqhd_fast_ips.html",
+        "newegg": "https://www.newegg.com/p/0JC-001P-00N54"
+      },
+      "offersFound": 14
+    },
+    "asus_rog_swift_pg27uqr": {
+      "oldPrice": [
+        1406,
+        1406
+      ],
+      "newPrice": [
+        680,
+        890
+      ],
+      "retailerUrls": {
+        "bestbuy": "https://www.bestbuy.com/product/asus-pg27aqn-27-led-qhd-monitor-black/JJG7VTXX77/sku/11526581",
+        "newegg": "https://www.newegg.com/asus-pg27aqn-27-wqhd-360-hz-ips/p/N82E16824281235"
+      },
+      "offersFound": 16
+    },
+    "dell_s2417dg": {
+      "oldPrice": [
+        150,
+        300
+      ],
+      "newPrice": [
+        334,
+        686
+      ],
+      "retailerUrls": {},
+      "offersFound": 7
+    },
+    "dell_s2421h": {
+      "oldPrice": [
+        109,
+        109
+      ],
+      "newPrice": [
+        170,
+        356
+      ],
+      "retailerUrls": {
+        "newegg": "https://www.newegg.com/p/2RC-003G-02GT6"
+      },
+      "offersFound": 7
+    },
+    "dell_s2716dg": {
+      "oldPrice": [
+        799,
+        799
+      ],
+      "newPrice": [
+        334,
+        686
+      ],
+      "retailerUrls": {},
+      "offersFound": 7
+    },
+    "dell_s2721d": {
+      "oldPrice": [
+        259,
+        259
+      ],
+      "newPrice": [
+        189,
+        358
+      ],
+      "retailerUrls": {},
+      "offersFound": 5
+    },
+    "dell_s2721dgf": {
+      "oldPrice": [
+        229,
+        229
+      ],
+      "newPrice": [
+        209,
+        380
+      ],
+      "retailerUrls": {},
+      "offersFound": 2
+    },
+    "dell_s2721hgf": {
+      "oldPrice": [
+        329,
+        329
+      ],
+      "newPrice": [
+        209,
+        380
+      ],
+      "retailerUrls": {},
+      "offersFound": 2
+    },
+    "dell_s2721qs": {
+      "oldPrice": [
+        299,
+        299
+      ],
+      "newPrice": [
+        386,
+        636
+      ],
+      "retailerUrls": {},
+      "offersFound": 3
+    },
+    "dell_s2722dgm": {
+      "oldPrice": [
+        269,
+        269
+      ],
+      "newPrice": [
+        422,
+        499
+      ],
+      "retailerUrls": {
+        "newegg": "https://www.newegg.com/dell-5-hd/p/0JC-0004-00SU8"
+      },
+      "offersFound": 4
+    },
+    "dell_s2722qc": {
+      "oldPrice": [
+        329,
+        329
+      ],
+      "newPrice": [
+        509,
+        509
+      ],
+      "retailerUrls": {},
+      "offersFound": 1
+    },
+    "dell_s2725dc": {
+      "oldPrice": [
+        259,
+        259
+      ],
+      "newPrice": [
+        245,
+        355
+      ],
+      "retailerUrls": {
+        "manufacturer": "https://www.dell.com/en-us/shop/dell-27-plus-qhd-usb-c-monitor-s2725dc/apd/210-btgn/monitors-monitor-accessories"
+      },
+      "offersFound": 3
+    },
+    "dell_s2725qc": {
+      "oldPrice": [
+        315,
+        315
+      ],
+      "newPrice": [
+        279,
+        280
+      ],
+      "retailerUrls": {
+        "manufacturer": "https://www.dell.com/en-us/shop/dell-27-plus-4k-monitor-s2725qs/apd/210-brnd/monitors-monitor-accessories",
+        "microcenter": "https://www.microcenter.com/product/693763/27_Plus_S2725QS_27%22_4K_UHD_(3840_x_2160)_120Hz_LED_Monitor;_AMD_FreeSync_Premium_Compatible;_HDR;_DisplayPort_HDMI;_Narrow_Bezel;_Eye_Comfort_Technolo",
+        "walmart": "https://www.walmart.com/ip/Dell-27-Plus-4K-Monitor-S2725QS-27-inch-3840-x-2160-120Hz-16-9-Display-IPS-Panel-AMD-FreeSync-Premium-sRGB-99-Integrated-Speakers-1500-1-Contrast-Rat/15667851157"
+      },
+      "offersFound": 14
+    },
+    "dell_s2725qs": {
+      "oldPrice": [
+        278,
+        278
+      ],
+      "newPrice": [
+        279,
+        280
+      ],
+      "retailerUrls": {
+        "manufacturer": "https://www.dell.com/en-us/shop/dell-27-plus-4k-monitor-s2725qs/apd/210-brnd/monitors-monitor-accessories",
+        "microcenter": "https://www.microcenter.com/product/693763/27_Plus_S2725QS_27%22_4K_UHD_(3840_x_2160)_120Hz_LED_Monitor;_AMD_FreeSync_Premium_Compatible;_HDR;_DisplayPort_HDMI;_Narrow_Bezel;_Eye_Comfort_Technolo",
+        "walmart": "https://www.walmart.com/ip/Dell-27-Plus-4K-Monitor-S2725QS-27-inch-3840-x-2160-120Hz-16-9-Display-IPS-Panel-AMD-FreeSync-Premium-sRGB-99-Integrated-Speakers-1500-1-Contrast-Rat/15667851157"
+      },
+      "offersFound": 14
+    },
+    "dell_s3220dgf": {
+      "oldPrice": [
+        229,
+        229
+      ],
+      "newPrice": [
+        285,
+        380
+      ],
+      "retailerUrls": {},
+      "offersFound": 5
+    },
+    "dell_s3221qs": {
+      "oldPrice": [
+        369,
+        369
+      ],
+      "newPrice": [
+        400,
+        1028
+      ],
+      "retailerUrls": {},
+      "offersFound": 4
+    },
+    "dell_s3222dgm": {
+      "oldPrice": [
+        369,
+        369
+      ],
+      "newPrice": [
+        285,
+        380
+      ],
+      "retailerUrls": {},
+      "offersFound": 5
+    },
+    "dell_s3225qc": {
+      "oldPrice": [
+        645,
+        645
+      ],
+      "newPrice": [
+        330,
+        645
+      ],
+      "retailerUrls": {
+        "bestbuy": "https://www.bestbuy.com/product/dell-s3225qs-31-5-va-led-4k-uhd-120hz-freesync-premium-monitor-with-hdr-hdmi-displayport-ash-white/J3K4L63J38/sku/6619489",
+        "manufacturer": "https://www.dell.com/en-us/shop/dell-32-plus-4k-monitor-s3225qs/apd/210-brmt/monitors-monitor-accessories",
+        "microcenter": "https://www.microcenter.com/product/693762/dell-32-plus-s3225qs-315-4k-uhd-(3840-x-2160)-120hz-led-monitor",
+        "newegg": "https://www.newegg.com/p/0JC-0004-00WD9"
+      },
+      "offersFound": 25
+    },
+    "dell_s3225qs": {
+      "oldPrice": [
+        316,
+        316
+      ],
+      "newPrice": [
+        330,
+        645
+      ],
+      "retailerUrls": {
+        "bestbuy": "https://www.bestbuy.com/product/dell-s3225qs-31-5-va-led-4k-uhd-120hz-freesync-premium-monitor-with-hdr-hdmi-displayport-ash-white/J3K4L63J38/sku/6619489",
+        "manufacturer": "https://www.dell.com/en-us/shop/dell-32-plus-4k-monitor-s3225qs/apd/210-brmt/monitors-monitor-accessories",
+        "microcenter": "https://www.microcenter.com/product/693762/dell-32-plus-s3225qs-315-4k-uhd-(3840-x-2160)-120hz-led-monitor",
+        "newegg": "https://www.newegg.com/p/0JC-0004-00WD9"
+      },
+      "offersFound": 25
+    },
+    "dell_s3422dwg": {
+      "oldPrice": [
+        344,
+        344
+      ],
+      "newPrice": [
+        296,
+        590
+      ],
+      "retailerUrls": {
+        "newegg": "https://www.newegg.com/p/1VH-00KP-00064"
+      },
+      "offersFound": 8
+    },
+    "samsung_smart_monitor_m7_m70c_s32cm70": {
+      "oldPrice": [
+        599,
+        599
+      ],
+      "newPrice": [
+        230,
+        500
+      ],
+      "retailerUrls": {
+        "bhphoto": "https://www.bhphotovideo.com/c/product/803299493-USE/samsung_ls32dm702unxgo_m70d_32_4k_hdr.html/"
+      },
+      "offersFound": 12
+    },
+    "samsung_smart_monitor_m7_s43bm70": {
+      "oldPrice": [
+        449,
+        449
+      ],
+      "newPrice": [
+        230,
+        565
+      ],
+      "retailerUrls": {
+        "bestbuy": "https://www.bestbuy.com/product/samsung-32-m70f-4k-uhd-smart-monitor-with-samsungvision-ai-built-in-speakers-usb-c-black/JJGRFXVKP5/sku/6632215"
+      },
+      "offersFound": 21
+    },
+    "samsung_smart_monitor_m80d_s32dm80": {
+      "oldPrice": [
+        499,
+        499
+      ],
+      "newPrice": [
+        519,
+        1190
+      ],
+      "retailerUrls": {
+        "bestbuy": "https://www.bestbuy.com/product/samsung-m8-m80d-32-4k-uhd-smart-monitor-with-hdr10-flicker-free-vesa-mount-hdmi-dkz-hub-ls32dm801unxza-white/JJGXYWJ48J/sku/11402006"
+      },
+      "offersFound": 11
+    },
+    "samsung_smart_monitor_m80b_s32bm80": {
+      "oldPrice": [
+        699,
+        699
+      ],
+      "newPrice": [
+        700,
+        1170
+      ],
+      "retailerUrls": {},
+      "offersFound": 3
+    },
+    "apple_studio_display": {
+      "oldPrice": [
+        1848,
+        1848
+      ],
+      "newPrice": [
+        1549,
+        1899
+      ],
+      "retailerUrls": {
+        "bestbuy": "https://www.bestbuy.com/product/apple-studio-display-standard-glass-tilt-adjustable-stand-silver/JJGCQ8YFQK/sku/11087130",
+        "manufacturer": "https://www.apple.com/us/xc/product/MYJG3LL/A",
+        "bhphoto": "https://www.bhphotovideo.com/c/product/1694973-REG/apple_mmyx3ll_a_studio_display_nano_texture.html"
+      },
+      "offersFound": 95
+    },
+    "samsung_t55": {
+      "oldPrice": [
+        150,
+        170
+      ],
+      "newPrice": [
+        290,
+        507
+      ],
+      "retailerUrls": {
+        "walmart": "https://www.walmart.com/ip/SAMSUNG-34-Odyssey-G55T-WQHD-165Hz-1ms-MPRT-HDR-Curved-Gaming-Monitor-LC34G55TWDNXZA/5786814139"
+      },
+      "offersFound": 13
+    },
+    "lenovo_thinkvision_m14": {
+      "oldPrice": [
+        259,
+        259
+      ],
+      "newPrice": [
+        350,
+        769
+      ],
+      "retailerUrls": {
+        "newegg": "https://www.newegg.com/lenovo-62a3uar1us-14/p/1B4-001H-02H64"
+      },
+      "offersFound": 8
+    },
+    "asus_tuf_gaming_vg258qm": {
+      "oldPrice": [
+        184,
+        184
+      ],
+      "newPrice": [
+        319,
+        319
+      ],
+      "retailerUrls": {},
+      "offersFound": 1
+    },
+    "asus_tuf_gaming_vg259qm": {
+      "oldPrice": [
+        249,
+        249
+      ],
+      "newPrice": [
+        228,
+        468
+      ],
+      "retailerUrls": {},
+      "offersFound": 9
+    },
+    "asus_tuf_gaming_vg27aql1a": {
+      "oldPrice": [
+        334,
+        334
+      ],
+      "newPrice": [
+        210,
+        669
+      ],
+      "retailerUrls": {
+        "newegg": "https://www.newegg.com/p/3C6-0005-00413"
+      },
+      "offersFound": 7
+    },
+    "asus_tuf_gaming_vg34vql1b": {
+      "oldPrice": [
+        369,
+        369
+      ],
+      "newPrice": [
+        289,
+        403
+      ],
+      "retailerUrls": {
+        "manufacturer": "https://shop.asus.com/us/90lm06f0-b011b3-tuf-gaming-vg34vql1b.html",
+        "bestbuy": "https://www.bestbuy.com/product/asus-tuf-gaming-34lcd-curved-wqhd-freesync-monitor-2-x-hdmi-2-0-input-2-x-displayport-1-4-input-1-x-usb-type-b-input-black/JJ8Q7RFL69/sku/11146219",
+        "target": "https://www.target.com/p/asus-tuf-vg34vql1b-34-3440x1440-uwqhd-1ms-165hz-curved-desktop-monitor/-/A-92610947",
+        "newegg": "https://www.newegg.com/asus-vg34vql1b-34-uwqhd-165-hz-tuf-gaming-va-black/p/N82E16824281097"
+      },
+      "offersFound": 55
+    },
+    "asus_tuf_vg27aq": {
+      "oldPrice": [
+        279,
+        279
+      ],
+      "newPrice": [
+        289,
+        349
+      ],
+      "retailerUrls": {
+        "bestbuy": "https://www.bestbuy.com/product/asus-tuf-gaming-27-2k-ips-165hz-1ms-gaming-monitor-with-g-sync-and-hdr-displayport-hdmi-black/JJ8Q76LQGK/sku/11124293",
+        "walmart": "https://www.walmart.com/ip/ASUS-TUF-Gaming-27-QHD-2560x1440-Monitor-IPS-165Hz-Extreme-Low-Motion-Blur-Sync-NVIDIA-G-SYNC-Compatible-Adaptive-Sync-1ms-MPRT-HDR10-VG27AQ/951231478",
+        "target": "https://www.target.com/p/asus-tuf-gaming-27-2k-hdr-gaming-monitor-vg27aq-qhd-2560-x-1440-165hz-supports-144hz-1ms-extreme-low-motion-blur-g-sync-compatible-black/-/A-87801276",
+        "bhphoto": "https://www.bhphotovideo.com/c/product/1500997-REG/asus_vg27aq_tuf_gaming_27_wqhd.html",
+        "newegg": "https://www.newegg.com/asus-27/p/0JC-001P-00NH7"
+      },
+      "offersFound": 54
+    },
+    "asus_tuf_vg27vq": {
+      "oldPrice": [
+        449,
+        449
+      ],
+      "newPrice": [
+        190,
+        334
+      ],
+      "retailerUrls": {},
+      "offersFound": 9
+    },
+    "asus_tuf_vg32vq": {
+      "oldPrice": [
+        304,
+        304
+      ],
+      "newPrice": [
+        462,
+        462
+      ],
+      "retailerUrls": {},
+      "offersFound": 1
+    },
+    "dell_u2515h": {
+      "oldPrice": [
+        269,
+        269
+      ],
+      "newPrice": [
+        172,
+        649
+      ],
+      "retailerUrls": {},
+      "offersFound": 9
+    },
+    "dell_u2518d": {
+      "oldPrice": [
+        269,
+        269
+      ],
+      "newPrice": [
+        250,
+        478
+      ],
+      "retailerUrls": {
+        "newegg": "https://www.newegg.com/dell-u2518d-25-qhd/p/0JC-0004-00950"
+      },
+      "offersFound": 5
+    },
+    "dell_u2715h": {
+      "oldPrice": [
+        269,
+        269
+      ],
+      "newPrice": [
+        448,
+        523
+      ],
+      "retailerUrls": {},
+      "offersFound": 3
+    },
+    "dell_u2717d": {
+      "oldPrice": [
+        269,
+        269
+      ],
+      "newPrice": [
+        405,
+        550
+      ],
+      "retailerUrls": {
+        "newegg": "https://www.newegg.com/dell-u2717d-27-wqhd/p/0JC-0004-00693"
+      },
+      "offersFound": 3
+    },
+    "dell_u2718q": {
+      "oldPrice": [
+        299,
+        299
+      ],
+      "newPrice": [
+        397,
+        511
+      ],
+      "retailerUrls": {
+        "newegg": "https://www.newegg.com/dell-u2718q-27-4k/p/N82E16824260554"
+      },
+      "offersFound": 6
+    },
+    "dell_u2719d": {
+      "oldPrice": [
+        369,
+        369
+      ],
+      "newPrice": [
+        398,
+        614
+      ],
+      "retailerUrls": {
+        "walmart": "https://www.walmart.com/ip/Dell-U2719D-27-inch/581233523"
+      },
+      "offersFound": 9
+    },
+    "dell_u2723qe": {
+      "oldPrice": [
+        626,
+        626
+      ],
+      "newPrice": [
+        369,
+        1408
+      ],
+      "retailerUrls": {
+        "bestbuy": "https://www.bestbuy.com/product/dell-ultrasharp-27-4k-usb-c-hub-monitor-with-2-year-warranty/JJG3SJSGGQ/sku/12144409"
+      },
+      "offersFound": 26
+    },
+    "dell_u3219q": {
+      "oldPrice": [
+        1029,
+        1029
+      ],
+      "newPrice": [
+        1677,
+        1677
+      ],
+      "retailerUrls": {},
+      "offersFound": 2
+    },
+    "dell_u3223qe": {
+      "oldPrice": [
+        818,
+        818
+      ],
+      "newPrice": [
+        620,
+        1291
+      ],
+      "retailerUrls": {
+        "newegg": "https://www.newegg.com/p/3C6-000M-009K4"
+      },
+      "offersFound": 15
+    },
+    "dell_u3225qe": {
+      "oldPrice": [
+        1029,
+        1029
+      ],
+      "newPrice": [
+        700,
+        1030
+      ],
+      "retailerUrls": {
+        "bhphoto": "https://www.bhphotovideo.com/c/product/1898926-REG/dell_u3225qe_ultrasharp_32_4k_uhd.html",
+        "bestbuy": "https://www.bestbuy.com/product/dell-ultrasharp-31-5-ips-led-4k-uhd-120hz-monitor-with-hdr-usb-hdmi-black-silver-dual-color/J3K4L637GS/sku/10220711",
+        "manufacturer": "https://www.dell.com/en-us/shop/dell-ultrasharp-32-4k-thunderbolt-hub-monitor-u3225qe/apd/210-bqhs/monitors-monitor-accessories",
+        "newegg": "https://www.newegg.com/dell-u3225qe-32-31-5-viewable-uhd-120-hz-ultrasharp-ips-silver/p/15Z-0006-00B74"
+      },
+      "offersFound": 31
+    },
+    "samsung_u32j590": {
+      "oldPrice": [
+        219,
+        219
+      ],
+      "newPrice": [
+        340,
+        369
+      ],
+      "retailerUrls": {
+        "bestbuy": "https://www.bestbuy.com/product/samsung-32-viewfinity-uj590-uhd-monitor-dark-gray-blue/J3ZYGC34HL/sku/6293716",
+        "target": "https://www.target.com/p/samsung-uj59-32-4k-ultra-hd-monitor-3840-x-2160-4k-uhd-display-60-hz-refresh-rate-270-nit-brightness-3000-1-contrast-ratio/-/A-78451644",
+        "bhphoto": "https://www.bhphotovideo.com/c/product/1405061-REG/samsung_u32j590_31_5_4k_uhd.html",
+        "newegg": "https://www.newegg.com/32-uj590-uhd-wqhd-monitor-lu32j590uqnxza/p/N82E16824022724"
+      },
+      "offersFound": 62
+    },
+    "dell_u3425we": {
+      "oldPrice": [
+        779,
+        779
+      ],
+      "newPrice": [
+        750,
+        1050
+      ],
+      "retailerUrls": {
+        "bestbuy": "https://www.bestbuy.com/product/dell-ultrasharp-34-inch-1440p-120-hz-curved-monitor-with-dock-pro-station-bundle-black/JJG2FX3RQK",
+        "manufacturer": "https://www.dell.com/en-us/shop/dell-ultrasharp-34-curved-thunderbolt-hub-monitor-u3425we/apd/210-bmds/monitors-monitor-accessories",
+        "bhphoto": "https://www.bhphotovideo.com/c/product/1817112-REG/dell_u3425we_ultrasharp_34_wqhd_ips.html",
+        "newegg": "https://www.newegg.com/dell-34/p/2S3-0007-002Y0"
+      },
+      "offersFound": 52
+    },
+    "dell_u3818dw": {
+      "oldPrice": [
+        1349,
+        1349
+      ],
+      "newPrice": [
+        670,
+        1566
+      ],
+      "retailerUrls": {},
+      "offersFound": 5
+    },
+    "dell_u4025qw": {
+      "oldPrice": [
+        1838,
+        1838
+      ],
+      "newPrice": [
+        1900,
+        1970
+      ],
+      "retailerUrls": {
+        "microcenter": "https://www.microcenter.com/product/678791/U4025QW_397%22_5K_WQHD_(5120_x_2160)_120Hz_Wide_Curved__Screen_Monitor;_Adaptive_Sync;_HDR;_HDMI_DisplayPort_Thunderbolt_4;_Ambient_Light_Sensor;_Comfor",
+        "manufacturer": "https://www.dell.com/en-us/shop/dell-ultrasharp-40-curved-thunderbolt-hub-monitor-u4025qw/apd/210-bmdp/monitors-monitor-accessories",
+        "bhphoto": "https://www.bhphotovideo.com/c/product/1814581-REG/dell_u4025qw_40_curved_5k_120hz.html"
+      },
+      "offersFound": 26
+    },
+    "dell_u4919dw": {
+      "oldPrice": [
+        1229,
+        1229
+      ],
+      "newPrice": [
+        128,
+        1379
+      ],
+      "retailerUrls": {
+        "newegg": "https://www.newegg.com/dell-u4919dw-49/p/N82E16824260628",
+        "bhphoto": "https://www.bhphotovideo.com/c/product/802240578-USE/dell_u4919dw_49_32_9_curved.html/amp"
+      },
+      "offersFound": 10
+    },
+    "lg_ultrafine_4k": {
+      "oldPrice": [
+        374,
+        374
+      ],
+      "newPrice": [
+        379,
+        842
+      ],
+      "retailerUrls": {
+        "walmart": "https://www.walmart.com/ip/LG-27-Class-IPS-4K-UHD-VESA-HDR400-USB-C-Monitor-27UP850-W/551373482"
+      },
+      "offersFound": 9
+    },
+    "dell_ultrasharp_u2520d": {
+      "oldPrice": [
+        469,
+        469
+      ],
+      "newPrice": [
+        390,
+        390
+      ],
+      "retailerUrls": {},
+      "offersFound": 1
+    },
+    "dell_ultrasharp_u2720q": {
+      "oldPrice": [
+        618,
+        618
+      ],
+      "newPrice": [
+        700,
+        711
+      ],
+      "retailerUrls": {
+        "newegg": "https://www.newegg.com/dell-27/p/0JC-0004-00R31"
+      },
+      "offersFound": 2
+    },
+    "dell_ultrasharp_u4021qw": {
+      "oldPrice": [
+        1500,
+        1800
+      ],
+      "newPrice": [
+        1649,
+        3009
+      ],
+      "retailerUrls": {},
+      "offersFound": 7
+    },
+    "viewsonic_vg1655": {
+      "oldPrice": [
+        199,
+        199
+      ],
+      "newPrice": [
+        130,
+        200
+      ],
+      "retailerUrls": {
+        "bestbuy": "https://www.bestbuy.com/product/viewsonic-vg1655-15-6-lcd-fhd-monitor-displayport-usb-hdmi-silver/J37H88FSLH/sku/6428014",
+        "manufacturer": "https://www.walmart.com/ip/ViewSonic-15-6-Inch-1080p-Portable-Monitor-with-2-Way-Powered-60W-USB-C-IPS-Eye-Care-Dual-Speakers-Built-in-Stand-with-Cover-VG1655/650601269",
+        "bhphoto": "https://www.bhphotovideo.com/c/product/803258725-USE/viewsonic_vg1655_15_6_16_9_portable.html/"
+      },
+      "offersFound": 59
+    },
+    "asus_vg279q": {
+      "oldPrice": [
+        349,
+        349
+      ],
+      "newPrice": [
+        300,
+        603
+      ],
+      "retailerUrls": {},
+      "offersFound": 3
+    },
+    "asus_vg279qm": {
+      "oldPrice": [
+        220,
+        250
+      ],
+      "newPrice": [
+        229,
+        689
+      ],
+      "retailerUrls": {
+        "manufacturer": "https://shop.asus.com/us/90lm05x0-b013b0-tuf-gaming-vg279qm1a.html",
+        "newegg": "https://www.newegg.com/p/0JC-001P-00N80"
+      },
+      "offersFound": 29
+    },
+    "viewsonic_vx2758_2kp_mhd": {
+      "oldPrice": [
+        269,
+        269
+      ],
+      "newPrice": [
+        330,
+        330
+      ],
+      "retailerUrls": {},
+      "offersFound": 1
+    },
+    "corsair_xeneon_27qhd240": {
+      "oldPrice": [
+        1021,
+        1021
+      ],
+      "newPrice": [
+        928,
+        1038
+      ],
+      "retailerUrls": {},
+      "offersFound": 3
+    },
+    "corsair_xeneon_32qhd165": {
+      "oldPrice": [
+        801,
+        801
+      ],
+      "newPrice": [
+        714,
+        741
+      ],
+      "retailerUrls": {},
+      "offersFound": 3
+    },
+    "viewsonic_xg2402": {
+      "oldPrice": [
+        629,
+        629
+      ],
+      "newPrice": [
+        240,
+        270
+      ],
+      "retailerUrls": {
+        "bestbuy": "https://www.bestbuy.com/product/viewsonic-xg2431-23-8-lcd-fhd-freesync-premium-gaming-monitor-with-hdr-displayport-usb-hdmi-black/J37H88FTTV/sku/11067528",
+        "bhphoto": "https://www.bhphotovideo.com/c/product/1652586-REG/viewsonic_xg2431_24_1080p_240hz_gaming.html",
+        "newegg": "https://www.newegg.com/viewsonic-xg2431-24-fhd-240-hz-ips-black/p/N82E16824117068"
+      },
+      "offersFound": 38
+    },
+    "viewsonic_xg2431": {
+      "oldPrice": [
+        239,
+        239
+      ],
+      "newPrice": [
+        240,
+        270
+      ],
+      "retailerUrls": {
+        "bestbuy": "https://www.bestbuy.com/product/viewsonic-xg2431-23-8-lcd-fhd-freesync-premium-gaming-monitor-with-hdr-displayport-usb-hdmi-black/J37H88FTTV/sku/11067528",
+        "bhphoto": "https://www.bhphotovideo.com/c/product/1652586-REG/viewsonic_xg2431_24_1080p_240hz_gaming.html",
+        "newegg": "https://www.newegg.com/viewsonic-xg2431-24-fhd-240-hz-ips-black/p/N82E16824117068"
+      },
+      "offersFound": 41
+    },
+    "asus_zenscreen_go_mb16ahp": {
+      "oldPrice": [
+        279,
+        279
+      ],
+      "newPrice": [
+        229,
+        280
+      ],
+      "retailerUrls": {
+        "bestbuy": "https://www.bestbuy.com/product/asus-zenscreen-go-15-6-fhd-ips-portable-monitor-with-foldable-smart-case-usb-c-micro-hdmi-black/JJ8Q76YXZG/sku/10953937",
+        "walmart": "https://www.walmart.com/ip/ASUS-ZenScreen-GO-MB16AHP-15-6-Full-HD-1920x1080-USB-Type-C-Micro-HDMI-Flicker-Free-Blue-Light-Filter-Built-in-Battery-Portable-IPS-Monitor/743167407",
+        "bhphoto": "https://www.bhphotovideo.com/c/product/1495791-REG/asus_zenscreen_go_mb16ahp_15_6.html",
+        "newegg": "https://www.newegg.com/asus-90lm04t0-b011b0-15-6-full-hd/p/N82E16824236979",
+        "manufacturer": "https://www.walmart.com/ip/ASUS-ZenScreen-GO-MB16AHP-15-6-Full-HD-1920x1080-USB-Type-C-Micro-HDMI-Flicker-Free-Blue-Light-Filter-Built-in-Battery-Portable-IPS-Monitor/743167407"
+      },
+      "offersFound": 90
+    },
+    "asus_zenscreen_mb14ac": {
+      "oldPrice": [
+        190,
+        190
+      ],
+      "newPrice": [
+        105,
+        199
+      ],
+      "retailerUrls": {
+        "manufacturer": "https://shop.asus.com/us/90lm0631-b011b0-zenscreen-mb14ac.html",
+        "newegg": "https://www.newegg.com/asus-mb14ac-14-full-hd/p/N82E16824281074"
+      },
+      "offersFound": 11
+    },
+    "asus_zenscreen_touch_mb16amt": {
+      "oldPrice": [
+        211,
+        211
+      ],
+      "newPrice": [
+        340,
+        493
+      ],
+      "retailerUrls": {},
+      "offersFound": 5
+    },
+    "benq_zowie_xl2540": {
+      "oldPrice": [
+        320,
+        350
+      ],
+      "newPrice": [
+        329,
+        528
+      ],
+      "retailerUrls": {},
+      "offersFound": 6
+    },
+    "benq_zowie_xl2546x": {
+      "oldPrice": [
+        499,
+        499
+      ],
+      "newPrice": [
+        500,
+        500
+      ],
+      "retailerUrls": {
+        "bestbuy": "https://www.bestbuy.com/product/benq-zowie-xl2546x-24-1-tn-led-280hz-gaming-monitor-black/J39QZT58ST/sku/6614815",
+        "manufacturer": "https://zowie.benq.com/en-us/monitor/xl2546x-plus.html",
+        "bhphoto": "https://www.bhphotovideo.com/c/product/1871885-REG/benq_xl2546x_esports_24_1_full_hd.html"
+      },
+      "offersFound": 13
+    },
+    "benq_zowie_xl2586x": {
+      "oldPrice": [
+        999,
+        999
+      ],
+      "newPrice": [
+        1040,
+        1224
+      ],
+      "retailerUrls": {},
+      "offersFound": 4
+    }
+  },
+  "failures": [
+    "aoc_24g2",
+    "lg_24gl600f",
+    "lg_24gs65f_b",
+    "lg_24mp59g_p",
+    "lg_27gl650f_b",
+    "lg_27gr95um_b",
+    "innocn_27m2v",
+    "lg_27mn60t_w",
+    "lg_27ud58_b",
+    "lg_27ud68_b",
+    "lg_29um69g_b",
+    "lg_32gk650f_b",
+    "lg_32gk850g_b",
+    "lg_32gn50t_b",
+    "lg_32gp850_b_32gp83b_b",
+    "lg_32gq950_b",
+    "lg_32qn55t_b",
+    "lg_32ud59_b",
+    "lg_32ud99_w",
+    "lg_32ul500_w",
+    "lg_32ul950_w",
+    "lg_34gp83a_b",
+    "lg_34uc79g_b",
+    "lg_35wn65c_b",
+    "lg_38gl950g_b",
+    "lg_c2_42_oled",
+    "lg_c4_42_oled",
+    "lg_43ud79_b",
+    "lg_c1_48_oled",
+    "lg_48_cx_oled",
+    "lg_49gr85dc_b",
+    "dell_alienware_aw2521h",
+    "dell_alienware_aw2521hf",
+    "dell_alienware_aw2523hf",
+    "dell_alienware_aw2723df",
+    "dell_alienware_aw2724dm",
+    "dell_alienware_aw2725df",
+    "dell_alienware_aw3225dm",
+    "dell_alienware_aw3418dw",
+    "dell_alienware_aw3420dw",
+    "dell_alienware_aw3423dw",
+    "dell_alienware_aw3423dwf",
+    "dell_alienware_aw3425dw",
+    "dell_alienware_aw3425dwm",
+    "dell_alienware_aw3821dw",
+    "gigabyte_aorus_ad27qd",
+    "gigabyte_aorus_fi27q_x",
+    "gigabyte_aorus_fi27q",
+    "gigabyte_aorus_fo27q3",
+    "gigabyte_aorus_fv43u",
+    "samsung_c27rg5",
+    "sceptre_c325w",
+    "samsung_c34f791_cf791",
+    "samsung_c34j791_cj791",
+    "samsung_c49hg90_chg90",
+    "samsung_c49rg9_crg9",
+    "samsung_chg70",
+    "aoc_cq32g1",
+    "aoc_cu34g2x",
+    "dell_d3218hn",
+    "nixeus_edg_34",
+    "benq_el2870u",
+    "viewsonic_elite_xg270",
+    "viewsonic_elite_xg270qg",
+    "acer_g257hu_smidpx",
+    "dell_g2722hs",
+    "dell_g2724d",
+    "dell_g3223q",
+    "acer_gn246hl_bbid",
+    "sony_inzone_m9",
+    "samsung_jg50",
+    "lenovo_legion_y32p_30",
+    "gigabyte_m27q_rev_1_0",
+    "gigabyte_m27q_rev_2_0",
+    "gigabyte_m27q_x",
+    "gigabyte_m27u",
+    "gigabyte_m32q",
+    "gigabyte_m32u",
+    "gigabyte_m34wq",
+    "philips_momentum_436m6vbpab",
+    "msi_mpg_272urx_qd_oled",
+    "asus_mx279hs",
+    "acer_nitro_xf243y_pbmiiprx",
+    "acer_nitro_xf252q_xbmiiprzx",
+    "acer_nitro_xv272u_kvbmiiprzx",
+    "acer_nitro_xv273_xbmiiprzx",
+    "acer_nitro_xv275k_p5biipruzx",
+    "acer_nitro_xv275u_p3biipx",
+    "acer_nitro_xv282k_kvbmiipruzx",
+    "acer_nitro_xv340ck_pbmiipphzx",
+    "acer_nitro_xz322qu_v3bmiiphx",
+    "msi_oculux_nxg253r",
+    "samsung_odyssey_ark_s55bg970",
+    "samsung_odyssey_g3_f27g35t",
+    "samsung_odyssey_g3_s24ag30",
+    "samsung_odyssey_g55t_c27g55t",
+    "samsung_odyssey_g55t_c34g55t",
+    "samsung_odyssey_g50d_s27dg50",
+    "samsung_odyssey_g51c_s27cg51",
+    "samsung_odyssey_g55a_s27ag55",
+    "samsung_odyssey_g55c_s27cg55",
+    "samsung_odyssey_g65d_s32bg65d",
+    "samsung_odyssey_g65b_s32bg65",
+    "samsung_odyssey_g7_c32g75t",
+    "samsung_odyssey_g7_s28ag70",
+    "samsung_odyssey_g70d_s32dg70",
+    "samsung_odyssey_g9_c49g95t",
+    "samsung_odyssey_neo_g8_s32bg85",
+    "samsung_odyssey_neo_g9_g95na_s49ag95",
+    "hp_omen_27",
+    "hp_omen_27c",
+    "hp_omen_27i",
+    "hp_omen_x_25f",
+    "hp_omen_x_27",
+    "msi_optix_g273qf",
+    "msi_optix_g27c",
+    "msi_optix_g27c6",
+    "msi_optix_g321cu",
+    "msi_optix_mag161v",
+    "msi_optix_mpg27cq",
+    "dell_p2217h",
+    "hp_pavilion_22cwa",
+    "asus_pb277q",
+    "benq_pd3225u",
+    "acer_predator_x25_bmiiprzx",
+    "acer_predator_x27_bmiphzx",
+    "acer_predator_x27u_bmiipruzx",
+    "acer_predator_xb271hu_bmiprz",
+    "acer_predator_xb273k_pbmiphzx",
+    "acer_predator_xb273u_gxbmiipruzx",
+    "acer_predator_z35p_bmiphz",
+    "asus_proart_display_pa278qv",
+    "pixio_px7_prime",
+    "aoc_q27g40xmn",
+    "razer_raptor_27_144hz",
+    "asus_rog_strix_xg16ahpe",
+    "asus_rog_strix_xg17ahpe",
+    "asus_rog_swift_360hz_pg259qn",
+    "asus_rog_swift_pg279q",
+    "asus_rog_swift_pg348q",
+    "asus_rog_swift_pro_pg248qp",
+    "dell_s2419hgf",
+    "dell_s2719dgf",
+    "dell_s3219d",
+    "samsung_smart_monitor_m80c_s32cm80",
+    "samsung_space_sr75",
+    "cooler_master_tempest_gp27u",
+    "mobile_pixels_trio",
+    "asus_tuf_gaming_vg249q1a",
+    "asus_tuf_gaming_vg27wq1b",
+    "dell_u2415",
+    "dell_u2725qe",
+    "dell_u3417w",
+    "samsung_ue590",
+    "dell_ultrasharp_u2721de",
+    "asus_vg245h",
+    "asus_vg246h",
+    "asus_vg248qe",
+    "asus_vg248qg",
+    "hp_x24ih",
+    "hp_x27q",
+    "corsair_xeneon_flex_45wqhd240",
+    "acer_xf251q_bmiirx",
+    "lepow_z1_gamut",
+    "lepow_z1",
+    "benq_zowie_xl2411p",
+    "benq_zowie_xl2546k",
+    "benq_zowie_xl2566k"
+  ],
+  "apiCallsUsed": 700
+}
