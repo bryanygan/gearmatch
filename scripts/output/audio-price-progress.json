@@ -1,0 +1,1837 @@
+{
+  "lastProcessedIndex": 196,
+  "results": {
+    "steelseries_arctis_nova_7": {
+      "oldPrice": [
+        140,
+        180
+      ],
+      "newPrice": [
+        200,
+        270
+      ],
+      "retailerUrls": {
+        "manufacturer": "https://www.walmart.com/ip/SteelSeries-Arctis-Nova-7P-Multi-Platform-Premium-Wireless-Gaming-Headset-Black/1005415209",
+        "newegg": "https://www.newegg.com/p/3EE-0005-00078"
+      },
+      "offersFound": 72
+    },
+    "hyperx_cloud_iii_wireless": {
+      "oldPrice": [
+        150,
+        170
+      ],
+      "newPrice": [
+        219,
+        219
+      ],
+      "retailerUrls": {},
+      "offersFound": 1
+    },
+    "razer_blackshark_v3_pro": {
+      "oldPrice": [
+        180,
+        220
+      ],
+      "newPrice": [
+        219,
+        250
+      ],
+      "retailerUrls": {
+        "bestbuy": "https://www.bestbuy.com/product/razer-blackshark-v3-pro-anc-wireless-over-the-ear-gaming-headset-for-xbox-pc-mac-playstation-nintendo-switch-smartphone-black/J39HWFH434/sku/6632768",
+        "manufacturer": "https://www.razer.com/gaming-headsets/razer-blackshark-v3-pro/RZ04-05400500-R3UA",
+        "walmart": "https://www.walmart.com/ip/Razer-Blackshark-V3-Pro-Wireless-ANC-PC-Gaming-Esports-Hadset-2-4Ghz-Bluetooth-White/17114656625",
+        "microcenter": "https://www.microcenter.com/product/697977/razer-blackshark-v3-pro-xbox-active-noise-cancelling-bluetooth-wireless-headset-black"
+      },
+      "offersFound": 14
+    },
+    "audeze_maxwell": {
+      "oldPrice": [
+        280,
+        350
+      ],
+      "newPrice": [
+        185,
+        471
+      ],
+      "retailerUrls": {},
+      "offersFound": 7
+    },
+    "razer_kaira_pro_wireless": {
+      "oldPrice": [
+        100,
+        150
+      ],
+      "newPrice": [
+        48,
+        150
+      ],
+      "retailerUrls": {
+        "newegg": "https://www.newegg.com/p/3EE-003B-00006"
+      },
+      "offersFound": 15
+    },
+    "steelseries_arctis_nova_3": {
+      "oldPrice": [
+        70,
+        100
+      ],
+      "newPrice": [
+        100,
+        100
+      ],
+      "retailerUrls": {
+        "microcenter": "https://www.microcenter.com/product/651284/steelseries-arctis-nova-3-multi-system-gaming-headset",
+        "walmart": "https://www.walmart.com/ip/New-SteelSeries-Arctis-Nova-3-Multi-Platform-Gaming-Headset-PC-PS5-PS4-Xbox-Series-X-S-Switch-Mobile/373575873",
+        "manufacturer": "https://steelseries.com/gaming-headsets/arctis-nova-3"
+      },
+      "offersFound": 62
+    },
+    "astro_a50_gen_4": {
+      "oldPrice": [
+        250,
+        300
+      ],
+      "newPrice": [
+        34,
+        34
+      ],
+      "retailerUrls": {},
+      "offersFound": 3
+    },
+    "astro_a50_x": {
+      "oldPrice": [
+        350,
+        400
+      ],
+      "newPrice": [
+        380,
+        400
+      ],
+      "retailerUrls": {
+        "bestbuy": "https://www.bestbuy.com/product/logitech-astro-a50-x-lightspeed-wireless-w-playsync-over-the-ear-gaming-headset-base-station-for-xbox-series-xs-ps5-pc-mac-black/J7H7ZYG3LJ/sku/6572603",
+        "microcenter": "https://www.microcenter.com/product/676829/A50_X_LIGHTSPEED_Wireless_Gaming_Headset_w-Base_Station_-_Black;_LIGHTSPEED_wireless,_G_HUB,_HDMI_21_Passthru,_Graphene_drivers,_Dolby_Atmos,_3D_audio",
+        "target": "https://www.target.com/p/astro-a50-x-gaming-headset-stereo-bluetooth-39-4-ft-20-hz-20-khz-over-the-head-over-the-ear-binaural-circumaural/-/A-1001323359",
+        "newegg": "https://www.newegg.com/p/N82E16879778022"
+      },
+      "offersFound": 29
+    },
+    "logitech_g435_lightspeed": {
+      "oldPrice": [
+        60,
+        60
+      ],
+      "newPrice": [
+        40,
+        90
+      ],
+      "retailerUrls": {
+        "manufacturer": "https://www.logitechg.com/en-us/shop/p/g435-wireless-bluetooth-gaming-headset.981-001049",
+        "newegg": "https://www.newegg.com/logitech-g933-7-1-surround-sound-gaming-headset/p/2J5-0051-00073"
+      },
+      "offersFound": 15
+    },
+    "logitech_g432": {
+      "oldPrice": [
+        50,
+        50
+      ],
+      "newPrice": [
+        45,
+        64
+      ],
+      "retailerUrls": {
+        "manufacturer": "https://www.logitech.com/en-us/shop/p/g432-7-1-surround-sound-gaming-headset.981-000769",
+        "newegg": "https://www.newegg.com/p/1VH-000J-006E3"
+      },
+      "offersFound": 23
+    },
+    "astro_a10": {
+      "oldPrice": [
+        60,
+        60
+      ],
+      "newPrice": [
+        41,
+        70
+      ],
+      "retailerUrls": {
+        "bestbuy": "https://www.bestbuy.com/product/astro-gaming-a10-gen-2-wired-over-the-ear-gaming-headset-for-xbox-one-xbox-series-xs-windows-macos-black/J7H7ZY8J29/sku/6497930",
+        "walmart": "https://www.walmart.com/ip/ASTRO-A10-Gaming-Headset-Gen-2-Wired-Over-ear-gaming-headphones-flip-to-mute-microphone-32-mm-drivers-compatible-PlayStation-PC-Black/734018666",
+        "target": "https://www.target.com/p/astro-a10-wired-gaming-headset-for-xbox-series-x-s-xbox-one-black/-/A-86083190",
+        "bhphoto": "https://www.bhphotovideo.com/c/product/1692945-REG/astro_gaming_939_002055_a10_gen_2_wired.html",
+        "newegg": "https://www.newegg.com/logitech-939-002045-black/p/N82E16826197549"
+      },
+      "offersFound": 86
+    },
+    "turtle_beach_recon_50x_50p": {
+      "oldPrice": [
+        25,
+        25
+      ],
+      "newPrice": [
+        23,
+        28
+      ],
+      "retailerUrls": {
+        "bestbuy": "https://www.bestbuy.com/product/turtle-beach-recon-50x-wired-over-ear-gaming-headset-for-xbox-series-xs-xbox-one-ps5-ps4-ps4-pro-pc-mobile-black-green/JXK5HF4S4P/sku/9539004",
+        "target": "https://www.target.com/p/turtle-beach-recon-50x-stereo-gaming-headset-for-xbox-one-series-x-s-black-green/-/A-49145947",
+        "microcenter": "https://www.microcenter.com/product/679789/turtle-beach-ear-force-recon-50x-stereo-gaming-headset",
+        "manufacturer": "https://www.turtlebeach.com/products/recon-50-headset",
+        "newegg": "https://www.newegg.com/p/1VH-054Y-000D7"
+      },
+      "offersFound": 27
+    },
+    "jabra_evolve2_85_wireless": {
+      "oldPrice": [
+        449,
+        449
+      ],
+      "newPrice": [
+        274,
+        499
+      ],
+      "retailerUrls": {
+        "newegg": "https://www.newegg.com/p/1VH-01EX-000C4"
+      },
+      "offersFound": 4
+    },
+    "steelseries_tusq": {
+      "oldPrice": [
+        40,
+        40
+      ],
+      "newPrice": [
+        40,
+        49
+      ],
+      "retailerUrls": {
+        "manufacturer": "https://steelseries.com/gaming-in-ear-headsets/tusq"
+      },
+      "offersFound": 3
+    },
+    "steelseries_arctis_7_plus_wireless": {
+      "oldPrice": [
+        150,
+        170
+      ],
+      "newPrice": [
+        221,
+        221
+      ],
+      "retailerUrls": {
+        "newegg": "https://www.newegg.com/p/3EE-0005-00062"
+      },
+      "offersFound": 1
+    },
+    "razer_barracuda_pro_wireless": {
+      "oldPrice": [
+        250,
+        300
+      ],
+      "newPrice": [
+        250,
+        290
+      ],
+      "retailerUrls": {
+        "manufacturer": "https://www.razer.com/gaming-headsets/razer-barracuda-pro/RZ04-03780100-R3U1",
+        "bestbuy": "https://www.bestbuy.com/product/razer-barracuda-pro-wireless-over-the-ear-gaming-headset-for-pc-mac-nintendo-switch-steam-deck-mobile-and-tablet-black/J3GTVWWJH2"
+      },
+      "offersFound": 7
+    },
+    "logitech_g735_wireless": {
+      "oldPrice": [
+        200,
+        230
+      ],
+      "newPrice": [
+        150,
+        260
+      ],
+      "retailerUrls": {
+        "manufacturer": "https://www.logitechg.com/en-us/shop/p/g735-wireless-bluetooth-headset.981-001082",
+        "bestbuy": "https://www.bestbuy.com/product/logitech-g735-aurora-collection-wireless-over-the-ear-gaming-headset-for-windows-mobile-white-mist/J7H7ZY3KYJ/sku/11255297",
+        "target": "https://www.target.com/p/logitech-g735-gaming-headset-mini-phone-3-5mm-usb-wired-wireless-bluetooth-rf-65-6-ft-38-ohm-20-hz-20-khz-on-ear-ear-cup/-/A-1001323350",
+        "microcenter": "https://www.microcenter.com/product/651172/logitech-g735-rgb-wireless-gaming-headset-white-mist",
+        "bhphoto": "https://www.bhphotovideo.com/c/product/1715999-REG/logitech_981_001082_g735_lightspeed_wireless_rgb.html",
+        "newegg": "https://www.newegg.com/logitech-g735-981-001082-white-usb-type-c/p/N82E16826197592"
+      },
+      "offersFound": 81
+    },
+    "razer_blackshark_v2_hyperspeed_wireless": {
+      "oldPrice": [
+        150,
+        180
+      ],
+      "newPrice": [
+        80,
+        130
+      ],
+      "retailerUrls": {
+        "bestbuy": "https://www.bestbuy.com/product/razer-blackshark-v2-hyperspeed-wireless-over-the-ear-gaming-headset-for-pc-mac-playstation-switch-steam-deck-mobile-white/J3GV6528JT",
+        "manufacturer": "https://www.razer.com/gaming-headsets/razer-blackshark-v2-hyperspeed/RZ04-04960200-R3U1"
+      },
+      "offersFound": 10
+    },
+    "steelseries_arctis_7x_wireless": {
+      "oldPrice": [
+        140,
+        170
+      ],
+      "newPrice": [
+        151,
+        215
+      ],
+      "retailerUrls": {
+        "bestbuy": "https://www.bestbuy.com/product/steelseries-arctis-nova-7p-wireless-gaming-headset-for-ps5-ps4-white/J3GTVPH2W5/sku/6557038",
+        "newegg": "https://www.newegg.com/p/3EE-0005-00048"
+      },
+      "offersFound": 26
+    },
+    "steelseries_arctis_nova_elite": {
+      "oldPrice": [
+        350,
+        400
+      ],
+      "newPrice": [
+        762,
+        762
+      ],
+      "retailerUrls": {},
+      "offersFound": 1
+    },
+    "steelseries_arctis_pro_wireless": {
+      "oldPrice": [
+        300,
+        350
+      ],
+      "newPrice": [
+        160,
+        399
+      ],
+      "retailerUrls": {
+        "newegg": "https://www.newegg.com/p/3EE-0005-000D2"
+      },
+      "offersFound": 5
+    },
+    "steelseries_arctis_nova_pro_wireless": {
+      "oldPrice": [
+        350,
+        350
+      ],
+      "newPrice": [
+        280,
+        385
+      ],
+      "retailerUrls": {
+        "bestbuy": "https://www.bestbuy.com/product/steelseries-arctis-nova-pro-wired-multi-gaming-headset-for-pc-ps5-ps4-switch-black/J3LG47VKX9/sku/6506214",
+        "microcenter": "https://www.microcenter.com/product/649561/Arctis_Nova_Pro_Gaming_Headset_for_PC_and_PlayStation",
+        "manufacturer": "https://steelseries.com/gaming-headsets/arctis-nova-pro",
+        "newegg": "https://www.newegg.com/steelseries-arctis-nova-pro-wireless-61520-black-usb/p/N82E16826249269"
+      },
+      "offersFound": 69
+    },
+    "logitech_g933_wireless": {
+      "oldPrice": [
+        150,
+        150
+      ],
+      "newPrice": [
+        210,
+        340
+      ],
+      "retailerUrls": {
+        "newegg": "https://www.newegg.com/p/1VH-000J-004F7"
+      },
+      "offersFound": 4
+    },
+    "corsair_hs70_wireless": {
+      "oldPrice": [
+        100,
+        100
+      ],
+      "newPrice": [
+        110,
+        110
+      ],
+      "retailerUrls": {},
+      "offersFound": 1
+    },
+    "logitech_g533_wireless": {
+      "oldPrice": [
+        100,
+        100
+      ],
+      "newPrice": [
+        189,
+        289
+      ],
+      "retailerUrls": {
+        "newegg": "https://www.newegg.com/logitech-g533-wireless/p/N82E16826197184"
+      },
+      "offersFound": 2
+    },
+    "hyperx_cloud_ii_wireless_2020": {
+      "oldPrice": [
+        150,
+        150
+      ],
+      "newPrice": [
+        110,
+        132
+      ],
+      "retailerUrls": {
+        "newegg": "https://www.newegg.com/p/1VH-00HE-000Z9"
+      },
+      "offersFound": 5
+    },
+    "steelseries_arctis_7p_plus_wireless": {
+      "oldPrice": [
+        170,
+        170
+      ],
+      "newPrice": [
+        289,
+        289
+      ],
+      "retailerUrls": {
+        "newegg": "https://www.newegg.com/p/1VH-003B-001K5"
+      },
+      "offersFound": 3
+    },
+    "steelseries_arctis_9x_wireless": {
+      "oldPrice": [
+        180,
+        200
+      ],
+      "newPrice": [
+        100,
+        220
+      ],
+      "retailerUrls": {
+        "newegg": "https://www.newegg.com/p/3EE-0005-00080"
+      },
+      "offersFound": 4
+    },
+    "steelseries_arctis_7p_wireless": {
+      "oldPrice": [
+        140,
+        160
+      ],
+      "newPrice": [
+        289,
+        289
+      ],
+      "retailerUrls": {
+        "newegg": "https://www.newegg.com/p/1VH-003B-001K5"
+      },
+      "offersFound": 3
+    },
+    "hyperx_cloud_alpha_wireless": {
+      "oldPrice": [
+        170,
+        200
+      ],
+      "newPrice": [
+        126,
+        126
+      ],
+      "retailerUrls": {
+        "bestbuy": "https://www.bestbuy.com/product/hyperx-cloud-alpha-wireless-gaming-headset-for-pc-ps5-and-ps4-black-red/JJG2RHYFHS/sku/6499569",
+        "walmart": "https://www.walmart.com/ip/HyperX-Cloud-Alpha-Wireless-Over-Ear-Gaming-Headset-Red/553448134",
+        "manufacturer": "https://hyperx.com/products/hyperx-cloud-alpha-wireless?variant=42135502422173",
+        "newegg": "https://www.newegg.com/hyperx-cloud-alpha-wireless-dts-black-red/p/3EE-0025-00012"
+      },
+      "offersFound": 15
+    },
+    "razer_blackshark_v2_pro_wireless_2023": {
+      "oldPrice": [
+        180,
+        200
+      ],
+      "newPrice": [
+        130,
+        200
+      ],
+      "retailerUrls": {
+        "manufacturer": "https://www.razer.com/gaming-headsets/razer-blackshark-v2-pro/RZ04-04530100-R3U1",
+        "bestbuy": "https://www.bestbuy.com/product/razer-blackshark-v2-pro-wireless-over-the-ear-gaming-headset-for-xbox-black/J39HWFH9LZ",
+        "walmart": "https://www.walmart.com/ip/Razer-BlackShark-V2-Pro-Wireless-PC-Gaming-Headset-2-4GHz-BT-HyperSpeed-Wireless-70Hr-Battery-320g-Black/1278691914",
+        "bhphoto": "https://www.bhphotovideo.com/c/product/1851614-REG/razer_rz04_04530100_r3u1_blackshark_v2_pro_wireless.html",
+        "newegg": "https://www.newegg.com/razer-rz04-04530500-r3ua-wireless-black/p/0TH-00TR-00167"
+      },
+      "offersFound": 29
+    },
+    "astro_a30_wireless": {
+      "oldPrice": [
+        200,
+        230
+      ],
+      "newPrice": [
+        99,
+        269
+      ],
+      "retailerUrls": {
+        "bestbuy": "https://www.bestbuy.com/product/astro-gaming-a30-wireless-over-the-ear-gaming-headset-for-xbox-one-xbox-series-xs-nintendo-switch-pc-mobile-white/J7H7ZY3W43/sku/6515570"
+      },
+      "offersFound": 17
+    },
+    "steelseries_arctis_9_wireless": {
+      "oldPrice": [
+        180,
+        200
+      ],
+      "newPrice": [
+        280,
+        280
+      ],
+      "retailerUrls": {
+        "newegg": "https://www.newegg.com/p/3EE-0005-00069"
+      },
+      "offersFound": 1
+    },
+    "logitech_g935_wireless": {
+      "oldPrice": [
+        130,
+        170
+      ],
+      "newPrice": [
+        126,
+        180
+      ],
+      "retailerUrls": {
+        "bestbuy": "https://www.bestbuy.com/product/logitech-g935-wireless-over-the-ear-gaming-headset-for-windows-black-blue/J7H7ZYX83L/sku/6320787",
+        "microcenter": "https://www.microcenter.com/product/602489/G935_RGB_Wireless_LIGHTSYNC_Gaming_Headset_w-_71_Surround_Sound;_DTS_HeadphoneX_20,_50_mm_Pro-G_Audio_Drivers,_Up_to_40_ft_Wireless_Connection_-_Black",
+        "newegg": "https://www.newegg.com/p/2J5-0051-00015"
+      },
+      "offersFound": 32
+    },
+    "turtle_beach_stealth_600": {
+      "oldPrice": [
+        80,
+        100
+      ],
+      "newPrice": [
+        90,
+        94
+      ],
+      "retailerUrls": {
+        "bestbuy": "https://www.bestbuy.com/product/turtle-beach-stealth-600-wireless-over-ear-multiplatform-gaming-headset-for-xbox-series-xs-xbox-one-ps5-ps4-pc-mobile-black/JXK5HF4LQV/sku/6577968",
+        "target": "https://www.target.com/p/turtle-beach-stealth-600-gen-3-wireless-headset-for-playstation-white/-/A-91190385",
+        "microcenter": "https://www.microcenter.com/product/679333/turtle-beach-stealth-600-gen-3-wireless-gaming-headset-for-pc-80hr-battery-life-ultra-lightweight-premium-50mm-nanoclear-drivers-prospecs-glasses-frie",
+        "newegg": "https://www.newegg.com/p/3EE-0035-00034",
+        "manufacturer": "https://www.turtlebeach.com/products/stealth-600-headset"
+      },
+      "offersFound": 44
+    },
+    "steelseries_arctis_1_wireless": {
+      "oldPrice": [
+        80,
+        100
+      ],
+      "newPrice": [
+        91,
+        96
+      ],
+      "retailerUrls": {
+        "newegg": "https://www.newegg.com/steelseries-arctis-1-wireless/p/N82E16826249245"
+      },
+      "offersFound": 2
+    },
+    "razer_nari_ultimate_wireless": {
+      "oldPrice": [
+        150,
+        200
+      ],
+      "newPrice": [
+        113,
+        217
+      ],
+      "retailerUrls": {},
+      "offersFound": 4
+    },
+    "razer_kraken_v3_pro_wireless": {
+      "oldPrice": [
+        180,
+        200
+      ],
+      "newPrice": [
+        180,
+        180
+      ],
+      "retailerUrls": {
+        "bestbuy": "https://www.bestbuy.com/product/razer-kraken-kitty-v3-pro-bluetooth-wireless-over-the-ear-gaming-headset-for-pc-mac-playstation-nintendo-switch-steam-deck-black/J39HWFHKT9/sku/6635953",
+        "manufacturer": "https://www.razer.com/gaming-headsets/razer-kraken-kitty-v3-pro/RZ04-05170300-R3U1",
+        "microcenter": "https://www.microcenter.com/product/700018/razer-kraken-kitty-v3-pro-black"
+      },
+      "offersFound": 6
+    },
+    "razer_barracuda_wireless": {
+      "oldPrice": [
+        140,
+        160
+      ],
+      "newPrice": [
+        113,
+        160
+      ],
+      "retailerUrls": {
+        "manufacturer": "https://www.razer.com/gaming-headsets/razer-barracuda/RZ04-03790300-R3U1",
+        "walmart": "https://www.walmart.com/ip/Razer-Barracuda-Wireless-Gaming-Headset-for-PC-PS5-PS4-Switch-Mobile-2-4GHz-Bluetooth-Mercury/2574996476"
+      },
+      "offersFound": 14
+    },
+    "corsair_hs80_max_wireless": {
+      "oldPrice": [
+        150,
+        180
+      ],
+      "newPrice": [
+        140,
+        190
+      ],
+      "retailerUrls": {
+        "manufacturer": "https://www.corsair.com/us/en/p/gaming-headsets/CA-9011296-NA/hs80-max-wireless-gaming-headset-white-ca-9011296-na",
+        "bhphoto": "https://www.bhphotovideo.com/c/product/1915329-REG/corsair_ca_9011296_na_hs80_max_wireless_headset.html"
+      },
+      "offersFound": 5
+    },
+    "logitech_g535_lightspeed_wireless": {
+      "oldPrice": [
+        80,
+        100
+      ],
+      "newPrice": [
+        100,
+        120
+      ],
+      "retailerUrls": {
+        "bestbuy": "https://www.bestbuy.com/product/logitech-g535-lightspeed-wireless-over-the-ear-gaming-headset-for-ps5-ps4-windows-black-blue/J7H7ZYGTJ7/sku/6582440",
+        "manufacturer": "https://www.logitech.com/en-us/shop/p/g535-wireless-headset",
+        "bhphoto": "https://www.bhphotovideo.com/c/product/1671067-REG/logitech_981_000971_lightspeed_wireless_headset_black.html",
+        "microcenter": "https://www.microcenter.com/product/647744/logitech-g-g535-lightspeed-wireless-gaming-headset-lightweight-on-ear-headphones,-flip-to-mute-mic,-stereo,-compatible-with-pc,-ps4,-ps5,-usb-recharge",
+        "newegg": "https://www.newegg.com/logitech-g535/p/N82E16826197595"
+      },
+      "offersFound": 68
+    },
+    "steelseries_arctis_nova_5": {
+      "oldPrice": [
+        110,
+        130
+      ],
+      "newPrice": [
+        130,
+        150
+      ],
+      "retailerUrls": {
+        "bestbuy": "https://www.bestbuy.com/product/steelseries-arctis-nova-5-wireless-gaming-headset-for-pc-ps5-and-ps4-black/J3GTVPH7ZR/sku/6576706",
+        "target": "https://www.target.com/p/steelseries-arctis-nova-5x-headset-black/-/A-94794785",
+        "manufacturer": "https://steelseries.com/gaming-headsets/arctis-nova-5",
+        "microcenter": "https://www.microcenter.com/product/679610/Arctis_Nova_5X_Wireless_Gaming_Headset_(Black)_-_24GHz_Wireless__Bluetooth_-_Neodymium_Magentic_Drivers_-_Xbox,_PC,_PlayStation,_Switch,_Meta_Quest,_H",
+        "newegg": "https://www.newegg.com/steelseries-arctis-nova-5-wireless-black/p/N82E16826249275"
+      },
+      "offersFound": 39
+    },
+    "turtle_beach_stealth_500": {
+      "oldPrice": [
+        60,
+        80
+      ],
+      "newPrice": [
+        90,
+        110
+      ],
+      "retailerUrls": {
+        "bestbuy": "https://www.bestbuy.com/product/turtle-beach-stealth-500-wireless-over-ear-gaming-headset-for-pc-ps5-ps4-mobile-black/JXK5HFF8TC/sku/6579296",
+        "target": "https://www.target.com/p/turtle-beach-stealth-500-black-pc-gaming-headset/-/A-1004778324",
+        "walmart": "https://www.walmart.com/ip/Turtle-Beach-Stealth-500-Wireless-Gaming-Headset-Licensed-for-Xbox-Series-X-S-One/5113233515",
+        "microcenter": "https://www.microcenter.com/product/679332/Stealth_500_Wireless_Amplified_Gaming_Headset_for_PC,_PS5,_PS4,_Nintendo_Switch,_-_Mobile_-_40Hr_Battery_Life_-_Ultra-Lightweight_-_Premium_40mm_Drive",
+        "manufacturer": "https://www.turtlebeach.com/products/stealth-500-headset",
+        "newegg": "https://www.newegg.com/p/1VH-004K-00167"
+      },
+      "offersFound": 38
+    },
+    "turtle_beach_elite_800_wireless": {
+      "oldPrice": [
+        200,
+        250
+      ],
+      "newPrice": [
+        40,
+        40
+      ],
+      "retailerUrls": {},
+      "offersFound": 1
+    },
+    "lucidsound_ls31_wireless": {
+      "oldPrice": [
+        100,
+        150
+      ],
+      "newPrice": [
+        149,
+        149
+      ],
+      "retailerUrls": {},
+      "offersFound": 1
+    },
+    "hyperx_cloud_flight": {
+      "oldPrice": [
+        100,
+        140
+      ],
+      "newPrice": [
+        70,
+        152
+      ],
+      "retailerUrls": {
+        "bestbuy": "https://www.bestbuy.com/product/hyperx-cloud-flight-wireless-gaming-headset-for-pc-laptop-ps5-and-ps4-black/JJG2RHP7TY/sku/11441640",
+        "target": "https://www.target.com/p/hyperx-cloud-flight-wireless-gaming-headset-for-playstation-4-5/-/A-86873154",
+        "newegg": "https://www.newegg.com/p/2SK-00BX-00014"
+      },
+      "offersFound": 15
+    },
+    "roccat_elo_7_1_air_wireless": {
+      "oldPrice": [
+        80,
+        100
+      ],
+      "newPrice": [
+        95,
+        226
+      ],
+      "retailerUrls": {
+        "newegg": "https://www.newegg.com/p/1VH-004B-00088"
+      },
+      "offersFound": 6
+    },
+    "turtle_beach_stealth_pro_wireless": {
+      "oldPrice": [
+        300,
+        350
+      ],
+      "newPrice": [
+        89,
+        110
+      ],
+      "retailerUrls": {
+        "bestbuy": "https://www.bestbuy.com/product/turtle-beach-stealth-600-wireless-over-ear-multiplatform-gaming-headset-for-xbox-series-xs-xbox-one-ps5-ps4-pc-mobile-white/JXK5HF4LH8/sku/6577970",
+        "target": "https://www.target.com/p/turtle-beach-stealth-600-gen-3-wireless-headset-for-playstation-white/-/A-91190385",
+        "walmart": "https://www.walmart.com/ip/Turtle-Beach-Stealth-600-Wireless-Amplified-Gaming-Headset-for-PS5-PS4-PC-NSW-Mobile/5144705307",
+        "microcenter": "https://www.microcenter.com/product/678859/turtle-beach-stealth-600-gen-3-wireless-gaming-headset-for-xbox-series-x7cs,-xbox-one-80hr-battery-life-ultra-lightweight-premium-50mm-nanoclear-driver",
+        "newegg": "https://www.newegg.com/p/3EE-0035-00039",
+        "manufacturer": "https://www.turtlebeach.com/products/stealth-600-headset"
+      },
+      "offersFound": 27
+    },
+    "corsair_void_pro_rgb_wireless": {
+      "oldPrice": [
+        70,
+        100
+      ],
+      "newPrice": [
+        109,
+        109
+      ],
+      "retailerUrls": {},
+      "offersFound": 1
+    },
+    "razer_barracuda_x_wireless_2021": {
+      "oldPrice": [
+        100,
+        100
+      ],
+      "newPrice": [
+        69,
+        100
+      ],
+      "retailerUrls": {
+        "bestbuy": "https://www.bestbuy.com/product/razer-barracuda-x-2022-edition-wireless-over-the-ear-gaming-headset-for-pc-mac-playstation-switch-steam-deck-mobile-mercury/J39HWFQH57",
+        "manufacturer": "https://www.razer.com/gaming-headsets/razer-barracuda-x/RZ04-04430200-R3U1",
+        "walmart": "https://www.walmart.com/ip/Razer-Barracuda-X-Wireless-Gaming-Headset-for-PC-PS5-PS4-NS-2-4GHz-Bluetooth-250g-Quartz-Pink/1146288370",
+        "target": "https://www.target.com/p/razer-barracuda-x-wireless-gaming-headset-for-playstation-4-5-pc-black/-/A-86375595",
+        "newegg": "https://www.newegg.com/razer-barracuda-x-2022-edition-rz04-04430200-r3u1-mercury-3-5mm-usb-type-c/p/N82E16826153347",
+        "bhphoto": "https://www.bhphotovideo.com/c/product/1851610-REG/razer_rz04_04430100_r3u1_barracuda_x_wireless_multi_platform.html"
+      },
+      "offersFound": 42
+    },
+    "turtle_beach_stealth_700_wireless": {
+      "oldPrice": [
+        150,
+        150
+      ],
+      "newPrice": [
+        195,
+        200
+      ],
+      "retailerUrls": {
+        "bestbuy": "https://www.bestbuy.com/product/turtle-beach-stealth-700-gen-3-wireless-over-ear-multiplatform-gaming-headset-for-pc-ps5-ps4-mobile-with-80-hr-battery-black/JXK5HFF8Q4/sku/6590340",
+        "microcenter": "https://www.microcenter.com/product/685197/Stealth_700_Wireless_Gaming_Headset_Xbox_(Black);_CrossPlay_Wireless_System;_Huge_60mm_Drivers;_Flip_to_Mute_Mic;_80Hr_Battery_Life",
+        "walmart": "https://www.walmart.com/ip/Turtle-Beach-Stealth-700-Wireless-Gaming-Headset-for-Xbox-X-S-Xbox-One-PC-PS5-PS4-NSW-Mobile/6534722115",
+        "newegg": "https://www.newegg.com/p/N82E16826502090",
+        "manufacturer": "https://www.turtlebeach.com/products/stealth-700-gen-3-headset"
+      },
+      "offersFound": 34
+    },
+    "sony_inzone_h9_wireless": {
+      "oldPrice": [
+        300,
+        300
+      ],
+      "newPrice": [
+        198,
+        328
+      ],
+      "retailerUrls": {
+        "bestbuy": "https://www.bestbuy.com/product/sony-inzone-h9-wireless-noise-canceling-gaming-headset-perfect-for-ps5-ps4-pc-white/J7XSRH5CQ5/sku/10904763",
+        "manufacturer": "https://electronics.sony.com/audio/gaming-audio/inzone-headsets/p/whg900n-w",
+        "bhphoto": "https://www.bhphotovideo.com/c/product/1720017-REG/sony_whg900n_w_inzone_h9_wireless_headset.html",
+        "newegg": "https://www.newegg.com/p/0TH-000U-00JU0"
+      },
+      "offersFound": 73
+    },
+    "turtle_beach_stealth_600_gen_2": {
+      "oldPrice": [
+        100,
+        100
+      ],
+      "newPrice": [
+        49,
+        130
+      ],
+      "retailerUrls": {
+        "newegg": "https://www.newegg.com/p/3EE-0035-00006"
+      },
+      "offersFound": 15
+    },
+    "sony_inzone_buds": {
+      "oldPrice": [
+        200,
+        200
+      ],
+      "newPrice": [
+        218,
+        220
+      ],
+      "retailerUrls": {
+        "bestbuy": "https://www.bestbuy.com/product/sony-inzone-buds-truly-wireless-noise-canceling-gaming-earbuds-perfect-for-ps5-pc-black/J7XSRH5YWG/sku/6562123",
+        "manufacturer": "https://electronics.sony.com/audio/gaming-audio/all-inzone-headsets/p/wfg700n-b",
+        "bhphoto": "https://www.bhphotovideo.com/c/product/1791649-REG/sony_wfg700n_b_inzone_buds_truly_wireless.html",
+        "newegg": "https://www.newegg.com/p/0TH-000U-00K01"
+      },
+      "offersFound": 86
+    },
+    "sony_pulse_elite": {
+      "oldPrice": [
+        150,
+        150
+      ],
+      "newPrice": [
+        141,
+        287
+      ],
+      "retailerUrls": {},
+      "offersFound": 6
+    },
+    "sennheiser_hd_800_s": {
+      "oldPrice": [
+        1600,
+        1800
+      ],
+      "newPrice": [
+        1580,
+        1700
+      ],
+      "retailerUrls": {
+        "manufacturer": "http://en-us.sennheiser.com/high-resolution-headphones-3d-audio-hd-800-s",
+        "bhphoto": "https://www.bhphotovideo.com/c/product/803387448-USE/sennheiser_506911_hd_800_s_dynamic.html/"
+      },
+      "offersFound": 16
+    },
+    "sennheiser_hd_490_pro": {
+      "oldPrice": [
+        350,
+        400
+      ],
+      "newPrice": [
+        278,
+        587
+      ],
+      "retailerUrls": {
+        "bhphoto": "https://www.bhphotovideo.com/c/product/1798205-REG/sennheiser_700286_hd_490_pro.html"
+      },
+      "offersFound": 61
+    },
+    "philips_shp9500": {
+      "oldPrice": [
+        80,
+        80
+      ],
+      "newPrice": [
+        110,
+        137
+      ],
+      "retailerUrls": {
+        "target": "https://www.target.com/p/philips-shp9500-hifi-precision-stereo-over-ear-headphones/-/A-1004608245",
+        "newegg": "https://www.newegg.com/p/3C6-01UK-00077"
+      },
+      "offersFound": 10
+    },
+    "hifiman_arya_stealth_magnet": {
+      "oldPrice": [
+        1100,
+        1300
+      ],
+      "newPrice": [
+        749,
+        1428
+      ],
+      "retailerUrls": {
+        "manufacturer": "https://kr.hifiman.com/en/products/arya-organic-open-box"
+      },
+      "offersFound": 17
+    },
+    "audio_technica_ath_m20x": {
+      "oldPrice": [
+        50,
+        50
+      ],
+      "newPrice": [
+        59,
+        177
+      ],
+      "retailerUrls": {
+        "manufacturer": "https://www.audio-technica.com/en-us/ath-m20x",
+        "microcenter": "https://www.microcenter.com/product/655039/ATH-M20X_Professional_Monitor_Wired_Headphones_-_Black;_Closed-Back_Circumaural_Headphones_with_40mm_Neodymium_Magnet_Drivers;_Straight_Cable;_1-4%22_Ad",
+        "newegg": "https://www.newegg.com/p/0TH-06B9-00002"
+      },
+      "offersFound": 85
+    },
+    "sony_mdr_7506": {
+      "oldPrice": [
+        100,
+        100
+      ],
+      "newPrice": [
+        105,
+        135
+      ],
+      "retailerUrls": {
+        "bestbuy": "https://www.bestbuy.com/product/sony-professional-studio-headphones-black/J7XSRH8HQC/sku/11645347",
+        "manufacturer": "https://electronics.sony.com/audio/headphones/all-headphones/p/mdr7506",
+        "microcenter": "https://www.microcenter.com/product/688329/MDR7506_Professional_Stereo_Monitor_Headphones_-_Black",
+        "bhphoto": "https://www.bhphotovideo.com/c/product/1320363-REG/sony_mdr_7506_headphones_with_sheepskin.html",
+        "newegg": "https://www.newegg.com/sony-mdr-7506-other-black/p/0WF-000Y-00023"
+      },
+      "offersFound": 59
+    },
+    "beyerdynamic_dt_770_pro_250": {
+      "oldPrice": [
+        160,
+        160
+      ],
+      "newPrice": [
+        200,
+        200
+      ],
+      "retailerUrls": {
+        "bestbuy": "https://www.bestbuy.com/product/beyerdynamic-dt-770-pro-80-ohm-over-ear-studio-headphones-black/CJG7S2GYRW/sku/10416928",
+        "manufacturer": "https://www.walmart.com/ip/beyerdynamic-Noise-Canceling-Over-Ear-Headphones-Black-DT-770-PRO-250-OHM/128049551",
+        "bhphoto": "https://www.bhphotovideo.com/c/product/984399-REG/beyerdynamic_ams_dt_770_pro_32_dt_770_pro_studio_headphones.html",
+        "newegg": "https://www.newegg.com/beyerdynamic-dt-770-pro-grey/p/0TF-00D2-00002"
+      },
+      "offersFound": 68
+    },
+    "beyerdynamic_dt_1770_pro": {
+      "oldPrice": [
+        500,
+        500
+      ],
+      "newPrice": [
+        349,
+        766
+      ],
+      "retailerUrls": {
+        "manufacturer": "https://north-america.beyerdynamic.com/p/dt-1770-pro-b-stock"
+      },
+      "offersFound": 12
+    },
+    "focal_bathys_wireless": {
+      "oldPrice": [
+        600,
+        800
+      ],
+      "newPrice": [
+        699,
+        1169
+      ],
+      "retailerUrls": {
+        "bhphoto": "https://www.bhphotovideo.com/c/product/1729936-REG/focal_fbathys_bathys_noise_canceling_wireless_over_ear.html",
+        "newegg": "https://www.newegg.com/p/0TH-00DF-002G2"
+      },
+      "offersFound": 60
+    },
+    "sony_wh_1000xm6": {
+      "oldPrice": [
+        400,
+        400
+      ],
+      "newPrice": [
+        372,
+        410
+      ],
+      "retailerUrls": {},
+      "offersFound": 4
+    },
+    "bose_qc_ultra_headphones_2nd_gen": {
+      "oldPrice": [
+        430,
+        430
+      ],
+      "newPrice": [
+        249,
+        250
+      ],
+      "retailerUrls": {
+        "bestbuy": "https://www.bestbuy.com/product/bose-quietcomfort-ultra-2nd-gen-true-wireless-noise-cancelling-in-ear-earbuds-black/J7C5V6WCKZ/sku/6628900",
+        "manufacturer": "https://www.bose.com/p/earbuds/bose-quietcomfort-ultra-earbuds-2nd-gen/QCUE2-HEADPHONEIN.html",
+        "target": "https://www.target.com/p/bose-quietcomfort-ultra-earbuds-2nd-gen-black/-/A-94630131",
+        "bhphoto": "https://www.bhphotovideo.com/c/product/1914425-REG/bose_896637_0010_quietcomfort_ultra_true_wireless.html",
+        "newegg": "https://www.newegg.com/bose-896637-0010-earbud-black/p/N82E16826627170"
+      },
+      "offersFound": 30
+    },
+    "bose_qc_headphones_wireless": {
+      "oldPrice": [
+        249,
+        249
+      ],
+      "newPrice": [
+        150,
+        299
+      ],
+      "retailerUrls": {
+        "bhphoto": "https://www.bhphotovideo.com/c/product/803284741-USE/bose_789564_0030_quietcomfort_35_series_ii.html/"
+      },
+      "offersFound": 8
+    },
+    "anker_soundcore_life_q30": {
+      "oldPrice": [
+        60,
+        80
+      ],
+      "newPrice": [
+        60,
+        80
+      ],
+      "retailerUrls": {
+        "bestbuy": "https://www.bestbuy.com/product/soundcore-life-q30-by-anker-hybrid-active-noise-cancelling-headphones-black/JJ8586KVPG/sku/10846514",
+        "manufacturer": "https://www.walmart.com/ip/Soundcore-by-Anker-Life-Q30-Hybrid-Active-Noise-Cancelling-Headphones-with-Multiple-Modes-Hi-Res-Sound-Custom-EQ-via-App-40H-Playtime/674401559",
+        "newegg": "https://www.newegg.com/p/0TH-033Y-000F4"
+      },
+      "offersFound": 15
+    },
+    "anker_soundcore_life_q20_2024": {
+      "oldPrice": [
+        50,
+        50
+      ],
+      "newPrice": [
+        55,
+        119
+      ],
+      "retailerUrls": {
+        "manufacturer": "https://www.newegg.com/p/0TH-06BS-00056"
+      },
+      "offersFound": 4
+    },
+    "sennheiser_hdb_630": {
+      "oldPrice": [
+        350,
+        450
+      ],
+      "newPrice": [
+        500,
+        500
+      ],
+      "retailerUrls": {
+        "bestbuy": "https://www.bestbuy.com/product/sennheiser-hdb-630-around-the-ear-bluetooth-wireless-headphones-black/J3GW2LH9HF/sku/6645991",
+        "bhphoto": "https://www.bhphotovideo.com/c/product/1922246-REG/sennheiser_700445_hdb_630_closed_back_wireless.html"
+      },
+      "offersFound": 21
+    },
+    "sony_ult_wear": {
+      "oldPrice": [
+        200,
+        200
+      ],
+      "newPrice": [
+        148,
+        249
+      ],
+      "retailerUrls": {
+        "bestbuy": "https://www.bestbuy.com/product/sony-ult-wear-wireless-noise-cancelling-headphones-with-wireless-audio-adapter-black/JJG2F38ZGX/sku/10210524",
+        "manufacturer": "https://electronics.sony.com/audio/headphones/all-headphones/p/whult900n-w",
+        "walmart": "https://www.walmart.com/ip/Sony-ULT-WEAR-Wireless-Noise-Cancelling-Headphones-Off-White/5212591695",
+        "bhphoto": "https://www.bhphotovideo.com/c/product/1824830-REG/sony_whult900n_b_ult_wear_wireless_noise.html",
+        "newegg": "https://www.newegg.com/p/0TH-000U-00K21"
+      },
+      "offersFound": 49
+    },
+    "beats_studio_pro_wireless": {
+      "oldPrice": [
+        350,
+        350
+      ],
+      "newPrice": [
+        169,
+        350
+      ],
+      "retailerUrls": {
+        "bestbuy": "https://www.bestbuy.com/product/beats-studio-pro-wireless-noise-cancelling-over-the-ear-headphones-sandstone/JJ8ZHR9KSJ/sku/12202478",
+        "target": "https://www.target.com/p/beats-studio-pro-bluetooth-wireless-headphones-matte-pink/-/A-94778650",
+        "walmart": "https://www.walmart.com/ip/Beats-Studio-Pro-Wireless-Headphones-Sandstone/3305094887",
+        "manufacturer": "https://www.beatsbydre.com/headphones/studio-pro-wireless/MQTR3/sandstone",
+        "bhphoto": "https://www.bhphotovideo.com/c/product/1774620-REG/beats_by_dr_dre_mqtp3ll_a_studio_pro_wireless_over_ear.html",
+        "microcenter": "https://www.microcenter.com/product/668682/Beats_Studio_Pro_Active_Noise_Cancelling_Bluetooth_Wireless_Headphones_-_Sandstone"
+      },
+      "offersFound": 97
+    },
+    "beats_solo_4": {
+      "oldPrice": [
+        150,
+        200
+      ],
+      "newPrice": [
+        118,
+        200
+      ],
+      "retailerUrls": {
+        "bestbuy": "https://www.bestbuy.com/product/beats-solo-4-bluetooth-wireless-on-ear-headphones-matte-mg7j4lla-gray/JJGCQL6QYX/sku/11961203",
+        "target": "https://www.target.com/p/beats-solo-4-bluetooth-wireless-on-ear-headphones-warm-white/-/A-93124207",
+        "walmart": "https://www.walmart.com/ip/Beats-Solo4-Wireless-Headphones-On-Ear-Wireless-Headphones-Drenced-Gray/17203508556",
+        "manufacturer": "https://www.beatsbydre.com/headphones/solo4-wireless/MUW23/solo4-matteblack",
+        "bhphoto": "https://www.bhphotovideo.com/c/product/1821789-REG/beats_by_dr_dre_muw23ll_a_solo4_wireless_headphones_on_ear.html"
+      },
+      "offersFound": 29
+    },
+    "jbl_tune_520bt": {
+      "oldPrice": [
+        50,
+        50
+      ],
+      "newPrice": [
+        50,
+        50
+      ],
+      "retailerUrls": {
+        "bestbuy": "https://www.bestbuy.com/product/jbl-tune520bt-wireless-on-ear-headphones-2024-black/J7LXFWX857/sku/6572450",
+        "manufacturer": "https://www.jbl.com/JBLT520BTBLKAM.html",
+        "target": "https://www.target.com/p/jbl-tune-520bt-bluetooth-wireless-on-ear-headphones-black/-/A-90571849",
+        "bhphoto": "https://www.bhphotovideo.com/c/product/1808937-REG/jbl_jblt520btblkam_tune_520bt_wireless_on_ear.html"
+      },
+      "offersFound": 13
+    },
+    "jbl_tune_760nc": {
+      "oldPrice": [
+        80,
+        130
+      ],
+      "newPrice": [
+        67,
+        145
+      ],
+      "retailerUrls": {
+        "walmart": "https://www.walmart.com/ip/JBL-Tune-760NC-Wireless-Over-Ear-Active-Noise-Cancelling-Headphones-Black/321593887",
+        "bestbuy": "https://www.bestbuy.com/product/jbl-tune-760nc-noise-canceling-wireless-over-ear-headphones-white/J7LXFW2KYW/sku/11297501",
+        "newegg": "https://www.newegg.com/p/0TH-001X-008Y5",
+        "manufacturer": "https://www.walmart.com/ip/Restored-JBL-Tune-760NC-Noise-Canceling-Wireless-Over-Ear-Headphones-White-Refurbished/5164962785"
+      },
+      "offersFound": 27
+    },
+    "sony_wh_ch520": {
+      "oldPrice": [
+        40,
+        60
+      ],
+      "newPrice": [
+        48,
+        70
+      ],
+      "retailerUrls": {
+        "bestbuy": "https://www.bestbuy.com/product/sony-wh-ch520-wireless-headphone-with-microphone-black/J7XSRH53L3/sku/10893393",
+        "manufacturer": "https://electronics.sony.com/audio/headphones/headband/p/whch520-l",
+        "walmart": "https://www.walmart.com/ip/Sony-WH-CH520-Wireless-Headphones/2075569936",
+        "bhphoto": "https://www.bhphotovideo.com/c/product/1754496-REG/sony_whch520_b_wireless_on_ear_headphones_with.html",
+        "microcenter": "https://www.microcenter.com/product/664668/WH-CH520_Wireless_Bluetooth_Headphones_-_Black",
+        "newegg": "https://www.newegg.com/p/0TH-000U-00JR1"
+      },
+      "offersFound": 75
+    },
+    "samsung_galaxy_buds3_pro": {
+      "oldPrice": [
+        250,
+        250
+      ],
+      "newPrice": [
+        114,
+        238
+      ],
+      "retailerUrls": {},
+      "offersFound": 6
+    },
+    "skullcandy_dime_3": {
+      "oldPrice": [
+        30,
+        30
+      ],
+      "newPrice": [
+        20,
+        35
+      ],
+      "retailerUrls": {
+        "bestbuy": "https://www.bestbuy.com/product/skullcandy-dime-3-true-wireless-earbuds-black/J3GTFHVJ9P/sku/6580352",
+        "manufacturer": "https://www.skullcandy.com/products/dime-3-true-wireless-earbuds?variant=42411339382841",
+        "bhphoto": "https://www.bhphotovideo.com/c/product/1795530-REG/skullcandy_s2dcw_r740_dime_3_true_wireless.html"
+      },
+      "offersFound": 22
+    },
+    "beats_powerbeats_pro_2": {
+      "oldPrice": [
+        200,
+        250
+      ],
+      "newPrice": [
+        200,
+        250
+      ],
+      "retailerUrls": {
+        "target": "https://www.target.com/p/powerbeats-pro-2-high-performance-earbuds-jet-black/-/A-94577837",
+        "bestbuy": "https://www.bestbuy.com/product/beats-powerbeats-pro-2-true-wireless-active-noise-canceling-earbuds-jet-black/JJGCQ3FZLV/sku/6558860",
+        "walmart": "https://www.walmart.com/ip/Beats-Powerbeats-Pro-2-High-Performance-Earbuds-Jet-Black/15075506141",
+        "manufacturer": "https://www.beatsbydre.com/earbuds/powerbeats-pro-2/MX723/jet-black"
+      },
+      "offersFound": 70
+    },
+    "beats_flex_wireless": {
+      "oldPrice": [
+        50,
+        50
+      ],
+      "newPrice": [
+        45,
+        70
+      ],
+      "retailerUrls": {
+        "bestbuy": "https://www.bestbuy.com/product/beats-flex-wireless-earphones-black/JJ8XJS9G9S/sku/12035911",
+        "target": "https://www.target.com/p/beats-flex-all-day-bluetooth-wireless-earphones-beats-black/-/A-81804770",
+        "walmart": "https://www.walmart.com/ip/Beats-Flex-All-Day-Wireless-Earphones-Beats-Black/696881930",
+        "manufacturer": "https://www.beatsbydre.com/earbuds/beats-flex/MYMC2/beats-black",
+        "bhphoto": "https://www.bhphotovideo.com/c/product/1598855-REG/apple_mymc2ll_a_beats_flex_wireless_in_ear.html"
+      },
+      "offersFound": 31
+    },
+    "bose_ultra_open_earbuds": {
+      "oldPrice": [
+        250,
+        300
+      ],
+      "newPrice": [
+        199,
+        200
+      ],
+      "retailerUrls": {
+        "bestbuy": "https://www.bestbuy.com/product/bose-ultra-open-ear-true-wireless-open-earbuds-black/J7C5V6T3CX/sku/6568949",
+        "manufacturer": "https://www.bose.com/p/earbuds/bose-ultra-open-earbuds/ULT-HEADPHONEOPN.html",
+        "target": "https://www.target.com/p/bose-ultra-open-ear-true-wireless-bluetooth-open-earbuds-black/-/A-90291518",
+        "bhphoto": "https://www.bhphotovideo.com/c/product/1806757-REG/bose_881046_0010_bose_ultra_open_earbuds.html",
+        "microcenter": "https://www.microcenter.com/product/677212/Ultra_Open_True_Wireless_Bluetooth_Earbuds_-_Black",
+        "newegg": "https://www.newegg.com/bose-881046-0010-earbud-black/p/N82E16826627148"
+      },
+      "offersFound": 74
+    },
+    "moondrop_chu_2": {
+      "oldPrice": [
+        23,
+        23
+      ],
+      "newPrice": [
+        23,
+        26
+      ],
+      "retailerUrls": {},
+      "offersFound": 4
+    },
+    "7hz_zero_2": {
+      "oldPrice": [
+        25,
+        25
+      ],
+      "newPrice": [
+        55,
+        80
+      ],
+      "retailerUrls": {
+        "newegg": "https://www.newegg.com/fanmusic-zero-red-0/p/0G6-043U-000V1"
+      },
+      "offersFound": 6
+    },
+    "truthear_hexa": {
+      "oldPrice": [
+        90,
+        90
+      ],
+      "newPrice": [
+        80,
+        146
+      ],
+      "retailerUrls": {},
+      "offersFound": 5
+    },
+    "meze_alba": {
+      "oldPrice": [
+        199,
+        199
+      ],
+      "newPrice": [
+        159,
+        159
+      ],
+      "retailerUrls": {
+        "target": "https://www.target.com/p/meze-audio-alba-in-ear-headphones/-/A-1000911189",
+        "manufacturer": "https://mezeaudio.com/products/alba?variant=48500605944153"
+      },
+      "offersFound": 27
+    },
+    "softears_volume_s": {
+      "oldPrice": [
+        319,
+        319
+      ],
+      "newPrice": [
+        20,
+        96
+      ],
+      "retailerUrls": {
+        "target": "https://www.target.com/p/davines-volu-volume-enhancing-shampoo-8-45-oz/-/A-84850747",
+        "walmart": "https://www.walmart.com/ip/Davines-VOLU-Volume-Enhancing-Shampoo-8-45-oz/192208234",
+        "newegg": "https://www.newegg.com/p/0C2-000T-006B9"
+      },
+      "offersFound": 31
+    },
+    "razer_blackshark_v2_pro_wireless_2020": {
+      "oldPrice": [
+        150,
+        180
+      ],
+      "newPrice": [
+        130,
+        200
+      ],
+      "retailerUrls": {
+        "manufacturer": "https://www.razer.com/gaming-headsets/razer-blackshark-v2-pro/RZ04-04530100-R3U1",
+        "bestbuy": "https://www.bestbuy.com/product/razer-blackshark-v2-pro-wireless-over-the-ear-gaming-headset-for-xbox-black/J39HWFH9LZ",
+        "walmart": "https://www.walmart.com/ip/Razer-BlackShark-V2-Pro-Wireless-PC-Gaming-Headset-2-4GHz-BT-HyperSpeed-Wireless-70Hr-Battery-320g-Black/1278691914",
+        "bhphoto": "https://www.bhphotovideo.com/c/product/1851614-REG/razer_rz04_04530100_r3u1_blackshark_v2_pro_wireless.html",
+        "newegg": "https://www.newegg.com/razer-rz04-04530500-r3ua-wireless-black/p/0TH-00TR-00167"
+      },
+      "offersFound": 28
+    },
+    "turtle_beach_stealth_700_gen_2_wireless": {
+      "oldPrice": [
+        130,
+        150
+      ],
+      "newPrice": [
+        195,
+        200
+      ],
+      "retailerUrls": {
+        "bestbuy": "https://www.bestbuy.com/product/turtle-beach-stealth-700-gen-3-wireless-over-ear-multiplatform-gaming-headset-for-pc-ps5-ps4-mobile-with-80-hr-battery-black/JXK5HFF8Q4/sku/6590340",
+        "microcenter": "https://www.microcenter.com/product/685197/Stealth_700_Wireless_Gaming_Headset_Xbox_(Black);_CrossPlay_Wireless_System;_Huge_60mm_Drivers;_Flip_to_Mute_Mic;_80Hr_Battery_Life",
+        "walmart": "https://www.walmart.com/ip/Turtle-Beach-Stealth-700-Wireless-Gaming-Headset-for-Xbox-X-S-Xbox-One-PC-PS5-PS4-NSW-Mobile/6534722115",
+        "newegg": "https://www.newegg.com/p/N82E16826502090",
+        "manufacturer": "https://www.turtlebeach.com/products/stealth-700-gen-3-headset"
+      },
+      "offersFound": 32
+    },
+    "sony_inzone_h7_wireless": {
+      "oldPrice": [
+        180,
+        230
+      ],
+      "newPrice": [
+        112,
+        210
+      ],
+      "retailerUrls": {},
+      "offersFound": 5
+    },
+    "bose_qc35_ii_gaming_headset": {
+      "oldPrice": [
+        200,
+        280
+      ],
+      "newPrice": [
+        170,
+        299
+      ],
+      "retailerUrls": {},
+      "offersFound": 7
+    },
+    "xbox_wireless_headset": {
+      "oldPrice": [
+        90,
+        110
+      ],
+      "newPrice": [
+        98,
+        113
+      ],
+      "retailerUrls": {
+        "target": "https://www.target.com/p/xbox-wireless-stereo-headset-norland-refresh/-/A-92751008",
+        "bestbuy": "https://www.bestbuy.com/product/microsoft-xbox-bluetooth-wireless-gaming-over-the-ear-headset-for-xbox-series-xbox-series-s-xbox-one-and-windows-1011-black/JJGXP2QTYJ/sku/10865018",
+        "manufacturer": "https://www.xbox.com/en-US/accessories/headsets/xbox-wireless-headset"
+      },
+      "offersFound": 62
+    },
+    "asus_rog_cetra_tws_speednova": {
+      "oldPrice": [
+        150,
+        200
+      ],
+      "newPrice": [
+        150,
+        220
+      ],
+      "retailerUrls": {
+        "bestbuy": "https://www.bestbuy.com/product/asus-rog-cetra-true-wireless-speednova-in-ear-gaming-earbuds-white/JJGGLRTGJ5",
+        "microcenter": "https://www.microcenter.com/product/679181/ROG_Cetra_True_Wireless_Gaming_Headphones_(24_GHz_-_Bluetooth_53,_ROG_SpeedNova,_24-bit_96_kHz_audio,_Bone-Conduction_AI_Microphones,_Adaptive_ANC,_46",
+        "manufacturer": "https://shop.asus.com/us/90yh03y0-btaa00-rog-cetra-true-wireless-speednova.html",
+        "newegg": "https://www.newegg.com/asus-rog-cetra-true-wireless-speednova-90yh03y0-btaa00-black-usb-type-c/p/N82E16826785264"
+      },
+      "offersFound": 33
+    },
+    "jbl_quantum_800_wireless": {
+      "oldPrice": [
+        150,
+        200
+      ],
+      "newPrice": [
+        262,
+        262
+      ],
+      "retailerUrls": {
+        "newegg": "https://www.newegg.com/jbl-quantum800-black/p/N82E16826985135"
+      },
+      "offersFound": 1
+    },
+    "razer_hammerhead_pro_hyperspeed_tws": {
+      "oldPrice": [
+        150,
+        180
+      ],
+      "newPrice": [
+        116,
+        116
+      ],
+      "retailerUrls": {},
+      "offersFound": 2
+    },
+    "turtle_beach_elite_atlas_aero_wireless": {
+      "oldPrice": [
+        130,
+        170
+      ],
+      "newPrice": [
+        40,
+        40
+      ],
+      "retailerUrls": {},
+      "offersFound": 1
+    },
+    "bose_quietcomfort_45_wireless": {
+      "oldPrice": [
+        250,
+        330
+      ],
+      "newPrice": [
+        179,
+        514
+      ],
+      "retailerUrls": {},
+      "offersFound": 23
+    },
+    "sony_pulse_explore_truly_wireless": {
+      "oldPrice": [
+        180,
+        220
+      ],
+      "newPrice": [
+        195,
+        200
+      ],
+      "retailerUrls": {
+        "bestbuy": "https://www.bestbuy.com/product/sony-pulse-explore-wireless-gaming-earbuds-for-ps5-white/JXHQ3CCYGQ/sku/11981056",
+        "target": "https://www.target.com/p/pulse-explore-wireless-earbuds-for-playstation-5/-/A-90283305",
+        "newegg": "https://www.newegg.com/p/2J5-004U-000D1"
+      },
+      "offersFound": 63
+    },
+    "bose_quietcomfort_ultra_headphones_wireless": {
+      "oldPrice": [
+        350,
+        430
+      ],
+      "newPrice": [
+        299,
+        675
+      ],
+      "retailerUrls": {
+        "target": "https://www.target.com/p/bose-quietcomfort-ultra-bluetooth-wireless-noise-cancelling-headphones-black/-/A-88914398"
+      },
+      "offersFound": 71
+    },
+    "bowers_wilkins_pi7_true_wireless": {
+      "oldPrice": [
+        300,
+        400
+      ],
+      "newPrice": [
+        449,
+        499
+      ],
+      "retailerUrls": {
+        "bestbuy": "https://www.bestbuy.com/product/bowers-wilkins-pi8-true-wireless-noise-cancelling-in-ear-earbuds-midnight-blue/JXT7VJHLHF/sku/6595082",
+        "manufacturer": "https://www.bowerswilkins.com/en-us/product/wireless-earbuds/pi8/300965-40-00-309.html",
+        "microcenter": "https://www.microcenter.com/product/686389/bowers-wilkins-pi8-anthracite-true-wireless-bluetooth-earbuds-midnight-blue",
+        "bhphoto": "https://www.bhphotovideo.com/c/product/1843242-REG/bowers_wilkins_fp45829_pi8_true_wireless_noise_canceling.html"
+      },
+      "offersFound": 9
+    },
+    "sony_wh_1000xm5": {
+      "oldPrice": [
+        350,
+        400
+      ],
+      "newPrice": [
+        264,
+        300
+      ],
+      "retailerUrls": {
+        "bestbuy": "https://www.bestbuy.com/product/sony-wh-1000xm5-wireless-noise-canceling-over-the-ear-headphones-silver/J7XSRH5CXV/sku/11835293",
+        "manufacturer": "https://electronics.sony.com/audio/headphones/headband/p/wh1000xm5-s",
+        "bhphoto": "https://www.bhphotovideo.com/c/product/1706293-REG/sony_6505727_sony_wh_1000xm5_wireless_noise_canceling.html",
+        "newegg": "https://www.newegg.com/p/0TH-000U-00JM8"
+      },
+      "offersFound": 86
+    },
+    "sony_wh_1000xm3": {
+      "oldPrice": [
+        200,
+        280
+      ],
+      "newPrice": [
+        95,
+        268
+      ],
+      "retailerUrls": {
+        "newegg": "https://www.newegg.com/silver-sony-wh-1000xm3-s-headphone/p/0TH-000U-008U7"
+      },
+      "offersFound": 8
+    },
+    "steelseries_arctis_nova_pro_wired": {
+      "oldPrice": [
+        200,
+        250
+      ],
+      "newPrice": [
+        280,
+        398
+      ],
+      "retailerUrls": {
+        "bestbuy": "https://www.bestbuy.com/product/steelseries-arctis-nova-pro-wired-multi-gaming-headset-for-pc-ps5-ps4-switch-black/J3LG47VKX9/sku/6506214",
+        "microcenter": "https://www.microcenter.com/product/649561/Arctis_Nova_Pro_Gaming_Headset_for_PC_and_PlayStation",
+        "manufacturer": "https://steelseries.com/gaming-headsets/arctis-nova-pro",
+        "newegg": "https://www.newegg.com/steelseries-arctis-nova-pro-wireless-for-xbox-black/p/N82E16826249270"
+      },
+      "offersFound": 58
+    },
+    "sennheiser_momentum_4_wireless": {
+      "oldPrice": [
+        300,
+        380
+      ],
+      "newPrice": [
+        240,
+        300
+      ],
+      "retailerUrls": {
+        "bestbuy": "https://www.bestbuy.com/product/sennheiser-momemtum-4-wireless-adaptive-noise-canceling-over-the-ear-headphones-denim/J3GW2LH65F/sku/6557562",
+        "manufacturer": "https://www.sennheiser-hearing.com/en-US/p/momentum-4-denim",
+        "bhphoto": "https://www.bhphotovideo.com/c/product/1719439-REG/sennheiser_509266_momentum_4_noise_canceling_wireless.html",
+        "newegg": "https://www.newegg.com/sennheiser-momentum-4-headphone-graphite/p/0TH-0036-00EA6"
+      },
+      "offersFound": 57
+    },
+    "sennheiser_accentum_plus": {
+      "oldPrice": [
+        180,
+        230
+      ],
+      "newPrice": [
+        250,
+        250
+      ],
+      "retailerUrls": {
+        "bestbuy": "https://www.bestbuy.com/product/sennheiser-accentum-plus-wireless-bluetooth-headphones-adaptive-hybrid-anc-smart-adaptive-features-black/J3GW2LHGFT/sku/10904786",
+        "bhphoto": "https://www.bhphotovideo.com/c/product/1806325-REG/sennheiser_700176_accentum_plus_wireless_black.html",
+        "manufacturer": "https://www.walmart.com/ip/Sennheiser-ACCENTUM-Plus-Wireless-Bluetooth-Headphones-Quick-Charge-Feature-50-Hr-Battery-Playtime-Adaptive-Hybrid-ANC-Sound-Personalization-Touch-Co/5410964775"
+      },
+      "offersFound": 23
+    },
+    "jabra_elite_10": {
+      "oldPrice": [
+        200,
+        250
+      ],
+      "newPrice": [
+        59,
+        60
+      ],
+      "retailerUrls": {},
+      "offersFound": 3
+    },
+    "jabra_elite_8_active": {
+      "oldPrice": [
+        180,
+        230
+      ],
+      "newPrice": [
+        353,
+        353
+      ],
+      "retailerUrls": {},
+      "offersFound": 1
+    },
+    "audeze_mobius": {
+      "oldPrice": [
+        300,
+        400
+      ],
+      "newPrice": [
+        40,
+        42
+      ],
+      "retailerUrls": {},
+      "offersFound": 2
+    },
+    "bose_quietcomfort_35": {
+      "oldPrice": [
+        150,
+        250
+      ],
+      "newPrice": [
+        130,
+        180
+      ],
+      "retailerUrls": {
+        "bhphoto": "https://www.bhphotovideo.com/c/product/803364660-USE/bose_759944_0010_quietcomfort_35_wireless_noise.html"
+      },
+      "offersFound": 6
+    },
+    "audio_technica_ath_m50xbt2": {
+      "oldPrice": [
+        180,
+        220
+      ],
+      "newPrice": [
+        219,
+        225
+      ],
+      "retailerUrls": {
+        "bestbuy": "https://www.bestbuy.com/product/audio-technica-m50xbt-studio-monitor-headphones-black/CG9462VV5L/sku/10101587",
+        "manufacturer": "https://www.audio-technica.com/en-us/ath-m50xbt2",
+        "microcenter": "https://www.microcenter.com/product/640392/audio-technica-ath-m50xbt2-wireless-bluetooth-headphones-black",
+        "bhphoto": "https://www.bhphotovideo.com/c/product/1663134-REG/audio_technica_consumer_ath_m50bt2_wireless_over_ear_headphones_with.html",
+        "newegg": "https://www.newegg.com/audio-technica-ath-m50xbt2-over-the-ear-black/p/0TH-0045-008M1"
+      },
+      "offersFound": 70
+    },
+    "bowers_wilkins_px8": {
+      "oldPrice": [
+        600,
+        700
+      ],
+      "newPrice": [
+        699,
+        1000
+      ],
+      "retailerUrls": {
+        "manufacturer": "https://www.bowerswilkins.com/en-us/product/over-ear-headphones/px8/300494-38-00-308.html",
+        "bhphoto": "https://www.bhphotovideo.com/c/product/1719106-REG/bowers_wilkins_fp42978_px8_noise_canceling_wireless_over_ear.html",
+        "newegg": "https://www.newegg.com/p/0TH-00ZM-000B1"
+      },
+      "offersFound": 15
+    },
+    "samsung_galaxy_buds_plus": {
+      "oldPrice": [
+        80,
+        120
+      ],
+      "newPrice": [
+        179,
+        220
+      ],
+      "retailerUrls": {
+        "bestbuy": "https://www.bestbuy.com/product/samsung-galaxy-buds-live-true-wireless-earbud-headphones-black/J3ZYGCQF2G/sku/10638823",
+        "newegg": "https://www.newegg.com/samsung-sm-r180nzkaxar-wireless-black/p/0G6-000D-006X5"
+      },
+      "offersFound": 13
+    },
+    "sonos_ace": {
+      "oldPrice": [
+        400,
+        450
+      ],
+      "newPrice": [
+        319,
+        638
+      ],
+      "retailerUrls": {
+        "manufacturer": "https://www.sonos.com/en-us/shop/sonos-ace-black.html",
+        "bestbuy": "https://www.bestbuy.com/product/sonos-ace-wireless-over-the-ear-headphones-with-active-noise-cancellation-each-black/J39H3735Q5/sku/6580673",
+        "walmart": "https://www.walmart.com/ip/Sonos-Ace-Wireless-Noise-Canceling-Headphones-White/6309069930",
+        "bhphoto": "https://www.bhphotovideo.com/c/product/1832282-REG/sonos_ace_wireless_noise_canceling_over_ear.html",
+        "microcenter": "https://www.microcenter.com/product/680659/sonos-ace-active-noise-cancelling-bluetooth-headphones-white",
+        "newegg": "https://www.newegg.com/p/0TH-07JT-000V7"
+      },
+      "offersFound": 68
+    },
+    "jbl_tune_770nc": {
+      "oldPrice": [
+        80,
+        130
+      ],
+      "newPrice": [
+        94,
+        150
+      ],
+      "retailerUrls": {
+        "bestbuy": "https://www.bestbuy.com/product/jbl-tune-770nc-adaptive-noise-cancelling-wireless-over-ear-headphone-2024-white/J7LXFWXLRC/sku/11919868",
+        "walmart": "https://www.walmart.com/ip/JBL-Tune-770NC-Adaptive-Noise-Cancelling-Wireless-over-Ear-Headphones-White/5262667670",
+        "manufacturer": "https://www.walmart.com/ip/JBL-Tune-770NC-Adaptive-Noise-Cancelling-Wireless-over-Ear-Headphones-White/5262667670"
+      },
+      "offersFound": 86
+    },
+    "jbl_club_pro_plus_tws": {
+      "oldPrice": [
+        150,
+        200
+      ],
+      "newPrice": [
+        60,
+        142
+      ],
+      "retailerUrls": {},
+      "offersFound": 3
+    },
+    "akg_n700nc_m2": {
+      "oldPrice": [
+        180,
+        250
+      ],
+      "newPrice": [
+        150,
+        190
+      ],
+      "retailerUrls": {},
+      "offersFound": 2
+    }
+  },
+  "failures": [
+    "steelseries_arctis_7_wireless_2017",
+    "turtle_beach_stealth_600_gen3",
+    "hyperx_cloud_iii",
+    "drop_sennheiser_epos_pc38x",
+    "steelseries_arctis_gamebuds",
+    "hyperx_cloud_flight_s",
+    "astro_a50_gen_3",
+    "fractal_scape",
+    "logitech_g930_wireless",
+    "plantronics_rig_800lx_wireless",
+    "astro_a20_wireless",
+    "audeze_penrose_wireless",
+    "logitech_g733_lightspeed_wireless",
+    "steelseries_arctis_7_2019_wireless",
+    "bang_olufsen_beoplay_portal",
+    "corsair_hs80_rgb_wireless",
+    "astro_a20_gen_2_wireless",
+    "sennheiser_hd560s",
+    "focal_stellia",
+    "audeze_lcd_x",
+    "sony_wh_1000xm4",
+    "bowers_wilkins_px7_s2_wireless",
+    "anker_soundcore_space_q45",
+    "treblab_z7_pro_wireless",
+    "apple_airpods_pro_3",
+    "apple_airpods_4_anc",
+    "sony_wf_1000xm5",
+    "bose_qc_ultra_earbuds_2nd_gen",
+    "bose_qc_ultra_earbuds_1st_gen",
+    "sennheiser_momentum_tw4",
+    "technics_eah_az100",
+    "technics_eah_az80",
+    "nothing_ear_2024",
+    "nothing_ear_a",
+    "anker_soundcore_space_a40",
+    "anker_soundcore_liberty_4_nc",
+    "jbl_vibe_buds",
+    "skullcandy_push_active",
+    "jlab_go_air_pop",
+    "anker_soundcore_p25i",
+    "tozo_t6_truly_wireless",
+    "anker_soundcore_c30i",
+    "kefine_klean",
+    "artti_t10",
+    "simgot_ew300",
+    "juzear_defiant",
+    "letshuoer_s08",
+    "aful_explorer",
+    "dunu_kima_2",
+    "letshuoer_s12_pro",
+    "simgot_supermix_4",
+    "kiwi_ears_aether",
+    "aful_performer_7",
+    "ziigaat_odyssey",
+    "moondrop_crinacle_dusk",
+    "xenns_mangird_tea_pro",
+    "xenns_mangird_top_pro",
+    "dunu_dk3001bd",
+    "corsair_hs75_xb_wireless",
+    "roccat_syn_pro_air_wireless",
+    "wyze_wireless_gaming_headset",
+    "corsair_virtuoso_rgb_wireless_se",
+    "corsair_virtuoso_rgb_wireless_xt",
+    "sony_pulse_3d_wireless",
+    "noble_fokus_apollo",
+    "epos_gtw_270_hybrid_truly_wireless",
+    "jabra_evolve2_65_wireless",
+    "bose_quietcomfort_35_ii_wireless_2018",
+    "jabra_elite_10_gen_2",
+    "jabra_elite_8_active_gen_2",
+    "sennheiser_rs_165_rf_wireless",
+    "astro_a40_tr_headset_mixamp_pro_2019",
+    "steelseries_arctis_nova_pro_wireless",
+    "sennheiser_momentum_3_wireless",
+    "jabra_elite_85h_wireless",
+    "jabra_elite_7_pro_true_wireless",
+    "jabra_elite_7_active",
+    "bose_700",
+    "bose_soundlink_2",
+    "turtle_beach_elite_pro_2_superamp",
+    "corsair_hs70_bluetooth",
+    "razer_opus_2020"
+  ],
+  "apiCallsUsed": 362
+}

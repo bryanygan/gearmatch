@@ -24,9 +24,15 @@ GearMatch takes a quiz-based approach to match users with peripherals that fit t
 
 ### Recommendation Engine
 - **Weighted Scoring Algorithm** - Products scored 0-100 based on how well they match your preferences
+- **Web Worker Scoring** - Scoring runs off the main thread via a dedicated Web Worker for a responsive UI
+- **Pre-Filtering** - Obvious mismatches (e.g., wrong connectivity, handedness) are eliminated before scoring to reduce workload
 - **Match Quality Labels** - Excellent (90+), Great (80+), Good (70+), Decent (60+), Partial (<60)
 - **Transparent Breakdowns** - See exactly why each product was recommended with score breakdowns per category
 - **Match Reasons & Concerns** - Human-readable explanations of pros and potential tradeoffs
+
+### Search
+- **Fuzzy Full-Text Search** - Fuse.js-powered search across product names, brands, and tags
+- **Cmd+K Command Palette** - Quick product search from anywhere in the app
 
 ### Results Pages
 - **Top 3 Picks** - Best matches with detailed scoring and explanations
@@ -39,11 +45,22 @@ GearMatch takes a quiz-based approach to match users with peripherals that fit t
 - **198 Audio Products** - IEMs, wireless headsets, and open-back headphones ($23-$500)
 - **279 Keyboards** - Mechanical, magnetic hall effect, and optical switches ($50-$350+)
 - **378 Monitors** - RTINGS lab-tested data, IPS/VA/OLED panels, 24"-49" sizes
-- **1,040+ Total Products** - Comprehensive database across all categories
+- **1,040+ Total Products** - Comprehensive Zod-validated JSON database across all categories
 - **Rich Attributes** - Weight, dimensions, grip styles, sensor class, switch types, panel specs, and more
+- **Retailer Links** - Direct links to manufacturer pages, Amazon, Best Buy, Micro Center, and more
+- **Price Tracking** - Prices updated with major retailer data
+
+### API Layer (Cloudflare Pages Functions)
+- **Product Listing** - Paginated product endpoints per category
+- **Product Search** - Server-side substring search across all categories
+- **Smart Filtering** - Pre-filter products by quiz answers before scoring
+- **Rate Limiting** - Per-IP rate limits on search and filter endpoints
+- **Security Headers** - CORS, CSP, X-Frame-Options, and HSTS
 
 ### Performance & Reliability
 - **Lazy Loading** - Quiz and results pages are lazily loaded for faster initial page load
+- **Lazy Product Data** - Product JSON is loaded on-demand by category via dynamic imports
+- **Build-Time Validation** - Custom Vite plugin validates all product JSON against Zod schemas at build time
 - **Error Boundary** - Graceful error handling with sanitized error messages
 - **Loading States** - Skeleton UI components for smooth loading experience
 
@@ -56,8 +73,11 @@ GearMatch takes a quiz-based approach to match users with peripherals that fit t
 - **shadcn/ui** - Component library
 - **React Router** - Client-side routing
 - **React Query** - Server state management
-- **Zod** - Runtime schema validation
-- **Vitest** - Testing framework (100+ tests)
+- **Zod** - Runtime schema validation and product data validation
+- **Fuse.js** - Fuzzy full-text search
+- **Cloudflare Pages Functions** - Serverless API layer
+- **Wrangler** - Cloudflare local development and deployment
+- **Vitest** - Testing framework (247 tests)
 
 ## Getting Started
 
@@ -89,19 +109,38 @@ The development server runs at `http://localhost:8080`
 | Command | Description |
 |---------|-------------|
 | `npm run dev` | Start development server with hot reload |
-| `npm run build` | Build for production |
-| `npm run build:dev` | Build development version |
+| `npm run dev:api` | Start dev server with Cloudflare Pages Functions (API layer) |
+| `npm run build` | Copy product data and build for production |
+| `npm run build:dev` | Copy product data and build development version |
 | `npm run preview` | Preview production build locally |
 | `npm test` | Run tests |
 | `npm run test:watch` | Run tests in watch mode |
 | `npm run lint` | Run ESLint |
+| `npm run copy:products` | Copy product JSON to public directory |
+| `npm run convert:products` | Validate and reformat product JSON files |
 
 ## Project Structure
 
 ```
 gearmatch/
 ├── public/                       # Static assets
-│   └── _redirects                # Cloudflare Pages SPA routing
+│   ├── _redirects                # Cloudflare Pages SPA routing
+│   └── data/products/            # Copied product JSON (built via npm script)
+│
+├── functions/                    # Cloudflare Pages Functions (API layer)
+│   └── api/products/
+│       ├── _middleware.ts        # CORS, rate limiting, security headers
+│       ├── [category].ts        # Paginated product listing endpoint
+│       ├── search.ts            # Full-text product search endpoint
+│       └── filter.ts            # Smart pre-filtering by quiz answers
+│
+├── scripts/                     # Build and data management utilities
+│   ├── convert-ts-to-json.ts    # Validate and reformat product JSON
+│   ├── update-prices.ts         # Update product prices from retailer APIs
+│   └── update-mice-prices.ts    # Mouse-specific price update utility
+│
+├── vite-plugins/                # Custom Vite plugins
+│   └── validate-products.ts     # Build-time product JSON validation
 │
 ├── workspace/                    # Development documentation
 │   ├── DEVELOPMENT_SUGGESTIONS.md
@@ -151,15 +190,28 @@ gearmatch/
 │   │
 │   ├── data/
 │   │   ├── products.ts           # Legacy product exports
-│   │   └── products/             # Product database
-│   │       ├── index.ts          # Aggregated product exports
-│   │       ├── mice.ts           # Gaming mice (185 products)
-│   │       ├── audio.ts          # Audio equipment (198 products)
-│   │       ├── keyboards.ts      # Keyboards (279 products)
-│   │       └── monitors.ts       # Monitors (378 products, RTINGS data)
+│   │   └── products/             # Product database (Zod-validated JSON)
+│   │       ├── index.ts          # Aggregated product exports with lazy loading
+│   │       ├── mice.json         # Gaming mice (185 products)
+│   │       ├── audio.json        # Audio equipment (198 products)
+│   │       ├── keyboards.json    # Keyboards (279 products)
+│   │       └── monitors.json     # Monitors (378 products, RTINGS data)
 │   │
 │   ├── lib/
 │   │   ├── utils.ts              # Utility functions (cn, etc.)
+│   │   ├── api/                  # API client
+│   │   │   ├── client.ts         # Fetch wrapper with error handling
+│   │   │   └── types.ts          # API response interfaces
+│   │   ├── filtering/            # Pre-filtering (Phase 4)
+│   │   │   ├── index.ts          # Public exports
+│   │   │   ├── apply-filters.ts  # Generic filter application
+│   │   │   ├── types.ts          # PreFilter type definitions
+│   │   │   ├── mouse-filters.ts  # Mouse pre-filters (wireless, handedness)
+│   │   │   ├── audio-filters.ts  # Audio pre-filters (wireless, mic)
+│   │   │   ├── keyboard-filters.ts # Keyboard pre-filters (connectivity)
+│   │   │   └── monitor-filters.ts  # Monitor pre-filters (resolution, size)
+│   │   ├── schemas/              # Product data schemas
+│   │   │   └── product-schemas.ts # Zod schemas for all product types
 │   │   ├── scoring/              # Recommendation engine
 │   │   │   ├── index.ts          # Public exports
 │   │   │   ├── engine.ts         # Core scoring algorithm
@@ -167,7 +219,13 @@ gearmatch/
 │   │   │   ├── audio-rules.ts    # Audio scoring rules (6 categories)
 │   │   │   ├── keyboard-rules.ts # Keyboard scoring rules (10 categories)
 │   │   │   ├── monitor-rules.ts  # Monitor scoring rules (11 categories)
-│   │   │   └── types.ts          # Scoring interfaces
+│   │   │   ├── types.ts          # Scoring interfaces
+│   │   │   └── worker/           # Web Worker for off-thread scoring
+│   │   │       ├── index.ts      # Public exports
+│   │   │       ├── scoring.worker.ts # Worker process
+│   │   │       └── client.ts     # Main-thread wrapper with fallback
+│   │   ├── search/               # Full-text search (Fuse.js)
+│   │   │   └── index.ts          # Fuzzy search across products
 │   │   └── validation/           # Input validation
 │   │       ├── index.ts          # Public exports
 │   │       └── quiz-schemas.ts   # Zod schemas for quiz answers
@@ -193,6 +251,7 @@ gearmatch/
 │
 ├── index.html                    # HTML entry point
 ├── package.json                  # Dependencies and scripts
+├── wrangler.toml                 # Cloudflare Pages Functions configuration
 ├── vite.config.ts                # Vite configuration
 ├── vitest.config.ts              # Vitest configuration
 ├── tailwind.config.ts            # Tailwind configuration
@@ -271,16 +330,27 @@ gearmatch/
 
 ## Deployment
 
-The app is configured for static hosting platforms like Cloudflare Pages.
+The app is deployed on Cloudflare Pages with serverless API functions.
 
 ### Cloudflare Pages Settings
 - **Build command:** `npm run build`
 - **Build output directory:** `dist`
+- **Functions directory:** `functions/` (auto-detected by Cloudflare Pages)
+
+### Local API Development
+```bash
+# Start dev server with API layer (wrangler proxies to Vite)
+npm run dev:api
+```
 
 The `public/_redirects` file handles SPA routing:
 ```
 /*    /index.html   200
 ```
+
+### Environment Variables
+Configured in `wrangler.toml`:
+- `ALLOWED_ORIGIN` - CORS origin (`*` for dev/preview, `https://gearmatch.com` for production)
 
 ## Current Product Database
 
@@ -310,7 +380,20 @@ The `public/_redirects` file handles SPA routing:
 
 ## Recent Updates
 
-### February 2026
+### February 2026 (latest)
+- **API Layer** - Cloudflare Pages Functions with paginated product listing, search, and smart filtering endpoints
+- **Web Worker Scoring** - Scoring engine moved off the main thread for responsive UI during heavy computation
+- **Pre-Filtering System** - Eliminates obvious mismatches before scoring (wireless/wired, handedness, mic, connectivity, resolution, size)
+- **Fuse.js Search** - Fuzzy full-text search across product names, brands, and tags
+- **Product Data Migration** - Converted from TypeScript to Zod-validated JSON with lazy-loading by category
+- **Build-Time Validation** - Custom Vite plugin validates all product JSON against Zod schemas at build time
+- **Retailer Links** - Direct links to manufacturer, Amazon, Best Buy, Micro Center, Newegg, B&H Photo, and more
+- **Price Updates** - Mouse prices updated with major retailer pricing data
+- **API Security** - Rate limiting (per-IP), CORS, CSP, HSTS, and security headers on all endpoints
+- **Mobile UI Improvements** - Better Hero section, mobile text scaling, improved scrolling images, quiz UI polish
+- **Bug Fixes** - Fixed animations stopping on quiz exit, rate limit matching, search categories, button clipping
+
+### February 2026 (earlier)
 - **Keyboard Recommendation System** - Full quiz with 279 products, 10 scoring categories, magnetic/mechanical/optical switch support
 - **Monitor Recommendation System** - Full quiz with 378 products, RTINGS data integration, 11 scoring categories
 - **Massive Database Expansion** - From 32 products to 1,040+ products across all categories
@@ -343,7 +426,7 @@ The `workspace/` folder contains development documentation:
 Run the test suite:
 
 ```bash
-# Run all tests
+# Run all tests (247 tests)
 npm test
 
 # Run tests in watch mode
@@ -363,6 +446,15 @@ Test coverage includes:
 - [x] Keyboard recommendations (279 products)
 - [x] Monitor recommendations (378 products, RTINGS integration)
 - [x] Expanded product databases (1,040+ total products)
+- [x] API layer via Cloudflare Pages Functions
+- [x] Web Worker scoring for off-thread computation
+- [x] Pre-filtering system for performance
+- [x] Fuzzy product search (Fuse.js)
+- [x] Product data migration to Zod-validated JSON
+- [x] Build-time product validation (Vite plugin)
+- [x] Retailer links and price tracking
+- [x] Security headers configuration (CORS, CSP, HSTS)
+- [x] Rate limiting on API endpoints
 
 ### Coming Soon
 - [ ] Keyboard switches guide
@@ -370,7 +462,6 @@ Test coverage includes:
 - [ ] Product comparison feature
 - [ ] User accounts for saving preferences
 - [ ] Error monitoring integration (Sentry)
-- [ ] Security headers configuration
 
 ## License
 
