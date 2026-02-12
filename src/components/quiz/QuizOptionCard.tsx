@@ -67,7 +67,7 @@ const QuizOptionCard = memo(function QuizOptionCard({
       type="button"
       onClick={onClick}
       className={cn(
-        "group relative flex flex-col items-center gap-3 rounded-xl border-2 p-6 text-center transition-all duration-300",
+        "group relative flex flex-col items-center gap-2 md:gap-3 rounded-xl border-2 p-3 md:p-5 text-center transition-all duration-300",
         "hover:scale-[1.02] hover:shadow-lg active:scale-[0.98]",
         selected
           ? `${accent.border} ${accent.bg} shadow-lg ${accent.glow}`
@@ -116,13 +116,13 @@ const QuizOptionCard = memo(function QuizOptionCard({
       {Icon && (
         <div
           className={cn(
-            "flex h-14 w-14 items-center justify-center rounded-xl transition-colors duration-200",
+            "flex h-10 w-10 md:h-14 md:w-14 items-center justify-center rounded-xl transition-colors duration-200",
             selected ? accent.iconBg : "bg-secondary"
           )}
         >
           <Icon
             className={cn(
-              "h-7 w-7 transition-colors duration-200",
+              "h-5 w-5 md:h-7 md:w-7 transition-colors duration-200",
               selected ? accent.iconText : "text-muted-foreground"
             )}
           />

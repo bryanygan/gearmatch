@@ -27,7 +27,7 @@ const QuizProgress = ({
   const progress = ((currentStep - 1) / totalSteps) * 100;
 
   return (
-    <div className="space-y-3">
+    <div className="space-y-1.5">
       {/* Category pills (when categories provided) */}
       {categories && categories.length > 0 && (
         <div className="flex items-center justify-center gap-2 text-xs">
