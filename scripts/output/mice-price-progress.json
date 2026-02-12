@@ -1,0 +1,1593 @@
+{
+  "lastProcessedIndex": 181,
+  "results": {
+    "razer_viper_v3_pro": {
+      "oldPrice": [
+        150,
+        180
+      ],
+      "newPrice": [
+        100,
+        180
+      ],
+      "retailerUrls": {
+        "manufacturer": "https://www.razer.com/gaming-mice/razer-viper-v3-pro-se/RZ01-04550100-R3U1",
+        "bestbuy": "https://www.bestbuy.com/product/razer-viper-v3-pro-ultra-lightweight-optical-gaming-mouse-with-95-hour-battery-life-8k-polling-rate-wireless-white/J39HWFH93Z",
+        "microcenter": "https://www.microcenter.com/product/695768/razer-viper-v3-pro-wireless-gaming-mouse-faker-edition",
+        "newegg": "https://www.newegg.com/p/32K-0091-00022"
+      },
+      "offersFound": 30
+    },
+    "logitech_g_pro_x_superlight_2": {
+      "oldPrice": [
+        150,
+        160
+      ],
+      "newPrice": [
+        90,
+        130
+      ],
+      "retailerUrls": {
+        "bestbuy": "https://www.bestbuy.com/product/logitech-pro-x-superlight-lightweight-wireless-optical-gaming-mouse-with-hero-25k-sensor-wireless-black/J7H7ZY3CZT/sku/12130162",
+        "walmart": "https://www.walmart.com/ip/Logitech-G-Pro-X-Superlight-Wireless-Gaming-Mouse-Ultra-Lightweight-HERO-25K-Sensor-Black/403548050",
+        "newegg": "https://www.newegg.com/logitech-910-005878-pro-x-rf-lightspeed-wireless/p/N82E16826197421"
+      },
+      "offersFound": 12
+    },
+    "pulsar_x2": {
+      "oldPrice": [
+        90,
+        110
+      ],
+      "newPrice": [
+        110,
+        110
+      ],
+      "retailerUrls": {},
+      "offersFound": 1
+    },
+    "atk_blazing_sky_u2_ultimate": {
+      "oldPrice": [
+        55,
+        80
+      ],
+      "newPrice": [
+        9,
+        9
+      ],
+      "retailerUrls": {},
+      "offersFound": 1
+    },
+    "logitech_g_pro_x_superlight_2_se": {
+      "oldPrice": [
+        100,
+        140
+      ],
+      "newPrice": [
+        200,
+        200
+      ],
+      "retailerUrls": {},
+      "offersFound": 2
+    },
+    "roccat_kone_pro": {
+      "oldPrice": [
+        50,
+        80
+      ],
+      "newPrice": [
+        43,
+        43
+      ],
+      "retailerUrls": {},
+      "offersFound": 1
+    },
+    "razer_cobra": {
+      "oldPrice": [
+        30,
+        50
+      ],
+      "newPrice": [
+        31,
+        35
+      ],
+      "retailerUrls": {
+        "bestbuy": "https://www.bestbuy.com/site/razer-cobra-wired-gaming-mouse-with-chroma-rgb-lighting-and-58g-lightweight-design-black/6548181.p",
+        "microcenter": "https://www.microcenter.com/product/666879/Cobra_Lightweight_Wired_Gaming_Mouse_-_Black",
+        "walmart": "https://www.walmart.com/ip/Razer-Cobra-Wired-Gaming-Mouse-58g-Lightweight-Design-Gen-3-Optical-Switches-RGB-Lighting-Black/2306255875",
+        "bhphoto": "https://www.bhphotovideo.com/c/product/1851355-REG/razer_rz01_04650100_r3u1_cobra_wired_gaming_mouse.html",
+        "newegg": "https://www.newegg.com/p/N82E16826153358"
+      },
+      "offersFound": 21
+    },
+    "logitech_g203": {
+      "oldPrice": [
+        30,
+        45
+      ],
+      "newPrice": [
+        20,
+        66
+      ],
+      "retailerUrls": {
+        "manufacturer": "https://www.logitechg.com/en-us/shop/p/g203-lightsync-rgb-gaming-mouse.910-005790"
+      },
+      "offersFound": 8
+    },
+    "logitech_g305": {
+      "oldPrice": [
+        30,
+        55
+      ],
+      "newPrice": [
+        30,
+        57
+      ],
+      "retailerUrls": {
+        "manufacturer": "https://www.logitechg.com/en-us/shop/p/g305-lightspeed-wireless-gaming-mouse.910-005280"
+      },
+      "offersFound": 3
+    },
+    "keychron_m3_mini": {
+      "oldPrice": [
+        40,
+        60
+      ],
+      "newPrice": [
+        40,
+        92
+      ],
+      "retailerUrls": {
+        "manufacturer": "https://www.keychron.com/products/keychron-m3-mini-wireless-mouse?variant=42587404402777"
+      },
+      "offersFound": 7
+    },
+    "logitech_m100": {
+      "oldPrice": [
+        8,
+        15
+      ],
+      "newPrice": [
+        10,
+        20
+      ],
+      "retailerUrls": {
+        "bestbuy": "https://www.bestbuy.com/product/logitech-m100-wired-optical-ambidextrous-pc-mouse-with-1000-dpi-optical-tracking-wired-gray/J7H7ZLVCL2/sku/1147528",
+        "manufacturer": "https://www.logitech.com/en-us/products/mice/m100-usb-mouse.910-001601.html",
+        "target": "https://www.target.com/p/logitech-m100-wired-mouse-gray/-/A-52135859",
+        "microcenter": "https://www.microcenter.com/product/510353/Mouse_M100_-_Black",
+        "bhphoto": "https://www.bhphotovideo.com/c/product/758675-REG/Logitech_910_001601_M100_Mouse.html",
+        "newegg": "https://www.newegg.com/p/0TP-000C-017Z4"
+      },
+      "offersFound": 58
+    },
+    "razer_viper_v3_hyperspeed": {
+      "oldPrice": [
+        60,
+        90
+      ],
+      "newPrice": [
+        60,
+        64
+      ],
+      "retailerUrls": {
+        "bestbuy": "https://www.bestbuy.com/product/razer-viper-v3-hyperspeed-lightweight-optical-gaming-mouse-with-280-hour-battery-life-wireless-black/J39HWFHGV2",
+        "manufacturer": "https://www.razer.com/gaming-mice/razer-viper-v3-hyperspeed/RZ01-04910100-R3U1",
+        "walmart": "https://www.walmart.com/ip/Razer-Viper-V3-Hyperspeed-Wireless-Esports-Mouse-for-PC-82g-Black/5098188380",
+        "bhphoto": "https://www.bhphotovideo.com/c/product/1851358-REG/razer_rz01_04910100_r3u1_viper_v3_hyperspeed_wireless.html"
+      },
+      "offersFound": 23
+    },
+    "logitech_m240": {
+      "oldPrice": [
+        20,
+        30
+      ],
+      "newPrice": [
+        14,
+        15
+      ],
+      "retailerUrls": {
+        "manufacturer": "https://www.logitech.com/en-us/shop/p/m240-silent-bluetooth-mouse.910-007113"
+      },
+      "offersFound": 2
+    },
+    "logitech_g502_x": {
+      "oldPrice": [
+        60,
+        90
+      ],
+      "newPrice": [
+        80,
+        153
+      ],
+      "retailerUrls": {
+        "manufacturer": "https://www.logitechg.com/en-us/shop/p/g502-x-wired-lightforce.910-006136"
+      },
+      "offersFound": 4
+    },
+    "logitech_g502_x_plus": {
+      "oldPrice": [
+        110,
+        170
+      ],
+      "newPrice": [
+        150,
+        165
+      ],
+      "retailerUrls": {
+        "manufacturer": "https://www.logitechg.com/en-us/shop/p/g502-x-plus-wireless-lightforce.910-006160"
+      },
+      "offersFound": 3
+    },
+    "logitech_g502_hero": {
+      "oldPrice": [
+        40,
+        60
+      ],
+      "newPrice": [
+        80,
+        81
+      ],
+      "retailerUrls": {
+        "manufacturer": "https://www.logitechg.com/en-us/shop/p/g502-hero-gaming-mouse.910-005469"
+      },
+      "offersFound": 3
+    },
+    "razer_basilisk_v3": {
+      "oldPrice": [
+        40,
+        80
+      ],
+      "newPrice": [
+        89,
+        149
+      ],
+      "retailerUrls": {
+        "bestbuy": "https://www.bestbuy.com/product/razer-basilisk-v3-pro-optical-gaming-mouse-with-hyperscroll-tilt-wheel-wireless-white/J39HWFQFFX",
+        "manufacturer": "https://www.razer.com/gaming-mice/razer-basilisk-v3-pro/RZ01-04620100-R3U1",
+        "walmart": "https://www.walmart.com/ip/Razer-Basilisk-V3-Pro-Wireless-Gaming-Mouse-HyperScroll-Tilt-Wheel-2-4Ghz-Bluetooth-RGB-Black/1981900339",
+        "bhphoto": "https://www.bhphotovideo.com/c/product/1851350-REG/razer_rz01_04620100_r3u1_basilisk_v3_pro_ergonomic.html",
+        "newegg": "https://www.newegg.com/p/N82E16826153335"
+      },
+      "offersFound": 34
+    },
+    "razer_naga_pro": {
+      "oldPrice": [
+        100,
+        150
+      ],
+      "newPrice": [
+        180,
+        180
+      ],
+      "retailerUrls": {
+        "manufacturer": "https://www.razer.com/gaming-mice/razer-naga-v2-pro/RZ01-04400100-R3U1",
+        "newegg": "https://www.newegg.com/p/N82E16826153336"
+      },
+      "offersFound": 9
+    },
+    "razer_naga_v2_pro": {
+      "oldPrice": [
+        150,
+        200
+      ],
+      "newPrice": [
+        180,
+        180
+      ],
+      "retailerUrls": {
+        "manufacturer": "https://www.razer.com/gaming-mice/razer-naga-v2-pro/RZ01-04400100-R3U1",
+        "newegg": "https://www.newegg.com/p/N82E16826153336"
+      },
+      "offersFound": 7
+    },
+    "steelseries_aerox_5_wireless": {
+      "oldPrice": [
+        80,
+        130
+      ],
+      "newPrice": [
+        65,
+        80
+      ],
+      "retailerUrls": {
+        "bestbuy": "https://www.bestbuy.com/product/steelseries-aerox-3-super-light-honeycomb-wireless-rgb-optical-gaming-mouse-wireless-snow/J3R8HS2H35/sku/6485249",
+        "manufacturer": "https://steelseries.com/gaming-mice/aerox-3-2022",
+        "walmart": "https://www.walmart.com/ip/SteelSeries-62608-Aerox-3-Wireless-Optical-Gaming-Mouse-with-Ultra-Lightweight-Design-White/293366417",
+        "microcenter": "https://www.microcenter.com/product/643174/Aerox_3_Wired_Ultra-Lightweight_Gaming_Mouse_-_Snow"
+      },
+      "offersFound": 83
+    },
+    "hyperx_pulsefire_saga_pro": {
+      "oldPrice": [
+        80,
+        120
+      ],
+      "newPrice": [
+        100,
+        120
+      ],
+      "retailerUrls": {
+        "bestbuy": "https://www.bestbuy.com/product/hyperx-pulsefire-saga-pro-lightweight-wireless-optical-gaming-mouse-with-4k-polling-rate-wireless-black/JJG9TTPCHL/sku/6626281",
+        "manufacturer": "https://hyperx.com/products/hyperx-pulsefire-saga-pro-wireless-gaming-mouse?variant=46426553548957",
+        "target": "https://www.target.com/p/hyperx-pulsefire-saga-pro-wireless-gaming-mouse/-/A-94734416",
+        "newegg": "https://www.newegg.com/p/N82E16826738045"
+      },
+      "offersFound": 17
+    },
+    "logitech_m720_triathlon": {
+      "oldPrice": [
+        40,
+        60
+      ],
+      "newPrice": [
+        38,
+        38
+      ],
+      "retailerUrls": {
+        "bestbuy": "https://www.bestbuy.com/product/logitech-m720-triathlon-wireless-optical-mouse-wireless-black/J7H7ZYCZ7V/sku/5592421",
+        "manufacturer": "https://www.logitech.com/en-us/shop/p/m720-triathlon.910-004790",
+        "walmart": "https://www.walmart.com/ip/Logitech-M720-Triathlon-Multi-Computer-Wireless-Mouse/55541168",
+        "bhphoto": "https://www.bhphotovideo.com/c/product/1357320-REG/logitech_910004790_m720_triathlon_mouse.html",
+        "newegg": "https://www.newegg.com/logitech-910-004790-m720-triathlon-rf-wireless/p/N82E16826197219"
+      },
+      "offersFound": 30
+    },
+    "logitech_mx_master_3s": {
+      "oldPrice": [
+        90,
+        110
+      ],
+      "newPrice": [
+        80,
+        120
+      ],
+      "retailerUrls": {
+        "bestbuy": "https://www.bestbuy.com/product/logitech-mx-master-3s-bluetooth-edition-performance-wireless-optical-mouse-with-ultra-fast-scrolling-and-quiet-clicks-wireless-black/J7H7ZYG559/sku/6633199",
+        "manufacturer": "https://www.logitech.com/en-us/shop/p/mx-master-3s.910-007499",
+        "target": "https://www.target.com/p/logitech-mx-master-3s-wireless-mouse-black-910007500/-/A-1008322068",
+        "walmart": "https://www.walmart.com/ip/Logitech-MX-Master-3S-for-Mac-Performance-Wireless-Mouse-Space-Gray-Space-Gray/1028399963",
+        "newegg": "https://www.newegg.com/p/0TP-000C-01K99",
+        "bhphoto": "https://www.bhphotovideo.com/c/product/803311527-USE/logitech_910_006569_mx_master_3s_for.html/qa"
+      },
+      "offersFound": 51
+    },
+    "logitech_mx_master_2s": {
+      "oldPrice": [
+        60,
+        80
+      ],
+      "newPrice": [
+        80,
+        120
+      ],
+      "retailerUrls": {
+        "bestbuy": "https://www.bestbuy.com/product/logitech-mx-master-3s-bluetooth-edition-performance-wireless-optical-mouse-with-ultra-fast-scrolling-and-quiet-clicks-wireless-black/J7H7ZYG559/sku/6633199",
+        "manufacturer": "https://www.logitech.com/en-us/shop/p/mx-master-3s.910-007499",
+        "target": "https://www.target.com/p/logitech-mx-master-3s-wireless-mouse-black-910007500/-/A-1008322068",
+        "bhphoto": "https://www.bhphotovideo.com/c/product/1703320-REG/logitech_910_006556_mx_master_3s_black.html",
+        "newegg": "https://www.newegg.com/p/0TP-000C-01K99"
+      },
+      "offersFound": 56
+    },
+    "razer_pro_click_mini": {
+      "oldPrice": [
+        70,
+        90
+      ],
+      "newPrice": [
+        66,
+        123
+      ],
+      "retailerUrls": {},
+      "offersFound": 10
+    },
+    "logitech_mx_ergo": {
+      "oldPrice": [
+        80,
+        110
+      ],
+      "newPrice": [
+        55,
+        142
+      ],
+      "retailerUrls": {
+        "newegg": "https://www.newegg.com/logitech-910-005177-mx-ergo/p/N82E16826197302"
+      },
+      "offersFound": 23
+    },
+    "logitech_lift": {
+      "oldPrice": [
+        60,
+        80
+      ],
+      "newPrice": [
+        70,
+        74
+      ],
+      "retailerUrls": {
+        "manufacturer": "https://www.logitech.com/en-us/shop/p/lift-vertical-ergonomic-mouse.910-006466"
+      },
+      "offersFound": 3
+    },
+    "apple_magic_mouse_2": {
+      "oldPrice": [
+        70,
+        100
+      ],
+      "newPrice": [
+        68,
+        100
+      ],
+      "retailerUrls": {
+        "bestbuy": "https://www.bestbuy.com/product/apple-magic-mouse-multi-touch-surface-usb-c-wireless-white-multi-touch-surface/JJGCQ8CVPL/sku/6276703",
+        "manufacturer": "https://www.apple.com/us/xc/product/MXK63AM/A",
+        "walmart": "https://www.walmart.com/ip/Apple-Wireless-USB-C-Magic-Mouse-with-Multi-Touch-Surface-Black/14963657228",
+        "bhphoto": "https://www.bhphotovideo.com/c/product/1861346-REG/apple_mxk53am_a_magic_mouse_white.html",
+        "microcenter": "https://www.microcenter.com/product/688114/apple-magic-mouse-multi-touch-surface-black"
+      },
+      "offersFound": 73
+    },
+    "razer_deathadder_v4_pro": {
+      "oldPrice": [
+        159,
+        179
+      ],
+      "newPrice": [
+        100,
+        120
+      ],
+      "retailerUrls": {
+        "manufacturer": "https://www.razer.com/gaming-mice/razer-deathadder-v3-pro/RZ01-04630100-R3U1",
+        "bestbuy": "https://www.bestbuy.com/site/razer-deathadder-v3-pro-lightweight-wireless-optical-gaming-mouse-with-90-hour-battery-black/6514425.p",
+        "walmart": "https://www.walmart.com/ip/Razer-DeathAdder-V3-Pro-Wireless-Esports-Gaming-Mouse-64g-5-Buttons-2-4GHz-Bluetooth-White/1632496311",
+        "bhphoto": "https://www.bhphotovideo.com/c/product/1851352-REG/razer_rz01_04630100_r3u1_deathadder_v3_pro_ergonomic.html",
+        "newegg": "https://www.newegg.com/p/N82E16826153334"
+      },
+      "offersFound": 34
+    },
+    "sony_inzone_mouse_a": {
+      "oldPrice": [
+        149,
+        159
+      ],
+      "newPrice": [
+        176,
+        176
+      ],
+      "retailerUrls": {},
+      "offersFound": 1
+    },
+    "logitech_g_pro_x_superlight_2c": {
+      "oldPrice": [
+        159,
+        169
+      ],
+      "newPrice": [
+        90,
+        130
+      ],
+      "retailerUrls": {
+        "bestbuy": "https://www.bestbuy.com/product/logitech-pro-x-superlight-lightweight-wireless-optical-gaming-mouse-with-hero-25k-sensor-wireless-black/J7H7ZY3CZT/sku/12130162",
+        "walmart": "https://www.walmart.com/ip/Logitech-G-Pro-X-Superlight-Wireless-Gaming-Mouse-Ultra-Lightweight-HERO-25K-Sensor-Black/403548050",
+        "bhphoto": "https://www.bhphotovideo.com/c/product/1609024-REG/logitech_g_910_005878_pro_x_superilght_wireless.html",
+        "newegg": "https://www.newegg.com/logitech-910-005878-pro-x-rf-lightspeed-wireless/p/N82E16826197421"
+      },
+      "offersFound": 57
+    },
+    "razer_cobra_hyperspeed": {
+      "oldPrice": [
+        70,
+        80
+      ],
+      "newPrice": [
+        93,
+        100
+      ],
+      "retailerUrls": {
+        "bestbuy": "https://www.bestbuy.com/product/razer-cobra-hyperspeed-lightweight-optical-gaming-mouse-with-chroma-rgb-backlighting-wireless-black/J39HWFHV5G",
+        "manufacturer": "https://www.razer.com/gaming-mice/razer-cobra-hyperspeed/RZ01-05570100-R3U1",
+        "microcenter": "https://www.microcenter.com/product/697684/Cobra_HyperSpeed_RGB_Optical_Gaming_Mouse_-_Black"
+      },
+      "offersFound": 10
+    },
+    "steelseries_rival_3_wireless_gen_2": {
+      "oldPrice": [
+        35,
+        50
+      ],
+      "newPrice": [
+        40,
+        40
+      ],
+      "retailerUrls": {},
+      "offersFound": 1
+    },
+    "steelseries_rival_3_gen_2": {
+      "oldPrice": [
+        35,
+        45
+      ],
+      "newPrice": [
+        40,
+        40
+      ],
+      "retailerUrls": {},
+      "offersFound": 1
+    },
+    "razer_pro_click_v2": {
+      "oldPrice": [
+        100,
+        120
+      ],
+      "newPrice": [
+        130,
+        180
+      ],
+      "retailerUrls": {
+        "bestbuy": "https://www.bestbuy.com/product/razer-blackshark-v2-pro-wireless-over-the-ear-gaming-headset-for-playstation-pc-mac-xbox-nintendo-switch-smartphone-white/J39HWFH99K",
+        "manufacturer": "https://www.razer.com/gaming-headsets/razer-blackshark-v2-pro/RZ04-04530100-R3U1",
+        "walmart": "https://www.walmart.com/ip/Razer-BlackShark-V2-Pro-Wireless-PC-Gaming-Headset-2-4GHz-BT-HyperSpeed-Wireless-70Hr-Battery-320g-Black/1278691914",
+        "bhphoto": "https://www.bhphotovideo.com/c/product/1851614-REG/razer_rz04_04530100_r3u1_blackshark_v2_pro_wireless.html",
+        "newegg": "https://www.newegg.com/razer-rz04-04530500-r3ua-wireless-black/p/0TH-00TR-00167"
+      },
+      "offersFound": 43
+    },
+    "pulsar_x2_crazylight": {
+      "oldPrice": [
+        130,
+        150
+      ],
+      "newPrice": [
+        110,
+        110
+      ],
+      "retailerUrls": {},
+      "offersFound": 1
+    },
+    "benq_zowie_ec2_dw": {
+      "oldPrice": [
+        120,
+        140
+      ],
+      "newPrice": [
+        43,
+        43
+      ],
+      "retailerUrls": {},
+      "offersFound": 1
+    },
+    "keychron_m5": {
+      "oldPrice": [
+        100,
+        120
+      ],
+      "newPrice": [
+        70,
+        70
+      ],
+      "retailerUrls": {
+        "manufacturer": "https://www.keychron.com/products/keychron-m5-wireless-ergonomic-mouse?variant=42257163452505",
+        "microcenter": "https://www.microcenter.com/product/694770/keychron-m5-8k-wireless-ergonomic-mouse-black"
+      },
+      "offersFound": 5
+    },
+    "logitech_g_pro_x_superlight_2_dex": {
+      "oldPrice": [
+        159,
+        169
+      ],
+      "newPrice": [
+        130,
+        180
+      ],
+      "retailerUrls": {
+        "bestbuy": "https://www.bestbuy.com/product/logitech-pro-x-superlight-2-dex-lightweight-wireless-optical-hero-2-sensor-44-000-dpi-gaming-mouse-with-5-programmable-buttons-wireless-magenta/J7H7ZYGZWG/sku/6595182",
+        "manufacturer": "https://www.logitechg.com/en-us/shop/p/pro-x-superlight-2-dex.910-007371",
+        "microcenter": "https://www.microcenter.com/product/685305/logitech-pro-x-superlight-dex-2-wireless-gaming-mouse-magenta",
+        "target": "https://www.target.com/p/logitech-g-pro-x-superlight-2-dex-lightspeed-wireless-gaming-mouse-60g-pro-grade-lightweight-mouse-with-5-programmable-buttons-32k-dpi-sensor-us/-/A-1001323965",
+        "bhphoto": "https://www.bhphotovideo.com/c/product/1851731-REG/logitech_g_910_007371_pro_x_superlight_2.html",
+        "newegg": "https://www.newegg.com/p/N82E16826197658"
+      },
+      "offersFound": 36
+    },
+    "vxe_r1_pro": {
+      "oldPrice": [
+        50,
+        70
+      ],
+      "newPrice": [
+        29,
+        113
+      ],
+      "retailerUrls": {
+        "manufacturer": "https://vxe.com/products/vxe-dragonfly-r1-series-wireless-mouse?variant=47700096843990",
+        "newegg": "https://www.newegg.com/p/0TP-02YX-000N4"
+      },
+      "offersFound": 4
+    },
+    "razer_basilisk_v3_pro_35k": {
+      "oldPrice": [
+        150,
+        180
+      ],
+      "newPrice": [
+        79,
+        79
+      ],
+      "retailerUrls": {},
+      "offersFound": 1
+    },
+    "logitech_g_pro_2_lightspeed": {
+      "oldPrice": [
+        130,
+        150
+      ],
+      "newPrice": [
+        200,
+        200
+      ],
+      "retailerUrls": {},
+      "offersFound": 2
+    },
+    "benq_zowie_u2": {
+      "oldPrice": [
+        130,
+        150
+      ],
+      "newPrice": [
+        40,
+        90
+      ],
+      "retailerUrls": {
+        "bhphoto": "https://www.bhphotovideo.com/c/product/1811561-REG/benq_u2_wireless_mouse_for.html",
+        "newegg": "https://www.newegg.com/benq-zowie-u2/p/173-00AC-00046"
+      },
+      "offersFound": 11
+    },
+    "logitech_m340": {
+      "oldPrice": [
+        20,
+        30
+      ],
+      "newPrice": [
+        30,
+        40
+      ],
+      "retailerUrls": {
+        "target": "https://www.target.com/p/logitech-pebble-bluetooth-mouse-m350-blue-gray/-/A-78862718",
+        "newegg": "https://www.newegg.com/pebble-m350-pink-rose-logitech-pebble-m350-wireless-mouse-with-bluetooth-or-usb/p/0TP-000C-01FR8"
+      },
+      "offersFound": 33
+    },
+    "keychron_m7": {
+      "oldPrice": [
+        80,
+        100
+      ],
+      "newPrice": [
+        40,
+        100
+      ],
+      "retailerUrls": {
+        "manufacturer": "https://www.keychron.com/products/keychron-m7-wireless-mouse?variant=41218470903897"
+      },
+      "offersFound": 6
+    },
+    "asus_rog_keris_ii_ace": {
+      "oldPrice": [
+        140,
+        160
+      ],
+      "newPrice": [
+        164,
+        164
+      ],
+      "retailerUrls": {},
+      "offersFound": 1
+    },
+    "hyperx_pulsefire_haste_2_wireless": {
+      "oldPrice": [
+        70,
+        90
+      ],
+      "newPrice": [
+        90,
+        90
+      ],
+      "retailerUrls": {
+        "bestbuy": "https://www.bestbuy.com/product/hyperx-pulsefire-haste-2-lightweight-wireless-optical-gaming-mouse-with-rgb-lighting-wireless-black/JJG8754SCX/sku/6537573",
+        "manufacturer": "https://hyperx.com/products/hyperx-pulsefire-haste-2-wireless-gaming-mouse?variant=43416225185949",
+        "target": "https://www.target.com/p/hyperx-pulsefire-haste-2-wireless-gaming-mouse-black/-/A-91803219",
+        "newegg": "https://www.newegg.com/p/N82E16826738041"
+      },
+      "offersFound": 26
+    },
+    "razer_deathadder_v3": {
+      "oldPrice": [
+        70,
+        90
+      ],
+      "newPrice": [
+        100,
+        120
+      ],
+      "retailerUrls": {
+        "manufacturer": "https://www.razer.com/gaming-mice/razer-deathadder-v3-pro/RZ01-04630100-R3U1",
+        "bestbuy": "https://www.bestbuy.com/site/razer-deathadder-v3-pro-lightweight-wireless-optical-gaming-mouse-with-90-hour-battery-black/6514425.p",
+        "walmart": "https://www.walmart.com/ip/Razer-DeathAdder-V3-Pro-Wireless-Esports-Gaming-Mouse-64g-5-Buttons-2-4GHz-Bluetooth-White/1632496311",
+        "bhphoto": "https://www.bhphotovideo.com/c/product/1851352-REG/razer_rz01_04630100_r3u1_deathadder_v3_pro_ergonomic.html",
+        "newegg": "https://www.newegg.com/p/N82E16826153334"
+      },
+      "offersFound": 32
+    },
+    "keychron_m6": {
+      "oldPrice": [
+        60,
+        80
+      ],
+      "newPrice": [
+        40,
+        42
+      ],
+      "retailerUrls": {
+        "manufacturer": "https://www.keychron.com/products/keychron-m6-wireless-mouse?variant=42816201130073",
+        "microcenter": "https://www.microcenter.com/product/702313/keychron-keychron-m6-1k-bk",
+        "bestbuy": "https://www.bestbuy.com/product/keychron-m6-ergonomic-wired-wireless-laser-mouse-w-macro-button-fast-scrolling-metal-wheel-for-windows-pc-mac-wired-black/CGJVZ4YC3G/sku/6644716"
+      },
+      "offersFound": 10
+    },
+    "keychron_m4": {
+      "oldPrice": [
+        60,
+        80
+      ],
+      "newPrice": [
+        50,
+        80
+      ],
+      "retailerUrls": {
+        "manufacturer": "https://www.keychron.com/products/keychron-m4-wireless-mouse?variant=40702236098649"
+      },
+      "offersFound": 3
+    },
+    "hyperx_pulsefire_haste_wireless": {
+      "oldPrice": [
+        50,
+        70
+      ],
+      "newPrice": [
+        90,
+        90
+      ],
+      "retailerUrls": {
+        "bestbuy": "https://www.bestbuy.com/product/hyperx-pulsefire-haste-2-lightweight-wireless-optical-gaming-mouse-with-rgb-lighting-wireless-black/JJG8754SCX/sku/6537573",
+        "manufacturer": "https://hyperx.com/products/hyperx-pulsefire-haste-2-wireless-gaming-mouse?variant=43416225185949",
+        "target": "https://www.target.com/p/hyperx-pulsefire-haste-2-wireless-gaming-mouse-black/-/A-91803219",
+        "newegg": "https://www.newegg.com/p/N82E16826738041"
+      },
+      "offersFound": 26
+    },
+    "logitech_signature_m650": {
+      "oldPrice": [
+        35,
+        50
+      ],
+      "newPrice": [
+        30,
+        49
+      ],
+      "retailerUrls": {
+        "manufacturer": "https://www.logitech.com/en-us/shop/p/m650-signature-wireless-mouse.910-006250"
+      },
+      "offersFound": 4
+    },
+    "lamzu_atlantis": {
+      "oldPrice": [
+        75,
+        100
+      ],
+      "newPrice": [
+        184,
+        184
+      ],
+      "retailerUrls": {
+        "newegg": "https://www.newegg.com/p/0TP-02YX-000T9"
+      },
+      "offersFound": 1
+    },
+    "razer_basilisk_v3_pro": {
+      "oldPrice": [
+        140,
+        180
+      ],
+      "newPrice": [
+        89,
+        149
+      ],
+      "retailerUrls": {
+        "bestbuy": "https://www.bestbuy.com/product/razer-basilisk-v3-pro-optical-gaming-mouse-with-hyperscroll-tilt-wheel-wireless-white/J39HWFQFFX",
+        "manufacturer": "https://www.razer.com/gaming-mice/razer-basilisk-v3-pro/RZ01-04620100-R3U1",
+        "walmart": "https://www.walmart.com/ip/Razer-Basilisk-V3-Pro-Wireless-Gaming-Mouse-HyperScroll-Tilt-Wheel-2-4Ghz-Bluetooth-RGB-Black/1981900339",
+        "bhphoto": "https://www.bhphotovideo.com/c/product/1851350-REG/razer_rz01_04620100_r3u1_basilisk_v3_pro_ergonomic.html",
+        "newegg": "https://www.newegg.com/p/N82E16826153335"
+      },
+      "offersFound": 36
+    },
+    "attack_shark_x3": {
+      "oldPrice": [
+        25,
+        40
+      ],
+      "newPrice": [
+        15,
+        15
+      ],
+      "retailerUrls": {
+        "walmart": "https://www.walmart.com/ip/ROBO-SHARK-ATTACK/5461759268",
+        "target": "https://www.target.com/p/robo-alive-great-white-shark/-/A-89971063"
+      },
+      "offersFound": 23
+    },
+    "corsair_darkstar_wireless": {
+      "oldPrice": [
+        100,
+        150
+      ],
+      "newPrice": [
+        130,
+        150
+      ],
+      "retailerUrls": {
+        "manufacturer": "https://www.corsair.com/us/en/p/gaming-mouse/CH-931A011-NA/darkstar-wireless-rgb-mmo-gaming-mouse-ch-931a011-na",
+        "newegg": "https://www.newegg.com/corsair-darkstar-wireless-rgb-ch-931a011-na-usb-bluetooth-2-4ghz-wired/p/N82E16826816206"
+      },
+      "offersFound": 4
+    },
+    "logitech_mx_anywhere_3s": {
+      "oldPrice": [
+        70,
+        90
+      ],
+      "newPrice": [
+        75,
+        116
+      ],
+      "retailerUrls": {
+        "manufacturer": "https://www.logitech.com/en-us/shop/p/mx-anywhere-3s.910-006925"
+      },
+      "offersFound": 2
+    },
+    "benq_zowie_ec2_cw": {
+      "oldPrice": [
+        130,
+        160
+      ],
+      "newPrice": [
+        43,
+        43
+      ],
+      "retailerUrls": {},
+      "offersFound": 1
+    },
+    "razer_viper_mini_signature_edition": {
+      "oldPrice": [
+        250,
+        300
+      ],
+      "newPrice": [
+        10,
+        10
+      ],
+      "retailerUrls": {},
+      "offersFound": 3
+    },
+    "glorious_model_o_2": {
+      "oldPrice": [
+        50,
+        70
+      ],
+      "newPrice": [
+        35,
+        59
+      ],
+      "retailerUrls": {
+        "manufacturer": "https://www.newegg.com/glorious-model-o/p/173-01RW-00001"
+      },
+      "offersFound": 6
+    },
+    "pwnage_stormbreaker": {
+      "oldPrice": [
+        150,
+        200
+      ],
+      "newPrice": [
+        169,
+        270
+      ],
+      "retailerUrls": {
+        "manufacturer": "https://pwnage.com/products/stormbreaker?variant=42194765480127"
+      },
+      "offersFound": 3
+    },
+    "logitech_pebble_mouse_2_m350s": {
+      "oldPrice": [
+        25,
+        40
+      ],
+      "newPrice": [
+        19,
+        36
+      ],
+      "retailerUrls": {
+        "bestbuy": "https://www.bestbuy.com/product/logitech-pebble-mouse-2-m350s-slim-lightweight-wireless-bluetooth-optical-silent-ambidextrous-mouse-with-customizable-buttons-wireless-rose/J7H7ZY8458/sku/6554349",
+        "manufacturer": "https://www.logitech.com/en-us/shop/p/pebble-2-m350s-wireless-mouse.910-007023",
+        "target": "https://www.target.com/p/logitech-pebble-mouse-2-m350s-ambidextrous-3-button-bluetooth-tonal-rose/-/A-1008322071"
+      },
+      "offersFound": 71
+    },
+    "pulsar_xlite_v3": {
+      "oldPrice": [
+        90,
+        120
+      ],
+      "newPrice": [
+        130,
+        130
+      ],
+      "retailerUrls": {},
+      "offersFound": 1
+    },
+    "wlmouse_beast_x": {
+      "oldPrice": [
+        130,
+        160
+      ],
+      "newPrice": [
+        140,
+        145
+      ],
+      "retailerUrls": {
+        "manufacturer": "https://www.wlmouse.com/products/x-pro?variant=49844790198570"
+      },
+      "offersFound": 3
+    },
+    "lamzu_atlantis_mini_4k": {
+      "oldPrice": [
+        100,
+        130
+      ],
+      "newPrice": [
+        184,
+        184
+      ],
+      "retailerUrls": {
+        "newegg": "https://www.newegg.com/p/0TP-02YX-000T9"
+      },
+      "offersFound": 1
+    },
+    "finalmouse_ultralightx": {
+      "oldPrice": [
+        190,
+        250
+      ],
+      "newPrice": [
+        642,
+        642
+      ],
+      "retailerUrls": {},
+      "offersFound": 1
+    },
+    "razer_deathadder_v3_pro": {
+      "oldPrice": [
+        150,
+        180
+      ],
+      "newPrice": [
+        120,
+        120
+      ],
+      "retailerUrls": {
+        "bhphoto": "https://www.bhphotovideo.com/c/product/1851352-REG/razer_rz01_04630100_r3u1_deathadder_v3_pro_ergonomic.html",
+        "newegg": "https://www.newegg.com/p/N82E16826153334"
+      },
+      "offersFound": 35
+    },
+    "razer_viper_v2_pro": {
+      "oldPrice": [
+        130,
+        160
+      ],
+      "newPrice": [
+        100,
+        180
+      ],
+      "retailerUrls": {
+        "manufacturer": "https://www.razer.com/gaming-mice/razer-viper-v3-pro-se/RZ01-04550100-R3U1",
+        "bestbuy": "https://www.bestbuy.com/product/razer-viper-v3-pro-ultra-lightweight-optical-gaming-mouse-with-95-hour-battery-life-8k-polling-rate-wireless-white/J39HWFH93Z",
+        "microcenter": "https://www.microcenter.com/product/695768/razer-viper-v3-pro-wireless-gaming-mouse-faker-edition",
+        "newegg": "https://www.newegg.com/p/32K-0091-00022"
+      },
+      "offersFound": 29
+    },
+    "razer_viper_ultimate": {
+      "oldPrice": [
+        80,
+        130
+      ],
+      "newPrice": [
+        110,
+        209
+      ],
+      "retailerUrls": {},
+      "offersFound": 14
+    },
+    "razer_viper_mini": {
+      "oldPrice": [
+        30,
+        50
+      ],
+      "newPrice": [
+        55,
+        109
+      ],
+      "retailerUrls": {
+        "bestbuy": "https://www.bestbuy.com/product/razer-viper-mini-lightweight-optical-gaming-mouse-with-chroma-rgb-lighting-wired-black/J3GV652LGZ/sku/12189908"
+      },
+      "offersFound": 6
+    },
+    "razer_viper_8khz": {
+      "oldPrice": [
+        60,
+        80
+      ],
+      "newPrice": [
+        58,
+        98
+      ],
+      "retailerUrls": {},
+      "offersFound": 11
+    },
+    "razer_deathadder_v2_pro": {
+      "oldPrice": [
+        80,
+        130
+      ],
+      "newPrice": [
+        100,
+        120
+      ],
+      "retailerUrls": {
+        "manufacturer": "https://www.razer.com/gaming-mice/razer-deathadder-v3-pro/RZ01-04630100-R3U1",
+        "bestbuy": "https://www.bestbuy.com/site/razer-deathadder-v3-pro-lightweight-wireless-optical-gaming-mouse-with-90-hour-battery-black/6514425.p",
+        "walmart": "https://www.walmart.com/ip/Razer-DeathAdder-V3-Pro-Wireless-Esports-Gaming-Mouse-64g-5-Buttons-2-4GHz-Bluetooth-White/1632496311",
+        "bhphoto": "https://www.bhphotovideo.com/c/product/1851352-REG/razer_rz01_04630100_r3u1_deathadder_v3_pro_ergonomic.html",
+        "newegg": "https://www.newegg.com/p/N82E16826153334"
+      },
+      "offersFound": 30
+    },
+    "razer_basilisk_ultimate": {
+      "oldPrice": [
+        100,
+        150
+      ],
+      "newPrice": [
+        100,
+        143
+      ],
+      "retailerUrls": {},
+      "offersFound": 5
+    },
+    "razer_naga_v2_hyperspeed": {
+      "oldPrice": [
+        80,
+        100
+      ],
+      "newPrice": [
+        63,
+        90
+      ],
+      "retailerUrls": {
+        "manufacturer": "https://www.razer.com/gaming-mice/razer-naga-v2-hyperspeed/RZ01-03600100-R3U1",
+        "newegg": "https://www.newegg.com/p/N82E16826153337",
+        "bhphoto": "https://www.bhphotovideo.com/c/product/803393638-USE/razer_rz01_03600100_r3u1_naga_v2_hyperspeed_wireless.html/"
+      },
+      "offersFound": 12
+    },
+    "razer_orochi_v2": {
+      "oldPrice": [
+        50,
+        70
+      ],
+      "newPrice": [
+        33,
+        70
+      ],
+      "retailerUrls": {
+        "bestbuy": "https://www.bestbuy.com/site/razer-orochi-v2-wireless-optical-gaming-mouse-white/6460407.p",
+        "manufacturer": "https://www.razer.com/gaming-mice/razer-orochi-v2/RZ01-03731200-R3U1",
+        "walmart": "https://www.walmart.com/ip/Razer-Orochi-V2-Wireless-Optical-Gaming-Mouse-for-PC-6-Buttons-2-4GHz-Bluetooth-Black/735296861",
+        "bhphoto": "https://www.bhphotovideo.com/c/product/1851345-REG/razer_rz01_03731200_r3u1_orochi_v2_wireless_gaming.html",
+        "newegg": "https://www.newegg.com/razer-rz01-03730400-r3u1-orochi-v2-wireless-dual/p/32K-000N-00162"
+      },
+      "offersFound": 29
+    },
+    "logitech_g_pro_x_superlight": {
+      "oldPrice": [
+        120,
+        160
+      ],
+      "newPrice": [
+        90,
+        130
+      ],
+      "retailerUrls": {
+        "bestbuy": "https://www.bestbuy.com/product/logitech-pro-x-superlight-lightweight-wireless-optical-gaming-mouse-with-hero-25k-sensor-wireless-black/J7H7ZY3CZT/sku/12130162",
+        "walmart": "https://www.walmart.com/ip/Logitech-G-Pro-X-Superlight-Wireless-Gaming-Mouse-Ultra-Lightweight-HERO-25K-Sensor-Black/403548050",
+        "bhphoto": "https://www.bhphotovideo.com/c/product/1609024-REG/logitech_g_910_005878_pro_x_superilght_wireless.html",
+        "newegg": "https://www.newegg.com/logitech-910-005878-pro-x-rf-lightspeed-wireless/p/N82E16826197421"
+      },
+      "offersFound": 48
+    },
+    "logitech_g_pro_wireless": {
+      "oldPrice": [
+        100,
+        130
+      ],
+      "newPrice": [
+        70,
+        130
+      ],
+      "retailerUrls": {
+        "bestbuy": "https://www.bestbuy.com/product/logitech-pro-lightweight-wireless-optical-ambidextrous-gaming-mouse-with-rgb-lighting-wireless-black/J7H7ZY2KYS/sku/12146512",
+        "walmart": "https://www.walmart.com/ip/Logitech-G-Pro-League-of-Legends-Lightspeed-Pro-Wireless-Gaming-Mouse-910-006449/317368431",
+        "bhphoto": "https://www.bhphotovideo.com/c/product/1674845-REG/logitech_g_910_006449_g_pro_wireless_mouse.html",
+        "newegg": "https://www.newegg.com/logitech-910-005270-pro-wireless-gaming-mouse-lightspeed-wireless/p/32K-0002-000P4"
+      },
+      "offersFound": 36
+    },
+    "logitech_g502_lightspeed": {
+      "oldPrice": [
+        100,
+        150
+      ],
+      "newPrice": [
+        90,
+        210
+      ],
+      "retailerUrls": {
+        "bestbuy": "https://www.bestbuy.com/product/logitech-g502-lightspeed-wireless-optical-gaming-mouse-with-rgb-lighting-wireless-black/J7H7ZYXGY4/sku/6333841",
+        "manufacturer": "https://www.logitechg.com/en-us/shop/p/g502-lightspeed-wireless-gaming-mouse.910-005565",
+        "bhphoto": "https://www.bhphotovideo.com/c/product/1882241-REG/logitech_g_g502_lightspeed_gaming_mouse.html",
+        "newegg": "https://www.newegg.com/logitech-910-005565-g502-usb-lightspeed-wireless/p/N82E16826197336"
+      },
+      "offersFound": 76
+    },
+    "logitech_g903_lightspeed": {
+      "oldPrice": [
+        100,
+        150
+      ],
+      "newPrice": [
+        99,
+        137
+      ],
+      "retailerUrls": {
+        "bestbuy": "https://www.bestbuy.com/product/logitech-g903-lightspeed-wireless-optical-gaming-ambidextrous-mouse-with-rgb-lighting-wireless-black/J7H7ZYX6Y6/sku/6333839",
+        "manufacturer": "https://www.logitechg.com/en-us/shop/p/g903-hero-wireless-gaming-mouse.910-005670",
+        "microcenter": "https://www.microcenter.com/product/608592/G903_LIGHTSPEED_RGB_Wireless_Optical_Gaming_Mouse_-_Black",
+        "walmart": "https://www.walmart.com/ip/Logitech-G903-LIGHTSPEED-Wireless-Gaming-Mouse-w-HERO-25K-Sensor-140-Hour-Rechargeable-Battery-LIGHTSYNC-RGB-POWERPLAY-Compatible-Ambidextrous-107g-1/115749915",
+        "target": "https://www.target.com/p/logitech-g903-lightspeed-wireless-gaming-mouse-w-hero-16k-sensor/-/A-1008322252",
+        "bhphoto": "https://www.bhphotovideo.com/c/product/1486567-REG/logitech_910_005670_g903_lightspeed_wireless_gaming.html",
+        "newegg": "https://www.newegg.com/logitech-910-005670-g903-usb-lightspeed-wireless/p/N82E16826197341"
+      },
+      "offersFound": 79
+    },
+    "logitech_g604_lightspeed": {
+      "oldPrice": [
+        80,
+        100
+      ],
+      "newPrice": [
+        475,
+        475
+      ],
+      "retailerUrls": {},
+      "offersFound": 1
+    },
+    "logitech_g303_shroud_edition": {
+      "oldPrice": [
+        100,
+        130
+      ],
+      "newPrice": [
+        40,
+        40
+      ],
+      "retailerUrls": {
+        "bestbuy": "https://www.bestbuy.com/product/logitech-g840-cloth-gaming-mouse-pad-with-rubber-base-extra-large-black/J7H7ZY8YJK/sku/6514577",
+        "manufacturer": "https://www.logitechg.com/en-us/shop/p/g840-cloth-xl-gaming-mouse-pad.943-000776",
+        "microcenter": "https://www.microcenter.com/product/660760/logitech-g-g840-xl-cloth-gaming-mouse-pad-gen-2",
+        "bhphoto": "https://www.bhphotovideo.com/c/product/1745798-REG/logitech_943000776_g840_xl_cloth_gamng.html",
+        "newegg": "https://www.newegg.com/p/173-000X-004W5"
+      },
+      "offersFound": 59
+    },
+    "logitech_g600_mmo": {
+      "oldPrice": [
+        35,
+        50
+      ],
+      "newPrice": [
+        204,
+        204
+      ],
+      "retailerUrls": {},
+      "offersFound": 1
+    },
+    "logitech_ergo_m575": {
+      "oldPrice": [
+        40,
+        60
+      ],
+      "newPrice": [
+        45,
+        50
+      ],
+      "retailerUrls": {
+        "bestbuy": "https://www.bestbuy.com/product/logitech-ergo-m575-wireless-trackball-ergonomic-mouse-for-business-wireless-graphite/J7H7ZY3TKS/sku/6583842",
+        "walmart": "https://www.walmart.com/ip/Logitech-ERGO-M575-Wireless-Trackball-Mouse-Easy-thumb-control-precision-smooth-tracking-ergonomic-comfort-design-Windows-PC-Mac-Bluetooth-USB-capabi/491039222",
+        "target": "https://www.target.com/p/logitech-ergo-m575-wireless-trackball-mouse-black/-/A-91466590",
+        "bhphoto": "https://www.bhphotovideo.com/c/product/1745744-REG/logitech_910006197_ergo_m575_for_business.html",
+        "newegg": "https://www.newegg.com/p/0TP-000C-01H14"
+      },
+      "offersFound": 70
+    },
+    "logitech_mx_master": {
+      "oldPrice": [
+        60,
+        80
+      ],
+      "newPrice": [
+        80,
+        120
+      ],
+      "retailerUrls": {
+        "bestbuy": "https://www.bestbuy.com/product/logitech-mx-master-3s-bluetooth-edition-performance-wireless-optical-mouse-with-ultra-fast-scrolling-and-quiet-clicks-wireless-black/J7H7ZYG559/sku/6633199",
+        "manufacturer": "https://www.logitech.com/en-us/shop/p/mx-master-3s.910-007499",
+        "target": "https://www.target.com/p/logitech-mx-master-3s-wireless-mouse-black-910007500/-/A-1008322068",
+        "bhphoto": "https://www.bhphotovideo.com/c/product/1703320-REG/logitech_910_006556_mx_master_3s_black.html",
+        "newegg": "https://www.newegg.com/p/0TP-000C-01K99"
+      },
+      "offersFound": 66
+    },
+    "logitech_pebble_m350": {
+      "oldPrice": [
+        25,
+        35
+      ],
+      "newPrice": [
+        17,
+        50
+      ],
+      "retailerUrls": {
+        "target": "https://www.target.com/p/logitech-pebble-bluetooth-mouse-m350-blue-gray/-/A-78862718"
+      },
+      "offersFound": 21
+    },
+    "glorious_model_o_wireless": {
+      "oldPrice": [
+        70,
+        90
+      ],
+      "newPrice": [
+        35,
+        59
+      ],
+      "retailerUrls": {
+        "manufacturer": "https://www.newegg.com/glorious-model-o/p/173-01RW-00001"
+      },
+      "offersFound": 6
+    },
+    "glorious_model_d_wireless": {
+      "oldPrice": [
+        70,
+        90
+      ],
+      "newPrice": [
+        80,
+        139
+      ],
+      "retailerUrls": {
+        "newegg": "https://www.newegg.com/p/0TP-031R-00001"
+      },
+      "offersFound": 2
+    },
+    "glorious_model_o": {
+      "oldPrice": [
+        40,
+        60
+      ],
+      "newPrice": [
+        38,
+        59
+      ],
+      "retailerUrls": {
+        "manufacturer": "https://www.newegg.com/glorious-model-o/p/173-01RW-00001"
+      },
+      "offersFound": 5
+    },
+    "glorious_model_o_pro": {
+      "oldPrice": [
+        70,
+        100
+      ],
+      "newPrice": [
+        35,
+        59
+      ],
+      "retailerUrls": {
+        "manufacturer": "https://www.newegg.com/glorious-model-o/p/173-01RW-00001"
+      },
+      "offersFound": 6
+    },
+    "pulsar_xlite_v2": {
+      "oldPrice": [
+        60,
+        80
+      ],
+      "newPrice": [
+        70,
+        70
+      ],
+      "retailerUrls": {},
+      "offersFound": 1
+    },
+    "finalmouse_starlight_pro_tenz_medium": {
+      "oldPrice": [
+        180,
+        250
+      ],
+      "newPrice": [
+        310,
+        310
+      ],
+      "retailerUrls": {},
+      "offersFound": 1
+    },
+    "corsair_dark_core_rgb_pro": {
+      "oldPrice": [
+        70,
+        90
+      ],
+      "newPrice": [
+        70,
+        70
+      ],
+      "retailerUrls": {
+        "bestbuy": "https://www.bestbuy.com/product/corsair-dark-core-rgb-pro-se-wireless-optical-gaming-mouse-with-qi-wireless-charging-wireless-black/J39QHHFPTS/sku/11961469",
+        "manufacturer": "https://www.corsair.com/us/en/p/gaming-mouse/CH-9315511-NA/dark-core-rgb-pro-se-wireless-gaming-mouse-ch-9315511-na",
+        "microcenter": "https://www.microcenter.com/product/618580/Dark_Core_RGB_Pro_SE,_Wireless_FPS-MOBA_Gaming_Mouse_w-_Slipstream_Technology,_Backlit_RGB_LED,_18000_DPI,_Optical,_Qi_Wireless_Charging_Certified__-_",
+        "newegg": "https://www.newegg.com/corsair-ch-9315511-na-dark-core-rgb-pro-wired-wireless/p/N82E16826816162"
+      },
+      "offersFound": 24
+    },
+    "corsair_m65_rgb_ultra_wireless": {
+      "oldPrice": [
+        100,
+        130
+      ],
+      "newPrice": [
+        36,
+        80
+      ],
+      "retailerUrls": {
+        "manufacturer": "https://www.corsair.com/us/en/p/revival-series/CH-9309411-NA2-RV/m65-rgb-ultra-tunable-fps-gaming-mouse-revival-series-ch-9309411-na2-rv",
+        "bestbuy": "https://www.bestbuy.com/product/corsair-m65-rgb-ultra-wired-optical-gaming-mouse-with-adjustable-weights-wired-black/J39QHTJCX6/sku/6485744",
+        "microcenter": "https://www.microcenter.com/product/641497/M65_RGB_ULTRA_Wired_Mouse",
+        "newegg": "https://www.newegg.com/corsair-ch-9309411-na2-m65-rgb-usb-2-0-wired/p/N82E16826816184"
+      },
+      "offersFound": 27
+    },
+    "cooler_master_mm720": {
+      "oldPrice": [
+        40,
+        50
+      ],
+      "newPrice": [
+        26,
+        30
+      ],
+      "retailerUrls": {
+        "bestbuy": "https://www.bestbuy.com/product/cooler-master-hyper-212-120mm-cpu-cooling-fan-black-edition/J3K4GJ8C4X/sku/6316584",
+        "newegg": "https://www.newegg.com/cooler-master-hyper-212-black-120mm-intel-lga-1700-1200-1151-1150-1155-1156-amd-am5-am4/p/N82E16835103364",
+        "bhphoto": "https://www.bhphotovideo.com/c/product/1805059-REG/cooler_master_rr_s4kk_25sn_r1_hyper_212_black_edition.html"
+      },
+      "offersFound": 30
+    },
+    "ninjutso_sora": {
+      "oldPrice": [
+        60,
+        80
+      ],
+      "newPrice": [
+        130,
+        130
+      ],
+      "retailerUrls": {},
+      "offersFound": 1
+    },
+    "kensington_slimblade_pro_trackball": {
+      "oldPrice": [
+        100,
+        130
+      ],
+      "newPrice": [
+        110,
+        148
+      ],
+      "retailerUrls": {
+        "manufacturer": "https://www.kensington.com/p/products/ergonomic-desk-accessories/ergonomic-input-devices/slimblade-trackball3-1/",
+        "bestbuy": "https://www.bestbuy.com/product/kensington-slimblade-wired-trackball-ambidextrous-mouse-with-4-button-design-graphite-ruby-red/J7RJZZQG34/sku/11099445",
+        "bhphoto": "https://www.bhphotovideo.com/c/product/1718142-REG/kensington_k72327ww_slimblade_trackball.html",
+        "newegg": "https://www.newegg.com/p/N82E16826125183"
+      },
+      "offersFound": 25
+    },
+    "3dconnexion_cadmouse_pro_wireless": {
+      "oldPrice": [
+        100,
+        130
+      ],
+      "newPrice": [
+        137,
+        137
+      ],
+      "retailerUrls": {},
+      "offersFound": 1
+    },
+    "microsoft_arc_mouse": {
+      "oldPrice": [
+        60,
+        80
+      ],
+      "newPrice": [
+        67,
+        100
+      ],
+      "retailerUrls": {
+        "bestbuy": "https://www.bestbuy.com/product/microsoft-surface-arc-bluetooth-bluetrack-ambidextrous-mouse-wireless-light-gray/J3ZKKZFT64/sku/10148510",
+        "microcenter": "https://www.microcenter.com/product/695025/microsoft-surface-arc-wireless-mouse-violet",
+        "target": "https://www.target.com/p/microsoft-arc-mouse-black/-/A-92419304",
+        "bhphoto": "https://www.bhphotovideo.com/c/product/1876149-REG/microsoft_fhd_00016_surface_arc_mouse_black.html",
+        "newegg": "https://www.newegg.com/microsoft-czv-00001-arc-mouse/p/0TP-000K-00638"
+      },
+      "offersFound": 77
+    },
+    "logitech_g305_lightspeed": {
+      "oldPrice": [
+        50,
+        80
+      ],
+      "newPrice": [
+        30,
+        57
+      ],
+      "retailerUrls": {
+        "manufacturer": "https://www.logitechg.com/en-us/shop/p/g305-lightspeed-wireless-gaming-mouse.910-005280"
+      },
+      "offersFound": 3
+    },
+    "glorious_model_o3_wireless": {
+      "oldPrice": [
+        50,
+        80
+      ],
+      "newPrice": [
+        80,
+        139
+      ],
+      "retailerUrls": {
+        "newegg": "https://www.newegg.com/p/0TP-031R-00001"
+      },
+      "offersFound": 3
+    },
+    "finalmouse_ultralightx_competition": {
+      "oldPrice": [
+        150,
+        200
+      ],
+      "newPrice": [
+        642,
+        642
+      ],
+      "retailerUrls": {},
+      "offersFound": 1
+    }
+  },
+  "failures": [
+    "endgame_gear_op1_8k",
+    "hitscan_hyperlight",
+    "scyrox_v8",
+    "ninjutso_sora_v2",
+    "endgame_gear_op1_8k_v2",
+    "mchose_l7_ultra",
+    "mchose_l7_pro",
+    "steelseries_prime",
+    "corsair_harpoon_rgb_wireless",
+    "corsair_m75_air",
+    "razer_basilisk_v3_x_hyperspeed",
+    "corsair_scimitar_elite_wireless",
+    "corsair_scimitar_rgb_elite",
+    "steelseries_aerox_9_wireless",
+    "logitech_mx_master_4",
+    "razer_pro_click_v2_vertical",
+    "corsair_ironclaw_rgb_wireless",
+    "pulsar_tenz_signature_edition",
+    "lofree_hypace",
+    "orbital_pathfinder",
+    "g_wolves_fenrir_max",
+    "vaxee_xe_v2_wireless_4k",
+    "wlmouse_strider",
+    "pwnage_trinity_cf",
+    "lamzu_inca",
+    "vaxee_xe_s_wireless_4k",
+    "pulsar_x2h_v3",
+    "scyrox_v6",
+    "fnatic_lamzu_maya_8k",
+    "wlmouse_beast_x_max",
+    "logitech_g309_lightspeed",
+    "razer_deathadder_v3_hyperspeed",
+    "glorious_model_d_2",
+    "glorious_model_d_2_wireless",
+    "finalmouse_ulx_pro_series",
+    "keychron_m3",
+    "hyperx_pulsefire_haste_2",
+    "vgn_dragonfly_f1_pro_max",
+    "pulsar_x3",
+    "endgame_gear_xm2w_4k",
+    "lamzu_maya_x",
+    "endgame_gear_xm2_8k",
+    "glorious_model_i_2_wireless",
+    "lamzu_thorn",
+    "vaxee_xe_wireless",
+    "pulsar_x2v2",
+    "razer_cobra_pro",
+    "glorious_model_i",
+    "logitech_g705",
+    "fantech_aria_xd7",
+    "vaxee_zygen_np01s_wireless_4k",
+    "keychron_m1_wireless",
+    "asus_rog_harpe_ace_aim_lab_edition",
+    "glorious_model_o_2_wireless",
+    "ploopy_adept_trackball",
+    "endgame_gear_op1we",
+    "lamzu_maya",
+    "corsair_nightsabre_wireless",
+    "razer_deathadder_v2",
+    "razer_basilisk_x_hyperspeed",
+    "razer_naga_trinity",
+    "logitech_g703_lightspeed",
+    "logitech_mx_master_3",
+    "logitech_mx_anywhere_3",
+    "logitech_mx_vertical",
+    "logitech_m510",
+    "glorious_series_one_pro",
+    "finalmouse_starlight_12_small",
+    "finalmouse_starlight_12_poseidon_small",
+    "endgame_gear_xm2we",
+    "endgame_gear_xm1r",
+    "corsair_sabre_rgb_pro_wireless",
+    "hyperx_pulsefire_haste",
+    "zaunkoenig_m2k",
+    "vaxee_xe",
+    "3dconnexion_cadmouse_pro_wireless",
+    "logitech_g203_lightsync",
+    "logitech_g600_mmo_gaming",
+    "logitech_g703_lightspeed_with_hero_sensor",
+    "g_wolves_hsk_pro_4k",
+    "ploopy_thumb_trackball"
+  ],
+  "apiCallsUsed": 349
+}
