@@ -5,8 +5,8 @@
     "brand": "MonsGeek",
     "category": "keyboard",
     "price_range_usd": [
-      100,
-      130
+      114,
+      114
     ],
     "product_url": "https://www.amazon.com/s?k=MonsGeek+FUN60+Ultra&tag=gearmatch-20",
     "manufacturer_url": "https://www.monsgeek.com/product/fun60-ultra/",
@@ -23,7 +23,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -298,10 +298,19 @@
     "brand": "Logitech",
     "category": "keyboard",
     "price_range_usd": [
-      100,
-      120
+      110,
+      217
     ],
     "product_url": "https://www.amazon.com/s?k=Logitech+MX+Keys+S&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/logitech-mx-keys-s-universal-full-size-wireless-scissor-keyboard-for-pc-and-mac-with-backlit-keys-black/J7H7ZYG7HW/sku/6539505",
+      "manufacturer": "https://www.logitech.com/en-us/shop/p/mx-keys-s.920-011559",
+      "microcenter": "https://www.microcenter.com/product/681692/logitech-mx-keys-s-for-mac-wireless-keyboard-space-gray",
+      "walmart": "https://www.walmart.com/ip/Logitech-MX-Keys-S-Wireless-Keyboard-Low-Profile-Fluid-Precise-Quiet-Typing-Bluetooth-Black/2278555791",
+      "target": "https://www.target.com/p/logitech-mx-keys-s-wireless-keyboard-low-profile-rechargable-black-920-011406/-/A-1006793893",
+      "bhphoto": "https://www.bhphotovideo.com/c/product/1923305-REG/logitech_mx_keys_s_wireless.html",
+      "newegg": "https://www.newegg.com/p/1B4-001P-008U4"
+    },
     "recommendation_tags": [
       "productivity",
       "office",
@@ -316,7 +325,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -390,10 +399,13 @@
     "brand": "Keychron",
     "category": "keyboard",
     "price_range_usd": [
-      200,
-      230
+      180,
+      240
     ],
     "product_url": "https://www.amazon.com/s?k=Keychron+Q5+Max&tag=gearmatch-20",
+    "retailer_urls": {
+      "manufacturer": "https://www.keychron.com/products/keychron-q5-max-qmk-via-wireless-custom-mechanical-keyboard?variant=40758088859737"
+    },
     "recommendation_tags": [
       "premium_mechanical",
       "wireless",
@@ -407,7 +419,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -879,12 +891,15 @@
     "brand": "DrunkDeer",
     "category": "keyboard",
     "price_range_usd": [
-      80,
-      130
+      152,
+      152
     ],
     "image_url": "https://i.rtings.com/assets/products/vvtd6xLZ/drunkdeer-a75/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=DrunkDeer+A75&tag=gearmatch-20",
     "manufacturer_url": "https://drunkdeer.com/products/adjustable-keyboard-magnetic-switch-a75",
+    "retailer_urls": {
+      "manufacturer": "https://drunkdeer.com/products/adjustable-keyboard-magnetic-switch-a75?variant=48533593227567"
+    },
     "recommendation_tags": [
       "rapid_trigger",
       "gaming",
@@ -894,7 +909,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -1060,7 +1075,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -1143,7 +1158,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -1212,11 +1227,15 @@
     "brand": "NuPhy",
     "category": "keyboard",
     "price_range_usd": [
-      80,
-      130
+      100,
+      184
     ],
     "image_url": "https://i.rtings.com/assets/products/RODjFo4y/nuphy-air75-v2-air60-v2-air96-v2/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=NuPhy+Air75+V2+%5BAir60+V2%2C+Air96+V2%5D&tag=gearmatch-20",
+    "retailer_urls": {
+      "manufacturer": "https://nuphy.com/products/air96-v2?variant=40735415337069",
+      "newegg": "https://www.newegg.com/p/32N-04NB-00044"
+    },
     "recommendation_tags": [
       "wireless",
       "hot_swappable"
@@ -1225,7 +1244,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -1297,11 +1316,14 @@
     "brand": "NuPhy",
     "category": "keyboard",
     "price_range_usd": [
-      80,
-      130
+      140,
+      140
     ],
     "image_url": "https://i.rtings.com/assets/products/RSJD0lwe/nuphy-air75-v3/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=NuPhy+Air75+V3&tag=gearmatch-20",
+    "retailer_urls": {
+      "manufacturer": "https://nuphy.com/products/nuphy-air75-v3?variant=42368130744429"
+    },
     "recommendation_tags": [
       "wireless",
       "hot_swappable"
@@ -1310,7 +1332,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -1385,11 +1407,15 @@
     "brand": "NuPhy",
     "category": "keyboard",
     "price_range_usd": [
-      80,
-      130
+      90,
+      184
     ],
     "image_url": "https://i.rtings.com/assets/products/LrSS2kiX/nuphy-air75/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=NuPhy+Air75&tag=gearmatch-20",
+    "retailer_urls": {
+      "manufacturer": "https://nuphy.com/products/air75-v2?variant=40635218165869",
+      "newegg": "https://www.newegg.com/p/0GA-0954-00017"
+    },
     "recommendation_tags": [
       "wireless",
       "hot_swappable"
@@ -1398,7 +1424,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -1468,17 +1494,22 @@
     "brand": "HyperX",
     "category": "keyboard",
     "price_range_usd": [
-      30,
-      60
+      37,
+      52
     ],
     "image_url": "https://i.rtings.com/assets/products/VchTOxoB/hyperx-alloy-core-rgb/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=HyperX+Alloy+Core+RGB&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/hyperx-alloy-core-full-size-wired-gaming-membrane-keyboard-with-rgb-lighting-black/JJG2RHYWJL/sku/6283508",
+      "manufacturer": "https://hyperx.com/products/hyperx-alloy-core-rgb-gaming-keyboard?variant=41077932687517",
+      "newegg": "https://www.newegg.com/p/32N-002C-00088"
+    },
     "recommendation_tags": [],
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -1850,7 +1881,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -1912,11 +1943,18 @@
     "brand": "HyperX",
     "category": "keyboard",
     "price_range_usd": [
-      80,
-      130
+      100,
+      100
     ],
     "image_url": "https://i.rtings.com/assets/products/cqsqkoO8/hyperx-alloy-origins/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=HyperX+Alloy+Origins&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/hyperx-alloy-origins-full-size-wired-mechanical-red-switch-gaming-keyboard-with-rgb-back-lighting-black/JJG2RHYWSX/sku/6371052",
+      "microcenter": "https://www.microcenter.com/product/644655/HyperX_Alloy_Origins_Mechanical_Gaming_Keyboard_with_Red_Switches",
+      "manufacturer": "https://hyperx.com/products/hyperx-alloy-origins-mechanical-gaming-keyboard?variant=42330451148957",
+      "target": "https://www.target.com/p/hyperx-alloy-origins-mechanical-gaming-keyboard-hx-red-us-layout/-/A-88474362",
+      "newegg": "https://www.newegg.com/mechanical-gaming-keyboard-hyperx-red-black/p/32N-0066-000B3"
+    },
     "recommendation_tags": [
       "gaming"
     ],
@@ -1924,7 +1962,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -1999,7 +2037,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -2137,11 +2175,18 @@
     "brand": "Logitech",
     "category": "keyboard",
     "price_range_usd": [
-      80,
-      130
+      100,
+      122
     ],
     "image_url": "https://i.rtings.com/assets/products/GCn7VvbA/logitech-alto-keys-k98m/in-test-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Logitech+Alto+Keys+K98M&tag=gearmatch-20",
+    "retailer_urls": {
+      "manufacturer": "https://www.logitech.com/en-us/shop/p/alto-keys-k98m.920-013577",
+      "microcenter": "https://www.microcenter.com/product/703675/logitech-alto-keys-k98m-offwhite",
+      "bestbuy": "https://www.bestbuy.com/product/logitech-alto-keys-k98m-wireless-mechanical-keyboard-customizable-keyboard-with-vibration-absorbing-gasket-backlit-macaron/J7H7ZYL289/sku/11931516",
+      "bhphoto": "https://www.bhphotovideo.com/c/product/1925807-REG/logitech_920_013575_alto_keys_k98m_graphite.html",
+      "newegg": "https://www.newegg.com/p/0GA-0001-012A2"
+    },
     "recommendation_tags": [
       "wireless",
       "hot_swappable"
@@ -2150,7 +2195,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -2296,17 +2341,22 @@
     "brand": "SteelSeries",
     "category": "keyboard",
     "price_range_usd": [
-      80,
-      130
+      55,
+      192
     ],
     "image_url": "https://i.rtings.com/assets/products/2zAWjxbO/steelseries-apex-3-tkl/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=SteelSeries+Apex+3+TKL&tag=gearmatch-20",
+    "retailer_urls": {
+      "manufacturer": "https://steelseries.com/gaming-keyboards/apex-3",
+      "newegg": "https://www.newegg.com/p/0GA-0008-000Y9",
+      "bestbuy": "https://www.bestbuy.com/product/steelseries-apex-3-full-size-wired-membrane-whisper-quiet-switch-gaming-keyboard-with-10-zone-rgb-backlighting-black/J3LG47VT9S/sku/12009671"
+    },
     "recommendation_tags": [],
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -2366,17 +2416,24 @@
     "brand": "SteelSeries",
     "category": "keyboard",
     "price_range_usd": [
-      30,
-      60
+      32,
+      59
     ],
     "image_url": "https://i.rtings.com/assets/products/ORDsSuYM/steelseries-apex-3/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=SteelSeries+Apex+3&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/steelseries-apex-3-full-size-wired-membrane-whisper-quiet-switch-gaming-keyboard-with-10-zone-rgb-backlighting-black/J3LG47VT9S/sku/6396205",
+      "microcenter": "https://www.microcenter.com/product/640803/Apex_3_TKL_Mechanical_Wired_Gaming_Keyboard_-_Black",
+      "manufacturer": "https://steelseries.com/gaming-keyboards/apex-3",
+      "target": "https://www.target.com/p/steelseries-apex-3-tkl-wired-gaming-keyboard-for-pc/-/A-86543010",
+      "newegg": "https://www.newegg.com/steelseries-apex-3-64795-whisper-quiet-mechanical-keyboard/p/N82E16823239056"
+    },
     "recommendation_tags": [],
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -2439,11 +2496,18 @@
     "brand": "SteelSeries",
     "category": "keyboard",
     "price_range_usd": [
-      80,
-      130
+      97,
+      100
     ],
     "image_url": "https://i.rtings.com/assets/products/9mXmuqv6/steelseries-apex-5/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=SteelSeries+Apex+5&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/steelseries-apex-5-full-size-wired-mechanical-hybrid-blue-tactile-clicky-switch-gaming-keyboard-with-rgb-backlighting-black/J3LG47VTW4/sku/6396208",
+      "manufacturer": "https://steelseries.com/gaming-keyboards/apex-5",
+      "walmart": "https://www.walmart.com/ip/SteelSeries-Apex-5-Mechanical-Gaming-Keyboard-RGB-Illumination-Hybrid-Blue-Switch/579131893",
+      "microcenter": "https://www.microcenter.com/product/618006/Apex_5_RGB_Gaming_Keyboard_w-_OLED_Display_and_Detachable_Palm_Rest_-_Hybrid_Blue",
+      "newegg": "https://www.newegg.com/steelseries-apex-5-hybrid-blue-mechanical/p/N82E16823239057"
+    },
     "recommendation_tags": [
       "gaming",
       "hot_swappable"
@@ -2452,7 +2516,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -2527,7 +2591,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -2605,7 +2669,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -2670,11 +2734,17 @@
     "brand": "SteelSeries",
     "category": "keyboard",
     "price_range_usd": [
-      150,
-      220
+      184,
+      312
     ],
     "image_url": "https://i.rtings.com/assets/products/akP7exTE/steelseries-apex-pro-gen-3/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=SteelSeries+Apex+Pro+Gen+3&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/steelseries-apex-pro-tkl-gen-3-wired-mechanical-omnipoint-adjustable-hypermagnetic-gaming-keyboard-with-rapid-tap-black/J3GTVPH8JP/sku/6594154",
+      "microcenter": "https://www.microcenter.com/product/683371/Apex_Pro_TKL_Wired_Gen_3;_Omnipoint_30_Adjustable_HyperMagnetic_Switches;_Hall_Effect_Sensors;_Triple_Layer_Sound_Dampening_Foam;_OLED_Display",
+      "manufacturer": "https://steelseries.com/gaming-keyboards/apex-pro-gen-3",
+      "newegg": "https://www.newegg.com/p/N82E16823239072"
+    },
     "recommendation_tags": [
       "gaming"
     ],
@@ -2682,7 +2752,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -2761,7 +2831,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -2832,11 +2902,16 @@
     "brand": "SteelSeries",
     "category": "keyboard",
     "price_range_usd": [
-      150,
-      220
+      180,
+      260
     ],
     "image_url": "https://i.rtings.com/assets/products/paxJjX4s/steelseries-apex-pro-mini/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=SteelSeries+Apex+Pro+Mini&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/steelseries-apex-pro-mini-60-v2-wireless-mechanical-omnipoint-adjustable-hypermagnetic-gaming-keyboard-with-rapid-tap-black/J3GTVPQW68/sku/6508052",
+      "microcenter": "https://www.microcenter.com/product/649907/Apex_Pro_Mini_Wireless_Gaming_Keyboard_(Black)",
+      "manufacturer": "https://steelseries.com/gaming-keyboards/apex-pro"
+    },
     "recommendation_tags": [
       "gaming"
     ],
@@ -2844,7 +2919,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -2919,7 +2994,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -2998,7 +3073,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -3155,7 +3230,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -3236,7 +3311,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -3540,7 +3615,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -3605,8 +3680,8 @@
     "brand": "Razer",
     "category": "keyboard",
     "price_range_usd": [
-      150,
-      220
+      239,
+      268
     ],
     "image_url": "https://i.rtings.com/assets/products/dNEsjXpY/razer-blackwidow-v3-pro/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Razer+BlackWidow+V3+Pro&tag=gearmatch-20",
@@ -3618,7 +3693,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -3688,11 +3763,16 @@
     "brand": "Razer",
     "category": "keyboard",
     "price_range_usd": [
-      80,
-      130
+      119,
+      140
     ],
     "image_url": "https://i.rtings.com/assets/products/E4SMfANn/razer-blackwidow-v3/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Razer+BlackWidow+V3&tag=gearmatch-20",
+    "retailer_urls": {
+      "manufacturer": "https://www.razer.com/gaming-keyboards/razer-blackwidow-v3/RZ03-03540200-R3U1",
+      "microcenter": "https://www.microcenter.com/product/631339/BlackWidow_V3_-_Mechanical_Gaming_Keyboard_(Green_Switch)_-_Quartz_Edition",
+      "walmart": "https://www.walmart.com/ip/Razer-BlackWidow-V3-Full-Size-Mechanical-Gaming-Keyboard-for-PC-Chroma-RGB-Wrist-Rest-Black/606378872"
+    },
     "recommendation_tags": [
       "gaming"
     ],
@@ -3700,7 +3780,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -3764,11 +3844,18 @@
     "brand": "Razer",
     "category": "keyboard",
     "price_range_usd": [
-      80,
-      130
+      140,
+      160
     ],
     "image_url": "https://i.rtings.com/assets/products/4EiDZbsj/razer-blackwidow-v4-75/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Razer+BlackWidow+V4+75%25&tag=gearmatch-20",
+    "retailer_urls": {
+      "manufacturer": "https://www.razer.com/gaming-keyboards/razer-blackwidow-v4-75/RZ03-05004000-R3U1",
+      "bestbuy": "https://www.bestbuy.com/product/razer-blackwidow-v4-full-size-wired-mechanical-green-clicky-switch-gaming-keyboard-with-chroma-rgb-backlighting-black/J39HWFQZY2",
+      "microcenter": "https://www.microcenter.com/product/668822/BlackWidow_V4_75_Hot-swappable_Mechanical_Gaming_Keyboard_-_Black;_Orange_Tactile_Razer_Switches",
+      "newegg": "https://www.newegg.com/razer-blackwidow-v4-rz03-04691900-r3u1-linear-mechanical-keyboard/p/N82E16823114130",
+      "bhphoto": "https://www.bhphotovideo.com/c/product/1851676-REG/razer_rz03_04690200_r3u1_blackwidow_v4_mechanical_gaming.html"
+    },
     "recommendation_tags": [
       "gaming",
       "hot_swappable"
@@ -3777,7 +3864,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -3842,11 +3929,18 @@
     "brand": "Razer",
     "category": "keyboard",
     "price_range_usd": [
-      150,
-      220
+      200,
+      249
     ],
     "image_url": "https://i.rtings.com/assets/products/MMgt3UYQ/razer-blackwidow-v4-pro/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Razer+BlackWidow+V4+Pro&tag=gearmatch-20",
+    "retailer_urls": {
+      "manufacturer": "https://www.razer.com/gaming-keyboards/razer-blackwidow-v4-pro/RZ03-04680200-R3U1",
+      "walmart": "https://www.walmart.com/ip/Razer-BlackWidow-V4-Pro-Wired-Mechanical-PC-Gaming-Keyboard-Wrist-Rest-Chroma-RGB-Black/2480739945",
+      "bestbuy": "https://www.bestbuy.com/product/razer-blackwidow-v4-pro-full-size-wired-mechanical-green-clicky-switch-gaming-keyboard-with-chroma-rgb-backlighting-white/J39HWFH9Z7",
+      "newegg": "https://www.newegg.com/p/26J-05FW-00002",
+      "bhphoto": "https://www.bhphotovideo.com/c/product/1851675-REG/razer_rz03_04680200_r3u1_blackwidow_v4_pro_mechanical.html"
+    },
     "recommendation_tags": [
       "gaming"
     ],
@@ -3854,7 +3948,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -3919,11 +4013,18 @@
     "brand": "Razer",
     "category": "keyboard",
     "price_range_usd": [
-      80,
-      130
+      140,
+      160
     ],
     "image_url": "https://i.rtings.com/assets/products/XQWbFPNJ/razer-blackwidow-v4/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Razer+BlackWidow+V4&tag=gearmatch-20",
+    "retailer_urls": {
+      "manufacturer": "https://www.razer.com/gaming-keyboards/razer-blackwidow-v4-75/RZ03-05004000-R3U1",
+      "bestbuy": "https://www.bestbuy.com/product/razer-blackwidow-v4-full-size-wired-mechanical-green-clicky-switch-gaming-keyboard-with-chroma-rgb-backlighting-black/J39HWFQZY2",
+      "microcenter": "https://www.microcenter.com/product/668822/BlackWidow_V4_75_Hot-swappable_Mechanical_Gaming_Keyboard_-_Black;_Orange_Tactile_Razer_Switches",
+      "newegg": "https://www.newegg.com/razer-blackwidow-v4-rz03-04691900-r3u1-linear-mechanical-keyboard/p/N82E16823114130",
+      "bhphoto": "https://www.bhphotovideo.com/c/product/1851676-REG/razer_rz03_04690200_r3u1_blackwidow_v4_mechanical_gaming.html"
+    },
     "recommendation_tags": [
       "gaming"
     ],
@@ -3931,7 +4032,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -4007,7 +4108,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -4214,17 +4315,20 @@
     "brand": "Keychron",
     "category": "keyboard",
     "price_range_usd": [
-      80,
-      130
+      127,
+      127
     ],
     "image_url": "https://i.rtings.com/assets/products/HPGQKxvo/keychron-c2/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Keychron+C2&tag=gearmatch-20",
+    "retailer_urls": {
+      "newegg": "https://www.newegg.com/p/0GA-0993-006J6"
+    },
     "recommendation_tags": [],
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -4364,7 +4468,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -4574,8 +4678,8 @@
     "brand": "Razer",
     "category": "keyboard",
     "price_range_usd": [
-      80,
-      130
+      86,
+      180
     ],
     "image_url": "https://i.rtings.com/assets/products/qkEg6Ji9/razer-cynosa-v2/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Razer+Cynosa+V2&tag=gearmatch-20",
@@ -4584,7 +4688,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -4662,7 +4766,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -4732,11 +4836,16 @@
     "brand": "Redragon",
     "category": "keyboard",
     "price_range_usd": [
-      30,
-      60
+      43,
+      45
     ],
     "image_url": "https://i.rtings.com/assets/products/bqmuHhRo/redragon-dragonborn-k630-rgb/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Redragon+Dragonborn+K630+RGB&tag=gearmatch-20",
+    "retailer_urls": {
+      "manufacturer": "https://redragonshop.com/products/dragonborn-k630?variant=47862996861150",
+      "bestbuy": "https://www.bestbuy.com/product/redragon-k630-dragonborn-tkl-wired-gaming-mechanical-brown-switch-keyboard-with-backlighting-black/CZ6WWR6P6Z/sku/12009436",
+      "target": "https://www.target.com/p/redragon-dragonborn-k630-tkl-wired-brown-switch-mechanical-keyboard-with-backlighting/-/A-91279157"
+    },
     "recommendation_tags": [
       "gaming"
     ],
@@ -4744,7 +4853,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -4879,17 +4988,20 @@
     "brand": "Drop",
     "category": "keyboard",
     "price_range_usd": [
-      80,
-      130
+      69,
+      69
     ],
     "image_url": "https://i.rtings.com/assets/products/f6zDIPjy/drop-entr/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Drop+ENTR&tag=gearmatch-20",
+    "retailer_urls": {
+      "manufacturer": "https://drop.com/buy/drop-entr-mechanical-keyboard"
+    },
     "recommendation_tags": [],
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -4948,11 +5060,19 @@
     "brand": "Logitech",
     "category": "keyboard",
     "price_range_usd": [
-      80,
-      130
+      120,
+      190
     ],
     "image_url": "https://i.rtings.com/assets/products/297MKpuk/logitech-ergo-k860/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Logitech+ERGO+K860&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/logitech-ergo-k860-ergonomic-full-size-wireless-scissor-keyboard-for-windows-and-mac-with-palm-rest-black/J7H7ZYXTHT/sku/6395346",
+      "manufacturer": "https://www.logitech.com/en-us/shop/p/k860-split-ergonomic.920-009166",
+      "microcenter": "https://www.microcenter.com/product/618533/ERGO_K860_Split_Ergonomic_Wireless_Keyboard",
+      "walmart": "https://www.walmart.com/ip/Logitech-K860-Ergonomic-Keyboard/5144705303",
+      "bhphoto": "https://www.bhphotovideo.com/c/product/1703022-REG/logitech_ergo_k860_wireless_ergonomic.html",
+      "newegg": "https://www.newegg.com/logitech-920-010175-usb-rf-wireless/p/N82E16823126663"
+    },
     "recommendation_tags": [
       "wireless"
     ],
@@ -4960,7 +5080,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -5593,7 +5713,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -5742,11 +5862,14 @@
     "brand": "Logitech",
     "category": "keyboard",
     "price_range_usd": [
-      80,
-      130
+      120,
+      180
     ],
     "image_url": "https://i.rtings.com/assets/products/tSs2QoeJ/logitech-flip-folio/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Logitech+Flip+Folio&tag=gearmatch-20",
+    "retailer_urls": {
+      "manufacturer": "https://www.logitech.com/en-us/shop/p/flip-folio.920-013844"
+    },
     "recommendation_tags": [
       "wireless"
     ],
@@ -5754,7 +5877,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -5989,7 +6112,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -6058,7 +6181,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -6123,17 +6246,22 @@
     "brand": "Kinesis",
     "category": "keyboard",
     "price_range_usd": [
-      150,
-      220
+      195,
+      232
     ],
     "image_url": "https://i.rtings.com/assets/products/QKPpYKmd/kinesis-freestyle-pro/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Kinesis+Freestyle+Pro&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/kinesis-kb900-rdq-wired-keyboard-usb-cherry-mx-silent-red-switches-black/J2VQYC2V7S/sku/11547304",
+      "target": "https://www.target.com/p/kinesis-freestyle-pro-keyboard-kb900-rdq/-/A-1006816518",
+      "newegg": "https://www.newegg.com/p/0GA-007E-000C8"
+    },
     "recommendation_tags": [],
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -6194,8 +6322,8 @@
     "brand": "NZXT",
     "category": "keyboard",
     "price_range_usd": [
-      80,
-      130
+      151,
+      151
     ],
     "image_url": "https://i.rtings.com/assets/products/HdD3dChY/nzxt-function/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=NZXT+Function&tag=gearmatch-20",
@@ -6207,7 +6335,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -6273,17 +6401,24 @@
     "brand": "Logitech",
     "category": "keyboard",
     "price_range_usd": [
-      150,
-      220
+      110,
+      110
     ],
     "image_url": "https://i.rtings.com/assets/products/yPRXGbwb/logitech-g-pro-keyboard/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Logitech+G+PRO+Keyboard&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/logitech-g-pro-tkl-wired-mechanical-gx-blue-clicky-switch-gaming-keyboard-with-rgb-backlighting-for-pc-black/J7H7ZYXWCJ/sku/6372528",
+      "manufacturer": "https://www.logitechg.com/en-us/shop/p/pro-mechanical-gaming-keyboard.920-009388",
+      "walmart": "https://www.walmart.com/ip/Logitech-G-PRO-Mechanical-Gaming-Keyboard-Ultra-Portable-Tenkeyless-Design-Detachable-Micro-USB-Cable-16-8-Million-Color-LIGHTSYNC-RGB-Backlit-Keys/354299033",
+      "target": "https://www.target.com/p/logitech-pro-mechanical-gaming-keyboard-for-pc/-/A-86387993",
+      "bhphoto": "https://www.bhphotovideo.com/c/product/1512051-REG/logitech_920_009388_g_pro_mechanical_gaming_keyboard.html"
+    },
     "recommendation_tags": [],
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -6428,11 +6563,18 @@
     "brand": "Logitech",
     "category": "keyboard",
     "price_range_usd": [
-      150,
-      220
+      120,
+      130
     ],
     "image_url": "https://i.rtings.com/assets/products/L8en5jwj/logitech-g-pro-x-keyboard/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Logitech+G+PRO+X+Keyboard&tag=gearmatch-20",
+    "retailer_urls": {
+      "manufacturer": "https://www.logitechg.com/en-us/shop/p/pro-x-gaming-headset-blue-voice-mic-tech.981-000817",
+      "microcenter": "https://www.microcenter.com/product/609851/Pro_X_Wired_Gaming_Headset;_DTS_HeadphoneX_20,_Large_50mm_Pro-G_Drivers,_Detachable_Mic,_71_Surround_Sound_-_Black",
+      "bhphoto": "https://www.bhphotovideo.com/c/product/1502157-REG/logitech_981_000817_g_pro_x_wired.html",
+      "newegg": "https://www.newegg.com/logitech-g-pro-x-981-000817-black-usb/p/N82E16826197345",
+      "walmart": "https://www.walmart.com/ip/Logitech-G-PRO-X-Gaming-Headset-2nd-Generation-Blue-VO-CE-DTS-Headphone-X-7-1-50-mm-PRO-G-Drivers-PC-Xbox-One-Xbox-Series-X-S-PS5-PS4-Nintendo-Switch/818998648"
+    },
     "recommendation_tags": [
       "hot_swappable"
     ],
@@ -6440,7 +6582,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -6586,11 +6728,18 @@
     "brand": "Logitech",
     "category": "keyboard",
     "price_range_usd": [
-      150,
+      165,
       220
     ],
     "image_url": "https://i.rtings.com/assets/products/9myqrW6B/logitech-g-pro-x-tkl/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Logitech+G+PRO+X+TKL&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/logitech-pro-x-tkl-lightspeed-wireless-mechanical-tactile-switch-gaming-keyboard-with-lightsync-rgb-for-pc-black/J7H7ZYGCYY/sku/6556751",
+      "manufacturer": "https://www.logitechg.com/en-us/shop/p/pro-x-tkl-rapid.920-013133",
+      "microcenter": "https://www.microcenter.com/product/688440/Pro_X_TKL_Rapid_Wired_Gaming_Keyboard_-_White",
+      "bhphoto": "https://www.bhphotovideo.com/c/product/1863177-REG/logitech_920_013133_pro_x_tkl_rapid.html",
+      "newegg": "https://www.newegg.com/p/N82E16823126720"
+    },
     "recommendation_tags": [
       "wireless"
     ],
@@ -6598,7 +6747,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -6742,17 +6891,23 @@
     "brand": "Logitech",
     "category": "keyboard",
     "price_range_usd": [
-      30,
-      60
+      60,
+      64
     ],
     "image_url": "https://i.rtings.com/assets/products/9wHtJeC1/logitech-g413-se/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Logitech+G413+SE&tag=gearmatch-20",
+    "retailer_urls": {
+      "manufacturer": "https://www.logitechg.com/en-us/shop/p/g413-se-gaming-keyboard.920-010433",
+      "bestbuy": "https://www.bestbuy.com/product/logitech-g413-se-full-size-wired-mechanical-tactile-switch-gaming-keyboard-for-windows-mac-with-backlit-keys-black/J7H7ZY3Z27/sku/11065171",
+      "bhphoto": "https://www.bhphotovideo.com/c/product/1686764-REG/logitech_920_010433_g413_se_mechanical_gaming.html",
+      "newegg": "https://www.newegg.com/logitech-g413-se-tactile-black/p/N82E16823126670"
+    },
     "recommendation_tags": [],
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -6825,7 +6980,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -6960,8 +7115,8 @@
     "brand": "Logitech",
     "category": "keyboard",
     "price_range_usd": [
-      80,
-      130
+      150,
+      150
     ],
     "image_url": "https://i.rtings.com/assets/products/db8TmOZe/logitech-g513/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Logitech+G513&tag=gearmatch-20",
@@ -6972,7 +7127,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -7035,11 +7190,20 @@
     "brand": "Logitech",
     "category": "keyboard",
     "price_range_usd": [
-      80,
-      130
+      120,
+      160
     ],
     "image_url": "https://i.rtings.com/assets/products/4mP6l0oN/logitech-g515-lightspeed-tkl/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Logitech+G515+LIGHTSPEED+TKL&tag=gearmatch-20",
+    "retailer_urls": {
+      "manufacturer": "https://www.logitechg.com/en-us/shop/p/g515-tkl-gaming-keyboard.920-012869",
+      "walmart": "https://www.walmart.com/ip/G515-Gaming-Keyboard-White/8798473390",
+      "bestbuy": "https://www.bestbuy.com/product/logitech-g515-lightspeed-tkl-wireless-mechanical-linear-red-switch-gaming-keyboard-with-lightsync-rgb-white/J7H7ZYGYWG/sku/6586067",
+      "microcenter": "https://www.microcenter.com/product/681763/G515_Lightspeed_TKL_Wireless_RGB_Mechanical_Keyboard_-_White;_English_Tactile_Switches",
+      "target": "https://www.target.com/p/logitech-g515-lightspeed-tkl-low-profile-wireless-gaming-keyboard-lightsync-rgb-thin-tenkeyless-design-pbt-keycaps-tactile-brown-mechanical-s/-/A-1001262995",
+      "bhphoto": "https://www.bhphotovideo.com/c/product/1835413-REG/logitech_920_012535_g515_lightspeed_tkl_tactile.html",
+      "newegg": "https://www.newegg.com/p/N82E16823126745"
+    },
     "recommendation_tags": [
       "wireless",
       "gaming"
@@ -7048,7 +7212,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -7118,11 +7282,19 @@
     "brand": "Logitech",
     "category": "keyboard",
     "price_range_usd": [
-      80,
-      130
+      120,
+      160
     ],
     "image_url": "https://i.rtings.com/assets/products/HjtbV3YS/logitech-g515-rapid-tkl-magnetic/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Logitech+G515+RAPID+TKL&tag=gearmatch-20",
+    "retailer_urls": {
+      "manufacturer": "https://www.logitechg.com/en-us/shop/p/g515-tkl-gaming-keyboard.920-012869",
+      "bestbuy": "https://www.bestbuy.com/product/logitech-g515-lightspeed-tkl-wireless-mechanical-linear-red-switch-gaming-keyboard-with-lightsync-rgb-white/J7H7ZYGYWG/sku/6586067",
+      "microcenter": "https://www.microcenter.com/product/681763/G515_Lightspeed_TKL_Wireless_RGB_Mechanical_Keyboard_-_White;_English_Tactile_Switches",
+      "target": "https://www.target.com/p/logitech-g515-lightspeed-tkl-low-profile-wireless-gaming-keyboard-lightsync-rgb-thin-tenkeyless-design-pbt-keycaps-tactile-brown-mechanical-s/-/A-1001262995",
+      "bhphoto": "https://www.bhphotovideo.com/c/product/1835413-REG/logitech_920_012535_g515_lightspeed_tkl_tactile.html",
+      "newegg": "https://www.newegg.com/p/N82E16823126745"
+    },
     "recommendation_tags": [
       "gaming"
     ],
@@ -7130,7 +7302,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -7197,8 +7369,8 @@
     "brand": "Logitech",
     "category": "keyboard",
     "price_range_usd": [
-      80,
-      130
+      50,
+      103
     ],
     "image_url": "https://i.rtings.com/assets/products/TMENSsDj/logitech-g613-lightspeed/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Logitech+G613+LIGHTSPEED&tag=gearmatch-20",
@@ -7209,7 +7381,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -7275,11 +7447,17 @@
     "brand": "Logitech",
     "category": "keyboard",
     "price_range_usd": [
-      80,
-      130
+      94,
+      220
     ],
     "image_url": "https://i.rtings.com/assets/products/QZF3exYl/logitech-g715/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Logitech+G715&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/logitech-g715-aurora-collection-tkl-wireless-mechanical-tactile-switch-gaming-keyboard-for-pc-mac-with-palm-rest-included-white-mist/J7H7ZY35P3/sku/6511298",
+      "manufacturer": "https://www.logitechg.com/en-us/shop/p/g715-tkl-mechanical-wireless-keyboard.920-010684",
+      "microcenter": "https://www.microcenter.com/product/651144/logitech-g-g715-wireless-gaming-keyboard-(white)-linear",
+      "newegg": "https://www.newegg.com/logitech-920-010453-bluetooth-wireless/p/0GA-0001-010P6"
+    },
     "recommendation_tags": [
       "wireless",
       "gaming"
@@ -7288,7 +7466,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -7368,7 +7546,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -7521,7 +7699,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -7603,7 +7781,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -7685,7 +7863,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -7915,10 +8093,13 @@
     "category": "keyboard",
     "price_range_usd": [
       80,
-      130
+      212
     ],
     "image_url": "https://i.rtings.com/assets/products/bX7P3TZO/glorious-gmmk-2/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=GLORIOUS+GMMK+2&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/glorious-gmmk-2-prebuilt-96-full-size-wired-mechanical-linear-switch-gaming-keyboard-with-hotswappable-switches-black/J3GWJX2C8L/sku/6547948"
+    },
     "recommendation_tags": [
       "hot_swappable"
     ],
@@ -7926,7 +8107,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -7992,11 +8173,15 @@
     "brand": "GLORIOUS",
     "category": "keyboard",
     "price_range_usd": [
-      150,
-      220
+      225,
+      280
     ],
     "image_url": "https://i.rtings.com/assets/products/7EAuyQQS/glorious-gmmk-3-pro-he/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=GLORIOUS+GMMK+3+PRO+HE&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/glorious-gmmk-3-pro-75-wired-mechanical-linear-switch-gaming-keyboard-with-hot-swappable-switches-black/J39TGZ83GS/sku/6586725",
+      "manufacturer": "https://www.gloriousgaming.com/products/gmmk-3-pro-prebuilt-keyboard?variant=44256500547759"
+    },
     "recommendation_tags": [
       "wireless",
       "gaming",
@@ -8006,7 +8191,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -8091,7 +8276,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -8157,11 +8342,14 @@
     "brand": "GLORIOUS",
     "category": "keyboard",
     "price_range_usd": [
-      150,
-      220
+      104,
+      170
     ],
     "image_url": "https://i.rtings.com/assets/products/233EqdKI/glorious-gmmk-pro/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=GLORIOUS+GMMK+PRO&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/glorious-gmmk-pro-barebone-high-profile-gasket-mounted-rgb-75-wired-mechanical-keyboard-white/J3R8Q6T6ZR/sku/6519205"
+    },
     "recommendation_tags": [
       "hot_swappable"
     ],
@@ -8169,7 +8357,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -8247,7 +8435,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -8390,8 +8578,8 @@
     "brand": "NuPhy",
     "category": "keyboard",
     "price_range_usd": [
-      80,
-      130
+      150,
+      150
     ],
     "image_url": "https://i.rtings.com/assets/products/avT02nzk/nuphy-halo65-he/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=NuPhy+Halo65+HE&tag=gearmatch-20",
@@ -8404,7 +8592,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -8569,7 +8757,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -8881,11 +9069,18 @@
     "brand": "Razer",
     "category": "keyboard",
     "price_range_usd": [
-      80,
-      130
+      79,
+      120
     ],
     "image_url": "https://i.rtings.com/assets/products/x1GdylGN/razer-huntsman-mini/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Razer+Huntsman+Mini&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/site/razer-huntsman-mini-60-wired-optical-clicky-switch-gaming-keyboard-with-chroma-rgb-backlighting-black/6417111.p",
+      "manufacturer": "https://www.razer.com/gaming-keyboards/razer-huntsman-mini/RZ03-03393400-R3U1",
+      "walmart": "https://www.walmart.com/ip/Razer-Huntsman-Mini-60-Optical-Gaming-Keyboard-Linear-Switch-Mercury/15400650400",
+      "bhphoto": "https://www.bhphotovideo.com/c/product/1851710-REG/razer_rz03_03390300_r3m1_huntsman_mini_60_optical.html",
+      "newegg": "https://www.newegg.com/huntsman-mini-razer-clicky-optical-black/p/32N-0017-00119"
+    },
     "recommendation_tags": [
       "gaming"
     ],
@@ -8893,7 +9088,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -8968,7 +9163,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -9126,7 +9321,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -9192,17 +9387,24 @@
     "brand": "Razer",
     "category": "keyboard",
     "price_range_usd": [
-      150,
-      220
+      188,
+      250
     ],
     "image_url": "https://i.rtings.com/assets/products/yZRTcQyb/razer-huntsman-v3-pro-8khz/in-test-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Razer+Huntsman+V3+Pro+8KHz&tag=gearmatch-20",
+    "retailer_urls": {
+      "manufacturer": "https://www.razer.com/gaming-keyboards/razer-huntsman-v3-pro/RZ03-04970200-R3U1",
+      "bestbuy": "https://www.bestbuy.com/product/razer-huntsman-v3-pro-full-size-wired-analog-optical-linear-switch-gaming-keyboard-with-snap-tap-black/J39HWFHXV9",
+      "walmart": "https://www.walmart.com/ip/Razer-Huntsman-V3-Pro-Analog-Optical-Esports-Keybaord-RBG-Chroma-Wrist-Rest-Black/5109506432",
+      "newegg": "https://www.newegg.com/p/N82E16823114132",
+      "target": "https://www.target.com/p/razer-huntsman-v3-pro-gaming-keyboard-analog-optical-switches-w-rapid-trigger-adjustable-actuation-media-keys-dial-manufacturer-refurbished/-/A-1003994736"
+    },
     "recommendation_tags": [],
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -9266,11 +9468,14 @@
     "brand": "Razer",
     "category": "keyboard",
     "price_range_usd": [
-      150,
-      220
+      119,
+      249
     ],
     "image_url": "https://i.rtings.com/assets/products/N8ekVbeI/razer-huntsman-v3-pro-mini-tkl/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Razer+Huntsman+V3+Pro+%5BMini%2C+TKL%5D&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/razer-huntsman-v3-pro-mini-60-wired-analog-optical-linear-switch-gaming-keyboard-with-snap-tap-white/J39HWFH4V4/sku/6622676"
+    },
     "recommendation_tags": [
       "gaming"
     ],
@@ -9278,7 +9483,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -9504,11 +9709,16 @@
     "brand": "Razer",
     "category": "keyboard",
     "price_range_usd": [
-      80,
-      130
+      111,
+      140
     ],
     "image_url": "https://i.rtings.com/assets/products/2lv68VZs/razer-joro/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Razer+Joro&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/razer-joro-portable-75-wireless-scissor-gaming-keyboard-with-chroma-rgb-backlighting-black/J39HWFHFXV/sku/6621500",
+      "manufacturer": "https://www.razer.com/gaming-keyboards/razer-joro/RZ03-02360200-R3U1",
+      "microcenter": "https://www.microcenter.com/product/694479/Joro_Ultra_Portable_Wireless_Gaming_Keyboard_-_Black"
+    },
     "recommendation_tags": [
       "wireless"
     ],
@@ -9516,7 +9726,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -9583,11 +9793,14 @@
     "brand": "Keychron",
     "category": "keyboard",
     "price_range_usd": [
-      80,
-      130
+      90,
+      110
     ],
     "image_url": "https://i.rtings.com/assets/products/uLDNV18x/keychron-k1/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Keychron+K1&tag=gearmatch-20",
+    "retailer_urls": {
+      "manufacturer": "https://www.keychron.com/products/keychron-k1-max-qmk-via-wireless-custom-mechanical-keyboard?variant=40779458805849"
+    },
     "recommendation_tags": [
       "wireless"
     ],
@@ -9595,7 +9808,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -9656,11 +9869,14 @@
     "brand": "Keychron",
     "category": "keyboard",
     "price_range_usd": [
-      80,
-      130
+      105,
+      168
     ],
     "image_url": "https://i.rtings.com/assets/products/KXyZv5tD/keychron-k10/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Keychron+K10&tag=gearmatch-20",
+    "retailer_urls": {
+      "manufacturer": "https://www.keychron.com/products/keychron-k10-qmk-via-wireless-mechanical-keyboard-version-2?variant=42058442801241"
+    },
     "recommendation_tags": [
       "wireless"
     ],
@@ -9668,7 +9884,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -9747,7 +9963,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -9829,7 +10045,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -9967,11 +10183,14 @@
     "brand": "Keychron",
     "category": "keyboard",
     "price_range_usd": [
-      80,
-      130
+      68,
+      68
     ],
     "image_url": "https://i.rtings.com/assets/products/5MpHsmeU/keychron-k14/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Keychron+K14&tag=gearmatch-20",
+    "retailer_urls": {
+      "manufacturer": "https://www.keychron.com/products/keychron-k14-wireless-mechanical-keyboard?variant=39553095925849"
+    },
     "recommendation_tags": [
       "wireless"
     ],
@@ -9979,7 +10198,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -10129,11 +10348,14 @@
     "brand": "Keychron",
     "category": "keyboard",
     "price_range_usd": [
-      80,
-      130
+      60,
+      189
     ],
     "image_url": "https://i.rtings.com/assets/products/wZBvFZvM/keychron-k2-version-2/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Keychron+K2+(Version+2)&tag=gearmatch-20",
+    "retailer_urls": {
+      "manufacturer": "https://www.keychron.com/products/keychron-k2-non-backlight-wireless-mechanical-keyboard?variant=39627684970585"
+    },
     "recommendation_tags": [
       "wireless"
     ],
@@ -10141,7 +10363,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -10270,11 +10492,15 @@
     "brand": "Keychron",
     "category": "keyboard",
     "price_range_usd": [
-      80,
-      130
+      95,
+      188
     ],
     "image_url": "https://i.rtings.com/assets/products/MSgrVKR1/keychron-k3-version-2/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Keychron+K3+(Version+2)&tag=gearmatch-20",
+    "retailer_urls": {
+      "manufacturer": "https://www.keychron.com/products/keychron-k3-qmk-wireless-mechanical-keyboard-iso-layout-version-3?variant=42079079596121",
+      "newegg": "https://www.newegg.com/p/32N-04TE-000Y0"
+    },
     "recommendation_tags": [
       "wireless"
     ],
@@ -10282,7 +10508,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -10347,11 +10573,15 @@
     "brand": "Keychron",
     "category": "keyboard",
     "price_range_usd": [
-      80,
-      130
+      90,
+      96
     ],
     "image_url": "https://i.rtings.com/assets/products/tIQHM9R1/keychron-k3/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Keychron+K3&tag=gearmatch-20",
+    "retailer_urls": {
+      "manufacturer": "https://www.keychron.com/products/keychron-k3-max-qmk-via-wireless-custom-mechanical-keyboard?variant=40685196804185",
+      "bestbuy": "https://www.bestbuy.com/product/keychron-k3-max-75-custom-wireless-rgb-mechanical-keyboard-with-programmable-qmk-via-hot-swappable-red-switch-black/CGC7F9C3LP/sku/6600181"
+    },
     "recommendation_tags": [
       "wireless"
     ],
@@ -10359,7 +10589,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -10573,7 +10803,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -10635,11 +10865,15 @@
     "brand": "Keychron",
     "category": "keyboard",
     "price_range_usd": [
-      80,
-      130
+      75,
+      218
     ],
     "image_url": "https://i.rtings.com/assets/products/GNJQkP78/keychron-k4/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Keychron+K4&tag=gearmatch-20",
+    "retailer_urls": {
+      "manufacturer": "https://www.keychron.com/products/keychron-k4-wireless-mechanical-keyboard-version-2?variant=32287344132185",
+      "newegg": "https://www.newegg.com/p/0GA-095U-00016"
+    },
     "recommendation_tags": [
       "wireless"
     ],
@@ -10647,7 +10881,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -10709,10 +10943,17 @@
     "category": "keyboard",
     "price_range_usd": [
       30,
-      60
+      34
     ],
     "image_url": "https://i.rtings.com/assets/products/2UlIt6ED/logitech-k400-plus/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Logitech+K400+Plus&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/logitech-k400-plus-tkl-wireless-membrane-keyboard-for-pc-tv-laptop-tablet-with-built-in-touchpad-black/J7H7ZYCY97/sku/7575039",
+      "manufacturer": "https://www.logitech.com/en-us/shop/p/k400-plus-touchpad-keyboard.920-007119",
+      "walmart": "https://www.walmart.com/ip/Logitech-K400-Plus-Wireless-Touch-Keyboard/47069686",
+      "bhphoto": "https://www.bhphotovideo.com/c/product/1357323-REG/logitech_920007119_k400_plus_wireless_touch.html",
+      "newegg": "https://www.newegg.com/logitech-k400-920-007119-rf-wireless/p/N82E16823126406"
+    },
     "recommendation_tags": [
       "wireless"
     ],
@@ -10720,7 +10961,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -10794,7 +11035,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -11016,7 +11257,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -11080,17 +11321,23 @@
     "brand": "Corsair",
     "category": "keyboard",
     "price_range_usd": [
-      30,
+      31,
       60
     ],
     "image_url": "https://i.rtings.com/assets/products/oSvuoJZQ/corsair-k55-rgb-pro/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Corsair+K55+RGB+PRO&tag=gearmatch-20",
+    "retailer_urls": {
+      "manufacturer": "https://www.corsair.com/us/en/p/revival-series/CH-9226765-NA-RV/k55-rgb-pro-gaming-keyboard-revival-series-ch-9226765-na-rv",
+      "bestbuy": "https://www.bestbuy.com/product/corsair-k55-rgb-pro-full-size-wired-dome-membrane-gaming-keyboard-with-elgato-stream-deck-software-integration-black/J39QHHVP4F/sku/6453150",
+      "microcenter": "https://www.microcenter.com/product/635338/K55_RGB_PRO_Gaming_Keyboard,_Backlit_RGB_LED,_Black",
+      "newegg": "https://www.newegg.com/corsair-k55-rgb-pro-ch-9226765-na-rubber-dome-mechanical-keyboard/p/N82E16823816143"
+    },
     "recommendation_tags": [],
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -11151,8 +11398,8 @@
     "brand": "Corsair",
     "category": "keyboard",
     "price_range_usd": [
-      80,
-      130
+      30,
+      85
     ],
     "image_url": "https://i.rtings.com/assets/products/FxSgLNGK/corsair-k55-rgb/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Corsair+K55+RGB&tag=gearmatch-20",
@@ -11161,7 +11408,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -11224,11 +11471,16 @@
     "brand": "Redragon",
     "category": "keyboard",
     "price_range_usd": [
-      30,
-      60
+      44,
+      58
     ],
     "image_url": "https://i.rtings.com/assets/products/uzBgHoio/redragon-k552-kumara-rgb/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Redragon+K552+KUMARA+RGB&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/redragon-kumara-k552-rgb-wired-tkl-gaming-mechanical-blue-switch-keyboard-with-rgb-backlighting-black/CZ6WWR978T/sku/6458719",
+      "manufacturer": "https://redragon.com/products/redragon-k552-krs-tkl-mechanical-gaming-keyboard?variant=45573542379695",
+      "target": "https://www.target.com/p/redragon-kumara-k552w-rgb-wired-tkl-blue-switch-mechanical-keyboard-with-rgb-backlighting/-/A-91279153"
+    },
     "recommendation_tags": [
       "hot_swappable"
     ],
@@ -11236,7 +11488,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -11312,7 +11564,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -11375,11 +11627,14 @@
     "brand": "Redragon",
     "category": "keyboard",
     "price_range_usd": [
-      30,
-      60
+      40,
+      40
     ],
     "image_url": "https://i.rtings.com/assets/products/bc3jSAeO/redragon-k582-surara-rgb/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Redragon+K582+SURARA+RGB&tag=gearmatch-20",
+    "retailer_urls": {
+      "manufacturer": "https://redragonshop.com/products/surara-k582?variant=32564200996913"
+    },
     "recommendation_tags": [
       "gaming"
     ],
@@ -11387,7 +11642,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -11460,7 +11715,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -11526,11 +11781,15 @@
     "brand": "Keychron",
     "category": "keyboard",
     "price_range_usd": [
-      80,
-      130
+      70,
+      145
     ],
     "image_url": "https://i.rtings.com/assets/products/tQ2RTucR/keychron-k6/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Keychron+K6&tag=gearmatch-20",
+    "retailer_urls": {
+      "manufacturer": "https://www.keychron.com/products/keychron-k6-wireless-mechanical-keyboard-uk-iso-layout?variant=32183162601561",
+      "newegg": "https://www.newegg.com/p/0GA-094C-000T1"
+    },
     "recommendation_tags": [
       "wireless"
     ],
@@ -11538,7 +11797,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -11599,8 +11858,8 @@
     "brand": "Corsair",
     "category": "keyboard",
     "price_range_usd": [
-      150,
-      220
+      151,
+      151
     ],
     "image_url": "https://i.rtings.com/assets/products/i8DpfhxU/corsair-k60-rgb-pro-low-profile/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Corsair+K60+RGB+PRO+Low+Profile&tag=gearmatch-20",
@@ -11609,7 +11868,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -11749,8 +12008,8 @@
     "brand": "Corsair",
     "category": "keyboard",
     "price_range_usd": [
-      80,
-      130
+      122,
+      122
     ],
     "image_url": "https://i.rtings.com/assets/products/fNArbgUu/corsair-k65-lux-rgb/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Corsair+K65+LUX+RGB&tag=gearmatch-20",
@@ -11761,7 +12020,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -11823,11 +12082,18 @@
     "brand": "Corsair",
     "category": "keyboard",
     "price_range_usd": [
-      80,
-      130
+      72,
+      160
     ],
     "image_url": "https://i.rtings.com/assets/products/HUuQotaE/corsair-k65-plus-wireless/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Corsair+K65+PLUS+WIRELESS&tag=gearmatch-20",
+    "retailer_urls": {
+      "manufacturer": "https://www.corsair.com/us/en/p/revival-series/CH-91D401L-NA-RV/k65-plus-wireless-75-rgb-mechanical-gaming-keyboard-revival-series-ch-91d401l-na-rv",
+      "bestbuy": "https://www.bestbuy.com/product/corsair-k65-plus-rgb-75-wireless-mechanical-pre-lubricated-mlx-red-linear-switch-gaming-keyboard-with-hot-swappable-switches-black-gray/J39QHTJRRH/sku/6572502",
+      "microcenter": "https://www.microcenter.com/product/676656/corsair-k65-plus-75-customizable-wireless-mechanical-gaming-keyboard",
+      "bhphoto": "https://www.bhphotovideo.com/c/product/1915330-REG/corsair_ch_91d451e_na_k65_plus_wireless_gaming.html",
+      "newegg": "https://www.newegg.com/k65-plus-wireless-ch-91d401l-na-mechanical-keyboard-corsair-mlx-red-switches/p/N82E16823816170"
+    },
     "recommendation_tags": [
       "wireless",
       "hot_swappable"
@@ -11836,7 +12102,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -11920,7 +12186,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -11985,11 +12251,14 @@
     "brand": "Corsair",
     "category": "keyboard",
     "price_range_usd": [
-      80,
-      130
+      55,
+      169
     ],
     "image_url": "https://i.rtings.com/assets/products/S8vsKrRf/corsair-k65-rgb-mini/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Corsair+K65+RGB+MINI&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/site/corsair-k65-rgb-mini-wired-60-mechanical-cherry-mx-speed-linear-switch-gaming-keyboard-with-pbt-double-shot-keycaps-white/6476232.p"
+    },
     "recommendation_tags": [
       "gaming"
     ],
@@ -11997,7 +12266,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -12062,8 +12331,8 @@
     "brand": "Corsair",
     "category": "keyboard",
     "price_range_usd": [
-      80,
-      130
+      139,
+      139
     ],
     "image_url": "https://i.rtings.com/assets/products/GGXTfz7z/corsair-k68-rgb/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Corsair+K68+RGB&tag=gearmatch-20",
@@ -12074,7 +12343,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -12218,7 +12487,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -12284,11 +12553,17 @@
     "brand": "Corsair",
     "category": "keyboard",
     "price_range_usd": [
-      150,
-      220
+      165,
+      250
     ],
     "image_url": "https://i.rtings.com/assets/products/qjWMcTrm/corsair-k70-max/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Corsair+K70+MAX&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/corsair-k70-max-rgb-magnetic-mechanical-gaming-keyboard-with-pbt-double-shot-keycaps-steel-gray/J39QHTJ8ZG/sku/6560691",
+      "manufacturer": "https://www.corsair.com/us/en/p/keyboards/CH-910961G-NA/k70-max-rgb-magnetic-mechanical-gaming-keyboard-adjustable-corsair-mgx-switches-steel-grey-ch-910961g-na",
+      "microcenter": "https://www.microcenter.com/product/671187/K70_MAX_RGB_Magnetic-Mechanical_Wired_Gaming_Keyboard_(Black);_Adjustable_Actuation_MGX_Switches",
+      "newegg": "https://www.newegg.com/k70-max-rgb-magnetic-mechanical-ch-910961g-na-mechanical-keyboard-corsair-mgx/p/N82E16823816165"
+    },
     "recommendation_tags": [
       "gaming",
       "hot_swappable"
@@ -12297,7 +12572,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -12449,11 +12724,17 @@
     "brand": "Corsair",
     "category": "keyboard",
     "price_range_usd": [
-      150,
-      220
+      81,
+      180
     ],
     "image_url": "https://i.rtings.com/assets/products/Ogc9G1tS/corsair-k70-pro-tkl/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Corsair+K70+PRO+TKL&tag=gearmatch-20",
+    "retailer_urls": {
+      "manufacturer": "https://www.corsair.com/us/en/p/revival-series/CH-911911G-NA-RV/k70-pro-tkl-high-performance-hall-effect-programmable-gaming-keyboard-with-rapid-trigger-revival-series-ch-911911g-na-rv",
+      "bestbuy": "https://www.bestbuy.com/product/corsair-k70-pro-tkl-wired-hall-effect-programmable-gaming-keyboard-with-rapid-trigger-black/J39QHTCW47/sku/6596942",
+      "microcenter": "https://www.microcenter.com/product/685151/corsair-k70-pro-tkl-hall-effect-programmable-keyboard-black",
+      "newegg": "https://www.newegg.com/p/N82E16823816173"
+    },
     "recommendation_tags": [
       "gaming",
       "hot_swappable"
@@ -12462,7 +12743,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -12531,8 +12812,8 @@
     "brand": "Corsair",
     "category": "keyboard",
     "price_range_usd": [
-      80,
-      130
+      50,
+      60
     ],
     "image_url": "https://i.rtings.com/assets/products/32mcsLA2/corsair-k70-rapidfire/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Corsair+K70+RAPIDFIRE&tag=gearmatch-20",
@@ -12543,7 +12824,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -12603,8 +12884,8 @@
     "brand": "Corsair",
     "category": "keyboard",
     "price_range_usd": [
-      80,
-      130
+      50,
+      60
     ],
     "image_url": "https://i.rtings.com/assets/products/6uBekNnb/corsair-k70-rgb-mk-2/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Corsair+K70+RGB+MK.2&tag=gearmatch-20",
@@ -12613,7 +12894,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -12764,7 +13045,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -12829,11 +13110,19 @@
     "brand": "Logitech",
     "category": "keyboard",
     "price_range_usd": [
-      80,
-      130
+      65,
+      70
     ],
     "image_url": "https://i.rtings.com/assets/products/XuDDq8CC/logitech-k780/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Logitech+K780&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/logitech-k780-full-size-wireless-scissor-keyboard-graphite/J7H7ZYC46Y/sku/10837523",
+      "manufacturer": "https://www.logitech.com/en-us/shop/p/k780-multi-device-wireless-keyboard.920-008149",
+      "walmart": "https://www.walmart.com/ip/Logitech-K780-Multi-Device-Wireless-Keyboard/178820743",
+      "bhphoto": "https://www.bhphotovideo.com/c/product/1424244-REG/logitech_920_008149_k780_multi_device_wireless_keyboard.html",
+      "microcenter": "https://www.microcenter.com/product/468154/K780_Multi-Device_Wireless_Keyboard",
+      "newegg": "https://www.newegg.com/logitech-k780-920-008149-usb-bluetooth-wireless/p/N82E16823126476"
+    },
     "recommendation_tags": [
       "wireless"
     ],
@@ -12841,7 +13130,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -13071,11 +13360,14 @@
     "brand": "Keychron",
     "category": "keyboard",
     "price_range_usd": [
-      80,
-      130
+      83,
+      166
     ],
     "image_url": "https://i.rtings.com/assets/products/9wmNlcA9/keychron-k8/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Keychron+K8&tag=gearmatch-20",
+    "retailer_urls": {
+      "manufacturer": "https://www.keychron.com/products/keychron-k8-max-qmk-wireless-mechanical-keyboard?variant=41765642928217"
+    },
     "recommendation_tags": [
       "wireless"
     ],
@@ -13083,7 +13375,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -13156,7 +13448,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -13365,17 +13657,25 @@
     "brand": "Logitech",
     "category": "keyboard",
     "price_range_usd": [
-      30,
-      60
+      54,
+      79
     ],
     "image_url": "https://i.rtings.com/assets/products/X2up9ItF/logitech-k845/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Logitech+K845&tag=gearmatch-20",
+    "retailer_urls": {
+      "manufacturer": "https://www.logitech.com/en-us/shop/p/k845-mechanical-illuminated.920-009862",
+      "microcenter": "https://www.microcenter.com/product/628716/K845_Mechanical_Illuminated_Keyboard",
+      "bestbuy": "https://www.bestbuy.com/product/logitech-k845-full-size-wired-mechanical-linear-keyboard-graphite/J7H7ZY3LQ2/sku/11297826",
+      "target": "https://www.target.com/p/logitech-k845-mechanical-illuminated-keyboard/-/A-88550087",
+      "bhphoto": "https://www.bhphotovideo.com/c/product/1604673-REG/logitech_920_009859_k845_mechanical_illuminated_backlit.html",
+      "newegg": "https://www.newegg.com/logitech-k845-drawer-cabinets/p/0GA-0001-00K64"
+    },
     "recommendation_tags": [],
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -13447,7 +13747,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -13518,7 +13818,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -13593,7 +13893,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -13654,11 +13954,19 @@
     "brand": "Logitech",
     "category": "keyboard",
     "price_range_usd": [
-      80,
-      130
+      57,
+      92
     ],
     "image_url": "https://i.rtings.com/assets/products/tXt7C9Iv/logitech-keys-to-go-2/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Logitech+Keys-To-Go+2&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/logitech-keys-to-go-2-slim-portable-bluetooth-keyboard-for-ipad-iphone-mac-and-apple-tv-with-built-in-cover-pale-gray/J7H7ZYGTT6/sku/10811447",
+      "manufacturer": "https://www.logitech.com/en-us/shop/p/keys-to-go2-apple.920-012922",
+      "target": "https://www.target.com/p/logitech-keys-to-go-2-portable-bluetooth-tablet-keyboard-built-in-cover-lilac/-/A-1006794000",
+      "bhphoto": "https://www.bhphotovideo.com/c/product/1835417-REG/logitech_920_012867_keys_to_go_ultra_portable_keyboard_with.html",
+      "microcenter": "https://www.microcenter.com/product/682338/logitech-keys-to-go-2-wireless-bluetooth-keyboard-liliac",
+      "newegg": "https://www.newegg.com/p/0GA-0001-011B5"
+    },
     "recommendation_tags": [
       "wireless"
     ],
@@ -13666,7 +13974,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -13728,11 +14036,18 @@
     "brand": "Logitech",
     "category": "keyboard",
     "price_range_usd": [
-      80,
-      130
+      55,
+      70
     ],
     "image_url": "https://i.rtings.com/assets/products/QCOpSBsP/logitech-keys-to-go/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Logitech+Keys-To-Go&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/logitech-keys-to-go-keyboard-for-iphone-ipad-and-apple-tv-with-durable-spill-proof-design-black/J7H7ZYCJTT/sku/10198424",
+      "manufacturer": "https://www.logitech.com/en-us/shop/p/keys-to-go.920-006701",
+      "target": "https://www.target.com/p/logitech-keys-to-go-ultra-portable-keyboard-for-ipad-black/-/A-86964149",
+      "bhphoto": "https://www.bhphotovideo.com/c/product/1285802-REG/logitech_920_006701_keys_to_go_ultra_portable_bluetooth_keyboard.html",
+      "newegg": "https://www.newegg.com/logitech-920-010040-bluetooth-wireless/p/N82E16823126637"
+    },
     "recommendation_tags": [
       "wireless"
     ],
@@ -13740,7 +14055,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -13811,7 +14126,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -13963,7 +14278,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -14039,7 +14354,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -14195,7 +14510,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -14325,11 +14640,19 @@
     "brand": "Apple",
     "category": "keyboard",
     "price_range_usd": [
-      100,
-      200
+      156,
+      282
     ],
     "image_url": "https://i.rtings.com/assets/products/7f1YORi4/apple-magic-keyboard-with-touch-id-and-numeric-keypad/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Apple+Magic+Keyboard+with+Touch+ID+and+Numeric+Keypad&tag=gearmatch-20",
+    "retailer_urls": {
+      "manufacturer": "https://www.apple.com/us/xc/product/MXK73LL/A",
+      "bestbuy": "https://www.bestbuy.com/product/magic-keyboard-with-touch-id-and-numeric-keypad-for-mac-models-with-apple-silicon-usb-c-white-keys/JJGCQ8C5FX/sku/6311618",
+      "microcenter": "https://www.microcenter.com/product/688116/apple-magic-keyboard-with-touch-id-and-numeric-keypad-black",
+      "target": "https://www.target.com/p/apple-magic-keyboard-with-touch-id-and-numeric-keypad-silicon/-/A-84097822",
+      "bhphoto": "https://www.bhphotovideo.com/c/product/1878429-REG/apple_apple_magic_keyboard_with.html",
+      "newegg": "https://www.newegg.com/p/3C6-019J-00V04"
+    },
     "recommendation_tags": [
       "wireless"
     ],
@@ -14337,7 +14660,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -14402,17 +14725,21 @@
     "brand": "ROCCAT",
     "category": "keyboard",
     "price_range_usd": [
-      30,
-      60
+      34,
+      59
     ],
     "image_url": "https://i.rtings.com/assets/products/7ce7f6PF/roccat-magma/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=ROCCAT+Magma&tag=gearmatch-20",
+    "retailer_urls": {
+      "walmart": "https://www.walmart.com/ip/ROCCAT-Magma-Silent-Membrane-Switch-PC-Gaming-Keyboard-with-5-Zone-10-LED-AIMO-RGB-Top-Plate-and-Detachable-Palm-Rest-Black/602085349",
+      "newegg": "https://www.newegg.com/p/173-001X-000G4"
+    },
     "recommendation_tags": [],
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -14708,7 +15035,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -15073,10 +15400,16 @@
     "category": "keyboard",
     "price_range_usd": [
       80,
-      130
+      116
     ],
     "image_url": "https://i.rtings.com/assets/products/ZOlaCGaR/logitech-mx-keys-mini/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Logitech+MX+Keys+Mini&tag=gearmatch-20",
+    "retailer_urls": {
+      "manufacturer": "https://www.logitech.com/en-us/shop/p/mx-keys-mini.920-010388",
+      "bestbuy": "https://www.bestbuy.com/product/logitech-mx-keys-mini-for-business-compact-wireless-scissor-keyboard-with-logi-bolt-technology-graphite/J7H7ZY876S/sku/6499102",
+      "target": "https://www.target.com/p/logitech-mx-keys-mini-wireless-illuminated-keyboard-for-business-compact-logi-bolt-technology-backlit-rechargeable-windows-mac-graphite/-/A-1005268787",
+      "newegg": "https://www.newegg.com/logitech-920-010594-bluetooth-usb-bluetooth-wireless-rf-wireless/p/N82E16823126665"
+    },
     "recommendation_tags": [
       "wireless"
     ],
@@ -15084,7 +15417,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -15144,11 +15477,19 @@
     "brand": "Logitech",
     "category": "keyboard",
     "price_range_usd": [
-      80,
-      130
+      110,
+      141
     ],
     "image_url": "https://i.rtings.com/assets/products/O5lpmgG7/logitech-mx-keys/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Logitech+MX+Keys&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/logitech-mx-keys-s-universal-full-size-wireless-scissor-keyboard-for-pc-and-mac-with-backlit-keys-black/J7H7ZYG7HW/sku/6539505",
+      "manufacturer": "https://www.logitech.com/en-us/shop/p/mx-keys-s.920-011559",
+      "microcenter": "https://www.microcenter.com/product/681692/logitech-mx-keys-s-for-mac-wireless-keyboard-space-gray",
+      "walmart": "https://www.walmart.com/ip/Logitech-MX-Keys-S-Wireless-Keyboard-Low-Profile-Fluid-Precise-Quiet-Typing-Bluetooth-Black/2278555791",
+      "target": "https://www.target.com/p/logitech-mx-keys-s-wireless-keyboard-low-profile-rechargable-black-920-011406/-/A-1006793893",
+      "newegg": "https://www.newegg.com/p/1B4-001P-008U4"
+    },
     "recommendation_tags": [
       "wireless"
     ],
@@ -15156,7 +15497,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -15234,7 +15575,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -15302,11 +15643,14 @@
     "brand": "NuPhy",
     "category": "keyboard",
     "price_range_usd": [
-      80,
+      110,
       130
     ],
     "image_url": "https://i.rtings.com/assets/products/UkKGJ9j0/nuphy-nos75/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=NuPhy+Nos75&tag=gearmatch-20",
+    "retailer_urls": {
+      "manufacturer": "https://nuphy.com/products/nuphy-kick75?variant=43805710385261"
+    },
     "recommendation_tags": [
       "gaming",
       "hot_swappable"
@@ -15315,7 +15659,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -15605,8 +15949,8 @@
     "brand": "Ducky",
     "category": "keyboard",
     "price_range_usd": [
-      80,
-      130
+      85,
+      85
     ],
     "image_url": "https://i.rtings.com/assets/products/dAtXdFBE/ducky-one-2-sf/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Ducky+One+2+SF&tag=gearmatch-20",
@@ -15615,7 +15959,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -15762,7 +16106,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -15843,7 +16187,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -16001,7 +16345,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -16064,8 +16408,8 @@
     "brand": "Razer",
     "category": "keyboard",
     "price_range_usd": [
-      80,
-      130
+      100,
+      100
     ],
     "image_url": "https://i.rtings.com/assets/products/C6qWrcsk/razer-ornata-v2/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Razer+Ornata+V2&tag=gearmatch-20",
@@ -16074,7 +16418,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -16138,16 +16482,23 @@
     "category": "keyboard",
     "price_range_usd": [
       30,
-      60
+      40
     ],
     "image_url": "https://i.rtings.com/assets/products/be8ZvIEE/razer-ornata-v3-x/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Razer+Ornata+V3+X&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/razer-ornata-v3-x-full-size-wired-membrane-gaming-keyboard-with-chroma-rgb-backlighting-black/J39HWFQT82/sku/6502757",
+      "microcenter": "https://www.microcenter.com/product/648983/Ornata_V3_X_Low-profile_Membrane_Wired_Gaming_Keyboard",
+      "walmart": "https://www.walmart.com/ip/Razer-Ornata-V3-X-Full-Size-Wired-Membrane-Gaming-Keyboard-for-PC-Chroma-RGB-Wrist-Rest-Black/973133875",
+      "bhphoto": "https://www.bhphotovideo.com/c/product/1851717-REG/razer_rz03_04470200_r3u1_ornata_v3_x_low_profile.html",
+      "newegg": "https://www.newegg.com/razer-ornata-v3-x-silent-membrane-black/p/N82E16823114116"
+    },
     "recommendation_tags": [],
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -16218,7 +16569,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -16296,7 +16647,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -16445,11 +16796,19 @@
     "brand": "Logitech",
     "category": "keyboard",
     "price_range_usd": [
-      80,
-      130
+      70,
+      100
     ],
     "image_url": "https://i.rtings.com/assets/products/W2RG08MN/logitech-pop-keys/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Logitech+POP+Keys&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/logitech-pop-keys-wireless-mechanical-tactile-switch-keyboard-for-windows-mac-with-customizable-emoji-keys-blast-yellow/J7H7ZY87JT/sku/11298728",
+      "manufacturer": "https://www.logitech.com/en-us/shop/p/pop-keys-wireless-mechanical.920-010709",
+      "microcenter": "https://www.microcenter.com/product/662660/logitech-pop-keys-wireless-mechanical-keyboard-with-emoji-keys-cosmos",
+      "walmart": "https://www.walmart.com/ip/Logitech-POP-Mechanical-Wireless-Keyboard-Customizable-Emoji-Keys-Durable-Compact-Design-Bluetooth-USB-Connectivity-Multi-Device-OS-Compatible-Heartb/709243650",
+      "bhphoto": "https://www.bhphotovideo.com/c/product/1688386-REG/logitech_wireless_pop_keys.html",
+      "newegg": "https://www.newegg.com/logic-controls-pop-keys-mechanical-switches-lilac/p/32N-0002-00459"
+    },
     "recommendation_tags": [
       "wireless"
     ],
@@ -16457,7 +16816,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -16529,7 +16888,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -16742,11 +17101,15 @@
     "brand": "Razer",
     "category": "keyboard",
     "price_range_usd": [
-      150,
-      220
+      160,
+      160
     ],
     "image_url": "https://i.rtings.com/assets/products/Dea2hN8R/razer-pro-type-ultra/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Razer+Pro+Type+Ultra&tag=gearmatch-20",
+    "retailer_urls": {
+      "manufacturer": "https://www.razer.com/gaming-keyboards/razer-pro-type-ultra/RZ03-04110200-R3U1",
+      "microcenter": "https://www.microcenter.com/product/641595/Pro_Type_Ultra_Wireless_Mechanical_Keyboard_-_White"
+    },
     "recommendation_tags": [
       "wireless",
       "gaming"
@@ -16755,7 +17118,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -16824,11 +17187,15 @@
     "brand": "Razer",
     "category": "keyboard",
     "price_range_usd": [
-      150,
-      220
+      160,
+      160
     ],
     "image_url": "https://i.rtings.com/assets/products/2wbyhXTT/razer-pro-type/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Razer+Pro+Type&tag=gearmatch-20",
+    "retailer_urls": {
+      "manufacturer": "https://www.razer.com/gaming-keyboards/razer-pro-type-ultra/RZ03-04110200-R3U1",
+      "microcenter": "https://www.microcenter.com/product/641595/Pro_Type_Ultra_Wireless_Mechanical_Keyboard_-_White"
+    },
     "recommendation_tags": [
       "wireless",
       "gaming"
@@ -16837,7 +17204,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -16899,7 +17266,7 @@
     "brand": "ROCCAT",
     "category": "keyboard",
     "price_range_usd": [
-      30,
+      60,
       60
     ],
     "image_url": "https://i.rtings.com/assets/products/OjHGKhQU/roccat-pyro/design-medium.jpg?format=auto",
@@ -16909,7 +17276,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -17148,11 +17515,15 @@
     "brand": "Keychron",
     "category": "keyboard",
     "price_range_usd": [
-      150,
-      200
+      204,
+      220
     ],
     "image_url": "https://i.rtings.com/assets/products/jagfhnw9/keychron-q1/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Keychron+Q1&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/keychron-q1he-75-custom-wireless-rgb-mechanical-keyboard-with-progrmmable-qmk-via-hot-swappable-magnetic-switch-black/CGC7F9CK25/sku/6600174",
+      "manufacturer": "https://www.keychron.com/products/keychron-q1-he-qmk-wireless-custom-keyboard-iso-layout-collection?variant=42193881038937"
+    },
     "recommendation_tags": [
       "gaming"
     ],
@@ -17160,7 +17531,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -17223,11 +17594,14 @@
     "brand": "Keychron",
     "category": "keyboard",
     "price_range_usd": [
-      150,
-      200
+      60,
+      136
     ],
     "image_url": "https://i.rtings.com/assets/products/HTS5CxMC/keychron-q2/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Keychron+Q2&tag=gearmatch-20",
+    "retailer_urls": {
+      "manufacturer": "https://www.keychron.com/products/keychron-q2-qmk-custom-mechanical-keyboard?variant=39610696269913"
+    },
     "recommendation_tags": [
       "gaming"
     ],
@@ -17235,7 +17609,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -17298,17 +17672,20 @@
     "brand": "Keychron",
     "category": "keyboard",
     "price_range_usd": [
-      150,
-      200
+      210,
+      305
     ],
     "image_url": "https://i.rtings.com/assets/products/BDGgIlVc/keychron-q3/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Keychron+Q3&tag=gearmatch-20",
+    "retailer_urls": {
+      "manufacturer": "https://www.keychron.com/products/keychron-q3-max-qmk-via-wireless-custom-mechanical-keyboard?variant=40766137532505"
+    },
     "recommendation_tags": [],
     "data_quality": {
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -17383,7 +17760,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -17531,11 +17908,14 @@
     "brand": "Keychron",
     "category": "keyboard",
     "price_range_usd": [
-      150,
-      200
+      180,
+      240
     ],
     "image_url": "https://i.rtings.com/assets/products/UYHKvnyW/keychron-q5/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Keychron+Q5&tag=gearmatch-20",
+    "retailer_urls": {
+      "manufacturer": "https://www.keychron.com/products/keychron-q5-max-qmk-via-wireless-custom-mechanical-keyboard?variant=40758088859737"
+    },
     "recommendation_tags": [
       "gaming"
     ],
@@ -17543,7 +17923,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -17618,7 +17998,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -17695,7 +18075,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -17771,7 +18151,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -17845,7 +18225,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -17914,7 +18294,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -18140,11 +18520,14 @@
     "brand": "8BitDo",
     "category": "keyboard",
     "price_range_usd": [
-      80,
+      100,
       130
     ],
     "image_url": "https://i.rtings.com/assets/products/otzr9lyt/8bitdo-retro-mechanical-keyboard/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=8BitDo+Retro+Mechanical+Keyboard&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/8bitdo-retro-mechanical-keyboard-n-edition/CZY3JSJ84Q/sku/6558564"
+    },
     "recommendation_tags": [
       "wireless",
       "hot_swappable"
@@ -18153,7 +18536,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -18223,11 +18606,14 @@
     "brand": "ROYAL",
     "category": "keyboard",
     "price_range_usd": [
-      80,
-      130
+      45,
+      87
     ],
     "image_url": "https://i.rtings.com/assets/products/Z6N6ewyB/royal-kludge-rk61/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=ROYAL+KLUDGE+RK61&tag=gearmatch-20",
+    "retailer_urls": {
+      "newegg": "https://www.newegg.com/p/32N-04U2-002U3"
+    },
     "recommendation_tags": [
       "wireless",
       "hot_swappable"
@@ -18236,7 +18622,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -18316,7 +18702,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -18405,7 +18791,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -18555,11 +18941,15 @@
     "brand": "ASUS",
     "category": "keyboard",
     "price_range_usd": [
-      150,
-      220
+      140,
+      140
     ],
     "image_url": "https://i.rtings.com/assets/products/jD8S3Fsh/asus-rog-falchion-rx-low-profile/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=ASUS+ROG+Falchion+RX+Low+Profile&tag=gearmatch-20",
+    "retailer_urls": {
+      "microcenter": "https://www.microcenter.com/product/676273/asus-rog-falchion-rx-65-wireless-rgb-low-profile-mechanical-gaming-keyboard-(white)",
+      "newegg": "https://www.newegg.com/asus-rog-falchion-rx-low-profile-65-compact-wireless-gaming-keyboard-m603-mechanical/p/N82E16823193155"
+    },
     "recommendation_tags": [
       "wireless",
       "gaming"
@@ -18568,7 +18958,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -18639,11 +19029,15 @@
     "brand": "ASUS",
     "category": "keyboard",
     "price_range_usd": [
-      80,
-      130
+      120,
+      120
     ],
     "image_url": "https://i.rtings.com/assets/products/mJW94FBE/asus-rog-falchion/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=ASUS+ROG+Falchion&tag=gearmatch-20",
+    "retailer_urls": {
+      "manufacturer": "https://shop.asus.com/us/90mp0347-bkua01-rog-falchion-ace.html",
+      "walmart": "https://www.walmart.com/ip/ASUS-ROG-Falchion-Ace-65-RGB-Compact-Gaming-Mechanical-Keyboard-Lubed-NX-Red-Switches-Switch-Stabilizers-Sound-Dampening-Foam-PBT-Keycaps-Wired-KVM-T/5002210233"
+    },
     "recommendation_tags": [
       "wireless",
       "gaming"
@@ -18652,7 +19046,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -18732,7 +19126,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -18812,7 +19206,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -19035,8 +19429,8 @@
     "brand": "Microsoft",
     "category": "keyboard",
     "price_range_usd": [
-      80,
-      130
+      125,
+      180
     ],
     "image_url": "https://i.rtings.com/assets/products/TAsoYNy6/microsoft-sculpt-ergonomic-keyboard/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Microsoft+Sculpt+Ergonomic+Keyboard&tag=gearmatch-20",
@@ -19047,7 +19441,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -19257,11 +19651,18 @@
     "brand": "Logitech",
     "category": "keyboard",
     "price_range_usd": [
-      30,
-      60
+      55,
+      72
     ],
     "image_url": "https://i.rtings.com/assets/products/KZBkYBfM/logitech-signature-k650/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Logitech+Signature+K650&tag=gearmatch-20",
+    "retailer_urls": {
+      "manufacturer": "https://www.logitech.com/en-us/shop/p/k650-signature-wireless-keyboard.920-010962",
+      "microcenter": "https://www.microcenter.com/product/650705/logitech-signature-k650-(off-white)-wireless-keyboard",
+      "bestbuy": "https://www.bestbuy.com/product/logitech-signature-k650-full-size-wireless-keyboard-for-pc-window-mac-with-wrist-rest-off-white/J7H7ZY8988/sku/11230785",
+      "bhphoto": "https://www.bhphotovideo.com/c/product/1720858-REG/logitech_920_010962_signature_k650_wireless_keyboard.html",
+      "newegg": "https://www.newegg.com/logitech-signature-k650/p/N82E16823126708"
+    },
     "recommendation_tags": [
       "wireless"
     ],
@@ -19269,7 +19670,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -19335,11 +19736,18 @@
     "brand": "Logitech",
     "category": "keyboard",
     "price_range_usd": [
-      80,
-      130
+      75,
+      97
     ],
     "image_url": "https://i.rtings.com/assets/products/hkw7PbgJ/logitech-signature-slim-keyboard-k950/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Logitech+Signature+Slim+Keyboard+K950&tag=gearmatch-20",
+    "retailer_urls": {
+      "manufacturer": "https://www.logitech.com/en-us/shop/p/signature-slim-k950-keyboard.920-012424",
+      "microcenter": "https://www.microcenter.com/product/677815/logitech-signature-slim-k950-wireless-keyboard-(graphite)",
+      "bestbuy": "https://www.bestbuy.com/product/logitech-signature-slim-k950-keyboard-graphite-black/J7H7ZYGLWV/sku/11064165",
+      "bhphoto": "https://www.bhphotovideo.com/c/product/1815380-REG/logitech_920_012424_signature_slim_k950_keyboardgraphite.html",
+      "newegg": "https://www.newegg.com/logitech-920-012429-bluetooth/p/0GA-0001-012A1"
+    },
     "recommendation_tags": [
       "wireless"
     ],
@@ -19347,7 +19755,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -19411,8 +19819,8 @@
     "brand": "Logitech",
     "category": "keyboard",
     "price_range_usd": [
-      150,
-      220
+      60,
+      176
     ],
     "image_url": "https://i.rtings.com/assets/products/nO9wmsSS/logitech-slim-folio-pro/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Logitech+Slim+Folio+Pro&tag=gearmatch-20",
@@ -19423,7 +19831,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -19793,7 +20201,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -20079,11 +20487,14 @@
     "brand": "iClever",
     "category": "keyboard",
     "price_range_usd": [
-      80,
-      130
+      90,
+      92
     ],
     "image_url": "https://i.rtings.com/assets/products/APNXHSwg/iclever-tri-folding-keyboard-bk08/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=iClever+Tri-Folding+Keyboard+BK08&tag=gearmatch-20",
+    "retailer_urls": {
+      "newegg": "https://www.newegg.com/p/1B4-02P5-00016"
+    },
     "recommendation_tags": [
       "wireless"
     ],
@@ -20091,7 +20502,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -20391,7 +20802,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -20686,11 +21097,15 @@
     "brand": "ROCCAT",
     "category": "keyboard",
     "price_range_usd": [
-      150,
-      220
+      120,
+      120
     ],
     "image_url": "https://i.rtings.com/assets/products/mftmroLr/roccat-vulcan-ii-max-mini/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=ROCCAT+Vulcan+II+Max%2FMini&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/turtle-beach-vulcan-ii-mini-65-optical-mechanical-gaming-keyboard-black/JXK5HVYW78/sku/10919634",
+      "target": "https://www.target.com/p/turtle-beach-vulcan-ii-mini-black-65-mini-form-factor-gaming-keyboard/-/A-1004802013"
+    },
     "recommendation_tags": [
       "gaming"
     ],
@@ -20698,7 +21113,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -20763,11 +21178,15 @@
     "brand": "ROCCAT",
     "category": "keyboard",
     "price_range_usd": [
-      80,
-      130
+      120,
+      120
     ],
     "image_url": "https://i.rtings.com/assets/products/XeMSsvpX/roccat-vulcan-ii-mini-air/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=ROCCAT+Vulcan+II+Mini+Air&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/turtle-beach-vulcan-ii-mini-65-optical-mechanical-gaming-keyboard-black/JXK5HVYW78/sku/10919634",
+      "target": "https://www.target.com/p/turtle-beach-vulcan-ii-mini-black-65-mini-form-factor-gaming-keyboard/-/A-1004802013"
+    },
     "recommendation_tags": [
       "wireless"
     ],
@@ -20775,7 +21194,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -20844,11 +21263,14 @@
     "brand": "ROCCAT",
     "category": "keyboard",
     "price_range_usd": [
-      150,
-      220
+      269,
+      269
     ],
     "image_url": "https://i.rtings.com/assets/products/IORWRndo/roccat-vulcan-pro/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=ROCCAT+Vulcan+Pro&tag=gearmatch-20",
+    "retailer_urls": {
+      "newegg": "https://www.newegg.com/p/0GA-005E-000V9"
+    },
     "recommendation_tags": [
       "gaming"
     ],
@@ -20856,7 +21278,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -20917,11 +21339,15 @@
     "brand": "ROCCAT",
     "category": "keyboard",
     "price_range_usd": [
-      80,
-      130
+      70,
+      70
     ],
     "image_url": "https://i.rtings.com/assets/products/9HVDje1D/roccat-vulcan-tkl/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=ROCCAT+Vulcan+TKL&tag=gearmatch-20",
+    "retailer_urls": {
+      "bestbuy": "https://www.bestbuy.com/product/turtle-beach-vulcan-tkl-wired-mechanical-titan-linear-switch-gaming-keyboard-with-per-key-aimo-rgb-lighting-black/JXK5HVYC74/sku/6579294",
+      "target": "https://www.target.com/p/turtle-beach-vulcan-tkl-gaming-keyboard/-/A-1004810232"
+    },
     "recommendation_tags": [
       "gaming"
     ],
@@ -20929,7 +21355,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -21002,7 +21428,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -21226,7 +21652,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -21380,7 +21806,7 @@
       "data_confidence": "high",
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
-      "last_verified": "2026-01"
+      "last_verified": "2026-02"
     },
     "core_attributes": {
       "category_subtype": "keyboard",
