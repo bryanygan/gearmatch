@@ -2389,12 +2389,6 @@
       80
     ],
     "product_url": "https://www.amazon.com/s?k=SteelSeries+Aerox+5+Wireless&tag=gearmatch-20",
-    "retailer_urls": {
-      "bestbuy": "https://www.bestbuy.com/product/steelseries-aerox-3-super-light-honeycomb-wireless-rgb-optical-gaming-mouse-wireless-snow/J3R8HS2H35/sku/6485249",
-      "manufacturer": "https://steelseries.com/gaming-mice/aerox-3-2022",
-      "walmart": "https://www.walmart.com/ip/SteelSeries-62608-Aerox-3-Wireless-Optical-Gaming-Mouse-with-Ultra-Lightweight-Design-White/293366417",
-      "microcenter": "https://www.microcenter.com/product/643174/Aerox_3_Wired_Ultra-Lightweight_Gaming_Mouse_-_Snow"
-    },
     "recommendation_tags": [
       "wireless_gaming",
       "lightweight",
@@ -4111,13 +4105,6 @@
       180
     ],
     "product_url": "https://www.amazon.com/s?k=Razer+Pro+Click+V2&tag=gearmatch-20",
-    "retailer_urls": {
-      "bestbuy": "https://www.bestbuy.com/product/razer-blackshark-v2-pro-wireless-over-the-ear-gaming-headset-for-playstation-pc-mac-xbox-nintendo-switch-smartphone-white/J39HWFH99K",
-      "manufacturer": "https://www.razer.com/gaming-headsets/razer-blackshark-v2-pro/RZ04-04530100-R3U1",
-      "walmart": "https://www.walmart.com/ip/Razer-BlackShark-V2-Pro-Wireless-PC-Gaming-Headset-2-4GHz-BT-HyperSpeed-Wireless-70Hr-Battery-320g-Black/1278691914",
-      "bhphoto": "https://www.bhphotovideo.com/c/product/1851614-REG/razer_rz04_04530100_r3u1_blackshark_v2_pro_wireless.html",
-      "newegg": "https://www.newegg.com/razer-rz04-04530500-r3ua-wireless-black/p/0TH-00TR-00167"
-    },
     "recommendation_tags": [
       "productivity",
       "wireless",
@@ -5385,10 +5372,6 @@
       40
     ],
     "product_url": "https://www.amazon.com/s?k=Logitech+M340&tag=gearmatch-20",
-    "retailer_urls": {
-      "target": "https://www.target.com/p/logitech-pebble-bluetooth-mouse-m350-blue-gray/-/A-78862718",
-      "newegg": "https://www.newegg.com/pebble-m350-pink-rose-logitech-pebble-m350-wireless-mouse-with-bluetooth-or-usb/p/0TP-000C-01FR8"
-    },
     "recommendation_tags": [
       "budget",
       "portable",
@@ -9199,12 +9182,6 @@
     ],
     "image_url": "https://i.rtings.com/assets/products/gl1IW2fn/razer-viper-v2-pro/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Razer+Viper+V2+Pro&tag=gearmatch-20",
-    "retailer_urls": {
-      "manufacturer": "https://www.razer.com/gaming-mice/razer-viper-v3-pro-se/RZ01-04550100-R3U1",
-      "bestbuy": "https://www.bestbuy.com/product/razer-viper-v3-pro-ultra-lightweight-optical-gaming-mouse-with-95-hour-battery-life-8k-polling-rate-wireless-white/J39HWFH93Z",
-      "microcenter": "https://www.microcenter.com/product/695768/razer-viper-v3-pro-wireless-gaming-mouse-faker-edition",
-      "newegg": "https://www.newegg.com/p/32K-0091-00022"
-    },
     "recommendation_tags": [
       "top_tier_competitive_fps",
       "ultralight",
@@ -9508,13 +9485,6 @@
     ],
     "image_url": "https://i.rtings.com/assets/products/0Sg9uoW8/razer-deathadder-v2-pro/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Razer+DeathAdder+V2+Pro&tag=gearmatch-20",
-    "retailer_urls": {
-      "manufacturer": "https://www.razer.com/gaming-mice/razer-deathadder-v3-pro/RZ01-04630100-R3U1",
-      "bestbuy": "https://www.bestbuy.com/site/razer-deathadder-v3-pro-lightweight-wireless-optical-gaming-mouse-with-90-hour-battery-black/6514425.p",
-      "walmart": "https://www.walmart.com/ip/Razer-DeathAdder-V3-Pro-Wireless-Esports-Gaming-Mouse-64g-5-Buttons-2-4GHz-Bluetooth-White/1632496311",
-      "bhphoto": "https://www.bhphotovideo.com/c/product/1851352-REG/razer_rz01_04630100_r3u1_deathadder_v3_pro_ergonomic.html",
-      "newegg": "https://www.newegg.com/p/N82E16826153334"
-    },
     "recommendation_tags": [
       "wireless_gaming",
       "ergo_shape",
@@ -11020,13 +10990,6 @@
     ],
     "image_url": "https://i.rtings.com/assets/products/gPW2huyI/logitech-mx-master/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Logitech+MX+Master&tag=gearmatch-20",
-    "retailer_urls": {
-      "bestbuy": "https://www.bestbuy.com/product/logitech-mx-master-3s-bluetooth-edition-performance-wireless-optical-mouse-with-ultra-fast-scrolling-and-quiet-clicks-wireless-black/J7H7ZYG559/sku/6633199",
-      "manufacturer": "https://www.logitech.com/en-us/shop/p/mx-master-3s.910-007499",
-      "target": "https://www.target.com/p/logitech-mx-master-3s-wireless-mouse-black-910007500/-/A-1008322068",
-      "bhphoto": "https://www.bhphotovideo.com/c/product/1703320-REG/logitech_910_006556_mx_master_3s_black.html",
-      "newegg": "https://www.newegg.com/p/0TP-000C-01K99"
-    },
     "recommendation_tags": [
       "productivity",
       "office_work",
@@ -12398,11 +12361,6 @@
     ],
     "image_url": "https://i.rtings.com/assets/products/ljrpQL24/cooler-master-mm720/design-medium.jpg?format=auto",
     "product_url": "https://www.amazon.com/s?k=Cooler+Master+MM720&tag=gearmatch-20",
-    "retailer_urls": {
-      "bestbuy": "https://www.bestbuy.com/product/cooler-master-hyper-212-120mm-cpu-cooling-fan-black-edition/J3K4GJ8C4X/sku/6316584",
-      "newegg": "https://www.newegg.com/cooler-master-hyper-212-black-120mm-intel-lga-1700-1200-1151-1150-1155-1156-amd-am5-am4/p/N82E16835103364",
-      "bhphoto": "https://www.bhphotovideo.com/c/product/1805059-REG/cooler_master_rr_s4kk_25sn_r1_hyper_212_black_edition.html"
-    },
     "recommendation_tags": [
       "competitive_fps",
       "ultralight",

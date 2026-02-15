@@ -119,9 +119,31 @@ The development server runs at `http://localhost:8080`
 | `npm run copy:products` | Copy product JSON to public directory |
 | `npm run convert:products` | Validate and reformat product JSON files |
 
+### Price Update Scripts
+
+The `scripts/update-prices.ts` script fetches current pricing from [PricesAPI](https://pricesapi.io) and updates product JSON files with retailer prices and links.
+
+```bash
+# Set your API key (get one at https://pricesapi.io)
+export PRICES_API_KEY=pricesapi_your_key_here
+
+# Update prices for a category
+npx tsx scripts/update-prices.ts mice
+npx tsx scripts/update-prices.ts audio
+npx tsx scripts/update-prices.ts keyboards
+npx tsx scripts/update-prices.ts monitors
+
+# Options
+npx tsx scripts/update-prices.ts mice --dry-run        # Preview without writing
+npx tsx scripts/update-prices.ts mice --limit=10       # Process only 10 products
+npx tsx scripts/update-prices.ts mice 50               # Start from index 50
+```
+
+**Security:** Never commit API keys. Store `PRICES_API_KEY` in a `.env` file (gitignored) or use environment variables. Rotate keys immediately if exposed and revoke any compromised credentials via the PricesAPI dashboard.
+
 ## Project Structure
 
-```
+```plaintext
 gearmatch/
 ├── public/                       # Static assets
 │   ├── _redirects                # Cloudflare Pages SPA routing
@@ -136,8 +158,8 @@ gearmatch/
 │
 ├── scripts/                     # Build and data management utilities
 │   ├── convert-ts-to-json.ts    # Validate and reformat product JSON
-│   ├── update-prices.ts         # Update product prices from retailer APIs
-│   └── update-mice-prices.ts    # Mouse-specific price update utility
+│   ├── update-prices.ts         # Update product prices via PricesAPI (all categories)
+│   └── update-mice-prices.ts    # Mouse-specific price update utility (legacy)
 │
 ├── vite-plugins/                # Custom Vite plugins
 │   └── validate-products.ts     # Build-time product JSON validation
@@ -344,13 +366,17 @@ npm run dev:api
 ```
 
 The `public/_redirects` file handles SPA routing:
-```
+```plaintext
 /*    /index.html   200
 ```
 
 ### Environment Variables
-Configured in `wrangler.toml`:
+
+**Cloudflare Pages** (configured in `wrangler.toml`):
 - `ALLOWED_ORIGIN` - CORS origin (`*` for dev/preview, `https://gearmatch.com` for production)
+
+**Price Update Scripts** (configured in `.env`):
+- `PRICES_API_KEY` - API key for [PricesAPI](https://pricesapi.io), used by `scripts/update-prices.ts` and `scripts/update-mice-prices.ts` to fetch current retailer pricing data. Keep this key out of source control; store it in `.env` (gitignored) or a secrets manager. See `.env.example` for the expected format.
 
 ## Current Product Database
 
