@@ -28,3 +28,5 @@ public/data/products/
 *.sw?
 .claude/settings.local.json
 scripts/update-prices.ts
+scripts/update-mice-prices.ts
+scripts/output/
