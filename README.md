@@ -375,7 +375,7 @@ The `public/_redirects` file handles SPA routing:
 - `ALLOWED_ORIGIN` - CORS origin (`*` for dev/preview, `https://gearmatch.com` for production)
 
 **Price Update Scripts** (configured in `.env`):
-- `PRICES_API_KEY` - API key for [PricesAPI](https://pricesapi.io), used by `scripts/update-prices.ts` and `scripts/update-mice-prices.ts` to fetch current retailer pricing data. Keep this key out of source control; store it in `.env` (gitignored) or a secrets manager. See `.env.example` for the expected format.
+- `PRICES_API_KEY` - API key for [PricesAPI](https://pricesapi.io), used by `scripts/update-prices.ts` to fetch current retailer pricing data. Keep this key out of source control; store it in `.env` (gitignored) or a secrets manager. See `.env.example` for the expected format.
 
 ## Current Product Database
 
