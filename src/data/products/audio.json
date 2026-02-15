@@ -10,7 +10,7 @@
     ],
     "product_url": "https://www.amazon.com/s?k=SteelSeries+Arctis+Nova+7+Wireless&tag=gearmatch-20",
     "retailer_urls": {
-      "manufacturer": "https://www.walmart.com/ip/SteelSeries-Arctis-Nova-7P-Multi-Platform-Premium-Wireless-Gaming-Headset-Black/1005415209",
+      "walmart": "https://www.walmart.com/ip/SteelSeries-Arctis-Nova-7P-Multi-Platform-Premium-Wireless-Gaming-Headset-Black/1005415209",
       "newegg": "https://www.newegg.com/p/3EE-0005-00078"
     },
     "recommendation_tags": [
@@ -1877,7 +1877,6 @@
     ],
     "product_url": "https://www.amazon.com/s?k=SteelSeries+Arctis+Nova+Pro+Wireless&tag=gearmatch-20",
     "retailer_urls": {
-      "bestbuy": "https://www.bestbuy.com/product/steelseries-arctis-nova-pro-wired-multi-gaming-headset-for-pc-ps5-ps4-switch-black/J3LG47VKX9/sku/6506214",
       "microcenter": "https://www.microcenter.com/product/649561/Arctis_Nova_Pro_Gaming_Headset_for_PC_and_PlayStation",
       "manufacturer": "https://steelseries.com/gaming-headsets/arctis-nova-pro",
       "newegg": "https://www.newegg.com/steelseries-arctis-nova-pro-wireless-61520-black-usb/p/N82E16826249269"
@@ -3100,10 +3099,6 @@
     ],
     "product_url": "https://www.amazon.com/s?k=Turtle+Beach+Stealth+600&tag=gearmatch-20",
     "retailer_urls": {
-      "bestbuy": "https://www.bestbuy.com/product/turtle-beach-stealth-600-wireless-over-ear-multiplatform-gaming-headset-for-xbox-series-xs-xbox-one-ps5-ps4-pc-mobile-black/JXK5HF4LQV/sku/6577968",
-      "target": "https://www.target.com/p/turtle-beach-stealth-600-gen-3-wireless-headset-for-playstation-white/-/A-91190385",
-      "microcenter": "https://www.microcenter.com/product/679333/turtle-beach-stealth-600-gen-3-wireless-gaming-headset-for-pc-80hr-battery-life-ultra-lightweight-premium-50mm-nanoclear-drivers-prospecs-glasses-frie",
-      "newegg": "https://www.newegg.com/p/3EE-0035-00034",
       "manufacturer": "https://www.turtlebeach.com/products/stealth-600-headset"
     },
     "recommendation_tags": [
@@ -4794,7 +4789,7 @@
     ],
     "product_url": "https://www.amazon.com/s?k=Sennheiser+HD+800+S&tag=gearmatch-20",
     "retailer_urls": {
-      "manufacturer": "http://en-us.sennheiser.com/high-resolution-headphones-3d-audio-hd-800-s",
+      "manufacturer": "https://en-us.sennheiser.com/high-resolution-headphones-3d-audio-hd-800-s",
       "bhphoto": "https://www.bhphotovideo.com/c/product/803387448-USE/sennheiser_506911_hd_800_s_dynamic.html/"
     },
     "recommendation_tags": [
@@ -5276,10 +5271,7 @@
     ],
     "product_url": "https://www.amazon.com/s?k=Beyerdynamic+DT+770+PRO&tag=gearmatch-20",
     "retailer_urls": {
-      "bestbuy": "https://www.bestbuy.com/product/beyerdynamic-dt-770-pro-80-ohm-over-ear-studio-headphones-black/CJG7S2GYRW/sku/10416928",
-      "manufacturer": "https://www.walmart.com/ip/beyerdynamic-Noise-Canceling-Over-Ear-Headphones-Black-DT-770-PRO-250-OHM/128049551",
-      "bhphoto": "https://www.bhphotovideo.com/c/product/984399-REG/beyerdynamic_ams_dt_770_pro_32_dt_770_pro_studio_headphones.html",
-      "newegg": "https://www.newegg.com/beyerdynamic-dt-770-pro-grey/p/0TF-00D2-00002"
+      "walmart": "https://www.walmart.com/ip/beyerdynamic-Noise-Canceling-Over-Ear-Headphones-Black-DT-770-PRO-250-OHM/128049551"
     },
     "recommendation_tags": [
       "studio_monitoring",
@@ -5812,7 +5804,7 @@
     "product_url": "https://www.amazon.com/s?k=Anker+Soundcore+Life+Q30+Wireless&tag=gearmatch-20",
     "retailer_urls": {
       "bestbuy": "https://www.bestbuy.com/product/soundcore-life-q30-by-anker-hybrid-active-noise-cancelling-headphones-black/JJ8586KVPG/sku/10846514",
-      "manufacturer": "https://www.walmart.com/ip/Soundcore-by-Anker-Life-Q30-Hybrid-Active-Noise-Cancelling-Headphones-with-Multiple-Modes-Hi-Res-Sound-Custom-EQ-via-App-40H-Playtime/674401559",
+      "walmart": "https://www.walmart.com/ip/Soundcore-by-Anker-Life-Q30-Hybrid-Active-Noise-Cancelling-Headphones-with-Multiple-Modes-Hi-Res-Sound-Custom-EQ-via-App-40H-Playtime/674401559",
       "newegg": "https://www.newegg.com/p/0TH-033Y-000F4"
     },
     "recommendation_tags": [
@@ -6441,8 +6433,7 @@
     "retailer_urls": {
       "walmart": "https://www.walmart.com/ip/JBL-Tune-760NC-Wireless-Over-Ear-Active-Noise-Cancelling-Headphones-Black/321593887",
       "bestbuy": "https://www.bestbuy.com/product/jbl-tune-760nc-noise-canceling-wireless-over-ear-headphones-white/J7LXFW2KYW/sku/11297501",
-      "newegg": "https://www.newegg.com/p/0TH-001X-008Y5",
-      "manufacturer": "https://www.walmart.com/ip/Restored-JBL-Tune-760NC-Noise-Canceling-Wireless-Over-Ear-Headphones-White-Refurbished/5164962785"
+      "newegg": "https://www.newegg.com/p/0TH-001X-008Y5"
     },
     "recommendation_tags": [
       "budget_anc",
@@ -11510,7 +11501,7 @@
     "retailer_urls": {
       "bestbuy": "https://www.bestbuy.com/product/sennheiser-accentum-plus-wireless-bluetooth-headphones-adaptive-hybrid-anc-smart-adaptive-features-black/J3GW2LHGFT/sku/10904786",
       "bhphoto": "https://www.bhphotovideo.com/c/product/1806325-REG/sennheiser_700176_accentum_plus_wireless_black.html",
-      "manufacturer": "https://www.walmart.com/ip/Sennheiser-ACCENTUM-Plus-Wireless-Bluetooth-Headphones-Quick-Charge-Feature-50-Hr-Battery-Playtime-Adaptive-Hybrid-ANC-Sound-Personalization-Touch-Co/5410964775"
+      "walmart": "https://www.walmart.com/ip/Sennheiser-ACCENTUM-Plus-Wireless-Bluetooth-Headphones-Quick-Charge-Feature-50-Hr-Battery-Playtime-Adaptive-Hybrid-ANC-Sound-Personalization-Touch-Co/5410964775"
     },
     "recommendation_tags": [
       "anc",
@@ -12579,8 +12570,7 @@
     "product_url": "https://www.amazon.com/s?k=JBL+Tune+770NC&tag=gearmatch-20",
     "retailer_urls": {
       "bestbuy": "https://www.bestbuy.com/product/jbl-tune-770nc-adaptive-noise-cancelling-wireless-over-ear-headphone-2024-white/J7LXFWXLRC/sku/11919868",
-      "walmart": "https://www.walmart.com/ip/JBL-Tune-770NC-Adaptive-Noise-Cancelling-Wireless-over-Ear-Headphones-White/5262667670",
-      "manufacturer": "https://www.walmart.com/ip/JBL-Tune-770NC-Adaptive-Noise-Cancelling-Wireless-over-Ear-Headphones-White/5262667670"
+      "walmart": "https://www.walmart.com/ip/JBL-Tune-770NC-Adaptive-Noise-Cancelling-Wireless-over-Ear-Headphones-White/5262667670"
     },
     "recommendation_tags": [
       "budget_anc",

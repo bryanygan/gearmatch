@@ -194,6 +194,17 @@ function saveProgress(path: string, progress: Progress) {
   writeFileSync(path, JSON.stringify(progress, null, 2));
 }
 
+function addFailure(progress: Progress, id: string) {
+  if (!progress.failures.includes(id)) {
+    progress.failures.push(id);
+  }
+}
+
+function currentYearMonth(): string {
+  const now = new Date();
+  return `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, "0")}`;
+}
+
 // ─── Main ─────────────────────────────────────────────────────────────
 async function main() {
   const category = process.argv[2];
@@ -226,6 +237,7 @@ async function main() {
   let updated = 0;
   let unchanged = 0;
   let failed = 0;
+  const currentRunIds = new Set<string>();
 
   const endIndex = Math.min(products.length, resumeIndex + limit);
 
@@ -246,7 +258,7 @@ async function main() {
 
     if (!searchData || searchData.results.length === 0) {
       console.log("  ❌ No search results");
-      progress.failures.push(product.id);
+      addFailure(progress, product.id);
       failed++;
       progress.lastProcessedIndex = i;
       saveProgress(progressPath, progress);
@@ -268,7 +280,7 @@ async function main() {
 
     if (!offersData || !offersData.offers || offersData.offers.length === 0) {
       console.log("  ❌ No offers found");
-      progress.failures.push(product.id);
+      addFailure(progress, product.id);
       failed++;
       progress.lastProcessedIndex = i;
       saveProgress(progressPath, progress);
@@ -279,7 +291,7 @@ async function main() {
     const relevant = filterRelevantOffers(offersData.offers);
     if (relevant.length === 0) {
       console.log("  ❌ No relevant retailer offers after filtering");
-      progress.failures.push(product.id);
+      addFailure(progress, product.id);
       failed++;
       progress.lastProcessedIndex = i;
       saveProgress(progressPath, progress);
@@ -344,9 +356,10 @@ async function main() {
       if (retailerCount > 0) {
         product.retailer_urls = retailerUrls;
       }
-      product.data_quality.last_verified = "2026-02";
+      product.data_quality.last_verified = currentYearMonth();
     }
 
+    currentRunIds.add(product.id);
     progress.results[product.id] = {
       oldPrice,
       newPrice,
@@ -365,11 +378,13 @@ async function main() {
     console.log(`\n✅ Wrote updated ${CATEGORY_FILES[category]}`);
   }
 
-  // Revert >50% changes
-  if (!dryRun) {
+  // Revert >50% changes (only for products processed in this run)
+  if (!dryRun && currentRunIds.size > 0) {
     const productsPost: Product[] = JSON.parse(readFileSync(dataPath, "utf-8"));
     let reverted = 0;
-    for (const [pid, r] of Object.entries(progress.results)) {
+    for (const pid of currentRunIds) {
+      const r = progress.results[pid];
+      if (!r) continue;
       const oldMid = (r.oldPrice[0] + r.oldPrice[1]) / 2;
       const newMid = (r.newPrice[0] + r.newPrice[1]) / 2;
       const change = oldMid > 0 ? Math.abs(newMid - oldMid) / oldMid * 100 : 0;
@@ -379,12 +394,14 @@ async function main() {
           p.price_range_usd = r.oldPrice;
           if (p.retailer_urls) delete p.retailer_urls;
           reverted++;
+          delete progress.results[pid];
           console.log(`  ⚠️  Reverted ${pid}: [${r.newPrice}] → [${r.oldPrice}] (${Math.round(change)}% change)`);
         }
       }
     }
     if (reverted > 0) {
       writeFileSync(dataPath, JSON.stringify(productsPost, null, 2) + "\n");
+      saveProgress(progressPath, progress);
       console.log(`  Reverted ${reverted} products with >50% price change`);
     }
   }
