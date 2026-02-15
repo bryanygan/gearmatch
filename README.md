@@ -158,8 +158,7 @@ gearmatch/
 │
 ├── scripts/                     # Build and data management utilities
 │   ├── convert-ts-to-json.ts    # Validate and reformat product JSON
-│   ├── update-prices.ts         # Update product prices via PricesAPI (all categories)
-│   └── update-mice-prices.ts    # Mouse-specific price update utility (legacy)
+│   └── update-prices.ts         # Update product prices via PricesAPI (all categories)
 │
 ├── vite-plugins/                # Custom Vite plugins
 │   └── validate-products.ts     # Build-time product JSON validation
