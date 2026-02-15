@@ -27,6 +27,6 @@ public/data/products/
 *.sln
 *.sw?
 .claude/settings.local.json
-scripts/update-prices.ts
-scripts/update-mice-prices.ts
+.env
+.env.local
 scripts/output/
