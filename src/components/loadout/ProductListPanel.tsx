@@ -190,15 +190,20 @@ export default function ProductListPanel({
             </div>
           )}
 
-          {/* Product rows */}
-          {sorted.map((product: Product) => (
-            <ProductListItem
+          {/* Product rows — staggered entrance */}
+          {sorted.map((product: Product, index: number) => (
+            <div
               key={product.id}
-              product={product}
-              isSelected={selectedProductIds.has(product.id)}
-              accentColor={accentColor}
-              onToggle={handleToggle}
-            />
+              className="loadout-stagger-in"
+              style={{ animationDelay: `${index * 30}ms` }}
+            >
+              <ProductListItem
+                product={product}
+                isSelected={selectedProductIds.has(product.id)}
+                accentColor={accentColor}
+                onToggle={handleToggle}
+              />
+            </div>
           ))}
         </div>
       </ScrollArea>

@@ -1,4 +1,4 @@
-import React, { useMemo } from "react";
+import React, { useMemo, useState, useCallback } from "react";
 import {
   Mouse,
   Headphones,
@@ -34,6 +34,7 @@ export interface RadialWedgeProps {
   isDimmed: boolean;
   itemCount: number;
   onSelect: (category: LoadoutCategory) => void;
+  entranceDelay?: number;
 }
 
 // ─── Component ───────────────────────────────────────────────────────────────
@@ -50,7 +51,10 @@ const RadialWedge = React.memo(function RadialWedge({
   isDimmed,
   itemCount,
   onSelect,
+  entranceDelay,
 }: RadialWedgeProps) {
+  const [clicked, setClicked] = useState(false);
+
   const d = useMemo(
     () => describeWedge(cx, cy, innerRadius, outerRadius, startAngle, endAngle),
     [cx, cy, innerRadius, outerRadius, startAngle, endAngle],
@@ -64,20 +68,45 @@ const RadialWedge = React.memo(function RadialWedge({
 
   const Icon = ICON_MAP[category.icon] ?? Mouse;
 
-  const handleClick = () => onSelect(category.id);
+  const handleClick = useCallback(() => {
+    onSelect(category.id);
+    setClicked(true);
+    setTimeout(() => setClicked(false), 200);
+  }, [onSelect, category.id]);
+
   const handleKeyDown = (e: React.KeyboardEvent) => {
     if (e.key === "Enter" || e.key === " ") {
       e.preventDefault();
-      onSelect(category.id);
+      handleClick();
     }
   };
+
+  // Entrance animation style
+  const entranceStyle: React.CSSProperties | undefined =
+    entranceDelay !== undefined
+      ? { animationDelay: `${entranceDelay}ms` }
+      : undefined;
+
+  // Glow filter for active state (pulsing) and hover
+  const pathFilter = isActive
+    ? `drop-shadow(0 0 12px ${category.color}66)`
+    : undefined;
 
   return (
     <g
       className={cn(
-        "cursor-pointer outline-none transition-all duration-200",
+        "cursor-pointer outline-none",
+        entranceDelay !== undefined && "loadout-wedge-in",
         isDimmed && "opacity-40",
+        clicked && "loadout-pulse",
       )}
+      style={{
+        ...entranceStyle,
+        transition: "opacity 200ms ease, filter 200ms ease",
+        filter: isDimmed ? "saturate(0.5)" : undefined,
+        transformBox: "fill-box" as string,
+        transformOrigin: "center",
+      }}
       role="button"
       tabIndex={0}
       aria-label={`${category.label} — ${itemCount} items selected`}
@@ -91,26 +120,24 @@ const RadialWedge = React.memo(function RadialWedge({
         stroke={isActive ? category.color : "rgba(148, 163, 184, 0.25)"}
         strokeWidth={isActive ? 2 : 1}
         className={cn(
-          "transition-all duration-200",
+          "transition-all duration-150",
+          isActive && "loadout-glow-pulse",
           !isDimmed && !isActive && "hover:fill-[rgba(30,41,59,0.9)]",
         )}
-        style={
-          isActive
-            ? {
-                filter: `drop-shadow(0 0 12px ${category.color}44)`,
-              }
-            : undefined
-        }
+        style={{
+          filter: pathFilter,
+        }}
       />
 
-      {/* Hover glow overlay — separate path so CSS :hover works on the group */}
+      {/* Hover glow overlay */}
       {!isActive && !isDimmed && (
         <path
           d={d}
           fill="transparent"
-          className="transition-all duration-200 [g:hover>&]:fill-[rgba(255,255,255,0.04)]"
+          className="transition-all duration-150 [g:hover>&]:fill-[rgba(255,255,255,0.04)]"
           style={{
             pointerEvents: "none",
+            filter: "none",
           }}
         />
       )}

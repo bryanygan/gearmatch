@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef, useEffect, useState } from "react";
 import {
   Check,
   Plus,
@@ -48,6 +48,19 @@ const ProductListItem = React.memo(function ProductListItem({
 
   const linkUrl = product.product_url;
 
+  // Track selection transitions for flash animation
+  const [justAdded, setJustAdded] = useState(false);
+  const prevSelectedRef = useRef(isSelected);
+
+  useEffect(() => {
+    if (isSelected && !prevSelectedRef.current) {
+      setJustAdded(true);
+      const id = setTimeout(() => setJustAdded(false), 300);
+      return () => clearTimeout(id);
+    }
+    prevSelectedRef.current = isSelected;
+  }, [isSelected]);
+
   return (
     <div
       className={cn(
@@ -55,6 +68,7 @@ const ProductListItem = React.memo(function ProductListItem({
         isSelected
           ? "border-l-2 bg-slate-800/60"
           : "border-transparent bg-slate-900/40 hover:bg-slate-800/40",
+        justAdded && "loadout-item-flash",
       )}
       style={isSelected ? { borderLeftColor: accentColor } : undefined}
     >
@@ -147,7 +161,11 @@ const ProductListItem = React.memo(function ProductListItem({
             : `Add ${product.name} to loadout`
         }
       >
-        {isSelected ? <Check size={14} /> : <Plus size={14} />}
+        {isSelected ? (
+          <Check size={14} className="loadout-check-in" />
+        ) : (
+          <Plus size={14} />
+        )}
       </Button>
     </div>
   );

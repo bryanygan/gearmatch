@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef, useEffect, useState } from "react";
 import {
   Mouse,
   Headphones,
@@ -36,6 +36,7 @@ export interface RadialCenterProps {
   itemsByCategory: Record<LoadoutCategory, LoadoutItem[]>;
   totalPriceRange: [number, number];
   onDeselect: () => void;
+  entranceDelay?: number;
 }
 
 // ─── Component ───────────────────────────────────────────────────────────────
@@ -49,6 +50,7 @@ const RadialCenter = React.memo(function RadialCenter({
   itemsByCategory,
   totalPriceRange,
   onDeselect,
+  entranceDelay,
 }: RadialCenterProps) {
   const handleKeyDown = (e: React.KeyboardEvent) => {
     if (e.key === "Enter" || e.key === " ") {
@@ -66,12 +68,47 @@ const RadialCenter = React.memo(function RadialCenter({
     0,
   );
 
+  // ── Price change animation ──────────────────────────────────────────────
+  const [priceFlash, setPriceFlash] = useState(false);
+  const prevPriceRef = useRef(totalPriceRange[0] + totalPriceRange[1]);
+
+  useEffect(() => {
+    const current = totalPriceRange[0] + totalPriceRange[1];
+    if (current !== prevPriceRef.current && prevPriceRef.current !== 0) {
+      setPriceFlash(true);
+      const id = setTimeout(() => setPriceFlash(false), 200);
+      return () => clearTimeout(id);
+    }
+    prevPriceRef.current = current;
+  }, [totalPriceRange]);
+
+  // ── Item count border pulse ─────────────────────────────────────────────
+  const [borderPulse, setBorderPulse] = useState(false);
+  const prevCountRef = useRef(totalItems);
+
+  useEffect(() => {
+    if (totalItems !== prevCountRef.current && prevCountRef.current !== 0) {
+      setBorderPulse(true);
+      const id = setTimeout(() => setBorderPulse(false), 300);
+      return () => clearTimeout(id);
+    }
+    prevCountRef.current = totalItems;
+  }, [totalItems]);
+
+  // Entrance animation style
+  const entranceStyle: React.CSSProperties | undefined =
+    entranceDelay !== undefined
+      ? { animationDelay: `${entranceDelay}ms` }
+      : undefined;
+
   return (
     <foreignObject
       x={cx - radius}
       y={cy - radius}
       width={radius * 2}
       height={radius * 2}
+      className={entranceDelay !== undefined ? "loadout-center-in" : undefined}
+      style={entranceStyle}
     >
       <div
         role="button"
@@ -79,7 +116,9 @@ const RadialCenter = React.memo(function RadialCenter({
         onClick={onDeselect}
         onKeyDown={handleKeyDown}
         aria-label="Loadout summary — click to deselect category"
-        className="flex h-full w-full cursor-pointer items-center justify-center rounded-full border border-slate-700/50 bg-slate-950/90 backdrop-blur-sm transition-all duration-200 hover:border-slate-600/60"
+        className={`flex h-full w-full cursor-pointer items-center justify-center rounded-full border border-slate-700/50 bg-slate-950/90 backdrop-blur-sm transition-all duration-200 hover:border-slate-600/60 ${
+          borderPulse ? "loadout-border-pulse" : ""
+        }`}
       >
         <div className="flex flex-col items-center gap-1.5 px-2 text-center">
           {/* Loadout name or default title */}
@@ -128,7 +167,11 @@ const RadialCenter = React.memo(function RadialCenter({
 
           {/* Total price */}
           {totalItems > 0 && (
-            <span className="text-xs font-bold font-mono text-emerald-400">
+            <span
+              className={`text-xs font-bold font-mono text-emerald-400 ${
+                priceFlash ? "loadout-price-flash" : ""
+              }`}
+            >
               ${totalPriceRange[0]}–${totalPriceRange[1]}
             </span>
           )}
