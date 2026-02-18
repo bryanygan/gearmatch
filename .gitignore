@@ -26,4 +26,4 @@ public/data/products/
 *.njsproj
 *.sln
 *.sw?
-.claude/settings.local.json
+.claude/

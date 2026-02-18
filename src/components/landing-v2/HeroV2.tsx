@@ -13,7 +13,7 @@ const HeroV2 = () => {
 
   return (
     <section
-      className="relative min-h-screen pt-20 md:pt-24 pb-12 overflow-hidden"
+      className="relative min-h-dvh md:min-h-screen pt-20 md:pt-24 pb-4 md:pb-12 overflow-hidden"
       style={{ background: "var(--v2-bg)" }}
     >
       {/* Background Layers */}
@@ -81,9 +81,45 @@ const HeroV2 = () => {
 
       {/* Main Content Grid */}
       <div className="max-w-7xl mx-auto px-5 sm:px-8 h-full flex flex-col justify-center">
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-6 items-center min-h-[calc(100vh-180px)]">
-          {/* Left Column - Content */}
-          <div className="lg:col-span-6 xl:col-span-5 relative z-10">
+        <div className="relative md:grid md:grid-cols-12 md:gap-6 md:items-center min-h-[calc(100dvh-120px)] md:min-h-[calc(100vh-180px)]">
+
+          {/* Mobile Background Carousel — sits behind text on small screens */}
+          <div
+            className={`md:hidden absolute inset-0 z-0 overflow-hidden transition-all duration-1000 delay-300 ${
+              mounted ? "opacity-100" : "opacity-0"
+            }`}
+          >
+            {/* Fade overlay: transparent at top/bottom edges so carousel peeks through, dark in center for text legibility */}
+            <div
+              className="absolute inset-0 z-10 pointer-events-none"
+              style={{
+                background: `
+                  linear-gradient(to bottom,
+                    transparent 0%,
+                    rgba(7, 7, 13, 0.7) 15%,
+                    rgba(7, 7, 13, 0.95) 28%,
+                    rgba(7, 7, 13, 0.98) 40%,
+                    rgba(7, 7, 13, 0.98) 60%,
+                    rgba(7, 7, 13, 0.97) 75%,
+                    rgba(7, 7, 13, 0.85) 88%,
+                    transparent 100%
+                  )
+                `,
+              }}
+            />
+            {/* Force the grid to fill the full hero height */}
+            <style>{`
+              .v2-mobile-carousel .scrolling-grid-container {
+                height: 100% !important;
+              }
+            `}</style>
+            <div className="v2-mobile-carousel h-full">
+              <ScrollingProductGrid />
+            </div>
+          </div>
+
+          {/* Left Column - Content (full width on mobile, overlays the carousel) */}
+          <div className="col-span-12 md:col-span-6 xl:col-span-5 relative z-10 flex flex-col justify-center min-h-[calc(100dvh-120px)] md:min-h-0">
             {/* System Label */}
             <div
               className={`transition-all duration-700 ${
@@ -165,11 +201,11 @@ const HeroV2 = () => {
               }`}
               style={{
                 fontFamily: "var(--v2-font-body)",
-                fontSize: "17px",
+                fontSize: "clamp(14px, 2vw, 17px)",
                 lineHeight: 1.7,
                 color: "var(--v2-text-muted)",
                 maxWidth: "440px",
-                marginBottom: "32px",
+                marginBottom: "24px",
                 fontWeight: 500,
               }}
             >
@@ -182,7 +218,7 @@ const HeroV2 = () => {
 
             {/* CTA Buttons - 2x2 Grid */}
             <div
-              className={`grid grid-cols-2 gap-3 mb-8 transition-all duration-700 ${
+              className={`grid grid-cols-2 gap-2 sm:gap-3 mb-5 md:mb-8 transition-all duration-700 ${
                 mounted
                   ? "opacity-100 translate-y-0"
                   : "opacity-0 translate-y-6"
@@ -191,7 +227,7 @@ const HeroV2 = () => {
             >
               <Link
                 to="/quiz/mouse"
-                className="v2-btn v2-btn-primary"
+                className="v2-btn v2-btn-primary v2-btn-sm sm:v2-btn"
                 style={{ textDecoration: "none", justifyContent: "center" }}
               >
                 <svg
@@ -201,6 +237,7 @@ const HeroV2 = () => {
                   fill="none"
                   stroke="currentColor"
                   strokeWidth="2"
+                  className="hidden sm:block"
                 >
                   <path d="M12 2a8 8 0 0 0-8 8v4a8 8 0 0 0 16 0v-4a8 8 0 0 0-8-8z" />
                   <line x1="12" y1="6" x2="12" y2="10" />
@@ -209,7 +246,7 @@ const HeroV2 = () => {
               </Link>
               <Link
                 to="/quiz/audio"
-                className="v2-btn v2-btn-secondary"
+                className="v2-btn v2-btn-secondary v2-btn-sm sm:v2-btn"
                 style={{ textDecoration: "none", justifyContent: "center" }}
               >
                 <svg
@@ -219,6 +256,7 @@ const HeroV2 = () => {
                   fill="none"
                   stroke="currentColor"
                   strokeWidth="2"
+                  className="hidden sm:block"
                 >
                   <path d="M3 18v-6a9 9 0 0118 0v6" />
                   <path d="M21 19a2 2 0 01-2 2h-1a2 2 0 01-2-2v-3a2 2 0 012-2h3zM3 19a2 2 0 002 2h1a2 2 0 002-2v-3a2 2 0 00-2-2H3z" />
@@ -227,7 +265,7 @@ const HeroV2 = () => {
               </Link>
               <Link
                 to="/quiz/keyboard"
-                className="v2-btn v2-btn-white"
+                className="v2-btn v2-btn-white v2-btn-sm sm:v2-btn"
                 style={{ textDecoration: "none", justifyContent: "center" }}
               >
                 <svg
@@ -237,6 +275,7 @@ const HeroV2 = () => {
                   fill="none"
                   stroke="currentColor"
                   strokeWidth="2"
+                  className="hidden sm:block"
                 >
                   <rect x="2" y="4" width="20" height="16" rx="2" />
                   <path d="M6 8h.01M10 8h.01M14 8h.01M18 8h.01M8 12h.01M12 12h.01M16 12h.01M7 16h10" />
@@ -245,7 +284,7 @@ const HeroV2 = () => {
               </Link>
               <Link
                 to="/quiz/monitor"
-                className="v2-btn v2-btn-tertiary"
+                className="v2-btn v2-btn-tertiary v2-btn-sm sm:v2-btn"
                 style={{ textDecoration: "none", justifyContent: "center" }}
               >
                 <svg
@@ -255,6 +294,7 @@ const HeroV2 = () => {
                   fill="none"
                   stroke="currentColor"
                   strokeWidth="2"
+                  className="hidden sm:block"
                 >
                   <rect x="2" y="3" width="20" height="14" rx="2" />
                   <path d="M8 21h8M12 17v4" />
@@ -291,9 +331,9 @@ const HeroV2 = () => {
             </div>
           </div>
 
-          {/* Right Column - Scrolling Product Grid */}
+          {/* Right Column - Scrolling Product Grid (desktop only, mobile uses background version) */}
           <div
-            className={`lg:col-span-6 xl:col-span-7 relative transition-all duration-1000 delay-300 ${
+            className={`hidden md:block md:col-span-6 xl:col-span-7 relative transition-all duration-1000 delay-300 ${
               mounted ? "opacity-100 scale-100" : "opacity-0 scale-95"
             }`}
           >
@@ -364,7 +404,7 @@ const HeroV2 = () => {
 
         {/* Recommendation Preview Section */}
         <div
-          className={`mt-8 lg:mt-12 transition-all duration-1000 delay-700 ${
+          className={`mt-4 md:mt-12 transition-all duration-1000 delay-700 ${
             mounted ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
           }`}
         >
