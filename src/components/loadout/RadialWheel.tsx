@@ -1,4 +1,4 @@
-import React, { useMemo, useState, useEffect } from "react";
+import React, { useMemo } from "react";
 import RadialWedge from "./RadialWedge";
 import RadialCenter from "./RadialCenter";
 import { LOADOUT_CATEGORIES } from "@/data/loadout-categories";
@@ -44,14 +44,6 @@ export default function RadialWheel({
   onSelectCategory,
   onDeselectCategory,
 }: RadialWheelProps) {
-  const [mounted, setMounted] = useState(false);
-
-  useEffect(() => {
-    // Trigger entrance animations on next frame
-    const id = requestAnimationFrame(() => setMounted(true));
-    return () => cancelAnimationFrame(id);
-  }, []);
-
   const wedges = useMemo(() => {
     return WEDGE_LAYOUT.map((catId, i) => {
       const meta = LOADOUT_CATEGORIES.find((c) => c.id === catId)!;
@@ -62,18 +54,13 @@ export default function RadialWheel({
   }, []);
 
   return (
-    <div
-      className={`relative w-[min(600px,100%)] aspect-square loadout-scanlines ${
-        mounted ? "loadout-scale-in" : "opacity-0"
-      }`}
-    >
+    <div className="relative w-full aspect-square loadout-scanlines">
       <svg
         viewBox={`0 0 ${VIEW_SIZE} ${VIEW_SIZE}`}
         className="relative z-0 w-full h-full"
         aria-label="Radial buy menu"
       >
-        {/* Wedges — staggered entrance */}
-        {wedges.map(({ meta, startAngle, endAngle }, i) => (
+        {wedges.map(({ meta, startAngle, endAngle }) => (
           <RadialWedge
             key={meta.id}
             category={meta}
@@ -89,11 +76,9 @@ export default function RadialWheel({
             }
             itemCount={itemsByCategory[meta.id].length}
             onSelect={onSelectCategory}
-            entranceDelay={mounted ? i * 60 : undefined}
           />
         ))}
 
-        {/* Center summary — enters after wedges */}
         <RadialCenter
           cx={CX}
           cy={CY}
@@ -103,7 +88,6 @@ export default function RadialWheel({
           itemsByCategory={itemsByCategory}
           totalPriceRange={totalPriceRange}
           onDeselect={onDeselectCategory}
-          entranceDelay={mounted ? WEDGE_LAYOUT.length * 60 + 200 : undefined}
         />
       </svg>
     </div>

@@ -179,8 +179,8 @@ export default function MobileBuyMenu({ state, initialCategory }: MobileBuyMenuP
         </Select>
       )}
 
-      {/* Product list */}
-      <div className="flex flex-col gap-2">
+      {/* Product list — key forces remount on category switch */}
+      <div key={activeTab} className="flex flex-col gap-2">
         {/* Loading */}
         {isLoading && (
           <div className="py-12 text-center text-sm text-slate-500">

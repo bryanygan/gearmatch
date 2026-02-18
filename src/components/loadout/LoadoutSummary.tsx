@@ -8,10 +8,17 @@ import {
   Trash2,
   Share2,
   ExternalLink,
+  ShoppingCart,
+  ChevronDown,
   type LucideIcon,
 } from "lucide-react";
 import { toast } from "sonner";
 import { Button } from "@/components/ui/button";
+import {
+  Popover,
+  PopoverContent,
+  PopoverTrigger,
+} from "@/components/ui/popover";
 import {
   AlertDialog,
   AlertDialogAction,
@@ -36,6 +43,27 @@ const CATEGORY_ICONS: Record<LoadoutCategory, LucideIcon> = {
   keyboard: Keyboard,
   monitor: Monitor,
 };
+
+// ─── Retailer display names ──────────────────────────────────────────────────
+
+const RETAILER_NAMES: Record<string, string> = {
+  bestbuy: "Best Buy",
+  bhphoto: "B&H Photo",
+  microcenter: "Micro Center",
+  newegg: "Newegg",
+  walmart: "Walmart",
+  target: "Target",
+  linsoul: "Linsoul",
+  hifigo: "HiFiGo",
+  manufacturer: "Manufacturer",
+};
+
+function formatRetailerName(key: string): string {
+  return (
+    RETAILER_NAMES[key] ??
+    key.replace(/([a-z])([A-Z])/g, "$1 $2").replace(/^./, (s) => s.toUpperCase())
+  );
+}
 
 // ─── Props ───────────────────────────────────────────────────────────────────
 
@@ -71,24 +99,6 @@ export default function LoadoutSummary({
       toast.success("Loadout link copied to clipboard!");
     } catch {
       toast.error("Failed to copy link");
-    }
-  };
-
-  const handleViewProducts = () => {
-    const urls: string[] = [];
-    for (const [id] of loadoutItems) {
-      const product = productMap.get(id);
-      if (product?.product_url) urls.push(product.product_url);
-    }
-    if (urls.length === 0) {
-      toast.info("No product links available");
-      return;
-    }
-    if (urls.length > 4) {
-      toast.info(`Opening ${urls.length} product pages…`);
-    }
-    for (const url of urls) {
-      window.open(url, "_blank", "noopener,noreferrer");
     }
   };
 
@@ -148,6 +158,7 @@ export default function LoadoutSummary({
                             {price}
                           </span>
                         </div>
+                        <RetailerLinks product={product} />
                         <button
                           onClick={() => onRemoveItem(item.productId)}
                           className="shrink-0 rounded p-0.5 text-slate-500 hover:bg-slate-700 hover:text-slate-300 transition-colors"
@@ -202,18 +213,6 @@ export default function LoadoutSummary({
             <Share2 size={14} />
             Share
           </Button>
-
-          {/* View products */}
-          <Button
-            variant="default"
-            size="sm"
-            disabled={itemCount === 0}
-            onClick={handleViewProducts}
-            className="gap-1.5"
-          >
-            <ExternalLink size={14} />
-            View Products
-          </Button>
         </div>
       </div>
     </div>
@@ -265,5 +264,79 @@ function ClearLoadoutButton({
         </AlertDialogFooter>
       </AlertDialogContent>
     </AlertDialog>
+  );
+}
+
+// ─── Retailer links popover ─────────────────────────────────────────────────
+
+function RetailerLinks({ product }: { product: Product }) {
+  const retailers = product.retailer_urls;
+  const hasRetailers = retailers && Object.keys(retailers).length > 0;
+  const hasAmazon = !!product.product_url;
+
+  // No links at all — render nothing
+  if (!hasAmazon && !hasRetailers) return null;
+
+  // Only Amazon, no retailer_urls — single icon link (no popover)
+  if (hasAmazon && !hasRetailers) {
+    return (
+      <a
+        href={product.product_url}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="shrink-0 rounded p-1 text-slate-500 hover:bg-slate-700 hover:text-slate-300 transition-colors"
+        aria-label={`View ${product.name} on Amazon`}
+      >
+        <ExternalLink size={13} />
+      </a>
+    );
+  }
+
+  // Has retailer links — show popover with all options
+  return (
+    <Popover>
+      <PopoverTrigger asChild>
+        <button
+          className="shrink-0 inline-flex items-center gap-0.5 rounded px-1.5 py-0.5 text-slate-500 hover:bg-slate-700 hover:text-slate-300 transition-colors"
+          aria-label={`Buy ${product.name} — choose retailer`}
+        >
+          <ShoppingCart size={13} />
+          <ChevronDown size={10} />
+        </button>
+      </PopoverTrigger>
+      <PopoverContent
+        align="end"
+        side="bottom"
+        className="w-48 p-1.5 border-slate-700 bg-slate-900"
+      >
+        <p className="px-2 py-1 text-[10px] font-mono font-bold uppercase tracking-wider text-slate-500">
+          Buy from
+        </p>
+        {hasAmazon && (
+          <a
+            href={product.product_url}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-2 rounded-md px-2 py-1.5 text-xs text-slate-200 hover:bg-slate-800 transition-colors"
+          >
+            <ExternalLink size={11} className="shrink-0 text-slate-500" />
+            Amazon
+          </a>
+        )}
+        {retailers &&
+          Object.entries(retailers).map(([key, url]) => (
+            <a
+              key={key}
+              href={url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 rounded-md px-2 py-1.5 text-xs text-slate-200 hover:bg-slate-800 transition-colors"
+            >
+              <ExternalLink size={11} className="shrink-0 text-slate-500" />
+              {formatRetailerName(key)}
+            </a>
+          ))}
+      </PopoverContent>
+    </Popover>
   );
 }

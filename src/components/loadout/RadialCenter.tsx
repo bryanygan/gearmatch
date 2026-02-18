@@ -36,7 +36,6 @@ export interface RadialCenterProps {
   itemsByCategory: Record<LoadoutCategory, LoadoutItem[]>;
   totalPriceRange: [number, number];
   onDeselect: () => void;
-  entranceDelay?: number;
 }
 
 // ─── Component ───────────────────────────────────────────────────────────────
@@ -50,7 +49,6 @@ const RadialCenter = React.memo(function RadialCenter({
   itemsByCategory,
   totalPriceRange,
   onDeselect,
-  entranceDelay,
 }: RadialCenterProps) {
   const handleKeyDown = (e: React.KeyboardEvent) => {
     if (e.key === "Enter" || e.key === " ") {
@@ -95,20 +93,12 @@ const RadialCenter = React.memo(function RadialCenter({
     prevCountRef.current = totalItems;
   }, [totalItems]);
 
-  // Entrance animation style
-  const entranceStyle: React.CSSProperties | undefined =
-    entranceDelay !== undefined
-      ? { animationDelay: `${entranceDelay}ms` }
-      : undefined;
-
   return (
     <foreignObject
       x={cx - radius}
       y={cy - radius}
       width={radius * 2}
       height={radius * 2}
-      className={entranceDelay !== undefined ? "loadout-center-in" : undefined}
-      style={entranceStyle}
     >
       <div
         role="button"

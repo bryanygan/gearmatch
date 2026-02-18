@@ -49,7 +49,7 @@ const LoadoutPage = () => {
 
       {/* Buy Menu */}
       <section className="relative z-10 pb-16 md:pb-24">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center">
+        <div className="mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8 flex flex-col items-center">
           <LoadoutPageWrapper />
         </div>
       </section>

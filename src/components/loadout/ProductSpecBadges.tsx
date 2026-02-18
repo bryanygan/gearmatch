@@ -6,10 +6,19 @@ import type { LoadoutCategory } from "@/types/loadout";
 
 // ─── Helpers ─────────────────────────────────────────────────────────────────
 
-/** Format form-factor strings like "60_percent" → "60%" */
+/** Format keyboard form-factor strings to readable labels */
+const FORM_FACTOR_MAP: Record<string, string> = {
+  "full_size_100_percent": "Full Size",
+  "tkl_80_percent": "TKL 80%",
+  "96_percent": "96%",
+  "75_percent": "75%",
+  "65_percent": "65%",
+  "60_percent": "60%",
+  "40_percent": "40%",
+};
+
 function formatFormFactor(raw: string): string {
-  if (raw.endsWith("_percent")) return raw.replace("_percent", "%");
-  return raw.replace(/_/g, " ");
+  return FORM_FACTOR_MAP[raw] ?? raw.replace(/_percent/g, "%").replace(/_/g, " ");
 }
 
 /** Format snake_case tag → Title Case */
@@ -108,7 +117,7 @@ export default function ProductSpecBadges({
   const isWireless = specs.includes("Wireless");
 
   return (
-    <div className="flex flex-wrap items-center gap-1">
+    <div className="flex flex-wrap items-center gap-1 overflow-hidden">
       {specs.map((spec) =>
         spec === "Wireless" ? (
           <Badge

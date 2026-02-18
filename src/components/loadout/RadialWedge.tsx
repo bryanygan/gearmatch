@@ -1,4 +1,4 @@
-import React, { useMemo, useCallback } from "react";
+import React, { useMemo, useCallback, useState } from "react";
 import {
   Mouse,
   Headphones,
@@ -34,7 +34,6 @@ export interface RadialWedgeProps {
   isDimmed: boolean;
   itemCount: number;
   onSelect: (category: LoadoutCategory) => void;
-  entranceDelay?: number;
 }
 
 // ─── Component ───────────────────────────────────────────────────────────────
@@ -51,8 +50,9 @@ const RadialWedge = React.memo(function RadialWedge({
   isDimmed,
   itemCount,
   onSelect,
-  entranceDelay,
 }: RadialWedgeProps) {
+  const [hovered, setHovered] = useState(false);
+
   const d = useMemo(
     () => describeWedge(cx, cy, innerRadius, outerRadius, startAngle, endAngle),
     [cx, cy, innerRadius, outerRadius, startAngle, endAngle],
@@ -77,13 +77,7 @@ const RadialWedge = React.memo(function RadialWedge({
     }
   };
 
-  // Entrance animation style
-  const entranceStyle: React.CSSProperties | undefined =
-    entranceDelay !== undefined
-      ? { animationDelay: `${entranceDelay}ms` }
-      : undefined;
-
-  // Glow filter for active state (pulsing) and hover
+  // Glow filter for active state
   const pathFilter = isActive
     ? `drop-shadow(0 0 12px ${category.color}66)`
     : undefined;
@@ -92,13 +86,11 @@ const RadialWedge = React.memo(function RadialWedge({
     <g
       className={cn(
         "cursor-pointer outline-none",
-        entranceDelay !== undefined && "loadout-wedge-in",
-        isDimmed && "opacity-40",
+        isDimmed && !hovered && "opacity-40",
       )}
       style={{
-        ...entranceStyle,
         transition: "opacity 200ms ease, filter 200ms ease",
-        filter: isDimmed ? "saturate(0.5)" : undefined,
+        filter: isDimmed && !hovered ? "saturate(0.5)" : undefined,
         transformBox: "fill-box" as string,
         transformOrigin: "center",
       }}
@@ -107,35 +99,32 @@ const RadialWedge = React.memo(function RadialWedge({
       aria-label={`${category.label} — ${itemCount} items selected`}
       onClick={handleClick}
       onKeyDown={handleKeyDown}
+      onMouseEnter={() => setHovered(true)}
+      onMouseLeave={() => setHovered(false)}
     >
       {/* Wedge shape */}
       <path
         d={d}
-        fill={isActive ? `${category.color}22` : "rgba(15, 23, 42, 0.8)"}
-        stroke={isActive ? category.color : "rgba(148, 163, 184, 0.25)"}
+        fill={
+          isActive
+            ? `${category.color}18`
+            : hovered
+              ? `${category.color}0c`
+              : "rgba(15, 23, 42, 0.8)"
+        }
+        stroke={
+          isActive
+            ? `${category.color}80`
+            : hovered
+              ? `${category.color}40`
+              : "rgba(148, 163, 184, 0.25)"
+        }
         strokeWidth={isActive ? 2 : 1}
-        className={cn(
-          "transition-all duration-150",
-          isActive && "loadout-glow-pulse",
-          !isDimmed && !isActive && "hover:fill-[rgba(30,41,59,0.9)]",
-        )}
+        className="transition-all duration-150"
         style={{
           filter: pathFilter,
         }}
       />
-
-      {/* Hover glow overlay */}
-      {!isActive && !isDimmed && (
-        <path
-          d={d}
-          fill="transparent"
-          className="transition-all duration-150 [g:hover>&]:fill-[rgba(255,255,255,0.04)]"
-          style={{
-            pointerEvents: "none",
-            filter: "none",
-          }}
-        />
-      )}
 
       {/* Icon */}
       <foreignObject
@@ -147,7 +136,13 @@ const RadialWedge = React.memo(function RadialWedge({
       >
         <Icon
           size={28}
-          color={isActive ? category.color : "rgba(226, 232, 240, 0.8)"}
+          color={
+            isActive
+              ? category.color
+              : hovered
+                ? `${category.color}99`
+                : "rgba(226, 232, 240, 0.8)"
+          }
           className="transition-colors duration-200"
         />
       </foreignObject>
@@ -158,7 +153,13 @@ const RadialWedge = React.memo(function RadialWedge({
         y={center.y + 18}
         textAnchor="middle"
         className="pointer-events-none select-none font-mono text-[10px] font-bold uppercase tracking-widest"
-        fill={isActive ? category.color : "rgba(203, 213, 225, 0.7)"}
+        fill={
+          isActive
+            ? category.color
+            : hovered
+              ? `${category.color}99`
+              : "rgba(203, 213, 225, 0.7)"
+        }
       >
         {category.label}
       </text>

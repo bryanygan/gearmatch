@@ -5,7 +5,6 @@ import LoadoutSummary from "./LoadoutSummary";
 import CuratedLoadoutBrowser from "./CuratedLoadoutBrowser";
 import type { LoadoutState } from "@/hooks/useLoadoutState";
 import { CURATED_LOADOUTS } from "@/data/curated-loadouts";
-import { cn } from "@/lib/utils";
 
 // ─── Props ───────────────────────────────────────────────────────────────────
 
@@ -29,28 +28,28 @@ export default function RadialBuyMenu({ state }: RadialBuyMenuProps) {
   }, [state.loadoutItems]);
 
   return (
-    <div className="flex flex-col items-center gap-6">
-      {/* Wheel + panel row */}
-      <div
-        className={cn(
-          "flex items-start justify-center gap-6 transition-all duration-300",
-          state.selectedCategory ? "justify-start" : "justify-center",
-        )}
-      >
-        {/* Radial wheel */}
-        <RadialWheel
-          selectedCategory={state.selectedCategory}
-          itemsByCategory={state.itemsByCategory}
-          totalPriceRange={state.totalPriceRange}
-          loadoutName={loadoutName}
-          isModified={state.isModified}
-          onSelectCategory={state.selectCategory}
-          onDeselectCategory={state.deselectCategory}
-        />
+    <div className="flex w-full flex-col items-center gap-6">
+      {/* Wheel + panel — CS:GO style layout */}
+      <div className={`flex w-full items-center ${state.selectedCategory ? "" : "justify-center"}`}>
+        {/* Radial wheel — centered when alone, fills remaining space when panel is open */}
+        <div className={state.selectedCategory ? "flex-1 min-w-0 max-w-[800px]" : "w-full max-w-[700px]"}>
+          <RadialWheel
+            selectedCategory={state.selectedCategory}
+            itemsByCategory={state.itemsByCategory}
+            totalPriceRange={state.totalPriceRange}
+            loadoutName={loadoutName}
+            isModified={state.isModified}
+            onSelectCategory={state.selectCategory}
+            onDeselectCategory={state.deselectCategory}
+          />
+        </div>
 
-        {/* Product list panel — slides in when a category is active */}
+        {/* Product list panel — sits right next to the wheel */}
         {state.selectedCategory && (
-          <div className="h-[600px]">
+          <div
+            key={state.selectedCategory}
+            className="shrink-0 h-[min(600px,80vh)]"
+          >
             <ProductListPanel
               category={state.selectedCategory}
               selectedProductIds={selectedProductIds}
