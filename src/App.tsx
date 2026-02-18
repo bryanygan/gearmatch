@@ -31,6 +31,7 @@ const FAQPage = lazy(() => import("./pages/FAQPage"));
 const PrivacyPage = lazy(() => import("./pages/PrivacyPage"));
 const TermsPage = lazy(() => import("./pages/TermsPage"));
 const AffiliateDisclosurePage = lazy(() => import("./pages/AffiliateDisclosurePage"));
+const IndexV2 = lazy(() => import("./pages/IndexV2"));
 
 // Loading fallback for lazy-loaded pages
 const PageLoader = () => (
@@ -107,6 +108,7 @@ const App = () => {
                 <Route path="/privacy" element={<PrivacyPage />} />
                 <Route path="/terms" element={<TermsPage />} />
                 <Route path="/affiliate-disclosure" element={<AffiliateDisclosurePage />} />
+                <Route path="/v2" element={<IndexV2 />} />
                 {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
                 <Route path="*" element={<NotFound />} />
               </Routes>
