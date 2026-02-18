@@ -6,11 +6,11 @@ import type { LoadoutCategory, LoadoutItem } from "@/types/loadout";
 
 // ─── Layout constants ────────────────────────────────────────────────────────
 
-const VIEW_SIZE = 500;
+const VIEW_SIZE = 600;
 const CX = VIEW_SIZE / 2;
 const CY = VIEW_SIZE / 2;
-const OUTER_RADIUS = 220;
-const INNER_RADIUS = 100;
+const OUTER_RADIUS = 265;
+const INNER_RADIUS = 120;
 const GAP_DEG = 4; // degrees of gap between wedges
 
 /** Wedge arrangement: Mice top-right, Audio bottom-right, Keyboards bottom-left, Monitors top-left */
@@ -63,7 +63,7 @@ export default function RadialWheel({
 
   return (
     <div
-      className={`relative w-[min(500px,100%)] aspect-square loadout-scanlines ${
+      className={`relative w-[min(600px,100%)] aspect-square loadout-scanlines ${
         mounted ? "loadout-scale-in" : "opacity-0"
       }`}
     >

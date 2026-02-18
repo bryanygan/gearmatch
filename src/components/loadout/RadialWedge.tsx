@@ -1,4 +1,4 @@
-import React, { useMemo, useState, useCallback } from "react";
+import React, { useMemo, useCallback } from "react";
 import {
   Mouse,
   Headphones,
@@ -53,8 +53,6 @@ const RadialWedge = React.memo(function RadialWedge({
   onSelect,
   entranceDelay,
 }: RadialWedgeProps) {
-  const [clicked, setClicked] = useState(false);
-
   const d = useMemo(
     () => describeWedge(cx, cy, innerRadius, outerRadius, startAngle, endAngle),
     [cx, cy, innerRadius, outerRadius, startAngle, endAngle],
@@ -70,8 +68,6 @@ const RadialWedge = React.memo(function RadialWedge({
 
   const handleClick = useCallback(() => {
     onSelect(category.id);
-    setClicked(true);
-    setTimeout(() => setClicked(false), 200);
   }, [onSelect, category.id]);
 
   const handleKeyDown = (e: React.KeyboardEvent) => {
@@ -98,7 +94,6 @@ const RadialWedge = React.memo(function RadialWedge({
         "cursor-pointer outline-none",
         entranceDelay !== undefined && "loadout-wedge-in",
         isDimmed && "opacity-40",
-        clicked && "loadout-pulse",
       )}
       style={{
         ...entranceStyle,

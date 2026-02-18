@@ -29,13 +29,7 @@ export default function RadialBuyMenu({ state }: RadialBuyMenuProps) {
   }, [state.loadoutItems]);
 
   return (
-    <div className="flex flex-col items-center gap-8">
-      {/* Curated loadout browser */}
-      <CuratedLoadoutBrowser
-        currentItemCount={state.itemCount}
-        onLoadLoadout={state.loadCuratedLoadout}
-      />
-
+    <div className="flex flex-col items-center gap-6">
       {/* Wheel + panel row */}
       <div
         className={cn(
@@ -56,7 +50,7 @@ export default function RadialBuyMenu({ state }: RadialBuyMenuProps) {
 
         {/* Product list panel — slides in when a category is active */}
         {state.selectedCategory && (
-          <div className="h-[500px]">
+          <div className="h-[600px]">
             <ProductListPanel
               category={state.selectedCategory}
               selectedProductIds={selectedProductIds}
@@ -75,6 +69,12 @@ export default function RadialBuyMenu({ state }: RadialBuyMenuProps) {
         onRemoveItem={state.removeItem}
         onClearAll={state.clearAll}
         loadoutItems={state.loadoutItems}
+      />
+
+      {/* Curated loadout browser — below the main loadout area */}
+      <CuratedLoadoutBrowser
+        currentItemCount={state.itemCount}
+        onLoadLoadout={state.loadCuratedLoadout}
       />
     </div>
   );

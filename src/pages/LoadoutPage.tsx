@@ -15,21 +15,20 @@ const LoadoutPage = () => {
       <Navbar />
 
       {/* Header */}
-      <section className="relative z-10 pt-32 pb-8 md:pt-40 md:pb-12">
+      <section className="relative z-10 pt-24 pb-4 md:pt-28 md:pb-6">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-3xl mx-auto relative">
-            <p className="text-xs uppercase tracking-widest text-muted-foreground mb-3">
+            <p className="text-[10px] uppercase tracking-widest text-muted-foreground mb-2">
               Build Your Setup
             </p>
-            <h1 className="font-display text-4xl md:text-5xl lg:text-6xl font-bold mb-4">
+            <h1 className="font-display text-2xl md:text-3xl lg:text-4xl font-bold mb-2">
               Build Your{" "}
               <span className="bg-gradient-to-r from-emerald-400 to-cyan-400 bg-clip-text text-transparent">
                 Loadout
               </span>
             </h1>
-            <p className="text-lg text-muted-foreground">
-              Pick your peripherals like you're gearing up for a match. Select a
-              curated loadout or build your own from scratch.
+            <p className="text-sm text-muted-foreground">
+              Pick your peripherals like you're gearing up for a match.
             </p>
 
             {/* Sound toggle — desktop only */}
