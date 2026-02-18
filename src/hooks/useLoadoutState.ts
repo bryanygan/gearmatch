@@ -3,9 +3,12 @@
  *
  * Owns selected-category, per-item selections, curated-loadout tracking,
  * and computed totals like price range and item count.
+ *
+ * Hydration priority: URL params > localStorage > empty state.
+ * Every mutation is persisted to localStorage automatically.
  */
 
-import { useState, useCallback, useMemo } from "react";
+import { useState, useCallback, useMemo, useEffect, useRef } from "react";
 import type { LoadoutCategory, LoadoutItem } from "@/types/loadout";
 import type { Product } from "@/types/products";
 import {
@@ -16,6 +19,45 @@ import {
 } from "@/data/products";
 import { CURATED_LOADOUTS } from "@/data/curated-loadouts";
 import { useQuery } from "@tanstack/react-query";
+import { encodeLoadoutUrl } from "@/utils/loadout-url";
+
+// ─── Constants ───────────────────────────────────────────────────────────────
+
+const STORAGE_KEY = "gearmatch_loadout";
+
+// ─── localStorage helpers ────────────────────────────────────────────────────
+
+interface PersistedLoadout {
+  items: LoadoutItem[];
+  activeCuratedLoadout: string | null;
+  updatedAt: number;
+}
+
+function saveToStorage(
+  items: Map<string, LoadoutItem>,
+  activeCuratedLoadout: string | null,
+): void {
+  try {
+    const payload: PersistedLoadout = {
+      items: Array.from(items.values()),
+      activeCuratedLoadout,
+      updatedAt: Date.now(),
+    };
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(payload));
+  } catch {
+    // localStorage may be full or unavailable — fail silently
+  }
+}
+
+function loadFromStorage(): PersistedLoadout | null {
+  try {
+    const raw = localStorage.getItem(STORAGE_KEY);
+    if (!raw) return null;
+    return JSON.parse(raw) as PersistedLoadout;
+  } catch {
+    return null;
+  }
+}
 
 // ─── Product loader by category ──────────────────────────────────────────────
 
@@ -70,6 +112,38 @@ function useAllProducts() {
   return productMap;
 }
 
+// ─── Initialiser (runs once) ─────────────────────────────────────────────────
+
+interface InitialState {
+  items: Map<string, LoadoutItem>;
+  activeCuratedLoadout: string | null;
+}
+
+function buildInitialState(urlProductIds?: string[]): InitialState {
+  // Priority 1: URL params
+  if (urlProductIds && urlProductIds.length > 0) {
+    const items = new Map<string, LoadoutItem>();
+    for (const id of urlProductIds) {
+      // Category will be resolved once products load — use a placeholder
+      items.set(id, { productId: id, category: "mouse", addedAt: Date.now() });
+    }
+    return { items, activeCuratedLoadout: null };
+  }
+
+  // Priority 2: localStorage
+  const stored = loadFromStorage();
+  if (stored && stored.items.length > 0) {
+    const items = new Map<string, LoadoutItem>();
+    for (const item of stored.items) {
+      items.set(item.productId, item);
+    }
+    return { items, activeCuratedLoadout: stored.activeCuratedLoadout };
+  }
+
+  // Priority 3: empty
+  return { items: new Map(), activeCuratedLoadout: null };
+}
+
 // ─── Main hook ───────────────────────────────────────────────────────────────
 
 export interface LoadoutState {
@@ -96,18 +170,46 @@ export interface LoadoutState {
   productMap: Map<string, Product>;
 }
 
-export function useLoadoutState(): LoadoutState {
+export function useLoadoutState(urlProductIds?: string[]): LoadoutState {
   const [selectedCategory, setSelectedCategory] =
     useState<LoadoutCategory | null>(null);
   const [loadoutItems, setLoadoutItems] = useState<Map<string, LoadoutItem>>(
-    () => new Map(),
+    () => buildInitialState(urlProductIds).items,
   );
   const [activeCuratedLoadout, setActiveCuratedLoadout] = useState<
     string | null
-  >(null);
+  >(() => buildInitialState(urlProductIds).activeCuratedLoadout);
   const [isModified, setIsModified] = useState(false);
 
   const productMap = useAllProducts();
+
+  // ── Fix up categories for URL-hydrated items once products load ────────
+  const hasFixedCategories = useRef(false);
+  useEffect(() => {
+    if (hasFixedCategories.current || productMap.size === 0) return;
+    setLoadoutItems((prev) => {
+      let changed = false;
+      const next = new Map(prev);
+      for (const [id, item] of next) {
+        const product = productMap.get(id);
+        if (product && product.category !== item.category) {
+          next.set(id, {
+            ...item,
+            category: product.category as LoadoutCategory,
+          });
+          changed = true;
+        }
+      }
+      if (!changed) return prev;
+      hasFixedCategories.current = true;
+      return next;
+    });
+  }, [productMap]);
+
+  // ── Persist to localStorage on every change ────────────────────────────
+  useEffect(() => {
+    saveToStorage(loadoutItems, activeCuratedLoadout);
+  }, [loadoutItems, activeCuratedLoadout]);
 
   // ── Actions ──────────────────────────────────────────────────────────────
 
@@ -176,8 +278,8 @@ export function useLoadoutState(): LoadoutState {
   }, []);
 
   const getShareUrl = useCallback(() => {
-    const ids = Array.from(loadoutItems.keys()).join(",");
-    return `${window.location.origin}/loadout?items=${ids}`;
+    const items = Array.from(loadoutItems.values());
+    return `${window.location.origin}${encodeLoadoutUrl(items)}`;
   }, [loadoutItems]);
 
   // ── Computed ─────────────────────────────────────────────────────────────
