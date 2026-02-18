@@ -1,27 +1,21 @@
 import React, { useMemo } from "react";
-import { useSearchParams } from "react-router-dom";
 import RadialWheel from "./RadialWheel";
 import ProductListPanel from "./ProductListPanel";
 import LoadoutSummary from "./LoadoutSummary";
 import CuratedLoadoutBrowser from "./CuratedLoadoutBrowser";
-import { useLoadoutState } from "@/hooks/useLoadoutState";
+import type { LoadoutState } from "@/hooks/useLoadoutState";
 import { CURATED_LOADOUTS } from "@/data/curated-loadouts";
-import { decodeLoadoutUrl } from "@/utils/loadout-url";
 import { cn } from "@/lib/utils";
 
-export default function RadialBuyMenu() {
-  const [searchParams] = useSearchParams();
+// ─── Props ───────────────────────────────────────────────────────────────────
 
-  // Decode URL params once (stable ref via useMemo)
-  const urlProductIds = useMemo(
-    () => decodeLoadoutUrl(searchParams),
-    [searchParams],
-  );
+export interface RadialBuyMenuProps {
+  state: LoadoutState;
+}
 
-  const state = useLoadoutState(
-    urlProductIds.length > 0 ? urlProductIds : undefined,
-  );
+// ─── Component ───────────────────────────────────────────────────────────────
 
+export default function RadialBuyMenu({ state }: RadialBuyMenuProps) {
   const loadoutName = useMemo(() => {
     if (!state.activeCuratedLoadout) return null;
     const curated = CURATED_LOADOUTS.find(
