@@ -3,6 +3,7 @@ import { useSearchParams } from "react-router-dom";
 import RadialWheel from "./RadialWheel";
 import ProductListPanel from "./ProductListPanel";
 import LoadoutSummary from "./LoadoutSummary";
+import CuratedLoadoutBrowser from "./CuratedLoadoutBrowser";
 import { useLoadoutState } from "@/hooks/useLoadoutState";
 import { CURATED_LOADOUTS } from "@/data/curated-loadouts";
 import { decodeLoadoutUrl } from "@/utils/loadout-url";
@@ -35,6 +36,12 @@ export default function RadialBuyMenu() {
 
   return (
     <div className="flex flex-col items-center gap-8">
+      {/* Curated loadout browser */}
+      <CuratedLoadoutBrowser
+        currentItemCount={state.itemCount}
+        onLoadLoadout={state.loadCuratedLoadout}
+      />
+
       {/* Wheel + panel row */}
       <div
         className={cn(

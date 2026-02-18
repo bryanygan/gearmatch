@@ -84,10 +84,17 @@ const RadialCenter = React.memo(function RadialCenter({
         <div className="flex flex-col items-center gap-1.5 px-2 text-center">
           {/* Loadout name or default title */}
           {loadoutName ? (
-            <div className="flex flex-col items-center gap-0.5">
-              <span className="text-[10px] font-mono uppercase tracking-widest text-slate-400">
+            <div className="flex flex-col items-center gap-1">
+              <Badge
+                variant="secondary"
+                className={
+                  isModified
+                    ? "bg-amber-900/40 px-1.5 py-0 text-[9px] font-medium text-amber-400 border border-amber-700/40"
+                    : "bg-slate-800 px-1.5 py-0 text-[9px] font-medium text-slate-300 border border-slate-700"
+                }
+              >
                 {isModified ? "Modified" : "Curated"}
-              </span>
+              </Badge>
               <span className="text-xs font-bold text-slate-100 leading-tight">
                 {loadoutName}
               </span>
