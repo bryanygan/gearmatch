@@ -47,7 +47,7 @@ export default function CuratedLoadoutCard({
   const categoriesWithItems = new Set(loadout.items.map((i) => i.category));
 
   return (
-    <Card className="w-64 shrink-0 border-slate-700/50 bg-slate-900/80 backdrop-blur-sm transition-all duration-200 hover:-translate-y-0.5 hover:border-slate-600/60 hover:shadow-lg hover:shadow-slate-900/50">
+    <Card className="w-52 md:w-64 shrink-0 border-slate-700/50 bg-slate-900/80 backdrop-blur-sm transition-all duration-200 hover:-translate-y-0.5 hover:border-slate-600/60 hover:shadow-lg hover:shadow-slate-900/50">
       <CardContent className="flex flex-col gap-3 p-4">
         {/* Name */}
         <h3 className="font-mono text-sm font-bold uppercase tracking-wider text-slate-100">

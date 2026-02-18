@@ -104,7 +104,7 @@ export default function MobileBuyMenu({ state, initialCategory }: MobileBuyMenuP
   );
 
   return (
-    <div className="flex flex-col gap-4 px-4">
+    <div className="flex flex-col gap-4 w-full">
       {/* Curated loadouts browser */}
       <CuratedLoadoutBrowser
         currentItemCount={state.itemCount}

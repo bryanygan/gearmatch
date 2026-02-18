@@ -195,6 +195,15 @@
     animation-play-state: paused;
   }
 
+  /* Hide scrollbar for horizontal scroll areas */
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+
   /* ── Loadout animations ──────────────────────────────────────────────────── */
 
   .loadout-scale-in {
