@@ -27,3 +27,6 @@ public/data/products/
 *.sln
 *.sw?
 .claude/
+.env
+.env.local
+scripts/output/

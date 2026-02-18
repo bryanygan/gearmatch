@@ -47,7 +47,7 @@ const QuizLayout = ({ children, accentColor = "primary" }: QuizLayoutProps) => {
       </header>
 
       {/* Main content */}
-      <main className="mx-auto flex flex-1 flex-col min-h-0 w-full max-w-4xl px-6 pb-4 md:pb-6 pt-20">{children}</main>
+      <main className="mx-auto flex flex-1 flex-col min-h-0 overflow-y-auto w-full max-w-4xl px-6 pb-4 md:pb-6 pt-20">{children}</main>
 
       {/* Decorative background elements */}
       <div className="pointer-events-none fixed inset-0 overflow-hidden">
