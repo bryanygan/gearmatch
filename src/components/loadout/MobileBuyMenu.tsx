@@ -67,12 +67,13 @@ function sortProducts(products: Product[], key: SortKey): Product[] {
 
 export interface MobileBuyMenuProps {
   state: LoadoutState;
+  initialCategory?: LoadoutCategory | null;
 }
 
 // ─── Component ───────────────────────────────────────────────────────────────
 
-export default function MobileBuyMenu({ state }: MobileBuyMenuProps) {
-  const [activeTab, setActiveTab] = useState<LoadoutCategory>("mouse");
+export default function MobileBuyMenu({ state, initialCategory }: MobileBuyMenuProps) {
+  const [activeTab, setActiveTab] = useState<LoadoutCategory>(initialCategory ?? "mouse");
   const [sortKey, setSortKey] = useState<SortKey>("price-asc");
 
   const { data: products, isLoading } =

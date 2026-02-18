@@ -12,7 +12,7 @@ const categories = [
     available: true,
     cta: "Find Your Mouse",
     accent: "primary" as const,
-    href: "/quiz/mouse",
+    href: "/loadout?category=mouse",
   },
   {
     id: "audio",
@@ -23,7 +23,7 @@ const categories = [
     available: true,
     cta: "Find Your Audio",
     accent: "accent" as const,
-    href: "/quiz/audio",
+    href: "/loadout?category=audio",
   },
   {
     id: "keyboards",
@@ -34,7 +34,7 @@ const categories = [
     available: true,
     cta: "Find Your Keyboard",
     accent: "keyboard" as const,
-    href: "/quiz/keyboard",
+    href: "/loadout?category=keyboard",
   },
   {
     id: "monitors",
@@ -45,7 +45,7 @@ const categories = [
     available: true,
     cta: "Find Your Monitor",
     accent: "tertiary" as const,
-    href: "/quiz/monitor",
+    href: "/loadout?category=monitor",
   },
   {
     id: "switches",
