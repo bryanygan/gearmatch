@@ -1,12 +1,20 @@
-import React from "react";
+import React, { useState, useMemo, useCallback } from "react";
 import {
   Mouse,
   Headphones,
   Keyboard,
   Monitor,
+  Check,
   type LucideIcon,
 } from "lucide-react";
 import { ScrollArea } from "@/components/ui/scroll-area";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
 import ProductListItem from "./ProductListItem";
 import { cn } from "@/lib/utils";
 import type { LoadoutCategory } from "@/types/loadout";
@@ -24,6 +32,35 @@ const ICON_MAP: Record<string, LucideIcon> = {
   Monitor,
 };
 
+// ─── Sort options ────────────────────────────────────────────────────────────
+
+type SortKey = "price-asc" | "price-desc" | "name-asc" | "name-desc";
+
+const SORT_OPTIONS: { value: SortKey; label: string }[] = [
+  { value: "price-asc", label: "Price: Low → High" },
+  { value: "price-desc", label: "Price: High → Low" },
+  { value: "name-asc", label: "Name: A → Z" },
+  { value: "name-desc", label: "Name: Z → A" },
+];
+
+function avgPrice(p: Product): number {
+  return (p.price_range_usd[0] + p.price_range_usd[1]) / 2;
+}
+
+function sortProducts(products: Product[], key: SortKey): Product[] {
+  const sorted = [...products];
+  switch (key) {
+    case "price-asc":
+      return sorted.sort((a, b) => avgPrice(a) - avgPrice(b));
+    case "price-desc":
+      return sorted.sort((a, b) => avgPrice(b) - avgPrice(a));
+    case "name-asc":
+      return sorted.sort((a, b) => a.name.localeCompare(b.name));
+    case "name-desc":
+      return sorted.sort((a, b) => b.name.localeCompare(a.name));
+  }
+}
+
 // ─── Props ───────────────────────────────────────────────────────────────────
 
 export interface ProductListPanelProps {
@@ -39,6 +76,7 @@ export default function ProductListPanel({
   selectedProductIds,
   onToggleItem,
 }: ProductListPanelProps) {
+  const [sortKey, setSortKey] = useState<SortKey>("price-asc");
   const meta: LoadoutCategoryMeta | undefined = LOADOUT_CATEGORIES.find(
     (c) => c.id === category,
   );
@@ -46,14 +84,17 @@ export default function ProductListPanel({
   const Icon = meta ? (ICON_MAP[meta.icon] ?? Mouse) : Mouse;
   const accentColor = meta?.color ?? "#10B981";
 
-  const sorted = React.useMemo(() => {
+  const sorted = useMemo(() => {
     if (!products) return [];
-    return [...products].sort(
-      (a, b) => a.price_range_usd[0] - b.price_range_usd[0],
-    );
-  }, [products]);
+    return sortProducts(products, sortKey);
+  }, [products, sortKey]);
 
-  const handleToggle = React.useCallback(
+  const allSelected =
+    !isLoading &&
+    sorted.length > 0 &&
+    sorted.every((p) => selectedProductIds.has(p.id));
+
+  const handleToggle = useCallback(
     (productId: string) => onToggleItem(productId, category),
     [onToggleItem, category],
   );
@@ -81,21 +122,75 @@ export default function ProductListPanel({
         </span>
       </div>
 
+      {/* Sort bar */}
+      {sorted.length > 0 && (
+        <div className="border-b border-slate-700/30 px-3 py-2">
+          <Select
+            value={sortKey}
+            onValueChange={(v) => setSortKey(v as SortKey)}
+          >
+            <SelectTrigger className="h-7 w-full border-slate-700 bg-slate-800/60 text-xs text-slate-300">
+              <SelectValue />
+            </SelectTrigger>
+            <SelectContent>
+              {SORT_OPTIONS.map((opt) => (
+                <SelectItem key={opt.value} value={opt.value} className="text-xs">
+                  {opt.label}
+                </SelectItem>
+              ))}
+            </SelectContent>
+          </Select>
+        </div>
+      )}
+
       {/* Product list */}
       <ScrollArea className="flex-1">
         <div className="flex flex-col gap-1 p-2">
+          {/* Loading */}
           {isLoading && (
             <div className="py-8 text-center text-sm text-slate-500">
               Loading…
             </div>
           )}
 
+          {/* Coming Soon — no products in data */}
           {!isLoading && sorted.length === 0 && (
-            <div className="py-8 text-center text-sm text-slate-500">
-              No products available
+            <div className="flex flex-col items-center gap-3 py-12">
+              <Icon
+                size={40}
+                style={{ color: accentColor, opacity: 0.3 }}
+              />
+              <div className="text-center">
+                <p className="font-mono text-sm font-bold uppercase tracking-wider text-slate-400">
+                  Coming Soon
+                </p>
+                <p className="mt-1 text-xs text-slate-500">
+                  Products for this category are on the way.
+                </p>
+              </div>
             </div>
           )}
 
+          {/* All items already selected */}
+          {!isLoading && allSelected && (
+            <div className="flex flex-col items-center gap-2 py-6">
+              <div
+                className="flex h-10 w-10 items-center justify-center rounded-full"
+                style={{ backgroundColor: `${accentColor}20` }}
+              >
+                <Check
+                  size={20}
+                  style={{ color: accentColor }}
+                  className="animate-in zoom-in-50 duration-300"
+                />
+              </div>
+              <p className="text-xs font-medium text-slate-400">
+                All items added
+              </p>
+            </div>
+          )}
+
+          {/* Product rows */}
           {sorted.map((product: Product) => (
             <ProductListItem
               key={product.id}
