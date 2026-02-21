@@ -1,10 +1,11 @@
-import React, { useState, useCallback } from "react";
+import React, { useState, useCallback, useRef, useEffect } from "react";
 import {
   Carousel,
   CarouselContent,
   CarouselItem,
   CarouselPrevious,
   CarouselNext,
+  type CarouselApi,
 } from "@/components/ui/carousel";
 import {
   AlertDialog,
@@ -33,6 +34,27 @@ export default function CuratedLoadoutBrowser({
   onLoadLoadout,
 }: CuratedLoadoutBrowserProps) {
   const [pendingLoadoutId, setPendingLoadoutId] = useState<string | null>(null);
+  const [carouselApi, setCarouselApi] = useState<CarouselApi>();
+  const carouselWrapperRef = useRef<HTMLDivElement>(null);
+
+  // Convert mouse wheel scroll to horizontal carousel scrolling
+  useEffect(() => {
+    const wrapper = carouselWrapperRef.current;
+    if (!wrapper || !carouselApi) return;
+
+    const onWheel = (e: WheelEvent) => {
+      if (e.deltaY === 0) return;
+      e.preventDefault();
+      if (e.deltaY > 0) {
+        carouselApi.scrollNext();
+      } else {
+        carouselApi.scrollPrev();
+      }
+    };
+
+    wrapper.addEventListener("wheel", onWheel, { passive: false });
+    return () => wrapper.removeEventListener("wheel", onWheel);
+  }, [carouselApi]);
 
   const handleLoad = useCallback(
     (loadoutId: string) => {
@@ -69,9 +91,10 @@ export default function CuratedLoadoutBrowser({
       </div>
 
       {/* Desktop carousel */}
-      <div className="hidden md:block px-12">
+      <div ref={carouselWrapperRef} className="hidden md:block px-12">
         <Carousel
           opts={{ align: "start", loop: false }}
+          setApi={setCarouselApi}
           className="w-full"
         >
           <CarouselContent className="-ml-3">

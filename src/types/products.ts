@@ -392,6 +392,8 @@ export interface Product {
   recommendation_tags: string[];
   /** Data sourcing and confidence metadata */
   data_quality: DataQuality;
+  /** RTINGS usage-based scores (0–10 scale, keys vary by category) */
+  rtings_scores?: Record<string, number>;
 }
 
 // =============================================================================

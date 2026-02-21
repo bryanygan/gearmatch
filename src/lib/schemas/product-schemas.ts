@@ -86,6 +86,7 @@ const baseProductShape = {
   retailer_urls: z.record(z.string(), z.string()).optional(),
   recommendation_tags: z.array(z.string()),
   data_quality: dataQualitySchema,
+  rtings_scores: z.record(z.string(), z.number()).optional(),
 };
 
 // =============================================================================

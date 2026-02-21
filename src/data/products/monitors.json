@@ -111,6 +111,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 6.7,
+      "office": 6.5,
+      "editing": 7.2,
+      "console_gaming": 4.9
     }
   },
   {
@@ -211,6 +217,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.6,
+      "office": 7.6,
+      "editing": 7.3,
+      "console_gaming": 3.0
     }
   },
   {
@@ -311,6 +323,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.5,
+      "office": 6.4,
+      "editing": 5.9,
+      "console_gaming": 2.6
     }
   },
   {
@@ -425,6 +443,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.0,
+      "office": 7.0,
+      "editing": 6.6,
+      "console_gaming": 5.1
     }
   },
   {
@@ -513,6 +537,11 @@
         "gsync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.4,
+      "office": 7.1,
+      "editing": 6.6
     }
   },
   {
@@ -609,6 +638,11 @@
         "freesync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.3,
+      "office": 7.2,
+      "editing": 6.8
     }
   },
   {
@@ -729,6 +763,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.6,
+      "office": 8.4,
+      "editing": 7.7,
+      "console_gaming": 8.2
     }
   },
   {
@@ -835,6 +875,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.6,
+      "office": 7.4,
+      "editing": 7.3,
+      "console_gaming": 6.0
     }
   },
   {
@@ -950,6 +996,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 6.8,
+      "office": 7.3,
+      "editing": 6.9,
+      "console_gaming": 6.2
     }
   },
   {
@@ -1048,6 +1100,11 @@
         "freesync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 8.2,
+      "office": 7.5,
+      "editing": 7.5
     }
   },
   {
@@ -1155,6 +1212,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 8.3,
+      "office": 7.4,
+      "editing": 7.3,
+      "console_gaming": 6.0
     }
   },
   {
@@ -1261,6 +1324,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 8.4,
+      "office": 7.0,
+      "editing": 7.1,
+      "console_gaming": 6.2
     }
   },
   {
@@ -1368,6 +1437,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 8.3,
+      "office": 7.6,
+      "editing": 7.9,
+      "console_gaming": 6.3
     }
   },
   {
@@ -1477,6 +1552,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 8.5,
+      "office": 8.2,
+      "editing": 8.2,
+      "console_gaming": 6.5
     }
   },
   {
@@ -1594,6 +1675,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.2,
+      "office": 7.5,
+      "editing": 7.3,
+      "console_gaming": 6.6
     }
   },
   {
@@ -1703,6 +1790,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 8.7,
+      "office": 8.2,
+      "editing": 8.3,
+      "console_gaming": 7.1
     }
   },
   {
@@ -1822,6 +1915,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 6.9,
+      "office": 7.4,
+      "editing": 6.9,
+      "console_gaming": 6.4
     }
   },
   {
@@ -1939,6 +2038,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.2,
+      "office": 7.6,
+      "editing": 7.2,
+      "console_gaming": 7.8
     }
   },
   {
@@ -2061,6 +2166,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.1,
+      "office": 8.3,
+      "editing": 7.7,
+      "console_gaming": 8.0
     }
   },
   {
@@ -2191,6 +2302,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 8.8,
+      "office": 7.2,
+      "editing": 8.6,
+      "console_gaming": 8.8
     }
   },
   {
@@ -2313,6 +2430,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.5,
+      "office": 8.2,
+      "editing": 7.7,
+      "console_gaming": 8.4
     }
   },
   {
@@ -2445,6 +2568,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 9.0,
+      "office": 7.3,
+      "editing": 8.8,
+      "console_gaming": 9.0
     }
   },
   {
@@ -2580,6 +2709,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 9.1,
+      "office": 7.6,
+      "editing": 8.7,
+      "console_gaming": 9.2
     }
   },
   {
@@ -2715,6 +2850,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 9.2,
+      "office": 7.1,
+      "editing": 8.6,
+      "console_gaming": 9.0
     }
   },
   {
@@ -2842,6 +2983,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.7,
+      "office": 8.6,
+      "editing": 7.9,
+      "console_gaming": 8.5
     }
   },
   {
@@ -2934,6 +3081,12 @@
         "freesync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 6.3,
+      "office": 6.4,
+      "editing": 6.5,
+      "console_gaming": 2.8
     }
   },
   {
@@ -3024,6 +3177,11 @@
         "gsync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.2,
+      "office": 7.3,
+      "editing": 6.8
     }
   },
   {
@@ -3115,6 +3273,11 @@
         "gsync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.5,
+      "office": 7.4,
+      "editing": 7.1
     }
   },
   {
@@ -3206,6 +3369,11 @@
         "gsync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 8.0,
+      "office": 7.9,
+      "editing": 7.6
     }
   },
   {
@@ -3304,6 +3472,11 @@
         "freesync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.9,
+      "office": 8.1,
+      "editing": 8.1
     }
   },
   {
@@ -3397,6 +3570,11 @@
         "gsync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.5,
+      "office": 7.0,
+      "editing": 6.7
     }
   },
   {
@@ -3492,6 +3670,11 @@
         "freesync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 8.1,
+      "office": 7.3,
+      "editing": 7.1
     }
   },
   {
@@ -3585,6 +3768,11 @@
         "gsync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 8.3,
+      "office": 7.4,
+      "editing": 7.2
     }
   },
   {
@@ -3682,6 +3870,11 @@
         "freesync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.9,
+      "office": 6.8,
+      "editing": 7.0
     }
   },
   {
@@ -3792,6 +3985,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.9,
+      "office": 6.5,
+      "editing": 7.2,
+      "console_gaming": 6.6
     }
   },
   {
@@ -3910,6 +4109,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 6.6,
+      "office": 6.9,
+      "editing": 7.1,
+      "console_gaming": 6.1
     }
   },
   {
@@ -4026,6 +4231,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.2,
+      "office": 7.4,
+      "editing": 7.4,
+      "console_gaming": 6.6
     }
   },
   {
@@ -4147,6 +4358,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.4,
+      "office": 7.9,
+      "editing": 7.7,
+      "console_gaming": 8.3
     }
   },
   {
@@ -4269,6 +4486,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.3,
+      "office": 8.1,
+      "editing": 7.8,
+      "console_gaming": 8.2
     }
   },
   {
@@ -4404,6 +4627,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 9.2,
+      "office": 8.2,
+      "editing": 8.7,
+      "console_gaming": 9.2
     }
   },
   {
@@ -4501,6 +4730,12 @@
         "freesync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 6.9,
+      "office": 7.6,
+      "editing": 7.7,
+      "console_gaming": 6.4
     }
   },
   {
@@ -4594,6 +4829,11 @@
         "gsync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.8,
+      "office": 7.5,
+      "editing": 7.3
     }
   },
   {
@@ -4693,6 +4933,11 @@
         "freesync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.7,
+      "office": 8.0,
+      "editing": 8.1
     }
   },
   {
@@ -4798,6 +5043,12 @@
         "freesync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.1,
+      "office": 7.2,
+      "editing": 7.8,
+      "console_gaming": 6.9
     }
   },
   {
@@ -4897,6 +5148,11 @@
         "freesync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.4,
+      "office": 7.9,
+      "editing": 7.9
     }
   },
   {
@@ -4999,6 +5255,11 @@
         "freesync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 8.2,
+      "office": 7.8,
+      "editing": 7.8
     }
   },
   {
@@ -5109,6 +5370,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 8.5,
+      "office": 7.7,
+      "editing": 8.0,
+      "console_gaming": 6.6
     }
   },
   {
@@ -5228,6 +5495,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.1,
+      "office": 7.3,
+      "editing": 7.3,
+      "console_gaming": 6.5
     }
   },
   {
@@ -5336,6 +5609,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 8.3,
+      "office": 7.7,
+      "editing": 7.9,
+      "console_gaming": 7.2
     }
   },
   {
@@ -5474,6 +5753,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 9.0,
+      "office": 7.2,
+      "editing": 8.8,
+      "console_gaming": 8.9
     }
   },
   {
@@ -5567,6 +5852,11 @@
         "gsync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 8.1,
+      "office": 7.6,
+      "editing": 7.3
     }
   },
   {
@@ -5663,6 +5953,11 @@
         "gsync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.6,
+      "office": 7.8,
+      "editing": 7.7
     }
   },
   {
@@ -5770,6 +6065,12 @@
         "freesync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.4,
+      "office": 7.2,
+      "editing": 7.6,
+      "console_gaming": 6.7
     }
   },
   {
@@ -5871,6 +6172,11 @@
         "gsync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 8.4,
+      "office": 7.9,
+      "editing": 8.0
     }
   },
   {
@@ -5983,6 +6289,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 8.5,
+      "office": 7.7,
+      "editing": 8.1,
+      "console_gaming": 7.2
     }
   },
   {
@@ -6101,6 +6413,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 8.4,
+      "office": 7.8,
+      "editing": 8.0,
+      "console_gaming": 7.0
     }
   },
   {
@@ -6228,6 +6546,12 @@
         "freesync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 6.0,
+      "office": 7.9,
+      "editing": 7.6,
+      "console_gaming": 4.6
     }
   },
   {
@@ -6335,6 +6659,12 @@
         "gsync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 8.7,
+      "office": 7.5,
+      "editing": 8.3,
+      "console_gaming": 8.9
     }
   },
   {
@@ -6440,6 +6770,12 @@
         "freesync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 8.9,
+      "office": 7.0,
+      "editing": 8.1,
+      "console_gaming": 8.9
     }
   },
   {
@@ -6567,6 +6903,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 8.8,
+      "office": 6.3,
+      "editing": 8.8,
+      "console_gaming": 9.2
     }
   },
   {
@@ -6678,6 +7020,12 @@
         "freesync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 8.9,
+      "office": 7.9,
+      "editing": 8.7,
+      "console_gaming": 9.0
     }
   },
   {
@@ -6784,6 +7132,12 @@
         "freesync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 8.2,
+      "office": 6.8,
+      "editing": 7.3,
+      "console_gaming": 8.5
     }
   },
   {
@@ -6877,6 +7231,11 @@
         "gsync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.3,
+      "office": 7.4,
+      "editing": 7.0
     }
   },
   {
@@ -6986,6 +7345,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 9.0,
+      "office": 7.6,
+      "editing": 8.7,
+      "console_gaming": 9.0
     }
   },
   {
@@ -7130,6 +7495,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 9.0,
+      "office": 7.7,
+      "editing": 9.0,
+      "console_gaming": 9.2
     }
   },
   {
@@ -7235,6 +7606,12 @@
         "freesync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 8.9,
+      "office": 7.1,
+      "editing": 8.2,
+      "console_gaming": 9.1
     }
   },
   {
@@ -7334,6 +7711,11 @@
         "freesync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 8.7,
+      "office": 8.1,
+      "editing": 8.1
     }
   },
   {
@@ -7444,6 +7826,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 9.0,
+      "office": 6.9,
+      "editing": 8.1,
+      "console_gaming": 8.9
     }
   },
   {
@@ -7563,6 +7951,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.6,
+      "office": 7.4,
+      "editing": 7.3,
+      "console_gaming": 8.0
     }
   },
   {
@@ -7661,6 +8055,11 @@
         "speakers"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.4,
+      "office": 7.7,
+      "editing": 7.8
     }
   },
   {
@@ -7753,6 +8152,11 @@
         "gsync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 8.4,
+      "office": 7.4,
+      "editing": 7.4
     }
   },
   {
@@ -7882,6 +8286,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 8.9,
+      "office": 7.1,
+      "editing": 8.7,
+      "console_gaming": 7.5
     }
   },
   {
@@ -7985,6 +8395,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 8.3,
+      "office": 7.7,
+      "editing": 7.7,
+      "console_gaming": 6.3
     }
   },
   {
@@ -8085,6 +8501,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 8.0,
+      "office": 7.7,
+      "editing": 7.2,
+      "console_gaming": 2.9
     }
   },
   {
@@ -8198,6 +8620,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.2,
+      "office": 7.4,
+      "editing": 6.8,
+      "console_gaming": 5.7
     }
   },
   {
@@ -8313,6 +8741,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.6,
+      "office": 7.3,
+      "editing": 6.8,
+      "console_gaming": 5.3
     }
   },
   {
@@ -8408,6 +8842,11 @@
         "freesync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 8.2,
+      "office": 7.7,
+      "editing": 7.2
     }
   },
   {
@@ -8512,6 +8951,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 8.3,
+      "office": 8.1,
+      "editing": 7.9,
+      "console_gaming": 7.0
     }
   },
   {
@@ -8627,6 +9072,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.1,
+      "office": 7.5,
+      "editing": 7.3,
+      "console_gaming": 6.5
     }
   },
   {
@@ -8742,6 +9193,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.3,
+      "office": 7.6,
+      "editing": 7.4,
+      "console_gaming": 7.1
     }
   },
   {
@@ -8869,6 +9326,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 9.2,
+      "office": 7.0,
+      "editing": 9.0,
+      "console_gaming": 8.3
     }
   },
   {
@@ -9003,6 +9466,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 9.0,
+      "office": 8.1,
+      "editing": 8.9,
+      "console_gaming": 9.3
     }
   },
   {
@@ -9130,6 +9599,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.5,
+      "office": 8.4,
+      "editing": 7.7,
+      "console_gaming": 8.2
     }
   },
   {
@@ -9247,6 +9722,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.6,
+      "office": 7.4,
+      "editing": 7.4,
+      "console_gaming": 7.3
     }
   },
   {
@@ -9383,6 +9864,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 9.0,
+      "office": 7.5,
+      "editing": 9.3,
+      "console_gaming": 9.0
     }
   },
   {
@@ -9477,6 +9964,11 @@
         "gsync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.7,
+      "office": 7.8,
+      "editing": 7.3
     }
   },
   {
@@ -9571,6 +10063,11 @@
         "gsync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 8.0,
+      "office": 7.7,
+      "editing": 7.3
     }
   },
   {
@@ -9696,6 +10193,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 9.0,
+      "office": 7.6,
+      "editing": 9.0,
+      "console_gaming": 7.5
     }
   },
   {
@@ -9823,6 +10326,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 8.9,
+      "office": 7.6,
+      "editing": 9.0,
+      "console_gaming": 8.3
     }
   },
   {
@@ -9954,6 +10463,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 9.1,
+      "office": 6.9,
+      "editing": 9.0,
+      "console_gaming": 9.1
     }
   },
   {
@@ -10074,6 +10589,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.6,
+      "office": 7.5,
+      "editing": 7.5,
+      "console_gaming": 7.3
     }
   },
   {
@@ -10182,6 +10703,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 8.0,
+      "office": 7.9,
+      "editing": 7.8,
+      "console_gaming": 7.0
     }
   },
   {
@@ -10278,6 +10805,11 @@
         "freesync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 8.2,
+      "office": 7.9,
+      "editing": 7.8
     }
   },
   {
@@ -10383,6 +10915,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 8.6,
+      "office": 8.1,
+      "editing": 8.2,
+      "console_gaming": 6.2
     }
   },
   {
@@ -10479,6 +11017,11 @@
         "freesync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 8.4,
+      "office": 8.0,
+      "editing": 8.0
     }
   },
   {
@@ -10594,6 +11137,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 8.5,
+      "office": 8.4,
+      "editing": 8.3,
+      "console_gaming": 6.7
     }
   },
   {
@@ -10730,6 +11279,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 9.3,
+      "office": 7.3,
+      "editing": 9.0,
+      "console_gaming": 9.2
     }
   },
   {
@@ -10873,6 +11428,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 9.1,
+      "office": 8.0,
+      "editing": 9.2,
+      "console_gaming": 9.4
     }
   },
   {
@@ -10990,6 +11551,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 9.0,
+      "office": 7.0,
+      "editing": 8.2,
+      "console_gaming": 8.9
     }
   },
   {
@@ -11106,6 +11673,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 8.5,
+      "office": 6.8,
+      "editing": 7.7,
+      "console_gaming": 8.3
     }
   },
   {
@@ -11193,6 +11766,11 @@
         "portable"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 6.2,
+      "office": 7.0,
+      "editing": 6.5
     }
   },
   {
@@ -11288,6 +11866,11 @@
         "gsync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 6.9,
+      "office": 6.8,
+      "editing": 6.5
     }
   },
   {
@@ -11379,6 +11962,11 @@
         "gsync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 6.2,
+      "office": 6.4,
+      "editing": 6.0
     }
   },
   {
@@ -11474,6 +12062,11 @@
         "gsync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.5,
+      "office": 6.9,
+      "editing": 6.9
     }
   },
   {
@@ -11569,6 +12162,11 @@
         "gsync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 8.0,
+      "office": 7.1,
+      "editing": 7.1
     }
   },
   {
@@ -11667,6 +12265,11 @@
         "gsync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 8.1,
+      "office": 7.1,
+      "editing": 7.5
     }
   },
   {
@@ -11770,6 +12373,12 @@
         "freesync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.6,
+      "office": 7.8,
+      "editing": 7.6,
+      "console_gaming": 7.0
     }
   },
   {
@@ -11903,6 +12512,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 8.8,
+      "office": 6.5,
+      "editing": 8.7,
+      "console_gaming": 9.3
     }
   },
   {
@@ -11998,6 +12613,11 @@
         "gsync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.4,
+      "office": 7.0,
+      "editing": 6.6
     }
   },
   {
@@ -12097,6 +12717,11 @@
         "freesync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 8.2,
+      "office": 7.5,
+      "editing": 7.8
     }
   },
   {
@@ -12192,6 +12817,11 @@
         "freesync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 8.1,
+      "office": 7.3,
+      "editing": 7.1
     }
   },
   {
@@ -12294,6 +12924,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.5,
+      "office": 7.2,
+      "editing": 7.0,
+      "console_gaming": 3.2
     }
   },
   {
@@ -12391,6 +13027,11 @@
         "freesync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.6,
+      "office": 7.2,
+      "editing": 6.8
     }
   },
   {
@@ -12498,6 +13139,12 @@
         "freesync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.5,
+      "office": 7.6,
+      "editing": 7.8,
+      "console_gaming": 6.5
     }
   },
   {
@@ -12588,6 +13235,11 @@
         "freesync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.3,
+      "office": 6.9,
+      "editing": 6.7
     }
   },
   {
@@ -12675,6 +13327,11 @@
         "gsync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.1,
+      "office": 6.9,
+      "editing": 6.5
     }
   },
   {
@@ -12776,6 +13433,12 @@
         "portable"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 5.1,
+      "office": 7.0,
+      "editing": 7.1,
+      "console_gaming": 3.2
     }
   },
   {
@@ -12866,6 +13529,11 @@
         "portable"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 5.8,
+      "office": 6.5,
+      "editing": 6.1
     }
   },
   {
@@ -12952,6 +13620,11 @@
       ],
       "monitor_feature_tags": [],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 6.5,
+      "office": 6.5,
+      "editing": 6.2
     }
   },
   {
@@ -13053,6 +13726,11 @@
         "freesync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.7,
+      "office": 6.8,
+      "editing": 7.2
     }
   },
   {
@@ -13152,6 +13830,11 @@
         "freesync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.3,
+      "office": 7.0,
+      "editing": 7.2
     }
   },
   {
@@ -13250,6 +13933,11 @@
         "freesync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 8.5,
+      "office": 7.7,
+      "editing": 7.6
     }
   },
   {
@@ -13350,6 +14038,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.7,
+      "office": 8.0,
+      "editing": 7.2,
+      "console_gaming": 2.8
     }
   },
   {
@@ -13450,6 +14144,11 @@
         "freesync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.6,
+      "office": 7.5,
+      "editing": 7.7
     }
   },
   {
@@ -13553,6 +14252,11 @@
         "freesync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 8.0,
+      "office": 7.5,
+      "editing": 7.5
     }
   },
   {
@@ -13668,6 +14372,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.9,
+      "office": 7.9,
+      "editing": 7.7,
+      "console_gaming": 6.9
     }
   },
   {
@@ -13781,6 +14491,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 6.5,
+      "office": 7.1,
+      "editing": 6.2,
+      "console_gaming": 4.1
     }
   },
   {
@@ -13871,6 +14587,11 @@
         "gsync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.2,
+      "office": 6.9,
+      "editing": 6.6
     }
   },
   {
@@ -13971,6 +14692,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.6,
+      "office": 7.2,
+      "editing": 6.9,
+      "console_gaming": 3.0
     }
   },
   {
@@ -14088,6 +14815,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.3,
+      "office": 7.9,
+      "editing": 7.6,
+      "console_gaming": 7.1
     }
   },
   {
@@ -14197,6 +14930,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 6.4,
+      "office": 7.2,
+      "editing": 6.5,
+      "console_gaming": 4.3
     }
   },
   {
@@ -14316,6 +15055,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 6.9,
+      "office": 7.7,
+      "editing": 6.8,
+      "console_gaming": 6.1
     }
   },
   {
@@ -14424,6 +15169,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 8.0,
+      "office": 7.8,
+      "editing": 7.9,
+      "console_gaming": 6.7
     }
   },
   {
@@ -14526,6 +15277,11 @@
         "freesync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 8.2,
+      "office": 7.3,
+      "editing": 7.5
     }
   },
   {
@@ -14646,6 +15402,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.2,
+      "office": 8.1,
+      "editing": 8.0,
+      "console_gaming": 8.2
     }
   },
   {
@@ -14754,6 +15516,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.8,
+      "office": 7.3,
+      "editing": 7.3,
+      "console_gaming": 6.5
     }
   },
   {
@@ -14866,6 +15634,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 8.0,
+      "office": 7.5,
+      "editing": 7.6,
+      "console_gaming": 6.9
     }
   },
   {
@@ -14953,6 +15727,11 @@
         "gsync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.0,
+      "office": 6.5,
+      "editing": 6.2
     }
   },
   {
@@ -15072,6 +15851,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 6.9,
+      "office": 6.9,
+      "editing": 7.1,
+      "console_gaming": 6.3
     }
   },
   {
@@ -15203,6 +15988,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 9.2,
+      "office": 7.2,
+      "editing": 8.8,
+      "console_gaming": 7.5
     }
   },
   {
@@ -15314,6 +16105,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 8.2,
+      "office": 7.0,
+      "editing": 7.3,
+      "console_gaming": 6.4
     }
   },
   {
@@ -15438,6 +16235,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.4,
+      "office": 8.4,
+      "editing": 7.9,
+      "console_gaming": 8.4
     }
   },
   {
@@ -15561,6 +16364,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.4,
+      "office": 8.2,
+      "editing": 7.4,
+      "console_gaming": 8.4
     }
   },
   {
@@ -15654,6 +16463,11 @@
         "curved"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.4,
+      "office": 6.8,
+      "editing": 6.6
     }
   },
   {
@@ -15755,6 +16569,11 @@
         "freesync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 8.4,
+      "office": 8.0,
+      "editing": 8.0
     }
   },
   {
@@ -15881,6 +16700,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.0,
+      "office": 8.2,
+      "editing": 7.6,
+      "console_gaming": 7.2
     }
   },
   {
@@ -15996,6 +16821,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 8.3,
+      "office": 7.8,
+      "editing": 7.9,
+      "console_gaming": 6.2
     }
   },
   {
@@ -16118,6 +16949,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.1,
+      "office": 7.4,
+      "editing": 7.3,
+      "console_gaming": 6.5
     }
   },
   {
@@ -16241,6 +17078,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 6.6,
+      "office": 7.5,
+      "editing": 7.6,
+      "console_gaming": 6.2
     }
   },
   {
@@ -16366,6 +17209,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.1,
+      "office": 7.7,
+      "editing": 7.5,
+      "console_gaming": 6.6
     }
   },
   {
@@ -16494,6 +17343,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.2,
+      "office": 8.3,
+      "editing": 7.6,
+      "console_gaming": 8.1
     }
   },
   {
@@ -16611,6 +17466,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 8.6,
+      "office": 8.2,
+      "editing": 8.3,
+      "console_gaming": 6.5
     }
   },
   {
@@ -16724,6 +17585,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 8.5,
+      "office": 7.8,
+      "editing": 8.0,
+      "console_gaming": 6.3
     }
   },
   {
@@ -16851,6 +17718,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.1,
+      "office": 8.2,
+      "editing": 7.7,
+      "console_gaming": 7.9
     }
   },
   {
@@ -16980,6 +17853,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.2,
+      "office": 8.3,
+      "editing": 7.6,
+      "console_gaming": 8.1
     }
   },
   {
@@ -17095,6 +17974,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 8.3,
+      "office": 8.0,
+      "editing": 8.0,
+      "console_gaming": 6.4
     }
   },
   {
@@ -17220,6 +18105,12 @@
         "freesync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.1,
+      "office": 8.5,
+      "editing": 7.6,
+      "console_gaming": 8.0
     }
   },
   {
@@ -17357,6 +18248,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 9.0,
+      "office": 7.5,
+      "editing": 8.8,
+      "console_gaming": 9.1
     }
   },
   {
@@ -17499,6 +18396,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 9.1,
+      "office": 7.6,
+      "editing": 8.6,
+      "console_gaming": 9.1
     }
   },
   {
@@ -17630,6 +18533,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.9,
+      "office": 8.4,
+      "editing": 8.2,
+      "console_gaming": 8.5
     }
   },
   {
@@ -17729,6 +18638,11 @@
         "freesync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.4,
+      "office": 7.1,
+      "editing": 7.5
     }
   },
   {
@@ -17867,6 +18781,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 9.2,
+      "office": 7.1,
+      "editing": 8.8,
+      "console_gaming": 9.1
     }
   },
   {
@@ -18004,6 +18924,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 9.1,
+      "office": 7.9,
+      "editing": 9.2,
+      "console_gaming": 9.3
     }
   },
   {
@@ -18131,6 +19057,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.7,
+      "office": 8.5,
+      "editing": 7.7,
+      "console_gaming": 8.5
     }
   },
   {
@@ -18275,6 +19207,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 9.1,
+      "office": 7.5,
+      "editing": 9.1,
+      "console_gaming": 9.4
     }
   },
   {
@@ -18418,6 +19356,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 9.0,
+      "office": 7.5,
+      "editing": 9.1,
+      "console_gaming": 9.3
     }
   },
   {
@@ -18556,6 +19500,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 9.1,
+      "office": 7.0,
+      "editing": 8.8,
+      "console_gaming": 9.1
     }
   },
   {
@@ -18645,6 +19595,11 @@
         "speakers"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 6.8,
+      "office": 7.0,
+      "editing": 6.6
     }
   },
   {
@@ -18741,6 +19696,11 @@
         "freesync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 8.0,
+      "office": 7.1,
+      "editing": 7.1
     }
   },
   {
@@ -18841,6 +19801,11 @@
         "freesync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.9,
+      "office": 7.3,
+      "editing": 7.3
     }
   },
   {
@@ -18941,6 +19906,11 @@
         "freesync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.8,
+      "office": 7.3,
+      "editing": 7.3
     }
   },
   {
@@ -19048,6 +20018,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 8.1,
+      "office": 7.8,
+      "editing": 7.8,
+      "console_gaming": 5.9
     }
   },
   {
@@ -19146,6 +20122,11 @@
         "freesync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 8.2,
+      "office": 7.1,
+      "editing": 7.3
     }
   },
   {
@@ -19254,6 +20235,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 8.3,
+      "office": 7.8,
+      "editing": 7.7,
+      "console_gaming": 6.0
     }
   },
   {
@@ -19361,6 +20348,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 8.5,
+      "office": 8.1,
+      "editing": 8.3,
+      "console_gaming": 6.6
     }
   },
   {
@@ -19459,6 +20452,11 @@
         "freesync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 8.6,
+      "office": 7.9,
+      "editing": 7.9
     }
   },
   {
@@ -19589,6 +20587,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.7,
+      "office": 8.8,
+      "editing": 8.1,
+      "console_gaming": 8.5
     }
   },
   {
@@ -19716,6 +20720,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.7,
+      "office": 8.4,
+      "editing": 7.9,
+      "console_gaming": 8.5
     }
   },
   {
@@ -19832,6 +20842,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.8,
+      "office": 7.9,
+      "editing": 7.7,
+      "console_gaming": 7.0
     }
   },
   {
@@ -19946,6 +20962,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 8.6,
+      "office": 8.6,
+      "editing": 8.4,
+      "console_gaming": 6.4
     }
   },
   {
@@ -20046,6 +21068,11 @@
         "freesync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 8.4,
+      "office": 7.8,
+      "editing": 7.8
     }
   },
   {
@@ -20165,6 +21192,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.3,
+      "office": 7.4,
+      "editing": 7.3,
+      "console_gaming": 6.7
     }
   },
   {
@@ -20260,6 +21293,11 @@
         "gsync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 8.6,
+      "office": 7.8,
+      "editing": 7.9
     }
   },
   {
@@ -20387,6 +21425,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.1,
+      "office": 7.0,
+      "editing": 7.2,
+      "console_gaming": 8.1
     }
   },
   {
@@ -20497,6 +21541,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 8.4,
+      "office": 8.0,
+      "editing": 7.9,
+      "console_gaming": 8.1
     }
   },
   {
@@ -20597,6 +21647,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 6.6,
+      "office": 7.1,
+      "editing": 7.2,
+      "console_gaming": 3.6
     }
   },
   {
@@ -20692,6 +21748,11 @@
         "freesync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.6,
+      "office": 7.3,
+      "editing": 7.0
     }
   },
   {
@@ -20804,6 +21865,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.8,
+      "office": 7.6,
+      "editing": 7.4,
+      "console_gaming": 5.7
     }
   },
   {
@@ -20913,6 +21980,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.3,
+      "office": 6.1,
+      "editing": 6.8,
+      "console_gaming": 5.9
     }
   },
   {
@@ -21022,6 +22095,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.8,
+      "office": 6.8,
+      "editing": 7.4,
+      "console_gaming": 6.6
     }
   },
   {
@@ -21135,6 +22214,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.1,
+      "office": 7.8,
+      "editing": 7.3,
+      "console_gaming": 6.6
     }
   },
   {
@@ -21248,6 +22333,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 6.8,
+      "office": 7.3,
+      "editing": 7.1,
+      "console_gaming": 6.1
     }
   },
   {
@@ -21365,6 +22456,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 6.4,
+      "office": 7.0,
+      "editing": 7.1,
+      "console_gaming": 6.0
     }
   },
   {
@@ -21480,6 +22577,12 @@
         "freesync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 6.1,
+      "office": 7.0,
+      "editing": 7.0,
+      "console_gaming": 5.9
     }
   },
   {
@@ -21601,6 +22704,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.0,
+      "office": 7.9,
+      "editing": 6.9,
+      "console_gaming": 6.5
     }
   },
   {
@@ -21723,6 +22832,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.8,
+      "office": 7.6,
+      "editing": 7.7,
+      "console_gaming": 7.1
     }
   },
   {
@@ -21833,6 +22948,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 8.5,
+      "office": 7.7,
+      "editing": 7.9,
+      "console_gaming": 7.4
     }
   },
   {
@@ -21950,6 +23071,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.7,
+      "office": 7.6,
+      "editing": 7.3,
+      "console_gaming": 6.8
     }
   },
   {
@@ -22078,6 +23205,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.2,
+      "office": 8.2,
+      "editing": 7.6,
+      "console_gaming": 8.1
     }
   },
   {
@@ -22186,6 +23319,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 8.6,
+      "office": 8.3,
+      "editing": 8.2,
+      "console_gaming": 6.4
     }
   },
   {
@@ -22303,6 +23442,12 @@
         "freesync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.0,
+      "office": 8.3,
+      "editing": 7.2,
+      "console_gaming": 8.0
     }
   },
   {
@@ -22412,6 +23557,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 8.3,
+      "office": 7.6,
+      "editing": 7.4,
+      "console_gaming": 6.8
     }
   },
   {
@@ -22534,6 +23685,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.9,
+      "office": 8.3,
+      "editing": 7.9,
+      "console_gaming": 8.7
     }
   },
   {
@@ -22663,6 +23820,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 8.2,
+      "office": 8.5,
+      "editing": 8.2,
+      "console_gaming": 8.7
     }
   },
   {
@@ -22787,6 +23950,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 8.1,
+      "office": 7.6,
+      "editing": 7.5,
+      "console_gaming": 8.0
     }
   },
   {
@@ -22915,6 +24084,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 8.1,
+      "office": 8.5,
+      "editing": 7.8,
+      "console_gaming": 8.8
     }
   },
   {
@@ -23049,6 +24224,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 9.2,
+      "office": 7.4,
+      "editing": 9.0,
+      "console_gaming": 7.7
     }
   },
   {
@@ -23183,6 +24364,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 9.1,
+      "office": 8.2,
+      "editing": 9.0,
+      "console_gaming": 9.4
     }
   },
   {
@@ -23321,6 +24508,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 8.9,
+      "office": 7.5,
+      "editing": 8.7,
+      "console_gaming": 8.2
     }
   },
   {
@@ -23456,6 +24649,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 9.1,
+      "office": 8.4,
+      "editing": 9.2,
+      "console_gaming": 9.4
     }
   },
   {
@@ -23594,6 +24793,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 9.1,
+      "office": 6.9,
+      "editing": 8.9,
+      "console_gaming": 8.2
     }
   },
   {
@@ -23683,6 +24888,11 @@
         "gsync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 8.3,
+      "office": 7.2,
+      "editing": 7.2
     }
   },
   {
@@ -23782,6 +24992,11 @@
         "freesync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 8.3,
+      "office": 7.3,
+      "editing": 7.6
     }
   },
   {
@@ -23882,6 +25097,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.8,
+      "office": 7.7,
+      "editing": 7.2,
+      "console_gaming": 2.9
     }
   },
   {
@@ -23992,6 +25213,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 8.0,
+      "office": 7.9,
+      "editing": 8.0,
+      "console_gaming": 6.5
     }
   },
   {
@@ -24111,6 +25338,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.3,
+      "office": 7.7,
+      "editing": 7.4,
+      "console_gaming": 6.0
     }
   },
   {
@@ -24227,6 +25460,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.8,
+      "office": 7.5,
+      "editing": 7.8,
+      "console_gaming": 7.1
     }
   },
   {
@@ -24316,6 +25555,11 @@
         "gsync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 8.2,
+      "office": 7.1,
+      "editing": 7.0
     }
   },
   {
@@ -24413,6 +25657,11 @@
         "freesync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 8.3,
+      "office": 7.3,
+      "editing": 7.4
     }
   },
   {
@@ -24509,6 +25758,11 @@
         "freesync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 8.0,
+      "office": 7.1,
+      "editing": 6.8
     }
   },
   {
@@ -24608,6 +25862,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.4,
+      "office": 6.6,
+      "editing": 6.8,
+      "console_gaming": 3.2
     }
   },
   {
@@ -24708,6 +25968,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 8.2,
+      "office": 7.1,
+      "editing": 6.8,
+      "console_gaming": 3.0
     }
   },
   {
@@ -24800,6 +26066,11 @@
         "gsync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.4,
+      "office": 6.4,
+      "editing": 6.3
     }
   },
   {
@@ -24898,6 +26169,11 @@
         "freesync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.9,
+      "office": 6.7,
+      "editing": 6.5
     }
   },
   {
@@ -24996,6 +26272,11 @@
         "freesync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.8,
+      "office": 6.8,
+      "editing": 6.6
     }
   },
   {
@@ -25093,6 +26374,11 @@
         "freesync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.6,
+      "office": 6.8,
+      "editing": 6.6
     }
   },
   {
@@ -25191,6 +26477,11 @@
         "freesync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.9,
+      "office": 7.0,
+      "editing": 6.9
     }
   },
   {
@@ -25315,6 +26606,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 6.8,
+      "office": 7.7,
+      "editing": 7.4,
+      "console_gaming": 7.6
     }
   },
   {
@@ -25406,6 +26703,11 @@
         "portable"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 5.6,
+      "office": 6.2,
+      "editing": 5.9
     }
   },
   {
@@ -25504,6 +26806,11 @@
         "freesync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 8.2,
+      "office": 7.2,
+      "editing": 6.9
     }
   },
   {
@@ -25602,6 +26909,11 @@
         "freesync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 8.0,
+      "office": 7.5,
+      "editing": 7.6
     }
   },
   {
@@ -25722,6 +27034,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.2,
+      "office": 7.7,
+      "editing": 7.2,
+      "console_gaming": 6.6
     }
   },
   {
@@ -25813,6 +27131,11 @@
         "gsync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 8.5,
+      "office": 7.2,
+      "editing": 7.2
     }
   },
   {
@@ -25903,6 +27226,11 @@
         "gsync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.6,
+      "office": 7.5,
+      "editing": 7.0
     }
   },
   {
@@ -25997,6 +27325,11 @@
         "gsync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.7,
+      "office": 7.5,
+      "editing": 7.1
     }
   },
   {
@@ -26100,6 +27433,12 @@
       ],
       "monitor_feature_tags": [],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 4.9,
+      "office": 7.9,
+      "editing": 6.5,
+      "console_gaming": 2.6
     }
   },
   {
@@ -26207,6 +27546,12 @@
       ],
       "monitor_feature_tags": [],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 5.2,
+      "office": 7.1,
+      "editing": 6.3,
+      "console_gaming": 2.4
     }
   },
   {
@@ -26305,6 +27650,12 @@
         "usb_c_hub"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 6.1,
+      "office": 8.0,
+      "editing": 7.5,
+      "console_gaming": 3.2
     }
   },
   {
@@ -26391,6 +27742,11 @@
         "gsync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.0,
+      "office": 6.8,
+      "editing": 6.3
     }
   },
   {
@@ -26482,6 +27838,11 @@
         "gsync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 8.1,
+      "office": 7.2,
+      "editing": 7.2
     }
   },
   {
@@ -26599,6 +27960,12 @@
         "speakers"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 6.0,
+      "office": 8.1,
+      "editing": 7.8,
+      "console_gaming": 4.6
     }
   },
   {
@@ -26695,6 +28062,11 @@
         "gsync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 8.6,
+      "office": 7.9,
+      "editing": 7.9
     }
   },
   {
@@ -26793,6 +28165,11 @@
         "gsync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 8.1,
+      "office": 8.2,
+      "editing": 8.2
     }
   },
   {
@@ -26908,6 +28285,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 8.9,
+      "office": 8.2,
+      "editing": 8.9,
+      "console_gaming": 8.7
     }
   },
   {
@@ -27024,6 +28407,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 8.6,
+      "office": 8.0,
+      "editing": 8.0,
+      "console_gaming": 7.6
     }
   },
   {
@@ -27118,6 +28507,11 @@
         "gsync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 8.2,
+      "office": 7.9,
+      "editing": 7.5
     }
   },
   {
@@ -27216,6 +28610,11 @@
         "gsync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 8.2,
+      "office": 8.1,
+      "editing": 8.1
     }
   },
   {
@@ -27337,6 +28736,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.3,
+      "office": 7.8,
+      "editing": 7.7,
+      "console_gaming": 6.6
     }
   },
   {
@@ -27432,6 +28837,11 @@
         "gsync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 8.2,
+      "office": 7.5,
+      "editing": 7.4
     }
   },
   {
@@ -27560,6 +28970,12 @@
         "gsync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 6.4,
+      "office": 8.9,
+      "editing": 8.0,
+      "console_gaming": 5.3
     }
   },
   {
@@ -27670,6 +29086,12 @@
         "gsync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 6.9,
+      "office": 8.2,
+      "editing": 7.9,
+      "console_gaming": 3.0
     }
   },
   {
@@ -27766,6 +29188,12 @@
         "gsync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 6.7,
+      "office": 8.3,
+      "editing": 7.8,
+      "console_gaming": 3.0
     }
   },
   {
@@ -27887,6 +29315,12 @@
         "gsync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 6.2,
+      "office": 8.5,
+      "editing": 7.7,
+      "console_gaming": 5.3
     }
   },
   {
@@ -28015,6 +29449,12 @@
         "gsync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 6.1,
+      "office": 9.0,
+      "editing": 7.8,
+      "console_gaming": 5.4
     }
   },
   {
@@ -28114,6 +29554,11 @@
         "portable"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 6.7,
+      "office": 7.1,
+      "editing": 6.6
     }
   },
   {
@@ -28211,6 +29656,11 @@
         "freesync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 8.2,
+      "office": 7.9,
+      "editing": 7.8
     }
   },
   {
@@ -28331,6 +29781,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 8.2,
+      "office": 7.6,
+      "editing": 7.9,
+      "console_gaming": 7.4
     }
   },
   {
@@ -28451,6 +29907,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 8.1,
+      "office": 7.3,
+      "editing": 8.0,
+      "console_gaming": 7.3
     }
   },
   {
@@ -28547,6 +30009,11 @@
         "freesync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.1,
+      "office": 7.3,
+      "editing": 6.8
     }
   },
   {
@@ -28644,6 +30111,11 @@
         "freesync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 8.3,
+      "office": 7.9,
+      "editing": 7.9
     }
   },
   {
@@ -28742,6 +30214,11 @@
         "freesync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 8.4,
+      "office": 7.9,
+      "editing": 7.9
     }
   },
   {
@@ -28883,6 +30360,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 9.2,
+      "office": 7.3,
+      "editing": 8.9,
+      "console_gaming": 9.1
     }
   },
   {
@@ -29009,6 +30492,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 9.0,
+      "office": 7.1,
+      "editing": 8.6,
+      "console_gaming": 8.3
     }
   },
   {
@@ -29146,6 +30635,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 9.2,
+      "office": 7.9,
+      "editing": 9.0,
+      "console_gaming": 9.2
     }
   },
   {
@@ -29241,6 +30736,11 @@
         "portable"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 8.0,
+      "office": 7.4,
+      "editing": 7.0
     }
   },
   {
@@ -29338,6 +30838,11 @@
         "portable"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 8.0,
+      "office": 7.2,
+      "editing": 6.8
     }
   },
   {
@@ -29435,6 +30940,11 @@
         "gsync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 8.5,
+      "office": 8.0,
+      "editing": 8.1
     }
   },
   {
@@ -29563,6 +31073,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.3,
+      "office": 7.7,
+      "editing": 7.6,
+      "console_gaming": 6.9
     }
   },
   {
@@ -29670,6 +31186,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 8.4,
+      "office": 7.9,
+      "editing": 8.2,
+      "console_gaming": 6.5
     }
   },
   {
@@ -29767,6 +31289,11 @@
         "gsync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 8.6,
+      "office": 8.2,
+      "editing": 8.4
     }
   },
   {
@@ -29875,6 +31402,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 8.1,
+      "office": 8.2,
+      "editing": 8.3,
+      "console_gaming": 7.0
     }
   },
   {
@@ -29979,6 +31512,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 8.2,
+      "office": 7.6,
+      "editing": 7.8,
+      "console_gaming": 6.3
     }
   },
   {
@@ -30088,6 +31627,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 8.6,
+      "office": 7.7,
+      "editing": 7.9,
+      "console_gaming": 7.0
     }
   },
   {
@@ -30215,6 +31760,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 9.0,
+      "office": 7.3,
+      "editing": 8.7,
+      "console_gaming": 8.3
     }
   },
   {
@@ -30344,6 +31895,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 9.2,
+      "office": 7.5,
+      "editing": 8.6,
+      "console_gaming": 9.0
     }
   },
   {
@@ -30482,6 +32039,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 9.1,
+      "office": 8.3,
+      "editing": 9.3,
+      "console_gaming": 9.4
     }
   },
   {
@@ -30624,6 +32187,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 9.1,
+      "office": 7.6,
+      "editing": 8.9,
+      "console_gaming": 9.2
     }
   },
   {
@@ -30767,6 +32336,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 9.2,
+      "office": 8.0,
+      "editing": 9.0,
+      "console_gaming": 9.2
     }
   },
   {
@@ -30905,6 +32480,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 9.0,
+      "office": 7.5,
+      "editing": 8.7,
+      "console_gaming": 7.3
     }
   },
   {
@@ -31011,6 +32592,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 9.0,
+      "office": 7.1,
+      "editing": 8.3,
+      "console_gaming": 9.1
     }
   },
   {
@@ -31105,6 +32692,11 @@
         "gsync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 8.6,
+      "office": 8.1,
+      "editing": 7.6
     }
   },
   {
@@ -31229,6 +32821,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.5,
+      "office": 7.7,
+      "editing": 7.6,
+      "console_gaming": 6.4
     }
   },
   {
@@ -31324,6 +32922,11 @@
         "gsync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 8.5,
+      "office": 8.0,
+      "editing": 7.5
     }
   },
   {
@@ -31437,6 +33040,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 8.7,
+      "office": 8.4,
+      "editing": 8.4,
+      "console_gaming": 7.0
     }
   },
   {
@@ -31533,6 +33142,11 @@
         "gsync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 8.1,
+      "office": 7.9,
+      "editing": 7.4
     }
   },
   {
@@ -31644,6 +33258,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.9,
+      "office": 7.1,
+      "editing": 6.5,
+      "console_gaming": 5.4
     }
   },
   {
@@ -31738,6 +33358,11 @@
         "gsync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 8.5,
+      "office": 7.4,
+      "editing": 7.2
     }
   },
   {
@@ -31832,6 +33457,11 @@
         "freesync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.8,
+      "office": 7.2,
+      "editing": 6.9
     }
   },
   {
@@ -31924,6 +33554,11 @@
         "freesync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.3,
+      "office": 7.1,
+      "editing": 6.7
     }
   },
   {
@@ -32018,6 +33653,11 @@
         "gsync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 8.3,
+      "office": 7.2,
+      "editing": 6.9
     }
   },
   {
@@ -32113,6 +33753,11 @@
         "freesync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 8.1,
+      "office": 7.2,
+      "editing": 7.0
     }
   },
   {
@@ -32209,6 +33854,11 @@
         "freesync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.5,
+      "office": 7.7,
+      "editing": 7.2
     }
   },
   {
@@ -32316,6 +33966,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 8.1,
+      "office": 8.1,
+      "editing": 7.8,
+      "console_gaming": 6.5
     }
   },
   {
@@ -32414,6 +34070,11 @@
         "freesync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 8.1,
+      "office": 7.3,
+      "editing": 7.0
     }
   },
   {
@@ -32528,6 +34189,12 @@
         "freesync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 5.9,
+      "office": 8.5,
+      "editing": 7.4,
+      "console_gaming": 4.5
     }
   },
   {
@@ -32631,6 +34298,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.6,
+      "office": 7.5,
+      "editing": 7.1,
+      "console_gaming": 3.4
     }
   },
   {
@@ -32749,6 +34422,12 @@
         "freesync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 6.0,
+      "office": 8.3,
+      "editing": 7.5,
+      "console_gaming": 4.8
     }
   },
   {
@@ -32842,6 +34521,12 @@
         "gsync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 6.0,
+      "office": 7.7,
+      "editing": 6.7,
+      "console_gaming": 4.9
     }
   },
   {
@@ -32970,6 +34655,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 6.1,
+      "office": 8.4,
+      "editing": 7.8,
+      "console_gaming": 7.3
     }
   },
   {
@@ -33095,6 +34786,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 6.1,
+      "office": 8.4,
+      "editing": 7.9,
+      "console_gaming": 7.3
     }
   },
   {
@@ -33186,6 +34883,11 @@
         "gsync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.4,
+      "office": 6.8,
+      "editing": 6.7
     }
   },
   {
@@ -33285,6 +34987,11 @@
         "freesync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 8.0,
+      "office": 7.5,
+      "editing": 7.8
     }
   },
   {
@@ -33393,6 +35100,12 @@
         "freesync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 6.9,
+      "office": 7.7,
+      "editing": 7.9,
+      "console_gaming": 6.9
     }
   },
   {
@@ -33496,6 +35209,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.7,
+      "office": 7.3,
+      "editing": 7.1,
+      "console_gaming": 3.7
     }
   },
   {
@@ -33629,6 +35348,12 @@
         "freesync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 8.8,
+      "office": 7.6,
+      "editing": 9.0,
+      "console_gaming": 9.0
     }
   },
   {
@@ -33748,6 +35473,12 @@
         "freesync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 6.7,
+      "office": 8.1,
+      "editing": 7.6,
+      "console_gaming": 7.5
     }
   },
   {
@@ -33869,6 +35600,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.2,
+      "office": 7.4,
+      "editing": 7.2,
+      "console_gaming": 6.6
     }
   },
   {
@@ -33978,6 +35715,12 @@
         "speakers"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 6.7,
+      "office": 8.1,
+      "editing": 8.1,
+      "console_gaming": 7.2
     }
   },
   {
@@ -34086,6 +35829,12 @@
         "speakers"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 6.9,
+      "office": 6.7,
+      "editing": 7.4,
+      "console_gaming": 7.0
     }
   },
   {
@@ -34191,6 +35940,12 @@
         "speakers"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 6.7,
+      "office": 8.1,
+      "editing": 7.9,
+      "console_gaming": 7.2
     }
   },
   {
@@ -34306,6 +36061,12 @@
         "speakers"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 6.5,
+      "office": 8.3,
+      "editing": 7.7,
+      "console_gaming": 4.9
     }
   },
   {
@@ -34411,6 +36172,12 @@
         "speakers"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.0,
+      "office": 7.8,
+      "editing": 7.7,
+      "console_gaming": 7.2
     }
   },
   {
@@ -34497,6 +36264,11 @@
         "gsync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 8.2,
+      "office": 7.0,
+      "editing": 7.1
     }
   },
   {
@@ -34608,6 +36380,12 @@
         "speakers"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 5.1,
+      "office": 8.3,
+      "editing": 7.4,
+      "console_gaming": 3.8
     }
   },
   {
@@ -34706,6 +36484,11 @@
         "freesync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.1,
+      "office": 6.7,
+      "editing": 6.5
     }
   },
   {
@@ -34820,6 +36603,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 8.8,
+      "office": 8.5,
+      "editing": 8.3,
+      "console_gaming": 7.9
     }
   },
   {
@@ -34907,6 +36696,11 @@
         "portable"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 6.1,
+      "office": 7.0,
+      "editing": 6.5
     }
   },
   {
@@ -34993,6 +36787,11 @@
         "portable"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 5.6,
+      "office": 6.6,
+      "editing": 6.2
     }
   },
   {
@@ -35095,6 +36894,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.9,
+      "office": 6.7,
+      "editing": 6.6,
+      "console_gaming": 2.9
     }
   },
   {
@@ -35192,6 +36997,11 @@
         "gsync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 8.5,
+      "office": 7.4,
+      "editing": 7.6
     }
   },
   {
@@ -35300,6 +37110,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 8.1,
+      "office": 7.7,
+      "editing": 7.6,
+      "console_gaming": 6.3
     }
   },
   {
@@ -35419,6 +37235,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 6.7,
+      "office": 7.5,
+      "editing": 7.0,
+      "console_gaming": 6.3
     }
   },
   {
@@ -35520,6 +37342,11 @@
         "freesync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.9,
+      "office": 7.1,
+      "editing": 7.3
     }
   },
   {
@@ -35637,6 +37464,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.9,
+      "office": 7.7,
+      "editing": 7.9,
+      "console_gaming": 7.3
     }
   },
   {
@@ -35760,6 +37593,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 6.5,
+      "office": 7.4,
+      "editing": 7.1,
+      "console_gaming": 5.9
     }
   },
   {
@@ -35859,6 +37698,11 @@
         "freesync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.9,
+      "office": 7.0,
+      "editing": 6.8
     }
   },
   {
@@ -35958,6 +37802,11 @@
         "freesync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 8.2,
+      "office": 7.3,
+      "editing": 7.5
     }
   },
   {
@@ -36048,6 +37897,11 @@
         "gsync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.7,
+      "office": 7.7,
+      "editing": 7.2
     }
   },
   {
@@ -36139,6 +37993,11 @@
         "gsync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.8,
+      "office": 7.5,
+      "editing": 7.2
     }
   },
   {
@@ -36233,6 +38092,11 @@
         "hdr"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.3,
+      "office": 7.9,
+      "editing": 7.9
     }
   },
   {
@@ -36324,6 +38188,11 @@
         "gsync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.9,
+      "office": 7.7,
+      "editing": 7.4
     }
   },
   {
@@ -36415,6 +38284,11 @@
         "gsync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.3,
+      "office": 7.5,
+      "editing": 7.1
     }
   },
   {
@@ -36509,6 +38383,11 @@
         "hdr"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.5,
+      "office": 8.1,
+      "editing": 8.0
     }
   },
   {
@@ -36602,6 +38481,11 @@
         "gsync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.8,
+      "office": 7.6,
+      "editing": 7.3
     }
   },
   {
@@ -36724,6 +38608,12 @@
         "kvm"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 6.0,
+      "office": 8.1,
+      "editing": 7.8,
+      "console_gaming": 4.6
     }
   },
   {
@@ -36846,6 +38736,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 6.5,
+      "office": 8.5,
+      "editing": 7.9,
+      "console_gaming": 7.9
     }
   },
   {
@@ -36939,6 +38835,11 @@
         "hdr"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.3,
+      "office": 7.9,
+      "editing": 8.0
     }
   },
   {
@@ -37062,6 +38963,12 @@
         "kvm"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 6.0,
+      "office": 8.1,
+      "editing": 8.0,
+      "console_gaming": 4.6
     }
   },
   {
@@ -37192,6 +39099,12 @@
         "gsync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 6.4,
+      "office": 8.4,
+      "editing": 8.0,
+      "console_gaming": 7.9
     }
   },
   {
@@ -37288,6 +39201,11 @@
         "freesync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.4,
+      "office": 7.3,
+      "editing": 7.0
     }
   },
   {
@@ -37383,6 +39301,11 @@
         "gsync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.6,
+      "office": 7.9,
+      "editing": 7.3
     }
   },
   {
@@ -37508,6 +39431,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 5.2,
+      "office": 7.6,
+      "editing": 6.9,
+      "console_gaming": 3.7
     }
   },
   {
@@ -37605,6 +39534,11 @@
         "speakers"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 6.8,
+      "office": 7.8,
+      "editing": 7.3
     }
   },
   {
@@ -37738,6 +39672,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 6.3,
+      "office": 8.1,
+      "editing": 8.0,
+      "console_gaming": 5.8
     }
   },
   {
@@ -37836,6 +39776,11 @@
         "gsync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.7,
+      "office": 7.9,
+      "editing": 7.4
     }
   },
   {
@@ -37929,6 +39874,11 @@
         "freesync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.2,
+      "office": 6.8,
+      "editing": 6.6
     }
   },
   {
@@ -38018,6 +39968,11 @@
         "gsync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.4,
+      "office": 7.8,
+      "editing": 7.3
     }
   },
   {
@@ -38110,6 +40065,11 @@
         "hdr"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.5,
+      "office": 7.9,
+      "editing": 7.9
     }
   },
   {
@@ -38219,6 +40179,12 @@
         "usb_c_hub"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 6.7,
+      "office": 8.5,
+      "editing": 8.5,
+      "console_gaming": 6.6
     }
   },
   {
@@ -38305,6 +40271,11 @@
       ],
       "monitor_feature_tags": [],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.4,
+      "office": 7.9,
+      "editing": 7.5
     }
   },
   {
@@ -38401,6 +40372,11 @@
         "speakers"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.4,
+      "office": 8.1,
+      "editing": 7.7
     }
   },
   {
@@ -38498,6 +40474,11 @@
         "portable"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 6.1,
+      "office": 6.4,
+      "editing": 5.9
     }
   },
   {
@@ -38588,6 +40569,11 @@
         "freesync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.8,
+      "office": 7.2,
+      "editing": 6.9
     }
   },
   {
@@ -38682,6 +40668,12 @@
         "freesync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 6.3,
+      "office": 7.6,
+      "editing": 7.2,
+      "console_gaming": 2.7
     }
   },
   {
@@ -38775,6 +40767,11 @@
         "speakers"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.9,
+      "office": 7.1,
+      "editing": 6.8
     }
   },
   {
@@ -38871,6 +40868,11 @@
         "freesync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 8.4,
+      "office": 7.2,
+      "editing": 7.0
     }
   },
   {
@@ -38974,6 +40976,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.2,
+      "office": 7.8,
+      "editing": 7.4,
+      "console_gaming": 3.1
     }
   },
   {
@@ -39082,6 +41090,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 8.1,
+      "office": 7.7,
+      "editing": 7.7,
+      "console_gaming": 6.3
     }
   },
   {
@@ -39180,6 +41194,11 @@
         "freesync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 8.0,
+      "office": 7.5,
+      "editing": 7.1
     }
   },
   {
@@ -39275,6 +41294,11 @@
         "freesync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 8.2,
+      "office": 7.9,
+      "editing": 7.3
     }
   },
   {
@@ -39381,6 +41405,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.9,
+      "office": 7.8,
+      "editing": 7.7,
+      "console_gaming": 6.4
     }
   },
   {
@@ -39512,6 +41542,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 8.9,
+      "office": 7.2,
+      "editing": 8.4,
+      "console_gaming": 8.8
     }
   },
   {
@@ -39609,6 +41645,11 @@
         "freesync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 8.6,
+      "office": 8.0,
+      "editing": 8.1
     }
   },
   {
@@ -39746,6 +41787,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 8.9,
+      "office": 6.1,
+      "editing": 8.4,
+      "console_gaming": 8.8
     }
   },
   {
@@ -39836,6 +41883,11 @@
         "gsync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 8.0,
+      "office": 7.0,
+      "editing": 6.9
     }
   },
   {
@@ -39934,6 +41986,11 @@
         "freesync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 8.1,
+      "office": 7.3,
+      "editing": 7.0
     }
   },
   {
@@ -40058,6 +42115,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.2,
+      "office": 7.3,
+      "editing": 7.0,
+      "console_gaming": 5.9
     }
   },
   {
@@ -40162,6 +42225,12 @@
         "portable"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 5.3,
+      "office": 6.3,
+      "editing": 6.9,
+      "console_gaming": 6.1
     }
   },
   {
@@ -40255,6 +42324,11 @@
         "portable"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 5.7,
+      "office": 6.5,
+      "editing": 6.4
     }
   },
   {
@@ -40354,6 +42428,11 @@
         "portable"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 6.5,
+      "office": 6.7,
+      "editing": 6.3
     }
   },
   {
@@ -40445,6 +42524,11 @@
         "portable"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 6.2,
+      "office": 6.5,
+      "editing": 6.0
     }
   },
   {
@@ -40537,6 +42621,11 @@
         "portable"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 6.5,
+      "office": 6.7,
+      "editing": 6.3
     }
   },
   {
@@ -40628,6 +42717,11 @@
         "high_refresh"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.7,
+      "office": 7.0,
+      "editing": 6.7
     }
   },
   {
@@ -40724,6 +42818,11 @@
         "freesync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 8.3,
+      "office": 7.4,
+      "editing": 7.1
     }
   },
   {
@@ -40819,6 +42918,11 @@
         "freesync"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 8.5,
+      "office": 7.4,
+      "editing": 7.1
     }
   },
   {
@@ -40931,6 +43035,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 6.7,
+      "office": 7.2,
+      "editing": 6.1,
+      "console_gaming": 4.3
     }
   },
   {
@@ -41038,6 +43148,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 6.8,
+      "office": 7.2,
+      "editing": 6.3,
+      "console_gaming": 4.4
     }
   },
   {
@@ -41145,6 +43261,12 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    },
+    "rtings_scores": {
+      "pc_gaming": 7.0,
+      "office": 7.2,
+      "editing": 5.9,
+      "console_gaming": 4.5
     }
   }
 ]

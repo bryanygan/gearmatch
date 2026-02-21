@@ -34,14 +34,52 @@ const ICON_MAP: Record<string, LucideIcon> = {
 
 // ─── Sort options ────────────────────────────────────────────────────────────
 
-type SortKey = "price-asc" | "price-desc" | "name-asc" | "name-desc";
+type SortKey = string; // "price-asc" | "price-desc" | "name-asc" | "name-desc" | "rtings-<key>"
 
-const SORT_OPTIONS: { value: SortKey; label: string }[] = [
+const BASE_SORT_OPTIONS: { value: SortKey; label: string }[] = [
   { value: "price-asc", label: "Price: Low → High" },
   { value: "price-desc", label: "Price: High → Low" },
   { value: "name-asc", label: "Name: A → Z" },
   { value: "name-desc", label: "Name: Z → A" },
 ];
+
+/** RTINGS usage-score keys and display labels per product category */
+const RTINGS_SORT_KEYS: Record<string, { key: string; label: string }[]> = {
+  mouse: [
+    { key: "video_games_fps", label: "RTINGS: FPS" },
+    { key: "video_games_mmo", label: "RTINGS: MMO" },
+    { key: "work", label: "RTINGS: Work" },
+    { key: "raw_performance", label: "RTINGS: Raw Performance" },
+  ],
+  audio: [
+    { key: "wireless_gaming", label: "RTINGS: Wireless Gaming" },
+    { key: "wired_gaming", label: "RTINGS: Wired Gaming" },
+    { key: "office", label: "RTINGS: Office" },
+    { key: "sports_fitness", label: "RTINGS: Sports & Fitness" },
+    { key: "travel", label: "RTINGS: Travel" },
+  ],
+  keyboard: [
+    { key: "gaming", label: "RTINGS: Gaming" },
+    { key: "office", label: "RTINGS: Office" },
+    { key: "programming", label: "RTINGS: Programming" },
+    { key: "raw_performance", label: "RTINGS: Raw Performance" },
+  ],
+  monitor: [
+    { key: "pc_gaming", label: "RTINGS: PC Gaming" },
+    { key: "console_gaming", label: "RTINGS: Console Gaming" },
+    { key: "office", label: "RTINGS: Office" },
+    { key: "editing", label: "RTINGS: Editing" },
+  ],
+};
+
+function getSortOptions(category: string): { value: SortKey; label: string }[] {
+  const rtingsKeys = RTINGS_SORT_KEYS[category] ?? [];
+  const rtingsOptions = rtingsKeys.map((r) => ({
+    value: `rtings-${r.key}`,
+    label: r.label,
+  }));
+  return [...BASE_SORT_OPTIONS, ...rtingsOptions];
+}
 
 function avgPrice(p: Product): number {
   return (p.price_range_usd[0] + p.price_range_usd[1]) / 2;
@@ -58,6 +96,18 @@ function sortProducts(products: Product[], key: SortKey): Product[] {
       return sorted.sort((a, b) => a.name.localeCompare(b.name));
     case "name-desc":
       return sorted.sort((a, b) => b.name.localeCompare(a.name));
+    default: {
+      // RTINGS sort: "rtings-<scoreKey>" → sort descending by that score
+      if (key.startsWith("rtings-")) {
+        const scoreKey = key.slice(7); // strip "rtings-"
+        return sorted.sort((a, b) => {
+          const sa = a.rtings_scores?.[scoreKey] ?? -1;
+          const sb = b.rtings_scores?.[scoreKey] ?? -1;
+          return sb - sa; // highest score first, products without scores go to bottom
+        });
+      }
+      return sorted;
+    }
   }
 }
 
@@ -83,6 +133,8 @@ export default function ProductListPanel({
   const { data: products, isLoading } = useProductsByLoadoutCategory(category);
   const Icon = meta ? (ICON_MAP[meta.icon] ?? Mouse) : Mouse;
   const accentColor = meta?.color ?? "#10B981";
+
+  const sortOptions = useMemo(() => getSortOptions(category), [category]);
 
   const sorted = useMemo(() => {
     if (!products) return [];
@@ -133,7 +185,7 @@ export default function ProductListPanel({
               <SelectValue />
             </SelectTrigger>
             <SelectContent>
-              {SORT_OPTIONS.map((opt) => (
+              {sortOptions.map((opt) => (
                 <SelectItem key={opt.value} value={opt.value} className="text-xs">
                   {opt.label}
                 </SelectItem>
