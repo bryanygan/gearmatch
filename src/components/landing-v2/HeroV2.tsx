@@ -620,6 +620,7 @@ const PackCardV2 = ({
       >
         ${pack.price.toFixed(2)}
       </span>
+      {/* TODO: Convert to <Link to={`/loadout/${pack.id}`}> once loadout routes are implemented */}
       <span
         style={{
           fontFamily: "var(--v2-font-mono)",

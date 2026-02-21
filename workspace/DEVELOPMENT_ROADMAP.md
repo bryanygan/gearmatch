@@ -20,6 +20,7 @@ GearMatch is a personalized gaming peripheral recommendation platform with quiz-
 | Missing Affiliate Disclosure | `/affiliate-disclosure` linked in Footer | 404 error |
 
 ### Incomplete Implementations
+
 | Issue | Location | Details |
 |-------|----------|---------|
 | Placeholder images | `src/components/landing/RecommendationPreview.tsx` | 21 placeholder images (placeholder-mouse.png, etc.) |

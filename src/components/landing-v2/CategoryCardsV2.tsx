@@ -323,7 +323,10 @@ const CategoryCardsV2 = () => {
                       </svg>
                     </Link>
                   ) : (
-                    <div
+                    <button
+                      type="button"
+                      disabled
+                      aria-disabled="true"
                       className="v2-btn v2-btn-ghost w-full"
                       style={{
                         justifyContent: "center",
@@ -332,7 +335,7 @@ const CategoryCardsV2 = () => {
                       }}
                     >
                       {cat.cta}
-                    </div>
+                    </button>
                   )}
                 </div>
               </div>

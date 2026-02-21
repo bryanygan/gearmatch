@@ -113,9 +113,6 @@ export default function ProductSpecBadges({
   const specs = getter(attrs);
   if (specs.length === 0) return null;
 
-  // Check wireless to show an icon-badge
-  const isWireless = specs.includes("Wireless");
-
   return (
     <div className="flex flex-wrap items-center gap-1 overflow-hidden">
       {specs.map((spec) =>

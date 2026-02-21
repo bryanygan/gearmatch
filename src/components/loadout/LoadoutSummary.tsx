@@ -189,7 +189,7 @@ export default function LoadoutSummary({
           </span>
           {itemCount > 0 && (
             <span className="text-sm font-mono font-bold text-emerald-400">
-              ${totalPriceRange[0]}–${totalPriceRange[1]}
+              ${totalPriceRange[0].toLocaleString()}–${totalPriceRange[1].toLocaleString()}
             </span>
           )}
         </div>
@@ -272,20 +272,20 @@ function ClearLoadoutButton({
 function RetailerLinks({ product }: { product: Product }) {
   const retailers = product.retailer_urls;
   const hasRetailers = retailers && Object.keys(retailers).length > 0;
-  const hasAmazon = !!product.product_url;
+  const hasPrimaryUrl = !!product.product_url;
 
   // No links at all — render nothing
-  if (!hasAmazon && !hasRetailers) return null;
+  if (!hasPrimaryUrl && !hasRetailers) return null;
 
-  // Only Amazon, no retailer_urls — single icon link (no popover)
-  if (hasAmazon && !hasRetailers) {
+  // Only primary URL, no retailer_urls — single icon link (no popover)
+  if (hasPrimaryUrl && !hasRetailers) {
     return (
       <a
         href={product.product_url}
         target="_blank"
         rel="noopener noreferrer"
         className="shrink-0 rounded p-1 text-slate-500 hover:bg-slate-700 hover:text-slate-300 transition-colors"
-        aria-label={`View ${product.name} on Amazon`}
+        aria-label={`View ${product.name}`}
       >
         <ExternalLink size={13} />
       </a>
@@ -312,7 +312,7 @@ function RetailerLinks({ product }: { product: Product }) {
         <p className="px-2 py-1 text-[10px] font-mono font-bold uppercase tracking-wider text-slate-500">
           Buy from
         </p>
-        {hasAmazon && (
+        {hasPrimaryUrl && (
           <a
             href={product.product_url}
             target="_blank"
@@ -320,7 +320,7 @@ function RetailerLinks({ product }: { product: Product }) {
             className="flex items-center gap-2 rounded-md px-2 py-1.5 text-xs text-slate-200 hover:bg-slate-800 transition-colors"
           >
             <ExternalLink size={11} className="shrink-0 text-slate-500" />
-            Amazon
+            Search
           </a>
         )}
         {retailers &&

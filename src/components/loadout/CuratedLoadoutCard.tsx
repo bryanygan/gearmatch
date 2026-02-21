@@ -108,7 +108,7 @@ export default function CuratedLoadoutCard({
             {loadout.items.length} items
           </span>
           <span className="text-xs font-mono font-bold text-emerald-400">
-            ${loadout.totalPriceRange[0]}–${loadout.totalPriceRange[1]}
+            ${loadout.totalPriceRange[0].toLocaleString()}–${loadout.totalPriceRange[1].toLocaleString()}
           </span>
         </div>
 

@@ -156,6 +156,8 @@ const NavbarV2 = () => {
             onClick={() => setIsOpen(!isOpen)}
             className="md:hidden p-2"
             style={{ color: "var(--v2-text-muted)" }}
+            aria-label="Toggle navigation menu"
+            aria-expanded={isOpen}
           >
             {isOpen ? (
               <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">

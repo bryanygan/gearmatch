@@ -247,7 +247,7 @@ export default function ProductListPanel({
             <div
               key={product.id}
               className="loadout-stagger-in"
-              style={{ animationDelay: `${index * 30}ms` }}
+              style={{ animationDelay: `${Math.min(index * 30, 300)}ms` }}
             >
               <ProductListItem
                 product={product}

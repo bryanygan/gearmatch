@@ -114,7 +114,11 @@ export default function MobileBuyMenu({ state, initialCategory }: MobileBuyMenuP
       {/* Category tabs */}
       <Tabs
         value={activeTab}
-        onValueChange={(v) => setActiveTab(v as LoadoutCategory)}
+        onValueChange={(v) => {
+          const cat = v as LoadoutCategory;
+          setActiveTab(cat);
+          state.selectCategory(cat);
+        }}
       >
         <TabsList className="grid h-auto w-full grid-cols-4 gap-1 rounded-xl border border-slate-700/50 bg-slate-900/80 p-1 backdrop-blur-sm">
           {LOADOUT_CATEGORIES.map((cat) => {

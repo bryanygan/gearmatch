@@ -13,7 +13,7 @@ const OUTER_RADIUS = 265;
 const INNER_RADIUS = 120;
 const GAP_DEG = 4; // degrees of gap between wedges
 
-/** Wedge arrangement: Mice top-right, Audio bottom-right, Keyboards bottom-left, Monitors top-left */
+/** Wedge arrangement: Mouse top, Keyboard right, Audio bottom, Monitor left */
 const WEDGE_LAYOUT: LoadoutCategory[] = [
   "mouse",
   "keyboard",

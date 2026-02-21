@@ -8,7 +8,7 @@ import type { LoadoutItem } from "@/types/loadout";
 
 /**
  * Encode a list of loadout items into a URL path + query string.
- * Returns an empty string if the loadout has no items.
+ * Returns "/loadout" if the loadout has no items.
  */
 export function encodeLoadoutUrl(items: LoadoutItem[]): string {
   if (items.length === 0) return "/loadout";

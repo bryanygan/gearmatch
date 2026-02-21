@@ -276,14 +276,17 @@
     background-size: 24px 24px;
   }
 
-  /* Vignette overlay */
+  /* Vignette overlay — uses z-index: 10 so it sits above page content.
+     The parent (.loadout-vignette) must not create a stacking context
+     (avoid opacity, transform, filter, will-change, isolation) or this
+     pseudo-element will be confined to it instead of covering the viewport. */
   .loadout-vignette::before {
     content: '';
     position: fixed;
     inset: 0;
     pointer-events: none;
     background: radial-gradient(ellipse at center, transparent 60%, rgba(0, 0, 0, 0.3) 100%);
-    z-index: 0;
+    z-index: 10;
   }
 
   /* Respect reduced motion preferences */

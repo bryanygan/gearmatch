@@ -173,12 +173,13 @@ export interface LoadoutState {
 export function useLoadoutState(urlProductIds?: string[]): LoadoutState {
   const [selectedCategory, setSelectedCategory] =
     useState<LoadoutCategory | null>(null);
+  const initialState = useMemo(() => buildInitialState(urlProductIds), []);
   const [loadoutItems, setLoadoutItems] = useState<Map<string, LoadoutItem>>(
-    () => buildInitialState(urlProductIds).items,
+    () => initialState.items,
   );
   const [activeCuratedLoadout, setActiveCuratedLoadout] = useState<
     string | null
-  >(() => buildInitialState(urlProductIds).activeCuratedLoadout);
+  >(() => initialState.activeCuratedLoadout);
   const [isModified, setIsModified] = useState(false);
 
   const productMap = useAllProducts();
