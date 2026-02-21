@@ -76,6 +76,11 @@
         "large_hands_friendly"
       ],
       "mouse_value_pick": false
+    },
+    "rtings_scores": {
+      "work": 6.5,
+      "video_games_fps": 8.8,
+      "video_games_mmo": 8.1
     }
   },
   {
@@ -153,6 +158,12 @@
         "large_hands_friendly"
       ],
       "mouse_value_pick": false
+    },
+    "rtings_scores": {
+      "work": 7.0,
+      "video_games_fps": 9.4,
+      "video_games_mmo": 8.1,
+      "raw_performance": 9.8
     }
   },
   {
@@ -225,6 +236,12 @@
         "small_hands_friendly"
       ],
       "mouse_value_pick": true
+    },
+    "rtings_scores": {
+      "work": 7.2,
+      "video_games_fps": 9.0,
+      "video_games_mmo": 7.8,
+      "raw_performance": 9.3
     }
   },
   {
@@ -295,6 +312,12 @@
         "small_hands_friendly"
       ],
       "mouse_value_pick": true
+    },
+    "rtings_scores": {
+      "work": 6.4,
+      "video_games_fps": 9.5,
+      "video_games_mmo": 7.9,
+      "raw_performance": 9.7
     }
   },
   {
@@ -366,6 +389,12 @@
         "small_hands_friendly"
       ],
       "mouse_value_pick": true
+    },
+    "rtings_scores": {
+      "work": 7.1,
+      "video_games_fps": 9.5,
+      "video_games_mmo": 7.9,
+      "raw_performance": 9.7
     }
   },
   {
@@ -436,6 +465,12 @@
         "small_hands_friendly"
       ],
       "mouse_value_pick": true
+    },
+    "rtings_scores": {
+      "work": 7.0,
+      "video_games_fps": 9.6,
+      "video_games_mmo": 7.8,
+      "raw_performance": 9.7
     }
   },
   {
@@ -508,6 +543,12 @@
         "small_hands_friendly"
       ],
       "mouse_value_pick": true
+    },
+    "rtings_scores": {
+      "work": 7.1,
+      "video_games_fps": 9.4,
+      "video_games_mmo": 7.7,
+      "raw_performance": 9.5
     }
   },
   {
@@ -578,6 +619,12 @@
         "safe_shape"
       ],
       "mouse_value_pick": true
+    },
+    "rtings_scores": {
+      "work": 7.1,
+      "video_games_fps": 9.3,
+      "video_games_mmo": 7.9,
+      "raw_performance": 9.5
     }
   },
   {
@@ -648,6 +695,12 @@
         "safe_shape"
       ],
       "mouse_value_pick": false
+    },
+    "rtings_scores": {
+      "work": 7.2,
+      "video_games_fps": 9.3,
+      "video_games_mmo": 8.1,
+      "raw_performance": 9.5
     }
   },
   {
@@ -718,6 +771,12 @@
         "small_hands_friendly"
       ],
       "mouse_value_pick": true
+    },
+    "rtings_scores": {
+      "work": 6.4,
+      "video_games_fps": 9.6,
+      "video_games_mmo": 7.9,
+      "raw_performance": 9.8
     }
   },
   {
@@ -790,6 +849,12 @@
         "small_hands_friendly"
       ],
       "mouse_value_pick": true
+    },
+    "rtings_scores": {
+      "work": 7.0,
+      "video_games_fps": 9.5,
+      "video_games_mmo": 7.7,
+      "raw_performance": 9.9
     }
   },
   {
@@ -860,6 +925,12 @@
         "small_hands_friendly"
       ],
       "mouse_value_pick": true
+    },
+    "rtings_scores": {
+      "work": 7.0,
+      "video_games_fps": 9.3,
+      "video_games_mmo": 7.7,
+      "raw_performance": 9.6
     }
   },
   {
@@ -927,6 +998,11 @@
       "mouse_coating": "matte",
       "mouse_feel_tags": [],
       "mouse_value_pick": true
+    },
+    "rtings_scores": {
+      "work": 7.9,
+      "video_games_fps": 8.6,
+      "video_games_mmo": 8.0
     }
   },
   {
@@ -994,6 +1070,11 @@
         "esports_shape"
       ],
       "mouse_value_pick": true
+    },
+    "rtings_scores": {
+      "work": 7.4,
+      "video_games_fps": 8.3,
+      "video_games_mmo": 7.8
     }
   },
   {
@@ -1069,6 +1150,12 @@
         "small_hands_friendly"
       ],
       "mouse_value_pick": true
+    },
+    "rtings_scores": {
+      "work": 6.2,
+      "video_games_fps": 8.9,
+      "video_games_mmo": 7.9,
+      "raw_performance": 9.2
     }
   },
   {
@@ -1287,6 +1374,12 @@
         "small_hands_friendly"
       ],
       "mouse_value_pick": true
+    },
+    "rtings_scores": {
+      "work": 7.2,
+      "video_games_fps": 8.8,
+      "video_games_mmo": 7.6,
+      "raw_performance": 9.1
     }
   },
   {
@@ -1361,6 +1454,11 @@
         "small_hands_friendly"
       ],
       "mouse_value_pick": true
+    },
+    "rtings_scores": {
+      "work": 5.7,
+      "video_games_fps": 6.4,
+      "video_games_mmo": 4.4
     }
   },
   {
@@ -1435,6 +1533,12 @@
         "safe_shape"
       ],
       "mouse_value_pick": false
+    },
+    "rtings_scores": {
+      "work": 7.2,
+      "video_games_fps": 9.2,
+      "video_games_mmo": 8.2,
+      "raw_performance": 9.6
     }
   },
   {
@@ -1505,6 +1609,11 @@
         "small_hands_friendly"
       ],
       "mouse_value_pick": true
+    },
+    "rtings_scores": {
+      "work": 7.8,
+      "video_games_fps": 7.9,
+      "video_games_mmo": 7.6
     }
   },
   {
@@ -1578,6 +1687,12 @@
         "small_hands_friendly"
       ],
       "mouse_value_pick": true
+    },
+    "rtings_scores": {
+      "work": 6.2,
+      "video_games_fps": 7.4,
+      "video_games_mmo": 5.4,
+      "raw_performance": 5.7
     }
   },
   {
@@ -1650,6 +1765,12 @@
         "large_hands_friendly"
       ],
       "mouse_value_pick": false
+    },
+    "rtings_scores": {
+      "work": 7.2,
+      "video_games_fps": 9.1,
+      "video_games_mmo": 7.8,
+      "raw_performance": 9.4
     }
   },
   {
@@ -1724,6 +1845,12 @@
         "large_hands_friendly"
       ],
       "mouse_value_pick": true
+    },
+    "rtings_scores": {
+      "work": 7.6,
+      "video_games_fps": 8.7,
+      "video_games_mmo": 8.7,
+      "raw_performance": 9.3
     }
   },
   {
@@ -1804,6 +1931,12 @@
         "large_hands_friendly"
       ],
       "mouse_value_pick": false
+    },
+    "rtings_scores": {
+      "work": 8.3,
+      "video_games_fps": 8.5,
+      "video_games_mmo": 8.8,
+      "raw_performance": 9.4
     }
   },
   {
@@ -1875,6 +2008,11 @@
         "thumb_rest"
       ],
       "mouse_value_pick": true
+    },
+    "rtings_scores": {
+      "work": 6.5,
+      "video_games_fps": 8.5,
+      "video_games_mmo": 8.2
     }
   },
   {
@@ -1951,6 +2089,11 @@
         "safe_shape"
       ],
       "mouse_value_pick": false
+    },
+    "rtings_scores": {
+      "work": 7.5,
+      "video_games_fps": 8.5,
+      "video_games_mmo": 8.4
     }
   },
   {
@@ -2020,6 +2163,12 @@
         "thumb_rest"
       ],
       "mouse_value_pick": true
+    },
+    "rtings_scores": {
+      "work": 7.5,
+      "video_games_fps": 8.3,
+      "video_games_mmo": 8.2,
+      "raw_performance": 9.0
     }
   },
   {
@@ -2094,6 +2243,12 @@
       "mouse_coating": "matte",
       "mouse_feel_tags": [],
       "mouse_value_pick": false
+    },
+    "rtings_scores": {
+      "work": 7.9,
+      "video_games_fps": 8.5,
+      "video_games_mmo": 9.2,
+      "raw_performance": 9.4
     }
   },
   {
@@ -2171,6 +2326,12 @@
       "mouse_coating": "matte",
       "mouse_feel_tags": [],
       "mouse_value_pick": false
+    },
+    "rtings_scores": {
+      "work": 8.8,
+      "video_games_fps": 8.3,
+      "video_games_mmo": 9.2,
+      "raw_performance": 9.3
     }
   },
   {
@@ -2239,6 +2400,12 @@
       "mouse_coating": "matte",
       "mouse_feel_tags": [],
       "mouse_value_pick": false
+    },
+    "rtings_scores": {
+      "work": 7.7,
+      "video_games_fps": 8.4,
+      "video_games_mmo": 8.7,
+      "raw_performance": 9.5
     }
   },
   {
@@ -2305,6 +2472,12 @@
       "mouse_coating": "matte",
       "mouse_feel_tags": [],
       "mouse_value_pick": true
+    },
+    "rtings_scores": {
+      "work": 7.0,
+      "video_games_fps": 8.1,
+      "video_games_mmo": 8.8,
+      "raw_performance": 8.9
     }
   },
   {
@@ -2377,6 +2550,12 @@
         "mmo_buttons"
       ],
       "mouse_value_pick": false
+    },
+    "rtings_scores": {
+      "work": 6.4,
+      "video_games_fps": 8.2,
+      "video_games_mmo": 7.3,
+      "raw_performance": 8.6
     }
   },
   {
@@ -2449,6 +2628,11 @@
         "large_hands_friendly"
       ],
       "mouse_value_pick": false
+    },
+    "rtings_scores": {
+      "work": 7.1,
+      "video_games_fps": 8.3,
+      "video_games_mmo": 8.2
     }
   },
   {
@@ -2525,6 +2709,11 @@
         "small_hands_friendly"
       ],
       "mouse_value_pick": false
+    },
+    "rtings_scores": {
+      "work": 7.2,
+      "video_games_fps": 7.9,
+      "video_games_mmo": 7.3
     }
   },
   {
@@ -2603,6 +2792,12 @@
         "productivity"
       ],
       "mouse_value_pick": true
+    },
+    "rtings_scores": {
+      "work": 8.3,
+      "video_games_fps": 7.1,
+      "video_games_mmo": 7.5,
+      "raw_performance": 6.3
     }
   },
   {
@@ -2677,6 +2872,12 @@
         "works_on_glass"
       ],
       "mouse_value_pick": false
+    },
+    "rtings_scores": {
+      "work": 9.1,
+      "video_games_fps": 7.4,
+      "video_games_mmo": 7.7,
+      "raw_performance": 6.7
     }
   },
   {
@@ -2759,6 +2960,12 @@
         "productivity"
       ],
       "mouse_value_pick": false
+    },
+    "rtings_scores": {
+      "work": 9.0,
+      "video_games_fps": 7.4,
+      "video_games_mmo": 7.4,
+      "raw_performance": 6.8
     }
   },
   {
@@ -2839,6 +3046,12 @@
         "productivity"
       ],
       "mouse_value_pick": true
+    },
+    "rtings_scores": {
+      "work": 9.0,
+      "video_games_fps": 7.2,
+      "video_games_mmo": 7.3,
+      "raw_performance": 6.5
     }
   },
   {
@@ -2913,6 +3126,11 @@
         "small_hands_friendly"
       ],
       "mouse_value_pick": false
+    },
+    "rtings_scores": {
+      "work": 7.9,
+      "video_games_fps": 8.2,
+      "video_games_mmo": 8.3
     }
   },
   {
@@ -2988,6 +3206,12 @@
         "stationary"
       ],
       "mouse_value_pick": false
+    },
+    "rtings_scores": {
+      "work": 7.4,
+      "video_games_fps": 5.9,
+      "video_games_mmo": 7.3,
+      "raw_performance": 5.7
     }
   },
   {
@@ -3063,6 +3287,12 @@
         "small_hands_friendly"
       ],
       "mouse_value_pick": false
+    },
+    "rtings_scores": {
+      "work": 7.8,
+      "video_games_fps": 7.1,
+      "video_games_mmo": 6.9,
+      "raw_performance": 6.5
     }
   },
   {
@@ -3134,6 +3364,12 @@
         "works_on_glass"
       ],
       "mouse_value_pick": false
+    },
+    "rtings_scores": {
+      "work": 7.6,
+      "video_games_fps": 8.5,
+      "video_games_mmo": 8.2,
+      "raw_performance": 9.5
     }
   },
   {
@@ -3210,6 +3446,12 @@
         "portable"
       ],
       "mouse_value_pick": false
+    },
+    "rtings_scores": {
+      "work": 5.8,
+      "video_games_fps": 5.7,
+      "video_games_mmo": 3.9,
+      "raw_performance": 4.3
     }
   },
   {
@@ -3279,6 +3521,11 @@
         "large_hands_friendly"
       ],
       "mouse_value_pick": false
+    },
+    "rtings_scores": {
+      "work": 8.0,
+      "video_games_fps": 8.2,
+      "video_games_mmo": 8.1
     }
   },
   {
@@ -3359,6 +3606,12 @@
         "premium_feel"
       ],
       "mouse_value_pick": false
+    },
+    "rtings_scores": {
+      "work": 7.3,
+      "video_games_fps": 9.4,
+      "video_games_mmo": 8.2,
+      "raw_performance": 9.7
     }
   },
   {
@@ -3430,6 +3683,12 @@
         "esports_shape"
       ],
       "mouse_value_pick": false
+    },
+    "rtings_scores": {
+      "work": 7.2,
+      "video_games_fps": 9.4,
+      "video_games_mmo": 8.0,
+      "raw_performance": 9.6
     }
   },
   {
@@ -3504,6 +3763,12 @@
         "premium_feel"
       ],
       "mouse_value_pick": false
+    },
+    "rtings_scores": {
+      "work": 7.2,
+      "video_games_fps": 9.5,
+      "video_games_mmo": 8.1,
+      "raw_performance": 9.6
     }
   },
   {
@@ -3580,6 +3845,12 @@
         "honeycomb"
       ],
       "mouse_value_pick": false
+    },
+    "rtings_scores": {
+      "work": 7.2,
+      "video_games_fps": 9.4,
+      "video_games_mmo": 7.8,
+      "raw_performance": 9.7
     }
   },
   {
@@ -3654,6 +3925,12 @@
         "premium_feel"
       ],
       "mouse_value_pick": false
+    },
+    "rtings_scores": {
+      "work": 7.1,
+      "video_games_fps": 9.4,
+      "video_games_mmo": 7.8,
+      "raw_performance": 9.5
     }
   },
   {
@@ -3736,6 +4013,12 @@
         "premium_feel"
       ],
       "mouse_value_pick": false
+    },
+    "rtings_scores": {
+      "work": 7.2,
+      "video_games_fps": 9.5,
+      "video_games_mmo": 8.1,
+      "raw_performance": 9.7
     }
   },
   {
@@ -3815,6 +4098,12 @@
         "small_hands_friendly"
       ],
       "mouse_value_pick": true
+    },
+    "rtings_scores": {
+      "work": 7.6,
+      "video_games_fps": 9.3,
+      "video_games_mmo": 8.4,
+      "raw_performance": 9.6
     }
   },
   {
@@ -3885,6 +4174,12 @@
         "honeycomb"
       ],
       "mouse_value_pick": false
+    },
+    "rtings_scores": {
+      "work": 6.9,
+      "video_games_fps": 9.3,
+      "video_games_mmo": 7.6,
+      "raw_performance": 9.4
     }
   },
   {
@@ -3955,6 +4250,11 @@
         "safe_shape"
       ],
       "mouse_value_pick": true
+    },
+    "rtings_scores": {
+      "work": 6.3,
+      "video_games_fps": 8.3,
+      "video_games_mmo": 7.8
     }
   },
   {
@@ -4093,6 +4393,12 @@
         "premium_feel"
       ],
       "mouse_value_pick": false
+    },
+    "rtings_scores": {
+      "work": 7.2,
+      "video_games_fps": 9.4,
+      "video_games_mmo": 7.9,
+      "raw_performance": 9.7
     }
   },
   {
@@ -4171,6 +4477,12 @@
         "premium_feel"
       ],
       "mouse_value_pick": false
+    },
+    "rtings_scores": {
+      "work": 8.5,
+      "video_games_fps": 8.6,
+      "video_games_mmo": 8.4,
+      "raw_performance": 9.5
     }
   },
   {
@@ -4242,6 +4554,12 @@
         "esports_shape"
       ],
       "mouse_value_pick": false
+    },
+    "rtings_scores": {
+      "work": 7.2,
+      "video_games_fps": 9.5,
+      "video_games_mmo": 8.0,
+      "raw_performance": 9.7
     }
   },
   {
@@ -4315,6 +4633,11 @@
         "large_hands_friendly"
       ],
       "mouse_value_pick": false
+    },
+    "rtings_scores": {
+      "work": 5.7,
+      "video_games_fps": 7.3,
+      "video_games_mmo": 6.3
     }
   },
   {
@@ -4388,6 +4711,12 @@
         "esports_shape"
       ],
       "mouse_value_pick": false
+    },
+    "rtings_scores": {
+      "work": 7.0,
+      "video_games_fps": 9.4,
+      "video_games_mmo": 7.8,
+      "raw_performance": 9.6
     }
   },
   {
@@ -4462,6 +4791,12 @@
         "moddable"
       ],
       "mouse_value_pick": false
+    },
+    "rtings_scores": {
+      "work": 7.0,
+      "video_games_fps": 9.4,
+      "video_games_mmo": 7.8,
+      "raw_performance": 9.5
     }
   },
   {
@@ -4535,6 +4870,12 @@
         "small_hands_friendly"
       ],
       "mouse_value_pick": false
+    },
+    "rtings_scores": {
+      "work": 7.1,
+      "video_games_fps": 9.3,
+      "video_games_mmo": 7.7,
+      "raw_performance": 9.4
     }
   },
   {
@@ -4616,6 +4957,12 @@
         "multi_device"
       ],
       "mouse_value_pick": true
+    },
+    "rtings_scores": {
+      "work": 7.8,
+      "video_games_fps": 8.5,
+      "video_games_mmo": 7.8,
+      "raw_performance": 9.4
     }
   },
   {
@@ -4698,6 +5045,12 @@
         "premium_feel"
       ],
       "mouse_value_pick": false
+    },
+    "rtings_scores": {
+      "work": 7.2,
+      "video_games_fps": 9.4,
+      "video_games_mmo": 8.1,
+      "raw_performance": 9.7
     }
   },
   {
@@ -4770,6 +5123,12 @@
         "esports_shape"
       ],
       "mouse_value_pick": false
+    },
+    "rtings_scores": {
+      "work": 7.2,
+      "video_games_fps": 9.3,
+      "video_games_mmo": 7.9,
+      "raw_performance": 9.6
     }
   },
   {
@@ -4841,6 +5200,12 @@
         "esports_shape"
       ],
       "mouse_value_pick": false
+    },
+    "rtings_scores": {
+      "work": 7.1,
+      "video_games_fps": 9.0,
+      "video_games_mmo": 7.7,
+      "raw_performance": 9.0
     }
   },
   {
@@ -4917,6 +5282,12 @@
         "safe_shape"
       ],
       "mouse_value_pick": true
+    },
+    "rtings_scores": {
+      "work": 7.1,
+      "video_games_fps": 9.3,
+      "video_games_mmo": 7.8,
+      "raw_performance": 9.5
     }
   },
   {
@@ -4999,6 +5370,12 @@
         "large_hands_friendly"
       ],
       "mouse_value_pick": false
+    },
+    "rtings_scores": {
+      "work": 8.6,
+      "video_games_fps": 8.4,
+      "video_games_mmo": 8.7,
+      "raw_performance": 9.3
     }
   },
   {
@@ -5070,6 +5447,12 @@
         "safe_shape"
       ],
       "mouse_value_pick": true
+    },
+    "rtings_scores": {
+      "work": 7.1,
+      "video_games_fps": 9.6,
+      "video_games_mmo": 7.9,
+      "raw_performance": 9.8
     }
   },
   {
@@ -5143,6 +5526,12 @@
         "honeycomb"
       ],
       "mouse_value_pick": false
+    },
+    "rtings_scores": {
+      "work": 6.6,
+      "video_games_fps": 9.3,
+      "video_games_mmo": 7.8,
+      "raw_performance": 9.4
     }
   },
   {
@@ -5216,6 +5605,12 @@
         "premium_feel"
       ],
       "mouse_value_pick": false
+    },
+    "rtings_scores": {
+      "work": 7.2,
+      "video_games_fps": 8.6,
+      "video_games_mmo": 8.2,
+      "raw_performance": 9.2
     }
   },
   {
@@ -5288,6 +5683,11 @@
         "esports_shape"
       ],
       "mouse_value_pick": false
+    },
+    "rtings_scores": {
+      "work": 6.0,
+      "video_games_fps": 7.7,
+      "video_games_mmo": 6.5
     }
   },
   {
@@ -5360,6 +5760,12 @@
         "premium_feel"
       ],
       "mouse_value_pick": false
+    },
+    "rtings_scores": {
+      "work": 7.0,
+      "video_games_fps": 9.4,
+      "video_games_mmo": 7.8,
+      "raw_performance": 9.5
     }
   },
   {
@@ -5429,6 +5835,12 @@
         "basic"
       ],
       "mouse_value_pick": true
+    },
+    "rtings_scores": {
+      "work": 5.8,
+      "video_games_fps": 7.3,
+      "video_games_mmo": 5.2,
+      "raw_performance": 5.9
     }
   },
   {
@@ -5503,6 +5915,12 @@
         "premium_feel"
       ],
       "mouse_value_pick": true
+    },
+    "rtings_scores": {
+      "work": 7.3,
+      "video_games_fps": 8.5,
+      "video_games_mmo": 7.6,
+      "raw_performance": 8.8
     }
   },
   {
@@ -5575,6 +5993,12 @@
         "safe_shape"
       ],
       "mouse_value_pick": false
+    },
+    "rtings_scores": {
+      "work": 7.3,
+      "video_games_fps": 8.7,
+      "video_games_mmo": 7.9,
+      "raw_performance": 9.0
     }
   },
   {
@@ -5646,6 +6070,12 @@
         "esports_shape"
       ],
       "mouse_value_pick": true
+    },
+    "rtings_scores": {
+      "work": 7.3,
+      "video_games_fps": 9.3,
+      "video_games_mmo": 8.2,
+      "raw_performance": 9.5
     }
   },
   {
@@ -5716,6 +6146,12 @@
         "honeycomb"
       ],
       "mouse_value_pick": false
+    },
+    "rtings_scores": {
+      "work": 7.3,
+      "video_games_fps": 8.2,
+      "video_games_mmo": 7.3,
+      "raw_performance": 8.7
     }
   },
   {
@@ -5863,6 +6299,11 @@
         "works_on_glass"
       ],
       "mouse_value_pick": false
+    },
+    "rtings_scores": {
+      "work": 8.1,
+      "video_games_fps": 8.4,
+      "video_games_mmo": 7.2
     }
   },
   {
@@ -5935,6 +6376,12 @@
         "small_hands_friendly"
       ],
       "mouse_value_pick": false
+    },
+    "rtings_scores": {
+      "work": 6.3,
+      "video_games_fps": 9.4,
+      "video_games_mmo": 6.7,
+      "raw_performance": 9.6
     }
   },
   {
@@ -6006,6 +6453,12 @@
         "safe_shape"
       ],
       "mouse_value_pick": false
+    },
+    "rtings_scores": {
+      "work": 7.2,
+      "video_games_fps": 8.4,
+      "video_games_mmo": 7.5,
+      "raw_performance": 9.1
     }
   },
   {
@@ -6075,6 +6528,12 @@
         "safe_shape"
       ],
       "mouse_value_pick": true
+    },
+    "rtings_scores": {
+      "work": 7.2,
+      "video_games_fps": 8.5,
+      "video_games_mmo": 7.4,
+      "raw_performance": 8.8
     }
   },
   {
@@ -6225,6 +6684,12 @@
         "small_hands_friendly"
       ],
       "mouse_value_pick": true
+    },
+    "rtings_scores": {
+      "work": 7.1,
+      "video_games_fps": 9.0,
+      "video_games_mmo": 7.7,
+      "raw_performance": 9.2
     }
   },
   {
@@ -6299,6 +6764,12 @@
         "works_on_glass"
       ],
       "mouse_value_pick": false
+    },
+    "rtings_scores": {
+      "work": 7.1,
+      "video_games_fps": 9.1,
+      "video_games_mmo": 7.8,
+      "raw_performance": 9.3
     }
   },
   {
@@ -6370,6 +6841,12 @@
         "premium_feel"
       ],
       "mouse_value_pick": false
+    },
+    "rtings_scores": {
+      "work": 7.1,
+      "video_games_fps": 9.3,
+      "video_games_mmo": 7.9,
+      "raw_performance": 9.7
     }
   },
   {
@@ -6441,6 +6918,12 @@
         "works_on_glass"
       ],
       "mouse_value_pick": false
+    },
+    "rtings_scores": {
+      "work": 6.6,
+      "video_games_fps": 9.3,
+      "video_games_mmo": 7.8,
+      "raw_performance": 9.4
     }
   },
   {
@@ -6513,6 +6996,12 @@
         "premium_feel"
       ],
       "mouse_value_pick": true
+    },
+    "rtings_scores": {
+      "work": 6.4,
+      "video_games_fps": 9.5,
+      "video_games_mmo": 8.0,
+      "raw_performance": 9.8
     }
   },
   {
@@ -6583,6 +7072,12 @@
         "thumb_rest"
       ],
       "mouse_value_pick": false
+    },
+    "rtings_scores": {
+      "work": 7.5,
+      "video_games_fps": 8.5,
+      "video_games_mmo": 8.0,
+      "raw_performance": 9.1
     }
   },
   {
@@ -6657,6 +7152,12 @@
         "competitive"
       ],
       "mouse_value_pick": true
+    },
+    "rtings_scores": {
+      "work": 6.4,
+      "video_games_fps": 9.3,
+      "video_games_mmo": 8.1,
+      "raw_performance": 9.6
     }
   },
   {
@@ -6726,6 +7227,12 @@
         "competitive"
       ],
       "mouse_value_pick": false
+    },
+    "rtings_scores": {
+      "work": 6.9,
+      "video_games_fps": 9.1,
+      "video_games_mmo": 7.7,
+      "raw_performance": 9.5
     }
   },
   {
@@ -6795,6 +7302,12 @@
         "driverless"
       ],
       "mouse_value_pick": false
+    },
+    "rtings_scores": {
+      "work": 6.2,
+      "video_games_fps": 8.9,
+      "video_games_mmo": 6.7,
+      "raw_performance": 9.6
     }
   },
   {
@@ -6864,6 +7377,12 @@
         "competitive"
       ],
       "mouse_value_pick": false
+    },
+    "rtings_scores": {
+      "work": 7.2,
+      "video_games_fps": 9.2,
+      "video_games_mmo": 7.9,
+      "raw_performance": 9.4
     }
   },
   {
@@ -6941,6 +7460,12 @@
         "free_scroll"
       ],
       "mouse_value_pick": true
+    },
+    "rtings_scores": {
+      "work": 8.8,
+      "video_games_fps": 8.1,
+      "video_games_mmo": 7.8,
+      "raw_performance": 8.5
     }
   },
   {
@@ -7012,6 +7537,12 @@
         "fingertip_only"
       ],
       "mouse_value_pick": true
+    },
+    "rtings_scores": {
+      "work": 7.2,
+      "video_games_fps": 9.2,
+      "video_games_mmo": 7.8,
+      "raw_performance": 9.3
     }
   },
   {
@@ -7083,6 +7614,12 @@
         "versatile"
       ],
       "mouse_value_pick": false
+    },
+    "rtings_scores": {
+      "work": 7.4,
+      "video_games_fps": 9.0,
+      "video_games_mmo": 8.2,
+      "raw_performance": 9.6
     }
   },
   {
@@ -7155,6 +7692,12 @@
         "large_hands_friendly"
       ],
       "mouse_value_pick": true
+    },
+    "rtings_scores": {
+      "work": 6.4,
+      "video_games_fps": 8.7,
+      "video_games_mmo": 8.0,
+      "raw_performance": 9.1
     }
   },
   {
@@ -7228,6 +7771,11 @@
         "versatile"
       ],
       "mouse_value_pick": true
+    },
+    "rtings_scores": {
+      "work": 7.9,
+      "video_games_fps": 7.5,
+      "video_games_mmo": 7.1
     }
   },
   {
@@ -7308,6 +7856,12 @@
         "casual"
       ],
       "mouse_value_pick": true
+    },
+    "rtings_scores": {
+      "work": 7.0,
+      "video_games_fps": 7.6,
+      "video_games_mmo": 6.8,
+      "raw_performance": 6.4
     }
   },
   {
@@ -7381,6 +7935,12 @@
         "grippy"
       ],
       "mouse_value_pick": false
+    },
+    "rtings_scores": {
+      "work": 7.0,
+      "video_games_fps": 8.6,
+      "video_games_mmo": 7.6,
+      "raw_performance": 8.8
     }
   },
   {
@@ -7457,6 +8017,11 @@
         "ergo_right"
       ],
       "mouse_value_pick": false
+    },
+    "rtings_scores": {
+      "work": 6.8,
+      "video_games_fps": 7.4,
+      "video_games_mmo": 6.9
     }
   },
   {
@@ -7547,6 +8112,12 @@
         "free_scroll"
       ],
       "mouse_value_pick": false
+    },
+    "rtings_scores": {
+      "work": 8.6,
+      "video_games_fps": 8.5,
+      "video_games_mmo": 8.8,
+      "raw_performance": 9.4
     }
   },
   {
@@ -7624,6 +8195,12 @@
         "safe_shape"
       ],
       "mouse_value_pick": true
+    },
+    "rtings_scores": {
+      "work": 7.3,
+      "video_games_fps": 8.8,
+      "video_games_mmo": 7.7,
+      "raw_performance": 9.1
     }
   },
   {
@@ -7699,6 +8276,12 @@
         "multi_device"
       ],
       "mouse_value_pick": true
+    },
+    "rtings_scores": {
+      "work": 7.0,
+      "video_games_fps": 8.2,
+      "video_games_mmo": 6.9,
+      "raw_performance": 8.4
     }
   },
   {
@@ -7774,6 +8357,11 @@
         "premium_feel"
       ],
       "mouse_value_pick": false
+    },
+    "rtings_scores": {
+      "work": 6.0,
+      "video_games_fps": 8.0,
+      "video_games_mmo": 6.2
     }
   },
   {
@@ -7850,6 +8438,12 @@
         "rgb"
       ],
       "mouse_value_pick": false
+    },
+    "rtings_scores": {
+      "work": 7.6,
+      "video_games_fps": 8.6,
+      "video_games_mmo": 8.8,
+      "raw_performance": 9.5
     }
   },
   {
@@ -7928,6 +8522,12 @@
         "productivity"
       ],
       "mouse_value_pick": false
+    },
+    "rtings_scores": {
+      "work": 7.4,
+      "video_games_fps": 7.4,
+      "video_games_mmo": 7.3,
+      "raw_performance": 6.9
     }
   },
   {
@@ -8001,6 +8601,11 @@
         "rgb"
       ],
       "mouse_value_pick": true
+    },
+    "rtings_scores": {
+      "work": 6.8,
+      "video_games_fps": 8.3,
+      "video_games_mmo": 7.6
     }
   },
   {
@@ -8072,6 +8677,11 @@
         "ergo_right"
       ],
       "mouse_value_pick": false
+    },
+    "rtings_scores": {
+      "work": 6.2,
+      "video_games_fps": 8.0,
+      "video_games_mmo": 6.6
     }
   },
   {
@@ -8144,6 +8754,12 @@
         "premium_feel"
       ],
       "mouse_value_pick": false
+    },
+    "rtings_scores": {
+      "work": 7.4,
+      "video_games_fps": 9.6,
+      "video_games_mmo": 8.4,
+      "raw_performance": 9.8
     }
   },
   {
@@ -8215,6 +8831,12 @@
         "versatile"
       ],
       "mouse_value_pick": true
+    },
+    "rtings_scores": {
+      "work": 7.1,
+      "video_games_fps": 8.5,
+      "video_games_mmo": 7.4,
+      "raw_performance": 9.1
     }
   },
   {
@@ -8288,6 +8910,12 @@
         "rgb"
       ],
       "mouse_value_pick": false
+    },
+    "rtings_scores": {
+      "work": 7.2,
+      "video_games_fps": 9.3,
+      "video_games_mmo": 7.8,
+      "raw_performance": 9.6
     }
   },
   {
@@ -8363,6 +8991,12 @@
         "premium_feel"
       ],
       "mouse_value_pick": false
+    },
+    "rtings_scores": {
+      "work": 7.0,
+      "video_games_fps": 9.4,
+      "video_games_mmo": 7.7,
+      "raw_performance": 9.6
     }
   },
   {
@@ -8503,6 +9137,12 @@
         "moddable"
       ],
       "mouse_value_pick": false
+    },
+    "rtings_scores": {
+      "work": 5.9,
+      "video_games_fps": 6.8,
+      "video_games_mmo": 7.4,
+      "raw_performance": 9.3
     }
   },
   {
@@ -8574,6 +9214,12 @@
         "competitive"
       ],
       "mouse_value_pick": false
+    },
+    "rtings_scores": {
+      "work": 7.2,
+      "video_games_fps": 8.8,
+      "video_games_mmo": 7.7,
+      "raw_performance": 9.1
     }
   },
   {
@@ -8649,6 +9295,12 @@
         "casual"
       ],
       "mouse_value_pick": true
+    },
+    "rtings_scores": {
+      "work": 5.9,
+      "video_games_fps": 7.2,
+      "video_games_mmo": 5.1,
+      "raw_performance": 5.8
     }
   },
   {
@@ -8721,6 +9373,12 @@
         "versatile"
       ],
       "mouse_value_pick": false
+    },
+    "rtings_scores": {
+      "work": 7.2,
+      "video_games_fps": 9.2,
+      "video_games_mmo": 7.9,
+      "raw_performance": 9.3
     }
   },
   {
@@ -8791,6 +9449,11 @@
         "grippy"
       ],
       "mouse_value_pick": false
+    },
+    "rtings_scores": {
+      "work": 7.3,
+      "video_games_fps": 8.9,
+      "video_games_mmo": 7.7
     }
   },
   {
@@ -8865,6 +9528,12 @@
         "premium_feel"
       ],
       "mouse_value_pick": false
+    },
+    "rtings_scores": {
+      "work": 7.0,
+      "video_games_fps": 9.5,
+      "video_games_mmo": 7.8,
+      "raw_performance": 9.6
     }
   },
   {
@@ -8935,6 +9604,12 @@
         "fast"
       ],
       "mouse_value_pick": false
+    },
+    "rtings_scores": {
+      "work": 7.0,
+      "video_games_fps": 9.3,
+      "video_games_mmo": 7.9,
+      "raw_performance": 9.6
     }
   },
   {
@@ -9008,6 +9683,12 @@
         "niche_shape"
       ],
       "mouse_value_pick": false
+    },
+    "rtings_scores": {
+      "work": 6.3,
+      "video_games_fps": 9.4,
+      "video_games_mmo": 6.8,
+      "raw_performance": 9.6
     }
   },
   {
@@ -9081,6 +9762,12 @@
         "large_hands_friendly"
       ],
       "mouse_value_pick": false
+    },
+    "rtings_scores": {
+      "work": 7.4,
+      "video_games_fps": 8.6,
+      "video_games_mmo": 8.5,
+      "raw_performance": 9.6
     }
   },
   {
@@ -9163,6 +9850,12 @@
         "competitive"
       ],
       "mouse_value_pick": false
+    },
+    "rtings_scores": {
+      "work": 7.1,
+      "video_games_fps": 9.0,
+      "video_games_mmo": 8.0,
+      "raw_performance": 9.2
     }
   },
   {
@@ -9241,6 +9934,12 @@
         "fast"
       ],
       "mouse_value_pick": false
+    },
+    "rtings_scores": {
+      "work": 7.2,
+      "video_games_fps": 9.3,
+      "video_games_mmo": 8.1,
+      "raw_performance": 9.6
     }
   },
   {
@@ -9317,6 +10016,12 @@
         "grippy"
       ],
       "mouse_value_pick": false
+    },
+    "rtings_scores": {
+      "work": 6.8,
+      "video_games_fps": 8.8,
+      "video_games_mmo": 8.3,
+      "raw_performance": 9.3
     }
   },
   {
@@ -9391,6 +10096,12 @@
         "fingertip_only"
       ],
       "mouse_value_pick": true
+    },
+    "rtings_scores": {
+      "work": 6.1,
+      "video_games_fps": 8.9,
+      "video_games_mmo": 7.9,
+      "raw_performance": 9.1
     }
   },
   {
@@ -9466,6 +10177,12 @@
         "grippy"
       ],
       "mouse_value_pick": false
+    },
+    "rtings_scores": {
+      "work": 6.1,
+      "video_games_fps": 9.2,
+      "video_games_mmo": 8.4,
+      "raw_performance": 9.7
     }
   },
   {
@@ -9543,6 +10260,12 @@
         "grippy"
       ],
       "mouse_value_pick": false
+    },
+    "rtings_scores": {
+      "work": 7.4,
+      "video_games_fps": 8.6,
+      "video_games_mmo": 8.1,
+      "raw_performance": 9.3
     }
   },
   {
@@ -9616,6 +10339,11 @@
         "grippy"
       ],
       "mouse_value_pick": true
+    },
+    "rtings_scores": {
+      "work": 6.0,
+      "video_games_fps": 8.8,
+      "video_games_mmo": 7.7
     }
   },
   {
@@ -9695,6 +10423,12 @@
         "rgb"
       ],
       "mouse_value_pick": false
+    },
+    "rtings_scores": {
+      "work": 7.7,
+      "video_games_fps": 8.1,
+      "video_games_mmo": 8.5,
+      "raw_performance": 9.0
     }
   },
   {
@@ -9769,6 +10503,12 @@
         "multi_device"
       ],
       "mouse_value_pick": true
+    },
+    "rtings_scores": {
+      "work": 6.9,
+      "video_games_fps": 8.2,
+      "video_games_mmo": 7.8,
+      "raw_performance": 9.0
     }
   },
   {
@@ -9853,6 +10593,12 @@
         "multi_device"
       ],
       "mouse_value_pick": true
+    },
+    "rtings_scores": {
+      "work": 8.8,
+      "video_games_fps": 8.4,
+      "video_games_mmo": 9.1,
+      "raw_performance": 9.2
     }
   },
   {
@@ -9929,6 +10675,12 @@
         "rgb"
       ],
       "mouse_value_pick": false
+    },
+    "rtings_scores": {
+      "work": 6.8,
+      "video_games_fps": 8.3,
+      "video_games_mmo": 9.2,
+      "raw_performance": 9.4
     }
   },
   {
@@ -10011,6 +10763,12 @@
         "multi_device"
       ],
       "mouse_value_pick": true
+    },
+    "rtings_scores": {
+      "work": 6.9,
+      "video_games_fps": 8.7,
+      "video_games_mmo": 7.9,
+      "raw_performance": 9.1
     }
   },
   {
@@ -10095,6 +10853,12 @@
         "versatile"
       ],
       "mouse_value_pick": false
+    },
+    "rtings_scores": {
+      "work": 7.2,
+      "video_games_fps": 9.2,
+      "video_games_mmo": 8.0,
+      "raw_performance": 9.5
     }
   },
   {
@@ -10179,6 +10943,11 @@
         "competitive"
       ],
       "mouse_value_pick": false
+    },
+    "rtings_scores": {
+      "work": 7.1,
+      "video_games_fps": 8.4,
+      "video_games_mmo": 7.9
     }
   },
   {
@@ -10255,6 +11024,11 @@
         "grippy"
       ],
       "mouse_value_pick": true
+    },
+    "rtings_scores": {
+      "work": 7.8,
+      "video_games_fps": 8.2,
+      "video_games_mmo": 8.1
     }
   },
   {
@@ -10343,6 +11117,12 @@
         "productivity"
       ],
       "mouse_value_pick": false
+    },
+    "rtings_scores": {
+      "work": 8.3,
+      "video_games_fps": 8.1,
+      "video_games_mmo": 8.6,
+      "raw_performance": 9.2
     }
   },
   {
@@ -10433,6 +11213,12 @@
         "rgb"
       ],
       "mouse_value_pick": false
+    },
+    "rtings_scores": {
+      "work": 8.2,
+      "video_games_fps": 8.2,
+      "video_games_mmo": 8.6,
+      "raw_performance": 9.3
     }
   },
   {
@@ -10513,6 +11299,12 @@
         "productivity"
       ],
       "mouse_value_pick": true
+    },
+    "rtings_scores": {
+      "work": 8.5,
+      "video_games_fps": 7.7,
+      "video_games_mmo": 8.5,
+      "raw_performance": 8.7
     }
   },
   {
@@ -10588,6 +11380,12 @@
         "competitive"
       ],
       "mouse_value_pick": false
+    },
+    "rtings_scores": {
+      "work": 7.2,
+      "video_games_fps": 9.0,
+      "video_games_mmo": 8.2,
+      "raw_performance": 9.5
     }
   },
   {
@@ -10744,6 +11542,12 @@
         "premium_feel"
       ],
       "mouse_value_pick": false
+    },
+    "rtings_scores": {
+      "work": 9.0,
+      "video_games_fps": 7.5,
+      "video_games_mmo": 7.4,
+      "raw_performance": 6.9
     }
   },
   {
@@ -10820,6 +11624,12 @@
         "works_on_glass"
       ],
       "mouse_value_pick": false
+    },
+    "rtings_scores": {
+      "work": 8.0,
+      "video_games_fps": 7.2,
+      "video_games_mmo": 6.8,
+      "raw_performance": 6.5
     }
   },
   {
@@ -10898,6 +11708,12 @@
         "ergonomic"
       ],
       "mouse_value_pick": true
+    },
+    "rtings_scores": {
+      "work": 6.7,
+      "video_games_fps": 6.2,
+      "video_games_mmo": 5.9,
+      "raw_performance": 5.3
     }
   },
   {
@@ -10971,6 +11787,12 @@
         "large_hands_friendly"
       ],
       "mouse_value_pick": false
+    },
+    "rtings_scores": {
+      "work": 7.3,
+      "video_games_fps": 7.3,
+      "video_games_mmo": 7.1,
+      "raw_performance": 6.6
     }
   },
   {
@@ -11048,6 +11870,12 @@
         "large_hands_friendly"
       ],
       "mouse_value_pick": false
+    },
+    "rtings_scores": {
+      "work": 9.0,
+      "video_games_fps": 7.2,
+      "video_games_mmo": 7.3,
+      "raw_performance": 6.6
     }
   },
   {
@@ -11121,6 +11949,12 @@
         "silent_clicks"
       ],
       "mouse_value_pick": true
+    },
+    "rtings_scores": {
+      "work": 5.9,
+      "video_games_fps": 7.5,
+      "video_games_mmo": 4.7,
+      "raw_performance": 6.4
     }
   },
   {
@@ -11194,6 +12028,11 @@
         "safe_shape"
       ],
       "mouse_value_pick": true
+    },
+    "rtings_scores": {
+      "work": 7.9,
+      "video_games_fps": 5.6,
+      "video_games_mmo": 4.9
     }
   },
   {
@@ -11273,6 +12112,12 @@
         "safe_shape"
       ],
       "mouse_value_pick": true
+    },
+    "rtings_scores": {
+      "work": 7.2,
+      "video_games_fps": 8.7,
+      "video_games_mmo": 7.8,
+      "raw_performance": 9.0
     }
   },
   {
@@ -11353,6 +12198,11 @@
         "rgb"
       ],
       "mouse_value_pick": true
+    },
+    "rtings_scores": {
+      "work": 5.9,
+      "video_games_fps": 8.6,
+      "video_games_mmo": 7.2
     }
   },
   {
@@ -11506,6 +12356,12 @@
         "large_hands_friendly"
       ],
       "mouse_value_pick": false
+    },
+    "rtings_scores": {
+      "work": 6.9,
+      "video_games_fps": 8.8,
+      "video_games_mmo": 7.7,
+      "raw_performance": 9.1
     }
   },
   {
@@ -11578,6 +12434,12 @@
         "feature_rich"
       ],
       "mouse_value_pick": false
+    },
+    "rtings_scores": {
+      "work": 6.9,
+      "video_games_fps": 8.9,
+      "video_games_mmo": 7.6,
+      "raw_performance": 9.1
     }
   },
   {
@@ -11654,6 +12516,12 @@
         "rgb"
       ],
       "mouse_value_pick": true
+    },
+    "rtings_scores": {
+      "work": 7.1,
+      "video_games_fps": 9.0,
+      "video_games_mmo": 7.8,
+      "raw_performance": 9.3
     }
   },
   {
@@ -11731,6 +12599,12 @@
         "small_hands_friendly"
       ],
       "mouse_value_pick": false
+    },
+    "rtings_scores": {
+      "work": 6.5,
+      "video_games_fps": 8.8,
+      "video_games_mmo": 6.5,
+      "raw_performance": 9.0
     }
   },
   {
@@ -11804,6 +12678,12 @@
         "small_hands_friendly"
       ],
       "mouse_value_pick": false
+    },
+    "rtings_scores": {
+      "work": 6.8,
+      "video_games_fps": 9.2,
+      "video_games_mmo": 6.9,
+      "raw_performance": 9.3
     }
   },
   {
@@ -11877,6 +12757,12 @@
         "no_software"
       ],
       "mouse_value_pick": false
+    },
+    "rtings_scores": {
+      "work": 6.8,
+      "video_games_fps": 9.0,
+      "video_games_mmo": 6.8,
+      "raw_performance": 9.1
     }
   },
   {
@@ -11951,6 +12837,11 @@
         "premium_feel"
       ],
       "mouse_value_pick": true
+    },
+    "rtings_scores": {
+      "work": 6.0,
+      "video_games_fps": 8.5,
+      "video_games_mmo": 7.0
     }
   },
   {
@@ -12024,6 +12915,12 @@
         "competitive"
       ],
       "mouse_value_pick": true
+    },
+    "rtings_scores": {
+      "work": 6.3,
+      "video_games_fps": 9.2,
+      "video_games_mmo": 7.8,
+      "raw_performance": 9.6
     }
   },
   {
@@ -12107,6 +13004,12 @@
         "multi_device"
       ],
       "mouse_value_pick": true
+    },
+    "rtings_scores": {
+      "work": 7.5,
+      "video_games_fps": 8.4,
+      "video_games_mmo": 8.1,
+      "raw_performance": 9.6
     }
   },
   {
@@ -12191,6 +13094,12 @@
         "rgb"
       ],
       "mouse_value_pick": false
+    },
+    "rtings_scores": {
+      "work": 7.5,
+      "video_games_fps": 8.2,
+      "video_games_mmo": 8.1,
+      "raw_performance": 9.3
     }
   },
   {
@@ -12268,6 +13177,12 @@
         "multi_device"
       ],
       "mouse_value_pick": true
+    },
+    "rtings_scores": {
+      "work": 6.7,
+      "video_games_fps": 9.0,
+      "video_games_mmo": 8.0,
+      "raw_performance": 9.6
     }
   },
   {
@@ -12414,6 +13329,12 @@
         "rgb"
       ],
       "mouse_value_pick": true
+    },
+    "rtings_scores": {
+      "work": 6.6,
+      "video_games_fps": 8.8,
+      "video_games_mmo": 7.8,
+      "raw_performance": 9.1
     }
   },
   {
@@ -12488,6 +13409,12 @@
         "competitive"
       ],
       "mouse_value_pick": true
+    },
+    "rtings_scores": {
+      "work": 6.9,
+      "video_games_fps": 9.1,
+      "video_games_mmo": 7.6,
+      "raw_performance": 9.3
     }
   },
   {
@@ -12559,6 +13486,12 @@
         "fingertip_only"
       ],
       "mouse_value_pick": false
+    },
+    "rtings_scores": {
+      "work": 5.4,
+      "video_games_fps": 9.3,
+      "video_games_mmo": 5.9,
+      "raw_performance": 9.3
     }
   },
   {
@@ -12708,6 +13641,11 @@
         "trackball"
       ],
       "mouse_value_pick": false
+    },
+    "rtings_scores": {
+      "work": 6.8,
+      "video_games_fps": 5.2,
+      "video_games_mmo": 4.8
     }
   },
   {
@@ -12860,6 +13798,12 @@
         "touch_gestures"
       ],
       "mouse_value_pick": false
+    },
+    "rtings_scores": {
+      "work": 5.5,
+      "video_games_fps": 6.5,
+      "video_games_mmo": 4.6,
+      "raw_performance": 5.5
     }
   },
   {
@@ -12929,6 +13873,12 @@
         "ergonomic"
       ],
       "mouse_value_pick": false
+    },
+    "rtings_scores": {
+      "work": 7.0,
+      "video_games_fps": 6.9,
+      "video_games_mmo": 6.9,
+      "raw_performance": 7.8
     }
   },
   {
@@ -12997,6 +13947,12 @@
         "ergonomic"
       ],
       "mouse_value_pick": false
+    },
+    "rtings_scores": {
+      "work": 6.4,
+      "video_games_fps": 8.7,
+      "video_games_mmo": 7.9,
+      "raw_performance": 9.5
     }
   },
   {
@@ -13070,6 +14026,12 @@
         "portable"
       ],
       "mouse_value_pick": false
+    },
+    "rtings_scores": {
+      "work": 7.0,
+      "video_games_fps": 8.4,
+      "video_games_mmo": 7.8,
+      "raw_performance": 9.1
     }
   },
   {
@@ -13141,6 +14103,12 @@
         "ergonomic"
       ],
       "mouse_value_pick": false
+    },
+    "rtings_scores": {
+      "work": 6.9,
+      "video_games_fps": 8.1,
+      "video_games_mmo": 9.2,
+      "raw_performance": 9.1
     }
   },
   {
@@ -13208,6 +14176,12 @@
         "portable"
       ],
       "mouse_value_pick": false
+    },
+    "rtings_scores": {
+      "work": 7.2,
+      "video_games_fps": 8.3,
+      "video_games_mmo": 7.9,
+      "raw_performance": 9.1
     }
   },
   {
@@ -13279,6 +14253,12 @@
         "safe_shape"
       ],
       "mouse_value_pick": false
+    },
+    "rtings_scores": {
+      "work": 6.7,
+      "video_games_fps": 9.3,
+      "video_games_mmo": 7.6,
+      "raw_performance": 9.4
     }
   },
   {
@@ -13348,6 +14328,11 @@
         "safe_shape"
       ],
       "mouse_value_pick": false
+    },
+    "rtings_scores": {
+      "work": 7.7,
+      "video_games_fps": 8.7,
+      "video_games_mmo": 7.9
     }
   },
   {
@@ -13477,6 +14462,12 @@
         "safe_shape"
       ],
       "mouse_value_pick": false
+    },
+    "rtings_scores": {
+      "work": 6.1,
+      "video_games_fps": 9.3,
+      "video_games_mmo": 6.6,
+      "raw_performance": 9.5
     }
   }
 ]

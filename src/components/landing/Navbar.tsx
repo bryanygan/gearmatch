@@ -31,6 +31,9 @@ const Navbar = () => {
             <a href="#why-trust-us" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
               Why Trust Us
             </a>
+            <Link to="/loadout" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+              Loadout
+            </Link>
           </div>
 
           {/* CTA */}
@@ -62,6 +65,9 @@ const Navbar = () => {
               <a href="#why-trust-us" className="text-sm text-muted-foreground hover:text-foreground transition-colors py-2">
                 Why Trust Us
               </a>
+              <Link to="/loadout" className="text-sm text-muted-foreground hover:text-foreground transition-colors py-2">
+                Loadout
+              </Link>
               <Button variant="hero" className="mt-2" asChild>
                 <Link to="/quiz/mouse">Get Started</Link>
               </Button>
