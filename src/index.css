@@ -195,11 +195,118 @@
     animation-play-state: paused;
   }
 
+  /* Hide scrollbar for horizontal scroll areas */
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* ── Loadout animations ──────────────────────────────────────────────────── */
+
+  .loadout-scale-in {
+    animation: loadout-scale-in 300ms ease-out both;
+  }
+
+  .loadout-wedge-in {
+    opacity: 0;
+    animation: loadout-wedge-in 250ms ease-out both;
+  }
+
+  .loadout-center-in {
+    opacity: 0;
+    animation: loadout-fade-in 250ms ease-out both;
+  }
+
+  .loadout-stagger-in {
+    opacity: 0;
+    animation: loadout-stagger-in 200ms ease-out both;
+  }
+
+  .loadout-pulse {
+    animation: loadout-pulse 200ms ease-in-out;
+  }
+
+  .loadout-glow-pulse {
+    animation: loadout-glow-pulse 2s ease-in-out infinite;
+  }
+
+  .loadout-price-flash {
+    animation: loadout-price-flash 200ms ease-in-out;
+  }
+
+  .loadout-border-pulse {
+    animation: loadout-border-pulse 300ms ease-out;
+  }
+
+  .loadout-item-flash {
+    animation: loadout-item-flash 300ms ease-out;
+  }
+
+  .loadout-check-in {
+    animation: loadout-check-in 200ms cubic-bezier(0.34, 1.56, 0.64, 1) both;
+  }
+
+  .loadout-check-out {
+    animation: loadout-check-out 150ms ease-in both;
+  }
+
+  /* Scan-line overlay for CS:GO aesthetic */
+  .loadout-scanlines::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    background: repeating-linear-gradient(
+      0deg,
+      transparent,
+      transparent 2px,
+      rgba(0, 0, 0, 0.03) 2px,
+      rgba(0, 0, 0, 0.03) 4px
+    );
+    border-radius: inherit;
+    z-index: 1;
+  }
+
+  /* Subtle dot grid background */
+  .loadout-grid-bg {
+    background-image: radial-gradient(circle, rgba(148, 163, 184, 0.04) 1px, transparent 1px);
+    background-size: 24px 24px;
+  }
+
+  /* Vignette overlay — uses z-index: 10 so it sits above page content.
+     The parent (.loadout-vignette) must not create a stacking context
+     (avoid opacity, transform, filter, will-change, isolation) or this
+     pseudo-element will be confined to it instead of covering the viewport. */
+  .loadout-vignette::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    background: radial-gradient(ellipse at center, transparent 60%, rgba(0, 0, 0, 0.3) 100%);
+    z-index: 10;
+  }
+
   /* Respect reduced motion preferences */
   @media (prefers-reduced-motion: reduce) {
     .animate-scroll-down,
-    .animate-scroll-up {
+    .animate-scroll-up,
+    .loadout-scale-in,
+    .loadout-wedge-in,
+    .loadout-center-in,
+    .loadout-stagger-in,
+    .loadout-pulse,
+    .loadout-glow-pulse,
+    .loadout-price-flash,
+    .loadout-border-pulse,
+    .loadout-item-flash,
+    .loadout-check-in,
+    .loadout-check-out {
       animation: none !important;
+      opacity: 1 !important;
+      transform: none !important;
     }
   }
 }
@@ -247,4 +354,62 @@
   100% {
     transform: translateY(0);
   }
+}
+
+/* ── Loadout keyframes ───────────────────────────────────────────────────── */
+
+@keyframes loadout-scale-in {
+  from { opacity: 0; transform: scale(0.85); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+@keyframes loadout-wedge-in {
+  from { opacity: 0; transform: rotate(-3deg) scale(0.95); }
+  to { opacity: 1; transform: rotate(0deg) scale(1); }
+}
+
+@keyframes loadout-fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes loadout-pulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+}
+
+@keyframes loadout-glow-pulse {
+  0%, 100% { opacity: 0.7; }
+  50% { opacity: 1; }
+}
+
+@keyframes loadout-price-flash {
+  0%, 100% { transform: scale(1); color: rgb(52, 211, 153); }
+  50% { transform: scale(1.1); color: rgb(167, 243, 208); }
+}
+
+@keyframes loadout-border-pulse {
+  0% { box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.4); }
+  50% { box-shadow: 0 0 16px 4px rgba(16, 185, 129, 0.2); }
+  100% { box-shadow: 0 0 0 0 rgba(16, 185, 129, 0); }
+}
+
+@keyframes loadout-item-flash {
+  0% { background-color: rgba(16, 185, 129, 0.15); }
+  100% { background-color: transparent; }
+}
+
+@keyframes loadout-stagger-in {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes loadout-check-in {
+  from { transform: scale(0); }
+  to { transform: scale(1); }
+}
+
+@keyframes loadout-check-out {
+  from { transform: scale(1); opacity: 1; }
+  to { transform: scale(0); opacity: 0; }
 }
