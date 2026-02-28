@@ -7,9 +7,16 @@ import TrustSectionV2 from "@/components/landing-v2/TrustSectionV2";
 import FinalCTAV2 from "@/components/landing-v2/FinalCTAV2";
 import FooterV2 from "@/components/landing-v2/FooterV2";
 
-const IndexV2 = () => {
+type IndexV2Props = {
+  skipAnimations?: boolean;
+};
+
+const IndexV2 = ({ skipAnimations = false }: IndexV2Props) => {
   return (
-    <div className="v2-root">
+    <div
+      className={`v2-root${skipAnimations ? " v2-skip-animations" : ""}`}
+      data-landing-animations={skipAnimations ? "off" : "on"}
+    >
       <NavbarV2 />
       <HeroV2 />
       <HowItWorksV2 />

@@ -1,7 +1,7 @@
 import { Volume2, VolumeX } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import Navbar from "@/components/landing/Navbar";
-import Footer from "@/components/landing/Footer";
+import NavbarV2 from "@/components/landing-v2/NavbarV2";
+import FooterV2 from "@/components/landing-v2/FooterV2";
 import LoadoutPageWrapper from "@/components/loadout/LoadoutPageWrapper";
 import { useSoundEffects } from "@/hooks/useSoundEffects";
 import { useMediaQuery } from "@/hooks/useMediaQuery";
@@ -12,7 +12,7 @@ const LoadoutPage = () => {
 
   return (
     <div className="min-h-screen bg-background loadout-grid-bg loadout-vignette relative">
-      <Navbar />
+      <NavbarV2 />
 
       {/* Header */}
       <section className="relative z-10 pt-24 pb-4 md:pt-28 md:pb-6">
@@ -54,7 +54,7 @@ const LoadoutPage = () => {
         </div>
       </section>
 
-      <Footer />
+      <FooterV2 />
     </div>
   );
 };

@@ -10,7 +10,7 @@ import {
   useNavigationType,
   type NavigationType,
 } from "react-router-dom";
-import Index from "./pages/Index";
+import IndexV2 from "./pages/IndexV2";
 import NotFound from "./pages/NotFound";
 import { ErrorBoundary } from "./components/ErrorBoundary";
 import { SearchBar } from "./components/search/SearchBar";
@@ -31,7 +31,6 @@ const FAQPage = lazy(() => import("./pages/FAQPage"));
 const PrivacyPage = lazy(() => import("./pages/PrivacyPage"));
 const TermsPage = lazy(() => import("./pages/TermsPage"));
 const AffiliateDisclosurePage = lazy(() => import("./pages/AffiliateDisclosurePage"));
-const IndexV2 = lazy(() => import("./pages/IndexV2"));
 const LoadoutPage = lazy(() => import("./pages/LoadoutPage"));
 
 // Loading fallback for lazy-loaded pages
@@ -92,7 +91,7 @@ const App = () => {
               <Routes>
                 <Route
                   path="/"
-                  element={<Index skipAnimations={skipLandingAnimations} />}
+                  element={<IndexV2 skipAnimations={skipLandingAnimations} />}
                 />
                 <Route path="/quiz/mouse" element={<MouseQuiz />} />
                 <Route path="/quiz/mouse/results" element={<MouseResults />} />
@@ -110,7 +109,6 @@ const App = () => {
                 <Route path="/terms" element={<TermsPage />} />
                 <Route path="/affiliate-disclosure" element={<AffiliateDisclosurePage />} />
                 <Route path="/loadout" element={<LoadoutPage />} />
-                <Route path="/v2" element={<IndexV2 />} />
                 {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
                 <Route path="*" element={<NotFound />} />
               </Routes>

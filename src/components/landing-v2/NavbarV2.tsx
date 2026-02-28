@@ -128,6 +128,24 @@ const NavbarV2 = () => {
             >
               Why Trust Us
             </a>
+            <Link
+              to="/loadout"
+              className="transition-colors duration-200"
+              style={{
+                color: "var(--v2-text-muted)",
+                letterSpacing: "0.06em",
+                textTransform: "uppercase",
+                textDecoration: "none",
+              }}
+              onMouseEnter={(e) =>
+                (e.currentTarget.style.color = "var(--v2-primary)")
+              }
+              onMouseLeave={(e) =>
+                (e.currentTarget.style.color = "var(--v2-text-muted)")
+              }
+            >
+              Loadout
+            </Link>
           </div>
 
           {/* Desktop CTA */}
@@ -230,6 +248,20 @@ const NavbarV2 = () => {
               >
                 Why Trust Us
               </a>
+              <Link
+                to="/loadout"
+                onClick={() => setIsOpen(false)}
+                style={{
+                  color: "var(--v2-text-muted)",
+                  fontSize: "13px",
+                  letterSpacing: "0.06em",
+                  textTransform: "uppercase",
+                  textDecoration: "none",
+                  padding: "8px 0",
+                }}
+              >
+                Loadout
+              </Link>
               <Link
                 to="/quiz/mouse"
                 className="v2-btn v2-btn-primary v2-btn-sm mt-2"

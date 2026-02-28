@@ -529,6 +529,16 @@
   }
 }
 
+/* ---- SKIP ANIMATIONS (returning from quiz) ---- */
+.v2-skip-animations .v2-reveal,
+.v2-skip-animations .v2-enter-left,
+.v2-skip-animations .v2-enter-right,
+.v2-skip-animations .v2-enter-scale {
+  opacity: 1;
+  transform: none;
+  transition: none;
+}
+
 /* ---- SCROLLBAR STYLING ---- */
 .v2-root::-webkit-scrollbar {
   width: 6px;
