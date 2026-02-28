@@ -5,8 +5,8 @@
 
 @import 'https://fonts.googleapis.com/css2?family=Russo+One&family=Rajdhani:wght@400;500;600;700&family=Chakra+Petch:wght@400;500;600;700&family=Share+Tech+Mono&display=swap';
 
-/* ---- ROOT SCOPE ---- */
-.v2-root {
+/* ---- GLOBAL V2 VARIABLES (available on all pages for NavbarV2/FooterV2) ---- */
+:root {
   --v2-bg: #07070D;
   --v2-bg-surface: #0E0E18;
   --v2-bg-card: #121220;
@@ -32,7 +32,10 @@
   --v2-font-body: 'Rajdhani', sans-serif;
   --v2-font-mono: 'Share Tech Mono', monospace;
   --v2-font-ui: 'Chakra Petch', sans-serif;
+}
 
+/* ---- ROOT SCOPE (landing page layout) ---- */
+.v2-root {
   background: var(--v2-bg);
   color: var(--v2-text);
   font-family: var(--v2-font-body);
