@@ -47,7 +47,8 @@ function getCategoryName(key: string): string {
   return categoryDisplayNames[key] || key;
 }
 
-function getScoreColor(score: number, maxScore: number): string {
+function getScoreColor(score: number, maxScore: number, key?: string): string {
+  if (key === "bonus" || key === "bonusPoints") return "bg-green-500";
   const percentage = (score / maxScore) * 100;
   if (percentage >= 80) return "bg-green-500";
   if (percentage >= 60) return "bg-primary";
@@ -93,7 +94,7 @@ const ScoreBreakdown = ({ breakdown, accentColor }: ScoreBreakdownProps) => {
                 <div
                   className={cn(
                     "h-full transition-all duration-300",
-                    getScoreColor(data.score, data.maxScore)
+                    getScoreColor(data.score, data.maxScore, key)
                   )}
                   style={{
                     width: `${(data.score / data.maxScore) * 100}%`,

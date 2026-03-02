@@ -11,13 +11,13 @@ import {
   Monitor,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import Navbar from "@/components/landing/Navbar";
-import Footer from "@/components/landing/Footer";
+import NavbarV2 from "@/components/landing-v2/NavbarV2";
+import FooterV2 from "@/components/landing-v2/FooterV2";
 
 const AboutPage = () => {
   return (
     <div className="min-h-screen bg-background">
-      <Navbar />
+      <NavbarV2 />
 
       {/* Hero Section */}
       <section className="pt-32 pb-16 md:pt-40 md:pb-24">
@@ -231,7 +231,7 @@ const AboutPage = () => {
         </div>
       </section>
 
-      <Footer />
+      <FooterV2 />
     </div>
   );
 };
