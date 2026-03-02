@@ -22,7 +22,7 @@ export function useSoundEffects() {
   // Clean up AudioContext on unmount to prevent resource leaks
   useEffect(() => {
     return () => {
-      ctxRef.current?.close();
+      ctxRef.current?.close().catch(() => {});
       ctxRef.current = null;
     };
   }, []);
@@ -75,14 +75,10 @@ export function useSoundEffects() {
   );
 
   const toggleSound = useCallback(() => {
-    setEnabled((prev) => {
-      if (!prev) {
-        // Resume context on first enable (browser autoplay policy)
-        const ctx = getCtx();
-        if (ctx?.state === "suspended") ctx.resume();
-      }
-      return !prev;
-    });
+    setEnabled((prev) => !prev);
+    // Resume context outside state updater (browser autoplay policy)
+    const ctx = getCtx();
+    if (ctx?.state === "suspended") ctx.resume().catch(() => {});
   }, [getCtx]);
 
   return { enabled, toggleSound, playClick, playAdd, playRemove };

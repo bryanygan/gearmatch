@@ -3,10 +3,13 @@ import { Link } from "react-router-dom";
 
 const NavbarV2 = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const [scrolled, setScrolled] = useState(false);
+  const [scrolled, setScrolled] = useState(
+    () => typeof window !== "undefined" && window.scrollY > 20,
+  );
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 20);
+    onScroll(); // sync immediately in case page loaded while scrolled
     window.addEventListener("scroll", onScroll, { passive: true });
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
@@ -157,6 +160,7 @@ const NavbarV2 = () => {
             style={{ color: "var(--v2-text-muted)" }}
             aria-label="Toggle navigation menu"
             aria-expanded={isOpen}
+            aria-controls="mobile-menu-v2"
           >
             {isOpen ? (
               <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
@@ -173,6 +177,7 @@ const NavbarV2 = () => {
         {/* Mobile Menu */}
         {isOpen && (
           <div
+            id="mobile-menu-v2"
             className="md:hidden py-4"
             style={{
               borderTop: "1px solid var(--v2-border)",
@@ -184,6 +189,9 @@ const NavbarV2 = () => {
               @keyframes v2-slide-down {
                 from { opacity: 0; transform: translateY(-8px); }
                 to { opacity: 1; transform: translateY(0); }
+              }
+              @media (prefers-reduced-motion: reduce) {
+                #mobile-menu-v2 { animation: none !important; }
               }
             `}</style>
             <div className="flex flex-col gap-3">

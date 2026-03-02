@@ -35,11 +35,13 @@ function getMouseSpecs(attrs: Record<string, unknown>): string[] {
   const specs: string[] = [];
   if (attrs.mouse_weight_g != null) specs.push(`${attrs.mouse_weight_g}g`);
   if (attrs.mouse_sensor_class != null) specs.push(formatTag(String(attrs.mouse_sensor_class)));
-  if (attrs.wireless) specs.push("Wireless");
+  if (attrs.wireless === true) specs.push("Wireless");
   if (attrs.mouse_polling_rate_max_hz != null)
     specs.push(`${attrs.mouse_polling_rate_max_hz}Hz`);
-  if (Array.isArray(attrs.mouse_grip_fit) && attrs.mouse_grip_fit.length > 0)
-    specs.push(attrs.mouse_grip_fit.map((g: string) => formatTag(g)).join(", "));
+  if (Array.isArray(attrs.mouse_grip_fit) && attrs.mouse_grip_fit.length > 0) {
+    const grips = attrs.mouse_grip_fit.filter((g): g is string => typeof g === "string");
+    if (grips.length > 0) specs.push(grips.map((g) => formatTag(g)).join(", "));
+  }
   return specs.slice(0, 3);
 }
 
@@ -47,7 +49,7 @@ function getAudioSpecs(attrs: Record<string, unknown>): string[] {
   const specs: string[] = [];
   if (attrs.audio_type != null || attrs.category_subtype != null)
     specs.push(formatTag(String(attrs.audio_type ?? attrs.category_subtype)));
-  if (attrs.wireless) specs.push("Wireless");
+  if (attrs.wireless === true) specs.push("Wireless");
   if (attrs.audio_sound_signature != null) specs.push(formatTag(String(attrs.audio_sound_signature)));
   if (attrs.audio_mic_quality != null) specs.push(`Mic: ${formatTag(String(attrs.audio_mic_quality))}`);
   if (attrs.audio_comfort != null) specs.push(formatTag(String(attrs.audio_comfort)));
@@ -59,10 +61,10 @@ function getKeyboardSpecs(attrs: Record<string, unknown>): string[] {
   if (attrs.keyboard_form_factor != null)
     specs.push(formatFormFactor(String(attrs.keyboard_form_factor)));
   if (attrs.keyboard_switch_type != null) specs.push(formatTag(String(attrs.keyboard_switch_type)));
-  if (attrs.wireless) specs.push("Wireless");
+  if (attrs.wireless === true) specs.push("Wireless");
   if (attrs.keyboard_polling_rate_max_hz != null)
     specs.push(`${attrs.keyboard_polling_rate_max_hz}Hz`);
-  if (attrs.keyboard_hot_swappable) specs.push("Hot-Swap");
+  if (attrs.keyboard_hot_swappable === true) specs.push("Hot-Swap");
   return specs.slice(0, 3);
 }
 

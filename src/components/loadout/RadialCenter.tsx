@@ -75,6 +75,7 @@ const RadialCenter = React.memo(function RadialCenter({
     if (current !== prevPriceRef.current && prevPriceRef.current !== 0) {
       setPriceFlash(true);
       const id = setTimeout(() => setPriceFlash(false), 200);
+      prevPriceRef.current = current;
       return () => clearTimeout(id);
     }
     prevPriceRef.current = current;
@@ -88,6 +89,7 @@ const RadialCenter = React.memo(function RadialCenter({
     if (totalItems !== prevCountRef.current && prevCountRef.current !== 0) {
       setBorderPulse(true);
       const id = setTimeout(() => setBorderPulse(false), 300);
+      prevCountRef.current = totalItems;
       return () => clearTimeout(id);
     }
     prevCountRef.current = totalItems;

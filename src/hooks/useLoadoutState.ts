@@ -53,13 +53,33 @@ const VALID_CATEGORIES: readonly LoadoutCategory[] = [
   "mouse", "audio", "keyboard", "monitor",
 ];
 
+function isValidItem(item: unknown): item is LoadoutItem {
+  if (!item || typeof item !== "object") return false;
+  const obj = item as Record<string, unknown>;
+  return (
+    typeof obj.productId === "string" &&
+    obj.productId.length > 0 &&
+    typeof obj.category === "string" &&
+    (VALID_CATEGORIES as readonly string[]).includes(obj.category)
+  );
+}
+
 function loadFromStorage(): PersistedLoadout | null {
   try {
     const raw = localStorage.getItem(STORAGE_KEY);
     if (!raw) return null;
     const parsed = JSON.parse(raw);
-    if (!parsed || !Array.isArray(parsed.items)) return null;
-    return parsed as PersistedLoadout;
+    if (!parsed || typeof parsed !== "object" || !Array.isArray(parsed.items))
+      return null;
+    const validItems = parsed.items.filter(isValidItem);
+    if (validItems.length === 0) return null;
+    return {
+      items: validItems,
+      activeCuratedLoadout: typeof parsed.activeCuratedLoadout === "string"
+        ? parsed.activeCuratedLoadout
+        : null,
+      updatedAt: typeof parsed.updatedAt === "number" ? parsed.updatedAt : Date.now(),
+    };
   } catch {
     return null;
   }
@@ -191,23 +211,18 @@ export function useLoadoutState(urlProductIds?: string[]): LoadoutState {
 
   const productMap = useAllProducts();
 
-  // ── Fix up categories for URL-hydrated items once products load ────────
-  // Also filter out items whose product IDs don't exist in any data.
-  const hasFixedCategories = useRef(false);
+  // ── Fix up categories for URL-hydrated items as products load ─────────
+  // Runs on every productMap change so items from late-loading categories
+  // still get corrected. Items whose products haven't loaded yet are kept.
   useEffect(() => {
-    if (hasFixedCategories.current || productMap.size === 0) return;
-    hasFixedCategories.current = true;
+    if (productMap.size === 0) return;
     setLoadoutItems((prev) => {
       let changed = false;
       const next = new Map(prev);
       for (const [id, item] of next) {
         const product = productMap.get(id);
-        if (!product) {
-          // Remove ghost items whose IDs don't exist in product data
-          next.delete(id);
-          changed = true;
-          continue;
-        }
+        // Skip items whose product data hasn't loaded yet
+        if (!product) continue;
         if (
           VALID_CATEGORIES.includes(product.category as LoadoutCategory) &&
           product.category !== item.category
