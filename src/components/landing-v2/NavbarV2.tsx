@@ -55,8 +55,8 @@ const NavbarV2 = () => {
             className="hidden md:flex items-center gap-8"
             style={{ fontFamily: "var(--v2-font-ui)", fontSize: "13px" }}
           >
-            <a
-              href="#how-it-works"
+            <Link
+              to="/#how-it-works"
               className="transition-colors duration-200"
               style={{
                 color: "var(--v2-text-muted)",
@@ -72,9 +72,9 @@ const NavbarV2 = () => {
               }
             >
               How It Works
-            </a>
-            <a
-              href="#categories"
+            </Link>
+            <Link
+              to="/#categories"
               className="transition-colors duration-200"
               style={{
                 color: "var(--v2-text-muted)",
@@ -90,9 +90,9 @@ const NavbarV2 = () => {
               }
             >
               Categories
-            </a>
-            <a
-              href="#why-trust-us"
+            </Link>
+            <Link
+              to="/#why-trust-us"
               className="transition-colors duration-200"
               style={{
                 color: "var(--v2-text-muted)",
@@ -108,7 +108,7 @@ const NavbarV2 = () => {
               }
             >
               Why Trust Us
-            </a>
+            </Link>
             <Link
               to="/loadout"
               className="transition-colors duration-200"
@@ -187,8 +187,8 @@ const NavbarV2 = () => {
               }
             `}</style>
             <div className="flex flex-col gap-3">
-              <a
-                href="#how-it-works"
+              <Link
+                to="/#how-it-works"
                 onClick={() => setIsOpen(false)}
                 style={{
                   color: "var(--v2-text-muted)",
@@ -200,9 +200,9 @@ const NavbarV2 = () => {
                 }}
               >
                 How It Works
-              </a>
-              <a
-                href="#categories"
+              </Link>
+              <Link
+                to="/#categories"
                 onClick={() => setIsOpen(false)}
                 style={{
                   color: "var(--v2-text-muted)",
@@ -214,9 +214,9 @@ const NavbarV2 = () => {
                 }}
               >
                 Categories
-              </a>
-              <a
-                href="#why-trust-us"
+              </Link>
+              <Link
+                to="/#why-trust-us"
                 onClick={() => setIsOpen(false)}
                 style={{
                   color: "var(--v2-text-muted)",
@@ -228,7 +228,7 @@ const NavbarV2 = () => {
                 }}
               >
                 Why Trust Us
-              </a>
+              </Link>
               <Link
                 to="/loadout"
                 onClick={() => setIsOpen(false)}

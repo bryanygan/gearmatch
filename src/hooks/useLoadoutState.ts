@@ -49,11 +49,17 @@ function saveToStorage(
   }
 }
 
+const VALID_CATEGORIES: readonly LoadoutCategory[] = [
+  "mouse", "audio", "keyboard", "monitor",
+];
+
 function loadFromStorage(): PersistedLoadout | null {
   try {
     const raw = localStorage.getItem(STORAGE_KEY);
     if (!raw) return null;
-    return JSON.parse(raw) as PersistedLoadout;
+    const parsed = JSON.parse(raw);
+    if (!parsed || !Array.isArray(parsed.items)) return null;
+    return parsed as PersistedLoadout;
   } catch {
     return null;
   }
@@ -173,6 +179,7 @@ export interface LoadoutState {
 export function useLoadoutState(urlProductIds?: string[]): LoadoutState {
   const [selectedCategory, setSelectedCategory] =
     useState<LoadoutCategory | null>(null);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   const initialState = useMemo(() => buildInitialState(urlProductIds), []);
   const [loadoutItems, setLoadoutItems] = useState<Map<string, LoadoutItem>>(
     () => initialState.items,
@@ -185,15 +192,26 @@ export function useLoadoutState(urlProductIds?: string[]): LoadoutState {
   const productMap = useAllProducts();
 
   // ── Fix up categories for URL-hydrated items once products load ────────
+  // Also filter out items whose product IDs don't exist in any data.
   const hasFixedCategories = useRef(false);
   useEffect(() => {
     if (hasFixedCategories.current || productMap.size === 0) return;
+    hasFixedCategories.current = true;
     setLoadoutItems((prev) => {
       let changed = false;
       const next = new Map(prev);
       for (const [id, item] of next) {
         const product = productMap.get(id);
-        if (product && product.category !== item.category) {
+        if (!product) {
+          // Remove ghost items whose IDs don't exist in product data
+          next.delete(id);
+          changed = true;
+          continue;
+        }
+        if (
+          VALID_CATEGORIES.includes(product.category as LoadoutCategory) &&
+          product.category !== item.category
+        ) {
           next.set(id, {
             ...item,
             category: product.category as LoadoutCategory,
@@ -202,7 +220,6 @@ export function useLoadoutState(urlProductIds?: string[]): LoadoutState {
         }
       }
       if (!changed) return prev;
-      hasFixedCategories.current = true;
       return next;
     });
   }, [productMap]);
@@ -220,6 +237,11 @@ export function useLoadoutState(urlProductIds?: string[]): LoadoutState {
   );
   const deselectCategory = useCallback(() => setSelectedCategory(null), []);
 
+  const activeCuratedRef = useRef(activeCuratedLoadout);
+  useEffect(() => {
+    activeCuratedRef.current = activeCuratedLoadout;
+  }, [activeCuratedLoadout]);
+
   const addItem = useCallback(
     (productId: string, category: LoadoutCategory) => {
       setLoadoutItems((prev) => {
@@ -227,9 +249,9 @@ export function useLoadoutState(urlProductIds?: string[]): LoadoutState {
         next.set(productId, { productId, category, addedAt: Date.now() });
         return next;
       });
-      if (activeCuratedLoadout) setIsModified(true);
+      if (activeCuratedRef.current) setIsModified(true);
     },
-    [activeCuratedLoadout],
+    [],
   );
 
   const removeItem = useCallback(
@@ -239,9 +261,9 @@ export function useLoadoutState(urlProductIds?: string[]): LoadoutState {
         next.delete(productId);
         return next;
       });
-      if (activeCuratedLoadout) setIsModified(true);
+      if (activeCuratedRef.current) setIsModified(true);
     },
-    [activeCuratedLoadout],
+    [],
   );
 
   const toggleItem = useCallback(
@@ -255,9 +277,9 @@ export function useLoadoutState(urlProductIds?: string[]): LoadoutState {
         }
         return next;
       });
-      if (activeCuratedLoadout) setIsModified(true);
+      if (activeCuratedRef.current) setIsModified(true);
     },
-    [activeCuratedLoadout],
+    [],
   );
 
   const loadCuratedLoadout = useCallback((loadoutId: string) => {
@@ -308,7 +330,9 @@ export function useLoadoutState(urlProductIds?: string[]): LoadoutState {
       monitor: [],
     };
     for (const item of loadoutItems.values()) {
-      grouped[item.category].push(item);
+      if (grouped[item.category]) {
+        grouped[item.category].push(item);
+      }
     }
     return grouped;
   }, [loadoutItems]);

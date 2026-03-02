@@ -101,8 +101,8 @@ function sortProducts(products: Product[], key: SortKey): Product[] {
       if (key.startsWith("rtings-")) {
         const scoreKey = key.slice(7); // strip "rtings-"
         return sorted.sort((a, b) => {
-          const sa = a.rtings_scores?.[scoreKey] ?? -1;
-          const sb = b.rtings_scores?.[scoreKey] ?? -1;
+          const sa = Number(a.rtings_scores?.[scoreKey]) || -1;
+          const sb = Number(b.rtings_scores?.[scoreKey]) || -1;
           return sb - sa; // highest score first, products without scores go to bottom
         });
       }
@@ -135,6 +135,13 @@ export default function ProductListPanel({
   const accentColor = meta?.color ?? "#10B981";
 
   const sortOptions = useMemo(() => getSortOptions(category), [category]);
+
+  // Reset sort key when category changes if current key isn't valid
+  React.useEffect(() => {
+    if (!sortOptions.some((o) => o.value === sortKey)) {
+      setSortKey("price-asc");
+    }
+  }, [sortOptions, sortKey]);
 
   const sorted = useMemo(() => {
     if (!products) return [];

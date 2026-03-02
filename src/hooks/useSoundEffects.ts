@@ -1,4 +1,4 @@
-import { useState, useCallback, useRef } from "react";
+import { useState, useCallback, useRef, useEffect } from "react";
 
 /**
  * Synthetic sound effects using Web Audio API.
@@ -17,6 +17,14 @@ export function useSoundEffects() {
     } catch {
       return null;
     }
+  }, []);
+
+  // Clean up AudioContext on unmount to prevent resource leaks
+  useEffect(() => {
+    return () => {
+      ctxRef.current?.close();
+      ctxRef.current = null;
+    };
   }, []);
 
   const playTone = useCallback(

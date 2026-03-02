@@ -1,4 +1,4 @@
-import React, { useState, useMemo, useCallback } from "react";
+import React, { useState, useMemo, useCallback, useRef } from "react";
 import {
   Mouse,
   Headphones,
@@ -60,6 +60,8 @@ function sortProducts(products: Product[], key: SortKey): Product[] {
       return sorted.sort((a, b) => a.name.localeCompare(b.name));
     case "name-desc":
       return sorted.sort((a, b) => b.name.localeCompare(a.name));
+    default:
+      return sorted;
   }
 }
 
@@ -98,9 +100,12 @@ export default function MobileBuyMenu({ state, initialCategory }: MobileBuyMenuP
     sorted.length > 0 &&
     sorted.every((p) => selectedProductIds.has(p.id));
 
+  const toggleItemRef = useRef(state.toggleItem);
+  toggleItemRef.current = state.toggleItem;
+
   const handleToggle = useCallback(
-    (productId: string) => state.toggleItem(productId, activeTab),
-    [state.toggleItem, activeTab],
+    (productId: string) => toggleItemRef.current(productId, activeTab),
+    [activeTab],
   );
 
   return (

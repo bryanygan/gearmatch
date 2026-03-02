@@ -92,13 +92,28 @@ export default function LoadoutSummary({
 
   const handleShare = async () => {
     const items = Array.from(loadoutItems.values());
+    if (items.length === 0) return;
     const url = `${window.location.origin}${encodeLoadoutUrl(items)}`;
     try {
       await navigator.clipboard.writeText(url);
       window.history.replaceState(null, "", encodeLoadoutUrl(items));
       toast.success("Loadout link copied to clipboard!");
     } catch {
-      toast.error("Failed to copy link");
+      // Fallback for non-HTTPS or restricted contexts
+      try {
+        const textarea = document.createElement("textarea");
+        textarea.value = url;
+        textarea.style.position = "fixed";
+        textarea.style.opacity = "0";
+        document.body.appendChild(textarea);
+        textarea.select();
+        document.execCommand("copy");
+        document.body.removeChild(textarea);
+        window.history.replaceState(null, "", encodeLoadoutUrl(items));
+        toast.success("Loadout link copied to clipboard!");
+      } catch {
+        toast.error("Failed to copy link");
+      }
     }
   };
 
@@ -141,7 +156,12 @@ export default function LoadoutSummary({
                     const product = productMap.get(item.productId);
                     if (!product) return null;
                     const [min, max] = product.price_range_usd;
-                    const price = min === max ? `$${min}` : `$${min}–$${max}`;
+                    const price =
+                      min === 0 && max === 0
+                        ? "Price N/A"
+                        : min === max
+                          ? `$${min}`
+                          : `$${min}–$${max}`;
                     return (
                       <div
                         key={item.productId}

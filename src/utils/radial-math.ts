@@ -32,9 +32,10 @@ export function describeArc(
   startAngle: number,
   endAngle: number,
 ): string {
+  if (endAngle - startAngle <= 0) return "";
   const start = polarToCartesian(cx, cy, radius, startAngle);
   const end = polarToCartesian(cx, cy, radius, endAngle);
-  const largeArcFlag = endAngle - startAngle > 180 ? 1 : 0;
+  const largeArcFlag = endAngle - startAngle >= 180 ? 1 : 0;
 
   return [
     `M ${start.x} ${start.y}`,
@@ -55,7 +56,8 @@ export function describeWedge(
   const outerEnd = polarToCartesian(cx, cy, outerRadius, endAngle);
   const innerStart = polarToCartesian(cx, cy, innerRadius, startAngle);
   const innerEnd = polarToCartesian(cx, cy, innerRadius, endAngle);
-  const largeArcFlag = endAngle - startAngle > 180 ? 1 : 0;
+  if (endAngle - startAngle <= 0) return "";
+  const largeArcFlag = endAngle - startAngle >= 180 ? 1 : 0;
 
   return [
     `M ${outerStart.x} ${outerStart.y}`,

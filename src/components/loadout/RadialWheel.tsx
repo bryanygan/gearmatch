@@ -46,7 +46,8 @@ export default function RadialWheel({
 }: RadialWheelProps) {
   const wedges = useMemo(() => {
     return WEDGE_LAYOUT.map((catId, i) => {
-      const meta = LOADOUT_CATEGORIES.find((c) => c.id === catId)!;
+      const meta = LOADOUT_CATEGORIES.find((c) => c.id === catId);
+      if (!meta) throw new Error(`Unknown loadout category: ${catId}`);
       const startAngle = i * 90 + GAP_DEG / 2;
       const endAngle = (i + 1) * 90 - GAP_DEG / 2;
       return { meta, startAngle, endAngle };

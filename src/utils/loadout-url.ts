@@ -12,8 +12,14 @@ import type { LoadoutItem } from "@/types/loadout";
  */
 export function encodeLoadoutUrl(items: LoadoutItem[]): string {
   if (items.length === 0) return "/loadout";
-  const uniqueIds = [...new Set(items.map((i) => i.productId))];
-  return `/loadout?items=${uniqueIds.join(",")}`;
+  const uniqueIds = [...new Set(items.map((i) => encodeURIComponent(i.productId)))];
+  const encoded = uniqueIds.join(",");
+  // Prevent URL from exceeding browser limits (~8KB)
+  if (encoded.length > 7500) {
+    const truncated = uniqueIds.slice(0, 50).join(",");
+    return `/loadout?items=${truncated}`;
+  }
+  return `/loadout?items=${encoded}`;
 }
 
 /**
@@ -25,7 +31,10 @@ export function decodeLoadoutUrl(searchParams: URLSearchParams): string[] {
   if (!raw) return [];
   const ids = raw
     .split(",")
-    .map((id) => id.trim())
+    .map((id) => {
+      try { return decodeURIComponent(id.trim()); }
+      catch { return id.trim(); }
+    })
     .filter(Boolean);
   return [...new Set(ids)];
 }

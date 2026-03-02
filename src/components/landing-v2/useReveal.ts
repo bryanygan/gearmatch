@@ -12,6 +12,12 @@ export function useReveal(threshold = 0.15) {
     const el = ref.current;
     if (!el) return;
 
+    // Fallback for environments without IntersectionObserver (e.g. older browsers, SSR)
+    if (typeof IntersectionObserver === "undefined") {
+      setRevealed(true);
+      return;
+    }
+
     const observer = new IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting) {

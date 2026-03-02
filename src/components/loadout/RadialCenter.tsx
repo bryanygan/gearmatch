@@ -162,7 +162,7 @@ const RadialCenter = React.memo(function RadialCenter({
                 priceFlash ? "loadout-price-flash" : ""
               }`}
             >
-              ${totalPriceRange[0]}–${totalPriceRange[1]}
+              ${totalPriceRange[0].toLocaleString()}–${totalPriceRange[1].toLocaleString()}
             </span>
           )}
         </div>

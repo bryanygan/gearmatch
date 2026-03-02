@@ -37,14 +37,20 @@ export default function CuratedLoadoutBrowser({
   const [carouselApi, setCarouselApi] = useState<CarouselApi>();
   const carouselWrapperRef = useRef<HTMLDivElement>(null);
 
-  // Convert mouse wheel scroll to horizontal carousel scrolling
+  // Convert mouse wheel scroll to horizontal carousel scrolling (throttled)
   useEffect(() => {
     const wrapper = carouselWrapperRef.current;
     if (!wrapper || !carouselApi) return;
 
+    let lastScrollTime = 0;
+    const SCROLL_THROTTLE = 200; // ms between scroll actions
+
     const onWheel = (e: WheelEvent) => {
       if (e.deltaY === 0) return;
       e.preventDefault();
+      const now = Date.now();
+      if (now - lastScrollTime < SCROLL_THROTTLE) return;
+      lastScrollTime = now;
       if (e.deltaY > 0) {
         carouselApi.scrollNext();
       } else {

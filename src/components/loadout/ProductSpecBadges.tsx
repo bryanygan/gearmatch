@@ -33,10 +33,10 @@ export function formatTag(tag: string): string {
 
 function getMouseSpecs(attrs: Record<string, unknown>): string[] {
   const specs: string[] = [];
-  if (attrs.mouse_weight_g) specs.push(`${attrs.mouse_weight_g}g`);
-  if (attrs.mouse_sensor_class) specs.push(formatTag(String(attrs.mouse_sensor_class)));
+  if (attrs.mouse_weight_g != null) specs.push(`${attrs.mouse_weight_g}g`);
+  if (attrs.mouse_sensor_class != null) specs.push(formatTag(String(attrs.mouse_sensor_class)));
   if (attrs.wireless) specs.push("Wireless");
-  if (attrs.mouse_polling_rate_max_hz)
+  if (attrs.mouse_polling_rate_max_hz != null)
     specs.push(`${attrs.mouse_polling_rate_max_hz}Hz`);
   if (Array.isArray(attrs.mouse_grip_fit) && attrs.mouse_grip_fit.length > 0)
     specs.push(attrs.mouse_grip_fit.map((g: string) => formatTag(g)).join(", "));
@@ -45,22 +45,22 @@ function getMouseSpecs(attrs: Record<string, unknown>): string[] {
 
 function getAudioSpecs(attrs: Record<string, unknown>): string[] {
   const specs: string[] = [];
-  if (attrs.audio_type || attrs.category_subtype)
+  if (attrs.audio_type != null || attrs.category_subtype != null)
     specs.push(formatTag(String(attrs.audio_type ?? attrs.category_subtype)));
   if (attrs.wireless) specs.push("Wireless");
-  if (attrs.audio_sound_signature) specs.push(formatTag(String(attrs.audio_sound_signature)));
-  if (attrs.audio_mic_quality) specs.push(`Mic: ${formatTag(String(attrs.audio_mic_quality))}`);
-  if (attrs.audio_comfort) specs.push(formatTag(String(attrs.audio_comfort)));
+  if (attrs.audio_sound_signature != null) specs.push(formatTag(String(attrs.audio_sound_signature)));
+  if (attrs.audio_mic_quality != null) specs.push(`Mic: ${formatTag(String(attrs.audio_mic_quality))}`);
+  if (attrs.audio_comfort != null) specs.push(formatTag(String(attrs.audio_comfort)));
   return specs.slice(0, 3);
 }
 
 function getKeyboardSpecs(attrs: Record<string, unknown>): string[] {
   const specs: string[] = [];
-  if (attrs.keyboard_form_factor)
+  if (attrs.keyboard_form_factor != null)
     specs.push(formatFormFactor(String(attrs.keyboard_form_factor)));
-  if (attrs.keyboard_switch_type) specs.push(formatTag(String(attrs.keyboard_switch_type)));
+  if (attrs.keyboard_switch_type != null) specs.push(formatTag(String(attrs.keyboard_switch_type)));
   if (attrs.wireless) specs.push("Wireless");
-  if (attrs.keyboard_polling_rate_max_hz)
+  if (attrs.keyboard_polling_rate_max_hz != null)
     specs.push(`${attrs.keyboard_polling_rate_max_hz}Hz`);
   if (attrs.keyboard_hot_swappable) specs.push("Hot-Swap");
   return specs.slice(0, 3);
@@ -68,13 +68,13 @@ function getKeyboardSpecs(attrs: Record<string, unknown>): string[] {
 
 function getMonitorSpecs(attrs: Record<string, unknown>): string[] {
   const specs: string[] = [];
-  if (attrs.monitor_size_inches) specs.push(`${attrs.monitor_size_inches}"`);
-  if (attrs.monitor_resolution_class)
+  if (attrs.monitor_size_inches != null) specs.push(`${attrs.monitor_size_inches}"`);
+  if (attrs.monitor_resolution_class != null)
     specs.push(formatTag(String(attrs.monitor_resolution_class)));
-  if (attrs.monitor_native_refresh_hz)
+  if (attrs.monitor_native_refresh_hz != null)
     specs.push(`${attrs.monitor_native_refresh_hz}Hz`);
-  if (attrs.monitor_panel_type) specs.push(String(attrs.monitor_panel_type).toUpperCase());
-  if (attrs.monitor_response_time_ms)
+  if (attrs.monitor_panel_type != null) specs.push(String(attrs.monitor_panel_type).toUpperCase());
+  if (attrs.monitor_response_time_ms != null)
     specs.push(`${attrs.monitor_response_time_ms}ms`);
   return specs.slice(0, 3);
 }
