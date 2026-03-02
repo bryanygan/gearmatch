@@ -33,30 +33,11 @@ const NavbarV2 = () => {
             style={{ textDecoration: "none" }}
           >
             {/* Logo mark */}
-            <div
-              className="relative w-8 h-8 flex items-center justify-center"
-              style={{
-                clipPath:
-                  "polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%)",
-                background: "var(--v2-primary)",
-              }}
-            >
-              <svg
-                width="16"
-                height="16"
-                viewBox="0 0 16 16"
-                fill="none"
-                style={{ color: "#07070D" }}
-              >
-                <path
-                  d="M8 1L15 5v6l-7 4-7-4V5l7-4z"
-                  stroke="currentColor"
-                  strokeWidth="1.5"
-                  fill="none"
-                />
-                <circle cx="8" cy="8" r="2" fill="currentColor" />
-              </svg>
-            </div>
+            <img
+              src="/gearmatchlogo.svg"
+              alt="GearMatch logo"
+              className="w-8 h-8 object-contain"
+            />
             <span
               style={{
                 fontFamily: "var(--v2-font-display)",
