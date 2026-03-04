@@ -26,6 +26,13 @@
       "source_name": "RTINGS",
       "last_verified": "2026-02"
     },
+    "rtings_scores": {
+      "travel": 4.6,
+      "office": 6,
+      "sports_fitness": 5.7,
+      "wired_gaming": 7.2,
+      "wireless_gaming": 5.1
+    },
     "core_attributes": {
       "category_subtype": "headset",
       "price_tier": "upper_midrange",
@@ -72,13 +79,6 @@
       ],
       "audio_repairability": "good",
       "audio_value_pick": true
-    },
-    "rtings_scores": {
-      "travel": 4.6,
-      "office": 6.0,
-      "sports_fitness": 5.7,
-      "wired_gaming": 7.2,
-      "wireless_gaming": 5.1
     }
   },
   {
@@ -102,6 +102,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "travel": 4.9,
+      "office": 6.2,
+      "sports_fitness": 5.6,
+      "wired_gaming": 7.7,
+      "wireless_gaming": 5.8
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -141,13 +148,6 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    },
-    "rtings_scores": {
-      "travel": 4.9,
-      "office": 6.2,
-      "sports_fitness": 5.6,
-      "wired_gaming": 7.7,
-      "wireless_gaming": 5.8
     }
   },
   {
@@ -178,6 +178,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "travel": 7.4,
+      "office": 7.5,
+      "sports_fitness": 7.2,
+      "wired_gaming": 8,
+      "wireless_gaming": 8
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -223,13 +230,6 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    },
-    "rtings_scores": {
-      "travel": 7.4,
-      "office": 7.5,
-      "sports_fitness": 7.2,
-      "wired_gaming": 8.0,
-      "wireless_gaming": 8.0
     }
   },
   {
@@ -255,6 +255,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "travel": 6.2,
+      "office": 6.7,
+      "sports_fitness": 6.6,
+      "wired_gaming": 7.8,
+      "wireless_gaming": 7.8
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -301,13 +308,6 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": true
-    },
-    "rtings_scores": {
-      "travel": 6.2,
-      "office": 6.7,
-      "sports_fitness": 6.6,
-      "wired_gaming": 7.8,
-      "wireless_gaming": 7.8
     }
   },
   {
@@ -331,6 +331,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "travel": 6.4,
+      "office": 6.7,
+      "sports_fitness": 6.5,
+      "wired_gaming": 8.2,
+      "wireless_gaming": 8
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -369,13 +376,6 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": true
-    },
-    "rtings_scores": {
-      "travel": 6.4,
-      "office": 6.7,
-      "sports_fitness": 6.5,
-      "wired_gaming": 8.2,
-      "wireless_gaming": 8.0
     }
   },
   {
@@ -403,6 +403,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "travel": 6.6,
+      "office": 6.8,
+      "sports_fitness": 6.8,
+      "wired_gaming": 5.7,
+      "wireless_gaming": 7.3
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -444,13 +451,6 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    },
-    "rtings_scores": {
-      "travel": 6.6,
-      "office": 6.8,
-      "sports_fitness": 6.8,
-      "wired_gaming": 5.7,
-      "wireless_gaming": 7.3
     }
   },
   {
@@ -480,6 +480,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "travel": 4.6,
+      "office": 5.9,
+      "sports_fitness": 5.7,
+      "wired_gaming": 7.6,
+      "wireless_gaming": 5.6
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -518,13 +525,6 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": true
-    },
-    "rtings_scores": {
-      "travel": 4.6,
-      "office": 5.9,
-      "sports_fitness": 5.7,
-      "wired_gaming": 7.6,
-      "wireless_gaming": 5.6
     }
   },
   {
@@ -549,6 +549,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "travel": 5.5,
+      "office": 6.1,
+      "sports_fitness": 5.8,
+      "wired_gaming": 6.5,
+      "wireless_gaming": 8.1
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -587,13 +594,6 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    },
-    "rtings_scores": {
-      "travel": 5.5,
-      "office": 6.1,
-      "sports_fitness": 5.8,
-      "wired_gaming": 6.5,
-      "wireless_gaming": 8.1
     }
   },
   {
@@ -624,6 +624,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "travel": 5.7,
+      "office": 5.9,
+      "sports_fitness": 7,
+      "wired_gaming": 6.6,
+      "wireless_gaming": 8.1
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -665,13 +672,6 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    },
-    "rtings_scores": {
-      "travel": 5.7,
-      "office": 5.9,
-      "sports_fitness": 7.0,
-      "wired_gaming": 6.6,
-      "wireless_gaming": 8.1
     }
   },
   {
@@ -697,6 +697,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "travel": 6.4,
+      "office": 6.7,
+      "sports_fitness": 6.7,
+      "wired_gaming": 6,
+      "wireless_gaming": 7.4
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -737,13 +744,6 @@
       "audio_virtual_surround": [],
       "audio_repairability": "ok",
       "audio_value_pick": true
-    },
-    "rtings_scores": {
-      "travel": 6.4,
-      "office": 6.7,
-      "sports_fitness": 6.7,
-      "wired_gaming": 6.0,
-      "wireless_gaming": 7.4
     }
   },
   {
@@ -771,6 +771,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "travel": 6.3,
+      "office": 6.5,
+      "sports_fitness": 6.9,
+      "wired_gaming": 5.5,
+      "wireless_gaming": 7
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -813,13 +820,6 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": true
-    },
-    "rtings_scores": {
-      "travel": 6.3,
-      "office": 6.5,
-      "sports_fitness": 6.9,
-      "wired_gaming": 5.5,
-      "wireless_gaming": 7.0
     }
   },
   {
@@ -848,6 +848,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "travel": 4.8,
+      "office": 6.1,
+      "sports_fitness": 5.6,
+      "wired_gaming": 7.7,
+      "wireless_gaming": 5.8
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -885,13 +892,6 @@
       ],
       "audio_repairability": "poor",
       "audio_value_pick": true
-    },
-    "rtings_scores": {
-      "travel": 4.8,
-      "office": 6.1,
-      "sports_fitness": 5.6,
-      "wired_gaming": 7.7,
-      "wireless_gaming": 5.8
     }
   },
   {
@@ -986,6 +986,13 @@
       "source_name": "RTINGS",
       "last_verified": "2026-02"
     },
+    "rtings_scores": {
+      "travel": 4.5,
+      "office": 5.8,
+      "sports_fitness": 5.5,
+      "wired_gaming": 7.3,
+      "wireless_gaming": 5.2
+    },
     "core_attributes": {
       "category_subtype": "headset",
       "price_tier": "budget",
@@ -1021,13 +1028,6 @@
       "audio_virtual_surround": [],
       "audio_repairability": "ok",
       "audio_value_pick": true
-    },
-    "rtings_scores": {
-      "travel": 4.5,
-      "office": 5.8,
-      "sports_fitness": 5.5,
-      "wired_gaming": 7.3,
-      "wireless_gaming": 5.2
     }
   },
   {
@@ -1059,6 +1059,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "travel": 4.8,
+      "office": 6,
+      "sports_fitness": 5.4,
+      "wired_gaming": 7.2,
+      "wireless_gaming": 5.2
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -1095,13 +1102,6 @@
       "audio_virtual_surround": [],
       "audio_repairability": "poor",
       "audio_value_pick": true
-    },
-    "rtings_scores": {
-      "travel": 4.8,
-      "office": 6.0,
-      "sports_fitness": 5.4,
-      "wired_gaming": 7.2,
-      "wireless_gaming": 5.2
     }
   },
   {
@@ -1130,6 +1130,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "travel": 7.6,
+      "office": 7.6,
+      "sports_fitness": 7.3,
+      "wired_gaming": 7.5,
+      "wireless_gaming": 6.9
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -1171,13 +1178,6 @@
       "audio_virtual_surround": [],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    },
-    "rtings_scores": {
-      "travel": 7.6,
-      "office": 7.6,
-      "sports_fitness": 7.3,
-      "wired_gaming": 7.5,
-      "wireless_gaming": 6.9
     }
   },
   {
@@ -1204,6 +1204,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "travel": 4.8,
+      "office": 5.7,
+      "sports_fitness": 5.9,
+      "wired_gaming": 7.6,
+      "wireless_gaming": 5.6
     },
     "core_attributes": {
       "category_subtype": "headphone",
@@ -1240,13 +1247,6 @@
       "audio_virtual_surround": [],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    },
-    "rtings_scores": {
-      "travel": 4.8,
-      "office": 5.7,
-      "sports_fitness": 5.9,
-      "wired_gaming": 7.6,
-      "wireless_gaming": 5.6
     }
   },
   {
@@ -1274,6 +1274,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "travel": 5.4,
+      "office": 5.9,
+      "sports_fitness": 6.7,
+      "wired_gaming": 6.8,
+      "wireless_gaming": 4.8
     },
     "core_attributes": {
       "category_subtype": "iem",
@@ -1308,13 +1315,6 @@
       "audio_virtual_surround": [],
       "audio_repairability": "ok",
       "audio_value_pick": true
-    },
-    "rtings_scores": {
-      "travel": 5.4,
-      "office": 5.9,
-      "sports_fitness": 6.7,
-      "wired_gaming": 6.8,
-      "wireless_gaming": 4.8
     }
   },
   {
@@ -1340,6 +1340,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "travel": 7.5,
+      "office": 7,
+      "sports_fitness": 8.2,
+      "wired_gaming": 5.8,
+      "wireless_gaming": 7.2
     },
     "core_attributes": {
       "category_subtype": "earbud",
@@ -1381,13 +1388,6 @@
       "audio_virtual_surround": [],
       "audio_repairability": "ok",
       "audio_value_pick": true
-    },
-    "rtings_scores": {
-      "travel": 7.5,
-      "office": 7.0,
-      "sports_fitness": 8.2,
-      "wired_gaming": 5.8,
-      "wireless_gaming": 7.2
     }
   },
   {
@@ -1415,6 +1415,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "travel": 6,
+      "office": 7,
+      "sports_fitness": 6.3,
+      "wired_gaming": 7.8,
+      "wireless_gaming": 7.6
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -1453,13 +1460,6 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": true
-    },
-    "rtings_scores": {
-      "travel": 6.0,
-      "office": 7.0,
-      "sports_fitness": 6.3,
-      "wired_gaming": 7.8,
-      "wireless_gaming": 7.6
     }
   },
   {
@@ -1488,6 +1488,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "travel": 7.8,
+      "office": 7.7,
+      "sports_fitness": 7,
+      "wired_gaming": 5.9,
+      "wireless_gaming": 7.6
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -1530,13 +1537,6 @@
       ],
       "audio_repairability": "poor",
       "audio_value_pick": false
-    },
-    "rtings_scores": {
-      "travel": 7.8,
-      "office": 7.7,
-      "sports_fitness": 7.0,
-      "wired_gaming": 5.9,
-      "wireless_gaming": 7.6
     }
   },
   {
@@ -1569,6 +1569,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "travel": 4.4,
+      "office": 5.7,
+      "sports_fitness": 5.5,
+      "wired_gaming": 7.4,
+      "wireless_gaming": 5.3
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -1611,13 +1618,6 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    },
-    "rtings_scores": {
-      "travel": 4.4,
-      "office": 5.7,
-      "sports_fitness": 5.5,
-      "wired_gaming": 7.4,
-      "wireless_gaming": 5.3
     }
   },
   {
@@ -1646,6 +1646,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "travel": 4.9,
+      "office": 6.1,
+      "sports_fitness": 5.7,
+      "wired_gaming": 7.6,
+      "wireless_gaming": 5.7
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -1687,13 +1694,6 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": true
-    },
-    "rtings_scores": {
-      "travel": 4.9,
-      "office": 6.1,
-      "sports_fitness": 5.7,
-      "wired_gaming": 7.6,
-      "wireless_gaming": 5.7
     }
   },
   {
@@ -1717,6 +1717,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "travel": 5.8,
+      "office": 6.9,
+      "sports_fitness": 5.9,
+      "wired_gaming": 5.9,
+      "wireless_gaming": 7.7
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -1754,13 +1761,6 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    },
-    "rtings_scores": {
-      "travel": 5.8,
-      "office": 6.9,
-      "sports_fitness": 5.9,
-      "wired_gaming": 5.9,
-      "wireless_gaming": 7.7
     }
   },
   {
@@ -1785,6 +1785,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "travel": 5.8,
+      "office": 6.9,
+      "sports_fitness": 6.4,
+      "wired_gaming": 7.8,
+      "wireless_gaming": 7.7
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -1825,13 +1832,6 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    },
-    "rtings_scores": {
-      "travel": 5.8,
-      "office": 6.9,
-      "sports_fitness": 6.4,
-      "wired_gaming": 7.8,
-      "wireless_gaming": 7.7
     }
   },
   {
@@ -1857,6 +1857,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "travel": 8,
+      "office": 8.2,
+      "sports_fitness": 7,
+      "wired_gaming": 8,
+      "wireless_gaming": 7.7
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -1902,13 +1909,6 @@
       ],
       "audio_repairability": "good",
       "audio_value_pick": false
-    },
-    "rtings_scores": {
-      "travel": 8.0,
-      "office": 8.2,
-      "sports_fitness": 7.0,
-      "wired_gaming": 8.0,
-      "wireless_gaming": 7.7
     }
   },
   {
@@ -1936,6 +1936,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "travel": 5,
+      "office": 6.2,
+      "sports_fitness": 5.7,
+      "wired_gaming": 7.3,
+      "wireless_gaming": 5.3
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -1978,13 +1985,6 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    },
-    "rtings_scores": {
-      "travel": 5.0,
-      "office": 6.2,
-      "sports_fitness": 5.7,
-      "wired_gaming": 7.3,
-      "wireless_gaming": 5.3
     }
   },
   {
@@ -2008,6 +2008,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "travel": 5.2,
+      "office": 5.8,
+      "sports_fitness": 6.1,
+      "wired_gaming": 6.5,
+      "wireless_gaming": 7.8
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -2046,13 +2053,6 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    },
-    "rtings_scores": {
-      "travel": 5.2,
-      "office": 5.8,
-      "sports_fitness": 6.1,
-      "wired_gaming": 6.5,
-      "wireless_gaming": 7.8
     }
   },
   {
@@ -2151,6 +2151,13 @@
       "source_name": "RTINGS",
       "last_verified": "2026-01"
     },
+    "rtings_scores": {
+      "travel": 6.2,
+      "office": 6.8,
+      "sports_fitness": 7.2,
+      "wired_gaming": 7.7,
+      "wireless_gaming": 7.5
+    },
     "core_attributes": {
       "category_subtype": "headset",
       "price_tier": "midrange",
@@ -2191,13 +2198,6 @@
       "audio_virtual_surround": [],
       "audio_repairability": "ok",
       "audio_value_pick": true
-    },
-    "rtings_scores": {
-      "travel": 6.2,
-      "office": 6.8,
-      "sports_fitness": 7.2,
-      "wired_gaming": 7.7,
-      "wireless_gaming": 7.5
     }
   },
   {
@@ -2221,6 +2221,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "travel": 5.5,
+      "office": 6.7,
+      "sports_fitness": 6,
+      "wired_gaming": 7.8,
+      "wireless_gaming": 7.6
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -2260,13 +2267,6 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    },
-    "rtings_scores": {
-      "travel": 5.5,
-      "office": 6.7,
-      "sports_fitness": 6.0,
-      "wired_gaming": 7.8,
-      "wireless_gaming": 7.6
     }
   },
   {
@@ -2289,6 +2289,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "travel": 5.6,
+      "office": 6.1,
+      "sports_fitness": 5.2,
+      "wired_gaming": 6,
+      "wireless_gaming": 7.6
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -2326,13 +2333,6 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    },
-    "rtings_scores": {
-      "travel": 5.6,
-      "office": 6.1,
-      "sports_fitness": 5.2,
-      "wired_gaming": 6.0,
-      "wireless_gaming": 7.6
     }
   },
   {
@@ -2356,6 +2356,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "travel": 5.4,
+      "office": 6.6,
+      "sports_fitness": 6.2,
+      "wired_gaming": 6.1,
+      "wireless_gaming": 7.6
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -2393,13 +2400,6 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": true
-    },
-    "rtings_scores": {
-      "travel": 5.4,
-      "office": 6.6,
-      "sports_fitness": 6.2,
-      "wired_gaming": 6.1,
-      "wireless_gaming": 7.6
     }
   },
   {
@@ -2423,6 +2423,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "travel": 5.1,
+      "office": 6.4,
+      "sports_fitness": 6,
+      "wired_gaming": 5.9,
+      "wireless_gaming": 7.6
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -2459,13 +2466,6 @@
       "audio_virtual_surround": [],
       "audio_repairability": "ok",
       "audio_value_pick": true
-    },
-    "rtings_scores": {
-      "travel": 5.1,
-      "office": 6.4,
-      "sports_fitness": 6.0,
-      "wired_gaming": 5.9,
-      "wireless_gaming": 7.6
     }
   },
   {
@@ -2489,6 +2489,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "travel": 5.3,
+      "office": 6.4,
+      "sports_fitness": 5.8,
+      "wired_gaming": 6,
+      "wireless_gaming": 7.6
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -2526,13 +2533,6 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    },
-    "rtings_scores": {
-      "travel": 5.3,
-      "office": 6.4,
-      "sports_fitness": 5.8,
-      "wired_gaming": 6.0,
-      "wireless_gaming": 7.6
     }
   },
   {
@@ -2559,6 +2559,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "travel": 5.7,
+      "office": 6.9,
+      "sports_fitness": 6,
+      "wired_gaming": 5.9,
+      "wireless_gaming": 7.6
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -2597,13 +2604,6 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": true
-    },
-    "rtings_scores": {
-      "travel": 5.7,
-      "office": 6.9,
-      "sports_fitness": 6.0,
-      "wired_gaming": 5.9,
-      "wireless_gaming": 7.6
     }
   },
   {
@@ -2627,6 +2627,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "travel": 5.8,
+      "office": 6.9,
+      "sports_fitness": 6.4,
+      "wired_gaming": 7.6,
+      "wireless_gaming": 7.6
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -2667,13 +2674,6 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": true
-    },
-    "rtings_scores": {
-      "travel": 5.8,
-      "office": 6.9,
-      "sports_fitness": 6.4,
-      "wired_gaming": 7.6,
-      "wireless_gaming": 7.6
     }
   },
   {
@@ -2697,6 +2697,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "travel": 5.4,
+      "office": 6.4,
+      "sports_fitness": 6.2,
+      "wired_gaming": 7.5,
+      "wireless_gaming": 7.5
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -2736,13 +2743,6 @@
       ],
       "audio_repairability": "poor",
       "audio_value_pick": false
-    },
-    "rtings_scores": {
-      "travel": 5.4,
-      "office": 6.4,
-      "sports_fitness": 6.2,
-      "wired_gaming": 7.5,
-      "wireless_gaming": 7.5
     }
   },
   {
@@ -2769,6 +2769,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "travel": 6.5,
+      "office": 7.1,
+      "sports_fitness": 7,
+      "wired_gaming": 7.7,
+      "wireless_gaming": 7.5
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -2810,13 +2817,6 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    },
-    "rtings_scores": {
-      "travel": 6.5,
-      "office": 7.1,
-      "sports_fitness": 7.0,
-      "wired_gaming": 7.7,
-      "wireless_gaming": 7.5
     }
   },
   {
@@ -2840,6 +2840,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "travel": 5.8,
+      "office": 7,
+      "sports_fitness": 6.4,
+      "wired_gaming": 7.7,
+      "wireless_gaming": 7.5
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -2880,13 +2887,6 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    },
-    "rtings_scores": {
-      "travel": 5.8,
-      "office": 7.0,
-      "sports_fitness": 6.4,
-      "wired_gaming": 7.7,
-      "wireless_gaming": 7.5
     }
   },
   {
@@ -2910,6 +2910,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "travel": 6.3,
+      "office": 6.7,
+      "sports_fitness": 6.7,
+      "wired_gaming": 7.7,
+      "wireless_gaming": 7.5
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -2949,13 +2956,6 @@
       "audio_virtual_surround": [],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    },
-    "rtings_scores": {
-      "travel": 6.3,
-      "office": 6.7,
-      "sports_fitness": 6.7,
-      "wired_gaming": 7.7,
-      "wireless_gaming": 7.5
     }
   },
   {
@@ -2986,6 +2986,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "travel": 4.8,
+      "office": 6.2,
+      "sports_fitness": 5.7,
+      "wired_gaming": 7.5,
+      "wireless_gaming": 5.5
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -3023,13 +3030,6 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": true
-    },
-    "rtings_scores": {
-      "travel": 4.8,
-      "office": 6.2,
-      "sports_fitness": 5.7,
-      "wired_gaming": 7.5,
-      "wireless_gaming": 5.5
     }
   },
   {
@@ -3061,6 +3061,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "travel": 6.9,
+      "office": 7.3,
+      "sports_fitness": 7.1,
+      "wired_gaming": 7.7,
+      "wireless_gaming": 7.5
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -3102,13 +3109,6 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    },
-    "rtings_scores": {
-      "travel": 6.9,
-      "office": 7.3,
-      "sports_fitness": 7.1,
-      "wired_gaming": 7.7,
-      "wireless_gaming": 7.5
     }
   },
   {
@@ -3133,6 +3133,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "travel": 5.3,
+      "office": 6.7,
+      "sports_fitness": 5.9,
+      "wired_gaming": 5.9,
+      "wireless_gaming": 7.5
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -3170,13 +3177,6 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": true
-    },
-    "rtings_scores": {
-      "travel": 5.3,
-      "office": 6.7,
-      "sports_fitness": 5.9,
-      "wired_gaming": 5.9,
-      "wireless_gaming": 7.5
     }
   },
   {
@@ -3204,6 +3204,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "travel": 7,
+      "office": 7.1,
+      "sports_fitness": 7.1,
+      "wired_gaming": 7.6,
+      "wireless_gaming": 7.5
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -3247,13 +3254,6 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    },
-    "rtings_scores": {
-      "travel": 7.0,
-      "office": 7.1,
-      "sports_fitness": 7.1,
-      "wired_gaming": 7.6,
-      "wireless_gaming": 7.5
     }
   },
   {
@@ -3281,6 +3281,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "travel": 6.4,
+      "office": 6.8,
+      "sports_fitness": 7,
+      "wired_gaming": 7.7,
+      "wireless_gaming": 7.5
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -3322,13 +3329,6 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    },
-    "rtings_scores": {
-      "travel": 6.4,
-      "office": 6.8,
-      "sports_fitness": 7.0,
-      "wired_gaming": 7.7,
-      "wireless_gaming": 7.5
     }
   },
   {
@@ -3356,6 +3356,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "travel": 5.4,
+      "office": 6.6,
+      "sports_fitness": 5.9,
+      "wired_gaming": 7.7,
+      "wireless_gaming": 7.4
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -3394,13 +3401,6 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    },
-    "rtings_scores": {
-      "travel": 5.4,
-      "office": 6.6,
-      "sports_fitness": 5.9,
-      "wired_gaming": 7.7,
-      "wireless_gaming": 7.4
     }
   },
   {
@@ -3427,6 +3427,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "travel": 5.2,
+      "office": 5.9,
+      "sports_fitness": 6,
+      "wired_gaming": 5.9,
+      "wireless_gaming": 7.4
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -3461,13 +3468,6 @@
       "audio_virtual_surround": [],
       "audio_repairability": "ok",
       "audio_value_pick": true
-    },
-    "rtings_scores": {
-      "travel": 5.2,
-      "office": 5.9,
-      "sports_fitness": 6.0,
-      "wired_gaming": 5.9,
-      "wireless_gaming": 7.4
     }
   },
   {
@@ -3494,6 +3494,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "travel": 5.6,
+      "office": 6.8,
+      "sports_fitness": 5.8,
+      "wired_gaming": 7.5,
+      "wireless_gaming": 7.4
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -3532,13 +3539,6 @@
       "audio_virtual_surround": [],
       "audio_repairability": "ok",
       "audio_value_pick": true
-    },
-    "rtings_scores": {
-      "travel": 5.6,
-      "office": 6.8,
-      "sports_fitness": 5.8,
-      "wired_gaming": 7.5,
-      "wireless_gaming": 7.4
     }
   },
   {
@@ -3561,6 +3561,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "travel": 5.4,
+      "office": 6.4,
+      "sports_fitness": 5.2,
+      "wired_gaming": 7.7,
+      "wireless_gaming": 7.4
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -3599,13 +3606,6 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    },
-    "rtings_scores": {
-      "travel": 5.4,
-      "office": 6.4,
-      "sports_fitness": 5.2,
-      "wired_gaming": 7.7,
-      "wireless_gaming": 7.4
     }
   },
   {
@@ -3629,6 +3629,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "travel": 5.9,
+      "office": 7,
+      "sports_fitness": 5.8,
+      "wired_gaming": 7.7,
+      "wireless_gaming": 7.4
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -3667,13 +3674,6 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    },
-    "rtings_scores": {
-      "travel": 5.9,
-      "office": 7.0,
-      "sports_fitness": 5.8,
-      "wired_gaming": 7.7,
-      "wireless_gaming": 7.4
     }
   },
   {
@@ -3701,6 +3701,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "travel": 7.1,
+      "office": 7.2,
+      "sports_fitness": 7.1,
+      "wired_gaming": 7.3,
+      "wireless_gaming": 7.4
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -3743,13 +3750,6 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    },
-    "rtings_scores": {
-      "travel": 7.1,
-      "office": 7.2,
-      "sports_fitness": 7.1,
-      "wired_gaming": 7.3,
-      "wireless_gaming": 7.4
     }
   },
   {
@@ -3777,6 +3777,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "travel": 6.5,
+      "office": 6.8,
+      "sports_fitness": 6.9,
+      "wired_gaming": 5.7,
+      "wireless_gaming": 7.4
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -3817,13 +3824,6 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    },
-    "rtings_scores": {
-      "travel": 6.5,
-      "office": 6.8,
-      "sports_fitness": 6.9,
-      "wired_gaming": 5.7,
-      "wireless_gaming": 7.4
     }
   },
   {
@@ -3854,6 +3854,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "travel": 6.1,
+      "office": 6.1,
+      "sports_fitness": 5.8,
+      "wired_gaming": 6.1,
+      "wireless_gaming": 7.4
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -3891,13 +3898,6 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": true
-    },
-    "rtings_scores": {
-      "travel": 6.1,
-      "office": 6.1,
-      "sports_fitness": 5.8,
-      "wired_gaming": 6.1,
-      "wireless_gaming": 7.4
     }
   },
   {
@@ -3929,6 +3929,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "travel": 6.2,
+      "office": 6.6,
+      "sports_fitness": 6.9,
+      "wired_gaming": 5.9,
+      "wireless_gaming": 7.4
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -3970,13 +3977,6 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": true
-    },
-    "rtings_scores": {
-      "travel": 6.2,
-      "office": 6.6,
-      "sports_fitness": 6.9,
-      "wired_gaming": 5.9,
-      "wireless_gaming": 7.4
     }
   },
   {
@@ -4009,6 +4009,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "travel": 5.7,
+      "office": 6.2,
+      "sports_fitness": 7.1,
+      "wired_gaming": 5.8,
+      "wireless_gaming": 7.2
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -4050,13 +4057,6 @@
       ],
       "audio_repairability": "poor",
       "audio_value_pick": true
-    },
-    "rtings_scores": {
-      "travel": 5.7,
-      "office": 6.2,
-      "sports_fitness": 7.1,
-      "wired_gaming": 5.8,
-      "wireless_gaming": 7.2
     }
   },
   {
@@ -4081,6 +4081,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "travel": 6.8,
+      "office": 6.9,
+      "sports_fitness": 6.3,
+      "wired_gaming": 7.7,
+      "wireless_gaming": 7.3
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -4122,13 +4129,6 @@
       ],
       "audio_repairability": "poor",
       "audio_value_pick": false
-    },
-    "rtings_scores": {
-      "travel": 6.8,
-      "office": 6.9,
-      "sports_fitness": 6.3,
-      "wired_gaming": 7.7,
-      "wireless_gaming": 7.3
     }
   },
   {
@@ -4153,6 +4153,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "travel": 5.7,
+      "office": 6.2,
+      "sports_fitness": 5.8,
+      "wired_gaming": 7.5,
+      "wireless_gaming": 7.3
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -4190,13 +4197,6 @@
       "audio_virtual_surround": [],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    },
-    "rtings_scores": {
-      "travel": 5.7,
-      "office": 6.2,
-      "sports_fitness": 5.8,
-      "wired_gaming": 7.5,
-      "wireless_gaming": 7.3
     }
   },
   {
@@ -4227,6 +4227,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "travel": 5.7,
+      "office": 6.8,
+      "sports_fitness": 6,
+      "wired_gaming": 7.6,
+      "wireless_gaming": 7.3
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -4263,13 +4270,6 @@
       "audio_virtual_surround": [],
       "audio_repairability": "ok",
       "audio_value_pick": true
-    },
-    "rtings_scores": {
-      "travel": 5.7,
-      "office": 6.8,
-      "sports_fitness": 6.0,
-      "wired_gaming": 7.6,
-      "wireless_gaming": 7.3
     }
   },
   {
@@ -4295,6 +4295,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "travel": 5.5,
+      "office": 6.7,
+      "sports_fitness": 5.8,
+      "wired_gaming": 5.9,
+      "wireless_gaming": 7.3
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -4334,13 +4341,6 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    },
-    "rtings_scores": {
-      "travel": 5.5,
-      "office": 6.7,
-      "sports_fitness": 5.8,
-      "wired_gaming": 5.9,
-      "wireless_gaming": 7.3
     }
   },
   {
@@ -4366,6 +4366,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "travel": 5.8,
+      "office": 6.9,
+      "sports_fitness": 6.3,
+      "wired_gaming": 7.9,
+      "wireless_gaming": 7.3
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -4405,13 +4412,6 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": true
-    },
-    "rtings_scores": {
-      "travel": 5.8,
-      "office": 6.9,
-      "sports_fitness": 6.3,
-      "wired_gaming": 7.9,
-      "wireless_gaming": 7.3
     }
   },
   {
@@ -4438,6 +4438,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "travel": 7.4,
+      "office": 7.4,
+      "sports_fitness": 6.9,
+      "wired_gaming": 5.9,
+      "wireless_gaming": 7.3
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -4481,13 +4488,6 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    },
-    "rtings_scores": {
-      "travel": 7.4,
-      "office": 7.4,
-      "sports_fitness": 6.9,
-      "wired_gaming": 5.9,
-      "wireless_gaming": 7.3
     }
   },
   {
@@ -4513,6 +4513,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "travel": 4.9,
+      "office": 5.6,
+      "sports_fitness": 5.7,
+      "wired_gaming": 5.9,
+      "wireless_gaming": 7.4
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -4550,13 +4557,6 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    },
-    "rtings_scores": {
-      "travel": 4.9,
-      "office": 5.6,
-      "sports_fitness": 5.7,
-      "wired_gaming": 5.9,
-      "wireless_gaming": 7.4
     }
   },
   {
@@ -4588,6 +4588,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "travel": 5.7,
+      "office": 6.8,
+      "sports_fitness": 6.2,
+      "wired_gaming": 7.3,
+      "wireless_gaming": 7.1
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -4626,13 +4633,6 @@
       "audio_virtual_surround": [],
       "audio_repairability": "ok",
       "audio_value_pick": true
-    },
-    "rtings_scores": {
-      "travel": 5.7,
-      "office": 6.8,
-      "sports_fitness": 6.2,
-      "wired_gaming": 7.3,
-      "wireless_gaming": 7.1
     }
   },
   {
@@ -4663,6 +4663,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "travel": 6.8,
+      "office": 6.8,
+      "sports_fitness": 6.8,
+      "wired_gaming": 7.6,
+      "wireless_gaming": 7.2
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -4705,13 +4712,6 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    },
-    "rtings_scores": {
-      "travel": 6.8,
-      "office": 6.8,
-      "sports_fitness": 6.8,
-      "wired_gaming": 7.6,
-      "wireless_gaming": 7.2
     }
   },
   {
@@ -4735,6 +4735,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "travel": 7.1,
+      "office": 7.1,
+      "sports_fitness": 7,
+      "wired_gaming": 7.2,
+      "wireless_gaming": 7.2
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -4778,13 +4785,6 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    },
-    "rtings_scores": {
-      "travel": 7.1,
-      "office": 7.1,
-      "sports_fitness": 7.0,
-      "wired_gaming": 7.2,
-      "wireless_gaming": 7.2
     }
   },
   {
@@ -4808,6 +4808,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "travel": 5.3,
+      "office": 6.5,
+      "sports_fitness": 6,
+      "wired_gaming": 7.3,
+      "wireless_gaming": 7.2
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -4846,13 +4853,6 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    },
-    "rtings_scores": {
-      "travel": 5.3,
-      "office": 6.5,
-      "sports_fitness": 6.0,
-      "wired_gaming": 7.3,
-      "wireless_gaming": 7.2
     }
   },
   {
@@ -4882,6 +4882,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "travel": 7.3,
+      "office": 7.2,
+      "sports_fitness": 6.6,
+      "wired_gaming": 5.5,
+      "wireless_gaming": 7.2
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -4922,13 +4929,6 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    },
-    "rtings_scores": {
-      "travel": 7.3,
-      "office": 7.2,
-      "sports_fitness": 6.6,
-      "wired_gaming": 5.5,
-      "wireless_gaming": 7.2
     }
   },
   {
@@ -4955,6 +4955,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "travel": 5.5,
+      "office": 6.6,
+      "sports_fitness": 5.9,
+      "wired_gaming": 5.5,
+      "wireless_gaming": 7.2
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -4990,13 +4997,6 @@
       "audio_virtual_surround": [],
       "audio_repairability": "ok",
       "audio_value_pick": true
-    },
-    "rtings_scores": {
-      "travel": 5.5,
-      "office": 6.6,
-      "sports_fitness": 5.9,
-      "wired_gaming": 5.5,
-      "wireless_gaming": 7.2
     }
   },
   {
@@ -5019,6 +5019,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "travel": 5,
+      "office": 6,
+      "sports_fitness": 6.1,
+      "wired_gaming": 5.6,
+      "wireless_gaming": 7.2
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -5054,13 +5061,6 @@
       "audio_virtual_surround": [],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    },
-    "rtings_scores": {
-      "travel": 5.0,
-      "office": 6.0,
-      "sports_fitness": 6.1,
-      "wired_gaming": 5.6,
-      "wireless_gaming": 7.2
     }
   },
   {
@@ -5090,6 +5090,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "travel": 7.8,
+      "office": 7.4,
+      "sports_fitness": 6.9,
+      "wired_gaming": 5.7,
+      "wireless_gaming": 7.2
     },
     "core_attributes": {
       "category_subtype": "earbud",
@@ -5129,13 +5136,6 @@
       ],
       "audio_repairability": "poor",
       "audio_value_pick": false
-    },
-    "rtings_scores": {
-      "travel": 7.8,
-      "office": 7.4,
-      "sports_fitness": 6.9,
-      "wired_gaming": 5.7,
-      "wireless_gaming": 7.2
     }
   },
   {
@@ -5160,6 +5160,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "travel": 5.4,
+      "office": 6,
+      "sports_fitness": 6.4,
+      "wired_gaming": 7.3,
+      "wireless_gaming": 7.2
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -5202,13 +5209,6 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    },
-    "rtings_scores": {
-      "travel": 5.4,
-      "office": 6.0,
-      "sports_fitness": 6.4,
-      "wired_gaming": 7.3,
-      "wireless_gaming": 7.2
     }
   },
   {
@@ -5233,6 +5233,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "travel": 3.7,
+      "office": 4.3,
+      "sports_fitness": 5.4,
+      "wired_gaming": 6.3,
+      "wireless_gaming": 4.3
     },
     "core_attributes": {
       "category_subtype": "headphone",
@@ -5266,13 +5273,6 @@
       "audio_virtual_surround": [],
       "audio_repairability": "good",
       "audio_value_pick": true
-    },
-    "rtings_scores": {
-      "travel": 3.7,
-      "office": 4.3,
-      "sports_fitness": 5.4,
-      "wired_gaming": 6.3,
-      "wireless_gaming": 4.3
     }
   },
   {
@@ -5302,6 +5302,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "travel": 4,
+      "office": 4.8,
+      "sports_fitness": 5.3,
+      "wired_gaming": 6.7,
+      "wireless_gaming": 4.7
     },
     "core_attributes": {
       "category_subtype": "headphone",
@@ -5335,13 +5342,6 @@
       "audio_virtual_surround": [],
       "audio_repairability": "good",
       "audio_value_pick": false
-    },
-    "rtings_scores": {
-      "travel": 4.0,
-      "office": 4.8,
-      "sports_fitness": 5.3,
-      "wired_gaming": 6.7,
-      "wireless_gaming": 4.7
     }
   },
   {
@@ -5369,6 +5369,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "travel": 5.1,
+      "office": 3.5,
+      "sports_fitness": 6.2,
+      "wired_gaming": 6.7,
+      "wireless_gaming": 4.6
     },
     "core_attributes": {
       "category_subtype": "headphone",
@@ -5403,13 +5410,6 @@
       "audio_virtual_surround": [],
       "audio_repairability": "good",
       "audio_value_pick": false
-    },
-    "rtings_scores": {
-      "travel": 5.1,
-      "office": 3.5,
-      "sports_fitness": 6.2,
-      "wired_gaming": 6.7,
-      "wireless_gaming": 4.6
     }
   },
   {
@@ -5435,6 +5435,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "travel": 4.8,
+      "office": 3.3,
+      "sports_fitness": 5.8,
+      "wired_gaming": 6.4,
+      "wireless_gaming": 4.4
     },
     "core_attributes": {
       "category_subtype": "headphone",
@@ -5468,13 +5475,6 @@
       "audio_virtual_surround": [],
       "audio_repairability": "good",
       "audio_value_pick": true
-    },
-    "rtings_scores": {
-      "travel": 4.8,
-      "office": 3.3,
-      "sports_fitness": 5.8,
-      "wired_gaming": 6.4,
-      "wireless_gaming": 4.4
     }
   },
   {
@@ -5500,6 +5500,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "travel": 5,
+      "office": 5.6,
+      "sports_fitness": 5.1,
+      "wired_gaming": 6.3,
+      "wireless_gaming": 4.3
     },
     "core_attributes": {
       "category_subtype": "headphone",
@@ -5534,13 +5541,6 @@
       "audio_virtual_surround": [],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    },
-    "rtings_scores": {
-      "travel": 5.0,
-      "office": 5.6,
-      "sports_fitness": 5.1,
-      "wired_gaming": 6.3,
-      "wireless_gaming": 4.3
     }
   },
   {
@@ -5566,6 +5566,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "travel": 3.8,
+      "office": 4.4,
+      "sports_fitness": 5.6,
+      "wired_gaming": 6.5,
+      "wireless_gaming": 4.4
     },
     "core_attributes": {
       "category_subtype": "headphone",
@@ -5600,13 +5607,6 @@
       "audio_virtual_surround": [],
       "audio_repairability": "good",
       "audio_value_pick": false
-    },
-    "rtings_scores": {
-      "travel": 3.8,
-      "office": 4.4,
-      "sports_fitness": 5.6,
-      "wired_gaming": 6.5,
-      "wireless_gaming": 4.4
     }
   },
   {
@@ -5634,6 +5634,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "travel": 4.4,
+      "office": 3,
+      "sports_fitness": 5.7,
+      "wired_gaming": 6.7,
+      "wireless_gaming": 4.7
     },
     "core_attributes": {
       "category_subtype": "headphone",
@@ -5668,13 +5675,6 @@
       "audio_virtual_surround": [],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    },
-    "rtings_scores": {
-      "travel": 4.4,
-      "office": 3.0,
-      "sports_fitness": 5.7,
-      "wired_gaming": 6.7,
-      "wireless_gaming": 4.7
     }
   },
   {
@@ -5700,6 +5700,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "travel": 3.7,
+      "office": 4.5,
+      "sports_fitness": 5.3,
+      "wired_gaming": 6.6,
+      "wireless_gaming": 4.5
     },
     "core_attributes": {
       "category_subtype": "headphone",
@@ -5732,13 +5739,6 @@
       "audio_virtual_surround": [],
       "audio_repairability": "poor",
       "audio_value_pick": true
-    },
-    "rtings_scores": {
-      "travel": 3.7,
-      "office": 4.5,
-      "sports_fitness": 5.3,
-      "wired_gaming": 6.6,
-      "wireless_gaming": 4.5
     }
   },
   {
@@ -5772,6 +5772,13 @@
       "source_name": "RTINGS",
       "last_verified": "2026-02"
     },
+    "rtings_scores": {
+      "travel": 5.8,
+      "office": 6,
+      "sports_fitness": 5.5,
+      "wired_gaming": 6.1,
+      "wireless_gaming": 4.3
+    },
     "core_attributes": {
       "category_subtype": "headphone",
       "price_tier": "midrange",
@@ -5804,13 +5811,6 @@
       "audio_virtual_surround": [],
       "audio_repairability": "good",
       "audio_value_pick": true
-    },
-    "rtings_scores": {
-      "travel": 5.8,
-      "office": 6.0,
-      "sports_fitness": 5.5,
-      "wired_gaming": 6.1,
-      "wireless_gaming": 4.3
     }
   },
   {
@@ -5838,6 +5838,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "travel": 4.8,
+      "office": 5.4,
+      "sports_fitness": 5.3,
+      "wired_gaming": 6.4,
+      "wireless_gaming": 4.3
     },
     "core_attributes": {
       "category_subtype": "headphone",
@@ -5871,13 +5878,6 @@
       "audio_virtual_surround": [],
       "audio_repairability": "good",
       "audio_value_pick": true
-    },
-    "rtings_scores": {
-      "travel": 4.8,
-      "office": 5.4,
-      "sports_fitness": 5.3,
-      "wired_gaming": 6.4,
-      "wireless_gaming": 4.3
     }
   },
   {
@@ -5905,6 +5905,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "travel": 4.8,
+      "office": 5.4,
+      "sports_fitness": 5.5,
+      "wired_gaming": 6.3,
+      "wireless_gaming": 4.3
     },
     "core_attributes": {
       "category_subtype": "headphone",
@@ -5937,13 +5944,6 @@
       "audio_virtual_surround": [],
       "audio_repairability": "great",
       "audio_value_pick": false
-    },
-    "rtings_scores": {
-      "travel": 4.8,
-      "office": 5.4,
-      "sports_fitness": 5.5,
-      "wired_gaming": 6.3,
-      "wireless_gaming": 4.3
     }
   },
   {
@@ -5973,6 +5973,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "travel": 7.8,
+      "office": 7.6,
+      "sports_fitness": 7.2,
+      "wired_gaming": 7.2,
+      "wireless_gaming": 6.1
     },
     "core_attributes": {
       "category_subtype": "headphone",
@@ -6017,13 +6024,6 @@
       "audio_virtual_surround": [],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    },
-    "rtings_scores": {
-      "travel": 7.8,
-      "office": 7.6,
-      "sports_fitness": 7.2,
-      "wired_gaming": 7.2,
-      "wireless_gaming": 6.1
     }
   },
   {
@@ -6050,6 +6050,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "travel": 7.9,
+      "office": 7.4,
+      "sports_fitness": 7.2,
+      "wired_gaming": 7.5,
+      "wireless_gaming": 5.9
     },
     "core_attributes": {
       "category_subtype": "headphone",
@@ -6095,13 +6102,6 @@
       ],
       "audio_repairability": "good",
       "audio_value_pick": false
-    },
-    "rtings_scores": {
-      "travel": 7.9,
-      "office": 7.4,
-      "sports_fitness": 7.2,
-      "wired_gaming": 7.5,
-      "wireless_gaming": 5.9
     }
   },
   {
@@ -6126,6 +6126,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "travel": 7.8,
+      "office": 7.1,
+      "sports_fitness": 8.1,
+      "wired_gaming": 5.2,
+      "wireless_gaming": 5.4
     },
     "core_attributes": {
       "category_subtype": "headphone",
@@ -6171,13 +6178,6 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    },
-    "rtings_scores": {
-      "travel": 7.8,
-      "office": 7.1,
-      "sports_fitness": 8.1,
-      "wired_gaming": 5.2,
-      "wireless_gaming": 5.4
     }
   },
   {
@@ -6203,6 +6203,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "travel": 8.6,
+      "office": 8.3,
+      "sports_fitness": 7.5,
+      "wired_gaming": 7.4,
+      "wireless_gaming": 6.3
     },
     "core_attributes": {
       "category_subtype": "headphone",
@@ -6244,13 +6251,6 @@
       "audio_virtual_surround": [],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    },
-    "rtings_scores": {
-      "travel": 8.6,
-      "office": 8.3,
-      "sports_fitness": 7.5,
-      "wired_gaming": 7.4,
-      "wireless_gaming": 6.3
     }
   },
   {
@@ -6279,6 +6279,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "travel": 8.2,
+      "office": 7.6,
+      "sports_fitness": 7.5,
+      "wired_gaming": 7.4,
+      "wireless_gaming": 6.2
     },
     "core_attributes": {
       "category_subtype": "headphone",
@@ -6319,13 +6326,6 @@
       "audio_virtual_surround": [],
       "audio_repairability": "ok",
       "audio_value_pick": true
-    },
-    "rtings_scores": {
-      "travel": 8.2,
-      "office": 7.6,
-      "sports_fitness": 7.5,
-      "wired_gaming": 7.4,
-      "wireless_gaming": 6.2
     }
   },
   {
@@ -6350,6 +6350,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "travel": 7.8,
+      "office": 7.6,
+      "sports_fitness": 7.1,
+      "wired_gaming": 6.4,
+      "wireless_gaming": 5.3
     },
     "core_attributes": {
       "category_subtype": "headphone",
@@ -6392,13 +6399,6 @@
       "audio_virtual_surround": [],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    },
-    "rtings_scores": {
-      "travel": 7.8,
-      "office": 7.6,
-      "sports_fitness": 7.1,
-      "wired_gaming": 6.4,
-      "wireless_gaming": 5.3
     }
   },
   {
@@ -6428,6 +6428,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "travel": 7.3,
+      "office": 7.2,
+      "sports_fitness": 7.1,
+      "wired_gaming": 7,
+      "wireless_gaming": 5.3
     },
     "core_attributes": {
       "category_subtype": "headphone",
@@ -6468,13 +6475,6 @@
       "audio_virtual_surround": [],
       "audio_repairability": "poor",
       "audio_value_pick": true
-    },
-    "rtings_scores": {
-      "travel": 7.3,
-      "office": 7.2,
-      "sports_fitness": 7.1,
-      "wired_gaming": 7.0,
-      "wireless_gaming": 5.3
     }
   },
   {
@@ -6500,6 +6500,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "travel": 7.4,
+      "office": 7.1,
+      "sports_fitness": 6.9,
+      "wired_gaming": 7.1,
+      "wireless_gaming": 5.5
     },
     "core_attributes": {
       "category_subtype": "headphone",
@@ -6541,13 +6548,6 @@
       "audio_virtual_surround": [],
       "audio_repairability": "ok",
       "audio_value_pick": true
-    },
-    "rtings_scores": {
-      "travel": 7.4,
-      "office": 7.1,
-      "sports_fitness": 6.9,
-      "wired_gaming": 7.1,
-      "wireless_gaming": 5.5
     }
   },
   {
@@ -6572,6 +6572,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "travel": 7.9,
+      "office": 7.6,
+      "sports_fitness": 7.2,
+      "wired_gaming": 7.4,
+      "wireless_gaming": 5.8
     },
     "core_attributes": {
       "category_subtype": "headphone",
@@ -6612,13 +6619,6 @@
       "audio_virtual_surround": [],
       "audio_repairability": "ok",
       "audio_value_pick": true
-    },
-    "rtings_scores": {
-      "travel": 7.9,
-      "office": 7.6,
-      "sports_fitness": 7.2,
-      "wired_gaming": 7.4,
-      "wireless_gaming": 5.8
     }
   },
   {
@@ -6647,6 +6647,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "travel": 8.1,
+      "office": 7.9,
+      "sports_fitness": 7.1,
+      "wired_gaming": 7.3,
+      "wireless_gaming": 6.2
     },
     "core_attributes": {
       "category_subtype": "headphone",
@@ -6690,13 +6697,6 @@
       "audio_virtual_surround": [],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    },
-    "rtings_scores": {
-      "travel": 8.1,
-      "office": 7.9,
-      "sports_fitness": 7.1,
-      "wired_gaming": 7.3,
-      "wireless_gaming": 6.2
     }
   },
   {
@@ -6729,6 +6729,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "travel": 7.9,
+      "office": 7.9,
+      "sports_fitness": 7.4,
+      "wired_gaming": 7.4,
+      "wireless_gaming": 5.9
     },
     "core_attributes": {
       "category_subtype": "headphone",
@@ -6770,13 +6777,6 @@
       "audio_virtual_surround": [],
       "audio_repairability": "ok",
       "audio_value_pick": true
-    },
-    "rtings_scores": {
-      "travel": 7.9,
-      "office": 7.9,
-      "sports_fitness": 7.4,
-      "wired_gaming": 7.4,
-      "wireless_gaming": 5.9
     }
   },
   {
@@ -6802,6 +6802,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "travel": 7.6,
+      "office": 7.2,
+      "sports_fitness": 7.3,
+      "wired_gaming": 6.7,
+      "wireless_gaming": 5.1
     },
     "core_attributes": {
       "category_subtype": "headphone",
@@ -6842,13 +6849,6 @@
       "audio_virtual_surround": [],
       "audio_repairability": "ok",
       "audio_value_pick": true
-    },
-    "rtings_scores": {
-      "travel": 7.6,
-      "office": 7.2,
-      "sports_fitness": 7.3,
-      "wired_gaming": 6.7,
-      "wireless_gaming": 5.1
     }
   },
   {
@@ -6882,6 +6882,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "travel": 6.9,
+      "office": 6.8,
+      "sports_fitness": 7.2,
+      "wired_gaming": 7.2,
+      "wireless_gaming": 5.5
     },
     "core_attributes": {
       "category_subtype": "headphone",
@@ -6925,13 +6932,6 @@
       "audio_virtual_surround": [],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    },
-    "rtings_scores": {
-      "travel": 6.9,
-      "office": 6.8,
-      "sports_fitness": 7.2,
-      "wired_gaming": 7.2,
-      "wireless_gaming": 5.5
     }
   },
   {
@@ -6963,6 +6963,11 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "travel": 6.9,
+      "office": 7,
+      "sports_fitness": 7.2
     },
     "core_attributes": {
       "category_subtype": "headphone",
@@ -7009,11 +7014,6 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    },
-    "rtings_scores": {
-      "travel": 6.9,
-      "office": 7.0,
-      "sports_fitness": 7.2
     }
   },
   {
@@ -7044,6 +7044,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "travel": 6.1,
+      "office": 6.3,
+      "sports_fitness": 6.9,
+      "wired_gaming": 5.3,
+      "wireless_gaming": 5.4
     },
     "core_attributes": {
       "category_subtype": "headphone",
@@ -7081,13 +7088,6 @@
       "audio_virtual_surround": [],
       "audio_repairability": "ok",
       "audio_value_pick": true
-    },
-    "rtings_scores": {
-      "travel": 6.1,
-      "office": 6.3,
-      "sports_fitness": 6.9,
-      "wired_gaming": 5.3,
-      "wireless_gaming": 5.4
     }
   },
   {
@@ -7116,6 +7116,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "travel": 6.9,
+      "office": 6.9,
+      "sports_fitness": 6.9,
+      "wired_gaming": 7,
+      "wireless_gaming": 5.4
     },
     "core_attributes": {
       "category_subtype": "headphone",
@@ -7156,13 +7163,6 @@
       "audio_virtual_surround": [],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    },
-    "rtings_scores": {
-      "travel": 6.9,
-      "office": 6.9,
-      "sports_fitness": 6.9,
-      "wired_gaming": 7.0,
-      "wireless_gaming": 5.4
     }
   },
   {
@@ -7196,6 +7196,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "travel": 6.2,
+      "office": 6.2,
+      "sports_fitness": 7,
+      "wired_gaming": 5.2,
+      "wireless_gaming": 5.3
     },
     "core_attributes": {
       "category_subtype": "headphone",
@@ -7236,13 +7243,6 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": true
-    },
-    "rtings_scores": {
-      "travel": 6.2,
-      "office": 6.2,
-      "sports_fitness": 7.0,
-      "wired_gaming": 5.2,
-      "wireless_gaming": 5.3
     }
   },
   {
@@ -7269,6 +7269,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "travel": 8,
+      "office": 7.2,
+      "sports_fitness": 8.3,
+      "wired_gaming": 5.5,
+      "wireless_gaming": 5.7
     },
     "core_attributes": {
       "category_subtype": "earbud",
@@ -7308,13 +7315,6 @@
       ],
       "audio_repairability": "poor",
       "audio_value_pick": false
-    },
-    "rtings_scores": {
-      "travel": 8.0,
-      "office": 7.2,
-      "sports_fitness": 8.3,
-      "wired_gaming": 5.5,
-      "wireless_gaming": 5.7
     }
   },
   {
@@ -7341,6 +7341,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "travel": 7.4,
+      "office": 7.1,
+      "sports_fitness": 7.7,
+      "wired_gaming": 5.3,
+      "wireless_gaming": 5.4
     },
     "core_attributes": {
       "category_subtype": "earbud",
@@ -7379,13 +7386,6 @@
       "audio_virtual_surround": [],
       "audio_repairability": "poor",
       "audio_value_pick": false
-    },
-    "rtings_scores": {
-      "travel": 7.4,
-      "office": 7.1,
-      "sports_fitness": 7.7,
-      "wired_gaming": 5.3,
-      "wireless_gaming": 5.4
     }
   },
   {
@@ -7410,6 +7410,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "travel": 7.7,
+      "office": 7.1,
+      "sports_fitness": 8,
+      "wired_gaming": 5.7,
+      "wireless_gaming": 5.9
     },
     "core_attributes": {
       "category_subtype": "earbud",
@@ -7450,13 +7457,6 @@
       "audio_virtual_surround": [],
       "audio_repairability": "poor",
       "audio_value_pick": false
-    },
-    "rtings_scores": {
-      "travel": 7.7,
-      "office": 7.1,
-      "sports_fitness": 8.0,
-      "wired_gaming": 5.7,
-      "wireless_gaming": 5.9
     }
   },
   {
@@ -7483,6 +7483,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "travel": 7.7,
+      "office": 7,
+      "sports_fitness": 8.1,
+      "wired_gaming": 5.5,
+      "wireless_gaming": 5.6
     },
     "core_attributes": {
       "category_subtype": "earbud",
@@ -7521,13 +7528,6 @@
       "audio_virtual_surround": [],
       "audio_repairability": "poor",
       "audio_value_pick": false
-    },
-    "rtings_scores": {
-      "travel": 7.7,
-      "office": 7.0,
-      "sports_fitness": 8.1,
-      "wired_gaming": 5.5,
-      "wireless_gaming": 5.6
     }
   },
   {
@@ -7554,6 +7554,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "travel": 8.4,
+      "office": 7.9,
+      "sports_fitness": 8.1,
+      "wired_gaming": 5.7,
+      "wireless_gaming": 5.9
     },
     "core_attributes": {
       "category_subtype": "earbud",
@@ -7593,13 +7600,6 @@
       "audio_virtual_surround": [],
       "audio_repairability": "poor",
       "audio_value_pick": false
-    },
-    "rtings_scores": {
-      "travel": 8.4,
-      "office": 7.9,
-      "sports_fitness": 8.1,
-      "wired_gaming": 5.7,
-      "wireless_gaming": 5.9
     }
   },
   {
@@ -7626,6 +7626,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "travel": 8.1,
+      "office": 7.3,
+      "sports_fitness": 8.3,
+      "wired_gaming": 5.7,
+      "wireless_gaming": 5.8
     },
     "core_attributes": {
       "category_subtype": "earbud",
@@ -7665,13 +7672,6 @@
       "audio_virtual_surround": [],
       "audio_repairability": "poor",
       "audio_value_pick": true
-    },
-    "rtings_scores": {
-      "travel": 8.1,
-      "office": 7.3,
-      "sports_fitness": 8.3,
-      "wired_gaming": 5.7,
-      "wireless_gaming": 5.8
     }
   },
   {
@@ -7696,6 +7696,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "travel": 7.8,
+      "office": 7.4,
+      "sports_fitness": 8.2,
+      "wired_gaming": 5.4,
+      "wireless_gaming": 5.6
     },
     "core_attributes": {
       "category_subtype": "earbud",
@@ -7736,13 +7743,6 @@
       "audio_virtual_surround": [],
       "audio_repairability": "poor",
       "audio_value_pick": false
-    },
-    "rtings_scores": {
-      "travel": 7.8,
-      "office": 7.4,
-      "sports_fitness": 8.2,
-      "wired_gaming": 5.4,
-      "wireless_gaming": 5.6
     }
   },
   {
@@ -7768,6 +7768,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "travel": 8.4,
+      "office": 7.8,
+      "sports_fitness": 8.3,
+      "wired_gaming": 5.6,
+      "wireless_gaming": 5.8
     },
     "core_attributes": {
       "category_subtype": "earbud",
@@ -7811,13 +7818,6 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    },
-    "rtings_scores": {
-      "travel": 8.4,
-      "office": 7.8,
-      "sports_fitness": 8.3,
-      "wired_gaming": 5.6,
-      "wireless_gaming": 5.8
     }
   },
   {
@@ -7845,6 +7845,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "travel": 8.1,
+      "office": 7.5,
+      "sports_fitness": 8.1,
+      "wired_gaming": 5.8,
+      "wireless_gaming": 5.9
     },
     "core_attributes": {
       "category_subtype": "earbud",
@@ -7884,13 +7891,6 @@
       "audio_virtual_surround": [],
       "audio_repairability": "good",
       "audio_value_pick": false
-    },
-    "rtings_scores": {
-      "travel": 8.1,
-      "office": 7.5,
-      "sports_fitness": 8.1,
-      "wired_gaming": 5.8,
-      "wireless_gaming": 5.9
     }
   },
   {
@@ -7916,6 +7916,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "travel": 6.2,
+      "office": 6.2,
+      "sports_fitness": 8.1,
+      "wired_gaming": 5.8,
+      "wireless_gaming": 5.9
     },
     "core_attributes": {
       "category_subtype": "earbud",
@@ -7956,13 +7963,6 @@
       "audio_virtual_surround": [],
       "audio_repairability": "ok",
       "audio_value_pick": true
-    },
-    "rtings_scores": {
-      "travel": 6.2,
-      "office": 6.2,
-      "sports_fitness": 8.1,
-      "wired_gaming": 5.8,
-      "wireless_gaming": 5.9
     }
   },
   {
@@ -7989,6 +7989,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "travel": 7.7,
+      "office": 7.1,
+      "sports_fitness": 8.1,
+      "wired_gaming": 5.4,
+      "wireless_gaming": 5.5
     },
     "core_attributes": {
       "category_subtype": "earbud",
@@ -8028,13 +8035,6 @@
       "audio_virtual_surround": [],
       "audio_repairability": "ok",
       "audio_value_pick": true
-    },
-    "rtings_scores": {
-      "travel": 7.7,
-      "office": 7.1,
-      "sports_fitness": 8.1,
-      "wired_gaming": 5.4,
-      "wireless_gaming": 5.5
     }
   },
   {
@@ -8059,6 +8059,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "travel": 7.8,
+      "office": 7.2,
+      "sports_fitness": 7.6,
+      "wired_gaming": 5.3,
+      "wireless_gaming": 5.5
     },
     "core_attributes": {
       "category_subtype": "earbud",
@@ -8098,13 +8105,6 @@
       "audio_virtual_surround": [],
       "audio_repairability": "ok",
       "audio_value_pick": true
-    },
-    "rtings_scores": {
-      "travel": 7.8,
-      "office": 7.2,
-      "sports_fitness": 7.6,
-      "wired_gaming": 5.3,
-      "wireless_gaming": 5.5
     }
   },
   {
@@ -8131,6 +8131,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "travel": 7.4,
+      "office": 6.9,
+      "sports_fitness": 8.1,
+      "wired_gaming": 5.3,
+      "wireless_gaming": 5.5
     },
     "core_attributes": {
       "category_subtype": "earbud",
@@ -8170,13 +8177,6 @@
       "audio_virtual_surround": [],
       "audio_repairability": "ok",
       "audio_value_pick": true
-    },
-    "rtings_scores": {
-      "travel": 7.4,
-      "office": 6.9,
-      "sports_fitness": 8.1,
-      "wired_gaming": 5.3,
-      "wireless_gaming": 5.5
     }
   },
   {
@@ -8201,6 +8201,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "travel": 6.8,
+      "office": 6.5,
+      "sports_fitness": 7.6,
+      "wired_gaming": 5.7,
+      "wireless_gaming": 5.9
     },
     "core_attributes": {
       "category_subtype": "earbud",
@@ -8239,13 +8246,6 @@
       "audio_virtual_surround": [],
       "audio_repairability": "ok",
       "audio_value_pick": true
-    },
-    "rtings_scores": {
-      "travel": 6.8,
-      "office": 6.5,
-      "sports_fitness": 7.6,
-      "wired_gaming": 5.7,
-      "wireless_gaming": 5.9
     }
   },
   {
@@ -8276,6 +8276,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "travel": 7.5,
+      "office": 6.9,
+      "sports_fitness": 8,
+      "wired_gaming": 5.3,
+      "wireless_gaming": 5.4
     },
     "core_attributes": {
       "category_subtype": "earbud",
@@ -8314,13 +8321,6 @@
       "audio_virtual_surround": [],
       "audio_repairability": "poor",
       "audio_value_pick": true
-    },
-    "rtings_scores": {
-      "travel": 7.5,
-      "office": 6.9,
-      "sports_fitness": 8.0,
-      "wired_gaming": 5.3,
-      "wireless_gaming": 5.4
     }
   },
   {
@@ -8345,6 +8345,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "travel": 7.4,
+      "office": 7,
+      "sports_fitness": 8.2,
+      "wired_gaming": 5.7,
+      "wireless_gaming": 5.8
     },
     "core_attributes": {
       "category_subtype": "earbud",
@@ -8382,13 +8389,6 @@
       "audio_virtual_surround": [],
       "audio_repairability": "poor",
       "audio_value_pick": true
-    },
-    "rtings_scores": {
-      "travel": 7.4,
-      "office": 7.0,
-      "sports_fitness": 8.2,
-      "wired_gaming": 5.7,
-      "wireless_gaming": 5.8
     }
   },
   {
@@ -8413,6 +8413,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "travel": 7.6,
+      "office": 7.1,
+      "sports_fitness": 8.2,
+      "wired_gaming": 5.3,
+      "wireless_gaming": 5.4
     },
     "core_attributes": {
       "category_subtype": "earbud",
@@ -8450,13 +8457,6 @@
       "audio_virtual_surround": [],
       "audio_repairability": "poor",
       "audio_value_pick": true
-    },
-    "rtings_scores": {
-      "travel": 7.6,
-      "office": 7.1,
-      "sports_fitness": 8.2,
-      "wired_gaming": 5.3,
-      "wireless_gaming": 5.4
     }
   },
   {
@@ -8481,6 +8481,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "travel": 6.5,
+      "office": 6.4,
+      "sports_fitness": 7.7,
+      "wired_gaming": 5.3,
+      "wireless_gaming": 5.5
     },
     "core_attributes": {
       "category_subtype": "earbud",
@@ -8519,13 +8526,6 @@
       "audio_virtual_surround": [],
       "audio_repairability": "ok",
       "audio_value_pick": true
-    },
-    "rtings_scores": {
-      "travel": 6.5,
-      "office": 6.4,
-      "sports_fitness": 7.7,
-      "wired_gaming": 5.3,
-      "wireless_gaming": 5.5
     }
   },
   {
@@ -8551,6 +8551,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "travel": 7.6,
+      "office": 7,
+      "sports_fitness": 8,
+      "wired_gaming": 5.2,
+      "wireless_gaming": 5.3
     },
     "core_attributes": {
       "category_subtype": "earbud",
@@ -8590,13 +8597,6 @@
       "audio_virtual_surround": [],
       "audio_repairability": "ok",
       "audio_value_pick": true
-    },
-    "rtings_scores": {
-      "travel": 7.6,
-      "office": 7.0,
-      "sports_fitness": 8.0,
-      "wired_gaming": 5.2,
-      "wireless_gaming": 5.3
     }
   },
   {
@@ -8628,6 +8628,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "travel": 6.9,
+      "office": 6.7,
+      "sports_fitness": 8.3,
+      "wired_gaming": 5.7,
+      "wireless_gaming": 5.9
     },
     "core_attributes": {
       "category_subtype": "earbud",
@@ -8668,13 +8675,6 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    },
-    "rtings_scores": {
-      "travel": 6.9,
-      "office": 6.7,
-      "sports_fitness": 8.3,
-      "wired_gaming": 5.7,
-      "wireless_gaming": 5.9
     }
   },
   {
@@ -8706,6 +8706,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "travel": 7.7,
+      "office": 7,
+      "sports_fitness": 8.1,
+      "wired_gaming": 5.3,
+      "wireless_gaming": 5.4
     },
     "core_attributes": {
       "category_subtype": "earbud",
@@ -8744,13 +8751,6 @@
       "audio_virtual_surround": [],
       "audio_repairability": "poor",
       "audio_value_pick": true
-    },
-    "rtings_scores": {
-      "travel": 7.7,
-      "office": 7.0,
-      "sports_fitness": 8.1,
-      "wired_gaming": 5.3,
-      "wireless_gaming": 5.4
     }
   },
   {
@@ -8784,6 +8784,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "travel": 4.7,
+      "office": 4.8,
+      "sports_fitness": 8.2,
+      "wired_gaming": 5.1,
+      "wireless_gaming": 5.3
     },
     "core_attributes": {
       "category_subtype": "earbud",
@@ -8825,13 +8832,6 @@
       ],
       "audio_repairability": "poor",
       "audio_value_pick": false
-    },
-    "rtings_scores": {
-      "travel": 4.7,
-      "office": 4.8,
-      "sports_fitness": 8.2,
-      "wired_gaming": 5.1,
-      "wireless_gaming": 5.3
     }
   },
   {
@@ -8855,6 +8855,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "travel": 4,
+      "office": 3.9,
+      "sports_fitness": 7.8,
+      "wired_gaming": 4.4,
+      "wireless_gaming": 4.6
     },
     "core_attributes": {
       "category_subtype": "earbud",
@@ -8893,13 +8900,6 @@
       "audio_virtual_surround": [],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    },
-    "rtings_scores": {
-      "travel": 4.0,
-      "office": 3.9,
-      "sports_fitness": 7.8,
-      "wired_gaming": 4.4,
-      "wireless_gaming": 4.6
     }
   },
   {
@@ -9205,6 +9205,13 @@
       "source_name": "TRUTHEAR official + community consensus",
       "last_verified": "2026-02"
     },
+    "rtings_scores": {
+      "travel": 7.5,
+      "office": 5.5,
+      "sports_fitness": 6.8,
+      "wired_gaming": 6.2,
+      "wireless_gaming": 4.2
+    },
     "core_attributes": {
       "category_subtype": "iem",
       "price_tier": "midrange",
@@ -9237,13 +9244,6 @@
       "audio_virtual_surround": [],
       "audio_repairability": "good",
       "audio_value_pick": true
-    },
-    "rtings_scores": {
-      "travel": 7.5,
-      "office": 5.5,
-      "sports_fitness": 6.8,
-      "wired_gaming": 6.2,
-      "wireless_gaming": 4.2
     }
   },
   {
@@ -9676,6 +9676,13 @@
       "source_name": "RTINGS",
       "last_verified": "2026-02"
     },
+    "rtings_scores": {
+      "travel": 6.8,
+      "office": 4.8,
+      "sports_fitness": 7.2,
+      "wired_gaming": 6.6,
+      "wireless_gaming": 4.5
+    },
     "core_attributes": {
       "category_subtype": "iem",
       "price_tier": "midrange",
@@ -9710,13 +9717,6 @@
       "audio_virtual_surround": [],
       "audio_repairability": "good",
       "audio_value_pick": true
-    },
-    "rtings_scores": {
-      "travel": 6.8,
-      "office": 4.8,
-      "sports_fitness": 7.2,
-      "wired_gaming": 6.6,
-      "wireless_gaming": 4.5
     }
   },
   {
@@ -9918,6 +9918,13 @@
       "source_name": "RTINGS",
       "last_verified": "2026-01"
     },
+    "rtings_scores": {
+      "travel": 6.9,
+      "office": 6.8,
+      "sports_fitness": 6.8,
+      "wired_gaming": 7.1,
+      "wireless_gaming": 5.1
+    },
     "core_attributes": {
       "category_subtype": "iem",
       "price_tier": "premium",
@@ -9953,13 +9960,6 @@
       "audio_virtual_surround": [],
       "audio_repairability": "good",
       "audio_value_pick": false
-    },
-    "rtings_scores": {
-      "travel": 6.9,
-      "office": 6.8,
-      "sports_fitness": 6.8,
-      "wired_gaming": 7.1,
-      "wireless_gaming": 5.1
     }
   },
   {
@@ -10162,6 +10162,13 @@
       "source_name": "RTINGS",
       "last_verified": "2026-01"
     },
+    "rtings_scores": {
+      "travel": 5.2,
+      "office": 6.5,
+      "sports_fitness": 6,
+      "wired_gaming": 5.5,
+      "wireless_gaming": 7
+    },
     "core_attributes": {
       "category_subtype": "headset",
       "price_tier": "upper_midrange",
@@ -10197,13 +10204,6 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    },
-    "rtings_scores": {
-      "travel": 5.2,
-      "office": 6.5,
-      "sports_fitness": 6.0,
-      "wired_gaming": 5.5,
-      "wireless_gaming": 7.0
     }
   },
   {
@@ -10228,6 +10228,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "travel": 5.6,
+      "office": 6.7,
+      "sports_fitness": 6,
+      "wired_gaming": 5.8,
+      "wireless_gaming": 7
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -10265,13 +10272,6 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    },
-    "rtings_scores": {
-      "travel": 5.6,
-      "office": 6.7,
-      "sports_fitness": 6.0,
-      "wired_gaming": 5.8,
-      "wireless_gaming": 7.0
     }
   },
   {
@@ -10296,6 +10296,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "travel": 6.3,
+      "office": 6.7,
+      "sports_fitness": 6.6,
+      "wired_gaming": 5.3,
+      "wireless_gaming": 7
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -10338,13 +10345,6 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": true
-    },
-    "rtings_scores": {
-      "travel": 6.3,
-      "office": 6.7,
-      "sports_fitness": 6.6,
-      "wired_gaming": 5.3,
-      "wireless_gaming": 7.0
     }
   },
   {
@@ -10376,6 +10376,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "travel": 5.7,
+      "office": 6.7,
+      "sports_fitness": 6.1,
+      "wired_gaming": 7.5,
+      "wireless_gaming": 7.1
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -10412,13 +10419,6 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    },
-    "rtings_scores": {
-      "travel": 5.7,
-      "office": 6.7,
-      "sports_fitness": 6.1,
-      "wired_gaming": 7.5,
-      "wireless_gaming": 7.1
     }
   },
   {
@@ -10450,6 +10450,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "travel": 6.4,
+      "office": 6.5,
+      "sports_fitness": 7.1,
+      "wired_gaming": 5.7,
+      "wireless_gaming": 7.1
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -10490,13 +10497,6 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    },
-    "rtings_scores": {
-      "travel": 6.4,
-      "office": 6.5,
-      "sports_fitness": 7.1,
-      "wired_gaming": 5.7,
-      "wireless_gaming": 7.1
     }
   },
   {
@@ -10521,6 +10521,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "travel": 5.6,
+      "office": 6.7,
+      "sports_fitness": 5.9,
+      "wired_gaming": 7.1,
+      "wireless_gaming": 7.1
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -10560,13 +10567,6 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    },
-    "rtings_scores": {
-      "travel": 5.6,
-      "office": 6.7,
-      "sports_fitness": 5.9,
-      "wired_gaming": 7.1,
-      "wireless_gaming": 7.1
     }
   },
   {
@@ -10592,6 +10592,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "travel": 6.4,
+      "office": 6.7,
+      "sports_fitness": 6.9,
+      "wired_gaming": 6.6,
+      "wireless_gaming": 7.1
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -10637,13 +10644,6 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    },
-    "rtings_scores": {
-      "travel": 6.4,
-      "office": 6.7,
-      "sports_fitness": 6.9,
-      "wired_gaming": 6.6,
-      "wireless_gaming": 7.1
     }
   },
   {
@@ -10668,6 +10668,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "travel": 6.7,
+      "office": 7,
+      "sports_fitness": 6.6,
+      "wired_gaming": 5.7,
+      "wireless_gaming": 7.1
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -10709,13 +10716,6 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    },
-    "rtings_scores": {
-      "travel": 6.7,
-      "office": 7.0,
-      "sports_fitness": 6.6,
-      "wired_gaming": 5.7,
-      "wireless_gaming": 7.1
     }
   },
   {
@@ -10741,6 +10741,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "travel": 4.7,
+      "office": 5.8,
+      "sports_fitness": 5.7,
+      "wired_gaming": 7.3,
+      "wireless_gaming": 7.1
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -10779,13 +10786,6 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": true
-    },
-    "rtings_scores": {
-      "travel": 4.7,
-      "office": 5.8,
-      "sports_fitness": 5.7,
-      "wired_gaming": 7.3,
-      "wireless_gaming": 7.1
     }
   },
   {
@@ -10812,6 +10812,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "travel": 8.2,
+      "office": 8.3,
+      "sports_fitness": 7.3,
+      "wired_gaming": 7.5,
+      "wireless_gaming": 6.4
     },
     "core_attributes": {
       "category_subtype": "headphone",
@@ -10857,13 +10864,6 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    },
-    "rtings_scores": {
-      "travel": 8.2,
-      "office": 8.3,
-      "sports_fitness": 7.3,
-      "wired_gaming": 7.5,
-      "wireless_gaming": 6.4
     }
   },
   {
@@ -10889,6 +10889,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "travel": 8.1,
+      "office": 8.2,
+      "sports_fitness": 7.4,
+      "wired_gaming": 8.1,
+      "wireless_gaming": 6.5
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -10931,13 +10938,6 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    },
-    "rtings_scores": {
-      "travel": 8.1,
-      "office": 8.2,
-      "sports_fitness": 7.4,
-      "wired_gaming": 8.1,
-      "wireless_gaming": 6.5
     }
   },
   {
@@ -10967,6 +10967,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "travel": 6.2,
+      "office": 6.5,
+      "sports_fitness": 6.7,
+      "wired_gaming": 6.5,
+      "wireless_gaming": 6.5
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -11010,13 +11017,6 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": true
-    },
-    "rtings_scores": {
-      "travel": 6.2,
-      "office": 6.5,
-      "sports_fitness": 6.7,
-      "wired_gaming": 6.5,
-      "wireless_gaming": 6.5
     }
   },
   {
@@ -11048,6 +11048,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "travel": 7.2,
+      "office": 6.9,
+      "sports_fitness": 7.8,
+      "wired_gaming": 5,
+      "wireless_gaming": 6.5
     },
     "core_attributes": {
       "category_subtype": "iem",
@@ -11091,13 +11098,6 @@
       ],
       "audio_repairability": "poor",
       "audio_value_pick": false
-    },
-    "rtings_scores": {
-      "travel": 7.2,
-      "office": 6.9,
-      "sports_fitness": 7.8,
-      "wired_gaming": 5.0,
-      "wireless_gaming": 6.5
     }
   },
   {
@@ -11122,6 +11122,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "travel": 7.4,
+      "office": 7,
+      "sports_fitness": 8,
+      "wired_gaming": 5.5,
+      "wireless_gaming": 6.7
     },
     "core_attributes": {
       "category_subtype": "iem",
@@ -11167,13 +11174,6 @@
       ],
       "audio_repairability": "poor",
       "audio_value_pick": false
-    },
-    "rtings_scores": {
-      "travel": 7.4,
-      "office": 7.0,
-      "sports_fitness": 8.0,
-      "wired_gaming": 5.5,
-      "wireless_gaming": 6.7
     }
   },
   {
@@ -11201,6 +11201,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "travel": 4.7,
+      "office": 5.8,
+      "sports_fitness": 5.2,
+      "wired_gaming": 6.8,
+      "wireless_gaming": 5.3
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -11243,13 +11250,6 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    },
-    "rtings_scores": {
-      "travel": 4.7,
-      "office": 5.8,
-      "sports_fitness": 5.2,
-      "wired_gaming": 6.8,
-      "wireless_gaming": 5.3
     }
   },
   {
@@ -11275,6 +11275,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "travel": 7.7,
+      "office": 7.1,
+      "sports_fitness": 8.1,
+      "wired_gaming": 5.5,
+      "wireless_gaming": 6.9
     },
     "core_attributes": {
       "category_subtype": "iem",
@@ -11318,13 +11325,6 @@
       ],
       "audio_repairability": "poor",
       "audio_value_pick": false
-    },
-    "rtings_scores": {
-      "travel": 7.7,
-      "office": 7.1,
-      "sports_fitness": 8.1,
-      "wired_gaming": 5.5,
-      "wireless_gaming": 6.9
     }
   },
   {
@@ -11348,6 +11348,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "travel": 5.6,
+      "office": 6.2,
+      "sports_fitness": 5.9,
+      "wired_gaming": 7.5,
+      "wireless_gaming": 7
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -11384,13 +11391,6 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    },
-    "rtings_scores": {
-      "travel": 5.6,
-      "office": 6.2,
-      "sports_fitness": 5.9,
-      "wired_gaming": 7.5,
-      "wireless_gaming": 7.0
     }
   },
   {
@@ -11416,6 +11416,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "travel": 6.7,
+      "office": 7,
+      "sports_fitness": 7.2,
+      "wired_gaming": 7.6,
+      "wireless_gaming": 7
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -11456,13 +11463,6 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    },
-    "rtings_scores": {
-      "travel": 6.7,
-      "office": 7.0,
-      "sports_fitness": 7.2,
-      "wired_gaming": 7.6,
-      "wireless_gaming": 7.0
     }
   },
   {
@@ -11488,6 +11488,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "travel": 8.1,
+      "office": 7.9,
+      "sports_fitness": 7.4,
+      "wired_gaming": 7.9,
+      "wireless_gaming": 6.2
     },
     "core_attributes": {
       "category_subtype": "headphone",
@@ -11529,13 +11536,6 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    },
-    "rtings_scores": {
-      "travel": 8.1,
-      "office": 7.9,
-      "sports_fitness": 7.4,
-      "wired_gaming": 7.9,
-      "wireless_gaming": 6.2
     }
   },
   {
@@ -11561,6 +11561,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "travel": 6.9,
+      "office": 7.1,
+      "sports_fitness": 6.3,
+      "wired_gaming": 7.4,
+      "wireless_gaming": 5.8
     },
     "core_attributes": {
       "category_subtype": "headphone",
@@ -11603,13 +11610,6 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    },
-    "rtings_scores": {
-      "travel": 6.9,
-      "office": 7.1,
-      "sports_fitness": 6.3,
-      "wired_gaming": 7.4,
-      "wireless_gaming": 5.8
     }
   },
   {
@@ -11639,6 +11639,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "travel": 6.3,
+      "office": 6,
+      "sports_fitness": 7.7,
+      "wired_gaming": 4.8,
+      "wireless_gaming": 6.2
     },
     "core_attributes": {
       "category_subtype": "iem",
@@ -11681,13 +11688,6 @@
       ],
       "audio_repairability": "poor",
       "audio_value_pick": false
-    },
-    "rtings_scores": {
-      "travel": 6.3,
-      "office": 6.0,
-      "sports_fitness": 7.7,
-      "wired_gaming": 4.8,
-      "wireless_gaming": 6.2
     }
   },
   {
@@ -11713,6 +11713,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "travel": 8.1,
+      "office": 7.9,
+      "sports_fitness": 8.1,
+      "wired_gaming": 6.6,
+      "wireless_gaming": 6.2
     },
     "core_attributes": {
       "category_subtype": "iem",
@@ -11755,13 +11762,6 @@
       ],
       "audio_repairability": "poor",
       "audio_value_pick": false
-    },
-    "rtings_scores": {
-      "travel": 8.1,
-      "office": 7.9,
-      "sports_fitness": 8.1,
-      "wired_gaming": 6.6,
-      "wireless_gaming": 6.2
     }
   },
   {
@@ -11787,6 +11787,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "travel": 8.3,
+      "office": 8.1,
+      "sports_fitness": 8.1,
+      "wired_gaming": 6.5,
+      "wireless_gaming": 6.2
     },
     "core_attributes": {
       "category_subtype": "iem",
@@ -11829,13 +11836,6 @@
       ],
       "audio_repairability": "poor",
       "audio_value_pick": false
-    },
-    "rtings_scores": {
-      "travel": 8.3,
-      "office": 8.1,
-      "sports_fitness": 8.1,
-      "wired_gaming": 6.5,
-      "wireless_gaming": 6.2
     }
   },
   {
@@ -11860,6 +11860,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "travel": 5.5,
+      "office": 6.1,
+      "sports_fitness": 4.6,
+      "wired_gaming": 4.5,
+      "wireless_gaming": 6
     },
     "core_attributes": {
       "category_subtype": "headphone",
@@ -11894,13 +11901,6 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    },
-    "rtings_scores": {
-      "travel": 5.5,
-      "office": 6.1,
-      "sports_fitness": 4.6,
-      "wired_gaming": 4.5,
-      "wireless_gaming": 6.0
     }
   },
   {
@@ -11926,6 +11926,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "travel": 4.2,
+      "office": 5.6,
+      "sports_fitness": 5.5,
+      "wired_gaming": 7.9,
+      "wireless_gaming": 6
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -11964,13 +11971,6 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    },
-    "rtings_scores": {
-      "travel": 4.2,
-      "office": 5.6,
-      "sports_fitness": 5.5,
-      "wired_gaming": 7.9,
-      "wireless_gaming": 6.0
     }
   },
   {
@@ -11999,6 +11999,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "travel": 8.2,
+      "office": 7.9,
+      "sports_fitness": 7.3,
+      "wired_gaming": 7.3,
+      "wireless_gaming": 6.3
     },
     "core_attributes": {
       "category_subtype": "headphone",
@@ -12041,13 +12048,6 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    },
-    "rtings_scores": {
-      "travel": 8.2,
-      "office": 7.9,
-      "sports_fitness": 7.3,
-      "wired_gaming": 7.3,
-      "wireless_gaming": 6.3
     }
   },
   {
@@ -12072,6 +12072,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "travel": 7.7,
+      "office": 6.9,
+      "sports_fitness": 7.9,
+      "wired_gaming": 5.5,
+      "wireless_gaming": 5.3
     },
     "core_attributes": {
       "category_subtype": "iem",
@@ -12115,13 +12122,6 @@
       ],
       "audio_repairability": "poor",
       "audio_value_pick": false
-    },
-    "rtings_scores": {
-      "travel": 7.7,
-      "office": 6.9,
-      "sports_fitness": 7.9,
-      "wired_gaming": 5.5,
-      "wireless_gaming": 5.3
     }
   },
   {
@@ -12153,6 +12153,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "travel": 8.2,
+      "office": 8.2,
+      "sports_fitness": 7.2,
+      "wired_gaming": 7.5,
+      "wireless_gaming": 6
     },
     "core_attributes": {
       "category_subtype": "headphone",
@@ -12197,13 +12204,6 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    },
-    "rtings_scores": {
-      "travel": 8.2,
-      "office": 8.2,
-      "sports_fitness": 7.2,
-      "wired_gaming": 7.5,
-      "wireless_gaming": 6.0
     }
   },
   {
@@ -12232,6 +12232,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "travel": 8,
+      "office": 7.6,
+      "sports_fitness": 7.1,
+      "wired_gaming": 7.6,
+      "wireless_gaming": 6
     },
     "core_attributes": {
       "category_subtype": "headphone",
@@ -12274,13 +12281,6 @@
       "audio_virtual_surround": [],
       "audio_repairability": "ok",
       "audio_value_pick": true
-    },
-    "rtings_scores": {
-      "travel": 8.0,
-      "office": 7.6,
-      "sports_fitness": 7.1,
-      "wired_gaming": 7.6,
-      "wireless_gaming": 6.0
     }
   },
   {
@@ -12306,6 +12306,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "travel": 5.9,
+      "office": 6.6,
+      "sports_fitness": 5.8,
+      "wired_gaming": 7.9,
+      "wireless_gaming": 6
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -12349,13 +12356,6 @@
       ],
       "audio_repairability": "good",
       "audio_value_pick": false
-    },
-    "rtings_scores": {
-      "travel": 5.9,
-      "office": 6.6,
-      "sports_fitness": 5.8,
-      "wired_gaming": 7.9,
-      "wireless_gaming": 6.0
     }
   },
   {
@@ -12450,6 +12450,13 @@
       "source_name": "RTINGS",
       "last_verified": "2026-02"
     },
+    "rtings_scores": {
+      "travel": 8,
+      "office": 7.6,
+      "sports_fitness": 7.2,
+      "wired_gaming": 7.4,
+      "wireless_gaming": 6
+    },
     "core_attributes": {
       "category_subtype": "headphone",
       "price_tier": "premium",
@@ -12493,13 +12500,6 @@
       "audio_virtual_surround": [],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    },
-    "rtings_scores": {
-      "travel": 8.0,
-      "office": 7.6,
-      "sports_fitness": 7.2,
-      "wired_gaming": 7.4,
-      "wireless_gaming": 6.0
     }
   },
   {
@@ -12525,6 +12525,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "travel": 7.6,
+      "office": 7.5,
+      "sports_fitness": 7.2,
+      "wired_gaming": 7.5,
+      "wireless_gaming": 6
     },
     "core_attributes": {
       "category_subtype": "headphone",
@@ -12568,13 +12575,6 @@
       "audio_virtual_surround": [],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    },
-    "rtings_scores": {
-      "travel": 7.6,
-      "office": 7.5,
-      "sports_fitness": 7.2,
-      "wired_gaming": 7.5,
-      "wireless_gaming": 6.0
     }
   },
   {
@@ -12605,6 +12605,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "travel": 7.1,
+      "office": 6.9,
+      "sports_fitness": 7,
+      "wired_gaming": 7,
+      "wireless_gaming": 6
     },
     "core_attributes": {
       "category_subtype": "headphone",
@@ -12648,13 +12655,6 @@
       "audio_virtual_surround": [],
       "audio_repairability": "ok",
       "audio_value_pick": true
-    },
-    "rtings_scores": {
-      "travel": 7.1,
-      "office": 6.9,
-      "sports_fitness": 7.0,
-      "wired_gaming": 7.0,
-      "wireless_gaming": 6.0
     }
   },
   {
@@ -12680,6 +12680,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "travel": 7.8,
+      "office": 7.5,
+      "sports_fitness": 8.3,
+      "wired_gaming": 5.8,
+      "wireless_gaming": 5.9
     },
     "core_attributes": {
       "category_subtype": "headphone",
@@ -12719,13 +12726,6 @@
       "audio_virtual_surround": [],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    },
-    "rtings_scores": {
-      "travel": 7.8,
-      "office": 7.5,
-      "sports_fitness": 8.3,
-      "wired_gaming": 5.8,
-      "wireless_gaming": 5.9
     }
   },
   {
@@ -12751,6 +12751,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "travel": 8,
+      "office": 7.6,
+      "sports_fitness": 8.4,
+      "wired_gaming": 5.9,
+      "wireless_gaming": 6.1
     },
     "core_attributes": {
       "category_subtype": "earbud",
@@ -12788,13 +12795,6 @@
       "audio_virtual_surround": [],
       "audio_repairability": "poor",
       "audio_value_pick": false
-    },
-    "rtings_scores": {
-      "travel": 8.0,
-      "office": 7.6,
-      "sports_fitness": 8.4,
-      "wired_gaming": 5.9,
-      "wireless_gaming": 6.1
     }
   },
   {
@@ -12820,6 +12820,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "travel": 8,
+      "office": 7.7,
+      "sports_fitness": 8.1,
+      "wired_gaming": 5.9,
+      "wireless_gaming": 6
     },
     "core_attributes": {
       "category_subtype": "earbud",
@@ -12859,13 +12866,6 @@
       ],
       "audio_repairability": "poor",
       "audio_value_pick": false
-    },
-    "rtings_scores": {
-      "travel": 8.0,
-      "office": 7.7,
-      "sports_fitness": 8.1,
-      "wired_gaming": 5.9,
-      "wireless_gaming": 6.0
     }
   },
   {
@@ -12891,6 +12891,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "travel": 7.3,
+      "office": 7.2,
+      "sports_fitness": 8,
+      "wired_gaming": 5.8,
+      "wireless_gaming": 6
     },
     "core_attributes": {
       "category_subtype": "earbud",
@@ -12930,13 +12937,6 @@
       ],
       "audio_repairability": "poor",
       "audio_value_pick": false
-    },
-    "rtings_scores": {
-      "travel": 7.3,
-      "office": 7.2,
-      "sports_fitness": 8.0,
-      "wired_gaming": 5.8,
-      "wireless_gaming": 6.0
     }
   },
   {
@@ -12962,6 +12962,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "travel": 8.1,
+      "office": 7.6,
+      "sports_fitness": 8.3,
+      "wired_gaming": 5.8,
+      "wireless_gaming": 6
     },
     "core_attributes": {
       "category_subtype": "earbud",
@@ -12999,13 +13006,6 @@
       "audio_virtual_surround": [],
       "audio_repairability": "poor",
       "audio_value_pick": false
-    },
-    "rtings_scores": {
-      "travel": 8.1,
-      "office": 7.6,
-      "sports_fitness": 8.3,
-      "wired_gaming": 5.8,
-      "wireless_gaming": 6.0
     }
   },
   {
@@ -13031,6 +13031,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "travel": 6.4,
+      "office": 6.7,
+      "sports_fitness": 6.8,
+      "wired_gaming": 7.4,
+      "wireless_gaming": 6.2
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -13074,13 +13081,6 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": true
-    },
-    "rtings_scores": {
-      "travel": 6.4,
-      "office": 6.7,
-      "sports_fitness": 6.8,
-      "wired_gaming": 7.4,
-      "wireless_gaming": 6.2
     }
   },
   {
@@ -13109,6 +13109,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "travel": 7.9,
+      "office": 7.7,
+      "sports_fitness": 7.2,
+      "wired_gaming": 7.8,
+      "wireless_gaming": 6.1
     },
     "core_attributes": {
       "category_subtype": "headphone",
@@ -13149,13 +13156,6 @@
       "audio_virtual_surround": [],
       "audio_repairability": "ok",
       "audio_value_pick": true
-    },
-    "rtings_scores": {
-      "travel": 7.9,
-      "office": 7.7,
-      "sports_fitness": 7.2,
-      "wired_gaming": 7.8,
-      "wireless_gaming": 6.1
     }
   },
   {
@@ -13181,6 +13181,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "travel": 7.7,
+      "office": 7.8,
+      "sports_fitness": 7.1,
+      "wired_gaming": 7.3,
+      "wireless_gaming": 6.1
     },
     "core_attributes": {
       "category_subtype": "headphone",
@@ -13222,13 +13229,6 @@
       "audio_virtual_surround": [],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    },
-    "rtings_scores": {
-      "travel": 7.7,
-      "office": 7.8,
-      "sports_fitness": 7.1,
-      "wired_gaming": 7.3,
-      "wireless_gaming": 6.1
     }
   },
   {
@@ -13254,6 +13254,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "travel": 7,
+      "office": 7.4,
+      "sports_fitness": 7.2,
+      "wired_gaming": 7.8,
+      "wireless_gaming": 6.1
     },
     "core_attributes": {
       "category_subtype": "headphone",
@@ -13293,13 +13300,6 @@
       "audio_virtual_surround": [],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    },
-    "rtings_scores": {
-      "travel": 7.0,
-      "office": 7.4,
-      "sports_fitness": 7.2,
-      "wired_gaming": 7.8,
-      "wireless_gaming": 6.1
     }
   },
   {
@@ -13332,6 +13332,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "travel": 6.8,
+      "office": 7,
+      "sports_fitness": 7,
+      "wired_gaming": 7.7,
+      "wireless_gaming": 6.1
     },
     "core_attributes": {
       "category_subtype": "headphone",
@@ -13373,13 +13380,6 @@
       "audio_virtual_surround": [],
       "audio_repairability": "good",
       "audio_value_pick": true
-    },
-    "rtings_scores": {
-      "travel": 6.8,
-      "office": 7.0,
-      "sports_fitness": 7.0,
-      "wired_gaming": 7.7,
-      "wireless_gaming": 6.1
     }
   },
   {
@@ -13410,6 +13410,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "travel": 7.5,
+      "office": 7.2,
+      "sports_fitness": 7.1,
+      "wired_gaming": 6.7,
+      "wireless_gaming": 5.4
     },
     "core_attributes": {
       "category_subtype": "headphone",
@@ -13453,13 +13460,6 @@
       "audio_virtual_surround": [],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    },
-    "rtings_scores": {
-      "travel": 7.5,
-      "office": 7.2,
-      "sports_fitness": 7.1,
-      "wired_gaming": 6.7,
-      "wireless_gaming": 5.4
     }
   },
   {
@@ -13485,6 +13485,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "travel": 8,
+      "office": 7.2,
+      "sports_fitness": 8.2,
+      "wired_gaming": 5.6,
+      "wireless_gaming": 5.7
     },
     "core_attributes": {
       "category_subtype": "earbud",
@@ -13522,13 +13529,6 @@
       "audio_virtual_surround": [],
       "audio_repairability": "poor",
       "audio_value_pick": true
-    },
-    "rtings_scores": {
-      "travel": 8.0,
-      "office": 7.2,
-      "sports_fitness": 8.2,
-      "wired_gaming": 5.6,
-      "wireless_gaming": 5.7
     }
   },
   {
@@ -13554,6 +13554,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "travel": 6.7,
+      "office": 6.4,
+      "sports_fitness": 6.9,
+      "wired_gaming": 7.8,
+      "wireless_gaming": 6.1
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -13590,13 +13597,6 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    },
-    "rtings_scores": {
-      "travel": 6.7,
-      "office": 6.4,
-      "sports_fitness": 6.9,
-      "wired_gaming": 7.8,
-      "wireless_gaming": 6.1
     }
   },
   {
@@ -13622,6 +13622,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "travel": 6.3,
+      "office": 6.6,
+      "sports_fitness": 7,
+      "wired_gaming": 6.8,
+      "wireless_gaming": 6
     },
     "core_attributes": {
       "category_subtype": "headset",
@@ -13665,13 +13672,6 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": true
-    },
-    "rtings_scores": {
-      "travel": 6.3,
-      "office": 6.6,
-      "sports_fitness": 7.0,
-      "wired_gaming": 6.8,
-      "wireless_gaming": 6.0
     }
   },
   {
@@ -13705,6 +13705,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "travel": 8.4,
+      "office": 8,
+      "sports_fitness": 7.5,
+      "wired_gaming": 7.1,
+      "wireless_gaming": 6.1
     },
     "core_attributes": {
       "category_subtype": "headphone",
@@ -13750,13 +13757,6 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    },
-    "rtings_scores": {
-      "travel": 8.4,
-      "office": 8.0,
-      "sports_fitness": 7.5,
-      "wired_gaming": 7.1,
-      "wireless_gaming": 6.1
     }
   },
   {
@@ -13786,6 +13786,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "travel": 6.8,
+      "office": 6.7,
+      "sports_fitness": 7.1,
+      "wired_gaming": 7.1,
+      "wireless_gaming": 6
     },
     "core_attributes": {
       "category_subtype": "headphone",
@@ -13825,13 +13832,6 @@
       "audio_virtual_surround": [],
       "audio_repairability": "ok",
       "audio_value_pick": true
-    },
-    "rtings_scores": {
-      "travel": 6.8,
-      "office": 6.7,
-      "sports_fitness": 7.1,
-      "wired_gaming": 7.1,
-      "wireless_gaming": 6.0
     }
   },
   {
@@ -13857,6 +13857,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "travel": 7.9,
+      "office": 7.5,
+      "sports_fitness": 8.3,
+      "wired_gaming": 5.9,
+      "wireless_gaming": 6.1
     },
     "core_attributes": {
       "category_subtype": "earbud",
@@ -13893,13 +13900,6 @@
       "audio_virtual_surround": [],
       "audio_repairability": "poor",
       "audio_value_pick": false
-    },
-    "rtings_scores": {
-      "travel": 7.9,
-      "office": 7.5,
-      "sports_fitness": 8.3,
-      "wired_gaming": 5.9,
-      "wireless_gaming": 6.1
     }
   },
   {
@@ -13925,6 +13925,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "travel": 7.9,
+      "office": 7.7,
+      "sports_fitness": 7.4,
+      "wired_gaming": 7.7,
+      "wireless_gaming": 6.1
     },
     "core_attributes": {
       "category_subtype": "headphone",
@@ -13967,13 +13974,6 @@
       "audio_virtual_surround": [],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    },
-    "rtings_scores": {
-      "travel": 7.9,
-      "office": 7.7,
-      "sports_fitness": 7.4,
-      "wired_gaming": 7.7,
-      "wireless_gaming": 6.1
     }
   },
   {
@@ -13999,6 +13999,13 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "travel": 8.2,
+      "office": 7.8,
+      "sports_fitness": 7.4,
+      "wired_gaming": 7.6,
+      "wireless_gaming": 6
     },
     "core_attributes": {
       "category_subtype": "headphone",
@@ -14043,13 +14050,6 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": true
-    },
-    "rtings_scores": {
-      "travel": 8.2,
-      "office": 7.8,
-      "sports_fitness": 7.4,
-      "wired_gaming": 7.6,
-      "wireless_gaming": 6.0
     }
   }
 ]

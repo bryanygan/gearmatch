@@ -15,7 +15,11 @@ const DATA_DIR = path.join(ROOT, "src", "data", "products");
 const OUTPUT = path.join(ROOT, "scripts", "price-results.json");
 const PROGRESS_FILE = path.join(ROOT, "scripts", "price-progress.json");
 
-const API_KEY = "pricesapi_COFj557hm1GzDHFGBGBlXjBBUJodWTWn";
+const API_KEY = process.env.PRICES_API_KEY;
+if (!API_KEY) {
+  console.error("Error: PRICES_API_KEY environment variable is required");
+  process.exit(1);
+}
 const BASE = "https://api.pricesapi.io/api/v1";
 const COUNTRY = "US";
 const RATE_LIMIT_MS = 6500; // ~9.2 req/min, safely under 10/min
