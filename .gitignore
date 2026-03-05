@@ -30,3 +30,6 @@ public/data/products/
 .env
 .env.local
 scripts/output/
+/_bmad
+/.claude-flow
+.mcp.json
