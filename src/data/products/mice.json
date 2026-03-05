@@ -537,7 +537,8 @@
         "portable"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "image_url": "https://ae01.alicdn.com/kf/S0e3bb236b6894126a863cd3d86ea6f33q.jpg"
   },
   {
     "id": "aigo_gm80_pro",
@@ -800,7 +801,8 @@
         "portable"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "image_url": "https://mechkeys.com/cdn/shop/products/ajazz-aj139-pro-mouse-mechkeysshop-541631.jpg?v=1753964519"
   },
   {
     "id": "ajazz_aj139_pro_4k",
@@ -865,7 +867,8 @@
         "large_hands_friendly"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "image_url": "https://cdn.shopify.com/s/files/1/0704/7210/6227/files/3_dd3d8e94-0abe-4d13-a3ee-997eade90aa4.jpg"
   },
   {
     "id": "ajazz_aj139_v2_mc",
@@ -876,7 +879,7 @@
       0,
       0
     ],
-    "product_url": "https://www.amazon.com/s?k=AJAZZ%20AJ139%20V2%20MC&tag=gearmatch-20",
+    "product_url": "https://ajazzbrand.com",
     "recommendation_tags": [
       "large_hands_friendly",
       "wireless"
@@ -928,7 +931,8 @@
         "large_hands_friendly"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "image_url": "https://ajazzbrand.com/cdn/shop/files/6_cdb590ab-afeb-4cb4-9f5f-9a99ad0abc64.jpg?v=1770708245"
   },
   {
     "id": "ajazz_aj139_v2_pro",
@@ -1068,7 +1072,7 @@
       0,
       0
     ],
-    "product_url": "https://www.amazon.com/s?k=AJAZZ%20AJ159%20PRO&tag=gearmatch-20",
+    "product_url": "https://ajazzstore.com",
     "recommendation_tags": [
       "8k_polling",
       "wireless"
@@ -1121,7 +1125,8 @@
         "portable"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "image_url": "https://ajazzstore.com/cdn/shop/files/07_cde60577-bc97-4935-ae7f-459acbb18f36.jpg?v=1730184405"
   },
   {
     "id": "ajazz_aj159apex",
@@ -1201,7 +1206,7 @@
       0,
       0
     ],
-    "product_url": "https://www.amazon.com/s?k=AJAZZ%20AJ159P&tag=gearmatch-20",
+    "product_url": "https://ajazzstore.com",
     "recommendation_tags": [
       "wireless"
     ],
@@ -1253,7 +1258,8 @@
         "portable"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "image_url": "https://ajazzstore.com/cdn/shop/files/IMG_8034_56b81bec-5411-444d-a05b-8baefe210e13.jpg?v=1730184405"
   },
   {
     "id": "ajazz_aj179",
@@ -1401,7 +1407,7 @@
       0,
       0
     ],
-    "product_url": "https://www.amazon.com/s?k=AJAZZ%20AJ179%20PRO&tag=gearmatch-20",
+    "product_url": "https://ajazzstore.com",
     "recommendation_tags": [
       "8k_polling",
       "wireless"
@@ -1456,7 +1462,8 @@
         "portable"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "image_url": "https://ajazzstore.com/cdn/shop/files/09.jpg?v=1723446374"
   },
   {
     "id": "ajazz_aj179_v2",
@@ -1603,7 +1610,7 @@
       0,
       0
     ],
-    "product_url": "https://www.amazon.com/s?k=AJAZZ%20AJ179P&tag=gearmatch-20",
+    "product_url": "https://ajazzstore.com",
     "recommendation_tags": [
       "wireless"
     ],
@@ -1657,7 +1664,8 @@
         "portable"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "image_url": "https://ajazzstore.com/cdn/shop/files/10_7d08ef3d-f300-41c4-8167-c58974783ce4.jpg?v=1723446374"
   },
   {
     "id": "ajazz_aj199",
@@ -3624,7 +3632,8 @@
         "ergo_right"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "image_url": "https://ae01.alicdn.com/kf/A0eed5521697a48c485d884e3a5d6a38aA.jpg"
   },
   {
     "id": "ardor_gaming_immortality",
@@ -4061,7 +4070,8 @@
       "mouse_coating": "matte",
       "mouse_feel_tags": [],
       "mouse_value_pick": false
-    }
+    },
+    "image_url": "https://images.versus.io/objects/ardor-gaming-prime.front.master.1736786108977.jpg"
   },
   {
     "id": "ardor_gaming_prime_x",
@@ -5236,7 +5246,8 @@
         "rgb"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "image_url": "https://c1.neweggimages.com/ProductImageOriginal/26-785-255-07.png"
   },
   {
     "id": "asus_rog_harpe_ace_extreme",
@@ -6806,7 +6817,8 @@
         "portable"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "image_url": "https://mechkeys.com/cdn/shop/files/7dc1cb0d735b09b4083ab6da09efb150.jpg?v=1750750466"
   },
   {
     "id": "atk_a9_pro",
@@ -6873,7 +6885,8 @@
         "portable"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "image_url": "https://mks.blr1.cdn.digitaloceanspaces.com/uploads/2025/06/ATK_Dragonfly_A9_White.webp"
   },
   {
     "id": "atk_a9_pro_max",
@@ -6942,7 +6955,8 @@
         "portable"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "image_url": "https://mks.blr1.cdn.digitaloceanspaces.com/uploads/2025/06/ATK_Dragonfly_A9_Black.webp"
   },
   {
     "id": "atk_a9_se",
@@ -7010,7 +7024,8 @@
         "portable"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "image_url": "https://mks.blr1.cdn.digitaloceanspaces.com/uploads/2025/06/ATK_Dragonfly_A9_White.webp"
   },
   {
     "id": "atk_a9_ultimate",
@@ -7156,7 +7171,8 @@
         "portable"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "image_url": "https://ausmodshop.com/cdn/shop/files/ATK_Dragonfly_A9_Black.webp?v=1747310132"
   },
   {
     "id": "atk_a9_ultra_max_2_0",
@@ -7223,7 +7239,8 @@
         "portable"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "image_url": "https://gamergear.net/content/product/2025/10/2442/Dragonfly-A9-Ultra-Max2-01.jpg"
   },
   {
     "id": "atk_blazing_sky_u2_ultimate",
@@ -7515,7 +7532,8 @@
         "portable"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "image_url": "https://cdn.store-assets.com/s/824673/i/80065499.jpeg"
   },
   {
     "id": "atk_f1_pro_max",
@@ -7585,7 +7603,8 @@
         "portable"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "image_url": "https://ausmodshop.com/cdn/shop/files/ATKF1WHITE_2000x_f60f6ec7-1745-4147-b6c5-6f61465fcc02.webp?v=1715839384"
   },
   {
     "id": "atk_f1_ultimate",
@@ -7656,7 +7675,8 @@
         "portable"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "image_url": "https://ggezgadgets.com/wp-content/uploads/2025/11/AF1UB-scaled.webp"
   },
   {
     "id": "atk_f1_v2_extreme",
@@ -7811,7 +7831,7 @@
       0,
       0
     ],
-    "product_url": "https://www.amazon.com/s?k=ATK%20F1%20V2%20Ultra%20Max&tag=gearmatch-20",
+    "product_url": "https://atk.store",
     "recommendation_tags": [
       "8k_polling",
       "ultralight",
@@ -7866,7 +7886,8 @@
         "portable"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "image_url": "https://cdn.shopify.com/s/files/1/0691/4942/5882/files/1500_2b8821f6-daa0-4e48-a577-9edc72268bab.jpg?v=1761034813"
   },
   {
     "id": "atk_fierce_x",
@@ -8089,7 +8110,7 @@
       305,
       305
     ],
-    "product_url": "https://www.amazon.com/s?k=ATK+U2+Plus&tag=gearmatch-20",
+    "product_url": "https://atk.store",
     "recommendation_tags": [
       "wireless"
     ],
@@ -8142,7 +8163,8 @@
         "portable"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "image_url": "https://cdn.shopify.com/s/files/1/0691/4942/5882/files/U2Black.jpg?v=1756978868"
   },
   {
     "id": "atk_u2_pro",
@@ -8153,7 +8175,7 @@
       0,
       0
     ],
-    "product_url": "https://www.amazon.com/s?k=ATK%20U2%20Pro&tag=gearmatch-20",
+    "product_url": "https://atk.store",
     "recommendation_tags": [
       "8k_polling",
       "ultralight",
@@ -8209,7 +8231,8 @@
         "portable"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "image_url": "https://cdn.shopify.com/s/files/1/0691/4942/5882/files/U2Black.jpg?v=1756978868"
   },
   {
     "id": "atk_u2_pro_max",
@@ -8220,7 +8243,7 @@
       0,
       0
     ],
-    "product_url": "https://www.amazon.com/s?k=ATK%20U2%20Pro%20Max&tag=gearmatch-20",
+    "product_url": "https://atk.store",
     "recommendation_tags": [
       "8k_polling",
       "wireless"
@@ -8274,7 +8297,8 @@
         "portable"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "image_url": "https://cdn.shopify.com/s/files/1/0691/4942/5882/files/U2Black.jpg?v=1756978868"
   },
   {
     "id": "atk_u2_se",
@@ -8285,7 +8309,7 @@
       0,
       0
     ],
-    "product_url": "https://www.amazon.com/s?k=ATK%20U2%20SE&tag=gearmatch-20",
+    "product_url": "https://atk.store",
     "recommendation_tags": [
       "ultralight",
       "wireless"
@@ -8340,7 +8364,8 @@
         "portable"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "image_url": "https://cdn.shopify.com/s/files/1/0691/4942/5882/files/U2White.jpg?v=1756978868"
   },
   {
     "id": "atk_u2_ultimate",
@@ -8423,7 +8448,7 @@
       0,
       0
     ],
-    "product_url": "https://www.amazon.com/s?k=ATK%20U2%20Ultra&tag=gearmatch-20",
+    "product_url": "https://atk.store",
     "recommendation_tags": [
       "8k_polling",
       "esports_grade_latency",
@@ -8483,7 +8508,8 @@
         "portable"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "image_url": "https://cdn.shopify.com/s/files/1/0691/4942/5882/files/U2Black.jpg?v=1756978868"
   },
   {
     "id": "atk_x1",
@@ -8563,7 +8589,7 @@
       0,
       0
     ],
-    "product_url": "https://www.amazon.com/s?k=ATK%20X1%20Pro&tag=gearmatch-20",
+    "product_url": "https://atk.store",
     "recommendation_tags": [
       "8k_polling",
       "esports_grade_latency",
@@ -8625,7 +8651,8 @@
         "portable"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "image_url": "https://cdn.shopify.com/s/files/1/0691/4942/5882/files/ATK_Blazing_Sky_X1_Black.jpg?v=1756978978"
   },
   {
     "id": "atk_x1_pro_max",
@@ -8636,7 +8663,7 @@
       0,
       0
     ],
-    "product_url": "https://www.amazon.com/s?k=ATK%20X1%20Pro%20Max&tag=gearmatch-20",
+    "product_url": "https://atk.store",
     "recommendation_tags": [
       "8k_polling",
       "esports_grade_latency",
@@ -8697,7 +8724,8 @@
         "portable"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "image_url": "https://cdn.shopify.com/s/files/1/0691/4942/5882/files/ATK_Blazing_Sky_X1_Black.jpg?v=1756978978"
   },
   {
     "id": "atk_x1_s",
@@ -8776,7 +8804,7 @@
       0,
       0
     ],
-    "product_url": "https://www.amazon.com/s?k=ATK%20X1%20SE&tag=gearmatch-20",
+    "product_url": "https://atk.store",
     "recommendation_tags": [
       "large_hands_friendly",
       "ultralight",
@@ -8832,7 +8860,8 @@
         "portable"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "image_url": "https://cdn.shopify.com/s/files/1/0691/4942/5882/files/ATK_Blazing_Sky_X1_White.jpg?v=1756978978"
   },
   {
     "id": "atk_x1_ultimate",
@@ -8843,7 +8872,7 @@
       0,
       0
     ],
-    "product_url": "https://www.amazon.com/s?k=ATK%20X1%20Ultimate&tag=gearmatch-20",
+    "product_url": "https://atk.store",
     "recommendation_tags": [
       "8k_polling",
       "esports_grade_latency",
@@ -8904,7 +8933,8 @@
         "portable"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "image_url": "https://cdn.shopify.com/s/files/1/0691/4942/5882/files/ATK_Blazing_Sky_X1_Black.jpg?v=1756978978"
   },
   {
     "id": "atk_x1_ultra",
@@ -8915,7 +8945,7 @@
       0,
       0
     ],
-    "product_url": "https://www.amazon.com/s?k=ATK%20X1%20Ultra&tag=gearmatch-20",
+    "product_url": "https://atk.store",
     "recommendation_tags": [
       "8k_polling",
       "esports_grade_latency",
@@ -8976,7 +9006,8 @@
         "portable"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "image_url": "https://cdn.shopify.com/s/files/1/0691/4942/5882/files/ATK_Blazing_Sky_X1_Black.jpg?v=1756978978"
   },
   {
     "id": "atk_x1_v2_extreme",
@@ -9060,7 +9091,7 @@
       0,
       0
     ],
-    "product_url": "https://www.amazon.com/s?k=ATK%20X1%20V2%20Ultimate&tag=gearmatch-20",
+    "product_url": "https://atk.store",
     "recommendation_tags": [
       "8k_polling",
       "esports_grade_latency",
@@ -9121,7 +9152,8 @@
         "portable"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "image_url": "https://cdn.shopify.com/s/files/1/0691/4942/5882/files/1500_778d99f5-4910-4793-bda8-2cf478ab6b97.jpg?v=1761555256"
   },
   {
     "id": "atk_x1_v2_ultra_max",
@@ -9132,7 +9164,7 @@
       0,
       0
     ],
-    "product_url": "https://www.amazon.com/s?k=ATK%20X1%20V2%20Ultra%20Max&tag=gearmatch-20",
+    "product_url": "https://atk.store",
     "recommendation_tags": [
       "8k_polling",
       "large_hands_friendly",
@@ -9188,7 +9220,8 @@
         "portable"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "image_url": "https://cdn.shopify.com/s/files/1/0691/4942/5882/files/1500_778d99f5-4910-4793-bda8-2cf478ab6b97.jpg?v=1761555256"
   },
   {
     "id": "atk_z1_pro_max",
@@ -9199,7 +9232,7 @@
       0,
       0
     ],
-    "product_url": "https://www.amazon.com/s?k=ATK%20Z1%20Pro%20Max&tag=gearmatch-20",
+    "product_url": "https://atk.store",
     "recommendation_tags": [
       "8k_polling",
       "esports_grade_latency",
@@ -9258,7 +9291,8 @@
         "portable"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "image_url": "https://cdn.shopify.com/s/files/1/0691/4942/5882/files/ATK_Blazing_Sky_Z1_Black.jpg?v=1756978938"
   },
   {
     "id": "atk_z1_ultra",
@@ -10437,7 +10471,7 @@
       0,
       0
     ],
-    "product_url": "https://www.amazon.com/s?k=Attack%20Shark%0AX8%20Pro&tag=gearmatch-20",
+    "product_url": "https://attackshark.com",
     "recommendation_tags": [
       "8k_polling",
       "large_hands_friendly",
@@ -10492,7 +10526,8 @@
         "portable"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "image_url": "https://cdn.shopify.com/s/files/1/0823/5050/6282/files/1_201e311d-1642-4124-8e2b-3d2546c665fc.png?v=1754128575"
   },
   {
     "id": "attack_shark_x8_se",
@@ -10559,7 +10594,8 @@
         "portable"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "image_url": "https://cdn.shopify.com/s/files/1/0735/3404/6443/files/X8-b.png?v=1758069315"
   },
   {
     "id": "attack_shark_x8_ultra",
@@ -11179,7 +11215,8 @@
         "portable"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "image_url": "https://cdn.shopify.com/s/files/1/0550/0554/4682/files/552d8ec448f3a5772558c93ae02f8ea9.jpg?v=1756611494"
   },
   {
     "id": "ausdom_g03_pro",
@@ -11244,7 +11281,8 @@
         "portable"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "image_url": "https://cdn.shopify.com/s/files/1/0550/0554/4682/files/a034b5a43fbcbebd8d9e6c2aa49e1957.jpg?v=1756692339"
   },
   {
     "id": "ausdom_g03_ultra",
@@ -11379,7 +11417,8 @@
         "portable"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "image_url": "https://cdn.shopify.com/s/files/1/0550/0554/4682/files/6692c57e87ab27120fc72cf65595d7a6.jpg?v=1756613509"
   },
   {
     "id": "ausdom_g04_pro",
@@ -11445,7 +11484,8 @@
         "portable"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "image_url": "https://cdn.shopify.com/s/files/1/0550/0554/4682/files/6692c57e87ab27120fc72cf65595d7a6.jpg?v=1756613509"
   },
   {
     "id": "ausdom_g04_ultra",
@@ -11527,7 +11567,7 @@
       130,
       160
     ],
-    "product_url": "https://www.amazon.com/s?k=BenQ+ZOWIE+EC2-CW&tag=gearmatch-20",
+    "product_url": "https://zowie.benq.com/en-us/mouse/ec2-cw.html",
     "recommendation_tags": [
       "premium_build",
       "wireless"
@@ -11590,7 +11630,8 @@
         "ergo_right"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "image_url": "https://image.benq.com/is/image/benqco/ec2-cw-top?$ResponsivePreset$&fmt=png-alpha"
   },
   {
     "id": "benq_zowie_ec2_dw",
@@ -11818,7 +11859,8 @@
         "portable"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "image_url": "https://img1.wsimg.com/isteam/ip/8da871ac-a737-47c6-b10c-4def1faa61b4/ols/ftip_back.png/:/rs=w:600,h:600"
   },
   {
     "id": "cc_beanmouse_lhd_large",
@@ -11886,7 +11928,8 @@
         "portable"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "image_url": "https://img1.wsimg.com/isteam/ip/8da871ac-a737-47c6-b10c-4def1faa61b4/ols/ftip_back.png"
   },
   {
     "id": "cc_beanmouse_lhd_small",
@@ -11954,7 +11997,8 @@
         "portable"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "image_url": "https://img1.wsimg.com/isteam/ip/8da871ac-a737-47c6-b10c-4def1faa61b4/ols/ftip_back.png"
   },
   {
     "id": "cc_beanmouse_small",
@@ -12022,7 +12066,8 @@
         "portable"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "image_url": "https://img1.wsimg.com/isteam/ip/8da871ac-a737-47c6-b10c-4def1faa61b4/ols/ftip_back.png"
   },
   {
     "id": "chaos_m3_mini",
@@ -13088,7 +13133,7 @@
       69,
       87
     ],
-    "product_url": "https://www.amazon.com/s?k=Cooler+Master%0AMM711&tag=gearmatch-20",
+    "product_url": "https://www.coolermaster.com/catalog/peripheral/mice/mm711/",
     "recommendation_tags": [],
     "data_quality": {
       "data_confidence": "low",
@@ -13138,7 +13183,8 @@
         "small_hands_friendly"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "image_url": "https://a.storyblok.com/f/281110/abbf5222d0/mm711-black-matte-380x380-1.png"
   },
   {
     "id": "cooler_master_mm711_lite",
@@ -13214,7 +13260,7 @@
       0,
       0
     ],
-    "product_url": "https://www.amazon.com/s?k=Cooler%20Master%0AMM712&tag=gearmatch-20",
+    "product_url": "https://www.coolermaster.com/catalog/peripheral/mice/mm712/",
     "recommendation_tags": [],
     "data_quality": {
       "data_confidence": "low",
@@ -13264,7 +13310,8 @@
         "small_hands_friendly"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "image_url": "https://a.storyblok.com/f/281110/48b7935db7/mm712-380x380-1.png"
   },
   {
     "id": "cooler_master_mm730",
@@ -17123,7 +17170,8 @@
         "large_hands_friendly"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "image_url": "https://cdn.store-assets.com/s/824673/i/62133366.jpeg"
   },
   {
     "id": "darmoshark_m3_micro",
@@ -17276,7 +17324,7 @@
       0,
       0
     ],
-    "product_url": "https://www.amazon.com/s?k=Darmoshark%20M3%20Pro&tag=gearmatch-20",
+    "product_url": "https://darmoshark.com",
     "recommendation_tags": [
       "4k_polling",
       "large_hands_friendly",
@@ -17331,7 +17379,8 @@
         "portable"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "image_url": "https://darmoshark.com/cdn/shop/files/6_b905b137-f3f1-483f-a588-2f771321649e.jpg?v=1762156049"
   },
   {
     "id": "darmoshark_m3_pro_max",
@@ -17402,7 +17451,8 @@
         "portable"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "image_url": "https://mechkeys.com/cdn/shop/files/darmoshark-m3-pro-max-paw3950-wireless-mouse-mechkeysshop-235551.jpg?v=1769525698"
   },
   {
     "id": "darmoshark_m3_v2",
@@ -17811,7 +17861,8 @@
         "portable"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "image_url": "https://mechkeys.com/cdn/shop/files/darmoshark-m3s-pro-mouse-mechkeysshop-630769.jpg?v=1759153850"
   },
   {
     "id": "darmoshark_m5",
@@ -18646,7 +18697,8 @@
         "portable"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "image_url": "https://sabercade.com/wp-content/uploads/2024/11/kf-S504fc4b4c40d44df823adae7d58b99a6Q.webp"
   },
   {
     "id": "delux_m700",
@@ -18850,7 +18902,8 @@
         "portable"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "image_url": "https://mechkeys.com/cdn/shop/files/delux-m700prom700ultra-paw3950-wireless-mouse-mechkeysshop-m700pro-black-787318_grande.jpg?v=1769526230"
   },
   {
     "id": "delux_m800_mini",
@@ -18983,7 +19036,8 @@
         "portable"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "image_url": "https://mechkeys.com/cdn/shop/files/58f02ce2c0b5510ea144d4a7f06e892b_grande.jpg?v=1764745507"
   },
   {
     "id": "delux_m800_mini_ultra",
@@ -19526,7 +19580,8 @@
         "portable"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "image_url": "https://gaminggearshop.com/cdn/shop/files/S6f1c57bd480b4de08a9df6b747a1852bi.webp?v=1722794559"
   },
   {
     "id": "delux_m900_ultra",
@@ -20270,7 +20325,8 @@
         "ergo_right"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "image_url": "https://www.geeky-gadgets.com/wp-content/uploads/2020/12/gaming-mouse-3.jpg"
   },
   {
     "id": "dream_machines_dm9_skill_wired",
@@ -21876,7 +21932,7 @@
       100,
       120
     ],
-    "product_url": "https://www.amazon.com/s?k=Endgame+Gear+XM2w+4k&tag=gearmatch-20",
+    "product_url": "https://www.endgamegear.com/xm2w-4k",
     "recommendation_tags": [
       "4k_polling",
       "esports_grade_latency",
@@ -21942,7 +21998,8 @@
         "premium_feel"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "image_url": "https://img.endgamegear.com/images/GAMO-1208/ea6c34b238cc8fb39383ef47a1a697cd.jpg"
   },
   {
     "id": "endgame_gear_xm2we",
@@ -22029,7 +22086,7 @@
       0,
       0
     ],
-    "product_url": "https://www.amazon.com/s?k=Epomaker%20CarbonX&tag=gearmatch-20",
+    "product_url": "https://epomaker.com/products/epomaker-carbonx",
     "recommendation_tags": [
       "8k_polling",
       "esports_grade_latency",
@@ -22088,7 +22145,8 @@
         "portable"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "image_url": "https://epomaker.com/cdn/shop/files/EpomakerCarbonX_1.webp?v=1758507904"
   },
   {
     "id": "epomaker_click",
@@ -22783,7 +22841,7 @@
       0,
       0
     ],
-    "product_url": "https://www.amazon.com/s?k=EWEADN%20S7%20Max&tag=gearmatch-20",
+    "product_url": "https://www.eweadn.com",
     "recommendation_tags": [
       "8k_polling",
       "large_hands_friendly",
@@ -22838,7 +22896,8 @@
         "portable"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "image_url": "https://www.eweadn.com/cdn/shop/files/EWEADN_S7_BLACK.png?v=1756453432"
   },
   {
     "id": "eweadn_s7_pro",
@@ -23123,7 +23182,7 @@
       0,
       0
     ],
-    "product_url": "https://www.amazon.com/s?k=EWEADN%20S9%2B%20Pro&tag=gearmatch-20",
+    "product_url": "https://www.eweadn.com",
     "recommendation_tags": [
       "8k_polling",
       "large_hands_friendly",
@@ -23179,7 +23238,8 @@
         "portable"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "image_url": "https://www.eweadn.com/cdn/shop/files/EWEADN_S9_Flame_Red.png?v=1768816222"
   },
   {
     "id": "eweadn_s9_ultra",
@@ -23524,7 +23584,7 @@
       0,
       0
     ],
-    "product_url": "https://www.amazon.com/s?k=EWEADN%20X23%20Pro&tag=gearmatch-20",
+    "product_url": "https://www.eweadn.com",
     "recommendation_tags": [
       "wireless"
     ],
@@ -23575,7 +23635,8 @@
         "portable"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "image_url": "https://www.eweadn.com/cdn/shop/files/X23_Raspberry_Pink_abe3980a-7b92-4959-a883-70bb3a555924.png?v=1752645776"
   },
   {
     "id": "eweadn_x23_se",
@@ -23586,7 +23647,7 @@
       0,
       0
     ],
-    "product_url": "https://www.amazon.com/s?k=EWEADN%20X23%20SE&tag=gearmatch-20",
+    "product_url": "https://www.eweadn.com",
     "recommendation_tags": [
       "wireless"
     ],
@@ -23638,7 +23699,8 @@
         "portable"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "image_url": "https://www.eweadn.com/cdn/shop/files/X23_Raspberry_Pink_abe3980a-7b92-4959-a883-70bb3a555924.png?v=1752645776"
   },
   {
     "id": "fallen_pantera_pro",
@@ -23903,7 +23965,8 @@
         "portable"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "image_url": "https://mechkeys.com/cdn/shop/files/fantech-aria-ii-xd7v2-pro-three-mode-8k-mouse-mechkeysshop-xd7v2pro-8k-red-238819.jpg?v=1769525854"
   },
   {
     "id": "fantech_aria_xd7",
@@ -25423,7 +25486,7 @@
       0,
       0
     ],
-    "product_url": "https://www.amazon.com/s?k=Finalmouse%20ULX%20Competition%20Classic&tag=gearmatch-20",
+    "product_url": "https://finalmouse.com",
     "recommendation_tags": [
       "8k_polling",
       "large_hands_friendly",
@@ -25481,7 +25544,8 @@
         "portable"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "image_url": "https://finalmouse.com/cdn/shop/files/website3.png?v=1729399780&width=1080"
   },
   {
     "id": "finalmouse_ulx_competition_medium",
@@ -25492,7 +25556,7 @@
       0,
       0
     ],
-    "product_url": "https://www.amazon.com/s?k=Finalmouse%20ULX%20Competition%20Medium&tag=gearmatch-20",
+    "product_url": "https://finalmouse.com",
     "recommendation_tags": [
       "8k_polling",
       "ultralight",
@@ -25548,7 +25612,8 @@
         "portable"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "image_url": "https://finalmouse.com/cdn/shop/files/website3.png?v=1729399780&width=1080"
   },
   {
     "id": "finalmouse_ulx_competition_small",
@@ -25707,7 +25772,7 @@
       0,
       0
     ],
-    "product_url": "https://www.amazon.com/s?k=Finalmouse%20ULX%20Prophecy%20Classic&tag=gearmatch-20",
+    "product_url": "https://finalmouse.com",
     "recommendation_tags": [
       "8k_polling",
       "large_hands_friendly",
@@ -25765,7 +25830,8 @@
         "portable"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "image_url": "https://finalmouse.com/cdn/shop/files/clixwebsite1.png?v=1736277935&width=1080"
   },
   {
     "id": "finalmouse_ulx_prophecy_medium",
@@ -25776,7 +25842,7 @@
       0,
       0
     ],
-    "product_url": "https://www.amazon.com/s?k=Finalmouse%20ULX%20Prophecy%20Medium&tag=gearmatch-20",
+    "product_url": "https://finalmouse.com",
     "recommendation_tags": [
       "8k_polling",
       "ultralight",
@@ -25832,7 +25898,8 @@
         "portable"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "image_url": "https://finalmouse.com/cdn/shop/files/clixwebsite1.png?v=1736277935&width=1080"
   },
   {
     "id": "finalmouse_ulx_prophecy_small",
@@ -25982,7 +26049,7 @@
       0,
       0
     ],
-    "product_url": "https://www.amazon.com/s?k=Finalmouse%20ULX%20Sakura%20Medium&tag=gearmatch-20",
+    "product_url": "https://finalmouse.com",
     "recommendation_tags": [
       "8k_polling",
       "ultralight",
@@ -26038,7 +26105,8 @@
         "portable"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "image_url": "https://finalmouse.com/cdn/shop/files/sakura2.jpg?v=1758093267&width=1080"
   },
   {
     "id": "finalmouse_ulx_sakura_small",
@@ -27090,7 +27158,7 @@
       0,
       0
     ],
-    "product_url": "https://www.amazon.com/s?k=G-Wolves%20HSK%20Pro%20Ace&tag=gearmatch-20",
+    "product_url": "https://shop.g-wolves.com",
     "recommendation_tags": [
       "ergonomic",
       "small_hands_friendly",
@@ -27147,7 +27215,8 @@
         "portable"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "image_url": "https://shop.g-wolves.com/cdn/shop/files/bbb-02.png?v=1700479115&width=1080"
   },
   {
     "id": "g_wolves_ht_s2_8k",
@@ -28245,7 +28314,7 @@
       0,
       0
     ],
-    "product_url": "https://www.amazon.com/s?k=G-Wolves%20HTX%20Ace&tag=gearmatch-20",
+    "product_url": "https://shop.g-wolves.com",
     "recommendation_tags": [
       "ultralight",
       "wireless"
@@ -28300,7 +28369,8 @@
         "portable"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "image_url": "https://shop.g-wolves.com/cdn/shop/files/1.1_f4bf9031-c800-44ec-a26a-4fc291bc4937.png?v=1700480478&width=1080"
   },
   {
     "id": "g_wolves_htx_mini_8k",
@@ -30702,7 +30772,8 @@
         "portable"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "image_url": "https://fbi.cults3d.com/uploaders/24498606/illustration-file/0630ef71-b4c3-4439-a4c9-6188e5035c96/asd.jpg"
   },
   {
     "id": "haunterwell_hmf",
@@ -30837,7 +30908,8 @@
         "portable"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "image_url": "https://fbi.cults3d.com/uploaders/24498606/illustration-file/41f927a6-5665-4e6e-b4ff-78b666b7d524/Mz1_2024-Jun-21_01-27-37AM-000_CustomizedView4021420848_jpg.jpg"
   },
   {
     "id": "haunterwell_hzs",
@@ -30904,7 +30976,8 @@
         "safe_shape"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "image_url": "https://fbi.cults3d.com/uploaders/24498606/illustration-file/6a5c0078-3fc5-44cd-80ed-0d8aa2ea2a6c/Desenvo-12.png"
   },
   {
     "id": "higround_yuma",
@@ -32346,7 +32419,8 @@
         "portable"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "image_url": "https://cdn.shopify.com/s/files/1/0550/0554/4682/files/9715f13b9da14dc0944fd28502e38c68.jpg?v=1750838349"
   },
   {
     "id": "incott_029_pro",
@@ -32482,7 +32556,8 @@
         "portable"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "image_url": "https://gearnovaperipherals.com/cdn/shop/files/029_incott.webp?v=1762335488"
   },
   {
     "id": "incott_039",
@@ -32689,7 +32764,8 @@
         "portable"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "image_url": "https://cdn.shopify.com/s/files/1/0550/0554/4682/files/5da5eafe817c412e8eb2b06a8be4711f.jpg?v=1753761779"
   },
   {
     "id": "incott_g23",
@@ -33035,7 +33111,8 @@
         "portable"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "image_url": "https://mechkeys.com/cdn/shop/files/307538ff0a0d5fad5578b7cbfc42bbf7_800x.jpg?v=1750304509"
   },
   {
     "id": "incott_g24",
@@ -33716,7 +33793,8 @@
         "portable"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "image_url": "https://cdn.shopify.com/s/files/1/0631/9590/6271/files/irok-he3-series-paw3395-replaceable-battery-gaming-mouse-mechkeysshop-he3-se-white-695999.jpg?v=1766927503"
   },
   {
     "id": "irok_he6",
@@ -35307,7 +35385,7 @@
       40,
       70
     ],
-    "product_url": "https://www.amazon.com/s?k=Keychron+M2+4K&tag=gearmatch-20",
+    "product_url": "https://www.keychron.com/products/keychron-m2-wireless-mouse",
     "retailer_urls": {
       "manufacturer": "https://www.keychron.com/products/keychron-m7-wireless-mouse?variant=41218470903897"
     },
@@ -35366,7 +35444,8 @@
         "portable"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "image_url": "https://www.keychron.com/cdn/shop/files/Keychron-M2-wireless-4K-mouse-black_211ee42c-75f3-4f19-b536-18b48297a28d.jpg?v=1748331645"
   },
   {
     "id": "keychron_m2_8k",
@@ -36706,7 +36785,7 @@
       0,
       0
     ],
-    "product_url": "https://www.amazon.com/s?k=Kysona%20Mercury%20Pro&tag=gearmatch-20",
+    "product_url": "https://shop.kysona.com",
     "recommendation_tags": [
       "8k_polling",
       "ultralight",
@@ -36761,7 +36840,8 @@
         "portable"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "image_url": "https://cdn.shopify.com/s/files/1/0809/0697/7595/files/3395_45e16ebd-c2b2-4a71-a731-76344fae0d1c.jpg"
   },
   {
     "id": "kysona_mercury_se",
@@ -36772,7 +36852,7 @@
       0,
       0
     ],
-    "product_url": "https://www.amazon.com/s?k=Kysona%20Mercury%20SE&tag=gearmatch-20",
+    "product_url": "https://shop.kysona.com",
     "recommendation_tags": [
       "ultralight",
       "wireless"
@@ -36825,7 +36905,8 @@
         "portable"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "image_url": "https://cdn.shopify.com/s/files/1/0809/0697/7595/files/3311_f0cdaaca-2805-4df5-889d-5b8a4375aea0.jpg"
   },
   {
     "id": "kysona_mercury_ultra",
@@ -36975,7 +37056,7 @@
       0,
       0
     ],
-    "product_url": "https://www.amazon.com/s?k=Kysona%20Uranus%20SE&tag=gearmatch-20",
+    "product_url": "https://shop.kysona.com",
     "recommendation_tags": [
       "wireless"
     ],
@@ -37028,7 +37109,8 @@
         "portable"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "image_url": "https://cdn.shopify.com/s/files/1/0809/0697/7595/files/SKU_6e15c662-ff61-4749-a5c3-41eaa5fb4d01.jpg"
   },
   {
     "id": "kysona_vela_se",
@@ -39505,7 +39587,8 @@
         "small_hands_friendly"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "image_url": "https://pakgamingstore.com/wp-content/uploads/2024/08/454566496_873746048119353_5891529275560422011_n.jpg"
   },
   {
     "id": "logitech_g203",
@@ -45408,7 +45491,7 @@
       45,
       45
     ],
-    "product_url": "https://www.amazon.com/s?k=MCHOSE+A5+Pro+Max&tag=gearmatch-20",
+    "product_url": "https://www.mchose.store",
     "recommendation_tags": [
       "budget_value",
       "wireless"
@@ -45461,7 +45544,8 @@
         "portable"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "image_url": "https://www.mchose.store/cdn/shop/files/mchose-official-mouse-a5-pro-black-mchose-a5-series-wireless-mouse-1166639920.jpg?v=1767167885"
   },
   {
     "id": "mchose_a5_ultra",
@@ -45673,7 +45757,7 @@
       0,
       0
     ],
-    "product_url": "https://www.amazon.com/s?k=MCHOSE%20A7%20Pro&tag=gearmatch-20",
+    "product_url": "https://www.mchose.store",
     "recommendation_tags": [
       "8k_polling",
       "large_hands_friendly",
@@ -45728,7 +45812,8 @@
         "portable"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "image_url": "https://www.mchose.store/cdn/shop/files/mchose-official-mouse-a7-white-mchose-a7-series-lightweight-wireless-gaming-mouse-1166639730.jpg?v=1755742881"
   },
   {
     "id": "mchose_a7_ultra",
@@ -45814,7 +45899,7 @@
       0,
       0
     ],
-    "product_url": "https://www.amazon.com/s?k=MCHOSE%20A7%20V2%20Pro&tag=gearmatch-20",
+    "product_url": "https://www.mchose.store",
     "recommendation_tags": [
       "8k_polling",
       "large_hands_friendly",
@@ -45869,7 +45954,8 @@
         "portable"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "image_url": "https://www.mchose.store/cdn/shop/files/mchose-official-mouse-a7-v2-pro-black-mchose-a7-v2-series-lightweight-all-round-wireless-gaming-mouse-1200359730.png?v=1764064311"
   },
   {
     "id": "mchose_a7_v2_ultra",
@@ -46092,7 +46178,7 @@
       0,
       0
     ],
-    "product_url": "https://www.amazon.com/s?k=MCHOSE%20AX5%20Pro&tag=gearmatch-20",
+    "product_url": "https://www.mchose.store",
     "recommendation_tags": [
       "4k_polling",
       "ultralight",
@@ -46147,7 +46233,8 @@
         "portable"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "image_url": "https://www.mchose.store/cdn/shop/files/mchose-official-mouse-ax5-pro-max-black-mchose-ax5-pro-max-magnesium-alloy-wireless-mouse-1166639927.jpg?v=1767167901"
   },
   {
     "id": "mchose_ax5_pro_max",
@@ -46158,7 +46245,7 @@
       0,
       0
     ],
-    "product_url": "https://www.amazon.com/s?k=MCHOSE%20AX5%20Pro%20Max&tag=gearmatch-20",
+    "product_url": "https://www.mchose.store",
     "recommendation_tags": [
       "8k_polling",
       "ultralight",
@@ -46213,7 +46300,8 @@
         "portable"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "image_url": "https://www.mchose.store/cdn/shop/files/mchose-official-mouse-ax5-pro-max-black-mchose-ax5-pro-max-magnesium-alloy-wireless-mouse-1166639927.jpg?v=1767167901"
   },
   {
     "id": "mchose_ax5_v2",
@@ -46423,7 +46511,7 @@
       0,
       0
     ],
-    "product_url": "https://www.amazon.com/s?k=MCHOSE%20G3%20Max&tag=gearmatch-20",
+    "product_url": "https://www.mchose.store",
     "recommendation_tags": [
       "8k_polling",
       "wireless"
@@ -46477,7 +46565,8 @@
         "portable"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "image_url": "https://cdn.shopify.com/s/files/1/0631/9590/6271/files/mchose-g3-series-wireless-8khz-paw3395-mouse-mechkeysshop-g3-white-675939.jpg"
   },
   {
     "id": "mchose_g3_pro",
@@ -46488,7 +46577,7 @@
       0,
       0
     ],
-    "product_url": "https://www.amazon.com/s?k=MCHOSE%20G3%20Pro&tag=gearmatch-20",
+    "product_url": "https://www.mchose.store",
     "recommendation_tags": [
       "wireless"
     ],
@@ -46541,7 +46630,8 @@
         "portable"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "image_url": "https://cdn.shopify.com/s/files/1/0846/5727/5175/files/mchose-official-mouse-g3-white-mchose-g3-dual-8k-high-performance-wireless-gaming-mouse-1166639846.png?v=1754474048"
   },
   {
     "id": "mchose_g3_se",
@@ -46552,7 +46642,7 @@
       0,
       0
     ],
-    "product_url": "https://www.amazon.com/s?k=MCHOSE%20G3%20SE&tag=gearmatch-20",
+    "product_url": "https://www.mchose.store",
     "recommendation_tags": [
       "wireless"
     ],
@@ -46604,7 +46694,8 @@
         "portable"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "image_url": "https://www.mchose.store/cdn/shop/files/mchose-official-mouse-g3-black-mchose-g3-dual-8k-high-performance-wireless-gaming-mouse-1166639847.png?v=1754474047"
   },
   {
     "id": "mchose_g3_ultra",
@@ -46951,7 +47042,7 @@
       0,
       0
     ],
-    "product_url": "https://www.amazon.com/s?k=MCHOSE%20G7%20Pro&tag=gearmatch-20",
+    "product_url": "https://www.mchose.store",
     "recommendation_tags": [
       "large_hands_friendly",
       "wireless"
@@ -47008,7 +47099,8 @@
         "portable"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "image_url": "https://www.mchose.store/cdn/shop/files/mchose-official-mouse-g7-white-mchose-g7-lightweight-ergonomic-wireless-mouse-1166640163.jpg?v=1767167964"
   },
   {
     "id": "mchose_k7_ultra",
@@ -47651,7 +47743,8 @@
         "ergo_right"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "image_url": "https://mechkeys.com/cdn/shop/files/metaphyuni-metapanda01-paw3395-p1-series-wireless-mouse-mechkeysshop-white-p11k-378110.jpg?v=1761740508"
   },
   {
     "id": "metaphyuni_metapanda_p1_pro_max",
@@ -47843,7 +47936,8 @@
         "portable"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "image_url": "https://cdn.shopify.com/s/files/1/0550/0554/4682/files/41af1adee460d73cb44844debf54b1d6.jpg?v=1741771412"
   },
   {
     "id": "metaphyuni_p2_pro",
@@ -48185,7 +48279,8 @@
         "ergo_right"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "image_url": "https://c1.neweggimages.com/productimage/nb640/A86E_1_20191223818121274.jpg"
   },
   {
     "id": "microsoft_sidewinder_x8",
@@ -49116,7 +49211,8 @@
         "portable"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "image_url": "https://mechkeys.com/cdn/shop/files/monka-m1-wireless-4khz-55g-gaming-mouse-mechkeysshop-m1-pro-blue-transparent-619260.jpg?v=1766925238"
   },
   {
     "id": "monka_m1_pro_max",
@@ -50745,7 +50841,8 @@
       "mouse_coating": "matte",
       "mouse_feel_tags": [],
       "mouse_value_pick": false
-    }
+    },
+    "image_url": "https://chemicygaming.com/image/cache/gaming%20gear/mouse/Noir%20Neo/M1%20Lite/Web%20Black-400x400.jpg"
   },
   {
     "id": "noir_m2",
@@ -51638,7 +51735,7 @@
       80,
       120
     ],
-    "product_url": "https://www.amazon.com/s?k=Ploopy+Adept+Trackball&tag=gearmatch-20",
+    "product_url": "https://ploopy.co/adept-trackball/",
     "recommendation_tags": [
       "small_hands_friendly"
     ],
@@ -51698,7 +51795,8 @@
         "moddable"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "image_url": "https://ploopy.co/wp-content/uploads/2023/09/MG_0192-scaled-e1695733263215-682x1024.jpg"
   },
   {
     "id": "ploopy_thumb_trackball",
@@ -54344,7 +54442,7 @@
       90,
       110
     ],
-    "product_url": "https://www.amazon.com/s?k=Pulsar+X2V2&tag=gearmatch-20",
+    "product_url": "https://www.pulsar.gg/products/x2v2",
     "recommendation_tags": [
       "premium_build",
       "ultralight",
@@ -54407,7 +54505,8 @@
         "competitive"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "image_url": "https://www.pulsar.gg/cdn/shop/files/X2_v2_Wireless_Mouse_Medium_Black_001.png?v=1758619152"
   },
   {
     "id": "pulsar_x3",
@@ -54867,7 +54966,7 @@
       0,
       0
     ],
-    "product_url": "https://www.amazon.com/s?k=Pulsar%20Xlite%20v4%20Large&tag=gearmatch-20",
+    "product_url": "https://www.pulsar.gg/products/xlite-v4",
     "recommendation_tags": [
       "8k_polling",
       "esports_grade_latency",
@@ -54928,7 +55027,8 @@
         "portable"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "image_url": "https://cdn.shopify.com/s/files/1/0920/8122/6095/files/Xlite_v4_Gaming-Mouse_Large-Black_001.png?v=1758781784"
   },
   {
     "id": "pulsar_xlite_v4_medium",
@@ -54939,7 +55039,7 @@
       0,
       0
     ],
-    "product_url": "https://www.amazon.com/s?k=Pulsar%20Xlite%20v4%20Medium&tag=gearmatch-20",
+    "product_url": "https://www.pulsar.gg/products/xlite-v4",
     "recommendation_tags": [
       "8k_polling",
       "esports_grade_latency",
@@ -54999,7 +55099,8 @@
         "portable"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "image_url": "https://www.pulsar.gg/cdn/shop/files/PulsarXlitev4GamingMouse_Black_001.png?v=1720400926"
   },
   {
     "id": "pulsar_xlite_v4_mini",
@@ -55010,7 +55111,7 @@
       125,
       130
     ],
-    "product_url": "https://www.amazon.com/s?k=Pulsar+Xlite+v4+Mini&tag=gearmatch-20",
+    "product_url": "https://www.pulsar.gg/products/xlite-v4-mini",
     "recommendation_tags": [
       "8k_polling",
       "esports_grade_latency",
@@ -55071,7 +55172,8 @@
         "portable"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "image_url": "https://www.pulsar.gg/cdn/shop/files/Pulsar_Xlite_v4_Wireless_gaming_mouse_Size1_Black_001.png?v=1758610929"
   },
   {
     "id": "pulsar_xlite_wired",
@@ -57293,7 +57395,7 @@
       0,
       0
     ],
-    "product_url": "https://www.amazon.com/s?k=Rapoo%20VT0%20Max&tag=gearmatch-20",
+    "product_url": "https://shop.rapoo.com",
     "recommendation_tags": [
       "8k_polling",
       "esports_grade_latency",
@@ -57352,7 +57454,8 @@
         "portable"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "image_url": "https://cdn.shopify.com/s/files/1/0585/2875/9937/files/VT0-BU_1_25adaa24-127d-45e7-9292-ff23c93ff10e.png?v=1765527671"
   },
   {
     "id": "rapoo_vt1_air_max",
@@ -57363,7 +57466,7 @@
       0,
       0
     ],
-    "product_url": "https://www.amazon.com/s?k=Rapoo%20VT1%20Air%20Max&tag=gearmatch-20",
+    "product_url": "https://www.rapoo.com",
     "recommendation_tags": [
       "8k_polling",
       "esports_grade_latency",
@@ -57424,7 +57527,8 @@
         "portable"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "image_url": "https://www.rapoo.com/wp-content/webp-express/webp-images/uploads/2024/09/VT1AIR-MAX-1-600x600.png.webp"
   },
   {
     "id": "rapoo_vt1_pro",
@@ -57503,7 +57607,7 @@
       0,
       0
     ],
-    "product_url": "https://www.amazon.com/s?k=Rapoo%20VT1%20Pro%20Max&tag=gearmatch-20",
+    "product_url": "https://shop.rapoo.com",
     "recommendation_tags": [
       "8k_polling",
       "esports_grade_latency",
@@ -57563,7 +57667,8 @@
         "portable"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "image_url": "https://cdn.shopify.com/s/files/1/0585/2875/9937/files/VT1PRO_MAX-BK_1.png?v=1758183434"
   },
   {
     "id": "rapoo_vt2",
@@ -57649,7 +57754,7 @@
       0,
       0
     ],
-    "product_url": "https://www.amazon.com/s?k=Rapoo%20VT2%20Max&tag=gearmatch-20",
+    "product_url": "https://shop.rapoo.com",
     "recommendation_tags": [
       "8k_polling",
       "esports_grade_latency",
@@ -57712,7 +57817,8 @@
         "portable"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "image_url": "https://shop.rapoo.com/cdn/shop/files/1.VT2_MAX-PL_23781bff-f228-4cef-97d7-24de19640e1c.png?v=1768455907"
   },
   {
     "id": "rapoo_vt3_gen_2",
@@ -58296,7 +58402,7 @@
       0,
       0
     ],
-    "product_url": "https://www.amazon.com/s?k=Rapoo%20VT7%20Max&tag=gearmatch-20",
+    "product_url": "https://shop.rapoo.com",
     "recommendation_tags": [
       "8k_polling",
       "esports_grade_latency",
@@ -58359,7 +58465,8 @@
         "portable"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "image_url": "https://shop.rapoo.com/cdn/shop/files/VT7_MAX-MTPL_grande.png?v=1771827373"
   },
   {
     "id": "rapoo_vt9_air",
@@ -58635,7 +58742,8 @@
       "mouse_coating": "matte",
       "mouse_feel_tags": [],
       "mouse_value_pick": false
-    }
+    },
+    "image_url": "https://mechkeys.com/cdn/shop/products/rapoo-vt9pro-series-mouse-mechkeysshop-vt9pro-mini-white-601169.jpg?v=1761738904"
   },
   {
     "id": "rapoo_vt900",
@@ -70203,7 +70311,8 @@
       "mouse_coating": "matte",
       "mouse_feel_tags": [],
       "mouse_value_pick": false
-    }
+    },
+    "image_url": "https://mechkeys.com/cdn/shop/products/thunderobot-ml903-series-paw3395-mouse-mechkeysshop-ml9034khz-dongle-white-221975.jpg?v=1756557018"
   },
   {
     "id": "thunderobot_ml9s",
@@ -70961,7 +71070,8 @@
         "portable"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "image_url": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc4/vaidemi-nimbus-ultralight-custom-3D-printed-gaming-mouse.png"
   },
   {
     "id": "valkyrie_vk_m1",
@@ -71362,7 +71472,8 @@
         "portable"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "image_url": "https://cdn.shopify.com/s/files/1/0631/9590/6271/files/Valkyrie_VK-M3_3.jpg?v=1750419404"
   },
   {
     "id": "valkyrie_vk_m3_pro",
@@ -72835,7 +72946,8 @@
         "small_hands_friendly"
       ],
       "mouse_value_pick": true
-    }
+    },
+    "image_url": "https://www.whatgeek.com/cdn/shop/files/acgam-vgn-dragonfly-f1-pro-max-wireless-mouse_5.jpg?v=1725432161"
   },
   {
     "id": "vgn_dragonfly_f1_se",
@@ -72978,7 +73090,7 @@
       0,
       0
     ],
-    "product_url": "https://www.amazon.com/s?k=VGN%20Dragonfly%20F2%20Ultra&tag=gearmatch-20",
+    "product_url": "https://vgnlab.com",
     "recommendation_tags": [
       "8k_polling",
       "esports_grade_latency",
@@ -73037,7 +73149,8 @@
         "portable"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "image_url": "https://vgnlab.com/cdn/shop/files/F2_800-800_3.png?v=1756458498"
   },
   {
     "id": "vgn_dragonfly_king",
@@ -73175,7 +73288,8 @@
         "portable"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "image_url": "https://www.techlandbd.com/cache/images/uploads/products/P6942506002/vgn-mouse-vxe-r1-cover.webp"
   },
   {
     "id": "vgn_r1_nearlink",
@@ -73239,7 +73353,8 @@
         "portable"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "image_url": "https://ggezgadgets.com/wp-content/uploads/2025/10/VXER1SEPW-scaled.webp"
   },
   {
     "id": "vgn_r1_pro",
@@ -73308,7 +73423,8 @@
         "portable"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "image_url": "https://hardwarecorpus.in/cdn/shop/files/R1_Black.webp?v=1757141817"
   },
   {
     "id": "vgn_r1_pro_max",
@@ -73376,7 +73492,8 @@
         "portable"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "image_url": "https://cdn.nookyyy.com/wp-content/uploads/vgn_vxe_dragonfly_r1_pro_max_white_1.png"
   },
   {
     "id": "vgn_r1_se",
@@ -73439,7 +73556,8 @@
         "portable"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "image_url": "https://mechkeys.com/cdn/shop/files/vxe-dragonfly-r1-paw3395-wireless-mouse-mechkeysshop-r1-se-white-605557.jpg?v=1761741936"
   },
   {
     "id": "vgn_y2_pro",
@@ -73861,7 +73979,8 @@
         "safe_shape"
       ],
       "mouse_value_pick": true
-    }
+    },
+    "image_url": "https://mechkeys.com/cdn/shop/files/vxe-dragonfly-r1-paw3395-wireless-mouse-mechkeysshop-828656_grande.jpg?v=1761740990"
   },
   {
     "id": "vxe_r1_se",
@@ -75272,7 +75391,7 @@
       0,
       0
     ],
-    "product_url": "https://www.amazon.com/s?k=Xtrfy%20M42%20(lower%20back)&tag=gearmatch-20",
+    "product_url": "https://cherryxtrfy.com/mice/m42-wireless/",
     "recommendation_tags": [],
     "data_quality": {
       "data_confidence": "low",
@@ -75321,7 +75440,8 @@
       "mouse_coating": "matte",
       "mouse_feel_tags": [],
       "mouse_value_pick": false
-    }
+    },
+    "image_url": "https://cherryxtrfy.com/wp/wp-content/uploads/2020/08/Xtrfy-M42-Black-Hero_gallery02.jpg"
   },
   {
     "id": "xtrfy_m42_wireless",
@@ -76192,7 +76312,8 @@
         "portable"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "image_url": "https://mechkeys.com/cdn/shop/files/zaopin-z2-mini-swappable-switch-paw3950-wireless-mouse-mechkeysshop-848553_grande.jpg?v=1772109934"
   },
   {
     "id": "zaopin_z2_mini_max_8k",
@@ -76897,7 +77018,7 @@
       0,
       0
     ],
-    "product_url": "https://www.amazon.com/s?k=Zowie%20EC1-CW&tag=gearmatch-20",
+    "product_url": "https://zowie.benq.com/en-us/mouse/ec1-cw.html",
     "recommendation_tags": [
       "large_hands_friendly",
       "wireless"
@@ -76952,7 +77073,8 @@
         "ergo_right"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "image_url": "https://image.benq.com/is/image/benqco/ec1-cw-top?$ResponsivePreset$&fmt=png-alpha"
   },
   {
     "id": "zowie_ec1_dw",
@@ -77223,7 +77345,7 @@
       125,
       125
     ],
-    "product_url": "https://www.amazon.com/s?k=Zowie+EC3-CW&tag=gearmatch-20",
+    "product_url": "https://zowie.benq.com/en-us/mouse/ec3-cw.html",
     "recommendation_tags": [
       "wireless"
     ],
@@ -77276,7 +77398,8 @@
         "ergo_right"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "image_url": "https://image.benq.com/is/image/benqco/ec3-cw-top?$ResponsivePreset$&fmt=png-alpha"
   },
   {
     "id": "zowie_ec3_dw",
