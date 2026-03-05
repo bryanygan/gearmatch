@@ -30,6 +30,28 @@ GearMatch takes a quiz-based approach to match users with peripherals that fit t
 - **Transparent Breakdowns** - See exactly why each product was recommended with score breakdowns per category
 - **Match Reasons & Concerns** - Human-readable explanations of pros and potential tradeoffs
 
+### Loadout Builder
+- **CS:GO-Style Radial Buy Menu** - Desktop radial wheel with 4 category wedges (mouse, audio, keyboard, monitor) for building a complete peripheral setup
+- **Mobile Tabbed Interface** - Touch-optimized tab layout with sticky bottom bar and drawer modal on mobile
+- **Product Selection Panel** - Browse, sort, and toggle products with sortable columns (price, name, RTINGS usage scores)
+- **Product Spec Badges** - Category-specific specs displayed per product (weight, sensor, wireless, polling rate, panel type, switch type, etc.)
+- **Curated Loadouts** - 4 pre-built loadouts: Budget FPS Setup ($264–$364), Premium Productivity Pack ($880–$1,070), Competitive Esports Kit ($1,190–$1,435), Streaming Pro Loadout ($799–$1,089)
+- **Loadout Summary** - Full breakdown by category with per-item retailer links (Amazon, Best Buy, B&H Photo, Micro Center, etc.)
+- **Shareable Loadout URLs** - Encode/decode loadout items as URL params for bookmarking and sharing without an account
+- **localStorage Persistence** - Loadout survives page reload and navigation; hydration priority: URL > localStorage > empty
+- **Sound Effects** - Optional synthesized Web Audio API sounds for add/remove/click interactions (disabled by default)
+- **RTINGS Score Sorting** - Sort products by RTINGS usage scores (FPS, MMO, Gaming, Office, Editing, etc.) per category
+
+### Landing Page V2
+- **Tech-Forward Design** - Hacker terminal aesthetic with neon green primary, rose secondary, and cyan accents
+- **Scroll-Triggered Animations** - IntersectionObserver-based reveal animations with staggered delays
+- **Curated Loadout Preview** - Hero section shows real curated loadouts with product names, prices, and direct links to the loadout builder
+- **Section Navigation** - Navbar links smooth-scroll to page sections; works cross-page via hash routing
+- **Responsive Hero** - Desktop shows scrolling product grid in HUD frame; mobile uses carousel background with fade overlay
+- **Interactive Category Cards** - 6 category cards (4 active, 2 coming soon) with hover glow, accent lines, and hexagonal icons
+- **Trust Section** - Dedicated section with pulsing status indicators and a user testimonial styled as a terminal message
+- **Design System** - Custom CSS variables, glass-morphism, dot grids, scan lines, floating particles, and glitch effects
+
 ### Search
 - **Fuzzy Full-Text Search** - Fuse.js-powered search across product names, brands, and tags
 - **Cmd+K Command Palette** - Quick product search from anywhere in the app
@@ -77,6 +99,8 @@ GearMatch takes a quiz-based approach to match users with peripherals that fit t
 - **Fuse.js** - Fuzzy full-text search
 - **Cloudflare Pages Functions** - Serverless API layer
 - **Wrangler** - Cloudflare local development and deployment
+- **Lucide React** - Icon library
+- **Web Audio API** - Synthesized UI sound effects
 - **Vitest** - Testing framework (247 tests)
 
 ## Getting Started
@@ -171,7 +195,8 @@ gearmatch/
 │
 ├── src/
 │   ├── pages/                    # Page components
-│   │   ├── Index.tsx             # Landing page
+│   │   ├── IndexV2.tsx           # Landing page (V2 redesign)
+│   │   ├── LoadoutPage.tsx       # Loadout builder page
 │   │   ├── MouseQuiz.tsx         # Mouse recommendation quiz
 │   │   ├── MouseResults.tsx      # Mouse results page
 │   │   ├── AudioQuiz.tsx         # Audio recommendation quiz
@@ -185,16 +210,30 @@ gearmatch/
 │   ├── components/
 │   │   ├── ErrorBoundary.tsx     # Global error handling with sanitization
 │   │   ├── NavLink.tsx           # Navigation link component
-│   │   ├── landing/              # Landing page sections
-│   │   │   ├── Hero.tsx          # Hero section with scrolling product gallery
-│   │   │   ├── CategoryCards.tsx
-│   │   │   ├── HowItWorks.tsx
-│   │   │   ├── TrustSection.tsx
-│   │   │   ├── FinalCTA.tsx
-│   │   │   ├── Footer.tsx
-│   │   │   ├── Navbar.tsx
-│   │   │   ├── RecommendationPreview.tsx
+│   │   ├── landing-v2/           # Landing page V2 sections
+│   │   │   ├── HeroV2.tsx        # Hero with curated loadout preview
+│   │   │   ├── NavbarV2.tsx      # Fixed navbar with section scroll
+│   │   │   ├── CategoryCardsV2.tsx # Category selection cards
+│   │   │   ├── HowItWorksV2.tsx  # 3-step process section
+│   │   │   ├── TrustSectionV2.tsx # Trust indicators + testimonial
+│   │   │   ├── FinalCTAV2.tsx    # Bottom CTA section
+│   │   │   ├── FooterV2.tsx      # Multi-column footer
+│   │   │   └── useReveal.ts      # Scroll-triggered animation hook
+│   │   ├── landing/              # Landing page V1 sections (legacy)
 │   │   │   └── ScrollingProductGrid.tsx
+│   │   ├── loadout/              # Loadout builder components
+│   │   │   ├── LoadoutPageWrapper.tsx  # Responsive desktop/mobile switcher
+│   │   │   ├── RadialBuyMenu.tsx      # Desktop radial menu layout
+│   │   │   ├── RadialWedge.tsx        # SVG wedge for radial wheel
+│   │   │   ├── RadialCenter.tsx       # Center hub with summary
+│   │   │   ├── MobileBuyMenu.tsx      # Mobile tabbed interface
+│   │   │   ├── MobileLoadoutBar.tsx   # Mobile sticky bottom bar
+│   │   │   ├── ProductListPanel.tsx   # Product browsing + sorting
+│   │   │   ├── ProductListItem.tsx    # Individual product row
+│   │   │   ├── ProductSpecBadges.tsx  # Category-specific spec badges
+│   │   │   ├── LoadoutSummary.tsx     # Full loadout with retailer links
+│   │   │   ├── CuratedLoadoutBrowser.tsx # Carousel of curated loadouts
+│   │   │   └── CuratedLoadoutCard.tsx # Curated loadout preview card
 │   │   ├── quiz/                 # Quiz components
 │   │   │   ├── QuizLayout.tsx    # Shared quiz page wrapper
 │   │   │   ├── QuizProgress.tsx  # Progress bar and navigation
@@ -210,9 +249,10 @@ gearmatch/
 │   │   └── ui/                   # shadcn/ui components (50+ components)
 │   │
 │   ├── data/
-│   │   ├── products.ts           # Legacy product exports
+│   │   ├── products.ts           # Async product loaders by category
+│   │   ├── curated-loadouts.ts   # 4 pre-built curated loadouts
+│   │   ├── loadout-categories.ts # Category metadata (icons, colors)
 │   │   └── products/             # Product database (Zod-validated JSON)
-│   │       ├── index.ts          # Aggregated product exports with lazy loading
 │   │       ├── mice.json         # Gaming mice (185 products)
 │   │       ├── audio.json        # Audio equipment (198 products)
 │   │       ├── keyboards.json    # Keyboards (279 products)
@@ -247,23 +287,32 @@ gearmatch/
 │   │   │       └── client.ts     # Main-thread wrapper with fallback
 │   │   ├── search/               # Full-text search (Fuse.js)
 │   │   │   └── index.ts          # Fuzzy search across products
+│   │   ├── loadout/              # Loadout utilities
+│   │   │   └── loadout-url.ts    # URL encoding/decoding for shared loadouts
 │   │   └── validation/           # Input validation
 │   │       ├── index.ts          # Public exports
 │   │       └── quiz-schemas.ts   # Zod schemas for quiz answers
 │   │
 │   ├── hooks/                    # Custom React hooks
 │   │   ├── use-recommendations.ts # Quiz → scoring integration
+│   │   ├── useLoadoutState.ts    # Loadout state management + localStorage
+│   │   ├── useSoundEffects.ts    # Web Audio API sound synthesis
+│   │   ├── useMediaQuery.ts      # Reactive CSS media query hook
 │   │   ├── use-mobile.tsx
 │   │   └── use-toast.ts
 │   │
 │   ├── types/                    # TypeScript definitions
 │   │   ├── products.ts           # Product interfaces and type guards
-│   │   └── monitor.ts            # Monitor type definitions
+│   │   ├── monitor.ts            # Monitor type definitions
+│   │   └── loadout.ts            # Loadout types (category, item, loadout)
 │   │
 │   ├── test/                     # Test files
 │   │   ├── setup.ts              # Vitest setup
 │   │   ├── scoring-engine.test.ts # Scoring engine tests
 │   │   └── validation.test.ts    # Validation tests
+│   │
+│   ├── styles/
+│   │   └── v2.css                # Landing V2 design system (variables, animations)
 │   │
 │   ├── App.tsx                   # Root app component with routing
 │   ├── App.css                   # App-specific styles
@@ -286,7 +335,8 @@ gearmatch/
 
 | Path | Description |
 |------|-------------|
-| `/` | Landing page |
+| `/` | Landing page (V2) |
+| `/loadout` | Loadout builder (radial buy menu) |
 | `/quiz/mouse` | Mouse recommendation quiz |
 | `/quiz/mouse/results` | Mouse recommendations results |
 | `/quiz/audio` | Audio equipment quiz |
@@ -295,6 +345,14 @@ gearmatch/
 | `/quiz/keyboard/results` | Keyboard recommendations results |
 | `/quiz/monitor` | Monitor recommendation quiz |
 | `/quiz/monitor/results` | Monitor recommendations results |
+
+### Loadout URL Parameters
+
+| Parameter | Description | Example |
+|-----------|-------------|---------|
+| `items` | Comma-separated product IDs to load | `/loadout?items=razer_viper_v3_pro,wooting_80he` |
+| `loadout` | Curated loadout ID to pre-load | `/loadout?loadout=budget-fps-setup` |
+| `category` | Start with a specific category open | `/loadout?category=mouse` |
 
 ## Scoring System
 
@@ -405,7 +463,22 @@ The `public/_redirects` file handles SPA routing:
 
 ## Recent Updates
 
-### February 2026 (latest)
+### March 2026 (latest)
+- **Loadout Builder** - CS:GO-style radial buy menu for building complete peripheral setups with 1,040+ products across 4 categories
+- **Curated Loadouts** - 4 pre-built loadouts (Budget FPS, Premium Productivity, Competitive Esports, Streaming Pro) with real product data
+- **Radial Menu (Desktop)** - SVG radial wheel with category wedges, dynamic glow effects, item count badges, and animated product panel
+- **Mobile Loadout UI** - Tab-based interface with sticky bottom bar, drawer modal, and touch-optimized layout
+- **Loadout Sharing** - URL-encoded share links (`/loadout?items=...`) with no account required
+- **Loadout Persistence** - localStorage auto-save with URL > localStorage > empty hydration priority
+- **Product Spec Badges** - Category-specific specs (weight, sensor, polling rate, panel type, switch type, etc.) on product list items
+- **RTINGS Score Sorting** - Sort products by RTINGS usage scores (FPS, MMO, Gaming, Office, Editing) per category
+- **Retailer Links** - Per-product popover with links to Amazon, Best Buy, B&H Photo, Micro Center, and more
+- **Sound Effects** - Optional Web Audio API synthesized sounds for loadout interactions
+- **Landing Page V2** - Complete visual redesign with tech-forward terminal aesthetic, scroll-triggered animations, and curated loadout preview in hero
+- **Section Navigation** - Navbar links smooth-scroll to page sections; cross-page hash routing support
+- **Logo Scroll-to-Top** - Logo click smooth-scrolls to hero on landing page, navigates home from other pages
+
+### February 2026
 - **API Layer** - Cloudflare Pages Functions with paginated product listing, search, and smart filtering endpoints
 - **Web Worker Scoring** - Scoring engine moved off the main thread for responsive UI during heavy computation
 - **Pre-Filtering System** - Eliminates obvious mismatches before scoring (wireless/wired, handedness, mic, connectivity, resolution, size)
@@ -418,7 +491,7 @@ The `public/_redirects` file handles SPA routing:
 - **Mobile UI Improvements** - Better Hero section, mobile text scaling, improved scrolling images, quiz UI polish
 - **Bug Fixes** - Fixed animations stopping on quiz exit, rate limit matching, search categories, button clipping
 
-### February 2026 (earlier)
+### February 2026 (early)
 - **Keyboard Recommendation System** - Full quiz with 279 products, 10 scoring categories, magnetic/mechanical/optical switch support
 - **Monitor Recommendation System** - Full quiz with 378 products, RTINGS data integration, 11 scoring categories
 - **Massive Database Expansion** - From 32 products to 1,040+ products across all categories
@@ -468,6 +541,10 @@ Test coverage includes:
 ## Roadmap
 
 ### Completed
+- [x] Loadout builder with CS:GO-style radial buy menu
+- [x] Curated loadouts (4 pre-built setups)
+- [x] Loadout URL sharing and localStorage persistence
+- [x] Landing page V2 redesign with scroll animations
 - [x] Keyboard recommendations (279 products)
 - [x] Monitor recommendations (378 products, RTINGS integration)
 - [x] Expanded product databases (1,040+ total products)

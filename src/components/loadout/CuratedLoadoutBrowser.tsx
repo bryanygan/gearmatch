@@ -47,10 +47,7 @@ export default function CuratedLoadoutBrowser({
 
     const onWheel = (e: WheelEvent) => {
       if (e.deltaY === 0) return;
-      // Only capture scroll when carousel can move in that direction
-      const canScroll =
-        e.deltaY > 0 ? carouselApi.canScrollNext() : carouselApi.canScrollPrev();
-      if (!canScroll) return; // let page scroll normally
+      // Always prevent page scroll while mouse is over the carousel
       e.preventDefault();
       const now = Date.now();
       if (now - lastScrollTime < SCROLL_THROTTLE) return;

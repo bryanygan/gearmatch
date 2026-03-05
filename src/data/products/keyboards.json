@@ -25,6 +25,12 @@
       "source_name": "RTINGS",
       "last_verified": "2026-02"
     },
+    "rtings_scores": {
+      "gaming": 9,
+      "office": 7.8,
+      "programming": 8,
+      "raw_performance": 9.3
+    },
     "core_attributes": {
       "category_subtype": "keyboard",
       "price_tier": "midrange",
@@ -98,12 +104,6 @@
         "casual_gaming"
       ],
       "keyboard_value_pick": true
-    },
-    "rtings_scores": {
-      "gaming": 9.0,
-      "office": 7.8,
-      "programming": 8.0,
-      "raw_performance": 9.3
     }
   },
   {
@@ -130,6 +130,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "gaming": 9.2,
+      "office": 7.1,
+      "programming": 7.6,
+      "raw_performance": 9.5
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -201,12 +207,6 @@
         "casual_gaming"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 9.2,
-      "office": 7.1,
-      "programming": 7.6,
-      "raw_performance": 9.5
     }
   },
   {
@@ -232,6 +232,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "gaming": 8.9,
+      "office": 7.3,
+      "programming": 7.7,
+      "raw_performance": 9.5
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -302,12 +308,6 @@
         "productivity"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.9,
-      "office": 7.3,
-      "programming": 7.7,
-      "raw_performance": 9.5
     }
   },
   {
@@ -344,6 +344,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 7.2,
+      "office": 8.1,
+      "programming": 8.1,
+      "raw_performance": 6.5
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -409,12 +415,6 @@
         "portable"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 7.2,
-      "office": 8.1,
-      "programming": 8.1,
-      "raw_performance": 6.5
     }
   },
   {
@@ -444,6 +444,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 8.4,
+      "office": 8.1,
+      "programming": 8.1,
+      "raw_performance": 8.6
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -519,12 +525,6 @@
         "productivity"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.4,
-      "office": 8.1,
-      "programming": 8.1,
-      "raw_performance": 8.6
     }
   },
   {
@@ -547,6 +547,11 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "gaming": 6,
+      "office": 7.6,
+      "programming": 6.5
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -598,11 +603,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 6.0,
-      "office": 7.6,
-      "programming": 6.5
     }
   },
   {
@@ -623,6 +623,11 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "gaming": 6.3,
+      "office": 7.1,
+      "programming": 6
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -673,11 +678,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 6.3,
-      "office": 7.1,
-      "programming": 6.0
     }
   },
   {
@@ -700,6 +700,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "gaming": 9.2,
+      "office": 7.1,
+      "programming": 7.6,
+      "raw_performance": 9.5
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -755,12 +761,6 @@
         "office"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 9.2,
-      "office": 7.1,
-      "programming": 7.6,
-      "raw_performance": 9.5
     }
   },
   {
@@ -784,6 +784,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "gaming": 8.8,
+      "office": 7,
+      "programming": 7.5,
+      "raw_performance": 9
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -843,12 +849,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.8,
-      "office": 7.0,
-      "programming": 7.5,
-      "raw_performance": 9.0
     }
   },
   {
@@ -873,6 +873,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "gaming": 8.5,
+      "office": 7.2,
+      "programming": 7.4,
+      "raw_performance": 8.9
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -935,12 +941,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.5,
-      "office": 7.2,
-      "programming": 7.4,
-      "raw_performance": 8.9
     }
   },
   {
@@ -968,6 +968,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 8.6,
+      "office": 6.7,
+      "programming": 7.2,
+      "raw_performance": 8.8
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -1028,12 +1034,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.6,
-      "office": 6.7,
-      "programming": 7.2,
-      "raw_performance": 8.8
     }
   },
   {
@@ -1058,6 +1058,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "gaming": 9,
+      "office": 6.8,
+      "programming": 7.4,
+      "raw_performance": 9.4
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -1117,12 +1123,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 9.0,
-      "office": 6.8,
-      "programming": 7.4,
-      "raw_performance": 9.4
     }
   },
   {
@@ -1146,6 +1146,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 8.9,
+      "office": 7.3,
+      "programming": 7.5,
+      "raw_performance": 9.3
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -1206,12 +1212,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.9,
-      "office": 7.3,
-      "programming": 7.5,
-      "raw_performance": 9.3
     }
   },
   {
@@ -1235,6 +1235,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 9,
+      "office": 7.5,
+      "programming": 7.6,
+      "raw_performance": 9.5
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -1295,12 +1301,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 9.0,
-      "office": 7.5,
-      "programming": 7.6,
-      "raw_performance": 9.5
     }
   },
   {
@@ -1327,6 +1327,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 8.3,
+      "office": 7.7,
+      "programming": 7.8,
+      "raw_performance": 8.3
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -1390,12 +1396,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.3,
-      "office": 7.7,
-      "programming": 7.8,
-      "raw_performance": 8.3
     }
   },
   {
@@ -1421,6 +1421,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 8.3,
+      "office": 8.1,
+      "programming": 8,
+      "raw_performance": 8.4
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -1487,12 +1493,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.3,
-      "office": 8.1,
-      "programming": 8.0,
-      "raw_performance": 8.4
     }
   },
   {
@@ -1519,6 +1519,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 7.8,
+      "office": 7.7,
+      "programming": 7.8,
+      "raw_performance": 7.5
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -1580,12 +1586,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 7.8,
-      "office": 7.7,
-      "programming": 7.8,
-      "raw_performance": 7.5
     }
   },
   {
@@ -1610,6 +1610,11 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 6.8,
+      "office": 6.5,
+      "programming": 6.2
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -1664,11 +1669,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 6.8,
-      "office": 6.5,
-      "programming": 6.2
     }
   },
   {
@@ -1690,6 +1690,11 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "gaming": 8.9,
+      "office": 6.9,
+      "programming": 7.3
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -1745,11 +1750,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.9,
-      "office": 6.9,
-      "programming": 7.3
     }
   },
   {
@@ -1769,6 +1769,11 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "gaming": 7.7,
+      "office": 7.6,
+      "programming": 7.1
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -1820,11 +1825,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 7.7,
-      "office": 7.6,
-      "programming": 7.1
     }
   },
   {
@@ -1846,6 +1846,11 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "gaming": 9,
+      "office": 7.1,
+      "programming": 7.3
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -1901,11 +1906,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 9.0,
-      "office": 7.1,
-      "programming": 7.3
     }
   },
   {
@@ -1925,6 +1925,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "gaming": 8.3,
+      "office": 7,
+      "programming": 7.7,
+      "raw_performance": 7.9
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -1981,12 +1987,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.3,
-      "office": 7.0,
-      "programming": 7.7,
-      "raw_performance": 7.9
     }
   },
   {
@@ -2008,6 +2008,11 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 9.1,
+      "office": 7.6,
+      "programming": 7.9
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -2061,11 +2066,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 9.1,
-      "office": 7.6,
-      "programming": 7.9
     }
   },
   {
@@ -2094,6 +2094,11 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 9.2,
+      "office": 7.8,
+      "programming": 8
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -2148,11 +2153,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 9.2,
-      "office": 7.8,
-      "programming": 8.0
     }
   },
   {
@@ -2174,6 +2174,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 8.3,
+      "office": 6.9,
+      "programming": 7.3,
+      "raw_performance": 8.3
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -2231,12 +2237,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.3,
-      "office": 6.9,
-      "programming": 7.3,
-      "raw_performance": 8.3
     }
   },
   {
@@ -2256,6 +2256,11 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "gaming": 8.3,
+      "office": 8.1,
+      "programming": 7.8
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -2309,11 +2314,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.3,
-      "office": 8.1,
-      "programming": 7.8
     }
   },
   {
@@ -2343,6 +2343,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 7.1,
+      "office": 7.9,
+      "programming": 8.1,
+      "raw_performance": 6.4
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -2399,12 +2405,6 @@
         "office"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 7.1,
-      "office": 7.9,
-      "programming": 8.1,
-      "raw_performance": 6.4
     }
   },
   {
@@ -2426,6 +2426,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "gaming": 8.1,
+      "office": 8,
+      "programming": 8.1,
+      "raw_performance": 7.8
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -2486,12 +2492,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.1,
-      "office": 8.0,
-      "programming": 8.1,
-      "raw_performance": 7.8
     }
   },
   {
@@ -2516,6 +2516,11 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 7.2,
+      "office": 7.2,
+      "programming": 6.8
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -2567,11 +2572,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 7.2,
-      "office": 7.2,
-      "programming": 6.8
     }
   },
   {
@@ -2598,6 +2598,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 7.7,
+      "office": 6.6,
+      "programming": 7,
+      "raw_performance": 7.6
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -2652,12 +2658,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 7.7,
-      "office": 6.6,
-      "programming": 7.0,
-      "raw_performance": 7.6
     }
   },
   {
@@ -2687,6 +2687,11 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 8.7,
+      "office": 6.8,
+      "programming": 7.4
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -2743,11 +2748,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.7,
-      "office": 6.8,
-      "programming": 7.4
     }
   },
   {
@@ -2767,6 +2767,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 8.3,
+      "office": 6.9,
+      "programming": 7.6,
+      "raw_performance": 8
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -2823,12 +2829,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.3,
-      "office": 6.9,
-      "programming": 7.6,
-      "raw_performance": 8.0
     }
   },
   {
@@ -2851,6 +2851,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 8.7,
+      "office": 7,
+      "programming": 7.6,
+      "raw_performance": 8.7
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -2907,12 +2913,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.7,
-      "office": 7.0,
-      "programming": 7.6,
-      "raw_performance": 8.7
     }
   },
   {
@@ -2940,6 +2940,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 8.7,
+      "office": 7,
+      "programming": 7.5,
+      "raw_performance": 8.8
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -2997,12 +3003,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.7,
-      "office": 7.0,
-      "programming": 7.5,
-      "raw_performance": 8.8
     }
   },
   {
@@ -3025,6 +3025,11 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 9.2,
+      "office": 7.6,
+      "programming": 7.9
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -3087,11 +3092,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 9.2,
-      "office": 7.6,
-      "programming": 7.9
     }
   },
   {
@@ -3194,6 +3194,12 @@
       "source_name": "RTINGS",
       "last_verified": "2026-02"
     },
+    "rtings_scores": {
+      "gaming": 8.6,
+      "office": 6.9,
+      "programming": 7.5,
+      "raw_performance": 8.7
+    },
     "core_attributes": {
       "category_subtype": "keyboard",
       "price_tier": "premium",
@@ -3251,12 +3257,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.6,
-      "office": 6.9,
-      "programming": 7.5,
-      "raw_performance": 8.7
     }
   },
   {
@@ -3278,6 +3278,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 8.6,
+      "office": 7,
+      "programming": 7.5,
+      "raw_performance": 8.7
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -3335,12 +3341,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.6,
-      "office": 7.0,
-      "programming": 7.5,
-      "raw_performance": 8.7
     }
   },
   {
@@ -3362,6 +3362,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "gaming": 5.8,
+      "office": 8,
+      "programming": 7.5,
+      "raw_performance": 6.4
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -3420,12 +3426,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 5.8,
-      "office": 8.0,
-      "programming": 7.5,
-      "raw_performance": 6.4
     }
   },
   {
@@ -3447,6 +3447,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 6.6,
+      "office": 8,
+      "programming": 7.5,
+      "raw_performance": 7.8
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -3505,12 +3511,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 6.6,
-      "office": 8.0,
-      "programming": 7.5,
-      "raw_performance": 7.8
     }
   },
   {
@@ -3534,6 +3534,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 8.8,
+      "office": 6.8,
+      "programming": 7.3,
+      "raw_performance": 9.3
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -3593,12 +3599,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.8,
-      "office": 6.8,
-      "programming": 7.3,
-      "raw_performance": 9.3
     }
   },
   {
@@ -3620,6 +3620,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "gaming": 8.6,
+      "office": 7.3,
+      "programming": 7.8,
+      "raw_performance": 8.4
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -3676,12 +3682,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.6,
-      "office": 7.3,
-      "programming": 7.8,
-      "raw_performance": 8.4
     }
   },
   {
@@ -3703,6 +3703,11 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "gaming": 8.8,
+      "office": 7.8,
+      "programming": 7.8
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -3754,11 +3759,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.8,
-      "office": 7.8,
-      "programming": 7.8
     }
   },
   {
@@ -3780,6 +3780,11 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "gaming": 9.3,
+      "office": 8.1,
+      "programming": 8
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -3833,11 +3838,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 9.3,
-      "office": 8.1,
-      "programming": 8.0
     }
   },
   {
@@ -3860,6 +3860,11 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 9,
+      "office": 6.9,
+      "programming": 7.8
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -3916,11 +3921,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 9.0,
-      "office": 6.9,
-      "programming": 7.8
     }
   },
   {
@@ -3943,6 +3943,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 8.5,
+      "office": 7.2,
+      "programming": 7.8,
+      "raw_performance": 8.7
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -4004,12 +4010,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.5,
-      "office": 7.2,
-      "programming": 7.8,
-      "raw_performance": 8.7
     }
   },
   {
@@ -4036,6 +4036,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 8.7,
+      "office": 6.7,
+      "programming": 7.3,
+      "raw_performance": 8.9
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -4091,12 +4097,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.7,
-      "office": 6.7,
-      "programming": 7.3,
-      "raw_performance": 8.9
     }
   },
   {
@@ -4126,6 +4126,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 9,
+      "office": 7.1,
+      "programming": 7.6,
+      "raw_performance": 9.3
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -4182,12 +4188,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 9.0,
-      "office": 7.1,
-      "programming": 7.6,
-      "raw_performance": 9.3
     }
   },
   {
@@ -4216,6 +4216,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 8.8,
+      "office": 6.4,
+      "programming": 7.4,
+      "raw_performance": 9.1
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -4272,12 +4278,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.8,
-      "office": 6.4,
-      "programming": 7.4,
-      "raw_performance": 9.1
     }
   },
   {
@@ -4306,6 +4306,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 8.8,
+      "office": 7,
+      "programming": 7.5,
+      "raw_performance": 9.1
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -4361,12 +4367,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.8,
-      "office": 7.0,
-      "programming": 7.5,
-      "raw_performance": 9.1
     }
   },
   {
@@ -4388,6 +4388,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 8.5,
+      "office": 6.4,
+      "programming": 7.3,
+      "raw_performance": 8.6
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -4443,12 +4449,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.5,
-      "office": 6.4,
-      "programming": 7.3,
-      "raw_performance": 8.6
     }
   },
   {
@@ -4468,6 +4468,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "gaming": 8,
+      "office": 6.8,
+      "programming": 7,
+      "raw_performance": 8.3
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -4521,12 +4527,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.0,
-      "office": 6.8,
-      "programming": 7.0,
-      "raw_performance": 8.3
     }
   },
   {
@@ -4546,6 +4546,11 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "gaming": 7.1,
+      "office": 7.6,
+      "programming": 7.2
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -4598,11 +4603,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 7.1,
-      "office": 7.6,
-      "programming": 7.2
     }
   },
   {
@@ -4625,6 +4625,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 7,
+      "office": 6.7,
+      "programming": 7.2,
+      "raw_performance": 6.4
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -4677,12 +4683,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 7.0,
-      "office": 6.7,
-      "programming": 7.2,
-      "raw_performance": 6.4
     }
   },
   {
@@ -4702,6 +4702,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "gaming": 2.6,
+      "office": 5.8,
+      "programming": 5.2,
+      "raw_performance": 0
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -4750,12 +4756,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 2.6,
-      "office": 5.8,
-      "programming": 5.2,
-      "raw_performance": 0.0
     }
   },
   {
@@ -4777,6 +4777,11 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 7.9,
+      "office": 7.9,
+      "programming": 7.7
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -4830,11 +4835,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 7.9,
-      "office": 7.9,
-      "programming": 7.7
     }
   },
   {
@@ -4856,6 +4856,11 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "gaming": 8.4,
+      "office": 7.5,
+      "programming": 7.5
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -4912,11 +4917,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.4,
-      "office": 7.5,
-      "programming": 7.5
     }
   },
   {
@@ -4936,6 +4936,11 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "gaming": 7.9,
+      "office": 6.7,
+      "programming": 6.7
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -4988,11 +4993,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 7.9,
-      "office": 6.7,
-      "programming": 6.7
     }
   },
   {
@@ -5012,6 +5012,11 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 7.9,
+      "office": 6.5,
+      "programming": 6.4
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -5067,11 +5072,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 7.9,
-      "office": 6.5,
-      "programming": 6.4
     }
   },
   {
@@ -5095,6 +5095,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 8.6,
+      "office": 7.6,
+      "programming": 7.8,
+      "raw_performance": 8.7
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -5156,12 +5162,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.6,
-      "office": 7.6,
-      "programming": 7.8,
-      "raw_performance": 8.7
     }
   },
   {
@@ -5188,6 +5188,11 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 8.8,
+      "office": 7.1,
+      "programming": 7.2
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -5241,11 +5246,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.8,
-      "office": 7.1,
-      "programming": 7.2
     }
   },
   {
@@ -5267,6 +5267,11 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "gaming": 9,
+      "office": 7.6,
+      "programming": 7.8
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -5319,11 +5324,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 9.0,
-      "office": 7.6,
-      "programming": 7.8
     }
   },
   {
@@ -5346,6 +5346,11 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 7.8,
+      "office": 7.6,
+      "programming": 7.4
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -5396,11 +5401,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 7.8,
-      "office": 7.6,
-      "programming": 7.4
     }
   },
   {
@@ -5430,6 +5430,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 5.3,
+      "office": 8.1,
+      "programming": 7.6,
+      "raw_performance": 5.3
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -5486,12 +5492,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 5.3,
-      "office": 8.1,
-      "programming": 7.6,
-      "raw_performance": 5.3
     }
   },
   {
@@ -5513,6 +5513,11 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "gaming": 6.6,
+      "office": 8.5,
+      "programming": 6.6
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -5565,11 +5570,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 6.6,
-      "office": 8.5,
-      "programming": 6.6
     }
   },
   {
@@ -5591,6 +5591,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "gaming": 8.2,
+      "office": 7,
+      "programming": 7.4,
+      "raw_performance": 8.1
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -5649,12 +5655,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.2,
-      "office": 7.0,
-      "programming": 7.4,
-      "raw_performance": 8.1
     }
   },
   {
@@ -5676,6 +5676,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "gaming": 7.5,
+      "office": 7.4,
+      "programming": 7.5,
+      "raw_performance": 8.9
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -5729,12 +5735,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 7.5,
-      "office": 7.4,
-      "programming": 7.5,
-      "raw_performance": 8.9
     }
   },
   {
@@ -5758,6 +5758,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "gaming": 8.7,
+      "office": 7,
+      "programming": 7.4,
+      "raw_performance": 9
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -5818,12 +5824,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.7,
-      "office": 7.0,
-      "programming": 7.4,
-      "raw_performance": 9.0
     }
   },
   {
@@ -5847,6 +5847,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "gaming": 9,
+      "office": 7.3,
+      "programming": 7.8,
+      "raw_performance": 9.1
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -5907,12 +5913,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 9.0,
-      "office": 7.3,
-      "programming": 7.8,
-      "raw_performance": 9.1
     }
   },
   {
@@ -5935,6 +5935,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "gaming": 8,
+      "office": 7.8,
+      "programming": 7.8,
+      "raw_performance": 7.9
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -5996,12 +6002,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.0,
-      "office": 7.8,
-      "programming": 7.8,
-      "raw_performance": 7.9
     }
   },
   {
@@ -6024,6 +6024,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "gaming": 8,
+      "office": 7.8,
+      "programming": 7.7,
+      "raw_performance": 8.3
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -6085,12 +6091,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.0,
-      "office": 7.8,
-      "programming": 7.7,
-      "raw_performance": 8.3
     }
   },
   {
@@ -6110,6 +6110,11 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 6.9,
+      "office": 7.7,
+      "programming": 7.3
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -6163,11 +6168,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 6.9,
-      "office": 7.7,
-      "programming": 7.3
     }
   },
   {
@@ -6191,6 +6191,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "gaming": 8.5,
+      "office": 8.3,
+      "programming": 8.2,
+      "raw_performance": 8.7
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -6255,12 +6261,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.5,
-      "office": 8.3,
-      "programming": 8.2,
-      "raw_performance": 8.7
     }
   },
   {
@@ -6285,6 +6285,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 5.2,
+      "office": 6.7,
+      "programming": 6.6,
+      "raw_performance": 5.4
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -6337,12 +6343,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 5.2,
-      "office": 6.7,
-      "programming": 6.6,
-      "raw_performance": 5.4
     }
   },
   {
@@ -6365,6 +6365,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "gaming": 8,
+      "office": 8.4,
+      "programming": 8.6,
+      "raw_performance": 8.3
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -6427,12 +6433,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.0,
-      "office": 8.4,
-      "programming": 8.6,
-      "raw_performance": 8.3
     }
   },
   {
@@ -6455,6 +6455,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "gaming": 7.8,
+      "office": 8,
+      "programming": 7.9,
+      "raw_performance": 8.5
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -6513,12 +6519,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 7.8,
-      "office": 8.0,
-      "programming": 7.9,
-      "raw_performance": 8.5
     }
   },
   {
@@ -6538,6 +6538,11 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 4.9,
+      "office": 6.8,
+      "programming": 5.4
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -6588,11 +6593,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 4.9,
-      "office": 6.8,
-      "programming": 5.4
     }
   },
   {
@@ -6612,6 +6612,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 8,
+      "office": 7.5,
+      "programming": 7.9,
+      "raw_performance": 7.5
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -6668,12 +6674,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.0,
-      "office": 7.5,
-      "programming": 7.9,
-      "raw_performance": 7.5
     }
   },
   {
@@ -6698,6 +6698,11 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 7.4,
+      "office": 7.8,
+      "programming": 6.7
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -6750,11 +6755,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 7.4,
-      "office": 7.8,
-      "programming": 6.7
     }
   },
   {
@@ -6777,6 +6777,11 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 8.6,
+      "office": 6.9,
+      "programming": 7.2
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -6834,11 +6839,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.6,
-      "office": 6.9,
-      "programming": 7.2
     }
   },
   {
@@ -6865,6 +6865,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 8.3,
+      "office": 6.5,
+      "programming": 7.3,
+      "raw_performance": 8.3
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -6919,12 +6925,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.3,
-      "office": 6.5,
-      "programming": 7.3,
-      "raw_performance": 8.3
     }
   },
   {
@@ -6947,6 +6947,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "gaming": 8.5,
+      "office": 6.9,
+      "programming": 7,
+      "raw_performance": 8.8
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -7007,12 +7013,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.5,
-      "office": 6.9,
-      "programming": 7.0,
-      "raw_performance": 8.8
     }
   },
   {
@@ -7041,6 +7041,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 8.4,
+      "office": 6.6,
+      "programming": 7.1,
+      "raw_performance": 8.5
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -7097,12 +7103,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.4,
-      "office": 6.6,
-      "programming": 7.1,
-      "raw_performance": 8.5
     }
   },
   {
@@ -7126,6 +7126,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "gaming": 8.5,
+      "office": 6.6,
+      "programming": 7.2,
+      "raw_performance": 8.6
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -7184,12 +7190,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.5,
-      "office": 6.6,
-      "programming": 7.2,
-      "raw_performance": 8.6
     }
   },
   {
@@ -7218,6 +7218,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 8.3,
+      "office": 7.2,
+      "programming": 7.1,
+      "raw_performance": 8.4
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -7280,12 +7286,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.3,
-      "office": 7.2,
-      "programming": 7.1,
-      "raw_performance": 8.4
     }
   },
   {
@@ -7305,6 +7305,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "gaming": 7.8,
+      "office": 5.8,
+      "programming": 6.4,
+      "raw_performance": 8.2
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -7359,12 +7365,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 7.8,
-      "office": 5.8,
-      "programming": 6.4,
-      "raw_performance": 8.2
     }
   },
   {
@@ -7390,6 +7390,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 8.1,
+      "office": 6.4,
+      "programming": 7.2,
+      "raw_performance": 8.4
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -7442,12 +7448,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.1,
-      "office": 6.4,
-      "programming": 7.2,
-      "raw_performance": 8.4
     }
   },
   {
@@ -7469,6 +7469,11 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 8.9,
+      "office": 7.4,
+      "programming": 7.3
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -7520,11 +7525,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.9,
-      "office": 7.4,
-      "programming": 7.3
     }
   },
   {
@@ -7546,6 +7546,11 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "gaming": 8.6,
+      "office": 6.9,
+      "programming": 7.4
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -7600,11 +7605,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.6,
-      "office": 6.9,
-      "programming": 7.4
     }
   },
   {
@@ -7626,6 +7626,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 8.5,
+      "office": 6.7,
+      "programming": 7.2,
+      "raw_performance": 8.7
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -7680,12 +7686,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.5,
-      "office": 6.7,
-      "programming": 7.2,
-      "raw_performance": 8.7
     }
   },
   {
@@ -7717,6 +7717,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 8.6,
+      "office": 7.8,
+      "programming": 7.6,
+      "raw_performance": 8.6
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -7778,12 +7784,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.6,
-      "office": 7.8,
-      "programming": 7.6,
-      "raw_performance": 8.6
     }
   },
   {
@@ -7813,6 +7813,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 8.7,
+      "office": 7.2,
+      "programming": 7.6,
+      "raw_performance": 8.9
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -7871,12 +7877,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.7,
-      "office": 7.2,
-      "programming": 7.6,
-      "raw_performance": 8.9
     }
   },
   {
@@ -7898,6 +7898,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 6.5,
+      "office": 7.5,
+      "programming": 7.1,
+      "raw_performance": 7.9
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -7955,12 +7961,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 6.5,
-      "office": 7.5,
-      "programming": 7.1,
-      "raw_performance": 7.9
     }
   },
   {
@@ -7989,6 +7989,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 8.5,
+      "office": 7.5,
+      "programming": 7.5,
+      "raw_performance": 8.4
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -8048,12 +8054,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.5,
-      "office": 7.5,
-      "programming": 7.5,
-      "raw_performance": 8.4
     }
   },
   {
@@ -8075,6 +8075,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 8.7,
+      "office": 6.6,
+      "programming": 7.3,
+      "raw_performance": 8.8
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -8131,12 +8137,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.7,
-      "office": 6.6,
-      "programming": 7.3,
-      "raw_performance": 8.8
     }
   },
   {
@@ -8158,6 +8158,11 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "gaming": 8.9,
+      "office": 6.6,
+      "programming": 6.8
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -8212,11 +8217,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.9,
-      "office": 6.6,
-      "programming": 6.8
     }
   },
   {
@@ -8239,6 +8239,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 8.6,
+      "office": 7.3,
+      "programming": 7.3,
+      "raw_performance": 8.7
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -8299,12 +8305,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.6,
-      "office": 7.3,
-      "programming": 7.3,
-      "raw_performance": 8.7
     }
   },
   {
@@ -8327,6 +8327,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 8.6,
+      "office": 7.4,
+      "programming": 7.5,
+      "raw_performance": 8.6
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -8388,12 +8394,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.6,
-      "office": 7.4,
-      "programming": 7.5,
-      "raw_performance": 8.6
     }
   },
   {
@@ -8415,6 +8415,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 8.7,
+      "office": 6.7,
+      "programming": 7.5,
+      "raw_performance": 8.7
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -8471,12 +8477,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.7,
-      "office": 6.7,
-      "programming": 7.5,
-      "raw_performance": 8.7
     }
   },
   {
@@ -8499,6 +8499,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "gaming": 8.3,
+      "office": 8.3,
+      "programming": 8.1,
+      "raw_performance": 8.2
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -8562,12 +8568,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.3,
-      "office": 8.3,
-      "programming": 8.1,
-      "raw_performance": 8.2
     }
   },
   {
@@ -8589,6 +8589,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "gaming": 8,
+      "office": 8.2,
+      "programming": 7.9,
+      "raw_performance": 8.1
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -8647,12 +8653,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.0,
-      "office": 8.2,
-      "programming": 7.9,
-      "raw_performance": 8.1
     }
   },
   {
@@ -8677,6 +8677,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 8.1,
+      "office": 7.2,
+      "programming": 7.7,
+      "raw_performance": 7.6
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -8734,12 +8740,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.1,
-      "office": 7.2,
-      "programming": 7.7,
-      "raw_performance": 7.6
     }
   },
   {
@@ -8767,6 +8767,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 8.6,
+      "office": 7,
+      "programming": 7.4,
+      "raw_performance": 8.9
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -8831,12 +8837,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.6,
-      "office": 7.0,
-      "programming": 7.4,
-      "raw_performance": 8.9
     }
   },
   {
@@ -8858,6 +8858,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 8.3,
+      "office": 5.8,
+      "programming": 6.6,
+      "raw_performance": 8.5
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -8915,12 +8921,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.3,
-      "office": 5.8,
-      "programming": 6.6,
-      "raw_performance": 8.5
     }
   },
   {
@@ -8945,6 +8945,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 8.3,
+      "office": 7.2,
+      "programming": 7.6,
+      "raw_performance": 8.2
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -9002,12 +9008,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.3,
-      "office": 7.2,
-      "programming": 7.6,
-      "raw_performance": 8.2
     }
   },
   {
@@ -9029,6 +9029,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 7.6,
+      "office": 7.1,
+      "programming": 7.6,
+      "raw_performance": 6.9
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -9085,12 +9091,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 7.6,
-      "office": 7.1,
-      "programming": 7.6,
-      "raw_performance": 6.9
     }
   },
   {
@@ -9110,6 +9110,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "gaming": 8,
+      "office": 7.3,
+      "programming": 7.2,
+      "raw_performance": 8
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -9169,12 +9175,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.0,
-      "office": 7.3,
-      "programming": 7.2,
-      "raw_performance": 8.0
     }
   },
   {
@@ -9198,6 +9198,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 8.8,
+      "office": 7.2,
+      "programming": 7.5,
+      "raw_performance": 9.2
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -9258,12 +9264,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.8,
-      "office": 7.2,
-      "programming": 7.5,
-      "raw_performance": 9.2
     }
   },
   {
@@ -9286,6 +9286,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "gaming": 7.9,
+      "office": 8.1,
+      "programming": 8,
+      "raw_performance": 7.7
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -9347,12 +9353,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 7.9,
-      "office": 8.1,
-      "programming": 8.0,
-      "raw_performance": 7.7
     }
   },
   {
@@ -9375,6 +9375,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 8.3,
+      "office": 8,
+      "programming": 8,
+      "raw_performance": 8.4
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -9438,12 +9444,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.3,
-      "office": 8.0,
-      "programming": 8.0,
-      "raw_performance": 8.4
     }
   },
   {
@@ -9467,6 +9467,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "gaming": 9.1,
+      "office": 7.1,
+      "programming": 7.7,
+      "raw_performance": 9.3
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -9527,12 +9533,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 9.1,
-      "office": 7.1,
-      "programming": 7.7,
-      "raw_performance": 9.3
     }
   },
   {
@@ -9554,6 +9554,11 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "gaming": 9.1,
+      "office": 6.6,
+      "programming": 7
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -9611,11 +9616,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 9.1,
-      "office": 6.6,
-      "programming": 7.0
     }
   },
   {
@@ -9637,6 +9637,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "gaming": 8.6,
+      "office": 7,
+      "programming": 7.6,
+      "raw_performance": 8.6
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -9695,12 +9701,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.6,
-      "office": 7.0,
-      "programming": 7.6,
-      "raw_performance": 8.6
     }
   },
   {
@@ -9729,6 +9729,11 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 9.5,
+      "office": 7.6,
+      "programming": 8
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -9783,11 +9788,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 9.5,
-      "office": 7.6,
-      "programming": 8.0
     }
   },
   {
@@ -9809,6 +9809,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 8.6,
+      "office": 6.2,
+      "programming": 7.1,
+      "raw_performance": 8.7
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -9866,12 +9872,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.6,
-      "office": 6.2,
-      "programming": 7.1,
-      "raw_performance": 8.7
     }
   },
   {
@@ -9893,6 +9893,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "gaming": 8.7,
+      "office": 7.2,
+      "programming": 7.8,
+      "raw_performance": 8.8
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -9952,12 +9958,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.7,
-      "office": 7.2,
-      "programming": 7.8,
-      "raw_performance": 8.8
     }
   },
   {
@@ -9979,6 +9979,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 9.1,
+      "office": 7.4,
+      "programming": 7.8,
+      "raw_performance": 9.4
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -10036,12 +10042,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 9.1,
-      "office": 7.4,
-      "programming": 7.8,
-      "raw_performance": 9.4
     }
   },
   {
@@ -10068,6 +10068,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 9.1,
+      "office": 6.7,
+      "programming": 7.4,
+      "raw_performance": 9.5
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -10123,12 +10129,6 @@
         "office"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 9.1,
-      "office": 6.7,
-      "programming": 7.4,
-      "raw_performance": 9.5
     }
   },
   {
@@ -10153,6 +10153,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 8.8,
+      "office": 6.7,
+      "programming": 7.4,
+      "raw_performance": 9
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -10211,12 +10217,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.8,
-      "office": 6.7,
-      "programming": 7.4,
-      "raw_performance": 9.0
     }
   },
   {
@@ -10238,6 +10238,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "gaming": 8.5,
+      "office": 6.7,
+      "programming": 7.5,
+      "raw_performance": 8.4
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -10294,12 +10300,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.5,
-      "office": 6.7,
-      "programming": 7.5,
-      "raw_performance": 8.4
     }
   },
   {
@@ -10322,6 +10322,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "gaming": 9,
+      "office": 7.1,
+      "programming": 7.5,
+      "raw_performance": 9.3
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -10382,12 +10388,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 9.0,
-      "office": 7.1,
-      "programming": 7.5,
-      "raw_performance": 9.3
     }
   },
   {
@@ -10414,6 +10414,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 7.9,
+      "office": 7.7,
+      "programming": 7.7,
+      "raw_performance": 8
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -10472,12 +10478,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 7.9,
-      "office": 7.7,
-      "programming": 7.7,
-      "raw_performance": 8.0
     }
   },
   {
@@ -10502,6 +10502,11 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 8,
+      "office": 7.3,
+      "programming": 7.4
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -10554,11 +10559,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.0,
-      "office": 7.3,
-      "programming": 7.4
     }
   },
   {
@@ -10583,6 +10583,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 7,
+      "office": 7.4,
+      "programming": 7.7,
+      "raw_performance": 6
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -10640,12 +10646,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 7.0,
-      "office": 7.4,
-      "programming": 7.7,
-      "raw_performance": 6.0
     }
   },
   {
@@ -10668,6 +10668,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 8.9,
+      "office": 8.2,
+      "programming": 8.3,
+      "raw_performance": 9.2
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -10729,12 +10735,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.9,
-      "office": 8.2,
-      "programming": 8.3,
-      "raw_performance": 9.2
     }
   },
   {
@@ -10756,6 +10756,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 9,
+      "office": 7.4,
+      "programming": 8,
+      "raw_performance": 9.1
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -10814,12 +10820,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 9.0,
-      "office": 7.4,
-      "programming": 8.0,
-      "raw_performance": 9.1
     }
   },
   {
@@ -10841,6 +10841,11 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "gaming": 7.5,
+      "office": 7.6,
+      "programming": 7.8
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -10891,11 +10896,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 7.5,
-      "office": 7.6,
-      "programming": 7.8
     }
   },
   {
@@ -10920,6 +10920,11 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 7.5,
+      "office": 7.6,
+      "programming": 7.8
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -10972,11 +10977,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 7.5,
-      "office": 7.6,
-      "programming": 7.8
     }
   },
   {
@@ -11001,6 +11001,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "gaming": 8.5,
+      "office": 8.1,
+      "programming": 8.1,
+      "raw_performance": 8.5
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -11066,12 +11072,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.5,
-      "office": 8.1,
-      "programming": 8.1,
-      "raw_performance": 8.5
     }
   },
   {
@@ -11096,6 +11096,11 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 7.7,
+      "office": 7.6,
+      "programming": 7.8
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -11146,11 +11151,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 7.7,
-      "office": 7.6,
-      "programming": 7.8
     }
   },
   {
@@ -11170,6 +11170,11 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "gaming": 7.6,
+      "office": 7.3,
+      "programming": 6.9
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -11221,11 +11226,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 7.6,
-      "office": 7.3,
-      "programming": 6.9
     }
   },
   {
@@ -11251,6 +11251,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 7.8,
+      "office": 7.3,
+      "programming": 7.5,
+      "raw_performance": 7.6
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -11307,12 +11313,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 7.8,
-      "office": 7.3,
-      "programming": 7.5,
-      "raw_performance": 7.6
     }
   },
   {
@@ -11338,6 +11338,11 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 8,
+      "office": 7.6,
+      "programming": 7.6
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -11388,11 +11393,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.0,
-      "office": 7.6,
-      "programming": 7.6
     }
   },
   {
@@ -11414,6 +11414,11 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "gaming": 4.9,
+      "office": 7.4,
+      "programming": 5.3
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -11465,11 +11470,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 4.9,
-      "office": 7.4,
-      "programming": 5.3
     }
   },
   {
@@ -11491,6 +11491,11 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "gaming": 5.5,
+      "office": 7.2,
+      "programming": 5.5
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -11541,11 +11546,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 5.5,
-      "office": 7.2,
-      "programming": 5.5
     }
   },
   {
@@ -11567,6 +11567,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 5.2,
+      "office": 7.6,
+      "programming": 7.1,
+      "raw_performance": 5.4
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -11620,12 +11626,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 5.2,
-      "office": 7.6,
-      "programming": 7.1,
-      "raw_performance": 5.4
     }
   },
   {
@@ -11651,6 +11651,11 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 7.7,
+      "office": 7.6,
+      "programming": 7.7
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -11703,11 +11708,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 7.7,
-      "office": 7.6,
-      "programming": 7.7
     }
   },
   {
@@ -11736,6 +11736,11 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 6,
+      "office": 7.1,
+      "programming": 6
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -11789,11 +11794,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 6.0,
-      "office": 7.1,
-      "programming": 6.0
     }
   },
   {
@@ -11815,6 +11815,11 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 6.2,
+      "office": 6.5,
+      "programming": 5.7
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -11863,11 +11868,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 6.2,
-      "office": 6.5,
-      "programming": 5.7
     }
   },
   {
@@ -11889,6 +11889,11 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "gaming": 5.6,
+      "office": 7.2,
+      "programming": 5.4
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -11942,11 +11947,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 5.6,
-      "office": 7.2,
-      "programming": 5.4
     }
   },
   {
@@ -11968,6 +11968,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "gaming": 8.4,
+      "office": 8.2,
+      "programming": 8.1,
+      "raw_performance": 8.5
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -12028,12 +12034,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.4,
-      "office": 8.2,
-      "programming": 8.1,
-      "raw_performance": 8.5
     }
   },
   {
@@ -12053,6 +12053,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 8.3,
+      "office": 6.1,
+      "programming": 6.6,
+      "raw_performance": 8.7
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -12108,12 +12114,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.3,
-      "office": 6.1,
-      "programming": 6.6,
-      "raw_performance": 8.7
     }
   },
   {
@@ -12139,6 +12139,11 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 7.4,
+      "office": 7.2,
+      "programming": 6.4
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -12191,11 +12196,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 7.4,
-      "office": 7.2,
-      "programming": 6.4
     }
   },
   {
@@ -12215,6 +12215,11 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 7.4,
+      "office": 6.5,
+      "programming": 6.7
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -12269,11 +12274,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 7.4,
-      "office": 6.5,
-      "programming": 6.7
     }
   },
   {
@@ -12300,6 +12300,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 7.3,
+      "office": 5.8,
+      "programming": 6.9,
+      "raw_performance": 6.5
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -12355,12 +12361,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 7.3,
-      "office": 5.8,
-      "programming": 6.9,
-      "raw_performance": 6.5
     }
   },
   {
@@ -12382,6 +12382,11 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 7.6,
+      "office": 7.2,
+      "programming": 7.4
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -12436,11 +12441,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 7.6,
-      "office": 7.2,
-      "programming": 7.4
     }
   },
   {
@@ -12465,6 +12465,11 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 8.7,
+      "office": 7.3,
+      "programming": 7.4
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -12517,11 +12522,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.7,
-      "office": 7.3,
-      "programming": 7.4
     }
   },
   {
@@ -12543,6 +12543,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 4.7,
+      "office": 6.8,
+      "programming": 6.5,
+      "raw_performance": 4.6
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -12600,12 +12606,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 4.7,
-      "office": 6.8,
-      "programming": 6.5,
-      "raw_performance": 4.6
     }
   },
   {
@@ -12631,6 +12631,11 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 7.6,
+      "office": 7.6,
+      "programming": 7.8
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -12683,11 +12688,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 7.6,
-      "office": 7.6,
-      "programming": 7.8
     }
   },
   {
@@ -12707,6 +12707,11 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 8.3,
+      "office": 7.1,
+      "programming": 7.1
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -12762,11 +12767,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.3,
-      "office": 7.1,
-      "programming": 7.1
     }
   },
   {
@@ -12789,6 +12789,11 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "gaming": 8.5,
+      "office": 7.9,
+      "programming": 7.9
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -12843,11 +12848,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.5,
-      "office": 7.9,
-      "programming": 7.9
     }
   },
   {
@@ -12869,6 +12869,11 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 9.1,
+      "office": 8,
+      "programming": 7.9
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -12922,11 +12927,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 9.1,
-      "office": 8.0,
-      "programming": 7.9
     }
   },
   {
@@ -12956,6 +12956,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 8.2,
+      "office": 7.9,
+      "programming": 7.9,
+      "raw_performance": 8.2
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -13018,12 +13024,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.2,
-      "office": 7.9,
-      "programming": 7.9,
-      "raw_performance": 8.2
     }
   },
   {
@@ -13046,6 +13046,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 8.9,
+      "office": 6.8,
+      "programming": 7.3,
+      "raw_performance": 9.4
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -13102,12 +13108,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.9,
-      "office": 6.8,
-      "programming": 7.3,
-      "raw_performance": 9.4
     }
   },
   {
@@ -13132,6 +13132,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 9,
+      "office": 7,
+      "programming": 7.7,
+      "raw_performance": 9.1
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -13188,12 +13194,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 9.0,
-      "office": 7.0,
-      "programming": 7.7,
-      "raw_performance": 9.1
     }
   },
   {
@@ -13215,6 +13215,11 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 8.5,
+      "office": 7.7,
+      "programming": 7.7
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -13267,11 +13272,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.5,
-      "office": 7.7,
-      "programming": 7.7
     }
   },
   {
@@ -13293,6 +13293,11 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "gaming": 7.9,
+      "office": 7.8,
+      "programming": 7.6
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -13343,11 +13348,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 7.9,
-      "office": 7.8,
-      "programming": 7.6
     }
   },
   {
@@ -13369,6 +13369,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 8.6,
+      "office": 6.4,
+      "programming": 7,
+      "raw_performance": 9
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -13426,12 +13432,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.6,
-      "office": 6.4,
-      "programming": 7.0,
-      "raw_performance": 9.0
     }
   },
   {
@@ -13460,6 +13460,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 8.8,
+      "office": 6.8,
+      "programming": 7.4,
+      "raw_performance": 9.1
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -13519,12 +13525,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.8,
-      "office": 6.8,
-      "programming": 7.4,
-      "raw_performance": 9.1
     }
   },
   {
@@ -13548,6 +13548,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "gaming": 8.8,
+      "office": 7.6,
+      "programming": 7.8,
+      "raw_performance": 9.2
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -13609,12 +13615,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.8,
-      "office": 7.6,
-      "programming": 7.8,
-      "raw_performance": 9.2
     }
   },
   {
@@ -13643,6 +13643,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 8.6,
+      "office": 6.7,
+      "programming": 7.2,
+      "raw_performance": 8.9
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -13703,12 +13709,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.6,
-      "office": 6.7,
-      "programming": 7.2,
-      "raw_performance": 8.9
     }
   },
   {
@@ -13730,6 +13730,11 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 9,
+      "office": 7.9,
+      "programming": 7.6
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -13781,11 +13786,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 9.0,
-      "office": 7.9,
-      "programming": 7.6
     }
   },
   {
@@ -13805,6 +13805,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 8.4,
+      "office": 6.9,
+      "programming": 7.5,
+      "raw_performance": 8.2
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -13860,12 +13866,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.4,
-      "office": 6.9,
-      "programming": 7.5,
-      "raw_performance": 8.2
     }
   },
   {
@@ -13887,6 +13887,11 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "gaming": 9.3,
+      "office": 8.2,
+      "programming": 8.2
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -13941,11 +13946,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 9.3,
-      "office": 8.2,
-      "programming": 8.2
     }
   },
   {
@@ -13967,6 +13967,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 9,
+      "office": 6.9,
+      "programming": 7.6,
+      "raw_performance": 9.2
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -14023,12 +14029,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 9.0,
-      "office": 6.9,
-      "programming": 7.6,
-      "raw_performance": 9.2
     }
   },
   {
@@ -14058,6 +14058,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 4.8,
+      "office": 7.8,
+      "programming": 7.3,
+      "raw_performance": 4.6
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -14114,12 +14120,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 4.8,
-      "office": 7.8,
-      "programming": 7.3,
-      "raw_performance": 4.6
     }
   },
   {
@@ -14143,6 +14143,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "gaming": 8.5,
+      "office": 8,
+      "programming": 8,
+      "raw_performance": 8.8
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -14206,12 +14212,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.5,
-      "office": 8.0,
-      "programming": 8.0,
-      "raw_performance": 8.8
     }
   },
   {
@@ -14234,6 +14234,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "gaming": 8.2,
+      "office": 7.4,
+      "programming": 7.8,
+      "raw_performance": 8.3
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -14291,12 +14297,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.2,
-      "office": 7.4,
-      "programming": 7.8,
-      "raw_performance": 8.3
     }
   },
   {
@@ -14321,6 +14321,11 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 7.7,
+      "office": 7.5,
+      "programming": 7.7
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -14373,11 +14378,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 7.7,
-      "office": 7.5,
-      "programming": 7.7
     }
   },
   {
@@ -14399,6 +14399,11 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 6.3,
+      "office": 7.2,
+      "programming": 5.8
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -14451,11 +14456,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 6.3,
-      "office": 7.2,
-      "programming": 5.8
     }
   },
   {
@@ -14477,6 +14477,11 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "gaming": 8.4,
+      "office": 7.7,
+      "programming": 7.8
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -14533,11 +14538,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.4,
-      "office": 7.7,
-      "programming": 7.8
     }
   },
   {
@@ -14557,6 +14557,11 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "gaming": 6.9,
+      "office": 7.4,
+      "programming": 5.9
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -14609,11 +14614,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 6.9,
-      "office": 7.4,
-      "programming": 5.9
     }
   },
   {
@@ -14641,6 +14641,11 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 7.9,
+      "office": 6.9,
+      "programming": 7.3
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -14692,11 +14697,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 7.9,
-      "office": 6.9,
-      "programming": 7.3
     }
   },
   {
@@ -14718,6 +14718,11 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 9.4,
+      "office": 7.7,
+      "programming": 7.8
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -14770,11 +14775,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 9.4,
-      "office": 7.7,
-      "programming": 7.8
     }
   },
   {
@@ -14794,6 +14794,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 8.3,
+      "office": 7,
+      "programming": 7.8,
+      "raw_performance": 8
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -14850,12 +14856,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.3,
-      "office": 7.0,
-      "programming": 7.8,
-      "raw_performance": 8.0
     }
   },
   {
@@ -14875,6 +14875,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 5.3,
+      "office": 6.4,
+      "programming": 6.2,
+      "raw_performance": 5.9
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -14927,12 +14933,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 5.3,
-      "office": 6.4,
-      "programming": 6.2,
-      "raw_performance": 5.9
     }
   },
   {
@@ -14962,6 +14962,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 5.4,
+      "office": 7.2,
+      "programming": 7.1,
+      "raw_performance": 5.5
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -15015,12 +15021,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 5.4,
-      "office": 7.2,
-      "programming": 7.1,
-      "raw_performance": 5.5
     }
   },
   {
@@ -15049,6 +15049,11 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 4.7,
+      "office": 6,
+      "programming": 4.9
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -15098,11 +15103,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 4.7,
-      "office": 6.0,
-      "programming": 4.9
     }
   },
   {
@@ -15125,6 +15125,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 8.2,
+      "office": 8.1,
+      "programming": 7.8,
+      "raw_performance": 8.4
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -15188,12 +15194,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.2,
-      "office": 8.1,
-      "programming": 7.8,
-      "raw_performance": 8.4
     }
   },
   {
@@ -15213,6 +15213,11 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "gaming": 6.2,
+      "office": 7,
+      "programming": 5.9
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -15264,11 +15269,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 6.2,
-      "office": 7.0,
-      "programming": 5.9
     }
   },
   {
@@ -15288,6 +15288,11 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 7.9,
+      "office": 7.5,
+      "programming": 7.5
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -15341,11 +15346,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 7.9,
-      "office": 7.5,
-      "programming": 7.5
     }
   },
   {
@@ -15369,6 +15369,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 8.5,
+      "office": 7.9,
+      "programming": 7.9,
+      "raw_performance": 8.7
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -15431,12 +15437,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.5,
-      "office": 7.9,
-      "programming": 7.9,
-      "raw_performance": 8.7
     }
   },
   {
@@ -15458,6 +15458,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "gaming": 5.6,
+      "office": 7.5,
+      "programming": 6.8,
+      "raw_performance": 5.7
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -15512,12 +15518,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 5.6,
-      "office": 7.5,
-      "programming": 6.8,
-      "raw_performance": 5.7
     }
   },
   {
@@ -15537,6 +15537,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 3.1,
+      "office": 6.4,
+      "programming": 5.8,
+      "raw_performance": 0
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -15589,12 +15595,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 3.1,
-      "office": 6.4,
-      "programming": 5.8,
-      "raw_performance": 0.0
     }
   },
   {
@@ -15614,6 +15614,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "gaming": 3.3,
+      "office": 6.4,
+      "programming": 5.9,
+      "raw_performance": 0
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -15664,12 +15670,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 3.3,
-      "office": 6.4,
-      "programming": 5.9,
-      "raw_performance": 0.0
     }
   },
   {
@@ -15699,6 +15699,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 5.2,
+      "office": 7.7,
+      "programming": 6.8,
+      "raw_performance": 4.9
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -15755,12 +15761,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 5.2,
-      "office": 7.7,
-      "programming": 6.8,
-      "raw_performance": 4.9
     }
   },
   {
@@ -15784,6 +15784,11 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 7.7,
+      "office": 7.6,
+      "programming": 6.8
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -15836,11 +15841,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 7.7,
-      "office": 7.6,
-      "programming": 6.8
     }
   },
   {
@@ -15862,6 +15862,11 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "gaming": 8.8,
+      "office": 8,
+      "programming": 8.3
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -15916,11 +15921,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.8,
-      "office": 8.0,
-      "programming": 8.3
     }
   },
   {
@@ -15942,6 +15942,11 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "gaming": 8.8,
+      "office": 7.6,
+      "programming": 7.7
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -15994,11 +15999,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.8,
-      "office": 7.6,
-      "programming": 7.7
     }
   },
   {
@@ -16020,6 +16020,11 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "gaming": 8.7,
+      "office": 8,
+      "programming": 8
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -16074,11 +16079,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.7,
-      "office": 8.0,
-      "programming": 8.0
     }
   },
   {
@@ -16100,6 +16100,11 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 8.5,
+      "office": 7.8,
+      "programming": 7.8
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -16152,11 +16157,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.5,
-      "office": 7.8,
-      "programming": 7.8
     }
   },
   {
@@ -16179,6 +16179,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "gaming": 7.8,
+      "office": 6.7,
+      "programming": 7,
+      "raw_performance": 7.6
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -16240,12 +16246,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 7.8,
-      "office": 6.7,
-      "programming": 7.0,
-      "raw_performance": 7.6
     }
   },
   {
@@ -16265,6 +16265,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "gaming": 6,
+      "office": 6.9,
+      "programming": 7.3,
+      "raw_performance": 6.3
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -16317,12 +16323,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 6.0,
-      "office": 6.9,
-      "programming": 7.3,
-      "raw_performance": 6.3
     }
   },
   {
@@ -16342,6 +16342,11 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "gaming": 6.2,
+      "office": 7.5,
+      "programming": 6.1
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -16393,11 +16398,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 6.2,
-      "office": 7.5,
-      "programming": 6.1
     }
   },
   {
@@ -16420,6 +16420,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "gaming": 8.5,
+      "office": 7.5,
+      "programming": 8,
+      "raw_performance": 8.3
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -16477,12 +16483,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.5,
-      "office": 7.5,
-      "programming": 8.0,
-      "raw_performance": 8.3
     }
   },
   {
@@ -16510,6 +16510,11 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 8.1,
+      "office": 7.8,
+      "programming": 7.7
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -16561,11 +16566,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.1,
-      "office": 7.8,
-      "programming": 7.7
     }
   },
   {
@@ -16595,6 +16595,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 6.4,
+      "office": 8.1,
+      "programming": 8.1,
+      "raw_performance": 5
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -16652,12 +16658,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 6.4,
-      "office": 8.1,
-      "programming": 8.1,
-      "raw_performance": 5.0
     }
   },
   {
@@ -16679,6 +16679,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 7.4,
+      "office": 8,
+      "programming": 8.2,
+      "raw_performance": 6.6
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -16738,12 +16744,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 7.4,
-      "office": 8.0,
-      "programming": 8.2,
-      "raw_performance": 6.6
     }
   },
   {
@@ -16769,6 +16769,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 8.5,
+      "office": 7.7,
+      "programming": 7.9,
+      "raw_performance": 8.5
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -16826,12 +16832,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.5,
-      "office": 7.7,
-      "programming": 7.9,
-      "raw_performance": 8.5
     }
   },
   {
@@ -16851,6 +16851,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "gaming": 8.1,
+      "office": 7.4,
+      "programming": 7.7,
+      "raw_performance": 7.9
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -16906,12 +16912,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.1,
-      "office": 7.4,
-      "programming": 7.7,
-      "raw_performance": 7.9
     }
   },
   {
@@ -16933,6 +16933,11 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "gaming": 8.6,
+      "office": 8,
+      "programming": 8.1
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -16987,11 +16992,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.6,
-      "office": 8.0,
-      "programming": 8.1
     }
   },
   {
@@ -17013,6 +17013,11 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "gaming": 9,
+      "office": 8,
+      "programming": 8.2
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -17067,11 +17072,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 9.0,
-      "office": 8.0,
-      "programming": 8.2
     }
   },
   {
@@ -17091,6 +17091,11 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 8.2,
+      "office": 7.8,
+      "programming": 8.1
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -17144,11 +17149,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.2,
-      "office": 7.8,
-      "programming": 8.1
     }
   },
   {
@@ -17168,6 +17168,11 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "gaming": 7.3,
+      "office": 8,
+      "programming": 7.1
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -17222,11 +17227,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 7.3,
-      "office": 8.0,
-      "programming": 7.1
     }
   },
   {
@@ -17248,6 +17248,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 8.3,
+      "office": 7.3,
+      "programming": 7.5,
+      "raw_performance": 8.6
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -17306,12 +17312,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.3,
-      "office": 7.3,
-      "programming": 7.5,
-      "raw_performance": 8.6
     }
   },
   {
@@ -17335,6 +17335,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 8.5,
+      "office": 8,
+      "programming": 7.9,
+      "raw_performance": 8.7
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -17400,12 +17406,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.5,
-      "office": 8.0,
-      "programming": 7.9,
-      "raw_performance": 8.7
     }
   },
   {
@@ -17427,6 +17427,11 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "gaming": 9.1,
+      "office": 7.4,
+      "programming": 7.4
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -17480,11 +17485,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 9.1,
-      "office": 7.4,
-      "programming": 7.4
     }
   },
   {
@@ -17504,6 +17504,11 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 7.9,
+      "office": 6.8,
+      "programming": 7.2
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -17558,11 +17563,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 7.9,
-      "office": 6.8,
-      "programming": 7.2
     }
   },
   {
@@ -17582,6 +17582,11 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 7.9,
+      "office": 6.8,
+      "programming": 7.2
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -17636,11 +17641,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 7.9,
-      "office": 6.8,
-      "programming": 7.2
     }
   },
   {
@@ -17667,6 +17667,11 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 7.6,
+      "office": 7.6,
+      "programming": 7
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -17719,11 +17724,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 7.6,
-      "office": 7.6,
-      "programming": 7.0
     }
   },
   {
@@ -17743,6 +17743,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 7.5,
+      "office": 5.9,
+      "programming": 6.7,
+      "raw_performance": 7.5
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -17797,12 +17803,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 7.5,
-      "office": 5.9,
-      "programming": 6.7,
-      "raw_performance": 7.5
     }
   },
   {
@@ -17827,6 +17827,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 8.8,
+      "office": 8.4,
+      "programming": 8.5,
+      "raw_performance": 8.6
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -17893,12 +17899,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.8,
-      "office": 8.4,
-      "programming": 8.5,
-      "raw_performance": 8.6
     }
   },
   {
@@ -17920,6 +17920,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "gaming": 5.6,
+      "office": 7.6,
+      "programming": 7.1,
+      "raw_performance": 6
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -17973,12 +17979,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 5.6,
-      "office": 7.6,
-      "programming": 7.1,
-      "raw_performance": 6.0
     }
   },
   {
@@ -18008,6 +18008,11 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 6.5,
+      "office": 6.6,
+      "programming": 5.9
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -18059,11 +18064,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 6.5,
-      "office": 6.6,
-      "programming": 5.9
     }
   },
   {
@@ -18085,6 +18085,11 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 6.1,
+      "office": 8.4,
+      "programming": 6.3
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -18139,11 +18144,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 6.1,
-      "office": 8.4,
-      "programming": 6.3
     }
   },
   {
@@ -18165,6 +18165,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "gaming": 6.7,
+      "office": 7,
+      "programming": 7,
+      "raw_performance": 6.8
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -18218,12 +18224,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 6.7,
-      "office": 7.0,
-      "programming": 7.0,
-      "raw_performance": 6.8
     }
   },
   {
@@ -18245,6 +18245,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "gaming": 6,
+      "office": 7.1,
+      "programming": 7,
+      "raw_performance": 5.6
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -18300,12 +18306,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 6.0,
-      "office": 7.1,
-      "programming": 7.0,
-      "raw_performance": 5.6
     }
   },
   {
@@ -18332,6 +18332,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 8.5,
+      "office": 8,
+      "programming": 8.2,
+      "raw_performance": 8.6
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -18392,12 +18398,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.5,
-      "office": 8.0,
-      "programming": 8.2,
-      "raw_performance": 8.6
     }
   },
   {
@@ -18424,6 +18424,11 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 8.7,
+      "office": 7.3,
+      "programming": 7.9
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -18477,11 +18482,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.7,
-      "office": 7.3,
-      "programming": 7.9
     }
   },
   {
@@ -18501,6 +18501,11 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 8.4,
+      "office": 7.2,
+      "programming": 7.2
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -18558,11 +18563,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.4,
-      "office": 7.2,
-      "programming": 7.2
     }
   },
   {
@@ -18585,6 +18585,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "gaming": 8.3,
+      "office": 8.2,
+      "programming": 8.1,
+      "raw_performance": 8.3
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -18647,12 +18653,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.3,
-      "office": 8.2,
-      "programming": 8.1,
-      "raw_performance": 8.3
     }
   },
   {
@@ -18676,6 +18676,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "gaming": 8.4,
+      "office": 8.2,
+      "programming": 8,
+      "raw_performance": 8.6
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -18742,12 +18748,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.4,
-      "office": 8.2,
-      "programming": 8.0,
-      "raw_performance": 8.6
     }
   },
   {
@@ -18773,6 +18773,11 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 8.6,
+      "office": 7.8,
+      "programming": 8.1
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -18827,11 +18832,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.6,
-      "office": 7.8,
-      "programming": 8.1
     }
   },
   {
@@ -18856,6 +18856,11 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 8.5,
+      "office": 7.8,
+      "programming": 8.1
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -18910,11 +18915,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.5,
-      "office": 7.8,
-      "programming": 8.1
     }
   },
   {
@@ -18937,6 +18937,11 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 8.4,
+      "office": 7.8,
+      "programming": 8.1
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -18991,11 +18996,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.4,
-      "office": 7.8,
-      "programming": 8.1
     }
   },
   {
@@ -19017,6 +19017,11 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 8.6,
+      "office": 7.8,
+      "programming": 8.2
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -19071,11 +19076,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.6,
-      "office": 7.8,
-      "programming": 8.2
     }
   },
   {
@@ -19186,6 +19186,11 @@
       "source_name": "RTINGS",
       "last_verified": "2026-02"
     },
+    "rtings_scores": {
+      "gaming": 8.5,
+      "office": 7.8,
+      "programming": 8.1
+    },
     "core_attributes": {
       "category_subtype": "keyboard",
       "price_tier": "premium",
@@ -19239,11 +19244,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.5,
-      "office": 7.8,
-      "programming": 8.1
     }
   },
   {
@@ -19265,6 +19265,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 7.5,
+      "office": 7.5,
+      "programming": 7.7,
+      "raw_performance": 6.7
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -19321,12 +19327,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 7.5,
-      "office": 7.5,
-      "programming": 7.7,
-      "raw_performance": 6.7
     }
   },
   {
@@ -19348,6 +19348,11 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 8.5,
+      "office": 7.8,
+      "programming": 8.1
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -19402,11 +19407,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.5,
-      "office": 7.8,
-      "programming": 8.1
     }
   },
   {
@@ -19429,6 +19429,11 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 8.5,
+      "office": 8.6,
+      "programming": 8.4
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -19484,11 +19489,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.5,
-      "office": 8.6,
-      "programming": 8.4
     }
   },
   {
@@ -19508,6 +19508,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 6.3,
+      "office": 7.1,
+      "programming": 6.8,
+      "raw_performance": 7.4
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -19558,12 +19564,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 6.3,
-      "office": 7.1,
-      "programming": 6.8,
-      "raw_performance": 7.4
     }
   },
   {
@@ -19583,6 +19583,11 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 7.6,
+      "office": 7.9,
+      "programming": 7.2
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -19633,11 +19638,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 7.6,
-      "office": 7.9,
-      "programming": 7.2
     }
   },
   {
@@ -19662,6 +19662,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "gaming": 8.7,
+      "office": 8.5,
+      "programming": 8.5,
+      "raw_performance": 8.5
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -19725,12 +19731,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.7,
-      "office": 8.5,
-      "programming": 8.5,
-      "raw_performance": 8.5
     }
   },
   {
@@ -19753,6 +19753,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "gaming": 8.5,
+      "office": 7.8,
+      "programming": 8.2,
+      "raw_performance": 8.1
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -19811,12 +19817,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.5,
-      "office": 7.8,
-      "programming": 8.2,
-      "raw_performance": 8.1
     }
   },
   {
@@ -19842,6 +19842,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 7,
+      "office": 6.8,
+      "programming": 6.8,
+      "raw_performance": 8.5
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -19903,12 +19909,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 7.0,
-      "office": 6.8,
-      "programming": 6.8,
-      "raw_performance": 8.5
     }
   },
   {
@@ -19934,6 +19934,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 7.1,
+      "office": 7,
+      "programming": 7.3,
+      "raw_performance": 6.7
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -19991,12 +19997,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 7.1,
-      "office": 7.0,
-      "programming": 7.3,
-      "raw_performance": 6.7
     }
   },
   {
@@ -20020,6 +20020,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 8.8,
+      "office": 8.4,
+      "programming": 8.4,
+      "raw_performance": 8.8
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -20086,12 +20092,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.8,
-      "office": 8.4,
-      "programming": 8.4,
-      "raw_performance": 8.8
     }
   },
   {
@@ -20115,6 +20115,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 8.7,
+      "office": 8.2,
+      "programming": 8.3,
+      "raw_performance": 8.7
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -20179,12 +20185,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.7,
-      "office": 8.2,
-      "programming": 8.3,
-      "raw_performance": 8.7
     }
   },
   {
@@ -20207,6 +20207,11 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "gaming": 8.8,
+      "office": 7.8,
+      "programming": 7.9
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -20262,11 +20267,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.8,
-      "office": 7.8,
-      "programming": 7.9
     }
   },
   {
@@ -20293,6 +20293,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 8.6,
+      "office": 7.6,
+      "programming": 7.6,
+      "raw_performance": 8.9
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -20355,12 +20361,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.6,
-      "office": 7.6,
-      "programming": 7.6,
-      "raw_performance": 8.9
     }
   },
   {
@@ -20387,6 +20387,11 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 9,
+      "office": 7.5,
+      "programming": 7.8
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -20445,11 +20450,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 9.0,
-      "office": 7.5,
-      "programming": 7.8
     }
   },
   {
@@ -20472,6 +20472,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 8.8,
+      "office": 7.2,
+      "programming": 7.7,
+      "raw_performance": 9
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -20529,12 +20535,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.8,
-      "office": 7.2,
-      "programming": 7.7,
-      "raw_performance": 9.0
     }
   },
   {
@@ -20558,6 +20558,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 8.6,
+      "office": 7.9,
+      "programming": 8,
+      "raw_performance": 8.8
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -20620,12 +20626,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.6,
-      "office": 7.9,
-      "programming": 8.0,
-      "raw_performance": 8.8
     }
   },
   {
@@ -20647,6 +20647,11 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "gaming": 8.7,
+      "office": 7.6,
+      "programming": 7.8
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -20699,11 +20704,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.7,
-      "office": 7.6,
-      "programming": 7.8
     }
   },
   {
@@ -20726,6 +20726,11 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "gaming": 8.8,
+      "office": 7.7,
+      "programming": 7.6
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -20783,11 +20788,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.8,
-      "office": 7.7,
-      "programming": 7.6
     }
   },
   {
@@ -20809,6 +20809,11 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 6.9,
+      "office": 8.4,
+      "programming": 7
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -20862,11 +20867,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 6.9,
-      "office": 8.4,
-      "programming": 7.0
     }
   },
   {
@@ -20886,6 +20886,11 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "gaming": 8.2,
+      "office": 8.2,
+      "programming": 7.9
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -20939,11 +20944,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.2,
-      "office": 8.2,
-      "programming": 7.9
     }
   },
   {
@@ -20965,6 +20965,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "gaming": 8.5,
+      "office": 7.4,
+      "programming": 7.8,
+      "raw_performance": 8.2
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -21020,12 +21026,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.5,
-      "office": 7.4,
-      "programming": 7.8,
-      "raw_performance": 8.2
     }
   },
   {
@@ -21054,6 +21054,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 5.5,
+      "office": 6.5,
+      "programming": 6,
+      "raw_performance": 6.2
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -21111,12 +21117,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 5.5,
-      "office": 6.5,
-      "programming": 6.0,
-      "raw_performance": 6.2
     }
   },
   {
@@ -21145,6 +21145,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 5.9,
+      "office": 7.8,
+      "programming": 7.4,
+      "raw_performance": 6.5
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -21200,12 +21206,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 5.9,
-      "office": 7.8,
-      "programming": 7.4,
-      "raw_performance": 6.5
     }
   },
   {
@@ -21227,6 +21227,11 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 6.9,
+      "office": 7,
+      "programming": 6.3
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -21276,11 +21281,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 6.9,
-      "office": 7.0,
-      "programming": 6.3
     }
   },
   {
@@ -21302,6 +21302,11 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "gaming": 5,
+      "office": 6.9,
+      "programming": 5
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -21353,11 +21358,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 5.0,
-      "office": 6.9,
-      "programming": 5.0
     }
   },
   {
@@ -21379,6 +21379,11 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "gaming": 9,
+      "office": 7.9,
+      "programming": 7.8
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -21431,11 +21436,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 9.0,
-      "office": 7.9,
-      "programming": 7.8
     }
   },
   {
@@ -21458,6 +21458,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "gaming": 6.5,
+      "office": 7.7,
+      "programming": 7.4,
+      "raw_performance": 7.4
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -21517,12 +21523,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 6.5,
-      "office": 7.7,
-      "programming": 7.4,
-      "raw_performance": 7.4
     }
   },
   {
@@ -21544,6 +21544,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "gaming": 5.8,
+      "office": 8,
+      "programming": 7.4,
+      "raw_performance": 5.7
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -21597,12 +21603,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 5.8,
-      "office": 8.0,
-      "programming": 7.4,
-      "raw_performance": 5.7
     }
   },
   {
@@ -21624,6 +21624,11 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 6.7,
+      "office": 7.9,
+      "programming": 7.1
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -21674,11 +21679,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 6.7,
-      "office": 7.9,
-      "programming": 7.1
     }
   },
   {
@@ -21698,6 +21698,11 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "gaming": 7.4,
+      "office": 7.6,
+      "programming": 6.8
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -21750,11 +21755,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 7.4,
-      "office": 7.6,
-      "programming": 6.8
     }
   },
   {
@@ -21777,6 +21777,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "gaming": 7.7,
+      "office": 7.7,
+      "programming": 7.7,
+      "raw_performance": 7.5
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -21839,12 +21845,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 7.7,
-      "office": 7.7,
-      "programming": 7.7,
-      "raw_performance": 7.5
     }
   },
   {
@@ -21866,6 +21866,11 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "gaming": 7,
+      "office": 7.8,
+      "programming": 6.4
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -21917,11 +21922,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 7.0,
-      "office": 7.8,
-      "programming": 6.4
     }
   },
   {
@@ -21946,6 +21946,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 5.1,
+      "office": 6.5,
+      "programming": 6.2,
+      "raw_performance": 5.5
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -21999,12 +22005,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 5.1,
-      "office": 6.5,
-      "programming": 6.2,
-      "raw_performance": 5.5
     }
   },
   {
@@ -22024,6 +22024,11 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "gaming": 6,
+      "office": 6.8,
+      "programming": 5.2
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -22073,11 +22078,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 6.0,
-      "office": 6.8,
-      "programming": 5.2
     }
   },
   {
@@ -22100,6 +22100,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "gaming": 8.8,
+      "office": 6.8,
+      "programming": 7.5,
+      "raw_performance": 8.9
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -22159,12 +22165,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.8,
-      "office": 6.8,
-      "programming": 7.5,
-      "raw_performance": 8.9
     }
   },
   {
@@ -22186,6 +22186,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "gaming": 7.3,
+      "office": 7.2,
+      "programming": 7.5,
+      "raw_performance": 6.6
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -22241,12 +22247,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 7.3,
-      "office": 7.2,
-      "programming": 7.5,
-      "raw_performance": 6.6
     }
   },
   {
@@ -22269,6 +22269,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 8.4,
+      "office": 8.1,
+      "programming": 7.9,
+      "raw_performance": 8.6
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -22330,12 +22336,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.4,
-      "office": 8.1,
-      "programming": 7.9,
-      "raw_performance": 8.6
     }
   },
   {
@@ -22355,6 +22355,11 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "gaming": 8,
+      "office": 7.5,
+      "programming": 7.3
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -22407,11 +22412,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.0,
-      "office": 7.5,
-      "programming": 7.3
     }
   },
   {
@@ -22433,6 +22433,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "gaming": 7.7,
+      "office": 6.9,
+      "programming": 7.2,
+      "raw_performance": 9.4
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -22492,12 +22498,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 7.7,
-      "office": 6.9,
-      "programming": 7.2,
-      "raw_performance": 9.4
     }
   },
   {
@@ -22519,6 +22519,11 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "gaming": 8.9,
+      "office": 8,
+      "programming": 7.8
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -22572,11 +22577,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.9,
-      "office": 8.0,
-      "programming": 7.8
     }
   },
   {
@@ -22602,6 +22602,11 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 9,
+      "office": 7.1,
+      "programming": 7.3
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -22658,11 +22663,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 9.0,
-      "office": 7.1,
-      "programming": 7.3
     }
   },
   {
@@ -22688,6 +22688,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 8.3,
+      "office": 7.5,
+      "programming": 7.7,
+      "raw_performance": 8.3
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -22748,12 +22754,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.3,
-      "office": 7.5,
-      "programming": 7.7,
-      "raw_performance": 8.3
     }
   },
   {
@@ -22778,6 +22778,11 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 9.2,
+      "office": 7.9,
+      "programming": 7.6
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -22830,11 +22835,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 9.2,
-      "office": 7.9,
-      "programming": 7.6
     }
   },
   {
@@ -22860,6 +22860,11 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 8.9,
+      "office": 7.4,
+      "programming": 7.5
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -22912,11 +22917,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.9,
-      "office": 7.4,
-      "programming": 7.5
     }
   },
   {
@@ -22938,6 +22938,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 6,
+      "office": 7.6,
+      "programming": 7.2,
+      "raw_performance": 6.6
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -22993,12 +22999,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 6.0,
-      "office": 7.6,
-      "programming": 7.2,
-      "raw_performance": 6.6
     }
   },
   {
@@ -23021,6 +23021,11 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "gaming": 9,
+      "office": 7.4,
+      "programming": 8.2
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -23075,11 +23080,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 9.0,
-      "office": 7.4,
-      "programming": 8.2
     }
   },
   {
@@ -23101,6 +23101,11 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "gaming": 9,
+      "office": 8,
+      "programming": 7.8
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -23154,11 +23159,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 9.0,
-      "office": 8.0,
-      "programming": 7.8
     }
   },
   {
@@ -23178,6 +23178,11 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 8.2,
+      "office": 6.5,
+      "programming": 6.7
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -23233,11 +23238,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.2,
-      "office": 6.5,
-      "programming": 6.7
     }
   },
   {
@@ -23260,6 +23260,11 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-01"
+    },
+    "rtings_scores": {
+      "gaming": 9.1,
+      "office": 6.9,
+      "programming": 7.5
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -23316,11 +23321,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 9.1,
-      "office": 6.9,
-      "programming": 7.5
     }
   },
   {
@@ -23342,6 +23342,12 @@
       "primary_source_type": "lab_test",
       "source_name": "RTINGS",
       "last_verified": "2026-02"
+    },
+    "rtings_scores": {
+      "gaming": 8.7,
+      "office": 6.7,
+      "programming": 7.6,
+      "raw_performance": 8.9
     },
     "core_attributes": {
       "category_subtype": "keyboard",
@@ -23397,12 +23403,6 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    },
-    "rtings_scores": {
-      "gaming": 8.7,
-      "office": 6.7,
-      "programming": 7.6,
-      "raw_performance": 8.9
     }
   }
 ]
