@@ -388,10 +388,10 @@ const FAQPage = () => {
                   </h2>
                 </div>
                 <Accordion type="single" collapsible className="w-full">
-                  {category.items.map((item, index) => (
+                  {category.items.map((item) => (
                     <AccordionItem
-                      key={index}
-                      value={`${category.title}-${index}`}
+                      key={item.question}
+                      value={item.question}
                       className="border-border"
                     >
                       <AccordionTrigger className="text-left hover:no-underline">

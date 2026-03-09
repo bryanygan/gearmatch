@@ -47,7 +47,7 @@ const NavbarV2 = () => {
         background: scrolled
           ? "rgba(7, 7, 13, 0.92)"
           : "rgba(7, 7, 13, 0.6)",
-        backdropFilter: "blur(16px)",
+        backdropFilter: "blur(10px)",
         borderBottom: scrolled
           ? "1px solid rgba(0, 255, 157, 0.12)"
           : "1px solid transparent",

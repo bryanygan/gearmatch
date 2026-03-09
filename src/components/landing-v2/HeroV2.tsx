@@ -393,7 +393,7 @@ const HeroV2 = () => {
                 style={{
                   background:
                     "radial-gradient(circle, var(--v2-primary-glow), transparent 70%)",
-                  filter: "blur(60px)",
+                  filter: "blur(10px)",
                   opacity: 0.3,
                 }}
               />
@@ -555,9 +555,9 @@ const PackCardV2 = ({
 
       {/* Items */}
       <div style={{ marginBottom: "16px" }}>
-        {itemNames.map((name, idx) => (
+        {itemNames.map((name) => (
           <div
-            key={idx}
+            key={name}
             style={{
               fontFamily: "var(--v2-font-body)",
               fontSize: "14px",
