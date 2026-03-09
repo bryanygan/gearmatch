@@ -156,7 +156,7 @@ const QuizModeSelector = memo(function QuizModeSelector({
               </div>
 
               {/* Time estimate */}
-              <div className="flex items-center gap-1 text-xs text-muted-foreground">
+              <div className={cn("flex items-center gap-1 text-xs text-muted-foreground", isRecommended && "mb-7")}>
                 <Clock className="h-3.5 w-3.5" />
                 <span>~{config.estimatedMinutes} min</span>
               </div>
