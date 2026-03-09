@@ -33,3 +33,4 @@ scripts/output/
 /_bmad
 /.claude-flow
 .mcp.json
+.agents/
