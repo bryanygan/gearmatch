@@ -79,7 +79,8 @@
       ],
       "audio_repairability": "good",
       "audio_value_pick": true
-    }
+    },
+    "image_url": "https://i5.walmartimages.com/seo/SteelSeries-Arctis-Nova-7P-Multi-Platform-Premium-Wireless-Gaming-Headset-Black_6088959e-2235-4d2a-9c89-62ac441960ae.36468fabefd5262b482cb55c48cdd9c8.jpeg"
   },
   {
     "id": "hyperx_cloud_iii_wireless",
@@ -148,7 +149,8 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    }
+    },
+    "image_url": "https://cdn.shopify.com/s/files/1/0564/3612/9997/files/hyperx_cloud_iii_s_wireless_white_ax6g1aa_main_1.jpg"
   },
   {
     "id": "razer_blackshark_v3_pro",
@@ -230,7 +232,8 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    }
+    },
+    "image_url": "https://assets3.razerzone.com/-yKN_dKcEefhssF_Vy5IOLQtA-o=/1500x1000/https%3A%2F%2Fmedias-p1.phoenix.razer.com%2Fsys-master-phoenix-images-container%2Fhe5%2Fh53%2F9941151055902%2Fblackshark-v3-pro-for-ps-black-500x500.png"
   },
   {
     "id": "audeze_maxwell",
@@ -308,6 +311,10 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": true
+    },
+    "image_url": "https://www.audeze.com/cdn/shop/files/ADZ_Maxwell2_GalleryPS_noicons_010826_600x.png?v=1767900817",
+    "retailer_urls": {
+      "manufacturer": "https://www.audeze.com/products/maxwell-wireless-gaming-headset"
     }
   },
   {
@@ -376,7 +383,8 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": true
-    }
+    },
+    "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/bdb3916323d5db4d6349200782f3f0ba.1600.jpg"
   },
   {
     "id": "razer_kaira_pro_wireless",
@@ -451,7 +459,8 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    }
+    },
+    "image_url": "https://c1.neweggimages.com/productimage/nb640/26-153-338-07.jpg"
   },
   {
     "id": "steelseries_arctis_nova_3",
@@ -525,7 +534,8 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": true
-    }
+    },
+    "image_url": "https://i5.walmartimages.com/seo/New-SteelSeries-Arctis-Nova-3-Multi-Platform-Gaming-Headset-PC-PS5-PS4-Xbox-Series-X-S-Switch-Mobile_dd3c426c-d503-4eba-a79b-1caaf463261c.d8e8949cd4094394c38078bae92b4c03.jpeg"
   },
   {
     "id": "astro_a50_gen_4",
@@ -594,7 +604,8 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    }
+    },
+    "image_url": "https://resource.logitechg.com/d_transparent.gif/content/dam/astro/en/products/a50-headset-with-base-station-gen4/a50-gallery-xbox-01.png"
   },
   {
     "id": "astro_a50_x",
@@ -672,7 +683,8 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    }
+    },
+    "image_url": "https://resource.logitechg.com/d_transparent.gif/content/dam/gaming/en/products/astro-a50-x/product-gallery/astro-a50-x-white-gallery-1.png"
   },
   {
     "id": "turtle_beach_stealth_600_gen3",
@@ -892,7 +904,8 @@
       ],
       "audio_repairability": "poor",
       "audio_value_pick": true
-    }
+    },
+    "image_url": "https://resource.logitechg.com/c_fill,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/gaming/en/products/g432/2025/g432-3qtr-front-left-angle-gallery-1.png"
   },
   {
     "id": "hyperx_cloud_iii",
@@ -954,7 +967,8 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": true
-    }
+    },
+    "image_url": "https://cdn.shopify.com/s/files/1/0564/3612/9997/files/hyperx_cloud_earbuds_iii_red_bn7s0aa_main_1.jpg"
   },
   {
     "id": "astro_a10",
@@ -1028,7 +1042,8 @@
       "audio_virtual_surround": [],
       "audio_repairability": "ok",
       "audio_value_pick": true
-    }
+    },
+    "image_url": "https://i5.walmartimages.com/seo/ASTRO-A10-Gaming-Headset-Gen-2-Wired-Headset-Over-ear-gaming-headphones-flip-to-mute-microphone-32-mm-drivers-compatible-PlayStation-PC-Black_7002fc62-5672-4b78-ae5c-6640e0a53329.99347f31884bbbf7c1fba8f327c4ece7.jpeg"
   },
   {
     "id": "turtle_beach_recon_50x_50p",
@@ -1102,7 +1117,8 @@
       "audio_virtual_surround": [],
       "audio_repairability": "poor",
       "audio_value_pick": true
-    }
+    },
+    "image_url": "https://m.media-amazon.com/images/I/61mEBDDMlRL._AC_SL1500_.jpg"
   },
   {
     "id": "jabra_evolve2_85_wireless",
@@ -1178,7 +1194,8 @@
       "audio_virtual_surround": [],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    }
+    },
+    "image_url": "https://www.headsetsdirect.com/wp-content/uploads/2020/04/Jabra-Evolve2-85-UC-Stereo-Wireless-Headset.webp"
   },
   {
     "id": "drop_sennheiser_epos_pc38x",
@@ -1247,7 +1264,8 @@
       "audio_virtual_surround": [],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    }
+    },
+    "image_url": "https://massdrop-s3.imgix.net/product-images/drop-epos-pc38x-gaming-headset/FP/VOu2iGN9QDOE3DoFszcO_PC.png?auto=format&fm=jpg&fit=fill&w=500&h=333&bg=f0f0f0&dpr=1&chromasub=444&q=70"
   },
   {
     "id": "steelseries_tusq",
@@ -1315,7 +1333,8 @@
       "audio_virtual_surround": [],
       "audio_repairability": "ok",
       "audio_value_pick": true
-    }
+    },
+    "image_url": "https://images.ctfassets.net/hmm5mo4qf4mf/7mNQzUa4VoFwKaOtXT1Pyq/58cc46699fba20ddf08a67fa9e584f06/imgbuy_tusq_001.jpg__1920x1080_q100_crop-fit_optimize_subsampling-2-951.jpg?fm=webp&q=90&fit=scale&w=1920"
   },
   {
     "id": "steelseries_arctis_gamebuds",
@@ -1388,7 +1407,8 @@
       "audio_virtual_surround": [],
       "audio_repairability": "ok",
       "audio_value_pick": true
-    }
+    },
+    "image_url": "https://images.ctfassets.net/w5r1fvmogo3f/3CFEn7fV1CH2P7rpBJthZF/bd7bf685d99a64067ffe3fb185a0b4c2/arctis_gamebuds_black_pdp_img_desktop_smp_hero.png?fm=webp&q=90&fit=scale&w=1920"
   },
   {
     "id": "steelseries_arctis_7_plus_wireless",
@@ -1460,7 +1480,8 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": true
-    }
+    },
+    "image_url": "https://images.ctfassets.net/hmm5mo4qf4mf/46WbxvrB720Z3lZOZBrb1b/67d8580726f1a4db04e2773dce04480c/imgbuy_arctis_7_black_1.jpg?fm=webp&q=90&fit=scale&w=1920"
   },
   {
     "id": "razer_barracuda_pro_wireless",
@@ -1537,7 +1558,8 @@
       ],
       "audio_repairability": "poor",
       "audio_value_pick": false
-    }
+    },
+    "image_url": "https://assets3.razerzone.com/x477ncbO9PFkn0f_Rv1ETbbL5RY=/1500x1000/https%3A%2F%2Fmedias-p1.phoenix.razer.com%2Fsys-master-phoenix-images-container%2Fhe8%2Fhfc%2F9522060623902%2Fbarracuda-pro-3-500x500.png"
   },
   {
     "id": "logitech_g735_wireless",
@@ -1618,7 +1640,8 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    }
+    },
+    "image_url": "https://resource.logitechg.com/c_fill,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/gaming/en/products/audio/g735-wireless-headset/gallery/2025/g735-3qtr-front-left-angle-gallery-1.png"
   },
   {
     "id": "razer_blackshark_v2_hyperspeed_wireless",
@@ -1694,7 +1717,8 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": true
-    }
+    },
+    "image_url": "https://assets3.razerzone.com/oHomWRsHoXRt2Pi4jbiTe-_PtwI=/1500x1000/https%3A%2F%2Fmedias-p1.phoenix.razer.com%2Fsys-master-phoenix-images-container%2Fhdc%2Fh00%2F9737414344734%2Fblackshark-v2-hyperspeed-white-500x500.png"
   },
   {
     "id": "hyperx_cloud_flight_s",
@@ -1761,7 +1785,8 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    }
+    },
+    "image_url": "https://row.hyperx.com/cdn/shop/products/hyperx_cloud_flight_s_01_main.jpg?v=1662449692"
   },
   {
     "id": "steelseries_arctis_7x_wireless",
@@ -1832,7 +1857,8 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    }
+    },
+    "image_url": "https://images.ctfassets.net/hmm5mo4qf4mf/1gLXXLnvYlrzB1WP9Bv8i6/350381d4410b9bf4bfe649d8486c2eef/imgbuy_arctis_7x_black_1.jpg__1920x1080_q100_crop-fit_optimize_subsampling-2-42.jpg?fm=webp&q=90&fit=scale&w=1920"
   },
   {
     "id": "steelseries_arctis_nova_elite",
@@ -1909,7 +1935,8 @@
       ],
       "audio_repairability": "good",
       "audio_value_pick": false
-    }
+    },
+    "image_url": "https://images.ctfassets.net/w5r1fvmogo3f/7nroU6iyHASLUGIIbtmJ4R/0e1aadc602c18d1c176db572b2413b6c/arctis_nova_elite_lp_img_social.jpg?w=1200&amp;h=600&amp;fit=fill&amp;fm=jpg&amp;q=85"
   },
   {
     "id": "steelseries_arctis_pro_wireless",
@@ -1985,7 +2012,8 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    }
+    },
+    "image_url": "https://images.ctfassets.net/hmm5mo4qf4mf/6ZvNWxUyv1wzYaDuFGkO3Q/485bd0222fed88a4e9350eed2c6c6644/arctis_pro_wl_black_livingroom_wide_4k_001.jpg__1920x1080_q100_crop-fit_optimize_subsampling-2-2314.jpg?fm=webp&q=90&fit=scale&w=1920"
   },
   {
     "id": "astro_a50_gen_3",
@@ -2053,7 +2081,8 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    }
+    },
+    "image_url": "https://c1.neweggimages.com/productimage/nb640/74-778-006-15.jpg"
   },
   {
     "id": "steelseries_arctis_nova_pro_wireless",
@@ -2127,7 +2156,8 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    }
+    },
+    "image_url": "https://images.ctfassets.net/hmm5mo4qf4mf/4EwYTpKVVXomhKP0iwxz5l/eee8a3f7c09dab1956a92d984523ee0c/arctis_nova_pro_wl_black_img_buy_1.png__1920x1080_crop-fit_optimize_subsampling-2-227.png?fm=webp&q=90&fit=scale&w=1920"
   },
   {
     "id": "fractal_scape",
@@ -2198,7 +2228,8 @@
       "audio_virtual_surround": [],
       "audio_repairability": "ok",
       "audio_value_pick": true
-    }
+    },
+    "image_url": "https://www.fractal-design.com/app/uploads/2025/05/Scape_Dark_iF_Design_Award-scaled.jpg"
   },
   {
     "id": "logitech_g933_wireless",
@@ -2267,7 +2298,8 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    }
+    },
+    "image_url": "https://c1.neweggimages.com/productimage/nb640/V0M5_1_201811281052810135.jpg"
   },
   {
     "id": "logitech_g930_wireless",
@@ -2333,7 +2365,8 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    }
+    },
+    "image_url": "https://c1.neweggimages.com/productimage/nb640/26-104-446-02.jpg"
   },
   {
     "id": "corsair_hs70_wireless",
@@ -2400,7 +2433,8 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": true
-    }
+    },
+    "image_url": "https://assets.corsair.com/image/upload/c_pad,q_85,h_1100,w_1100,f_auto/products/Gaming-Headsets/CA-9011179-NA/Gallery/HS_Series_01_HS70_CRB_01.webp"
   },
   {
     "id": "plantronics_rig_800lx_wireless",
@@ -2466,7 +2500,8 @@
       "audio_virtual_surround": [],
       "audio_repairability": "ok",
       "audio_value_pick": true
-    }
+    },
+    "image_url": "https://cdn.cgmagonline.com/wp-content/uploads/2017/12/plantronics-rig-800lx-headset-review-dolby-atmos-approved-7.jpg"
   },
   {
     "id": "logitech_g533_wireless",
@@ -2533,7 +2568,8 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    }
+    },
+    "image_url": "https://c1.neweggimages.com/ProductImageCompressAll60/26-197-184-S01.jpg"
   },
   {
     "id": "hyperx_cloud_ii_wireless_2020",
@@ -2604,7 +2640,8 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": true
-    }
+    },
+    "image_url": "https://c1.neweggimages.com/productimage/nb640/26-700-376-01.jpg"
   },
   {
     "id": "steelseries_arctis_7p_plus_wireless",
@@ -2674,7 +2711,8 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": true
-    }
+    },
+    "image_url": "https://images.ctfassets.net/hmm5mo4qf4mf/1yziTpdTaZXKDocMWRxeGb/7df1295f6f18d5b4a9e183aab4ab97a4/imgbuy_arctis_7p_white_1.jpg__1920x1080_q100_crop-fit_optimize_subsampling-2-50.jpg?fm=webp&q=90&fit=scale&w=1920"
   },
   {
     "id": "astro_a20_wireless",
@@ -2743,7 +2781,8 @@
       ],
       "audio_repairability": "poor",
       "audio_value_pick": false
-    }
+    },
+    "image_url": "https://m.media-amazon.com/images/I/61kHxYE7VWL._AC_SL1500_.jpg"
   },
   {
     "id": "steelseries_arctis_9x_wireless",
@@ -2817,7 +2856,8 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    }
+    },
+    "image_url": "https://c1.neweggimages.com/productimage/nb640/A8X5_132079247883293390XA5UcmbuOu.jpg"
   },
   {
     "id": "steelseries_arctis_7p_wireless",
@@ -2887,7 +2927,8 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    }
+    },
+    "image_url": "https://images.ctfassets.net/hmm5mo4qf4mf/1pVS1qIdSJmqkDWcNQApuy/3eddab2bf34c627fbb4d02afaea0a78a/imgbuy_arctis_7p_black_1.jpg__1920x1080_q100_crop-fit_optimize_subsampling-2-27.jpg?fm=webp&q=90&fit=scale&w=1920"
   },
   {
     "id": "audeze_penrose_wireless",
@@ -2956,7 +2997,8 @@
       "audio_virtual_surround": [],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    }
+    },
+    "image_url": "https://c1.neweggimages.com/productimage/nb640/B7VES2402180S8MQJFE.jpg"
   },
   {
     "id": "hyperx_cloud_alpha_wireless",
@@ -3030,7 +3072,8 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": true
-    }
+    },
+    "image_url": "http://hyperx.com/cdn/shop/files/hyperx_cloud_alpha_wireless_1_main_99b8c28d-57bd-42df-bc89-b1d776d5d1d5.jpg?v=1763563176"
   },
   {
     "id": "razer_blackshark_v2_pro_wireless_2023",
@@ -3109,7 +3152,8 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    }
+    },
+    "image_url": "https://assets3.razerzone.com/3Dk3J4RLQ56Yj2zSSknC9bEI0bg=/1500x1000/https%3A%2F%2Fmedias-p1.phoenix.razer.com%2Fsys-master-phoenix-images-container%2Fh46%2Fh86%2F9807445753886%2F240820-BlackShark-V2-Pro-500x500.png"
   },
   {
     "id": "logitech_g733_lightspeed_wireless",
@@ -3177,7 +3221,8 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": true
-    }
+    },
+    "image_url": "https://resource.logitechg.com/c_fill,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/gaming/en/products/g733/gallery/g733-lilac-gallery-1.png"
   },
   {
     "id": "astro_a30_wireless",
@@ -3254,7 +3299,8 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    }
+    },
+    "image_url": "https://m.media-amazon.com/images/I/61l8xMJPHCL._AC_SL1500_.jpg"
   },
   {
     "id": "steelseries_arctis_9_wireless",
@@ -3329,7 +3375,8 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    }
+    },
+    "image_url": "https://c1.neweggimages.com/productimage/nb640/A8X5S21122902JNIMC9.jpg"
   },
   {
     "id": "logitech_g935_wireless",
@@ -3401,7 +3448,8 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    }
+    },
+    "image_url": "https://resource.logitechg.com/w_544,h_466,ar_7:6,c_pad,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/gaming/en/products/g935/2025/g935-3qtr-back-right-angle-gallery-1.png"
   },
   {
     "id": "turtle_beach_stealth_600",
@@ -3468,7 +3516,8 @@
       "audio_virtual_surround": [],
       "audio_repairability": "ok",
       "audio_value_pick": true
-    }
+    },
+    "image_url": "https://m.media-amazon.com/images/I/61u2rLjzmOL._AC_SL1500_.jpg"
   },
   {
     "id": "steelseries_arctis_1_wireless",
@@ -3539,7 +3588,8 @@
       "audio_virtual_surround": [],
       "audio_repairability": "ok",
       "audio_value_pick": true
-    }
+    },
+    "image_url": "https://images.ctfassets.net/hmm5mo4qf4mf/U4k80VCj1ELnMgV0tBsoD/a021ea1f120d1a17883feee0b7e3c6f2/buyimg_arctis1w_main_001.jpg__1920x1080_q100_crop-fit_optimize_subsampling-2-2154.jpg?fm=webp&q=90&fit=scale&w=1920"
   },
   {
     "id": "razer_nari_ultimate_wireless",
@@ -3606,7 +3656,8 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    }
+    },
+    "image_url": "https://press.razer.com/wp-content/uploads/2019/10/NUXBONE.png"
   },
   {
     "id": "razer_kraken_v3_pro_wireless",
@@ -3674,7 +3725,8 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    }
+    },
+    "image_url": "https://c1.neweggimages.com/productimage/nb640/0G6-00XZ-00151-09.jpg"
   },
   {
     "id": "razer_barracuda_wireless",
@@ -3750,7 +3802,8 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    }
+    },
+    "image_url": "https://assets3.razerzone.com/fbNsC49kx4F7nU2ot8V4QzHT-Dg=/1500x1000/https%3A%2F%2Fmedias-p1.phoenix.razer.com%2Fsys-master-phoenix-images-container%2Fh42%2Fhfa%2F9522060591134%2Fbarracuda-quartz-3-500x500.png"
   },
   {
     "id": "corsair_hs80_max_wireless",
@@ -3824,7 +3877,8 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    }
+    },
+    "image_url": "https://assets.corsair.com/image/upload/c_scale%2Cq_auto%2Cw_96/products/Gaming-Headsets/hs80-max-wireless/white/HS80_MAX_WIRELESS_WHT_01.webp"
   },
   {
     "id": "logitech_g535_lightspeed_wireless",
@@ -3898,7 +3952,8 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": true
-    }
+    },
+    "image_url": "https://resource.logitechg.com/w_544,h_466,ar_7:6,c_pad,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/gaming/en/products/g535-wireless/g535-wireless-gallery-1.png"
   },
   {
     "id": "steelseries_arctis_nova_5",
@@ -3977,7 +4032,8 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": true
-    }
+    },
+    "image_url": "https://images.ctfassets.net/hmm5mo4qf4mf/3DnpXsoaEmcIqzQpCGkQd7/9cca4ae72a4c9dc08108748e0e653596/arctis_nova_5_wl_pdp_img_buy_01.png__1920x1080_crop-fit_optimize_subsampling-2-3253.png?fm=webp&q=90&fit=scale&w=1920"
   },
   {
     "id": "turtle_beach_stealth_500",
@@ -4057,7 +4113,8 @@
       ],
       "audio_repairability": "poor",
       "audio_value_pick": true
-    }
+    },
+    "image_url": "https://i5.walmartimages.com/seo/Turtle-Beach-Stealth-500-Headset-Xbox_c1815055-2ac9-4038-b780-a0badd7c88a3.f2e2069b1f6a03e14e53bea605e8d78f.jpeg"
   },
   {
     "id": "turtle_beach_elite_800_wireless",
@@ -4129,7 +4186,8 @@
       ],
       "audio_repairability": "poor",
       "audio_value_pick": false
-    }
+    },
+    "image_url": "https://s.turbifycdn.com/aah/headsetzone/turtle-beach-elite-800-12.png"
   },
   {
     "id": "lucidsound_ls31_wireless",
@@ -4197,7 +4255,8 @@
       "audio_virtual_surround": [],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    }
+    },
+    "image_url": "https://mma.prnewswire.com/media/771441/LucidSound_LS31_Wireless.jpg?p=facebook"
   },
   {
     "id": "hyperx_cloud_flight",
@@ -4270,7 +4329,8 @@
       "audio_virtual_surround": [],
       "audio_repairability": "ok",
       "audio_value_pick": true
-    }
+    },
+    "image_url": "https://row.hyperx.com/cdn/shop/products/hyperx_cloud_20flight_1_main.jpg?v=1662435222"
   },
   {
     "id": "roccat_elo_7_1_air_wireless",
@@ -4341,7 +4401,8 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    }
+    },
+    "image_url": "https://cdn.shopify.com/s/files/1/0556/5795/5430/files/1-ROCCAT-Elo-Air-BLK.png?v=1707513141"
   },
   {
     "id": "steelseries_arctis_7_2019_wireless",
@@ -4412,7 +4473,8 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": true
-    }
+    },
+    "image_url": "https://media.steelseriescdn.com/blog/posts/arctis-2019-edition/a5fe06ea74644d48806cb656b9eda378.jpg"
   },
   {
     "id": "turtle_beach_stealth_pro_wireless",
@@ -4488,7 +4550,8 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    }
+    },
+    "image_url": "https://m.media-amazon.com/images/I/61YqGaTQL7L._AC_SL1500_.jpg"
   },
   {
     "id": "corsair_void_pro_rgb_wireless",
@@ -4557,7 +4620,8 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    }
+    },
+    "image_url": "https://assets.corsair.com/image/upload/c_pad,q_85,h_1100,w_1100,f_auto/products/Gaming-Headsets/CA-9011152-NA/Gallery/Void_Pro_Wireless_Carbon_01.webp"
   },
   {
     "id": "razer_barracuda_x_wireless_2021",
@@ -4633,7 +4697,8 @@
       "audio_virtual_surround": [],
       "audio_repairability": "ok",
       "audio_value_pick": true
-    }
+    },
+    "image_url": "https://assets3.razerzone.com/jxOzA39QmpZOpwaehqUTWSDyY48=/1500x1000/https%3A%2F%2Fmedias-p1.phoenix.razer.com%2Fsys-master-phoenix-images-container%2Fhfb%2Fhe4%2F9412836884510%2Fbarracuda-x-mercury-2022-2-500x500.png"
   },
   {
     "id": "turtle_beach_stealth_700_wireless",
@@ -4712,7 +4777,8 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    }
+    },
+    "image_url": "https://cdn.shopify.com/s/files/1/0556/5795/5430/files/stealth-700-gen-2-max-xb-black_588cee23-4637-4385-9aa7-6e3f3f1de555.png"
   },
   {
     "id": "bang_olufsen_beoplay_portal",
@@ -4785,7 +4851,8 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    }
+    },
+    "image_url": "https://news.xbox.com/en-us/wp-content/uploads/sites/2/2021/03/PA_Beoplay-Portal_Black_JPG.jpg?w=315"
   },
   {
     "id": "corsair_hs80_rgb_wireless",
@@ -4853,7 +4920,8 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    }
+    },
+    "image_url": "https://assets.corsair.com/image/upload/c_pad,q_85,h_1100,w_1100,f_auto/products/Gaming-Headsets/CA-9011235-NA/Gallery/HS80_RGB_WIRELESS_BLACK_01.webp"
   },
   {
     "id": "sony_inzone_h9_wireless",
@@ -4929,7 +4997,8 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    }
+    },
+    "image_url": "https://d1ncau8tqf99kp.cloudfront.net/converted/104706_original_local_1200x1050_v3_converted.webp"
   },
   {
     "id": "turtle_beach_stealth_600_gen_2",
@@ -4997,7 +5066,8 @@
       "audio_virtual_surround": [],
       "audio_repairability": "ok",
       "audio_value_pick": true
-    }
+    },
+    "image_url": "https://m.media-amazon.com/images/I/61rQnGAiURL._AC_SL1500_.jpg"
   },
   {
     "id": "astro_a20_gen_2_wireless",
@@ -5061,7 +5131,8 @@
       "audio_virtual_surround": [],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    }
+    },
+    "image_url": "https://m.media-amazon.com/images/I/71BJ0BYyknL._AC_SL1500_.jpg"
   },
   {
     "id": "sony_inzone_buds",
@@ -5136,7 +5207,8 @@
       ],
       "audio_repairability": "poor",
       "audio_value_pick": false
-    }
+    },
+    "image_url": "https://d1ncau8tqf99kp.cloudfront.net/converted/117402_original_local_1200x1050_v3_converted.webp"
   },
   {
     "id": "sony_pulse_elite",
@@ -5209,7 +5281,8 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    }
+    },
+    "image_url": "https://gmedia.playstation.com/is/image/SIEPDC/PULSE-Elite-headset-image-block-01-en-06sep23?$100px--t$"
   },
   {
     "id": "sennheiser_hd560s",
@@ -5273,7 +5346,8 @@
       "audio_virtual_surround": [],
       "audio_repairability": "good",
       "audio_value_pick": true
-    }
+    },
+    "image_url": "https://m.media-amazon.com/images/I/51h27nkN-+L._AC_SL1500_.jpg"
   },
   {
     "id": "sennheiser_hd_800_s",
@@ -5342,7 +5416,8 @@
       "audio_virtual_surround": [],
       "audio_repairability": "good",
       "audio_value_pick": false
-    }
+    },
+    "image_url": "https://www.sennheiser.com//og/SennheiserDefaultOg.jpg"
   },
   {
     "id": "sennheiser_hd_490_pro",
@@ -5410,7 +5485,8 @@
       "audio_virtual_surround": [],
       "audio_repairability": "good",
       "audio_value_pick": false
-    }
+    },
+    "image_url": "https://m.media-amazon.com/images/I/61nE7cPqxJL._AC_SL1500_.jpg"
   },
   {
     "id": "philips_shp9500",
@@ -5541,7 +5617,8 @@
       "audio_virtual_surround": [],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    }
+    },
+    "image_url": "https://dam.focal-naim.com/m/606966b649160ea8/original/Stelia_34-jpg.jpg"
   },
   {
     "id": "audeze_lcd_x",
@@ -5607,6 +5684,10 @@
       "audio_virtual_surround": [],
       "audio_repairability": "good",
       "audio_value_pick": false
+    },
+    "image_url": "https://www.audeze.com/cdn/shop/products/LCD-X_Updated_2019_4471x4471_600x.jpg?v=1570129683",
+    "retailer_urls": {
+      "manufacturer": "https://www.audeze.com/products/lcd-x"
     }
   },
   {
@@ -5675,7 +5756,8 @@
       "audio_virtual_surround": [],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    }
+    },
+    "image_url": "http://kr.hifiman.com/cdn/shop/files/AryaOrganic-1600x1600-2.jpg?v=1759115990"
   },
   {
     "id": "audio_technica_ath_m20x",
@@ -5811,7 +5893,8 @@
       "audio_virtual_surround": [],
       "audio_repairability": "good",
       "audio_value_pick": true
-    }
+    },
+    "image_url": "https://d1ncau8tqf99kp.cloudfront.net/converted/114436_original_local_1200x1050_v3_converted.webp"
   },
   {
     "id": "beyerdynamic_dt_770_pro_250",
@@ -5878,7 +5961,8 @@
       "audio_virtual_surround": [],
       "audio_repairability": "good",
       "audio_value_pick": true
-    }
+    },
+    "image_url": "https://api.beyerdynamic.de/media/catalog/product/d/t/dt-770-pro-headphones-beyerdynamic-perspective_transparent_1.png?store=en&image-type=image"
   },
   {
     "id": "beyerdynamic_dt_1770_pro",
@@ -5944,7 +6028,8 @@
       "audio_virtual_surround": [],
       "audio_repairability": "great",
       "audio_value_pick": false
-    }
+    },
+    "image_url": "https://api.beyerdynamic.de/media/catalog/product/b/e/beyerdynamic-dt-1770-pro-perspective_transparent.png?store=usa_en&amp;image-type=image"
   },
   {
     "id": "focal_bathys_wireless",
@@ -6024,7 +6109,8 @@
       "audio_virtual_surround": [],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    }
+    },
+    "image_url": "https://dam.focal-naim.com/m/11173b67856cc268/original/BATHYS_34-jpg.jpg"
   },
   {
     "id": "sony_wh_1000xm6",
@@ -6102,7 +6188,8 @@
       ],
       "audio_repairability": "good",
       "audio_value_pick": false
-    }
+    },
+    "image_url": "https://m.media-amazon.com/images/I/61Ll4CjNJrL._AC_SL1500_.jpg"
   },
   {
     "id": "sony_wh_1000xm4",
@@ -6178,7 +6265,8 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    }
+    },
+    "image_url": "https://m.media-amazon.com/images/I/71o8Q5XJS5L._AC_SL1500_.jpg"
   },
   {
     "id": "bose_qc_ultra_headphones_2nd_gen",
@@ -6251,7 +6339,8 @@
       "audio_virtual_surround": [],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    }
+    },
+    "image_url": "https://m.media-amazon.com/images/I/51LAfmMy2hL._AC_SL1500_.jpg"
   },
   {
     "id": "bose_qc_headphones_wireless",
@@ -6326,7 +6415,8 @@
       "audio_virtual_surround": [],
       "audio_repairability": "ok",
       "audio_value_pick": true
-    }
+    },
+    "image_url": "https://m.media-amazon.com/images/I/51JbsHSktkL._AC_SL1500_.jpg"
   },
   {
     "id": "bowers_wilkins_px7_s2_wireless",
@@ -6399,7 +6489,8 @@
       "audio_virtual_surround": [],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    }
+    },
+    "image_url": "https://www.bowerswilkins.com/dw/image/v2/BGJH_PRD/on/demandware.static/-/Sites-master-catalog-soundunited/default/dw07cd3bb3/bowers/PDP/PX7-S2/PX7-S2-Black/PX7-S2-Black_Image_1.png?sw=768"
   },
   {
     "id": "anker_soundcore_life_q30",
@@ -6475,7 +6566,8 @@
       "audio_virtual_surround": [],
       "audio_repairability": "poor",
       "audio_value_pick": true
-    }
+    },
+    "image_url": "https://i5.walmartimages.com/seo/Soundcore-by-Anker-Life-Q30-Hybrid-Active-Noise-Cancelling-Headphones-with-Multiple-Modes-Hi-Res-Sound-Custom-EQ-via-App-40H-Playtime_d45651c0-9bc4-41d8-8e7c-7228a0e02772.d456792b53c706172079016c790e3273.jpeg"
   },
   {
     "id": "anker_soundcore_space_q45",
@@ -6548,7 +6640,8 @@
       "audio_virtual_surround": [],
       "audio_repairability": "ok",
       "audio_value_pick": true
-    }
+    },
+    "image_url": "https://c1.neweggimages.com/productimage/nb640/ACCUS2312250XTDZ684.jpg"
   },
   {
     "id": "anker_soundcore_life_q20_2024",
@@ -6619,7 +6712,8 @@
       "audio_virtual_surround": [],
       "audio_repairability": "ok",
       "audio_value_pick": true
-    }
+    },
+    "image_url": "https://m.media-amazon.com/images/I/51FMqaqz5TL._AC_SL1500_.jpg"
   },
   {
     "id": "sennheiser_hdb_630",
@@ -6697,7 +6791,8 @@
       "audio_virtual_surround": [],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    }
+    },
+    "image_url": "https://m.media-amazon.com/images/I/61CdBnVIh0L._AC_SL1500_.jpg"
   },
   {
     "id": "sony_ult_wear",
@@ -6777,7 +6872,8 @@
       "audio_virtual_surround": [],
       "audio_repairability": "ok",
       "audio_value_pick": true
-    }
+    },
+    "image_url": "https://d1ncau8tqf99kp.cloudfront.net/converted/119302_original_local_1200x1050_v3_converted.webp"
   },
   {
     "id": "treblab_z7_pro_wireless",
@@ -6849,7 +6945,8 @@
       "audio_virtual_surround": [],
       "audio_repairability": "ok",
       "audio_value_pick": true
-    }
+    },
+    "image_url": "https://cdn.shopify.com/s/files/1/1593/5675/files/Main4_1.png"
   },
   {
     "id": "beats_studio_pro_wireless",
@@ -6932,7 +7029,8 @@
       "audio_virtual_surround": [],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    }
+    },
+    "image_url": "https://www.beatsbydre.com/content/dam/beats/web/product/headphones/studiopro-wireless/global/og/studiopro-global-ogimage.jpg"
   },
   {
     "id": "beats_solo_4",
@@ -7014,7 +7112,8 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    }
+    },
+    "image_url": "https://www.beatsbydre.com/content/dam/beats/web/product/headphones/solo4-wireless/global/og/solo4-global-ogimage.jpg"
   },
   {
     "id": "jbl_tune_520bt",
@@ -7088,7 +7187,8 @@
       "audio_virtual_surround": [],
       "audio_repairability": "ok",
       "audio_value_pick": true
-    }
+    },
+    "image_url": "https://m.media-amazon.com/images/I/51epoS8WKRL._AC_SL1500_.jpg"
   },
   {
     "id": "jbl_tune_760nc",
@@ -7163,7 +7263,8 @@
       "audio_virtual_surround": [],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    }
+    },
+    "image_url": "https://www.thetedstore.com/cdn/shop/files/d96b365a-716e-44ee-9b15-f7acdd8c0ca9.jpg?v=1718997870"
   },
   {
     "id": "sony_wh_ch520",
@@ -7243,7 +7344,8 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": true
-    }
+    },
+    "image_url": "https://d1ncau8tqf99kp.cloudfront.net/converted/110596_original_local_1200x1050_v3_converted.webp"
   },
   {
     "id": "apple_airpods_pro_3",
@@ -7315,7 +7417,8 @@
       ],
       "audio_repairability": "poor",
       "audio_value_pick": false
-    }
+    },
+    "image_url": "https://m.media-amazon.com/images/I/71bhWgQK-cL._AC_SL1500_.jpg"
   },
   {
     "id": "apple_airpods_4_anc",
@@ -7386,7 +7489,8 @@
       "audio_virtual_surround": [],
       "audio_repairability": "poor",
       "audio_value_pick": false
-    }
+    },
+    "image_url": "https://m.media-amazon.com/images/I/61f1YfTkTDL._AC_SL1500_.jpg"
   },
   {
     "id": "sony_wf_1000xm5",
@@ -7457,7 +7561,8 @@
       "audio_virtual_surround": [],
       "audio_repairability": "poor",
       "audio_value_pick": false
-    }
+    },
+    "image_url": "https://c1.neweggimages.com/ProductImageCompressAll60/ADM2S23080106LB1CE8.jpg"
   },
   {
     "id": "samsung_galaxy_buds3_pro",
@@ -7528,7 +7633,8 @@
       "audio_virtual_surround": [],
       "audio_repairability": "poor",
       "audio_value_pick": false
-    }
+    },
+    "image_url": "https://m.media-amazon.com/images/I/51v1MISZXJL._AC_SL1500_.jpg"
   },
   {
     "id": "bose_qc_ultra_earbuds_2nd_gen",
@@ -7600,7 +7706,8 @@
       "audio_virtual_surround": [],
       "audio_repairability": "poor",
       "audio_value_pick": false
-    }
+    },
+    "image_url": "https://m.media-amazon.com/images/I/51dNJLre4jL._AC_SL1500_.jpg"
   },
   {
     "id": "bose_qc_ultra_earbuds_1st_gen",
@@ -7672,7 +7779,8 @@
       "audio_virtual_surround": [],
       "audio_repairability": "poor",
       "audio_value_pick": true
-    }
+    },
+    "image_url": "https://m.media-amazon.com/images/I/51Yp5OnPMfL._AC_SL1500_.jpg"
   },
   {
     "id": "sennheiser_momentum_tw4",
@@ -7743,7 +7851,8 @@
       "audio_virtual_surround": [],
       "audio_repairability": "poor",
       "audio_value_pick": false
-    }
+    },
+    "image_url": "https://m.media-amazon.com/images/I/51RDjUHLg+L._AC_SL1500_.jpg"
   },
   {
     "id": "technics_eah_az100",
@@ -7818,7 +7927,8 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    }
+    },
+    "image_url": "https://m.media-amazon.com/images/I/61ZQ7FHFBJL._AC_SL1500_.jpg"
   },
   {
     "id": "technics_eah_az80",
@@ -7891,7 +8001,8 @@
       "audio_virtual_surround": [],
       "audio_repairability": "good",
       "audio_value_pick": false
-    }
+    },
+    "image_url": "https://us.technics.com/cdn/shop/files/22-0880_EAH-AZ80-K_Technics__NonTextCarousels_01_2000x2000_a85bebca-8e63-4b58-bace-e4d669dcbd6c.jpg?v=1695735812&width=1024"
   },
   {
     "id": "nothing_ear_2024",
@@ -7963,7 +8074,8 @@
       "audio_virtual_surround": [],
       "audio_repairability": "ok",
       "audio_value_pick": true
-    }
+    },
+    "image_url": "https://m.media-amazon.com/images/I/61Us27OPNUL._AC_SL1500_.jpg"
   },
   {
     "id": "nothing_ear_a",
@@ -8035,7 +8147,8 @@
       "audio_virtual_surround": [],
       "audio_repairability": "ok",
       "audio_value_pick": true
-    }
+    },
+    "image_url": "https://cdn.shopify.com/s/files/1/0376/5420/0459/files/0000s_0026_Ear-a-white.png"
   },
   {
     "id": "anker_soundcore_space_a40",
@@ -8105,7 +8218,8 @@
       "audio_virtual_surround": [],
       "audio_repairability": "ok",
       "audio_value_pick": true
-    }
+    },
+    "image_url": "https://m.media-amazon.com/images/I/51FhQFm1URL._AC_SL1500_.jpg"
   },
   {
     "id": "anker_soundcore_liberty_4_nc",
@@ -8177,7 +8291,8 @@
       "audio_virtual_surround": [],
       "audio_repairability": "ok",
       "audio_value_pick": true
-    }
+    },
+    "image_url": "https://m.media-amazon.com/images/I/61MGKG-hS5L._AC_SL1500_.jpg"
   },
   {
     "id": "jbl_vibe_buds",
@@ -8246,7 +8361,8 @@
       "audio_virtual_surround": [],
       "audio_repairability": "ok",
       "audio_value_pick": true
-    }
+    },
+    "image_url": "https://m.media-amazon.com/images/I/51XFJxlpd0L._AC_SL1500_.jpg"
   },
   {
     "id": "skullcandy_dime_3",
@@ -8321,7 +8437,8 @@
       "audio_virtual_surround": [],
       "audio_repairability": "poor",
       "audio_value_pick": true
-    }
+    },
+    "image_url": "http://www.skullcandy.com/cdn/shop/files/Dime3_PSR-Blue_1.png?v=1762210407"
   },
   {
     "id": "skullcandy_push_active",
@@ -8389,7 +8506,8 @@
       "audio_virtual_surround": [],
       "audio_repairability": "poor",
       "audio_value_pick": true
-    }
+    },
+    "image_url": "https://m.media-amazon.com/images/I/61DjFHG-u8L._AC_SL1500_.jpg"
   },
   {
     "id": "jlab_go_air_pop",
@@ -8457,7 +8575,8 @@
       "audio_virtual_surround": [],
       "audio_repairability": "poor",
       "audio_value_pick": true
-    }
+    },
+    "image_url": "https://cdn.shopify.com/s/files/1/0240/9337/files/1_GOPop__Purple.png"
   },
   {
     "id": "anker_soundcore_p25i",
@@ -8526,7 +8645,8 @@
       "audio_virtual_surround": [],
       "audio_repairability": "ok",
       "audio_value_pick": true
-    }
+    },
+    "image_url": "https://m.media-amazon.com/images/I/51+B2pbYQ8L._AC_SL1500_.jpg"
   },
   {
     "id": "tozo_t6_truly_wireless",
@@ -8597,7 +8717,8 @@
       "audio_virtual_surround": [],
       "audio_repairability": "ok",
       "audio_value_pick": true
-    }
+    },
+    "image_url": "https://c1.neweggimages.com/productimage/nb640/A7EFS210703v5sKd.jpg"
   },
   {
     "id": "beats_powerbeats_pro_2",
@@ -8675,7 +8796,8 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    }
+    },
+    "image_url": "https://www.beatsbydre.com/content/dam/beats/web/product/earbuds/powerbeats-pro-2/global/og/powerbeats-pro-2-global-ogimage.jpg"
   },
   {
     "id": "beats_flex_wireless",
@@ -8751,7 +8873,8 @@
       "audio_virtual_surround": [],
       "audio_repairability": "poor",
       "audio_value_pick": true
-    }
+    },
+    "image_url": "https://www.beatsbydre.com/content/dam/beats/web/product/earphones/beats-flex/global/og/beatsflex-global-ogimage.jpg"
   },
   {
     "id": "bose_ultra_open_earbuds",
@@ -8832,7 +8955,8 @@
       ],
       "audio_repairability": "poor",
       "audio_value_pick": false
-    }
+    },
+    "image_url": "https://assets.bosecreative.com/transform/d307a89a-4c1c-46e3-a2eb-0fb2ce815514/UOEBLE26-DesertGold_SF_PDP_E-Comm-Gallery_1_1632x1224?io=width:816,height:667,transform:fit"
   },
   {
     "id": "anker_soundcore_c30i",
@@ -8900,7 +9024,8 @@
       "audio_virtual_surround": [],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    }
+    },
+    "image_url": "https://m.media-amazon.com/images/I/61iuyBugIML._AC_SL1500_.jpg"
   },
   {
     "id": "moondrop_chu_2",
@@ -8956,7 +9081,8 @@
       "audio_virtual_surround": [],
       "audio_repairability": "good",
       "audio_value_pick": true
-    }
+    },
+    "image_url": "https://cdn.prod.website-files.com/627128d862c9a44234848dda/64a67decb6354a3471c0d4cd_CHU2.jpg"
   },
   {
     "id": "7hz_zero_2",
@@ -9010,7 +9136,8 @@
       "audio_virtual_surround": [],
       "audio_repairability": "ok",
       "audio_value_pick": true
-    }
+    },
+    "image_url": "https://hangout.audio/cdn/shop/files/7hz_Zero2_Bronze_Product_1.png?v=1755686802"
   },
   {
     "id": "kefine_klean",
@@ -9065,7 +9192,8 @@
       "audio_virtual_surround": [],
       "audio_repairability": "good",
       "audio_value_pick": true
-    }
+    },
+    "image_url": "https://www.linsoul.com/cdn/shop/files/Kefine_Klean_SV_02.jpg?v=1770364299"
   },
   {
     "id": "artti_t10",
@@ -9122,6 +9250,10 @@
       "audio_virtual_surround": [],
       "audio_repairability": "good",
       "audio_value_pick": true
+    },
+    "image_url": "http://artti.cn/cdn/shop/files/ArttiT10best-budgetplanariem.jpg?v=1760594211",
+    "retailer_urls": {
+      "manufacturer": "https://artti.cn/products/artti-t10-huge-planar-headphones-wired-in-ear-monitors-hifi-earphones"
     }
   },
   {
@@ -9179,7 +9311,8 @@
       "audio_virtual_surround": [],
       "audio_repairability": "good",
       "audio_value_pick": true
-    }
+    },
+    "image_url": "https://www.linsoul.com/cdn/shop/files/IMG_5514.jpg?v=1770789342"
   },
   {
     "id": "truthear_hexa",
@@ -9244,6 +9377,10 @@
       "audio_virtual_surround": [],
       "audio_repairability": "good",
       "audio_value_pick": true
+    },
+    "image_url": "https://cdn.prod.website-files.com/63bcdfa5158ffcd72a7a8d8e/647560ee03a904b42ae5e301_DM_20230530103500_006.JPEG",
+    "retailer_urls": {
+      "manufacturer": "https://truthear.com/products/hexa"
     }
   },
   {
@@ -9300,7 +9437,8 @@
       "audio_virtual_surround": [],
       "audio_repairability": "good",
       "audio_value_pick": true
-    }
+    },
+    "image_url": "https://hifigo.com/cdn/shop/files/juzear-x-z-reviews-defiant-1dd-3ba-hybrid-iems-hifigo-444985.jpg?v=1761620182&width=1000"
   },
   {
     "id": "letshuoer_s08",
@@ -9355,7 +9493,8 @@
       "audio_virtual_surround": [],
       "audio_repairability": "good",
       "audio_value_pick": true
-    }
+    },
+    "image_url": "https://letshuoer.net/cdn/shop/files/fe2b4de0367a00f709e496bb14e3acd1_grande.jpg?v=1753236614"
   },
   {
     "id": "aful_explorer",
@@ -9412,7 +9551,8 @@
       "audio_virtual_surround": [],
       "audio_repairability": "good",
       "audio_value_pick": true
-    }
+    },
+    "image_url": "https://hifigo.com/cdn/shop/files/aful-explorer-1dd2ba-hybrid-in-ear-monitors-hifigo-893748.jpg?v=1761619600"
   },
   {
     "id": "dunu_kima_2",
@@ -9468,7 +9608,8 @@
       "audio_virtual_surround": [],
       "audio_repairability": "great",
       "audio_value_pick": false
-    }
+    },
+    "image_url": "https://www.linsoul.com/cdn/shop/files/6_00bd9e6f-1877-4401-ada4-345d6ab61475.jpg?v=1730800125"
   },
   {
     "id": "letshuoer_s12_pro",
@@ -9482,7 +9623,8 @@
     "product_url": "https://www.amazon.com/s?k=LETSHUOER+S12+PRO&tag=gearmatch-20",
     "manufacturer_url": "https://letshuoer.net/",
     "retailer_urls": {
-      "linsoul": "https://www.linsoul.com/products/letshuoer-s12-pro"
+      "linsoul": "https://www.linsoul.com/products/letshuoer-s12-pro",
+      "manufacturer": "https://letshuoer.net/"
     },
     "recommendation_tags": [
       "planar",
@@ -9528,7 +9670,8 @@
       "audio_virtual_surround": [],
       "audio_repairability": "great",
       "audio_value_pick": true
-    }
+    },
+    "image_url": "http://letshuoer.net/cdn/shop/files/Logo_1200x1200.png?v=1669269037"
   },
   {
     "id": "simgot_supermix_4",
@@ -9589,7 +9732,8 @@
       "audio_virtual_surround": [],
       "audio_repairability": "good",
       "audio_value_pick": false
-    }
+    },
+    "image_url": "https://www.linsoul.com/cdn/shop/files/IMG_5216.jpg?v=1715847035"
   },
   {
     "id": "kiwi_ears_aether",
@@ -9647,7 +9791,8 @@
       "audio_virtual_surround": [],
       "audio_repairability": "good",
       "audio_value_pick": true
-    }
+    },
+    "image_url": "https://kiwiears.com/cdn/shop/files/Aether.jpg?v=1750832155"
   },
   {
     "id": "meze_alba",
@@ -9717,7 +9862,8 @@
       "audio_virtual_surround": [],
       "audio_repairability": "good",
       "audio_value_pick": true
-    }
+    },
+    "image_url": "http://mezeaudio.com/cdn/shop/files/Meze-Audio-Alba-earphone-01.webp?v=1726120501&width=2048"
   },
   {
     "id": "aful_performer_7",
@@ -9773,7 +9919,8 @@
       "audio_virtual_surround": [],
       "audio_repairability": "good",
       "audio_value_pick": false
-    }
+    },
+    "image_url": "https://hifigo.com/cdn/shop/files/aful-performer-52-performer-7-2dd4ba1micro-planar-iems-aful-262066.jpg?v=1769702426"
   },
   {
     "id": "ziigaat_odyssey",
@@ -9787,7 +9934,8 @@
     "product_url": "https://www.amazon.com/s?k=ZiiGaat+Odyssey&tag=gearmatch-20",
     "manufacturer_url": "https://www.ziigaat.com/products/ziigaat-odyssey",
     "retailer_urls": {
-      "linsoul": "https://www.linsoul.com/products/ziigaat-odyssey"
+      "linsoul": "https://www.linsoul.com/products/ziigaat-odyssey",
+      "manufacturer": "https://www.ziigaat.com/products/ziigaat-odyssey"
     },
     "recommendation_tags": [
       "smooth",
@@ -9834,7 +9982,8 @@
       "audio_virtual_surround": [],
       "audio_repairability": "good",
       "audio_value_pick": true
-    }
+    },
+    "image_url": "http://www.ziigaat.com/cdn/shop/files/IMG_9317.jpg?v=1728957935"
   },
   {
     "id": "softears_volume_s",
@@ -9892,7 +10041,8 @@
       "audio_virtual_surround": [],
       "audio_repairability": "good",
       "audio_value_pick": false
-    }
+    },
+    "image_url": "https://hifigo.com/cdn/shop/files/softears-volumes-2dd-2ba-hybrid-drivers-iems-hifigo-volumes-289386.jpg?v=1735204141"
   },
   {
     "id": "moondrop_crinacle_dusk",
@@ -9960,7 +10110,8 @@
       "audio_virtual_surround": [],
       "audio_repairability": "good",
       "audio_value_pick": false
-    }
+    },
+    "image_url": "https://shenzhenaudio.com/cdn/shop/files/1_31065b87-4a0c-4df6-ac4c-fc685f4d7d5e.jpg?v=1711699707"
   },
   {
     "id": "xenns_mangird_tea_pro",
@@ -9974,7 +10125,8 @@
     "product_url": "https://www.amazon.com/s?k=XENNS+Mangird+Tea+Pro&tag=gearmatch-20",
     "manufacturer_url": "https://www.linsoul.com/products/xenns-mangird-tea-pro-kiwi-ears-allegro-pro",
     "retailer_urls": {
-      "linsoul": "https://www.linsoul.com/products/xenns-mangird-tea-pro-kiwi-ears-allegro-pro"
+      "linsoul": "https://www.linsoul.com/products/xenns-mangird-tea-pro-kiwi-ears-allegro-pro",
+      "manufacturer": "https://www.linsoul.com/products/xenns-mangird-tea-pro-kiwi-ears-allegro-pro"
     },
     "recommendation_tags": [
       "hybrid",
@@ -10020,7 +10172,8 @@
       "audio_virtual_surround": [],
       "audio_repairability": "good",
       "audio_value_pick": false
-    }
+    },
+    "image_url": "http://www.linsoul.com/cdn/shop/files/3_1_e2bdeb75-8ec1-4fd5-8afd-6ba80c8b32bf.jpg?v=1772185843"
   },
   {
     "id": "xenns_mangird_top_pro",
@@ -10034,7 +10187,8 @@
     "product_url": "https://www.amazon.com/s?k=XENNS+Mangird+Top+Pro&tag=gearmatch-20",
     "manufacturer_url": "https://www.linsoul.com/products/xenns-mangird-tea-pro-kiwi-ears-allegro-pro",
     "retailer_urls": {
-      "linsoul": "https://www.linsoul.com/collections/xenns-mangird"
+      "linsoul": "https://www.linsoul.com/collections/xenns-mangird",
+      "manufacturer": "https://www.linsoul.com/products/xenns-mangird-tea-pro-kiwi-ears-allegro-pro"
     },
     "recommendation_tags": [
       "flagship",
@@ -10080,7 +10234,8 @@
       "audio_virtual_surround": [],
       "audio_repairability": "good",
       "audio_value_pick": false
-    }
+    },
+    "image_url": "http://www.linsoul.com/cdn/shop/files/3_1_e2bdeb75-8ec1-4fd5-8afd-6ba80c8b32bf.jpg?v=1772185843"
   },
   {
     "id": "dunu_dk3001bd",
@@ -10137,7 +10292,8 @@
       "audio_virtual_surround": [],
       "audio_repairability": "great",
       "audio_value_pick": false
-    }
+    },
+    "image_url": "https://www.linsoul.com/cdn/shop/files/277b7650ed28b54263e20c640c0ce90.jpg?v=1730363867"
   },
   {
     "id": "corsair_hs75_xb_wireless",
@@ -10204,7 +10360,8 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    }
+    },
+    "image_url": "https://res.cloudinary.com/corsair-pwa/image/upload/c_pad,q_auto,h_1024,w_1024,f_auto/products/Gaming-Headsets/base-hs75-xb-wireless-config/Gallery/HS75_XB_01.webp"
   },
   {
     "id": "roccat_syn_pro_air_wireless",
@@ -10272,7 +10429,8 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    }
+    },
+    "image_url": "https://www.soundguys.com/wp-content/uploads/2021/06/Roccat-Syn-Pro-Air-stand-shot-scaled.jpg"
   },
   {
     "id": "wyze_wireless_gaming_headset",
@@ -10345,7 +10503,8 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": true
-    }
+    },
+    "image_url": "https://www.wyze.com/cdn/shop/products/wyze-wireless-gaming-headset-wyze-labs-inc-814688.jpg?v=1762440143"
   },
   {
     "id": "razer_blackshark_v2_pro_wireless_2020",
@@ -10419,7 +10578,8 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    }
+    },
+    "image_url": "https://assets3.razerzone.com/3Dk3J4RLQ56Yj2zSSknC9bEI0bg=/1500x1000/https%3A%2F%2Fmedias-p1.phoenix.razer.com%2Fsys-master-phoenix-images-container%2Fh46%2Fh86%2F9807445753886%2F240820-BlackShark-V2-Pro-500x500.png"
   },
   {
     "id": "turtle_beach_stealth_700_gen_2_wireless",
@@ -10497,7 +10657,8 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    }
+    },
+    "image_url": "https://i5.walmartimages.com/seo/Turtle-Beach-Stealth-700-Headset-Gen-3-Xbox-Black_a1550737-9918-43f3-bebe-c80e50de6de7.c0bc045f5c4597b7c7f4568fe97f85b5.jpeg"
   },
   {
     "id": "corsair_virtuoso_rgb_wireless_se",
@@ -10567,7 +10728,8 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    }
+    },
+    "image_url": "https://res.cloudinary.com/corsair-pwa/image/upload/c_pad,q_auto,h_1024,w_1024,f_auto/products/Gaming-Headsets/CA-9011180-NA/Gallery/VIRTUOSO_SE_01.png"
   },
   {
     "id": "corsair_virtuoso_rgb_wireless_xt",
@@ -10644,7 +10806,8 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    }
+    },
+    "image_url": "https://assets.corsair.com/image/upload/c_pad,q_85,h_1100,w_1100,f_auto/products/Gaming-Headsets/CA-9011188-NA/Gallery/VIRTUOSO_XT_01.webp"
   },
   {
     "id": "sony_inzone_h7_wireless",
@@ -10716,7 +10879,8 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    }
+    },
+    "image_url": "https://audio46.com/cdn/shop/products/assets_Asset_Hierarchy_Consumer_Assets_Television_Gaming_WH-G700_Product_Images_220616_Gaming_DTC-1208x1053-1_H7_grande.jpg?v=1762462249"
   },
   {
     "id": "sony_pulse_3d_wireless",
@@ -10786,7 +10950,8 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": true
-    }
+    },
+    "image_url": "https://m.media-amazon.com/images/I/61yMeYsDpML._AC_SL1500_.jpg"
   },
   {
     "id": "noble_fokus_apollo",
@@ -10864,7 +11029,8 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    }
+    },
+    "image_url": "https://headphones.com/cdn/shop/files/NobleAudioFokusApollo41024x1024.jpg?v=1723092323"
   },
   {
     "id": "bose_qc35_ii_gaming_headset",
@@ -10938,7 +11104,8 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    }
+    },
+    "image_url": "https://assets.bosecreative.com/transform/41b8a569-7f55-4f1a-a101-b85b88076a5f/GH_121819_Render_RGB?io=width:816,height:667,transform:fit"
   },
   {
     "id": "xbox_wireless_headset",
@@ -11017,7 +11184,8 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": true
-    }
+    },
+    "image_url": "https://sopriscomputerparts.com/cdn/shop/files/57_f557de9f-7265-4453-a13e-ba079c51fa9e.jpg?v=1714483816"
   },
   {
     "id": "asus_rog_cetra_tws_speednova",
@@ -11098,7 +11266,8 @@
       ],
       "audio_repairability": "poor",
       "audio_value_pick": false
-    }
+    },
+    "image_url": "https://dlcdnwebimgs.asus.com/gain/51F6F5BD-6477-4573-9B67-551253E12B03"
   },
   {
     "id": "epos_gtw_270_hybrid_truly_wireless",
@@ -11174,7 +11343,8 @@
       ],
       "audio_repairability": "poor",
       "audio_value_pick": false
-    }
+    },
+    "image_url": "https://www.eposaudio.com/globalassets/__pim/products/gtw-series/gtw-270-hybrid/516da445-b2fd-42df-baf3-08e2ced50533_39223_gtw-270_a5_view-on-surface_open_dongle_fullsizepng.png?width=1200"
   },
   {
     "id": "jbl_quantum_800_wireless",
@@ -11250,7 +11420,8 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    }
+    },
+    "image_url": "https://datavision.com/cdn/shop/products/ab580d8c-4f6c-49b9-b465-bf4bcf5680bd.jpg?v=1596493895"
   },
   {
     "id": "razer_hammerhead_pro_hyperspeed_tws",
@@ -11325,7 +11496,8 @@
       ],
       "audio_repairability": "poor",
       "audio_value_pick": false
-    }
+    },
+    "image_url": "https://m.media-amazon.com/images/I/61TMvAMSWiL._AC_SL1500_.jpg"
   },
   {
     "id": "turtle_beach_elite_atlas_aero_wireless",
@@ -11391,7 +11563,8 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    }
+    },
+    "image_url": "https://media.ldlc.com/r1600/ld/products/00/05/52/05/LD0005520531_2.jpg"
   },
   {
     "id": "jabra_evolve2_65_wireless",
@@ -11463,7 +11636,8 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    }
+    },
+    "image_url": "https://www.jabra.com/-/media/Images/Products/Jabra-Evolve2-65/V1/TopBanner/B2/jabra-evolve2-65.jpg?h=700&iar=0&w=1000&hash=E4D09DFF8635C6E064F1B954BE1295D1"
   },
   {
     "id": "bose_quietcomfort_35_ii_wireless_2018",
@@ -11536,7 +11710,8 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    }
+    },
+    "image_url": "https://assets.bosecreative.com/transform/5dca5017-640e-4654-b1fb-bbbe1e28ee89/QC35II_CC_008_RGB?io=width:816,height:667,transform:fit"
   },
   {
     "id": "bose_quietcomfort_45_wireless",
@@ -11610,7 +11785,8 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    }
+    },
+    "image_url": "https://assets.bosecreative.com/transform/788fa4e9-26f2-4c34-ba4b-be028d456603/QC45_WhiteSmoke_001_RGB?io=width:816,height:667,transform:fit"
   },
   {
     "id": "sony_pulse_explore_truly_wireless",
@@ -11688,7 +11864,8 @@
       ],
       "audio_repairability": "poor",
       "audio_value_pick": false
-    }
+    },
+    "image_url": "https://pisces.bbystatic.com/prescaled/500/500/image2/BestBuy_US/images/products/6566/6566053_sd.jpg"
   },
   {
     "id": "jabra_elite_10_gen_2",
@@ -11762,7 +11939,8 @@
       ],
       "audio_repairability": "poor",
       "audio_value_pick": false
-    }
+    },
+    "image_url": "https://m.media-amazon.com/images/I/61bTJ-UUVML._AC_SL1500_.jpg"
   },
   {
     "id": "jabra_elite_8_active_gen_2",
@@ -11836,7 +12014,8 @@
       ],
       "audio_repairability": "poor",
       "audio_value_pick": false
-    }
+    },
+    "image_url": "https://m.media-amazon.com/images/I/61h+z1EMkxL._AC_SL1500_.jpg"
   },
   {
     "id": "sennheiser_rs_165_rf_wireless",
@@ -11901,7 +12080,8 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    }
+    },
+    "image_url": "https://www.savewize.com/media/catalog/product/cache/1/image/412x256/17f82f742ffe127f42dca9de82fb58b1/7/1/71rciywsjgl._sl1500_.jpg"
   },
   {
     "id": "astro_a40_tr_headset_mixamp_pro_2019",
@@ -11971,7 +12151,8 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    }
+    },
+    "image_url": "https://resource.logitechg.com/w_544,h_466,ar_7:6,c_pad,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/astro/en/products/a40-mixamp-pro-tr-gen4/a40-gen4-gallery-ps4-01-refresh.png"
   },
   {
     "id": "bose_quietcomfort_ultra_headphones_wireless",
@@ -12048,7 +12229,8 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    }
+    },
+    "image_url": "https://m.media-amazon.com/images/I/51Ydp4VHMhL._AC_SL1500_.jpg"
   },
   {
     "id": "bowers_wilkins_pi7_true_wireless",
@@ -12122,7 +12304,8 @@
       ],
       "audio_repairability": "poor",
       "audio_value_pick": false
-    }
+    },
+    "image_url": "https://headphones.com/cdn/shop/products/Bowers_wilkinspi7charcoal41024x1024_grande.jpg?v=1707788642"
   },
   {
     "id": "sony_wh_1000xm5",
@@ -12133,7 +12316,7 @@
       264,
       300
     ],
-    "image_url": "https://i.rtings.com/assets/products/Nc33W9lA/sony-wh-1000xm5-wireless/design-medium.jpg?format=auto",
+    "image_url": "https://d1ncau8tqf99kp.cloudfront.net/converted/103375_original_local_1200x1050_v3_converted.webp",
     "product_url": "https://www.amazon.com/s?k=Sony+WH-1000XM5+Wireless&tag=gearmatch-20",
     "retailer_urls": {
       "bestbuy": "https://www.bestbuy.com/product/sony-wh-1000xm5-wireless-noise-canceling-over-the-ear-headphones-silver/J7XSRH5CXV/sku/11835293",
@@ -12215,7 +12398,7 @@
       95,
       268
     ],
-    "image_url": "https://i.rtings.com/assets/products/g5yfWfUG/sony-wh-1000xm3-wireless/design-medium.jpg?format=auto",
+    "image_url": "https://m.media-amazon.com/images/I/71oN33p6JML._AC_SL1500_.jpg",
     "product_url": "https://www.amazon.com/s?k=Sony+WH-1000XM3+Wireless&tag=gearmatch-20",
     "retailer_urls": {
       "newegg": "https://www.newegg.com/silver-sony-wh-1000xm3-s-headphone/p/0TH-000U-008U7"
@@ -12292,7 +12475,7 @@
       300,
       350
     ],
-    "image_url": "https://i.rtings.com/assets/products/KDUQUrYp/steelseries-arctis-nova-pro-wireless-pc-ps-xbox/design-medium.jpg?format=auto",
+    "image_url": "https://m.media-amazon.com/images/I/61yVnU-VD6L._AC_SL1500_.jpg",
     "product_url": "https://www.amazon.com/s?k=SteelSeries+Arctis+Nova+Pro+Wireless&tag=gearmatch-20",
     "recommendation_tags": [
       "wireless_gaming",
@@ -12367,7 +12550,7 @@
       200,
       250
     ],
-    "image_url": "https://i.rtings.com/assets/products/iD9P4Isq/steelseries-arctis-nova-pro/design-medium.jpg?format=auto",
+    "image_url": "https://images.ctfassets.net/hmm5mo4qf4mf/20nCSXYgumyph34VILJp3l/bb0b4791572403a43297348dd4ac0b14/imgbuy_arctis_nova_pro_black_2_v2.png__1920x1080_q100_crop-fit_optimize_subsampling-2-259.jpg?fm=webp&q=90&fit=scale&w=1920",
     "product_url": "https://www.amazon.com/s?k=SteelSeries+Arctis+Nova+Pro&tag=gearmatch-20",
     "recommendation_tags": [
       "wired_gaming",
@@ -12429,7 +12612,7 @@
       240,
       300
     ],
-    "image_url": "https://i.rtings.com/assets/products/0DyKny4w/sennheiser-momentum-4-wireless/design-medium.jpg?format=auto",
+    "image_url": "http://us.sennheiser-hearing.com/cdn/shop/files/Sennheiser_MOMENTUM_4_Wireless_Denim_Headphones.jpg?v=1759796370",
     "product_url": "https://www.amazon.com/s?k=Sennheiser+MOMENTUM+4+Wireless&tag=gearmatch-20",
     "retailer_urls": {
       "bestbuy": "https://www.bestbuy.com/product/sennheiser-momemtum-4-wireless-adaptive-noise-canceling-over-the-ear-headphones-denim/J3GW2LH65F/sku/6557562",
@@ -12511,7 +12694,7 @@
       200,
       300
     ],
-    "image_url": "https://i.rtings.com/assets/products/99Eo84st/sennheiser-momentum-3-wireless/design-medium.jpg?format=auto",
+    "image_url": "https://m.media-amazon.com/images/I/61GGiZ2ROEL._AC_SL1500_.jpg",
     "product_url": "https://www.amazon.com/s?k=Sennheiser+Momentum+3+Wireless&tag=gearmatch-20",
     "recommendation_tags": [
       "premium_anc",
@@ -12586,7 +12769,7 @@
       250,
       250
     ],
-    "image_url": "https://i.rtings.com/assets/products/3ZaX4eI4/sennheiser-accentum-plus-wireless/design-medium.jpg?format=auto",
+    "image_url": "https://i5.walmartimages.com/seo/Sennheiser-ACCENTUM-Plus-Wireless-Bluetooth-Headphones-Quick-Charge-Feature-50-Hr-Battery-Playtime-Adaptive-Hybrid-ANC-Sound-Personalization-Touch-Co_be7b1efa-3da3-49e2-a392-320e798efc28.df0ef1d2c21c688b5bf38518fee47b37.jpeg",
     "product_url": "https://www.amazon.com/s?k=Sennheiser+ACCENTUM+Plus&tag=gearmatch-20",
     "retailer_urls": {
       "bestbuy": "https://www.bestbuy.com/product/sennheiser-accentum-plus-wireless-bluetooth-headphones-adaptive-hybrid-anc-smart-adaptive-features-black/J3GW2LHGFT/sku/10904786",
@@ -12666,7 +12849,7 @@
       200,
       250
     ],
-    "image_url": "https://i.rtings.com/assets/products/6bSxRpJe/jabra-elite-85h-wireless/design-medium.jpg?format=auto",
+    "image_url": "https://m.media-amazon.com/images/I/71GBXYN2KJL._AC_SL1500_.jpg",
     "product_url": "https://www.amazon.com/s?k=Jabra+Elite+85h+Wireless&tag=gearmatch-20",
     "recommendation_tags": [
       "anc",
@@ -12737,7 +12920,7 @@
       150,
       200
     ],
-    "image_url": "https://i.rtings.com/assets/products/0uxtlTpz/jabra-elite-7-pro-true-wireless/design-medium.jpg?format=auto",
+    "image_url": "https://m.media-amazon.com/images/I/61L1SvhxGBL._AC_SL1500_.jpg",
     "product_url": "https://www.amazon.com/s?k=Jabra+Elite+7+Pro+True+Wireless&tag=gearmatch-20",
     "recommendation_tags": [
       "true_wireless",
@@ -12806,7 +12989,7 @@
       200,
       250
     ],
-    "image_url": "https://i.rtings.com/assets/products/81R24T2e/jabra-elite-10-true-wireless/design-medium.jpg?format=auto",
+    "image_url": "https://m.media-amazon.com/images/I/61qY6CYsEDL._AC_SL1500_.jpg",
     "product_url": "https://www.amazon.com/s?k=Jabra+Elite+10&tag=gearmatch-20",
     "recommendation_tags": [
       "true_wireless",
@@ -12877,7 +13060,7 @@
       180,
       230
     ],
-    "image_url": "https://i.rtings.com/assets/products/habp4bbc/jabra-elite-8-active-true-wireless/design-medium.jpg?format=auto",
+    "image_url": "https://m.media-amazon.com/images/I/61U7yZ6RdOL._AC_SL1500_.jpg",
     "product_url": "https://www.amazon.com/s?k=Jabra+Elite+8+Active&tag=gearmatch-20",
     "recommendation_tags": [
       "sports",
@@ -12948,7 +13131,7 @@
       130,
       180
     ],
-    "image_url": "https://i.rtings.com/assets/products/6RZRtNVr/jabra-elite-7-active-true-wireless/design-medium.jpg?format=auto",
+    "image_url": "https://m.media-amazon.com/images/I/61lMNZGtqAL._AC_SL1500_.jpg",
     "product_url": "https://www.amazon.com/s?k=Jabra+Elite+7+Active&tag=gearmatch-20",
     "recommendation_tags": [
       "sports",
@@ -13017,7 +13200,7 @@
       300,
       400
     ],
-    "image_url": "https://i.rtings.com/assets/products/Gay7vPpl/audeze-mobius/design-medium.jpg?format=auto",
+    "image_url": "https://m.media-amazon.com/images/I/71EPxoAPlLL._AC_SL1500_.jpg",
     "product_url": "https://www.amazon.com/s?k=Audeze+Mobius&tag=gearmatch-20",
     "recommendation_tags": [
       "audiophile_gaming",
@@ -13092,7 +13275,7 @@
       130,
       180
     ],
-    "image_url": "https://i.rtings.com/assets/products/NPHzpndA/bose-quietcomfort-35-qc35-wireless-2016/design-medium.jpg?format=auto",
+    "image_url": "https://m.media-amazon.com/images/I/81+jNVOUsJL._AC_SL1500_.jpg",
     "product_url": "https://www.amazon.com/s?k=Bose+QuietComfort+35%2FQC35+Wireless+2016&tag=gearmatch-20",
     "retailer_urls": {
       "bhphoto": "https://www.bhphotovideo.com/c/product/803364660-USE/bose_759944_0010_quietcomfort_35_wireless_noise.html"
@@ -13167,7 +13350,7 @@
       300,
       380
     ],
-    "image_url": "https://i.rtings.com/assets/products/a1IJ399Y/bose-700-headphones-wireless/design-medium.jpg?format=auto",
+    "image_url": "https://m.media-amazon.com/images/I/71OlMfZCXsL._AC_SL1500_.jpg",
     "product_url": "https://www.amazon.com/s?k=Bose+700+Headphones+Wireless&tag=gearmatch-20",
     "recommendation_tags": [
       "premium_anc",
@@ -13240,7 +13423,7 @@
       150,
       200
     ],
-    "image_url": "https://i.rtings.com/assets/products/WOqzLf2b/bose-soundlink-2-wireless/design-medium.jpg?format=auto",
+    "image_url": "https://m.media-amazon.com/images/I/81+okZ0RHOL._AC_SL1500_.jpg",
     "product_url": "https://www.amazon.com/s?k=Bose+SoundLink+2+Wireless&tag=gearmatch-20",
     "recommendation_tags": [
       "wireless",
@@ -13311,7 +13494,7 @@
       219,
       225
     ],
-    "image_url": "https://i.rtings.com/assets/products/SI3jhZGc/audio-technica-ath-m50xbt2-wireless/design-medium.jpg?format=auto",
+    "image_url": "https://m.media-amazon.com/images/I/71B2hAEkzOL._AC_SL1500_.jpg",
     "product_url": "https://www.amazon.com/s?k=Audio-Technica+ATH-M50xBT2+Wireless&tag=gearmatch-20",
     "retailer_urls": {
       "bestbuy": "https://www.bestbuy.com/product/audio-technica-m50xbt-studio-monitor-headphones-black/CG9462VV5L/sku/10101587",
@@ -13391,7 +13574,7 @@
       272,
       1399
     ],
-    "image_url": "https://i.rtings.com/assets/products/3pwQPwqd/bowers-wilkins-px8-wireless/design-medium.jpg?format=auto",
+    "image_url": "https://www.bowerswilkins.com/on/demandware.static/-/Sites-master-catalog-soundunited/default/dw4d056738/bowers/PDP/PX8/PX8-Tan/PX8-Tan_Image_1.png",
     "product_url": "https://www.amazon.com/s?k=Bowers+%26+Wilkins+Px8+Wireless&tag=gearmatch-20",
     "retailer_urls": {
       "manufacturer": "https://www.bowerswilkins.com/en-us/product/over-ear-headphones/px8/300494-38-00-308.html",
@@ -13471,7 +13654,7 @@
       80,
       120
     ],
-    "image_url": "https://i.rtings.com/assets/products/8Qdevw4f/samsung-galaxy-buds-plus-truly-wireless/design-medium.jpg?format=auto",
+    "image_url": "https://image-us.samsung.com/SamsungUS/home/easy-asset/05172022/SDSAC-4253-BudsPro_Black-03-PDP-GALLERY-TV-1600x1200.jpg",
     "product_url": "https://www.amazon.com/s?k=Samsung+Galaxy+Buds%2B&tag=gearmatch-20",
     "recommendation_tags": [
       "true_wireless",
@@ -13540,7 +13723,7 @@
       180,
       250
     ],
-    "image_url": "https://i.rtings.com/assets/products/WcyRhiHV/turtle-beach-elite-pro-2-superamp/design-medium.jpg?format=auto",
+    "image_url": "https://i.ebayimg.com/images/g/7QsAAOSwUk5fxM2B/s-l640.jpg",
     "product_url": "https://www.amazon.com/s?k=Turtle+Beach+Elite+Pro+2+SuperAmp&tag=gearmatch-20",
     "recommendation_tags": [
       "wired_gaming",
@@ -13608,7 +13791,7 @@
       80,
       110
     ],
-    "image_url": "https://i.rtings.com/assets/products/dFozQZhZ/corsair-hs70-bluetooth/design-medium.jpg?format=auto",
+    "image_url": "https://assets.corsair.com/image/upload/c_pad,q_85,h_1100,w_1100,f_auto/products/Gaming-Headsets/CA-9011227-NA/Gallery/HS70_Bluetooth_01.webp",
     "product_url": "https://www.amazon.com/s?k=Corsair+HS70+Bluetooth&tag=gearmatch-20",
     "recommendation_tags": [
       "wired_gaming",
@@ -13683,7 +13866,7 @@
       185,
       638
     ],
-    "image_url": "https://i.rtings.com/assets/products/yiK0lqbe/sonos-ace-wireless/design-medium.jpg?format=auto",
+    "image_url": "https://media.sonos.com/images/znqtjj88/production/6d1891b5f7a2236498c20a2fe895506dc0ba6ab9-2500x2500.png?q=75&amp;fit=clip&amp;auto=format",
     "product_url": "https://www.amazon.com/s?k=Sonos+Ace&tag=gearmatch-20",
     "retailer_urls": {
       "manufacturer": "https://www.sonos.com/en-us/shop/sonos-ace-black.html",
@@ -13768,7 +13951,7 @@
       94,
       150
     ],
-    "image_url": "https://i.rtings.com/assets/products/1JJFqGOA/jbl-tune-770nc-wireless/design-medium.jpg?format=auto",
+    "image_url": "https://i5.walmartimages.com/seo/JBL-Tune-770NC-Wireless-Over-Ear-Adaptive-Noise-Cancelling-Headphones-White_6ca3fe00-c6f0-423e-a566-ba975e8c609f.1ee4804a14dfa0a12d26a13578ca7623.jpeg",
     "product_url": "https://www.amazon.com/s?k=JBL+Tune+770NC&tag=gearmatch-20",
     "retailer_urls": {
       "bestbuy": "https://www.bestbuy.com/product/jbl-tune-770nc-adaptive-noise-cancelling-wireless-over-ear-headphone-2024-white/J7LXFWXLRC/sku/11919868",
@@ -13843,7 +14026,7 @@
       60,
       142
     ],
-    "image_url": "https://i.rtings.com/assets/products/Ya9ptWGE/jbl-club-pro-plus-tws-true-wireless/design-medium.jpg?format=auto",
+    "image_url": "https://i.ebayimg.com/images/g/7jwAAOSwO7Jf9F-u/s-l640.jpg",
     "product_url": "https://www.amazon.com/s?k=JBL+CLUB+PRO%2B+TWS&tag=gearmatch-20",
     "recommendation_tags": [
       "true_wireless",
@@ -13911,7 +14094,7 @@
       150,
       190
     ],
-    "image_url": "https://i.rtings.com/assets/products/zRugl9Ca/akg-n700nc-m2-wireless/design-medium.jpg?format=auto",
+    "image_url": "https://i.ebayimg.com/images/g/WGwAAOSwYxFf6c6Y/s-l640.jpg",
     "product_url": "https://www.amazon.com/s?k=AKG+N700NC+M2&tag=gearmatch-20",
     "recommendation_tags": [
       "anc",
@@ -13985,7 +14168,7 @@
       150,
       200
     ],
-    "image_url": "https://i.rtings.com/assets/products/qVOIQOsV/razer-opus-wireless-2020/design-medium.jpg?format=auto",
+    "image_url": "https://i.ebayimg.com/images/g/7WgAAOSwQ7haxTU1/s-l1600.jpg",
     "product_url": "https://www.amazon.com/s?k=Razer+Opus+Wireless+2020&tag=gearmatch-20",
     "recommendation_tags": [
       "anc",
