@@ -71,6 +71,7 @@
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20260210.0",
     "@eslint/js": "^9.32.0",
+    "@react-grab/mcp": "^0.1.25",
     "@tailwindcss/typography": "^0.5.16",
     "@testing-library/jest-dom": "^6.6.0",
     "@testing-library/react": "^16.0.0",
