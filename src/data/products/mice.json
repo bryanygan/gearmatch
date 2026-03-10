@@ -1336,7 +1336,7 @@
       60,
       70
     ],
-    "product_url": "https://www.amazon.com/s?k=AJAZZ+AJ179+APEX&tag=gearmatch-20",
+    "product_url": "https://www.amazon.com/AJAZZ-AJ179APEX-Wireless-Lightweight-Ergonomic/dp/B0D964S339?tag=gearmatch-20",
     "recommendation_tags": [
       "8k_polling",
       "esports_grade_latency",
@@ -1396,7 +1396,14 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/ajazz-aj179.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/ajazz-aj179.png?width=512&height=512&resize=contain",
+    "manufacturer_url": "https://ajazzbrand.com/products/ajazz-aj179-series-mouse",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/AJAZZ-AJ179APEX-Wireless-Lightweight-Ergonomic/dp/B0D964S339",
+      "newegg": null,
+      "walmart": null,
+      "bestbuy": null
+    }
   },
   {
     "id": "ajazz_aj179_pro",
@@ -1407,7 +1414,7 @@
       40,
       60
     ],
-    "product_url": "https://ajazzstore.com",
+    "product_url": "https://www.amazon.com/FIRSTBLOOD-ONLY-GAME-AJ179PRO-Bluetooth/dp/B0DDQKH7W1?tag=gearmatch-20",
     "recommendation_tags": [
       "8k_polling",
       "wireless"
@@ -1463,7 +1470,14 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://ajazzstore.com/cdn/shop/files/09.jpg?v=1723446374"
+    "image_url": "https://ajazzstore.com/cdn/shop/files/09.jpg?v=1723446374",
+    "manufacturer_url": "https://ajazzbrand.com/products/ajazz-aj179-series-mouse",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/FIRSTBLOOD-ONLY-GAME-AJ179PRO-Bluetooth/dp/B0DDQKH7W1",
+      "newegg": null,
+      "walmart": null,
+      "bestbuy": null
+    }
   },
   {
     "id": "ajazz_aj179_v2",
@@ -1474,7 +1488,7 @@
       30,
       40
     ],
-    "product_url": "https://www.amazon.com/s?k=AJAZZ%20AJ179%20V2&tag=gearmatch-20",
+    "product_url": "https://www.amazon.com/Bluetooth-Ultra-Light-Programmable-Ergonomic-Right-Hand/dp/B0F8D7GHLG?tag=gearmatch-20",
     "recommendation_tags": [
       "large_hands_friendly",
       "ultralight",
@@ -1532,7 +1546,14 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/ajazz-aj179-v2.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/ajazz-aj179-v2.png?width=512&height=512&resize=contain",
+    "manufacturer_url": "https://ajazzbrand.com/products/ajazz-aj179-v2-series-mouse",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/Bluetooth-Ultra-Light-Programmable-Ergonomic-Right-Hand/dp/B0F8D7GHLG",
+      "newegg": null,
+      "walmart": null,
+      "bestbuy": null
+    }
   },
   {
     "id": "ajazz_aj179_v2_max",
@@ -1543,7 +1564,7 @@
       35,
       45
     ],
-    "product_url": "https://www.amazon.com/s?k=AJAZZ%20AJ179%20V2%20Max&tag=gearmatch-20",
+    "product_url": "https://www.amazon.com/Bluetooth-Ultra-Light-Programmable-Ergonomic-Right-Hand/dp/B0F8D7GHLG?tag=gearmatch-20",
     "recommendation_tags": [
       "large_hands_friendly",
       "wireless"
@@ -1599,7 +1620,14 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/ajazz-aj179-v2.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/ajazz-aj179-v2.png?width=512&height=512&resize=contain",
+    "manufacturer_url": "https://ajazzbrand.com/products/ajazz-aj179-v2-series-mouse",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/Bluetooth-Ultra-Light-Programmable-Ergonomic-Right-Hand/dp/B0F8D7GHLG",
+      "newegg": null,
+      "walmart": null,
+      "bestbuy": null
+    }
   },
   {
     "id": "ajazz_aj179p",
@@ -1610,7 +1638,7 @@
       36,
       46
     ],
-    "product_url": "https://ajazzstore.com",
+    "product_url": "https://ajazzbrand.com/products/ajazz-aj179pmc-mouse",
     "recommendation_tags": [
       "wireless"
     ],
@@ -1665,7 +1693,14 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://ajazzstore.com/cdn/shop/files/10_7d08ef3d-f300-41c4-8167-c58974783ce4.jpg?v=1723446374"
+    "image_url": "https://ajazzstore.com/cdn/shop/files/10_7d08ef3d-f300-41c4-8167-c58974783ce4.jpg?v=1723446374",
+    "manufacturer_url": "https://ajazzbrand.com/products/ajazz-aj179pmc-mouse",
+    "retailer_urls": {
+      "amazon": null,
+      "newegg": null,
+      "walmart": null,
+      "bestbuy": null
+    }
   },
   {
     "id": "ajazz_aj199",
@@ -1676,7 +1711,7 @@
       33,
       50
     ],
-    "product_url": "https://www.amazon.com/s?k=AJAZZ%20AJ199&tag=gearmatch-20",
+    "product_url": "https://www.amazon.com/AJ199-Wireless-Ultra-Lightweight-Connection-Anti-Slip/dp/B0FLXNFM49?tag=gearmatch-20",
     "recommendation_tags": [
       "wireless"
     ],
@@ -1730,7 +1765,14 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/ajazz-aj199.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/ajazz-aj199.png?width=512&height=512&resize=contain",
+    "manufacturer_url": "https://ajazzbrand.com/products/ajazz-aj199-carbon-fiber-mouse",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/AJ199-Wireless-Ultra-Lightweight-Connection-Anti-Slip/dp/B0FLXNFM49",
+      "newegg": null,
+      "walmart": null,
+      "bestbuy": null
+    }
   },
   {
     "id": "ajazz_aj199_4k",
@@ -1741,7 +1783,7 @@
       56,
       56
     ],
-    "product_url": "https://www.amazon.com/s?k=AJAZZ%20AJ199%204K&tag=gearmatch-20",
+    "product_url": "https://www.amazon.com/AJAZZ-AJ199-Wireless-Gaming-Mouse/dp/B0CQ4V727Q?tag=gearmatch-20",
     "recommendation_tags": [
       "4k_polling",
       "wireless"
@@ -1794,7 +1836,14 @@
       "mouse_feel_tags": [],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/ajazz-aj199-pro-4k.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/ajazz-aj199-pro-4k.png?width=512&height=512&resize=contain",
+    "manufacturer_url": "https://ajazzbrand.com/products/ajazz-aj199-4k-mouse",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/AJAZZ-AJ199-Wireless-Gaming-Mouse/dp/B0CQ4V727Q",
+      "newegg": null,
+      "walmart": null,
+      "bestbuy": null
+    }
   },
   {
     "id": "ajazz_aj199_mc",
@@ -1805,7 +1854,7 @@
       30,
       40
     ],
-    "product_url": "https://www.amazon.com/s?k=AJAZZ%20AJ199%20MC&tag=gearmatch-20",
+    "product_url": "https://www.amazon.com/AJAZZ-AJ199-MC-Lightweight-Rechargeable-Programmable/dp/B0CQL275ZT?tag=gearmatch-20",
     "recommendation_tags": [
       "ultralight",
       "wireless"
@@ -1860,7 +1909,14 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/ajazz-aj199.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/ajazz-aj199.png?width=512&height=512&resize=contain",
+    "manufacturer_url": "https://ajazzbrand.com/products/ajazz-aj199-carbon-fiber-mouse",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/AJAZZ-AJ199-MC-Lightweight-Rechargeable-Programmable/dp/B0CQL275ZT",
+      "newegg": null,
+      "walmart": null,
+      "bestbuy": null
+    }
   },
   {
     "id": "ajazz_aj199_pro_4k",
@@ -1871,7 +1927,7 @@
       50,
       50
     ],
-    "product_url": "https://www.amazon.com/s?k=AJAZZ%20AJ199%20Pro%204K&tag=gearmatch-20",
+    "product_url": "https://www.amazon.com/AJAZZ-AJ199-Wireless-Gaming-Mouse/dp/B0CQ4V727Q?tag=gearmatch-20",
     "recommendation_tags": [
       "4k_polling",
       "wireless"
@@ -1927,7 +1983,14 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/ajazz-aj199-pro-4k.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/ajazz-aj199-pro-4k.png?width=512&height=512&resize=contain",
+    "manufacturer_url": "https://ajazzbrand.com/products/ajazz-aj199-4k-mouse",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/AJAZZ-AJ199-Wireless-Gaming-Mouse/dp/B0CQ4V727Q",
+      "newegg": null,
+      "walmart": null,
+      "bestbuy": null
+    }
   },
   {
     "id": "ajazz_am3_max",
@@ -1938,9 +2001,12 @@
       84,
       84
     ],
-    "product_url": "https://www.amazon.com/s?k=AJAZZ+AM3+Max&tag=gearmatch-20",
+    "product_url": "https://www.amazon.com/AJAZZ-AM3-Lightweight-Magnesium-programmable/dp/B0DG56B84R?tag=gearmatch-20",
     "retailer_urls": {
-      "manufacturer": "https://www.walmart.com/ip/AJAZZ-AM3-MAX-8K-Wireless-Gaming-Mouse-Lightweight-Full-Magnesium-Alloy-30000-DPI-PAW3950-Sensor-5-programmable-Buttons-Supports-Wired-2-4GHz-BT-Oran/11549017454"
+      "amazon": "https://www.amazon.com/AJAZZ-AM3-Lightweight-Magnesium-programmable/dp/B0DG56B84R",
+      "newegg": null,
+      "walmart": "https://www.walmart.com/ip/AJAZZ-AM3-MAX-8K-Wireless-Gaming-Mouse-Lightweight-Full-Magnesium-Alloy-30000-DPI-PAW3950-Sensor-5-programmable-Buttons-Supports-Wired-2-4GHz-BT-Blac/11549269419",
+      "bestbuy": null
     },
     "recommendation_tags": [
       "8k_polling",
@@ -2004,7 +2070,8 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/ajazz-am3-pro.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/ajazz-am3-pro.png?width=512&height=512&resize=contain",
+    "manufacturer_url": "https://ajazzbrand.com/products/am3-series-mouse"
   },
   {
     "id": "ajazz_am3_pro",
