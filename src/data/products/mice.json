@@ -28033,21 +28033,20 @@
     "brand": "G-Wolves",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      129,
+      139
     ],
-    "product_url": "https://www.amazon.com/s?k=G-Wolves%20HTS%20Plus%204K&tag=gearmatch-20",
+    "product_url": "https://www.amazon.com/G-Wolves-Wireless-Gaming-Reporting-PAW3399/dp/B0BHSX73N2?tag=gearmatch-20",
     "recommendation_tags": [
       "4k_polling",
       "ultralight",
       "wireless"
     ],
     "data_quality": {
-      "data_confidence": "low",
-      "primary_source_type": "manufacturer",
-      "source_name": "eloshapes",
-      "last_verified": "2026-03",
-      "notes": "Auto-imported from eloshapes CSV. Specs need verification."
+      "data_confidence": "high",
+      "primary_source_type": "official",
+      "source_name": "G-Wolves Official Shop & Amazon",
+      "last_verified": "2026-03"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -28094,7 +28093,29 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/g-wolves-hts-plus-4k.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/g-wolves-hts-plus-4k.png?width=512&height=512&resize=contain",
+    "manufacturer_url": "https://shop.g-wolves.com/products/g-wolves-hts-plus-hts",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/G-Wolves-Wireless-Gaming-Reporting-PAW3399/dp/B0BHSX73N2?tag=gearmatch-20",
+      "newegg": null,
+      "walmart": null,
+      "bestbuy": null
+    },
+    "mouse_sensor_type": "PixArt PAW3399",
+    "mouse_dpi_max": 20000,
+    "mouse_polling_rate_max_hz": "4000",
+    "mouse_weight_g": 48,
+    "mouse_weight_class": "light",
+    "mouse_grip_type": "relaxed_claw",
+    "mouse_shape": "symmetrical",
+    "mouse_size_class": "medium",
+    "mouse_connection_type": [
+      "wireless_2_4_dongle"
+    ],
+    "mouse_wireless": true,
+    "mouse_battery_life_hr": null,
+    "mouse_buttons_programmable": 6,
+    "mouse_stock_status": "in_stock"
   },
   {
     "id": "g_wolves_hts_plus_8k",
@@ -28102,21 +28123,20 @@
     "brand": "G-Wolves",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      159,
+      159
     ],
-    "product_url": "https://www.amazon.com/s?k=G-Wolves%20HTS%20Plus%208K&tag=gearmatch-20",
+    "product_url": "https://www.amazon.com/G-Wolves-HTS-Wireless-Reporting-PAW3395/dp/B0DQTKVPVF?tag=gearmatch-20",
     "recommendation_tags": [
       "8k_polling",
       "ultralight",
       "wireless"
     ],
     "data_quality": {
-      "data_confidence": "low",
-      "primary_source_type": "manufacturer",
-      "source_name": "eloshapes",
-      "last_verified": "2026-03",
-      "notes": "Auto-imported from eloshapes CSV. Specs need verification."
+      "data_confidence": "high",
+      "primary_source_type": "official",
+      "source_name": "G-Wolves Official Shop",
+      "last_verified": "2026-03"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -28163,7 +28183,29 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/g-wolves-hts-plus-8k.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/g-wolves-hts-plus-8k.png?width=512&height=512&resize=contain",
+    "manufacturer_url": "https://shop.g-wolves.com/products/hts-plus-hts-8k-wireless",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/G-Wolves-HTS-Wireless-Reporting-PAW3395/dp/B0DQTKVPVF?tag=gearmatch-20",
+      "newegg": null,
+      "walmart": null,
+      "bestbuy": null
+    },
+    "mouse_sensor_type": "PixArt PMW3395",
+    "mouse_dpi_max": 26000,
+    "mouse_polling_rate_max_hz": "8000",
+    "mouse_weight_g": 46,
+    "mouse_weight_class": "light",
+    "mouse_grip_type": "relaxed_claw",
+    "mouse_shape": "symmetrical",
+    "mouse_size_class": "medium",
+    "mouse_connection_type": [
+      "wireless_2_4_dongle"
+    ],
+    "mouse_wireless": true,
+    "mouse_battery_life_hr": null,
+    "mouse_buttons_programmable": 6,
+    "mouse_stock_status": "in_stock"
   },
   {
     "id": "g_wolves_hts_ultra_8k",
@@ -28171,10 +28213,10 @@
     "brand": "G-Wolves",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      119,
+      159
     ],
-    "product_url": "https://www.amazon.com/s?k=G-Wolves%20HTS%20Ultra%208K&tag=gearmatch-20",
+    "product_url": "https://shop.g-wolves.com/products/hts-ultra-8k-wireless-gaming-mouse-29g-usb-type-c-port",
     "recommendation_tags": [
       "8k_polling",
       "esports_grade_latency",
@@ -28184,11 +28226,10 @@
       "wireless"
     ],
     "data_quality": {
-      "data_confidence": "low",
-      "primary_source_type": "manufacturer",
-      "source_name": "eloshapes",
-      "last_verified": "2026-03",
-      "notes": "Auto-imported from eloshapes CSV. Specs need verification."
+      "data_confidence": "high",
+      "primary_source_type": "official",
+      "source_name": "G-Wolves Official Shop",
+      "last_verified": "2026-03"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -28236,28 +28277,49 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/g-wolves-hts-ultra-8k.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/g-wolves-hts-ultra-8k.png?width=512&height=512&resize=contain",
+    "manufacturer_url": "https://shop.g-wolves.com/products/hts-ultra-8k-wireless-gaming-mouse-29g-usb-type-c-port",
+    "retailer_urls": {
+      "amazon": null,
+      "newegg": null,
+      "walmart": null,
+      "bestbuy": null
+    },
+    "mouse_sensor_type": "PixArt PAW3950",
+    "mouse_dpi_max": 30000,
+    "mouse_polling_rate_max_hz": "8000",
+    "mouse_weight_g": 30,
+    "mouse_weight_class": "ultra_light",
+    "mouse_grip_type": "claw",
+    "mouse_shape": "aggressive_right",
+    "mouse_size_class": "small",
+    "mouse_connection_type": [
+      "wireless_2_4_dongle"
+    ],
+    "mouse_wireless": true,
+    "mouse_battery_life_hr": null,
+    "mouse_buttons_programmable": 6,
+    "mouse_stock_status": "in_stock"
   },
   {
     "id": "g_wolves_hts_wireless",
-    "name": "G-Wolves HTS Wireless",
+    "name": "G-Wolves HTS Plus Classic Wireless",
     "brand": "G-Wolves",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      99,
+      119
     ],
-    "product_url": "https://www.amazon.com/s?k=G-Wolves%20HTS%20Wireless&tag=gearmatch-20",
+    "product_url": "https://www.amazon.com/G-wolves-HTS-Plus-Wireless-White/dp/B09NTNSD1N?tag=gearmatch-20",
     "recommendation_tags": [
       "small_hands_friendly",
       "wireless"
     ],
     "data_quality": {
-      "data_confidence": "low",
-      "primary_source_type": "manufacturer",
-      "source_name": "eloshapes",
-      "last_verified": "2026-03",
-      "notes": "Auto-imported from eloshapes CSV. Specs need verification."
+      "data_confidence": "medium",
+      "primary_source_type": "official",
+      "source_name": "G-Wolves & Amazon",
+      "last_verified": "2026-03"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -28302,7 +28364,29 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/g-wolves-hts-wireless.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/g-wolves-hts-wireless.png?width=512&height=512&resize=contain",
+    "manufacturer_url": "https://shop.g-wolves.com/pages/g-wolves-hts-classic-wireless-mouse",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/G-wolves-HTS-Plus-Wireless-White/dp/B09NTNSD1N?tag=gearmatch-20",
+      "newegg": null,
+      "walmart": null,
+      "bestbuy": null
+    },
+    "mouse_sensor_type": "PixArt PAW3370",
+    "mouse_dpi_max": 19000,
+    "mouse_polling_rate_max_hz": "1000",
+    "mouse_weight_g": 46,
+    "mouse_weight_class": "light",
+    "mouse_grip_type": "relaxed_claw",
+    "mouse_shape": "symmetrical",
+    "mouse_size_class": "medium",
+    "mouse_connection_type": [
+      "wireless_2_4_dongle"
+    ],
+    "mouse_wireless": true,
+    "mouse_battery_life_hr": null,
+    "mouse_buttons_programmable": 6,
+    "mouse_stock_status": "limited"
   },
   {
     "id": "g_wolves_htx_4k",
@@ -28310,21 +28394,20 @@
     "brand": "G-Wolves",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      139,
+      139
     ],
-    "product_url": "https://www.amazon.com/s?k=G-Wolves%20HTX%204K&tag=gearmatch-20",
+    "product_url": "https://shop.g-wolves.com/products/htx4k-wireless-gaming-mouse",
     "recommendation_tags": [
       "4k_polling",
       "ultralight",
       "wireless"
     ],
     "data_quality": {
-      "data_confidence": "low",
-      "primary_source_type": "manufacturer",
-      "source_name": "eloshapes",
-      "last_verified": "2026-03",
-      "notes": "Auto-imported from eloshapes CSV. Specs need verification."
+      "data_confidence": "high",
+      "primary_source_type": "official",
+      "source_name": "G-Wolves Official Shop",
+      "last_verified": "2026-03"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -28370,7 +28453,29 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/g-wolves-htx.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/g-wolves-htx.png?width=512&height=512&resize=contain",
+    "manufacturer_url": "https://shop.g-wolves.com/products/htx4k-wireless-gaming-mouse",
+    "retailer_urls": {
+      "amazon": null,
+      "newegg": null,
+      "walmart": null,
+      "bestbuy": null
+    },
+    "mouse_sensor_type": "PixArt PMW3395",
+    "mouse_dpi_max": 26000,
+    "mouse_polling_rate_max_hz": "4000",
+    "mouse_weight_g": 40,
+    "mouse_weight_class": "light",
+    "mouse_grip_type": "fingertip",
+    "mouse_shape": "ergonomic_right",
+    "mouse_size_class": "medium",
+    "mouse_connection_type": [
+      "wireless_2_4_dongle"
+    ],
+    "mouse_wireless": true,
+    "mouse_battery_life_hr": null,
+    "mouse_buttons_programmable": 6,
+    "mouse_stock_status": "in_stock"
   },
   {
     "id": "g_wolves_htx_ace",
@@ -28378,20 +28483,19 @@
     "brand": "G-Wolves",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      79,
+      99
     ],
-    "product_url": "https://shop.g-wolves.com",
+    "product_url": "https://www.amazon.com/G-Wolves-HTX-Wireless-Lightweight-Non-Honeycomb/dp/B0CTQ6YSS8?tag=gearmatch-20",
     "recommendation_tags": [
       "ultralight",
       "wireless"
     ],
     "data_quality": {
-      "data_confidence": "low",
-      "primary_source_type": "manufacturer",
-      "source_name": "eloshapes",
-      "last_verified": "2026-03",
-      "notes": "Auto-imported from eloshapes CSV. Specs need verification."
+      "data_confidence": "high",
+      "primary_source_type": "official",
+      "source_name": "G-Wolves Official Shop",
+      "last_verified": "2026-03"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -28437,7 +28541,29 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://shop.g-wolves.com/cdn/shop/files/1.1_f4bf9031-c800-44ec-a26a-4fc291bc4937.png?v=1700480478&width=1080"
+    "image_url": "https://shop.g-wolves.com/cdn/shop/files/1.1_f4bf9031-c800-44ec-a26a-4fc291bc4937.png?v=1700480478&width=1080",
+    "manufacturer_url": "https://shop.g-wolves.com/products/htx-ace-wireless-gaming-mouse",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/G-Wolves-HTX-Wireless-Lightweight-Non-Honeycomb/dp/B0CTQ6YSS8?tag=gearmatch-20",
+      "newegg": null,
+      "walmart": null,
+      "bestbuy": null
+    },
+    "mouse_sensor_type": "PixArt PMW3395",
+    "mouse_dpi_max": 26000,
+    "mouse_polling_rate_max_hz": "1000",
+    "mouse_weight_g": 37,
+    "mouse_weight_class": "light",
+    "mouse_grip_type": "claw",
+    "mouse_shape": "ergonomic_right",
+    "mouse_size_class": "medium",
+    "mouse_connection_type": [
+      "wireless_2_4_dongle"
+    ],
+    "mouse_wireless": true,
+    "mouse_battery_life_hr": null,
+    "mouse_buttons_programmable": 6,
+    "mouse_stock_status": "limited"
   },
   {
     "id": "g_wolves_htx_mini_8k",
@@ -28445,10 +28571,10 @@
     "brand": "G-Wolves",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      159,
+      159
     ],
-    "product_url": "https://www.amazon.com/s?k=G-Wolves%20HTX%20Mini%208K&tag=gearmatch-20",
+    "product_url": "https://www.amazon.com/G-Wolves-Wireless-Gaming-Reporting-PAW3395/dp/B0DQ44YXNB?tag=gearmatch-20",
     "recommendation_tags": [
       "8k_polling",
       "small_hands_friendly",
@@ -28456,11 +28582,10 @@
       "wireless"
     ],
     "data_quality": {
-      "data_confidence": "low",
-      "primary_source_type": "manufacturer",
-      "source_name": "eloshapes",
-      "last_verified": "2026-03",
-      "notes": "Auto-imported from eloshapes CSV. Specs need verification."
+      "data_confidence": "high",
+      "primary_source_type": "official",
+      "source_name": "G-Wolves Official Shop",
+      "last_verified": "2026-03"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -28506,7 +28631,29 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/g-wolves-htx-mini-8k.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/g-wolves-htx-mini-8k.png?width=512&height=512&resize=contain",
+    "manufacturer_url": "https://shop.g-wolves.com/products/htx-mini-8k-wireless-gaming-mouse-1",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/G-Wolves-Wireless-Gaming-Reporting-PAW3395/dp/B0DQ44YXNB?tag=gearmatch-20",
+      "newegg": null,
+      "walmart": null,
+      "bestbuy": null
+    },
+    "mouse_sensor_type": "PixArt PAW3395",
+    "mouse_dpi_max": 26000,
+    "mouse_polling_rate_max_hz": "8000",
+    "mouse_weight_g": 27,
+    "mouse_weight_class": "ultra_light",
+    "mouse_grip_type": "fingertip",
+    "mouse_shape": "aggressive_right",
+    "mouse_size_class": "small",
+    "mouse_connection_type": [
+      "wireless_2_4_dongle"
+    ],
+    "mouse_wireless": true,
+    "mouse_battery_life_hr": 80,
+    "mouse_buttons_programmable": 6,
+    "mouse_stock_status": "in_stock"
   },
   {
     "id": "g_wolves_htx_ultra_8k",
@@ -28514,10 +28661,10 @@
     "brand": "G-Wolves",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      139,
+      149
     ],
-    "product_url": "https://www.amazon.com/s?k=G-Wolves%20HTX%20Ultra%208K&tag=gearmatch-20",
+    "product_url": "https://shop.g-wolves.com/products/htx-ultra-8k-wireless-mouse",
     "recommendation_tags": [
       "8k_polling",
       "esports_grade_latency",
@@ -28526,11 +28673,10 @@
       "wireless"
     ],
     "data_quality": {
-      "data_confidence": "low",
-      "primary_source_type": "manufacturer",
-      "source_name": "eloshapes",
-      "last_verified": "2026-03",
-      "notes": "Auto-imported from eloshapes CSV. Specs need verification."
+      "data_confidence": "high",
+      "primary_source_type": "official",
+      "source_name": "G-Wolves Official Shop",
+      "last_verified": "2026-03"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -28578,7 +28724,29 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/g-wolves-htx-ultra-8k.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/g-wolves-htx-ultra-8k.png?width=512&height=512&resize=contain",
+    "manufacturer_url": "https://shop.g-wolves.com/products/htx-ultra-8k-wireless-mouse",
+    "retailer_urls": {
+      "amazon": null,
+      "newegg": null,
+      "walmart": null,
+      "bestbuy": null
+    },
+    "mouse_sensor_type": "PixArt PMW3950",
+    "mouse_dpi_max": 30000,
+    "mouse_polling_rate_max_hz": "8000",
+    "mouse_weight_g": 32,
+    "mouse_weight_class": "ultra_light",
+    "mouse_grip_type": "fingertip",
+    "mouse_shape": "aggressive_right",
+    "mouse_size_class": "medium",
+    "mouse_connection_type": [
+      "wireless_2_4_dongle"
+    ],
+    "mouse_wireless": true,
+    "mouse_battery_life_hr": null,
+    "mouse_buttons_programmable": 6,
+    "mouse_stock_status": "in_stock"
   },
   {
     "id": "g_wolves_skoll",
@@ -28713,14 +28881,14 @@
   },
   {
     "id": "g_wolves_vuk",
-    "name": "G-Wolves VUK",
+    "name": "G-Wolves VUK 8K",
     "brand": "G-Wolves",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      159,
+      169
     ],
-    "product_url": "https://www.amazon.com/s?k=G-Wolves%20VUK&tag=gearmatch-20",
+    "product_url": "https://www.amazon.com/G-Wolves-VUK-Black-Gaming-Mouse/dp/B0GHY129XV?tag=gearmatch-20",
     "recommendation_tags": [
       "8k_polling",
       "esports_grade_latency",
@@ -28729,11 +28897,10 @@
       "wireless"
     ],
     "data_quality": {
-      "data_confidence": "low",
-      "primary_source_type": "manufacturer",
-      "source_name": "eloshapes",
-      "last_verified": "2026-03",
-      "notes": "Auto-imported from eloshapes CSV. Specs need verification."
+      "data_confidence": "high",
+      "primary_source_type": "official",
+      "source_name": "G-Wolves Official Shop",
+      "last_verified": "2026-03"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -28780,25 +28947,46 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/g-wolves-vuk.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/g-wolves-vuk.png?width=512&height=512&resize=contain",
+    "manufacturer_url": "https://shop.g-wolves.com/products/vuk-8k-wireless-mouse-35g",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/G-Wolves-VUK-Black-Gaming-Mouse/dp/B0GHY129XV?tag=gearmatch-20",
+      "newegg": null,
+      "walmart": null,
+      "bestbuy": null
+    },
+    "mouse_sensor_type": "PixArt PMW3950",
+    "mouse_dpi_max": 30000,
+    "mouse_polling_rate_max_hz": "8000",
+    "mouse_weight_g": 35,
+    "mouse_weight_class": "light",
+    "mouse_grip_type": "palm",
+    "mouse_shape": "ergonomic_right",
+    "mouse_size_class": "large",
+    "mouse_connection_type": [
+      "wireless_2_4_dongle"
+    ],
+    "mouse_wireless": true,
+    "mouse_battery_life_hr": null,
+    "mouse_buttons_programmable": 6,
+    "mouse_stock_status": "in_stock"
   },
   {
     "id": "gamesense_meta_wired",
-    "name": "Gamesense META Wired",
-    "brand": "Gamesense",
+    "name": "GameSense Meta Wired",
+    "brand": "GameSense",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      14,
+      14
     ],
-    "product_url": "https://www.amazon.com/s?k=Gamesense%20META%20Wired&tag=gearmatch-20",
+    "product_url": "https://www.amazon.com/Gamesense-Meta-Wired-Gaming-Mouse/dp/B09M927QQ8?tag=gearmatch-20",
     "recommendation_tags": [],
     "data_quality": {
-      "data_confidence": "low",
-      "primary_source_type": "manufacturer",
-      "source_name": "eloshapes",
-      "last_verified": "2026-03",
-      "notes": "Auto-imported from eloshapes CSV. Specs need verification."
+      "data_confidence": "high",
+      "primary_source_type": "official",
+      "source_name": "GameSense Official & Amazon",
+      "last_verified": "2026-03"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -28840,7 +29028,29 @@
       "mouse_feel_tags": [],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/gamesense-meta-wired.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/gamesense-meta-wired.png?width=512&height=512&resize=contain",
+    "manufacturer_url": "https://gamesense.gg/products/gamesense-meta",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/Gamesense-Meta-Wired-Gaming-Mouse/dp/B09M927QQ8?tag=gearmatch-20",
+      "newegg": "https://www.newegg.com/p/0TP-029K-01W27",
+      "walmart": null,
+      "bestbuy": null
+    },
+    "mouse_sensor_type": "PixArt PMW3360",
+    "mouse_dpi_max": 12000,
+    "mouse_polling_rate_max_hz": "1000",
+    "mouse_weight_g": 65,
+    "mouse_weight_class": "medium",
+    "mouse_grip_type": "palm",
+    "mouse_shape": "ambidextrous",
+    "mouse_size_class": "medium",
+    "mouse_connection_type": [
+      "wired_usb"
+    ],
+    "mouse_wireless": false,
+    "mouse_battery_life_hr": null,
+    "mouse_buttons_programmable": 7,
+    "mouse_stock_status": "out_of_stock"
   },
   {
     "id": "gamesense_mvp_wired",
@@ -31052,10 +31262,10 @@
     "brand": "Higround",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      45,
+      80
     ],
-    "product_url": "https://www.amazon.com/s?k=Higround%20Yuma&tag=gearmatch-20",
+    "product_url": "https://www.amazon.com/Higround-Yuma-Wireless-Mouse-Acceleration/dp/B0DNPJGDR9?tag=gearmatch-20",
     "recommendation_tags": [
       "4k_polling",
       "large_hands_friendly",
@@ -31063,11 +31273,10 @@
       "wireless"
     ],
     "data_quality": {
-      "data_confidence": "low",
-      "primary_source_type": "manufacturer",
-      "source_name": "eloshapes",
-      "last_verified": "2026-03",
-      "notes": "Auto-imported from eloshapes CSV. Specs need verification."
+      "data_confidence": "high",
+      "primary_source_type": "official",
+      "source_name": "Amazon, Higround Official",
+      "last_verified": "2026-03"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -31112,7 +31321,30 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/higround-yuma.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/higround-yuma.png?width=512&height=512&resize=contain",
+    "manufacturer_url": "https://higround.co/collections/yuma-mouse",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/Higround-Yuma-Wireless-Mouse-Acceleration/dp/B0DNPJGDR9?tag=gearmatch-20",
+      "newegg": null,
+      "walmart": null,
+      "bestbuy": "https://www.bestbuy.com/product/higround-hunter-x-hunter-yuma-lightweight-wireless-optical-gaming-mouse-with-hand-applied-art-wireless-hisoka/J3GWSX6RV2/sku/6601444"
+    },
+    "mouse_sensor_type": "PixArt PAW3395",
+    "mouse_dpi_max": 26000,
+    "mouse_polling_rate_max_hz": "4000",
+    "mouse_weight_g": 49,
+    "mouse_weight_class": "ultra_light",
+    "mouse_grip_type": "relaxed_claw",
+    "mouse_shape": "symmetrical",
+    "mouse_size_class": "medium",
+    "mouse_connection_type": [
+      "wireless_2_4_dongle",
+      "bluetooth"
+    ],
+    "mouse_wireless": true,
+    "mouse_battery_life_hr": 70,
+    "mouse_buttons_programmable": 5,
+    "mouse_stock_status": "in_stock"
   },
   {
     "id": "hitscan_hyperlight",
@@ -31196,22 +31428,21 @@
   {
     "id": "hk_gaming_sirius_m",
     "name": "HK Gaming Sirius M",
-    "brand": "HK",
+    "brand": "HK Gaming",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      35,
+      55
     ],
-    "product_url": "https://www.amazon.com/s?k=HK%20Gaming%0ASirius%20M&tag=gearmatch-20",
+    "product_url": "https://www.amazon.com/HK-Gaming-Lightweight-Honeycomb-Ambidextrous/dp/B08LZYGXSB?tag=gearmatch-20",
     "recommendation_tags": [
       "ultralight"
     ],
     "data_quality": {
-      "data_confidence": "low",
-      "primary_source_type": "manufacturer",
-      "source_name": "eloshapes",
-      "last_verified": "2026-03",
-      "notes": "Auto-imported from eloshapes CSV. Specs need verification."
+      "data_confidence": "high",
+      "primary_source_type": "retailer",
+      "source_name": "Amazon, Newegg, Walmart",
+      "last_verified": "2026-03"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -31253,7 +31484,29 @@
       "mouse_feel_tags": [],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/hk-gaming-sirius-m.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/hk-gaming-sirius-m.png?width=512&height=512&resize=contain",
+    "manufacturer_url": "https://hkgaming.com/pages/sirius",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/HK-Gaming-Lightweight-Honeycomb-Ambidextrous/dp/B08LZYGXSB?tag=gearmatch-20",
+      "newegg": "https://www.newegg.com/p/2RC-0ATF-005R3",
+      "walmart": "https://www.walmart.com/ip/336282193",
+      "bestbuy": null
+    },
+    "mouse_sensor_type": "PixArt PMW3360",
+    "mouse_dpi_max": 12000,
+    "mouse_polling_rate_max_hz": "1000",
+    "mouse_weight_g": 54,
+    "mouse_weight_class": "light",
+    "mouse_grip_type": "claw",
+    "mouse_shape": "symmetrical",
+    "mouse_size_class": "medium",
+    "mouse_connection_type": [
+      "wired_usb"
+    ],
+    "mouse_wireless": false,
+    "mouse_battery_life_hr": null,
+    "mouse_buttons_programmable": 6,
+    "mouse_stock_status": "in_stock"
   },
   {
     "id": "huo_ji_e_yooso",
@@ -31331,17 +31584,16 @@
     "brand": "HyperX",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      20,
+      40
     ],
-    "product_url": "https://www.amazon.com/s?k=HyperX%20Pulsefire%20Core&tag=gearmatch-20",
+    "product_url": "https://www.amazon.com/HyperX-Pulsefire-Core-Customization-Programmable/dp/B07H3GFJJ2?tag=gearmatch-20",
     "recommendation_tags": [],
     "data_quality": {
-      "data_confidence": "low",
-      "primary_source_type": "manufacturer",
-      "source_name": "eloshapes",
-      "last_verified": "2026-03",
-      "notes": "Auto-imported from eloshapes CSV. Specs need verification."
+      "data_confidence": "high",
+      "primary_source_type": "official",
+      "source_name": "Amazon, HyperX",
+      "last_verified": "2026-03"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -31382,7 +31634,29 @@
       "mouse_feel_tags": [],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/hyperx-pulsefire-core.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/hyperx-pulsefire-core.png?width=512&height=512&resize=contain",
+    "manufacturer_url": "https://hyperx.com/products/hyperx-pulsefire-core-gaming-mouse",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/HyperX-Pulsefire-Core-Customization-Programmable/dp/B07H3GFJJ2?tag=gearmatch-20",
+      "newegg": "https://www.newegg.com/p/32K-009Z-000M2",
+      "walmart": null,
+      "bestbuy": null
+    },
+    "mouse_sensor_type": "PixArt PAW3327",
+    "mouse_dpi_max": 6200,
+    "mouse_polling_rate_max_hz": "1000",
+    "mouse_weight_g": 87,
+    "mouse_weight_class": "medium",
+    "mouse_grip_type": "claw",
+    "mouse_shape": "symmetrical",
+    "mouse_size_class": "medium",
+    "mouse_connection_type": [
+      "wired_usb"
+    ],
+    "mouse_wireless": false,
+    "mouse_battery_life_hr": null,
+    "mouse_buttons_programmable": 7,
+    "mouse_stock_status": "in_stock"
   },
   {
     "id": "hyperx_pulsefire_dart",
@@ -31459,19 +31733,18 @@
     "brand": "HyperX",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      40,
+      70
     ],
-    "product_url": "https://www.amazon.com/s?k=HyperX%20Pulsefire%20FPS%20Pro&tag=gearmatch-20",
+    "product_url": "https://www.amazon.com/HyperX-Pulsefire-FPS-Pro-Customization/dp/B07FLP9391?tag=gearmatch-20",
     "recommendation_tags": [
       "large_hands_friendly"
     ],
     "data_quality": {
-      "data_confidence": "low",
-      "primary_source_type": "manufacturer",
-      "source_name": "eloshapes",
-      "last_verified": "2026-03",
-      "notes": "Auto-imported from eloshapes CSV. Specs need verification."
+      "data_confidence": "high",
+      "primary_source_type": "official",
+      "source_name": "Amazon, HyperX, Newegg, Walmart, Best Buy",
+      "last_verified": "2026-03"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -31516,7 +31789,29 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/hyperx-pulsefire-fps-pro.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/hyperx-pulsefire-fps-pro.png?width=512&height=512&resize=contain",
+    "manufacturer_url": "https://hyperx.com/products/hyperx-pulsefire-fps-pro-gaming-mouse",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/HyperX-Pulsefire-FPS-Pro-Customization/dp/B07FLP9391?tag=gearmatch-20",
+      "newegg": "https://www.newegg.com/p/173-0255-007W1",
+      "walmart": "https://www.walmart.com/ip/176233130",
+      "bestbuy": "https://www.bestbuy.com/site/6276201.p?skuId=6276201"
+    },
+    "mouse_sensor_type": "PixArt PMW3389",
+    "mouse_dpi_max": 16000,
+    "mouse_polling_rate_max_hz": "1000",
+    "mouse_weight_g": 95,
+    "mouse_weight_class": "medium",
+    "mouse_grip_type": "palm",
+    "mouse_shape": "ergonomic_right",
+    "mouse_size_class": "large",
+    "mouse_connection_type": [
+      "wired_usb"
+    ],
+    "mouse_wireless": false,
+    "mouse_battery_life_hr": null,
+    "mouse_buttons_programmable": 6,
+    "mouse_stock_status": "in_stock"
   },
   {
     "id": "hyperx_pulsefire_fuse",
@@ -31524,19 +31819,18 @@
     "brand": "HyperX",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      39,
+      50
     ],
-    "product_url": "https://www.amazon.com/s?k=HyperX%20Pulsefire%20Fuse&tag=gearmatch-20",
+    "product_url": "https://www.amazon.com/HyperX-Pulsefire-Fuse-Gaming-Mouse/dp/B0DSQ3J7JD?tag=gearmatch-20",
     "recommendation_tags": [
       "wireless"
     ],
     "data_quality": {
-      "data_confidence": "low",
-      "primary_source_type": "manufacturer",
-      "source_name": "eloshapes",
-      "last_verified": "2026-03",
-      "notes": "Auto-imported from eloshapes CSV. Specs need verification."
+      "data_confidence": "high",
+      "primary_source_type": "official",
+      "source_name": "Amazon, HyperX, Best Buy, Newegg",
+      "last_verified": "2026-03"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -31580,7 +31874,30 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/hyperx-pulsefire-fuse.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/hyperx-pulsefire-fuse.png?width=512&height=512&resize=contain",
+    "manufacturer_url": "https://hyperx.com/products/hyperx-pulsefire-fuse-wireless-gaming-mouse",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/HyperX-Pulsefire-Fuse-Gaming-Mouse/dp/B0DSQ3J7JD?tag=gearmatch-20",
+      "newegg": "https://www.newegg.com/hyperx-pulsefire-fuse-bluetooth-2-4ghz/p/N82E16826738043",
+      "walmart": null,
+      "bestbuy": "https://www.bestbuy.com/product/hyperx-pulsefire-fuse-lightweight-wireless-optical-gaming-mouse-with-rgb-lighting-wireless-black/JJGS9KYL5V"
+    },
+    "mouse_sensor_type": "PixArt PAW3311",
+    "mouse_dpi_max": 12000,
+    "mouse_polling_rate_max_hz": "1000",
+    "mouse_weight_g": 75,
+    "mouse_weight_class": "light",
+    "mouse_grip_type": "fingertip",
+    "mouse_shape": "symmetrical",
+    "mouse_size_class": "medium",
+    "mouse_connection_type": [
+      "wireless_2_4_dongle",
+      "bluetooth"
+    ],
+    "mouse_wireless": true,
+    "mouse_battery_life_hr": 85,
+    "mouse_buttons_programmable": 5,
+    "mouse_stock_status": "in_stock"
   },
   {
     "id": "hyperx_pulsefire_haste",
@@ -31884,20 +32201,19 @@
     "brand": "HyperX",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      35,
+      60
     ],
-    "product_url": "https://www.amazon.com/s?k=HyperX%20Pulsefire%20Raid&tag=gearmatch-20",
+    "product_url": "https://www.amazon.com/HyperX-Pulsefire-Raid-Software-Controlled-Customization/dp/B0828NDB43?tag=gearmatch-20",
     "recommendation_tags": [
       "large_hands_friendly",
       "mmo_specialist"
     ],
     "data_quality": {
-      "data_confidence": "low",
-      "primary_source_type": "manufacturer",
-      "source_name": "eloshapes",
-      "last_verified": "2026-03",
-      "notes": "Auto-imported from eloshapes CSV. Specs need verification."
+      "data_confidence": "high",
+      "primary_source_type": "official",
+      "source_name": "Amazon, HyperX, Newegg, Best Buy",
+      "last_verified": "2026-03"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -31946,7 +32262,29 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/hyperx-pulsefire-raid.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/hyperx-pulsefire-raid.png?width=512&height=512&resize=contain",
+    "manufacturer_url": "https://hyperx.com/products/hyperx-pulsefire-raid-gaming-mouse",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/HyperX-Pulsefire-Raid-Software-Controlled-Customization/dp/B0828NDB43?tag=gearmatch-20",
+      "newegg": "https://www.newegg.com/p/173-00D3-000A5",
+      "walmart": null,
+      "bestbuy": "https://www.bestbuy.com/site/hyperx-pulsefire-raid-wired-optical-gaming-mouse-with-rgb-lighting-black/6332766.p?skuId=6332766"
+    },
+    "mouse_sensor_type": "PixArt PMW3389",
+    "mouse_dpi_max": 16000,
+    "mouse_polling_rate_max_hz": "1000",
+    "mouse_weight_g": 85,
+    "mouse_weight_class": "medium",
+    "mouse_grip_type": "palm",
+    "mouse_shape": "ergonomic_right",
+    "mouse_size_class": "large",
+    "mouse_connection_type": [
+      "wired_usb"
+    ],
+    "mouse_wireless": false,
+    "mouse_battery_life_hr": null,
+    "mouse_buttons_programmable": 11,
+    "mouse_stock_status": "in_stock"
   },
   {
     "id": "hyperx_pulsefire_saga_pro",
@@ -32098,19 +32436,18 @@
     "brand": "HyperX",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      65,
+      99
     ],
-    "product_url": "https://www.amazon.com/s?k=HyperX%20Pulsefire%20Warp&tag=gearmatch-20",
+    "product_url": "https://mechkeys.com/products/hyperx-pulsefire-warp-wireless-mouse",
     "recommendation_tags": [
       "wireless"
     ],
     "data_quality": {
-      "data_confidence": "low",
-      "primary_source_type": "manufacturer",
-      "source_name": "eloshapes",
-      "last_verified": "2026-03",
-      "notes": "Auto-imported from eloshapes CSV. Specs need verification."
+      "data_confidence": "medium",
+      "primary_source_type": "retailer",
+      "source_name": "MechKeys",
+      "last_verified": "2026-03"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -32153,7 +32490,29 @@
       "mouse_feel_tags": [],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/hyperx-pulsefire-warp.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/hyperx-pulsefire-warp.png?width=512&height=512&resize=contain",
+    "manufacturer_url": "https://hyperx.com/products/hyperx-pulsefire-warp",
+    "retailer_urls": {
+      "amazon": null,
+      "newegg": null,
+      "walmart": null,
+      "bestbuy": null
+    },
+    "mouse_sensor_type": "PixArt PAW3335",
+    "mouse_dpi_max": 16000,
+    "mouse_polling_rate_max_hz": "1000",
+    "mouse_weight_g": 74,
+    "mouse_weight_class": "light",
+    "mouse_grip_type": "palm",
+    "mouse_shape": "symmetrical",
+    "mouse_size_class": "medium",
+    "mouse_connection_type": [
+      "wireless_2_4_dongle"
+    ],
+    "mouse_wireless": true,
+    "mouse_battery_life_hr": 100,
+    "mouse_buttons_programmable": 6,
+    "mouse_stock_status": "limited"
   },
   {
     "id": "ifyoo_g03_long",
@@ -32161,19 +32520,18 @@
     "brand": "IFYOO",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      17,
+      25
     ],
-    "product_url": "https://www.amazon.com/s?k=IFYOO%20G03%20(Long)&tag=gearmatch-20",
+    "product_url": "https://www.amazon.com/IFYOO-Rechargeable-Mice%EF%BC%8CPAW3395-Replaceable-Programmable/dp/B0D3FJLSX2?tag=gearmatch-20",
     "recommendation_tags": [
       "wireless"
     ],
     "data_quality": {
-      "data_confidence": "low",
-      "primary_source_type": "manufacturer",
-      "source_name": "eloshapes",
-      "last_verified": "2026-03",
-      "notes": "Auto-imported from eloshapes CSV. Specs need verification."
+      "data_confidence": "high",
+      "primary_source_type": "retailer",
+      "source_name": "Amazon",
+      "last_verified": "2026-03"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -32218,7 +32576,30 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/ifyoo-g03-long.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/ifyoo-g03-long.png?width=512&height=512&resize=contain",
+    "manufacturer_url": "https://www.ifyoo.net/ifyoo-g03-black/",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/IFYOO-Rechargeable-Mice%EF%BC%8CPAW3395-Replaceable-Programmable/dp/B0D3FJLSX2?tag=gearmatch-20",
+      "newegg": null,
+      "walmart": null,
+      "bestbuy": null
+    },
+    "mouse_sensor_type": "PixArt PAW3395",
+    "mouse_dpi_max": 26000,
+    "mouse_polling_rate_max_hz": "1000",
+    "mouse_weight_g": 80,
+    "mouse_weight_class": "light",
+    "mouse_grip_type": "claw",
+    "mouse_shape": "ergonomic_right",
+    "mouse_size_class": "medium",
+    "mouse_connection_type": [
+      "wireless_2_4_dongle",
+      "wired_usb"
+    ],
+    "mouse_wireless": true,
+    "mouse_battery_life_hr": 80,
+    "mouse_buttons_programmable": 6,
+    "mouse_stock_status": "in_stock"
   },
   {
     "id": "ifyoo_g03_short",
@@ -32226,19 +32607,18 @@
     "brand": "IFYOO",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      17,
+      25
     ],
-    "product_url": "https://www.amazon.com/s?k=IFYOO%20G03%20(Short)&tag=gearmatch-20",
+    "product_url": "https://www.amazon.com/IFYOO-Rechargeable-Mice%EF%BC%8CPAW3395-Replaceable-Programmable/dp/B0D3FJLSX2?tag=gearmatch-20",
     "recommendation_tags": [
       "wireless"
     ],
     "data_quality": {
-      "data_confidence": "low",
-      "primary_source_type": "manufacturer",
-      "source_name": "eloshapes",
-      "last_verified": "2026-03",
-      "notes": "Auto-imported from eloshapes CSV. Specs need verification."
+      "data_confidence": "medium",
+      "primary_source_type": "retailer",
+      "source_name": "Amazon",
+      "last_verified": "2026-03"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -32283,7 +32663,30 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/ifyoo-g03-short.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/ifyoo-g03-short.png?width=512&height=512&resize=contain",
+    "manufacturer_url": "https://www.ifyoo.net/ifyoo-g03-black/",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/IFYOO-Rechargeable-Mice%EF%BC%8CPAW3395-Replaceable-Programmable/dp/B0D3FJLSX2?tag=gearmatch-20",
+      "newegg": null,
+      "walmart": null,
+      "bestbuy": null
+    },
+    "mouse_sensor_type": "PixArt PAW3395",
+    "mouse_dpi_max": 26000,
+    "mouse_polling_rate_max_hz": "1000",
+    "mouse_weight_g": 80,
+    "mouse_weight_class": "light",
+    "mouse_grip_type": "claw",
+    "mouse_shape": "ergonomic_right",
+    "mouse_size_class": "small",
+    "mouse_connection_type": [
+      "wireless_2_4_dongle",
+      "wired_usb"
+    ],
+    "mouse_wireless": true,
+    "mouse_battery_life_hr": 80,
+    "mouse_buttons_programmable": 6,
+    "mouse_stock_status": "in_stock"
   },
   {
     "id": "ifyoo_g63",
@@ -32291,20 +32694,19 @@
     "brand": "IFYOO",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      25,
+      35
     ],
-    "product_url": "https://www.amazon.com/s?k=IFYOO%20G63&tag=gearmatch-20",
+    "product_url": "https://www.amazon.com/IFYOO-Tri-Mode-Wireless-Lightweight-Programmable/dp/B0D3FH1S9J?tag=gearmatch-20",
     "recommendation_tags": [
       "4k_polling",
       "wireless"
     ],
     "data_quality": {
-      "data_confidence": "low",
-      "primary_source_type": "manufacturer",
-      "source_name": "eloshapes",
-      "last_verified": "2026-03",
-      "notes": "Auto-imported from eloshapes CSV. Specs need verification."
+      "data_confidence": "high",
+      "primary_source_type": "retailer",
+      "source_name": "Amazon",
+      "last_verified": "2026-03"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -32348,18 +32750,42 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/ifyoo-g63.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/ifyoo-g63.png?width=512&height=512&resize=contain",
+    "manufacturer_url": "https://www.ifyoo.net/ifyoo-g63-whiteblack/",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/IFYOO-Tri-Mode-Wireless-Lightweight-Programmable/dp/B0D3FH1S9J?tag=gearmatch-20",
+      "newegg": "https://www.newegg.com/p/3C6-0688-01BP2",
+      "walmart": null,
+      "bestbuy": null
+    },
+    "mouse_sensor_type": "PixArt PAW3395",
+    "mouse_dpi_max": 26000,
+    "mouse_polling_rate_max_hz": "4000",
+    "mouse_weight_g": 58,
+    "mouse_weight_class": "ultra_light",
+    "mouse_grip_type": "fingertip",
+    "mouse_shape": "symmetrical",
+    "mouse_size_class": "small",
+    "mouse_connection_type": [
+      "wireless_2_4_dongle",
+      "bluetooth",
+      "wired_usb"
+    ],
+    "mouse_wireless": true,
+    "mouse_battery_life_hr": 100,
+    "mouse_buttons_programmable": 5,
+    "mouse_stock_status": "in_stock"
   },
   {
     "id": "imecoo_p1",
-    "name": "Imecoo P1",
-    "brand": "Imecoo",
+    "name": "IMECOO P1",
+    "brand": "IMECOO",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      69,
+      90
     ],
-    "product_url": "https://www.amazon.com/s?k=Imecoo%20P1&tag=gearmatch-20",
+    "product_url": "https://mechkeys.com/products/imecoo-p1",
     "recommendation_tags": [
       "8k_polling",
       "esports_grade_latency",
@@ -32368,11 +32794,10 @@
       "wireless"
     ],
     "data_quality": {
-      "data_confidence": "low",
-      "primary_source_type": "manufacturer",
-      "source_name": "eloshapes",
-      "last_verified": "2026-03",
-      "notes": "Auto-imported from eloshapes CSV. Specs need verification."
+      "data_confidence": "medium",
+      "primary_source_type": "retailer",
+      "source_name": "MechKeys",
+      "last_verified": "2026-03"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -32421,7 +32846,30 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/imecoo-p1.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/imecoo-p1.png?width=512&height=512&resize=contain",
+    "manufacturer_url": null,
+    "retailer_urls": {
+      "amazon": null,
+      "newegg": null,
+      "walmart": null,
+      "bestbuy": null
+    },
+    "mouse_sensor_type": "PixArt PAW3950",
+    "mouse_dpi_max": 30000,
+    "mouse_polling_rate_max_hz": "8000",
+    "mouse_weight_g": 55,
+    "mouse_weight_class": "ultra_light",
+    "mouse_grip_type": "claw",
+    "mouse_shape": "ergonomic_right",
+    "mouse_size_class": "medium",
+    "mouse_connection_type": [
+      "wireless_2_4_dongle",
+      "wired_usb"
+    ],
+    "mouse_wireless": true,
+    "mouse_battery_life_hr": 80,
+    "mouse_buttons_programmable": 5,
+    "mouse_stock_status": "limited"
   },
   {
     "id": "incott_029",
@@ -32429,20 +32877,19 @@
     "brand": "Incott",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      49,
+      65
     ],
-    "product_url": "https://www.amazon.com/s?k=Incott%20029&tag=gearmatch-20",
+    "product_url": "https://minixpc.com/products/incott-029-wireless-three-mode-8k-bluetooth-gaming-mouse-paw3395-light-weight-gasket-ergonomics",
     "recommendation_tags": [
       "ultralight",
       "wireless"
     ],
     "data_quality": {
-      "data_confidence": "low",
-      "primary_source_type": "manufacturer",
-      "source_name": "eloshapes",
-      "last_verified": "2026-03",
-      "notes": "Auto-imported from eloshapes CSV. Specs need verification."
+      "data_confidence": "medium",
+      "primary_source_type": "retailer",
+      "source_name": "MiniXPC",
+      "last_verified": "2026-03"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -32487,7 +32934,31 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://cdn.shopify.com/s/files/1/0550/0554/4682/files/9715f13b9da14dc0944fd28502e38c68.jpg?v=1750838349"
+    "image_url": "https://cdn.shopify.com/s/files/1/0550/0554/4682/files/9715f13b9da14dc0944fd28502e38c68.jpg?v=1750838349",
+    "manufacturer_url": null,
+    "retailer_urls": {
+      "amazon": null,
+      "newegg": null,
+      "walmart": null,
+      "bestbuy": null
+    },
+    "mouse_sensor_type": "PixArt PAW3395",
+    "mouse_dpi_max": 32000,
+    "mouse_polling_rate_max_hz": "8000",
+    "mouse_weight_g": 34,
+    "mouse_weight_class": "ultra_light",
+    "mouse_grip_type": "claw",
+    "mouse_shape": "ergonomic_right",
+    "mouse_size_class": "medium",
+    "mouse_connection_type": [
+      "wireless_2_4_dongle",
+      "bluetooth",
+      "wired_usb"
+    ],
+    "mouse_wireless": true,
+    "mouse_battery_life_hr": 100,
+    "mouse_buttons_programmable": 5,
+    "mouse_stock_status": "limited"
   },
   {
     "id": "incott_029_pro",
@@ -32495,10 +32966,10 @@
     "brand": "Incott",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      59,
+      75
     ],
-    "product_url": "https://www.amazon.com/s?k=Incott%20029%20Pro&tag=gearmatch-20",
+    "product_url": null,
     "recommendation_tags": [
       "8k_polling",
       "esports_grade_latency",
@@ -32507,11 +32978,10 @@
       "wireless"
     ],
     "data_quality": {
-      "data_confidence": "low",
-      "primary_source_type": "manufacturer",
-      "source_name": "eloshapes",
-      "last_verified": "2026-03",
-      "notes": "Auto-imported from eloshapes CSV. Specs need verification."
+      "data_confidence": "medium",
+      "primary_source_type": "retailer",
+      "source_name": "eBay",
+      "last_verified": "2026-03"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -32558,7 +33028,31 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/incott-zero-29.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/incott-zero-29.png?width=512&height=512&resize=contain",
+    "manufacturer_url": null,
+    "retailer_urls": {
+      "amazon": null,
+      "newegg": null,
+      "walmart": null,
+      "bestbuy": null
+    },
+    "mouse_sensor_type": "PixArt PAW3950",
+    "mouse_dpi_max": 45000,
+    "mouse_polling_rate_max_hz": "8000",
+    "mouse_weight_g": 41,
+    "mouse_weight_class": "ultra_light",
+    "mouse_grip_type": "claw",
+    "mouse_shape": "ergonomic_right",
+    "mouse_size_class": "medium",
+    "mouse_connection_type": [
+      "wireless_2_4_dongle",
+      "bluetooth",
+      "wired_usb"
+    ],
+    "mouse_wireless": true,
+    "mouse_battery_life_hr": 100,
+    "mouse_buttons_programmable": 5,
+    "mouse_stock_status": "limited"
   },
   {
     "id": "incott_029_sc",
@@ -32566,20 +33060,19 @@
     "brand": "Incott",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      49,
+      65
     ],
-    "product_url": "https://www.amazon.com/s?k=Incott%20029%20SC&tag=gearmatch-20",
+    "product_url": null,
     "recommendation_tags": [
       "ultralight",
       "wireless"
     ],
     "data_quality": {
       "data_confidence": "low",
-      "primary_source_type": "manufacturer",
-      "source_name": "eloshapes",
-      "last_verified": "2026-03",
-      "notes": "Auto-imported from eloshapes CSV. Specs need verification."
+      "primary_source_type": "community",
+      "source_name": "EloShapes",
+      "last_verified": "2026-03"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -32624,7 +33117,31 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://gearnovaperipherals.com/cdn/shop/files/029_incott.webp?v=1762335488"
+    "image_url": "https://gearnovaperipherals.com/cdn/shop/files/029_incott.webp?v=1762335488",
+    "manufacturer_url": null,
+    "retailer_urls": {
+      "amazon": null,
+      "newegg": null,
+      "walmart": null,
+      "bestbuy": null
+    },
+    "mouse_sensor_type": "PixArt PAW3395",
+    "mouse_dpi_max": 32000,
+    "mouse_polling_rate_max_hz": "8000",
+    "mouse_weight_g": 34,
+    "mouse_weight_class": "ultra_light",
+    "mouse_grip_type": "claw",
+    "mouse_shape": "ergonomic_right",
+    "mouse_size_class": "medium",
+    "mouse_connection_type": [
+      "wireless_2_4_dongle",
+      "bluetooth",
+      "wired_usb"
+    ],
+    "mouse_wireless": true,
+    "mouse_battery_life_hr": 100,
+    "mouse_buttons_programmable": 5,
+    "mouse_stock_status": "limited"
   },
   {
     "id": "incott_039",
@@ -32632,21 +33149,20 @@
     "brand": "Incott",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      59,
+      70
     ],
-    "product_url": "https://www.amazon.com/s?k=Incott%20039&tag=gearmatch-20",
+    "product_url": "https://minixpc.com/products/incott-039-wireless-gaming-mouse-dual-8k-tri-mode",
     "recommendation_tags": [
       "large_hands_friendly",
       "ultralight",
       "wireless"
     ],
     "data_quality": {
-      "data_confidence": "low",
-      "primary_source_type": "manufacturer",
-      "source_name": "eloshapes",
-      "last_verified": "2026-03",
-      "notes": "Auto-imported from eloshapes CSV. Specs need verification."
+      "data_confidence": "high",
+      "primary_source_type": "retailer",
+      "source_name": "MiniXPC",
+      "last_verified": "2026-03"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -32692,7 +33208,31 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/incott-039.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/incott-039.png?width=512&height=512&resize=contain",
+    "manufacturer_url": null,
+    "retailer_urls": {
+      "amazon": null,
+      "newegg": null,
+      "walmart": null,
+      "bestbuy": null
+    },
+    "mouse_sensor_type": "PixArt PAW3395",
+    "mouse_dpi_max": 32000,
+    "mouse_polling_rate_max_hz": "1000",
+    "mouse_weight_g": 48,
+    "mouse_weight_class": "light",
+    "mouse_grip_type": "palm",
+    "mouse_shape": "symmetrical",
+    "mouse_size_class": "large",
+    "mouse_connection_type": [
+      "wireless_2_4_dongle",
+      "bluetooth",
+      "wired_usb"
+    ],
+    "mouse_wireless": true,
+    "mouse_battery_life_hr": 120,
+    "mouse_buttons_programmable": 6,
+    "mouse_stock_status": "limited"
   },
   {
     "id": "incott_039_pro",
@@ -32700,10 +33240,10 @@
     "brand": "Incott",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      69,
+      80
     ],
-    "product_url": "https://www.amazon.com/s?k=Incott%20039%20Pro&tag=gearmatch-20",
+    "product_url": null,
     "recommendation_tags": [
       "8k_polling",
       "esports_grade_latency",
@@ -32713,11 +33253,10 @@
       "wireless"
     ],
     "data_quality": {
-      "data_confidence": "low",
-      "primary_source_type": "manufacturer",
-      "source_name": "eloshapes",
-      "last_verified": "2026-03",
-      "notes": "Auto-imported from eloshapes CSV. Specs need verification."
+      "data_confidence": "medium",
+      "primary_source_type": "community",
+      "source_name": "EloShapes",
+      "last_verified": "2026-03"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -32764,7 +33303,31 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/incott-039.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/incott-039.png?width=512&height=512&resize=contain",
+    "manufacturer_url": null,
+    "retailer_urls": {
+      "amazon": null,
+      "newegg": null,
+      "walmart": null,
+      "bestbuy": null
+    },
+    "mouse_sensor_type": "PixArt PAW3950",
+    "mouse_dpi_max": 45000,
+    "mouse_polling_rate_max_hz": "8000",
+    "mouse_weight_g": 52,
+    "mouse_weight_class": "light",
+    "mouse_grip_type": "palm",
+    "mouse_shape": "symmetrical",
+    "mouse_size_class": "large",
+    "mouse_connection_type": [
+      "wireless_2_4_dongle",
+      "bluetooth",
+      "wired_usb"
+    ],
+    "mouse_wireless": true,
+    "mouse_battery_life_hr": 120,
+    "mouse_buttons_programmable": 6,
+    "mouse_stock_status": "limited"
   },
   {
     "id": "incott_039_sc",
