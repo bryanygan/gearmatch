@@ -13742,10 +13742,9 @@
     ],
     "data_quality": {
       "data_confidence": "low",
-      "primary_source_type": "manufacturer",
-      "source_name": "eloshapes",
-      "last_verified": "2026-03",
-      "notes": "Auto-imported from eloshapes CSV. Specs need verification."
+      "primary_source_type": "community",
+      "source_name": "bymidorigroup.com",
+      "last_verified": "2026-03"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -13791,7 +13790,11 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/coolm0dz-finalt1p.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/coolm0dz-finalt1p.png?width=512&height=512&resize=contain",
+    "mouse_special_edition": true,
+    "mouse_discontinued": false,
+    "mouse_stock_status": "preorder",
+    "manufacturer_url": "https://bymidorigroup.com"
   },
   {
     "id": "coolm0dz_opt1p",
@@ -13799,8 +13802,8 @@
     "brand": "cOoLm0Dz",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      60,
+      60
     ],
     "product_url": "https://www.amazon.com/s?k=cOoLm0Dz%20OPt1p&tag=gearmatch-20",
     "recommendation_tags": [
@@ -13809,11 +13812,10 @@
       "ultralight"
     ],
     "data_quality": {
-      "data_confidence": "low",
-      "primary_source_type": "manufacturer",
-      "source_name": "eloshapes",
-      "last_verified": "2026-03",
-      "notes": "Auto-imported from eloshapes CSV. Specs need verification."
+      "data_confidence": "medium",
+      "primary_source_type": "community",
+      "source_name": "bymidorigroup.com",
+      "last_verified": "2026-03"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -13859,7 +13861,11 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/coolm0dz-opt1p.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/coolm0dz-opt1p.png?width=512&height=512&resize=contain",
+    "mouse_special_edition": true,
+    "mouse_discontinued": false,
+    "mouse_stock_status": "out_of_stock",
+    "manufacturer_url": "https://bymidorigroup.com"
   },
   {
     "id": "corsair_dark_core_rgb_pro",
@@ -31001,10 +31007,9 @@
     ],
     "data_quality": {
       "data_confidence": "low",
-      "primary_source_type": "manufacturer",
-      "source_name": "eloshapes",
-      "last_verified": "2026-03",
-      "notes": "Auto-imported from eloshapes CSV. Specs need verification."
+      "primary_source_type": "community",
+      "source_name": "Cults3D",
+      "last_verified": "2026-03"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -31050,7 +31055,11 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://fbi.cults3d.com/uploaders/24498606/illustration-file/0630ef71-b4c3-4439-a4c9-6188e5035c96/asd.jpg"
+    "image_url": "https://fbi.cults3d.com/uploaders/24498606/illustration-file/0630ef71-b4c3-4439-a4c9-6188e5035c96/asd.jpg",
+    "mouse_special_edition": true,
+    "mouse_discontinued": false,
+    "mouse_stock_status": "out_of_stock",
+    "manufacturer_url": "https://cults3d.com/@HaunterWell"
   },
   {
     "id": "haunterwell_hmf",
@@ -31069,10 +31078,9 @@
     ],
     "data_quality": {
       "data_confidence": "low",
-      "primary_source_type": "manufacturer",
-      "source_name": "eloshapes",
-      "last_verified": "2026-03",
-      "notes": "Auto-imported from eloshapes CSV. Specs need verification."
+      "primary_source_type": "community",
+      "source_name": "Cults3D",
+      "last_verified": "2026-03"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -31117,7 +31125,11 @@
         "safe_shape"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "mouse_special_edition": true,
+    "mouse_discontinued": false,
+    "mouse_stock_status": "out_of_stock",
+    "manufacturer_url": "https://cults3d.com/@HaunterWell"
   },
   {
     "id": "haunterwell_hz1",
@@ -31137,10 +31149,9 @@
     ],
     "data_quality": {
       "data_confidence": "low",
-      "primary_source_type": "manufacturer",
-      "source_name": "eloshapes",
-      "last_verified": "2026-03",
-      "notes": "Auto-imported from eloshapes CSV. Specs need verification."
+      "primary_source_type": "community",
+      "source_name": "Cults3D",
+      "last_verified": "2026-03"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -31186,7 +31197,11 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://fbi.cults3d.com/uploaders/24498606/illustration-file/41f927a6-5665-4e6e-b4ff-78b666b7d524/Mz1_2024-Jun-21_01-27-37AM-000_CustomizedView4021420848_jpg.jpg"
+    "image_url": "https://fbi.cults3d.com/uploaders/24498606/illustration-file/41f927a6-5665-4e6e-b4ff-78b666b7d524/Mz1_2024-Jun-21_01-27-37AM-000_CustomizedView4021420848_jpg.jpg",
+    "mouse_special_edition": true,
+    "mouse_discontinued": false,
+    "mouse_stock_status": "out_of_stock",
+    "manufacturer_url": "https://cults3d.com/@HaunterWell"
   },
   {
     "id": "haunterwell_hzs",
@@ -31205,10 +31220,9 @@
     ],
     "data_quality": {
       "data_confidence": "low",
-      "primary_source_type": "manufacturer",
-      "source_name": "eloshapes",
-      "last_verified": "2026-03",
-      "notes": "Auto-imported from eloshapes CSV. Specs need verification."
+      "primary_source_type": "community",
+      "source_name": "Cults3D",
+      "last_verified": "2026-03"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -31254,7 +31268,11 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://fbi.cults3d.com/uploaders/24498606/illustration-file/6a5c0078-3fc5-44cd-80ed-0d8aa2ea2a6c/Desenvo-12.png"
+    "image_url": "https://fbi.cults3d.com/uploaders/24498606/illustration-file/6a5c0078-3fc5-44cd-80ed-0d8aa2ea2a6c/Desenvo-12.png",
+    "mouse_special_edition": true,
+    "mouse_discontinued": false,
+    "mouse_stock_status": "out_of_stock",
+    "manufacturer_url": "https://cults3d.com/@HaunterWell"
   },
   {
     "id": "higround_yuma",
@@ -37369,7 +37387,7 @@
     "mouse_weight_g": 55,
     "mouse_weight_class": "light",
     "mouse_grip_type": "claw",
-    "mouse_shape": "ergonomic",
+    "mouse_shape": "ergonomic_right",
     "mouse_size_class": "small",
     "mouse_connection_type": [
       "wireless_2_4_dongle",
@@ -37456,7 +37474,7 @@
     "mouse_weight_g": 55,
     "mouse_weight_class": "light",
     "mouse_grip_type": "claw",
-    "mouse_shape": "ergonomic",
+    "mouse_shape": "ergonomic_right",
     "mouse_size_class": "small",
     "mouse_connection_type": [
       "wireless_2_4_dongle",
@@ -37544,7 +37562,7 @@
     "mouse_weight_g": 57,
     "mouse_weight_class": "light",
     "mouse_grip_type": "claw",
-    "mouse_shape": "ergonomic",
+    "mouse_shape": "ergonomic_right",
     "mouse_size_class": "small",
     "mouse_connection_type": [
       "wireless_2_4_dongle",
@@ -37630,7 +37648,7 @@
     "mouse_weight_g": 59,
     "mouse_weight_class": "light",
     "mouse_grip_type": "claw",
-    "mouse_shape": "ergonomic",
+    "mouse_shape": "ergonomic_right",
     "mouse_size_class": "small",
     "mouse_connection_type": [
       "wireless_2_4_dongle",
@@ -37809,7 +37827,7 @@
     "mouse_weight_g": 41,
     "mouse_weight_class": "ultra_light",
     "mouse_grip_type": "claw",
-    "mouse_shape": "ergonomic",
+    "mouse_shape": "ergonomic_right",
     "mouse_size_class": "small",
     "mouse_connection_type": [
       "wireless_2_4_dongle",
@@ -37897,7 +37915,7 @@
     "mouse_weight_g": 40,
     "mouse_weight_class": "ultra_light",
     "mouse_grip_type": "claw",
-    "mouse_shape": "ergonomic",
+    "mouse_shape": "ergonomic_right",
     "mouse_size_class": "small",
     "mouse_connection_type": [
       "wireless_2_4_dongle",
@@ -37991,7 +38009,7 @@
     "mouse_weight_g": 41,
     "mouse_weight_class": "ultra_light",
     "mouse_grip_type": "claw",
-    "mouse_shape": "ergonomic",
+    "mouse_shape": "ergonomic_right",
     "mouse_size_class": "small",
     "mouse_connection_type": [
       "wireless_2_4_dongle",
@@ -38198,10 +38216,9 @@
     ],
     "data_quality": {
       "data_confidence": "low",
-      "primary_source_type": "manufacturer",
-      "source_name": "eloshapes",
-      "last_verified": "2026-03",
-      "notes": "Auto-imported from eloshapes CSV. Specs need verification."
+      "primary_source_type": "community",
+      "source_name": "EloShapes (pre-indexed)",
+      "last_verified": "2026-03"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -38245,7 +38262,10 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/kysona-vela-ReHhE.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/kysona-vela-ReHhE.png?width=512&height=512&resize=contain",
+    "mouse_discontinued": false,
+    "mouse_stock_status": "preorder",
+    "manufacturer_url": "https://shop.kysona.com"
   },
   {
     "id": "fnatic_lamzu_maya_8k",
