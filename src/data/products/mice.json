@@ -35596,20 +35596,19 @@
     "brand": "Keychron",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      19,
+      31
     ],
-    "product_url": "https://www.amazon.com/s?k=Keychron%20BM25&tag=gearmatch-20",
+    "product_url": "https://www.amazon.com/Keychron-Ergonomic-Rechargeable-Adjustable-Programmable/dp/B0FXB348VC?tag=gearmatch-20",
     "recommendation_tags": [
       "small_hands_friendly",
       "wireless"
     ],
     "data_quality": {
-      "data_confidence": "low",
-      "primary_source_type": "manufacturer",
-      "source_name": "eloshapes",
-      "last_verified": "2026-03",
-      "notes": "Auto-imported from eloshapes CSV. Specs need verification."
+      "data_confidence": "high",
+      "primary_source_type": "official",
+      "source_name": "Keychron Official",
+      "last_verified": "2026-03"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -35653,7 +35652,31 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/keychron-bm25.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/keychron-bm25.png?width=512&height=512&resize=contain",
+    "manufacturer_url": "https://www.keychron.com/products/keychron-bm25-wireless-mouse",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/Keychron-Ergonomic-Rechargeable-Adjustable-Programmable/dp/B0FXB348VC?tag=gearmatch-20",
+      "newegg": null,
+      "walmart": null,
+      "bestbuy": null
+    },
+    "mouse_sensor_type": "PAW3212",
+    "mouse_dpi_max": 2400,
+    "mouse_polling_rate_max_hz": "1000",
+    "mouse_weight_g": 79,
+    "mouse_weight_class": "medium",
+    "mouse_grip_type": "palm",
+    "mouse_shape": "ergonomic_right",
+    "mouse_size_class": "large",
+    "mouse_connection_type": [
+      "wireless_2_4_dongle",
+      "bluetooth",
+      "wired_usb"
+    ],
+    "mouse_wireless": true,
+    "mouse_battery_life_hr": 98,
+    "mouse_buttons_programmable": 5,
+    "mouse_stock_status": "in_stock"
   },
   {
     "id": "keychron_lemokey_g1",
@@ -35661,10 +35684,10 @@
     "brand": "Keychron",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      64,
+      69
     ],
-    "product_url": "https://www.amazon.com/s?k=Keychron%20Lemokey%20G1&tag=gearmatch-20",
+    "product_url": "https://www.amazon.com/LEMOKEY-Wireless-Bluetooth-Ultra-Lightweight-Programmable/dp/B0DDT9W3RP?tag=gearmatch-20",
     "recommendation_tags": [
       "8k_polling",
       "esports_grade_latency",
@@ -35672,11 +35695,10 @@
       "wireless"
     ],
     "data_quality": {
-      "data_confidence": "low",
-      "primary_source_type": "manufacturer",
-      "source_name": "eloshapes",
-      "last_verified": "2026-03",
-      "notes": "Auto-imported from eloshapes CSV. Specs need verification."
+      "data_confidence": "high",
+      "primary_source_type": "official",
+      "source_name": "Keychron Official",
+      "last_verified": "2026-03"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -35723,7 +35745,31 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/keychron-lemokey-g1.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/keychron-lemokey-g1.png?width=512&height=512&resize=contain",
+    "manufacturer_url": "https://www.keychron.com/products/lemokey-g1-wireless-mouse",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/LEMOKEY-Wireless-Bluetooth-Ultra-Lightweight-Programmable/dp/B0DDT9W3RP?tag=gearmatch-20",
+      "newegg": null,
+      "walmart": null,
+      "bestbuy": null
+    },
+    "mouse_sensor_type": "PixArt PAW3950",
+    "mouse_dpi_max": 30000,
+    "mouse_polling_rate_max_hz": "8000",
+    "mouse_weight_g": 55,
+    "mouse_weight_class": "ultra_light",
+    "mouse_grip_type": "claw",
+    "mouse_shape": "symmetrical",
+    "mouse_size_class": "small",
+    "mouse_connection_type": [
+      "wireless_2_4_dongle",
+      "bluetooth",
+      "wired_usb"
+    ],
+    "mouse_wireless": true,
+    "mouse_battery_life_hr": 140,
+    "mouse_buttons_programmable": 5,
+    "mouse_stock_status": "in_stock"
   },
   {
     "id": "keychron_lemokey_g2",
@@ -35731,10 +35777,10 @@
     "brand": "Keychron",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      59,
+      69
     ],
-    "product_url": "https://www.amazon.com/s?k=Keychron%20Lemokey%20G2&tag=gearmatch-20",
+    "product_url": "https://www.amazon.com/Lemokey-PixArt-Lightweight-Programmable-Connection/dp/B0FN2HG8P5?tag=gearmatch-20",
     "recommendation_tags": [
       "8k_polling",
       "esports_grade_latency",
@@ -35743,11 +35789,10 @@
       "wireless"
     ],
     "data_quality": {
-      "data_confidence": "low",
-      "primary_source_type": "manufacturer",
-      "source_name": "eloshapes",
-      "last_verified": "2026-03",
-      "notes": "Auto-imported from eloshapes CSV. Specs need verification."
+      "data_confidence": "high",
+      "primary_source_type": "official",
+      "source_name": "Keychron Official",
+      "last_verified": "2026-03"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -35793,7 +35838,31 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/keychron-lemokey-g2.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/keychron-lemokey-g2.png?width=512&height=512&resize=contain",
+    "manufacturer_url": "https://www.keychron.com/products/lemokey-g2-wireless-mouse",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/Lemokey-PixArt-Lightweight-Programmable-Connection/dp/B0FN2HG8P5?tag=gearmatch-20",
+      "newegg": null,
+      "walmart": null,
+      "bestbuy": null
+    },
+    "mouse_sensor_type": "PixArt PAW3950",
+    "mouse_dpi_max": 30000,
+    "mouse_polling_rate_max_hz": "8000",
+    "mouse_weight_g": 52,
+    "mouse_weight_class": "ultra_light",
+    "mouse_grip_type": "claw",
+    "mouse_shape": "symmetrical",
+    "mouse_size_class": "small",
+    "mouse_connection_type": [
+      "wireless_2_4_dongle",
+      "bluetooth",
+      "wired_usb"
+    ],
+    "mouse_wireless": true,
+    "mouse_battery_life_hr": 140,
+    "mouse_buttons_programmable": 5,
+    "mouse_stock_status": "in_stock"
   },
   {
     "id": "keychron_m1_wired",
@@ -35801,19 +35870,18 @@
     "brand": "Keychron",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      39,
+      49
     ],
-    "product_url": "https://www.amazon.com/s?k=Keychron%20M1%20Wired&tag=gearmatch-20",
+    "product_url": "https://www.amazon.com/Keychron-M1-PMW3389-Ultra-Lightweight-Backlit/dp/B09G338RLD?tag=gearmatch-20",
     "recommendation_tags": [
       "large_hands_friendly"
     ],
     "data_quality": {
-      "data_confidence": "low",
-      "primary_source_type": "manufacturer",
-      "source_name": "eloshapes",
-      "last_verified": "2026-03",
-      "notes": "Auto-imported from eloshapes CSV. Specs need verification."
+      "data_confidence": "high",
+      "primary_source_type": "official",
+      "source_name": "Keychron Official",
+      "last_verified": "2026-03"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -35858,7 +35926,29 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/keychron-m1-wired.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/keychron-m1-wired.png?width=512&height=512&resize=contain",
+    "manufacturer_url": "https://www.keychron.com/products/keychron-m1-mouse",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/Keychron-M1-PMW3389-Ultra-Lightweight-Backlit/dp/B09G338RLD?tag=gearmatch-20",
+      "newegg": null,
+      "walmart": null,
+      "bestbuy": "https://www.bestbuy.com/product/keychron-wireless-mouse-m1-a3-wireless-black/CGC7F974Q3"
+    },
+    "mouse_sensor_type": "PMW3389",
+    "mouse_dpi_max": 16000,
+    "mouse_polling_rate_max_hz": "1000",
+    "mouse_weight_g": 68,
+    "mouse_weight_class": "light",
+    "mouse_grip_type": "claw",
+    "mouse_shape": "ergonomic_right",
+    "mouse_size_class": "medium",
+    "mouse_connection_type": [
+      "wired_usb"
+    ],
+    "mouse_wireless": false,
+    "mouse_battery_life_hr": null,
+    "mouse_buttons_programmable": 6,
+    "mouse_stock_status": "in_stock"
   },
   {
     "id": "keychron_m1_wireless",
@@ -36159,20 +36249,19 @@
     "brand": "Keychron",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      49,
+      59
     ],
-    "product_url": "https://www.amazon.com/s?k=Keychron%20M2%20Mini&tag=gearmatch-20",
+    "product_url": "https://www.amazon.com/Keychron-M2-Mini-Wireless-Mouse/dp/B0DQVBH9D7?tag=gearmatch-20",
     "recommendation_tags": [
       "ultralight",
       "wireless"
     ],
     "data_quality": {
-      "data_confidence": "low",
-      "primary_source_type": "manufacturer",
-      "source_name": "eloshapes",
-      "last_verified": "2026-03",
-      "notes": "Auto-imported from eloshapes CSV. Specs need verification."
+      "data_confidence": "high",
+      "primary_source_type": "official",
+      "source_name": "Keychron Official",
+      "last_verified": "2026-03"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -36219,7 +36308,31 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/keychron-m2-mini.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/keychron-m2-mini.png?width=512&height=512&resize=contain",
+    "manufacturer_url": "https://www.keychron.com/products/keychron-m2-mini-wireless-mouse",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/Keychron-M2-Mini-Wireless-Mouse/dp/B0DQVBH9D7?tag=gearmatch-20",
+      "newegg": null,
+      "walmart": null,
+      "bestbuy": null
+    },
+    "mouse_sensor_type": "PixArt PAW3950",
+    "mouse_dpi_max": 30000,
+    "mouse_polling_rate_max_hz": "8000",
+    "mouse_weight_g": 50,
+    "mouse_weight_class": "ultra_light",
+    "mouse_grip_type": "claw",
+    "mouse_shape": "symmetrical",
+    "mouse_size_class": "small",
+    "mouse_connection_type": [
+      "wireless_2_4_dongle",
+      "bluetooth",
+      "wired_usb"
+    ],
+    "mouse_wireless": true,
+    "mouse_battery_life_hr": 140,
+    "mouse_buttons_programmable": 5,
+    "mouse_stock_status": "in_stock"
   },
   {
     "id": "keychron_m3",
@@ -36730,19 +36843,18 @@
     "brand": "Kysona",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      34,
+      79
     ],
-    "product_url": "https://www.amazon.com/s?k=Kysona%20Aztec&tag=gearmatch-20",
+    "product_url": "https://www.amazon.com/KYSONA-Wireless-Ultralight-Programmable-AZTEC/dp/B0CRL9338N?tag=gearmatch-20",
     "recommendation_tags": [
       "wireless"
     ],
     "data_quality": {
-      "data_confidence": "low",
-      "primary_source_type": "manufacturer",
-      "source_name": "eloshapes",
-      "last_verified": "2026-03",
-      "notes": "Auto-imported from eloshapes CSV. Specs need verification."
+      "data_confidence": "high",
+      "primary_source_type": "official",
+      "source_name": "Kysona Official Store",
+      "last_verified": "2026-03"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -36786,7 +36898,31 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/kysona-aztec.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/kysona-aztec.png?width=512&height=512&resize=contain",
+    "manufacturer_url": "https://shop.kysona.com/products/aztec",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/KYSONA-Wireless-Ultralight-Programmable-AZTEC/dp/B0CRL9338N?tag=gearmatch-20",
+      "newegg": null,
+      "walmart": null,
+      "bestbuy": null
+    },
+    "mouse_sensor_type": "PAW3395",
+    "mouse_dpi_max": 26000,
+    "mouse_polling_rate_max_hz": "1000",
+    "mouse_weight_g": 55,
+    "mouse_weight_class": "ultra_light",
+    "mouse_grip_type": "claw",
+    "mouse_shape": "symmetrical",
+    "mouse_size_class": "small",
+    "mouse_connection_type": [
+      "wireless_2_4_dongle",
+      "bluetooth",
+      "wired_usb"
+    ],
+    "mouse_wireless": true,
+    "mouse_battery_life_hr": 80,
+    "mouse_buttons_programmable": 6,
+    "mouse_stock_status": "in_stock"
   },
   {
     "id": "kysona_jupiter_pro",
@@ -36794,10 +36930,10 @@
     "brand": "Kysona",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      45,
+      91
     ],
-    "product_url": "https://www.amazon.com/s?k=Kysona%20Jupiter%20Pro&tag=gearmatch-20",
+    "product_url": "https://www.amazon.com/KYSONA-Wireless-Ultralight-Cool-Touch-Programmable/dp/B0FHBLRTGF?tag=gearmatch-20",
     "recommendation_tags": [
       "8k_polling",
       "large_hands_friendly",
@@ -36805,11 +36941,10 @@
       "wireless"
     ],
     "data_quality": {
-      "data_confidence": "low",
-      "primary_source_type": "manufacturer",
-      "source_name": "eloshapes",
-      "last_verified": "2026-03",
-      "notes": "Auto-imported from eloshapes CSV. Specs need verification."
+      "data_confidence": "high",
+      "primary_source_type": "official",
+      "source_name": "Kysona Official Store",
+      "last_verified": "2026-03"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -36856,7 +36991,31 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/kysona-saturn.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/kysona-saturn.png?width=512&height=512&resize=contain",
+    "manufacturer_url": "https://shop.kysona.com/products/kysona-jupiter-wireless-gaming-mouse",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/KYSONA-Wireless-Ultralight-Cool-Touch-Programmable/dp/B0FHBLRTGF?tag=gearmatch-20",
+      "newegg": null,
+      "walmart": null,
+      "bestbuy": null
+    },
+    "mouse_sensor_type": "PAW3395",
+    "mouse_dpi_max": 26000,
+    "mouse_polling_rate_max_hz": "8000",
+    "mouse_weight_g": 49,
+    "mouse_weight_class": "ultra_light",
+    "mouse_grip_type": "claw",
+    "mouse_shape": "symmetrical",
+    "mouse_size_class": "small",
+    "mouse_connection_type": [
+      "wireless_2_4_dongle",
+      "bluetooth",
+      "wired_usb"
+    ],
+    "mouse_wireless": true,
+    "mouse_battery_life_hr": 300,
+    "mouse_buttons_programmable": 5,
+    "mouse_stock_status": "in_stock"
   },
   {
     "id": "kysona_jupiter_se",
@@ -36864,13 +37023,16 @@
     "brand": "Kysona",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      24,
+      59
     ],
     "image_url": "https://i5.walmartimages.com/asr/8c72f47a-de0b-4402-9e52-ead4f570b630.b96009424b72782d502bfbb90c1c079d.jpeg?odnHeight=450&odnWidth=450&odnBg=ffffff",
-    "product_url": "https://www.amazon.com/s?k=Kysona%20Jupiter%20SE&tag=gearmatch-20",
+    "product_url": "https://www.amazon.com/KYSONA-Jupiter-Wireless-Ultralight-Programmable/dp/B0FHBG54G2?tag=gearmatch-20",
     "retailer_urls": {
-      "walmart": "https://goto.walmart.com/c/|PUBID|/568844/9383?veh=aff&sourceid=imp_000011112222333344&u=https%3A%2F%2Fwww.walmart.com%2Fip%2F17763103916"
+      "amazon": "https://www.amazon.com/KYSONA-Jupiter-Wireless-Ultralight-Programmable/dp/B0FHBG54G2?tag=gearmatch-20",
+      "newegg": "https://www.newegg.com/p/3C6-02AV-00VR3",
+      "walmart": "https://www.walmart.com/ip/KYSONA-Jupiter-SE-Wireless-Gaming-Mouse-24000-DPI-Optical-Sensor-Ultralight-46G-300-Hr-Battery-Life-5-Programmable-Buttons-PC-Mac-Laptop-Black/17749958515",
+      "bestbuy": null
     },
     "recommendation_tags": [
       "large_hands_friendly",
@@ -36878,11 +37040,10 @@
       "wireless"
     ],
     "data_quality": {
-      "data_confidence": "low",
-      "primary_source_type": "manufacturer",
-      "source_name": "eloshapes",
-      "last_verified": "2026-03",
-      "notes": "Auto-imported from eloshapes CSV. Specs need verification."
+      "data_confidence": "high",
+      "primary_source_type": "official",
+      "source_name": "Kysona Official Store",
+      "last_verified": "2026-03"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -36927,7 +37088,25 @@
         "portable"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "manufacturer_url": "https://shop.kysona.com/products/kysona-jupiter-wireless-gaming-mouse",
+    "mouse_sensor_type": "PixArt PAW3311",
+    "mouse_dpi_max": 24000,
+    "mouse_polling_rate_max_hz": "1000",
+    "mouse_weight_g": 46,
+    "mouse_weight_class": "ultra_light",
+    "mouse_grip_type": "claw",
+    "mouse_shape": "symmetrical",
+    "mouse_size_class": "small",
+    "mouse_connection_type": [
+      "wireless_2_4_dongle",
+      "bluetooth",
+      "wired_usb"
+    ],
+    "mouse_wireless": true,
+    "mouse_battery_life_hr": 300,
+    "mouse_buttons_programmable": 6,
+    "mouse_stock_status": "in_stock"
   },
   {
     "id": "kysona_jupiter_ultra",
@@ -36935,13 +37114,16 @@
     "brand": "Kysona",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      59,
+      99
     ],
     "image_url": "https://i5.walmartimages.com/asr/8c72f47a-de0b-4402-9e52-ead4f570b630.b96009424b72782d502bfbb90c1c079d.jpeg?odnHeight=450&odnWidth=450&odnBg=ffffff",
-    "product_url": "https://www.amazon.com/s?k=Kysona%20Jupiter%20Ultra&tag=gearmatch-20",
+    "product_url": "https://www.amazon.com/KYSONA-Jupiter-Wireless-Ultralight-Metallic/dp/B0FHBLFXBJ?tag=gearmatch-20",
     "retailer_urls": {
-      "walmart": "https://goto.walmart.com/c/|PUBID|/568844/9383?veh=aff&sourceid=imp_000011112222333344&u=https%3A%2F%2Fwww.walmart.com%2Fip%2F17763103916"
+      "amazon": "https://www.amazon.com/KYSONA-Jupiter-Wireless-Ultralight-Metallic/dp/B0FHBLFXBJ?tag=gearmatch-20",
+      "newegg": null,
+      "walmart": "https://www.walmart.com/ip/Jupiter-Ultra-Wireless-Gaming-Mouse-42000-DPI-PAW3950-MAX-Sensor-Optical-Micro-Switch-Ultralight-46g-Nordic-52840-MCU-Dual-8k-Polling-Rate-Metallic-R/17763103916",
+      "bestbuy": null
     },
     "recommendation_tags": [
       "8k_polling",
@@ -36952,11 +37134,10 @@
       "wireless"
     ],
     "data_quality": {
-      "data_confidence": "low",
-      "primary_source_type": "manufacturer",
-      "source_name": "eloshapes",
-      "last_verified": "2026-03",
-      "notes": "Auto-imported from eloshapes CSV. Specs need verification."
+      "data_confidence": "high",
+      "primary_source_type": "official",
+      "source_name": "Kysona Official Store",
+      "last_verified": "2026-03"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -37004,7 +37185,25 @@
         "portable"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "manufacturer_url": "https://shop.kysona.com/products/kysona-jupiter-wireless-gaming-mouse",
+    "mouse_sensor_type": "PAW3950",
+    "mouse_dpi_max": 42000,
+    "mouse_polling_rate_max_hz": "8000",
+    "mouse_weight_g": 49,
+    "mouse_weight_class": "ultra_light",
+    "mouse_grip_type": "claw",
+    "mouse_shape": "symmetrical",
+    "mouse_size_class": "small",
+    "mouse_connection_type": [
+      "wireless_2_4_dongle",
+      "bluetooth",
+      "wired_usb"
+    ],
+    "mouse_wireless": true,
+    "mouse_battery_life_hr": null,
+    "mouse_buttons_programmable": 5,
+    "mouse_stock_status": "in_stock"
   },
   {
     "id": "kysona_m511",
@@ -37012,23 +37211,25 @@
     "brand": "Kysona",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      39,
+      79
     ],
     "image_url": "https://i5.walmartimages.com/asr/3cba0130-819d-4a86-b38c-32b217a75aef.d5673ac907eac3d71186ace88b59598d.jpeg?odnHeight=450&odnWidth=450&odnBg=ffffff",
-    "product_url": "https://www.amazon.com/s?k=Kysona%20M511&tag=gearmatch-20",
+    "product_url": "https://shop.kysona.com/products/m511-right-hand-mouse",
     "retailer_urls": {
-      "walmart": "https://goto.walmart.com/c/|PUBID|/568844/9383?veh=aff&sourceid=imp_000011112222333344&u=https%3A%2F%2Fwww.walmart.com%2Fip%2F17731151592"
+      "amazon": null,
+      "newegg": null,
+      "walmart": null,
+      "bestbuy": null
     },
     "recommendation_tags": [
       "wireless"
     ],
     "data_quality": {
-      "data_confidence": "low",
-      "primary_source_type": "manufacturer",
-      "source_name": "eloshapes",
-      "last_verified": "2026-03",
-      "notes": "Auto-imported from eloshapes CSV. Specs need verification."
+      "data_confidence": "medium",
+      "primary_source_type": "official",
+      "source_name": "Kysona Official Store",
+      "last_verified": "2026-03"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -37073,7 +37274,25 @@
         "portable"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "manufacturer_url": "https://shop.kysona.com/products/m511-right-hand-mouse",
+    "mouse_sensor_type": "PAW3395",
+    "mouse_dpi_max": 26000,
+    "mouse_polling_rate_max_hz": "1000",
+    "mouse_weight_g": 58,
+    "mouse_weight_class": "light",
+    "mouse_grip_type": "claw",
+    "mouse_shape": "ergonomic_right",
+    "mouse_size_class": "medium",
+    "mouse_connection_type": [
+      "wireless_2_4_dongle",
+      "bluetooth",
+      "wired_usb"
+    ],
+    "mouse_wireless": true,
+    "mouse_battery_life_hr": null,
+    "mouse_buttons_programmable": 6,
+    "mouse_stock_status": "in_stock"
   },
   {
     "id": "kysona_m600",
@@ -37081,23 +37300,25 @@
     "brand": "Kysona",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      32,
+      84
     ],
     "image_url": "https://i5.walmartimages.com/asr/3cba0130-819d-4a86-b38c-32b217a75aef.d5673ac907eac3d71186ace88b59598d.jpeg?odnHeight=450&odnWidth=450&odnBg=ffffff",
-    "product_url": "https://www.amazon.com/s?k=Kysona%20M600&tag=gearmatch-20",
+    "product_url": "https://www.amazon.com/KYSONA-Wireless-Ultralight-Lag-Free-Programmable/dp/B0CCZZP3X3?tag=gearmatch-20",
     "retailer_urls": {
-      "walmart": "https://goto.walmart.com/c/|PUBID|/568844/9383?veh=aff&sourceid=imp_000011112222333344&u=https%3A%2F%2Fwww.walmart.com%2Fip%2F17731151592"
+      "amazon": "https://www.amazon.com/KYSONA-Wireless-Ultralight-Lag-Free-Programmable/dp/B0CCZZP3X3?tag=gearmatch-20",
+      "newegg": null,
+      "walmart": null,
+      "bestbuy": null
     },
     "recommendation_tags": [
       "wireless"
     ],
     "data_quality": {
-      "data_confidence": "low",
-      "primary_source_type": "manufacturer",
-      "source_name": "eloshapes",
-      "last_verified": "2026-03",
-      "notes": "Auto-imported from eloshapes CSV. Specs need verification."
+      "data_confidence": "high",
+      "primary_source_type": "official",
+      "source_name": "Amazon",
+      "last_verified": "2026-03"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -37140,7 +37361,25 @@
         "portable"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "manufacturer_url": "https://shop.kysona.com/products/m600-ultra-lightweight-wireless-gaming-mouse",
+    "mouse_sensor_type": "PixArt PAW3395",
+    "mouse_dpi_max": 26000,
+    "mouse_polling_rate_max_hz": "1000",
+    "mouse_weight_g": 55,
+    "mouse_weight_class": "light",
+    "mouse_grip_type": "claw",
+    "mouse_shape": "ergonomic",
+    "mouse_size_class": "small",
+    "mouse_connection_type": [
+      "wireless_2_4_dongle",
+      "bluetooth",
+      "wired_usb"
+    ],
+    "mouse_wireless": true,
+    "mouse_battery_life_hr": 80,
+    "mouse_buttons_programmable": 6,
+    "mouse_stock_status": "in_stock"
   },
   {
     "id": "kysona_m600_v2",
@@ -37148,23 +37387,25 @@
     "brand": "Kysona",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      32,
+      82
     ],
     "image_url": "https://i5.walmartimages.com/asr/3cba0130-819d-4a86-b38c-32b217a75aef.d5673ac907eac3d71186ace88b59598d.jpeg?odnHeight=450&odnWidth=450&odnBg=ffffff",
-    "product_url": "https://www.amazon.com/s?k=Kysona%20M600%20V2&tag=gearmatch-20",
+    "product_url": "https://www.amazon.com/KYSONA-Wireless-Ultralight-Lag-Free-Programmable/dp/B0F1F2JQHM?tag=gearmatch-20",
     "retailer_urls": {
-      "walmart": "https://goto.walmart.com/c/|PUBID|/568844/9383?veh=aff&sourceid=imp_000011112222333344&u=https%3A%2F%2Fwww.walmart.com%2Fip%2F17731151592"
+      "amazon": "https://www.amazon.com/KYSONA-Wireless-Ultralight-Lag-Free-Programmable/dp/B0F1F2JQHM?tag=gearmatch-20",
+      "newegg": null,
+      "walmart": null,
+      "bestbuy": null
     },
     "recommendation_tags": [
       "wireless"
     ],
     "data_quality": {
-      "data_confidence": "low",
-      "primary_source_type": "manufacturer",
-      "source_name": "eloshapes",
-      "last_verified": "2026-03",
-      "notes": "Auto-imported from eloshapes CSV. Specs need verification."
+      "data_confidence": "high",
+      "primary_source_type": "official",
+      "source_name": "Amazon",
+      "last_verified": "2026-03"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -37207,7 +37448,25 @@
         "portable"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "manufacturer_url": "https://shop.kysona.com/products/new-kysona-m600-v2-wireless-gaming-mouse",
+    "mouse_sensor_type": "PixArt PAW3395",
+    "mouse_dpi_max": 26000,
+    "mouse_polling_rate_max_hz": "1000",
+    "mouse_weight_g": 55,
+    "mouse_weight_class": "light",
+    "mouse_grip_type": "claw",
+    "mouse_shape": "ergonomic",
+    "mouse_size_class": "small",
+    "mouse_connection_type": [
+      "wireless_2_4_dongle",
+      "bluetooth",
+      "wired_usb"
+    ],
+    "mouse_wireless": true,
+    "mouse_battery_life_hr": 80,
+    "mouse_buttons_programmable": 6,
+    "mouse_stock_status": "in_stock"
   },
   {
     "id": "kysona_m617",
@@ -37215,20 +37474,19 @@
     "brand": "Kysona",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      35,
+      100
     ],
-    "product_url": "https://www.amazon.com/s?k=Kysona%20M617&tag=gearmatch-20",
+    "product_url": "https://www.amazon.com/KYSONA-Wireless-Bluetooth-Lightweight-Rechargeable/dp/B0DLGH63MK?tag=gearmatch-20",
     "recommendation_tags": [
       "8k_polling",
       "wireless"
     ],
     "data_quality": {
-      "data_confidence": "low",
-      "primary_source_type": "manufacturer",
-      "source_name": "eloshapes",
-      "last_verified": "2026-03",
-      "notes": "Auto-imported from eloshapes CSV. Specs need verification."
+      "data_confidence": "high",
+      "primary_source_type": "official",
+      "source_name": "Amazon",
+      "last_verified": "2026-03"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -37272,7 +37530,31 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/kysona-m617.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/kysona-m617.png?width=512&height=512&resize=contain",
+    "manufacturer_url": "https://shop.kysona.com/products/m617-gaming-mouse",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/KYSONA-Wireless-Bluetooth-Lightweight-Rechargeable/dp/B0DLGH63MK?tag=gearmatch-20",
+      "newegg": null,
+      "walmart": null,
+      "bestbuy": null
+    },
+    "mouse_sensor_type": "PixArt PAW3395",
+    "mouse_dpi_max": 26000,
+    "mouse_polling_rate_max_hz": "8000",
+    "mouse_weight_g": 57,
+    "mouse_weight_class": "light",
+    "mouse_grip_type": "claw",
+    "mouse_shape": "ergonomic",
+    "mouse_size_class": "small",
+    "mouse_connection_type": [
+      "wireless_2_4_dongle",
+      "bluetooth",
+      "wired_usb"
+    ],
+    "mouse_wireless": true,
+    "mouse_battery_life_hr": 150,
+    "mouse_buttons_programmable": 6,
+    "mouse_stock_status": "in_stock"
   },
   {
     "id": "kysona_m660",
@@ -37280,23 +37562,25 @@
     "brand": "Kysona",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      39,
+      79
     ],
     "image_url": "https://i5.walmartimages.com/asr/3cba0130-819d-4a86-b38c-32b217a75aef.d5673ac907eac3d71186ace88b59598d.jpeg?odnHeight=450&odnWidth=450&odnBg=ffffff",
-    "product_url": "https://www.amazon.com/s?k=Kysona%20M660&tag=gearmatch-20",
+    "product_url": "https://www.amazon.com/KYSONA-Bluetooth-Lightweight-Programmable-Rechargeable/dp/B0DN5LBVWJ?tag=gearmatch-20",
     "retailer_urls": {
-      "walmart": "https://goto.walmart.com/c/|PUBID|/568844/9383?veh=aff&sourceid=imp_000011112222333344&u=https%3A%2F%2Fwww.walmart.com%2Fip%2F17731151592"
+      "amazon": "https://www.amazon.com/KYSONA-Bluetooth-Lightweight-Programmable-Rechargeable/dp/B0DN5LBVWJ?tag=gearmatch-20",
+      "newegg": null,
+      "walmart": null,
+      "bestbuy": null
     },
     "recommendation_tags": [
       "wireless"
     ],
     "data_quality": {
-      "data_confidence": "low",
-      "primary_source_type": "manufacturer",
-      "source_name": "eloshapes",
-      "last_verified": "2026-03",
-      "notes": "Auto-imported from eloshapes CSV. Specs need verification."
+      "data_confidence": "high",
+      "primary_source_type": "official",
+      "source_name": "Amazon",
+      "last_verified": "2026-03"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -37338,7 +37622,25 @@
         "portable"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "manufacturer_url": "https://shop.kysona.com/collections/gaming-mouse-1",
+    "mouse_sensor_type": "PixArt PAW3311",
+    "mouse_dpi_max": 24000,
+    "mouse_polling_rate_max_hz": "1000",
+    "mouse_weight_g": 59,
+    "mouse_weight_class": "light",
+    "mouse_grip_type": "claw",
+    "mouse_shape": "ergonomic",
+    "mouse_size_class": "small",
+    "mouse_connection_type": [
+      "wireless_2_4_dongle",
+      "bluetooth",
+      "wired_usb"
+    ],
+    "mouse_wireless": true,
+    "mouse_battery_life_hr": 80,
+    "mouse_buttons_programmable": 5,
+    "mouse_stock_status": "in_stock"
   },
   {
     "id": "kysona_mars_se",
@@ -37346,19 +37648,18 @@
     "brand": "Kysona",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      23,
+      50
     ],
-    "product_url": "https://www.amazon.com/s?k=Kysona%20Mars%20SE&tag=gearmatch-20",
+    "product_url": "https://www.amazon.com/KYSONA-Bluetooth-Ergonomic-Lightweight-Rechargeable/dp/B0DM1VH8XZ?tag=gearmatch-20",
     "recommendation_tags": [
       "wireless"
     ],
     "data_quality": {
-      "data_confidence": "low",
-      "primary_source_type": "manufacturer",
-      "source_name": "eloshapes",
-      "last_verified": "2026-03",
-      "notes": "Auto-imported from eloshapes CSV. Specs need verification."
+      "data_confidence": "high",
+      "primary_source_type": "official",
+      "source_name": "Amazon",
+      "last_verified": "2026-03"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -37404,7 +37705,31 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/kysona-mars-se.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/kysona-mars-se.png?width=512&height=512&resize=contain",
+    "manufacturer_url": "https://shop.kysona.com/products/wireless-gaming-mouse-57g-lightweight-vertical-mouse-anti-slip-stickers-400-24000-dpi-wired-2-4ghz-bluetooth-connection-mars-se",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/KYSONA-Bluetooth-Ergonomic-Lightweight-Rechargeable/dp/B0DM1VH8XZ?tag=gearmatch-20",
+      "newegg": null,
+      "walmart": null,
+      "bestbuy": null
+    },
+    "mouse_sensor_type": "PixArt PAW3311",
+    "mouse_dpi_max": 24000,
+    "mouse_polling_rate_max_hz": "1000",
+    "mouse_weight_g": 57,
+    "mouse_weight_class": "light",
+    "mouse_grip_type": "palm",
+    "mouse_shape": "ergonomic_right",
+    "mouse_size_class": "medium",
+    "mouse_connection_type": [
+      "wireless_2_4_dongle",
+      "bluetooth",
+      "wired_usb"
+    ],
+    "mouse_wireless": true,
+    "mouse_battery_life_hr": 150,
+    "mouse_buttons_programmable": 5,
+    "mouse_stock_status": "in_stock"
   },
   {
     "id": "kysona_mercury_pro",
@@ -37412,21 +37737,20 @@
     "brand": "Kysona",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      33,
+      50
     ],
-    "product_url": "https://shop.kysona.com",
+    "product_url": "https://www.amazon.com/KYSONA-Wireless-Mouse%EF%BC%8C41g-Ultalight-Programmable/dp/B0FKSBPSS1?tag=gearmatch-20",
     "recommendation_tags": [
       "8k_polling",
       "ultralight",
       "wireless"
     ],
     "data_quality": {
-      "data_confidence": "low",
-      "primary_source_type": "manufacturer",
-      "source_name": "eloshapes",
-      "last_verified": "2026-03",
-      "notes": "Auto-imported from eloshapes CSV. Specs need verification."
+      "data_confidence": "medium",
+      "primary_source_type": "official",
+      "source_name": "Amazon",
+      "last_verified": "2026-03"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -37471,7 +37795,31 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://cdn.shopify.com/s/files/1/0809/0697/7595/files/3395_45e16ebd-c2b2-4a71-a731-76344fae0d1c.jpg"
+    "image_url": "https://cdn.shopify.com/s/files/1/0809/0697/7595/files/3395_45e16ebd-c2b2-4a71-a731-76344fae0d1c.jpg",
+    "manufacturer_url": "https://shop.kysona.com/products/kysona-mercury-series",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/KYSONA-Wireless-Mouse%EF%BC%8C41g-Ultalight-Programmable/dp/B0FKSBPSS1?tag=gearmatch-20",
+      "newegg": null,
+      "walmart": "https://www.walmart.com/ip/Mercury-Wireless-Gaming-Mouse-41g-Ultalight-PAW3395-Sensor-8K-Polling-Rate-26000-DPI-5-Programmable-Buttons-Optical-Mice-for-PC-MAC-Laptop-White/17763103108",
+      "bestbuy": null
+    },
+    "mouse_sensor_type": "PixArt PAW3395",
+    "mouse_dpi_max": 26000,
+    "mouse_polling_rate_max_hz": "8000",
+    "mouse_weight_g": 41,
+    "mouse_weight_class": "ultra_light",
+    "mouse_grip_type": "claw",
+    "mouse_shape": "ergonomic",
+    "mouse_size_class": "small",
+    "mouse_connection_type": [
+      "wireless_2_4_dongle",
+      "bluetooth",
+      "wired_usb"
+    ],
+    "mouse_wireless": true,
+    "mouse_battery_life_hr": null,
+    "mouse_buttons_programmable": 5,
+    "mouse_stock_status": "in_stock"
   },
   {
     "id": "kysona_mercury_se",
@@ -37479,20 +37827,19 @@
     "brand": "Kysona",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      22,
+      30
     ],
-    "product_url": "https://shop.kysona.com",
+    "product_url": "https://shop.kysona.com/products/kysona-mercury-series",
     "recommendation_tags": [
       "ultralight",
       "wireless"
     ],
     "data_quality": {
-      "data_confidence": "low",
-      "primary_source_type": "manufacturer",
-      "source_name": "eloshapes",
-      "last_verified": "2026-03",
-      "notes": "Auto-imported from eloshapes CSV. Specs need verification."
+      "data_confidence": "medium",
+      "primary_source_type": "official",
+      "source_name": "Kysona Official Store",
+      "last_verified": "2026-03"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -37536,7 +37883,31 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://cdn.shopify.com/s/files/1/0809/0697/7595/files/3311_f0cdaaca-2805-4df5-889d-5b8a4375aea0.jpg"
+    "image_url": "https://cdn.shopify.com/s/files/1/0809/0697/7595/files/3311_f0cdaaca-2805-4df5-889d-5b8a4375aea0.jpg",
+    "manufacturer_url": "https://shop.kysona.com/products/kysona-mercury-series",
+    "retailer_urls": {
+      "amazon": null,
+      "newegg": null,
+      "walmart": null,
+      "bestbuy": null
+    },
+    "mouse_sensor_type": "PixArt PAW3311",
+    "mouse_dpi_max": 24000,
+    "mouse_polling_rate_max_hz": "1000",
+    "mouse_weight_g": 40,
+    "mouse_weight_class": "ultra_light",
+    "mouse_grip_type": "claw",
+    "mouse_shape": "ergonomic",
+    "mouse_size_class": "small",
+    "mouse_connection_type": [
+      "wireless_2_4_dongle",
+      "bluetooth",
+      "wired_usb"
+    ],
+    "mouse_wireless": true,
+    "mouse_battery_life_hr": null,
+    "mouse_buttons_programmable": 5,
+    "mouse_stock_status": "limited"
   },
   {
     "id": "kysona_mercury_ultra",
@@ -37544,10 +37915,10 @@
     "brand": "Kysona",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      50,
+      70
     ],
-    "product_url": "https://www.amazon.com/s?k=Kysona%20Mercury%20Ultra&tag=gearmatch-20",
+    "product_url": "https://shop.kysona.com/products/kysona-mercury-series",
     "recommendation_tags": [
       "8k_polling",
       "esports_grade_latency",
@@ -37556,11 +37927,10 @@
       "wireless"
     ],
     "data_quality": {
-      "data_confidence": "low",
-      "primary_source_type": "manufacturer",
-      "source_name": "eloshapes",
-      "last_verified": "2026-03",
-      "notes": "Auto-imported from eloshapes CSV. Specs need verification."
+      "data_confidence": "medium",
+      "primary_source_type": "official",
+      "source_name": "Kysona Official Store",
+      "last_verified": "2026-03"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -37607,7 +37977,31 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/kysona-mercury.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/kysona-mercury.png?width=512&height=512&resize=contain",
+    "manufacturer_url": "https://shop.kysona.com/products/kysona-mercury-series",
+    "retailer_urls": {
+      "amazon": null,
+      "newegg": null,
+      "walmart": null,
+      "bestbuy": null
+    },
+    "mouse_sensor_type": "PixArt PAW3950",
+    "mouse_dpi_max": 30000,
+    "mouse_polling_rate_max_hz": "8000",
+    "mouse_weight_g": 41,
+    "mouse_weight_class": "ultra_light",
+    "mouse_grip_type": "claw",
+    "mouse_shape": "ergonomic",
+    "mouse_size_class": "small",
+    "mouse_connection_type": [
+      "wireless_2_4_dongle",
+      "bluetooth",
+      "wired_usb"
+    ],
+    "mouse_wireless": true,
+    "mouse_battery_life_hr": null,
+    "mouse_buttons_programmable": 5,
+    "mouse_stock_status": "limited"
   },
   {
     "id": "kysona_uranus_pro",
@@ -37615,21 +38009,20 @@
     "brand": "Kysona",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      43,
+      60
     ],
-    "product_url": "https://www.amazon.com/s?k=Kysona%20Uranus%20Pro&tag=gearmatch-20",
+    "product_url": "https://www.amazon.com/KYSONA-Bluetooth-Web-Driven-Ice-Cooling-Rechargeable/dp/B0DTHT67SR?tag=gearmatch-20",
     "recommendation_tags": [
       "8k_polling",
       "ultralight",
       "wireless"
     ],
     "data_quality": {
-      "data_confidence": "low",
-      "primary_source_type": "manufacturer",
-      "source_name": "eloshapes",
-      "last_verified": "2026-03",
-      "notes": "Auto-imported from eloshapes CSV. Specs need verification."
+      "data_confidence": "high",
+      "primary_source_type": "official",
+      "source_name": "Amazon",
+      "last_verified": "2026-03"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -37675,7 +38068,31 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/kysona-uranus-pro.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/kysona-uranus-pro.png?width=512&height=512&resize=contain",
+    "manufacturer_url": "https://shop.kysona.com/products/wireless-gaming-mouse-uranus",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/KYSONA-Bluetooth-Web-Driven-Ice-Cooling-Rechargeable/dp/B0DTHT67SR?tag=gearmatch-20",
+      "newegg": null,
+      "walmart": null,
+      "bestbuy": null
+    },
+    "mouse_sensor_type": "PixArt PAW3395",
+    "mouse_dpi_max": 26000,
+    "mouse_polling_rate_max_hz": "8000",
+    "mouse_weight_g": 54,
+    "mouse_weight_class": "light",
+    "mouse_grip_type": "palm",
+    "mouse_shape": "ergonomic_right",
+    "mouse_size_class": "medium",
+    "mouse_connection_type": [
+      "wireless_2_4_dongle",
+      "bluetooth",
+      "wired_usb"
+    ],
+    "mouse_wireless": true,
+    "mouse_battery_life_hr": 120,
+    "mouse_buttons_programmable": 6,
+    "mouse_stock_status": "in_stock"
   },
   {
     "id": "kysona_uranus_se",
@@ -37683,19 +38100,18 @@
     "brand": "Kysona",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      26,
+      50
     ],
-    "product_url": "https://shop.kysona.com",
+    "product_url": "https://shop.kysona.com/products/new-kysona-uranus-se-paw3311-wireless-gaming-mouse",
     "recommendation_tags": [
       "wireless"
     ],
     "data_quality": {
-      "data_confidence": "low",
-      "primary_source_type": "manufacturer",
-      "source_name": "eloshapes",
-      "last_verified": "2026-03",
-      "notes": "Auto-imported from eloshapes CSV. Specs need verification."
+      "data_confidence": "medium",
+      "primary_source_type": "official",
+      "source_name": "Kysona Official Store",
+      "last_verified": "2026-03"
     },
     "core_attributes": {
       "category_subtype": "mouse",
@@ -37740,7 +38156,31 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://cdn.shopify.com/s/files/1/0809/0697/7595/files/SKU_6e15c662-ff61-4749-a5c3-41eaa5fb4d01.jpg"
+    "image_url": "https://cdn.shopify.com/s/files/1/0809/0697/7595/files/SKU_6e15c662-ff61-4749-a5c3-41eaa5fb4d01.jpg",
+    "manufacturer_url": "https://shop.kysona.com/products/new-kysona-uranus-se-paw3311-wireless-gaming-mouse",
+    "retailer_urls": {
+      "amazon": null,
+      "newegg": null,
+      "walmart": null,
+      "bestbuy": null
+    },
+    "mouse_sensor_type": "PixArt PAW3311",
+    "mouse_dpi_max": 24000,
+    "mouse_polling_rate_max_hz": "1000",
+    "mouse_weight_g": 54,
+    "mouse_weight_class": "light",
+    "mouse_grip_type": "palm",
+    "mouse_shape": "ergonomic_right",
+    "mouse_size_class": "medium",
+    "mouse_connection_type": [
+      "wireless_2_4_dongle",
+      "bluetooth",
+      "wired_usb"
+    ],
+    "mouse_wireless": true,
+    "mouse_battery_life_hr": 120,
+    "mouse_buttons_programmable": 6,
+    "mouse_stock_status": "out_of_stock"
   },
   {
     "id": "kysona_vela_se",
