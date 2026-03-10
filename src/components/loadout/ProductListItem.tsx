@@ -42,7 +42,7 @@ const ProductListItem = React.memo(function ProductListItem({
   onToggle,
 }: ProductListItemProps) {
   const [min, max] = product.price_range_usd;
-  const priceLabel = min === max ? `$${min}` : `$${min}–$${max}`;
+  const priceLabel = min === 0 && max === 0 ? "Price N/A" : min === max ? `$${min}` : `$${min}–$${max}`;
   const category = product.category as LoadoutCategory;
   const PlaceholderIcon = CATEGORY_ICON[category] ?? Mouse;
 
