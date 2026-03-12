@@ -51144,8 +51144,8 @@
     "brand": "MCHOSE",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      79,
+      99
     ],
     "product_url": "https://www.amazon.com/s?k=MCHOSE%20AX5%20V2&tag=gearmatch-20",
     "recommendation_tags": [
@@ -51207,7 +51207,15 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/mchose-ax5.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/mchose-ax5.png?width=512&height=512&resize=contain",
+    "mouse_stock_status": "in_stock",
+    "mouse_weight_class": "light",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/s?k=MCHOSE+AX5+V2&tag=gearmatch-20",
+      "newegg": null,
+      "walmart": null,
+      "bestbuy": null
+    }
   },
   {
     "id": "mchose_g3",
@@ -51215,8 +51223,8 @@
     "brand": "MCHOSE",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      22,
+      30
     ],
     "product_url": "https://www.amazon.com/s?k=MCHOSE%20G3&tag=gearmatch-20",
     "recommendation_tags": [
@@ -51271,7 +51279,15 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/mchose-g3.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/mchose-g3.png?width=512&height=512&resize=contain",
+    "mouse_stock_status": "in_stock",
+    "mouse_weight_class": "light",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/dp/B0DDSTHLGV?tag=gearmatch-20",
+      "newegg": null,
+      "walmart": null,
+      "bestbuy": null
+    }
   },
   {
     "id": "mchose_g3_a",
@@ -51279,8 +51295,8 @@
     "brand": "MCHOSE",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      25,
+      35
     ],
     "product_url": "https://www.amazon.com/s?k=MCHOSE%20G3%20A&tag=gearmatch-20",
     "recommendation_tags": [
@@ -51335,7 +51351,15 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/mchose-g3-v2.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/mchose-g3-v2.png?width=512&height=512&resize=contain",
+    "mouse_stock_status": "in_stock",
+    "mouse_weight_class": "light",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/s?k=MCHOSE+G3+A+mouse&tag=gearmatch-20",
+      "newegg": null,
+      "walmart": null,
+      "bestbuy": null
+    }
   },
   {
     "id": "mchose_g3_max",
@@ -51343,8 +51367,8 @@
     "brand": "MCHOSE",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      35,
+      50
     ],
     "product_url": "https://www.mchose.store",
     "recommendation_tags": [
@@ -51401,7 +51425,15 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://cdn.shopify.com/s/files/1/0631/9590/6271/files/mchose-g3-series-wireless-8khz-paw3395-mouse-mechkeysshop-g3-white-675939.jpg"
+    "image_url": "https://cdn.shopify.com/s/files/1/0631/9590/6271/files/mchose-g3-series-wireless-8khz-paw3395-mouse-mechkeysshop-g3-white-675939.jpg",
+    "mouse_stock_status": "in_stock",
+    "mouse_weight_class": "light",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/s?k=MCHOSE+G3+Max+mouse&tag=gearmatch-20",
+      "newegg": null,
+      "walmart": null,
+      "bestbuy": null
+    }
   },
   {
     "id": "mchose_g3_pro",
@@ -51409,8 +51441,8 @@
     "brand": "MCHOSE",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      30,
+      45
     ],
     "product_url": "https://www.mchose.store",
     "recommendation_tags": [
@@ -51466,7 +51498,15 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://cdn.shopify.com/s/files/1/0846/5727/5175/files/mchose-official-mouse-g3-white-mchose-g3-dual-8k-high-performance-wireless-gaming-mouse-1166639846.png?v=1754474048"
+    "image_url": "https://cdn.shopify.com/s/files/1/0846/5727/5175/files/mchose-official-mouse-g3-white-mchose-g3-dual-8k-high-performance-wireless-gaming-mouse-1166639846.png?v=1754474048",
+    "mouse_stock_status": "in_stock",
+    "mouse_weight_class": "light",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/s?k=MCHOSE+G3+Pro+mouse&tag=gearmatch-20",
+      "newegg": null,
+      "walmart": null,
+      "bestbuy": null
+    }
   },
   {
     "id": "mchose_g3_se",
@@ -51474,8 +51514,8 @@
     "brand": "MCHOSE",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      18,
+      25
     ],
     "product_url": "https://www.mchose.store",
     "recommendation_tags": [
@@ -51530,7 +51570,15 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://www.mchose.store/cdn/shop/files/mchose-official-mouse-g3-black-mchose-g3-dual-8k-high-performance-wireless-gaming-mouse-1166639847.png?v=1754474047"
+    "image_url": "https://www.mchose.store/cdn/shop/files/mchose-official-mouse-g3-black-mchose-g3-dual-8k-high-performance-wireless-gaming-mouse-1166639847.png?v=1754474047",
+    "mouse_stock_status": "in_stock",
+    "mouse_weight_class": "light",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/s?k=MCHOSE+G3+SE+mouse&tag=gearmatch-20",
+      "newegg": null,
+      "walmart": null,
+      "bestbuy": null
+    }
   },
   {
     "id": "mchose_g3_ultra",
@@ -51538,8 +51586,8 @@
     "brand": "MCHOSE",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      35,
+      55
     ],
     "product_url": "https://www.amazon.com/s?k=MCHOSE%20G3%20Ultra&tag=gearmatch-20",
     "recommendation_tags": [
@@ -51596,7 +51644,15 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/mchose-g3.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/mchose-g3.png?width=512&height=512&resize=contain",
+    "mouse_stock_status": "in_stock",
+    "mouse_weight_class": "light",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/dp/B0DDSRY7KX?tag=gearmatch-20",
+      "newegg": null,
+      "walmart": null,
+      "bestbuy": null
+    }
   },
   {
     "id": "mchose_g3_v2",
@@ -51668,8 +51724,8 @@
     "brand": "MCHOSE",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      28,
+      35
     ],
     "product_url": "https://www.amazon.com/s?k=MCHOSE%20G3%20V2%20Pro&tag=gearmatch-20",
     "recommendation_tags": [
@@ -51725,7 +51781,15 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/mchose-g3-v2.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/mchose-g3-v2.png?width=512&height=512&resize=contain",
+    "mouse_stock_status": "in_stock",
+    "mouse_weight_class": "light",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/dp/B0G8YY9LV8?tag=gearmatch-20",
+      "newegg": null,
+      "walmart": null,
+      "bestbuy": null
+    }
   },
   {
     "id": "mchose_g7",
@@ -51874,8 +51938,8 @@
     "brand": "MCHOSE",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      44,
+      52
     ],
     "product_url": "https://www.mchose.store",
     "recommendation_tags": [
@@ -51935,7 +51999,15 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://www.mchose.store/cdn/shop/files/mchose-official-mouse-g7-white-mchose-g7-lightweight-ergonomic-wireless-mouse-1166640163.jpg?v=1767167964"
+    "image_url": "https://www.mchose.store/cdn/shop/files/mchose-official-mouse-g7-white-mchose-g7-lightweight-ergonomic-wireless-mouse-1166640163.jpg?v=1767167964",
+    "mouse_stock_status": "in_stock",
+    "mouse_weight_class": "light",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/s?k=MCHOSE+G7+Pro+mouse&tag=gearmatch-20",
+      "newegg": null,
+      "walmart": null,
+      "bestbuy": null
+    }
   },
   {
     "id": "mchose_k7_ultra",
@@ -51943,8 +52015,8 @@
     "brand": "MCHOSE",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      79,
+      99
     ],
     "product_url": "https://www.amazon.com/s?k=MCHOSE%20K7%20Ultra&tag=gearmatch-20",
     "recommendation_tags": [
@@ -52007,7 +52079,12 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/mchose-k7-ultra.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/mchose-k7-ultra.png?width=512&height=512&resize=contain",
+    "mouse_stock_status": "in_stock",
+    "mouse_weight_class": "light",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/dp/B0FQV45DZ9?tag=gearmatch-20"
+    }
   },
   {
     "id": "mchose_l7_pro",
@@ -52244,8 +52321,8 @@
     "brand": "MCHOSE",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      52,
+      56
     ],
     "product_url": "https://www.amazon.com/s?k=MCHOSE%20M7%20Pro&tag=gearmatch-20",
     "recommendation_tags": [
@@ -52302,7 +52379,12 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/machenike-m7-pro.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/machenike-m7-pro.png?width=512&height=512&resize=contain",
+    "mouse_stock_status": "in_stock",
+    "mouse_weight_class": "light",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/dp/B0DRD1VCG9?tag=gearmatch-20"
+    }
   },
   {
     "id": "mchose_m7_ultra",
@@ -52383,8 +52465,8 @@
     "brand": "Metaphyuni",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      95,
+      115
     ],
     "product_url": "https://www.amazon.com/s?k=Metaphyuni%20M6&tag=gearmatch-20",
     "recommendation_tags": [
@@ -52447,7 +52529,9 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/metaphyuni-m6.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/metaphyuni-m6.png?width=512&height=512&resize=contain",
+    "mouse_stock_status": "limited",
+    "mouse_weight_class": "light"
   },
   {
     "id": "metaphyuni_metapanda_p1",
@@ -52455,8 +52539,8 @@
     "brand": "Metaphyuni",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      35,
+      45
     ],
     "product_url": "https://www.amazon.com/s?k=Metaphyuni%20Metapanda%20P1&tag=gearmatch-20",
     "recommendation_tags": [
@@ -52513,7 +52597,9 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/metaphyuni-metapanda-p1.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/metaphyuni-metapanda-p1.png?width=512&height=512&resize=contain",
+    "mouse_stock_status": "in_stock",
+    "mouse_weight_class": "light"
   },
   {
     "id": "metaphyuni_metapanda_p1_pro",
@@ -52521,8 +52607,8 @@
     "brand": "Metaphyuni",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      40,
+      56
     ],
     "product_url": "https://www.amazon.com/s?k=Metaphyuni%20Metapanda%20P1%20Pro&tag=gearmatch-20",
     "recommendation_tags": [
@@ -52579,7 +52665,9 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://mechkeys.com/cdn/shop/files/metaphyuni-metapanda01-paw3395-p1-series-wireless-mouse-mechkeysshop-white-p11k-378110.jpg?v=1761740508"
+    "image_url": "https://mechkeys.com/cdn/shop/files/metaphyuni-metapanda01-paw3395-p1-series-wireless-mouse-mechkeysshop-white-p11k-378110.jpg?v=1761740508",
+    "mouse_stock_status": "in_stock",
+    "mouse_weight_class": "light"
   },
   {
     "id": "metaphyuni_metapanda_p1_pro_max",
@@ -52587,8 +52675,8 @@
     "brand": "Metaphyuni",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      42,
+      60
     ],
     "product_url": "https://www.amazon.com/s?k=Metaphyuni%20Metapanda%20P1%20Pro%20Max&tag=gearmatch-20",
     "recommendation_tags": [
@@ -52645,7 +52733,9 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/metaphyuni-metapanda-p1.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/metaphyuni-metapanda-p1.png?width=512&height=512&resize=contain",
+    "mouse_stock_status": "in_stock",
+    "mouse_weight_class": "light"
   },
   {
     "id": "metaphyuni_p2",
@@ -52653,8 +52743,8 @@
     "brand": "Metaphyuni",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      35,
+      50
     ],
     "product_url": "https://www.amazon.com/s?k=Metaphyuni%20P2&tag=gearmatch-20",
     "recommendation_tags": [
@@ -52709,7 +52799,9 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/metaphyuni-p2.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/metaphyuni-p2.png?width=512&height=512&resize=contain",
+    "mouse_stock_status": "limited",
+    "mouse_weight_class": "light"
   },
   {
     "id": "metaphyuni_p2_lite",
@@ -52717,8 +52809,8 @@
     "brand": "Metaphyuni",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      25,
+      35
     ],
     "product_url": "https://www.amazon.com/s?k=Metaphyuni%20P2%20Lite&tag=gearmatch-20",
     "recommendation_tags": [
@@ -52772,7 +52864,9 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://cdn.shopify.com/s/files/1/0550/0554/4682/files/41af1adee460d73cb44844debf54b1d6.jpg?v=1741771412"
+    "image_url": "https://cdn.shopify.com/s/files/1/0550/0554/4682/files/41af1adee460d73cb44844debf54b1d6.jpg?v=1741771412",
+    "mouse_stock_status": "limited",
+    "mouse_weight_class": "light"
   },
   {
     "id": "metaphyuni_p2_pro",
@@ -52780,8 +52874,8 @@
     "brand": "Metaphyuni",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      40,
+      55
     ],
     "product_url": "https://www.amazon.com/s?k=Metaphyuni%20P2%20Pro&tag=gearmatch-20",
     "recommendation_tags": [
@@ -52837,7 +52931,9 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/metaphyuni-p2.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/metaphyuni-p2.png?width=512&height=512&resize=contain",
+    "mouse_stock_status": "limited",
+    "mouse_weight_class": "light"
   },
   {
     "id": "microsoft_arc_mouse",
@@ -52994,13 +53090,14 @@
     "brand": "Microsoft",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      25,
+      35
     ],
     "image_url": "https://i5.walmartimages.com/asr/92e4f380-bcf2-4a65-8b72-4e7c343f5e6f.60d1c403506a22141d6b334bf619db00.jpeg?odnHeight=450&odnWidth=450&odnBg=ffffff",
     "product_url": "https://www.amazon.com/s?k=Microsoft%20Comfort%20Mouse%204500&tag=gearmatch-20",
     "retailer_urls": {
-      "walmart": "https://goto.walmart.com/c/|PUBID|/568844/9383?veh=aff&sourceid=imp_000011112222333344&u=https%3A%2F%2Fwww.walmart.com%2Fip%2F858403308"
+      "walmart": "https://goto.walmart.com/c/|PUBID|/568844/9383?veh=aff&sourceid=imp_000011112222333344&u=https%3A%2F%2Fwww.walmart.com%2Fip%2F858403308",
+      "amazon": "https://www.amazon.com/dp/B005058B4W?tag=gearmatch-20"
     },
     "recommendation_tags": [],
     "data_quality": {
@@ -53050,7 +53147,9 @@
         "safe_shape"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "mouse_stock_status": "in_stock",
+    "mouse_weight_class": "heavy"
   },
   {
     "id": "microsoft_pro_intellimouse",
@@ -53058,8 +53157,8 @@
     "brand": "Microsoft",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      35,
+      60
     ],
     "product_url": "https://www.amazon.com/s?k=Microsoft%20Pro%20IntelliMouse&tag=gearmatch-20",
     "recommendation_tags": [
@@ -53115,7 +53214,15 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://c1.neweggimages.com/productimage/nb640/A86E_1_20191223818121274.jpg"
+    "image_url": "https://c1.neweggimages.com/productimage/nb640/A86E_1_20191223818121274.jpg",
+    "mouse_stock_status": "in_stock",
+    "mouse_weight_class": "heavy",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/dp/B07JMBD4ZP?tag=gearmatch-20",
+      "newegg": null,
+      "walmart": null,
+      "bestbuy": null
+    }
   },
   {
     "id": "microsoft_sidewinder_x8",
@@ -53185,7 +53292,16 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/microsoft-sidewinder-x8.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/microsoft-sidewinder-x8.png?width=512&height=512&resize=contain",
+    "mouse_stock_status": "out_of_stock",
+    "mouse_weight_class": "heavy",
+    "mouse_discontinued": true,
+    "retailer_urls": {
+      "amazon": null,
+      "newegg": null,
+      "walmart": null,
+      "bestbuy": null
+    }
   },
   {
     "id": "microsoft_wheel_mouse_optical",
@@ -53199,7 +53315,10 @@
     "image_url": "https://i5.walmartimages.com/asr/e78c14f7-75fd-484a-ae83-fcff8172a0f0.1e6d111240c3c72b181344f88ce208fb.jpeg?odnHeight=450&odnWidth=450&odnBg=ffffff",
     "product_url": "https://www.amazon.com/s?k=Microsoft%20Wheel%20Mouse%20Optical&tag=gearmatch-20",
     "retailer_urls": {
-      "walmart": "https://goto.walmart.com/c/|PUBID|/568844/9383?veh=aff&sourceid=imp_000011112222333344&u=https%3A%2F%2Fwww.walmart.com%2Fip%2F5371853254"
+      "walmart": null,
+      "amazon": null,
+      "newegg": null,
+      "bestbuy": null
     },
     "recommendation_tags": [],
     "data_quality": {
@@ -53249,7 +53368,10 @@
         "safe_shape"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "mouse_stock_status": "out_of_stock",
+    "mouse_weight_class": "medium",
+    "mouse_discontinued": true
   },
   {
     "id": "midnight_thread_c1",
@@ -53317,7 +53439,15 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/midnight-thread-c1.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/midnight-thread-c1.png?width=512&height=512&resize=contain",
+    "mouse_stock_status": "limited",
+    "mouse_weight_class": "light",
+    "retailer_urls": {
+      "amazon": null,
+      "newegg": null,
+      "walmart": null,
+      "bestbuy": null
+    }
   },
   {
     "id": "mighty_mouse_mm8k",
@@ -53384,7 +53514,15 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/mighty-mouse-mm8k.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/mighty-mouse-mm8k.png?width=512&height=512&resize=contain",
+    "mouse_stock_status": "limited",
+    "mouse_weight_class": "ultra_light",
+    "retailer_urls": {
+      "amazon": null,
+      "newegg": null,
+      "walmart": null,
+      "bestbuy": null
+    }
   },
   {
     "id": "mionix_castor",
@@ -53446,7 +53584,16 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/mionix-castor.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/mionix-castor.png?width=512&height=512&resize=contain",
+    "mouse_stock_status": "out_of_stock",
+    "mouse_weight_class": "medium",
+    "mouse_discontinued": true,
+    "retailer_urls": {
+      "amazon": null,
+      "newegg": null,
+      "walmart": null,
+      "bestbuy": null
+    }
   },
   {
     "id": "mionix_castor_pro",
@@ -53508,7 +53655,16 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/mionix-castor-pro.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/mionix-castor-pro.png?width=512&height=512&resize=contain",
+    "mouse_stock_status": "out_of_stock",
+    "mouse_weight_class": "medium",
+    "mouse_discontinued": true,
+    "retailer_urls": {
+      "amazon": null,
+      "newegg": null,
+      "walmart": null,
+      "bestbuy": null
+    }
   },
   {
     "id": "mionix_naos_3200",
@@ -53576,7 +53732,16 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/mionix-naos-3200.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/mionix-naos-3200.png?width=512&height=512&resize=contain",
+    "mouse_stock_status": "out_of_stock",
+    "mouse_weight_class": "medium",
+    "mouse_discontinued": true,
+    "retailer_urls": {
+      "amazon": null,
+      "newegg": null,
+      "walmart": null,
+      "bestbuy": null
+    }
   },
   {
     "id": "mionix_naos_7000",
@@ -53645,7 +53810,16 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/mionix-naos-7000.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/mionix-naos-7000.png?width=512&height=512&resize=contain",
+    "mouse_stock_status": "out_of_stock",
+    "mouse_weight_class": "heavy",
+    "mouse_discontinued": true,
+    "retailer_urls": {
+      "amazon": null,
+      "newegg": null,
+      "walmart": null,
+      "bestbuy": null
+    }
   },
   {
     "id": "mionix_naos_8200",
@@ -53714,7 +53888,16 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/mionix-naos-8200.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/mionix-naos-8200.png?width=512&height=512&resize=contain",
+    "mouse_stock_status": "out_of_stock",
+    "mouse_weight_class": "medium",
+    "mouse_discontinued": true,
+    "retailer_urls": {
+      "amazon": null,
+      "newegg": null,
+      "walmart": null,
+      "bestbuy": null
+    }
   },
   {
     "id": "mionix_naos_pro",
@@ -53722,8 +53905,8 @@
     "brand": "Mionix",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      69,
+      100
     ],
     "product_url": "https://www.amazon.com/s?k=Mionix%20Naos%20Pro&tag=gearmatch-20",
     "recommendation_tags": [
@@ -53783,7 +53966,12 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/mionix-naos-pro.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/mionix-naos-pro.png?width=512&height=512&resize=contain",
+    "mouse_stock_status": "in_stock",
+    "mouse_weight_class": "heavy",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/dp/B09GB913DL?tag=gearmatch-20"
+    }
   },
   {
     "id": "mionix_naos_qg",
@@ -53852,7 +54040,9 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/mionix-naos-qg.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/mionix-naos-qg.png?width=512&height=512&resize=contain",
+    "mouse_stock_status": "out_of_stock",
+    "mouse_discontinued": true
   },
   {
     "id": "monka_g995w",
@@ -53860,8 +54050,8 @@
     "brand": "Monka",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      40,
+      56
     ],
     "product_url": "https://www.amazon.com/s?k=Monka%20G995W&tag=gearmatch-20",
     "recommendation_tags": [
@@ -53916,7 +54106,12 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/monka-g995w.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/monka-g995w.png?width=512&height=512&resize=contain",
+    "mouse_stock_status": "in_stock",
+    "mouse_weight_class": "light",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/dp/B0DFM3HGTY?tag=gearmatch-20"
+    }
   },
   {
     "id": "monka_m1",
@@ -53924,8 +54119,8 @@
     "brand": "Monka",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      40,
+      50
     ],
     "product_url": "https://www.amazon.com/s?k=Monka%20M1&tag=gearmatch-20",
     "recommendation_tags": [
@@ -53981,7 +54176,9 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/monka-m1.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/monka-m1.png?width=512&height=512&resize=contain",
+    "mouse_stock_status": "in_stock",
+    "mouse_weight_class": "light"
   },
   {
     "id": "monka_m1_pro",
@@ -53989,8 +54186,8 @@
     "brand": "Monka",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      47,
+      58
     ],
     "product_url": "https://www.amazon.com/s?k=Monka%20M1%20Pro&tag=gearmatch-20",
     "recommendation_tags": [
@@ -54047,7 +54244,9 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://mechkeys.com/cdn/shop/files/monka-m1-wireless-4khz-55g-gaming-mouse-mechkeysshop-m1-pro-blue-transparent-619260.jpg?v=1766925238"
+    "image_url": "https://mechkeys.com/cdn/shop/files/monka-m1-wireless-4khz-55g-gaming-mouse-mechkeysshop-m1-pro-blue-transparent-619260.jpg?v=1766925238",
+    "mouse_stock_status": "in_stock",
+    "mouse_weight_class": "light"
   },
   {
     "id": "monka_m1_pro_max",
@@ -54055,8 +54254,8 @@
     "brand": "Monka",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      55,
+      65
     ],
     "product_url": "https://www.amazon.com/s?k=Monka%20M1%20Pro%20Max&tag=gearmatch-20",
     "recommendation_tags": [
@@ -54113,7 +54312,9 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/monka-m1.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/monka-m1.png?width=512&height=512&resize=contain",
+    "mouse_stock_status": "in_stock",
+    "mouse_weight_class": "light"
   },
   {
     "id": "monka_m3",
@@ -54121,8 +54322,8 @@
     "brand": "Monka",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      45,
+      55
     ],
     "product_url": "https://www.amazon.com/s?k=Monka%20M3&tag=gearmatch-20",
     "recommendation_tags": [
@@ -54178,7 +54379,9 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/monka-m3.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/monka-m3.png?width=512&height=512&resize=contain",
+    "mouse_stock_status": "in_stock",
+    "mouse_weight_class": "light"
   },
   {
     "id": "monka_m3_pro",
@@ -54186,8 +54389,8 @@
     "brand": "Monka",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      55,
+      65
     ],
     "product_url": "https://www.amazon.com/s?k=Monka%20M3%20Pro&tag=gearmatch-20",
     "recommendation_tags": [
@@ -54244,7 +54447,9 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/monka-m3.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/monka-m3.png?width=512&height=512&resize=contain",
+    "mouse_stock_status": "in_stock",
+    "mouse_weight_class": "light"
   },
   {
     "id": "motospeed_x1",
@@ -54252,8 +54457,8 @@
     "brand": "Motospeed",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      35,
+      50
     ],
     "product_url": "https://www.amazon.com/s?k=Motospeed%20X1&tag=gearmatch-20",
     "recommendation_tags": [
@@ -54311,7 +54516,12 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/motospeed-x1.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/motospeed-x1.png?width=512&height=512&resize=contain",
+    "mouse_stock_status": "in_stock",
+    "mouse_weight_class": "light",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/dp/B0DWMK8V3D?tag=gearmatch-20"
+    }
   },
   {
     "id": "motospeed_x6",
@@ -54319,8 +54529,8 @@
     "brand": "Motospeed",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      40,
+      55
     ],
     "product_url": "https://www.amazon.com/s?k=Motospeed%20X6&tag=gearmatch-20",
     "recommendation_tags": [
@@ -54378,7 +54588,12 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/motospeed-x6.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/motospeed-x6.png?width=512&height=512&resize=contain",
+    "mouse_stock_status": "in_stock",
+    "mouse_weight_class": "light",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/dp/B0DM5LHFZK?tag=gearmatch-20"
+    }
   },
   {
     "id": "motospeed_x6_max",
@@ -54386,8 +54601,8 @@
     "brand": "Motospeed",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      39,
+      49
     ],
     "product_url": "https://www.amazon.com/s?k=Motospeed%20X6%20Max&tag=gearmatch-20",
     "recommendation_tags": [
@@ -54449,7 +54664,15 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/motospeed-x6.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/motospeed-x6.png?width=512&height=512&resize=contain",
+    "mouse_stock_status": "in_stock",
+    "mouse_weight_class": "ultra_light",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/dp/B0DMN4PLNT?tag=gearmatch-20",
+      "newegg": null,
+      "walmart": null,
+      "bestbuy": null
+    }
   },
   {
     "id": "mountain_makalu_67",
@@ -54457,8 +54680,8 @@
     "brand": "Mountain",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      50,
+      65
     ],
     "product_url": "https://www.amazon.com/s?k=Mountain%20Makalu%2067&tag=gearmatch-20",
     "recommendation_tags": [
@@ -54515,7 +54738,15 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/mountain-makalu-67.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/mountain-makalu-67.png?width=512&height=512&resize=contain",
+    "mouse_stock_status": "in_stock",
+    "mouse_weight_class": "light",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/dp/B08VNL12QF?tag=gearmatch-20",
+      "newegg": "https://www.newegg.com/p/173-07PW-00002",
+      "walmart": null,
+      "bestbuy": null
+    }
   },
   {
     "id": "mountain_makalu_max",
@@ -54660,8 +54891,8 @@
     "brand": "Ninjutso",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      79,
+      95
     ],
     "product_url": "https://www.amazon.com/s?k=Ninjutso%20Katana%20Superlight&tag=gearmatch-20",
     "recommendation_tags": [
@@ -54717,7 +54948,15 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/ninjutso-katana-superlight.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/ninjutso-katana-superlight.png?width=512&height=512&resize=contain",
+    "mouse_stock_status": "in_stock",
+    "mouse_weight_class": "light",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/dp/B09TJC9ZL9?tag=gearmatch-20",
+      "newegg": null,
+      "walmart": null,
+      "bestbuy": null
+    }
   },
   {
     "id": "ninjutso_katana_ultralight",
@@ -54725,8 +54964,8 @@
     "brand": "Ninjutso",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      35,
+      55
     ],
     "product_url": "https://www.amazon.com/s?k=Ninjutso%20Katana%20Ultralight&tag=gearmatch-20",
     "recommendation_tags": [
@@ -54779,7 +55018,15 @@
       "mouse_feel_tags": [],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/ninjutso-katana-ultralight.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/ninjutso-katana-ultralight.png?width=512&height=512&resize=contain",
+    "mouse_stock_status": "limited",
+    "mouse_weight_class": "light",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/dp/B09FHK6DBY?tag=gearmatch-20",
+      "newegg": null,
+      "walmart": null,
+      "bestbuy": null
+    }
   },
   {
     "id": "ninjutso_origin_one_x",
@@ -54787,8 +55034,8 @@
     "brand": "Ninjutso",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      55,
+      80
     ],
     "product_url": "https://www.amazon.com/s?k=Ninjutso%20Origin%20One%20X&tag=gearmatch-20",
     "recommendation_tags": [
@@ -54844,7 +55091,15 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/ninjutso-origin-one-x.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/ninjutso-origin-one-x.png?width=512&height=512&resize=contain",
+    "mouse_stock_status": "limited",
+    "mouse_weight_class": "light",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/dp/B098YZWDHY?tag=gearmatch-20",
+      "newegg": null,
+      "walmart": null,
+      "bestbuy": null
+    }
   },
   {
     "id": "ninjutso_sora",
@@ -55017,8 +55272,8 @@
     "brand": "Ninjutso",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      85,
+      100
     ],
     "product_url": "https://www.amazon.com/s?k=Ninjutso%20Ten&tag=gearmatch-20",
     "recommendation_tags": [
@@ -55076,7 +55331,15 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/ninjutso-ten.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/ninjutso-ten.png?width=512&height=512&resize=contain",
+    "mouse_stock_status": "in_stock",
+    "mouse_weight_class": "light",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/s?k=Ninjutso+Ten+mouse&tag=gearmatch-20",
+      "newegg": null,
+      "walmart": null,
+      "bestbuy": null
+    }
   },
   {
     "id": "ninjutso_ten_air",
@@ -55084,8 +55347,8 @@
     "brand": "Ninjutso",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      95,
+      110
     ],
     "product_url": "https://www.amazon.com/s?k=Ninjutso%20Ten%20Air&tag=gearmatch-20",
     "recommendation_tags": [
@@ -55144,7 +55407,15 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/ninjutso-ten.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/ninjutso-ten.png?width=512&height=512&resize=contain",
+    "mouse_stock_status": "in_stock",
+    "mouse_weight_class": "ultra_light",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/s?k=Ninjutso+Ten+Air+mouse&tag=gearmatch-20",
+      "newegg": null,
+      "walmart": null,
+      "bestbuy": null
+    }
   },
   {
     "id": "nintendo_joy_con_2",
@@ -55286,7 +55557,15 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/nitrite-labs-carbon-xt1.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/nitrite-labs-carbon-xt1.png?width=512&height=512&resize=contain",
+    "mouse_stock_status": "out_of_stock",
+    "mouse_weight_class": "ultra_light",
+    "retailer_urls": {
+      "amazon": null,
+      "newegg": null,
+      "walmart": null,
+      "bestbuy": null
+    }
   },
   {
     "id": "nitrite_labs_carbon_xt1_wireless",
@@ -55357,7 +55636,15 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/nitrite-labs-carbon-xt1.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/nitrite-labs-carbon-xt1.png?width=512&height=512&resize=contain",
+    "mouse_stock_status": "out_of_stock",
+    "mouse_weight_class": "ultra_light",
+    "retailer_urls": {
+      "amazon": null,
+      "newegg": null,
+      "walmart": null,
+      "bestbuy": null
+    }
   },
   {
     "id": "nixeus_revel",
@@ -55422,7 +55709,16 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/nixeus-revel.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/nixeus-revel.png?width=512&height=512&resize=contain",
+    "mouse_stock_status": "out_of_stock",
+    "mouse_weight_class": "medium",
+    "mouse_discontinued": true,
+    "retailer_urls": {
+      "amazon": null,
+      "newegg": null,
+      "walmart": null,
+      "bestbuy": null
+    }
   },
   {
     "id": "nixeus_revel_fit",
@@ -55430,8 +55726,8 @@
     "brand": "Nixeus",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      35,
+      55
     ],
     "product_url": "https://www.amazon.com/s?k=Nixeus%20Revel%20Fit&tag=gearmatch-20",
     "recommendation_tags": [
@@ -55488,7 +55784,15 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/nixeus-revel-fit.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/nixeus-revel-fit.png?width=512&height=512&resize=contain",
+    "mouse_stock_status": "limited",
+    "mouse_weight_class": "medium",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/s?k=Nixeus+Revel+Fit&tag=gearmatch-20",
+      "newegg": "https://www.newegg.com/nixeus-revf-bk18-revel-fit-usb-wired/p/32K-0034-00004",
+      "walmart": null,
+      "bestbuy": null
+    }
   },
   {
     "id": "nixeus_revel_x",
@@ -55496,8 +55800,8 @@
     "brand": "Nixeus",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      40,
+      60
     ],
     "product_url": "https://www.amazon.com/s?k=Nixeus%20Revel-X&tag=gearmatch-20",
     "recommendation_tags": [
@@ -55553,7 +55857,15 @@
       "mouse_feel_tags": [],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/nixeus-revel-x.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/nixeus-revel-x.png?width=512&height=512&resize=contain",
+    "mouse_stock_status": "limited",
+    "mouse_weight_class": "medium",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/dp/B09KGM5LH4?tag=gearmatch-20",
+      "newegg": "https://www.newegg.com/p/32K-0044-00005",
+      "walmart": null,
+      "bestbuy": null
+    }
   },
   {
     "id": "noir_m1",
@@ -55624,8 +55936,8 @@
     "brand": "Noir",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      25,
+      40
     ],
     "product_url": "https://www.amazon.com/s?k=Noir%20M1%20Lite&tag=gearmatch-20",
     "recommendation_tags": [
@@ -55677,7 +55989,15 @@
       "mouse_feel_tags": [],
       "mouse_value_pick": false
     },
-    "image_url": "https://chemicygaming.com/image/cache/gaming%20gear/mouse/Noir%20Neo/M1%20Lite/Web%20Black-400x400.jpg"
+    "image_url": "https://chemicygaming.com/image/cache/gaming%20gear/mouse/Noir%20Neo/M1%20Lite/Web%20Black-400x400.jpg",
+    "mouse_stock_status": "limited",
+    "mouse_weight_class": "light",
+    "retailer_urls": {
+      "amazon": null,
+      "newegg": null,
+      "walmart": null,
+      "bestbuy": null
+    }
   },
   {
     "id": "noir_m2",
@@ -55750,8 +56070,8 @@
     "brand": "Noir",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      70,
+      100
     ],
     "product_url": "https://www.amazon.com/s?k=Noir%20M2%20MG&tag=gearmatch-20",
     "recommendation_tags": [
@@ -55808,7 +56128,15 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/noir-m2-mg.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/noir-m2-mg.png?width=512&height=512&resize=contain",
+    "mouse_stock_status": "limited",
+    "mouse_weight_class": "light",
+    "retailer_urls": {
+      "amazon": null,
+      "newegg": null,
+      "walmart": null,
+      "bestbuy": null
+    }
   },
   {
     "id": "noir_m2_pro",
@@ -55816,8 +56144,8 @@
     "brand": "Noir",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      45,
+      65
     ],
     "product_url": "https://www.amazon.com/s?k=Noir%20M2%20Pro&tag=gearmatch-20",
     "recommendation_tags": [
@@ -55873,7 +56201,15 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/noir-m2.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/noir-m2.png?width=512&height=512&resize=contain",
+    "mouse_stock_status": "limited",
+    "mouse_weight_class": "light",
+    "retailer_urls": {
+      "amazon": null,
+      "newegg": null,
+      "walmart": null,
+      "bestbuy": null
+    }
   },
   {
     "id": "nyfter_elt_4k",
@@ -55881,8 +56217,8 @@
     "brand": "Nyfter",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      110,
+      130
     ],
     "product_url": "https://www.amazon.com/s?k=Nyfter%20ELT%204K&tag=gearmatch-20",
     "recommendation_tags": [
@@ -55939,7 +56275,15 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/nyfter-elt-4k.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/nyfter-elt-4k.png?width=512&height=512&resize=contain",
+    "mouse_stock_status": "limited",
+    "mouse_weight_class": "ultra_light",
+    "retailer_urls": {
+      "amazon": null,
+      "newegg": null,
+      "walmart": null,
+      "bestbuy": null
+    }
   },
   {
     "id": "nzxt_lift",
@@ -55947,8 +56291,8 @@
     "brand": "NZXT",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      30,
+      50
     ],
     "product_url": "https://www.amazon.com/s?k=NZXT%20Lift&tag=gearmatch-20",
     "recommendation_tags": [
@@ -56003,7 +56347,15 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/nzxt-lift.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/nzxt-lift.png?width=512&height=512&resize=contain",
+    "mouse_stock_status": "limited",
+    "mouse_weight_class": "light",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/dp/B09V9Z1QC3?tag=gearmatch-20",
+      "newegg": "https://www.newegg.com/nzxt-ms-1wrax-bm/p/N82E16826292006",
+      "walmart": null,
+      "bestbuy": null
+    }
   },
   {
     "id": "nzxt_lift_2_ergo",
@@ -56011,13 +56363,16 @@
     "brand": "NZXT",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      50,
+      70
     ],
     "image_url": "https://i5.walmartimages.com/asr/24badfc6-43d2-447a-abe5-0853e0526f11.875d617e7025148b7c79b41adc3a3696.jpeg?odnHeight=450&odnWidth=450&odnBg=ffffff",
     "product_url": "https://www.amazon.com/s?k=NZXT%20Lift%202%20Ergo&tag=gearmatch-20",
     "retailer_urls": {
-      "walmart": "https://goto.walmart.com/c/|PUBID|/568844/9383?veh=aff&sourceid=imp_000011112222333344&u=https%3A%2F%2Fwww.walmart.com%2Fip%2F5429422952"
+      "walmart": null,
+      "amazon": "https://www.amazon.com/dp/B0F17JCR99?tag=gearmatch-20",
+      "newegg": "https://www.newegg.com/nzxt-lift-2-ergo-ms-001nb-01-usb-2-0-wired/p/N82E16826292008",
+      "bestbuy": null
     },
     "recommendation_tags": [
       "8k_polling",
@@ -56073,7 +56428,9 @@
         "ergo_right"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "mouse_stock_status": "in_stock",
+    "mouse_weight_class": "light"
   },
   {
     "id": "nzxt_lift_2_symm",
@@ -56081,13 +56438,16 @@
     "brand": "NZXT",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      45,
+      60
     ],
     "image_url": "https://i5.walmartimages.com/asr/24badfc6-43d2-447a-abe5-0853e0526f11.875d617e7025148b7c79b41adc3a3696.jpeg?odnHeight=450&odnWidth=450&odnBg=ffffff",
     "product_url": "https://www.amazon.com/s?k=NZXT%20Lift%202%20Symm&tag=gearmatch-20",
     "retailer_urls": {
-      "walmart": "https://goto.walmart.com/c/|PUBID|/568844/9383?veh=aff&sourceid=imp_000011112222333344&u=https%3A%2F%2Fwww.walmart.com%2Fip%2F5429422952"
+      "walmart": null,
+      "amazon": "https://www.amazon.com/s?k=NZXT+Lift+2+Symm&tag=gearmatch-20",
+      "newegg": "https://www.newegg.com/nzxt-lift-2-symm-ms-001nw-04-usb-2-0-wired/p/N82E16826292011",
+      "bestbuy": "https://www.bestbuy.com/site/nzxt-lift-2-symm-lightweight-symmetrical-wired-high-performance-optical-gaming-mouse-wired-black/6574989.p"
     },
     "recommendation_tags": [
       "8k_polling",
@@ -56141,7 +56501,9 @@
         "large_hands_friendly"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "mouse_stock_status": "in_stock",
+    "mouse_weight_class": "light"
   },
   {
     "id": "nzxt_lift_elite_wireless",
@@ -56149,13 +56511,16 @@
     "brand": "NZXT",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      85,
+      95
     ],
     "image_url": "https://i5.walmartimages.com/asr/57927feb-ab9a-4269-8eca-482815fcc229.4a41e5fb5679be1e1f2ad5d5a76ecc9b.jpeg?odnHeight=450&odnWidth=450&odnBg=ffffff",
     "product_url": "https://www.amazon.com/s?k=NZXT%20Lift%20Elite%20Wireless&tag=gearmatch-20",
     "retailer_urls": {
-      "walmart": "https://goto.walmart.com/c/|PUBID|/568844/9383?veh=aff&sourceid=imp_000011112222333344&u=https%3A%2F%2Fwww.walmart.com%2Fip%2F5441374964"
+      "walmart": null,
+      "amazon": "https://www.amazon.com/dp/B0DPJFGBD7?tag=gearmatch-20",
+      "newegg": null,
+      "bestbuy": null
     },
     "recommendation_tags": [
       "8k_polling",
@@ -56209,7 +56574,9 @@
         "portable"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "mouse_stock_status": "in_stock",
+    "mouse_weight_class": "light"
   },
   {
     "id": "orbital_pathfinder",
@@ -56298,8 +56665,8 @@
     "brand": "PHYLINA",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      45,
+      60
     ],
     "product_url": "https://www.amazon.com/s?k=PHYLINA%20S450&tag=gearmatch-20",
     "recommendation_tags": [
@@ -56356,7 +56723,12 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/phylina-s450.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/phylina-s450.png?width=512&height=512&resize=contain",
+    "mouse_stock_status": "in_stock",
+    "mouse_weight_class": "light",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/dp/B0CCDFZ9HF?tag=gearmatch-20"
+    }
   },
   {
     "id": "phylina_s450_4k",
@@ -56364,8 +56736,8 @@
     "brand": "PHYLINA",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      85,
+      100
     ],
     "product_url": "https://www.amazon.com/s?k=PHYLINA%20S450%204K&tag=gearmatch-20",
     "recommendation_tags": [
@@ -56423,7 +56795,9 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/phylina-s450.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/phylina-s450.png?width=512&height=512&resize=contain",
+    "mouse_stock_status": "limited",
+    "mouse_weight_class": "light"
   },
   {
     "id": "phylina_s480",
@@ -56431,8 +56805,8 @@
     "brand": "PHYLINA",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      55,
+      75
     ],
     "image_url": "https://i5.walmartimages.com/asr/bab4ddcc-9b91-40f1-a940-13c3dc574574.338942ee3feca602f87604f02521c78c.webp?odnHeight=450&odnWidth=450&odnBg=ffffff",
     "product_url": "https://www.amazon.com/s?k=PHYLINA%20S480&tag=gearmatch-20",
@@ -56498,7 +56872,9 @@
         "portable"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "mouse_stock_status": "in_stock",
+    "mouse_weight_class": "ultra_light"
   },
   {
     "id": "pichau_hive_s",
@@ -56559,7 +56935,9 @@
       "mouse_feel_tags": [],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/pichau-hive-s.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/pichau-hive-s.png?width=512&height=512&resize=contain",
+    "mouse_stock_status": "in_stock",
+    "mouse_weight_class": "light"
   },
   {
     "id": "ploopy_adept_trackball",
@@ -56701,8 +57079,8 @@
     "brand": "PMM",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      150,
+      220
     ],
     "product_url": "https://www.amazon.com/s?k=PMM%20AIM%208K&tag=gearmatch-20",
     "recommendation_tags": [
@@ -56762,7 +57140,9 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/pmm-aim-8k.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/pmm-aim-8k.png?width=512&height=512&resize=contain",
+    "mouse_stock_status": "in_stock",
+    "mouse_weight_class": "ultra_light"
   },
   {
     "id": "pmm_blaze",
@@ -56895,7 +57275,10 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/pmm-core.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/pmm-core.png?width=512&height=512&resize=contain",
+    "mouse_stock_status": "out_of_stock",
+    "mouse_weight_class": "light",
+    "mouse_discontinued": true
   },
   {
     "id": "pmm_craze_8k",
@@ -56903,8 +57286,8 @@
     "brand": "PMM",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      84,
+      260
     ],
     "product_url": "https://www.amazon.com/s?k=PMM%20CRAZE%208K&tag=gearmatch-20",
     "recommendation_tags": [
@@ -56964,7 +57347,9 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/pmm-craze-8k.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/pmm-craze-8k.png?width=512&height=512&resize=contain",
+    "mouse_stock_status": "in_stock",
+    "mouse_weight_class": "ultra_light"
   },
   {
     "id": "pmm_cyber_4_0",
@@ -57034,7 +57419,10 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/pmm-cyber-40.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/pmm-cyber-40.png?width=512&height=512&resize=contain",
+    "mouse_stock_status": "out_of_stock",
+    "mouse_weight_class": "ultra_light",
+    "mouse_discontinued": true
   },
   {
     "id": "pmm_cyber_4_1",
@@ -57042,8 +57430,8 @@
     "brand": "PMM",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      150,
+      260
     ],
     "product_url": "https://www.amazon.com/s?k=PMM%20CYBER%204.1&tag=gearmatch-20",
     "recommendation_tags": [
@@ -57103,7 +57491,9 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/pmm-cyber-4-1.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/pmm-cyber-4-1.png?width=512&height=512&resize=contain",
+    "mouse_stock_status": "in_stock",
+    "mouse_weight_class": "ultra_light"
   },
   {
     "id": "pmm_cyber_8k",
@@ -57111,8 +57501,8 @@
     "brand": "PMM",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      150,
+      260
     ],
     "product_url": "https://www.amazon.com/s?k=PMM%20CYBER%208K&tag=gearmatch-20",
     "recommendation_tags": [
@@ -57173,7 +57563,9 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/pmm-cyber-8k.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/pmm-cyber-8k.png?width=512&height=512&resize=contain",
+    "mouse_stock_status": "in_stock",
+    "mouse_weight_class": "ultra_light"
   },
   {
     "id": "pmm_cyber_zk",
@@ -57241,7 +57633,10 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/pmm-cyber-zk.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/pmm-cyber-zk.png?width=512&height=512&resize=contain",
+    "mouse_stock_status": "out_of_stock",
+    "mouse_weight_class": "ultra_light",
+    "mouse_discontinued": true
   },
   {
     "id": "pmm_fuse",
@@ -57307,7 +57702,10 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/pmm-fuse.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/pmm-fuse.png?width=512&height=512&resize=contain",
+    "mouse_stock_status": "out_of_stock",
+    "mouse_weight_class": "ultra_light",
+    "mouse_discontinued": true
   },
   {
     "id": "pmm_fuse_8k",
@@ -57375,7 +57773,9 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/pmm-fuse-8k.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/pmm-fuse-8k.png?width=512&height=512&resize=contain",
+    "mouse_stock_status": "out_of_stock",
+    "mouse_weight_class": "ultra_light"
   },
   {
     "id": "pmm_neo_8k",
@@ -57443,7 +57843,9 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/pmm-neo-8k.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/pmm-neo-8k.png?width=512&height=512&resize=contain",
+    "mouse_stock_status": "out_of_stock",
+    "mouse_weight_class": "ultra_light"
   },
   {
     "id": "pmm_nite_8k",
@@ -57511,7 +57913,9 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/pmm-nite-8k.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/pmm-nite-8k.png?width=512&height=512&resize=contain",
+    "mouse_stock_status": "out_of_stock",
+    "mouse_weight_class": "light"
   },
   {
     "id": "pmm_pulse",
@@ -57519,8 +57923,8 @@
     "brand": "PMM",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      180,
+      190
     ],
     "product_url": "https://www.amazon.com/s?k=PMM%20PULSE&tag=gearmatch-20",
     "recommendation_tags": [
@@ -57580,7 +57984,9 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/pmm-pulse.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/pmm-pulse.png?width=512&height=512&resize=contain",
+    "mouse_stock_status": "in_stock",
+    "mouse_weight_class": "ultra_light"
   },
   {
     "id": "pmm_titan_8k_l",
@@ -57649,7 +58055,9 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/pmm-titan-8k-l.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/pmm-titan-8k-l.png?width=512&height=512&resize=contain",
+    "mouse_stock_status": "out_of_stock",
+    "mouse_weight_class": "ultra_light"
   },
   {
     "id": "pmm_titan_m",
@@ -57717,7 +58125,10 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/pmm-titan-m.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/pmm-titan-m.png?width=512&height=512&resize=contain",
+    "mouse_stock_status": "out_of_stock",
+    "mouse_weight_class": "ultra_light",
+    "mouse_discontinued": true
   },
   {
     "id": "pmm_titan_s",
@@ -57783,7 +58194,10 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/pmm-titan-s.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/pmm-titan-s.png?width=512&height=512&resize=contain",
+    "mouse_stock_status": "out_of_stock",
+    "mouse_weight_class": "ultra_light",
+    "mouse_discontinued": true
   },
   {
     "id": "pmm_vortex_4k_m",
@@ -57791,8 +58205,8 @@
     "brand": "PMM",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      165,
+      175
     ],
     "product_url": "https://www.amazon.com/s?k=PMM%20VORTEX%204K%20M&tag=gearmatch-20",
     "recommendation_tags": [
@@ -57850,7 +58264,9 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/pmm-vortex-4k-m.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/pmm-vortex-4k-m.png?width=512&height=512&resize=contain",
+    "mouse_stock_status": "in_stock",
+    "mouse_weight_class": "ultra_light"
   },
   {
     "id": "pmm_vortex_8k_m",
@@ -57858,8 +58274,8 @@
     "brand": "PMM",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      190,
+      230
     ],
     "product_url": "https://www.amazon.com/s?k=PMM%20VORTEX%208K%20M&tag=gearmatch-20",
     "recommendation_tags": [
@@ -57917,7 +58333,9 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/pmm-vortex-8k-m.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/pmm-vortex-8k-m.png?width=512&height=512&resize=contain",
+    "mouse_stock_status": "in_stock",
+    "mouse_weight_class": "ultra_light"
   },
   {
     "id": "pmm_vortex_8k_s",
@@ -57925,8 +58343,8 @@
     "brand": "PMM",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      170,
+      210
     ],
     "product_url": "https://www.amazon.com/s?k=PMM%20VORTEX%208K%20S&tag=gearmatch-20",
     "recommendation_tags": [
@@ -57985,7 +58403,9 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/pmm-vortex-8k-s.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/pmm-vortex-8k-s.png?width=512&height=512&resize=contain",
+    "mouse_stock_status": "in_stock",
+    "mouse_weight_class": "ultra_light"
   },
   {
     "id": "pmm_vortex_m",
@@ -58050,7 +58470,10 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/pmm-vortex-m.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/pmm-vortex-m.png?width=512&height=512&resize=contain",
+    "mouse_stock_status": "out_of_stock",
+    "mouse_weight_class": "ultra_light",
+    "mouse_discontinued": true
   },
   {
     "id": "pmm_vortex_s",
@@ -58116,7 +58539,10 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/pmm-vortex-4k-m.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/pmm-vortex-4k-m.png?width=512&height=512&resize=contain",
+    "mouse_stock_status": "out_of_stock",
+    "mouse_weight_class": "ultra_light",
+    "mouse_discontinued": true
   },
   {
     "id": "pmm_zen_8k",
@@ -58124,8 +58550,8 @@
     "brand": "PMM",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      195,
+      240
     ],
     "product_url": "https://www.amazon.com/s?k=PMM%20ZEN%208K&tag=gearmatch-20",
     "recommendation_tags": [
@@ -58190,7 +58616,9 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/pmm-zen-8k.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/pmm-zen-8k.png?width=512&height=512&resize=contain",
+    "mouse_stock_status": "in_stock",
+    "mouse_weight_class": "ultra_light"
   },
   {
     "id": "pmm_zen_8k_mini",
@@ -58198,8 +58626,8 @@
     "brand": "PMM",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      80,
+      110
     ],
     "product_url": "https://www.amazon.com/s?k=PMM%20ZEN%208K%20Mini&tag=gearmatch-20",
     "recommendation_tags": [
@@ -58262,7 +58690,9 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/pmm-zen-8k-mini.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/pmm-zen-8k-mini.png?width=512&height=512&resize=contain",
+    "mouse_stock_status": "in_stock",
+    "mouse_weight_class": "ultra_light"
   },
   {
     "id": "precision_gg_titan_0",
@@ -58328,7 +58758,10 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/precision-gaming-gear-titan-0.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/precision-gaming-gear-titan-0.png?width=512&height=512&resize=contain",
+    "mouse_stock_status": "out_of_stock",
+    "mouse_weight_class": "ultra_light",
+    "mouse_discontinued": true
   },
   {
     "id": "press_play_atlas",
@@ -58336,8 +58769,8 @@
     "brand": "Press",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      20,
+      30
     ],
     "image_url": "https://i5.walmartimages.com/asr/3b76912f-7a54-4d62-b00e-314d00d112d8.0e12500a3ab4c735ed6b407708987d2c.jpeg?odnHeight=450&odnWidth=450&odnBg=ffffff",
     "product_url": "https://www.amazon.com/s?k=Press%20Play%0AATLAS&tag=gearmatch-20",
@@ -58397,7 +58830,9 @@
         "portable"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "mouse_stock_status": "in_stock",
+    "mouse_weight_class": "light"
   },
   {
     "id": "press_play_iris",
@@ -58405,8 +58840,8 @@
     "brand": "Press",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      30,
+      40
     ],
     "product_url": "https://www.amazon.com/s?k=Press%20Play%0AIRIS&tag=gearmatch-20",
     "recommendation_tags": [
@@ -58462,7 +58897,9 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/press-play-iris.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/press-play-iris.png?width=512&height=512&resize=contain",
+    "mouse_stock_status": "in_stock",
+    "mouse_weight_class": "light"
   },
   {
     "id": "press_play_nova_ergo",
@@ -58470,8 +58907,8 @@
     "brand": "Press",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      20,
+      30
     ],
     "product_url": "https://www.amazon.com/s?k=Press%20Play%0ANova%20Ergo&tag=gearmatch-20",
     "recommendation_tags": [
@@ -58528,7 +58965,9 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/press-play-ergo-nova.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/press-play-ergo-nova.png?width=512&height=512&resize=contain",
+    "mouse_stock_status": "in_stock",
+    "mouse_weight_class": "light"
   },
   {
     "id": "press_play_spirit",
@@ -58665,7 +59104,9 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/project-w-opus.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/project-w-opus.png?width=512&height=512&resize=contain",
+    "mouse_stock_status": "in_stock",
+    "mouse_weight_class": "ultra_light"
   },
   {
     "id": "pulsar_feinmann_f01",
@@ -58673,8 +59114,8 @@
     "brand": "Pulsar",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      169,
+      179
     ],
     "product_url": "https://www.amazon.com/s?k=Pulsar%20Feinmann%20F01&tag=gearmatch-20",
     "recommendation_tags": [
@@ -58739,7 +59180,12 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/pulsar-feinmann-f01.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/pulsar-feinmann-f01.png?width=512&height=512&resize=contain",
+    "mouse_stock_status": "in_stock",
+    "mouse_weight_class": "light",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/dp/B0DZGHZQ7V?tag=gearmatch-20"
+    }
   },
   {
     "id": "pulsar_pro_series_jv_x",
@@ -58747,8 +59193,8 @@
     "brand": "Pulsar",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      119,
+      129
     ],
     "product_url": "https://www.amazon.com/s?k=Pulsar%20Pro%20Series%20JV-X&tag=gearmatch-20",
     "recommendation_tags": [
@@ -58810,7 +59256,9 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/pulsar-jv-x-qAocN.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/pulsar-jv-x-qAocN.png?width=512&height=512&resize=contain",
+    "mouse_stock_status": "in_stock",
+    "mouse_weight_class": "light"
   },
   {
     "id": "pulsar_susanto_x",
@@ -58818,8 +59266,8 @@
     "brand": "Pulsar",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      119,
+      129
     ],
     "product_url": "https://www.amazon.com/s?k=Pulsar%20Susanto-X&tag=gearmatch-20",
     "recommendation_tags": [
@@ -58880,7 +59328,9 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/pulsar-susanto-x-6ifTe.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/pulsar-susanto-x-6ifTe.png?width=512&height=512&resize=contain",
+    "mouse_stock_status": "in_stock",
+    "mouse_weight_class": "light"
   },
   {
     "id": "pulsar_tenz_signature_edition",
@@ -59030,7 +59480,9 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/pulsar-vspo.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/pulsar-vspo.png?width=512&height=512&resize=contain",
+    "mouse_stock_status": "in_stock",
+    "mouse_weight_class": "light"
   },
   {
     "id": "pulsar_x2",
@@ -59429,8 +59881,8 @@
     "brand": "Pulsar",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      99,
+      109
     ],
     "product_url": "https://www.amazon.com/s?k=Pulsar%20Xlite%20CrazyLight%20Mini&tag=gearmatch-20",
     "recommendation_tags": [
@@ -59495,7 +59947,12 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/pulsar-xlite-v3.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/pulsar-xlite-v3.png?width=512&height=512&resize=contain",
+    "mouse_stock_status": "in_stock",
+    "mouse_weight_class": "ultra_light",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/dp/B0FFGN4381?tag=gearmatch-20"
+    }
   },
   {
     "id": "pulsar_xlite_v2",
@@ -59656,8 +60113,8 @@
     "brand": "Pulsar",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      109,
+      129
     ],
     "product_url": "https://www.amazon.com/s?k=Pulsar%20Xlite%20v4%20eS%20Medium&tag=gearmatch-20",
     "recommendation_tags": [
@@ -59718,7 +60175,12 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/pulsar-xlite-crazylight-medium.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/pulsar-xlite-crazylight-medium.png?width=512&height=512&resize=contain",
+    "mouse_stock_status": "in_stock",
+    "mouse_weight_class": "light",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/dp/B0DLWH7F7V?tag=gearmatch-20"
+    }
   },
   {
     "id": "pulsar_xlite_v4_es_mini",
@@ -59726,8 +60188,8 @@
     "brand": "Pulsar",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      109,
+      129
     ],
     "product_url": "https://www.amazon.com/s?k=Pulsar%20Xlite%20v4%20eS%20Mini&tag=gearmatch-20",
     "recommendation_tags": [
@@ -59790,7 +60252,12 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/pulsar-xlite-es.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/pulsar-xlite-es.png?width=512&height=512&resize=contain",
+    "mouse_stock_status": "in_stock",
+    "mouse_weight_class": "light",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/dp/B0DLWK2TQJ?tag=gearmatch-20"
+    }
   },
   {
     "id": "pulsar_xlite_v4_large",
@@ -59798,8 +60265,8 @@
     "brand": "Pulsar",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      89,
+      99
     ],
     "product_url": "https://www.pulsar.gg/products/xlite-v4",
     "recommendation_tags": [
@@ -59863,7 +60330,12 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://cdn.shopify.com/s/files/1/0920/8122/6095/files/Xlite_v4_Gaming-Mouse_Large-Black_001.png?v=1758781784"
+    "image_url": "https://cdn.shopify.com/s/files/1/0920/8122/6095/files/Xlite_v4_Gaming-Mouse_Large-Black_001.png?v=1758781784",
+    "mouse_stock_status": "in_stock",
+    "mouse_weight_class": "light",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/dp/B0DQKKZ1PJ?tag=gearmatch-20"
+    }
   },
   {
     "id": "pulsar_xlite_v4_medium",
@@ -59871,8 +60343,8 @@
     "brand": "Pulsar",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      79,
+      99
     ],
     "product_url": "https://www.pulsar.gg/products/xlite-v4",
     "recommendation_tags": [
@@ -59935,7 +60407,12 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://www.pulsar.gg/cdn/shop/files/PulsarXlitev4GamingMouse_Black_001.png?v=1720400926"
+    "image_url": "https://www.pulsar.gg/cdn/shop/files/PulsarXlitev4GamingMouse_Black_001.png?v=1720400926",
+    "mouse_stock_status": "in_stock",
+    "mouse_weight_class": "light",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/dp/B0DQKL29DY?tag=gearmatch-20"
+    }
   },
   {
     "id": "pulsar_xlite_v4_mini",
