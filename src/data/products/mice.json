@@ -53440,7 +53440,7 @@
       "mouse_value_pick": false
     },
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/midnight-thread-c1.png?width=512&height=512&resize=contain",
-    "mouse_stock_status": "limited",
+    "mouse_stock_status": "out_of_stock",
     "mouse_weight_class": "light",
     "retailer_urls": {
       "amazon": null,
@@ -53455,8 +53455,8 @@
     "brand": "Mighty",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      50,
+      60
     ],
     "product_url": "https://www.amazon.com/s?k=Mighty%20Mouse%0AMM8K&tag=gearmatch-20",
     "recommendation_tags": [
@@ -53515,7 +53515,7 @@
       "mouse_value_pick": false
     },
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/mighty-mouse-mm8k.png?width=512&height=512&resize=contain",
-    "mouse_stock_status": "limited",
+    "mouse_stock_status": "in_stock",
     "mouse_weight_class": "ultra_light",
     "retailer_urls": {
       "amazon": null,
@@ -55496,8 +55496,8 @@
     "brand": "Nitrite",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      149,
+      149
     ],
     "product_url": "https://www.amazon.com/s?k=Nitrite%20Labs%0ACarbon%20XT1%20Wired&tag=gearmatch-20",
     "recommendation_tags": [
@@ -55573,8 +55573,8 @@
     "brand": "Nitrite",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      149,
+      149
     ],
     "product_url": "https://www.amazon.com/s?k=Nitrite%20Labs%0ACarbon%20XT1%20Wireless&tag=gearmatch-20",
     "recommendation_tags": [
@@ -56882,8 +56882,8 @@
     "brand": "Pichau",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      20,
+      40
     ],
     "product_url": "https://www.amazon.com/s?k=Pichau%20Hive%20S&tag=gearmatch-20",
     "recommendation_tags": [],
@@ -57713,8 +57713,8 @@
     "brand": "PMM",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      230,
+      260
     ],
     "product_url": "https://www.amazon.com/s?k=PMM%20Fuse%208K&tag=gearmatch-20",
     "recommendation_tags": [
@@ -57783,8 +57783,8 @@
     "brand": "PMM",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      230,
+      250
     ],
     "product_url": "https://www.amazon.com/s?k=PMM%20NEO%208K&tag=gearmatch-20",
     "recommendation_tags": [
@@ -57853,8 +57853,8 @@
     "brand": "PMM",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      225,
+      250
     ],
     "product_url": "https://www.amazon.com/s?k=PMM%20NITE%208K&tag=gearmatch-20",
     "recommendation_tags": [
@@ -57994,8 +57994,8 @@
     "brand": "PMM",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      225,
+      250
     ],
     "product_url": "https://www.amazon.com/s?k=PMM%20TITAN%208K%20L&tag=gearmatch-20",
     "recommendation_tags": [
@@ -59105,7 +59105,7 @@
       "mouse_value_pick": false
     },
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/project-w-opus.png?width=512&height=512&resize=contain",
-    "mouse_stock_status": "in_stock",
+    "mouse_stock_status": "out_of_stock",
     "mouse_weight_class": "ultra_light"
   },
   {
@@ -59481,7 +59481,7 @@
       "mouse_value_pick": false
     },
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/pulsar-vspo.png?width=512&height=512&resize=contain",
-    "mouse_stock_status": "in_stock",
+    "mouse_stock_status": "out_of_stock",
     "mouse_weight_class": "light"
   },
   {
@@ -60617,7 +60617,13 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/pulsar-xlite-wireless.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/pulsar-xlite-wireless.png?width=512&height=512&resize=contain",
+    "mouse_stock_status": "out_of_stock",
+    "mouse_weight_class": "light",
+    "mouse_discontinued": true,
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/dp/B09CT89SCW?tag=gearmatch-20"
+    }
   },
   {
     "id": "pulsar_zywoo_the_chosen_mouse_medium",
@@ -60625,8 +60631,8 @@
     "brand": "Pulsar",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      129,
+      130
     ],
     "product_url": "https://www.amazon.com/s?k=Pulsar%20ZywOo%0AThe%20Chosen%20Mouse%20-%20Medium&tag=gearmatch-20",
     "recommendation_tags": [
@@ -60688,7 +60694,9 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/pulsar-zywoo-the-chosen-mouse-medium.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/pulsar-zywoo-the-chosen-mouse-medium.png?width=512&height=512&resize=contain",
+    "mouse_stock_status": "in_stock",
+    "mouse_weight_class": "light"
   },
   {
     "id": "pulsar_zywoo_the_chosen_mouse_mini",
@@ -60696,8 +60704,8 @@
     "brand": "Pulsar",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      129,
+      130
     ],
     "product_url": "https://www.amazon.com/s?k=Pulsar%20ZywOo%0AThe%20Chosen%20Mouse%20-%20Mini&tag=gearmatch-20",
     "recommendation_tags": [
@@ -60761,7 +60769,9 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/pulsar-zywoo-the-chosen-mouse-medium.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/pulsar-zywoo-the-chosen-mouse-medium.png?width=512&height=512&resize=contain",
+    "mouse_stock_status": "out_of_stock",
+    "mouse_weight_class": "light"
   },
   {
     "id": "puretrak_valor_wireless",
@@ -60769,8 +60779,8 @@
     "brand": "PureTrak",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      35,
+      50
     ],
     "product_url": "https://www.amazon.com/s?k=PureTrak%20Valor%20Wireless&tag=gearmatch-20",
     "recommendation_tags": [
@@ -60827,7 +60837,9 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/puretrak-valor-wireless.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/puretrak-valor-wireless.png?width=512&height=512&resize=contain",
+    "mouse_stock_status": "in_stock",
+    "mouse_weight_class": "light"
   },
   {
     "id": "pwnage_ambi_wireless",
@@ -65575,7 +65587,9 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/rawm-sa-sl01.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/rawm-sa-sl01.png?width=512&height=512&resize=contain",
+    "mouse_stock_status": "out_of_stock",
+    "mouse_weight_class": "light"
   },
   {
     "id": "razer_abyssus_2014",
@@ -65641,7 +65655,10 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/razer-abyssus-2014.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/razer-abyssus-2014.png?width=512&height=512&resize=contain",
+    "mouse_stock_status": "out_of_stock",
+    "mouse_weight_class": "medium",
+    "mouse_discontinued": true
   },
   {
     "id": "razer_abyssus_essential",
@@ -65713,13 +65730,14 @@
     "brand": "Razer",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      40,
+      60
     ],
     "image_url": "https://i5.walmartimages.com/asr/318e8fbf-fb2c-4abe-938e-e880a048da19.04fb37fa416bdd014d7178ea776c7054.png?odnHeight=450&odnWidth=450&odnBg=ffffff",
     "product_url": "https://www.amazon.com/s?k=Razer%20Atheris&tag=gearmatch-20",
     "retailer_urls": {
-      "walmart": "https://goto.walmart.com/c/|PUBID|/568844/9383?veh=aff&sourceid=imp_000011112222333344&u=https%3A%2F%2Fwww.walmart.com%2Fip%2F991934229"
+      "walmart": "https://goto.walmart.com/c/|PUBID|/568844/9383?veh=aff&sourceid=imp_000011112222333344&u=https%3A%2F%2Fwww.walmart.com%2Fip%2F991934229",
+      "amazon": "https://www.amazon.com/dp/B0744KT1TZ?tag=gearmatch-20"
     },
     "recommendation_tags": [
       "small_hands_friendly",
@@ -65773,7 +65791,9 @@
         "small_hands_friendly"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "mouse_stock_status": "in_stock",
+    "mouse_weight_class": "light"
   },
   {
     "id": "razer_basilisk_essential",
@@ -65787,7 +65807,8 @@
     "image_url": "https://i5.walmartimages.com/asr/94fa28a6-cd59-4e1c-97e9-1f636f7954e0.f2ecc609f278d01c52ac6ffd4600baec.png?odnHeight=450&odnWidth=450&odnBg=ffffff",
     "product_url": "https://www.amazon.com/s?k=Razer+Basilisk+Essential&tag=gearmatch-20",
     "retailer_urls": {
-      "walmart": "https://goto.walmart.com/c/|PUBID|/568844/9383?veh=aff&sourceid=imp_000011112222333344&u=https%3A%2F%2Fwww.walmart.com%2Fip%2F565068772"
+      "walmart": "https://goto.walmart.com/c/|PUBID|/568844/9383?veh=aff&sourceid=imp_000011112222333344&u=https%3A%2F%2Fwww.walmart.com%2Fip%2F565068772",
+      "amazon": "https://www.amazon.com/dp/B07MHMYRBY?tag=gearmatch-20"
     },
     "recommendation_tags": [
       "mmo_specialist"
@@ -65844,7 +65865,10 @@
         "thumb_rest"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "mouse_stock_status": "out_of_stock",
+    "mouse_weight_class": "medium",
+    "mouse_discontinued": true
   },
   {
     "id": "razer_basilisk_mobile",
@@ -66821,7 +66845,10 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/razer-copperhead.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/razer-copperhead.png?width=512&height=512&resize=contain",
+    "mouse_stock_status": "out_of_stock",
+    "mouse_weight_class": "heavy",
+    "mouse_discontinued": true
   },
   {
     "id": "razer_deathadder_chroma",
@@ -66897,13 +66924,14 @@
     "brand": "Razer",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      30,
+      70
     ],
     "image_url": "https://i5.walmartimages.com/asr/318e8fbf-fb2c-4abe-938e-e880a048da19.04fb37fa416bdd014d7178ea776c7054.png?odnHeight=450&odnWidth=450&odnBg=ffffff",
     "product_url": "https://www.amazon.com/s?k=Razer%20DeathAdder%20Elite&tag=gearmatch-20",
     "retailer_urls": {
-      "walmart": "https://goto.walmart.com/c/|PUBID|/568844/9383?veh=aff&sourceid=imp_000011112222333344&u=https%3A%2F%2Fwww.walmart.com%2Fip%2F991934229"
+      "walmart": "https://goto.walmart.com/c/|PUBID|/568844/9383?veh=aff&sourceid=imp_000011112222333344&u=https%3A%2F%2Fwww.walmart.com%2Fip%2F991934229",
+      "amazon": "https://www.amazon.com/dp/B01LXC1QL0?tag=gearmatch-20"
     },
     "recommendation_tags": [
       "large_hands_friendly",
@@ -66960,7 +66988,10 @@
         "ergo_right"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "mouse_stock_status": "limited",
+    "mouse_weight_class": "medium",
+    "mouse_discontinued": true
   },
   {
     "id": "razer_deathadder_essential",
@@ -67096,7 +67127,10 @@
         "ergo_right"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "mouse_stock_status": "out_of_stock",
+    "mouse_weight_class": "medium",
+    "mouse_discontinued": true
   },
   {
     "id": "razer_deathadder_v2",
@@ -67661,7 +67695,10 @@
       "mouse_feel_tags": [],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/razer-diamondback-2015.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/razer-diamondback-2015.png?width=512&height=512&resize=contain",
+    "mouse_stock_status": "out_of_stock",
+    "mouse_weight_class": "medium",
+    "mouse_discontinued": true
   },
   {
     "id": "razer_imperator",
@@ -67732,7 +67769,10 @@
         "thumb_rest"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "mouse_stock_status": "out_of_stock",
+    "mouse_weight_class": "heavy",
+    "mouse_discontinued": true
   },
   {
     "id": "razer_krait_2013",
@@ -67798,7 +67838,10 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/razer-krait-2013.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/razer-krait-2013.png?width=512&height=512&resize=contain",
+    "mouse_stock_status": "out_of_stock",
+    "mouse_weight_class": "medium",
+    "mouse_discontinued": true
   },
   {
     "id": "razer_lancehead",
@@ -67946,7 +67989,8 @@
     "image_url": "https://i5.walmartimages.com/asr/a7df4d29-c97a-4db1-bbd7-f15843517c05.f83894b4203c8ccbd67519abe5368f6a.jpeg?odnHeight=450&odnWidth=450&odnBg=ffffff",
     "product_url": "https://www.amazon.com/s?k=Razer%20Mamba%20Elite&tag=gearmatch-20",
     "retailer_urls": {
-      "walmart": "https://goto.walmart.com/c/|PUBID|/568844/9383?veh=aff&sourceid=imp_000011112222333344&u=https%3A%2F%2Fwww.walmart.com%2Fip%2F5466761927"
+      "walmart": "https://goto.walmart.com/c/|PUBID|/568844/9383?veh=aff&sourceid=imp_000011112222333344&u=https%3A%2F%2Fwww.walmart.com%2Fip%2F5466761927",
+      "amazon": "https://www.amazon.com/dp/B07F816PH9?tag=gearmatch-20"
     },
     "recommendation_tags": [
       "large_hands_friendly",
@@ -68003,7 +68047,10 @@
         "ergo_right"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "mouse_stock_status": "out_of_stock",
+    "mouse_weight_class": "medium",
+    "mouse_discontinued": true
   },
   {
     "id": "razer_mamba_wireless",
@@ -68083,13 +68130,14 @@
     "brand": "Razer",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      80,
+      100
     ],
     "image_url": "https://i5.walmartimages.com/asr/78d00769-8898-4419-965f-53dca292fd7a.6a0518fe9093c408f0f8d570cde282f4.png?odnHeight=450&odnWidth=450&odnBg=ffffff",
     "product_url": "https://www.amazon.com/s?k=Razer%20Naga%20Left-Handed&tag=gearmatch-20",
     "retailer_urls": {
-      "walmart": "https://goto.walmart.com/c/|PUBID|/568844/9383?veh=aff&sourceid=imp_000011112222333344&u=https%3A%2F%2Fwww.walmart.com%2Fip%2F1119297591"
+      "walmart": "https://goto.walmart.com/c/|PUBID|/568844/9383?veh=aff&sourceid=imp_000011112222333344&u=https%3A%2F%2Fwww.walmart.com%2Fip%2F1119297591",
+      "amazon": "https://www.amazon.com/dp/B09WZ7YRZZ?tag=gearmatch-20"
     },
     "recommendation_tags": [
       "mmo_specialist"
@@ -68146,7 +68194,9 @@
         "mmo_friendly"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "mouse_stock_status": "limited",
+    "mouse_weight_class": "heavy"
   },
   {
     "id": "razer_naga_pro",
@@ -68620,7 +68670,10 @@
         "safe_shape"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "mouse_stock_status": "out_of_stock",
+    "mouse_weight_class": "light",
+    "mouse_discontinued": true
   },
   {
     "id": "razer_orochi_2013",
@@ -68685,7 +68738,10 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/razer-orochi-2013.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/razer-orochi-2013.png?width=512&height=512&resize=contain",
+    "mouse_stock_status": "out_of_stock",
+    "mouse_weight_class": "light",
+    "mouse_discontinued": true
   },
   {
     "id": "razer_orochi_2015",
@@ -68753,7 +68809,10 @@
         "safe_shape"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "mouse_stock_status": "out_of_stock",
+    "mouse_weight_class": "medium",
+    "mouse_discontinued": true
   },
   {
     "id": "razer_orochi_v2",
@@ -68910,7 +68969,10 @@
         "thumb_rest"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "mouse_stock_status": "out_of_stock",
+    "mouse_weight_class": "heavy",
+    "mouse_discontinued": true
   },
   {
     "id": "razer_pro_click_mini",
@@ -69342,8 +69404,8 @@
     "brand": "Razer",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      279,
+      300
     ],
     "image_url": "https://i5.walmartimages.com/asr/634153fe-dc56-4e72-ae29-3b6c2bfdeb8a.b824fa568e2e1d6665309a2dde904d53.jpeg?odnHeight=450&odnWidth=450&odnBg=ffffff",
     "product_url": "https://www.amazon.com/s?k=Razer+Viper+Mini+Signature+Edition&tag=gearmatch-20",
@@ -69419,7 +69481,9 @@
         "premium_feel"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "mouse_stock_status": "limited",
+    "mouse_weight_class": "light"
   },
   {
     "id": "razer_viper_ultimate",
@@ -69771,8 +69835,8 @@
     "brand": "Realforce",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      109,
+      125
     ],
     "product_url": "https://www.amazon.com/s?k=Realforce%20RM1&tag=gearmatch-20",
     "recommendation_tags": [],
@@ -69826,7 +69890,12 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/realforce-rm1.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/realforce-rm1.png?width=512&height=512&resize=contain",
+    "mouse_stock_status": "in_stock",
+    "mouse_weight_class": "medium",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/dp/B0C2BDP583?tag=gearmatch-20"
+    }
   },
   {
     "id": "redragon_g49_pro",
@@ -69834,8 +69903,8 @@
     "brand": "Redragon",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      45,
+      55
     ],
     "image_url": "https://i5.walmartimages.com/asr/07e99aae-d934-44b7-9c25-b7376763498d.435d45b960f882c62bb61baf218f47fb.jpeg?odnHeight=450&odnWidth=450&odnBg=ffffff",
     "product_url": "https://www.amazon.com/s?k=Redragon%20G49%20Pro&tag=gearmatch-20",
@@ -69897,7 +69966,9 @@
         "portable"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "mouse_stock_status": "in_stock",
+    "mouse_weight_class": "ultra_light"
   },
   {
     "id": "redragon_m656_gainer",
@@ -70123,13 +70194,14 @@
     "brand": "Redragon",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      20,
+      30
     ],
     "image_url": "https://i5.walmartimages.com/asr/03362604-3d49-4696-8cb3-ffee41767a43.243632b7ef33d404c69ad6396e1bf7e3.jpeg?odnHeight=450&odnWidth=450&odnBg=ffffff",
     "product_url": "https://www.amazon.com/s?k=Redragon%20M724&tag=gearmatch-20",
     "retailer_urls": {
-      "walmart": "https://goto.walmart.com/c/|PUBID|/568844/9383?veh=aff&sourceid=imp_000011112222333344&u=https%3A%2F%2Fwww.walmart.com%2Fip%2F975451699"
+      "walmart": "https://goto.walmart.com/c/|PUBID|/568844/9383?veh=aff&sourceid=imp_000011112222333344&u=https%3A%2F%2Fwww.walmart.com%2Fip%2F975451699",
+      "amazon": "https://www.amazon.com/dp/B0D41SDLTB?tag=gearmatch-20"
     },
     "recommendation_tags": [
       "ultralight"
@@ -70182,7 +70254,9 @@
         "ultralight"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "mouse_stock_status": "in_stock",
+    "mouse_weight_class": "ultra_light"
   },
   {
     "id": "redragon_m817",
@@ -70190,13 +70264,14 @@
     "brand": "Redragon",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      20,
+      28
     ],
     "image_url": "https://i5.walmartimages.com/asr/7b3228a9-61e8-49ea-b5ff-d6479a1120d4.fb811ce1deed59610020389c0647a978.jpeg?odnHeight=450&odnWidth=450&odnBg=ffffff",
     "product_url": "https://www.amazon.com/s?k=Redragon%20M817&tag=gearmatch-20",
     "retailer_urls": {
-      "walmart": "https://goto.walmart.com/c/|PUBID|/568844/9383?veh=aff&sourceid=imp_000011112222333344&u=https%3A%2F%2Fwww.walmart.com%2Fip%2F19054955199"
+      "walmart": "https://goto.walmart.com/c/|PUBID|/568844/9383?veh=aff&sourceid=imp_000011112222333344&u=https%3A%2F%2Fwww.walmart.com%2Fip%2F19054955199",
+      "amazon": "https://www.amazon.com/dp/B0FFB53VL7?tag=gearmatch-20"
     },
     "recommendation_tags": [
       "small_hands_friendly",
@@ -70251,7 +70326,9 @@
         "ultralight"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "mouse_stock_status": "in_stock",
+    "mouse_weight_class": "ultra_light"
   },
   {
     "id": "redragon_m817_pro",
@@ -70259,13 +70336,14 @@
     "brand": "Redragon",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      20,
+      30
     ],
     "image_url": "https://i5.walmartimages.com/asr/7b3228a9-61e8-49ea-b5ff-d6479a1120d4.fb811ce1deed59610020389c0647a978.jpeg?odnHeight=450&odnWidth=450&odnBg=ffffff",
     "product_url": "https://www.amazon.com/s?k=Redragon%20M817%20Pro&tag=gearmatch-20",
     "retailer_urls": {
-      "walmart": "https://goto.walmart.com/c/|PUBID|/568844/9383?veh=aff&sourceid=imp_000011112222333344&u=https%3A%2F%2Fwww.walmart.com%2Fip%2F19054955199"
+      "walmart": "https://goto.walmart.com/c/|PUBID|/568844/9383?veh=aff&sourceid=imp_000011112222333344&u=https%3A%2F%2Fwww.walmart.com%2Fip%2F19054955199",
+      "amazon": "https://www.amazon.com/dp/B0FGPCHPYT?tag=gearmatch-20"
     },
     "recommendation_tags": [
       "small_hands_friendly",
@@ -70320,7 +70398,9 @@
         "portable"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "mouse_stock_status": "in_stock",
+    "mouse_weight_class": "light"
   },
   {
     "id": "redragon_m908_impact",
@@ -70328,13 +70408,14 @@
     "brand": "Redragon",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      24,
+      35
     ],
     "image_url": "https://i5.walmartimages.com/asr/dea720b6-54af-4cba-99f1-f67e5c1c2e43.00fff294086ed3d99d5a1831590c2e9c.jpeg?odnHeight=450&odnWidth=450&odnBg=ffffff",
     "product_url": "https://www.amazon.com/s?k=Redragon%20M908%20Impact&tag=gearmatch-20",
     "retailer_urls": {
-      "walmart": "https://goto.walmart.com/c/|PUBID|/568844/9383?veh=aff&sourceid=imp_000011112222333344&u=https%3A%2F%2Fwww.walmart.com%2Fip%2F11738217453"
+      "walmart": "https://goto.walmart.com/c/|PUBID|/568844/9383?veh=aff&sourceid=imp_000011112222333344&u=https%3A%2F%2Fwww.walmart.com%2Fip%2F11738217453",
+      "amazon": "https://www.amazon.com/dp/B07HC4NBQ8?tag=gearmatch-20"
     },
     "recommendation_tags": [
       "mmo_specialist"
@@ -70393,7 +70474,9 @@
         "mmo_friendly"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "mouse_stock_status": "in_stock",
+    "mouse_weight_class": "heavy"
   },
   {
     "id": "redragon_m913_impact_elite",
@@ -70401,13 +70484,14 @@
     "brand": "Redragon",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      39,
+      55
     ],
     "image_url": "https://i5.walmartimages.com/asr/8e00332e-be17-4ee2-a095-5e7a2bd5a6f8.fe471de95036b0486e7afb1f10f60f01.jpeg?odnHeight=450&odnWidth=450&odnBg=ffffff",
     "product_url": "https://www.amazon.com/s?k=Redragon%20M913%20Impact%20Elite&tag=gearmatch-20",
     "retailer_urls": {
-      "walmart": "https://goto.walmart.com/c/|PUBID|/568844/9383?veh=aff&sourceid=imp_000011112222333344&u=https%3A%2F%2Fwww.walmart.com%2Fip%2F761432526"
+      "walmart": "https://goto.walmart.com/c/|PUBID|/568844/9383?veh=aff&sourceid=imp_000011112222333344&u=https%3A%2F%2Fwww.walmart.com%2Fip%2F761432526",
+      "amazon": "https://www.amazon.com/dp/B088B3ZM76?tag=gearmatch-20"
     },
     "recommendation_tags": [
       "mmo_specialist",
@@ -70467,7 +70551,9 @@
         "mmo_friendly"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "mouse_stock_status": "in_stock",
+    "mouse_weight_class": "heavy"
   },
   {
     "id": "redragon_m916_pro",
@@ -70546,13 +70632,14 @@
     "brand": "Redragon",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      27,
+      44
     ],
     "image_url": "https://i5.walmartimages.com/asr/05302e31-f8f9-4a23-9758-4fce0699b26e.5a34f4382f0bad77dbc4b01df9194c39.jpeg?odnHeight=450&odnWidth=450&odnBg=ffffff",
     "product_url": "https://www.amazon.com/s?k=Redragon%20M916%20Pro%204K&tag=gearmatch-20",
     "retailer_urls": {
-      "walmart": "https://goto.walmart.com/c/|PUBID|/568844/9383?veh=aff&sourceid=imp_000011112222333344&u=https%3A%2F%2Fwww.walmart.com%2Fip%2F11738217459"
+      "walmart": "https://goto.walmart.com/c/|PUBID|/568844/9383?veh=aff&sourceid=imp_000011112222333344&u=https%3A%2F%2Fwww.walmart.com%2Fip%2F11738217459",
+      "amazon": "https://www.amazon.com/dp/B0CQXKMFHY?tag=gearmatch-20"
     },
     "recommendation_tags": [
       "4k_polling",
@@ -70609,7 +70696,9 @@
         "portable"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "mouse_stock_status": "in_stock",
+    "mouse_weight_class": "light"
   },
   {
     "id": "redragon_m916_ult_8k",
@@ -70769,14 +70858,15 @@
     "brand": "Redragon",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      20,
+      25
     ],
     "image_url": "https://i5.walmartimages.com/asr/eda40e15-6554-4537-ac3a-24d9c7e8c603.05664848a6a41e6a3254296480a0a2c3.jpeg?odnHeight=450&odnWidth=450&odnBg=ffffff",
     "product_url": "https://www.amazon.com/s?k=Redragon+M995&tag=gearmatch-20",
     "retailer_urls": {
       "manufacturer": "https://redragonshop.com/products/legend-chroma-m990?variant=44200542732510",
-      "walmart": "https://goto.walmart.com/c/|PUBID|/568844/9383?veh=aff&sourceid=imp_000011112222333344&u=https%3A%2F%2Fwww.walmart.com%2Fip%2F7208471674"
+      "walmart": "https://goto.walmart.com/c/|PUBID|/568844/9383?veh=aff&sourceid=imp_000011112222333344&u=https%3A%2F%2Fwww.walmart.com%2Fip%2F7208471674",
+      "amazon": "https://www.amazon.com/dp/B0CS62PM89?tag=gearmatch-20"
     },
     "recommendation_tags": [
       "large_hands_friendly",
@@ -70831,7 +70921,9 @@
         "large_hands_friendly"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "mouse_stock_status": "in_stock",
+    "mouse_weight_class": "light"
   },
   {
     "id": "redragon_m995_pro",
@@ -70839,13 +70931,14 @@
     "brand": "Redragon",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      30,
+      40
     ],
     "image_url": "https://i5.walmartimages.com/asr/c04f9af3-91db-409b-916d-0cc068ee2074.0564633c507ce61c9a01ff059e82ec53.jpeg?odnHeight=450&odnWidth=450&odnBg=ffffff",
     "product_url": "https://www.amazon.com/s?k=Redragon%20M995%20Pro&tag=gearmatch-20",
     "retailer_urls": {
-      "walmart": "https://goto.walmart.com/c/|PUBID|/568844/9383?veh=aff&sourceid=imp_000011112222333344&u=https%3A%2F%2Fwww.walmart.com%2Fip%2F6217473001"
+      "walmart": "https://goto.walmart.com/c/|PUBID|/568844/9383?veh=aff&sourceid=imp_000011112222333344&u=https%3A%2F%2Fwww.walmart.com%2Fip%2F6217473001",
+      "amazon": "https://www.amazon.com/dp/B0CR9YQLNM?tag=gearmatch-20"
     },
     "recommendation_tags": [
       "large_hands_friendly",
@@ -70902,7 +70995,9 @@
         "portable"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "mouse_stock_status": "in_stock",
+    "mouse_weight_class": "light"
   },
   {
     "id": "redragon_m996",
@@ -70910,14 +71005,15 @@
     "brand": "Redragon",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      25,
+      35
     ],
     "image_url": "https://i5.walmartimages.com/asr/30f7f05d-d5ea-4157-89a2-6ae52d4624ed.110ad7824623968ff27aba01c0900085.jpeg?odnHeight=450&odnWidth=450&odnBg=ffffff",
     "product_url": "https://www.amazon.com/s?k=Redragon+M996&tag=gearmatch-20",
     "retailer_urls": {
       "manufacturer": "https://redragonshop.com/products/k1ng-m916-pro-1k?variant=44604331196638",
-      "walmart": "https://goto.walmart.com/c/|PUBID|/568844/9383?veh=aff&sourceid=imp_000011112222333344&u=https%3A%2F%2Fwww.walmart.com%2Fip%2F11726873972"
+      "walmart": "https://goto.walmart.com/c/|PUBID|/568844/9383?veh=aff&sourceid=imp_000011112222333344&u=https%3A%2F%2Fwww.walmart.com%2Fip%2F11726873972",
+      "amazon": "https://www.amazon.com/dp/B0D944M4SZ?tag=gearmatch-20"
     },
     "recommendation_tags": [
       "8k_polling",
@@ -70971,7 +71067,9 @@
         "ultralight"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "mouse_stock_status": "in_stock",
+    "mouse_weight_class": "ultra_light"
   },
   {
     "id": "rexus_daxa_air_iv",
@@ -71036,7 +71134,9 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/rexus-daxa-air-iv.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/rexus-daxa-air-iv.png?width=512&height=512&resize=contain",
+    "mouse_stock_status": "in_stock",
+    "mouse_weight_class": "light"
   },
   {
     "id": "rk_royal_kludge_m3",
@@ -71044,8 +71144,8 @@
     "brand": "RK",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      40,
+      55
     ],
     "product_url": "https://www.amazon.com/s?k=RK%20Royal%20Kludge%0AM3&tag=gearmatch-20",
     "recommendation_tags": [
@@ -71107,7 +71207,12 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/royal-kludge-m3.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/royal-kludge-m3.png?width=512&height=512&resize=contain",
+    "mouse_stock_status": "in_stock",
+    "mouse_weight_class": "light",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/dp/B0DQTW5TKF?tag=gearmatch-20"
+    }
   },
   {
     "id": "rk_royal_kludge_m30",
@@ -71115,8 +71220,8 @@
     "brand": "RK",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      35,
+      45
     ],
     "product_url": "https://www.amazon.com/s?k=RK%20Royal%20Kludge%0AM30&tag=gearmatch-20",
     "recommendation_tags": [
@@ -71172,7 +71277,12 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/royal-kludge-m30.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/royal-kludge-m30.png?width=512&height=512&resize=contain",
+    "mouse_stock_status": "in_stock",
+    "mouse_weight_class": "ultra_light",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/dp/B0FD9CYFT8?tag=gearmatch-20"
+    }
   },
   {
     "id": "roccat_burst_core",
@@ -71180,13 +71290,14 @@
     "brand": "ROCCAT",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      30,
+      40
     ],
     "image_url": "https://i5.walmartimages.com/asr/a7aadd76-a017-4104-8e31-ee2cdfbe808f.54a6e0af656857472b23e5c1f1655552.jpeg?odnHeight=450&odnWidth=450&odnBg=ffffff",
     "product_url": "https://www.amazon.com/s?k=ROCCAT%20Burst%20Core&tag=gearmatch-20",
     "retailer_urls": {
-      "walmart": "https://goto.walmart.com/c/|PUBID|/568844/9383?veh=aff&sourceid=imp_000011112222333344&u=https%3A%2F%2Fwww.walmart.com%2Fip%2F2378580397"
+      "walmart": "https://goto.walmart.com/c/|PUBID|/568844/9383?veh=aff&sourceid=imp_000011112222333344&u=https%3A%2F%2Fwww.walmart.com%2Fip%2F2378580397",
+      "amazon": "https://www.amazon.com/dp/B08HR4K6QJ?tag=gearmatch-20"
     },
     "recommendation_tags": [],
     "data_quality": {
@@ -71236,7 +71347,9 @@
       "mouse_coating": "matte",
       "mouse_feel_tags": [],
       "mouse_value_pick": false
-    }
+    },
+    "mouse_stock_status": "in_stock",
+    "mouse_weight_class": "light"
   },
   {
     "id": "roccat_burst_pro",
@@ -71307,8 +71420,8 @@
     "brand": "ROCCAT",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      60,
+      80
     ],
     "product_url": "https://www.amazon.com/s?k=ROCCAT%20Burst%20Pro%20Air&tag=gearmatch-20",
     "recommendation_tags": [
@@ -71362,7 +71475,12 @@
       "mouse_feel_tags": [],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/roccat-burst-pro-air.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/roccat-burst-pro-air.png?width=512&height=512&resize=contain",
+    "mouse_stock_status": "in_stock",
+    "mouse_weight_class": "medium",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/dp/B09WX3MNYM?tag=gearmatch-20"
+    }
   },
   {
     "id": "roccat_kain_100_aimo",
@@ -71370,13 +71488,14 @@
     "brand": "ROCCAT",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      35,
+      60
     ],
     "image_url": "https://i5.walmartimages.com/asr/220f0a5b-5247-4271-8e3e-d58acd9a24ca.ac576265740cc3511d7f625e75ae2da4.jpeg?odnHeight=450&odnWidth=450&odnBg=ffffff",
     "product_url": "https://www.amazon.com/s?k=ROCCAT%20Kain%20100%20AIMO&tag=gearmatch-20",
     "retailer_urls": {
-      "walmart": "https://goto.walmart.com/c/|PUBID|/568844/9383?veh=aff&sourceid=imp_000011112222333344&u=https%3A%2F%2Fwww.walmart.com%2Fip%2F297582228"
+      "walmart": "https://goto.walmart.com/c/|PUBID|/568844/9383?veh=aff&sourceid=imp_000011112222333344&u=https%3A%2F%2Fwww.walmart.com%2Fip%2F297582228",
+      "amazon": "https://www.amazon.com/dp/B093Q24631?tag=gearmatch-20"
     },
     "recommendation_tags": [],
     "data_quality": {
@@ -71428,7 +71547,9 @@
         "large_hands_friendly"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "mouse_stock_status": "out_of_stock",
+    "mouse_weight_class": "medium"
   },
   {
     "id": "roccat_kain_120_aimo",
@@ -71436,14 +71557,15 @@
     "brand": "ROCCAT",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      35,
+      70
     ],
     "image_url": "https://i5.walmartimages.com/asr/e18a4e74-f1d6-496b-b8ad-a09aa4017dcc.83d4b912ffc75e2fd61a8d70f5636e01.jpeg?odnHeight=450&odnWidth=450&odnBg=ffffff",
     "product_url": "https://www.amazon.com/s?k=ROCCAT+Kain+120+AIMO&tag=gearmatch-20",
     "retailer_urls": {
       "newegg": "https://www.newegg.com/p/1B4-00CH-00124",
-      "walmart": "https://goto.walmart.com/c/|PUBID|/568844/9383?veh=aff&sourceid=imp_000011112222333344&u=https%3A%2F%2Fwww.walmart.com%2Fip%2F602085349"
+      "walmart": "https://goto.walmart.com/c/|PUBID|/568844/9383?veh=aff&sourceid=imp_000011112222333344&u=https%3A%2F%2Fwww.walmart.com%2Fip%2F602085349",
+      "amazon": "https://www.amazon.com/dp/B07SVNX78P?tag=gearmatch-20"
     },
     "recommendation_tags": [],
     "data_quality": {
@@ -71495,7 +71617,10 @@
         "large_hands_friendly"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "mouse_stock_status": "out_of_stock",
+    "mouse_weight_class": "medium",
+    "mouse_discontinued": true
   },
   {
     "id": "roccat_kain_200_aimo",
@@ -71503,14 +71628,15 @@
     "brand": "ROCCAT",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      60,
+      100
     ],
     "image_url": "https://i5.walmartimages.com/asr/feae7d39-9089-4c79-a22d-39c7aa5fb7b9.651361f0e0077d747419504a30a0d0a0.jpeg?odnHeight=450&odnWidth=450&odnBg=ffffff",
     "product_url": "https://www.amazon.com/s?k=ROCCAT+Kain+200+AIMO&tag=gearmatch-20",
     "retailer_urls": {
       "newegg": "https://www.newegg.com/p/0GA-0993-003J4",
-      "walmart": "https://goto.walmart.com/c/|PUBID|/568844/9383?veh=aff&sourceid=imp_000011112222333344&u=https%3A%2F%2Fwww.walmart.com%2Fip%2F843477339"
+      "walmart": "https://goto.walmart.com/c/|PUBID|/568844/9383?veh=aff&sourceid=imp_000011112222333344&u=https%3A%2F%2Fwww.walmart.com%2Fip%2F843477339",
+      "amazon": "https://www.amazon.com/dp/B07YCDVFS6?tag=gearmatch-20"
     },
     "recommendation_tags": [
       "wireless"
@@ -71563,7 +71689,10 @@
         "large_hands_friendly"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "mouse_stock_status": "out_of_stock",
+    "mouse_weight_class": "heavy",
+    "mouse_discontinued": true
   },
   {
     "id": "roccat_kone_aimo_remastered",
@@ -71571,8 +71700,8 @@
     "brand": "ROCCAT",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      30,
+      80
     ],
     "product_url": "https://www.amazon.com/s?k=ROCCAT%20Kone%20AIMO%20Remastered&tag=gearmatch-20",
     "recommendation_tags": [
@@ -71632,7 +71761,13 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/roccat-kone-aimo-remastered.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/roccat-kone-aimo-remastered.png?width=512&height=512&resize=contain",
+    "mouse_stock_status": "out_of_stock",
+    "mouse_weight_class": "heavy",
+    "mouse_discontinued": true,
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/dp/B07YCG26KZ?tag=gearmatch-20"
+    }
   },
   {
     "id": "roccat_kone_pro",
@@ -71858,13 +71993,14 @@
     "brand": "ROCCAT",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      100,
+      140
     ],
     "image_url": "https://i5.walmartimages.com/asr/220f0a5b-5247-4271-8e3e-d58acd9a24ca.ac576265740cc3511d7f625e75ae2da4.jpeg?odnHeight=450&odnWidth=450&odnBg=ffffff",
     "product_url": "https://www.amazon.com/s?k=ROCCAT%20Kone%20XP%20Air&tag=gearmatch-20",
     "retailer_urls": {
-      "walmart": "https://goto.walmart.com/c/|PUBID|/568844/9383?veh=aff&sourceid=imp_000011112222333344&u=https%3A%2F%2Fwww.walmart.com%2Fip%2F297582228"
+      "walmart": "https://goto.walmart.com/c/|PUBID|/568844/9383?veh=aff&sourceid=imp_000011112222333344&u=https%3A%2F%2Fwww.walmart.com%2Fip%2F297582228",
+      "amazon": "https://www.amazon.com/dp/B0B69XSSXF?tag=gearmatch-20"
     },
     "recommendation_tags": [
       "large_hands_friendly",
@@ -71925,7 +72061,9 @@
         "mmo_friendly"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "mouse_stock_status": "limited",
+    "mouse_weight_class": "medium"
   },
   {
     "id": "roccat_lua",
@@ -71990,7 +72128,10 @@
         "safe_shape"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "mouse_stock_status": "out_of_stock",
+    "mouse_weight_class": "medium",
+    "mouse_discontinued": true
   },
   {
     "id": "roccat_pure_air",
@@ -72130,7 +72271,10 @@
         "thumb_rest"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "mouse_stock_status": "out_of_stock",
+    "mouse_weight_class": "light",
+    "mouse_discontinued": true
   },
   {
     "id": "roccat_tyon",
@@ -72202,7 +72346,10 @@
         "thumb_rest"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "mouse_stock_status": "out_of_stock",
+    "mouse_weight_class": "heavy",
+    "mouse_discontinued": true
   },
   {
     "id": "santali_s1_o",
@@ -72210,8 +72357,8 @@
     "brand": "Santali",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      40,
+      85
     ],
     "product_url": "https://www.amazon.com/s?k=Santali%20S1-O&tag=gearmatch-20",
     "recommendation_tags": [
@@ -72271,7 +72418,9 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/santali-s1-o.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/santali-s1-o.png?width=512&height=512&resize=contain",
+    "mouse_stock_status": "limited",
+    "mouse_weight_class": "light"
   },
   {
     "id": "scyrox_v6",
@@ -72435,13 +72584,14 @@
     "brand": "SOLAKAKA",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      20,
+      35
     ],
     "image_url": "https://i5.walmartimages.com/asr/d509bb09-d496-4ae4-81b1-bed6b2988adb.462bd870b22d9a84848d207655fd9434.jpeg?odnHeight=450&odnWidth=450&odnBg=ffffff",
     "product_url": "https://www.amazon.com/s?k=SOLAKAKA%20SM802&tag=gearmatch-20",
     "retailer_urls": {
-      "walmart": "https://goto.walmart.com/c/|PUBID|/568844/9383?veh=aff&sourceid=imp_000011112222333344&u=https%3A%2F%2Fwww.walmart.com%2Fip%2F17347750359"
+      "walmart": "https://goto.walmart.com/c/|PUBID|/568844/9383?veh=aff&sourceid=imp_000011112222333344&u=https%3A%2F%2Fwww.walmart.com%2Fip%2F17347750359",
+      "amazon": "https://www.amazon.com/dp/B0D5CSX3QG?tag=gearmatch-20"
     },
     "recommendation_tags": [
       "mmo_specialist",
@@ -72497,7 +72647,9 @@
         "portable"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "mouse_stock_status": "in_stock",
+    "mouse_weight_class": "medium"
   },
   {
     "id": "solakaka_sm802_pro",
@@ -72505,8 +72657,8 @@
     "brand": "SOLAKAKA",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      25,
+      45
     ],
     "product_url": "https://www.amazon.com/s?k=SOLAKAKA%20SM802%20Pro&tag=gearmatch-20",
     "recommendation_tags": [
@@ -72564,7 +72716,12 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/solakaka-sm802.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/solakaka-sm802.png?width=512&height=512&resize=contain",
+    "mouse_stock_status": "in_stock",
+    "mouse_weight_class": "medium",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/dp/B0DRGH87S5?tag=gearmatch-20"
+    }
   },
   {
     "id": "solakaka_sm805",
@@ -72572,8 +72729,8 @@
     "brand": "SOLAKAKA",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      30,
+      45
     ],
     "product_url": "https://www.amazon.com/s?k=SOLAKAKA%20SM805&tag=gearmatch-20",
     "recommendation_tags": [
@@ -72628,7 +72785,12 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/solakaka-sm805.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/solakaka-sm805.png?width=512&height=512&resize=contain",
+    "mouse_stock_status": "in_stock",
+    "mouse_weight_class": "light",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/dp/B0DT18YN1S?tag=gearmatch-20"
+    }
   },
   {
     "id": "solakaka_sm809",
@@ -72636,8 +72798,8 @@
     "brand": "SOLAKAKA",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      25,
+      50
     ],
     "product_url": "https://www.amazon.com/s?k=SOLAKAKA%20SM809&tag=gearmatch-20",
     "recommendation_tags": [
@@ -72698,7 +72860,12 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/solakaka-sm809.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/solakaka-sm809.png?width=512&height=512&resize=contain",
+    "mouse_stock_status": "in_stock",
+    "mouse_weight_class": "medium",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/dp/B0DP23QCJR?tag=gearmatch-20"
+    }
   },
   {
     "id": "solakaka_sm809_pro",
@@ -72706,8 +72873,8 @@
     "brand": "SOLAKAKA",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      45,
+      60
     ],
     "product_url": "https://www.amazon.com/s?k=SOLAKAKA%20SM809%20Pro&tag=gearmatch-20",
     "recommendation_tags": [
@@ -72769,7 +72936,12 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/solakaka-sm809.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/solakaka-sm809.png?width=512&height=512&resize=contain",
+    "mouse_stock_status": "in_stock",
+    "mouse_weight_class": "medium",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/dp/B0DT15Z62M?tag=gearmatch-20"
+    }
   },
   {
     "id": "solakaka_sm850",
@@ -72777,8 +72949,8 @@
     "brand": "SOLAKAKA",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      25,
+      50
     ],
     "product_url": "https://www.amazon.com/s?k=SOLAKAKA%20SM850&tag=gearmatch-20",
     "recommendation_tags": [
@@ -72834,7 +73006,12 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/solakaka-sm850.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/solakaka-sm850.png?width=512&height=512&resize=contain",
+    "mouse_stock_status": "in_stock",
+    "mouse_weight_class": "light",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/dp/B0DSJ7K6CQ?tag=gearmatch-20"
+    }
   },
   {
     "id": "sony_inzone_mouse_a",
@@ -72926,8 +73103,8 @@
     "brand": "SPC",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      50,
+      70
     ],
     "product_url": "https://www.amazon.com/s?k=SPC%20Gear%0ALIX%20Plus%20Wireless&tag=gearmatch-20",
     "recommendation_tags": [
@@ -72983,7 +73160,9 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/spc-gear-lix-plus-wireless.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/spc-gear-lix-plus-wireless.png?width=512&height=512&resize=contain",
+    "mouse_stock_status": "limited",
+    "mouse_weight_class": "light"
   },
   {
     "id": "sprime_pm1",
@@ -72991,8 +73170,8 @@
     "brand": "Sprime",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      100,
+      130
     ],
     "product_url": "https://www.amazon.com/s?k=Sprime+PM1&tag=gearmatch-20",
     "recommendation_tags": [
@@ -73053,7 +73232,9 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/sprime-pm1.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/sprime-pm1.png?width=512&height=512&resize=contain",
+    "mouse_stock_status": "limited",
+    "mouse_weight_class": "ultra_light"
   },
   {
     "id": "steelseries_aerox_3",
@@ -73415,7 +73596,10 @@
       "mouse_feel_tags": [],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/steelseries-kana-v2.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/steelseries-kana-v2.png?width=512&height=512&resize=contain",
+    "mouse_stock_status": "out_of_stock",
+    "mouse_weight_class": "medium",
+    "mouse_discontinued": true
   },
   {
     "id": "steelseries_kinzu_v2",
@@ -73480,7 +73664,10 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/steelseries-kinzu-v2.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/steelseries-kinzu-v2.png?width=512&height=512&resize=contain",
+    "mouse_stock_status": "out_of_stock",
+    "mouse_weight_class": "medium",
+    "mouse_discontinued": true
   },
   {
     "id": "steelseries_kinzu_v2_pro",
@@ -73548,7 +73735,10 @@
         "safe_shape"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "mouse_stock_status": "out_of_stock",
+    "mouse_weight_class": "medium",
+    "mouse_discontinued": true
   },
   {
     "id": "steelseries_kinzu_v3",
@@ -73616,7 +73806,10 @@
         "safe_shape"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "mouse_stock_status": "out_of_stock",
+    "mouse_weight_class": "medium",
+    "mouse_discontinued": true
   },
   {
     "id": "steelseries_prime",
@@ -73698,13 +73891,14 @@
     "brand": "SteelSeries",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      30,
+      45
     ],
     "image_url": "https://i5.walmartimages.com/asr/48d320d3-e01c-4123-b254-fcb078c5726d.0b4e6a8cfa3d9138c1dc2a3248a05b38.jpeg?odnHeight=450&odnWidth=450&odnBg=ffffff",
     "product_url": "https://www.amazon.com/s?k=SteelSeries%20Rival%20110&tag=gearmatch-20",
     "retailer_urls": {
-      "walmart": "https://goto.walmart.com/c/|PUBID|/568844/9383?veh=aff&sourceid=imp_000011112222333344&u=https%3A%2F%2Fwww.walmart.com%2Fip%2F610542745"
+      "walmart": "https://goto.walmart.com/c/|PUBID|/568844/9383?veh=aff&sourceid=imp_000011112222333344&u=https%3A%2F%2Fwww.walmart.com%2Fip%2F610542745",
+      "amazon": "https://www.amazon.com/dp/B075LD4YY6?tag=gearmatch-20"
     },
     "recommendation_tags": [],
     "data_quality": {
@@ -73753,7 +73947,9 @@
       "mouse_coating": "matte",
       "mouse_feel_tags": [],
       "mouse_value_pick": false
-    }
+    },
+    "mouse_stock_status": "in_stock",
+    "mouse_weight_class": "medium"
   },
   {
     "id": "steelseries_rival_3_gen_2",
@@ -74041,7 +74237,10 @@
         "ergo_right"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "mouse_stock_status": "out_of_stock",
+    "mouse_weight_class": "medium",
+    "mouse_discontinued": true
   },
   {
     "id": "steelseries_rival_310",
@@ -74201,7 +74400,8 @@
     "image_url": "https://i5.walmartimages.com/asr/854dbcc3-73e6-4978-8205-317d77f30f80.06fbfaa0eae6f6fa6b924fb4b4f10e24.jpeg?odnHeight=450&odnWidth=450&odnBg=ffffff",
     "product_url": "https://www.amazon.com/s?k=SteelSeries%20Rival%20500&tag=gearmatch-20",
     "retailer_urls": {
-      "walmart": "https://goto.walmart.com/c/|PUBID|/568844/9383?veh=aff&sourceid=imp_000011112222333344&u=https%3A%2F%2Fwww.walmart.com%2Fip%2F737122625"
+      "walmart": "https://goto.walmart.com/c/|PUBID|/568844/9383?veh=aff&sourceid=imp_000011112222333344&u=https%3A%2F%2Fwww.walmart.com%2Fip%2F737122625",
+      "amazon": "https://www.amazon.com/dp/B01K3DM0WY?tag=gearmatch-20"
     },
     "recommendation_tags": [
       "mmo_specialist"
@@ -74259,7 +74459,10 @@
         "mmo_friendly"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "mouse_stock_status": "out_of_stock",
+    "mouse_weight_class": "heavy",
+    "mouse_discontinued": true
   },
   {
     "id": "steelseries_rival_600",
@@ -74537,7 +74740,13 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/steelseries-sensei-310.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/steelseries-sensei-310.png?width=512&height=512&resize=contain",
+    "mouse_stock_status": "out_of_stock",
+    "mouse_weight_class": "medium",
+    "mouse_discontinued": true,
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/dp/B073WGB8G6?tag=gearmatch-20"
+    }
   },
   {
     "id": "steelseries_sensei_ten",
@@ -74612,8 +74821,8 @@
     "brand": "strayfe",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      135,
+      150
     ],
     "product_url": "https://www.amazon.com/s?k=strayfe%20M55%20Pro%208k&tag=gearmatch-20",
     "recommendation_tags": [
@@ -74669,7 +74878,9 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/strayfe-m55-pro-8k.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/strayfe-m55-pro-8k.png?width=512&height=512&resize=contain",
+    "mouse_stock_status": "in_stock",
+    "mouse_weight_class": "light"
   },
   {
     "id": "swiftpoint_creator",
@@ -74677,8 +74888,8 @@
     "brand": "Swiftpoint",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      130,
+      140
     ],
     "product_url": "https://www.amazon.com/s?k=Swiftpoint%20Creator&tag=gearmatch-20",
     "recommendation_tags": [
@@ -74740,7 +74951,12 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/swiftpoint-creator.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/swiftpoint-creator.png?width=512&height=512&resize=contain",
+    "mouse_stock_status": "in_stock",
+    "mouse_weight_class": "heavy",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/dp/B0BTCSHD3J?tag=gearmatch-20"
+    }
   },
   {
     "id": "swiftpoint_ergopoint",
@@ -74748,13 +74964,14 @@
     "brand": "Swiftpoint",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      30,
+      45
     ],
     "image_url": "https://i5.walmartimages.com/asr/e1d9db26-6d8d-4e44-94f0-1c07fadeb256.a500a5785be65dd3ecdb5132d1729557.jpeg?odnHeight=450&odnWidth=450&odnBg=ffffff",
     "product_url": "https://www.amazon.com/s?k=Swiftpoint%20ErgoPoint&tag=gearmatch-20",
     "retailer_urls": {
-      "walmart": "https://goto.walmart.com/c/|PUBID|/568844/9383?veh=aff&sourceid=imp_000011112222333344&u=https%3A%2F%2Fwww.walmart.com%2Fip%2F2477863316"
+      "walmart": "https://goto.walmart.com/c/|PUBID|/568844/9383?veh=aff&sourceid=imp_000011112222333344&u=https%3A%2F%2Fwww.walmart.com%2Fip%2F2477863316",
+      "amazon": "https://www.amazon.com/dp/B09ZTPS1Z1?tag=gearmatch-20"
     },
     "recommendation_tags": [
       "small_hands_friendly",
@@ -74810,7 +75027,9 @@
         "thumb_rest"
       ],
       "mouse_value_pick": false
-    }
+    },
+    "mouse_stock_status": "in_stock",
+    "mouse_weight_class": "heavy"
   },
   {
     "id": "swiftpoint_tracer",
@@ -74818,8 +75037,8 @@
     "brand": "Swiftpoint",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      120,
+      140
     ],
     "product_url": "https://www.amazon.com/s?k=Swiftpoint%20Tracer&tag=gearmatch-20",
     "recommendation_tags": [
@@ -74881,7 +75100,12 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/swiftpoint-tracer.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/swiftpoint-tracer.png?width=512&height=512&resize=contain",
+    "mouse_stock_status": "limited",
+    "mouse_weight_class": "heavy",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/dp/B08RW9X3NF?tag=gearmatch-20"
+    }
   },
   {
     "id": "swiftpoint_z2",
@@ -74889,8 +75113,8 @@
     "brand": "Swiftpoint",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      189,
+      199
     ],
     "product_url": "https://www.amazon.com/s?k=Swiftpoint%20Z2&tag=gearmatch-20",
     "recommendation_tags": [
@@ -74952,7 +75176,12 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/swiftpoint-z2.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/swiftpoint-z2.png?width=512&height=512&resize=contain",
+    "mouse_stock_status": "in_stock",
+    "mouse_weight_class": "heavy",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/dp/B0CZ8KTZHH?tag=gearmatch-20"
+    }
   },
   {
     "id": "sylical_helix",
@@ -74960,8 +75189,8 @@
     "brand": "SyLical",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      95,
+      100
     ],
     "product_url": "https://www.amazon.com/s?k=SyLical%20HELIX&tag=gearmatch-20",
     "recommendation_tags": [
@@ -75025,7 +75254,9 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/sylical-helix-PLgEH.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/sylical-helix-PLgEH.png?width=512&height=512&resize=contain",
+    "mouse_stock_status": "in_stock",
+    "mouse_weight_class": "ultra_light"
   },
   {
     "id": "teamwolf_lurker_mk_01",
@@ -75033,8 +75264,8 @@
     "brand": "Teamwolf",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      45,
+      60
     ],
     "product_url": "https://www.amazon.com/s?k=Teamwolf%20Lurker%20MK-01&tag=gearmatch-20",
     "recommendation_tags": [
@@ -75091,7 +75322,9 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/teamwolf-lurker-mk-01.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/teamwolf-lurker-mk-01.png?width=512&height=512&resize=contain",
+    "mouse_stock_status": "in_stock",
+    "mouse_weight_class": "ultra_light"
   },
   {
     "id": "tecware_ex1",
@@ -75099,8 +75332,8 @@
     "brand": "Tecware",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      35,
+      40
     ],
     "product_url": "https://www.amazon.com/s?k=Tecware%20EX1&tag=gearmatch-20",
     "recommendation_tags": [
@@ -75155,7 +75388,12 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/tecware-ex1.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/tecware-ex1.png?width=512&height=512&resize=contain",
+    "mouse_stock_status": "in_stock",
+    "mouse_weight_class": "light",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/dp/B0DNDXWJR6?tag=gearmatch-20"
+    }
   },
   {
     "id": "tecware_pulse_elite",
@@ -75163,8 +75401,8 @@
     "brand": "Tecware",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      45,
+      65
     ],
     "product_url": "https://www.amazon.com/s?k=Tecware%20Pulse%20Elite&tag=gearmatch-20",
     "recommendation_tags": [
@@ -75221,7 +75459,9 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/tecware-pulse-elite.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/tecware-pulse-elite.png?width=512&height=512&resize=contain",
+    "mouse_stock_status": "in_stock",
+    "mouse_weight_class": "medium"
   },
   {
     "id": "teevolution_aria_xd7",
@@ -75229,8 +75469,8 @@
     "brand": "Teevolution",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      60,
+      75
     ],
     "product_url": "https://www.amazon.com/s?k=Teevolution%20Aria%20XD7&tag=gearmatch-20",
     "recommendation_tags": [
@@ -75287,7 +75527,12 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/fantech-aria-xd7.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/fantech-aria-xd7.png?width=512&height=512&resize=contain",
+    "mouse_stock_status": "in_stock",
+    "mouse_weight_class": "light",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/dp/B0B7D57LR8?tag=gearmatch-20"
+    }
   },
   {
     "id": "teevolution_helios_ii_pro",
@@ -75295,8 +75540,8 @@
     "brand": "Teevolution",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      80,
+      90
     ],
     "product_url": "https://www.amazon.com/s?k=Teevolution%20Helios%20II%20Pro&tag=gearmatch-20",
     "recommendation_tags": [
@@ -75352,7 +75597,9 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/teevolution-helios-ii-pro.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/teevolution-helios-ii-pro.png?width=512&height=512&resize=contain",
+    "mouse_stock_status": "in_stock",
+    "mouse_weight_class": "light"
   },
   {
     "id": "teevolution_terra",
@@ -75360,8 +75607,8 @@
     "brand": "Teevolution",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      110,
+      120
     ],
     "product_url": "https://www.amazon.com/s?k=Teevolution%20Terra&tag=gearmatch-20",
     "recommendation_tags": [
@@ -75426,7 +75673,9 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/teevolution-terra.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/teevolution-terra.png?width=512&height=512&resize=contain",
+    "mouse_stock_status": "in_stock",
+    "mouse_weight_class": "ultra_light"
   },
   {
     "id": "tenten_zero_gravity",
@@ -75434,8 +75683,8 @@
     "brand": "TenTen",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      95,
+      225
     ],
     "product_url": "https://www.amazon.com/s?k=TenTen%20Zero%20Gravity&tag=gearmatch-20",
     "recommendation_tags": [
@@ -75497,7 +75746,9 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/tenten-zero-gravity.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/tenten-zero-gravity.png?width=512&height=512&resize=contain",
+    "mouse_stock_status": "limited",
+    "mouse_weight_class": "ultra_light"
   },
   {
     "id": "thunderobot_ml4",
@@ -75505,8 +75756,8 @@
     "brand": "ThundeRobot",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      20,
+      30
     ],
     "product_url": "https://www.amazon.com/s?k=ThundeRobot%20ML4&tag=gearmatch-20",
     "recommendation_tags": [
@@ -75563,7 +75814,9 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/thunderobot-ml4.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/thunderobot-ml4.png?width=512&height=512&resize=contain",
+    "mouse_stock_status": "in_stock",
+    "mouse_weight_class": "medium"
   },
   {
     "id": "thunderobot_ml6_pro",
@@ -75571,8 +75824,8 @@
     "brand": "ThundeRobot",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      55,
+      65
     ],
     "product_url": "https://www.amazon.com/s?k=ThundeRobot%20ML6%20Pro&tag=gearmatch-20",
     "recommendation_tags": [
@@ -75631,7 +75884,9 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/thunderobot-ml6-pro.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/thunderobot-ml6-pro.png?width=512&height=512&resize=contain",
+    "mouse_stock_status": "in_stock",
+    "mouse_weight_class": "light"
   },
   {
     "id": "thunderobot_ml602",
@@ -75639,8 +75894,8 @@
     "brand": "ThundeRobot",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      30,
+      40
     ],
     "product_url": "https://www.amazon.com/s?k=ThundeRobot%20ML602&tag=gearmatch-20",
     "recommendation_tags": [
@@ -75698,7 +75953,9 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/thunderobot-ml602.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/thunderobot-ml602.png?width=512&height=512&resize=contain",
+    "mouse_stock_status": "in_stock",
+    "mouse_weight_class": "light"
   },
   {
     "id": "thunderobot_ml8",
@@ -75706,8 +75963,8 @@
     "brand": "ThundeRobot",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      49,
+      65
     ],
     "product_url": "https://www.amazon.com/s?k=ThundeRobot%20ML8&tag=gearmatch-20",
     "recommendation_tags": [
@@ -75765,7 +76022,9 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/thunderobot-ml8.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/thunderobot-ml8.png?width=512&height=512&resize=contain",
+    "mouse_stock_status": "in_stock",
+    "mouse_weight_class": "light"
   },
   {
     "id": "thunderobot_ml9_mini",
@@ -75773,8 +76032,8 @@
     "brand": "ThundeRobot",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      41,
+      75
     ],
     "product_url": "https://www.amazon.com/s?k=ThundeRobot%20ML9%20Mini&tag=gearmatch-20",
     "recommendation_tags": [
@@ -75836,7 +76095,9 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/thunderobot-ml9-mini.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/thunderobot-ml9-mini.png?width=512&height=512&resize=contain",
+    "mouse_stock_status": "in_stock",
+    "mouse_weight_class": "light"
   },
   {
     "id": "thunderobot_ml901",
@@ -75844,8 +76105,8 @@
     "brand": "ThundeRobot",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      40,
+      50
     ],
     "product_url": "https://www.amazon.com/s?k=ThundeRobot%20ML901&tag=gearmatch-20",
     "recommendation_tags": [
@@ -75898,7 +76159,9 @@
       "mouse_feel_tags": [],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/thunderobot-ml901.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/thunderobot-ml901.png?width=512&height=512&resize=contain",
+    "mouse_stock_status": "in_stock",
+    "mouse_weight_class": "medium"
   },
   {
     "id": "thunderobot_ml903",
@@ -75906,8 +76169,8 @@
     "brand": "ThundeRobot",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      69,
+      80
     ],
     "product_url": "https://www.amazon.com/s?k=ThundeRobot%20ML903&tag=gearmatch-20",
     "recommendation_tags": [
@@ -75961,7 +76224,12 @@
       "mouse_feel_tags": [],
       "mouse_value_pick": false
     },
-    "image_url": "https://mechkeys.com/cdn/shop/products/thunderobot-ml903-series-paw3395-mouse-mechkeysshop-ml9034khz-dongle-white-221975.jpg?v=1756557018"
+    "image_url": "https://mechkeys.com/cdn/shop/products/thunderobot-ml903-series-paw3395-mouse-mechkeysshop-ml9034khz-dongle-white-221975.jpg?v=1756557018",
+    "mouse_stock_status": "in_stock",
+    "mouse_weight_class": "light",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/dp/B0DSLVR68K?tag=gearmatch-20"
+    }
   },
   {
     "id": "thunderobot_ml9s",
@@ -76029,7 +76297,8 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/thunderobot-ml901.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/thunderobot-ml901.png?width=512&height=512&resize=contain",
+    "mouse_stock_status": "out_of_stock"
   },
   {
     "id": "tmkb_falcon_m1se",
@@ -76101,8 +76370,8 @@
     "brand": "Turtle",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      79,
+      99
     ],
     "product_url": "https://www.amazon.com/s?k=Turtle%20Beach%0ABurst%20II%20Air&tag=gearmatch-20",
     "recommendation_tags": [
@@ -76159,7 +76428,12 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/turtle-beach-burst-ii-air.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/turtle-beach-burst-ii-air.png?width=512&height=512&resize=contain",
+    "mouse_stock_status": "in_stock",
+    "mouse_weight_class": "ultra_light",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/dp/B0D1CRTJ8J?tag=gearmatch-20"
+    }
   },
   {
     "id": "turtle_beach_burst_ii_pro",
@@ -76167,8 +76441,8 @@
     "brand": "Turtle",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      59,
+      139
     ],
     "product_url": "https://www.amazon.com/s?k=Turtle%20Beach%0ABurst%20II%20Pro&tag=gearmatch-20",
     "recommendation_tags": [
@@ -76229,7 +76503,12 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/turtle-beach-burst-ii-pro.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/turtle-beach-burst-ii-pro.png?width=512&height=512&resize=contain",
+    "mouse_stock_status": "in_stock",
+    "mouse_weight_class": "light",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/dp/B0FPG3KG34?tag=gearmatch-20"
+    }
   },
   {
     "id": "turtle_beach_kone_ii",
@@ -76237,8 +76516,8 @@
     "brand": "Turtle",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      57,
+      70
     ],
     "product_url": "https://www.amazon.com/s?k=Turtle%20Beach%0AKone%20II&tag=gearmatch-20",
     "recommendation_tags": [
@@ -76298,7 +76577,12 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/turtle-beach-kone-ii.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/turtle-beach-kone-ii.png?width=512&height=512&resize=contain",
+    "mouse_stock_status": "in_stock",
+    "mouse_weight_class": "medium",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/dp/B0D9MBY2J3?tag=gearmatch-20"
+    }
   },
   {
     "id": "turtle_beach_kone_ii_air",
@@ -76306,8 +76590,8 @@
     "brand": "Turtle",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      74,
+      119
     ],
     "product_url": "https://www.amazon.com/s?k=Turtle%20Beach%0AKone%20II%20Air&tag=gearmatch-20",
     "recommendation_tags": [
@@ -76368,7 +76652,12 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/turtle-beach-kone-ii-air.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/turtle-beach-kone-ii-air.png?width=512&height=512&resize=contain",
+    "mouse_stock_status": "in_stock",
+    "mouse_weight_class": "heavy",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/dp/B0D9MDY56X?tag=gearmatch-20"
+    }
   },
   {
     "id": "turtle_beach_kone_xp_air",
@@ -76451,8 +76740,8 @@
     "brand": "Turtle",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      68,
+      99
     ],
     "product_url": "https://www.amazon.com/s?k=Turtle%20Beach%0APure%20Air&tag=gearmatch-20",
     "recommendation_tags": [
@@ -76511,7 +76800,12 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/turtle-beach-pure-air.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/turtle-beach-pure-air.png?width=512&height=512&resize=contain",
+    "mouse_stock_status": "in_stock",
+    "mouse_weight_class": "light",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/dp/B0D1CSNVF3?tag=gearmatch-20"
+    }
   },
   {
     "id": "turtle_beach_pure_sel",
