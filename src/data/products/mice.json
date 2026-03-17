@@ -39683,7 +39683,7 @@
     },
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/kysona-vela-ReHhE.png?width=512&height=512&resize=contain",
     "mouse_discontinued": false,
-    "mouse_stock_status": "preorder",
+    "mouse_stock_status": "out_of_stock",
     "manufacturer_url": "https://shop.kysona.com/",
     "retailer_urls": {
       "amazon": null,
@@ -52598,7 +52598,11 @@
     },
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/metaphyuni-metapanda-p1.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "in_stock",
-    "mouse_weight_class": "light"
+    "mouse_weight_class": "light",
+    "retailer_urls": {
+      "mechkeys": "https://mechkeys.com/products/metaphyuni-metapanda01",
+      "minixpc": "https://minixpc.com/products/metaphyuni-metapanda-p1-mouse-p1-pro-max-tri-mode-bluetooth-wireless-paw3395-mouse"
+    }
   },
   {
     "id": "metaphyuni_metapanda_p1_pro",
@@ -52666,7 +52670,12 @@
     },
     "image_url": "https://mechkeys.com/cdn/shop/files/metaphyuni-metapanda01-paw3395-p1-series-wireless-mouse-mechkeysshop-white-p11k-378110.jpg?v=1761740508",
     "mouse_stock_status": "in_stock",
-    "mouse_weight_class": "light"
+    "mouse_weight_class": "light",
+    "retailer_urls": {
+      "mechkeys": "https://mechkeys.com/products/metaphyuni-metapanda01",
+      "minixpc": "https://minixpc.com/products/metaphyuni-metapanda-p1-mouse-p1-pro-max-tri-mode-bluetooth-wireless-paw3395-mouse",
+      "theblisstronics": "https://theblisstronics.com/metapanda-p1-pro/"
+    }
   },
   {
     "id": "metaphyuni_metapanda_p1_pro_max",
@@ -52734,7 +52743,11 @@
     },
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/metaphyuni-metapanda-p1.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "in_stock",
-    "mouse_weight_class": "light"
+    "mouse_weight_class": "light",
+    "retailer_urls": {
+      "mechkeys": "https://mechkeys.com/products/metaphyuni-metapanda01",
+      "minixpc": "https://minixpc.com/products/metaphyuni-metapanda-p1-mouse-p1-pro-max-tri-mode-bluetooth-wireless-paw3395-mouse"
+    }
   },
   {
     "id": "metaphyuni_p2",
@@ -54178,7 +54191,11 @@
     },
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/monka-m1.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "in_stock",
-    "mouse_weight_class": "light"
+    "mouse_weight_class": "light",
+    "retailer_urls": {
+      "mechkeys": "https://mechkeys.com/products/monka-m1",
+      "theblisstronics": "https://theblisstronics.com/monka-m1-wireless/"
+    }
   },
   {
     "id": "monka_m1_pro",
@@ -54246,7 +54263,11 @@
     },
     "image_url": "https://mechkeys.com/cdn/shop/files/monka-m1-wireless-4khz-55g-gaming-mouse-mechkeysshop-m1-pro-blue-transparent-619260.jpg?v=1766925238",
     "mouse_stock_status": "in_stock",
-    "mouse_weight_class": "light"
+    "mouse_weight_class": "light",
+    "retailer_urls": {
+      "mechkeys": "https://mechkeys.com/products/monka-m1",
+      "theblisstronics": "https://theblisstronics.com/monka-m1-pro-wireless/"
+    }
   },
   {
     "id": "monka_m1_pro_max",
@@ -54314,7 +54335,11 @@
     },
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/monka-m1.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "in_stock",
-    "mouse_weight_class": "light"
+    "mouse_weight_class": "light",
+    "retailer_urls": {
+      "mechkeys": "https://mechkeys.com/products/monka-m1",
+      "theblisstronics": "https://theblisstronics.com/monka-m1-pro-max-wireless/"
+    }
   },
   {
     "id": "monka_m3",
@@ -54381,7 +54406,12 @@
     },
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/monka-m3.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "in_stock",
-    "mouse_weight_class": "light"
+    "mouse_weight_class": "light",
+    "retailer_urls": {
+      "mechkeys": "https://mechkeys.com/products/monka-m3",
+      "minixpc": "https://minixpc.com/products/monka-m3-wireless-mouse-bluetooth-three-mode-ergonomics-paw3395-long-endurance-lightweight",
+      "theblisstronics": "https://theblisstronics.com/monka-m3-paw3395-wireless/"
+    }
   },
   {
     "id": "monka_m3_pro",
@@ -54449,7 +54479,12 @@
     },
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/monka-m3.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "in_stock",
-    "mouse_weight_class": "light"
+    "mouse_weight_class": "light",
+    "retailer_urls": {
+      "mechkeys": "https://mechkeys.com/products/monka-m3",
+      "minixpc": "https://minixpc.com/products/monka-m3-wireless-mouse-bluetooth-three-mode-ergonomics-paw3395-long-endurance-lightweight",
+      "theblisstronics": "https://theblisstronics.com/monka-m3-paw3395-wireless/"
+    }
   },
   {
     "id": "motospeed_x1",
@@ -56937,7 +56972,10 @@
     },
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/pichau-hive-s.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "in_stock",
-    "mouse_weight_class": "light"
+    "mouse_weight_class": "light",
+    "retailer_urls": {
+      "manufacturer": "https://www.pichau.com.br/mouse-gamer-pichau-hive-s-rgb-16000dpi-6-botoes-preto-pgm-hvsrgb-blk"
+    }
   },
   {
     "id": "ploopy_adept_trackball",
@@ -57349,7 +57387,10 @@
     },
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/pmm-craze-8k.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "in_stock",
-    "mouse_weight_class": "ultra_light"
+    "mouse_weight_class": "ultra_light",
+    "retailer_urls": {
+      "manufacturer": "https://pmm.gg/products/craze-8k"
+    }
   },
   {
     "id": "pmm_cyber_4_0",
@@ -57493,7 +57534,10 @@
     },
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/pmm-cyber-4-1.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "in_stock",
-    "mouse_weight_class": "ultra_light"
+    "mouse_weight_class": "ultra_light",
+    "retailer_urls": {
+      "manufacturer": "https://pmm.gg/products/cyber-4-1"
+    }
   },
   {
     "id": "pmm_cyber_8k",
@@ -57986,7 +58030,10 @@
     },
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/pmm-pulse.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "in_stock",
-    "mouse_weight_class": "ultra_light"
+    "mouse_weight_class": "ultra_light",
+    "retailer_urls": {
+      "manufacturer": "https://pmm.gg/products/pulse"
+    }
   },
   {
     "id": "pmm_titan_8k_l",
@@ -58266,7 +58313,10 @@
     },
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/pmm-vortex-4k-m.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "in_stock",
-    "mouse_weight_class": "ultra_light"
+    "mouse_weight_class": "ultra_light",
+    "retailer_urls": {
+      "manufacturer": "https://pmm.gg/products/vortex-4k-m"
+    }
   },
   {
     "id": "pmm_vortex_8k_m",
@@ -58618,7 +58668,10 @@
     },
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/pmm-zen-8k.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "in_stock",
-    "mouse_weight_class": "ultra_light"
+    "mouse_weight_class": "ultra_light",
+    "retailer_urls": {
+      "manufacturer": "https://pmm.gg/products/zen-8k"
+    }
   },
   {
     "id": "pmm_zen_8k_mini",
@@ -58967,7 +59020,10 @@
     },
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/press-play-ergo-nova.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "in_stock",
-    "mouse_weight_class": "light"
+    "mouse_weight_class": "light",
+    "retailer_urls": {
+      "manufacturer": "https://pressplayid.com/products/nova-ergo-ergonomic-wireless-gaming-mouse"
+    }
   },
   {
     "id": "press_play_spirit",
@@ -59105,8 +59161,9 @@
       "mouse_value_pick": false
     },
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/project-w-opus.png?width=512&height=512&resize=contain",
-    "mouse_stock_status": "limited",
-    "mouse_weight_class": "ultra_light"
+    "mouse_stock_status": "out_of_stock",
+    "mouse_weight_class": "ultra_light",
+    "mouse_discontinued": true
   },
   {
     "id": "pulsar_feinmann_f01",
@@ -59258,7 +59315,10 @@
     },
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/pulsar-jv-x-qAocN.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "in_stock",
-    "mouse_weight_class": "light"
+    "mouse_weight_class": "light",
+    "retailer_urls": {
+      "manufacturer": "https://www.pulsar.gg/products/pro-series-jv-x-gaming-mouse"
+    }
   },
   {
     "id": "pulsar_susanto_x",
@@ -59330,7 +59390,10 @@
     },
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/pulsar-susanto-x-6ifTe.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "in_stock",
-    "mouse_weight_class": "light"
+    "mouse_weight_class": "light",
+    "retailer_urls": {
+      "manufacturer": "https://www.pulsar.gg/products/pro-series-susanto-x-gaming-mouse"
+    }
   },
   {
     "id": "pulsar_tenz_signature_edition",
@@ -59417,8 +59480,8 @@
     "brand": "Pulsar",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      150,
+      165
     ],
     "product_url": "https://www.amazon.com/s?k=Pulsar%20VSPO&tag=gearmatch-20",
     "recommendation_tags": [
@@ -59481,8 +59544,11 @@
       "mouse_value_pick": false
     },
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/pulsar-vspo.png?width=512&height=512&resize=contain",
-    "mouse_stock_status": "in_stock",
-    "mouse_weight_class": "light"
+    "mouse_stock_status": "out_of_stock",
+    "mouse_weight_class": "light",
+    "retailer_urls": {
+      "manufacturer": "https://store.vspo.jp/en/products/gear-vspo-gaming-mouse"
+    }
   },
   {
     "id": "pulsar_x2",
@@ -60696,7 +60762,11 @@
     },
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/pulsar-zywoo-the-chosen-mouse-medium.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "in_stock",
-    "mouse_weight_class": "light"
+    "mouse_weight_class": "light",
+    "retailer_urls": {
+      "manufacturer": "https://www.pulsar.gg/products/zywoo-the-chosen-mouse",
+      "bestbuy": "https://www.bestbuy.com/product/pulsar-zywoo-the-chosen-medium-wireless-mouse-wireless-black/BGH4J25JK6"
+    }
   },
   {
     "id": "pulsar_zywoo_the_chosen_mouse_mini",
@@ -60839,7 +60909,10 @@
     },
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/puretrak-valor-wireless.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "in_stock",
-    "mouse_weight_class": "light"
+    "mouse_weight_class": "light",
+    "retailer_urls": {
+      "manufacturer": "https://www.puretrak.com/products/valor-wireless-mouse"
+    }
   },
   {
     "id": "pwnage_ambi_wireless",
@@ -65589,7 +65662,8 @@
     },
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/rawm-sa-sl01.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "out_of_stock",
-    "mouse_weight_class": "light"
+    "mouse_weight_class": "light",
+    "mouse_discontinued": true
   },
   {
     "id": "razer_abyssus_2014",
@@ -71135,8 +71209,11 @@
       "mouse_value_pick": false
     },
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/rexus-daxa-air-iv.png?width=512&height=512&resize=contain",
-    "mouse_stock_status": "in_stock",
-    "mouse_weight_class": "light"
+    "mouse_stock_status": "out_of_stock",
+    "mouse_weight_class": "light",
+    "retailer_urls": {
+      "manufacturer": "https://rexus.id/products/rexus-pro-mouse-wireless-gaming-daxa-air-iv-1"
+    }
   },
   {
     "id": "rk_royal_kludge_m3",
@@ -74880,7 +74957,10 @@
     },
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/strayfe-m55-pro-8k.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "in_stock",
-    "mouse_weight_class": "light"
+    "mouse_weight_class": "light",
+    "retailer_urls": {
+      "manufacturer": "https://www.strayfe.de/products/M55-Pro-8k-Black"
+    }
   },
   {
     "id": "swiftpoint_creator",
@@ -75256,7 +75336,10 @@
     },
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/sylical-helix-PLgEH.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "in_stock",
-    "mouse_weight_class": "ultra_light"
+    "mouse_weight_class": "ultra_light",
+    "retailer_urls": {
+      "manufacturer": "https://sylicalgear.com/products/syl-mouse-1"
+    }
   },
   {
     "id": "teamwolf_lurker_mk_01",
@@ -75324,7 +75407,10 @@
     },
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/teamwolf-lurker-mk-01.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "in_stock",
-    "mouse_weight_class": "ultra_light"
+    "mouse_weight_class": "ultra_light",
+    "retailer_urls": {
+      "aliexpress": "https://www.aliexpress.com/item/1005002369013872.html"
+    }
   },
   {
     "id": "tecware_ex1",
@@ -75461,7 +75547,11 @@
     },
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/tecware-pulse-elite.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "in_stock",
-    "mouse_weight_class": "medium"
+    "mouse_weight_class": "medium",
+    "retailer_urls": {
+      "manufacturer": "https://www.tecware.co/pulseelite",
+      "shopee": "https://shopee.com.my/TECWARE-PULSE-ELITE-Wireless-Gaming-Mouse-(Black-White)-i.20108462.9758217252"
+    }
   },
   {
     "id": "teevolution_aria_xd7",
@@ -75599,7 +75689,10 @@
     },
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/teevolution-helios-ii-pro.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "in_stock",
-    "mouse_weight_class": "light"
+    "mouse_weight_class": "light",
+    "retailer_urls": {
+      "manufacturer": "https://www.teevogear.com/products/helios-%E2%85%B1-pro-xd3v3"
+    }
   },
   {
     "id": "teevolution_terra",
@@ -75816,7 +75909,10 @@
     },
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/thunderobot-ml4.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "in_stock",
-    "mouse_weight_class": "medium"
+    "mouse_weight_class": "medium",
+    "retailer_urls": {
+      "aliexpress": "https://www.aliexpress.com/i/1005007256672505.html"
+    }
   },
   {
     "id": "thunderobot_ml6_pro",
@@ -75886,7 +75982,11 @@
     },
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/thunderobot-ml6-pro.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "in_stock",
-    "mouse_weight_class": "light"
+    "mouse_weight_class": "light",
+    "retailer_urls": {
+      "aliexpress": "https://www.aliexpress.com/item/1005008820470313.html",
+      "mechkeys": "https://mechkeys.com/products/thunderobot-ml602-mouse"
+    }
   },
   {
     "id": "thunderobot_ml602",
@@ -75955,7 +76055,11 @@
     },
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/thunderobot-ml602.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "in_stock",
-    "mouse_weight_class": "light"
+    "mouse_weight_class": "light",
+    "retailer_urls": {
+      "aliexpress": "https://www.aliexpress.com/item/1005006075811735.html",
+      "mechkeys": "https://mechkeys.com/products/thunderobot-ml602-mouse"
+    }
   },
   {
     "id": "thunderobot_ml8",
@@ -76024,7 +76128,10 @@
     },
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/thunderobot-ml8.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "in_stock",
-    "mouse_weight_class": "light"
+    "mouse_weight_class": "light",
+    "retailer_urls": {
+      "mechkeys": "https://mechkeys.com/products/thunderobot-ml8"
+    }
   },
   {
     "id": "thunderobot_ml9_mini",
@@ -76097,7 +76204,11 @@
     },
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/thunderobot-ml9-mini.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "in_stock",
-    "mouse_weight_class": "light"
+    "mouse_weight_class": "light",
+    "retailer_urls": {
+      "aliexpress": "https://www.aliexpress.com/item/3256807031713013.html",
+      "mechkeys": "https://mechkeys.com/products/thunderobot-ml9-mini"
+    }
   },
   {
     "id": "thunderobot_ml901",
@@ -76161,7 +76272,11 @@
     },
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/thunderobot-ml901.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "in_stock",
-    "mouse_weight_class": "medium"
+    "mouse_weight_class": "medium",
+    "retailer_urls": {
+      "aliexpress": "https://www.aliexpress.com/item/1005005900788359.html",
+      "mechkeys": "https://mechkeys.com/products/thunderobot-ml9-series-mouse"
+    }
   },
   {
     "id": "thunderobot_ml903",
@@ -76299,7 +76414,8 @@
     },
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/thunderobot-ml901.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "out_of_stock",
-    "mouse_weight_class": "light"
+    "mouse_weight_class": "light",
+    "mouse_discontinued": true
   },
   {
     "id": "tmkb_falcon_m1se",
@@ -76951,7 +77067,11 @@
     },
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/unius-black-lotus.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "in_stock",
-    "mouse_weight_class": "ultra_light"
+    "mouse_weight_class": "ultra_light",
+    "retailer_urls": {
+      "manufacturer": "https://www.un1us.com/products/black-lotus-39g-carbon-fiber-8k-wireless-gaming-mouse",
+      "aliexpress": "https://www.aliexpress.com/item/1005009794502224.html"
+    }
   },
   {
     "id": "vaidemi_nimbus",
@@ -77024,7 +77144,8 @@
     },
     "image_url": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc4/vaidemi-nimbus-ultralight-custom-3D-printed-gaming-mouse.png",
     "mouse_stock_status": "out_of_stock",
-    "mouse_weight_class": "ultra_light"
+    "mouse_weight_class": "ultra_light",
+    "mouse_discontinued": true
   },
   {
     "id": "valkyrie_vk_m1",
@@ -77091,7 +77212,11 @@
     },
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/valkyrie-vk-m1.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "in_stock",
-    "mouse_weight_class": "light"
+    "mouse_weight_class": "light",
+    "retailer_urls": {
+      "aliexpress": "https://www.aliexpress.com/item/1005006443276101.html",
+      "mechkeys": "https://mechkeys.com/products/valkyrie-m1"
+    }
   },
   {
     "id": "valkyrie_vk_m1_pro",
@@ -77162,7 +77287,10 @@
     },
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/valkyrie-vk-m1.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "in_stock",
-    "mouse_weight_class": "light"
+    "mouse_weight_class": "light",
+    "retailer_urls": {
+      "mechkeys": "https://minixpc.com/products/valkyrie-vk-m1-pro-gaming-mouse-naruto-shippuden-edition-tri-mode-paw3950-58g"
+    }
   },
   {
     "id": "valkyrie_vk_m2",
@@ -77230,7 +77358,10 @@
     },
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/valkyrie-vk-m2.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "in_stock",
-    "mouse_weight_class": "light"
+    "mouse_weight_class": "light",
+    "retailer_urls": {
+      "aliexpress": "https://www.aliexpress.com/item/1005008418835938.html"
+    }
   },
   {
     "id": "valkyrie_vk_m2_pro",
@@ -77303,7 +77434,10 @@
     },
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/valkyrie-vk-m2.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "in_stock",
-    "mouse_weight_class": "light"
+    "mouse_weight_class": "light",
+    "retailer_urls": {
+      "aliexpress": "https://www.aliexpress.com/item/1005008828211012.html"
+    }
   },
   {
     "id": "valkyrie_vk_m3",
@@ -77371,7 +77505,10 @@
     },
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/valkyrie-vk-m3.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "in_stock",
-    "mouse_weight_class": "light"
+    "mouse_weight_class": "light",
+    "retailer_urls": {
+      "aliexpress": "https://www.aliexpress.com/item/1005009307023650.html"
+    }
   },
   {
     "id": "valkyrie_vk_m3_lite",
@@ -77438,7 +77575,10 @@
     },
     "image_url": "https://cdn.shopify.com/s/files/1/0631/9590/6271/files/Valkyrie_VK-M3_3.jpg?v=1750419404",
     "mouse_stock_status": "in_stock",
-    "mouse_weight_class": "light"
+    "mouse_weight_class": "light",
+    "retailer_urls": {
+      "aliexpress": "https://www.aliexpress.com/item/1005009286701590.html"
+    }
   },
   {
     "id": "valkyrie_vk_m3_pro",
@@ -77511,7 +77651,10 @@
     },
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/valkyrie-vk-m3.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "in_stock",
-    "mouse_weight_class": "ultra_light"
+    "mouse_weight_class": "ultra_light",
+    "retailer_urls": {
+      "aliexpress": "https://www.aliexpress.com/item/1005009296756048.html"
+    }
   },
   {
     "id": "vancer_gemini_castor",
@@ -77578,7 +77721,10 @@
     },
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/vancer-gemini-castor.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "in_stock",
-    "mouse_weight_class": "light"
+    "mouse_weight_class": "light",
+    "retailer_urls": {
+      "xtremesolution": "https://x-tremesolution.com/products/vancer-gemini-castor-symmetrical-super-lightweight-wireless-gaming-mice-black-white"
+    }
   },
   {
     "id": "vancer_gemini_pollux",
@@ -77647,7 +77793,11 @@
     },
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/vancer-gemini-pollux.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "in_stock",
-    "mouse_weight_class": "light"
+    "mouse_weight_class": "light",
+    "retailer_urls": {
+      "lethal_gaming_gear": "https://lethal.gg/products/vancer-pollux-lightweight-wireless-gaming-mouse",
+      "xtremesolution": "https://x-tremesolution.com/products/vancer-gemini-pollux-ergo-super-lightweight-wireless-gaming-mice-black-white"
+    }
   },
   {
     "id": "vancer_gretxa",
@@ -77851,7 +78001,10 @@
     },
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/vancer-thrash.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "in_stock",
-    "mouse_weight_class": "light"
+    "mouse_weight_class": "light",
+    "retailer_urls": {
+      "maxgaming": "https://us.maxgaming.com/us/wireless-mouses/thrash-4k-wireless-superlight-gaming-mouse-black"
+    }
   },
   {
     "id": "vancer_x_arbiter_studio_akitsu",
@@ -78387,7 +78540,10 @@
     },
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/vaxee-e1-wireless.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "in_stock",
-    "mouse_weight_class": "light"
+    "mouse_weight_class": "light",
+    "retailer_urls": {
+      "manufacturer": "https://www.vaxee.co/en/product.php?act=view&id=248"
+    }
   },
   {
     "id": "vaxee_outset_ax",
@@ -78452,7 +78608,10 @@
     },
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/vaxee-outset-ax.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "in_stock",
-    "mouse_weight_class": "medium"
+    "mouse_weight_class": "medium",
+    "retailer_urls": {
+      "manufacturer": "https://www.vaxee.co/en/product.php?act=view&id=133"
+    }
   },
   {
     "id": "vaxee_outset_ax_wireless",
@@ -78587,7 +78746,10 @@
     },
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/vaxee-outset-ax-wireless.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "in_stock",
-    "mouse_weight_class": "medium"
+    "mouse_weight_class": "medium",
+    "retailer_urls": {
+      "manufacturer": "https://www.vaxee.co/en/product.php?act=view&id=218"
+    }
   },
   {
     "id": "vaxee_zygen_np_01_wireless_4k",
@@ -78652,7 +78814,10 @@
     },
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/vaxee-zygen-np-01-wireless.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "in_stock",
-    "mouse_weight_class": "medium"
+    "mouse_weight_class": "medium",
+    "retailer_urls": {
+      "manufacturer": "https://www.vaxee.co/en/product.php?act=view&id=219"
+    }
   },
   {
     "id": "vaxee_zygen_np_01s_ergo",
@@ -78723,7 +78888,10 @@
     },
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/vaxee-zygen-np-01s-ergo.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "in_stock",
-    "mouse_weight_class": "light"
+    "mouse_weight_class": "light",
+    "retailer_urls": {
+      "manufacturer": "https://www.vaxee.co/en/product.php?act=view&id=285"
+    }
   },
   {
     "id": "vaxee_zygen_np_01s_v2",
@@ -78794,7 +78962,10 @@
     },
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/vaxee-zygen-np-01s-v2-wireless.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "in_stock",
-    "mouse_weight_class": "light"
+    "mouse_weight_class": "light",
+    "retailer_urls": {
+      "manufacturer": "https://www.vaxee.co/en/product.php?act=view&id=264"
+    }
   },
   {
     "id": "vgn_dragonfly_f1_moba",
@@ -79712,7 +79883,10 @@
     },
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/vgn-y2.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "in_stock",
-    "mouse_weight_class": "ultra_light"
+    "mouse_weight_class": "ultra_light",
+    "retailer_urls": {
+      "mechkeys": "https://mechkeys.com/products/vgn-y2"
+    }
   },
   {
     "id": "vxe_mad_r",
@@ -80149,7 +80323,11 @@
     },
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/waizowl-ogm-cloud.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "in_stock",
-    "mouse_weight_class": "light"
+    "mouse_weight_class": "light",
+    "retailer_urls": {
+      "waizowl": "https://waizowl.com/products/ogm-cloud",
+      "mechkeys": "https://mechkeys.com/products/waizowl-ogm-cloud-mouse"
+    }
   },
   {
     "id": "waizowl_cloud_ultra",
@@ -80222,7 +80400,10 @@
     },
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/waizowl-cloud-ultra.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "in_stock",
-    "mouse_weight_class": "light"
+    "mouse_weight_class": "light",
+    "retailer_urls": {
+      "waizowl": "https://waizowl.com/products/cloud-ultra"
+    }
   },
   {
     "id": "waizowl_cloud_v2",
@@ -80295,7 +80476,10 @@
     },
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/waizowl-ogm-cloud-v2.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "in_stock",
-    "mouse_weight_class": "light"
+    "mouse_weight_class": "light",
+    "retailer_urls": {
+      "mechkeys": "https://mechkeys.com/products/waizowl-cloud-paw3950"
+    }
   },
   {
     "id": "waizowl_cloud_xs",
@@ -80369,7 +80553,11 @@
     },
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/waizowl-ogm-cloud-xs.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "in_stock",
-    "mouse_weight_class": "light"
+    "mouse_weight_class": "light",
+    "retailer_urls": {
+      "waizowl": "https://waizowl.com/products/%E9%9B%B2cloud-xs",
+      "mechkeys": "https://mechkeys.com/products/waizowl-cloud-xs"
+    }
   },
   {
     "id": "waizowl_ogm_one",
@@ -81465,8 +81653,8 @@
     "brand": "Xtrfy",
     "category": "mouse",
     "price_range_usd": [
-      0,
-      0
+      50,
+      70
     ],
     "product_url": "https://cherryxtrfy.com/mice/m42-wireless/",
     "recommendation_tags": [],
@@ -81519,8 +81707,13 @@
       "mouse_value_pick": false
     },
     "image_url": "https://cherryxtrfy.com/wp/wp-content/uploads/2020/08/Xtrfy-M42-Black-Hero_gallery02.jpg",
-    "mouse_stock_status": "out_of_stock",
-    "mouse_weight_class": "light"
+    "mouse_stock_status": "in_stock",
+    "mouse_weight_class": "light",
+    "retailer_urls": {
+      "manufacturer": "https://cherryxtrfy.com/mice/m42",
+      "amazon": "https://www.amazon.com/dp/B08PDDGRQB?tag=gearmatch-20",
+      "newegg": "https://www.newegg.com/p/N82E16826660002"
+    }
   },
   {
     "id": "xtrfy_m42_wireless",
@@ -81866,7 +82059,10 @@
     },
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/xtro-eris.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "out_of_stock",
-    "mouse_weight_class": "medium"
+    "mouse_weight_class": "medium",
+    "retailer_urls": {
+      "manufacturer": "https://www.xtro.gg/product-page/xtro-eris-wireless-ergonomic-mouse"
+    }
   },
   {
     "id": "xyder_amalight_4k",
@@ -81935,7 +82131,10 @@
     },
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/xyder-amalight-4k.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "out_of_stock",
-    "mouse_weight_class": "light"
+    "mouse_weight_class": "light",
+    "retailer_urls": {
+      "manufacturer": "http://xyder.net/"
+    }
   },
   {
     "id": "zaopin_z1",
@@ -82002,7 +82201,10 @@
     },
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/zaopin-z1.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "in_stock",
-    "mouse_weight_class": "light"
+    "mouse_weight_class": "light",
+    "retailer_urls": {
+      "mechkeys": "https://mechkeys.com/products/zaopin-z1-wireless-mouse"
+    }
   },
   {
     "id": "zaopin_z1_pro",
@@ -82073,7 +82275,10 @@
     },
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/zaopin-z1-pro.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "in_stock",
-    "mouse_weight_class": "light"
+    "mouse_weight_class": "light",
+    "retailer_urls": {
+      "mechkeys": "https://mechkeys.com/products/zaopin-z1-pro-three-mode"
+    }
   },
   {
     "id": "zaopin_z1_pro_max",
@@ -82147,7 +82352,10 @@
     },
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/zaopin-z1-pro.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "in_stock",
-    "mouse_weight_class": "light"
+    "mouse_weight_class": "light",
+    "retailer_urls": {
+      "mechkeys": "https://mechkeys.com/products/zaopin-z1-pro-max"
+    }
   },
   {
     "id": "zaopin_z2",
@@ -82292,7 +82500,10 @@
     },
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/zaopin-z2.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "in_stock",
-    "mouse_weight_class": "light"
+    "mouse_weight_class": "light",
+    "retailer_urls": {
+      "mechkeys": "https://mechkeys.com/products/zaopin-z2-max"
+    }
   },
   {
     "id": "zaopin_z2_mini",
@@ -82362,7 +82573,10 @@
     },
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/zaopin-z2-mini.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "in_stock",
-    "mouse_weight_class": "light"
+    "mouse_weight_class": "light",
+    "retailer_urls": {
+      "mechkeys": "https://mechkeys.com/products/zaopin-z2-mini"
+    }
   },
   {
     "id": "zaopin_z2_mini_4k",
@@ -82433,7 +82647,10 @@
     },
     "image_url": "https://mechkeys.com/cdn/shop/files/zaopin-z2-mini-swappable-switch-paw3950-wireless-mouse-mechkeysshop-848553_grande.jpg?v=1772109934",
     "mouse_stock_status": "in_stock",
-    "mouse_weight_class": "light"
+    "mouse_weight_class": "light",
+    "retailer_urls": {
+      "mechkeys": "https://mechkeys.com/products/zaopin-z2-mini"
+    }
   },
   {
     "id": "zaopin_z2_mini_max_8k",
@@ -82508,7 +82725,10 @@
     },
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/zaopin-z2-mini.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "in_stock",
-    "mouse_weight_class": "light"
+    "mouse_weight_class": "light",
+    "retailer_urls": {
+      "mechkeys": "https://mechkeys.com/products/zaopin-z2-mini"
+    }
   },
   {
     "id": "zaopin_zpw",
@@ -82579,7 +82799,10 @@
     },
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/zaopin-zpw.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "in_stock",
-    "mouse_weight_class": "light"
+    "mouse_weight_class": "light",
+    "retailer_urls": {
+      "mechkeys": "https://mechkeys.com/products/zaopin-zpw"
+    }
   },
   {
     "id": "zaopin_zpw_max",
@@ -82654,7 +82877,10 @@
     },
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/zaopin-zpw.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "in_stock",
-    "mouse_weight_class": "light"
+    "mouse_weight_class": "light",
+    "retailer_urls": {
+      "mechkeys": "https://mechkeys.com/products/zaopin-zpw"
+    }
   },
   {
     "id": "zaunkoenig_m2k",
