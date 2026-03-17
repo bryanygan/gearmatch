@@ -178,7 +178,7 @@ const createMockMonitor = (
     monitor_size_class: "standard",
     monitor_resolution: "2560x1440",
     monitor_resolution_class: "1440p",
-    monitor_refresh_rate_hz: 165,
+    monitor_max_refresh_hz: 165,
     monitor_refresh_class: "165hz",
     monitor_response_time_ms: 1,
     monitor_aspect_ratio: "16:9",

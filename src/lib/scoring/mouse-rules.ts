@@ -755,7 +755,7 @@ export const buttonNeedsRule: ScoringRule<MouseQuizAnswers, MouseProduct> = {
     // Map user preferences to product button classes
     const buttonClassMap: Record<string, string[]> = {
       minimal: ["low"],
-      standard: ["standard"],
+      standard: ["medium"],
       many: ["high"],
       mmo_grid: ["mmo_grid"],
     };
@@ -791,9 +791,9 @@ export const buttonNeedsRule: ScoringRule<MouseQuizAnswers, MouseProduct> = {
 
     // Check for adjacent matches (e.g., user wants "many" but product has "standard")
     const adjacentMatches: Record<string, string[]> = {
-      minimal: ["standard"],
+      minimal: ["medium"],
       standard: ["low", "high"],
-      many: ["standard", "mmo_grid"],
+      many: ["medium", "mmo_grid"],
       mmo_grid: ["high"],
     };
 

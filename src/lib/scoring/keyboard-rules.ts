@@ -701,7 +701,7 @@ export const mediaControlsRule: ScoringRule<KeyboardQuizAnswers, KeyboardProduct
 
     const hasKnob = product.core_attributes.keyboard_has_knob;
     const features = product.core_attributes.keyboard_feature_tags;
-    const hasMediaKeys = features.includes("media_keys");
+    const hasMediaKeys = features.includes("volume_wheel");
 
     switch (pref) {
       case "essential":

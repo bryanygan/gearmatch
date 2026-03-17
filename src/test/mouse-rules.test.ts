@@ -317,8 +317,8 @@ describe("shapeProfileRule", () => {
   });
 
   it("gives 3 for similar shape profiles", () => {
-    const answers = { ...baseAnswers, "shape-profile": ["mid_hump"] as MouseQuizAnswers["shape-profile"] };
-    const product = createMockMouseProduct({ mouse_shape_profile: "low_hump" });
+    const answers = { ...baseAnswers, "shape-profile": ["ergo_hump"] as MouseQuizAnswers["shape-profile"] };
+    const product = createMockMouseProduct({ mouse_shape_profile: "rear_hump" });
     const result = shapeProfileRule.evaluate(answers, product);
     expect(result.points).toBe(3);
   });
@@ -381,7 +381,7 @@ describe("gamingGenreRule", () => {
 describe("buttonNeedsRule", () => {
   it("gives 5 for matching button preference", () => {
     const answers = { ...baseAnswers, "button-needs": ["standard"] as MouseQuizAnswers["button-needs"] };
-    const product = createMockMouseProduct({ mouse_button_count_class: "standard" });
+    const product = createMockMouseProduct({ mouse_button_count_class: "medium" });
     const result = buttonNeedsRule.evaluate(answers, product);
     expect(result.points).toBe(5);
   });

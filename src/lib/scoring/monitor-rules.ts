@@ -5,7 +5,7 @@
  * Each rule evaluates a specific aspect of the match and returns points.
  */
 
-import type { MonitorProduct, MonitorSizeClass, MonitorResolutionClass, MonitorPanelType } from "@/types/monitor";
+import type { MonitorProduct, MonitorSizeClass, MonitorResolutionClass } from "@/types/monitor";
 import type { MonitorQuizAnswers, ScoringRule, RuleResult } from "./types";
 
 // =============================================================================
@@ -412,7 +412,7 @@ export const budgetMatchRule: ScoringRule<MonitorQuizAnswers, MonitorProduct> = 
     }
 
     // Check if close to budget
-    const allMatchingTiers = budgetPrefs.flatMap((b) => budgetToTiers[b] || []);
+    const _allMatchingTiers = budgetPrefs.flatMap((b) => budgetToTiers[b] || []);
     const tierOrder = ["budget", "lower_midrange", "midrange", "upper_midrange", "premium", "flagship"];
     const productTierIndex = tierOrder.indexOf(priceTier);
     const isAboveBudget = budgetPrefs.includes("budget") && productTierIndex >= 3;
@@ -455,7 +455,7 @@ export const colorAccuracyRule: ScoringRule<MonitorQuizAnswers, MonitorProduct> 
 
     const srgbCoverage = attrs.monitor_srgb_coverage || 0;
     const adobeRgb = attrs.monitor_adobe_rgb_coverage || 0;
-    const dciP3 = attrs.monitor_dci_p3_coverage || 0;
+    const _dciP3 = attrs.monitor_dci_p3_coverage || 0;
     const colorScore = attrs.monitor_color_accuracy_score || 0;
     const accuracy = attrs.monitor_color_accuracy;
 

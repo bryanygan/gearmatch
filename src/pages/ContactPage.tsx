@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 import { Mail, MessageSquare, Bug, Lightbulb, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";

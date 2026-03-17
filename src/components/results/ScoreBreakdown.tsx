@@ -56,7 +56,7 @@ function getScoreColor(score: number, maxScore: number, key?: string): string {
   return "bg-red-500";
 }
 
-const ScoreBreakdown = ({ breakdown, accentColor }: ScoreBreakdownProps) => {
+const ScoreBreakdown = ({ breakdown, accentColor: _accentColor }: ScoreBreakdownProps) => {
   const [isOpen, setIsOpen] = useState(false);
 
   const categories = Object.entries(breakdown);

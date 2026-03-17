@@ -91,7 +91,7 @@ const RadialWedge = React.memo(function RadialWedge({
       style={{
         transition: "opacity 200ms ease, filter 200ms ease",
         filter: isDimmed && !hovered ? "saturate(0.5)" : undefined,
-        transformBox: "fill-box" as string,
+        transformBox: "fill-box" as React.CSSProperties["transformBox"],
         transformOrigin: "center",
       }}
       role="button"

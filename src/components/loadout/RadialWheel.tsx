@@ -1,4 +1,4 @@
-import React, { useMemo } from "react";
+import { useMemo } from "react";
 import RadialWedge from "./RadialWedge";
 import RadialCenter from "./RadialCenter";
 import { LOADOUT_CATEGORIES } from "@/data/loadout-categories";

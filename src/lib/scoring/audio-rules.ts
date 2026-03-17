@@ -5,7 +5,7 @@
  * Each rule evaluates a specific aspect of the match and returns points.
  */
 
-import type { AudioProduct, AudioType, PriceTier } from "@/types/products";
+import type { AudioProduct, PriceTier } from "@/types/products";
 import type { AudioQuizAnswers, ScoringRule, RuleResult } from "./types";
 
 // =============================================================================
@@ -161,8 +161,7 @@ function evaluateSingleAudioPrimaryUse(
       if (competitiveRating === "good" && immersionRating === "good") {
         return { points: 18, reason: "Well-balanced for both competitive and immersive use" };
       }
-      if ((competitiveRating === "great" && immersionRating !== "poor") ||
-          (immersionRating === "great" && competitiveRating !== "poor")) {
+      if (competitiveRating === "great" || immersionRating === "great") {
         return {
           points: 16,
           reason: competitiveRating === "great"
