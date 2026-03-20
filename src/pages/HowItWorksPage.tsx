@@ -22,8 +22,10 @@ import {
 import { Button } from "@/components/ui/button";
 import NavbarV2 from "@/components/landing-v2/NavbarV2";
 import FooterV2 from "@/components/landing-v2/FooterV2";
+import { usePageTitle } from "@/hooks/usePageTitle";
 
 const HowItWorksPage = () => {
+  usePageTitle("How It Works");
   return (
     <div className="min-h-screen bg-background">
       <NavbarV2 />
@@ -254,15 +256,15 @@ const HowItWorksPage = () => {
               Our <span className="text-gradient">Database</span>
             </h2>
             <p className="text-muted-foreground text-lg">
-              1,040+ products across 4 categories, with detailed specs and real performance data.
+              1,983+ products across 4 categories, with detailed specs and real performance data.
             </p>
           </div>
 
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-4xl mx-auto mb-12">
             {[
-              { icon: MousePointer2, count: "185", label: "Mice", color: "text-primary" },
-              { icon: Headphones, count: "198", label: "Audio", color: "text-accent" },
-              { icon: Keyboard, count: "279", label: "Keyboards", color: "text-white" },
+              { icon: MousePointer2, count: "1,130", label: "Mice", color: "text-primary" },
+              { icon: Headphones, count: "197", label: "Audio", color: "text-accent" },
+              { icon: Keyboard, count: "278", label: "Keyboards", color: "text-white" },
               { icon: Monitor, count: "378", label: "Monitors", color: "text-violet-500" },
             ].map((cat) => (
               <div key={cat.label} className="bg-card border border-border rounded-xl p-6 text-center">

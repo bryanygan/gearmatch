@@ -5,8 +5,10 @@ import FooterV2 from "@/components/landing-v2/FooterV2";
 import LoadoutPageWrapper from "@/components/loadout/LoadoutPageWrapper";
 import { useSoundEffects } from "@/hooks/useSoundEffects";
 import { useMediaQuery } from "@/hooks/useMediaQuery";
+import { usePageTitle } from "@/hooks/usePageTitle";
 
 const LoadoutPage = () => {
+  usePageTitle("Build Your Loadout");
   const sound = useSoundEffects();
   const isDesktop = useMediaQuery("(min-width: 900px)");
 

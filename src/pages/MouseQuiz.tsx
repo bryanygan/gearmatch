@@ -1,3 +1,4 @@
+import { usePageTitle } from "@/hooks/usePageTitle";
 import { useNavigate } from "react-router-dom";
 import QuizContainer from "@/components/quiz/QuizContainer";
 import { mouseQuestions, type ExtendedMouseQuizAnswers } from "@/lib/quiz/questions";
@@ -10,6 +11,7 @@ import { usePrefetchProducts } from "@/hooks/use-prefetch-products";
  * Supports Quick/Personalized/Expert modes with conditional questions.
  */
 const MouseQuiz = () => {
+  usePageTitle("Mouse Quiz");
   const navigate = useNavigate();
   usePrefetchProducts("mouse");
 

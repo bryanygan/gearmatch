@@ -1,3 +1,4 @@
+import React from "react";
 import { Link } from "react-router-dom";
 import {
   HelpCircle,
@@ -8,6 +9,7 @@ import {
   Mail,
   ArrowRight,
 } from "lucide-react";
+import { usePageTitle } from "@/hooks/usePageTitle";
 import { Button } from "@/components/ui/button";
 import {
   Accordion,
@@ -179,16 +181,16 @@ const faqCategories: FAQCategory[] = [
         question: "How many products are in the database?",
         answer: (
           <>
-            <p className="mb-3">We currently have 1,040+ products across 4 categories:</p>
+            <p className="mb-3">We currently have 1,983+ products across 4 categories:</p>
             <ul className="list-disc list-inside space-y-1 mb-3">
               <li>
-                <strong>Mice</strong>: 185 products
+                <strong>Mice</strong>: 1,130 products
               </li>
               <li>
-                <strong>Audio</strong>: 198 products (headsets, headphones, IEMs)
+                <strong>Audio</strong>: 197 products (headsets, headphones, IEMs)
               </li>
               <li>
-                <strong>Keyboards</strong>: 279 products
+                <strong>Keyboards</strong>: 278 products
               </li>
               <li>
                 <strong>Monitors</strong>: 378 products
@@ -349,6 +351,7 @@ const faqCategories: FAQCategory[] = [
 ];
 
 const FAQPage = () => {
+  usePageTitle("FAQ");
   return (
     <div className="min-h-screen bg-background">
       <NavbarV2 />

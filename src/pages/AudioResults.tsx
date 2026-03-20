@@ -1,3 +1,4 @@
+import { usePageTitle } from "@/hooks/usePageTitle";
 import { useEffect, useMemo, useState, useRef } from "react";
 import { useNavigate, useLocation, useSearchParams, Link } from "react-router-dom";
 import { Headphones, Mouse, Home, ChevronDown } from "lucide-react";
@@ -16,6 +17,7 @@ import {
 } from "@/lib/validation";
 
 const AudioResults = () => {
+  usePageTitle("Audio Results");
   const navigate = useNavigate();
   const location = useLocation();
   const [searchParams] = useSearchParams();

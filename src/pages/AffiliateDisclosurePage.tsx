@@ -3,8 +3,10 @@ import { ArrowRight, DollarSign, Shield, Scale } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import NavbarV2 from "@/components/landing-v2/NavbarV2";
 import FooterV2 from "@/components/landing-v2/FooterV2";
+import { usePageTitle } from "@/hooks/usePageTitle";
 
 const AffiliateDisclosurePage = () => {
+  usePageTitle("Affiliate Disclosure");
   return (
     <div className="min-h-screen bg-background">
       <NavbarV2 />

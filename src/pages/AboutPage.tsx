@@ -10,11 +10,13 @@ import {
   Keyboard,
   Monitor,
 } from "lucide-react";
+import { usePageTitle } from "@/hooks/usePageTitle";
 import { Button } from "@/components/ui/button";
 import NavbarV2 from "@/components/landing-v2/NavbarV2";
 import FooterV2 from "@/components/landing-v2/FooterV2";
 
 const AboutPage = () => {
+  usePageTitle("About");
   return (
     <div className="min-h-screen bg-background">
       <NavbarV2 />
@@ -159,7 +161,7 @@ const AboutPage = () => {
               What We <span className="text-gradient">Cover</span>
             </h2>
             <p className="text-muted-foreground text-lg">
-              Currently supporting 4 categories with 890+ products and growing.
+              Currently supporting 4 categories with 1,983+ products and growing.
             </p>
           </div>
 
