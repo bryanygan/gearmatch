@@ -2,6 +2,7 @@ import "@/styles/v2.css";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
+import * as Sentry from "@sentry/react";
 import { lazy, Suspense, useCallback, useEffect, useRef, useState } from "react";
 import {
   BrowserRouter,
@@ -11,6 +12,8 @@ import {
   useNavigationType,
   type NavigationType,
 } from "react-router-dom";
+
+const SentryRoutes = Sentry.withSentryReactRouterV6Routing(Routes);
 import IndexV2 from "./pages/IndexV2";
 import NotFound from "./pages/NotFound";
 import { ErrorBoundary } from "./components/ErrorBoundary";
@@ -89,7 +92,7 @@ const App = () => {
             <RouteChangeListener onRouteChange={handleRouteChange} />
             <SearchBar />
             <Suspense fallback={<PageLoader />}>
-              <Routes>
+              <SentryRoutes>
                 <Route
                   path="/"
                   element={<IndexV2 skipAnimations={skipLandingAnimations} />}
@@ -112,7 +115,7 @@ const App = () => {
                 <Route path="/loadout" element={<LoadoutPage />} />
                 {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
                 <Route path="*" element={<NotFound />} />
-              </Routes>
+              </SentryRoutes>
             </Suspense>
           </BrowserRouter>
         </TooltipProvider>

@@ -529,7 +529,12 @@ function fuzzyMatch(a: string, b: string): number {
 function main() {
   const dryRun = process.argv.includes("--dry-run");
   const nonFlagArgs = process.argv.slice(2).filter((a) => !a.startsWith("--"));
-  const csvPath = nonFlagArgs[0] || "C:/Users/prinp/Downloads/eloshapes_mouse_data_v1.csv";
+  const csvPath = nonFlagArgs[0];
+  if (!csvPath) {
+    throw new Error(
+      "Usage: tsx scripts/import-eloshapes.ts <path-to-eloshapes.csv> [--dry-run]"
+    );
+  }
 
   console.log("=== Eloshapes CSV → GearMatch Mouse Import ===\n");
 
@@ -591,7 +596,8 @@ function main() {
     const width = parseFloat(csv["Width (mm)"]);
     const height = parseFloat(csv["Height (mm)"]);
     const weight = parseFloat(csv["Weight (grams)"]);
-    const pollingRate = parseInt(csv["Polling rate (Hz)"]);
+    const pollingRateRaw = parseInt(csv["Polling rate (Hz)"], 10);
+    const pollingRate = Number.isFinite(pollingRateRaw) ? pollingRateRaw : 125;
 
     // Skip mice with missing critical data
     if (isNaN(weight) || isNaN(length) || isNaN(width) || isNaN(height)) {
@@ -604,16 +610,16 @@ function main() {
     const weightClass = mapWeightClass(weight);
     const handedness = mapHandedness(csv["Hand compatibility"], csv.Shape);
     const shapeProfile = mapShapeProfile(csv["Hump placement"], csv.Shape);
-    const pollingRateMapped = mapPollingRate(csv["Polling rate (Hz)"]);
+    const pollingRateMapped = mapPollingRate(String(pollingRate));
     const sensorClass = mapSensorClass(csv.Sensor);
     const connectivity = mapConnectivity(csv.Connectivity);
     const buttonCount = mapButtonCount(csv["Side buttons"], csv["Middle buttons"]);
     const buttonCountClass = mapButtonCountClass(buttonCount);
     const coating = mapCoating(csv.Material);
-    const latencyClass = mapLatencyClass(pollingRate || 1000, connectivity.wireless);
+    const latencyClass = mapLatencyClass(pollingRate, connectivity.wireless);
 
     const gripFit = deriveGripFit(shapeProfile, sizeClass, handedness);
-    const gameFit = deriveGameFit(sensorClass, pollingRate || 1000, weightClass, buttonCount);
+    const gameFit = deriveGameFit(sensorClass, pollingRate, weightClass, buttonCount);
 
     const partialCore: Partial<MouseProduct["core_attributes"]> = {
       mouse_size_class: sizeClass,
@@ -743,6 +749,20 @@ function main() {
       }
 
       if (changed) {
+        // Recompute derived fields so they stay consistent
+        ca.mouse_grip_fit = deriveGripFit(
+          ca.mouse_shape_profile,
+          ca.mouse_size_class,
+          ca.mouse_handedness
+        );
+        ca.mouse_game_fit = deriveGameFit(
+          ca.mouse_sensor_class,
+          parseInt(ca.mouse_polling_rate_max_hz, 10) || 125,
+          ca.mouse_weight_class,
+          ca.mouse_button_count
+        );
+        ca.mouse_feel_tags = deriveFeelTags(csv, ca);
+        existing.recommendation_tags = deriveRecommendationTags(ca);
         updatedCount++;
       }
     } else {

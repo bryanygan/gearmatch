@@ -40,10 +40,9 @@ export async function walmartApiCall<T>(
   consumerId: string,
   keyPath: string
 ): Promise<T | null> {
-  const headers = generateWalmartAuth(consumerId, keyPath);
-  const url = `${WALMART_API_BASE}${endpoint}`;
-
   try {
+    const headers = generateWalmartAuth(consumerId, keyPath);
+    const url = `${WALMART_API_BASE}${endpoint}`;
     const res = await fetch(url, {
       headers: {
         ...headers,
