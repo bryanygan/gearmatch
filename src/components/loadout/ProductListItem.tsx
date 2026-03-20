@@ -1,4 +1,4 @@
-import { useRef, useEffect, useState } from "react";
+import React, { useRef, useEffect, useState } from "react";
 import {
   Check,
   Plus,
@@ -13,6 +13,7 @@ import { Badge } from "@/components/ui/badge";
 import { cn } from "@/lib/utils";
 import type { Product } from "@/types/products";
 import type { LoadoutCategory } from "@/types/loadout";
+import { sanitizeUrl } from "@/utils/sanitize-url";
 import ProductSpecBadges, { formatTag } from "./ProductSpecBadges";
 
 // ─── Icon map for placeholders ───────────────────────────────────────────────
@@ -46,7 +47,7 @@ const ProductListItem = React.memo(function ProductListItem({
   const category = product.category as LoadoutCategory;
   const PlaceholderIcon = CATEGORY_ICON[category] ?? Mouse;
 
-  const linkUrl = product.product_url;
+  const linkUrl = sanitizeUrl(product.product_url);
 
   // Track selection transitions for flash animation
   const [justAdded, setJustAdded] = useState(false);

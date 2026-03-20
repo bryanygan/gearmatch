@@ -1,4 +1,4 @@
-import { useState, useMemo, useCallback } from "react";
+import { useState, useMemo, useCallback, useEffect } from "react";
 import {
   Mouse,
   Headphones,
@@ -137,7 +137,7 @@ export default function ProductListPanel({
   const sortOptions = useMemo(() => getSortOptions(category), [category]);
 
   // Reset sort key when category changes if current key isn't valid
-  React.useEffect(() => {
+  useEffect(() => {
     if (!sortOptions.some((o) => o.value === sortKey)) {
       setSortKey("price-asc");
     }

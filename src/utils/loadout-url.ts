@@ -29,8 +29,10 @@ export function encodeLoadoutUrl(items: LoadoutItem[]): string {
 export function decodeLoadoutUrl(searchParams: URLSearchParams): string[] {
   const raw = searchParams.get("items");
   if (!raw) return [];
+  const MAX_ITEMS = 50;
   const ids = raw
     .split(",")
+    .slice(0, MAX_ITEMS)
     .map((id) => {
       try { return decodeURIComponent(id.trim()); }
       catch { return id.trim(); }

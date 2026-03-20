@@ -7,6 +7,7 @@ import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import ScoreBreakdown from "./ScoreBreakdown";
 import { cn } from "@/lib/utils";
+import { sanitizeUrl } from "@/utils/sanitize-url";
 
 interface RecommendationCardProps {
   scoredProduct: ScoredProduct<MouseProduct | AudioProduct | KeyboardProduct | MonitorProduct>;
@@ -393,17 +394,18 @@ const RecommendationCard = memo(function RecommendationCard({
         </div>
 
         {/* Retailer buttons */}
-        {(product.product_url || product.manufacturer_url || (product.retailer_urls && Object.keys(product.retailer_urls).length > 0)) && (
+        {(sanitizeUrl(product.product_url) || sanitizeUrl(product.manufacturer_url) || (product.retailer_urls && Object.keys(product.retailer_urls).length > 0)) && (
           <div className="flex flex-wrap items-center gap-2 pt-2">
             {/* Product URL button - Amazon-branded if amazon domain, neutral otherwise */}
-            {product.product_url && (() => {
+            {sanitizeUrl(product.product_url) && (() => {
+              const safeUrl = sanitizeUrl(product.product_url)!;
               const isAmazon = (() => {
-                try { return new URL(product.product_url!).hostname.includes("amazon."); }
+                try { return new URL(safeUrl).hostname.includes("amazon."); }
                 catch { return false; }
               })();
               return isAmazon ? (
                 <a
-                  href={product.product_url}
+                  href={safeUrl}
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label={`View ${product.name} on Amazon`}
@@ -414,7 +416,7 @@ const RecommendationCard = memo(function RecommendationCard({
                 </a>
               ) : (
                 <a
-                  href={product.product_url}
+                  href={safeUrl}
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label={`View ${product.name} product page`}
@@ -425,11 +427,11 @@ const RecommendationCard = memo(function RecommendationCard({
                 </a>
               );
             })()}
-            
+
             {/* Manufacturer/Brand button */}
-            {product.manufacturer_url && (
+            {sanitizeUrl(product.manufacturer_url) && (
               <a
-                href={product.manufacturer_url}
+                href={sanitizeUrl(product.manufacturer_url)!}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-md text-sm font-medium bg-secondary text-secondary-foreground hover:bg-secondary/80 transition-colors"
@@ -438,9 +440,11 @@ const RecommendationCard = memo(function RecommendationCard({
                 {product.brand}
               </a>
             )}
-            
+
             {/* Additional retailer buttons (up to 2) */}
             {product.retailer_urls && Object.entries(product.retailer_urls).slice(0, 2).map(([retailer, url]) => {
+              const safeRetailerUrl = sanitizeUrl(url);
+              if (!safeRetailerUrl) return null;
               const RETAILER_DISPLAY_NAMES: Record<string, string> = {
                 hifigo: "HiFiGo",
                 linsoul: "Linsoul",
@@ -451,7 +455,7 @@ const RecommendationCard = memo(function RecommendationCard({
               return (
                 <a
                   key={retailer}
-                  href={url}
+                  href={safeRetailerUrl}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-md text-sm font-medium bg-muted text-muted-foreground hover:bg-muted/80 transition-colors"

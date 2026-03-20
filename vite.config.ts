@@ -7,7 +7,7 @@ import { validateProducts } from "./vite-plugins/validate-products";
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
   server: {
-    host: "::",
+    host: "localhost",
     port: 8080,
     hmr: {
       overlay: false,

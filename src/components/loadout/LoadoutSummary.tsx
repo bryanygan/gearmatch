@@ -13,6 +13,7 @@ import {
   type LucideIcon,
 } from "lucide-react";
 import { toast } from "sonner";
+import { sanitizeUrl } from "@/utils/sanitize-url";
 import { Button } from "@/components/ui/button";
 import {
   Popover,
@@ -292,16 +293,16 @@ function ClearLoadoutButton({
 function RetailerLinks({ product }: { product: Product }) {
   const retailers = product.retailer_urls;
   const hasRetailers = retailers && Object.keys(retailers).length > 0;
-  const hasPrimaryUrl = !!product.product_url;
+  const safePrimaryUrl = sanitizeUrl(product.product_url);
 
   // No links at all — render nothing
-  if (!hasPrimaryUrl && !hasRetailers) return null;
+  if (!safePrimaryUrl && !hasRetailers) return null;
 
   // Only primary URL, no retailer_urls — single icon link (no popover)
-  if (hasPrimaryUrl && !hasRetailers) {
+  if (safePrimaryUrl && !hasRetailers) {
     return (
       <a
-        href={product.product_url}
+        href={safePrimaryUrl}
         target="_blank"
         rel="noopener noreferrer"
         className="shrink-0 rounded p-1 text-slate-500 hover:bg-slate-700 hover:text-slate-300 transition-colors"
@@ -332,9 +333,9 @@ function RetailerLinks({ product }: { product: Product }) {
         <p className="px-2 py-1 text-[10px] font-mono font-bold uppercase tracking-wider text-slate-500">
           Buy from
         </p>
-        {hasPrimaryUrl && (
+        {safePrimaryUrl && (
           <a
-            href={product.product_url}
+            href={safePrimaryUrl}
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 rounded-md px-2 py-1.5 text-xs text-slate-200 hover:bg-slate-800 transition-colors"
@@ -344,18 +345,22 @@ function RetailerLinks({ product }: { product: Product }) {
           </a>
         )}
         {retailers &&
-          Object.entries(retailers).map(([key, url]) => (
-            <a
-              key={key}
-              href={url}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center gap-2 rounded-md px-2 py-1.5 text-xs text-slate-200 hover:bg-slate-800 transition-colors"
-            >
-              <ExternalLink size={11} className="shrink-0 text-slate-500" />
-              {formatRetailerName(key)}
-            </a>
-          ))}
+          Object.entries(retailers).map(([key, url]) => {
+            const safeUrl = sanitizeUrl(url);
+            if (!safeUrl) return null;
+            return (
+              <a
+                key={key}
+                href={safeUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 rounded-md px-2 py-1.5 text-xs text-slate-200 hover:bg-slate-800 transition-colors"
+              >
+                <ExternalLink size={11} className="shrink-0 text-slate-500" />
+                {formatRetailerName(key)}
+              </a>
+            );
+          })}
       </PopoverContent>
     </Popover>
   );
