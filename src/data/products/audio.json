@@ -232,8 +232,7 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    },
-    "image_url": "https://assets3.razerzone.com/-yKN_dKcEefhssF_Vy5IOLQtA-o=/1500x1000/https%3A%2F%2Fmedias-p1.phoenix.razer.com%2Fsys-master-phoenix-images-container%2Fhe5%2Fh53%2F9941151055902%2Fblackshark-v3-pro-for-ps-black-500x500.png"
+    }
   },
   {
     "id": "audeze_maxwell",
@@ -695,7 +694,6 @@
       100,
       100
     ],
-    "image_url": "https://m.media-amazon.com/images/I/71g7q9lnzTL._AC_SL1500_.jpg",
     "product_url": "https://www.amazon.com/dp/B0CYWD9PSM?tag=gearmatch-20",
     "recommendation_tags": [
       "gaming",
@@ -767,7 +765,6 @@
       40,
       90
     ],
-    "image_url": "https://m.media-amazon.com/images/I/71wEqNKKfKL._AC_SL1500_.jpg",
     "product_url": "https://www.amazon.com/dp/B08R8DT7X6?tag=gearmatch-20",
     "retailer_urls": {
       "manufacturer": "https://www.logitechg.com/en-us/shop/p/g435-wireless-bluetooth-gaming-headset.981-001049"
@@ -1117,8 +1114,7 @@
       "audio_virtual_surround": [],
       "audio_repairability": "poor",
       "audio_value_pick": true
-    },
-    "image_url": "https://m.media-amazon.com/images/I/61mEBDDMlRL._AC_SL1500_.jpg"
+    }
   },
   {
     "id": "jabra_evolve2_85_wireless",
@@ -1558,8 +1554,7 @@
       ],
       "audio_repairability": "poor",
       "audio_value_pick": false
-    },
-    "image_url": "https://assets3.razerzone.com/x477ncbO9PFkn0f_Rv1ETbbL5RY=/1500x1000/https%3A%2F%2Fmedias-p1.phoenix.razer.com%2Fsys-master-phoenix-images-container%2Fhe8%2Fhfc%2F9522060623902%2Fbarracuda-pro-3-500x500.png"
+    }
   },
   {
     "id": "logitech_g735_wireless",
@@ -1717,8 +1712,7 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": true
-    },
-    "image_url": "https://assets3.razerzone.com/oHomWRsHoXRt2Pi4jbiTe-_PtwI=/1500x1000/https%3A%2F%2Fmedias-p1.phoenix.razer.com%2Fsys-master-phoenix-images-container%2Fhdc%2Fh00%2F9737414344734%2Fblackshark-v2-hyperspeed-white-500x500.png"
+    }
   },
   {
     "id": "hyperx_cloud_flight_s",
@@ -1935,8 +1929,7 @@
       ],
       "audio_repairability": "good",
       "audio_value_pick": false
-    },
-    "image_url": "https://images.ctfassets.net/w5r1fvmogo3f/7nroU6iyHASLUGIIbtmJ4R/0e1aadc602c18d1c176db572b2413b6c/arctis_nova_elite_lp_img_social.jpg?w=1200&amp;h=600&amp;fit=fill&amp;fm=jpg&amp;q=85"
+    }
   },
   {
     "id": "steelseries_arctis_pro_wireless",
@@ -2156,8 +2149,7 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    },
-    "image_url": "https://images.ctfassets.net/hmm5mo4qf4mf/4EwYTpKVVXomhKP0iwxz5l/eee8a3f7c09dab1956a92d984523ee0c/arctis_nova_pro_wl_black_img_buy_1.png__1920x1080_crop-fit_optimize_subsampling-2-227.png?fm=webp&q=90&fit=scale&w=1920"
+    }
   },
   {
     "id": "fractal_scape",
@@ -2500,8 +2492,7 @@
       "audio_virtual_surround": [],
       "audio_repairability": "ok",
       "audio_value_pick": true
-    },
-    "image_url": "https://cdn.cgmagonline.com/wp-content/uploads/2017/12/plantronics-rig-800lx-headset-review-dolby-atmos-approved-7.jpg"
+    }
   },
   {
     "id": "logitech_g533_wireless",
@@ -2781,8 +2772,7 @@
       ],
       "audio_repairability": "poor",
       "audio_value_pick": false
-    },
-    "image_url": "https://m.media-amazon.com/images/I/61kHxYE7VWL._AC_SL1500_.jpg"
+    }
   },
   {
     "id": "steelseries_arctis_9x_wireless",
@@ -3152,8 +3142,7 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    },
-    "image_url": "https://assets3.razerzone.com/3Dk3J4RLQ56Yj2zSSknC9bEI0bg=/1500x1000/https%3A%2F%2Fmedias-p1.phoenix.razer.com%2Fsys-master-phoenix-images-container%2Fh46%2Fh86%2F9807445753886%2F240820-BlackShark-V2-Pro-500x500.png"
+    }
   },
   {
     "id": "logitech_g733_lightspeed_wireless",
@@ -3299,8 +3288,7 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    },
-    "image_url": "https://m.media-amazon.com/images/I/61l8xMJPHCL._AC_SL1500_.jpg"
+    }
   },
   {
     "id": "steelseries_arctis_9_wireless",
@@ -3516,8 +3504,7 @@
       "audio_virtual_surround": [],
       "audio_repairability": "ok",
       "audio_value_pick": true
-    },
-    "image_url": "https://m.media-amazon.com/images/I/61u2rLjzmOL._AC_SL1500_.jpg"
+    }
   },
   {
     "id": "steelseries_arctis_1_wireless",
@@ -3802,8 +3789,7 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    },
-    "image_url": "https://assets3.razerzone.com/fbNsC49kx4F7nU2ot8V4QzHT-Dg=/1500x1000/https%3A%2F%2Fmedias-p1.phoenix.razer.com%2Fsys-master-phoenix-images-container%2Fh42%2Fhfa%2F9522060591134%2Fbarracuda-quartz-3-500x500.png"
+    }
   },
   {
     "id": "corsair_hs80_max_wireless",
@@ -4473,8 +4459,7 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": true
-    },
-    "image_url": "https://media.steelseriescdn.com/blog/posts/arctis-2019-edition/a5fe06ea74644d48806cb656b9eda378.jpg"
+    }
   },
   {
     "id": "turtle_beach_stealth_pro_wireless",
@@ -4550,8 +4535,7 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    },
-    "image_url": "https://m.media-amazon.com/images/I/61YqGaTQL7L._AC_SL1500_.jpg"
+    }
   },
   {
     "id": "corsair_void_pro_rgb_wireless",
@@ -4697,8 +4681,7 @@
       "audio_virtual_surround": [],
       "audio_repairability": "ok",
       "audio_value_pick": true
-    },
-    "image_url": "https://assets3.razerzone.com/jxOzA39QmpZOpwaehqUTWSDyY48=/1500x1000/https%3A%2F%2Fmedias-p1.phoenix.razer.com%2Fsys-master-phoenix-images-container%2Fhfb%2Fhe4%2F9412836884510%2Fbarracuda-x-mercury-2022-2-500x500.png"
+    }
   },
   {
     "id": "turtle_beach_stealth_700_wireless",
@@ -4851,8 +4834,7 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    },
-    "image_url": "https://news.xbox.com/en-us/wp-content/uploads/sites/2/2021/03/PA_Beoplay-Portal_Black_JPG.jpg?w=315"
+    }
   },
   {
     "id": "corsair_hs80_rgb_wireless",
@@ -5066,8 +5048,7 @@
       "audio_virtual_surround": [],
       "audio_repairability": "ok",
       "audio_value_pick": true
-    },
-    "image_url": "https://m.media-amazon.com/images/I/61rQnGAiURL._AC_SL1500_.jpg"
+    }
   },
   {
     "id": "astro_a20_gen_2_wireless",
@@ -5131,8 +5112,7 @@
       "audio_virtual_surround": [],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    },
-    "image_url": "https://m.media-amazon.com/images/I/71BJ0BYyknL._AC_SL1500_.jpg"
+    }
   },
   {
     "id": "sony_inzone_buds",
@@ -5281,8 +5261,7 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    },
-    "image_url": "https://gmedia.playstation.com/is/image/SIEPDC/PULSE-Elite-headset-image-block-01-en-06sep23?$100px--t$"
+    }
   },
   {
     "id": "sennheiser_hd560s",
@@ -5346,8 +5325,7 @@
       "audio_virtual_surround": [],
       "audio_repairability": "good",
       "audio_value_pick": true
-    },
-    "image_url": "https://m.media-amazon.com/images/I/51h27nkN-+L._AC_SL1500_.jpg"
+    }
   },
   {
     "id": "sennheiser_hd_800_s",
@@ -5485,8 +5463,7 @@
       "audio_virtual_surround": [],
       "audio_repairability": "good",
       "audio_value_pick": false
-    },
-    "image_url": "https://m.media-amazon.com/images/I/61nE7cPqxJL._AC_SL1500_.jpg"
+    }
   },
   {
     "id": "philips_shp9500",
@@ -5497,7 +5474,6 @@
       80,
       80
     ],
-    "image_url": "https://m.media-amazon.com/images/I/71wAp8kBi5L._AC_SL1500_.jpg",
     "product_url": "https://www.amazon.com/dp/B00ENMK1DW?tag=gearmatch-20",
     "recommendation_tags": [
       "audiophile_entry",
@@ -5768,7 +5744,6 @@
       50,
       50
     ],
-    "image_url": "https://m.media-amazon.com/images/I/71dVWwxXJNL._AC_SL1500_.jpg",
     "product_url": "https://www.amazon.com/dp/B00HVLUR18?tag=gearmatch-20",
     "recommendation_tags": [
       "studio_monitor",
@@ -6188,8 +6163,7 @@
       ],
       "audio_repairability": "good",
       "audio_value_pick": false
-    },
-    "image_url": "https://m.media-amazon.com/images/I/61Ll4CjNJrL._AC_SL1500_.jpg"
+    }
   },
   {
     "id": "sony_wh_1000xm4",
@@ -6339,8 +6313,7 @@
       "audio_virtual_surround": [],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    },
-    "image_url": "https://m.media-amazon.com/images/I/51LAfmMy2hL._AC_SL1500_.jpg"
+    }
   },
   {
     "id": "bose_qc_headphones_wireless",
@@ -6712,8 +6685,7 @@
       "audio_virtual_surround": [],
       "audio_repairability": "ok",
       "audio_value_pick": true
-    },
-    "image_url": "https://m.media-amazon.com/images/I/51FMqaqz5TL._AC_SL1500_.jpg"
+    }
   },
   {
     "id": "sennheiser_hdb_630",
@@ -6791,8 +6763,7 @@
       "audio_virtual_surround": [],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    },
-    "image_url": "https://m.media-amazon.com/images/I/61CdBnVIh0L._AC_SL1500_.jpg"
+    }
   },
   {
     "id": "sony_ult_wear",
@@ -7187,8 +7158,7 @@
       "audio_virtual_surround": [],
       "audio_repairability": "ok",
       "audio_value_pick": true
-    },
-    "image_url": "https://m.media-amazon.com/images/I/51epoS8WKRL._AC_SL1500_.jpg"
+    }
   },
   {
     "id": "jbl_tune_760nc",
@@ -7633,8 +7603,7 @@
       "audio_virtual_surround": [],
       "audio_repairability": "poor",
       "audio_value_pick": false
-    },
-    "image_url": "https://m.media-amazon.com/images/I/51v1MISZXJL._AC_SL1500_.jpg"
+    }
   },
   {
     "id": "bose_qc_ultra_earbuds_2nd_gen",
@@ -7706,8 +7675,7 @@
       "audio_virtual_surround": [],
       "audio_repairability": "poor",
       "audio_value_pick": false
-    },
-    "image_url": "https://m.media-amazon.com/images/I/51dNJLre4jL._AC_SL1500_.jpg"
+    }
   },
   {
     "id": "bose_qc_ultra_earbuds_1st_gen",
@@ -7779,8 +7747,7 @@
       "audio_virtual_surround": [],
       "audio_repairability": "poor",
       "audio_value_pick": true
-    },
-    "image_url": "https://m.media-amazon.com/images/I/51Yp5OnPMfL._AC_SL1500_.jpg"
+    }
   },
   {
     "id": "sennheiser_momentum_tw4",
@@ -7851,8 +7818,7 @@
       "audio_virtual_surround": [],
       "audio_repairability": "poor",
       "audio_value_pick": false
-    },
-    "image_url": "https://m.media-amazon.com/images/I/51RDjUHLg+L._AC_SL1500_.jpg"
+    }
   },
   {
     "id": "technics_eah_az100",
@@ -7927,8 +7893,7 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    },
-    "image_url": "https://m.media-amazon.com/images/I/61ZQ7FHFBJL._AC_SL1500_.jpg"
+    }
   },
   {
     "id": "technics_eah_az80",
@@ -8074,8 +8039,7 @@
       "audio_virtual_surround": [],
       "audio_repairability": "ok",
       "audio_value_pick": true
-    },
-    "image_url": "https://m.media-amazon.com/images/I/61Us27OPNUL._AC_SL1500_.jpg"
+    }
   },
   {
     "id": "nothing_ear_a",
@@ -8218,8 +8182,7 @@
       "audio_virtual_surround": [],
       "audio_repairability": "ok",
       "audio_value_pick": true
-    },
-    "image_url": "https://m.media-amazon.com/images/I/51FhQFm1URL._AC_SL1500_.jpg"
+    }
   },
   {
     "id": "anker_soundcore_liberty_4_nc",
@@ -8291,8 +8254,7 @@
       "audio_virtual_surround": [],
       "audio_repairability": "ok",
       "audio_value_pick": true
-    },
-    "image_url": "https://m.media-amazon.com/images/I/61MGKG-hS5L._AC_SL1500_.jpg"
+    }
   },
   {
     "id": "jbl_vibe_buds",
@@ -8361,8 +8323,7 @@
       "audio_virtual_surround": [],
       "audio_repairability": "ok",
       "audio_value_pick": true
-    },
-    "image_url": "https://m.media-amazon.com/images/I/51XFJxlpd0L._AC_SL1500_.jpg"
+    }
   },
   {
     "id": "skullcandy_dime_3",
@@ -8506,8 +8467,7 @@
       "audio_virtual_surround": [],
       "audio_repairability": "poor",
       "audio_value_pick": true
-    },
-    "image_url": "https://m.media-amazon.com/images/I/61DjFHG-u8L._AC_SL1500_.jpg"
+    }
   },
   {
     "id": "jlab_go_air_pop",
@@ -8645,8 +8605,7 @@
       "audio_virtual_surround": [],
       "audio_repairability": "ok",
       "audio_value_pick": true
-    },
-    "image_url": "https://m.media-amazon.com/images/I/51+B2pbYQ8L._AC_SL1500_.jpg"
+    }
   },
   {
     "id": "tozo_t6_truly_wireless",
@@ -8955,8 +8914,7 @@
       ],
       "audio_repairability": "poor",
       "audio_value_pick": false
-    },
-    "image_url": "https://assets.bosecreative.com/transform/d307a89a-4c1c-46e3-a2eb-0fb2ce815514/UOEBLE26-DesertGold_SF_PDP_E-Comm-Gallery_1_1632x1224?io=width:816,height:667,transform:fit"
+    }
   },
   {
     "id": "anker_soundcore_c30i",
@@ -9024,8 +8982,7 @@
       "audio_virtual_surround": [],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    },
-    "image_url": "https://m.media-amazon.com/images/I/61iuyBugIML._AC_SL1500_.jpg"
+    }
   },
   {
     "id": "moondrop_chu_2",
@@ -9608,8 +9565,7 @@
       "audio_virtual_surround": [],
       "audio_repairability": "great",
       "audio_value_pick": false
-    },
-    "image_url": "https://www.linsoul.com/cdn/shop/files/6_00bd9e6f-1877-4401-ada4-345d6ab61475.jpg?v=1730800125"
+    }
   },
   {
     "id": "letshuoer_s12_pro",
@@ -10578,8 +10534,7 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    },
-    "image_url": "https://assets3.razerzone.com/3Dk3J4RLQ56Yj2zSSknC9bEI0bg=/1500x1000/https%3A%2F%2Fmedias-p1.phoenix.razer.com%2Fsys-master-phoenix-images-container%2Fh46%2Fh86%2F9807445753886%2F240820-BlackShark-V2-Pro-500x500.png"
+    }
   },
   {
     "id": "turtle_beach_stealth_700_gen_2_wireless",
@@ -10950,8 +10905,7 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": true
-    },
-    "image_url": "https://m.media-amazon.com/images/I/61yMeYsDpML._AC_SL1500_.jpg"
+    }
   },
   {
     "id": "noble_fokus_apollo",
@@ -11266,8 +11220,7 @@
       ],
       "audio_repairability": "poor",
       "audio_value_pick": false
-    },
-    "image_url": "https://dlcdnwebimgs.asus.com/gain/51F6F5BD-6477-4573-9B67-551253E12B03"
+    }
   },
   {
     "id": "epos_gtw_270_hybrid_truly_wireless",
@@ -11496,8 +11449,7 @@
       ],
       "audio_repairability": "poor",
       "audio_value_pick": false
-    },
-    "image_url": "https://m.media-amazon.com/images/I/61TMvAMSWiL._AC_SL1500_.jpg"
+    }
   },
   {
     "id": "turtle_beach_elite_atlas_aero_wireless",
@@ -11710,8 +11662,7 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    },
-    "image_url": "https://assets.bosecreative.com/transform/5dca5017-640e-4654-b1fb-bbbe1e28ee89/QC35II_CC_008_RGB?io=width:816,height:667,transform:fit"
+    }
   },
   {
     "id": "bose_quietcomfort_45_wireless",
@@ -11785,8 +11736,7 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    },
-    "image_url": "https://assets.bosecreative.com/transform/788fa4e9-26f2-4c34-ba4b-be028d456603/QC45_WhiteSmoke_001_RGB?io=width:816,height:667,transform:fit"
+    }
   },
   {
     "id": "sony_pulse_explore_truly_wireless",
@@ -11939,8 +11889,7 @@
       ],
       "audio_repairability": "poor",
       "audio_value_pick": false
-    },
-    "image_url": "https://m.media-amazon.com/images/I/61bTJ-UUVML._AC_SL1500_.jpg"
+    }
   },
   {
     "id": "jabra_elite_8_active_gen_2",
@@ -12014,8 +11963,7 @@
       ],
       "audio_repairability": "poor",
       "audio_value_pick": false
-    },
-    "image_url": "https://m.media-amazon.com/images/I/61h+z1EMkxL._AC_SL1500_.jpg"
+    }
   },
   {
     "id": "sennheiser_rs_165_rf_wireless",
@@ -12229,8 +12177,7 @@
       ],
       "audio_repairability": "ok",
       "audio_value_pick": false
-    },
-    "image_url": "https://m.media-amazon.com/images/I/51Ydp4VHMhL._AC_SL1500_.jpg"
+    }
   },
   {
     "id": "bowers_wilkins_pi7_true_wireless",
@@ -12398,7 +12345,6 @@
       95,
       268
     ],
-    "image_url": "https://m.media-amazon.com/images/I/71oN33p6JML._AC_SL1500_.jpg",
     "product_url": "https://www.amazon.com/dp/B07G4MNFS1?tag=gearmatch-20",
     "retailer_urls": {
       "newegg": "https://www.newegg.com/silver-sony-wh-1000xm3-s-headphone/p/0TH-000U-008U7"
@@ -12475,7 +12421,6 @@
       300,
       350
     ],
-    "image_url": "https://m.media-amazon.com/images/I/61yVnU-VD6L._AC_SL1500_.jpg",
     "product_url": "https://www.amazon.com/dp/B09ZWCYQTX?tag=gearmatch-20",
     "recommendation_tags": [
       "wireless_gaming",
@@ -12694,7 +12639,6 @@
       200,
       300
     ],
-    "image_url": "https://m.media-amazon.com/images/I/61GGiZ2ROEL._AC_SL1500_.jpg",
     "product_url": "https://www.amazon.com/dp/B07VW98ZKG?tag=gearmatch-20",
     "recommendation_tags": [
       "premium_anc",
@@ -12849,7 +12793,6 @@
       200,
       250
     ],
-    "image_url": "https://m.media-amazon.com/images/I/71GBXYN2KJL._AC_SL1500_.jpg",
     "product_url": "https://www.amazon.com/dp/B07RQ366VK?tag=gearmatch-20",
     "recommendation_tags": [
       "anc",
@@ -12920,7 +12863,6 @@
       150,
       200
     ],
-    "image_url": "https://m.media-amazon.com/images/I/61L1SvhxGBL._AC_SL1500_.jpg",
     "product_url": "https://www.amazon.com/dp/B09D1HMBQ3?tag=gearmatch-20",
     "recommendation_tags": [
       "true_wireless",
@@ -12989,7 +12931,6 @@
       200,
       250
     ],
-    "image_url": "https://m.media-amazon.com/images/I/61qY6CYsEDL._AC_SL1500_.jpg",
     "product_url": "https://www.amazon.com/dp/B0CB91VRGV?tag=gearmatch-20",
     "recommendation_tags": [
       "true_wireless",
@@ -13060,7 +13001,6 @@
       180,
       230
     ],
-    "image_url": "https://m.media-amazon.com/images/I/61U7yZ6RdOL._AC_SL1500_.jpg",
     "product_url": "https://www.amazon.com/dp/B0CB9563MB?tag=gearmatch-20",
     "recommendation_tags": [
       "sports",
@@ -13131,7 +13071,6 @@
       130,
       180
     ],
-    "image_url": "https://m.media-amazon.com/images/I/61lMNZGtqAL._AC_SL1500_.jpg",
     "product_url": "https://www.amazon.com/dp/B09D15G8PG?tag=gearmatch-20",
     "recommendation_tags": [
       "sports",
@@ -13200,7 +13139,6 @@
       300,
       400
     ],
-    "image_url": "https://m.media-amazon.com/images/I/71EPxoAPlLL._AC_SL1500_.jpg",
     "product_url": "https://www.amazon.com/dp/B07JMNGSPB?tag=gearmatch-20",
     "recommendation_tags": [
       "audiophile_gaming",
@@ -13350,7 +13288,6 @@
       300,
       380
     ],
-    "image_url": "https://m.media-amazon.com/images/I/71OlMfZCXsL._AC_SL1500_.jpg",
     "product_url": "https://www.amazon.com/dp/B07Q9MJKBV?tag=gearmatch-20",
     "recommendation_tags": [
       "premium_anc",
@@ -13423,7 +13360,6 @@
       150,
       200
     ],
-    "image_url": "https://m.media-amazon.com/images/I/81+okZ0RHOL._AC_SL1500_.jpg",
     "product_url": "https://www.amazon.com/dp/B0117RGG8E?tag=gearmatch-20",
     "recommendation_tags": [
       "wireless",
@@ -13494,7 +13430,6 @@
       219,
       225
     ],
-    "image_url": "https://m.media-amazon.com/images/I/71B2hAEkzOL._AC_SL1500_.jpg",
     "product_url": "https://www.amazon.com/dp/B09BYFHL25?tag=gearmatch-20",
     "retailer_urls": {
       "bestbuy": "https://www.bestbuy.com/product/audio-technica-m50xbt-studio-monitor-headphones-black/CG9462VV5L/sku/10101587",
@@ -14234,5 +14169,3180 @@
       "audio_repairability": "ok",
       "audio_value_pick": true
     }
+  },
+  {
+    "id": "cca_cra_mic",
+    "name": "CCA CRA (with Mic)",
+    "brand": "CCA",
+    "category": "audio",
+    "price_range_usd": [
+      19,
+      24
+    ],
+    "product_url": "https://www.amazon.com/dp/B0BV21M23N?tag=gearmatch-20",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/dp/B0BV21M23N?tag=gearmatch-20",
+      "manufacturer": "https://www.linsoul.com/products/cca-cra-pro"
+    },
+    "recommendation_tags": [
+      "budget",
+      "wired_mic",
+      "neutral",
+      "beginner_friendly",
+      "iem",
+      "value_pick"
+    ],
+    "data_quality": {
+      "data_confidence": "high",
+      "primary_source_type": "community_poll",
+      "source_name": "r/HeadphoneAdvice + community consensus",
+      "last_verified": "2026-03"
+    },
+    "core_attributes": {
+      "category_subtype": "iem",
+      "price_tier": "budget",
+      "platform_fit": [
+        "pc",
+        "mobile",
+        "playstation"
+      ],
+      "connection_type": [
+        "wired_3_5mm"
+      ],
+      "wireless": false,
+      "latency_class": "very_low",
+      "software_support": "none",
+      "eq_support": false,
+      "availability_class": "easy",
+      "audio_type": "iem",
+      "audio_open_back": false,
+      "audio_has_mic": true,
+      "audio_mic_type": "integrated",
+      "audio_mic_quality": "ok",
+      "audio_sound_signature": "neutral",
+      "audio_competitive_fps": "good",
+      "audio_immersion": "good",
+      "audio_isolation": "medium",
+      "audio_anc": false,
+      "audio_comfort": "good",
+      "audio_needs_amp": "no",
+      "audio_driver_type": "dynamic",
+      "audio_virtual_surround": [],
+      "audio_repairability": "ok",
+      "audio_value_pick": true
+    }
+  },
+  {
+    "id": "blon_bl03_ii_mic",
+    "name": "BLON BL-03 II (with Mic)",
+    "brand": "BLON",
+    "category": "audio",
+    "price_range_usd": [
+      28,
+      35
+    ],
+    "product_url": "https://www.amazon.com/dp/B0DR5H81WW?tag=gearmatch-20",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/dp/B0DR5H81WW?tag=gearmatch-20",
+      "manufacturer": "https://www.linsoul.com/products/blon-bl-03-ii"
+    },
+    "recommendation_tags": [
+      "budget",
+      "wired_mic",
+      "bassy",
+      "iem",
+      "value_pick"
+    ],
+    "data_quality": {
+      "data_confidence": "high",
+      "primary_source_type": "community_poll",
+      "source_name": "r/inearfidelity + Linsoul",
+      "last_verified": "2026-03"
+    },
+    "core_attributes": {
+      "category_subtype": "iem",
+      "price_tier": "budget",
+      "platform_fit": [
+        "pc",
+        "mobile",
+        "playstation"
+      ],
+      "connection_type": [
+        "wired_3_5mm"
+      ],
+      "wireless": false,
+      "latency_class": "very_low",
+      "software_support": "none",
+      "eq_support": false,
+      "availability_class": "easy",
+      "audio_type": "iem",
+      "audio_open_back": false,
+      "audio_has_mic": true,
+      "audio_mic_type": "integrated",
+      "audio_mic_quality": "ok",
+      "audio_sound_signature": "warm",
+      "audio_competitive_fps": "ok",
+      "audio_immersion": "good",
+      "audio_isolation": "medium",
+      "audio_anc": false,
+      "audio_comfort": "good",
+      "audio_needs_amp": "no",
+      "audio_driver_type": "dynamic",
+      "audio_virtual_surround": [],
+      "audio_repairability": "ok",
+      "audio_value_pick": true
+    }
+  },
+  {
+    "id": "tanchjim_ola_mic",
+    "name": "Tanchjim Ola (with Mic)",
+    "brand": "TANCHJIM",
+    "category": "audio",
+    "price_range_usd": [
+      39,
+      45
+    ],
+    "product_url": "https://www.amazon.com/dp/B09SP3XGWV?tag=gearmatch-20",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/dp/B09SP3XGWV?tag=gearmatch-20",
+      "manufacturer": "https://www.tanchjim.com"
+    },
+    "recommendation_tags": [
+      "budget",
+      "wired_mic",
+      "neutral",
+      "iem",
+      "beginner_friendly"
+    ],
+    "data_quality": {
+      "data_confidence": "high",
+      "primary_source_type": "community_poll",
+      "source_name": "r/HeadphoneAdvice + Amazon reviews",
+      "last_verified": "2026-03"
+    },
+    "core_attributes": {
+      "category_subtype": "iem",
+      "price_tier": "budget",
+      "platform_fit": [
+        "pc",
+        "mobile",
+        "playstation"
+      ],
+      "connection_type": [
+        "wired_3_5mm"
+      ],
+      "wireless": false,
+      "latency_class": "very_low",
+      "software_support": "none",
+      "eq_support": false,
+      "availability_class": "easy",
+      "audio_type": "iem",
+      "audio_open_back": false,
+      "audio_has_mic": true,
+      "audio_mic_type": "integrated",
+      "audio_mic_quality": "ok",
+      "audio_sound_signature": "neutral",
+      "audio_competitive_fps": "good",
+      "audio_immersion": "ok",
+      "audio_isolation": "medium",
+      "audio_anc": false,
+      "audio_comfort": "great",
+      "audio_needs_amp": "no",
+      "audio_driver_type": "dynamic",
+      "audio_virtual_surround": [],
+      "audio_repairability": "ok",
+      "audio_value_pick": true
+    }
+  },
+  {
+    "id": "truthear_zero_blue2",
+    "name": "TRUTHEAR ZERO: BLUE2 (with Mic)",
+    "brand": "TRUTHEAR",
+    "category": "audio",
+    "price_range_usd": [
+      59,
+      69
+    ],
+    "product_url": "https://www.amazon.com/dp/B0DZHC1H8F?tag=gearmatch-20",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/dp/B0DZHC1H8F?tag=gearmatch-20",
+      "manufacturer": "https://truthear.com/products/zero-blue"
+    },
+    "recommendation_tags": [
+      "budget",
+      "wired_mic",
+      "neutral",
+      "iem",
+      "value_pick",
+      "beginner_friendly"
+    ],
+    "data_quality": {
+      "data_confidence": "high",
+      "primary_source_type": "community_poll",
+      "source_name": "r/HeadphoneAdvice + TRUTHEAR official",
+      "last_verified": "2026-03"
+    },
+    "core_attributes": {
+      "category_subtype": "iem",
+      "price_tier": "budget",
+      "platform_fit": [
+        "pc",
+        "mobile",
+        "playstation"
+      ],
+      "connection_type": [
+        "wired_3_5mm"
+      ],
+      "wireless": false,
+      "latency_class": "very_low",
+      "software_support": "none",
+      "eq_support": false,
+      "availability_class": "easy",
+      "audio_type": "iem",
+      "audio_open_back": false,
+      "audio_has_mic": true,
+      "audio_mic_type": "integrated",
+      "audio_mic_quality": "ok",
+      "audio_sound_signature": "neutral",
+      "audio_competitive_fps": "good",
+      "audio_immersion": "good",
+      "audio_isolation": "medium",
+      "audio_anc": false,
+      "audio_comfort": "good",
+      "audio_needs_amp": "no",
+      "audio_driver_type": "dynamic",
+      "audio_virtual_surround": [],
+      "audio_repairability": "ok",
+      "audio_value_pick": true
+    }
+  },
+  {
+    "id": "kinera_celest_gumiho",
+    "name": "Kinera Celest Gumiho",
+    "brand": "Kinera",
+    "category": "audio",
+    "price_range_usd": [
+      44,
+      55
+    ],
+    "product_url": "https://www.amazon.com/dp/B0BDFXGKCM?tag=gearmatch-20",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/dp/B0BDFXGKCM?tag=gearmatch-20",
+      "manufacturer": "https://hifigo.com/products/kinera-celest-gumiho"
+    },
+    "recommendation_tags": [
+      "budget",
+      "planar",
+      "neutral",
+      "iem",
+      "detail",
+      "value_pick"
+    ],
+    "data_quality": {
+      "data_confidence": "high",
+      "primary_source_type": "community_poll",
+      "source_name": "HiFiGo + Head-Fi + MajorHiFi",
+      "last_verified": "2026-03"
+    },
+    "core_attributes": {
+      "category_subtype": "iem",
+      "price_tier": "budget",
+      "platform_fit": [
+        "pc",
+        "mobile"
+      ],
+      "connection_type": [
+        "wired_3_5mm"
+      ],
+      "wireless": false,
+      "latency_class": "very_low",
+      "software_support": "none",
+      "eq_support": false,
+      "availability_class": "easy",
+      "audio_type": "iem",
+      "audio_open_back": false,
+      "audio_has_mic": false,
+      "audio_mic_type": "none",
+      "audio_sound_signature": "neutral",
+      "audio_competitive_fps": "good",
+      "audio_immersion": "good",
+      "audio_isolation": "medium",
+      "audio_anc": false,
+      "audio_comfort": "good",
+      "audio_needs_amp": "no",
+      "audio_driver_type": "planar",
+      "audio_virtual_surround": [],
+      "audio_repairability": "ok",
+      "audio_value_pick": true
+    }
+  },
+  {
+    "id": "moondrop_aria_2",
+    "name": "Moondrop Aria 2",
+    "brand": "Moondrop",
+    "category": "audio",
+    "price_range_usd": [
+      85,
+      100
+    ],
+    "product_url": "https://www.amazon.com/dp/B0CM3Q7YNG?tag=gearmatch-20",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/dp/B0CM3Q7YNG?tag=gearmatch-20",
+      "manufacturer": "https://moondroplab.com/en/products/aria2"
+    },
+    "recommendation_tags": [
+      "midrange",
+      "neutral",
+      "all_rounder",
+      "iem",
+      "value_pick",
+      "beginner_friendly"
+    ],
+    "data_quality": {
+      "data_confidence": "high",
+      "primary_source_type": "community_poll",
+      "source_name": "Crinacle + r/HeadphoneAdvice + Headfonics",
+      "last_verified": "2026-03"
+    },
+    "core_attributes": {
+      "category_subtype": "iem",
+      "price_tier": "midrange",
+      "platform_fit": [
+        "pc",
+        "mobile"
+      ],
+      "connection_type": [
+        "wired_3_5mm"
+      ],
+      "wireless": false,
+      "latency_class": "very_low",
+      "software_support": "none",
+      "eq_support": false,
+      "availability_class": "easy",
+      "audio_type": "iem",
+      "audio_open_back": false,
+      "audio_has_mic": false,
+      "audio_mic_type": "none",
+      "audio_sound_signature": "neutral",
+      "audio_competitive_fps": "good",
+      "audio_immersion": "good",
+      "audio_isolation": "medium",
+      "audio_anc": false,
+      "audio_comfort": "great",
+      "audio_needs_amp": "no",
+      "audio_impedance_ohm": 33,
+      "audio_sensitivity_db": 122,
+      "audio_driver_type": "dynamic",
+      "audio_virtual_surround": [],
+      "audio_repairability": "good",
+      "audio_value_pick": true
+    },
+    "image_url": "https://cdn.prod.website-files.com/627128d862c9a44234848dda/6540a32b1b300656259455e3_ARIA2.jpg"
+  },
+  {
+    "id": "simgot_ea500_lm",
+    "name": "SIMGOT EA500 LM",
+    "brand": "SIMGOT",
+    "category": "audio",
+    "price_range_usd": [
+      85,
+      99
+    ],
+    "product_url": "https://www.amazon.com/dp/B0CSJQDXCD?tag=gearmatch-20",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/dp/B0CSJQDXCD?tag=gearmatch-20",
+      "manufacturer": "https://www.linsoul.com/products/simgot-ea500lm"
+    },
+    "recommendation_tags": [
+      "midrange",
+      "neutral",
+      "all_rounder",
+      "iem",
+      "value_pick"
+    ],
+    "data_quality": {
+      "data_confidence": "high",
+      "primary_source_type": "community_poll",
+      "source_name": "Crinacle + Headfonics + r/inearfidelity",
+      "last_verified": "2026-03"
+    },
+    "core_attributes": {
+      "category_subtype": "iem",
+      "price_tier": "midrange",
+      "platform_fit": [
+        "pc",
+        "mobile"
+      ],
+      "connection_type": [
+        "wired_3_5mm"
+      ],
+      "wireless": false,
+      "latency_class": "very_low",
+      "software_support": "none",
+      "eq_support": false,
+      "availability_class": "easy",
+      "audio_type": "iem",
+      "audio_open_back": false,
+      "audio_has_mic": false,
+      "audio_mic_type": "none",
+      "audio_sound_signature": "neutral",
+      "audio_competitive_fps": "good",
+      "audio_immersion": "good",
+      "audio_isolation": "medium",
+      "audio_anc": false,
+      "audio_comfort": "great",
+      "audio_needs_amp": "no",
+      "audio_driver_type": "dynamic",
+      "audio_virtual_surround": [],
+      "audio_repairability": "good",
+      "audio_value_pick": true
+    }
+  },
+  {
+    "id": "dunu_titan_s",
+    "name": "DUNU Titan S",
+    "brand": "DUNU",
+    "category": "audio",
+    "price_range_usd": [
+      75,
+      85
+    ],
+    "product_url": "https://www.amazon.com/dp/B09P8K43SW?tag=gearmatch-20",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/dp/B09P8K43SW?tag=gearmatch-20",
+      "manufacturer": "https://www.dunu-topsound.com/product-page/dunu-titan-s"
+    },
+    "recommendation_tags": [
+      "midrange",
+      "neutral",
+      "detail",
+      "all_rounder",
+      "iem",
+      "value_pick"
+    ],
+    "data_quality": {
+      "data_confidence": "high",
+      "primary_source_type": "community_poll",
+      "source_name": "Crinacle + r/inearfidelity + Headfonics",
+      "last_verified": "2026-03"
+    },
+    "core_attributes": {
+      "category_subtype": "iem",
+      "price_tier": "midrange",
+      "platform_fit": [
+        "pc",
+        "mobile"
+      ],
+      "connection_type": [
+        "wired_3_5mm"
+      ],
+      "wireless": false,
+      "latency_class": "very_low",
+      "software_support": "none",
+      "eq_support": false,
+      "availability_class": "easy",
+      "audio_type": "iem",
+      "audio_open_back": false,
+      "audio_has_mic": false,
+      "audio_mic_type": "none",
+      "audio_sound_signature": "neutral",
+      "audio_competitive_fps": "good",
+      "audio_immersion": "ok",
+      "audio_isolation": "medium",
+      "audio_anc": false,
+      "audio_comfort": "good",
+      "audio_needs_amp": "no",
+      "audio_driver_type": "dynamic",
+      "audio_virtual_surround": [],
+      "audio_repairability": "good",
+      "audio_value_pick": true
+    }
+  },
+  {
+    "id": "fiio_fh3",
+    "name": "FiiO FH3",
+    "brand": "FiiO",
+    "category": "audio",
+    "price_range_usd": [
+      75,
+      89
+    ],
+    "product_url": "https://www.amazon.com/dp/B08DHTM4N5?tag=gearmatch-20",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/dp/B08DHTM4N5?tag=gearmatch-20",
+      "manufacturer": "https://www.fiio.com/fh3"
+    },
+    "recommendation_tags": [
+      "midrange",
+      "v_shaped",
+      "bassy",
+      "hybrid",
+      "iem",
+      "value_pick"
+    ],
+    "data_quality": {
+      "data_confidence": "high",
+      "primary_source_type": "community_poll",
+      "source_name": "Crinacle + r/inearfidelity + Head-Fi",
+      "last_verified": "2026-03"
+    },
+    "core_attributes": {
+      "category_subtype": "iem",
+      "price_tier": "midrange",
+      "platform_fit": [
+        "pc",
+        "mobile"
+      ],
+      "connection_type": [
+        "wired_3_5mm"
+      ],
+      "wireless": false,
+      "latency_class": "very_low",
+      "software_support": "none",
+      "eq_support": false,
+      "availability_class": "easy",
+      "audio_type": "iem",
+      "audio_open_back": false,
+      "audio_has_mic": false,
+      "audio_mic_type": "none",
+      "audio_sound_signature": "v_shaped",
+      "audio_competitive_fps": "ok",
+      "audio_immersion": "great",
+      "audio_isolation": "medium",
+      "audio_anc": false,
+      "audio_comfort": "good",
+      "audio_needs_amp": "no",
+      "audio_driver_type": "hybrid",
+      "audio_virtual_surround": [],
+      "audio_repairability": "ok",
+      "audio_value_pick": true
+    }
+  },
+  {
+    "id": "truthear_nova",
+    "name": "TRUTHEAR Nova",
+    "brand": "TRUTHEAR",
+    "category": "audio",
+    "price_range_usd": [
+      145,
+      165
+    ],
+    "product_url": "https://www.amazon.com/dp/B0CLV8TP34?tag=gearmatch-20",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/dp/B0CLV8TP34?tag=gearmatch-20",
+      "manufacturer": "https://truthear.com/products/nova"
+    },
+    "recommendation_tags": [
+      "upper_midrange",
+      "neutral",
+      "harman_tuned",
+      "hybrid",
+      "all_rounder",
+      "iem",
+      "value_pick"
+    ],
+    "data_quality": {
+      "data_confidence": "high",
+      "primary_source_type": "community_poll",
+      "source_name": "Headphones.com + r/inearfidelity + Crinacle",
+      "last_verified": "2026-03"
+    },
+    "core_attributes": {
+      "category_subtype": "iem",
+      "price_tier": "upper_midrange",
+      "platform_fit": [
+        "pc",
+        "mobile"
+      ],
+      "connection_type": [
+        "wired_3_5mm"
+      ],
+      "wireless": false,
+      "latency_class": "very_low",
+      "software_support": "none",
+      "eq_support": false,
+      "availability_class": "easy",
+      "audio_type": "iem",
+      "audio_open_back": false,
+      "audio_has_mic": false,
+      "audio_mic_type": "none",
+      "audio_sound_signature": "neutral",
+      "audio_competitive_fps": "good",
+      "audio_immersion": "good",
+      "audio_isolation": "medium",
+      "audio_anc": false,
+      "audio_comfort": "good",
+      "audio_needs_amp": "no",
+      "audio_impedance_ohm": 15,
+      "audio_sensitivity_db": 123,
+      "audio_driver_type": "hybrid",
+      "audio_virtual_surround": [],
+      "audio_repairability": "ok",
+      "audio_value_pick": true
+    },
+    "image_url": "https://shenzhenaudio.com/cdn/shop/files/3-1_38b7de7d-5847-48b2-924d-244f8545b041.jpg?v=1697097770"
+  },
+  {
+    "id": "7hz_timeless",
+    "name": "7Hz Timeless",
+    "brand": "7Hz",
+    "category": "audio",
+    "price_range_usd": [
+      169,
+      199
+    ],
+    "product_url": "https://www.amazon.com/dp/B09C8GN9PQ?tag=gearmatch-20",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/dp/B09C8GN9PQ?tag=gearmatch-20",
+      "manufacturer": "https://www.linsoul.com/products/7hz-timeless"
+    },
+    "recommendation_tags": [
+      "upper_midrange",
+      "planar",
+      "detail",
+      "all_rounder",
+      "iem",
+      "value_pick"
+    ],
+    "data_quality": {
+      "data_confidence": "high",
+      "primary_source_type": "community_poll",
+      "source_name": "Crinacle + r/inearfidelity + Headfonics",
+      "last_verified": "2026-03"
+    },
+    "core_attributes": {
+      "category_subtype": "iem",
+      "price_tier": "upper_midrange",
+      "platform_fit": [
+        "pc",
+        "mobile"
+      ],
+      "connection_type": [
+        "wired_3_5mm"
+      ],
+      "wireless": false,
+      "latency_class": "very_low",
+      "software_support": "none",
+      "eq_support": false,
+      "availability_class": "easy",
+      "audio_type": "iem",
+      "audio_open_back": false,
+      "audio_has_mic": false,
+      "audio_mic_type": "none",
+      "audio_sound_signature": "neutral",
+      "audio_competitive_fps": "great",
+      "audio_immersion": "good",
+      "audio_isolation": "medium",
+      "audio_anc": false,
+      "audio_comfort": "ok",
+      "audio_needs_amp": "maybe",
+      "audio_impedance_ohm": 14,
+      "audio_sensitivity_db": 104,
+      "audio_driver_type": "planar",
+      "audio_virtual_surround": [],
+      "audio_repairability": "ok",
+      "audio_value_pick": true
+    }
+  },
+  {
+    "id": "tangzu_zetian_wu",
+    "name": "Tangzu Zetian Wu",
+    "brand": "TANGZU",
+    "category": "audio",
+    "price_range_usd": [
+      139,
+      159
+    ],
+    "product_url": "https://www.amazon.com/dp/B0BBGWJ16V?tag=gearmatch-20",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/dp/B0BBGWJ16V?tag=gearmatch-20",
+      "manufacturer": "https://www.linsoul.com/products/tangzu-zetian-wu"
+    },
+    "recommendation_tags": [
+      "upper_midrange",
+      "planar",
+      "v_shaped",
+      "iem",
+      "value_pick"
+    ],
+    "data_quality": {
+      "data_confidence": "high",
+      "primary_source_type": "community_poll",
+      "source_name": "r/inearfidelity + HiFiGo + Head-Fi",
+      "last_verified": "2026-03"
+    },
+    "core_attributes": {
+      "category_subtype": "iem",
+      "price_tier": "upper_midrange",
+      "platform_fit": [
+        "pc",
+        "mobile"
+      ],
+      "connection_type": [
+        "wired_3_5mm"
+      ],
+      "wireless": false,
+      "latency_class": "very_low",
+      "software_support": "none",
+      "eq_support": false,
+      "availability_class": "easy",
+      "audio_type": "iem",
+      "audio_open_back": false,
+      "audio_has_mic": false,
+      "audio_mic_type": "none",
+      "audio_sound_signature": "v_shaped",
+      "audio_competitive_fps": "good",
+      "audio_immersion": "good",
+      "audio_isolation": "medium",
+      "audio_anc": false,
+      "audio_comfort": "good",
+      "audio_needs_amp": "maybe",
+      "audio_driver_type": "planar",
+      "audio_virtual_surround": [],
+      "audio_repairability": "ok",
+      "audio_value_pick": true
+    }
+  },
+  {
+    "id": "kiwi_ears_ke4",
+    "name": "Kiwi Ears KE4",
+    "brand": "Kiwi Ears",
+    "category": "audio",
+    "price_range_usd": [
+      175,
+      220
+    ],
+    "product_url": "https://www.amazon.com/dp/B0DB17WSVD?tag=gearmatch-20",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/dp/B0DB17WSVD?tag=gearmatch-20",
+      "manufacturer": "https://www.linsoul.com/products/kiwi-ears-ke4"
+    },
+    "recommendation_tags": [
+      "upper_midrange",
+      "neutral",
+      "new_meta",
+      "hybrid",
+      "all_rounder",
+      "iem",
+      "value_pick"
+    ],
+    "data_quality": {
+      "data_confidence": "high",
+      "primary_source_type": "community_poll",
+      "source_name": "Headphones.com + AudioNotions + Linsoul (VGP 2025 Award)",
+      "last_verified": "2026-03"
+    },
+    "core_attributes": {
+      "category_subtype": "iem",
+      "price_tier": "upper_midrange",
+      "platform_fit": [
+        "pc",
+        "mobile"
+      ],
+      "connection_type": [
+        "wired_3_5mm"
+      ],
+      "wireless": false,
+      "latency_class": "very_low",
+      "software_support": "none",
+      "eq_support": false,
+      "availability_class": "easy",
+      "audio_type": "iem",
+      "audio_open_back": false,
+      "audio_has_mic": false,
+      "audio_mic_type": "none",
+      "audio_sound_signature": "neutral",
+      "audio_competitive_fps": "great",
+      "audio_immersion": "good",
+      "audio_isolation": "medium",
+      "audio_anc": false,
+      "audio_comfort": "good",
+      "audio_needs_amp": "no",
+      "audio_driver_type": "hybrid",
+      "audio_virtual_surround": [],
+      "audio_repairability": "ok",
+      "audio_value_pick": true
+    }
+  },
+  {
+    "id": "tanchjim_hana_2021",
+    "name": "Tanchjim Hana 2021",
+    "brand": "TANCHJIM",
+    "category": "audio",
+    "price_range_usd": [
+      169,
+      199
+    ],
+    "product_url": "https://www.amazon.com/dp/B098T5P2B5?tag=gearmatch-20",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/dp/B098T5P2B5?tag=gearmatch-20",
+      "manufacturer": "https://www.linsoul.com/products/tanchjim-hana-2021"
+    },
+    "recommendation_tags": [
+      "upper_midrange",
+      "neutral",
+      "all_rounder",
+      "iem"
+    ],
+    "data_quality": {
+      "data_confidence": "high",
+      "primary_source_type": "community_poll",
+      "source_name": "r/inearfidelity + Crinacle + Head-Fi",
+      "last_verified": "2026-03"
+    },
+    "core_attributes": {
+      "category_subtype": "iem",
+      "price_tier": "upper_midrange",
+      "platform_fit": [
+        "pc",
+        "mobile"
+      ],
+      "connection_type": [
+        "wired_3_5mm"
+      ],
+      "wireless": false,
+      "latency_class": "very_low",
+      "software_support": "none",
+      "eq_support": false,
+      "availability_class": "easy",
+      "audio_type": "iem",
+      "audio_open_back": false,
+      "audio_has_mic": false,
+      "audio_mic_type": "none",
+      "audio_sound_signature": "neutral",
+      "audio_competitive_fps": "good",
+      "audio_immersion": "good",
+      "audio_isolation": "medium",
+      "audio_anc": false,
+      "audio_comfort": "good",
+      "audio_needs_amp": "no",
+      "audio_driver_type": "dynamic",
+      "audio_virtual_surround": [],
+      "audio_repairability": "ok",
+      "audio_value_pick": false
+    }
+  },
+  {
+    "id": "moondrop_blessing_3",
+    "name": "Moondrop Blessing 3",
+    "brand": "Moondrop",
+    "category": "audio",
+    "price_range_usd": [
+      319,
+      360
+    ],
+    "product_url": "https://www.amazon.com/dp/B0C1ZBTD2V?tag=gearmatch-20",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/dp/B0C1ZBTD2V?tag=gearmatch-20",
+      "manufacturer": "https://moondroplab.com/en/products/blessing3"
+    },
+    "recommendation_tags": [
+      "premium",
+      "neutral",
+      "all_rounder",
+      "hybrid",
+      "iem",
+      "audiophile"
+    ],
+    "data_quality": {
+      "data_confidence": "high",
+      "primary_source_type": "community_poll",
+      "source_name": "Crinacle + Headfonics + r/inearfidelity",
+      "last_verified": "2026-03"
+    },
+    "core_attributes": {
+      "category_subtype": "iem",
+      "price_tier": "premium",
+      "platform_fit": [
+        "pc",
+        "mobile"
+      ],
+      "connection_type": [
+        "wired_3_5mm"
+      ],
+      "wireless": false,
+      "latency_class": "very_low",
+      "software_support": "none",
+      "eq_support": false,
+      "availability_class": "easy",
+      "audio_type": "iem",
+      "audio_open_back": false,
+      "audio_has_mic": false,
+      "audio_mic_type": "none",
+      "audio_sound_signature": "neutral",
+      "audio_competitive_fps": "great",
+      "audio_immersion": "good",
+      "audio_isolation": "medium",
+      "audio_anc": false,
+      "audio_comfort": "good",
+      "audio_needs_amp": "no",
+      "audio_impedance_ohm": 15,
+      "audio_sensitivity_db": 120,
+      "audio_driver_type": "hybrid",
+      "audio_virtual_surround": [],
+      "audio_repairability": "ok",
+      "audio_value_pick": true
+    },
+    "image_url": "https://hifigo.com/cdn/shop/products/moondrop-blessing3-blessing-3-2dd-4ba-hybrid-in-ear-monitors-earphone-hifigo-standard-edition-372761.jpg"
+  },
+  {
+    "id": "7hz_timeless_ae",
+    "name": "7Hz Timeless AE",
+    "brand": "7Hz",
+    "category": "audio",
+    "price_range_usd": [
+      219,
+      260
+    ],
+    "product_url": "https://www.amazon.com/dp/B0BKWS6V3H?tag=gearmatch-20",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/dp/B0BKWS6V3H?tag=gearmatch-20",
+      "manufacturer": "https://hifigo.com/products/7hz-timeless-ae"
+    },
+    "recommendation_tags": [
+      "premium",
+      "planar",
+      "v_shaped",
+      "detail",
+      "iem",
+      "value_pick"
+    ],
+    "data_quality": {
+      "data_confidence": "high",
+      "primary_source_type": "community_poll",
+      "source_name": "Headphones.com + MMORPG.com + r/inearfidelity",
+      "last_verified": "2026-03"
+    },
+    "core_attributes": {
+      "category_subtype": "iem",
+      "price_tier": "premium",
+      "platform_fit": [
+        "pc",
+        "mobile"
+      ],
+      "connection_type": [
+        "wired_3_5mm"
+      ],
+      "wireless": false,
+      "latency_class": "very_low",
+      "software_support": "none",
+      "eq_support": false,
+      "availability_class": "easy",
+      "audio_type": "iem",
+      "audio_open_back": false,
+      "audio_has_mic": false,
+      "audio_mic_type": "none",
+      "audio_sound_signature": "v_shaped",
+      "audio_competitive_fps": "great",
+      "audio_immersion": "great",
+      "audio_isolation": "medium",
+      "audio_anc": false,
+      "audio_comfort": "good",
+      "audio_needs_amp": "maybe",
+      "audio_impedance_ohm": 15,
+      "audio_sensitivity_db": 104,
+      "audio_driver_type": "planar",
+      "audio_virtual_surround": [],
+      "audio_repairability": "ok",
+      "audio_value_pick": true
+    },
+    "image_url": "https://hifigo.com/cdn/shop/products/7hz-timeless-ae-142mm-planar-in-ear-monitors-iems-earphone-hifigo-788508.jpg"
+  },
+  {
+    "id": "dunu_x_gizaudio_davinci",
+    "name": "DUNU x Gizaudio DaVinci",
+    "brand": "DUNU",
+    "category": "audio",
+    "price_range_usd": [
+      289,
+      329
+    ],
+    "product_url": "https://www.amazon.com/dp/B0D46F8S98?tag=gearmatch-20",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/dp/B0D46F8S98?tag=gearmatch-20",
+      "manufacturer": "https://www.linsoul.com/products/dunu-x-gizaudio-davinci"
+    },
+    "recommendation_tags": [
+      "premium",
+      "neutral",
+      "new_meta",
+      "hybrid",
+      "all_rounder",
+      "iem",
+      "audiophile"
+    ],
+    "data_quality": {
+      "data_confidence": "high",
+      "primary_source_type": "community_poll",
+      "source_name": "Headphones.com + AudioNotions + Bloom Audio",
+      "last_verified": "2026-03"
+    },
+    "core_attributes": {
+      "category_subtype": "iem",
+      "price_tier": "premium",
+      "platform_fit": [
+        "pc",
+        "mobile"
+      ],
+      "connection_type": [
+        "wired_3_5mm"
+      ],
+      "wireless": false,
+      "latency_class": "very_low",
+      "software_support": "none",
+      "eq_support": false,
+      "availability_class": "easy",
+      "audio_type": "iem",
+      "audio_open_back": false,
+      "audio_has_mic": false,
+      "audio_mic_type": "none",
+      "audio_sound_signature": "neutral",
+      "audio_competitive_fps": "great",
+      "audio_immersion": "good",
+      "audio_isolation": "medium",
+      "audio_anc": false,
+      "audio_comfort": "good",
+      "audio_needs_amp": "no",
+      "audio_impedance_ohm": 35,
+      "audio_sensitivity_db": 109,
+      "audio_driver_type": "hybrid",
+      "audio_virtual_surround": [],
+      "audio_repairability": "ok",
+      "audio_value_pick": true
+    },
+    "image_url": "https://hifigo.com/cdn/shop/files/dunu-x-gizaudio-davinci-2dd4ba-hybrid-in-ear-earphones-hifigo-195879.jpg"
+  },
+  {
+    "id": "penon_serial",
+    "name": "Penon Serial",
+    "brand": "Penon",
+    "category": "audio",
+    "price_range_usd": [
+      270,
+      299
+    ],
+    "product_url": "https://www.amazon.com/dp/B0DM8RP9Y3?tag=gearmatch-20",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/dp/B0DM8RP9Y3?tag=gearmatch-20",
+      "manufacturer": "https://penonaudio.com/penon-serial.html"
+    },
+    "recommendation_tags": [
+      "premium",
+      "warm",
+      "bassy",
+      "musical",
+      "iem",
+      "audiophile"
+    ],
+    "data_quality": {
+      "data_confidence": "high",
+      "primary_source_type": "community_poll",
+      "source_name": "r/inearfidelity + HiFiGo + Head-Fi",
+      "last_verified": "2026-03"
+    },
+    "core_attributes": {
+      "category_subtype": "iem",
+      "price_tier": "premium",
+      "platform_fit": [
+        "pc",
+        "mobile"
+      ],
+      "connection_type": [
+        "wired_3_5mm"
+      ],
+      "wireless": false,
+      "latency_class": "very_low",
+      "software_support": "none",
+      "eq_support": false,
+      "availability_class": "limited_release",
+      "audio_type": "iem",
+      "audio_open_back": false,
+      "audio_has_mic": false,
+      "audio_mic_type": "none",
+      "audio_sound_signature": "warm",
+      "audio_competitive_fps": "ok",
+      "audio_immersion": "great",
+      "audio_isolation": "medium",
+      "audio_anc": false,
+      "audio_comfort": "good",
+      "audio_needs_amp": "no",
+      "audio_impedance_ohm": 18,
+      "audio_sensitivity_db": 103,
+      "audio_driver_type": "dynamic",
+      "audio_virtual_surround": [],
+      "audio_repairability": "ok",
+      "audio_value_pick": false
+    }
+  },
+  {
+    "id": "aful_performer_8",
+    "name": "AFUL Performer 8",
+    "brand": "AFUL",
+    "category": "audio",
+    "price_range_usd": [
+      350,
+      380
+    ],
+    "product_url": "https://www.amazon.com/dp/B0C5XHKJ7F?tag=gearmatch-20",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/dp/B0C5XHKJ7F?tag=gearmatch-20",
+      "manufacturer": "https://afulaudio.com/products/aful-performer-8-iems"
+    },
+    "recommendation_tags": [
+      "flagship",
+      "neutral",
+      "detail",
+      "hybrid",
+      "all_rounder",
+      "iem",
+      "audiophile"
+    ],
+    "data_quality": {
+      "data_confidence": "high",
+      "primary_source_type": "community_poll",
+      "source_name": "Crinacle + Headfonics + Headphones.com",
+      "last_verified": "2026-03"
+    },
+    "core_attributes": {
+      "category_subtype": "iem",
+      "price_tier": "flagship",
+      "platform_fit": [
+        "pc",
+        "mobile"
+      ],
+      "connection_type": [
+        "wired_3_5mm"
+      ],
+      "wireless": false,
+      "latency_class": "very_low",
+      "software_support": "none",
+      "eq_support": false,
+      "availability_class": "easy",
+      "audio_type": "iem",
+      "audio_open_back": false,
+      "audio_has_mic": false,
+      "audio_mic_type": "none",
+      "audio_sound_signature": "neutral",
+      "audio_competitive_fps": "great",
+      "audio_immersion": "good",
+      "audio_isolation": "high",
+      "audio_anc": false,
+      "audio_comfort": "good",
+      "audio_needs_amp": "no",
+      "audio_impedance_ohm": 30,
+      "audio_sensitivity_db": 115,
+      "audio_driver_type": "hybrid",
+      "audio_virtual_surround": [],
+      "audio_repairability": "ok",
+      "audio_value_pick": true
+    },
+    "image_url": "https://afulaudio.com/cdn/shop/files/Performer8.jpg"
+  },
+  {
+    "id": "moondrop_variations",
+    "name": "Moondrop Variations",
+    "brand": "Moondrop",
+    "category": "audio",
+    "price_range_usd": [
+      499,
+      599
+    ],
+    "product_url": "https://www.amazon.com/dp/B097JZJT8W?tag=gearmatch-20",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/dp/B097JZJT8W?tag=gearmatch-20",
+      "manufacturer": "https://moondroplab.com/en/products/variations"
+    },
+    "recommendation_tags": [
+      "flagship",
+      "warm",
+      "musical",
+      "tribrid",
+      "iem",
+      "audiophile"
+    ],
+    "data_quality": {
+      "data_confidence": "high",
+      "primary_source_type": "community_poll",
+      "source_name": "Crinacle (8.0) + Bloom Audio + Headphones.com",
+      "last_verified": "2026-03"
+    },
+    "core_attributes": {
+      "category_subtype": "iem",
+      "price_tier": "flagship",
+      "platform_fit": [
+        "pc",
+        "mobile"
+      ],
+      "connection_type": [
+        "wired_3_5mm"
+      ],
+      "wireless": false,
+      "latency_class": "very_low",
+      "software_support": "none",
+      "eq_support": false,
+      "availability_class": "easy",
+      "audio_type": "iem",
+      "audio_open_back": false,
+      "audio_has_mic": false,
+      "audio_mic_type": "none",
+      "audio_sound_signature": "warm",
+      "audio_competitive_fps": "ok",
+      "audio_immersion": "great",
+      "audio_isolation": "medium",
+      "audio_anc": false,
+      "audio_comfort": "good",
+      "audio_needs_amp": "no",
+      "audio_impedance_ohm": 15,
+      "audio_sensitivity_db": 118,
+      "audio_driver_type": "hybrid",
+      "audio_virtual_surround": [],
+      "audio_repairability": "ok",
+      "audio_value_pick": false
+    },
+    "image_url": "https://hifigo.com/cdn/shop/files/moondrop-variations-2est-2ba-1dd-tribrid-iems-earphone-hifigo-149106.jpg"
+  },
+  {
+    "id": "sennheiser_ie_600",
+    "name": "Sennheiser IE 600",
+    "brand": "Sennheiser",
+    "category": "audio",
+    "price_range_usd": [
+      649,
+      699
+    ],
+    "product_url": "https://www.amazon.com/dp/B09SKPP459?tag=gearmatch-20",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/dp/B09SKPP459?tag=gearmatch-20",
+      "manufacturer": "https://www.sennheiser-hearing.com/en-US/p/ie-600/"
+    },
+    "recommendation_tags": [
+      "flagship",
+      "neutral",
+      "detail",
+      "wired_mic",
+      "iem",
+      "audiophile",
+      "reference"
+    ],
+    "data_quality": {
+      "data_confidence": "high",
+      "primary_source_type": "community_poll",
+      "source_name": "Crinacle (8.0) + Headphones.com + The Source AV",
+      "last_verified": "2026-03"
+    },
+    "core_attributes": {
+      "category_subtype": "iem",
+      "price_tier": "flagship",
+      "platform_fit": [
+        "pc",
+        "mobile"
+      ],
+      "connection_type": [
+        "wired_3_5mm"
+      ],
+      "wireless": false,
+      "latency_class": "very_low",
+      "software_support": "none",
+      "eq_support": false,
+      "availability_class": "easy",
+      "audio_type": "iem",
+      "audio_open_back": false,
+      "audio_has_mic": false,
+      "audio_mic_type": "none",
+      "audio_sound_signature": "neutral",
+      "audio_competitive_fps": "great",
+      "audio_immersion": "good",
+      "audio_isolation": "medium",
+      "audio_anc": false,
+      "audio_comfort": "great",
+      "audio_needs_amp": "no",
+      "audio_impedance_ohm": 18,
+      "audio_sensitivity_db": 118,
+      "audio_driver_type": "dynamic",
+      "audio_virtual_surround": [],
+      "audio_repairability": "ok",
+      "audio_value_pick": false
+    },
+    "image_url": "https://hifigo.com/cdn/shop/products/sennheiser-ie600-7mm-trueresponse-dynamic-driver-hifi-earphones-hifigo-144323.jpg"
+  },
+  {
+    "id": "isn_audio_est50",
+    "name": "ISN Audio EST50",
+    "brand": "ISN Audio",
+    "category": "audio",
+    "price_range_usd": [
+      399,
+      459
+    ],
+    "product_url": "https://www.amazon.com/dp/B0DMVB88NT?tag=gearmatch-20",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/dp/B0DMVB88NT?tag=gearmatch-20",
+      "manufacturer": "https://isnaudio.com/iems/isn-est50/"
+    },
+    "recommendation_tags": [
+      "flagship",
+      "v_shaped",
+      "tribrid",
+      "iem",
+      "audiophile"
+    ],
+    "data_quality": {
+      "data_confidence": "high",
+      "primary_source_type": "community_poll",
+      "source_name": "IEMRanking.com + Penon Audio + iem.reviews",
+      "last_verified": "2026-03"
+    },
+    "core_attributes": {
+      "category_subtype": "iem",
+      "price_tier": "flagship",
+      "platform_fit": [
+        "pc",
+        "mobile"
+      ],
+      "connection_type": [
+        "wired_3_5mm"
+      ],
+      "wireless": false,
+      "latency_class": "very_low",
+      "software_support": "none",
+      "eq_support": false,
+      "availability_class": "limited_release",
+      "audio_type": "iem",
+      "audio_open_back": false,
+      "audio_has_mic": false,
+      "audio_mic_type": "none",
+      "audio_sound_signature": "v_shaped",
+      "audio_competitive_fps": "great",
+      "audio_immersion": "great",
+      "audio_isolation": "medium",
+      "audio_anc": false,
+      "audio_comfort": "good",
+      "audio_needs_amp": "maybe",
+      "audio_impedance_ohm": 18,
+      "audio_sensitivity_db": 100,
+      "audio_driver_type": "hybrid",
+      "audio_virtual_surround": [],
+      "audio_repairability": "ok",
+      "audio_value_pick": false
+    }
+  },
+  {
+    "id": "hisenior_mega5_est",
+    "name": "Hisenior Mega5-EST",
+    "brand": "Hisenior",
+    "category": "audio",
+    "price_range_usd": [
+      499,
+      589
+    ],
+    "product_url": "https://www.amazon.com/dp/B0DCJKH1YD?tag=gearmatch-20",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/dp/B0DCJKH1YD?tag=gearmatch-20",
+      "manufacturer": "https://hifigo.com/products/hisenior-mega5est"
+    },
+    "recommendation_tags": [
+      "flagship",
+      "warm",
+      "tribrid",
+      "musical",
+      "iem",
+      "audiophile",
+      "new_meta"
+    ],
+    "data_quality": {
+      "data_confidence": "high",
+      "primary_source_type": "community_poll",
+      "source_name": "Headphones.com Best IEMs 2025 + AudioNotions + Bloom Audio",
+      "last_verified": "2026-03"
+    },
+    "core_attributes": {
+      "category_subtype": "iem",
+      "price_tier": "flagship",
+      "platform_fit": [
+        "pc",
+        "mobile"
+      ],
+      "connection_type": [],
+      "wireless": false,
+      "latency_class": "very_low",
+      "software_support": "none",
+      "eq_support": false,
+      "availability_class": "easy",
+      "audio_type": "iem",
+      "audio_open_back": false,
+      "audio_has_mic": false,
+      "audio_mic_type": "none",
+      "audio_sound_signature": "warm",
+      "audio_competitive_fps": "good",
+      "audio_immersion": "great",
+      "audio_isolation": "medium",
+      "audio_anc": false,
+      "audio_comfort": "good",
+      "audio_needs_amp": "maybe",
+      "audio_impedance_ohm": 25,
+      "audio_sensitivity_db": 100,
+      "audio_driver_type": "hybrid",
+      "audio_virtual_surround": [],
+      "audio_repairability": "ok",
+      "audio_value_pick": false
+    },
+    "image_url": "https://hifigo.com/cdn/shop/files/hisenior-mega5est-10mm-1dd2ba2est-tribrid-in-ear-earphones-hifigo-standard-edition-488936.jpg"
+  },
+  {
+    "id": "apple_airpods_pro_2",
+    "name": "Apple AirPods Pro 2 (USB-C)",
+    "brand": "Apple",
+    "category": "audio",
+    "price_range_usd": [
+      199,
+      249
+    ],
+    "product_url": "https://www.amazon.com/dp/B0CHWRXH8B?tag=gearmatch-20",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/dp/B0CHWRXH8B?tag=gearmatch-20",
+      "manufacturer": "https://www.apple.com/airpods-pro/"
+    },
+    "recommendation_tags": [
+      "flagship",
+      "anc",
+      "truly_wireless",
+      "apple_ecosystem",
+      "travel",
+      "music"
+    ],
+    "data_quality": {
+      "data_confidence": "high",
+      "primary_source_type": "lab_test",
+      "source_name": "RTINGS + multiple mainstream reviews",
+      "last_verified": "2026-03"
+    },
+    "core_attributes": {
+      "category_subtype": "iem",
+      "price_tier": "flagship",
+      "platform_fit": [
+        "mobile",
+        "pc"
+      ],
+      "connection_type": [
+        "bluetooth"
+      ],
+      "wireless": true,
+      "battery_life_hr": 6,
+      "latency_class": "medium",
+      "software_support": "great",
+      "eq_support": false,
+      "availability_class": "easy",
+      "audio_type": "iem",
+      "audio_open_back": false,
+      "audio_has_mic": true,
+      "audio_mic_type": "integrated",
+      "audio_mic_quality": "great",
+      "audio_sound_signature": "neutral",
+      "audio_competitive_fps": "poor",
+      "audio_immersion": "good",
+      "audio_isolation": "high",
+      "audio_anc": true,
+      "audio_comfort": "great",
+      "audio_weight_g": 5,
+      "audio_needs_amp": "no",
+      "audio_driver_type": "dynamic",
+      "audio_wireless_codec_support": [
+        "sbc",
+        "aac"
+      ],
+      "audio_virtual_surround": [
+        "dolby_atmos"
+      ],
+      "audio_repairability": "poor",
+      "audio_value_pick": false
+    }
+  },
+  {
+    "id": "google_pixel_buds_pro_2",
+    "name": "Google Pixel Buds Pro 2",
+    "brand": "Google",
+    "category": "audio",
+    "price_range_usd": [
+      169,
+      229
+    ],
+    "product_url": "https://www.amazon.com/dp/B0D79ND3N7?tag=gearmatch-20",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/dp/B0D79ND3N7?tag=gearmatch-20",
+      "manufacturer": "https://store.google.com/us/product/pixel_buds_pro_2"
+    },
+    "recommendation_tags": [
+      "premium",
+      "anc",
+      "truly_wireless",
+      "google_ecosystem",
+      "travel"
+    ],
+    "data_quality": {
+      "data_confidence": "high",
+      "primary_source_type": "community_poll",
+      "source_name": "r/HeadphoneAdvice + multiple mainstream reviews",
+      "last_verified": "2026-03"
+    },
+    "core_attributes": {
+      "category_subtype": "iem",
+      "price_tier": "premium",
+      "platform_fit": [
+        "mobile",
+        "pc"
+      ],
+      "connection_type": [
+        "bluetooth"
+      ],
+      "wireless": true,
+      "battery_life_hr": 8,
+      "latency_class": "medium",
+      "software_support": "great",
+      "eq_support": true,
+      "availability_class": "easy",
+      "audio_type": "iem",
+      "audio_open_back": false,
+      "audio_has_mic": true,
+      "audio_mic_type": "integrated",
+      "audio_mic_quality": "good",
+      "audio_sound_signature": "neutral",
+      "audio_competitive_fps": "poor",
+      "audio_immersion": "good",
+      "audio_isolation": "high",
+      "audio_anc": true,
+      "audio_comfort": "great",
+      "audio_weight_g": 6,
+      "audio_needs_amp": "no",
+      "audio_driver_type": "dynamic",
+      "audio_wireless_codec_support": [
+        "sbc",
+        "aac",
+        "lc3"
+      ],
+      "audio_virtual_surround": [],
+      "audio_repairability": "poor",
+      "audio_value_pick": false
+    }
+  },
+  {
+    "id": "soundcore_liberty_4_pro",
+    "name": "Soundcore Liberty 4 Pro",
+    "brand": "Soundcore",
+    "category": "audio",
+    "price_range_usd": [
+      89,
+      130
+    ],
+    "product_url": "https://www.amazon.com/dp/B0DBHPZLCC?tag=gearmatch-20",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/dp/B0DBHPZLCC?tag=gearmatch-20",
+      "manufacturer": "https://www.soundcore.com/products/liberty-4-pro"
+    },
+    "recommendation_tags": [
+      "midrange",
+      "anc",
+      "truly_wireless",
+      "value_pick",
+      "ldac",
+      "music"
+    ],
+    "data_quality": {
+      "data_confidence": "high",
+      "primary_source_type": "community_poll",
+      "source_name": "r/HeadphoneAdvice + multiple mainstream reviews",
+      "last_verified": "2026-03"
+    },
+    "core_attributes": {
+      "category_subtype": "iem",
+      "price_tier": "midrange",
+      "platform_fit": [
+        "mobile",
+        "pc"
+      ],
+      "connection_type": [
+        "bluetooth"
+      ],
+      "wireless": true,
+      "battery_life_hr": 10,
+      "latency_class": "medium",
+      "software_support": "great",
+      "eq_support": true,
+      "availability_class": "easy",
+      "audio_type": "iem",
+      "audio_open_back": false,
+      "audio_has_mic": true,
+      "audio_mic_type": "integrated",
+      "audio_mic_quality": "good",
+      "audio_sound_signature": "v_shaped",
+      "audio_competitive_fps": "poor",
+      "audio_immersion": "good",
+      "audio_isolation": "high",
+      "audio_anc": true,
+      "audio_comfort": "good",
+      "audio_weight_g": 7,
+      "audio_needs_amp": "no",
+      "audio_driver_type": "dynamic",
+      "audio_wireless_codec_support": [
+        "sbc",
+        "aac",
+        "ldac"
+      ],
+      "audio_virtual_surround": [],
+      "audio_repairability": "poor",
+      "audio_value_pick": true
+    }
+  },
+  {
+    "id": "hyperx_cirro_buds_pro",
+    "name": "HyperX Cirro Buds Pro",
+    "brand": "HyperX",
+    "category": "audio",
+    "price_range_usd": [
+      69,
+      89
+    ],
+    "product_url": "https://www.amazon.com/dp/B0C5SDL9GV?tag=gearmatch-20",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/dp/B0C5SDL9GV?tag=gearmatch-20",
+      "manufacturer": "https://www.hyperx.com/products/hyperx-cirro-buds-pro"
+    },
+    "recommendation_tags": [
+      "midrange",
+      "anc",
+      "truly_wireless",
+      "gaming",
+      "value_pick"
+    ],
+    "data_quality": {
+      "data_confidence": "high",
+      "primary_source_type": "community_poll",
+      "source_name": "r/HeadphoneAdvice + gaming review sites",
+      "last_verified": "2026-03"
+    },
+    "core_attributes": {
+      "category_subtype": "iem",
+      "price_tier": "midrange",
+      "platform_fit": [
+        "mobile",
+        "pc"
+      ],
+      "connection_type": [
+        "bluetooth"
+      ],
+      "wireless": true,
+      "battery_life_hr": 8,
+      "latency_class": "medium",
+      "software_support": "good",
+      "eq_support": true,
+      "availability_class": "easy",
+      "audio_type": "iem",
+      "audio_open_back": false,
+      "audio_has_mic": true,
+      "audio_mic_type": "integrated",
+      "audio_mic_quality": "good",
+      "audio_sound_signature": "v_shaped",
+      "audio_competitive_fps": "ok",
+      "audio_immersion": "good",
+      "audio_isolation": "high",
+      "audio_anc": true,
+      "audio_comfort": "good",
+      "audio_weight_g": 6,
+      "audio_needs_amp": "no",
+      "audio_driver_type": "dynamic",
+      "audio_wireless_codec_support": [
+        "sbc",
+        "aac"
+      ],
+      "audio_virtual_surround": [],
+      "audio_repairability": "poor",
+      "audio_value_pick": true
+    }
+  },
+  {
+    "id": "beats_fit_pro",
+    "name": "Beats Fit Pro",
+    "brand": "Beats",
+    "category": "audio",
+    "price_range_usd": [
+      149,
+      199
+    ],
+    "product_url": "https://www.amazon.com/dp/B09JL41N9C?tag=gearmatch-20",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/dp/B09JL41N9C?tag=gearmatch-20",
+      "manufacturer": "https://www.beatsbydre.com/earbuds/fit-pro"
+    },
+    "recommendation_tags": [
+      "upper_midrange",
+      "anc",
+      "truly_wireless",
+      "sports",
+      "apple_ecosystem"
+    ],
+    "data_quality": {
+      "data_confidence": "high",
+      "primary_source_type": "lab_test",
+      "source_name": "RTINGS + mainstream reviews",
+      "last_verified": "2026-03"
+    },
+    "core_attributes": {
+      "category_subtype": "iem",
+      "price_tier": "upper_midrange",
+      "platform_fit": [
+        "mobile",
+        "pc"
+      ],
+      "connection_type": [
+        "bluetooth"
+      ],
+      "wireless": true,
+      "battery_life_hr": 6,
+      "latency_class": "medium",
+      "software_support": "good",
+      "eq_support": false,
+      "availability_class": "easy",
+      "audio_type": "iem",
+      "audio_open_back": false,
+      "audio_has_mic": true,
+      "audio_mic_type": "integrated",
+      "audio_mic_quality": "good",
+      "audio_sound_signature": "v_shaped",
+      "audio_competitive_fps": "poor",
+      "audio_immersion": "good",
+      "audio_isolation": "medium",
+      "audio_anc": true,
+      "audio_comfort": "great",
+      "audio_weight_g": 7,
+      "audio_needs_amp": "no",
+      "audio_driver_type": "dynamic",
+      "audio_wireless_codec_support": [
+        "sbc",
+        "aac"
+      ],
+      "audio_virtual_surround": [],
+      "audio_repairability": "poor",
+      "audio_value_pick": false
+    }
+  },
+  {
+    "id": "samsung_galaxy_buds2_pro",
+    "name": "Samsung Galaxy Buds2 Pro",
+    "brand": "Samsung",
+    "category": "audio",
+    "price_range_usd": [
+      89,
+      179
+    ],
+    "product_url": "https://www.amazon.com/dp/B0B2SH4CN6?tag=gearmatch-20",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/dp/B0B2SH4CN6?tag=gearmatch-20",
+      "manufacturer": "https://www.samsung.com/us/smartphones/galaxy-buds/"
+    },
+    "recommendation_tags": [
+      "midrange",
+      "anc",
+      "truly_wireless",
+      "samsung_ecosystem",
+      "value_pick"
+    ],
+    "data_quality": {
+      "data_confidence": "high",
+      "primary_source_type": "community_poll",
+      "source_name": "r/HeadphoneAdvice + mainstream reviews",
+      "last_verified": "2026-03"
+    },
+    "core_attributes": {
+      "category_subtype": "iem",
+      "price_tier": "midrange",
+      "platform_fit": [
+        "mobile",
+        "pc"
+      ],
+      "connection_type": [
+        "bluetooth"
+      ],
+      "wireless": true,
+      "battery_life_hr": 5,
+      "latency_class": "medium",
+      "software_support": "great",
+      "eq_support": true,
+      "availability_class": "easy",
+      "audio_type": "iem",
+      "audio_open_back": false,
+      "audio_has_mic": true,
+      "audio_mic_type": "integrated",
+      "audio_mic_quality": "good",
+      "audio_sound_signature": "v_shaped",
+      "audio_competitive_fps": "poor",
+      "audio_immersion": "good",
+      "audio_isolation": "high",
+      "audio_anc": true,
+      "audio_comfort": "good",
+      "audio_weight_g": 6,
+      "audio_needs_amp": "no",
+      "audio_driver_type": "dynamic",
+      "audio_wireless_codec_support": [
+        "sbc",
+        "aac",
+        "aptx"
+      ],
+      "audio_virtual_surround": [],
+      "audio_repairability": "poor",
+      "audio_value_pick": true
+    }
+  },
+  {
+    "id": "qkz_vk4",
+    "name": "QKZ VK4",
+    "brand": "QKZ",
+    "category": "audio",
+    "price_range_usd": [
+      9,
+      14
+    ],
+    "product_url": "https://www.amazon.com/dp/B07XBQQWHF?tag=gearmatch-20",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/dp/B07XBQQWHF?tag=gearmatch-20"
+    },
+    "recommendation_tags": [
+      "budget",
+      "v_shaped",
+      "beginner_friendly",
+      "iem",
+      "value_pick",
+      "wired_mic"
+    ],
+    "data_quality": {
+      "data_confidence": "high",
+      "primary_source_type": "community_poll",
+      "source_name": "r/headphones + HifiGuides + Crinacle community",
+      "last_verified": "2026-03"
+    },
+    "core_attributes": {
+      "category_subtype": "iem",
+      "price_tier": "budget",
+      "platform_fit": [
+        "pc",
+        "mobile",
+        "playstation"
+      ],
+      "connection_type": [
+        "wired_3_5mm"
+      ],
+      "wireless": false,
+      "latency_class": "very_low",
+      "software_support": "none",
+      "eq_support": false,
+      "availability_class": "easy",
+      "audio_type": "iem",
+      "audio_open_back": false,
+      "audio_has_mic": true,
+      "audio_mic_type": "integrated",
+      "audio_mic_quality": "ok",
+      "audio_sound_signature": "v_shaped",
+      "audio_competitive_fps": "ok",
+      "audio_immersion": "good",
+      "audio_isolation": "medium",
+      "audio_anc": false,
+      "audio_comfort": "good",
+      "audio_needs_amp": "no",
+      "audio_impedance_ohm": 16,
+      "audio_sensitivity_db": 105,
+      "audio_driver_type": "dynamic",
+      "audio_virtual_surround": [],
+      "audio_repairability": "ok",
+      "audio_value_pick": true
+    }
+  },
+  {
+    "id": "7hz_salnotes_zero",
+    "name": "7Hz Salnotes Zero",
+    "brand": "7Hz",
+    "category": "audio",
+    "price_range_usd": [
+      18,
+      25
+    ],
+    "product_url": "https://www.amazon.com/dp/B0B76S5Z8B?tag=gearmatch-20",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/dp/B0B76S5Z8B?tag=gearmatch-20",
+      "manufacturer": "https://www.linsoul.com/products/7hz-salnotes-zero"
+    },
+    "recommendation_tags": [
+      "budget",
+      "neutral",
+      "bright",
+      "detail",
+      "iem",
+      "value_pick",
+      "wired_mic"
+    ],
+    "data_quality": {
+      "data_confidence": "high",
+      "primary_source_type": "community_poll",
+      "source_name": "Crinacle + r/headphones + HifiGuides",
+      "last_verified": "2026-03"
+    },
+    "core_attributes": {
+      "category_subtype": "iem",
+      "price_tier": "budget",
+      "platform_fit": [
+        "pc",
+        "mobile"
+      ],
+      "connection_type": [
+        "wired_3_5mm"
+      ],
+      "wireless": false,
+      "latency_class": "very_low",
+      "software_support": "none",
+      "eq_support": false,
+      "availability_class": "easy",
+      "audio_type": "iem",
+      "audio_open_back": false,
+      "audio_has_mic": false,
+      "audio_mic_type": "none",
+      "audio_sound_signature": "neutral",
+      "audio_competitive_fps": "good",
+      "audio_immersion": "good",
+      "audio_isolation": "medium",
+      "audio_anc": false,
+      "audio_comfort": "great",
+      "audio_needs_amp": "no",
+      "audio_impedance_ohm": 16,
+      "audio_sensitivity_db": 106,
+      "audio_driver_type": "dynamic",
+      "audio_virtual_surround": [],
+      "audio_repairability": "ok",
+      "audio_value_pick": true
+    }
+  },
+  {
+    "id": "tangzu_waner_sg",
+    "name": "TANGZU Wan'er S.G.",
+    "brand": "TANGZU",
+    "category": "audio",
+    "price_range_usd": [
+      18,
+      26
+    ],
+    "product_url": "https://www.amazon.com/dp/B0BL16M8FH?tag=gearmatch-20",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/dp/B0BL16M8FH?tag=gearmatch-20",
+      "manufacturer": "https://tangzu.net/products/tangzu-wan-er-sg"
+    },
+    "recommendation_tags": [
+      "budget",
+      "warm",
+      "comfortable",
+      "iem",
+      "value_pick",
+      "beginner_friendly"
+    ],
+    "data_quality": {
+      "data_confidence": "high",
+      "primary_source_type": "community_poll",
+      "source_name": "SoundGuys (8.1/10) + r/headphones + HifiGuides",
+      "last_verified": "2026-03"
+    },
+    "core_attributes": {
+      "category_subtype": "iem",
+      "price_tier": "budget",
+      "platform_fit": [
+        "pc",
+        "mobile",
+        "playstation"
+      ],
+      "connection_type": [
+        "wired_3_5mm"
+      ],
+      "wireless": false,
+      "latency_class": "very_low",
+      "software_support": "none",
+      "eq_support": false,
+      "availability_class": "easy",
+      "audio_type": "iem",
+      "audio_open_back": false,
+      "audio_has_mic": false,
+      "audio_mic_type": "none",
+      "audio_sound_signature": "warm",
+      "audio_competitive_fps": "ok",
+      "audio_immersion": "good",
+      "audio_isolation": "medium",
+      "audio_anc": false,
+      "audio_comfort": "great",
+      "audio_needs_amp": "no",
+      "audio_impedance_ohm": 20,
+      "audio_sensitivity_db": 107,
+      "audio_driver_type": "dynamic",
+      "audio_virtual_surround": [],
+      "audio_repairability": "ok",
+      "audio_value_pick": true
+    }
+  },
+  {
+    "id": "truthear_gate",
+    "name": "TRUTHEAR GATe",
+    "brand": "TRUTHEAR",
+    "category": "audio",
+    "price_range_usd": [
+      19,
+      23
+    ],
+    "product_url": "https://www.amazon.com/dp/B0D5R334SH?tag=gearmatch-20",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/dp/B0D5R334SH?tag=gearmatch-20",
+      "manufacturer": "https://truthear.com"
+    },
+    "recommendation_tags": [
+      "budget",
+      "neutral",
+      "beginner_friendly",
+      "iem",
+      "value_pick",
+      "wired_mic"
+    ],
+    "data_quality": {
+      "data_confidence": "high",
+      "primary_source_type": "community_poll",
+      "source_name": "Headphones.com + r/headphones + The Honest Audiophile",
+      "last_verified": "2026-03"
+    },
+    "core_attributes": {
+      "category_subtype": "iem",
+      "price_tier": "budget",
+      "platform_fit": [
+        "pc",
+        "mobile",
+        "playstation"
+      ],
+      "connection_type": [
+        "wired_3_5mm"
+      ],
+      "wireless": false,
+      "latency_class": "very_low",
+      "software_support": "none",
+      "eq_support": false,
+      "availability_class": "easy",
+      "audio_type": "iem",
+      "audio_open_back": false,
+      "audio_has_mic": false,
+      "audio_mic_type": "none",
+      "audio_sound_signature": "neutral",
+      "audio_competitive_fps": "good",
+      "audio_immersion": "ok",
+      "audio_isolation": "medium",
+      "audio_anc": false,
+      "audio_comfort": "great",
+      "audio_needs_amp": "no",
+      "audio_impedance_ohm": 28,
+      "audio_sensitivity_db": 122,
+      "audio_driver_type": "dynamic",
+      "audio_virtual_surround": [],
+      "audio_repairability": "ok",
+      "audio_value_pick": true
+    }
+  },
+  {
+    "id": "simgot_ew200",
+    "name": "SIMGOT EW200",
+    "brand": "SIMGOT",
+    "category": "audio",
+    "price_range_usd": [
+      38,
+      48
+    ],
+    "product_url": "https://www.amazon.com/dp/B0C73X3P8B?tag=gearmatch-20",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/dp/B0C73X3P8B?tag=gearmatch-20",
+      "manufacturer": "https://www.linsoul.com/products/simgot-ew200"
+    },
+    "recommendation_tags": [
+      "budget",
+      "neutral",
+      "bright",
+      "detail",
+      "iem",
+      "value_pick",
+      "audiophile"
+    ],
+    "data_quality": {
+      "data_confidence": "high",
+      "primary_source_type": "community_poll",
+      "source_name": "The Headphoneer + Audiophile Heaven + Headphones.com",
+      "last_verified": "2026-03"
+    },
+    "core_attributes": {
+      "category_subtype": "iem",
+      "price_tier": "budget",
+      "platform_fit": [
+        "pc",
+        "mobile"
+      ],
+      "connection_type": [
+        "wired_3_5mm"
+      ],
+      "wireless": false,
+      "latency_class": "very_low",
+      "software_support": "none",
+      "eq_support": false,
+      "availability_class": "easy",
+      "audio_type": "iem",
+      "audio_open_back": false,
+      "audio_has_mic": false,
+      "audio_mic_type": "none",
+      "audio_sound_signature": "neutral",
+      "audio_competitive_fps": "good",
+      "audio_immersion": "ok",
+      "audio_isolation": "medium",
+      "audio_anc": false,
+      "audio_comfort": "good",
+      "audio_needs_amp": "no",
+      "audio_impedance_ohm": 16,
+      "audio_sensitivity_db": 126,
+      "audio_driver_type": "dynamic",
+      "audio_virtual_surround": [],
+      "audio_repairability": "ok",
+      "audio_value_pick": true
+    }
+  },
+  {
+    "id": "kiwi_ears_cadenza",
+    "name": "Kiwi Ears Cadenza",
+    "brand": "Kiwi Ears",
+    "category": "audio",
+    "price_range_usd": [
+      33,
+      39
+    ],
+    "product_url": "https://www.amazon.com/dp/B0BKTBN5N4?tag=gearmatch-20",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/dp/B0BKTBN5N4?tag=gearmatch-20",
+      "manufacturer": "https://kiwiears.com/products/kiwi-ears-cadenza"
+    },
+    "recommendation_tags": [
+      "budget",
+      "v_shaped",
+      "comfortable",
+      "detail",
+      "iem",
+      "value_pick"
+    ],
+    "data_quality": {
+      "data_confidence": "high",
+      "primary_source_type": "community_poll",
+      "source_name": "SoundGuys + HifiGuides + r/headphones",
+      "last_verified": "2026-03"
+    },
+    "core_attributes": {
+      "category_subtype": "iem",
+      "price_tier": "budget",
+      "platform_fit": [
+        "pc",
+        "mobile"
+      ],
+      "connection_type": [
+        "wired_3_5mm"
+      ],
+      "wireless": false,
+      "latency_class": "very_low",
+      "software_support": "none",
+      "eq_support": false,
+      "availability_class": "easy",
+      "audio_type": "iem",
+      "audio_open_back": false,
+      "audio_has_mic": false,
+      "audio_mic_type": "none",
+      "audio_sound_signature": "v_shaped",
+      "audio_competitive_fps": "ok",
+      "audio_immersion": "good",
+      "audio_isolation": "medium",
+      "audio_anc": false,
+      "audio_comfort": "great",
+      "audio_needs_amp": "no",
+      "audio_impedance_ohm": 32,
+      "audio_sensitivity_db": 110,
+      "audio_driver_type": "dynamic",
+      "audio_virtual_surround": [],
+      "audio_repairability": "ok",
+      "audio_value_pick": true
+    }
+  },
+  {
+    "id": "truthear_zero_red",
+    "name": "TRUTHEAR x Crinacle ZERO:RED",
+    "brand": "TRUTHEAR",
+    "category": "audio",
+    "price_range_usd": [
+      48,
+      58
+    ],
+    "product_url": "https://www.amazon.com/dp/B0CM3GGZDZ?tag=gearmatch-20",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/dp/B0CM3GGZDZ?tag=gearmatch-20",
+      "manufacturer": "https://truthear.com/products/zero-red"
+    },
+    "recommendation_tags": [
+      "budget",
+      "neutral",
+      "sub_bass",
+      "detail",
+      "dual_dd",
+      "iem",
+      "value_pick",
+      "audiophile"
+    ],
+    "data_quality": {
+      "data_confidence": "high",
+      "primary_source_type": "community_poll",
+      "source_name": "SoundGuys (8.1/10) + Crinacle + r/inearfidelity",
+      "last_verified": "2026-03"
+    },
+    "core_attributes": {
+      "category_subtype": "iem",
+      "price_tier": "budget",
+      "platform_fit": [
+        "pc",
+        "mobile"
+      ],
+      "connection_type": [
+        "wired_3_5mm"
+      ],
+      "wireless": false,
+      "latency_class": "very_low",
+      "software_support": "none",
+      "eq_support": false,
+      "availability_class": "easy",
+      "audio_type": "iem",
+      "audio_open_back": false,
+      "audio_has_mic": false,
+      "audio_mic_type": "none",
+      "audio_sound_signature": "neutral",
+      "audio_competitive_fps": "great",
+      "audio_immersion": "good",
+      "audio_isolation": "medium",
+      "audio_anc": false,
+      "audio_comfort": "good",
+      "audio_needs_amp": "no",
+      "audio_driver_type": "dynamic",
+      "audio_virtual_surround": [],
+      "audio_repairability": "ok",
+      "audio_value_pick": true
+    }
+  },
+  {
+    "id": "tangzu_waner_sg_2",
+    "name": "TANGZU Wan'er S.G. II",
+    "brand": "TANGZU",
+    "category": "audio",
+    "price_range_usd": [
+      24,
+      35
+    ],
+    "product_url": "https://www.amazon.com/dp/B0F21L1T2D?tag=gearmatch-20",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/dp/B0F21L1T2D?tag=gearmatch-20",
+      "manufacturer": "https://tangzu.net/products/pre-ordertangzu-waner-sg-2"
+    },
+    "recommendation_tags": [
+      "budget",
+      "warm",
+      "comfortable",
+      "wired_mic",
+      "iem",
+      "value_pick",
+      "gaming"
+    ],
+    "data_quality": {
+      "data_confidence": "high",
+      "primary_source_type": "community_poll",
+      "source_name": "r/headphones + hangout.audio + community recommendations",
+      "last_verified": "2026-03"
+    },
+    "core_attributes": {
+      "category_subtype": "iem",
+      "price_tier": "budget",
+      "platform_fit": [
+        "pc",
+        "mobile",
+        "playstation"
+      ],
+      "connection_type": [
+        "wired_3_5mm"
+      ],
+      "wireless": false,
+      "latency_class": "very_low",
+      "software_support": "none",
+      "eq_support": false,
+      "availability_class": "easy",
+      "audio_type": "iem",
+      "audio_open_back": false,
+      "audio_has_mic": true,
+      "audio_mic_type": "integrated",
+      "audio_mic_quality": "ok",
+      "audio_sound_signature": "warm",
+      "audio_competitive_fps": "ok",
+      "audio_immersion": "good",
+      "audio_isolation": "medium",
+      "audio_anc": false,
+      "audio_comfort": "great",
+      "audio_needs_amp": "no",
+      "audio_impedance_ohm": 20,
+      "audio_sensitivity_db": 107,
+      "audio_driver_type": "dynamic",
+      "audio_virtual_surround": [],
+      "audio_repairability": "ok",
+      "audio_value_pick": true
+    }
+  },
+  {
+    "id": "truthear_pure",
+    "name": "TRUTHEAR PURE",
+    "brand": "TRUTHEAR",
+    "category": "audio",
+    "price_range_usd": [
+      85,
+      99
+    ],
+    "product_url": "https://www.amazon.com/dp/B0FFMWZYHH?tag=gearmatch-20",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/dp/B0FFMWZYHH?tag=gearmatch-20",
+      "manufacturer": "https://truthear.com/products/pure"
+    },
+    "recommendation_tags": [
+      "midrange",
+      "neutral",
+      "reference",
+      "iem",
+      "value_pick",
+      "new_meta",
+      "beginner_friendly"
+    ],
+    "data_quality": {
+      "data_confidence": "high",
+      "primary_source_type": "community_poll",
+      "source_name": "redditrecs.com (116 mentions) + Headphones.com + SoundGuys",
+      "last_verified": "2026-03"
+    },
+    "core_attributes": {
+      "category_subtype": "iem",
+      "price_tier": "midrange",
+      "platform_fit": [
+        "pc",
+        "mobile"
+      ],
+      "connection_type": [
+        "wired_3_5mm"
+      ],
+      "wireless": false,
+      "latency_class": "very_low",
+      "software_support": "none",
+      "eq_support": false,
+      "availability_class": "easy",
+      "audio_type": "iem",
+      "audio_open_back": false,
+      "audio_has_mic": false,
+      "audio_mic_type": "none",
+      "audio_sound_signature": "neutral",
+      "audio_competitive_fps": "great",
+      "audio_immersion": "ok",
+      "audio_isolation": "medium",
+      "audio_anc": false,
+      "audio_comfort": "good",
+      "audio_needs_amp": "no",
+      "audio_driver_type": "dynamic",
+      "audio_virtual_surround": [],
+      "audio_repairability": "ok",
+      "audio_value_pick": true
+    },
+    "image_url": "https://headphones.com/cdn/shop/files/TruthearPure51024x1024.jpg?v=1751923599"
+  },
+  {
+    "id": "simgot_em6l",
+    "name": "SIMGOT EM6L",
+    "brand": "SIMGOT",
+    "category": "audio",
+    "price_range_usd": [
+      95,
+      115
+    ],
+    "product_url": "https://www.amazon.com/dp/B0CD158GTP?tag=gearmatch-20",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/dp/B0CD158GTP?tag=gearmatch-20",
+      "manufacturer": "https://www.linsoul.com/products/simgot-em6l"
+    },
+    "recommendation_tags": [
+      "midrange",
+      "neutral",
+      "gaming",
+      "iem",
+      "value_pick",
+      "competitive_fps"
+    ],
+    "data_quality": {
+      "data_confidence": "high",
+      "primary_source_type": "community_poll",
+      "source_name": "Headphones.com + redditrecs.com (83 mentions) + SoundGuys",
+      "last_verified": "2026-03"
+    },
+    "core_attributes": {
+      "category_subtype": "iem",
+      "price_tier": "midrange",
+      "platform_fit": [
+        "pc",
+        "mobile"
+      ],
+      "connection_type": [
+        "wired_3_5mm"
+      ],
+      "wireless": false,
+      "latency_class": "very_low",
+      "software_support": "none",
+      "eq_support": false,
+      "availability_class": "easy",
+      "audio_type": "iem",
+      "audio_open_back": false,
+      "audio_has_mic": false,
+      "audio_mic_type": "none",
+      "audio_sound_signature": "neutral",
+      "audio_competitive_fps": "great",
+      "audio_immersion": "good",
+      "audio_isolation": "medium",
+      "audio_anc": false,
+      "audio_comfort": "good",
+      "audio_needs_amp": "no",
+      "audio_driver_type": "hybrid",
+      "audio_virtual_surround": [],
+      "audio_repairability": "ok",
+      "audio_value_pick": true
+    },
+    "image_url": "https://www.linsoul.com/cdn/shop/files/IMG_8971_611f8d78-f845-4d75-808c-074811cc4af8.jpg?v=1690614787"
+  },
+  {
+    "id": "moondrop_may",
+    "name": "Moondrop May",
+    "brand": "Moondrop",
+    "category": "audio",
+    "price_range_usd": [
+      74,
+      89
+    ],
+    "product_url": "https://www.amazon.com/dp/B0CPSTR1J1?tag=gearmatch-20",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/dp/B0CPSTR1J1?tag=gearmatch-20",
+      "manufacturer": "https://moondroplab.com/en/products/may"
+    },
+    "recommendation_tags": [
+      "midrange",
+      "neutral",
+      "hybrid",
+      "planar",
+      "iem",
+      "value_pick",
+      "app_support"
+    ],
+    "data_quality": {
+      "data_confidence": "high",
+      "primary_source_type": "community_poll",
+      "source_name": "Bloom Audio + Headphones.com + Moondrop (609 Reddit mentions)",
+      "last_verified": "2026-03"
+    },
+    "core_attributes": {
+      "category_subtype": "iem",
+      "price_tier": "midrange",
+      "platform_fit": [
+        "pc",
+        "mobile"
+      ],
+      "connection_type": [
+        "wired_3_5mm"
+      ],
+      "wireless": false,
+      "latency_class": "very_low",
+      "software_support": "good",
+      "eq_support": true,
+      "availability_class": "easy",
+      "audio_type": "iem",
+      "audio_open_back": false,
+      "audio_has_mic": false,
+      "audio_mic_type": "none",
+      "audio_sound_signature": "neutral",
+      "audio_competitive_fps": "good",
+      "audio_immersion": "good",
+      "audio_isolation": "medium",
+      "audio_anc": false,
+      "audio_comfort": "good",
+      "audio_needs_amp": "no",
+      "audio_driver_type": "hybrid",
+      "audio_virtual_surround": [],
+      "audio_repairability": "ok",
+      "audio_value_pick": true
+    },
+    "image_url": "https://bloomaudio.com/cdn/shop/files/moondrop-may-main.jpg?v=1703679839"
+  },
+  {
+    "id": "sennheiser_ie_200",
+    "name": "Sennheiser IE 200",
+    "brand": "Sennheiser",
+    "category": "audio",
+    "price_range_usd": [
+      129,
+      149
+    ],
+    "product_url": "https://www.amazon.com/dp/B0BRPR38JR?tag=gearmatch-20",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/dp/B0BRPR38JR?tag=gearmatch-20",
+      "manufacturer": "https://www.sennheiser-hearing.com/en-US/p/ie-200/"
+    },
+    "recommendation_tags": [
+      "upper_midrange",
+      "neutral",
+      "all_rounder",
+      "iem",
+      "established_brand"
+    ],
+    "data_quality": {
+      "data_confidence": "high",
+      "primary_source_type": "community_poll",
+      "source_name": "Headphones.com + SoundGuys + The Source AV",
+      "last_verified": "2026-03"
+    },
+    "core_attributes": {
+      "category_subtype": "iem",
+      "price_tier": "upper_midrange",
+      "platform_fit": [
+        "pc",
+        "mobile"
+      ],
+      "connection_type": [
+        "wired_3_5mm"
+      ],
+      "wireless": false,
+      "latency_class": "very_low",
+      "software_support": "none",
+      "eq_support": false,
+      "availability_class": "easy",
+      "audio_type": "iem",
+      "audio_open_back": false,
+      "audio_has_mic": false,
+      "audio_mic_type": "none",
+      "audio_sound_signature": "neutral",
+      "audio_competitive_fps": "good",
+      "audio_immersion": "good",
+      "audio_isolation": "medium",
+      "audio_anc": false,
+      "audio_comfort": "great",
+      "audio_needs_amp": "no",
+      "audio_driver_type": "dynamic",
+      "audio_virtual_surround": [],
+      "audio_repairability": "ok",
+      "audio_value_pick": false
+    }
+  },
+  {
+    "id": "kinera_celest_relentless",
+    "name": "Kinera Celest Relentless",
+    "brand": "Kinera",
+    "category": "audio",
+    "price_range_usd": [
+      159,
+      179
+    ],
+    "product_url": "https://www.amazon.com/dp/B0D3DWW253?tag=gearmatch-20",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/dp/B0D3DWW253?tag=gearmatch-20",
+      "manufacturer": "https://www.linsoul.com/products/kinera-celest-relentless"
+    },
+    "recommendation_tags": [
+      "upper_midrange",
+      "v_shaped",
+      "hybrid",
+      "iem",
+      "value_pick",
+      "gaming"
+    ],
+    "data_quality": {
+      "data_confidence": "high",
+      "primary_source_type": "community_poll",
+      "source_name": "AudioNotions 'Best Meta IEMs Aug 2025' + Head-Fi + Bloom Audio",
+      "last_verified": "2026-03"
+    },
+    "core_attributes": {
+      "category_subtype": "iem",
+      "price_tier": "upper_midrange",
+      "platform_fit": [
+        "pc",
+        "mobile"
+      ],
+      "connection_type": [
+        "wired_3_5mm"
+      ],
+      "wireless": false,
+      "latency_class": "very_low",
+      "software_support": "none",
+      "eq_support": false,
+      "availability_class": "easy",
+      "audio_type": "iem",
+      "audio_open_back": false,
+      "audio_has_mic": false,
+      "audio_mic_type": "none",
+      "audio_sound_signature": "v_shaped",
+      "audio_competitive_fps": "good",
+      "audio_immersion": "great",
+      "audio_isolation": "medium",
+      "audio_anc": false,
+      "audio_comfort": "good",
+      "audio_needs_amp": "no",
+      "audio_driver_type": "hybrid",
+      "audio_virtual_surround": [],
+      "audio_repairability": "ok",
+      "audio_value_pick": true
+    }
+  },
+  {
+    "id": "crinear_daybreak",
+    "name": "CrinEar Daybreak",
+    "brand": "CrinEar",
+    "category": "audio",
+    "price_range_usd": [
+      169,
+      189
+    ],
+    "product_url": "https://www.amazon.com/dp/B0FH4V7PDH?tag=gearmatch-20",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/dp/B0FH4V7PDH?tag=gearmatch-20",
+      "manufacturer": "https://hangout.audio/products/crinear-daybreak"
+    },
+    "recommendation_tags": [
+      "upper_midrange",
+      "neutral",
+      "new_meta",
+      "all_rounder",
+      "iem",
+      "audiophile"
+    ],
+    "data_quality": {
+      "data_confidence": "high",
+      "primary_source_type": "community_poll",
+      "source_name": "Headphones.com + IEMRanking.com + AudioNotions",
+      "last_verified": "2026-03"
+    },
+    "core_attributes": {
+      "category_subtype": "iem",
+      "price_tier": "upper_midrange",
+      "platform_fit": [
+        "pc",
+        "mobile"
+      ],
+      "connection_type": [
+        "wired_3_5mm"
+      ],
+      "wireless": false,
+      "latency_class": "very_low",
+      "software_support": "none",
+      "eq_support": false,
+      "availability_class": "limited_release",
+      "audio_type": "iem",
+      "audio_open_back": false,
+      "audio_has_mic": false,
+      "audio_mic_type": "none",
+      "audio_sound_signature": "neutral",
+      "audio_competitive_fps": "great",
+      "audio_immersion": "ok",
+      "audio_isolation": "medium",
+      "audio_anc": false,
+      "audio_comfort": "good",
+      "audio_needs_amp": "no",
+      "audio_driver_type": "hybrid",
+      "audio_virtual_surround": [],
+      "audio_repairability": "ok",
+      "audio_value_pick": true
+    },
+    "image_url": "https://www.linsoul.com/cdn/shop/files/CrinearDaybreak_2_1.jpg?v=1758854756"
+  },
+  {
+    "id": "ziigaat_odyssey_2",
+    "name": "ZiiGaat Odyssey 2",
+    "brand": "ZiiGaat",
+    "category": "audio",
+    "price_range_usd": [
+      199,
+      224
+    ],
+    "product_url": "https://www.amazon.com/dp/B0FLK2NRPY?tag=gearmatch-20",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/dp/B0FLK2NRPY?tag=gearmatch-20",
+      "manufacturer": "https://www.linsoul.com/products/ziigaat-odyssey-2"
+    },
+    "recommendation_tags": [
+      "upper_midrange",
+      "neutral",
+      "new_meta",
+      "all_rounder",
+      "iem",
+      "value_pick"
+    ],
+    "data_quality": {
+      "data_confidence": "high",
+      "primary_source_type": "community_poll",
+      "source_name": "redditrecs.com (67 mentions, rank #20) + community forums",
+      "last_verified": "2026-03"
+    },
+    "core_attributes": {
+      "category_subtype": "iem",
+      "price_tier": "upper_midrange",
+      "platform_fit": [
+        "pc",
+        "mobile"
+      ],
+      "connection_type": [
+        "wired_3_5mm"
+      ],
+      "wireless": false,
+      "latency_class": "very_low",
+      "software_support": "none",
+      "eq_support": false,
+      "availability_class": "easy",
+      "audio_type": "iem",
+      "audio_open_back": false,
+      "audio_has_mic": false,
+      "audio_mic_type": "none",
+      "audio_sound_signature": "neutral",
+      "audio_competitive_fps": "great",
+      "audio_immersion": "good",
+      "audio_isolation": "medium",
+      "audio_anc": false,
+      "audio_comfort": "great",
+      "audio_needs_amp": "no",
+      "audio_driver_type": "hybrid",
+      "audio_virtual_surround": [],
+      "audio_repairability": "ok",
+      "audio_value_pick": true
+    },
+    "image_url": "https://www.ziigaat.com/cdn/shop/files/ZIIGAATODYSSEY2_2.jpg?v=1755157606"
+  },
+  {
+    "id": "kiwi_ears_astral",
+    "name": "Kiwi Ears Astral",
+    "brand": "Kiwi Ears",
+    "category": "audio",
+    "price_range_usd": [
+      279,
+      329
+    ],
+    "product_url": "https://www.linsoul.com/products/kiwi-ears-astral",
+    "retailer_urls": {
+      "manufacturer": "https://kiwiears.com/products/kiwi-ears-astral"
+    },
+    "recommendation_tags": [
+      "premium",
+      "neutral",
+      "all_rounder",
+      "hybrid",
+      "iem",
+      "audiophile"
+    ],
+    "data_quality": {
+      "data_confidence": "high",
+      "primary_source_type": "community_poll",
+      "source_name": "redditrecs.com (88 mentions, rank #11) + Audiophile Heaven + IEMRanking.com (S-)",
+      "last_verified": "2026-03"
+    },
+    "core_attributes": {
+      "category_subtype": "iem",
+      "price_tier": "premium",
+      "platform_fit": [
+        "pc",
+        "mobile"
+      ],
+      "connection_type": [
+        "wired_3_5mm"
+      ],
+      "wireless": false,
+      "latency_class": "very_low",
+      "software_support": "none",
+      "eq_support": false,
+      "availability_class": "easy",
+      "audio_type": "iem",
+      "audio_open_back": false,
+      "audio_has_mic": false,
+      "audio_mic_type": "none",
+      "audio_sound_signature": "neutral",
+      "audio_competitive_fps": "great",
+      "audio_immersion": "good",
+      "audio_isolation": "medium",
+      "audio_anc": false,
+      "audio_comfort": "great",
+      "audio_needs_amp": "no",
+      "audio_driver_type": "hybrid",
+      "audio_virtual_surround": [],
+      "audio_repairability": "ok",
+      "audio_value_pick": true
+    },
+    "image_url": "https://www.linsoul.com/cdn/shop/products/KiwiEarsAstral.jpg"
+  },
+  {
+    "id": "thieaudio_hype_4",
+    "name": "ThieAudio Hype 4",
+    "brand": "ThieAudio",
+    "category": "audio",
+    "price_range_usd": [
+      399,
+      429
+    ],
+    "product_url": "https://www.amazon.com/dp/B0D1BZ3PFK?tag=gearmatch-20",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/dp/B0D1BZ3PFK?tag=gearmatch-20",
+      "manufacturer": "https://www.linsoul.com/products/thieaudio-hype-4"
+    },
+    "recommendation_tags": [
+      "flagship",
+      "v_shaped",
+      "gaming",
+      "hybrid",
+      "iem",
+      "audiophile"
+    ],
+    "data_quality": {
+      "data_confidence": "high",
+      "primary_source_type": "community_poll",
+      "source_name": "MMORPG.com + Headphones.com + Bloom Audio (ThieAudio guide)",
+      "last_verified": "2026-03"
+    },
+    "core_attributes": {
+      "category_subtype": "iem",
+      "price_tier": "flagship",
+      "platform_fit": [
+        "pc",
+        "mobile"
+      ],
+      "connection_type": [
+        "wired_3_5mm"
+      ],
+      "wireless": false,
+      "latency_class": "very_low",
+      "software_support": "none",
+      "eq_support": false,
+      "availability_class": "easy",
+      "audio_type": "iem",
+      "audio_open_back": false,
+      "audio_has_mic": false,
+      "audio_mic_type": "none",
+      "audio_sound_signature": "v_shaped",
+      "audio_competitive_fps": "good",
+      "audio_immersion": "great",
+      "audio_isolation": "medium",
+      "audio_anc": false,
+      "audio_comfort": "good",
+      "audio_needs_amp": "no",
+      "audio_driver_type": "hybrid",
+      "audio_virtual_surround": [],
+      "audio_repairability": "ok",
+      "audio_value_pick": true
+    },
+    "image_url": "https://www.linsoul.com/cdn/shop/files/THIEAUDIOHype4.jpg?v=1735899432"
+  },
+  {
+    "id": "hisenior_mega7",
+    "name": "Hisenior Mega7",
+    "brand": "Hisenior",
+    "category": "audio",
+    "price_range_usd": [
+      439,
+      499
+    ],
+    "product_url": "https://www.amazon.com/dp/B0G3WNVX5J?tag=gearmatch-20",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/dp/B0G3WNVX5J?tag=gearmatch-20",
+      "manufacturer": "https://www.hisenior-iem.com/products/mega7"
+    },
+    "recommendation_tags": [
+      "flagship",
+      "neutral",
+      "new_meta",
+      "hybrid",
+      "iem",
+      "audiophile"
+    ],
+    "data_quality": {
+      "data_confidence": "high",
+      "primary_source_type": "community_poll",
+      "source_name": "Headphones.com + Bloom Audio + IEMRanking.com (Crinacle 8.0)",
+      "last_verified": "2026-03"
+    },
+    "core_attributes": {
+      "category_subtype": "iem",
+      "price_tier": "flagship",
+      "platform_fit": [
+        "pc",
+        "mobile"
+      ],
+      "connection_type": [
+        "wired_3_5mm"
+      ],
+      "wireless": false,
+      "latency_class": "very_low",
+      "software_support": "none",
+      "eq_support": false,
+      "availability_class": "limited_release",
+      "audio_type": "iem",
+      "audio_open_back": false,
+      "audio_has_mic": false,
+      "audio_mic_type": "none",
+      "audio_sound_signature": "neutral",
+      "audio_competitive_fps": "great",
+      "audio_immersion": "great",
+      "audio_isolation": "medium",
+      "audio_anc": false,
+      "audio_comfort": "good",
+      "audio_needs_amp": "maybe",
+      "audio_driver_type": "hybrid",
+      "audio_virtual_surround": [],
+      "audio_repairability": "ok",
+      "audio_value_pick": true
+    },
+    "image_url": "https://hifigo.com/cdn/shop/files/hisenior-mega7-1dd-6ba-hybrid-drivers-in-ear-monitors-hisenior-mega7-778713.jpg?v=1762322169"
+  },
+  {
+    "id": "ziigaat_horizon",
+    "name": "ZiiGaat Horizon",
+    "brand": "ZiiGaat",
+    "category": "audio",
+    "price_range_usd": [
+      319,
+      349
+    ],
+    "product_url": "https://www.linsoul.com/products/ziigaat-horizon",
+    "retailer_urls": {
+      "manufacturer": "https://www.linsoul.com/products/ziigaat-horizon"
+    },
+    "recommendation_tags": [
+      "premium",
+      "neutral",
+      "tribrid",
+      "all_rounder",
+      "iem",
+      "audiophile"
+    ],
+    "data_quality": {
+      "data_confidence": "high",
+      "primary_source_type": "community_poll",
+      "source_name": "The Headphone List + redditrecs.com (rank #25) + Prime Audio Reviews",
+      "last_verified": "2026-03"
+    },
+    "core_attributes": {
+      "category_subtype": "iem",
+      "price_tier": "premium",
+      "platform_fit": [
+        "pc",
+        "mobile"
+      ],
+      "connection_type": [
+        "wired_3_5mm"
+      ],
+      "wireless": false,
+      "latency_class": "very_low",
+      "software_support": "none",
+      "eq_support": false,
+      "availability_class": "easy",
+      "audio_type": "iem",
+      "audio_open_back": false,
+      "audio_has_mic": false,
+      "audio_mic_type": "none",
+      "audio_sound_signature": "neutral",
+      "audio_competitive_fps": "great",
+      "audio_immersion": "good",
+      "audio_isolation": "medium",
+      "audio_anc": false,
+      "audio_comfort": "good",
+      "audio_needs_amp": "no",
+      "audio_driver_type": "hybrid",
+      "audio_virtual_surround": [],
+      "audio_repairability": "ok",
+      "audio_value_pick": true
+    },
+    "image_url": "https://www.linsoul.com/cdn/shop/files/Ziigaat_Horizon_Front.jpg"
+  },
+  {
+    "id": "tanchjim_bunny",
+    "name": "Tanchjim Bunny",
+    "brand": "TANCHJIM",
+    "category": "audio",
+    "price_range_usd": [
+      19,
+      26
+    ],
+    "product_url": "https://www.amazon.com/dp/B0DNK3JPTG?tag=gearmatch-20",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/dp/B0DNK3JPTG?tag=gearmatch-20",
+      "manufacturer": "https://www.tanchjim.com"
+    },
+    "recommendation_tags": [
+      "budget",
+      "neutral",
+      "app_support",
+      "iem",
+      "value_pick",
+      "beginner_friendly"
+    ],
+    "data_quality": {
+      "data_confidence": "high",
+      "primary_source_type": "community_poll",
+      "source_name": "redditrecs.com (102 mentions, rank #4) + SoundGuys + Headphones.com",
+      "last_verified": "2026-03"
+    },
+    "core_attributes": {
+      "category_subtype": "iem",
+      "price_tier": "budget",
+      "platform_fit": [
+        "pc",
+        "mobile"
+      ],
+      "connection_type": [
+        "wired_3_5mm"
+      ],
+      "wireless": false,
+      "latency_class": "very_low",
+      "software_support": "good",
+      "eq_support": true,
+      "availability_class": "easy",
+      "audio_type": "iem",
+      "audio_open_back": false,
+      "audio_has_mic": false,
+      "audio_mic_type": "none",
+      "audio_sound_signature": "neutral",
+      "audio_competitive_fps": "good",
+      "audio_immersion": "good",
+      "audio_isolation": "medium",
+      "audio_anc": false,
+      "audio_comfort": "good",
+      "audio_needs_amp": "no",
+      "audio_driver_type": "dynamic",
+      "audio_virtual_surround": [],
+      "audio_repairability": "ok",
+      "audio_value_pick": true
+    },
+    "image_url": "https://tanchjim.com/wp-content/uploads/2024/11/1-1.png"
+  },
+  {
+    "id": "tripowin_vivace",
+    "name": "Tripowin Vivace",
+    "brand": "Tripowin",
+    "category": "audio",
+    "price_range_usd": [
+      25,
+      32
+    ],
+    "product_url": "https://www.amazon.com/dp/B0DJQVQ1QG?tag=gearmatch-20",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/dp/B0DJQVQ1QG?tag=gearmatch-20",
+      "manufacturer": "https://www.linsoul.com/products/tripowin-vivace"
+    },
+    "recommendation_tags": [
+      "budget",
+      "v_shaped",
+      "gaming",
+      "iem",
+      "value_pick"
+    ],
+    "data_quality": {
+      "data_confidence": "high",
+      "primary_source_type": "community_poll",
+      "source_name": "redditrecs.com (rank #7, 50 mentions) + VLR.gg gaming IEM guide",
+      "last_verified": "2026-03"
+    },
+    "core_attributes": {
+      "category_subtype": "iem",
+      "price_tier": "budget",
+      "platform_fit": [
+        "pc",
+        "mobile",
+        "playstation"
+      ],
+      "connection_type": [
+        "wired_3_5mm"
+      ],
+      "wireless": false,
+      "latency_class": "very_low",
+      "software_support": "none",
+      "eq_support": false,
+      "availability_class": "easy",
+      "audio_type": "iem",
+      "audio_open_back": false,
+      "audio_has_mic": false,
+      "audio_mic_type": "none",
+      "audio_sound_signature": "v_shaped",
+      "audio_competitive_fps": "great",
+      "audio_immersion": "good",
+      "audio_isolation": "medium",
+      "audio_anc": false,
+      "audio_comfort": "good",
+      "audio_needs_amp": "no",
+      "audio_driver_type": "dynamic",
+      "audio_virtual_surround": [],
+      "audio_repairability": "ok",
+      "audio_value_pick": true
+    },
+    "image_url": "https://www.linsoul.com/cdn/shop/files/IMG_0081.jpg?v=1729488593"
+  },
+  {
+    "id": "dunu_vulkan_2",
+    "name": "DUNU Vulkan 2",
+    "brand": "DUNU",
+    "category": "audio",
+    "price_range_usd": [
+      319,
+      369
+    ],
+    "product_url": "https://www.amazon.com/dp/B0FBLWM4HC?tag=gearmatch-20",
+    "retailer_urls": {
+      "amazon": "https://www.amazon.com/dp/B0FBLWM4HC?tag=gearmatch-20",
+      "manufacturer": "https://hifigo.com/products/dunu-vulkan-2"
+    },
+    "recommendation_tags": [
+      "premium",
+      "v_shaped",
+      "hybrid",
+      "iem",
+      "audiophile"
+    ],
+    "data_quality": {
+      "data_confidence": "high",
+      "primary_source_type": "community_poll",
+      "source_name": "IEMRanking.com + Bloom Audio + DUNU brand reputation",
+      "last_verified": "2026-03"
+    },
+    "core_attributes": {
+      "category_subtype": "iem",
+      "price_tier": "premium",
+      "platform_fit": [
+        "pc",
+        "mobile"
+      ],
+      "connection_type": [
+        "wired_3_5mm"
+      ],
+      "wireless": false,
+      "latency_class": "very_low",
+      "software_support": "none",
+      "eq_support": false,
+      "availability_class": "easy",
+      "audio_type": "iem",
+      "audio_open_back": false,
+      "audio_has_mic": false,
+      "audio_mic_type": "none",
+      "audio_sound_signature": "v_shaped",
+      "audio_competitive_fps": "good",
+      "audio_immersion": "great",
+      "audio_isolation": "medium",
+      "audio_anc": false,
+      "audio_comfort": "good",
+      "audio_needs_amp": "no",
+      "audio_driver_type": "hybrid",
+      "audio_virtual_surround": [],
+      "audio_repairability": "ok",
+      "audio_value_pick": false
+    },
+    "image_url": "https://hifigo.com/cdn/shop/files/dunu-vulkan-2-vulkan-ii-2dd6ba-hybrid-drivers-iems-hifigo-507681.jpg?v=1748941825"
   }
 ]

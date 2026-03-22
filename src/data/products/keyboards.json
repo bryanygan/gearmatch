@@ -105,7 +105,6 @@
       ],
       "keyboard_value_pick": true
     },
-    "image_url": "https://www.monsgeek.com/wp-content/uploads/2022/11/魔极客LOGO-11-1.png",
     "retailer_urls": {
       "manufacturer": "https://www.monsgeek.com/product/fun60-ultra/"
     }
@@ -212,7 +211,6 @@
       ],
       "keyboard_value_pick": false
     },
-    "image_url": "https://wooting-web-files.ams3.cdn.digitaloceanspaces.com/public/open-graph-80he.png",
     "retailer_urls": {
       "manufacturer": "https://wooting.io/wooting-80he"
     }
@@ -535,8 +533,7 @@
         "productivity"
       ],
       "keyboard_value_pick": false
-    },
-    "image_url": "https://cdn.shopify.com/s/files/1/0059/0630/1017/files/Keychron-Q5-Max-QMK-VIA-wireless-custom-mechanical-keyboard-96-percent-layout-full-aluminum-black-for-Mac-Windows-Linux-Gateron-Jupiter-red-ISO-German-layout.jpg"
+    }
   },
   {
     "id": "brydge_10_2_keyboard_for_apple_ipad",
@@ -1157,7 +1154,6 @@
       80,
       130
     ],
-    "image_url": "https://cdn.shopify.com/s/files/1/0268/7297/1373/files/2d9f3934613e7d138547fdd03535166.png",
     "product_url": "https://www.amazon.com/dp/B0DHKN1QHT?tag=gearmatch-20",
     "recommendation_tags": [
       "rapid_trigger",
@@ -2271,7 +2267,6 @@
       80,
       130
     ],
-    "image_url": "https://m.media-amazon.com/images/I/71FH9YPDUOL._AC_SL1500_.jpg",
     "product_url": "https://www.amazon.com/dp/B089LHKRNC?tag=gearmatch-20",
     "recommendation_tags": [],
     "data_quality": {
@@ -3037,7 +3032,6 @@
       150,
       220
     ],
-    "image_url": "https://images.ctfassets.net/hmm5mo4qf4mf/2fqPa5B4mapUtCs2bcmfa7/c6160ca0cd6171c8ae2ff754cd60ff6e/apex_pro_mini_img_buy_01.png__1920x1080_crop-fit_optimize_subsampling-2-2021.png?fm=webp&q=90&fit=scale&w=1920",
     "product_url": "https://www.amazon.com/dp/B0B16JFF54?tag=gearmatch-20",
     "recommendation_tags": [
       "wireless",
@@ -3126,7 +3120,6 @@
       180,
       260
     ],
-    "image_url": "https://images.ctfassets.net/hmm5mo4qf4mf/2fqPa5B4mapUtCs2bcmfa7/c6160ca0cd6171c8ae2ff754cd60ff6e/apex_pro_mini_img_buy_01.png__1920x1080_crop-fit_optimize_subsampling-2-2021.png?fm=webp&q=90&fit=scale&w=1920",
     "product_url": "https://www.amazon.com/dp/B0B16HXVVQ?tag=gearmatch-20",
     "retailer_urls": {
       "bestbuy": "https://www.bestbuy.com/product/steelseries-apex-pro-mini-60-v2-wireless-mechanical-omnipoint-adjustable-hypermagnetic-gaming-keyboard-with-rapid-tap-black/J3GTVPQW68/sku/6508052",
@@ -4131,7 +4124,6 @@
       140,
       160
     ],
-    "image_url": "https://assets3.razerzone.com/M7MHeQLJ11Iih4pLRpwDE7XeyIM=/1500x1000/https%3A%2F%2Fmedias-p1.phoenix.razer.com%2Fsys-master-phoenix-images-container%2Fh7e%2Fh21%2F9918591467550%2Fbw-v4-75-barebones-black-500x500.png",
     "product_url": "https://www.amazon.com/dp/B0CCFY349S?tag=gearmatch-20",
     "retailer_urls": {
       "manufacturer": "https://www.razer.com/gaming-keyboards/razer-blackwidow-v4-75/RZ03-05004000-R3U1",
@@ -4222,7 +4214,6 @@
       200,
       249
     ],
-    "image_url": "https://assets3.razerzone.com/SSRXEUuQ_z-D6KbukzvPoreciRg=/1500x1000/https%3A%2F%2Fmedias-p1.phoenix.razer.com%2Fsys-master-phoenix-images-container%2Fh2a%2Fhd3%2F9538807103518%2Fblackwidow-v3-black-5-500x500.png",
     "product_url": "https://www.amazon.com/dp/B0BV4BC7LV?tag=gearmatch-20",
     "retailer_urls": {
       "manufacturer": "https://www.razer.com/gaming-keyboards/razer-blackwidow-v4-pro/RZ03-04680200-R3U1",
@@ -4312,7 +4303,6 @@
       140,
       160
     ],
-    "image_url": "https://assets3.razerzone.com/M7MHeQLJ11Iih4pLRpwDE7XeyIM=/1500x1000/https%3A%2F%2Fmedias-p1.phoenix.razer.com%2Fsys-master-phoenix-images-container%2Fh7e%2Fh21%2F9918591467550%2Fbw-v4-75-barebones-black-500x500.png",
     "product_url": "https://www.amazon.com/dp/B0C6RK64Z2?tag=gearmatch-20",
     "retailer_urls": {
       "manufacturer": "https://www.razer.com/gaming-keyboards/razer-blackwidow-v4-75/RZ03-05004000-R3U1",
@@ -4483,7 +4473,6 @@
       150,
       220
     ],
-    "image_url": "https://cdn.shopify.com/s/files/1/0059/0630/1017/files/C2P-8K-Iconic-Features.jpg",
     "product_url": "https://www.amazon.com/dp/B09MQ4SDYT?tag=gearmatch-20",
     "recommendation_tags": [],
     "data_quality": {
@@ -4637,7 +4626,6 @@
       127,
       127
     ],
-    "image_url": "https://cdn.shopify.com/s/files/1/0059/0630/1017/files/C2P-8K-Iconic-Features.jpg",
     "product_url": "https://www.amazon.com/dp/B08CNBBHQ1?tag=gearmatch-20",
     "retailer_urls": {
       "newegg": "https://www.newegg.com/p/0GA-0993-006J6"
@@ -4869,7 +4857,6 @@
       80,
       130
     ],
-    "image_url": "https://m.media-amazon.com/images/I/71B-3FY5FHL._AC_SL1500_.jpg",
     "product_url": "https://www.amazon.com/dp/B07W4SNVXD?tag=gearmatch-20",
     "recommendation_tags": [
       "hot_swappable"
@@ -5689,7 +5676,6 @@
       80,
       130
     ],
-    "image_url": "https://i.ebayimg.com/images/g/GpAAAeSwcRdpo6lz/s-l500.jpg",
     "product_url": "https://www.amazon.com/s?k=ErgoDox+EZ&tag=gearmatch-20",
     "recommendation_tags": [
       "hot_swappable"
@@ -6959,7 +6945,6 @@
       150,
       220
     ],
-    "image_url": "https://i.ebayimg.com/images/g/htsAAeSwNnlpTYUz/s-l500.jpg",
     "product_url": "https://www.amazon.com/dp/B0BRSSGBCN?tag=gearmatch-20",
     "recommendation_tags": [
       "wireless",
@@ -7137,7 +7122,6 @@
       150,
       220
     ],
-    "image_url": "https://i.ebayimg.com/images/g/HSwAAeSwMYBpBrNT/s-l500.jpg",
     "product_url": "https://www.amazon.com/dp/B0DJD163HT?tag=gearmatch-20",
     "recommendation_tags": [
       "rapid_trigger",
@@ -7559,7 +7543,6 @@
       80,
       130
     ],
-    "image_url": "https://i.ebayimg.com/images/g/efkAAeSwleRpnO6e/s-l500.jpg",
     "product_url": "https://www.amazon.com/dp/B07PJP1FXD?tag=gearmatch-20",
     "recommendation_tags": [
       "gaming"
@@ -9478,7 +9461,6 @@
       80,
       130
     ],
-    "image_url": "https://i.ebayimg.com/images/g/Id0AAeSwRAJorWlF/s-l500.jpg",
     "product_url": "https://www.amazon.com/dp/B0FMPGCYC8?tag=gearmatch-20",
     "recommendation_tags": [
       "rapid_trigger",
@@ -9735,7 +9717,6 @@
       79,
       120
     ],
-    "image_url": "https://assets3.razerzone.com/hVzhkN4_oI1tQ5bb5ZiE2SOSES0=/1500x1000/https%3A%2F%2Fmedias-p1.phoenix.razer.com%2Fsys-master-phoenix-images-container%2Fhb2%2Fh9f%2F9533909958686%2Fhuntsman-mini-mercury-4-500x500.png",
     "product_url": "https://www.amazon.com/dp/B08BFF4C7J?tag=gearmatch-20",
     "retailer_urls": {
       "bestbuy": "https://www.bestbuy.com/site/razer-huntsman-mini-60-wired-optical-clicky-switch-gaming-keyboard-with-chroma-rgb-backlighting-black/6417111.p",
@@ -10076,7 +10057,6 @@
       188,
       250
     ],
-    "image_url": "https://assets3.razerzone.com/8bKvlhJO2ixWtp_8U6_ypfXZ4JE=/1500x1000/https%3A%2F%2Fmedias-p1.phoenix.razer.com%2Fsys-master-phoenix-images-container%2Fhb8%2Fh66%2F9705254125598%2Fhuntsman-v3-pro-2-500x500.png",
     "product_url": "https://www.amazon.com/dp/B0FRPHGXJZ?tag=gearmatch-20",
     "retailer_urls": {
       "manufacturer": "https://www.razer.com/gaming-keyboards/razer-huntsman-v3-pro/RZ03-04970200-R3U1",
@@ -10422,7 +10402,6 @@
       111,
       140
     ],
-    "image_url": "https://assets3.razerzone.com/4C_OjZQdDIA4BjBly8feCgiETRk=/1500x1000/https%3A%2F%2Fmedias-p1.phoenix.razer.com%2Fsys-master-phoenix-images-container%2Fh6c%2Fh92%2F9904339288094%2Fjoro-500x500.png",
     "product_url": "https://www.amazon.com/dp/B0F5FPG64M?tag=gearmatch-20",
     "retailer_urls": {
       "bestbuy": "https://www.bestbuy.com/product/razer-joro-portable-75-wireless-scissor-gaming-keyboard-with-chroma-rgb-backlighting-black/J39HWFHFXV/sku/6621500",
@@ -10854,7 +10833,6 @@
       80,
       130
     ],
-    "image_url": "https://cdn.shopify.com/s/files/1/0059/0630/1017/products/Keychron-K12-Pro-QMK-VIA-Wireless-Custom-Mechanical-Keyboard-for-Mac-Windows-Linux-with-MX-Switch-with-Keychron-K-pro-switch-Red.jpg",
     "product_url": "https://www.amazon.com/dp/B08N52WWSM?tag=gearmatch-20",
     "recommendation_tags": [
       "wireless"
@@ -10930,7 +10908,6 @@
       68,
       68
     ],
-    "image_url": "http://www.keychron.com/cdn/shop/products/Keychron-K14-70-percent-compact-wireless-mechanical-keyboard-for-Mac-Windows-and-hot-swappable-with-Gateron-mechanical-switch-red.jpg?crop=center&height=1200&v=1635913691&width=1200",
     "product_url": "https://www.amazon.com/dp/B09DSKHGV9?tag=gearmatch-20",
     "retailer_urls": {
       "manufacturer": "https://www.keychron.com/products/keychron-k14-wireless-mechanical-keyboard?variant=39553095925849"
@@ -11106,7 +11083,6 @@
       60,
       189
     ],
-    "image_url": "http://www.keychron.com/cdn/shop/products/keychron-k2-non-backlight-version-mechanical-keyboard-red-switch-for-mac-windows.jpg?crop=center&height=1200&v=1639561360&width=1200",
     "product_url": "https://www.amazon.com/dp/B07YB32H52?tag=gearmatch-20",
     "retailer_urls": {
       "manufacturer": "https://www.keychron.com/products/keychron-k2-non-backlight-wireless-mechanical-keyboard?variant=39627684970585"
@@ -11260,7 +11236,6 @@
       95,
       188
     ],
-    "image_url": "http://www.keychron.com/cdn/shop/files/Keychron-K3-Version-3-Ultra-Slim-Wireless-Mechanical-Keyboard-UK-ISO-Red_9b3066ef-ab33-4369-ae73-24da56e73031.jpg?crop=center&height=1200&v=1756353641&width=1200",
     "product_url": "https://www.amazon.com/dp/B08LYNS1Z7?tag=gearmatch-20",
     "retailer_urls": {
       "manufacturer": "https://www.keychron.com/products/keychron-k3-qmk-wireless-mechanical-keyboard-iso-layout-version-3?variant=42079079596121",
@@ -11660,7 +11635,6 @@
       75,
       218
     ],
-    "image_url": "http://www.keychron.com/cdn/shop/products/Keychron-K4-version2-hot-swappable-wireless-mechanical-keyboard-96percent-layout-for-Mac-Windows-iOS-Gateron-switch-red-with-type-C-RGB-white-backlight_8e2ecfc8-4f2a-47db-b850-828e6d75c9c5.jpg?crop=center&height=1200&v=1644399874&width=1200",
     "product_url": "https://www.amazon.com/dp/B08LYMDYV9?tag=gearmatch-20",
     "retailer_urls": {
       "manufacturer": "https://www.keychron.com/products/keychron-k4-wireless-mechanical-keyboard-version-2?variant=32287344132185",
@@ -12308,7 +12282,6 @@
       44,
       58
     ],
-    "image_url": "http://redragon.com/cdn/shop/files/K552-KRS_9.png?v=1752034243",
     "product_url": "https://www.amazon.com/dp/B019O9BLVY?tag=gearmatch-20",
     "retailer_urls": {
       "bestbuy": "https://www.bestbuy.com/product/redragon-kumara-k552-rgb-wired-tkl-gaming-mechanical-blue-switch-keyboard-with-rgb-backlighting-black/CZ6WWR978T/sku/6458719",
@@ -12556,7 +12529,6 @@
       80,
       130
     ],
-    "image_url": "https://m.media-amazon.com/images/I/61l3ONMR7mL._AC_SL1500_.jpg",
     "product_url": "https://www.amazon.com/dp/B0BL2ND2GC?tag=gearmatch-20",
     "recommendation_tags": [
       "wireless"
@@ -12640,7 +12612,6 @@
       70,
       145
     ],
-    "image_url": "http://www.keychron.com/cdn/shop/products/Keychron-K6-65-percent-compact-wireless-mechanical-keyboard-for-Mac-Windows-iPad-tablet-UK-ISO-layout-Gateron-mechanical-red-switch-with-RGB-backlight.jpg?crop=center&height=1200&v=1620989902&width=1200",
     "product_url": "https://www.amazon.com/dp/B07ZT7W5FP?tag=gearmatch-20",
     "retailer_urls": {
       "manufacturer": "https://www.keychron.com/products/keychron-k6-wireless-mechanical-keyboard-uk-iso-layout?variant=32183162601561",
@@ -14246,7 +14217,6 @@
       150,
       220
     ],
-    "image_url": "https://cdn.shopify.com/s/files/1/0059/0630/1017/products/Keychron-K4-Pro-QMK-VIA-custom-mechanical-keyboard-96-percent-layout-Mac-Windows-Linux-hot-swappable-Keychron-K-Pro-switch-red-ISO-UK-layout.jpg",
     "product_url": "https://www.amazon.com/dp/B0B97JZV99?tag=gearmatch-20",
     "recommendation_tags": [
       "wireless",
@@ -14412,7 +14382,6 @@
       30,
       60
     ],
-    "image_url": "https://m.media-amazon.com/images/I/71aP+JbdypL._AC_SL1500_.jpg",
     "product_url": "https://www.amazon.com/dp/B007NWWB3M?tag=gearmatch-20",
     "recommendation_tags": [
       "wireless"
@@ -14572,7 +14541,6 @@
       80,
       130
     ],
-    "image_url": "https://m.media-amazon.com/images/I/71CQXSs-umL._AC_SL1500_.jpg",
     "product_url": "https://www.amazon.com/dp/B071VHYZ62?tag=gearmatch-20",
     "recommendation_tags": [],
     "data_quality": {
@@ -14890,7 +14858,6 @@
       80,
       130
     ],
-    "image_url": "https://m.media-amazon.com/images/I/51W0V-hJGlL._AC_SL1001_.jpg",
     "product_url": "https://www.amazon.com/dp/B00ZYLMQH0?tag=gearmatch-20",
     "recommendation_tags": [],
     "data_quality": {
@@ -15228,7 +15195,6 @@
       30,
       60
     ],
-    "image_url": "https://m.media-amazon.com/images/I/71FX8OAMXNL._AC_SL1500_.jpg",
     "product_url": "https://www.amazon.com/dp/B06XKV8R9Z?tag=gearmatch-20",
     "recommendation_tags": [],
     "data_quality": {
@@ -15303,7 +15269,6 @@
       80,
       130
     ],
-    "image_url": "https://m.media-amazon.com/images/I/61aSY+D8GPL._AC_SL1500_.jpg",
     "product_url": "https://www.amazon.com/dp/B0BM51GDFM?tag=gearmatch-20",
     "recommendation_tags": [],
     "data_quality": {
@@ -15471,7 +15436,6 @@
       100,
       200
     ],
-    "image_url": "https://m.media-amazon.com/images/I/71h6PBfMIIL._AC_SL1500_.jpg",
     "product_url": "https://www.amazon.com/dp/B016QO64FI?tag=gearmatch-20",
     "recommendation_tags": [
       "wireless"
@@ -15552,7 +15516,6 @@
       100,
       200
     ],
-    "image_url": "https://m.media-amazon.com/images/I/61lQLNHbRtL._AC_SL1500_.jpg",
     "product_url": "https://www.amazon.com/dp/B0863BQJMS?tag=gearmatch-20",
     "recommendation_tags": [],
     "data_quality": {
@@ -15629,7 +15592,6 @@
       150,
       220
     ],
-    "image_url": "https://m.media-amazon.com/images/I/61VewSt2LkL._AC_SL1500_.jpg",
     "product_url": "https://www.amazon.com/dp/B0D3J65R9N?tag=gearmatch-20",
     "recommendation_tags": [],
     "data_quality": {
@@ -15955,7 +15917,6 @@
       80,
       130
     ],
-    "image_url": "https://m.media-amazon.com/images/I/71WQFSkqJAL._AC_SL1500_.jpg",
     "product_url": "https://www.amazon.com/dp/B07CHBG9MQ?tag=gearmatch-20",
     "recommendation_tags": [
       "gaming"
@@ -16033,7 +15994,6 @@
       150,
       220
     ],
-    "image_url": "https://mechanicalkeyboards.com/cdn/shop/files/11361_62a3d83193322_MIYA-Pro-Wireless-Sakura-V2.png",
     "product_url": "https://www.amazon.com/dp/B0977MH1TB?tag=gearmatch-20",
     "recommendation_tags": [
       "gaming"
@@ -16113,7 +16073,6 @@
       80,
       130
     ],
-    "image_url": "https://m.media-amazon.com/images/I/71tgfAVpn7L._AC_SL1500_.jpg",
     "product_url": "https://www.amazon.com/dp/B07N4D7S6F?tag=gearmatch-20",
     "recommendation_tags": [
       "gaming"
@@ -16191,7 +16150,6 @@
       80,
       130
     ],
-    "image_url": "https://m.media-amazon.com/images/I/61KYDrMOiuL._AC_SL1500_.jpg",
     "product_url": "https://www.amazon.com/dp/B0CP7BX9C4?tag=gearmatch-20",
     "recommendation_tags": [
       "rapid_trigger",
@@ -16357,7 +16315,6 @@
       150,
       220
     ],
-    "image_url": "https://m.media-amazon.com/images/I/71nMQaJFSNL._AC_SL1500_.jpg",
     "product_url": "https://www.amazon.com/dp/B008PFABI8?tag=gearmatch-20",
     "recommendation_tags": [],
     "data_quality": {
@@ -16432,7 +16389,6 @@
       80,
       130
     ],
-    "image_url": "https://www.zsa.io/static/moonlander-702ea2c8d68e3af723c6f65ab7f50103.png",
     "product_url": "https://www.amazon.com/s?k=ZSA+Moonlander&tag=gearmatch-20",
     "recommendation_tags": [
       "gaming",
@@ -17440,7 +17396,6 @@
       30,
       60
     ],
-    "image_url": "https://m.media-amazon.com/images/I/71bydUMBpRL._AC_SL1500_.jpg",
     "product_url": "https://www.amazon.com/dp/B07771GCBS?tag=gearmatch-20",
     "recommendation_tags": [
       "gaming"
@@ -17519,7 +17474,6 @@
       80,
       130
     ],
-    "image_url": "https://m.media-amazon.com/images/I/81+hBlPKo9L._AC_SL1500_.jpg",
     "product_url": "https://www.amazon.com/dp/B01LVTI3TO?tag=gearmatch-20",
     "recommendation_tags": [],
     "data_quality": {
@@ -17837,7 +17791,6 @@
       30,
       60
     ],
-    "image_url": "https://cdn.shopify.com/s/files/1/0059/0630/1017/files/P1-HE-Swappable-RGB-Backlight-Nebula-Switch-Knob-Version-Black-ISO-UK.jpg",
     "product_url": "https://www.amazon.com/dp/B0DY7KTB87?tag=gearmatch-20",
     "recommendation_tags": [
       "rapid_trigger",
@@ -18098,7 +18051,6 @@
       150,
       220
     ],
-    "image_url": "https://m.media-amazon.com/images/I/71mW7GxQ89L._AC_SL1500_.jpg",
     "product_url": "https://www.amazon.com/dp/B07X7GL76R?tag=gearmatch-20",
     "recommendation_tags": [
       "wireless"
@@ -18178,7 +18130,6 @@
       150,
       220
     ],
-    "image_url": "https://m.media-amazon.com/images/I/71OQ-eo-sHL._AC_SL1500_.jpg",
     "product_url": "https://www.amazon.com/dp/B0DBX3MF6N?tag=gearmatch-20",
     "recommendation_tags": [
       "wireless"
@@ -18258,7 +18209,6 @@
       150,
       220
     ],
-    "image_url": "https://m.media-amazon.com/images/I/71Qae9w3EWL._AC_SL1500_.jpg",
     "product_url": "https://www.amazon.com/dp/B08M6GMT6T?tag=gearmatch-20",
     "recommendation_tags": [
       "wireless"
@@ -18340,7 +18290,6 @@
       160,
       160
     ],
-    "image_url": "https://assets3.razerzone.com/YQOLGr940jsGflTjCVVAMzZdfyo=/1500x1000/https%3A%2F%2Fmedias-p1.phoenix.razer.com%2Fsys-master-phoenix-images-container%2Fh37%2Fhda%2F9257514041374%2F211102-pro-type-ultra-500x500.png",
     "product_url": "https://www.amazon.com/dp/B09J72K6SM?tag=gearmatch-20",
     "retailer_urls": {
       "manufacturer": "https://www.razer.com/gaming-keyboards/razer-pro-type-ultra/RZ03-04110200-R3U1",
@@ -18432,7 +18381,6 @@
       160,
       160
     ],
-    "image_url": "https://assets3.razerzone.com/YQOLGr940jsGflTjCVVAMzZdfyo=/1500x1000/https%3A%2F%2Fmedias-p1.phoenix.razer.com%2Fsys-master-phoenix-images-container%2Fh37%2Fhda%2F9257514041374%2F211102-pro-type-ultra-500x500.png",
     "product_url": "https://www.amazon.com/dp/B08BR78KG6?tag=gearmatch-20",
     "retailer_urls": {
       "manufacturer": "https://www.razer.com/gaming-keyboards/razer-pro-type-ultra/RZ03-04110200-R3U1",
@@ -18782,7 +18730,6 @@
       204,
       220
     ],
-    "image_url": "http://www.keychron.com/cdn/shop/files/Keychron-Q1-HE-QMK-Wireless-Custom-Keyboard-Carbon-Black-RGB-Backlight-Full-Aluminum-Gateron-Magnetic-Switch-ISO-German-Layout.jpg?crop=center&height=1200&v=1748573881&width=1200",
     "product_url": "https://www.amazon.com/dp/B09W2M9KTS?tag=gearmatch-20",
     "retailer_urls": {
       "bestbuy": "https://www.bestbuy.com/product/keychron-q1he-75-custom-wireless-rgb-mechanical-keyboard-with-progrmmable-qmk-via-hot-swappable-magnetic-switch-black/CGC7F9CK25/sku/6600174",
@@ -18866,7 +18813,6 @@
       60,
       136
     ],
-    "image_url": "http://www.keychron.com/cdn/shop/products/Keychron-Q2-C1-QMK-VIA-custom-mechanical-keyboard-65-percent-layout-full-aluminum-black-frame-for-Mac-Windows-iOS-RGB-backlight-with-hot-swappable-Gateron-G-Pro-switch-red.jpg?crop=center&height=1200&v=1659603188&width=1200",
     "product_url": "https://www.amazon.com/dp/B09JS77KR9?tag=gearmatch-20",
     "retailer_urls": {
       "manufacturer": "https://www.keychron.com/products/keychron-q2-qmk-custom-mechanical-keyboard?variant=39610696269913"
@@ -18949,7 +18895,6 @@
       210,
       305
     ],
-    "image_url": "http://www.keychron.com/cdn/shop/files/Q3Max-Iconic-Features.jpg?crop=center&height=1200&v=1753756038&width=1200",
     "product_url": "https://www.amazon.com/dp/B09TXJYNSD?tag=gearmatch-20",
     "retailer_urls": {
       "manufacturer": "https://www.keychron.com/products/keychron-q3-max-qmk-via-wireless-custom-mechanical-keyboard?variant=40766137532505"
@@ -19195,7 +19140,6 @@
       180,
       240
     ],
-    "image_url": "http://www.keychron.com/cdn/shop/files/Q5-Max-Iconic-Features.jpg?crop=center&height=1200&v=1753839750&width=1200",
     "product_url": "https://www.amazon.com/dp/B09MMXLYSR?tag=gearmatch-20",
     "retailer_urls": {
       "manufacturer": "https://www.keychron.com/products/keychron-q5-max-qmk-via-wireless-custom-mechanical-keyboard?variant=40758088859737"
@@ -19361,7 +19305,6 @@
       30,
       60
     ],
-    "image_url": "https://cdn.shopify.com/s/files/1/0059/0630/1017/products/Keychron-Q7-QMK-VIA-custom-mechanical-keyboard-70-percent-layout-full-aluminum-frame-Mac-Windows-German-DE-ISO-layout-Gateron-G-Pro-switch-red.jpg",
     "product_url": "https://www.amazon.com/dp/B09MMWWVMQ?tag=gearmatch-20",
     "recommendation_tags": [
       "gaming"
@@ -19441,7 +19384,6 @@
       30,
       60
     ],
-    "image_url": "https://cdn.shopify.com/s/files/1/0059/0630/1017/files/Keychron-Q8-Max-QMK-VIA-Wireless-Custom-Mechanical-Keyboard-65-Percent-Alice-Layout-Aluminum-Black-Fully-Assembled-Knob-for-Mac-Windows-Linux-Gateron-Jupiter-Red.jpg",
     "product_url": "https://www.amazon.com/dp/B09QYLGHKD?tag=gearmatch-20",
     "recommendation_tags": [
       "gaming",
@@ -19598,7 +19540,6 @@
       80,
       130
     ],
-    "image_url": "https://m.media-amazon.com/images/I/81PlVxLIqOL._AC_SL1500_.jpg",
     "product_url": "https://www.amazon.com/dp/B071J5WTT6?tag=gearmatch-20",
     "recommendation_tags": [],
     "data_quality": {
@@ -19943,7 +19884,6 @@
       45,
       87
     ],
-    "image_url": "https://m.media-amazon.com/images/I/61aXpg0nhkL._AC_SL1500_.jpg",
     "product_url": "https://www.amazon.com/dp/B0731CJ4ZJ?tag=gearmatch-20",
     "retailer_urls": {
       "newegg": "https://www.newegg.com/p/32N-04U2-002U3"
@@ -20031,7 +19971,6 @@
       80,
       130
     ],
-    "image_url": "https://m.media-amazon.com/images/I/81nMqAWfKBL._AC_SL1500_.jpg",
     "product_url": "https://www.amazon.com/dp/B0D45ZHYZJ?tag=gearmatch-20",
     "recommendation_tags": [
       "wireless",
@@ -20126,7 +20065,6 @@
       80,
       130
     ],
-    "image_url": "https://m.media-amazon.com/images/I/71c7GCNeURL._AC_SL1500_.jpg",
     "product_url": "https://www.amazon.com/dp/B0BSKX8W3B?tag=gearmatch-20",
     "recommendation_tags": [
       "wireless",
@@ -20219,7 +20157,6 @@
       80,
       130
     ],
-    "image_url": "https://m.media-amazon.com/images/I/81zRq3FHURL._AC_SL1500_.jpg",
     "product_url": "https://www.amazon.com/dp/B097274VKF?tag=gearmatch-20",
     "recommendation_tags": [
       "wireless",
@@ -20301,7 +20238,6 @@
       140,
       140
     ],
-    "image_url": "https://m.media-amazon.com/images/I/71Vul7L9RML._AC_SL1500_.jpg",
     "product_url": "https://www.amazon.com/dp/B0CS9CHZX3?tag=gearmatch-20",
     "retailer_urls": {
       "microcenter": "https://www.microcenter.com/product/676273/asus-rog-falchion-rx-65-wireless-rgb-low-profile-mechanical-gaming-keyboard-(white)",
@@ -20395,7 +20331,6 @@
       120,
       120
     ],
-    "image_url": "https://i5.walmartimages.com/seo/ASUS-ROG-Falchion-Ace-65-RGB-Compact-Gaming-Mechanical-Keyboard-Lubed-ROG-NX-Red-Switches-Switch-Stabilizers-Sound-Dampening-Foam-PBT-Keycaps-Wired-K_19d212e7-bbdf-4831-8aad-9d56943f80a3.a626157c653904debfb60af35315c7a6.png",
     "product_url": "https://www.amazon.com/dp/B08T88Y23K?tag=gearmatch-20",
     "retailer_urls": {
       "manufacturer": "https://shop.asus.com/us/90mp0347-bkua01-rog-falchion-ace.html",
@@ -20484,7 +20419,6 @@
       30,
       60
     ],
-    "image_url": "https://m.media-amazon.com/images/I/81JNH3RuOoL._AC_SL1500_.jpg",
     "product_url": "https://www.amazon.com/dp/B09Y1857K2?tag=gearmatch-20",
     "recommendation_tags": [
       "gaming",
@@ -20569,7 +20503,6 @@
       80,
       130
     ],
-    "image_url": "https://dlcdnwebimgs.asus.com/gain/9E1FA5D0-65AB-4188-84DE-A80058422939",
     "product_url": "https://www.amazon.com/dp/B0C7KFZ5TL?tag=gearmatch-20",
     "recommendation_tags": [
       "wireless",
@@ -20660,7 +20593,6 @@
       80,
       130
     ],
-    "image_url": "https://m.media-amazon.com/images/I/81nHZBYUydL._AC_SL1500_.jpg",
     "product_url": "https://www.amazon.com/dp/B08412SYP9?tag=gearmatch-20",
     "recommendation_tags": [
       "gaming"
@@ -21240,7 +21172,6 @@
       60,
       176
     ],
-    "image_url": "https://m.media-amazon.com/images/I/81R-LVaNJbL._AC_SL1500_.jpg",
     "product_url": "https://www.amazon.com/dp/B086LLSZKP?tag=gearmatch-20",
     "recommendation_tags": [
       "wireless"
@@ -21315,7 +21246,6 @@
       80,
       130
     ],
-    "image_url": "https://m.media-amazon.com/images/I/71a-MdWLVQL._AC_SL1500_.jpg",
     "product_url": "https://www.amazon.com/dp/B07Y9G18V7?tag=gearmatch-20",
     "recommendation_tags": [
       "wireless"
@@ -21470,7 +21400,6 @@
       80,
       130
     ],
-    "image_url": "https://m.media-amazon.com/images/I/61gU5zuMu6L._AC_SL1500_.jpg",
     "product_url": "https://www.amazon.com/dp/B0CKG1JN7L?tag=gearmatch-20",
     "recommendation_tags": [
       "wireless",
@@ -21557,7 +21486,6 @@
       80,
       130
     ],
-    "image_url": "https://m.media-amazon.com/images/I/81PYy8YvUAL._AC_SL1500_.jpg",
     "product_url": "https://www.amazon.com/dp/B01MFCTRZM?tag=gearmatch-20",
     "recommendation_tags": [
       "wireless"
@@ -21713,7 +21641,6 @@
       80,
       130
     ],
-    "image_url": "https://m.media-amazon.com/images/I/71JhJB-UREL._AC_SL1500_.jpg",
     "product_url": "https://www.amazon.com/dp/B078HFTTYK?tag=gearmatch-20",
     "recommendation_tags": [],
     "data_quality": {
@@ -21879,7 +21806,6 @@
       80,
       130
     ],
-    "image_url": "https://m.media-amazon.com/images/I/61GLOM5GW7L._AC_SL1500_.jpg",
     "product_url": "https://www.amazon.com/dp/B08BWQXZYL?tag=gearmatch-20",
     "recommendation_tags": [
       "wireless"
@@ -21956,7 +21882,6 @@
       90,
       92
     ],
-    "image_url": "https://m.media-amazon.com/images/I/61GJmIfP+GL._AC_SL1500_.jpg",
     "product_url": "https://www.amazon.com/dp/B07ZRNJ4DX?tag=gearmatch-20",
     "retailer_urls": {
       "newegg": "https://www.newegg.com/p/1B4-02P5-00016"
@@ -22039,7 +21964,6 @@
       80,
       130
     ],
-    "image_url": "https://m.media-amazon.com/images/I/71FMJzCiGhL._AC_SL1500_.jpg",
     "product_url": "https://www.amazon.com/dp/B00N99LPC6?tag=gearmatch-20",
     "recommendation_tags": [],
     "data_quality": {
@@ -22112,7 +22036,6 @@
       30,
       60
     ],
-    "image_url": "https://m.media-amazon.com/images/I/61R+dt5p-yL._AC_SL1500_.jpg",
     "product_url": "https://www.amazon.com/s?k=Wooting+two+HE&tag=gearmatch-20",
     "recommendation_tags": [
       "gaming",
@@ -22370,7 +22293,6 @@
       80,
       130
     ],
-    "image_url": "https://m.media-amazon.com/images/I/71cQVjflT+L._AC_SL1500_.jpg",
     "product_url": "https://www.amazon.com/dp/B07D6MQYKW?tag=gearmatch-20",
     "recommendation_tags": [],
     "data_quality": {
@@ -22446,7 +22368,6 @@
       80,
       130
     ],
-    "image_url": "https://geon.works/cdn/shop/files/Venom60_800x.png",
     "product_url": "https://www.amazon.com/s?k=Geonworks+Venom+60+HE&tag=gearmatch-20",
     "recommendation_tags": [
       "hot_swappable"
@@ -22611,7 +22532,6 @@
       120,
       120
     ],
-    "image_url": "https://m.media-amazon.com/images/I/71-09F1BIuL._AC_SL1500_.jpg",
     "product_url": "https://www.amazon.com/dp/B0BDB26VF3?tag=gearmatch-20",
     "retailer_urls": {
       "bestbuy": "https://www.bestbuy.com/product/turtle-beach-vulcan-ii-mini-65-optical-mechanical-gaming-keyboard-black/JXK5HVYW78/sku/10919634",
@@ -22697,7 +22617,6 @@
       120,
       120
     ],
-    "image_url": "https://m.media-amazon.com/images/I/71+TLw+p-8L._AC_SL1500_.jpg",
     "product_url": "https://www.amazon.com/dp/B0C8M29MH4?tag=gearmatch-20",
     "retailer_urls": {
       "bestbuy": "https://www.bestbuy.com/product/turtle-beach-vulcan-ii-mini-65-optical-mechanical-gaming-keyboard-black/JXK5HVYW78/sku/10919634",
@@ -22951,7 +22870,6 @@
       30,
       60
     ],
-    "image_url": "https://m.media-amazon.com/images/I/61MWk2p0N3L._AC_SL1500_.jpg",
     "product_url": "https://www.amazon.com/dp/B0BTNY72VD?tag=gearmatch-20",
     "recommendation_tags": [
       "wireless"
@@ -23033,7 +22951,6 @@
       150,
       220
     ],
-    "image_url": "https://m.media-amazon.com/images/I/71gXsFIDjsL._AC_SL1500_.jpg",
     "product_url": "https://www.amazon.com/dp/B07ZSD5QW4?tag=gearmatch-20",
     "recommendation_tags": [
       "wireless",
@@ -23193,7 +23110,6 @@
       30,
       60
     ],
-    "image_url": "https://c1.neweggimages.com/productimage/nb640/23-953-009-V08.jpg",
     "product_url": "https://www.amazon.com/dp/B09C2DLCPG?tag=gearmatch-20",
     "recommendation_tags": [],
     "data_quality": {

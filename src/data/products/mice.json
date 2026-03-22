@@ -11665,8 +11665,7 @@
         "ergo_right"
       ],
       "mouse_value_pick": false
-    },
-    "image_url": "https://image.benq.com/is/image/benqco/ec2-cw-top?$ResponsivePreset$&fmt=png-alpha"
+    }
   },
   {
     "id": "benq_zowie_ec2_dw",
@@ -11894,8 +11893,7 @@
         "portable"
       ],
       "mouse_value_pick": false
-    },
-    "image_url": "https://img1.wsimg.com/isteam/ip/8da871ac-a737-47c6-b10c-4def1faa61b4/ols/ftip_back.png/:/rs=w:600,h:600"
+    }
   },
   {
     "id": "cc_beanmouse_lhd_large",
@@ -11963,8 +11961,7 @@
         "portable"
       ],
       "mouse_value_pick": false
-    },
-    "image_url": "https://img1.wsimg.com/isteam/ip/8da871ac-a737-47c6-b10c-4def1faa61b4/ols/ftip_back.png"
+    }
   },
   {
     "id": "cc_beanmouse_lhd_small",
@@ -12032,8 +12029,7 @@
         "portable"
       ],
       "mouse_value_pick": false
-    },
-    "image_url": "https://img1.wsimg.com/isteam/ip/8da871ac-a737-47c6-b10c-4def1faa61b4/ols/ftip_back.png"
+    }
   },
   {
     "id": "cc_beanmouse_small",
@@ -12101,8 +12097,7 @@
         "portable"
       ],
       "mouse_value_pick": false
-    },
-    "image_url": "https://img1.wsimg.com/isteam/ip/8da871ac-a737-47c6-b10c-4def1faa61b4/ols/ftip_back.png"
+    }
   },
   {
     "id": "chaos_m3_mini",
@@ -22058,8 +22053,7 @@
         "premium_feel"
       ],
       "mouse_value_pick": false
-    },
-    "image_url": "https://img.endgamegear.com/images/GAMO-1208/ea6c34b238cc8fb39383ef47a1a697cd.jpg"
+    }
   },
   {
     "id": "endgame_gear_xm2we",
@@ -30424,7 +30418,6 @@
       35,
       59
     ],
-    "image_url": "https://c1.neweggimages.com/productimage/nb300/BFYXD2502220RWOWC31.jpg",
     "product_url": "https://www.amazon.com/dp/B0B2XVRVNW?tag=gearmatch-20",
     "retailer_urls": {
       "manufacturer": "https://www.newegg.com/glorious-model-o/p/173-01RW-00001"
@@ -44297,7 +44290,6 @@
       80,
       100
     ],
-    "image_url": "https://c1.neweggimages.com/productimage/nb300/B5ZAD2407070UDYSQC8.jpg",
     "product_url": "https://www.amazon.com/dp/B07W6JNFYQ?tag=gearmatch-20",
     "recommendation_tags": [
       "large_hands_friendly",
@@ -56358,7 +56350,6 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/pmm-aim-8k.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "in_stock",
     "mouse_weight_class": "ultra_light"
   },
@@ -60867,7 +60858,6 @@
       "mouse_sensor_type": "PAW3335",
       "mouse_dpi_max": 16000
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/ragnok-2-firegrip.png?width=512&height=512&resize=contain",
     "manufacturer_url": "https://ragnok.com/products/firegrip-gun-mouse-for-shooter-games",
     "retailer_urls": {
       "amazon": "https://www.amazon.com/RAGNOK-FireGrip-Mouse-Shooter-Games/dp/B0G64KQ3NV?tag=gearmatch-20"
@@ -65203,7 +65193,6 @@
       102,
       130
     ],
-    "image_url": "https://c1.neweggimages.com/productimage/nb300/B2C9S2202220CTXUK53.jpg",
     "product_url": "https://www.amazon.com/dp/B07WZWKM1L?tag=gearmatch-20",
     "recommendation_tags": [
       "large_hands_friendly",
@@ -66391,7 +66380,6 @@
       50,
       70
     ],
-    "image_url": "https://c1.neweggimages.com/productimage/nb300/B2C9S2202220CTXUK53.jpg",
     "product_url": "https://www.amazon.com/dp/B086B4FMKF?tag=gearmatch-20",
     "recommendation_tags": [
       "large_hands_friendly",
@@ -66468,7 +66456,6 @@
       100,
       120
     ],
-    "image_url": "https://c1.neweggimages.com/productimage/nb300/B2C9S2202220CTXUK53.jpg",
     "product_url": "https://www.amazon.com/dp/B088PRK3P4?tag=gearmatch-20",
     "recommendation_tags": [
       "large_hands_friendly",
@@ -81821,7 +81808,6 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://mechkeys.com/cdn/shop/files/zaopin-z2-mini-swappable-switch-paw3950-wireless-mouse-mechkeysshop-848553_grande.jpg?v=1772109934",
     "mouse_stock_status": "in_stock",
     "mouse_weight_class": "light",
     "retailer_urls": {
@@ -82067,7 +82053,6 @@
       200,
       300
     ],
-    "image_url": "https://zaunkoenig.co/images/m2k/m2k-bottom-950px-80.webp",
     "product_url": "https://www.amazon.com/s?k=Zaunkoenig+M2K&tag=gearmatch-20",
     "recommendation_tags": [
       "8k_polling",
@@ -82621,7 +82606,6 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://image.benq.com/is/image/benqco/ec1-cw-top?$ResponsivePreset$&fmt=png-alpha",
     "mouse_stock_status": "in_stock",
     "mouse_weight_class": "medium",
     "retailer_urls": {
@@ -82961,8 +82945,7 @@
         "ergo_right"
       ],
       "mouse_value_pick": false
-    },
-    "image_url": "https://image.benq.com/is/image/benqco/ec3-cw-top?$ResponsivePreset$&fmt=png-alpha"
+    }
   },
   {
     "id": "zowie_ec3_dw",

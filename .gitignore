@@ -34,3 +34,6 @@ scripts/output/
 /.claude-flow
 .mcp.json
 .agents/
+scripts/.image-cache/
+scripts/image-classification-results.csv
+scripts/flagged-image-ids.json
