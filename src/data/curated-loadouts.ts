@@ -15,7 +15,7 @@ export const CURATED_LOADOUTS: readonly Loadout[] = [
       "A solid starter kit for competitive FPS gaming without breaking the bank. Lightweight mouse, decent headset, responsive keyboard, and a fast 1080p monitor.",
     items: [
       {
-        productId: "logitech_g305",
+        productId: "logitech_g305_lightspeed",
         category: "mouse",
         addedAt: 1700000000000,
       },

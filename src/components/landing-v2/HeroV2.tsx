@@ -77,7 +77,7 @@ const HeroV2 = () => {
         }}
       >
         <div>v2.0.26</div>
-        <div>1040+ PRODUCTS</div>
+        <div>2000+ PRODUCTS</div>
       </div>
 
       {/* Main Content Grid */}
@@ -320,7 +320,7 @@ const HeroV2 = () => {
                   background: "var(--v2-border-bright)",
                 }}
               />
-              <StatItem value="1040+" label="products" />
+              <StatItem value="2,000+" label="products" />
               <div
                 style={{
                   width: "1px",
@@ -456,7 +456,7 @@ const StatItem = ({ value, label }: { value: string; label: string }) => (
 
 /** Product display names for curated loadout items */
 const PRODUCT_NAMES: Record<string, string> = {
-  logitech_g305: "Logitech G305 LIGHTSPEED",
+  logitech_g305_lightspeed: "Logitech G305 LIGHTSPEED",
   attack_shark_x3: "ATTACK SHARK X3",
   steelseries_arctis_nova_3: "SteelSeries Arctis Nova 3",
   redragon_k552_kumara_rgb: "Redragon K552 KUMARA RGB",
