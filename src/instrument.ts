@@ -28,7 +28,7 @@ Sentry.init({
 
   // Tracing
   tracesSampleRate: 0.1,
-  tracePropagationTargets: ["localhost", /^https:\/\/gearmatch\.app/],
+  tracePropagationTargets: ["localhost", /^https:\/\/gearmatch\.app(\/|$)/],
 
   // Session Replay
   replaysSessionSampleRate: 0.1,
