@@ -109,7 +109,7 @@ function addSecurityHeaders(response: Response, origin: string): void {
   response.headers.set("Strict-Transport-Security", "max-age=31536000; includeSubDomains");
   response.headers.set(
     "Content-Security-Policy",
-    "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' https: data:; connect-src 'self'; frame-ancestors 'none'; base-uri 'self'; form-action 'self'"
+    "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' https: data:; connect-src 'self' https://*.ingest.us.sentry.io; frame-ancestors 'none'; base-uri 'self'; form-action 'self'"
   );
   if (!response.headers.has("Content-Type")) {
     response.headers.set("Content-Type", "application/json");
