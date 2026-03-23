@@ -63,11 +63,11 @@ GearMatch takes a quiz-based approach to match users with peripherals that fit t
 - **Score Breakdown** - Collapsible detailed view of how each product scored
 
 ### Product Database
-- **185 Gaming Mice** - From budget ultralight to premium esports ($30-$200+)
-- **198 Audio Products** - IEMs, wireless headsets, and open-back headphones ($23-$500)
-- **279 Keyboards** - Mechanical, magnetic hall effect, and optical switches ($50-$350+)
+- **1,123 Gaming Mice** - From budget ultralight to premium esports ($30-$200+)
+- **247 Audio Products** - IEMs (80+), wireless headsets, and open-back headphones ($19-$500+)
+- **278 Keyboards** - Mechanical, magnetic hall effect, and optical switches ($50-$350+)
 - **378 Monitors** - RTINGS lab-tested data, IPS/VA/OLED panels, 24"-49" sizes
-- **1,040+ Total Products** - Comprehensive Zod-validated JSON database across all categories
+- **2,026+ Total Products** - Comprehensive Zod-validated JSON database across all categories
 - **Rich Attributes** - Weight, dimensions, grip styles, sensor class, switch types, panel specs, and more
 - **Retailer Links** - Direct links to manufacturer pages, Amazon, Best Buy, Micro Center, and more
 - **Price Tracking** - Prices updated with major retailer data
@@ -101,7 +101,7 @@ GearMatch takes a quiz-based approach to match users with peripherals that fit t
 - **Wrangler** - Cloudflare local development and deployment
 - **Lucide React** - Icon library
 - **Web Audio API** - Synthesized UI sound effects
-- **Vitest** - Testing framework (247 tests)
+- **Vitest** - Testing framework (526 tests)
 
 ## Getting Started
 
@@ -253,9 +253,9 @@ gearmatch/
 │   │   ├── curated-loadouts.ts   # 4 pre-built curated loadouts
 │   │   ├── loadout-categories.ts # Category metadata (icons, colors)
 │   │   └── products/             # Product database (Zod-validated JSON)
-│   │       ├── mice.json         # Gaming mice (185 products)
-│   │       ├── audio.json        # Audio equipment (198 products)
-│   │       ├── keyboards.json    # Keyboards (279 products)
+│   │       ├── mice.json         # Gaming mice (1,123 products)
+│   │       ├── audio.json        # Audio equipment (247 products)
+│   │       ├── keyboards.json    # Keyboards (278 products)
 │   │       └── monitors.json     # Monitors (378 products, RTINGS data)
 │   │
 │   ├── lib/
@@ -437,18 +437,19 @@ The `public/_redirects` file handles SPA routing:
 
 ## Current Product Database
 
-### Gaming Mice (185 products)
+### Gaming Mice (1,123 products)
 - **Premium Competitive:** Razer Viper V3 Pro, Logitech G Pro X Superlight 2, Pulsar X2, Finalmouse UltralightX
-- **Budget Options:** Logitech G305, Razer DeathAdder V3, various ultralight alternatives
+- **Budget Options:** Logitech G305 LIGHTSPEED, Razer DeathAdder V3, various ultralight alternatives
 - **Ergonomic:** Logitech G502, Razer Basilisk series, Logitech MX Master
-- **Price Range:** $30-$200+
+- **Price Range:** $10-$200+
 
-### Audio Equipment (198 products)
+### Audio Equipment (247 products)
 - **Gaming Headsets:** SteelSeries Arctis, HyperX Cloud, Razer BlackShark series
 - **Open-Back Headphones:** Sennheiser HD 560S, beyerdynamic DT 900 Pro X, audiophile options
-- **IEMs:** Budget ($23-$50), Mid-range ($69-$120), Premium ($150-$250), Flagship ($300-$500)
+- **IEMs (80+):** Budget ($19-$60), Mid-range ($60-$120), Upper Mid ($120-$220), Premium ($220-$400), Flagship ($400+)
+- **TWS Earbuds:** Apple AirPods Pro 2, Google Pixel Buds Pro 2, Samsung Galaxy Buds, gaming TWS options
 
-### Keyboards (279 products)
+### Keyboards (278 products)
 - **Magnetic/Hall Effect:** Wooting 60HE+, MonsGeek M1 HE, DrunkDeer A75 with Rapid Trigger
 - **Mechanical:** Premium gasket-mount to budget options
 - **Form Factors:** Full-size, TKL, 75%, 65%, 60%
@@ -464,7 +465,9 @@ The `public/_redirects` file handles SPA routing:
 ## Recent Updates
 
 ### March 2026 (latest)
-- **Loadout Builder** - CS:GO-style radial buy menu for building complete peripheral setups with 1,040+ products across 4 categories
+- **Production Readiness Audit** - Fixed duplicate product entries, affiliate tag coverage, console log gating (dev-only), Sentry tracesSampleRate tuned to 0.1
+- **IEM Database Expansion** - Added 51 new IEMs across all price tiers ($19–$900+): budget wired, mics, hybrid, planar, TWS; 80 total IEMs
+- **Loadout Builder** - CS:GO-style radial buy menu for building complete peripheral setups with 2,000+ products across 4 categories
 - **Curated Loadouts** - 4 pre-built loadouts (Budget FPS, Premium Productivity, Competitive Esports, Streaming Pro) with real product data
 - **Radial Menu (Desktop)** - SVG radial wheel with category wedges, dynamic glow effects, item count badges, and animated product panel
 - **Mobile Loadout UI** - Tab-based interface with sticky bottom bar, drawer modal, and touch-optimized layout
@@ -494,7 +497,7 @@ The `public/_redirects` file handles SPA routing:
 ### February 2026 (early)
 - **Keyboard Recommendation System** - Full quiz with 279 products, 10 scoring categories, magnetic/mechanical/optical switch support
 - **Monitor Recommendation System** - Full quiz with 378 products, RTINGS data integration, 11 scoring categories
-- **Massive Database Expansion** - From 32 products to 1,040+ products across all categories
+- **Massive Database Expansion** - From 32 products to 2,000+ products across all categories
 - **Hero Section Update** - All 4 product categories displayed with scrolling gallery
 - **Footer Improvements** - Updated layout and spacing for new pages
 
@@ -524,7 +527,7 @@ The `workspace/` folder contains development documentation:
 Run the test suite:
 
 ```bash
-# Run all tests (247 tests)
+# Run all tests (526 tests)
 npm test
 
 # Run tests in watch mode
@@ -547,7 +550,7 @@ Test coverage includes:
 - [x] Landing page V2 redesign with scroll animations
 - [x] Keyboard recommendations (279 products)
 - [x] Monitor recommendations (378 products, RTINGS integration)
-- [x] Expanded product databases (1,040+ total products)
+- [x] Expanded product databases (2,000+ total products)
 - [x] API layer via Cloudflare Pages Functions
 - [x] Web Worker scoring for off-thread computation
 - [x] Pre-filtering system for performance
@@ -557,13 +560,13 @@ Test coverage includes:
 - [x] Retailer links and price tracking
 - [x] Security headers configuration (CORS, CSP, HSTS)
 - [x] Rate limiting on API endpoints
+- [x] Error monitoring (Sentry) with session replay
 
 ### Coming Soon
 - [ ] Keyboard switches guide
 - [ ] Controller recommendations
 - [ ] Product comparison feature
 - [ ] User accounts for saving preferences
-- [ ] Error monitoring integration (Sentry)
 
 ## License
 
