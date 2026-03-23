@@ -23,25 +23,63 @@ export class ApiError extends Error {
 }
 
 const API_BASE = "/api/products";
+const REQUEST_TIMEOUT_MS = 15_000;
+const MAX_RETRIES = 2;
+const RETRY_DELAY_MS = 1_000;
+
+async function fetchWithTimeout(
+  url: string,
+  init?: RequestInit
+): Promise<Response> {
+  const controller = new AbortController();
+  const timeoutId = setTimeout(() => controller.abort(), REQUEST_TIMEOUT_MS);
+  try {
+    return await fetch(url, { ...init, signal: controller.signal });
+  } finally {
+    clearTimeout(timeoutId);
+  }
+}
 
 async function fetchJson<T>(url: string, init?: RequestInit): Promise<T> {
-  const response = await fetch(url, init);
+  let lastError: unknown;
 
-  if (!response.ok) {
-    let details: unknown;
+  for (let attempt = 0; attempt <= MAX_RETRIES; attempt++) {
     try {
-      details = await response.json();
-    } catch {
-      // Response may not be JSON
+      const response = await fetchWithTimeout(url, init);
+
+      if (!response.ok) {
+        let details: unknown;
+        try {
+          details = await response.json();
+        } catch {
+          // Response may not be JSON
+        }
+        const error = new ApiError(
+          `API request failed: ${response.status}`,
+          response.status,
+          details
+        );
+        // Don't retry client errors (4xx)
+        if (response.status >= 400 && response.status < 500) {
+          throw error;
+        }
+        lastError = error;
+      } else {
+        return response.json() as Promise<T>;
+      }
+    } catch (err) {
+      if (err instanceof ApiError && err.status >= 400 && err.status < 500) {
+        throw err;
+      }
+      lastError = err;
     }
-    throw new ApiError(
-      `API request failed: ${response.status}`,
-      response.status,
-      details
-    );
+
+    if (attempt < MAX_RETRIES) {
+      await new Promise((r) => setTimeout(r, RETRY_DELAY_MS * (attempt + 1)));
+    }
   }
 
-  return response.json() as Promise<T>;
+  throw lastError;
 }
 
 export const productsApi = {
