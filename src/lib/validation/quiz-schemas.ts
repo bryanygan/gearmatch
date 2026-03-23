@@ -116,7 +116,7 @@ export function validateMouseAnswers(
   if (result.success) {
     return result.data;
   }
-  console.warn("Invalid mouse quiz answers:", result.error.issues);
+  if (import.meta.env.DEV) console.warn("Invalid mouse quiz answers:", result.error.issues);
   return null;
 }
 
@@ -131,7 +131,7 @@ export function validateAudioAnswers(
   if (result.success) {
     return result.data;
   }
-  console.warn("Invalid audio quiz answers:", result.error.issues);
+  if (import.meta.env.DEV) console.warn("Invalid audio quiz answers:", result.error.issues);
   return null;
 }
 
@@ -146,7 +146,7 @@ export function validateKeyboardAnswers(
   if (result.success) {
     return result.data;
   }
-  console.warn("Invalid keyboard quiz answers:", result.error.issues);
+  if (import.meta.env.DEV) console.warn("Invalid keyboard quiz answers:", result.error.issues);
   return null;
 }
 
@@ -161,7 +161,7 @@ export function validateMonitorAnswers(
   if (result.success) {
     return result.data;
   }
-  console.warn("Invalid monitor quiz answers:", result.error.issues);
+  if (import.meta.env.DEV) console.warn("Invalid monitor quiz answers:", result.error.issues);
   return null;
 }
 
