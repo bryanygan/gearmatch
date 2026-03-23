@@ -107,7 +107,8 @@
     },
     "retailer_urls": {
       "manufacturer": "https://www.monsgeek.com/product/fun60-ultra/"
-    }
+    },
+    "image_url": "https://m.media-amazon.com/images/I/51G4V6rYreL._AC_SL1500_.jpg"
   },
   {
     "id": "wooting_80he",
@@ -213,7 +214,8 @@
     },
     "retailer_urls": {
       "manufacturer": "https://wooting.io/wooting-80he"
-    }
+    },
+    "image_url": "https://m.media-amazon.com/images/I/618ldB2HRcL._AC_SS345_.jpg"
   },
   {
     "id": "nuphy_field75_he",
@@ -533,7 +535,8 @@
         "productivity"
       ],
       "keyboard_value_pick": false
-    }
+    },
+    "image_url": "https://m.media-amazon.com/images/I/611aFiumsGL._AC_SX679_.jpg"
   },
   {
     "id": "brydge_10_2_keyboard_for_apple_ipad",
@@ -1231,7 +1234,8 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    }
+    },
+    "image_url": "https://m.media-amazon.com/images/I/61K+DsLNdHL._AC_SX679_.jpg"
   },
   {
     "id": "nuphy_air75_he",
@@ -2332,7 +2336,8 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    }
+    },
+    "image_url": "https://m.media-amazon.com/images/I/61BR5pB8gaL._AC_SL1500_.jpg"
   },
   {
     "id": "logitech_alto_keys_k98m",
@@ -3109,7 +3114,8 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    }
+    },
+    "image_url": "https://m.media-amazon.com/images/I/71NFUiC1XaL._AC_SX679_.jpg"
   },
   {
     "id": "steelseries_apex_pro_mini",
@@ -3188,7 +3194,8 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    }
+    },
+    "image_url": "https://m.media-amazon.com/images/I/71iUUN3rSZL._AC_SL1500_.jpg"
   },
   {
     "id": "steelseries_apex_pro_tkl_2023",
@@ -4203,7 +4210,8 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    }
+    },
+    "image_url": "https://m.media-amazon.com/images/I/815XJdl7fXL._AC_SX679_.jpg"
   },
   {
     "id": "razer_blackwidow_v4_pro",
@@ -4292,7 +4300,8 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    }
+    },
+    "image_url": "https://m.media-amazon.com/images/I/81L4FpeS3VL._AC_SX679_.jpg"
   },
   {
     "id": "razer_blackwidow_v4",
@@ -4380,7 +4389,8 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    }
+    },
+    "image_url": "https://m.media-amazon.com/images/I/81EEknaRvIL._AC_SX679_.jpg"
   },
   {
     "id": "razer_blackwidow",
@@ -4539,7 +4549,8 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    }
+    },
+    "image_url": "https://m.media-amazon.com/images/I/718TmOrlQZL._SL1500_.jpg"
   },
   {
     "id": "keychron_c1",
@@ -4694,7 +4705,8 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    }
+    },
+    "image_url": "https://m.media-amazon.com/images/I/61qTiGEQFtL._AC_SL1500_.jpg"
   },
   {
     "id": "logitech_combo_touch",
@@ -4927,7 +4939,8 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    }
+    },
+    "image_url": "https://m.media-amazon.com/images/I/7185Od1sxmL._AC_SS345_.jpg"
   },
   {
     "id": "razer_cynosa_chroma",
@@ -7021,7 +7034,8 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    }
+    },
+    "image_url": "https://m.media-amazon.com/images/I/61JmLKdTK1L._AC_SL1500_.jpg"
   },
   {
     "id": "logitech_g_pro_x_keyboard",
@@ -7197,7 +7211,8 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    }
+    },
+    "image_url": "https://m.media-amazon.com/images/I/618ldB2HRcL._AC_SX679_.jpg"
   },
   {
     "id": "logitech_g_pro_x_tkl",
@@ -7611,7 +7626,8 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    }
+    },
+    "image_url": "https://m.media-amazon.com/images/I/51R90b-WV1L._AC_SS345_.jpg"
   },
   {
     "id": "logitech_g513",
@@ -9538,7 +9554,8 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    }
+    },
+    "image_url": "https://m.media-amazon.com/images/I/61xjYvgvUML._AC_SL1500_.jpg"
   },
   {
     "id": "razer_huntsman_elite",
@@ -9792,7 +9809,8 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    }
+    },
+    "image_url": "https://m.media-amazon.com/images/I/618etkLUt9L._AC_SL1500_.jpg"
   },
   {
     "id": "razer_huntsman_tournament_edition",
@@ -10132,7 +10150,8 @@
         "office"
       ],
       "keyboard_value_pick": false
-    }
+    },
+    "image_url": "https://m.media-amazon.com/images/I/81g0bjCPYOL._AC_SX679_.jpg"
   },
   {
     "id": "razer_huntsman_v3_pro_mini_tkl",
@@ -10480,7 +10499,8 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    }
+    },
+    "image_url": "https://m.media-amazon.com/images/I/71ncSOmlNBL._AC_SL1500_.jpg"
   },
   {
     "id": "keychron_k1",
@@ -10897,7 +10917,8 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    }
+    },
+    "image_url": "https://m.media-amazon.com/images/I/610wMeW7p9L._AC_SL1500_.jpg"
   },
   {
     "id": "keychron_k14",
@@ -10977,7 +10998,8 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    }
+    },
+    "image_url": "https://m.media-amazon.com/images/I/61OS8Ptfl2L._AC_SS345_.jpg"
   },
   {
     "id": "keychron_k2_he_k4_he_k8_he_etc",
@@ -11150,7 +11172,8 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    }
+    },
+    "image_url": "https://m.media-amazon.com/images/I/61dXb5X1mYL._AC_SX679_.jpg"
   },
   {
     "id": "npet_k20",
@@ -11311,7 +11334,8 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    }
+    },
+    "image_url": "https://m.media-amazon.com/images/I/71KT0A6-cjL._AC_SL1500_.jpg"
   },
   {
     "id": "keychron_k3",
@@ -11705,7 +11729,8 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    }
+    },
+    "image_url": "https://m.media-amazon.com/images/I/61xgXGaP2-L._AC_SX679_.jpg"
   },
   {
     "id": "logitech_k400_plus",
@@ -12357,7 +12382,8 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    }
+    },
+    "image_url": "https://m.media-amazon.com/images/I/71lQnVCMmXL._AC_SL1500_.jpg"
   },
   {
     "id": "corsair_k57_rgb_wireless",
@@ -12601,7 +12627,8 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    }
+    },
+    "image_url": "https://m.media-amazon.com/images/I/61iDmpTDDeL._AC_SL1500_.jpg"
   },
   {
     "id": "keychron_k6",
@@ -12682,7 +12709,8 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    }
+    },
+    "image_url": "https://m.media-amazon.com/images/I/61x3nRatR9L._AC_SS345_.jpg"
   },
   {
     "id": "corsair_k60_rgb_pro_low_profile",
@@ -14290,7 +14318,8 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    }
+    },
+    "image_url": "https://m.media-amazon.com/images/I/61XULBEea2L._AC_SL1500_.jpg"
   },
   {
     "id": "keychron_k8",
@@ -14448,7 +14477,8 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    }
+    },
+    "image_url": "https://m.media-amazon.com/images/I/61ni0LyXCDL._AC_SX679_.jpg"
   },
   {
     "id": "corsair_k83_wireless",
@@ -14605,7 +14635,8 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    }
+    },
+    "image_url": "https://m.media-amazon.com/images/I/51J05wjSVGL._AC_SS345_.jpg"
   },
   {
     "id": "logitech_k845",
@@ -14923,7 +14954,8 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    }
+    },
+    "image_url": "https://m.media-amazon.com/images/I/518WoRg1c5L._AC_SL1200_.jpg"
   },
   {
     "id": "logitech_keys_to_go_2",
@@ -15505,7 +15537,8 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    }
+    },
+    "image_url": "https://m.media-amazon.com/images/I/41zF0OXgNzL._AC_SX679_.jpg"
   },
   {
     "id": "apple_magic_keyboard_for_ipad_2021",
@@ -15581,7 +15614,8 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    }
+    },
+    "image_url": "https://m.media-amazon.com/images/I/41eX+PWB2cL.jpg"
   },
   {
     "id": "apple_magic_keyboard_for_ipad_pro_m4",
@@ -15655,7 +15689,8 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    }
+    },
+    "image_url": "https://m.media-amazon.com/images/I/7112119JgrL._AC_SL1500_.jpg"
   },
   {
     "id": "apple_magic_keyboard_with_touch_id_and_numeric_keypad",
@@ -15983,7 +16018,8 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    }
+    },
+    "image_url": "https://m.media-amazon.com/images/I/61-RoURbxfL._AC_QL10_SX980_SY55_FMwebp_.jpg"
   },
   {
     "id": "ducky_miya_pro",
@@ -16062,7 +16098,8 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    }
+    },
+    "image_url": "https://m.media-amazon.com/images/I/71K0HHFujTS._AC_SL1500_.jpg"
   },
   {
     "id": "cooler_master_mk730",
@@ -16139,7 +16176,8 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    }
+    },
+    "image_url": "https://m.media-amazon.com/images/I/712dAg-68+L._AC_SS345_.jpg"
   },
   {
     "id": "akko_mod007_he_pc",
@@ -16227,7 +16265,8 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    }
+    },
+    "image_url": "https://m.media-amazon.com/images/I/61smnafRFgL._AC_SL1500_.jpg"
   },
   {
     "id": "ibm_model_m",
@@ -16378,7 +16417,8 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    }
+    },
+    "image_url": "https://m.media-amazon.com/images/I/61kOv7AiGdL._AC_SL1500_.jpg"
   },
   {
     "id": "zsa_moonlander",
@@ -17463,7 +17503,8 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    }
+    },
+    "image_url": "https://m.media-amazon.com/images/I/81DIb-sYOpL._AC_SS345_.jpg"
   },
   {
     "id": "razer_ornata_chroma",
@@ -17540,7 +17581,8 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    }
+    },
+    "image_url": "https://m.media-amazon.com/images/I/71YW8+KhOwL._AC_SL1500_.jpg"
   },
   {
     "id": "razer_ornata_v2",
@@ -17875,7 +17917,8 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    }
+    },
+    "image_url": "https://m.media-amazon.com/images/I/81hNFdQAPxL._AC_SL1500_.jpg"
   },
   {
     "id": "logitech_pebble_keys_2_k380s",
@@ -18119,7 +18162,8 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    }
+    },
+    "image_url": "https://m.media-amazon.com/images/I/71GwYVKtJEL._AC_SL1500_.jpg"
   },
   {
     "id": "zagg_pro_keys_2",
@@ -18198,7 +18242,8 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    }
+    },
+    "image_url": "https://m.media-amazon.com/images/I/61gHsatf+zL._AC_SL1500_.jpg"
   },
   {
     "id": "zagg_pro_keys",
@@ -18279,7 +18324,8 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    }
+    },
+    "image_url": "https://m.media-amazon.com/images/I/61jPgqalfLL._AC_SL1500_.jpg"
   },
   {
     "id": "razer_pro_type_ultra",
@@ -18370,7 +18416,8 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    }
+    },
+    "image_url": "https://m.media-amazon.com/images/I/61Zl5N5yY7L._AC_SL1500_.jpg"
   },
   {
     "id": "razer_pro_type",
@@ -18453,7 +18500,8 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    }
+    },
+    "image_url": "https://m.media-amazon.com/images/I/71tGkC1lkLL._AC_SL1500_.jpg"
   },
   {
     "id": "roccat_pyro",
@@ -18802,7 +18850,8 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    }
+    },
+    "image_url": "https://m.media-amazon.com/images/I/610K17QHnPL._AC_SL1500_.jpg"
   },
   {
     "id": "keychron_q2",
@@ -18884,7 +18933,8 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    }
+    },
+    "image_url": "https://m.media-amazon.com/images/I/61hu4Np3QXL._AC_SL1500_.jpg"
   },
   {
     "id": "keychron_q3",
@@ -18964,7 +19014,8 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    }
+    },
+    "image_url": "https://m.media-amazon.com/images/I/619fjokcVbL._AC_SL1500_.jpg"
   },
   {
     "id": "keychron_q4",
@@ -19211,7 +19262,8 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    }
+    },
+    "image_url": "https://m.media-amazon.com/images/I/61XK4Vx93fL._AC_SL1500_.jpg"
   },
   {
     "id": "keychron_q6",
@@ -19373,7 +19425,8 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    }
+    },
+    "image_url": "https://m.media-amazon.com/images/I/61ky9TKKLIL._AC_SX679_.jpg"
   },
   {
     "id": "keychron_q8",
@@ -19454,7 +19507,8 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    }
+    },
+    "image_url": "https://m.media-amazon.com/images/I/61JeS0Po9vL._AC_QL10_SX1960_SY110_FMwebp_.jpg"
   },
   {
     "id": "realforce_r2",
@@ -19602,7 +19656,8 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    }
+    },
+    "image_url": "https://m.media-amazon.com/images/I/61kj4ub9U9L._AC_SL1200_.jpg"
   },
   {
     "id": "dygma_raise_2",
@@ -19960,7 +20015,8 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    }
+    },
+    "image_url": "https://m.media-amazon.com/images/I/61ORs8vthLL._AC_SL1500_.jpg"
   },
   {
     "id": "asus_rog_azoth_extreme",
@@ -20054,7 +20110,8 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    }
+    },
+    "image_url": "https://m.media-amazon.com/images/I/81UvrysuL4L._AC_SL1500_.jpg"
   },
   {
     "id": "asus_rog_azoth",
@@ -20146,7 +20203,8 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    }
+    },
+    "image_url": "https://m.media-amazon.com/images/I/81ykzmz6KZL._SL1500_.jpg"
   },
   {
     "id": "asus_rog_claymore_ii",
@@ -20227,7 +20285,8 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    }
+    },
+    "image_url": "https://m.media-amazon.com/images/I/715p-052NjL._AC_SL1500_.jpg"
   },
   {
     "id": "asus_rog_falchion_rx_low_profile",
@@ -20320,7 +20379,8 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    }
+    },
+    "image_url": "https://m.media-amazon.com/images/I/71sGyTRQ6VL._AC_SL1500_.jpg"
   },
   {
     "id": "asus_rog_falchion",
@@ -20408,7 +20468,8 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    }
+    },
+    "image_url": "https://m.media-amazon.com/images/I/61nFlrrffsS._AC_SL1200_.jpg"
   },
   {
     "id": "asus_rog_strix_flare_ii_animate",
@@ -20492,7 +20553,8 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    }
+    },
+    "image_url": "https://m.media-amazon.com/images/I/61BCodO7-PL._AC_SL1500_.jpg"
   },
   {
     "id": "asus_rog_strix_scope_ii_96_wireless",
@@ -20582,7 +20644,8 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    }
+    },
+    "image_url": "https://m.media-amazon.com/images/I/91YxKZjwOPL._AC_SX679_.jpg"
   },
   {
     "id": "asus_rog_strix_scope_tkl",
@@ -20659,7 +20722,8 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    }
+    },
+    "image_url": "https://m.media-amazon.com/images/I/710b8CHf2AL._AC_SS345_.jpg"
   },
   {
     "id": "keychron_s_series",
@@ -21235,7 +21299,8 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    }
+    },
+    "image_url": "https://m.media-amazon.com/images/I/71G46DG8+5L._AC_SL1500_.jpg"
   },
   {
     "id": "fintie_soft_tpu_keyboard_case_for_ipad_7th_gen",
@@ -21311,7 +21376,8 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    }
+    },
+    "image_url": "https://m.media-amazon.com/images/I/81psrcLdrSL._AC_SL1500_.jpg"
   },
   {
     "id": "corsair_strafe_rgb_mk_2",
@@ -21475,7 +21541,8 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    }
+    },
+    "image_url": "https://m.media-amazon.com/images/I/519-TaYA1YL._AC_SL1500_.jpg"
   },
   {
     "id": "microsoft_surface_ergonomic_keyboard",
@@ -21554,7 +21621,8 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    }
+    },
+    "image_url": "https://m.media-amazon.com/images/I/611aS-7menL._AC_SL1000_.jpg"
   },
   {
     "id": "microsoft_surface_keyboard",
@@ -21705,7 +21773,8 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    }
+    },
+    "image_url": "https://m.media-amazon.com/images/I/61MNdQzleWL._AC_SL1500_.jpg"
   },
   {
     "id": "epomaker_th80_pro",
@@ -21871,7 +21940,8 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    }
+    },
+    "image_url": "https://m.media-amazon.com/images/I/61PthWigGSL._AC_SL1500_.jpg"
   },
   {
     "id": "iclever_tri_folding_keyboard_bk08",
@@ -21953,7 +22023,8 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    }
+    },
+    "image_url": "https://m.media-amazon.com/images/I/61ZoqqfQVOL._AC_SL1500_.jpg"
   },
   {
     "id": "adesso_tru_form_150",
@@ -22025,7 +22096,8 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    }
+    },
+    "image_url": "https://m.media-amazon.com/images/I/71FN+7yby6L._AC_QL10_SX980_SY55_FMwebp_.jpg"
   },
   {
     "id": "wooting_two_he",
@@ -22357,7 +22429,8 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    }
+    },
+    "image_url": "https://m.media-amazon.com/images/I/61Gm9XxQydL._AC_SL1200_.jpg"
   },
   {
     "id": "geonworks_venom_60_he",
@@ -22606,7 +22679,8 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    }
+    },
+    "image_url": "https://m.media-amazon.com/images/I/51+brnXaU9L._AC_SL1000_.jpg"
   },
   {
     "id": "roccat_vulcan_ii_mini_air",
@@ -22696,7 +22770,8 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    }
+    },
+    "image_url": "https://m.media-amazon.com/images/I/81H94dhV5JL._AC_SL1500_.jpg"
   },
   {
     "id": "roccat_vulcan_pro",
@@ -22940,7 +23015,8 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    }
+    },
+    "image_url": "https://m.media-amazon.com/images/I/71Yp7pxBFOL._AC_SL1500_.jpg"
   },
   {
     "id": "dierya_x_kemove_dk61_pro",
@@ -23020,7 +23096,8 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    }
+    },
+    "image_url": "https://m.media-amazon.com/images/I/61AnP7HbarL._AC_SL1200_.jpg"
   },
   {
     "id": "das_keyboard_x50q",
@@ -23177,7 +23254,8 @@
         "typing"
       ],
       "keyboard_value_pick": false
-    }
+    },
+    "image_url": "https://m.media-amazon.com/images/I/714WvRlURgL._AC_SL1500_.jpg"
   },
   {
     "id": "evga_z15",
