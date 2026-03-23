@@ -396,6 +396,7 @@ const RecommendationCard = memo(function RecommendationCard({
         {/* Retailer buttons */}
         {(sanitizeUrl(product.product_url) || sanitizeUrl(product.manufacturer_url) || (product.retailer_urls && Object.keys(product.retailer_urls).length > 0)) && (
           <div className="flex flex-wrap items-center gap-2 pt-2">
+            <span className="w-full text-[10px] text-muted-foreground/50 -mb-1">affiliate links — same price for you</span>
             {/* Product URL button - Amazon-branded if amazon domain, neutral otherwise */}
             {sanitizeUrl(product.product_url) && (() => {
               const safeUrl = sanitizeUrl(product.product_url)!;

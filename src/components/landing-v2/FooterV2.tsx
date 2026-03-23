@@ -195,29 +195,42 @@ const FooterV2 = () => {
 
         {/* Bottom Bar */}
         <div
-          className="mt-12 pt-8 flex flex-col md:flex-row items-center justify-between gap-4"
+          className="mt-12 pt-8 flex flex-col items-center gap-3"
           style={{ borderTop: "1px solid var(--v2-border)" }}
         >
           <p
             style={{
               fontFamily: "var(--v2-font-mono)",
-              fontSize: "11px",
-              color: "var(--v2-text-dim)",
-              letterSpacing: "0.06em",
-            }}
-          >
-            &copy; {new Date().getFullYear()} GEARMATCH. ALL RIGHTS RESERVED.
-          </p>
-          <p
-            style={{
-              fontFamily: "var(--v2-font-mono)",
               fontSize: "10px",
               color: "var(--v2-text-dim)",
-              letterSpacing: "0.06em",
+              letterSpacing: "0.04em",
+              textAlign: "center",
             }}
           >
-            WE MAY EARN A COMMISSION WHEN YOU BUY THROUGH OUR LINKS.
+            As an Amazon Associate I earn from qualifying purchases. We may also earn commissions through other affiliate links at no additional cost to you.
           </p>
+          <div className="flex flex-col md:flex-row items-center justify-between gap-3 w-full">
+            <p
+              style={{
+                fontFamily: "var(--v2-font-mono)",
+                fontSize: "11px",
+                color: "var(--v2-text-dim)",
+                letterSpacing: "0.06em",
+              }}
+            >
+              &copy; {new Date().getFullYear()} GEARMATCH. ALL RIGHTS RESERVED.
+            </p>
+            <p
+              style={{
+                fontFamily: "var(--v2-font-mono)",
+                fontSize: "10px",
+                color: "var(--v2-text-dim)",
+                letterSpacing: "0.06em",
+              }}
+            >
+              AFFILIATE LINKS — SAME PRICE FOR YOU.
+            </p>
+          </div>
         </div>
       </div>
     </footer>

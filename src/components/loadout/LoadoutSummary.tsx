@@ -333,6 +333,9 @@ function RetailerLinks({ product }: { product: Product }) {
         <p className="px-2 py-1 text-[10px] font-mono font-bold uppercase tracking-wider text-slate-500">
           Buy from
         </p>
+        <p className="px-2 pb-1 text-[9px] text-slate-600">
+          affiliate links — same price for you
+        </p>
         {safePrimaryUrl && (
           <a
             href={safePrimaryUrl}

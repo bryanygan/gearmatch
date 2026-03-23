@@ -23,7 +23,7 @@ const AffiliateDisclosurePage = () => {
               affect) our recommendations.
             </p>
             <p className="text-sm text-muted-foreground mt-4">
-              Last updated: February 2026
+              Last updated: March 2026
             </p>
           </div>
         </div>
@@ -232,42 +232,47 @@ const AffiliateDisclosurePage = () => {
                       <span className="text-primary mt-1 font-bold">•</span>
                       <span>
                         <strong className="text-foreground">Clear.</strong> We use
-                        straightforward language such as "(paid link)", "#ad", or
-                        "#CommissionsEarned" to identify affiliate links.
+                        plain language — "affiliate links — same price for you" — near
+                        every set of product buy buttons, so you always know before
+                        you click.
                       </span>
                     </li>
                     <li className="flex items-start gap-3">
                       <span className="text-primary mt-1 font-bold">•</span>
                       <span>
                         <strong className="text-foreground">Conspicuous.</strong>{" "}
-                        Disclosures are placed near affiliate links and product
-                        recommendations in locations that are easy to notice.
+                        Disclosures appear directly adjacent to product links on
+                        results and loadout pages, in our site footer on every page,
+                        and on this dedicated disclosure page.
+                      </span>
+                    </li>
+                    <li className="flex items-start gap-3">
+                      <span className="text-primary mt-1 font-bold">•</span>
+                      <span>
+                        <strong className="text-foreground">Proximate.</strong> Per the
+                        FTC's 2023 revised Endorsement Guides (16 CFR Part 255,
+                        effective September 2023), disclosures must be as close as
+                        possible to the triggering affiliate link. We place notices
+                        immediately above buy buttons, not only in a footer or
+                        separate page.
                       </span>
                     </li>
                   </ul>
                   <p>
-                    This disclosure page, along with notices in our website footer and
-                    near product links, ensures you always know when we may earn a
-                    commission from your purchases.
+                    This disclosure page, combined with notices in our site footer and
+                    directly adjacent to every set of purchase links, satisfies the
+                    FTC's "clear and conspicuous" standard under the 2023 Endorsement
+                    Guides.
                   </p>
                   <p className="text-sm">
                     For more information about FTC endorsement guidelines, visit the{" "}
                     <a
-                      href="https://www.ftc.gov/tips-advice/business-center/guidance/ftcs-endorsement-guides-what-people-are-asking#affiliate"
+                      href="https://www.ftc.gov/business-guidance/advertising-marketing/endorsements-testimonials"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-primary hover:underline"
                     >
-                      FTC's Endorsement Guides FAQ
-                    </a>{" "}
-                    or the{" "}
-                    <a
-                      href="https://www.ftc.gov/business-guidance/resources/disclosures-101-social-media-influencers"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-primary hover:underline"
-                    >
-                      FTC's Disclosures 101 for Social Media Influencers
+                      FTC Endorsements & Testimonials guidance
                     </a>
                     .
                   </p>
