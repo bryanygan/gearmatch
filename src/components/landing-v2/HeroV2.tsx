@@ -555,9 +555,9 @@ const PackCardV2 = ({
 
       {/* Items */}
       <div style={{ marginBottom: "16px" }}>
-        {itemNames.map((name) => (
+        {itemNames.map((name, index) => (
           <div
-            key={name}
+            key={index}
             style={{
               fontFamily: "var(--v2-font-body)",
               fontSize: "14px",
