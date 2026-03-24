@@ -10,7 +10,7 @@ window.addEventListener("unhandledrejection", (event) => {
 });
 
 createRoot(document.getElementById("root")!).render(
-  <Sentry.ErrorBoundary fallback={<p>Something went wrong</p>} showDialog>
+  <Sentry.ErrorBoundary fallback={<p>Something went wrong</p>}>
     <App />
   </Sentry.ErrorBoundary>
 );

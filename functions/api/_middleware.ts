@@ -10,12 +10,16 @@ interface Env {
   ALLOWED_ORIGIN?: string;
 }
 
-// In-memory rate limit tracking (per isolate, resets on cold start)
+// In-memory rate limit tracking (per isolate, resets on cold start).
+// NOTE: Cloudflare may run multiple isolates concurrently, so a determined
+// client can bypass these limits by forcing new isolate starts. For strict
+// enforcement at scale, migrate to Cloudflare Durable Objects or KV.
 const rateLimitMap = new Map<string, { count: number; resetAt: number }>();
 
 const RATE_LIMITS: Record<string, { max: number; windowMs: number }> = {
   search: { max: 30, windowMs: 60_000 },
   filter: { max: 10, windowMs: 60_000 },
+  category: { max: 60, windowMs: 60_000 },
 };
 
 function getRateLimitKey(ip: string, endpoint: string): string {
@@ -40,11 +44,14 @@ function checkRateLimit(ip: string, endpoint: string): { allowed: boolean; remai
   return { allowed: entry.count <= config.max, remaining };
 }
 
+const VALID_CATEGORY_SLUGS = new Set(["mice", "keyboards", "audio", "monitors"]);
+
 function getRateLimitEndpoint(pathname: string): string | null {
   const segments = pathname.split("/").filter(Boolean);
   const last = segments[segments.length - 1];
   if (last === "search") return "search";
   if (last === "filter") return "filter";
+  if (VALID_CATEGORY_SLUGS.has(last)) return "category";
   return null;
 }
 
