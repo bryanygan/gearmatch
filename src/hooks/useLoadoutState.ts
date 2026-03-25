@@ -53,12 +53,18 @@ const VALID_CATEGORIES: readonly LoadoutCategory[] = [
   "mouse", "audio", "keyboard", "monitor",
 ];
 
+// Product IDs in the data files follow the pattern "brand_model" and are
+// well under 100 characters.  Reject anything suspiciously long to prevent
+// a crafted localStorage payload from bloating state/memory.
+const MAX_PRODUCT_ID_LENGTH = 128;
+
 function isValidItem(item: unknown): item is LoadoutItem {
   if (!item || typeof item !== "object") return false;
   const obj = item as Record<string, unknown>;
   return (
     typeof obj.productId === "string" &&
     obj.productId.length > 0 &&
+    obj.productId.length <= MAX_PRODUCT_ID_LENGTH &&
     typeof obj.category === "string" &&
     (VALID_CATEGORIES as readonly string[]).includes(obj.category)
   );

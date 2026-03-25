@@ -330,7 +330,7 @@ function RetailerLinks({ product }: { product: Product }) {
       <a
         href={safePrimaryUrl}
         target="_blank"
-        rel="noopener noreferrer"
+        rel="noopener noreferrer" referrerPolicy="no-referrer"
         className="shrink-0 rounded p-1 text-slate-500 hover:bg-slate-700 hover:text-slate-300 transition-colors"
         aria-label={`View ${product.name}`}
       >
@@ -366,7 +366,7 @@ function RetailerLinks({ product }: { product: Product }) {
           <a
             href={safePrimaryUrl}
             target="_blank"
-            rel="noopener noreferrer"
+            rel="noopener noreferrer" referrerPolicy="no-referrer"
             className="flex items-center gap-2 rounded-md px-2 py-1.5 text-xs text-slate-200 hover:bg-slate-800 transition-colors"
           >
             <ExternalLink size={11} className="shrink-0 text-slate-500" />
@@ -382,7 +382,7 @@ function RetailerLinks({ product }: { product: Product }) {
                 key={key}
                 href={safeUrl}
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="noopener noreferrer" referrerPolicy="no-referrer"
                 className="flex items-center gap-2 rounded-md px-2 py-1.5 text-xs text-slate-200 hover:bg-slate-800 transition-colors"
               >
                 <ExternalLink size={11} className="shrink-0 text-slate-500" />

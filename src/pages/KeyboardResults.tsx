@@ -32,7 +32,16 @@ const KeyboardResults = () => {
   const [view, setView] = useState<"grid" | "list">("grid");
   const [compareList, setCompareList] = useState<string[]>([]);
   const [excludeIds, setExcludeIds] = useState<string[]>(() => {
-    return searchParams.get("exclude")?.split(",").filter(Boolean) ?? [];
+    // Limit individual ID length and total count to prevent oversized URL payloads
+    const MAX_ID_LEN = 128;
+    const MAX_EXCLUDE = 100;
+    return (
+      searchParams
+        .get("exclude")
+        ?.split(",")
+        .filter((id) => id.length > 0 && id.length <= MAX_ID_LEN)
+        .slice(0, MAX_EXCLUDE) ?? []
+    );
   });
   const [showFilteredOut, setShowFilteredOut] = useState(false);
 

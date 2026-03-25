@@ -109,7 +109,7 @@ const ProductBrowseCard = ({ product }: ProductBrowseCardProps) => {
             <a
               href={primaryUrl}
               target="_blank"
-              rel="noopener noreferrer"
+              rel="noopener noreferrer" referrerPolicy="no-referrer"
               aria-label={`Buy ${product.name}`}
               className={cn(
                 "inline-flex items-center gap-1.5 rounded-md px-2.5 py-1.5 text-xs font-medium transition-colors",

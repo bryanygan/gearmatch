@@ -269,7 +269,7 @@ const AffiliateDisclosurePage = () => {
                     <a
                       href="https://www.ftc.gov/business-guidance/advertising-marketing/endorsements-testimonials"
                       target="_blank"
-                      rel="noopener noreferrer"
+                      rel="noopener noreferrer" referrerPolicy="no-referrer"
                       className="text-primary hover:underline"
                     >
                       FTC Endorsements & Testimonials guidance

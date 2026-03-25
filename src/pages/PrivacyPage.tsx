@@ -83,7 +83,7 @@ const PrivacyPage = () => {
                     <a
                       href="https://sentry.io/privacy/"
                       target="_blank"
-                      rel="noopener noreferrer"
+                      rel="noopener noreferrer" referrerPolicy="no-referrer"
                       className="text-primary hover:underline"
                     >
                       Sentry's Privacy Policy
@@ -151,7 +151,7 @@ const PrivacyPage = () => {
                         <a
                           href="https://www.cloudflare.com/privacypolicy/"
                           target="_blank"
-                          rel="noopener noreferrer"
+                          rel="noopener noreferrer" referrerPolicy="no-referrer"
                           className="text-primary hover:underline"
                         >
                           Cloudflare's Privacy Policy
@@ -169,7 +169,7 @@ const PrivacyPage = () => {
                         <a
                           href="https://sentry.io/privacy/"
                           target="_blank"
-                          rel="noopener noreferrer"
+                          rel="noopener noreferrer" referrerPolicy="no-referrer"
                           className="text-primary hover:underline"
                         >
                           Sentry's Privacy Policy
@@ -196,7 +196,7 @@ const PrivacyPage = () => {
                         <a
                           href="https://www.amazon.com/privacy"
                           target="_blank"
-                          rel="noopener noreferrer"
+                          rel="noopener noreferrer" referrerPolicy="no-referrer"
                           className="text-primary hover:underline"
                         >
                           Amazon's Privacy Notice

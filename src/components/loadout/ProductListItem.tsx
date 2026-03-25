@@ -121,7 +121,7 @@ const ProductListItem = React.memo(function ProductListItem({
             <a
               href={linkUrl}
               target="_blank"
-              rel="noopener noreferrer"
+              rel="noopener noreferrer" referrerPolicy="no-referrer"
               className="shrink-0 text-slate-500 hover:text-slate-300 transition-colors"
               onClick={(e) => e.stopPropagation()}
               aria-label={`View ${product.name} product page`}

@@ -339,7 +339,7 @@ const RecommendationCard = memo(function RecommendationCard({
             <a
               href={primaryUrl}
               target="_blank"
-              rel="noopener noreferrer"
+              rel="noopener noreferrer" referrerPolicy="no-referrer"
               aria-label={`Buy ${product.name}`}
               className="shrink-0 inline-flex items-center gap-1 px-2 py-1 rounded-md text-xs font-medium bg-secondary text-secondary-foreground hover:bg-secondary/80 transition-colors"
             >
@@ -554,7 +554,7 @@ const RecommendationCard = memo(function RecommendationCard({
                 <a
                   href={safeUrl}
                   target="_blank"
-                  rel="noopener noreferrer"
+                  rel="noopener noreferrer" referrerPolicy="no-referrer"
                   aria-label={`View ${product.name} on Amazon`}
                   className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-md text-sm font-medium text-white bg-[#FF9900] hover:bg-[#E68A00] transition-colors"
                 >
@@ -565,7 +565,7 @@ const RecommendationCard = memo(function RecommendationCard({
                 <a
                   href={safeUrl}
                   target="_blank"
-                  rel="noopener noreferrer"
+                  rel="noopener noreferrer" referrerPolicy="no-referrer"
                   aria-label={`View ${product.name} product page`}
                   className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-md text-sm font-medium bg-secondary text-secondary-foreground hover:bg-secondary/80 transition-colors"
                 >
@@ -580,7 +580,7 @@ const RecommendationCard = memo(function RecommendationCard({
               <a
                 href={sanitizeUrl(product.manufacturer_url)!}
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="noopener noreferrer" referrerPolicy="no-referrer"
                 className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-md text-sm font-medium bg-secondary text-secondary-foreground hover:bg-secondary/80 transition-colors"
               >
                 <Building2 className="w-3.5 h-3.5" />
@@ -604,7 +604,7 @@ const RecommendationCard = memo(function RecommendationCard({
                   key={retailer}
                   href={safeRetailerUrl}
                   target="_blank"
-                  rel="noopener noreferrer"
+                  rel="noopener noreferrer" referrerPolicy="no-referrer"
                   className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-md text-sm font-medium bg-muted text-muted-foreground hover:bg-muted/80 transition-colors"
                 >
                   <ExternalLink className="w-3.5 h-3.5" />
