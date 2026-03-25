@@ -84711,5 +84711,90 @@
     },
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/zowie-za13-wireless.png?width=512&height=512&resize=contain",
     "image_url_fallback": "https://image.benq.com/is/image/benqco/1-za13-dw-top?$ResponsivePreset$&fmt=png-alpha"
+  },
+  {
+    "id": "logitech_g_pro_x2_superstrike",
+    "name": "Logitech G PRO X2 SUPERSTRIKE Wireless",
+    "brand": "Logitech",
+    "category": "mouse",
+    "price_range_usd": [
+      160,
+      180
+    ],
+    "product_url": "https://www.amazon.com/dp/B0G12HGHGM?tag=gearmatch-20",
+    "retailer_urls": {
+      "manufacturer": "https://www.logitechg.com/en-us/shop/p/pro-x2-superstrike-wireless-gaming-mouse.html"
+    },
+    "recommendation_tags": [
+      "esports_grade_latency",
+      "premium_build",
+      "top_tier_competitive_fps",
+      "wireless",
+      "ultra_light"
+    ],
+    "data_quality": {
+      "data_confidence": "high",
+      "primary_source_type": "manufacturer",
+      "source_name": "Logitech",
+      "last_verified": "2026-03"
+    },
+    "core_attributes": {
+      "category_subtype": "mouse",
+      "price_tier": "premium",
+      "platform_fit": [
+        "pc",
+        "mac"
+      ],
+      "connection_type": [
+        "wireless_2_4_dongle",
+        "wired_usb_c"
+      ],
+      "wireless": true,
+      "battery_life_hr": 130,
+      "latency_class": "very_low",
+      "software_support": "great",
+      "availability_class": "easy",
+      "mouse_handedness": "right",
+      "mouse_weight_g": 55,
+      "mouse_weight_class": "light",
+      "mouse_length_mm": 125,
+      "mouse_width_mm": 63.5,
+      "mouse_height_mm": 40,
+      "mouse_size_class": "medium",
+      "mouse_shape_profile": "rear_hump",
+      "mouse_grip_fit": [
+        "claw",
+        "fingertip",
+        "palm"
+      ],
+      "mouse_game_fit": [
+        "fps",
+        "general"
+      ],
+      "mouse_button_count": 5,
+      "mouse_button_count_class": "low",
+      "mouse_scroll_features": [],
+      "mouse_polling_rate_max_hz": "8000",
+      "mouse_sensor_class": "flagship",
+      "mouse_click_latency_ms": 1,
+      "mouse_sensor_latency_ms": 2,
+      "mouse_build_quality": "great",
+      "mouse_feet_material": "ptfe",
+      "mouse_rgb": true,
+      "mouse_side_buttons": 2,
+      "mouse_onboard_memory": true,
+      "mouse_dpi_range": "100-44000",
+      "mouse_sensor_name": "HERO 2",
+      "mouse_connectivity_features": [],
+      "mouse_special_features": [
+        "8k_polling",
+        "lightspeed_wireless"
+      ],
+      "mouse_feel_tags": [
+        "safe_shape",
+        "esports_shape",
+        "premium_feel"
+      ]
+    }
   }
 ]

@@ -456,26 +456,22 @@ const StatItem = ({ value, label }: { value: string; label: string }) => (
 
 /** Product display names for curated loadout items */
 const PRODUCT_NAMES: Record<string, string> = {
-  logitech_g305_lightspeed: "Logitech G305 LIGHTSPEED",
-  attack_shark_x3: "ATTACK SHARK X3",
-  steelseries_arctis_nova_3: "SteelSeries Arctis Nova 3",
-  redragon_k552_kumara_rgb: "Redragon K552 KUMARA RGB",
-  aoc_24g2: "AOC 24G2",
-  logitech_mx_master_3s: "Logitech MX Master 3S",
-  logitech_mx_ergo: "Logitech MX ERGO",
+  mchose_l7_pro: "MCHOSE L7 Pro",
+  steelseries_tusq: "SteelSeries TUSQ",
+  mchose_ace_60_pro: "MCHOSE Ace 60 Pro",
+  asus_tuf_vg259qm: "ASUS TUF VG259QM",
+  logitech_mx_master_4: "Logitech MX Master 4",
   audeze_maxwell: "Audeze Maxwell",
   keychron_q5_max: "Keychron Q5 Max",
   dell_u2725qe: "Dell U2725QE",
-  razer_viper_v3_pro: "Razer Viper V3 Pro",
-  pulsar_x2: "Pulsar X2",
+  logitech_g_pro_x_superlight_2_dex: "Logitech G Pro X Superlight 2 DEX",
   hyperx_cloud_alpha_wireless: "HyperX Cloud Alpha Wireless",
   wooting_80he: "Wooting 80HE",
   dell_alienware_aw2725df: "Dell Alienware AW2725DF",
-  logitech_g_pro_x_superlight_2: "Logitech G Pro X Superlight 2",
-  razer_blackshark_v3_pro: "Razer BlackShark V3 Pro",
-  steelseries_arctis_nova_7: "SteelSeries Arctis Nova 7 Wireless",
+  logitech_g_pro_x2_superstrike: "Logitech G Pro X2 SUPERSTRIKE",
+  razer_blackshark_v2_pro_wireless_2023: "Razer BlackShark V2 Pro 2023",
   wooting_60he_v2: "Wooting 60HE v2",
-  dell_alienware_aw2524h: "Dell Alienware AW2524H",
+  asus_rog_swift_oled_pg27aqdm: "ASUS ROG Swift OLED PG27AQDM",
 };
 
 /** Accent color + category label per curated loadout */

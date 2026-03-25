@@ -12,38 +12,33 @@ export const CURATED_LOADOUTS: readonly Loadout[] = [
     id: "budget-fps-setup",
     name: "Budget FPS Setup",
     description:
-      "A solid starter kit for competitive FPS gaming without breaking the bank. Lightweight mouse, decent headset, responsive keyboard, and a fast 1080p monitor.",
+      "A punchy starter kit for competitive FPS gaming. Magnetic hall-effect keyboard with rapid trigger, a wireless ultralight mouse, gaming IEM with detachable mic, and a 280Hz monitor — all under $260.",
     items: [
       {
-        productId: "logitech_g305_lightspeed",
+        productId: "mchose_l7_pro",
         category: "mouse",
         addedAt: 1700000000000,
       },
       {
-        productId: "attack_shark_x3",
-        category: "mouse",
-        addedAt: 1700000000000,
-      },
-      {
-        productId: "steelseries_arctis_nova_3",
+        productId: "steelseries_tusq",
         category: "audio",
         addedAt: 1700000000000,
       },
       {
-        productId: "redragon_k552_kumara_rgb",
+        productId: "mchose_ace_60_pro",
         category: "keyboard",
         addedAt: 1700000000000,
       },
       {
-        productId: "aoc_24g2",
+        productId: "asus_tuf_vg259qm",
         category: "monitor",
         addedAt: 1700000000000,
       },
     ],
-    totalPriceRange: [264, 364],
+    totalPriceRange: [290, 344],
     createdAt: 1700000000000,
-    updatedAt: 1700000000000,
-    tags: ["budget", "fps", "starter"],
+    updatedAt: 1743120000000,
+    tags: ["budget", "fps", "hall-effect", "rapid-trigger"],
     curatedBy: "gearmatch",
   },
   {
@@ -53,12 +48,7 @@ export const CURATED_LOADOUTS: readonly Loadout[] = [
       "High-end peripherals for professionals who want comfort, quality, and multi-device support. Great for long work sessions and content creation.",
     items: [
       {
-        productId: "logitech_mx_master_3s",
-        category: "mouse",
-        addedAt: 1700000000000,
-      },
-      {
-        productId: "logitech_mx_ergo",
+        productId: "logitech_mx_master_4",
         category: "mouse",
         addedAt: 1700000000000,
       },
@@ -78,9 +68,9 @@ export const CURATED_LOADOUTS: readonly Loadout[] = [
         addedAt: 1700000000000,
       },
     ],
-    totalPriceRange: [880, 1070],
+    totalPriceRange: [990, 1180],
     createdAt: 1700000000000,
-    updatedAt: 1700000000000,
+    updatedAt: 1743120000000,
     tags: ["premium", "productivity", "ergonomic", "multi-device"],
     curatedBy: "gearmatch",
   },
@@ -88,15 +78,10 @@ export const CURATED_LOADOUTS: readonly Loadout[] = [
     id: "competitive-esports-kit",
     name: "Competitive Esports Kit",
     description:
-      "Low-latency, high-performance gear built for ranked play. Every component is chosen for speed — 4K+ Hz polling, rapid trigger keyboard, and a fast OLED monitor.",
+      "Low-latency, high-performance gear built for ranked play. Every component is chosen for speed — 8K Hz polling, rapid trigger keyboard, and a QD-OLED monitor with sub-1ms response.",
     items: [
       {
-        productId: "razer_viper_v3_pro",
-        category: "mouse",
-        addedAt: 1700000000000,
-      },
-      {
-        productId: "pulsar_x2",
+        productId: "logitech_g_pro_x_superlight_2_dex",
         category: "mouse",
         addedAt: 1700000000000,
       },
@@ -116,9 +101,9 @@ export const CURATED_LOADOUTS: readonly Loadout[] = [
         addedAt: 1700000000000,
       },
     ],
-    totalPriceRange: [1190, 1435],
+    totalPriceRange: [1030, 1285],
     createdAt: 1700000000000,
-    updatedAt: 1700000000000,
+    updatedAt: 1743120000000,
     tags: ["esports", "competitive", "low-latency", "performance"],
     curatedBy: "gearmatch",
   },
@@ -126,20 +111,15 @@ export const CURATED_LOADOUTS: readonly Loadout[] = [
     id: "streaming-pro-loadout",
     name: "Streaming Pro Loadout",
     description:
-      "Optimised for streamers who need great mic quality, comfortable typing for chat, and a vibrant display. Dual audio options for streaming vs. gaming sessions.",
+      "Optimised for streamers who need excellent mic quality, comfortable typing for chat, and a vibrant OLED display. The latest Logitech G Pro X2 SUPERSTRIKE keeps latency pro-grade.",
     items: [
       {
-        productId: "logitech_g_pro_x_superlight_2",
+        productId: "logitech_g_pro_x2_superstrike",
         category: "mouse",
         addedAt: 1700000000000,
       },
       {
-        productId: "razer_blackshark_v3_pro",
-        category: "audio",
-        addedAt: 1700000000000,
-      },
-      {
-        productId: "steelseries_arctis_nova_7",
+        productId: "razer_blackshark_v2_pro_wireless_2023",
         category: "audio",
         addedAt: 1700000000000,
       },
@@ -149,15 +129,15 @@ export const CURATED_LOADOUTS: readonly Loadout[] = [
         addedAt: 1700000000000,
       },
       {
-        productId: "dell_alienware_aw2524h",
+        productId: "asus_rog_swift_oled_pg27aqdm",
         category: "monitor",
         addedAt: 1700000000000,
       },
     ],
-    totalPriceRange: [799, 1089],
+    totalPriceRange: [870, 1120],
     createdAt: 1700000000000,
-    updatedAt: 1700000000000,
-    tags: ["streaming", "content-creation", "mic-quality"],
+    updatedAt: 1743120000000,
+    tags: ["streaming", "content-creation", "oled", "mic-quality"],
     curatedBy: "gearmatch",
   },
 ] as const;

@@ -28280,7 +28280,7 @@
   },
   {
     "id": "acer_predator_x32_fpbmiiiiphuzx",
-    "name": "Acer \u200ePredator X32 Fpbmiiiiphuzx",
+    "name": "Acer ‎Predator X32 Fpbmiiiiphuzx",
     "brand": "Acer",
     "category": "monitor",
     "price_range_usd": [
@@ -43248,6 +43248,115 @@
         "low_input_lag"
       ],
       "monitor_value_pick": false
+    }
+  },
+  {
+    "id": "asus_tuf_vg259qm",
+    "name": "ASUS TUF Gaming VG259QM",
+    "brand": "ASUS",
+    "category": "monitor",
+    "price_range_usd": [
+      200,
+      250
+    ],
+    "product_url": "https://www.amazon.com/dp/B0876KP2CK?tag=gearmatch-20",
+    "retailer_urls": {
+      "manufacturer": "https://www.asus.com/displays-desktops/monitors/tuf-gaming/tuf-gaming-vg259qm/"
+    },
+    "recommendation_tags": [
+      "high_refresh",
+      "low_input_lag",
+      "competitive_fps",
+      "esports",
+      "fast_ips"
+    ],
+    "data_quality": {
+      "data_confidence": "high",
+      "primary_source_type": "lab_test",
+      "source_name": "RTINGS",
+      "last_verified": "2026-03"
+    },
+    "rtings_scores": {
+      "pc_gaming": 8,
+      "office": 7.2,
+      "console_gaming": 6.5
+    },
+    "core_attributes": {
+      "category_subtype": "monitor",
+      "price_tier": "midrange",
+      "platform_fit": [
+        "pc"
+      ],
+      "availability_class": "easy",
+      "monitor_size_inches": 24.5,
+      "monitor_size_class": "compact",
+      "monitor_curved": false,
+      "monitor_panel_type": "IPS",
+      "monitor_resolution": "1920 x 1080",
+      "monitor_resolution_class": "1080p",
+      "monitor_ppi": 90,
+      "monitor_aspect_ratio": "16:9",
+      "monitor_color_depth": 8,
+      "monitor_native_refresh_hz": 280,
+      "monitor_max_refresh_hz": 280,
+      "monitor_refresh_class": "240hz",
+      "monitor_max_refresh_dp": 280,
+      "monitor_max_refresh_hdmi": 280,
+      "monitor_response_time_ms": 1,
+      "monitor_input_lag_ms": 1.9,
+      "monitor_vrr": true,
+      "monitor_freesync": true,
+      "monitor_gsync": "compatible",
+      "monitor_vrr_min_hz": 60,
+      "monitor_vrr_max_hz": 280,
+      "monitor_contrast_ratio": 1010,
+      "monitor_infinite_contrast": false,
+      "monitor_local_dimming": false,
+      "monitor_peak_brightness": 327,
+      "monitor_sdr_brightness": 327,
+      "monitor_min_brightness": 52,
+      "monitor_hdr10": true,
+      "monitor_dolby_vision": false,
+      "monitor_hdr_level": "basic",
+      "monitor_srgb_coverage": 98,
+      "monitor_adobe_rgb_coverage": 74,
+      "monitor_dci_p3_coverage": 82,
+      "monitor_color_accuracy": "good",
+      "monitor_factory_calibrated": false,
+      "monitor_height_adjust": true,
+      "monitor_tilt": true,
+      "monitor_swivel": true,
+      "monitor_pivot": true,
+      "monitor_vesa": true,
+      "monitor_ergonomic_features": [
+        "height_adjust",
+        "tilt",
+        "swivel",
+        "pivot",
+        "vesa_mount"
+      ],
+      "monitor_displayport_count": 1,
+      "monitor_displayport_version": "1.2",
+      "monitor_hdmi_count": 2,
+      "monitor_hdmi_2_1": false,
+      "monitor_usb_c_dp": false,
+      "monitor_usb_hub_ports": 0,
+      "monitor_kvm": false,
+      "monitor_speakers": false,
+      "monitor_audio_out": true,
+      "monitor_connectivity": [
+        "displayport_1_2",
+        "hdmi_2_0"
+      ],
+      "monitor_overall_score": 7.8,
+      "monitor_office_score": 7.2,
+      "monitor_gaming_score": 8,
+      "monitor_movie_score": 6.5,
+      "monitor_photo_editing_score": 7,
+      "monitor_use_case_fit": [
+        "competitive_gaming",
+        "fps"
+      ]
     }
   }
 ]
