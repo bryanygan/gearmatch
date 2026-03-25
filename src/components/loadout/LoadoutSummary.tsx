@@ -344,7 +344,7 @@ function RetailerLinks({ product }: { product: Product }) {
             className="flex items-center gap-2 rounded-md px-2 py-1.5 text-xs text-slate-200 hover:bg-slate-800 transition-colors"
           >
             <ExternalLink size={11} className="shrink-0 text-slate-500" />
-            Search
+            {safePrimaryUrl.includes("amazon.com") ? "Amazon" : "Search"}
           </a>
         )}
         {retailers &&
