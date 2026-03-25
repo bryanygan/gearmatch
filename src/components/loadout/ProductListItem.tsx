@@ -187,6 +187,12 @@ function ProductThumbnail({
         height={48}
         loading="lazy"
         className="h-12 w-12 rounded-md object-cover"
+        onError={(e) => {
+          const img = e.currentTarget;
+          if (product.image_url_fallback && img.src !== product.image_url_fallback) {
+            img.src = product.image_url_fallback;
+          }
+        }}
       />
     );
   }

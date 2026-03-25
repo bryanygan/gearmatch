@@ -142,7 +142,8 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/8bitdo-retro-r8.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/8bitdo-retro-r8.png?width=512&height=512&resize=contain",
+    "image_url_fallback": "https://www.8bitdo.com/images/2025/r8-mouse-n/01-l.jpg"
   },
   {
     "id": "a4tech_bloody_v7",
@@ -210,7 +211,8 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/a4tech-bloody-v7.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/a4tech-bloody-v7.png?width=512&height=512&resize=contain",
+    "image_url_fallback": "https://img.bloody.com/en/uploadfile/image/20251110/20251110110741_24578.png"
   },
   {
     "id": "a4tech_xl_750bh",
@@ -405,7 +407,8 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/acer-cestus-330.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/acer-cestus-330.png?width=512&height=512&resize=contain",
+    "image_url_fallback": "https://www.acer.com/us-en/predator/accessories/gaming-mice/cestus-330"
   },
   {
     "id": "aigo_gm80",
@@ -472,7 +475,8 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/aigo-gm80.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/aigo-gm80.png?width=512&height=512&resize=contain",
+    "image_url_fallback": "https://ae01.alicdn.com/kf/S0e3bb236b6894126a863cd3d86ea6f33q.jpg"
   },
   {
     "id": "aigo_gm80_plus",
@@ -606,7 +610,8 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/aigo-gm80.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/aigo-gm80.png?width=512&height=512&resize=contain",
+    "image_url_fallback": "https://ae01.alicdn.com/kf/S0e3bb236b6894126a863cd3d86ea6f33q.jpg"
   },
   {
     "id": "aim1_shigure",
@@ -673,7 +678,8 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/aim1-shigure.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/aim1-shigure.png?width=512&height=512&resize=contain",
+    "image_url_fallback": "https://aim1.gg/cdn/shop/files/1_805c6d74-0898-4653-9bb5-ab9676201572.png?v=1741141321&width=1920"
   },
   {
     "id": "ajazz_aj099",
@@ -736,7 +742,8 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/ajazz-aj099.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/ajazz-aj099.png?width=512&height=512&resize=contain",
+    "image_url_fallback": "https://www.whatgeek.com/cdn/shop/files/Ajazz_AJ099_PAW3311_Dual-Mode_Wireless_Mouse_Black.jpg?v=1698111273"
   },
   {
     "id": "ajazz_aj139_pro",
@@ -997,7 +1004,8 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/ajazz-aj139.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/ajazz-aj139.png?width=512&height=512&resize=contain",
+    "image_url_fallback": "https://ajazzbrand.com/cdn/shop/files/AJ139_V2_PRO_766b50af-ee78-4b8b-8ced-e310c9a56bd3.jpg?v=1770708245"
   },
   {
     "id": "ajazz_aj159",
@@ -1061,7 +1069,8 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/ajazz-aj159.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/ajazz-aj159.png?width=512&height=512&resize=contain",
+    "image_url_fallback": "https://ajazzstore.com/cdn/shop/files/IMG_8455_52b4a006-b4fd-476d-961c-61e53f947f4e.jpg?v=1730184405"
   },
   {
     "id": "ajazz_aj159_pro",
@@ -1195,7 +1204,8 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/ajazz-aj159.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/ajazz-aj159.png?width=512&height=512&resize=contain",
+    "image_url_fallback": "https://ajazzstore.com/cdn/shop/files/IMG_8455_52b4a006-b4fd-476d-961c-61e53f947f4e.jpg?v=1730184405"
   },
   {
     "id": "ajazz_aj159p",
@@ -1325,7 +1335,8 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/ajazz-aj179.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/ajazz-aj179.png?width=512&height=512&resize=contain",
+    "image_url_fallback": "https://ajazzbrand.com/cdn/shop/files/05_0760f116-3feb-4e38-b159-5ce061c7020f.jpg?v=1766735633"
   },
   {
     "id": "ajazz_aj179_apex",
@@ -1400,7 +1411,8 @@
     "manufacturer_url": "https://ajazzbrand.com/products/ajazz-aj179-series-mouse",
     "retailer_urls": {
       "amazon": "https://www.amazon.com/AJAZZ-AJ179APEX-Wireless-Lightweight-Ergonomic/dp/B0D964S339?tag=gearmatch-20"
-    }
+    },
+    "image_url_fallback": "https://m.media-amazon.com/images/I/71fqml61gaL._AC_SL1500_.jpg"
   },
   {
     "id": "ajazz_aj179_pro",
@@ -1544,7 +1556,8 @@
     "manufacturer_url": "https://ajazzbrand.com/products/ajazz-aj179-v2-series-mouse",
     "retailer_urls": {
       "amazon": "https://www.amazon.com/Bluetooth-Ultra-Light-Programmable-Ergonomic-Right-Hand/dp/B0F8D7GHLG?tag=gearmatch-20"
-    }
+    },
+    "image_url_fallback": "https://m.media-amazon.com/images/I/51xyhM1NuLL._AC_SL1500_.jpg"
   },
   {
     "id": "ajazz_aj179_v2_max",
@@ -1615,7 +1628,8 @@
     "manufacturer_url": "https://ajazzbrand.com/products/ajazz-aj179-v2-series-mouse",
     "retailer_urls": {
       "amazon": "https://www.amazon.com/Bluetooth-Ultra-Light-Programmable-Ergonomic-Right-Hand/dp/B0F8D7GHLG?tag=gearmatch-20"
-    }
+    },
+    "image_url_fallback": "https://m.media-amazon.com/images/I/51xyhM1NuLL._AC_SL1500_.jpg"
   },
   {
     "id": "ajazz_aj179p",
@@ -1751,7 +1765,8 @@
     "manufacturer_url": "https://ajazzbrand.com/products/ajazz-aj199-carbon-fiber-mouse",
     "retailer_urls": {
       "amazon": "https://www.amazon.com/AJ199-Wireless-Ultra-Lightweight-Connection-Anti-Slip/dp/B0FLXNFM49?tag=gearmatch-20"
-    }
+    },
+    "image_url_fallback": "https://m.media-amazon.com/images/I/71BASbmS-LL._AC_SL1500_.jpg"
   },
   {
     "id": "ajazz_aj199_4k",
@@ -1819,7 +1834,8 @@
     "manufacturer_url": "https://ajazzbrand.com/products/ajazz-aj199-4k-mouse",
     "retailer_urls": {
       "amazon": "https://www.amazon.com/AJAZZ-AJ199-Wireless-Gaming-Mouse/dp/B0CQ4V727Q?tag=gearmatch-20"
-    }
+    },
+    "image_url_fallback": "https://m.media-amazon.com/images/I/51-ckA+7z5L._AC_SL1500_.jpg"
   },
   {
     "id": "ajazz_aj199_mc",
@@ -1889,7 +1905,8 @@
     "manufacturer_url": "https://ajazzbrand.com/products/ajazz-aj199-carbon-fiber-mouse",
     "retailer_urls": {
       "amazon": "https://www.amazon.com/AJAZZ-AJ199-MC-Lightweight-Rechargeable-Programmable/dp/B0CQL275ZT?tag=gearmatch-20"
-    }
+    },
+    "image_url_fallback": "https://m.media-amazon.com/images/I/51-ckA+7z5L._AC_SL1500_.jpg"
   },
   {
     "id": "ajazz_aj199_pro_4k",
@@ -1960,7 +1977,8 @@
     "manufacturer_url": "https://ajazzbrand.com/products/ajazz-aj199-4k-mouse",
     "retailer_urls": {
       "amazon": "https://www.amazon.com/AJAZZ-AJ199-Wireless-Gaming-Mouse/dp/B0CQ4V727Q?tag=gearmatch-20"
-    }
+    },
+    "image_url_fallback": "https://m.media-amazon.com/images/I/51-ckA+7z5L._AC_SL1500_.jpg"
   },
   {
     "id": "ajazz_am3_max",
@@ -2039,7 +2057,8 @@
       "mouse_value_pick": false
     },
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/ajazz-am3-pro.png?width=512&height=512&resize=contain",
-    "manufacturer_url": "https://ajazzbrand.com/products/am3-series-mouse"
+    "manufacturer_url": "https://ajazzbrand.com/products/am3-series-mouse",
+    "image_url_fallback": "https://m.media-amazon.com/images/I/614A1K45paL._AC_SL1500_.jpg"
   },
   {
     "id": "ajazz_am3_pro",
@@ -2181,7 +2200,8 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/ajazz-m259.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/ajazz-m259.png?width=512&height=512&resize=contain",
+    "image_url_fallback": "https://ajazzbrand.com/cdn/shop/files/AJAZZ-M259-Wireless-Mouse-Hollow-Out-Bluetooth-Gaming-Mouse-Magnesium-Aluminum-Alloy-PAW3395-350mAh-Mice-Pc_d57e73cb-2dfe-4434-afb9-ad20f43888c8.webp?v=1758122456"
   },
   {
     "id": "ajazz_t520",
@@ -2245,7 +2265,8 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/ajazz-t520.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/ajazz-t520.png?width=512&height=512&resize=contain",
+    "image_url_fallback": "https://img.alicdn.com/imgextra/i1/O1CN01YyMrnH1TH65JNfJZU_!!6000000002356-2-tps-600-600.png"
   },
   {
     "id": "ajazz_t520_max",
@@ -2310,7 +2331,8 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/ajazz-t520.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/ajazz-t520.png?width=512&height=512&resize=contain",
+    "image_url_fallback": "https://img.alicdn.com/imgextra/i1/O1CN01YyMrnH1TH65JNfJZU_!!6000000002356-2-tps-600-600.png"
   },
   {
     "id": "akko_ag_one_8k",
@@ -2374,7 +2396,8 @@
       "mouse_feel_tags": [],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/akko-ag-one-8k.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/akko-ag-one-8k.png?width=512&height=512&resize=contain",
+    "image_url_fallback": "https://en.akkogear.com/wp-content/uploads/2024/08/AG-One-NearLink-W-1.png"
   },
   {
     "id": "akko_ag_one_nearlink",
@@ -2438,7 +2461,8 @@
       "mouse_feel_tags": [],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/akko-ag-one-nearlink.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/akko-ag-one-nearlink.png?width=512&height=512&resize=contain",
+    "image_url_fallback": "https://en.akkogear.com/wp-content/uploads/2024/07/AG-One-NearLink-W.png"
   },
   {
     "id": "akko_ag325",
@@ -2499,7 +2523,8 @@
       "mouse_feel_tags": [],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/akko-ag325.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/akko-ag325.png?width=512&height=512&resize=contain",
+    "image_url_fallback": "https://en.akkogear.com/wp-content/uploads/2020/05/AG32511.png"
   },
   {
     "id": "akko_ag325c",
@@ -2560,7 +2585,8 @@
       "mouse_feel_tags": [],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/akko-ag325.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/akko-ag325.png?width=512&height=512&resize=contain",
+    "image_url_fallback": "https://en.akkogear.com/wp-content/uploads/2023/08/AG325-Akko-7th-Anniversary.png"
   },
   {
     "id": "akko_ag325w",
@@ -2622,7 +2648,8 @@
       "mouse_feel_tags": [],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/akko-ag325w.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/akko-ag325w.png?width=512&height=512&resize=contain",
+    "image_url_fallback": "https://en.akkogear.com/wp-content/uploads/2024/01/Akko-AG325W-BT-2.jpg"
   },
   {
     "id": "akko_pulse_01",
@@ -2689,7 +2716,8 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/akko-pulse-01.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/akko-pulse-01.png?width=512&height=512&resize=contain",
+    "image_url_fallback": "https://en.akkogear.com/wp-content/uploads/2025/02/Pulse01-W-1.png"
   },
   {
     "id": "alienware_aw320m",
@@ -2754,7 +2782,8 @@
       "mouse_feel_tags": [],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/alienware-aw320m.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/alienware-aw320m.png?width=512&height=512&resize=contain",
+    "image_url_fallback": "https://c1.neweggimages.com/productimage/nb640/BMXKD2312180CIY4NC7.jpg"
   },
   {
     "id": "alienware_aw610m",
@@ -2821,7 +2850,8 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/alienware-aw610m.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/alienware-aw610m.png?width=512&height=512&resize=contain",
+    "image_url_fallback": "https://c1.neweggimages.com/productimage/nb640/AH9BD201118409D4.jpg"
   },
   {
     "id": "alienware_aw620m",
@@ -2893,7 +2923,8 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/alienware-aw620m.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/alienware-aw620m.png?width=512&height=512&resize=contain",
+    "image_url_fallback": "https://c1.neweggimages.com/productimage/nb640/C16VD2508140G0J2L59.jpg"
   },
   {
     "id": "alienware_aw720m",
@@ -2962,7 +2993,8 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/alienware-aw720m.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/alienware-aw720m.png?width=512&height=512&resize=contain",
+    "image_url_fallback": "https://c1.neweggimages.com/productimage/nb640/B9R6S2308190X690R1E.jpg"
   },
   {
     "id": "alienware_pro_wireless",
@@ -3033,7 +3065,8 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/alienware-pro-wireless.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/alienware-pro-wireless.png?width=512&height=512&resize=contain",
+    "image_url_fallback": "https://c1.neweggimages.com/productimage/nb640/C16VD2508140FKRJD42.jpg"
   },
   {
     "id": "amazon_basics_mouse",
@@ -3171,7 +3204,8 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/angry-miao-am-infinity-mouse.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/angry-miao-am-infinity-mouse.png?width=512&height=512&resize=contain",
+    "image_url_fallback": "https://store.angrymiao.com/cdn/shop/files/am-mouse-black-sku.jpg?v=1770975034"
   },
   {
     "id": "antgamer_agm535r",
@@ -3392,7 +3426,8 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/aqirys-tga-alpha.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/aqirys-tga-alpha.png?width=512&height=512&resize=contain",
+    "image_url_fallback": "https://www.aqirys.com/images/products/82/img1.png"
   },
   {
     "id": "arbiter_studio_akitsu_medium",
@@ -3464,7 +3499,8 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/arbiter-studio-akitsu-medium.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/arbiter-studio-akitsu-medium.png?width=512&height=512&resize=contain",
+    "image_url_fallback": "https://arbiterstudio.com/products/tenko-akitsu-medium-40g-carbon-fiber-8k-wireless-gaming-mouse"
   },
   {
     "id": "ardor_gaming_fury",
@@ -3532,7 +3568,8 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/ardor-gaming-fury.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/ardor-gaming-fury.png?width=512&height=512&resize=contain",
+    "image_url_fallback": "https://c.dns-shop.ru/thumb/st4/fit/612/510/9f4eeeaab5f32d66e6e74841450a41a8/187ca6574a0f321cbf1a4a36ed78b152f8266415dfdd1d220255ab95bf17f58c.jpg"
   },
   {
     "id": "ardor_gaming_fury_beast",
@@ -3600,7 +3637,8 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/ardor-gaming-fury.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/ardor-gaming-fury.png?width=512&height=512&resize=contain",
+    "image_url_fallback": "https://c.dns-shop.ru/thumb/st4/fit/612/510/f3598f746d589e3f969a9b0e12a1674d/f3c564c12c8946c74943d4ac3108c9c2fcd00bccc3eea2946c5728c1d3042b4b.jpg"
   },
   {
     "id": "ardor_gaming_fury_pro",
@@ -3728,7 +3766,8 @@
       "mouse_feel_tags": [],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/ardor-gaming-immortality.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/ardor-gaming-immortality.png?width=512&height=512&resize=contain",
+    "image_url_fallback": "https://c.dns-shop.ru/thumb/st4/fit/612/510/1e3bdd3a62848a1aeead9a1aa5e1ffe2/5a0a062b530c11cebe21a4fbc970ae6f92104fb15f3db80281f06e83d87c35fb.jpg"
   },
   {
     "id": "ardor_gaming_immortality_pro_wireless",
@@ -3791,7 +3830,8 @@
       "mouse_feel_tags": [],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/ardor-gaming-immortality-pro-wireless.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/ardor-gaming-immortality-pro-wireless.png?width=512&height=512&resize=contain",
+    "image_url_fallback": "https://c.dns-shop.ru/thumb/st4/fit/612/510/c639fa1064321f6c992dd172f0220b75/9e14d2deb713363a837aa9e6128254c06307c1da45c56553fac52a51884359db.jpg"
   },
   {
     "id": "ardor_gaming_phantom_pro",
@@ -3856,7 +3896,8 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/ardor-gaming-phantom-pro.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/ardor-gaming-phantom-pro.png?width=512&height=512&resize=contain",
+    "image_url_fallback": "https://c.dns-shop.ru/thumb/st4/fit/612/510/39d1131d9d9167db4e2c181bcd99faa5/cc60243fe6b780d072bfb6575c1a71bdd6743997a4c45cc0f14eac0a63493632.jpg"
   },
   {
     "id": "ardor_gaming_phantom_pro_v2",
@@ -3921,7 +3962,8 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/ardor-gaming-phantom-pro.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/ardor-gaming-phantom-pro.png?width=512&height=512&resize=contain",
+    "image_url_fallback": "https://c.dns-shop.ru/thumb/st4/fit/612/510/39d1131d9d9167db4e2c181bcd99faa5/cc60243fe6b780d072bfb6575c1a71bdd6743997a4c45cc0f14eac0a63493632.jpg"
   },
   {
     "id": "ardor_gaming_phantom_pro_wired",
@@ -3984,7 +4026,8 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/ardor-gaming-phantom-pro.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/ardor-gaming-phantom-pro.png?width=512&height=512&resize=contain",
+    "image_url_fallback": "https://c.dns-shop.ru/thumb/st4/fit/612/510/bda690c041b7684868cfcd654d6f6697/3c11520e5d6433fd4f8be7bcae572d1fa9bd9afcd94dfd25020b2af2bb297f32.jpg"
   },
   {
     "id": "ardor_gaming_prime",
@@ -4044,7 +4087,8 @@
       "mouse_feel_tags": [],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/ardor-gaming-prime.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/ardor-gaming-prime.png?width=512&height=512&resize=contain",
+    "image_url_fallback": "https://c.dns-shop.ru/thumb/st4/fit/612/510/ee58bb1336d16baeb146ff68945f840e/bbfb112399b1e458fd64aa3495319e5422595f1e1a523b089a93ebda4ace5bc4.jpg"
   },
   {
     "id": "ardor_gaming_prime_wireless",
@@ -4169,7 +4213,8 @@
       "mouse_feel_tags": [],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/ardor-gaming-prime.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/ardor-gaming-prime.png?width=512&height=512&resize=contain",
+    "image_url_fallback": "https://c.dns-shop.ru/thumb/st4/fit/612/510/c5e1b6c253aa6df1cce0649e36b20490/55234ddd26f034965bbc3447c131cc8be143b1086f11391044308a23cf7dbe8e.jpg"
   },
   {
     "id": "ardor_gaming_ulta_big_back",
@@ -4234,7 +4279,8 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/ardor-gaming-ulta.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/ardor-gaming-ulta.png?width=512&height=512&resize=contain",
+    "image_url_fallback": "https://c.dns-shop.ru/thumb/st4/fit/612/510/988834f41a4bac691bbb558f27daa42e/d540f2c499729d221b3931e89d8f1b67b4444d28c757a935ba264a1126ab0a56.jpg"
   },
   {
     "id": "ardor_gaming_ulta_mid_back",
@@ -4431,7 +4477,8 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/arye-fcc-1.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/arye-fcc-1.png?width=512&height=512&resize=contain",
+    "image_url_fallback": "https://arye.hk/cdn/shop/files/RCC-1_Hero.png?v=1749192121"
   },
   {
     "id": "arye_rcc_1",
@@ -4504,7 +4551,8 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/arye-rcc-1.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/arye-rcc-1.png?width=512&height=512&resize=contain",
+    "image_url_fallback": "https://arye.hk/cdn/shop/files/RCC-1_Hero.png?v=1749192121"
   },
   {
     "id": "asus_proart_md300",
@@ -4713,7 +4761,8 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/asus-rog-chakram.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/asus-rog-chakram.png?width=512&height=512&resize=contain",
+    "image_url_fallback": "https://dlcdnwebimgs.asus.com/gain/36290A54-3786-40C5-938F-0ABF677C8FF9/w717/h525/fwebp"
   },
   {
     "id": "asus_rog_chakram_x",
@@ -4860,7 +4909,8 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/asus-rog-gladius-ii.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/asus-rog-gladius-ii.png?width=512&height=512&resize=contain",
+    "image_url_fallback": "https://dlcdnwebimgs.asus.com/gain/5CDAD2C0-F766-4099-A7F0-4E8AEBB4A528"
   },
   {
     "id": "asus_rog_gladius_ii_core",
@@ -4926,7 +4976,8 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/asus-rog-gladius-ii-core.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/asus-rog-gladius-ii-core.png?width=512&height=512&resize=contain",
+    "image_url_fallback": "https://dlcdnwebimgs.asus.com/gain/2DEBD027-880D-4B1F-8CFF-F49CC6CED339/w717/h525/fwebp"
   },
   {
     "id": "asus_rog_gladius_ii_origin",
@@ -4992,7 +5043,8 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/asus-rog-gladius-ii-origin.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/asus-rog-gladius-ii-origin.png?width=512&height=512&resize=contain",
+    "image_url_fallback": "https://dlcdnwebimgs.asus.com/gain/7B8C8484-9EB7-4BE9-864D-328BB3CA4098"
   },
   {
     "id": "asus_rog_gladius_ii_wireless",
@@ -5059,7 +5111,8 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/asus-rog-gladius-ii-wireless.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/asus-rog-gladius-ii-wireless.png?width=512&height=512&resize=contain",
+    "image_url_fallback": "https://dlcdnwebimgs.asus.com/gain/A9E22782-098B-4963-8D14-9DED07E057F5/w717/h525/fwebp"
   },
   {
     "id": "asus_rog_gladius_iii",
@@ -5356,7 +5409,8 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/asus-rog-harpe-ace-extreme.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/asus-rog-harpe-ace-extreme.png?width=512&height=512&resize=contain",
+    "image_url_fallback": "https://dlcdnwebimgs.asus.com/gain/A2A7EEA1-640E-427F-BD61-3895067F6E48"
   },
   {
     "id": "asus_rog_harpe_ace_mini",
@@ -5428,7 +5482,8 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/asus-rog-harpe-ace-mini.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/asus-rog-harpe-ace-mini.png?width=512&height=512&resize=contain",
+    "image_url_fallback": "https://dlcdnwebimgs.asus.com/gain/3E3EEEBF-D1CB-4F38-84DD-0C760D49EA76/w717/h525/fwebp"
   },
   {
     "id": "asus_rog_harpe_ii_ace",
@@ -5501,7 +5556,8 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/asus-rog-harpe-ii-ace.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/asus-rog-harpe-ii-ace.png?width=512&height=512&resize=contain",
+    "image_url_fallback": "https://dlcdnwebimgs.asus.com/gain/B067879B-6EDC-489E-BB31-9DA251D1D733"
   },
   {
     "id": "asus_rog_keris_ii_ace",
@@ -5582,7 +5638,8 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/asus-rog-keris-ii-ace.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/asus-rog-keris-ii-ace.png?width=512&height=512&resize=contain",
+    "image_url_fallback": "https://dlcdnwebimgs.asus.com/gain/9B783ACB-999D-41F3-AC55-7859FB30C90B"
   },
   {
     "id": "asus_rog_keris_ii_origin",
@@ -5653,7 +5710,8 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/asus-rog-keris-ii-origin.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/asus-rog-keris-ii-origin.png?width=512&height=512&resize=contain",
+    "image_url_fallback": "https://dlcdnwebimgs.asus.com/gain/F83BB6CE-9D58-4FA5-9A5D-65F91C149A94"
   },
   {
     "id": "asus_rog_keris_wireless",
@@ -5719,7 +5777,8 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/asus-rog-keris-wireless.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/asus-rog-keris-wireless.png?width=512&height=512&resize=contain",
+    "image_url_fallback": "https://dlcdnwebimgs.asus.com/gain/07CE8835-80CB-4A20-818C-9FFDAB0367CA"
   },
   {
     "id": "asus_rog_pugio",
@@ -5782,7 +5841,8 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/asus-rog-pugio.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/asus-rog-pugio.png?width=512&height=512&resize=contain",
+    "image_url_fallback": "https://dlcdnwebimgs.asus.com/gain/6FD4D248-CEC8-4E8B-9556-B0C029C9C94A"
   },
   {
     "id": "asus_rog_sica",
@@ -5843,7 +5903,8 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/asus-rog-sica.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/asus-rog-sica.png?width=512&height=512&resize=contain",
+    "image_url_fallback": "https://rog.asus.com/wp-content/uploads/2016/02/1-ROG-Sica-Gaming-Mouse_Glacier-White_01-980x550.jpg"
   },
   {
     "id": "asus_rog_spatha",
@@ -6062,7 +6123,8 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/asus-rog-strix-carry.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/asus-rog-strix-carry.png?width=512&height=512&resize=contain",
+    "image_url_fallback": "https://dlcdnwebimgs.asus.com/gain/41BF1F1D-BB96-4BF5-AF0D-8D98F46DABE3"
   },
   {
     "id": "asus_rog_strix_evolve",
@@ -27745,7 +27807,8 @@
     "mouse_release_year": 2022,
     "mouse_discontinued": false,
     "mouse_special_edition": false,
-    "mouse_stock_status": "out_of_stock"
+    "mouse_stock_status": "out_of_stock",
+    "image_url_fallback": "https://m.media-amazon.com/images/I/61oTeOsQytL._AC_SL1500_.jpg"
   },
   {
     "id": "g_wolves_htr_8k",
@@ -27841,7 +27904,8 @@
     "mouse_release_year": 2024,
     "mouse_discontinued": false,
     "mouse_special_edition": false,
-    "mouse_stock_status": "in_stock"
+    "mouse_stock_status": "in_stock",
+    "image_url_fallback": "https://m.media-amazon.com/images/I/51zXuY-EkgL._AC_SL1500_.jpg"
   },
   {
     "id": "g_wolves_htr_pro_8k",
@@ -27937,7 +28001,8 @@
     "mouse_release_year": 2024,
     "mouse_discontinued": false,
     "mouse_special_edition": false,
-    "mouse_stock_status": "in_stock"
+    "mouse_stock_status": "in_stock",
+    "image_url_fallback": "https://m.media-amazon.com/images/I/41Z03gdFeiL._AC_SL1080_.jpg"
   },
   {
     "id": "g_wolves_hts",
@@ -28029,7 +28094,8 @@
     "mouse_release_year": 2021,
     "mouse_discontinued": false,
     "mouse_special_edition": false,
-    "mouse_stock_status": "in_stock"
+    "mouse_stock_status": "in_stock",
+    "image_url_fallback": "https://m.media-amazon.com/images/I/613MaaCGpdL._AC_SL1251_.jpg"
   },
   {
     "id": "g_wolves_hts_ace_wireless",
@@ -28121,7 +28187,8 @@
     "mouse_release_year": 2022,
     "mouse_discontinued": false,
     "mouse_special_edition": false,
-    "mouse_stock_status": "in_stock"
+    "mouse_stock_status": "in_stock",
+    "image_url_fallback": "https://m.media-amazon.com/images/I/71nPBnmsgwL._AC_SL1500_.jpg"
   },
   {
     "id": "g_wolves_hts_plus",
@@ -28215,7 +28282,8 @@
     "mouse_release_year": 2024,
     "mouse_discontinued": false,
     "mouse_special_edition": false,
-    "mouse_stock_status": "in_stock"
+    "mouse_stock_status": "in_stock",
+    "image_url_fallback": "https://m.media-amazon.com/images/I/61AsNPxU58L._AC_SL1500_.jpg"
   },
   {
     "id": "g_wolves_hts_plus_4k",
@@ -28302,7 +28370,8 @@
     "mouse_wireless": true,
     "mouse_battery_life_hr": null,
     "mouse_buttons_programmable": 6,
-    "mouse_stock_status": "in_stock"
+    "mouse_stock_status": "in_stock",
+    "image_url_fallback": "https://m.media-amazon.com/images/I/41HFvrG2WkL._AC_SL1400_.jpg"
   },
   {
     "id": "g_wolves_hts_plus_8k",
@@ -28389,7 +28458,8 @@
     "mouse_wireless": true,
     "mouse_battery_life_hr": null,
     "mouse_buttons_programmable": 6,
-    "mouse_stock_status": "in_stock"
+    "mouse_stock_status": "in_stock",
+    "image_url_fallback": "https://m.media-amazon.com/images/I/61AsNPxU58L._AC_SL1500_.jpg"
   },
   {
     "id": "g_wolves_hts_ultra_8k",
@@ -28561,7 +28631,8 @@
     "mouse_wireless": true,
     "mouse_battery_life_hr": null,
     "mouse_buttons_programmable": 6,
-    "mouse_stock_status": "limited"
+    "mouse_stock_status": "limited",
+    "image_url_fallback": "https://m.media-amazon.com/images/I/41AA+1bnjaL._AC_SL1017_.jpg"
   },
   {
     "id": "g_wolves_htx_4k",
@@ -28816,7 +28887,8 @@
     "mouse_wireless": true,
     "mouse_battery_life_hr": 80,
     "mouse_buttons_programmable": 6,
-    "mouse_stock_status": "in_stock"
+    "mouse_stock_status": "in_stock",
+    "image_url_fallback": "https://m.media-amazon.com/images/I/41Uqh+Wlh6L._AC_SL1200_.jpg"
   },
   {
     "id": "g_wolves_htx_ultra_8k",
@@ -29123,7 +29195,8 @@
     "mouse_wireless": true,
     "mouse_battery_life_hr": null,
     "mouse_buttons_programmable": 6,
-    "mouse_stock_status": "in_stock"
+    "mouse_stock_status": "in_stock",
+    "image_url_fallback": "https://m.media-amazon.com/images/I/41uZINWx96L._AC_SL1000_.jpg"
   },
   {
     "id": "gamesense_meta_wired",
@@ -29202,7 +29275,8 @@
     "mouse_wireless": false,
     "mouse_battery_life_hr": null,
     "mouse_buttons_programmable": 7,
-    "mouse_stock_status": "out_of_stock"
+    "mouse_stock_status": "out_of_stock",
+    "image_url_fallback": "https://m.media-amazon.com/images/I/81Vgn88Wz7L._AC_SL1500_.jpg"
   },
   {
     "id": "gamesense_mvp_wired",
@@ -29287,7 +29361,8 @@
     "mouse_release_year": 2022,
     "mouse_discontinued": false,
     "mouse_special_edition": false,
-    "mouse_stock_status": "limited"
+    "mouse_stock_status": "limited",
+    "image_url_fallback": "https://m.media-amazon.com/images/I/71M-U9vhM4L._AC_SL1500_.jpg"
   },
   {
     "id": "gamesense_mvp_wireless",
@@ -29731,7 +29806,8 @@
     "mouse_release_year": 2023,
     "mouse_discontinued": false,
     "mouse_special_edition": false,
-    "mouse_stock_status": "in_stock"
+    "mouse_stock_status": "in_stock",
+    "image_url_fallback": "https://m.media-amazon.com/images/I/613oWct+tfL._AC_SL1500_.jpg"
   },
   {
     "id": "gitoper_g3",
@@ -30664,7 +30740,8 @@
     "mouse_release_year": 2024,
     "mouse_discontinued": false,
     "mouse_special_edition": false,
-    "mouse_stock_status": "in_stock"
+    "mouse_stock_status": "in_stock",
+    "image_url_fallback": "https://m.media-amazon.com/images/I/513vIZOfzEL._AC_SL1500_.jpg"
   },
   {
     "id": "glorious_series_one_pro",
@@ -31135,7 +31212,8 @@
     "mouse_release_year": 2024,
     "mouse_discontinued": false,
     "mouse_special_edition": false,
-    "mouse_stock_status": "in_stock"
+    "mouse_stock_status": "in_stock",
+    "image_url_fallback": "https://m.media-amazon.com/images/I/61x9hrrHN2L._AC_SL1500_.jpg"
   },
   {
     "id": "gravastar_mercury_m2",
@@ -31380,7 +31458,8 @@
     "mouse_release_year": 2025,
     "mouse_discontinued": false,
     "mouse_special_edition": false,
-    "mouse_stock_status": "in_stock"
+    "mouse_stock_status": "in_stock",
+    "image_url_fallback": "https://m.media-amazon.com/images/I/61AsNPxU58L._AC_SL1500_.jpg"
   },
   {
     "id": "haunterwell_hfc",
@@ -31830,7 +31909,8 @@
     "mouse_wireless": true,
     "mouse_battery_life_hr": 70,
     "mouse_buttons_programmable": 5,
-    "mouse_stock_status": "in_stock"
+    "mouse_stock_status": "in_stock",
+    "image_url_fallback": "https://m.media-amazon.com/images/I/61udgoUgPuL._AC_SL1500_.jpg"
   },
   {
     "id": "hitscan_hyperlight",
@@ -31991,7 +32071,8 @@
     "mouse_wireless": false,
     "mouse_battery_life_hr": null,
     "mouse_buttons_programmable": 6,
-    "mouse_stock_status": "in_stock"
+    "mouse_stock_status": "in_stock",
+    "image_url_fallback": "https://m.media-amazon.com/images/I/612LieW0FxL._AC_SL1500_.jpg"
   },
   {
     "id": "huo_ji_e_yooso",
@@ -32139,7 +32220,8 @@
     "mouse_wireless": false,
     "mouse_battery_life_hr": null,
     "mouse_buttons_programmable": 7,
-    "mouse_stock_status": "in_stock"
+    "mouse_stock_status": "in_stock",
+    "image_url_fallback": "https://m.media-amazon.com/images/I/61rqBrI4PML._AC_SL1500_.jpg"
   },
   {
     "id": "hyperx_pulsefire_dart",
@@ -32294,7 +32376,8 @@
     "mouse_wireless": false,
     "mouse_battery_life_hr": null,
     "mouse_buttons_programmable": 6,
-    "mouse_stock_status": "in_stock"
+    "mouse_stock_status": "in_stock",
+    "image_url_fallback": "https://m.media-amazon.com/images/I/51pnw-Y7YaL._AC_SL1428_.jpg"
   },
   {
     "id": "hyperx_pulsefire_fuse",
@@ -32379,7 +32462,8 @@
     "mouse_wireless": true,
     "mouse_battery_life_hr": 85,
     "mouse_buttons_programmable": 5,
-    "mouse_stock_status": "in_stock"
+    "mouse_stock_status": "in_stock",
+    "image_url_fallback": "https://m.media-amazon.com/images/I/51XiXG-0atL._AC_SL1080_.jpg"
   },
   {
     "id": "hyperx_pulsefire_haste",
@@ -32765,7 +32849,8 @@
     "mouse_wireless": false,
     "mouse_battery_life_hr": null,
     "mouse_buttons_programmable": 11,
-    "mouse_stock_status": "in_stock"
+    "mouse_stock_status": "in_stock",
+    "image_url_fallback": "https://m.media-amazon.com/images/I/61Hl13ZRpkL._AC_SL1500_.jpg"
   },
   {
     "id": "hyperx_pulsefire_saga_pro",
@@ -33071,7 +33156,8 @@
     "mouse_wireless": true,
     "mouse_battery_life_hr": 80,
     "mouse_buttons_programmable": 6,
-    "mouse_stock_status": "in_stock"
+    "mouse_stock_status": "in_stock",
+    "image_url_fallback": "https://m.media-amazon.com/images/I/712ipg5gnEL._AC_SL1500_.jpg"
   },
   {
     "id": "ifyoo_g03_short",
@@ -33155,7 +33241,8 @@
     "mouse_wireless": true,
     "mouse_battery_life_hr": 80,
     "mouse_buttons_programmable": 6,
-    "mouse_stock_status": "in_stock"
+    "mouse_stock_status": "in_stock",
+    "image_url_fallback": "https://m.media-amazon.com/images/I/712ipg5gnEL._AC_SL1500_.jpg"
   },
   {
     "id": "ifyoo_g63",
@@ -33241,7 +33328,8 @@
     "mouse_wireless": true,
     "mouse_battery_life_hr": 100,
     "mouse_buttons_programmable": 5,
-    "mouse_stock_status": "in_stock"
+    "mouse_stock_status": "in_stock",
+    "image_url_fallback": "https://m.media-amazon.com/images/I/61ZVgXeVHQL._AC_SL1500_.jpg"
   },
   {
     "id": "imecoo_p1",
@@ -33864,7 +33952,8 @@
     "mouse_release_year": 2024,
     "mouse_discontinued": false,
     "mouse_special_edition": false,
-    "mouse_stock_status": "in_stock"
+    "mouse_stock_status": "in_stock",
+    "image_url_fallback": "https://m.media-amazon.com/images/I/41crcvBrfGL._AC_SL1000_.jpg"
   },
   {
     "id": "incott_g23_pro",
@@ -33962,7 +34051,8 @@
     "mouse_release_year": 2024,
     "mouse_discontinued": false,
     "mouse_special_edition": false,
-    "mouse_stock_status": "in_stock"
+    "mouse_stock_status": "in_stock",
+    "image_url_fallback": "https://m.media-amazon.com/images/I/41OUzbz0owL._AC_.jpg"
   },
   {
     "id": "incott_g23_v2",
@@ -34431,7 +34521,8 @@
     "mouse_release_year": 2024,
     "mouse_discontinued": false,
     "mouse_special_edition": false,
-    "mouse_stock_status": "in_stock"
+    "mouse_stock_status": "in_stock",
+    "image_url_fallback": "https://m.media-amazon.com/images/I/31eEk2YF5VL._AC_.jpg"
   },
   {
     "id": "incott_ghero",
@@ -34608,7 +34699,8 @@
     "mouse_release_year": 2024,
     "mouse_discontinued": false,
     "mouse_special_edition": false,
-    "mouse_stock_status": "in_stock"
+    "mouse_stock_status": "in_stock",
+    "image_url_fallback": "https://m.media-amazon.com/images/I/41mBxfZ10OL._AC_SL1000_.jpg"
   },
   {
     "id": "ipi_float",
@@ -34873,7 +34965,8 @@
     "mouse_release_year": 2024,
     "mouse_discontinued": false,
     "mouse_special_edition": false,
-    "mouse_stock_status": "in_stock"
+    "mouse_stock_status": "in_stock",
+    "image_url_fallback": "https://m.media-amazon.com/images/I/51fQK98CsML._AC_SL1500_.jpg"
   },
   {
     "id": "irok_he3",
@@ -36643,7 +36736,8 @@
     "mouse_wireless": true,
     "mouse_battery_life_hr": 98,
     "mouse_buttons_programmable": 5,
-    "mouse_stock_status": "in_stock"
+    "mouse_stock_status": "in_stock",
+    "image_url_fallback": "https://m.media-amazon.com/images/I/61iGSA6rZmL._AC_SL1500_.jpg"
   },
   {
     "id": "keychron_lemokey_g1",
@@ -36733,7 +36827,8 @@
     "mouse_wireless": true,
     "mouse_battery_life_hr": 140,
     "mouse_buttons_programmable": 5,
-    "mouse_stock_status": "in_stock"
+    "mouse_stock_status": "in_stock",
+    "image_url_fallback": "https://m.media-amazon.com/images/I/51xXbtBS6GL._AC_SL1500_.jpg"
   },
   {
     "id": "keychron_lemokey_g2",
@@ -36907,7 +37002,8 @@
     "mouse_wireless": false,
     "mouse_battery_life_hr": null,
     "mouse_buttons_programmable": 6,
-    "mouse_stock_status": "in_stock"
+    "mouse_stock_status": "in_stock",
+    "image_url_fallback": "https://m.media-amazon.com/images/I/61nZFT1tUeL._AC_SL1500_.jpg"
   },
   {
     "id": "keychron_m1_wireless",
@@ -37875,7 +37971,8 @@
     "mouse_wireless": true,
     "mouse_battery_life_hr": 80,
     "mouse_buttons_programmable": 6,
-    "mouse_stock_status": "in_stock"
+    "mouse_stock_status": "in_stock",
+    "image_url_fallback": "https://m.media-amazon.com/images/I/516xAkTMbzL._AC_SL1500_.jpg"
   },
   {
     "id": "kysona_jupiter_pro",
@@ -37965,7 +38062,8 @@
     "mouse_wireless": true,
     "mouse_battery_life_hr": 300,
     "mouse_buttons_programmable": 5,
-    "mouse_stock_status": "in_stock"
+    "mouse_stock_status": "in_stock",
+    "image_url_fallback": "https://m.media-amazon.com/images/I/51JbEweBIyL._AC_SL1500_.jpg"
   },
   {
     "id": "kysona_jupiter_se",
@@ -38486,7 +38584,8 @@
     "mouse_wireless": true,
     "mouse_battery_life_hr": 150,
     "mouse_buttons_programmable": 6,
-    "mouse_stock_status": "in_stock"
+    "mouse_stock_status": "in_stock",
+    "image_url_fallback": "https://m.media-amazon.com/images/I/51PN62q0sRL._AC_SL1500_.jpg"
   },
   {
     "id": "kysona_m660",
@@ -38655,7 +38754,8 @@
     "mouse_wireless": true,
     "mouse_battery_life_hr": 150,
     "mouse_buttons_programmable": 5,
-    "mouse_stock_status": "in_stock"
+    "mouse_stock_status": "in_stock",
+    "image_url_fallback": "https://m.media-amazon.com/images/I/41VHEqxzIQL._AC_SL1000_.jpg"
   },
   {
     "id": "kysona_mercury_pro",
@@ -39001,7 +39101,8 @@
     "mouse_wireless": true,
     "mouse_battery_life_hr": 120,
     "mouse_buttons_programmable": 6,
-    "mouse_stock_status": "in_stock"
+    "mouse_stock_status": "in_stock",
+    "image_url_fallback": "https://m.media-amazon.com/images/I/51mLvkJtfIL._AC_SL1500_.jpg"
   },
   {
     "id": "kysona_uranus_se",
@@ -40017,7 +40118,8 @@
     "mouse_release_year": 2023,
     "mouse_discontinued": false,
     "mouse_special_edition": true,
-    "mouse_stock_status": "in_stock"
+    "mouse_stock_status": "in_stock",
+    "image_url_fallback": "https://m.media-amazon.com/images/I/61r4Y8ySAUL._AC_SL1500_.jpg"
   },
   {
     "id": "lamzu_x_reject_paro_reject_special_edition",
@@ -40201,7 +40303,8 @@
     "mouse_release_year": 2022,
     "mouse_discontinued": false,
     "mouse_special_edition": false,
-    "mouse_stock_status": "in_stock"
+    "mouse_stock_status": "in_stock",
+    "image_url_fallback": "https://m.media-amazon.com/images/I/51JGTdLCcFL._AC_SL1500_.jpg"
   },
   {
     "id": "lenovo_legion_m410",
@@ -40291,7 +40394,8 @@
     "mouse_release_year": 2024,
     "mouse_discontinued": false,
     "mouse_special_edition": false,
-    "mouse_stock_status": "in_stock"
+    "mouse_stock_status": "in_stock",
+    "image_url_fallback": "https://m.media-amazon.com/images/I/61pB5E-pEbL._AC_SL1500_.jpg"
   },
   {
     "id": "lenovo_legion_m600s",
@@ -50024,7 +50128,8 @@
     "mouse_weight_class": "light",
     "retailer_urls": {
       "amazon": "https://www.amazon.com/dp/B0DDSTHLGV?tag=gearmatch-20"
-    }
+    },
+    "image_url_fallback": "https://m.media-amazon.com/images/I/51wxdcnujXL._AC_SL1500_.jpg"
   },
   {
     "id": "mchose_g3_a",
@@ -50374,7 +50479,8 @@
     "mouse_weight_class": "light",
     "retailer_urls": {
       "amazon": "https://www.amazon.com/dp/B0DDSRY7KX?tag=gearmatch-20"
-    }
+    },
+    "image_url_fallback": "https://m.media-amazon.com/images/I/51XBRQx-OnL._AC_SL1500_.jpg"
   },
   {
     "id": "mchose_g3_v2",
@@ -50508,7 +50614,8 @@
     "mouse_weight_class": "light",
     "retailer_urls": {
       "amazon": "https://www.amazon.com/dp/B0G8YY9LV8?tag=gearmatch-20"
-    }
+    },
+    "image_url_fallback": "https://m.media-amazon.com/images/I/51wxdcnujXL._AC_SL1500_.jpg"
   },
   {
     "id": "mchose_g7",
@@ -50800,7 +50907,8 @@
     "mouse_weight_class": "light",
     "retailer_urls": {
       "amazon": "https://www.amazon.com/dp/B0FQV45DZ9?tag=gearmatch-20"
-    }
+    },
+    "image_url_fallback": "https://m.media-amazon.com/images/I/510OpzMXBmL._AC_SL1500_.jpg"
   },
   {
     "id": "mchose_l7_pro",
@@ -51100,7 +51208,8 @@
     "mouse_weight_class": "light",
     "retailer_urls": {
       "amazon": "https://www.amazon.com/dp/B0DRD1VCG9?tag=gearmatch-20"
-    }
+    },
+    "image_url_fallback": "https://m.media-amazon.com/images/I/51XopjqVlAL._AC_SL1500_.jpg"
   },
   {
     "id": "mchose_m7_ultra",
@@ -52644,7 +52753,8 @@
     "mouse_weight_class": "heavy",
     "retailer_urls": {
       "amazon": "https://www.amazon.com/dp/B09GB913DL?tag=gearmatch-20"
-    }
+    },
+    "image_url_fallback": "https://m.media-amazon.com/images/I/61k1cHvtdcL._AC_SL1500_.jpg"
   },
   {
     "id": "mionix_naos_qg",
@@ -52784,7 +52894,8 @@
     "mouse_weight_class": "light",
     "retailer_urls": {
       "amazon": "https://www.amazon.com/dp/B0DFM3HGTY?tag=gearmatch-20"
-    }
+    },
+    "image_url_fallback": "https://m.media-amazon.com/images/I/41rSXoq3W4L._AC_SL1000_.jpg"
   },
   {
     "id": "monka_m1",
@@ -53216,7 +53327,8 @@
     "mouse_weight_class": "light",
     "retailer_urls": {
       "amazon": "https://www.amazon.com/dp/B0DWMK8V3D?tag=gearmatch-20"
-    }
+    },
+    "image_url_fallback": "https://m.media-amazon.com/images/I/41TQoaiJALL._AC_SL1500_.jpg"
   },
   {
     "id": "motospeed_x6",
@@ -53288,7 +53400,8 @@
     "mouse_weight_class": "light",
     "retailer_urls": {
       "amazon": "https://www.amazon.com/dp/B0DM5LHFZK?tag=gearmatch-20"
-    }
+    },
+    "image_url_fallback": "https://m.media-amazon.com/images/I/41GEgmBH6PL._AC_SL1500_.jpg"
   },
   {
     "id": "motospeed_x6_max",
@@ -53364,7 +53477,8 @@
     "mouse_weight_class": "ultra_light",
     "retailer_urls": {
       "amazon": "https://www.amazon.com/dp/B0DMN4PLNT?tag=gearmatch-20"
-    }
+    },
+    "image_url_fallback": "https://m.media-amazon.com/images/I/41-fFQCwvUL._AC_SL1500_.jpg"
   },
   {
     "id": "mountain_makalu_67",
@@ -53436,7 +53550,8 @@
     "retailer_urls": {
       "amazon": "https://www.amazon.com/dp/B08VNL12QF?tag=gearmatch-20",
       "newegg": "https://www.newegg.com/p/173-07PW-00002"
-    }
+    },
+    "image_url_fallback": "https://m.media-amazon.com/images/I/41pnAmpxHbL._AC_SL1000_.jpg"
   },
   {
     "id": "mountain_makalu_max",
@@ -53643,7 +53758,8 @@
     "mouse_weight_class": "light",
     "retailer_urls": {
       "amazon": "https://www.amazon.com/dp/B09TJC9ZL9?tag=gearmatch-20"
-    }
+    },
+    "image_url_fallback": "https://m.media-amazon.com/images/I/61hU+PJNKcL._AC_SL1500_.jpg"
   },
   {
     "id": "ninjutso_katana_ultralight",
@@ -53710,7 +53826,8 @@
     "mouse_weight_class": "light",
     "retailer_urls": {
       "amazon": "https://www.amazon.com/dp/B09FHK6DBY?tag=gearmatch-20"
-    }
+    },
+    "image_url_fallback": "https://m.media-amazon.com/images/I/41fFGkgaESL._AC_SL1000_.jpg"
   },
   {
     "id": "ninjutso_origin_one_x",
@@ -53780,7 +53897,8 @@
     "mouse_weight_class": "light",
     "retailer_urls": {
       "amazon": "https://www.amazon.com/dp/B098YZWDHY?tag=gearmatch-20"
-    }
+    },
+    "image_url_fallback": "https://m.media-amazon.com/images/I/41YaHhSiFAL._AC_SL1140_.jpg"
   },
   {
     "id": "ninjutso_sora",
@@ -54518,7 +54636,8 @@
     "retailer_urls": {
       "amazon": "https://www.amazon.com/dp/B09KGM5LH4?tag=gearmatch-20",
       "newegg": "https://www.newegg.com/p/32K-0044-00005"
-    }
+    },
+    "image_url_fallback": "https://m.media-amazon.com/images/I/61qhr-Jgb-L._AC_SL1500_.jpg"
   },
   {
     "id": "noir_m1",
@@ -55349,7 +55468,8 @@
     "mouse_weight_class": "light",
     "retailer_urls": {
       "amazon": "https://www.amazon.com/dp/B0CCDFZ9HF?tag=gearmatch-20"
-    }
+    },
+    "image_url_fallback": "https://m.media-amazon.com/images/I/71TBBU0xSvL._AC_SL1500_.jpg"
   },
   {
     "id": "phylina_s450_4k",
@@ -56970,7 +57090,8 @@
     },
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/pmm-vortex-8k-m.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "in_stock",
-    "mouse_weight_class": "ultra_light"
+    "mouse_weight_class": "ultra_light",
+    "image_url_fallback": "https://pmm.gg/cdn/shop/files/VORTEX4KMLIGHTTOP.png?v=1740695188"
   },
   {
     "id": "pmm_vortex_8k_s",
@@ -57040,7 +57161,8 @@
     },
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/pmm-vortex-8k-s.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "in_stock",
-    "mouse_weight_class": "ultra_light"
+    "mouse_weight_class": "ultra_light",
+    "image_url_fallback": "https://pmm.gg/cdn/shop/files/VORTEX4KMLIGHTTOP.png?v=1740695188"
   },
   {
     "id": "pmm_vortex_m",
@@ -57108,7 +57230,8 @@
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/pmm-vortex-m.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "out_of_stock",
     "mouse_weight_class": "ultra_light",
-    "mouse_discontinued": true
+    "mouse_discontinued": true,
+    "image_url_fallback": "https://pmm.gg/cdn/shop/files/VORTEX4KMLIGHTTOP.png?v=1740695188"
   },
   {
     "id": "pmm_vortex_s",
@@ -57330,7 +57453,8 @@
     },
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/pmm-zen-8k-mini.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "in_stock",
-    "mouse_weight_class": "ultra_light"
+    "mouse_weight_class": "ultra_light",
+    "image_url_fallback": "https://pmm.gg/cdn/shop/files/ZEN8KLIGHTTOP.png?v=1740694682"
   },
   {
     "id": "precision_gg_titan_0",
@@ -57399,7 +57523,8 @@
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/precision-gaming-gear-titan-0.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "out_of_stock",
     "mouse_weight_class": "ultra_light",
-    "mouse_discontinued": true
+    "mouse_discontinued": true,
+    "image_url_fallback": "https://precisiongaminggear.com/cdn/shop/files/IMG_20250621_180908_832_-_Copy.jpg?v=1751559556"
   },
   {
     "id": "press_play_atlas",
@@ -57537,7 +57662,8 @@
     },
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/press-play-iris.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "in_stock",
-    "mouse_weight_class": "light"
+    "mouse_weight_class": "light",
+    "image_url_fallback": "https://chemicygaming.com/image/cache/gaming gear/mouse/Press Play/Iris Mouse/Web Black-400x400.jpg"
   },
   {
     "id": "press_play_nova_ergo",
@@ -57674,7 +57800,8 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/press-play-spirit.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/press-play-spirit.png?width=512&height=512&resize=contain",
+    "image_url_fallback": "https://pressplayid.com/products/spirit-ultralight-wireless-gaming-mouse"
   },
   {
     "id": "project_w_opus",
@@ -57827,7 +57954,8 @@
     "mouse_weight_class": "light",
     "retailer_urls": {
       "amazon": "https://www.amazon.com/dp/B0DZGHZQ7V?tag=gearmatch-20"
-    }
+    },
+    "image_url_fallback": "https://m.media-amazon.com/images/I/61a6weMDgUL._AC_SL1500_.jpg"
   },
   {
     "id": "pulsar_pro_series_jv_x",
@@ -58057,7 +58185,8 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/pulsar-tenz-signature-edition.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/pulsar-tenz-signature-edition.png?width=512&height=512&resize=contain",
+    "image_url_fallback": "https://www.pulsar.gg/cdn/shop/files/TenZ.png?v=1758609983"
   },
   {
     "id": "pulsar_vspo",
@@ -58211,7 +58340,8 @@
       ],
       "mouse_value_pick": true
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/pulsar-x2-wired.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/pulsar-x2-wired.png?width=512&height=512&resize=contain",
+    "image_url_fallback": "https://www.pulsar.gg/cdn/shop/files/X2_v1_Gaming_Mouse_black.png?v=1758619347"
   },
   {
     "id": "pulsar_x2_crazylight",
@@ -58290,7 +58420,8 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/pulsar-x2n-crazylight-mini.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/pulsar-x2n-crazylight-mini.png?width=512&height=512&resize=contain",
+    "image_url_fallback": "https://www.pulsar.gg/cdn/shop/files/Pulsar-X2N_FRONT-MINI.png?v=1755604841"
   },
   {
     "id": "pulsar_x2h_v3",
@@ -58369,7 +58500,8 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/pulsar-x2h.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/pulsar-x2h.png?width=512&height=512&resize=contain",
+    "image_url_fallback": "https://www.pulsar.gg/cdn/shop/files/Pulsar_X2H_v3_Gaming_Mouse_Black_001.png?v=1758613229"
   },
   {
     "id": "pulsar_x2v2",
@@ -58524,7 +58656,8 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/pulsar-x3.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/pulsar-x3.png?width=512&height=512&resize=contain",
+    "image_url_fallback": "https://www.pulsar.gg/cdn/shop/files/Pulsar-X3-Gaming-Mouse_Black_001_kr.png?v=1758612507"
   },
   {
     "id": "pulsar_xlite_crazylight_mini",
@@ -58603,7 +58736,8 @@
     "mouse_weight_class": "ultra_light",
     "retailer_urls": {
       "amazon": "https://www.amazon.com/dp/B0FFGN4381?tag=gearmatch-20"
-    }
+    },
+    "image_url_fallback": "https://m.media-amazon.com/images/I/513E84ab0RL._AC_SL1500_.jpg"
   },
   {
     "id": "pulsar_xlite_v2",
@@ -58756,7 +58890,8 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/pulsar-xlite-v3.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/pulsar-xlite-v3.png?width=512&height=512&resize=contain",
+    "image_url_fallback": "https://www.pulsar.gg/cdn/shop/products/PulsarXliteV3MediumGamingMouse_Black_001-292582.png?v=1718795973"
   },
   {
     "id": "pulsar_xlite_v4_es_medium",
@@ -58831,7 +58966,8 @@
     "mouse_weight_class": "light",
     "retailer_urls": {
       "amazon": "https://www.amazon.com/dp/B0DLWH7F7V?tag=gearmatch-20"
-    }
+    },
+    "image_url_fallback": "https://m.media-amazon.com/images/I/61DWA+2vc0L._AC_SL1500_.jpg"
   },
   {
     "id": "pulsar_xlite_v4_es_mini",
@@ -58908,7 +59044,8 @@
     "mouse_weight_class": "light",
     "retailer_urls": {
       "amazon": "https://www.amazon.com/dp/B0DLWK2TQJ?tag=gearmatch-20"
-    }
+    },
+    "image_url_fallback": "https://m.media-amazon.com/images/I/51VgbwUF12L._AC_SL1500_.jpg"
   },
   {
     "id": "pulsar_xlite_v4_large",
@@ -59202,7 +59339,8 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/pulsar-xlite-wired.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/pulsar-xlite-wired.png?width=512&height=512&resize=contain",
+    "image_url_fallback": "https://www.pulsar.gg/cdn/shop/files/Pulsar_Xlite_v3_Wired_Gaming_Mouse_Black_001.png?v=1758613718"
   },
   {
     "id": "pulsar_xlite_wireless",
@@ -59274,7 +59412,8 @@
     "mouse_discontinued": true,
     "retailer_urls": {
       "amazon": "https://www.amazon.com/dp/B09CT89SCW?tag=gearmatch-20"
-    }
+    },
+    "image_url_fallback": "https://m.media-amazon.com/images/I/61DgsQb3aBL._AC_SL1500_.jpg"
   },
   {
     "id": "pulsar_zywoo_the_chosen_mouse_medium",
@@ -59426,7 +59565,8 @@
     },
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/pulsar-zywoo-the-chosen-mouse-medium.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "out_of_stock",
-    "mouse_weight_class": "light"
+    "mouse_weight_class": "light",
+    "image_url_fallback": "https://www.pulsar.gg/cdn/shop/files/PulsarZywooTheChosenMouse_Black_Mini_01.png?v=1747269187"
   },
   {
     "id": "puretrak_valor_wireless",
@@ -59564,7 +59704,8 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/pwnage-ambi-wireless.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/pwnage-ambi-wireless.png?width=512&height=512&resize=contain",
+    "image_url_fallback": "https://pwnage.com/cdn/shop/products/ambi_1_1_black_holed.png?v=1762460445"
   },
   {
     "id": "pwnage_ergo",
@@ -59627,7 +59768,8 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/pwnage-ergo.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/pwnage-ergo.png?width=512&height=512&resize=contain",
+    "image_url_fallback": "https://pwnage.com/cdn/shop/products/wired_1_holed_v3-min.png?v=1762459397"
   },
   {
     "id": "pwnage_ergo_wireless",
@@ -59692,7 +59834,8 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/pwnage-ergo-wireless.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/pwnage-ergo-wireless.png?width=512&height=512&resize=contain",
+    "image_url_fallback": "https://pwnage.com/cdn/shop/products/slide1black_c7ec3feb-8315-4db2-84cb-5dc9b55f63a5.png?v=1762459271"
   },
   {
     "id": "pwnage_stormbreaker",
@@ -59841,7 +59984,8 @@
     "manufacturer_url": "https://pwnage.com/products/ultra-custom-symm-gaming-mouse",
     "retailer_urls": {
       "amazon": "https://www.amazon.com/Pwnage-Ultra-Custom-Symm-Symmetrical/dp/B094CSY82J?tag=gearmatch-20"
-    }
+    },
+    "image_url_fallback": "https://m.media-amazon.com/images/I/51-uL6X9gUS._AC_SL1200_.jpg"
   },
   {
     "id": "pwnage_symm_1_wireless",
@@ -59910,7 +60054,8 @@
     "retailer_urls": {
       "amazon": "https://www.amazon.com/Pwnage-Ultra-Custom-Wireless-Symm/dp/B09NM98Z1J?tag=gearmatch-20",
       "newegg": "https://www.newegg.com/p/32K-00AT-00019"
-    }
+    },
+    "image_url_fallback": "https://m.media-amazon.com/images/I/51shAjsXpEL._AC_SL1080_.jpg"
   },
   {
     "id": "pwnage_symm_2",
@@ -59977,7 +60122,8 @@
     "manufacturer_url": "https://pwnage.com/products/ultra-custom-symm-2-gaming-mouse",
     "retailer_urls": {
       "amazon": "https://www.amazon.com/Pwnage-Ultra-Custom-Symm-Symmetrical/dp/B09F6MPK5Z?tag=gearmatch-20"
-    }
+    },
+    "image_url_fallback": "https://m.media-amazon.com/images/I/51NUAzOCNeL._AC_SL1200_.jpg"
   },
   {
     "id": "pwnage_symm_2_wireless",
@@ -60046,7 +60192,8 @@
     "manufacturer_url": "https://pwnage.com/products/ultra-custom-wireless-symm-2",
     "retailer_urls": {
       "amazon": "https://www.amazon.com/Pwnage-Ultra-Custom-Wireless-Gaming/dp/B09Q1LMJ7T?tag=gearmatch-20"
-    }
+    },
+    "image_url_fallback": "https://m.media-amazon.com/images/I/41OIzSa1T+L._AC_SL1200_.jpg"
   },
   {
     "id": "pwnage_symm_3",
@@ -60351,7 +60498,8 @@
     "retailer_urls": {
       "amazon": "https://www.amazon.com/RAGNOK-ErgoStrike7-Next-Gen-Ergonomic-Vertical/dp/B0F7LN26V7?tag=gearmatch-20",
       "lttlabs": "https://www.lttlabs.com/products/mice/ergostrike7"
-    }
+    },
+    "image_url_fallback": "https://m.media-amazon.com/images/I/61jrL+lQTgL._AC_SL1248_.jpg"
   },
   {
     "id": "rakk_bulus",
@@ -60424,7 +60572,8 @@
       "lazada_ph": "https://www.lazada.com.ph/products/easypc-rakk-bulus-wireless-gaming-mouse-hotswap-huano-80m-clickers-paw3325-sensor-black-and-white-i3544113299.html",
       "shopee_ph": "https://shopee.ph/RAKK-BULUS",
       "easypc": "https://easypc.com.ph/products/rakk-bulus-hotswap-trimode-paw3325-huano-80m-black-and-white-gaming-mouse/"
-    }
+    },
+    "image_url_fallback": "https://easypc.com.ph/cdn/shop/products/RAKK_BULUS_Black-a_grande.jpg?v=1705044499"
   },
   {
     "id": "rakk_gahum",
@@ -60496,7 +60645,8 @@
     "retailer_urls": {
       "lazada_ph": "https://www.lazada.com.ph/products/easypc-rakk-gahum-trimode-3395-lightweight-wireless-gaming-mouse-black-white-or-grey-for-desktop-pc-and-laptop-i3586290746.html",
       "shopee_ph": "https://shopee.ph/EasyPC-Rakk-Gahum-PAW-3395-wireless-gaming-mouse-Trimode-Black-White-and-Grey-650-IPS--i.77398075.22824898130"
-    }
+    },
+    "image_url_fallback": "https://easypc.com.ph/cdn/shop/files/RAKK_MAG-AN-a_grande.png?v=1697513755"
   },
   {
     "id": "rakk_kaptan_trimode",
@@ -60570,7 +60720,8 @@
     "retailer_urls": {
       "lazada_ph": "https://www.lazada.com.ph/products/easypc-rakk-kaptan-trimode-paw3395-lightweight-53g-gaming-mouse-black-or-white-for-desktop-pc-and-laptop-i4301840529.html",
       "easypc": "https://easypc.com.ph/products/rakk-kaptan-trimode-paw3395-lightweight-53g-gaming-mouse-white"
-    }
+    },
+    "image_url_fallback": "https://easypc.com.ph/cdn/shop/files/RAKK_KAPTAN_Trimode_PAW3395_Lightweight_53g_Gaming_Mouse_White-a_grande.png?v=1705451055"
   },
   {
     "id": "rakk_kaptan_wired",
@@ -60707,7 +60858,8 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/rakk-mag-an.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/rakk-mag-an.png?width=512&height=512&resize=contain",
+    "image_url_fallback": "https://easypc.com.ph/cdn/shop/files/RAKK_MAG-AN-a_grande.png?v=1697513755"
   },
   {
     "id": "rakk_talan",
@@ -60848,7 +61000,8 @@
     "manufacturer_url": "https://rakk.ph/product/rakk-talan-aero-trimode-paw3395-lightweight-57g-gaming-mouse-black/",
     "retailer_urls": {
       "easypc": "https://easypc.com.ph/products/rakk-talan-aero-trimode-paw3395-lightweight-57g-gaming-mouse-black"
-    }
+    },
+    "image_url_fallback": "https://easypc.com.ph/cdn/shop/files/RAKK_KAPTAN_Trimode_PAW3395_Lightweight_53g_Gaming_Mouse_White-a_grande.png?v=1705451055"
   },
   {
     "id": "rakk_talan_air",
@@ -60920,7 +61073,8 @@
     "retailer_urls": {
       "easypc": "https://easypc.com.ph/products/rakk-talan-air-wireless-black-and-white-usb-gaming-mouse",
       "shopee": "https://shopee.ph/RAKK-TANAW-Trimode-TANAW-4K-Polling-Trimode-PMW3395-Huano-80M-OLED-Gaming-Mouse-Black-or-White-i.758589854.28602386513"
-    }
+    },
+    "image_url_fallback": "https://easypc.com.ph/cdn/shop/files/RAKK_BULUS_Black-a_grande.jpg?v=1705044499"
   },
   {
     "id": "rakk_tanaw",
@@ -60992,7 +61146,8 @@
     "retailer_urls": {
       "easypc": "https://easypc.com.ph/products/rakk-tanaw-trimode-pmw3395-huano-80m-oled-gaming-mouse-black-with-rgb-charging-dock",
       "shopee": "https://shopee.ph/RAKK-TANAW-Trimode-TANAW-4K-Polling-Trimode-PMW3395-Huano-80M-OLED-Gaming-Mouse-Black-or-White-i.758589854.28602386513"
-    }
+    },
+    "image_url_fallback": "https://easypc.com.ph/cdn/shop/files/RAKK_TANAW_Trimode_PMW3395_Huano_80M_OLED_Gaming_Mouse_Black_with_RGB_Charging_Dock-c_grande.png?v=1718075518"
   },
   {
     "id": "rampage_blitz_ultimate",
@@ -61069,7 +61224,8 @@
     "manufacturer_url": "https://www.rampage.com.tr/en/products/blitz-ultimate-8k-kablosuz-oyuncu-mouse",
     "retailer_urls": {
       "official_store": "https://www.rampage.com.tr/en/products/blitz-ultimate-8k-kablosuz-oyuncu-mouse"
-    }
+    },
+    "image_url_fallback": "https://www.rampage.com.tr/cdn/shop/files/Untitled-9copy_175873f9-6ed3-466c-ba5c-1c1eafa6f787.png?v=1772023696"
   },
   {
     "id": "rampage_prote_m5",
@@ -61140,7 +61296,8 @@
       "amazon": "https://www.amazon.com/Rampage-Prote-M5-Wireless-Gaming/dp/B0F59YMTNC?tag=gearmatch-20",
       "newegg": "https://www.newegg.com/p/0TP-02YX-00197",
       "ebay": "https://www.ebay.com/itm/297689279963"
-    }
+    },
+    "image_url_fallback": "https://m.media-amazon.com/images/I/41SmoJc8y8L._AC_SL1500_.jpg"
   },
   {
     "id": "rampage_zenith_pro",
@@ -61211,7 +61368,8 @@
     "retailer_urls": {
       "amazon": "https://www.amazon.com/-/he/Zenith-Pro/dp/B0DXKZ7851?tag=gearmatch-20",
       "official_store": "https://www.rampage.com.tr/en/products/zenith-pro-4000-hz-kablosuz-oyuncu-mouse"
-    }
+    },
+    "image_url_fallback": "https://m.media-amazon.com/images/I/414gnxvqavL._AC_SL1500_.jpg"
   },
   {
     "id": "rapoo_mt760",
@@ -61346,7 +61504,8 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/rapoo-mt760-mini.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/rapoo-mt760-mini.png?width=512&height=512&resize=contain",
+    "image_url_fallback": "https://shop.rapoo.com/cdn/shop/files/MT760L-1_9e8c71f3-d18b-4659-8727-7276096a0504.png?v=1765179790"
   },
   {
     "id": "rapoo_mt760_pro",
@@ -61420,7 +61579,8 @@
     "retailer_urls": {
       "amazon": "https://www.amazon.com/Rapoo-MT760-PRO-Multi-Device-Programmable/dp/B0F1YHS5T1?tag=gearmatch-20",
       "newegg": "https://www.newegg.com/p/3C6-02X3-00CC4"
-    }
+    },
+    "image_url_fallback": "https://m.media-amazon.com/images/I/51Rk-V0y6bL._AC_SL1500_.jpg"
   },
   {
     "id": "rapoo_vt0",
@@ -61494,7 +61654,8 @@
     "retailer_urls": {
       "official_store": "https://shop.rapoo.com/products/rapoo-vt0-gen-2-wireless-gaming-mouse-ultra-lightweight",
       "minixpc": "https://minixpc.com/products/rapoo-vt0-series-wireless-gaming-mouse"
-    }
+    },
+    "image_url_fallback": "https://shop.rapoo.com/cdn/shop/files/VT0-WH_1.png?v=1764230656"
   },
   {
     "id": "rapoo_vt0_max",
@@ -62041,7 +62202,8 @@
     "manufacturer_url": "https://shop.rapoo.com/products/rapoo-vt3-gen-2-wireless-gaming-mouse",
     "retailer_urls": {
       "amazon": "https://www.amazon.com/Rapoo-VT3GEN-2-Programmable-Lightweight-Wireless/dp/B0FQNPSHXC?tag=gearmatch-20"
-    }
+    },
+    "image_url_fallback": "https://m.media-amazon.com/images/I/51mFRdHGsGL._AC_SL1500_.jpg"
   },
   {
     "id": "rapoo_vt3_max_gen_2",
@@ -62281,7 +62443,8 @@
     "retailer_urls": {
       "amazon": "https://www.amazon.com/Rapoo-VT3PROMAX-Wireless-Programmable-Lightweight/dp/B0D9LQGH2K?tag=gearmatch-20",
       "newegg": "https://www.newegg.com/p/32K-007C-000M6"
-    }
+    },
+    "image_url_fallback": "https://m.media-amazon.com/images/I/515K+ZqkAKL._AC_SL1500_.jpg"
   },
   {
     "id": "rapoo_vt3s_old",
@@ -62353,7 +62516,8 @@
     "manufacturer_url": "https://shop.rapoo.com/collections/rapoo-vt3-series",
     "retailer_urls": {
       "official_store": "https://shop.rapoo.com/collections/rapoo-vt3-series"
-    }
+    },
+    "image_url_fallback": "https://www.ipopularshop.com/cdn/shop/products/71afd991bf7cff85eb879a541b93cbf6.jpg?v=1688014959"
   },
   {
     "id": "rapoo_vt3s_gen_2",
@@ -62507,7 +62671,8 @@
     "manufacturer_url": "https://shop.rapoo.com/products/rapoo-vt3s-max-gen2-wireless-gaming-mouse-49g-ultra-lightweight",
     "retailer_urls": {
       "amazon": "https://www.amazon.com/Rapoo-VT3S-MAX-Gen-2-Programmable/dp/B0FJW4L27D?tag=gearmatch-20"
-    }
+    },
+    "image_url_fallback": "https://m.media-amazon.com/images/I/51DOQP5l1jL._AC_SL1500_.jpg"
   },
   {
     "id": "rapoo_vt7",
@@ -62578,7 +62743,8 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/rapoo-vt7.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/rapoo-vt7.png?width=512&height=512&resize=contain",
+    "image_url_fallback": "https://shop.rapoo.com/cdn/shop/files/VT7_MAX-MTBE.png?v=1771897940"
   },
   {
     "id": "rapoo_vt7_max",
@@ -62734,7 +62900,8 @@
     "manufacturer_url": "https://shop.rapoo.com/collections/rapoo-vt9-series",
     "retailer_urls": {
       "amazon": "https://www.amazon.com/s?k=Rapoo+VT9+Air&tag=gearmatch-20"
-    }
+    },
+    "image_url_fallback": "https://mechkeys.com/cdn/shop/files/rapoo-vt9air-8khz-mouse-mechkeysshop-583465.jpg?v=1761740264"
   },
   {
     "id": "rapoo_vt9_pro",
@@ -62882,7 +63049,8 @@
     "retailer_urls": {
       "amazon": "https://www.amazon.com/Rapoo-VT9PRO-4K-Lightweight-Programmable/dp/B0CM5W3LK4?tag=gearmatch-20",
       "newegg": "https://www.newegg.com/p/32K-007C-00038"
-    }
+    },
+    "image_url_fallback": "https://m.media-amazon.com/images/I/616vEkbJIYL._AC_SL1500_.jpg"
   },
   {
     "id": "rapoo_vt9_pro_mini",
@@ -63024,7 +63192,8 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/rapoo-vt900.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/rapoo-vt900.png?width=512&height=512&resize=contain",
+    "image_url_fallback": "https://www.rapoo-eu.com/wp-content/uploads/2020/08/58fb7d79a93c1004a3125348c0a89ad-scaled-e1626265816828.jpg"
   },
   {
     "id": "rapoo_vt960_pro",
@@ -63096,7 +63265,8 @@
     "retailer_urls": {
       "amazon": "https://www.amazon.com/Rapoo-VT960S-Performance-Lightsync-Programmable/dp/B0BCJPTD82?tag=gearmatch-20",
       "aliexpress": "https://www.aliexpress.us/item/3256805516243056.html"
-    }
+    },
+    "image_url_fallback": "https://m.media-amazon.com/images/I/51U0hD674ZL._AC_SL1500_.jpg"
   },
   {
     "id": "rapoo_vt9s",
@@ -63167,7 +63337,8 @@
     "manufacturer_url": "https://shop.rapoo.com/collections/rapoo-vt9-series",
     "retailer_urls": {
       "amazon": "https://www.amazon.com/s?k=Rapoo+VT9S&tag=gearmatch-20"
-    }
+    },
+    "image_url_fallback": "https://mechkeys.com/cdn/shop/products/rapoo-vt9pro-series-mouse-mechkeysshop-vt9pro-white-872076.jpg?v=1761741221"
   },
   {
     "id": "rawm_er21",
@@ -63242,7 +63413,8 @@
     "retailer_urls": {
       "amazon": "https://www.amazon.com/s?k=Rawm+ER21&tag=gearmatch-20",
       "maxgaming": "https://us.maxgaming.com/us/wireless-mouses/er21-pro-8k-wireless-gaming-mouse-black"
-    }
+    },
+    "image_url_fallback": "https://www.rawmshop.com/cdn/shop/files/rawm-er21pro-hyperspeed-wireless-gaming-mouse-right-handed-ergonomics-49g-fast-ttc-optical-switches-4340424.png?v=1762420441"
   },
   {
     "id": "rawm_er21_pro",
@@ -63324,7 +63496,8 @@
       "amazon": "https://www.amazon.com/RAWM-Wireless-Ultra-Lightweight-Independent-Ergonomic/dp/B0FCMT279M?tag=gearmatch-20",
       "mechkeys": "https://mechkeys.com/products/rawm-er21pro",
       "maxgaming": "https://us.maxgaming.com/us/wireless-mouses/er21-pro-8k-wireless-gaming-mouse-black"
-    }
+    },
+    "image_url_fallback": "https://m.media-amazon.com/images/I/41vrjWAhbvL._AC_SL1500_.jpg"
   },
   {
     "id": "rawm_es21",
@@ -63398,7 +63571,8 @@
     "retailer_urls": {
       "amazon": "https://www.amazon.com/RAWM-ES21-Wireless-Ultra-Lightweight-Programmable/dp/B0FB3MGJ1D?tag=gearmatch-20",
       "mechkeys": "https://mechkeys.com/products/rawm-es21"
-    }
+    },
+    "image_url_fallback": "https://m.media-amazon.com/images/I/41vrjWAhbvL._AC_SL1500_.jpg"
   },
   {
     "id": "rawm_es21_m",
@@ -63477,7 +63651,8 @@
     "retailer_urls": {
       "amazon": "https://www.amazon.com/RAWM-ES21-Wireless-Ultra-Lightweight-Programmable/dp/B0FB3MGJ1D?tag=gearmatch-20",
       "official_store": "https://www.rawmshop.com/products/es21"
-    }
+    },
+    "image_url_fallback": "https://m.media-amazon.com/images/I/41vrjWAhbvL._AC_SL1500_.jpg"
   },
   {
     "id": "rawm_es21_pro",
@@ -63556,7 +63731,8 @@
     "retailer_urls": {
       "amazon": "https://www.amazon.com/RAWM-ES21PRO-Ultra-Lightweight-Programmable-Including/dp/B0FB3FVWXC?tag=gearmatch-20",
       "mechkeysshop": "https://mechkeys.com/products/rawm-es21"
-    }
+    },
+    "image_url_fallback": "https://m.media-amazon.com/images/I/518BmJwWTtL._AC_SL1500_.jpg"
   },
   {
     "id": "rawm_leviathan_v4",
@@ -63636,7 +63812,8 @@
       "amazon": "https://www.amazon.com/s?k=RAWM%20Leviathan%20V4&tag=gearmatch-20",
       "official_store": "https://www.rawmshop.com/products/leviathan-v4",
       "maxgaming": "https://us.maxgaming.com/us/wireless-mouses/leviathan-v4-dual-8k-wireless-gaming-mouse-black"
-    }
+    },
+    "image_url_fallback": "https://www.rawmshop.com/cdn/shop/files/rawm-leviathan-v4-dual-8k-55g-lightweight-wireless-gaming-mouse-for-fast-response-paw3950-nordic-nrf54l15-4842016.png?v=1763013752"
   },
   {
     "id": "rawm_mh01",
@@ -63711,7 +63888,8 @@
     "retailer_urls": {
       "amazon": "https://www.amazon.com/RAWM-MH01-Lightweight-Rechargeable-Programmable/dp/B0F7XMWS1S?tag=gearmatch-20",
       "official_store": "https://www.rawmshop.com/products/mh01-1k"
-    }
+    },
+    "image_url_fallback": "https://m.media-amazon.com/images/I/61eiZfsdq1L._AC_SL1500_.jpg"
   },
   {
     "id": "rawm_mh01_pro",
@@ -63790,7 +63968,8 @@
     "retailer_urls": {
       "official_store": "https://www.rawmshop.com/products/mh01pro",
       "mechkeysshop": "https://keeb-finder.com/mice/rawm-sa-mh01pro"
-    }
+    },
+    "image_url_fallback": "https://www.rawmshop.com/cdn/shop/files/rawm-mh01pro-8k-wireless-gaming-mouse-for-esports-paw-3950-lightweight-600mah-battery-450230.png?v=1752404647"
   },
   {
     "id": "rawm_ml01",
@@ -64014,7 +64193,8 @@
     "manufacturer_url": "https://www.rawmshop.com/products/sh01-1k",
     "retailer_urls": {
       "official_store": "https://www.rawmshop.com/products/sh01-1k"
-    }
+    },
+    "image_url_fallback": "https://www.rawmshop.com/cdn/shop/files/rawm-sh01s-1k-wireless-best-gaming-mouse-paw3395panchip-lightweight-171079.png?v=1752211508"
   },
   {
     "id": "rawm_sh01_pro",
@@ -64094,7 +64274,8 @@
       "amazon": "https://www.amazon.com/RAWM-Wireless-PAW3950-Lightweight-Included/dp/B0DKFL1XWD?tag=gearmatch-20",
       "official_store": "https://www.rawmshop.com/products/sh01pro-8k",
       "mechkeysshop": "https://mechkeys.com/products/rawm-sa-sh01pro"
-    }
+    },
+    "image_url_fallback": "https://m.media-amazon.com/images/I/61ly3pLkrzL._AC_SL1500_.jpg"
   },
   {
     "id": "rawm_sl01",
@@ -64169,7 +64350,8 @@
       "mouse_dpi_max": 12000
     },
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/rawm-sa-sl01.png?width=512&height=512&resize=contain",
-    "manufacturer_url": "https://www.rawmshop.com/products/sl01c"
+    "manufacturer_url": "https://www.rawmshop.com/products/sl01c",
+    "image_url_fallback": "https://www.rawmshop.com/cdn/shop/files/rawm-sl01c-paw3311-wireless-hollow-gaming-mouse-12000dpi-60g-6-programmable-buttons-758319.png?v=1748512245"
   },
   {
     "id": "rawm_sl01_pro",
@@ -64313,7 +64495,8 @@
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/razer-abyssus-2014.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "out_of_stock",
     "mouse_weight_class": "medium",
-    "mouse_discontinued": true
+    "mouse_discontinued": true,
+    "image_url_fallback": "https://c1.neweggimages.com/productimage/nb640/26-153-165-06.jpg"
   },
   {
     "id": "razer_abyssus_essential",
@@ -64377,7 +64560,8 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/razer-abyssus-essential.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/razer-abyssus-essential.png?width=512&height=512&resize=contain",
+    "image_url_fallback": "https://c1.neweggimages.com/productimage/nb640/26-153-210-03.jpg"
   },
   {
     "id": "razer_atheris",
@@ -65502,7 +65686,8 @@
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/razer-copperhead.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "out_of_stock",
     "mouse_weight_class": "heavy",
-    "mouse_discontinued": true
+    "mouse_discontinued": true,
+    "image_url_fallback": "https://c1.neweggimages.com/productimage/nb640/26-153-107-01.jpg"
   },
   {
     "id": "razer_deathadder_chroma",
@@ -66350,7 +66535,8 @@
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/razer-diamondback-2015.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "out_of_stock",
     "mouse_weight_class": "medium",
-    "mouse_discontinued": true
+    "mouse_discontinued": true,
+    "image_url_fallback": "https://c1.neweggimages.com/ProductImageCompressAll60/26-153-187-01.jpg"
   },
   {
     "id": "razer_imperator",
@@ -66493,7 +66679,8 @@
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/razer-krait-2013.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "out_of_stock",
     "mouse_weight_class": "medium",
-    "mouse_discontinued": true
+    "mouse_discontinued": true,
+    "image_url_fallback": "https://c1.neweggimages.com/productimage/nb640/26-153-108-02.jpg"
   },
   {
     "id": "razer_lancehead",
@@ -66558,7 +66745,8 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/razer-lancehead.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/razer-lancehead.png?width=512&height=512&resize=contain",
+    "image_url_fallback": "https://c1.neweggimages.com/productimage/nb640/26-153-231-V02.jpg"
   },
   {
     "id": "razer_lancehead_wireless",
@@ -67393,7 +67581,8 @@
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/razer-orochi-2013.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "out_of_stock",
     "mouse_weight_class": "light",
-    "mouse_discontinued": true
+    "mouse_discontinued": true,
+    "image_url_fallback": "https://c1.neweggimages.com/productimage/nb640/26-153-115-02.jpg"
   },
   {
     "id": "razer_orochi_2015",
@@ -68547,7 +68736,8 @@
     "mouse_weight_class": "medium",
     "retailer_urls": {
       "amazon": "https://www.amazon.com/dp/B0C2BDP583?tag=gearmatch-20"
-    }
+    },
+    "image_url_fallback": "https://m.media-amazon.com/images/I/61Ma5aHj+GL._AC_SL1500_.jpg"
   },
   {
     "id": "redragon_g49_pro",
@@ -69867,7 +70057,8 @@
     "mouse_weight_class": "light",
     "retailer_urls": {
       "amazon": "https://www.amazon.com/dp/B0DQTW5TKF?tag=gearmatch-20"
-    }
+    },
+    "image_url_fallback": "https://m.media-amazon.com/images/I/510Ol3zhxBL._AC_SL1500_.jpg"
   },
   {
     "id": "rk_royal_kludge_m30",
@@ -69937,7 +70128,8 @@
     "mouse_weight_class": "ultra_light",
     "retailer_urls": {
       "amazon": "https://www.amazon.com/dp/B0FD9CYFT8?tag=gearmatch-20"
-    }
+    },
+    "image_url_fallback": "https://m.media-amazon.com/images/I/51wfyWTTwjL._AC_SL1500_.jpg"
   },
   {
     "id": "roccat_burst_core",
@@ -70067,7 +70259,8 @@
       "mouse_feel_tags": [],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/roccat-burst-pro.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/roccat-burst-pro.png?width=512&height=512&resize=contain",
+    "image_url_fallback": "https://cdn.shopify.com/s/files/1/0556/5795/5430/files/BurstII8kBlack-PackageFront_1106x840_417f1672-6db0-4885-ac7c-a2dc360cfd17.png?v=1755637656"
   },
   {
     "id": "roccat_burst_pro_air",
@@ -70135,7 +70328,8 @@
     "mouse_weight_class": "medium",
     "retailer_urls": {
       "amazon": "https://www.amazon.com/dp/B09WX3MNYM?tag=gearmatch-20"
-    }
+    },
+    "image_url_fallback": "https://m.media-amazon.com/images/I/81kTRUgKNaL._AC_SL1500_.jpg"
   },
   {
     "id": "roccat_kain_100_aimo",
@@ -70422,7 +70616,8 @@
     "mouse_discontinued": true,
     "retailer_urls": {
       "amazon": "https://www.amazon.com/dp/B07YCG26KZ?tag=gearmatch-20"
-    }
+    },
+    "image_url_fallback": "https://m.media-amazon.com/images/I/710V93eGqgL._AC_SL1500_.jpg"
   },
   {
     "id": "roccat_kone_pro",
@@ -71075,7 +71270,8 @@
     },
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/santali-s1-o.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "limited",
-    "mouse_weight_class": "light"
+    "mouse_weight_class": "light",
+    "image_url_fallback": "https://santali.co/cdn/shop/files/AGZ-MIRAGE-BirdsEyeShot.png?v=1719623632&width=1920"
   },
   {
     "id": "scyrox_v6",
@@ -71153,7 +71349,8 @@
       ],
       "mouse_value_pick": true
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/scyrox-v6.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/scyrox-v6.png?width=512&height=512&resize=contain",
+    "image_url_fallback": "https://scyrox.com/cdn/shop/files/V6_blue.jpg?v=1733887890"
   },
   {
     "id": "scyrox_v8",
@@ -71231,7 +71428,8 @@
       ],
       "mouse_value_pick": true
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/scyrox-v8.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/scyrox-v8.png?width=512&height=512&resize=contain",
+    "image_url_fallback": "https://scyrox.com/cdn/shop/files/0_91d5a242-0ae8-4d5c-b4e3-1e6eadc84e98.png?v=1718777516"
   },
   {
     "id": "solakaka_sm802",
@@ -71376,7 +71574,8 @@
     "mouse_weight_class": "medium",
     "retailer_urls": {
       "amazon": "https://www.amazon.com/dp/B0DRGH87S5?tag=gearmatch-20"
-    }
+    },
+    "image_url_fallback": "https://m.media-amazon.com/images/I/61pIyv55miL._AC_SL1500_.jpg"
   },
   {
     "id": "solakaka_sm805",
@@ -71445,7 +71644,8 @@
     "mouse_weight_class": "light",
     "retailer_urls": {
       "amazon": "https://www.amazon.com/dp/B0DT18YN1S?tag=gearmatch-20"
-    }
+    },
+    "image_url_fallback": "https://m.media-amazon.com/images/I/51aED7w0zHL._AC_SL1500_.jpg"
   },
   {
     "id": "solakaka_sm809",
@@ -71520,7 +71720,8 @@
     "mouse_weight_class": "medium",
     "retailer_urls": {
       "amazon": "https://www.amazon.com/dp/B0DP23QCJR?tag=gearmatch-20"
-    }
+    },
+    "image_url_fallback": "https://m.media-amazon.com/images/I/61d+4VzwNXL._AC_SL1500_.jpg"
   },
   {
     "id": "solakaka_sm809_pro",
@@ -71596,7 +71797,8 @@
     "mouse_weight_class": "medium",
     "retailer_urls": {
       "amazon": "https://www.amazon.com/dp/B0DT15Z62M?tag=gearmatch-20"
-    }
+    },
+    "image_url_fallback": "https://m.media-amazon.com/images/I/61w1P+THglL._AC_SL1500_.jpg"
   },
   {
     "id": "solakaka_sm850",
@@ -71666,7 +71868,8 @@
     "mouse_weight_class": "light",
     "retailer_urls": {
       "amazon": "https://www.amazon.com/dp/B0DSJ7K6CQ?tag=gearmatch-20"
-    }
+    },
+    "image_url_fallback": "https://m.media-amazon.com/images/I/51+f6gGECCL._AC_SL1500_.jpg"
   },
   {
     "id": "sony_inzone_mouse_a",
@@ -71817,7 +72020,8 @@
     },
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/spc-gear-lix-plus-wireless.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "limited",
-    "mouse_weight_class": "light"
+    "mouse_weight_class": "light",
+    "image_url_fallback": "https://spcgear.com/wp-content/uploads/2022/05/spg151-spcgear-lix-plus-wireless-01-png-www.png"
   },
   {
     "id": "sprime_pm1",
@@ -71889,7 +72093,8 @@
     },
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/sprime-pm1.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "limited",
-    "mouse_weight_class": "ultra_light"
+    "mouse_weight_class": "ultra_light",
+    "image_url_fallback": "https://www.sprime.gg/products/pm1-lightweight-wireless-ergo-gaming-mouse"
   },
   {
     "id": "steelseries_aerox_3",
@@ -72254,7 +72459,8 @@
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/steelseries-kana-v2.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "out_of_stock",
     "mouse_weight_class": "medium",
-    "mouse_discontinued": true
+    "mouse_discontinued": true,
+    "image_url_fallback": "https://c1.neweggimages.com/productimage/nb640/A7B4_130729576080193043Lz7iyk9k5z.jpg"
   },
   {
     "id": "steelseries_kinzu_v2",
@@ -72322,7 +72528,8 @@
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/steelseries-kinzu-v2.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "out_of_stock",
     "mouse_weight_class": "medium",
-    "mouse_discontinued": true
+    "mouse_discontinued": true,
+    "image_url_fallback": "https://c1.neweggimages.com/productimage/nb640/26-249-071-02.jpg"
   },
   {
     "id": "steelseries_kinzu_v2_pro",
@@ -73401,7 +73608,8 @@
     "mouse_discontinued": true,
     "retailer_urls": {
       "amazon": "https://www.amazon.com/dp/B073WGB8G6?tag=gearmatch-20"
-    }
+    },
+    "image_url_fallback": "https://m.media-amazon.com/images/I/61zSpZSQ9LL._AC_SL1500_.jpg"
   },
   {
     "id": "steelseries_sensei_ten",
@@ -73468,7 +73676,8 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/steelseries-sensei-ten.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/steelseries-sensei-ten.png?width=512&height=512&resize=contain",
+    "image_url_fallback": "https://c1.neweggimages.com/productimage/nb640/BZ59S2512300HULFXA5.jpg"
   },
   {
     "id": "strayfe_m55_pro_8k",
@@ -73614,7 +73823,8 @@
     "mouse_weight_class": "heavy",
     "retailer_urls": {
       "amazon": "https://www.amazon.com/dp/B0BTCSHD3J?tag=gearmatch-20"
-    }
+    },
+    "image_url_fallback": "https://m.media-amazon.com/images/I/51bvljjyOnL._AC_SL1001_.jpg"
   },
   {
     "id": "swiftpoint_ergopoint",
@@ -73763,7 +73973,8 @@
     "mouse_weight_class": "heavy",
     "retailer_urls": {
       "amazon": "https://www.amazon.com/dp/B08RW9X3NF?tag=gearmatch-20"
-    }
+    },
+    "image_url_fallback": "https://m.media-amazon.com/images/I/51Pu3J9yg7L._AC_SL1500_.jpg"
   },
   {
     "id": "swiftpoint_z2",
@@ -73839,7 +74050,8 @@
     "mouse_weight_class": "heavy",
     "retailer_urls": {
       "amazon": "https://www.amazon.com/dp/B0CZ8KTZHH?tag=gearmatch-20"
-    }
+    },
+    "image_url_fallback": "https://m.media-amazon.com/images/I/41equFKYdfL._AC_SL1000_.jpg"
   },
   {
     "id": "sylical_helix",
@@ -73988,7 +74200,8 @@
     "mouse_weight_class": "ultra_light",
     "retailer_urls": {
       "aliexpress": "https://www.aliexpress.com/item/1005002369013872.html"
-    }
+    },
+    "image_url_fallback": "https://cdn.shopify.com/s/files/1/0631/9590/6271/files/Thunderobot_ML4_Dual-Mode_Mouse_1.png?v=1719324025"
   },
   {
     "id": "tecware_ex1",
@@ -74057,7 +74270,8 @@
     "mouse_weight_class": "light",
     "retailer_urls": {
       "amazon": "https://www.amazon.com/dp/B0DNDXWJR6?tag=gearmatch-20"
-    }
+    },
+    "image_url_fallback": "https://m.media-amazon.com/images/I/417Wp0jKqQL._AC_SL1000_.jpg"
   },
   {
     "id": "tecware_pulse_elite",
@@ -74200,7 +74414,8 @@
     "mouse_weight_class": "light",
     "retailer_urls": {
       "amazon": "https://www.amazon.com/dp/B0B7D57LR8?tag=gearmatch-20"
-    }
+    },
+    "image_url_fallback": "https://m.media-amazon.com/images/I/51V5a1VovmL._AC_SL1500_.jpg"
   },
   {
     "id": "teevolution_helios_ii_pro",
@@ -74346,7 +74561,8 @@
     },
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/teevolution-terra.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "in_stock",
-    "mouse_weight_class": "ultra_light"
+    "mouse_weight_class": "ultra_light",
+    "image_url_fallback": "https://www.teevolution.gg/cdn/shop/files/8K_Included_Black_01.png?v=1773461148"
   },
   {
     "id": "tenten_zero_gravity",
@@ -74490,7 +74706,8 @@
     "mouse_weight_class": "medium",
     "retailer_urls": {
       "aliexpress": "https://www.aliexpress.com/i/1005007256672505.html"
-    }
+    },
+    "image_url_fallback": "https://cdn.shopify.com/s/files/1/0631/9590/6271/files/Thunderobot_ML4_Dual-Mode_Mouse_1.png?v=1719324025"
   },
   {
     "id": "thunderobot_ml6_pro",
@@ -74564,7 +74781,8 @@
     "retailer_urls": {
       "aliexpress": "https://www.aliexpress.com/item/1005008820470313.html",
       "mechkeys": "https://mechkeys.com/products/thunderobot-ml602-mouse"
-    }
+    },
+    "image_url_fallback": "https://mechkeys.com/cdn/shop/products/thunderobot-ml602-mouse-mechkeysshop-500534.jpg?v=1759152200"
   },
   {
     "id": "thunderobot_ml602",
@@ -74637,7 +74855,8 @@
     "retailer_urls": {
       "aliexpress": "https://www.aliexpress.com/item/1005006075811735.html",
       "mechkeys": "https://mechkeys.com/products/thunderobot-ml602-mouse"
-    }
+    },
+    "image_url_fallback": "https://mechkeys.com/cdn/shop/products/thunderobot-ml602-mouse-mechkeysshop-500534.jpg?v=1759152200"
   },
   {
     "id": "thunderobot_ml8",
@@ -74709,7 +74928,8 @@
     "mouse_weight_class": "light",
     "retailer_urls": {
       "mechkeys": "https://mechkeys.com/products/thunderobot-ml8"
-    }
+    },
+    "image_url_fallback": "https://mechkeys.com/cdn/shop/files/thunderobot-ml8-paw3395-nearlink-4khz-with-screen-mouse-mechkeysshop-636381.jpg?v=1772112022"
   },
   {
     "id": "thunderobot_ml9_mini",
@@ -74786,7 +75006,8 @@
     "retailer_urls": {
       "aliexpress": "https://www.aliexpress.com/item/3256807031713013.html",
       "mechkeys": "https://mechkeys.com/products/thunderobot-ml9-mini"
-    }
+    },
+    "image_url_fallback": "https://mechkeys.com/cdn/shop/files/thunderobot-ml9-mini-paw3950-nearlink-8khz-mouse-mechkeysshop-ml9-mini-orange-998438.jpg?v=1766926919"
   },
   {
     "id": "thunderobot_ml901",
@@ -74854,7 +75075,8 @@
     "retailer_urls": {
       "aliexpress": "https://www.aliexpress.com/item/1005005900788359.html",
       "mechkeys": "https://mechkeys.com/products/thunderobot-ml9-series-mouse"
-    }
+    },
+    "image_url_fallback": "https://mechkeys.com/cdn/shop/products/thunderobot-ml903-series-paw3395-mouse-mechkeysshop-ml9034khz-dongle-white-221975.jpg?v=1756557018"
   },
   {
     "id": "thunderobot_ml903",
@@ -74993,7 +75215,8 @@
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/thunderobot-ml901.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "out_of_stock",
     "mouse_weight_class": "light",
-    "mouse_discontinued": true
+    "mouse_discontinued": true,
+    "image_url_fallback": "https://mechkeys.com/cdn/shop/files/thunderobot-ml903-nearlink-8khz-mouse-mechkeysshop-416818.jpg?v=1761742141"
   },
   {
     "id": "tmkb_falcon_m1se",
@@ -75057,7 +75280,8 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/tmkb-falcon-m1se.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/tmkb-falcon-m1se.png?width=512&height=512&resize=contain",
+    "image_url_fallback": "https://c1.neweggimages.com/productimage/nb640/B7VES2404090GZJ5H86.jpg"
   },
   {
     "id": "turtle_beach_burst_ii_air",
@@ -75128,7 +75352,8 @@
     "mouse_weight_class": "ultra_light",
     "retailer_urls": {
       "amazon": "https://www.amazon.com/dp/B0D1CRTJ8J?tag=gearmatch-20"
-    }
+    },
+    "image_url_fallback": "https://m.media-amazon.com/images/I/61YJhLZwvsL._AC_SL1500_.jpg"
   },
   {
     "id": "turtle_beach_burst_ii_pro",
@@ -75203,7 +75428,8 @@
     "mouse_weight_class": "light",
     "retailer_urls": {
       "amazon": "https://www.amazon.com/dp/B0FPG3KG34?tag=gearmatch-20"
-    }
+    },
+    "image_url_fallback": "https://m.media-amazon.com/images/I/61MCnZlFKDL._AC_SL1500_.jpg"
   },
   {
     "id": "turtle_beach_kone_ii",
@@ -75277,7 +75503,8 @@
     "mouse_weight_class": "medium",
     "retailer_urls": {
       "amazon": "https://www.amazon.com/dp/B0D9MBY2J3?tag=gearmatch-20"
-    }
+    },
+    "image_url_fallback": "https://m.media-amazon.com/images/I/61DzBQSS-rL._AC_SL1500_.jpg"
   },
   {
     "id": "turtle_beach_kone_ii_air",
@@ -75352,7 +75579,8 @@
     "mouse_weight_class": "heavy",
     "retailer_urls": {
       "amazon": "https://www.amazon.com/dp/B0D9MDY56X?tag=gearmatch-20"
-    }
+    },
+    "image_url_fallback": "https://m.media-amazon.com/images/I/618fDSoUS8L._AC_SL1500_.jpg"
   },
   {
     "id": "turtle_beach_kone_xp_air",
@@ -75427,7 +75655,8 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/turtle-beach-kone-xp-air.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/turtle-beach-kone-xp-air.png?width=512&height=512&resize=contain",
+    "image_url_fallback": "https://c1.neweggimages.com/productimage/nb640/BCEDD2211070HBABEB9.jpg"
   },
   {
     "id": "turtle_beach_pure_air",
@@ -75500,7 +75729,8 @@
     "mouse_weight_class": "light",
     "retailer_urls": {
       "amazon": "https://www.amazon.com/dp/B0D1CSNVF3?tag=gearmatch-20"
-    }
+    },
+    "image_url_fallback": "https://m.media-amazon.com/images/I/61uO8r2sCdL._AC_SL1500_.jpg"
   },
   {
     "id": "turtle_beach_pure_sel",
@@ -75571,7 +75801,8 @@
     "mouse_weight_class": "light",
     "retailer_urls": {
       "amazon": "https://www.amazon.com/dp/B0D1CTKHLZ?tag=gearmatch-20"
-    }
+    },
+    "image_url_fallback": "https://m.media-amazon.com/images/I/51rAolePQ-L._AC_SL1500_.jpg"
   },
   {
     "id": "unius_black_lotus",
@@ -75794,7 +76025,8 @@
     "retailer_urls": {
       "aliexpress": "https://www.aliexpress.com/item/1005006443276101.html",
       "mechkeys": "https://mechkeys.com/products/valkyrie-m1"
-    }
+    },
+    "image_url_fallback": "https://mechkeys.com/cdn/shop/files/valkyrie-m1-wireless-4khz-mouse-mechkeysshop-m1-zhaoyun-314374.jpg?v=1764346145"
   },
   {
     "id": "valkyrie_vk_m1_pro",
@@ -75939,7 +76171,8 @@
     "mouse_weight_class": "light",
     "retailer_urls": {
       "aliexpress": "https://www.aliexpress.com/item/1005008418835938.html"
-    }
+    },
+    "image_url_fallback": "https://mechkeys.com/cdn/shop/files/Valkyrie_VK-M3_1_1024x1024.jpg?v=1750419491"
   },
   {
     "id": "valkyrie_vk_m2_pro",
@@ -76015,7 +76248,8 @@
     "mouse_weight_class": "light",
     "retailer_urls": {
       "aliexpress": "https://www.aliexpress.com/item/1005008828211012.html"
-    }
+    },
+    "image_url_fallback": "https://mechkeys.com/cdn/shop/files/Valkyrie_VK-M3_1_1024x1024.jpg?v=1750419491"
   },
   {
     "id": "valkyrie_vk_m3",
@@ -76086,7 +76320,8 @@
     "mouse_weight_class": "light",
     "retailer_urls": {
       "aliexpress": "https://www.aliexpress.com/item/1005009307023650.html"
-    }
+    },
+    "image_url_fallback": "https://mechkeys.com/cdn/shop/files/Valkyrie_VK-M3_1_1024x1024.jpg?v=1750419491"
   },
   {
     "id": "valkyrie_vk_m3_lite",
@@ -76232,7 +76467,8 @@
     "mouse_weight_class": "ultra_light",
     "retailer_urls": {
       "aliexpress": "https://www.aliexpress.com/item/1005009296756048.html"
-    }
+    },
+    "image_url_fallback": "https://mechkeys.com/cdn/shop/files/Valkyrie_VK-M3_1_1024x1024.jpg?v=1750419491"
   },
   {
     "id": "vancer_gemini_castor",
@@ -76302,7 +76538,8 @@
     "mouse_weight_class": "light",
     "retailer_urls": {
       "xtremesolution": "https://x-tremesolution.com/products/vancer-gemini-castor-symmetrical-super-lightweight-wireless-gaming-mice-black-white"
-    }
+    },
+    "image_url_fallback": "https://x-tremesolution.com/cdn/shop/products/GeminiCastorSymmBlack.jpg?v=1672470638"
   },
   {
     "id": "vancer_gemini_pollux",
@@ -76375,7 +76612,8 @@
     "retailer_urls": {
       "lethal_gaming_gear": "https://lethal.gg/products/vancer-pollux-lightweight-wireless-gaming-mouse",
       "xtremesolution": "https://x-tremesolution.com/products/vancer-gemini-pollux-ergo-super-lightweight-wireless-gaming-mice-black-white"
-    }
+    },
+    "image_url_fallback": "https://lethal.gg/cdn/shop/files/Vancer-Pollux-Pro-Wireless-Gaming-Mouse-Black-scaled.webp?v=1745344034"
   },
   {
     "id": "vancer_gretxa",
@@ -76442,7 +76680,8 @@
     "mouse_weight_class": "light",
     "retailer_urls": {
       "amazon": "https://www.amazon.com/dp/B098PP7CV3?tag=gearmatch-20"
-    }
+    },
+    "image_url_fallback": "https://m.media-amazon.com/images/I/61iaEqvjJ1L._AC_SL1428_.jpg"
   },
   {
     "id": "vancer_groove",
@@ -76510,7 +76749,8 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/vancer-groove.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/vancer-groove.png?width=512&height=512&resize=contain",
+    "image_url_fallback": "https://lethal.gg/cdn/shop/files/9a0bb3f305aec87723a3c1e97f60d2be_67f093d4534347ecef62569888740fa2_8_1.jpg?v=1712193590"
   },
   {
     "id": "vancer_thrash",
@@ -76582,7 +76822,8 @@
     "mouse_weight_class": "light",
     "retailer_urls": {
       "maxgaming": "https://us.maxgaming.com/us/wireless-mouses/thrash-4k-wireless-superlight-gaming-mouse-black"
-    }
+    },
+    "image_url_fallback": "https://lethal.gg/cdn/shop/files/Vancer-Pollux-Pro-Wireless-Gaming-Mouse-Black-scaled.webp?v=1745344034"
   },
   {
     "id": "vancer_x_arbiter_studio_akitsu",
@@ -76656,7 +76897,8 @@
     "mouse_weight_class": "ultra_light",
     "retailer_urls": {
       "amazon": "https://www.amazon.com/dp/B0DT7PJGY8?tag=gearmatch-20"
-    }
+    },
+    "image_url_fallback": "https://m.media-amazon.com/images/I/61ICf-9B72L._AC_SL1500_.jpg"
   },
   {
     "id": "vaxee_xe",
@@ -76809,7 +77051,8 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/vaxee-xe-s-l-wireless.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/vaxee-xe-s-l-wireless.png?width=512&height=512&resize=contain",
+    "image_url_fallback": "https://www.vaxee.co/data/goods/gallery/202507/1751876881912428993.png"
   },
   {
     "id": "vaxee_xe_wireless",
@@ -76885,7 +77128,8 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/vaxee-xe-wireless.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/vaxee-xe-wireless.png?width=512&height=512&resize=contain",
+    "image_url_fallback": "https://www.vaxee.co/data/goods/gallery/202402/1708498299280425480.png"
   },
   {
     "id": "vaxee_xe_s_wireless_4k",
@@ -76964,7 +77208,8 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/vaxee-xe-s-wireless.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/vaxee-xe-s-wireless.png?width=512&height=512&resize=contain",
+    "image_url_fallback": "https://www.vaxee.co/data/goods/gallery/202405/1715938000380164487.png"
   },
   {
     "id": "vaxee_zygen_np01s_wireless_4k",
@@ -77045,7 +77290,8 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/vaxee-zygen-np-01s-wireless.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/vaxee-zygen-np-01s-wireless.png?width=512&height=512&resize=contain",
+    "image_url_fallback": "https://www.vaxee.co/data/goods/gallery/202402/1708498320053904229.png"
   },
   {
     "id": "vaxee_e1_wireless_4k",
@@ -77256,7 +77502,8 @@
     },
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/vaxee-outset-ax-wireless.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "in_stock",
-    "mouse_weight_class": "medium"
+    "mouse_weight_class": "medium",
+    "image_url_fallback": "https://www.vaxee.co/data/goods/gallery/202402/1708498333736495947.png"
   },
   {
     "id": "vaxee_outset_ax_wireless_4k",
@@ -77761,7 +78008,8 @@
     },
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/vgn-dragonfly-f1.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "in_stock",
-    "mouse_weight_class": "light"
+    "mouse_weight_class": "light",
+    "image_url_fallback": "https://vgnlab.com/cdn/shop/files/20250923110250_149_606.jpg?v=1758609296"
   },
   {
     "id": "vgn_dragonfly_f2_pro_max",
@@ -77830,7 +78078,8 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/vgn-dragonfly-f2.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/vgn-dragonfly-f2.png?width=512&height=512&resize=contain",
+    "image_url_fallback": "https://c1.neweggimages.com/productimage/nb640/C21AD2602010MU581E5.jpg"
   },
   {
     "id": "vgn_dragonfly_f2_ultra",
@@ -77976,7 +78225,8 @@
     },
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/vgn-dragonfly-king.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "in_stock",
-    "mouse_weight_class": "light"
+    "mouse_weight_class": "light",
+    "image_url_fallback": "https://vgnlab.com/cdn/shop/files/94c2558a604b8dbcbafdfbe57abae0e6.jpg?v=1761285982"
   },
   {
     "id": "vgn_r1",
@@ -78388,7 +78638,8 @@
     },
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/vgn-y2-pro-max.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "in_stock",
-    "mouse_weight_class": "light"
+    "mouse_weight_class": "light",
+    "image_url_fallback": "https://vgnlab.com/cdn/shop/files/1_28b63cf4-e1b1-48e6-822c-5b7711cd6ee0.png?v=1751357017"
   },
   {
     "id": "vgn_y2_ultra",
@@ -78464,7 +78715,8 @@
     "mouse_weight_class": "ultra_light",
     "retailer_urls": {
       "mechkeys": "https://mechkeys.com/products/vgn-y2"
-    }
+    },
+    "image_url_fallback": "https://mechkeys.com/cdn/shop/files/c6446edf14544c5a1dee30a2a8ea0d7c.jpg?v=1750670883"
   },
   {
     "id": "vxe_mad_r",
@@ -78612,7 +78864,8 @@
     "mouse_weight_class": "ultra_light",
     "retailer_urls": {
       "amazon": "https://www.amazon.com/dp/B0FKFT4CJP?tag=gearmatch-20"
-    }
+    },
+    "image_url_fallback": "https://m.media-amazon.com/images/I/41QC6Bzsf6L._AC_SL1200_.jpg"
   },
   {
     "id": "vxe_r1_nearlink",
@@ -78905,7 +79158,8 @@
     "retailer_urls": {
       "waizowl": "https://waizowl.com/products/ogm-cloud",
       "mechkeys": "https://mechkeys.com/products/waizowl-ogm-cloud-mouse"
-    }
+    },
+    "image_url_fallback": "https://waizowl.com/cdn/shop/files/2400_a272ee01-42f3-4d62-a017-03e0f5e86a56.png?v=1716374197"
   },
   {
     "id": "waizowl_cloud_ultra",
@@ -78981,7 +79235,8 @@
     "mouse_weight_class": "light",
     "retailer_urls": {
       "waizowl": "https://waizowl.com/products/cloud-ultra"
-    }
+    },
+    "image_url_fallback": "https://waizowl.com/cdn/shop/files/F7080B82-3DC1-418D-8DED-3E9B24AB0384.jpg?v=1758111443"
   },
   {
     "id": "waizowl_cloud_v2",
@@ -79057,7 +79312,8 @@
     "mouse_weight_class": "light",
     "retailer_urls": {
       "mechkeys": "https://mechkeys.com/products/waizowl-cloud-paw3950"
-    }
+    },
+    "image_url_fallback": "https://mechkeys.com/cdn/shop/files/4b4b12d3ddb2d584aeddd85c7fa2bd2b.jpg?v=1773306725"
   },
   {
     "id": "waizowl_cloud_xs",
@@ -79135,7 +79391,8 @@
     "retailer_urls": {
       "waizowl": "https://waizowl.com/products/%E9%9B%B2cloud-xs",
       "mechkeys": "https://mechkeys.com/products/waizowl-cloud-xs"
-    }
+    },
+    "image_url_fallback": "https://waizowl.com/cdn/shop/files/XS_97059ad5-2ac4-4778-ad81-52c58c6dcd91.jpg?v=1737431707"
   },
   {
     "id": "waizowl_ogm_one",
@@ -79201,7 +79458,8 @@
     "mouse_weight_class": "medium",
     "retailer_urls": {
       "amazon": "https://www.amazon.com/dp/B0C99J4VGP?tag=gearmatch-20"
-    }
+    },
+    "image_url_fallback": "https://m.media-amazon.com/images/I/51qnHbDiimL._AC_SL1500_.jpg"
   },
   {
     "id": "waizowl_ogm_pro",
@@ -79268,7 +79526,8 @@
     "mouse_weight_class": "light",
     "retailer_urls": {
       "amazon": "https://www.amazon.com/dp/B0C99PM2HV?tag=gearmatch-20"
-    }
+    },
+    "image_url_fallback": "https://m.media-amazon.com/images/I/41ffis9Q+0L._AC_SL1500_.jpg"
   },
   {
     "id": "waizowl_ogm_pro_v2",
@@ -79344,7 +79603,8 @@
     "mouse_weight_class": "light",
     "retailer_urls": {
       "amazon": "https://www.amazon.com/dp/B0D95J86R6?tag=gearmatch-20"
-    }
+    },
+    "image_url_fallback": "https://m.media-amazon.com/images/I/51L-yGpfjcL._AC_SL1000_.jpg"
   },
   {
     "id": "wlmouse_beast_miao",
@@ -79424,7 +79684,8 @@
     "mouse_weight_class": "ultra_light",
     "retailer_urls": {
       "amazon": "https://www.amazon.com/dp/B0F9Q285Q6?tag=gearmatch-20"
-    }
+    },
+    "image_url_fallback": "https://m.media-amazon.com/images/I/61RPzXq9i3L._AC_SL1500_.jpg"
   },
   {
     "id": "wlmouse_beast_x",
@@ -79587,7 +79848,8 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/wlmouse-beast-x.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/wlmouse-beast-x.png?width=512&height=512&resize=contain",
+    "image_url_fallback": "https://www.wlmouse.com/cdn/shop/files/max_6aaf780e-f0d8-4857-ae3e-e189612e6b28.jpg?v=1755482399"
   },
   {
     "id": "wlmouse_strider",
@@ -79668,7 +79930,8 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/wlmouse-strider.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/wlmouse-strider.png?width=512&height=512&resize=contain",
+    "image_url_fallback": "https://www.wlmouse.com/cdn/shop/files/190f8640ef1965b196d7443bec5923dc.jpg?v=1754373067"
   },
   {
     "id": "wlmouse_sword_x",
@@ -79748,7 +80011,8 @@
     "mouse_weight_class": "light",
     "retailer_urls": {
       "amazon": "https://www.amazon.com/dp/B0DQVTCHZY?tag=gearmatch-20"
-    }
+    },
+    "image_url_fallback": "https://m.media-amazon.com/images/I/71FgQ5fD5cL._AC_SL1500_.jpg"
   },
   {
     "id": "wlmouse_ying",
@@ -79825,7 +80089,8 @@
     "mouse_weight_class": "ultra_light",
     "retailer_urls": {
       "amazon": "https://www.amazon.com/dp/B0F9PVKBH3?tag=gearmatch-20"
-    }
+    },
+    "image_url_fallback": "https://m.media-amazon.com/images/I/71J57lk0i0L._AC_SL1500_.jpg"
   },
   {
     "id": "xenics_titan_gx_air_wireless",
@@ -79891,7 +80156,8 @@
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/xenics-titan-gx-air-wireless.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "out_of_stock",
     "mouse_weight_class": "medium",
-    "mouse_discontinued": true
+    "mouse_discontinued": true,
+    "image_url_fallback": "https://i.ebayimg.com/images/g/aAYAAOSwUEFf~QBY/s-l1600.jpg"
   },
   {
     "id": "xiaomi_x1",
@@ -79959,7 +80225,8 @@
     },
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/xiaomi-x1.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "in_stock",
-    "mouse_weight_class": "light"
+    "mouse_weight_class": "light",
+    "image_url_fallback": "https://minixpc.com/cdn/shop/files/xiaomi-x1-product.jpg"
   },
   {
     "id": "xinshuntian_g820",
@@ -80027,7 +80294,8 @@
     },
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/xinshuntian-g820.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "in_stock",
-    "mouse_weight_class": "light"
+    "mouse_weight_class": "light",
+    "image_url_fallback": "https://mechkeys.com/cdn/shop/files/xinshuntian-g820mini-mouse-mechkeysshop-333167.jpg?v=1756556213"
   },
   {
     "id": "xtrfy_m4",
@@ -80223,7 +80491,8 @@
       "mouse_feel_tags": [],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/xtrfy-m42.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/xtrfy-m42.png?width=512&height=512&resize=contain",
+    "image_url_fallback": "https://cherryxtrfy.com/mice/m42/"
   },
   {
     "id": "xtrfy_m42_lower_back",
@@ -80358,7 +80627,8 @@
     "mouse_weight_class": "light",
     "retailer_urls": {
       "amazon": "https://www.amazon.com/dp/B0B3XWW98C?tag=gearmatch-20"
-    }
+    },
+    "image_url_fallback": "https://m.media-amazon.com/images/I/51ypdMebmcL._AC_SL1500_.jpg"
   },
   {
     "id": "xtrfy_m8_wireless",
@@ -80428,7 +80698,8 @@
     "mouse_weight_class": "light",
     "retailer_urls": {
       "amazon": "https://www.amazon.com/dp/B0BMLHTL22?tag=gearmatch-20"
-    }
+    },
+    "image_url_fallback": "https://m.media-amazon.com/images/I/41ifW5MwO2L._AC_SL1500_.jpg"
   },
   {
     "id": "xtrfy_mz1",
@@ -80498,7 +80769,8 @@
     "mouse_weight_class": "light",
     "retailer_urls": {
       "amazon": "https://www.amazon.com/dp/B097Q2NYRF?tag=gearmatch-20"
-    }
+    },
+    "image_url_fallback": "https://m.media-amazon.com/images/I/51mhiQBnclL._AC_SL1078_.jpg"
   },
   {
     "id": "xtrfy_mz1_wireless",
@@ -80570,7 +80842,8 @@
     "mouse_weight_class": "light",
     "retailer_urls": {
       "amazon": "https://www.amazon.com/dp/B0B1249252?tag=gearmatch-20"
-    }
+    },
+    "image_url_fallback": "https://m.media-amazon.com/images/I/41kWkUy0wNL._AC_SL1500_.jpg"
   },
   {
     "id": "xtro_eris",
@@ -80782,7 +81055,8 @@
     "mouse_weight_class": "light",
     "retailer_urls": {
       "mechkeys": "https://mechkeys.com/products/zaopin-z1-wireless-mouse"
-    }
+    },
+    "image_url_fallback": "https://mechkeys.com/cdn/shop/files/zaopin-z1-wireless-mouse-mechkeysshop-968700_grande.jpg?v=1751382809"
   },
   {
     "id": "zaopin_z1_pro",
@@ -80856,7 +81130,8 @@
     "mouse_weight_class": "light",
     "retailer_urls": {
       "mechkeys": "https://mechkeys.com/products/zaopin-z1-pro-three-mode"
-    }
+    },
+    "image_url_fallback": "https://mechkeys.com/cdn/shop/files/43806ca196b83889cd1a18b2fa01d0f0_grande.jpg?v=1773305767"
   },
   {
     "id": "zaopin_z1_pro_max",
@@ -80933,7 +81208,8 @@
     "mouse_weight_class": "light",
     "retailer_urls": {
       "mechkeys": "https://mechkeys.com/products/zaopin-z1-pro-max"
-    }
+    },
+    "image_url_fallback": "https://mechkeys.com/cdn/shop/files/518eb88941a63bca50ea3926913568ac.jpg?v=1773306028"
   },
   {
     "id": "zaopin_z2",
@@ -81005,7 +81281,8 @@
     "mouse_weight_class": "light",
     "retailer_urls": {
       "amazon": "https://www.amazon.com/dp/B0D83TP6WX?tag=gearmatch-20"
-    }
+    },
+    "image_url_fallback": "https://m.media-amazon.com/images/I/51Vpl0M-+NL._AC_SL1500_.jpg"
   },
   {
     "id": "zaopin_z2_max",
@@ -81081,7 +81358,8 @@
     "mouse_weight_class": "light",
     "retailer_urls": {
       "mechkeys": "https://mechkeys.com/products/zaopin-z2-max"
-    }
+    },
+    "image_url_fallback": "https://mechkeys.com/cdn/shop/files/66a5f8ad6a5cc187220733e93b9b4ce1_grande.jpg?v=1773306142"
   },
   {
     "id": "zaopin_z2_mini",
@@ -81154,7 +81432,8 @@
     "mouse_weight_class": "light",
     "retailer_urls": {
       "mechkeys": "https://mechkeys.com/products/zaopin-z2-mini"
-    }
+    },
+    "image_url_fallback": "https://mechkeys.com/cdn/shop/files/b55b83d66d2304dee2c3d429ab89b7e9_grande.jpg?v=1773305942"
   },
   {
     "id": "zaopin_z2_mini_4k",
@@ -81305,7 +81584,8 @@
     "mouse_weight_class": "light",
     "retailer_urls": {
       "mechkeys": "https://mechkeys.com/products/zaopin-z2-mini"
-    }
+    },
+    "image_url_fallback": "https://mechkeys.com/cdn/shop/files/b55b83d66d2304dee2c3d429ab89b7e9_grande.jpg?v=1773305942"
   },
   {
     "id": "zaopin_zpw",
@@ -81379,7 +81659,8 @@
     "mouse_weight_class": "light",
     "retailer_urls": {
       "mechkeys": "https://mechkeys.com/products/zaopin-zpw"
-    }
+    },
+    "image_url_fallback": "https://mechkeys.com/cdn/shop/files/3605feddcad98ac8d7c7d14c8d75664a_grande.jpg?v=1773306111"
   },
   {
     "id": "zaopin_zpw_max",
@@ -81457,7 +81738,8 @@
     "mouse_weight_class": "light",
     "retailer_urls": {
       "mechkeys": "https://mechkeys.com/products/zaopin-zpw"
-    }
+    },
+    "image_url_fallback": "https://mechkeys.com/cdn/shop/files/3605feddcad98ac8d7c7d14c8d75664a_grande.jpg?v=1773306111"
   },
   {
     "id": "zaunkoenig_m2k",
@@ -81606,7 +81888,8 @@
     },
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/zaunkoenig-m3k.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "limited",
-    "mouse_weight_class": "ultra_light"
+    "mouse_weight_class": "ultra_light",
+    "image_url_fallback": "https://zaunkoenig.co/m3k"
   },
   {
     "id": "zeromouse_blade",
@@ -81677,7 +81960,8 @@
     },
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/zeromouse-blade.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "preorder",
-    "mouse_weight_class": "ultra_light"
+    "mouse_weight_class": "ultra_light",
+    "image_url_fallback": "https://zeromouse.co/cdn/shop/files/product_page_-_4.jpg?v=1763460003"
   },
   {
     "id": "zowie_am",
@@ -81743,7 +82027,8 @@
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/zowie-am.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "out_of_stock",
     "mouse_weight_class": "medium",
-    "mouse_discontinued": true
+    "mouse_discontinued": true,
+    "image_url_fallback": "https://c1.neweggimages.com/productimage/nb640/26-876-015-02.jpg"
   },
   {
     "id": "zowie_ec1_b",
@@ -81814,7 +82099,8 @@
     "mouse_discontinued": true,
     "retailer_urls": {
       "amazon": "https://www.amazon.com/dp/B077K3W9BJ?tag=gearmatch-20"
-    }
+    },
+    "image_url_fallback": "https://m.media-amazon.com/images/I/81uztifvSJL._AC_SL1500_.jpg"
   },
   {
     "id": "zowie_ec1_b_v2",
@@ -81885,7 +82171,8 @@
     "mouse_discontinued": true,
     "retailer_urls": {
       "amazon": "https://www.amazon.com/dp/B07Y8ZD1P5?tag=gearmatch-20"
-    }
+    },
+    "image_url_fallback": "https://m.media-amazon.com/images/I/514DniG+dwL._AC_SL1200_.jpg"
   },
   {
     "id": "zowie_ec1_c",
@@ -81954,7 +82241,8 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/zowie-ec1-c.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/zowie-ec1-c.png?width=512&height=512&resize=contain",
+    "image_url_fallback": "https://c1.neweggimages.com/productimage/nb640/BR2DD23081719FGO7B7.jpg"
   },
   {
     "id": "zowie_ec1_cw",
@@ -82099,7 +82387,8 @@
       ],
       "mouse_value_pick": false
     },
-    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/zowie-ec1-wireless.png?width=512&height=512&resize=contain"
+    "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/zowie-ec1-wireless.png?width=512&height=512&resize=contain",
+    "image_url_fallback": "https://image.benq.com/is/image/benqco/ec1-dw-top?$ResponsivePreset$&fmt=png-alpha"
   },
   {
     "id": "zowie_ec2_b",
@@ -82229,7 +82518,8 @@
     "mouse_discontinued": true,
     "retailer_urls": {
       "amazon": "https://www.amazon.com/dp/B0771WQH6X?tag=gearmatch-20"
-    }
+    },
+    "image_url_fallback": "https://m.media-amazon.com/images/I/511vi6a75QL._AC_SL1000_.jpg"
   },
   {
     "id": "zowie_ec3_c",
@@ -82297,7 +82587,8 @@
     "mouse_weight_class": "medium",
     "retailer_urls": {
       "amazon": "https://www.amazon.com/dp/B0989ZZWZ9?tag=gearmatch-20"
-    }
+    },
+    "image_url_fallback": "https://m.media-amazon.com/images/I/414eD7qjMaL._AC_SL1000_.jpg"
   },
   {
     "id": "zowie_ec3_cw",
@@ -82503,7 +82794,8 @@
     "mouse_discontinued": true,
     "retailer_urls": {
       "amazon": "https://www.amazon.com/dp/B08BZVRKLD?tag=gearmatch-20"
-    }
+    },
+    "image_url_fallback": "https://m.media-amazon.com/images/I/41Vda23CjSL._AC_SL1260_.jpg"
   },
   {
     "id": "zowie_fk1_b_v2",
@@ -82572,7 +82864,8 @@
     "mouse_weight_class": "medium",
     "retailer_urls": {
       "amazon": "https://www.amazon.com/dp/B0B9ZVBQVD?tag=gearmatch-20"
-    }
+    },
+    "image_url_fallback": "https://m.media-amazon.com/images/I/41xEf2PfD6L._AC_SL1000_.jpg"
   },
   {
     "id": "zowie_fk1_c",
@@ -82641,7 +82934,8 @@
     "mouse_weight_class": "medium",
     "retailer_urls": {
       "amazon": "https://www.amazon.com/dp/B09CTMVKZH?tag=gearmatch-20"
-    }
+    },
+    "image_url_fallback": "https://m.media-amazon.com/images/I/41jevatZYcL._AC_SL1000_.jpg"
   },
   {
     "id": "zowie_fk2_b",
@@ -82708,7 +83002,8 @@
     "mouse_weight_class": "medium",
     "retailer_urls": {
       "amazon": "https://www.amazon.com/dp/B08BZTVC4M?tag=gearmatch-20"
-    }
+    },
+    "image_url_fallback": "https://m.media-amazon.com/images/I/41UsH+MHbuL._AC_SL1134_.jpg"
   },
   {
     "id": "zowie_fk2_b_v2",
@@ -82775,7 +83070,8 @@
     "mouse_weight_class": "medium",
     "retailer_urls": {
       "amazon": "https://www.amazon.com/dp/B0B9ZG11NC?tag=gearmatch-20"
-    }
+    },
+    "image_url_fallback": "https://m.media-amazon.com/images/I/41GdUH7t3JL._AC_SL1000_.jpg"
   },
   {
     "id": "zowie_fk2_c",
@@ -82842,7 +83138,8 @@
     "mouse_weight_class": "medium",
     "retailer_urls": {
       "amazon": "https://www.amazon.com/dp/B09CTNLS71?tag=gearmatch-20"
-    }
+    },
+    "image_url_fallback": "https://m.media-amazon.com/images/I/41JOhhPBzEL._AC_SL1000_.jpg"
   },
   {
     "id": "zowie_fk2_dw",
@@ -83047,7 +83344,8 @@
     "mouse_weight_class": "medium",
     "retailer_urls": {
       "amazon": "https://www.amazon.com/dp/B07T5QHC3B?tag=gearmatch-20"
-    }
+    },
+    "image_url_fallback": "https://m.media-amazon.com/images/I/51FxBzpD76L._AC_SL1200_.jpg"
   },
   {
     "id": "zowie_s1_b_v2",
@@ -83112,7 +83410,8 @@
     "mouse_weight_class": "medium",
     "retailer_urls": {
       "amazon": "https://www.amazon.com/dp/B0BB17VRN4?tag=gearmatch-20"
-    }
+    },
+    "image_url_fallback": "https://m.media-amazon.com/images/I/41KzHLG0QCL._AC_SL1000_.jpg"
   },
   {
     "id": "zowie_s1_c",
@@ -83177,7 +83476,8 @@
     "mouse_weight_class": "medium",
     "retailer_urls": {
       "amazon": "https://www.amazon.com/dp/B09G64NN3X?tag=gearmatch-20"
-    }
+    },
+    "image_url_fallback": "https://m.media-amazon.com/images/I/31+l2aOCmBL._AC_SL1000_.jpg"
   },
   {
     "id": "zowie_s2_b",
@@ -83242,7 +83542,8 @@
     "mouse_weight_class": "medium",
     "retailer_urls": {
       "amazon": "https://www.amazon.com/dp/B07T2G2K62?tag=gearmatch-20"
-    }
+    },
+    "image_url_fallback": "https://m.media-amazon.com/images/I/41eBtGMWZEL._AC_SL1200_.jpg"
   },
   {
     "id": "zowie_s2_b_v2",
@@ -83307,7 +83608,8 @@
     "mouse_weight_class": "medium",
     "retailer_urls": {
       "amazon": "https://www.amazon.com/dp/B0B9ZF856H?tag=gearmatch-20"
-    }
+    },
+    "image_url_fallback": "https://m.media-amazon.com/images/I/41z4hLyJymL._AC_SL1000_.jpg"
   },
   {
     "id": "zowie_s2_c",
@@ -83372,7 +83674,8 @@
     "mouse_weight_class": "light",
     "retailer_urls": {
       "amazon": "https://www.amazon.com/dp/B09G6F7463?tag=gearmatch-20"
-    }
+    },
+    "image_url_fallback": "https://m.media-amazon.com/images/I/31+l2aOCmBL._AC_SL1000_.jpg"
   },
   {
     "id": "zowie_s2_dw",
@@ -83650,7 +83953,8 @@
     "mouse_weight_class": "medium",
     "retailer_urls": {
       "amazon": "https://www.amazon.com/dp/B09MF3JXQ3?tag=gearmatch-20"
-    }
+    },
+    "image_url_fallback": "https://m.media-amazon.com/images/I/41u47S5W6GL._AC_SL1000_.jpg"
   },
   {
     "id": "zowie_za12_b",
@@ -83720,7 +84024,8 @@
     "mouse_discontinued": true,
     "retailer_urls": {
       "amazon": "https://www.amazon.com/dp/B08BZTQL9B?tag=gearmatch-20"
-    }
+    },
+    "image_url_fallback": "https://m.media-amazon.com/images/I/41dF13+wJIL._AC_SL1000_.jpg"
   },
   {
     "id": "zowie_za12_c",
@@ -83789,7 +84094,8 @@
     "mouse_weight_class": "medium",
     "retailer_urls": {
       "amazon": "https://www.amazon.com/dp/B09MF3JXQ4?tag=gearmatch-20"
-    }
+    },
+    "image_url_fallback": "https://m.media-amazon.com/images/I/41h840otM-L._AC_SL1000_.jpg"
   },
   {
     "id": "zowie_za13_b",
@@ -83856,7 +84162,8 @@
     "mouse_weight_class": "medium",
     "retailer_urls": {
       "amazon": "https://www.amazon.com/dp/B08BZCVXB3?tag=gearmatch-20"
-    }
+    },
+    "image_url_fallback": "https://m.media-amazon.com/images/I/41l7JWEaLsL._AC_SL1260_.jpg"
   },
   {
     "id": "zowie_za13_c",
@@ -83923,7 +84230,8 @@
     "mouse_weight_class": "light",
     "retailer_urls": {
       "amazon": "https://www.amazon.com/dp/B09MF3MMZ8?tag=gearmatch-20"
-    }
+    },
+    "image_url_fallback": "https://m.media-amazon.com/images/I/41aXGO5A+XL._AC_SL1000_.jpg"
   },
   {
     "id": "zowie_za13_dw",

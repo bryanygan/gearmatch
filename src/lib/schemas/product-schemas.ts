@@ -81,6 +81,7 @@ const baseProductShape = {
   category: z.enum(["mouse", "audio", "keyboard", "monitor"]),
   price_range_usd: z.tuple([z.number(), z.number()]),
   image_url: z.string().optional(),
+  image_url_fallback: z.string().optional(),
   product_url: z.string().optional(),
   manufacturer_url: z.string().optional(),
   retailer_urls: z.record(z.string(), z.string()).optional(),
