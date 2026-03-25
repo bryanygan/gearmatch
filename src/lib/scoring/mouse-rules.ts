@@ -7,6 +7,7 @@
 
 import type { MouseProduct, MouseGripFit, MouseSizeClass } from "@/types/products";
 import type { MouseQuizAnswers, ScoringRule, RuleResult } from "./types";
+import { makeQualityRule } from "./quality-rule";
 
 // =============================================================================
 // Rule 1: Grip Fit (weight: 0.25, max: 25 points)
@@ -843,4 +844,5 @@ export const mouseRules: ScoringRule<MouseQuizAnswers, MouseProduct>[] = [
   shapeProfileRule,
   gamingGenreRule,
   buttonNeedsRule,
+  makeQualityRule<MouseQuizAnswers, MouseProduct>(),
 ];

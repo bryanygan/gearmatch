@@ -455,8 +455,8 @@ describe("bonusPointsRule", () => {
 // =============================================================================
 
 describe("mouseRules", () => {
-  it("includes all 10 rules", () => {
-    expect(mouseRules).toHaveLength(10);
+  it("includes all 11 rules", () => {
+    expect(mouseRules).toHaveLength(11);
   });
 
   it("all rules have valid weights", () => {

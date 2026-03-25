@@ -7,6 +7,7 @@
 
 import type { MonitorProduct, MonitorSizeClass, MonitorResolutionClass } from "@/types/monitor";
 import type { MonitorQuizAnswers, ScoringRule, RuleResult } from "./types";
+import { makeQualityRule } from "./quality-rule";
 
 // =============================================================================
 // Rule 1: Primary Use Fit (weight: 0.25, max: 25 points)
@@ -704,4 +705,5 @@ export const monitorRules: ScoringRule<MonitorQuizAnswers, MonitorProduct>[] = [
   featuresMatchRule,
   bonusPointsRule,
   curvedPreferenceRule,
+  makeQualityRule<MonitorQuizAnswers, MonitorProduct>(),
 ];

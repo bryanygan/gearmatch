@@ -7,6 +7,7 @@
 
 import type { KeyboardProduct } from "@/types/products";
 import type { KeyboardQuizAnswers, ScoringRule, RuleResult } from "./types";
+import { makeQualityRule } from "./quality-rule";
 
 // =============================================================================
 // Rule 1: Primary Use Match (weight: 0.25, max: 25 points)
@@ -804,4 +805,5 @@ export const keyboardRules: ScoringRule<KeyboardQuizAnswers, KeyboardProduct>[] 
   switchTechnologyRule,
   mediaControlsRule,
   keycapMaterialRule,
+  makeQualityRule<KeyboardQuizAnswers, KeyboardProduct>(),
 ];

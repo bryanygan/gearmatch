@@ -386,8 +386,8 @@ describe("keycapMaterialRule", () => {
 // =============================================================================
 
 describe("keyboardRules", () => {
-  it("includes all 10 rules", () => {
-    expect(keyboardRules).toHaveLength(10);
+  it("includes all 11 rules", () => {
+    expect(keyboardRules).toHaveLength(11);
   });
 
   it("all rules have valid structure", () => {
@@ -568,8 +568,8 @@ describe("Monitor curvedPreferenceRule", () => {
 // =============================================================================
 
 describe("monitorRules", () => {
-  it("includes all 11 rules", () => {
-    expect(monitorRules).toHaveLength(11);
+  it("includes all 12 rules", () => {
+    expect(monitorRules).toHaveLength(12);
   });
 
   it("all rules have valid structure", () => {

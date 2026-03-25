@@ -7,6 +7,7 @@
 
 import type { AudioProduct, PriceTier } from "@/types/products";
 import type { AudioQuizAnswers, ScoringRule, RuleResult } from "./types";
+import { makeQualityRule } from "./quality-rule";
 
 // =============================================================================
 // Rule 1: Form Factor (weight: 0.25, max: 25 points)
@@ -762,4 +763,5 @@ export const audioRules: ScoringRule<AudioQuizAnswers, AudioProduct>[] = [
   soundSignatureRule,
   wirelessPreferenceRule,
   noiseEnvironmentRule,
+  makeQualityRule<AudioQuizAnswers, AudioProduct>(),
 ];

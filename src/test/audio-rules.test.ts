@@ -389,8 +389,8 @@ describe("noiseEnvironmentRule", () => {
 // =============================================================================
 
 describe("audioRules", () => {
-  it("includes all 9 rules", () => {
-    expect(audioRules).toHaveLength(9);
+  it("includes all 10 rules", () => {
+    expect(audioRules).toHaveLength(10);
   });
 
   it("all rules have valid weights and maxPoints", () => {
