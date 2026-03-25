@@ -63,28 +63,31 @@ GearMatch takes a quiz-based approach to match users with peripherals that fit t
 - **Score Breakdown** - Collapsible detailed view of how each product scored
 
 ### Product Database
-- **1,123 Gaming Mice** - From budget ultralight to premium esports ($30-$200+)
-- **247 Audio Products** - IEMs (80+), wireless headsets, and open-back headphones ($19-$500+)
+- **1,130 Gaming Mice** - From budget ultralight to premium esports ($10-$450+)
+- **197 Audio Products** - IEMs (80+), wireless headsets, and open-back headphones ($19-$500+)
 - **278 Keyboards** - Mechanical, magnetic hall effect, and optical switches ($50-$350+)
 - **378 Monitors** - RTINGS lab-tested data, IPS/VA/OLED panels, 24"-49" sizes
-- **2,026+ Total Products** - Comprehensive Zod-validated JSON database across all categories
+- **1,983+ Total Products** - Comprehensive Zod-validated JSON database across all categories
 - **Rich Attributes** - Weight, dimensions, grip styles, sensor class, switch types, panel specs, and more
-- **Retailer Links** - Direct links to manufacturer pages, Amazon, Best Buy, Micro Center, and more
+- **Retailer Links** - Direct links to manufacturer pages, Amazon, Best Buy, Micro Center, Newegg, B&H Photo, and more
+- **Fallback Images** - 715 mice have verified fallback image URLs from manufacturer/retailer CDNs for Supabase resilience
 - **Price Tracking** - Prices updated with major retailer data
 
 ### API Layer (Cloudflare Pages Functions)
 - **Product Listing** - Paginated product endpoints per category
 - **Product Search** - Server-side substring search across all categories
 - **Smart Filtering** - Pre-filter products by quiz answers before scoring
-- **Rate Limiting** - Per-IP rate limits on search and filter endpoints
-- **Security Headers** - CORS, CSP, X-Frame-Options, and HSTS
+- **Rate Limiting** - Per-IP rate limits on search, filter, and category listing endpoints
+- **Security Headers** - CORS, CSP, X-Frame-Options, HSTS, Referrer-Policy, Permissions-Policy
+- **Static Asset Headers** - Cloudflare Pages `_headers` file applies CSP, HSTS preload, and security headers to all HTML pages
 
 ### Performance & Reliability
 - **Lazy Loading** - Quiz and results pages are lazily loaded for faster initial page load
 - **Lazy Product Data** - Product JSON is loaded on-demand by category via dynamic imports
 - **Build-Time Validation** - Custom Vite plugin validates all product JSON against Zod schemas at build time
-- **Error Boundary** - Graceful error handling with sanitized error messages
+- **Error Boundary** - Graceful error handling with sanitized error messages (Sentry integration with `sendDefaultPii: false`)
 - **Loading States** - Skeleton UI components for smooth loading experience
+- **Dynamic Page Titles** - `usePageTitle` hook sets document.title on every page for better browser history and SEO
 
 ## Tech Stack
 
@@ -101,7 +104,7 @@ GearMatch takes a quiz-based approach to match users with peripherals that fit t
 - **Wrangler** - Cloudflare local development and deployment
 - **Lucide React** - Icon library
 - **Web Audio API** - Synthesized UI sound effects
-- **Vitest** - Testing framework (526 tests)
+- **Vitest** - Testing framework (526+ tests)
 
 ## Getting Started
 
@@ -171,6 +174,9 @@ npx tsx scripts/update-prices.ts mice 50               # Start from index 50
 gearmatch/
 ├── public/                       # Static assets
 │   ├── _redirects                # Cloudflare Pages SPA routing
+│   ├── _headers                  # Cloudflare Pages security headers (CSP, HSTS, etc.)
+│   ├── sitemap.xml               # XML sitemap for search engines (13 routes)
+│   ├── robots.txt                # Robots directives with sitemap reference
 │   └── data/products/            # Copied product JSON (built via npm script)
 │
 ├── functions/                    # Cloudflare Pages Functions (API layer)
@@ -205,6 +211,13 @@ gearmatch/
 │   │   ├── KeyboardResults.tsx   # Keyboard results page
 │   │   ├── MonitorQuiz.tsx       # Monitor recommendation quiz
 │   │   ├── MonitorResults.tsx    # Monitor results page
+│   │   ├── AboutPage.tsx          # About page
+│   │   ├── HowItWorksPage.tsx    # How it works page
+│   │   ├── FAQPage.tsx           # FAQ page
+│   │   ├── ContactPage.tsx       # Contact page
+│   │   ├── PrivacyPage.tsx       # Privacy policy
+│   │   ├── TermsPage.tsx         # Terms of service
+│   │   ├── AffiliateDisclosurePage.tsx # Affiliate disclosure
 │   │   └── NotFound.tsx          # 404 page
 │   │
 │   ├── components/
@@ -253,8 +266,8 @@ gearmatch/
 │   │   ├── curated-loadouts.ts   # 4 pre-built curated loadouts
 │   │   ├── loadout-categories.ts # Category metadata (icons, colors)
 │   │   └── products/             # Product database (Zod-validated JSON)
-│   │       ├── mice.json         # Gaming mice (1,123 products)
-│   │       ├── audio.json        # Audio equipment (247 products)
+│   │       ├── mice.json         # Gaming mice (1,130 products)
+│   │       ├── audio.json        # Audio equipment (197 products)
 │   │       ├── keyboards.json    # Keyboards (278 products)
 │   │       └── monitors.json     # Monitors (378 products, RTINGS data)
 │   │
@@ -298,6 +311,7 @@ gearmatch/
 │   │   ├── useLoadoutState.ts    # Loadout state management + localStorage
 │   │   ├── useSoundEffects.ts    # Web Audio API sound synthesis
 │   │   ├── useMediaQuery.ts      # Reactive CSS media query hook
+│   │   ├── usePageTitle.ts       # Dynamic document.title per page
 │   │   ├── use-mobile.tsx
 │   │   └── use-toast.ts
 │   │
@@ -345,6 +359,13 @@ gearmatch/
 | `/quiz/keyboard/results` | Keyboard recommendations results |
 | `/quiz/monitor` | Monitor recommendation quiz |
 | `/quiz/monitor/results` | Monitor recommendations results |
+| `/about` | About GearMatch |
+| `/how-it-works` | How the scoring system works |
+| `/faq` | Frequently asked questions |
+| `/contact` | Contact information |
+| `/privacy` | Privacy policy |
+| `/terms` | Terms of service |
+| `/affiliate-disclosure` | Affiliate disclosure |
 
 ### Loadout URL Parameters
 
@@ -430,20 +451,22 @@ The `public/_redirects` file handles SPA routing:
 ### Environment Variables
 
 **Cloudflare Pages** (configured in `wrangler.toml`):
-- `ALLOWED_ORIGIN` - CORS origin (`*` for dev/preview, `https://gearmatch.com` for production)
+- `ALLOWED_ORIGIN` - CORS origin (`*` for dev/preview, `https://gearmatch.app` for production)
 
 **Price Update Scripts** (configured in `.env`):
 - `PRICES_API_KEY` - API key for [PricesAPI](https://pricesapi.io), used by `scripts/update-prices.ts` to fetch current retailer pricing data. Keep this key out of source control; store it in `.env` (gitignored) or a secrets manager. See `.env.example` for the expected format.
 
 ## Current Product Database
 
-### Gaming Mice (1,123 products)
+### Gaming Mice (1,130 products)
 - **Premium Competitive:** Razer Viper V3 Pro, Logitech G Pro X Superlight 2, Pulsar X2, Finalmouse UltralightX
 - **Budget Options:** Logitech G305 LIGHTSPEED, Razer DeathAdder V3, various ultralight alternatives
 - **Ergonomic:** Logitech G502, Razer Basilisk series, Logitech MX Master
-- **Price Range:** $10-$200+
+- **Ultra-Light:** Zaunkoenig M3K (23g), Finalmouse UltralightX, WLMouse Beast X
+- **Price Range:** $10-$450+
+- **Fallback Images:** 715/761 Supabase-hosted images have verified backup URLs from manufacturer/retailer CDNs
 
-### Audio Equipment (247 products)
+### Audio Equipment (197 products)
 - **Gaming Headsets:** SteelSeries Arctis, HyperX Cloud, Razer BlackShark series
 - **Open-Back Headphones:** Sennheiser HD 560S, beyerdynamic DT 900 Pro X, audiophile options
 - **IEMs (80+):** Budget ($19-$60), Mid-range ($60-$120), Upper Mid ($120-$220), Premium ($220-$400), Flagship ($400+)
@@ -465,9 +488,39 @@ The `public/_redirects` file handles SPA routing:
 ## Recent Updates
 
 ### March 2026 (latest)
-- **Production Readiness Audit** - Fixed duplicate product entries, affiliate tag coverage, console log gating (dev-only), Sentry tracesSampleRate tuned to 0.1
-- **IEM Database Expansion** - Added 51 new IEMs across all price tiers ($19–$900+): budget wired, mics, hybrid, planar, TWS; 80 total IEMs
-- **Loadout Builder** - CS:GO-style radial buy menu for building complete peripheral setups with 2,000+ products across 4 categories
+
+#### Security Hardening
+- **Cloudflare Pages `_headers`** - CSP, HSTS preload, X-Frame-Options, X-Content-Type-Options, Referrer-Policy (prevents quiz answer URL params leaking to retailers via Referer header), Permissions-Policy on all static HTML pages
+- **Rate Limiting Expansion** - Added rate limiting to `/api/products/:category` endpoint (60 req/min); search (30/min) and filter (10/min) already existed
+- **CSS Injection Guard** - Sanitize color values in chart.tsx `dangerouslySetInnerHTML` style injection
+- **Content-Type Headers** - Explicit `application/json` on all API success responses
+- **Sentry Hardening** - Removed `showDialog` prop, `sendDefaultPii: false`, Session Replay with `maskAllText` and `blockAllMedia`
+- **Production Console Cleanup** - Removed unguarded `console.warn` from Cloudflare Worker filter endpoint
+
+#### Mouse Database Expansion
+- **1,130 Gaming Mice** - Added 96 mice (Zaunkoenig, ZOWIE, VGN, Xtrfy, and more) with full specs, pricing, and stock status
+- **Retailer Links** - 90+ new retailer URLs added (manufacturer sites, Mechkeys, AliExpress, Waizowl, Vaxee, Lethal Gaming Gear, MaxGaming, etc.)
+- **Zero-Price Cleanup** - Researched 10 mice at $0; 4 marked discontinued, 6 updated with real pricing/status
+- **Fallback Images** - 715/761 Supabase-hosted mouse images now have verified `image_url_fallback` from manufacturer sites (378), Amazon ASIN-verified (147), Newegg (33), and other retailers (157); auto-switches via `onError` handler if primary image fails
+
+#### SEO & Page Metadata
+- **Dynamic Page Titles** - `usePageTitle` hook sets document.title on all 13+ pages (quiz, results, loadout, static pages)
+- **Canonical Tag** - `<link rel="canonical">` added to `index.html`
+- **Sitemap** - `public/sitemap.xml` with all 13 static routes
+- **Robots.txt** - Updated with `Sitemap:` directive
+- **Product Count Updates** - Updated FAQ, About, and How It Works pages with accurate counts (1,130 mice, 197 audio, 278 keyboards, 378 monitors = 1,983+ total)
+
+#### TypeScript & Bug Fixes
+- **37 TypeScript Errors Fixed** - Scoring rules (`mouse-rules.ts`, `audio-rules.ts`, `keyboard-rules.ts`, `monitor-rules.ts`), search index, filtering tests, quiz schema tests, and loadout components
+- **P0 Loadout Crash Fix** - Restored `React` namespace import for `React.memo()` and replaced `React.useEffect` with named import after batch `import React` cleanup
+- **P0 CORS Origin Fix** - `wrangler.toml` production origin corrected from `gearmatch.com` to `gearmatch.app`
+- **P0 OG URL Fix** - `og:url` corrected from `gearmatch.app` to `https://gearmatch.app`
+- **NoResultsMessage** - Added `"monitor"` to category prop union (was crashing on MonitorResults with no results)
+- **MobileLoadoutBar** - Price display now uses `.toLocaleString()` for proper formatting ($1,190 not $1190)
+- **Loadout Buy Links** - Shows "Amazon" instead of "Search" for Amazon product links in buy menu
+
+#### UI & Content
+- **Loadout Builder** - CS:GO-style radial buy menu for building complete peripheral setups with 1,983+ products across 4 categories
 - **Curated Loadouts** - 4 pre-built loadouts (Budget FPS, Premium Productivity, Competitive Esports, Streaming Pro) with real product data
 - **Radial Menu (Desktop)** - SVG radial wheel with category wedges, dynamic glow effects, item count badges, and animated product panel
 - **Mobile Loadout UI** - Tab-based interface with sticky bottom bar, drawer modal, and touch-optimized layout
@@ -480,6 +533,8 @@ The `public/_redirects` file handles SPA routing:
 - **Landing Page V2** - Complete visual redesign with tech-forward terminal aesthetic, scroll-triggered animations, and curated loadout preview in hero
 - **Section Navigation** - Navbar links smooth-scroll to page sections; cross-page hash routing support
 - **Logo Scroll-to-Top** - Logo click smooth-scrolls to hero on landing page, navigates home from other pages
+- **Static Pages** - About, How It Works, FAQ, Contact, Privacy Policy, Terms of Service, Affiliate Disclosure — all with consistent design and `usePageTitle` integration
+- **IEM Database Expansion** - Added 51 new IEMs across all price tiers ($19–$900+): budget wired, mics, hybrid, planar, TWS; 80 total IEMs
 
 ### February 2026
 - **API Layer** - Cloudflare Pages Functions with paginated product listing, search, and smart filtering endpoints
@@ -527,7 +582,7 @@ The `workspace/` folder contains development documentation:
 Run the test suite:
 
 ```bash
-# Run all tests (526 tests)
+# Run all tests (526+ tests)
 npm test
 
 # Run tests in watch mode
@@ -550,7 +605,7 @@ Test coverage includes:
 - [x] Landing page V2 redesign with scroll animations
 - [x] Keyboard recommendations (279 products)
 - [x] Monitor recommendations (378 products, RTINGS integration)
-- [x] Expanded product databases (2,000+ total products)
+- [x] Expanded product databases (1,983+ total products)
 - [x] API layer via Cloudflare Pages Functions
 - [x] Web Worker scoring for off-thread computation
 - [x] Pre-filtering system for performance
@@ -559,13 +614,19 @@ Test coverage includes:
 - [x] Build-time product validation (Vite plugin)
 - [x] Retailer links and price tracking
 - [x] Security headers configuration (CORS, CSP, HSTS)
-- [x] Rate limiting on API endpoints
+- [x] Rate limiting on API endpoints (search, filter, category listing)
 - [x] Error monitoring (Sentry) with session replay
+- [x] Security headers on all pages (CSP, HSTS preload, Referrer-Policy, Permissions-Policy)
+- [x] Dynamic page titles for SEO and browser history
+- [x] Sitemap and robots.txt for search engine indexing
+- [x] Fallback images for Supabase resilience (715/761 mice)
+- [x] Static info pages (About, FAQ, Contact, How It Works, Privacy, Terms, Affiliate Disclosure)
 
 ### Coming Soon
 - [ ] Keyboard switches guide
 - [ ] Controller recommendations
 - [ ] Product comparison feature
+- [ ] Individual product detail pages
 - [ ] User accounts for saving preferences
 
 ## License
