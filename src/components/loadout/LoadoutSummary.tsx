@@ -10,6 +10,7 @@ import {
   ExternalLink,
   ShoppingCart,
   ChevronDown,
+  AlertTriangle,
   type LucideIcon,
 } from "lucide-react";
 import { toast } from "sonner";
@@ -118,8 +119,33 @@ export default function LoadoutSummary({
     }
   };
 
+  // Check for discontinued items
+  const discontinuedItems = Array.from(loadoutItems.values()).filter((item) => {
+    const product = productMap.get(item.productId);
+    return product?.recommendation_tags?.includes("discontinued");
+  });
+  const firstDiscontinuedCategory = discontinuedItems.length > 0
+    ? (productMap.get(discontinuedItems[0].productId)?.category ?? "mouse")
+    : null;
+
   return (
     <div className="w-full max-w-2xl rounded-xl border border-slate-700/50 bg-slate-900/80 backdrop-blur-md">
+      {/* Discontinued banner */}
+      {discontinuedItems.length > 0 && (
+        <div className="flex items-start gap-2 rounded-t-xl border-b border-yellow-700/40 bg-yellow-950/40 px-4 py-3">
+          <AlertTriangle size={14} className="mt-0.5 shrink-0 text-yellow-500" />
+          <p className="text-xs text-yellow-300">
+            <span className="font-medium">{discontinuedItems.length} item{discontinuedItems.length !== 1 ? "s" : ""} in your loadout may be discontinued.</span>{" "}
+            <a
+              href={`/quiz/${firstDiscontinuedCategory}`}
+              className="underline hover:text-yellow-100"
+            >
+              Find replacements &rarr;
+            </a>
+          </p>
+        </div>
+      )}
+
       {/* Category groups */}
       <div className="divide-y divide-slate-700/30">
         {categories.map((meta) => {

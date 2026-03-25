@@ -1,8 +1,9 @@
 import { ReactNode } from "react";
 import { Link } from "react-router-dom";
-import { Crosshair, RotateCcw, Mouse, Headphones, Keyboard, Monitor } from "lucide-react";
+import { Crosshair, RotateCcw, Mouse, Headphones, Keyboard, Monitor, Share2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
+import { toast } from "sonner";
 
 interface ResultsLayoutProps {
   children: ReactNode;
@@ -23,6 +24,28 @@ const ResultsLayout = ({
   onRetakeQuiz,
 }: ResultsLayoutProps) => {
   const config = categoryConfig[category];
+
+  const handleShare = async () => {
+    const url = window.location.href;
+    try {
+      await navigator.clipboard.writeText(url);
+      toast.success("Results link copied!");
+    } catch {
+      try {
+        const textarea = document.createElement("textarea");
+        textarea.value = url;
+        textarea.style.position = "fixed";
+        textarea.style.opacity = "0";
+        document.body.appendChild(textarea);
+        textarea.select();
+        document.execCommand("copy");
+        document.body.removeChild(textarea);
+        toast.success("Results link copied!");
+      } catch {
+        toast.error("Failed to copy link");
+      }
+    }
+  };
   const accentColor = config.accent;
   const CategoryIcon = config.icon;
   const categoryLabel = config.label;
@@ -71,16 +94,28 @@ const ResultsLayout = ({
             </div>
           </div>
 
-          <Button
-            variant="outline"
-            size="sm"
-            onClick={onRetakeQuiz}
-            className="gap-2"
-          >
-            <RotateCcw className="h-4 w-4" />
-            <span className="hidden sm:inline">Retake Quiz</span>
-            <span className="sm:hidden">Retake</span>
-          </Button>
+          <div className="flex items-center gap-2">
+            <Button
+              variant="outline"
+              size="sm"
+              onClick={handleShare}
+              className="gap-2"
+              aria-label="Share results"
+            >
+              <Share2 className="h-4 w-4" />
+              <span className="hidden sm:inline">Share</span>
+            </Button>
+            <Button
+              variant="outline"
+              size="sm"
+              onClick={onRetakeQuiz}
+              className="gap-2"
+            >
+              <RotateCcw className="h-4 w-4" />
+              <span className="hidden sm:inline">Retake Quiz</span>
+              <span className="sm:hidden">Retake</span>
+            </Button>
+          </div>
         </div>
       </header>
 

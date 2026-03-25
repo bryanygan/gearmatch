@@ -359,6 +359,8 @@ export interface DataQuality {
   last_verified?: string;
   /** Additional notes about data sourcing */
   notes?: string;
+  /** Year the product was released (for surfacing newer options) */
+  released_year?: number;
 }
 
 // =============================================================================

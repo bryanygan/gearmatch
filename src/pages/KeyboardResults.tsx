@@ -3,6 +3,7 @@ import { useEffect, useMemo, useState, useRef } from "react";
 import { useNavigate, useLocation, useSearchParams, Link } from "react-router-dom";
 import { Keyboard, Mouse, Headphones, Home, ChevronDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { cn } from "@/lib/utils";
 import {
   ResultsLayout,
   RecommendationCard,
@@ -10,11 +11,13 @@ import {
   ResultsSkeleton,
   NoResultsMessage,
 } from "@/components/results";
+import ResultsViewToggle from "@/components/results/ResultsViewToggle";
 import { useKeyboardRecommendations } from "@/hooks/use-recommendations";
 import {
   validateKeyboardAnswers,
   searchParamsToObject,
 } from "@/lib/validation";
+import { toast } from "sonner";
 
 const KeyboardResults = () => {
   usePageTitle("Keyboard Results");
@@ -25,6 +28,11 @@ const KeyboardResults = () => {
   // State for "Show More" functionality - start with 2 visible alternates
   const [visibleAlternatesCount, setVisibleAlternatesCount] = useState(2);
   const ALTERNATES_PER_PAGE = 10;
+  const [view, setView] = useState<"grid" | "list">("grid");
+  const [compareList, setCompareList] = useState<string[]>([]);
+  const [excludeIds, setExcludeIds] = useState<string[]>(() => {
+    return searchParams.get("exclude")?.split(",").filter(Boolean) ?? [];
+  });
 
   // Track if initial animation has played - only animate once per quiz completion
   const hasAnimatedRef = useRef(false);
@@ -108,7 +116,19 @@ const KeyboardResults = () => {
     );
   }
 
-  const { topPicks, alternates, totalEvaluated } = recommendations;
+  const { topPicks: rawTopPicks, alternates: rawAlternates, totalEvaluated } = recommendations;
+  const topPicks = rawTopPicks.filter(sp => !excludeIds.includes(sp.product.id));
+  const alternates = rawAlternates.filter(sp => !excludeIds.includes(sp.product.id));
+
+  const handleExclude = (productId: string) => {
+    setExcludeIds(prev => [...prev, productId]);
+    toast.info("Product excluded from results");
+  };
+  const handleCompareToggle = (productId: string) => {
+    setCompareList(prev =>
+      prev.includes(productId) ? prev.filter(id => id !== productId) : prev.length < 2 ? [...prev, productId] : prev
+    );
+  };
 
   // Determine if this is the first render with results - animate only once
   const shouldAnimateInitial = !hasAnimatedRef.current;
@@ -131,63 +151,79 @@ const KeyboardResults = () => {
       <div className="space-y-10">
         {/* Header */}
         <div className="space-y-4 text-center">
-          <div className="inline-flex items-center gap-2 rounded-full bg-secondary px-4 py-2 text-sm text-foreground">
-            <Keyboard className="h-4 w-4" />
-            <span>
-              {totalEvaluated} keyboards evaluated
-            </span>
+          <div className="flex items-center justify-center gap-3">
+            <div className="inline-flex items-center gap-2 rounded-full bg-secondary px-4 py-2 text-sm text-foreground">
+              <Keyboard className="h-4 w-4" />
+              <span>
+                {totalEvaluated} keyboards evaluated
+              </span>
+            </div>
+            <ResultsViewToggle view={view} onToggle={() => setView(v => v === "grid" ? "list" : "grid")} />
           </div>
           <h1 className="font-display text-3xl font-bold md:text-4xl">
             Your Curated Keyboard Matches
           </h1>
           <div className="mx-auto max-w-2xl">
-            <AnswerSummary answers={answers} category="keyboard" />
+            <AnswerSummary answers={answers} category="keyboard" quizPath="/quiz/keyboard" searchParams={searchParams} />
           </div>
         </div>
 
-        {/* Top pick (featured) */}
+        {/* Top picks */}
         {topPicks.length > 0 && (
-          <div
-            className={
-              shouldAnimateInitial
-                ? "animate-in fade-in slide-in-from-bottom-4 duration-500"
-                : undefined
-            }
-          >
-            <RecommendationCard
-              scoredProduct={topPicks[0]}
-              rank={1}
-              isTopPick={true}
-              accentColor="secondary"
-            />
-          </div>
-        )}
-
-        {/* #2 and #3 picks */}
-        {topPicks.length > 1 && (
-          <div className="grid gap-4 sm:grid-cols-2">
-            {topPicks.slice(1).map((scored, index) => (
-              <div
-                key={scored.product.id}
-                className={
-                  shouldAnimateInitial
-                    ? "animate-in fade-in slide-in-from-bottom-4 duration-500"
-                    : undefined
-                }
-                style={
-                  shouldAnimateInitial
-                    ? { animationDelay: `${(index + 1) * 100}ms` }
-                    : undefined
-                }
-              >
+          <div className={cn(view === "list" ? "space-y-2" : "space-y-6")}>
+            {view === "list" ? (
+              topPicks.map((scored, index) => (
                 <RecommendationCard
+                  key={scored.product.id}
                   scoredProduct={scored}
-                  rank={index + 2}
+                  rank={index + 1}
                   isTopPick={true}
                   accentColor="secondary"
+                  compact={true}
+                  onExclude={() => handleExclude(scored.product.id)}
+                  onCompareToggle={() => handleCompareToggle(scored.product.id)}
+                  isCompareSelected={compareList.includes(scored.product.id)}
+                  compareDisabled={compareList.length >= 2 && !compareList.includes(scored.product.id)}
                 />
-              </div>
-            ))}
+              ))
+            ) : (
+              <>
+                <div className={shouldAnimateInitial ? "animate-in fade-in slide-in-from-bottom-4 duration-500" : undefined}>
+                  <RecommendationCard
+                    scoredProduct={topPicks[0]}
+                    rank={1}
+                    isTopPick={true}
+                    accentColor="secondary"
+                    onExclude={() => handleExclude(topPicks[0].product.id)}
+                    onCompareToggle={() => handleCompareToggle(topPicks[0].product.id)}
+                    isCompareSelected={compareList.includes(topPicks[0].product.id)}
+                    compareDisabled={compareList.length >= 2 && !compareList.includes(topPicks[0].product.id)}
+                  />
+                </div>
+                {topPicks.length > 1 && (
+                  <div className="grid gap-4 sm:grid-cols-2">
+                    {topPicks.slice(1).map((scored, index) => (
+                      <div
+                        key={scored.product.id}
+                        className={shouldAnimateInitial ? "animate-in fade-in slide-in-from-bottom-4 duration-500" : undefined}
+                        style={shouldAnimateInitial ? { animationDelay: `${(index + 1) * 100}ms` } : undefined}
+                      >
+                        <RecommendationCard
+                          scoredProduct={scored}
+                          rank={index + 2}
+                          isTopPick={true}
+                          accentColor="secondary"
+                          onExclude={() => handleExclude(scored.product.id)}
+                          onCompareToggle={() => handleCompareToggle(scored.product.id)}
+                          isCompareSelected={compareList.includes(scored.product.id)}
+                          compareDisabled={compareList.length >= 2 && !compareList.includes(scored.product.id)}
+                        />
+                      </div>
+                    ))}
+                  </div>
+                )}
+              </>
+            )}
           </div>
         )}
 
@@ -197,29 +233,37 @@ const KeyboardResults = () => {
             <h2 className="font-display text-xl font-semibold text-muted-foreground">
               Also Consider
             </h2>
-            <div className="grid gap-4 sm:grid-cols-2">
+            <div className={cn(view === "list" ? "space-y-2" : "grid gap-4 sm:grid-cols-2")}>
               {visibleAlternates.map((scored, index) => {
-                // Only animate the initial 2 alternates on first render
                 const shouldAnimate = shouldAnimateInitial && index < 2;
-                return (
+                return view === "list" ? (
+                  <RecommendationCard
+                    key={scored.product.id}
+                    scoredProduct={scored}
+                    rank={topPicks.length + index + 1}
+                    isTopPick={false}
+                    accentColor="secondary"
+                    compact={true}
+                    onExclude={() => handleExclude(scored.product.id)}
+                    onCompareToggle={() => handleCompareToggle(scored.product.id)}
+                    isCompareSelected={compareList.includes(scored.product.id)}
+                    compareDisabled={compareList.length >= 2 && !compareList.includes(scored.product.id)}
+                  />
+                ) : (
                   <div
                     key={scored.product.id}
-                    className={
-                      shouldAnimate
-                        ? "animate-in fade-in slide-in-from-bottom-4 duration-500"
-                        : undefined
-                    }
-                    style={
-                      shouldAnimate
-                        ? { animationDelay: `${(topPicks.length + index) * 100}ms` }
-                        : undefined
-                    }
+                    className={shouldAnimate ? "animate-in fade-in slide-in-from-bottom-4 duration-500" : undefined}
+                    style={shouldAnimate ? { animationDelay: `${(topPicks.length + index) * 100}ms` } : undefined}
                   >
                     <RecommendationCard
                       scoredProduct={scored}
                       rank={topPicks.length + index + 1}
                       isTopPick={false}
                       accentColor="secondary"
+                      onExclude={() => handleExclude(scored.product.id)}
+                      onCompareToggle={() => handleCompareToggle(scored.product.id)}
+                      isCompareSelected={compareList.includes(scored.product.id)}
+                      compareDisabled={compareList.length >= 2 && !compareList.includes(scored.product.id)}
                     />
                   </div>
                 );

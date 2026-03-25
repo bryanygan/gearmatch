@@ -1,9 +1,13 @@
 import type { MouseQuizAnswers, AudioQuizAnswers, KeyboardQuizAnswers, MonitorQuizAnswers } from "@/lib/scoring";
 import { cn } from "@/lib/utils";
+import { Link } from "react-router-dom";
+import { Pencil } from "lucide-react";
 
 interface AnswerSummaryProps {
   answers: MouseQuizAnswers | AudioQuizAnswers | KeyboardQuizAnswers | MonitorQuizAnswers;
   category: "mouse" | "audio" | "keyboard" | "monitor";
+  quizPath?: string;
+  searchParams?: URLSearchParams;
 }
 
 // Display label mappings for mouse quiz answers
@@ -270,7 +274,7 @@ function getMonitorLabel(key: keyof MonitorQuizAnswers, value: string | string[]
   return labels?.[value] || value;
 }
 
-const AnswerSummary = ({ answers, category }: AnswerSummaryProps) => {
+const AnswerSummary = ({ answers, category, quizPath, searchParams }: AnswerSummaryProps) => {
   const accentColor = category === "mouse" ? "primary" : category === "audio" ? "accent" : category === "monitor" ? "tertiary" : "secondary";
 
   const labels: string[] = [];
@@ -316,21 +320,42 @@ const AnswerSummary = ({ answers, category }: AnswerSummaryProps) => {
     }
   }
 
+  const editUrl = quizPath && searchParams
+    ? `${quizPath}?edit=1&${searchParams.toString()}`
+    : undefined;
+
   return (
     <div className="flex flex-wrap items-center justify-center gap-2">
       {labels.map((label, index) => (
         <span key={index} className="flex items-center gap-2">
-          <span
-            className={cn(
-              "rounded-full px-3 py-1 text-sm",
-              accentColor === "primary" && "bg-primary/10 text-primary",
-              accentColor === "accent" && "bg-accent/10 text-accent",
-              accentColor === "secondary" && "bg-secondary text-foreground",
-              accentColor === "tertiary" && "bg-violet-500/10 text-violet-600 dark:text-violet-400"
-            )}
-          >
-            {label}
-          </span>
+          {editUrl ? (
+            <Link
+              to={editUrl}
+              title="Click to edit this answer"
+              className={cn(
+                "group flex items-center gap-1 rounded-full px-3 py-1 text-sm cursor-pointer hover:ring-1 hover:ring-current transition-all",
+                accentColor === "primary" && "bg-primary/10 text-primary",
+                accentColor === "accent" && "bg-accent/10 text-accent",
+                accentColor === "secondary" && "bg-secondary text-foreground",
+                accentColor === "tertiary" && "bg-violet-500/10 text-violet-600 dark:text-violet-400"
+              )}
+            >
+              {label}
+              <Pencil className="h-3 w-3 opacity-0 group-hover:opacity-60 transition-opacity" />
+            </Link>
+          ) : (
+            <span
+              className={cn(
+                "rounded-full px-3 py-1 text-sm",
+                accentColor === "primary" && "bg-primary/10 text-primary",
+                accentColor === "accent" && "bg-accent/10 text-accent",
+                accentColor === "secondary" && "bg-secondary text-foreground",
+                accentColor === "tertiary" && "bg-violet-500/10 text-violet-600 dark:text-violet-400"
+              )}
+            >
+              {label}
+            </span>
+          )}
           {index < labels.length - 1 && (
             <span className="text-muted-foreground">•</span>
           )}

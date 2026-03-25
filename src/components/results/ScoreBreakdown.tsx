@@ -2,11 +2,44 @@ import { useState } from "react";
 import { ChevronDown, ChevronUp } from "lucide-react";
 import type { ScoreBreakdown as ScoreBreakdownType } from "@/lib/scoring";
 import { cn } from "@/lib/utils";
+import QuizHelpTooltip from "@/components/quiz/QuizHelpTooltip";
 
 interface ScoreBreakdownProps {
   breakdown: ScoreBreakdownType;
   accentColor: "primary" | "accent" | "secondary" | "tertiary";
 }
+
+// Tooltip explanations for scoring categories
+const categoryTooltips: Record<string, string> = {
+  gripFit: "How well the mouse shape supports your grip style",
+  sizeMatch: "How well the mouse dimensions match your hand size",
+  weightMatch: "How well the mouse weight matches your preference",
+  connectionMatch: "Whether the mouse matches your wired/wireless preference",
+  useCaseMatch: "How well suited the mouse is for your primary use case",
+  bonus: "Extra points for features that complement your setup",
+  bonusPoints: "Extra points for features that complement your setup",
+  formFactorMatch: "Whether the size and form factor match your preference",
+  formFactor: "Whether the size and form factor match your preference",
+  primaryUseMatch: "How well suited this is for your primary use",
+  primaryUse: "How well suited this is for your primary use",
+  microphoneMatch: "How well the microphone matches your needs",
+  comfortMatch: "Predicted comfort for your session length",
+  budgetMatch: "How well the price fits your budget",
+  budget: "How well the price fits your budget",
+  switchType: "How well the switch type matches your preference",
+  gamingFeatures: "How well gaming-specific features match your needs",
+  connectivity: "Whether connectivity options match your preference",
+  priorityFeature: "How well the keyboard's strengths match your priority",
+  switchTechnology: "How well the switch technology matches your preference",
+  resolutionMatch: "Whether the resolution matches your preference",
+  refreshRateMatch: "Whether the refresh rate meets your needs",
+  panelTypeMatch: "How well the panel technology fits your use case",
+  colorAccuracy: "How well the color accuracy fits your needs",
+  hdrPerformance: "How well HDR performance matches your requirements",
+  featuresMatch: "How well extra features (USB-C, ergonomics, etc.) match",
+  curvedPreference: "Whether flat/curved matches your preference",
+  quality_availability: "Product availability and verification quality bonus",
+};
 
 // Display names for scoring categories
 const categoryDisplayNames: Record<string, string> = {
@@ -83,8 +116,11 @@ const ScoreBreakdown = ({ breakdown, accentColor: _accentColor }: ScoreBreakdown
           {categories.map(([key, data]) => (
             <div key={key} className="space-y-1">
               <div className="flex items-center justify-between text-sm">
-                <span className="text-muted-foreground">
+                <span className="flex items-center gap-1 text-muted-foreground">
                   {getCategoryName(key)}
+                  {categoryTooltips[key] && (
+                    <QuizHelpTooltip content={categoryTooltips[key]} side="right" />
+                  )}
                 </span>
                 <span className="font-medium">
                   {data.score}/{data.maxScore}
