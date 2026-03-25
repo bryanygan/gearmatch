@@ -132,30 +132,33 @@ describe("Utility Functions", () => {
   });
 
   describe("getMatchQuality", () => {
-    it("returns Excellent Match for scores >= 90", () => {
-      expect(getMatchQuality(90)).toBe("Excellent Match");
+    it("returns Perfect Match for score === 100", () => {
+      expect(getMatchQuality(100)).toBe("Perfect Match");
+    });
+
+    it("returns Excellent Match for scores >= 95", () => {
       expect(getMatchQuality(95)).toBe("Excellent Match");
-      expect(getMatchQuality(100)).toBe("Excellent Match");
+      expect(getMatchQuality(99)).toBe("Excellent Match");
     });
 
-    it("returns Great Match for scores >= 80", () => {
-      expect(getMatchQuality(80)).toBe("Great Match");
-      expect(getMatchQuality(89)).toBe("Great Match");
+    it("returns Great Match for scores >= 85", () => {
+      expect(getMatchQuality(85)).toBe("Great Match");
+      expect(getMatchQuality(94)).toBe("Great Match");
     });
 
-    it("returns Good Match for scores >= 70", () => {
-      expect(getMatchQuality(70)).toBe("Good Match");
-      expect(getMatchQuality(79)).toBe("Good Match");
+    it("returns Good Match for scores >= 75", () => {
+      expect(getMatchQuality(75)).toBe("Good Match");
+      expect(getMatchQuality(84)).toBe("Good Match");
     });
 
-    it("returns Decent Match for scores >= 60", () => {
-      expect(getMatchQuality(60)).toBe("Decent Match");
-      expect(getMatchQuality(69)).toBe("Decent Match");
+    it("returns Decent Match for scores >= 65", () => {
+      expect(getMatchQuality(65)).toBe("Decent Match");
+      expect(getMatchQuality(74)).toBe("Decent Match");
     });
 
     it("returns Fair Match for scores >= 50", () => {
       expect(getMatchQuality(50)).toBe("Fair Match");
-      expect(getMatchQuality(59)).toBe("Fair Match");
+      expect(getMatchQuality(64)).toBe("Fair Match");
     });
 
     it("returns Partial Match for scores < 50", () => {

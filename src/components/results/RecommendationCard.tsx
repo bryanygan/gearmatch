@@ -191,6 +191,7 @@ function getSpecTags(
 }
 
 function getScoreColorClass(score: number, accentColor: "primary" | "accent" | "secondary" | "tertiary"): string {
+  if (score === 100) return "text-green-400";
   if (score >= 90) return "text-green-400";
   if (score >= 80) {
     if (accentColor === "primary") return "text-primary";

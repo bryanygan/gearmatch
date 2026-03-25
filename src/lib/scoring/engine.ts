@@ -106,8 +106,10 @@ function scoreProduct<TAnswers, TProduct extends Product>(
     }
   }
 
-  // Final score is already normalized to 0-100 scale via weighted sum
-  const score = Math.round(weightedSum);
+  // Apply calibration curve to raw weighted sum before rounding.
+  // This stretches the display score so genuinely strong matches
+  // reach 100% while poor matches remain low.
+  const score = Math.round(calibrateScore(weightedSum));
 
   return {
     product,
@@ -116,6 +118,38 @@ function scoreProduct<TAnswers, TProduct extends Product>(
     matchReasons,
     concerns,
   };
+}
+
+// =============================================================================
+// Score Calibration
+// =============================================================================
+
+/**
+ * Map a raw 0-100 weighted score to a user-facing display score.
+ *
+ * Rationale: the scoring rules reward "good enough" answers with partial
+ * points, so even a product that perfectly matches the user's stated
+ * preferences rarely breaks 90 on the raw scale. This curve stretches
+ * strong matches upward so that near-perfect fits read as 100%, while
+ * leaving poor and moderate matches roughly unchanged.
+ *
+ * Segments (raw → display):
+ *   0  – 60  → 0  – 60   (unchanged — bad matches stay bad)
+ *   60 – 75  → 60 – 80   (moderate matches shown more positively)
+ *   75 – 88  → 80 – 99   (good matches shown as very good / excellent)
+ *   88 – 100 → 100        (near-perfect matches shown as perfect)
+ */
+export function calibrateScore(raw: number): number {
+  if (raw >= 88) return 100;
+  if (raw >= 75) {
+    // linear map 75–88 → 80–99
+    return 80 + ((raw - 75) / 13) * 19;
+  }
+  if (raw >= 60) {
+    // linear map 60–75 → 60–80
+    return 60 + ((raw - 60) / 15) * 20;
+  }
+  return raw;
 }
 
 // =============================================================================
@@ -301,10 +335,11 @@ export function formatScore(score: number): string {
  * @returns Human-readable match quality label
  */
 export function getMatchQuality(score: number): string {
-  if (score >= 90) return "Excellent Match";
-  if (score >= 80) return "Great Match";
-  if (score >= 70) return "Good Match";
-  if (score >= 60) return "Decent Match";
+  if (score === 100) return "Perfect Match";
+  if (score >= 95) return "Excellent Match";
+  if (score >= 85) return "Great Match";
+  if (score >= 75) return "Good Match";
+  if (score >= 65) return "Decent Match";
   if (score >= 50) return "Fair Match";
   return "Partial Match";
 }
