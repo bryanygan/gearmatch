@@ -36,6 +36,7 @@ const PrivacyPage = lazy(() => import("./pages/PrivacyPage"));
 const TermsPage = lazy(() => import("./pages/TermsPage"));
 const AffiliateDisclosurePage = lazy(() => import("./pages/AffiliateDisclosurePage"));
 const LoadoutPage = lazy(() => import("./pages/LoadoutPage"));
+const BrowsePage = lazy(() => import("./pages/BrowsePage"));
 
 // Loading fallback for lazy-loaded pages
 const PageLoader = () => (
@@ -113,6 +114,7 @@ const App = () => {
                 <Route path="/terms" element={<TermsPage />} />
                 <Route path="/affiliate-disclosure" element={<AffiliateDisclosurePage />} />
                 <Route path="/loadout" element={<LoadoutPage />} />
+                <Route path="/browse" element={<BrowsePage />} />
                 {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
                 <Route path="*" element={<NotFound />} />
               </SentryRoutes>
