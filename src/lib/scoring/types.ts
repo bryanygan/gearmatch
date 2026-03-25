@@ -182,6 +182,8 @@ export interface RecommendationResult<T extends Product = Product> {
   topPicks: ScoredProduct<T>[];
   /** Other good matches that didn't make top picks */
   alternates: ScoredProduct<T>[];
+  /** Products that were filtered out by pre-filters */
+  filteredOut?: ScoredProduct<T>[];
   /** Filters that were applied */
   filters: AppliedFilters;
   /** Total number of products that were evaluated */

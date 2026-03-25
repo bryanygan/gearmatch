@@ -15,4 +15,5 @@ export interface PreFilterResult<T extends Product> {
   filtered: T[];
   eliminated: number;
   total: number;
+  eliminatedProducts: T[];
 }

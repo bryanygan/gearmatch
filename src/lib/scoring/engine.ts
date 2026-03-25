@@ -176,15 +176,19 @@ export async function getMouseRecommendations(
   const allProducts = await getMouseProducts();
 
   // Pre-filter: eliminate obvious mismatches
-  const { filtered: products } = applyPreFilters(answers, allProducts, mousePreFilters);
+  const { filtered: products, eliminatedProducts } = applyPreFilters(answers, allProducts, mousePreFilters);
 
   // Score remaining products
   const scoredProducts = scoreProducts(answers, products, mouseRules);
   const { topPicks, alternates } = applyThresholdAndSplit(scoredProducts, minScore, topPickCount);
 
+  // Score eliminated products so they can be shown in "outside your filters" section
+  const filteredOut = scoreProducts(answers, eliminatedProducts, mouseRules);
+
   return {
     topPicks,
     alternates,
+    filteredOut,
     filters: {
       category: "mouse",
       wireless: answers.wireless === "wireless" ? true : undefined,
@@ -217,15 +221,18 @@ export async function getAudioRecommendations(
   const allProducts = await getAudioProducts();
 
   // Pre-filter: eliminate obvious mismatches
-  const { filtered: products } = applyPreFilters(answers, allProducts, audioPreFilters);
+  const { filtered: products, eliminatedProducts } = applyPreFilters(answers, allProducts, audioPreFilters);
 
   // Score remaining products
   const scoredProducts = scoreProducts(answers, products, audioRules);
   const { topPicks, alternates } = applyThresholdAndSplit(scoredProducts, minScore, topPickCount);
 
+  const filteredOut = scoreProducts(answers, eliminatedProducts, audioRules);
+
   return {
     topPicks,
     alternates,
+    filteredOut,
     filters: {
       category: "audio",
     },
@@ -257,15 +264,18 @@ export async function getKeyboardRecommendations(
   const allProducts = await getKeyboardProducts();
 
   // Pre-filter: eliminate obvious mismatches
-  const { filtered: products } = applyPreFilters(answers, allProducts, keyboardPreFilters);
+  const { filtered: products, eliminatedProducts } = applyPreFilters(answers, allProducts, keyboardPreFilters);
 
   // Score remaining products
   const scoredProducts = scoreProducts(answers, products, keyboardRules);
   const { topPicks, alternates } = applyThresholdAndSplit(scoredProducts, minScore, topPickCount);
 
+  const filteredOut = scoreProducts(answers, eliminatedProducts, keyboardRules);
+
   return {
     topPicks,
     alternates,
+    filteredOut,
     filters: {
       category: "keyboard",
       wireless: answers.connectivity === "wireless-essential" ? true : undefined,
@@ -298,15 +308,18 @@ export async function getMonitorRecommendations(
   const allProducts = await getMonitorProducts();
 
   // Pre-filter: eliminate obvious mismatches
-  const { filtered: products } = applyPreFilters(answers, allProducts, monitorPreFilters);
+  const { filtered: products, eliminatedProducts } = applyPreFilters(answers, allProducts, monitorPreFilters);
 
   // Score remaining products
   const scoredProducts = scoreProducts(answers, products, monitorRules);
   const { topPicks, alternates } = applyThresholdAndSplit(scoredProducts, minScore, topPickCount);
 
+  const filteredOut = scoreProducts(answers, eliminatedProducts, monitorRules);
+
   return {
     topPicks,
     alternates,
+    filteredOut,
     filters: {
       category: "monitor",
     },

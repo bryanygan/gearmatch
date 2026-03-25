@@ -12,6 +12,7 @@ import {
   NoResultsMessage,
 } from "@/components/results";
 import ResultsViewToggle from "@/components/results/ResultsViewToggle";
+import CompareModal from "@/components/results/CompareModal";
 import { useMonitorRecommendations } from "@/hooks/use-recommendations";
 import {
   validateMonitorAnswers,
@@ -33,6 +34,7 @@ const MonitorResults = () => {
   const [excludeIds, setExcludeIds] = useState<string[]>(() => {
     return searchParams.get("exclude")?.split(",").filter(Boolean) ?? [];
   });
+  const [showFilteredOut, setShowFilteredOut] = useState(false);
 
   // Track if initial animation has played - only animate once per quiz completion
   const hasAnimatedRef = useRef(false);
@@ -120,7 +122,7 @@ const MonitorResults = () => {
     );
   }
 
-  const { topPicks: rawTopPicks, alternates: rawAlternates, totalEvaluated } = recommendations;
+  const { topPicks: rawTopPicks, alternates: rawAlternates, filteredOut: rawFilteredOut = [], totalEvaluated } = recommendations;
   const topPicks = rawTopPicks.filter(sp => !excludeIds.includes(sp.product.id));
   const alternates = rawAlternates.filter(sp => !excludeIds.includes(sp.product.id));
 
@@ -291,6 +293,37 @@ const MonitorResults = () => {
           </div>
         )}
 
+        {/* Outside filters section */}
+        {rawFilteredOut.length > 0 && (
+          <div className="space-y-4 border-t border-border/30 pt-6">
+            <button
+              onClick={() => setShowFilteredOut(prev => !prev)}
+              className="flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors"
+            >
+              <ChevronDown className={cn("h-4 w-4 transition-transform", showFilteredOut && "rotate-180")} />
+              Show products outside your filters ({rawFilteredOut.length})
+            </button>
+            {showFilteredOut && (
+              <div className={cn(view === "list" ? "space-y-2" : "grid gap-4 sm:grid-cols-2", "opacity-70")}>
+                {rawFilteredOut.slice(0, 10).map((scored, index) => (
+                  <div key={scored.product.id} className="relative">
+                    <div className="absolute top-2 right-2 z-10">
+                      <span className="rounded bg-secondary px-1.5 py-0.5 text-[10px] text-muted-foreground">Outside your filters</span>
+                    </div>
+                    <RecommendationCard
+                      scoredProduct={scored}
+                      rank={topPicks.length + alternates.length + index + 1}
+                      isTopPick={false}
+                      accentColor="tertiary"
+                      compact={view === "list"}
+                    />
+                  </div>
+                ))}
+              </div>
+            )}
+          </div>
+        )}
+
         {/* Footer actions */}
         <div className="flex flex-col items-center gap-4 border-t border-border/50 pt-8 sm:flex-row sm:justify-center">
           <Button variant="outline" asChild className="gap-2">
@@ -307,6 +340,21 @@ const MonitorResults = () => {
           </Button>
         </div>
       </div>
+
+      {compareList.length === 2 && (() => {
+        const allProducts = [...topPicks, ...alternates];
+        const p1 = allProducts.find(sp => sp.product.id === compareList[0]);
+        const p2 = allProducts.find(sp => sp.product.id === compareList[1]);
+        if (!p1 || !p2) return null;
+        return (
+          <CompareModal
+            products={[p1.product, p2.product]}
+            scores={[p1.score, p2.score]}
+            open={true}
+            onClose={() => setCompareList([])}
+          />
+        );
+      })()}
     </ResultsLayout>
   );
 };
