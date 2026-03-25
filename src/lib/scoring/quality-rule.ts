@@ -27,6 +27,14 @@ function evaluateQuality<TAnswers>(
   _answers: TAnswers,
   product: Product
 ): RuleResult {
+  // Discontinued products score 0 and surface a concern
+  if ((product.recommendation_tags ?? []).includes("discontinued")) {
+    return {
+      points: 0,
+      concern: "This product has been discontinued",
+    };
+  }
+
   let points = 0;
   const reasons: string[] = [];
 

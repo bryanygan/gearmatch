@@ -1,6 +1,7 @@
 import type { MonitorProduct } from "@/types/monitor";
 import type { MonitorQuizAnswers } from "@/lib/scoring/types";
 import type { PreFilter } from "./types";
+import { discontinuedFilter } from "./discontinued-filter";
 
 /**
  * Eliminate monitors outside the user's resolution preference.
@@ -55,4 +56,8 @@ export const sizeFilter: PreFilter<MonitorQuizAnswers, MonitorProduct> = (
 export const monitorPreFilters: PreFilter<
   MonitorQuizAnswers,
   MonitorProduct
->[] = [resolutionFilter, sizeFilter];
+>[] = [
+  discontinuedFilter as PreFilter<MonitorQuizAnswers, MonitorProduct>,
+  resolutionFilter,
+  sizeFilter,
+];

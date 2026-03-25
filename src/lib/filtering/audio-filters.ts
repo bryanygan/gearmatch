@@ -1,6 +1,7 @@
 import type { AudioProduct } from "@/types/products";
 import type { AudioQuizAnswers } from "@/lib/scoring/types";
 import type { PreFilter } from "./types";
+import { discontinuedFilter } from "./discontinued-filter";
 
 /**
  * Eliminate audio products without a mic when user says mic is essential.
@@ -32,6 +33,7 @@ export const wirelessFilter: PreFilter<AudioQuizAnswers, AudioProduct> = (
 // Client pre-filters intentionally omit budget — it's a soft preference
 // handled by the scoring engine's weighted rules, not a hard constraint.
 export const audioPreFilters: PreFilter<AudioQuizAnswers, AudioProduct>[] = [
+  discontinuedFilter as PreFilter<AudioQuizAnswers, AudioProduct>,
   micFilter,
   wirelessFilter,
 ];

@@ -1,6 +1,7 @@
 import type { KeyboardProduct } from "@/types/products";
 import type { KeyboardQuizAnswers } from "@/lib/scoring/types";
 import type { PreFilter } from "./types";
+import { discontinuedFilter } from "./discontinued-filter";
 
 /**
  * Eliminate wired-only keyboards when user requires wireless.
@@ -21,4 +22,7 @@ export const connectivityFilter: PreFilter<
 export const keyboardPreFilters: PreFilter<
   KeyboardQuizAnswers,
   KeyboardProduct
->[] = [connectivityFilter];
+>[] = [
+  discontinuedFilter as PreFilter<KeyboardQuizAnswers, KeyboardProduct>,
+  connectivityFilter,
+];
