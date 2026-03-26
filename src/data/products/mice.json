@@ -1409,9 +1409,6 @@
     },
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/ajazz-aj179.png?width=512&height=512&resize=contain",
     "manufacturer_url": "https://ajazzbrand.com/products/ajazz-aj179-series-mouse",
-    "retailer_urls": {
-      "amazon": "https://www.amazon.com/AJAZZ-AJ179APEX-Wireless-Lightweight-Ergonomic/dp/B0D964S339?tag=gearmatch-20"
-    },
     "image_url_fallback": "https://m.media-amazon.com/images/I/71fqml61gaL._AC_SL1500_.jpg"
   },
   {
@@ -1480,10 +1477,7 @@
       "mouse_value_pick": false
     },
     "image_url": "https://ajazzstore.com/cdn/shop/files/09.jpg?v=1723446374",
-    "manufacturer_url": "https://ajazzbrand.com/products/ajazz-aj179-series-mouse",
-    "retailer_urls": {
-      "amazon": "https://www.amazon.com/FIRSTBLOOD-ONLY-GAME-AJ179PRO-Bluetooth/dp/B0DDQKH7W1?tag=gearmatch-20"
-    }
+    "manufacturer_url": "https://ajazzbrand.com/products/ajazz-aj179-series-mouse"
   },
   {
     "id": "ajazz_aj179_v2",
@@ -1554,9 +1548,6 @@
     },
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/ajazz-aj179-v2.png?width=512&height=512&resize=contain",
     "manufacturer_url": "https://ajazzbrand.com/products/ajazz-aj179-v2-series-mouse",
-    "retailer_urls": {
-      "amazon": "https://www.amazon.com/Bluetooth-Ultra-Light-Programmable-Ergonomic-Right-Hand/dp/B0F8D7GHLG?tag=gearmatch-20"
-    },
     "image_url_fallback": "https://m.media-amazon.com/images/I/51xyhM1NuLL._AC_SL1500_.jpg"
   },
   {
@@ -1626,9 +1617,6 @@
     },
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/ajazz-aj179-v2.png?width=512&height=512&resize=contain",
     "manufacturer_url": "https://ajazzbrand.com/products/ajazz-aj179-v2-series-mouse",
-    "retailer_urls": {
-      "amazon": "https://www.amazon.com/Bluetooth-Ultra-Light-Programmable-Ergonomic-Right-Hand/dp/B0F8D7GHLG?tag=gearmatch-20"
-    },
     "image_url_fallback": "https://m.media-amazon.com/images/I/51xyhM1NuLL._AC_SL1500_.jpg"
   },
   {
@@ -1763,9 +1751,6 @@
     },
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/ajazz-aj199.png?width=512&height=512&resize=contain",
     "manufacturer_url": "https://ajazzbrand.com/products/ajazz-aj199-carbon-fiber-mouse",
-    "retailer_urls": {
-      "amazon": "https://www.amazon.com/AJ199-Wireless-Ultra-Lightweight-Connection-Anti-Slip/dp/B0FLXNFM49?tag=gearmatch-20"
-    },
     "image_url_fallback": "https://m.media-amazon.com/images/I/71BASbmS-LL._AC_SL1500_.jpg"
   },
   {
@@ -1832,9 +1817,6 @@
     },
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/ajazz-aj199-pro-4k.png?width=512&height=512&resize=contain",
     "manufacturer_url": "https://ajazzbrand.com/products/ajazz-aj199-4k-mouse",
-    "retailer_urls": {
-      "amazon": "https://www.amazon.com/AJAZZ-AJ199-Wireless-Gaming-Mouse/dp/B0CQ4V727Q?tag=gearmatch-20"
-    },
     "image_url_fallback": "https://m.media-amazon.com/images/I/51-ckA+7z5L._AC_SL1500_.jpg"
   },
   {
@@ -1903,9 +1885,6 @@
     },
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/ajazz-aj199.png?width=512&height=512&resize=contain",
     "manufacturer_url": "https://ajazzbrand.com/products/ajazz-aj199-carbon-fiber-mouse",
-    "retailer_urls": {
-      "amazon": "https://www.amazon.com/AJAZZ-AJ199-MC-Lightweight-Rechargeable-Programmable/dp/B0CQL275ZT?tag=gearmatch-20"
-    },
     "image_url_fallback": "https://m.media-amazon.com/images/I/51-ckA+7z5L._AC_SL1500_.jpg"
   },
   {
@@ -1975,9 +1954,6 @@
     },
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/ajazz-aj199-pro-4k.png?width=512&height=512&resize=contain",
     "manufacturer_url": "https://ajazzbrand.com/products/ajazz-aj199-4k-mouse",
-    "retailer_urls": {
-      "amazon": "https://www.amazon.com/AJAZZ-AJ199-Wireless-Gaming-Mouse/dp/B0CQ4V727Q?tag=gearmatch-20"
-    },
     "image_url_fallback": "https://m.media-amazon.com/images/I/51-ckA+7z5L._AC_SL1500_.jpg"
   },
   {
@@ -1991,7 +1967,6 @@
     ],
     "product_url": "https://www.amazon.com/AJAZZ-AM3-Lightweight-Magnesium-programmable/dp/B0DG56B84R?tag=gearmatch-20",
     "retailer_urls": {
-      "amazon": "https://www.amazon.com/AJAZZ-AM3-Lightweight-Magnesium-programmable/dp/B0DG56B84R?tag=gearmatch-20",
       "walmart": "https://www.walmart.com/ip/AJAZZ-AM3-MAX-8K-Wireless-Gaming-Mouse-Lightweight-Full-Magnesium-Alloy-30000-DPI-PAW3950-Sensor-5-programmable-Buttons-Supports-Wired-2-4GHz-BT-Blac/11549269419"
     },
     "recommendation_tags": [
@@ -28596,9 +28571,6 @@
     },
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/g-wolves-hts-plus-4k.png?width=512&height=512&resize=contain",
     "manufacturer_url": "https://shop.g-wolves.com/products/g-wolves-hts-plus-hts",
-    "retailer_urls": {
-      "amazon": "https://www.amazon.com/G-Wolves-Wireless-Gaming-Reporting-PAW3399/dp/B0BHSX73N2?tag=gearmatch-20"
-    },
     "mouse_sensor_type": "PixArt PAW3399",
     "mouse_dpi_max": 20000,
     "mouse_polling_rate_max_hz": "4000",
@@ -28684,9 +28656,6 @@
     },
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/g-wolves-hts-plus-8k.png?width=512&height=512&resize=contain",
     "manufacturer_url": "https://shop.g-wolves.com/products/hts-plus-hts-8k-wireless",
-    "retailer_urls": {
-      "amazon": "https://www.amazon.com/G-Wolves-HTS-Wireless-Reporting-PAW3395/dp/B0DQTKVPVF?tag=gearmatch-20"
-    },
     "mouse_sensor_type": "PixArt PMW3395",
     "mouse_dpi_max": 26000,
     "mouse_polling_rate_max_hz": "8000",
@@ -28858,9 +28827,6 @@
     },
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/g-wolves-hts-wireless.png?width=512&height=512&resize=contain",
     "manufacturer_url": "https://shop.g-wolves.com/pages/g-wolves-hts-classic-wireless-mouse",
-    "retailer_urls": {
-      "amazon": "https://www.amazon.com/G-wolves-HTS-Plus-Wireless-White/dp/B09NTNSD1N?tag=gearmatch-20"
-    },
     "mouse_sensor_type": "PixArt PAW3370",
     "mouse_dpi_max": 19000,
     "mouse_polling_rate_max_hz": "1000",
@@ -29028,9 +28994,6 @@
     },
     "image_url": "https://shop.g-wolves.com/cdn/shop/files/1.1_f4bf9031-c800-44ec-a26a-4fc291bc4937.png?v=1700480478&width=1080",
     "manufacturer_url": "https://shop.g-wolves.com/products/htx-ace-wireless-gaming-mouse",
-    "retailer_urls": {
-      "amazon": "https://www.amazon.com/G-Wolves-HTX-Wireless-Lightweight-Non-Honeycomb/dp/B0CTQ6YSS8?tag=gearmatch-20"
-    },
     "mouse_sensor_type": "PixArt PMW3395",
     "mouse_dpi_max": 26000,
     "mouse_polling_rate_max_hz": "1000",
@@ -29115,9 +29078,6 @@
     },
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/g-wolves-htx-mini-8k.png?width=512&height=512&resize=contain",
     "manufacturer_url": "https://shop.g-wolves.com/products/htx-mini-8k-wireless-gaming-mouse-1",
-    "retailer_urls": {
-      "amazon": "https://www.amazon.com/G-Wolves-Wireless-Gaming-Reporting-PAW3395/dp/B0DQ44YXNB?tag=gearmatch-20"
-    },
     "mouse_sensor_type": "PixArt PAW3395",
     "mouse_dpi_max": 26000,
     "mouse_polling_rate_max_hz": "8000",
@@ -29426,9 +29386,6 @@
     },
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/g-wolves-vuk.png?width=512&height=512&resize=contain",
     "manufacturer_url": "https://shop.g-wolves.com/products/vuk-8k-wireless-mouse-35g",
-    "retailer_urls": {
-      "amazon": "https://www.amazon.com/G-Wolves-VUK-Black-Gaming-Mouse/dp/B0GHY129XV?tag=gearmatch-20"
-    },
     "mouse_sensor_type": "PixArt PMW3950",
     "mouse_dpi_max": 30000,
     "mouse_polling_rate_max_hz": "8000",
@@ -29506,7 +29463,6 @@
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/gamesense-meta-wired.png?width=512&height=512&resize=contain",
     "manufacturer_url": "https://gamesense.gg/products/gamesense-meta",
     "retailer_urls": {
-      "amazon": "https://www.amazon.com/Gamesense-Meta-Wired-Gaming-Mouse/dp/B09M927QQ8?tag=gearmatch-20",
       "newegg": "https://www.newegg.com/p/0TP-029K-01W27"
     },
     "mouse_sensor_type": "PixArt PMW3360",
@@ -32155,7 +32111,6 @@
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/higround-yuma.png?width=512&height=512&resize=contain",
     "manufacturer_url": "https://higround.co/collections/yuma-mouse",
     "retailer_urls": {
-      "amazon": "https://www.amazon.com/Higround-Yuma-Wireless-Mouse-Acceleration/dp/B0DNPJGDR9?tag=gearmatch-20",
       "bestbuy": "https://www.bestbuy.com/product/higround-hunter-x-hunter-yuma-lightweight-wireless-optical-gaming-mouse-with-hand-applied-art-wireless-hisoka/J3GWSX6RV2/sku/6601444"
     },
     "mouse_sensor_type": "PixArt PAW3395",
@@ -32318,7 +32273,6 @@
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/hk-gaming-sirius-m.png?width=512&height=512&resize=contain",
     "manufacturer_url": "https://hkgaming.com/pages/sirius",
     "retailer_urls": {
-      "amazon": "https://www.amazon.com/HK-Gaming-Lightweight-Honeycomb-Ambidextrous/dp/B08LZYGXSB?tag=gearmatch-20",
       "newegg": "https://www.newegg.com/p/2RC-0ATF-005R3",
       "walmart": "https://www.walmart.com/ip/336282193"
     },
@@ -32468,7 +32422,6 @@
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/hyperx-pulsefire-core.png?width=512&height=512&resize=contain",
     "manufacturer_url": "https://hyperx.com/products/hyperx-pulsefire-core-gaming-mouse",
     "retailer_urls": {
-      "amazon": "https://www.amazon.com/HyperX-Pulsefire-Core-Customization-Programmable/dp/B07H3GFJJ2?tag=gearmatch-20",
       "newegg": "https://www.newegg.com/p/32K-009Z-000M2"
     },
     "mouse_sensor_type": "PixArt PAW3327",
@@ -32623,7 +32576,6 @@
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/hyperx-pulsefire-fps-pro.png?width=512&height=512&resize=contain",
     "manufacturer_url": "https://hyperx.com/products/hyperx-pulsefire-fps-pro-gaming-mouse",
     "retailer_urls": {
-      "amazon": "https://www.amazon.com/HyperX-Pulsefire-FPS-Pro-Customization/dp/B07FLP9391?tag=gearmatch-20",
       "newegg": "https://www.newegg.com/p/173-0255-007W1",
       "walmart": "https://www.walmart.com/ip/176233130",
       "bestbuy": "https://www.bestbuy.com/site/6276201.p?skuId=6276201"
@@ -32709,7 +32661,6 @@
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/hyperx-pulsefire-fuse.png?width=512&height=512&resize=contain",
     "manufacturer_url": "https://hyperx.com/products/hyperx-pulsefire-fuse-wireless-gaming-mouse",
     "retailer_urls": {
-      "amazon": "https://www.amazon.com/HyperX-Pulsefire-Fuse-Gaming-Mouse/dp/B0DSQ3J7JD?tag=gearmatch-20",
       "newegg": "https://www.newegg.com/hyperx-pulsefire-fuse-bluetooth-2-4ghz/p/N82E16826738043",
       "bestbuy": "https://www.bestbuy.com/product/hyperx-pulsefire-fuse-lightweight-wireless-optical-gaming-mouse-with-rgb-lighting-wireless-black/JJGS9KYL5V"
     },
@@ -33100,7 +33051,6 @@
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/hyperx-pulsefire-raid.png?width=512&height=512&resize=contain",
     "manufacturer_url": "https://hyperx.com/products/hyperx-pulsefire-raid-gaming-mouse",
     "retailer_urls": {
-      "amazon": "https://www.amazon.com/HyperX-Pulsefire-Raid-Software-Controlled-Customization/dp/B0828NDB43?tag=gearmatch-20",
       "newegg": "https://www.newegg.com/p/173-00D3-000A5",
       "bestbuy": "https://www.bestbuy.com/site/hyperx-pulsefire-raid-wired-optical-gaming-mouse-with-rgb-lighting-black/6332766.p?skuId=6332766"
     },
@@ -33410,9 +33360,6 @@
     },
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/ifyoo-g03-long.png?width=512&height=512&resize=contain",
     "manufacturer_url": "https://www.ifyoo.net/ifyoo-g03-black/",
-    "retailer_urls": {
-      "amazon": "https://www.amazon.com/IFYOO-Rechargeable-Mice%EF%BC%8CPAW3395-Replaceable-Programmable/dp/B0D3FJLSX2?tag=gearmatch-20"
-    },
     "mouse_sensor_type": "PixArt PAW3395",
     "mouse_dpi_max": 26000,
     "mouse_polling_rate_max_hz": "1000",
@@ -33495,9 +33442,6 @@
     },
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/ifyoo-g03-short.png?width=512&height=512&resize=contain",
     "manufacturer_url": "https://www.ifyoo.net/ifyoo-g03-black/",
-    "retailer_urls": {
-      "amazon": "https://www.amazon.com/IFYOO-Rechargeable-Mice%EF%BC%8CPAW3395-Replaceable-Programmable/dp/B0D3FJLSX2?tag=gearmatch-20"
-    },
     "mouse_sensor_type": "PixArt PAW3395",
     "mouse_dpi_max": 26000,
     "mouse_polling_rate_max_hz": "1000",
@@ -33581,7 +33525,6 @@
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/ifyoo-g63.png?width=512&height=512&resize=contain",
     "manufacturer_url": "https://www.ifyoo.net/ifyoo-g63-whiteblack/",
     "retailer_urls": {
-      "amazon": "https://www.amazon.com/IFYOO-Tri-Mode-Wireless-Lightweight-Programmable/dp/B0D3FH1S9J?tag=gearmatch-20",
       "newegg": "https://www.newegg.com/p/3C6-0688-01BP2"
     },
     "mouse_sensor_type": "PixArt PAW3395",
@@ -34109,9 +34052,6 @@
     },
     "image_url": "https://cdn.shopify.com/s/files/1/0550/0554/4682/files/5da5eafe817c412e8eb2b06a8be4711f.jpg?v=1753761779",
     "manufacturer_url": "https://mechkeys.com/collections/incott",
-    "retailer_urls": {
-      "amazon": "https://www.amazon.com/s?k=Incott+039+SC+gaming+mouse&tag=gearmatch-20"
-    },
     "mouse_sensor_type": "PixArt PAW3395",
     "mouse_dpi_max": 32000,
     "mouse_polling_rate_max_hz": "1000",
@@ -34202,9 +34142,6 @@
     },
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/incott-g23.png?width=512&height=512&resize=contain",
     "manufacturer_url": "https://mechkeys.com/products/incott-g23",
-    "retailer_urls": {
-      "amazon": "https://www.amazon.com/Mechkeys-G23-Dual-Mode-Connectivity-Supporting/dp/B0DHSRVYJ9?tag=gearmatch-20"
-    },
     "mouse_sensor_type": "PixArt PAW3395",
     "mouse_dpi_max": 32000,
     "mouse_polling_rate_max_hz": "1000",
@@ -34301,9 +34238,6 @@
     },
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/incott-g23.png?width=512&height=512&resize=contain",
     "manufacturer_url": "https://mechkeys.com/products/incott-g23",
-    "retailer_urls": {
-      "amazon": "https://www.amazon.com/Mechkeys-G23-Dual-Mode-Connectivity-Supporting/dp/B0DRP8WSVX?tag=gearmatch-20"
-    },
     "mouse_sensor_type": "PixArt PAW3950ES",
     "mouse_dpi_max": 45000,
     "mouse_polling_rate_max_hz": "8000",
@@ -37016,9 +36950,6 @@
     },
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/keychron-bm25.png?width=512&height=512&resize=contain",
     "manufacturer_url": "https://www.keychron.com/products/keychron-bm25-wireless-mouse",
-    "retailer_urls": {
-      "amazon": "https://www.amazon.com/Keychron-Ergonomic-Rechargeable-Adjustable-Programmable/dp/B0FXB348VC?tag=gearmatch-20"
-    },
     "mouse_sensor_type": "PAW3212",
     "mouse_dpi_max": 2400,
     "mouse_polling_rate_max_hz": "1000",
@@ -37107,9 +37038,6 @@
     },
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/keychron-lemokey-g1.png?width=512&height=512&resize=contain",
     "manufacturer_url": "https://www.keychron.com/products/lemokey-g1-wireless-mouse",
-    "retailer_urls": {
-      "amazon": "https://www.amazon.com/LEMOKEY-Wireless-Bluetooth-Ultra-Lightweight-Programmable/dp/B0DDT9W3RP?tag=gearmatch-20"
-    },
     "mouse_sensor_type": "PixArt PAW3950",
     "mouse_dpi_max": 30000,
     "mouse_polling_rate_max_hz": "8000",
@@ -37198,9 +37126,6 @@
     },
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/keychron-lemokey-g2.png?width=512&height=512&resize=contain",
     "manufacturer_url": "https://www.keychron.com/products/lemokey-g2-wireless-mouse",
-    "retailer_urls": {
-      "amazon": "https://www.amazon.com/Lemokey-PixArt-Lightweight-Programmable-Connection/dp/B0FN2HG8P5?tag=gearmatch-20"
-    },
     "mouse_sensor_type": "PixArt PAW3950",
     "mouse_dpi_max": 30000,
     "mouse_polling_rate_max_hz": "8000",
@@ -37284,7 +37209,6 @@
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/keychron-m1-wired.png?width=512&height=512&resize=contain",
     "manufacturer_url": "https://www.keychron.com/products/keychron-m1-mouse",
     "retailer_urls": {
-      "amazon": "https://www.amazon.com/Keychron-M1-PMW3389-Ultra-Lightweight-Backlit/dp/B09G338RLD?tag=gearmatch-20",
       "bestbuy": "https://www.bestbuy.com/product/keychron-wireless-mouse-m1-a3-wireless-black/CGC7F974Q3"
     },
     "mouse_sensor_type": "PMW3389",
@@ -37667,9 +37591,6 @@
     },
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/keychron-m2-mini.png?width=512&height=512&resize=contain",
     "manufacturer_url": "https://www.keychron.com/products/keychron-m2-mini-wireless-mouse",
-    "retailer_urls": {
-      "amazon": "https://www.amazon.com/Keychron-M2-Mini-Wireless-Mouse/dp/B0DQVBH9D7?tag=gearmatch-20"
-    },
     "mouse_sensor_type": "PixArt PAW3950",
     "mouse_dpi_max": 30000,
     "mouse_polling_rate_max_hz": "8000",
@@ -38260,9 +38181,6 @@
     },
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/kysona-aztec.png?width=512&height=512&resize=contain",
     "manufacturer_url": "https://shop.kysona.com/products/aztec",
-    "retailer_urls": {
-      "amazon": "https://www.amazon.com/KYSONA-Wireless-Ultralight-Programmable-AZTEC/dp/B0CRL9338N?tag=gearmatch-20"
-    },
     "mouse_sensor_type": "PAW3395",
     "mouse_dpi_max": 26000,
     "mouse_polling_rate_max_hz": "1000",
@@ -38351,9 +38269,6 @@
     },
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/kysona-saturn.png?width=512&height=512&resize=contain",
     "manufacturer_url": "https://shop.kysona.com/products/kysona-jupiter-wireless-gaming-mouse",
-    "retailer_urls": {
-      "amazon": "https://www.amazon.com/KYSONA-Wireless-Ultralight-Cool-Touch-Programmable/dp/B0FHBLRTGF?tag=gearmatch-20"
-    },
     "mouse_sensor_type": "PAW3395",
     "mouse_dpi_max": 26000,
     "mouse_polling_rate_max_hz": "8000",
@@ -38385,7 +38300,6 @@
     "image_url": "https://i5.walmartimages.com/asr/8c72f47a-de0b-4402-9e52-ead4f570b630.b96009424b72782d502bfbb90c1c079d.jpeg?odnHeight=450&odnWidth=450&odnBg=ffffff",
     "product_url": "https://www.amazon.com/KYSONA-Jupiter-Wireless-Ultralight-Programmable/dp/B0FHBG54G2?tag=gearmatch-20",
     "retailer_urls": {
-      "amazon": "https://www.amazon.com/KYSONA-Jupiter-Wireless-Ultralight-Programmable/dp/B0FHBG54G2?tag=gearmatch-20",
       "newegg": "https://www.newegg.com/p/3C6-02AV-00VR3",
       "walmart": "https://www.walmart.com/ip/KYSONA-Jupiter-SE-Wireless-Gaming-Mouse-24000-DPI-Optical-Sensor-Ultralight-46G-300-Hr-Battery-Life-5-Programmable-Buttons-PC-Mac-Laptop-Black/17749958515"
     },
@@ -38475,7 +38389,6 @@
     "image_url": "https://i5.walmartimages.com/asr/8c72f47a-de0b-4402-9e52-ead4f570b630.b96009424b72782d502bfbb90c1c079d.jpeg?odnHeight=450&odnWidth=450&odnBg=ffffff",
     "product_url": "https://www.amazon.com/KYSONA-Jupiter-Wireless-Ultralight-Metallic/dp/B0FHBLFXBJ?tag=gearmatch-20",
     "retailer_urls": {
-      "amazon": "https://www.amazon.com/KYSONA-Jupiter-Wireless-Ultralight-Metallic/dp/B0FHBLFXBJ?tag=gearmatch-20",
       "walmart": "https://www.walmart.com/ip/Jupiter-Ultra-Wireless-Gaming-Mouse-42000-DPI-PAW3950-MAX-Sensor-Optical-Micro-Switch-Ultralight-46g-Nordic-52840-MCU-Dual-8k-Polling-Rate-Metallic-R/17763103916"
     },
     "recommendation_tags": [
@@ -38652,9 +38565,6 @@
     ],
     "image_url": "https://i5.walmartimages.com/asr/3cba0130-819d-4a86-b38c-32b217a75aef.d5673ac907eac3d71186ace88b59598d.jpeg?odnHeight=450&odnWidth=450&odnBg=ffffff",
     "product_url": "https://www.amazon.com/KYSONA-Wireless-Ultralight-Lag-Free-Programmable/dp/B0CCZZP3X3?tag=gearmatch-20",
-    "retailer_urls": {
-      "amazon": "https://www.amazon.com/KYSONA-Wireless-Ultralight-Lag-Free-Programmable/dp/B0CCZZP3X3?tag=gearmatch-20"
-    },
     "recommendation_tags": [
       "wireless"
     ],
@@ -38736,9 +38646,6 @@
     ],
     "image_url": "https://i5.walmartimages.com/asr/3cba0130-819d-4a86-b38c-32b217a75aef.d5673ac907eac3d71186ace88b59598d.jpeg?odnHeight=450&odnWidth=450&odnBg=ffffff",
     "product_url": "https://www.amazon.com/KYSONA-Wireless-Ultralight-Lag-Free-Programmable/dp/B0F1F2JQHM?tag=gearmatch-20",
-    "retailer_urls": {
-      "amazon": "https://www.amazon.com/KYSONA-Wireless-Ultralight-Lag-Free-Programmable/dp/B0F1F2JQHM?tag=gearmatch-20"
-    },
     "recommendation_tags": [
       "wireless"
     ],
@@ -38873,9 +38780,6 @@
     },
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/kysona-m617.png?width=512&height=512&resize=contain",
     "manufacturer_url": "https://shop.kysona.com/products/m617-gaming-mouse",
-    "retailer_urls": {
-      "amazon": "https://www.amazon.com/KYSONA-Wireless-Bluetooth-Lightweight-Rechargeable/dp/B0DLGH63MK?tag=gearmatch-20"
-    },
     "mouse_sensor_type": "PixArt PAW3395",
     "mouse_dpi_max": 26000,
     "mouse_polling_rate_max_hz": "8000",
@@ -38906,9 +38810,6 @@
     ],
     "image_url": "https://i5.walmartimages.com/asr/3cba0130-819d-4a86-b38c-32b217a75aef.d5673ac907eac3d71186ace88b59598d.jpeg?odnHeight=450&odnWidth=450&odnBg=ffffff",
     "product_url": "https://www.amazon.com/KYSONA-Bluetooth-Lightweight-Programmable-Rechargeable/dp/B0DN5LBVWJ?tag=gearmatch-20",
-    "retailer_urls": {
-      "amazon": "https://www.amazon.com/KYSONA-Bluetooth-Lightweight-Programmable-Rechargeable/dp/B0DN5LBVWJ?tag=gearmatch-20"
-    },
     "recommendation_tags": [
       "wireless"
     ],
@@ -39043,9 +38944,6 @@
     },
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/kysona-mars-se.png?width=512&height=512&resize=contain",
     "manufacturer_url": "https://shop.kysona.com/products/wireless-gaming-mouse-57g-lightweight-vertical-mouse-anti-slip-stickers-400-24000-dpi-wired-2-4ghz-bluetooth-connection-mars-se",
-    "retailer_urls": {
-      "amazon": "https://www.amazon.com/KYSONA-Bluetooth-Ergonomic-Lightweight-Rechargeable/dp/B0DM1VH8XZ?tag=gearmatch-20"
-    },
     "mouse_sensor_type": "PixArt PAW3311",
     "mouse_dpi_max": 24000,
     "mouse_polling_rate_max_hz": "1000",
@@ -39132,7 +39030,6 @@
     "image_url": "https://cdn.shopify.com/s/files/1/0809/0697/7595/files/3395_45e16ebd-c2b2-4a71-a731-76344fae0d1c.jpg",
     "manufacturer_url": "https://shop.kysona.com/products/kysona-mercury-series",
     "retailer_urls": {
-      "amazon": "https://www.amazon.com/KYSONA-Wireless-Mouse%EF%BC%8C41g-Ultalight-Programmable/dp/B0FKSBPSS1?tag=gearmatch-20",
       "walmart": "https://www.walmart.com/ip/Mercury-Wireless-Gaming-Mouse-41g-Ultalight-PAW3395-Sensor-8K-Polling-Rate-26000-DPI-5-Programmable-Buttons-Optical-Mice-for-PC-MAC-Laptop-White/17763103108"
     },
     "mouse_sensor_type": "PixArt PAW3395",
@@ -39391,9 +39288,6 @@
     },
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/kysona-uranus-pro.png?width=512&height=512&resize=contain",
     "manufacturer_url": "https://shop.kysona.com/products/wireless-gaming-mouse-uranus",
-    "retailer_urls": {
-      "amazon": "https://www.amazon.com/KYSONA-Bluetooth-Web-Driven-Ice-Cooling-Rechargeable/dp/B0DTHT67SR?tag=gearmatch-20"
-    },
     "mouse_sensor_type": "PixArt PAW3395",
     "mouse_dpi_max": 26000,
     "mouse_polling_rate_max_hz": "8000",
@@ -40412,9 +40306,6 @@
     },
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/lamzu-x-fnatic-thorn.png?width=512&height=512&resize=contain",
     "manufacturer_url": "https://lamzu.com/products/lamzu-x-fnatic-thorn-gaming-mouse",
-    "retailer_urls": {
-      "amazon": "https://www.amazon.com/Fnatic-Wireless-Epically-Switches-Compatible/dp/B0CLVPRZR5?tag=gearmatch-20"
-    },
     "mouse_sensor_type": "PixArt PAW3395",
     "mouse_dpi_max": 26000,
     "mouse_polling_rate_max_hz": "4000",
@@ -40599,7 +40490,6 @@
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/lenovo-legion-m300s.png?width=512&height=512&resize=contain",
     "manufacturer_url": "https://www.lenovo.com/us/en/p/accessories-and-software/keyboards-and-mice/mice/gy51h47350",
     "retailer_urls": {
-      "amazon": "https://www.amazon.com/Lenovo-Legion-Programmable-Buttons-Million/dp/B0B9YHVVH1?tag=gearmatch-20",
       "newegg": "https://www.newegg.com/lenovo-gy51h47350/p/173-007P-000H9"
     },
     "mouse_sensor_type": "PixArt PAW3327",
@@ -40689,9 +40579,6 @@
     },
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/lenovo-legion-m410.png?width=512&height=512&resize=contain",
     "manufacturer_url": "https://www.lenovo.com/us/en/p/accessories-and-software/keyboards-and-mice/mice/gy51p80851",
-    "retailer_urls": {
-      "amazon": "https://www.amazon.com/Lenovo-Legion-Wireless-Gaming-Mouse/dp/B0DFJJRFML?tag=gearmatch-20"
-    },
     "mouse_sensor_type": "PixArt PAW3335",
     "mouse_dpi_max": 16000,
     "mouse_polling_rate_max_hz": "1000",
@@ -40729,7 +40616,6 @@
     "image_url": "https://i5.walmartimages.com/asr/3d48e378-f364-45cc-b65a-c741a3db0c48.a6857a9c4042d2e381c51649a1b6c722.jpeg?odnHeight=450&odnWidth=450&odnBg=ffffff",
     "product_url": "https://www.amazon.com/Lenovo-Wireless-Programmable-Buttons-Million/dp/B0B9YH2QBD?tag=gearmatch-20",
     "retailer_urls": {
-      "amazon": "https://www.amazon.com/Lenovo-Wireless-Programmable-Buttons-Million/dp/B0B9YH2QBD?tag=gearmatch-20",
       "newegg": "https://www.newegg.com/p/32K-0045-00082",
       "walmart": "https://www.walmart.com/ip/Lenovo-GY51H47354-Legion-M600S-Wireless-Mouse/2121589200"
     },
@@ -40823,7 +40709,6 @@
     "image_url": "https://i5.walmartimages.com/asr/50a47a46-0537-4a14-b746-76611e2daf30.0813ba604b6a6fa7cad97aa2c8e9d694.jpeg?odnHeight=450&odnWidth=450&odnBg=ffffff",
     "product_url": "https://www.amazon.com/Lenovo-Yoga-Pro-Mouse-Tidal/dp/B0D2JGKRMM?tag=gearmatch-20",
     "retailer_urls": {
-      "amazon": "https://www.amazon.com/Lenovo-Yoga-Pro-Mouse-Tidal/dp/B0D2JGKRMM?tag=gearmatch-20",
       "newegg": "https://www.newegg.com/lenovo-gy51p42818/p/173-007P-000K3"
     },
     "recommendation_tags": [
@@ -41145,9 +41030,6 @@
     },
     "image_url": "https://m.media-amazon.com/images/I/51kJ+Rg7R4L._AC_SL1500_.jpg",
     "manufacturer_url": "https://www.lofree.co/products/lofree-touch-wireless-mouse",
-    "retailer_urls": {
-      "amazon": "https://www.amazon.com/dp/B0CT9VX5ZM?tag=gearmatch-20"
-    },
     "mouse_sensor_type": "PAW3805",
     "mouse_dpi_max": 4000,
     "mouse_polling_rate_max_hz": "500",
@@ -41207,7 +41089,6 @@
     "image_url": "https://m.media-amazon.com/images/I/61hzuoXwjqL._AC_SL1500_.jpg",
     "product_url": "https://www.amazon.com/dp/B003L62T7W?tag=gearmatch-20",
     "retailer_urls": {
-      "amazon": "https://www.amazon.com/dp/B003L62T7W?tag=gearmatch-20",
       "walmart": "https://www.walmart.com/search?q=logitech+b100+mouse"
     },
     "recommendation_tags": [
@@ -41402,7 +41283,6 @@
     "image_url": "https://m.media-amazon.com/images/I/51gnOZjDyFL._AC_SL1500_.jpg",
     "product_url": "https://www.amazon.com/dp/B07M6RVW79?tag=gearmatch-20",
     "retailer_urls": {
-      "amazon": "https://www.amazon.com/dp/B07M6RVW79?tag=gearmatch-20",
       "newegg": "https://www.newegg.com/p/N82E16826197296"
     },
     "recommendation_tags": [
@@ -42230,9 +42110,6 @@
     ],
     "image_url": "https://m.media-amazon.com/images/I/715BOo6P-BL._AC_SL1500_.jpg",
     "product_url": "https://www.amazon.com/dp/B07L4BM851?tag=gearmatch-20",
-    "retailer_urls": {
-      "amazon": "https://www.amazon.com/dp/B07L4BM851?tag=gearmatch-20"
-    },
     "recommendation_tags": [
       "budget",
       "wired",
@@ -42419,7 +42296,6 @@
     "image_url": "https://m.media-amazon.com/images/I/51IcHUR8kXL._AC_SL1200_.jpg",
     "product_url": "https://www.amazon.com/dp/B01M26YUKO?tag=gearmatch-20",
     "retailer_urls": {
-      "amazon": "https://www.amazon.com/dp/B01M26YUKO?tag=gearmatch-20",
       "newegg": "https://www.newegg.com/p/N82E16826197249",
       "walmart": "https://www.walmart.com/ip/Logitech-G203-Prodigy-Wired-Gaming-Mouse/171375696"
     },
@@ -42536,9 +42412,6 @@
     ],
     "image_url": "https://m.media-amazon.com/images/I/61JBVP-lWDL._AC_SL1500_.jpg",
     "product_url": "https://www.amazon.com/dp/B00RH6R7C4?tag=gearmatch-20",
-    "retailer_urls": {
-      "amazon": "https://www.amazon.com/dp/B00RH6R7C4?tag=gearmatch-20"
-    },
     "recommendation_tags": [
       "wired",
       "gaming",
@@ -44127,9 +44000,6 @@
     ],
     "image_url": "https://m.media-amazon.com/images/I/61BD5x05JkL._AC_SL1500_.jpg",
     "product_url": "https://www.amazon.com/dp/B074KL48WC?tag=gearmatch-20",
-    "retailer_urls": {
-      "amazon": "https://www.amazon.com/dp/B074KL48WC?tag=gearmatch-20"
-    },
     "recommendation_tags": [
       "wireless",
       "gaming",
@@ -45072,7 +44942,6 @@
     ],
     "product_url": "https://www.amazon.com/dp/B01KR9TYMU?tag=gearmatch-20",
     "retailer_urls": {
-      "amazon": "https://www.amazon.com/dp/B01KR9TYMU?tag=gearmatch-20",
       "walmart": "https://www.walmart.com/search?q=logitech+m171+wireless+mouse"
     },
     "recommendation_tags": [
@@ -45260,9 +45129,6 @@
       25
     ],
     "product_url": "https://www.amazon.com/dp/B004BRFJLA?tag=gearmatch-20",
-    "retailer_urls": {
-      "amazon": "https://www.amazon.com/dp/B004BRFJLA?tag=gearmatch-20"
-    },
     "recommendation_tags": [
       "budget",
       "wireless",
@@ -45932,7 +45798,6 @@
     ],
     "product_url": "https://www.amazon.com/dp/B09HSMKBNM?tag=gearmatch-20",
     "retailer_urls": {
-      "amazon": "https://www.amazon.com/dp/B09HSMKBNM?tag=gearmatch-20",
       "walmart": "https://www.walmart.com/search?q=logitech+m550+wireless",
       "bestbuy": "https://www.bestbuy.com/site/searchpage.jsp?st=logitech+m550"
     },
@@ -46337,7 +46202,6 @@
     "image_url": "https://m.media-amazon.com/images/I/51xoW1+rYFL._AC_SL1000_.jpg",
     "product_url": "https://www.amazon.com/dp/B003UE52ME?tag=gearmatch-20",
     "retailer_urls": {
-      "amazon": "https://www.amazon.com/dp/B003UE52ME?tag=gearmatch-20",
       "walmart": "https://www.walmart.com/search?q=logitech+m705+marathon"
     },
     "recommendation_tags": [
@@ -47371,7 +47235,6 @@
     "image_url": "https://m.media-amazon.com/images/I/51gnOZjDyFL._AC_SL1500_.jpg",
     "product_url": "https://www.amazon.com/dp/B07M6RVW79?tag=gearmatch-20",
     "retailer_urls": {
-      "amazon": "https://www.amazon.com/dp/B07M6RVW79?tag=gearmatch-20",
       "newegg": "https://www.newegg.com/p/N82E16826197296"
     },
     "recommendation_tags": [
@@ -47646,7 +47509,6 @@
     ],
     "product_url": "https://www.amazon.com/dp/B09K1WLJJV?tag=gearmatch-20",
     "retailer_urls": {
-      "amazon": "https://www.amazon.com/dp/B09K1WLJJV?tag=gearmatch-20",
       "walmart": "https://www.walmart.com/search?q=logitech+pop+mouse",
       "bestbuy": "https://www.bestbuy.com/site/searchpage.jsp?st=logitech+pop+mouse"
     },
@@ -47972,9 +47834,6 @@
     },
     "image_url": "https://m.media-amazon.com/images/I/51BHkNznZXL._AC_SL1500_.jpg",
     "manufacturer_url": "https://www.machenike.com/products/mouse",
-    "retailer_urls": {
-      "amazon": "https://www.amazon.com/dp/B0CN8YDTXP?tag=gearmatch-20"
-    },
     "mouse_sensor_type": "PAW3395",
     "mouse_dpi_max": 26000,
     "mouse_polling_rate_max_hz": "4000",
@@ -48091,9 +47950,6 @@
     },
     "image_url": "https://m.media-amazon.com/images/I/51BHkNznZXL._AC_SL1500_.jpg",
     "manufacturer_url": "https://www.machenike.com/products/mouse",
-    "retailer_urls": {
-      "amazon": "https://www.amazon.com/dp/B0CN8YDTXP?tag=gearmatch-20"
-    },
     "mouse_sensor_type": "PAW3395",
     "mouse_dpi_max": 26000,
     "mouse_polling_rate_max_hz": "8000",
@@ -48209,9 +48065,6 @@
     },
     "image_url": "https://m.media-amazon.com/images/I/51i58afIfUL._AC_SL1500_.jpg",
     "manufacturer_url": "https://www.machenike.com/products/mouse",
-    "retailer_urls": {
-      "amazon": "https://www.amazon.com/dp/B0D95R8LFL?tag=gearmatch-20"
-    },
     "mouse_sensor_type": "PAW3950 Pro",
     "mouse_dpi_max": 36000,
     "mouse_polling_rate_max_hz": "8000",
@@ -48327,9 +48180,6 @@
     },
     "image_url": "https://m.media-amazon.com/images/I/518Xd8fm3UL._AC_SL1500_.jpg",
     "manufacturer_url": "https://www.machenike.com/products/mouse",
-    "retailer_urls": {
-      "amazon": "https://www.amazon.com/dp/B0CN8YRCFT?tag=gearmatch-20"
-    },
     "mouse_sensor_type": "PAW3395",
     "mouse_dpi_max": 26000,
     "mouse_polling_rate_max_hz": "8000",
@@ -48388,9 +48238,6 @@
     ],
     "image_url": "https://m.media-amazon.com/images/I/61-v31mN2XL._AC_SL1500_.jpg",
     "product_url": "https://www.amazon.com/dp/B0CN914Z8H?tag=gearmatch-20",
-    "retailer_urls": {
-      "amazon": "https://www.amazon.com/dp/B0CN914Z8H?tag=gearmatch-20"
-    },
     "recommendation_tags": [
       "wireless",
       "gaming",
@@ -48570,9 +48417,6 @@
     ],
     "image_url": "https://m.media-amazon.com/images/I/71ySw7Wh1RL._AC_SL1500_.jpg",
     "product_url": "https://www.amazon.com/dp/B0F6BG2RRV?tag=gearmatch-20",
-    "retailer_urls": {
-      "amazon": "https://www.amazon.com/dp/B0F6BG2RRV?tag=gearmatch-20"
-    },
     "recommendation_tags": [
       "ultra-light",
       "wireless",
@@ -48688,9 +48532,6 @@
     ],
     "image_url": "https://m.media-amazon.com/images/I/61k5SzdP+QL._AC_SL1500_.jpg",
     "product_url": "https://www.amazon.com/dp/B0F6D13F1J?tag=gearmatch-20",
-    "retailer_urls": {
-      "amazon": "https://www.amazon.com/dp/B0F6D13F1J?tag=gearmatch-20"
-    },
     "recommendation_tags": [
       "light",
       "wireless",
@@ -48863,9 +48704,6 @@
     },
     "image_url": "https://m.media-amazon.com/images/I/71LIkTE2F+L._AC_SL1500_.jpg",
     "manufacturer_url": "https://mambasnake.com",
-    "retailer_urls": {
-      "amazon": "https://www.amazon.com/dp/B0F4382F1T?tag=gearmatch-20"
-    },
     "mouse_sensor_type": "PAW3950MAX",
     "mouse_dpi_max": 36000,
     "mouse_polling_rate_max_hz": "8000",
@@ -49176,9 +49014,6 @@
     },
     "image_url": "https://m.media-amazon.com/images/I/51xruviL9fL._AC_SL1500_.jpg",
     "manufacturer_url": "https://www.mchose.store",
-    "retailer_urls": {
-      "amazon": "https://www.amazon.com/dp/B0DNQDPHRT?tag=gearmatch-20"
-    },
     "mouse_sensor_type": "PAW3395",
     "mouse_dpi_max": 26000,
     "mouse_polling_rate_max_hz": "8000",
@@ -49292,9 +49127,6 @@
     },
     "image_url": "https://m.media-amazon.com/images/I/51xruviL9fL._AC_SL1500_.jpg",
     "manufacturer_url": "https://www.mchose.store",
-    "retailer_urls": {
-      "amazon": "https://www.amazon.com/dp/B0FDKXKQS1?tag=gearmatch-20"
-    },
     "mouse_sensor_type": "PAW3395",
     "mouse_dpi_max": 26000,
     "mouse_polling_rate_max_hz": "8000",
@@ -49480,9 +49312,6 @@
     },
     "image_url": "https://m.media-amazon.com/images/I/61sfhe6aU0L._AC_SL1500_.jpg",
     "manufacturer_url": "https://www.mchose.store",
-    "retailer_urls": {
-      "amazon": "https://www.amazon.com/dp/B0DSPSRNSZ?tag=gearmatch-20"
-    },
     "mouse_sensor_type": "PAW3395",
     "mouse_dpi_max": 26000,
     "mouse_polling_rate_max_hz": "8000",
@@ -49672,9 +49501,6 @@
     },
     "image_url": "https://m.media-amazon.com/images/I/61RMSWplk8L._AC_SL1500_.jpg",
     "manufacturer_url": "https://www.mchose.store",
-    "retailer_urls": {
-      "amazon": "https://www.amazon.com/dp/B0FRFKGW3G?tag=gearmatch-20"
-    },
     "mouse_sensor_type": "PAW3395",
     "mouse_dpi_max": 26000,
     "mouse_polling_rate_max_hz": "8000",
@@ -49792,9 +49618,6 @@
     },
     "image_url": "https://m.media-amazon.com/images/I/51hHcXY8EWL._AC_SL1500_.jpg",
     "manufacturer_url": "https://www.mchose.store",
-    "retailer_urls": {
-      "amazon": "https://www.amazon.com/dp/B0G19S1JD4?tag=gearmatch-20"
-    },
     "mouse_sensor_type": "PAW3950TI",
     "mouse_dpi_max": 36000,
     "mouse_polling_rate_max_hz": "8000",
@@ -50027,9 +49850,6 @@
     },
     "image_url": "https://m.media-amazon.com/images/I/6184HezwYUL._AC_SL1500_.jpg",
     "manufacturer_url": "https://www.mchose.store",
-    "retailer_urls": {
-      "amazon": "https://www.amazon.com/dp/B0CTJJ99WK?tag=gearmatch-20"
-    },
     "mouse_sensor_type": "PAW3395",
     "mouse_dpi_max": 26000,
     "mouse_polling_rate_max_hz": "4000",
@@ -50144,9 +49964,6 @@
     },
     "image_url": "https://m.media-amazon.com/images/I/6184HezwYUL._AC_SL1500_.jpg",
     "manufacturer_url": "https://www.mchose.store",
-    "retailer_urls": {
-      "amazon": "https://www.amazon.com/dp/B0CTJG71Y3?tag=gearmatch-20"
-    },
     "mouse_sensor_type": "PAW3395",
     "mouse_dpi_max": 26000,
     "mouse_polling_rate_max_hz": "4000",
@@ -50261,9 +50078,6 @@
     },
     "image_url": "https://m.media-amazon.com/images/I/61xOCwqN6zL._AC_SL1500_.jpg",
     "manufacturer_url": "https://www.mchose.store",
-    "retailer_urls": {
-      "amazon": "https://www.amazon.com/dp/B0CTCQFLF6?tag=gearmatch-20"
-    },
     "mouse_sensor_type": "PAW3395",
     "mouse_dpi_max": 26000,
     "mouse_polling_rate_max_hz": "8000",
@@ -50453,9 +50267,6 @@
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/mchose-g3.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "in_stock",
     "mouse_weight_class": "light",
-    "retailer_urls": {
-      "amazon": "https://www.amazon.com/dp/B0DDSTHLGV?tag=gearmatch-20"
-    },
     "image_url_fallback": "https://m.media-amazon.com/images/I/51wxdcnujXL._AC_SL1500_.jpg"
   },
   {
@@ -50805,9 +50616,6 @@
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/mchose-g3.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "in_stock",
     "mouse_weight_class": "light",
-    "retailer_urls": {
-      "amazon": "https://www.amazon.com/dp/B0DDSRY7KX?tag=gearmatch-20"
-    },
     "image_url_fallback": "https://m.media-amazon.com/images/I/51XBRQx-OnL._AC_SL1500_.jpg"
   },
   {
@@ -50941,9 +50749,6 @@
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/mchose-g3-v2.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "in_stock",
     "mouse_weight_class": "light",
-    "retailer_urls": {
-      "amazon": "https://www.amazon.com/dp/B0G8YY9LV8?tag=gearmatch-20"
-    },
     "image_url_fallback": "https://m.media-amazon.com/images/I/51wxdcnujXL._AC_SL1500_.jpg"
   },
   {
@@ -51236,9 +51041,6 @@
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/mchose-k7-ultra.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "in_stock",
     "mouse_weight_class": "light",
-    "retailer_urls": {
-      "amazon": "https://www.amazon.com/dp/B0FQV45DZ9?tag=gearmatch-20"
-    },
     "image_url_fallback": "https://m.media-amazon.com/images/I/510OpzMXBmL._AC_SL1500_.jpg"
   },
   {
@@ -51540,9 +51342,6 @@
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/machenike-m7-pro.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "in_stock",
     "mouse_weight_class": "light",
-    "retailer_urls": {
-      "amazon": "https://www.amazon.com/dp/B0DRD1VCG9?tag=gearmatch-20"
-    },
     "image_url_fallback": "https://m.media-amazon.com/images/I/51XopjqVlAL._AC_SL1500_.jpg"
   },
   {
@@ -52275,8 +52074,7 @@
     "image_url": "https://i5.walmartimages.com/asr/92e4f380-bcf2-4a65-8b72-4e7c343f5e6f.60d1c403506a22141d6b334bf619db00.jpeg?odnHeight=450&odnWidth=450&odnBg=ffffff",
     "product_url": "https://www.amazon.com/dp/B005058B4W?tag=gearmatch-20",
     "retailer_urls": {
-      "walmart": "https://www.walmart.com/ip/858403308",
-      "amazon": "https://www.amazon.com/dp/B005058B4W?tag=gearmatch-20"
+      "walmart": "https://www.walmart.com/ip/858403308"
     },
     "recommendation_tags": [],
     "data_quality": {
@@ -53098,9 +52896,6 @@
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/mionix-naos-pro.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "in_stock",
     "mouse_weight_class": "heavy",
-    "retailer_urls": {
-      "amazon": "https://www.amazon.com/dp/B09GB913DL?tag=gearmatch-20"
-    },
     "image_url_fallback": "https://m.media-amazon.com/images/I/61k1cHvtdcL._AC_SL1500_.jpg"
   },
   {
@@ -53239,9 +53034,6 @@
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/monka-g995w.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "in_stock",
     "mouse_weight_class": "light",
-    "retailer_urls": {
-      "amazon": "https://www.amazon.com/dp/B0DFM3HGTY?tag=gearmatch-20"
-    },
     "image_url_fallback": "https://m.media-amazon.com/images/I/41rSXoq3W4L._AC_SL1000_.jpg"
   },
   {
@@ -53676,9 +53468,6 @@
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/motospeed-x1.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "in_stock",
     "mouse_weight_class": "light",
-    "retailer_urls": {
-      "amazon": "https://www.amazon.com/dp/B0DWMK8V3D?tag=gearmatch-20"
-    },
     "image_url_fallback": "https://m.media-amazon.com/images/I/41TQoaiJALL._AC_SL1500_.jpg"
   },
   {
@@ -53826,9 +53615,6 @@
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/motospeed-x6.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "in_stock",
     "mouse_weight_class": "ultra_light",
-    "retailer_urls": {
-      "amazon": "https://www.amazon.com/dp/B0DMN4PLNT?tag=gearmatch-20"
-    },
     "image_url_fallback": "https://m.media-amazon.com/images/I/41-fFQCwvUL._AC_SL1500_.jpg"
   },
   {
@@ -53899,7 +53685,6 @@
     "mouse_stock_status": "in_stock",
     "mouse_weight_class": "light",
     "retailer_urls": {
-      "amazon": "https://www.amazon.com/dp/B08VNL12QF?tag=gearmatch-20",
       "newegg": "https://www.newegg.com/p/173-07PW-00002"
     },
     "image_url_fallback": "https://m.media-amazon.com/images/I/41pnAmpxHbL._AC_SL1000_.jpg"
@@ -54177,9 +53962,6 @@
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/ninjutso-katana-ultralight.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "limited",
     "mouse_weight_class": "light",
-    "retailer_urls": {
-      "amazon": "https://www.amazon.com/dp/B09FHK6DBY?tag=gearmatch-20"
-    },
     "image_url_fallback": "https://m.media-amazon.com/images/I/41fFGkgaESL._AC_SL1000_.jpg"
   },
   {
@@ -54248,9 +54030,6 @@
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/ninjutso-origin-one-x.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "limited",
     "mouse_weight_class": "light",
-    "retailer_urls": {
-      "amazon": "https://www.amazon.com/dp/B098YZWDHY?tag=gearmatch-20"
-    },
     "image_url_fallback": "https://m.media-amazon.com/images/I/41YaHhSiFAL._AC_SL1140_.jpg"
   },
   {
@@ -54993,7 +54772,6 @@
     "mouse_stock_status": "limited",
     "mouse_weight_class": "medium",
     "retailer_urls": {
-      "amazon": "https://www.amazon.com/dp/B09KGM5LH4?tag=gearmatch-20",
       "newegg": "https://www.newegg.com/p/32K-0044-00005"
     },
     "image_url_fallback": "https://m.media-amazon.com/images/I/61qhr-Jgb-L._AC_SL1500_.jpg"
@@ -55462,7 +55240,6 @@
     "mouse_stock_status": "limited",
     "mouse_weight_class": "light",
     "retailer_urls": {
-      "amazon": "https://www.amazon.com/dp/B09V9Z1QC3?tag=gearmatch-20",
       "newegg": "https://www.newegg.com/nzxt-ms-1wrax-bm/p/N82E16826292006"
     }
   },
@@ -55478,7 +55255,6 @@
     "image_url": "https://i5.walmartimages.com/asr/24badfc6-43d2-447a-abe5-0853e0526f11.875d617e7025148b7c79b41adc3a3696.jpeg?odnHeight=450&odnWidth=450&odnBg=ffffff",
     "product_url": "https://www.amazon.com/dp/B0F17JCR99?tag=gearmatch-20",
     "retailer_urls": {
-      "amazon": "https://www.amazon.com/dp/B0F17JCR99?tag=gearmatch-20",
       "newegg": "https://www.newegg.com/nzxt-lift-2-ergo-ms-001nb-01-usb-2-0-wired/p/N82E16826292008"
     },
     "recommendation_tags": [
@@ -55830,9 +55606,6 @@
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/phylina-s450.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "in_stock",
     "mouse_weight_class": "light",
-    "retailer_urls": {
-      "amazon": "https://www.amazon.com/dp/B0CCDFZ9HF?tag=gearmatch-20"
-    },
     "image_url_fallback": "https://m.media-amazon.com/images/I/71TBBU0xSvL._AC_SL1500_.jpg"
   },
   {
@@ -58326,9 +58099,6 @@
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/pulsar-feinmann-f01.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "in_stock",
     "mouse_weight_class": "light",
-    "retailer_urls": {
-      "amazon": "https://www.amazon.com/dp/B0DZGHZQ7V?tag=gearmatch-20"
-    },
     "image_url_fallback": "https://m.media-amazon.com/images/I/61a6weMDgUL._AC_SL1500_.jpg"
   },
   {
@@ -59111,9 +58881,6 @@
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/pulsar-xlite-v3.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "in_stock",
     "mouse_weight_class": "ultra_light",
-    "retailer_urls": {
-      "amazon": "https://www.amazon.com/dp/B0FFGN4381?tag=gearmatch-20"
-    },
     "image_url_fallback": "https://m.media-amazon.com/images/I/513E84ab0RL._AC_SL1500_.jpg"
   },
   {
@@ -59341,9 +59108,6 @@
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/pulsar-xlite-crazylight-medium.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "in_stock",
     "mouse_weight_class": "light",
-    "retailer_urls": {
-      "amazon": "https://www.amazon.com/dp/B0DLWH7F7V?tag=gearmatch-20"
-    },
     "image_url_fallback": "https://m.media-amazon.com/images/I/61DWA+2vc0L._AC_SL1500_.jpg"
   },
   {
@@ -59419,9 +59183,6 @@
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/pulsar-xlite-es.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "in_stock",
     "mouse_weight_class": "light",
-    "retailer_urls": {
-      "amazon": "https://www.amazon.com/dp/B0DLWK2TQJ?tag=gearmatch-20"
-    },
     "image_url_fallback": "https://m.media-amazon.com/images/I/51VgbwUF12L._AC_SL1500_.jpg"
   },
   {
@@ -59497,10 +59258,7 @@
     },
     "image_url": "https://cdn.shopify.com/s/files/1/0920/8122/6095/files/Xlite_v4_Gaming-Mouse_Large-Black_001.png?v=1758781784",
     "mouse_stock_status": "in_stock",
-    "mouse_weight_class": "light",
-    "retailer_urls": {
-      "amazon": "https://www.amazon.com/dp/B0DQKKZ1PJ?tag=gearmatch-20"
-    }
+    "mouse_weight_class": "light"
   },
   {
     "id": "pulsar_xlite_v4_medium",
@@ -60362,9 +60120,6 @@
     },
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/pwnage-symm-1.png?width=512&height=512&resize=contain",
     "manufacturer_url": "https://pwnage.com/products/ultra-custom-symm-gaming-mouse",
-    "retailer_urls": {
-      "amazon": "https://www.amazon.com/Pwnage-Ultra-Custom-Symm-Symmetrical/dp/B094CSY82J?tag=gearmatch-20"
-    },
     "image_url_fallback": "https://m.media-amazon.com/images/I/51-uL6X9gUS._AC_SL1200_.jpg"
   },
   {
@@ -60432,7 +60187,6 @@
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/pwnage-symm-1-wireless.png?width=512&height=512&resize=contain",
     "manufacturer_url": "https://pwnage.com/products/ultra-custom-wireless-symm",
     "retailer_urls": {
-      "amazon": "https://www.amazon.com/Pwnage-Ultra-Custom-Wireless-Symm/dp/B09NM98Z1J?tag=gearmatch-20",
       "newegg": "https://www.newegg.com/p/32K-00AT-00019"
     },
     "image_url_fallback": "https://m.media-amazon.com/images/I/51shAjsXpEL._AC_SL1080_.jpg"
@@ -60500,9 +60254,6 @@
     },
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/pwnage-symm-2.png?width=512&height=512&resize=contain",
     "manufacturer_url": "https://pwnage.com/products/ultra-custom-symm-2-gaming-mouse",
-    "retailer_urls": {
-      "amazon": "https://www.amazon.com/Pwnage-Ultra-Custom-Symm-Symmetrical/dp/B09F6MPK5Z?tag=gearmatch-20"
-    },
     "image_url_fallback": "https://m.media-amazon.com/images/I/51NUAzOCNeL._AC_SL1200_.jpg"
   },
   {
@@ -60570,9 +60321,6 @@
     },
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/pwnage-symm-2-wireless.png?width=512&height=512&resize=contain",
     "manufacturer_url": "https://pwnage.com/products/ultra-custom-wireless-symm-2",
-    "retailer_urls": {
-      "amazon": "https://www.amazon.com/Pwnage-Ultra-Custom-Wireless-Gaming/dp/B09Q1LMJ7T?tag=gearmatch-20"
-    },
     "image_url_fallback": "https://m.media-amazon.com/images/I/41OIzSa1T+L._AC_SL1200_.jpg"
   },
   {
@@ -60801,9 +60549,6 @@
       "mouse_dpi_max": 16000
     },
     "manufacturer_url": "https://ragnok.com/products/firegrip-gun-mouse-for-shooter-games",
-    "retailer_urls": {
-      "amazon": "https://www.amazon.com/RAGNOK-FireGrip-Mouse-Shooter-Games/dp/B0G64KQ3NV?tag=gearmatch-20"
-    },
     "image_url": "http://ragnok.com/cdn/shop/files/firegrip-lite_-trigger.jpg?v=1762344398&width=2048"
   },
   {
@@ -60877,7 +60622,6 @@
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/ragnok-ergostrike7.png?width=512&height=512&resize=contain",
     "manufacturer_url": "https://ragnok.com/products/ergostrike7-fps-gaming-mouse-gun-recoil",
     "retailer_urls": {
-      "amazon": "https://www.amazon.com/RAGNOK-ErgoStrike7-Next-Gen-Ergonomic-Vertical/dp/B0F7LN26V7?tag=gearmatch-20",
       "lttlabs": "https://www.lttlabs.com/products/mice/ergostrike7"
     },
     "image_url_fallback": "https://m.media-amazon.com/images/I/61jrL+lQTgL._AC_SL1248_.jpg"
@@ -61674,7 +61418,6 @@
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/rampage-prote-m5.png?width=512&height=512&resize=contain",
     "manufacturer_url": "https://www.rampage.com.tr/en/products/24000-dpi-3311-sensor-kablosuz-oyuncu-mouse",
     "retailer_urls": {
-      "amazon": "https://www.amazon.com/Rampage-Prote-M5-Wireless-Gaming/dp/B0F59YMTNC?tag=gearmatch-20",
       "newegg": "https://www.newegg.com/p/0TP-02YX-00197",
       "ebay": "https://www.ebay.com/itm/297689279963"
     },
@@ -61958,7 +61701,6 @@
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/rapoo-mt760-pro.png?width=512&height=512&resize=contain",
     "manufacturer_url": "https://shop.rapoo.com/products/rapoo-mt760-pro-nearlink-multi-device-wireless-mouse",
     "retailer_urls": {
-      "amazon": "https://www.amazon.com/Rapoo-MT760-PRO-Multi-Device-Programmable/dp/B0F1YHS5T1?tag=gearmatch-20",
       "newegg": "https://www.newegg.com/p/3C6-02X3-00CC4"
     },
     "image_url_fallback": "https://m.media-amazon.com/images/I/51Rk-V0y6bL._AC_SL1500_.jpg"
@@ -62112,7 +61854,6 @@
     "image_url": "https://cdn.shopify.com/s/files/1/0585/2875/9937/files/VT0-BU_1_25adaa24-127d-45e7-9292-ff23c93ff10e.png?v=1765527671",
     "manufacturer_url": "https://shop.rapoo.com/products/rapoo-vt0-max-gen-2-wireless-gaming-mouse-ultra-lightweight",
     "retailer_urls": {
-      "amazon": "https://www.amazon.com/Rapoo-Lightweight-Wireless-Dual-Mode-Performance/dp/B0FXG9NVDG?tag=gearmatch-20",
       "official_store": "https://shop.rapoo.com/products/rapoo-vt0-max-gen-2-wireless-gaming-mouse-ultra-lightweight",
       "minixpc": "https://minixpc.com/products/rapoo-vt0-series-wireless-gaming-mouse",
       "kibushop": "https://kibushop.com/en-us/products/rapoo-vt0-max"
@@ -62266,10 +62007,7 @@
       "mouse_dpi_max": 26000
     },
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/rapoo-vt1pro.png?width=512&height=512&resize=contain",
-    "manufacturer_url": "https://shop.rapoo.com/products/rapoo-vt1-pro-wireless-gaming-mouse",
-    "retailer_urls": {
-      "amazon": "https://www.amazon.com/Rapoo-VT1PRO-Wireless-Programmable-Lightweight/dp/B0CM3V8VRF?tag=gearmatch-20"
-    }
+    "manufacturer_url": "https://shop.rapoo.com/products/rapoo-vt1-pro-wireless-gaming-mouse"
   },
   {
     "id": "rapoo_vt1_pro_max",
@@ -62346,7 +62084,6 @@
     "image_url": "https://cdn.shopify.com/s/files/1/0585/2875/9937/files/VT1PRO_MAX-BK_1.png?v=1758183434",
     "manufacturer_url": "https://shop.rapoo.com/products/rapoo-vt1-pro-max-gaming-mouse",
     "retailer_urls": {
-      "amazon": "https://www.amazon.com/Rapoo-VT1-MAX-Wireless-Programmable/dp/B0DC8QLVT8?tag=gearmatch-20",
       "newegg": "https://www.newegg.com/p/32K-007C-00035"
     }
   },
@@ -62502,10 +62239,7 @@
       "mouse_dpi_max": 26000
     },
     "image_url": "https://shop.rapoo.com/cdn/shop/files/1.VT2_MAX-PL_23781bff-f228-4cef-97d7-24de19640e1c.png?v=1768455907",
-    "manufacturer_url": "https://shop.rapoo.com/products/rapoo-vt2-max-wireless-gaming-mouse",
-    "retailer_urls": {
-      "amazon": "https://www.amazon.com/Rapoo-VT2MAX-Wireless-Programmable-Lightweight/dp/B0FQM5VRRN?tag=gearmatch-20"
-    }
+    "manufacturer_url": "https://shop.rapoo.com/products/rapoo-vt2-max-wireless-gaming-mouse"
   },
   {
     "id": "rapoo_vt3_gen_2",
@@ -62582,9 +62316,6 @@
     },
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/rapoo-vt3-gen-2.png?width=512&height=512&resize=contain",
     "manufacturer_url": "https://shop.rapoo.com/products/rapoo-vt3-gen-2-wireless-gaming-mouse",
-    "retailer_urls": {
-      "amazon": "https://www.amazon.com/Rapoo-VT3GEN-2-Programmable-Lightweight-Wireless/dp/B0FQNPSHXC?tag=gearmatch-20"
-    },
     "image_url_fallback": "https://m.media-amazon.com/images/I/51mFRdHGsGL._AC_SL1500_.jpg"
   },
   {
@@ -62665,10 +62396,7 @@
       "mouse_dpi_max": 26000
     },
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/rapoo-vt9-gen-2.png?width=512&height=512&resize=contain",
-    "manufacturer_url": "https://shop.rapoo.com/products/rapoo-vt3-max-gen-2-wireless-gaming-mouse",
-    "retailer_urls": {
-      "amazon": "https://www.amazon.com/Rapoo-VT3MAXGEN-2-Programmable-Lightweight-Wireless/dp/B0FQNHNPCY?tag=gearmatch-20"
-    }
+    "manufacturer_url": "https://shop.rapoo.com/products/rapoo-vt3-max-gen-2-wireless-gaming-mouse"
   },
   {
     "id": "rapoo_vt3_pro",
@@ -62743,10 +62471,7 @@
       "mouse_dpi_max": 26000
     },
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/rapoo-vt3-pro.png?width=512&height=512&resize=contain",
-    "manufacturer_url": "https://shop.rapoo.com/products/rapoo-vt3-pro-wireless-gaming-mouse",
-    "retailer_urls": {
-      "amazon": "https://www.amazon.com/Rapoo-VT3PRO-Wireless-Programmable-Lightweight/dp/B0FQQBTLSY?tag=gearmatch-20"
-    }
+    "manufacturer_url": "https://shop.rapoo.com/products/rapoo-vt3-pro-wireless-gaming-mouse"
   },
   {
     "id": "rapoo_vt3_pro_max",
@@ -62823,7 +62548,6 @@
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/rapoo-vt3-pro.png?width=512&height=512&resize=contain",
     "manufacturer_url": "https://shop.rapoo.com/products/rapoo-vt3-pro-max-wireless-gaming-mouse",
     "retailer_urls": {
-      "amazon": "https://www.amazon.com/Rapoo-VT3PROMAX-Wireless-Programmable-Lightweight/dp/B0D9LQGH2K?tag=gearmatch-20",
       "newegg": "https://www.newegg.com/p/32K-007C-000M6"
     },
     "image_url_fallback": "https://m.media-amazon.com/images/I/515K+ZqkAKL._AC_SL1500_.jpg"
@@ -62971,10 +62695,7 @@
       "mouse_dpi_max": 26000
     },
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/rapoo-vt3s-gen-2.png?width=512&height=512&resize=contain",
-    "manufacturer_url": "https://shop.rapoo.com/products/rapoo-vt3s-gen-2-wireless-gaming-mouse",
-    "retailer_urls": {
-      "amazon": "https://www.amazon.com/Rapoo-VT3S-GEN-2-Programmable-Lightweight/dp/B0FJTS7MJ2?tag=gearmatch-20"
-    }
+    "manufacturer_url": "https://shop.rapoo.com/products/rapoo-vt3s-gen-2-wireless-gaming-mouse"
   },
   {
     "id": "rapoo_vt3s_max_gen_2",
@@ -63051,9 +62772,6 @@
     },
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/rapoo-vt3s-gen-2.png?width=512&height=512&resize=contain",
     "manufacturer_url": "https://shop.rapoo.com/products/rapoo-vt3s-max-gen2-wireless-gaming-mouse-49g-ultra-lightweight",
-    "retailer_urls": {
-      "amazon": "https://www.amazon.com/Rapoo-VT3S-MAX-Gen-2-Programmable/dp/B0FJW4L27D?tag=gearmatch-20"
-    },
     "image_url_fallback": "https://m.media-amazon.com/images/I/51DOQP5l1jL._AC_SL1500_.jpg"
   },
   {
@@ -63204,10 +62922,7 @@
       "mouse_dpi_max": 30000
     },
     "image_url": "https://shop.rapoo.com/cdn/shop/files/VT7_MAX-MTPL_grande.png?v=1771827373",
-    "manufacturer_url": "https://shop.rapoo.com/products/rapoo-vt7-max-gen2-wireless-gaming-mouse-53g-ultra-lightweight",
-    "retailer_urls": {
-      "amazon": "https://www.amazon.com/Rapoo-VT7-MAX-Lightweight-Programmable/dp/B0FQNJ29RY?tag=gearmatch-20"
-    }
+    "manufacturer_url": "https://shop.rapoo.com/products/rapoo-vt7-max-gen2-wireless-gaming-mouse-53g-ultra-lightweight"
   },
   {
     "id": "rapoo_vt9_air",
@@ -63430,7 +63145,6 @@
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/rapoo-vt9pro.png?width=512&height=512&resize=contain",
     "manufacturer_url": "https://shop.rapoo.com/products/rapoo-vt9-pro-wireless-gaming-mouse",
     "retailer_urls": {
-      "amazon": "https://www.amazon.com/Rapoo-VT9PRO-4K-Lightweight-Programmable/dp/B0CM5W3LK4?tag=gearmatch-20",
       "newegg": "https://www.newegg.com/p/32K-007C-00038"
     },
     "image_url_fallback": "https://m.media-amazon.com/images/I/616vEkbJIYL._AC_SL1500_.jpg"
@@ -63503,10 +63217,7 @@
       "mouse_dpi_max": 26000
     },
     "image_url": "https://mechkeys.com/cdn/shop/products/rapoo-vt9pro-series-mouse-mechkeysshop-vt9pro-mini-white-601169.jpg?v=1761738904",
-    "manufacturer_url": "https://shop.rapoo.com/products/rapoo-vt9-pro-wireless-gaming-mouse",
-    "retailer_urls": {
-      "amazon": "https://www.amazon.com/Rapoo-VT9Pro-Wireless-Gaming-Mouse/dp/B0CDFTKJT9?tag=gearmatch-20"
-    }
+    "manufacturer_url": "https://shop.rapoo.com/products/rapoo-vt9-pro-wireless-gaming-mouse"
   },
   {
     "id": "rapoo_vt900",
@@ -63646,7 +63357,6 @@
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/rapoo-vt-960pro.png?width=512&height=512&resize=contain",
     "manufacturer_url": "https://www.rapoo.com/product/vt960pro/",
     "retailer_urls": {
-      "amazon": "https://www.amazon.com/Rapoo-VT960S-Performance-Lightsync-Programmable/dp/B0BCJPTD82?tag=gearmatch-20",
       "aliexpress": "https://www.aliexpress.us/item/3256805516243056.html"
     },
     "image_url_fallback": "https://m.media-amazon.com/images/I/51U0hD674ZL._AC_SL1500_.jpg"
@@ -63876,7 +63586,6 @@
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/rawm-er21.png?width=512&height=512&resize=contain",
     "manufacturer_url": "https://www.rawmshop.com/products/er21pro",
     "retailer_urls": {
-      "amazon": "https://www.amazon.com/RAWM-Wireless-Ultra-Lightweight-Independent-Ergonomic/dp/B0FCMT279M?tag=gearmatch-20",
       "mechkeys": "https://mechkeys.com/products/rawm-er21pro",
       "maxgaming": "https://us.maxgaming.com/us/wireless-mouses/er21-pro-8k-wireless-gaming-mouse-black"
     },
@@ -63952,7 +63661,6 @@
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/rawm-es21.png?width=512&height=512&resize=contain",
     "manufacturer_url": "https://www.rawmshop.com/products/es21",
     "retailer_urls": {
-      "amazon": "https://www.amazon.com/RAWM-ES21-Wireless-Ultra-Lightweight-Programmable/dp/B0FB3MGJ1D?tag=gearmatch-20",
       "mechkeys": "https://mechkeys.com/products/rawm-es21"
     },
     "image_url_fallback": "https://m.media-amazon.com/images/I/41vrjWAhbvL._AC_SL1500_.jpg"
@@ -64112,7 +63820,6 @@
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/rawm-es21.png?width=512&height=512&resize=contain",
     "manufacturer_url": "https://www.rawmshop.com/products/es21pro",
     "retailer_urls": {
-      "amazon": "https://www.amazon.com/RAWM-ES21PRO-Ultra-Lightweight-Programmable-Including/dp/B0FB3FVWXC?tag=gearmatch-20",
       "mechkeysshop": "https://mechkeys.com/products/rawm-es21"
     },
     "image_url_fallback": "https://m.media-amazon.com/images/I/518BmJwWTtL._AC_SL1500_.jpg"
@@ -64192,7 +63899,6 @@
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/rawm-leviathan-v4.png?width=512&height=512&resize=contain",
     "manufacturer_url": "https://www.rawmshop.com/products/leviathan-v4",
     "retailer_urls": {
-      "amazon": "https://www.amazon.com/s?k=RAWM%20Leviathan%20V4&tag=gearmatch-20",
       "official_store": "https://www.rawmshop.com/products/leviathan-v4",
       "maxgaming": "https://us.maxgaming.com/us/wireless-mouses/leviathan-v4-dual-8k-wireless-gaming-mouse-black"
     },
@@ -64269,7 +63975,6 @@
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/rawm-sa-mh01.png?width=512&height=512&resize=contain",
     "manufacturer_url": "https://www.rawmshop.com/products/mh01-1k",
     "retailer_urls": {
-      "amazon": "https://www.amazon.com/RAWM-MH01-Lightweight-Rechargeable-Programmable/dp/B0F7XMWS1S?tag=gearmatch-20",
       "official_store": "https://www.rawmshop.com/products/mh01-1k"
     },
     "image_url_fallback": "https://m.media-amazon.com/images/I/61eiZfsdq1L._AC_SL1500_.jpg"
@@ -64654,7 +64359,6 @@
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/rawm-sa-sh01.png?width=512&height=512&resize=contain",
     "manufacturer_url": "https://www.rawmshop.com/products/sh01pro-8k",
     "retailer_urls": {
-      "amazon": "https://www.amazon.com/RAWM-Wireless-PAW3950-Lightweight-Included/dp/B0DKFL1XWD?tag=gearmatch-20",
       "official_store": "https://www.rawmshop.com/products/sh01pro-8k",
       "mechkeysshop": "https://mechkeys.com/products/rawm-sa-sh01pro"
     },
@@ -64671,7 +64375,6 @@
     ],
     "product_url": "https://www.amazon.com/s?k=RAWM+SL01&tag=gearmatch-20",
     "retailer_urls": {
-      "amazon": "https://www.amazon.com/s?k=RAWM+SL01&tag=gearmatch-20",
       "official_store": "https://www.rawmshop.com/products/sl01c",
       "newegg": "https://www.newegg.com/p/0VE-05ET-00527"
     },
@@ -66152,8 +65855,7 @@
     "image_url": "https://i5.walmartimages.com/asr/318e8fbf-fb2c-4abe-938e-e880a048da19.04fb37fa416bdd014d7178ea776c7054.png?odnHeight=450&odnWidth=450&odnBg=ffffff",
     "product_url": "https://www.amazon.com/dp/B01LXC1QL0?tag=gearmatch-20",
     "retailer_urls": {
-      "walmart": "https://www.walmart.com/ip/991934229",
-      "amazon": "https://www.amazon.com/dp/B01LXC1QL0?tag=gearmatch-20"
+      "walmart": "https://www.walmart.com/ip/991934229"
     },
     "recommendation_tags": [
       "large_hands_friendly",
@@ -67212,8 +66914,7 @@
     "image_url": "https://i5.walmartimages.com/asr/a7df4d29-c97a-4db1-bbd7-f15843517c05.f83894b4203c8ccbd67519abe5368f6a.jpeg?odnHeight=450&odnWidth=450&odnBg=ffffff",
     "product_url": "https://www.amazon.com/dp/B07F816PH9?tag=gearmatch-20",
     "retailer_urls": {
-      "walmart": "https://www.walmart.com/ip/5466761927",
-      "amazon": "https://www.amazon.com/dp/B07F816PH9?tag=gearmatch-20"
+      "walmart": "https://www.walmart.com/ip/5466761927"
     },
     "recommendation_tags": [
       "large_hands_friendly",
@@ -67359,8 +67060,7 @@
     "image_url": "https://i5.walmartimages.com/asr/78d00769-8898-4419-965f-53dca292fd7a.6a0518fe9093c408f0f8d570cde282f4.png?odnHeight=450&odnWidth=450&odnBg=ffffff",
     "product_url": "https://www.amazon.com/dp/B09WZ7YRZZ?tag=gearmatch-20",
     "retailer_urls": {
-      "walmart": "https://www.walmart.com/ip/1119297591",
-      "amazon": "https://www.amazon.com/dp/B09WZ7YRZZ?tag=gearmatch-20"
+      "walmart": "https://www.walmart.com/ip/1119297591"
     },
     "recommendation_tags": [
       "mmo_specialist"
@@ -69425,8 +69125,7 @@
     "image_url": "https://i5.walmartimages.com/asr/03362604-3d49-4696-8cb3-ffee41767a43.243632b7ef33d404c69ad6396e1bf7e3.jpeg?odnHeight=450&odnWidth=450&odnBg=ffffff",
     "product_url": "https://www.amazon.com/dp/B0D41SDLTB?tag=gearmatch-20",
     "retailer_urls": {
-      "walmart": "https://www.walmart.com/ip/975451699",
-      "amazon": "https://www.amazon.com/dp/B0D41SDLTB?tag=gearmatch-20"
+      "walmart": "https://www.walmart.com/ip/975451699"
     },
     "recommendation_tags": [
       "ultralight"
@@ -69495,8 +69194,7 @@
     "image_url": "https://i5.walmartimages.com/asr/7b3228a9-61e8-49ea-b5ff-d6479a1120d4.fb811ce1deed59610020389c0647a978.jpeg?odnHeight=450&odnWidth=450&odnBg=ffffff",
     "product_url": "https://www.amazon.com/dp/B0FFB53VL7?tag=gearmatch-20",
     "retailer_urls": {
-      "walmart": "https://www.walmart.com/ip/19054955199",
-      "amazon": "https://www.amazon.com/dp/B0FFB53VL7?tag=gearmatch-20"
+      "walmart": "https://www.walmart.com/ip/19054955199"
     },
     "recommendation_tags": [
       "small_hands_friendly",
@@ -69567,8 +69265,7 @@
     "image_url": "https://i5.walmartimages.com/asr/7b3228a9-61e8-49ea-b5ff-d6479a1120d4.fb811ce1deed59610020389c0647a978.jpeg?odnHeight=450&odnWidth=450&odnBg=ffffff",
     "product_url": "https://www.amazon.com/dp/B0FGPCHPYT?tag=gearmatch-20",
     "retailer_urls": {
-      "walmart": "https://www.walmart.com/ip/19054955199",
-      "amazon": "https://www.amazon.com/dp/B0FGPCHPYT?tag=gearmatch-20"
+      "walmart": "https://www.walmart.com/ip/19054955199"
     },
     "recommendation_tags": [
       "small_hands_friendly",
@@ -69639,8 +69336,7 @@
     "image_url": "https://i5.walmartimages.com/asr/dea720b6-54af-4cba-99f1-f67e5c1c2e43.00fff294086ed3d99d5a1831590c2e9c.jpeg?odnHeight=450&odnWidth=450&odnBg=ffffff",
     "product_url": "https://www.amazon.com/dp/B07HC4NBQ8?tag=gearmatch-20",
     "retailer_urls": {
-      "walmart": "https://www.walmart.com/ip/11738217453",
-      "amazon": "https://www.amazon.com/dp/B07HC4NBQ8?tag=gearmatch-20"
+      "walmart": "https://www.walmart.com/ip/11738217453"
     },
     "recommendation_tags": [
       "mmo_specialist"
@@ -69715,8 +69411,7 @@
     "image_url": "https://i5.walmartimages.com/asr/8e00332e-be17-4ee2-a095-5e7a2bd5a6f8.fe471de95036b0486e7afb1f10f60f01.jpeg?odnHeight=450&odnWidth=450&odnBg=ffffff",
     "product_url": "https://www.amazon.com/dp/B088B3ZM76?tag=gearmatch-20",
     "retailer_urls": {
-      "walmart": "https://www.walmart.com/ip/761432526",
-      "amazon": "https://www.amazon.com/dp/B088B3ZM76?tag=gearmatch-20"
+      "walmart": "https://www.walmart.com/ip/761432526"
     },
     "recommendation_tags": [
       "mmo_specialist",
@@ -70090,8 +69785,7 @@
     "product_url": "https://www.amazon.com/dp/B0CS62PM89?tag=gearmatch-20",
     "retailer_urls": {
       "manufacturer": "https://redragonshop.com/products/legend-chroma-m990?variant=44200542732510",
-      "walmart": "https://www.walmart.com/ip/7208471674",
-      "amazon": "https://www.amazon.com/dp/B0CS62PM89?tag=gearmatch-20"
+      "walmart": "https://www.walmart.com/ip/7208471674"
     },
     "recommendation_tags": [
       "large_hands_friendly",
@@ -70162,8 +69856,7 @@
     "image_url": "https://i5.walmartimages.com/asr/c04f9af3-91db-409b-916d-0cc068ee2074.0564633c507ce61c9a01ff059e82ec53.jpeg?odnHeight=450&odnWidth=450&odnBg=ffffff",
     "product_url": "https://www.amazon.com/dp/B0CR9YQLNM?tag=gearmatch-20",
     "retailer_urls": {
-      "walmart": "https://www.walmart.com/ip/6217473001",
-      "amazon": "https://www.amazon.com/dp/B0CR9YQLNM?tag=gearmatch-20"
+      "walmart": "https://www.walmart.com/ip/6217473001"
     },
     "recommendation_tags": [
       "large_hands_friendly",
@@ -70237,8 +69930,7 @@
     "product_url": "https://www.amazon.com/dp/B0D944M4SZ?tag=gearmatch-20",
     "retailer_urls": {
       "manufacturer": "https://redragonshop.com/products/k1ng-m916-pro-1k?variant=44604331196638",
-      "walmart": "https://www.walmart.com/ip/11726873972",
-      "amazon": "https://www.amazon.com/dp/B0D944M4SZ?tag=gearmatch-20"
+      "walmart": "https://www.walmart.com/ip/11726873972"
     },
     "recommendation_tags": [
       "8k_polling",
@@ -70439,9 +70131,6 @@
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/royal-kludge-m3.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "in_stock",
     "mouse_weight_class": "light",
-    "retailer_urls": {
-      "amazon": "https://www.amazon.com/dp/B0DQTW5TKF?tag=gearmatch-20"
-    },
     "image_url_fallback": "https://m.media-amazon.com/images/I/510Ol3zhxBL._AC_SL1500_.jpg"
   },
   {
@@ -70510,9 +70199,6 @@
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/royal-kludge-m30.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "in_stock",
     "mouse_weight_class": "ultra_light",
-    "retailer_urls": {
-      "amazon": "https://www.amazon.com/dp/B0FD9CYFT8?tag=gearmatch-20"
-    },
     "image_url_fallback": "https://m.media-amazon.com/images/I/51wfyWTTwjL._AC_SL1500_.jpg"
   },
   {
@@ -70527,8 +70213,7 @@
     "image_url": "https://i5.walmartimages.com/asr/a7aadd76-a017-4104-8e31-ee2cdfbe808f.54a6e0af656857472b23e5c1f1655552.jpeg?odnHeight=450&odnWidth=450&odnBg=ffffff",
     "product_url": "https://www.amazon.com/dp/B08HR4K6QJ?tag=gearmatch-20",
     "retailer_urls": {
-      "walmart": "https://www.walmart.com/ip/2378580397",
-      "amazon": "https://www.amazon.com/dp/B08HR4K6QJ?tag=gearmatch-20"
+      "walmart": "https://www.walmart.com/ip/2378580397"
     },
     "recommendation_tags": [],
     "data_quality": {
@@ -70710,9 +70395,6 @@
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/roccat-burst-pro-air.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "in_stock",
     "mouse_weight_class": "medium",
-    "retailer_urls": {
-      "amazon": "https://www.amazon.com/dp/B09WX3MNYM?tag=gearmatch-20"
-    },
     "image_url_fallback": "https://m.media-amazon.com/images/I/81kTRUgKNaL._AC_SL1500_.jpg"
   },
   {
@@ -70797,8 +70479,7 @@
     "product_url": "https://www.amazon.com/dp/B07SVNX78P?tag=gearmatch-20",
     "retailer_urls": {
       "newegg": "https://www.newegg.com/p/1B4-00CH-00124",
-      "walmart": "https://www.walmart.com/ip/602085349",
-      "amazon": "https://www.amazon.com/dp/B07SVNX78P?tag=gearmatch-20"
+      "walmart": "https://www.walmart.com/ip/602085349"
     },
     "recommendation_tags": [],
     "data_quality": {
@@ -70868,8 +70549,7 @@
     "product_url": "https://www.amazon.com/dp/B07YCDVFS6?tag=gearmatch-20",
     "retailer_urls": {
       "newegg": "https://www.newegg.com/p/0GA-0993-003J4",
-      "walmart": "https://www.walmart.com/ip/843477339",
-      "amazon": "https://www.amazon.com/dp/B07YCDVFS6?tag=gearmatch-20"
+      "walmart": "https://www.walmart.com/ip/843477339"
     },
     "recommendation_tags": [
       "wireless"
@@ -71827,8 +71507,7 @@
     "image_url": "https://i5.walmartimages.com/asr/d509bb09-d496-4ae4-81b1-bed6b2988adb.462bd870b22d9a84848d207655fd9434.jpeg?odnHeight=450&odnWidth=450&odnBg=ffffff",
     "product_url": "https://www.amazon.com/dp/B0D5CSX3QG?tag=gearmatch-20",
     "retailer_urls": {
-      "walmart": "https://www.walmart.com/ip/17347750359",
-      "amazon": "https://www.amazon.com/dp/B0D5CSX3QG?tag=gearmatch-20"
+      "walmart": "https://www.walmart.com/ip/17347750359"
     },
     "recommendation_tags": [
       "mmo_specialist",
@@ -71956,9 +71635,6 @@
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/solakaka-sm802.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "in_stock",
     "mouse_weight_class": "medium",
-    "retailer_urls": {
-      "amazon": "https://www.amazon.com/dp/B0DRGH87S5?tag=gearmatch-20"
-    },
     "image_url_fallback": "https://m.media-amazon.com/images/I/61pIyv55miL._AC_SL1500_.jpg"
   },
   {
@@ -72026,9 +71702,6 @@
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/solakaka-sm805.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "in_stock",
     "mouse_weight_class": "light",
-    "retailer_urls": {
-      "amazon": "https://www.amazon.com/dp/B0DT18YN1S?tag=gearmatch-20"
-    },
     "image_url_fallback": "https://m.media-amazon.com/images/I/51aED7w0zHL._AC_SL1500_.jpg"
   },
   {
@@ -72179,9 +71852,6 @@
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/solakaka-sm809.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "in_stock",
     "mouse_weight_class": "medium",
-    "retailer_urls": {
-      "amazon": "https://www.amazon.com/dp/B0DT15Z62M?tag=gearmatch-20"
-    },
     "image_url_fallback": "https://m.media-amazon.com/images/I/61w1P+THglL._AC_SL1500_.jpg"
   },
   {
@@ -72250,9 +71920,6 @@
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/solakaka-sm850.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "in_stock",
     "mouse_weight_class": "light",
-    "retailer_urls": {
-      "amazon": "https://www.amazon.com/dp/B0DSJ7K6CQ?tag=gearmatch-20"
-    },
     "image_url_fallback": "https://m.media-amazon.com/images/I/51+f6gGECCL._AC_SL1500_.jpg"
   },
   {
@@ -73143,8 +72810,7 @@
     "image_url": "https://i5.walmartimages.com/asr/48d320d3-e01c-4123-b254-fcb078c5726d.0b4e6a8cfa3d9138c1dc2a3248a05b38.jpeg?odnHeight=450&odnWidth=450&odnBg=ffffff",
     "product_url": "https://www.amazon.com/dp/B075LD4YY6?tag=gearmatch-20",
     "retailer_urls": {
-      "walmart": "https://www.walmart.com/ip/610542745",
-      "amazon": "https://www.amazon.com/dp/B075LD4YY6?tag=gearmatch-20"
+      "walmart": "https://www.walmart.com/ip/610542745"
     },
     "recommendation_tags": [],
     "data_quality": {
@@ -73646,8 +73312,7 @@
     "image_url": "https://i5.walmartimages.com/asr/854dbcc3-73e6-4978-8205-317d77f30f80.06fbfaa0eae6f6fa6b924fb4b4f10e24.jpeg?odnHeight=450&odnWidth=450&odnBg=ffffff",
     "product_url": "https://www.amazon.com/dp/B01K3DM0WY?tag=gearmatch-20",
     "retailer_urls": {
-      "walmart": "https://www.walmart.com/ip/737122625",
-      "amazon": "https://www.amazon.com/dp/B01K3DM0WY?tag=gearmatch-20"
+      "walmart": "https://www.walmart.com/ip/737122625"
     },
     "recommendation_tags": [
       "mmo_specialist"
@@ -73990,9 +73655,6 @@
     "mouse_stock_status": "out_of_stock",
     "mouse_weight_class": "medium",
     "mouse_discontinued": true,
-    "retailer_urls": {
-      "amazon": "https://www.amazon.com/dp/B073WGB8G6?tag=gearmatch-20"
-    },
     "image_url_fallback": "https://m.media-amazon.com/images/I/61zSpZSQ9LL._AC_SL1500_.jpg"
   },
   {
@@ -74654,9 +74316,6 @@
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/tecware-ex1.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "in_stock",
     "mouse_weight_class": "light",
-    "retailer_urls": {
-      "amazon": "https://www.amazon.com/dp/B0DNDXWJR6?tag=gearmatch-20"
-    },
     "image_url_fallback": "https://m.media-amazon.com/images/I/417Wp0jKqQL._AC_SL1000_.jpg"
   },
   {
@@ -75529,10 +75188,7 @@
     },
     "image_url": "https://mechkeys.com/cdn/shop/products/thunderobot-ml903-series-paw3395-mouse-mechkeysshop-ml9034khz-dongle-white-221975.jpg?v=1756557018",
     "mouse_stock_status": "in_stock",
-    "mouse_weight_class": "light",
-    "retailer_urls": {
-      "amazon": "https://www.amazon.com/dp/B0DSLVR68K?tag=gearmatch-20"
-    }
+    "mouse_weight_class": "light"
   },
   {
     "id": "thunderobot_ml9s",
@@ -75738,9 +75394,6 @@
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/turtle-beach-burst-ii-air.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "in_stock",
     "mouse_weight_class": "ultra_light",
-    "retailer_urls": {
-      "amazon": "https://www.amazon.com/dp/B0D1CRTJ8J?tag=gearmatch-20"
-    },
     "image_url_fallback": "https://m.media-amazon.com/images/I/61YJhLZwvsL._AC_SL1500_.jpg"
   },
   {
@@ -75814,9 +75467,6 @@
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/turtle-beach-burst-ii-pro.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "in_stock",
     "mouse_weight_class": "light",
-    "retailer_urls": {
-      "amazon": "https://www.amazon.com/dp/B0FPG3KG34?tag=gearmatch-20"
-    },
     "image_url_fallback": "https://m.media-amazon.com/images/I/61MCnZlFKDL._AC_SL1500_.jpg"
   },
   {
@@ -75889,9 +75539,6 @@
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/turtle-beach-kone-ii.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "in_stock",
     "mouse_weight_class": "medium",
-    "retailer_urls": {
-      "amazon": "https://www.amazon.com/dp/B0D9MBY2J3?tag=gearmatch-20"
-    },
     "image_url_fallback": "https://m.media-amazon.com/images/I/61DzBQSS-rL._AC_SL1500_.jpg"
   },
   {
@@ -76115,9 +75762,6 @@
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/turtle-beach-pure-air.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "in_stock",
     "mouse_weight_class": "light",
-    "retailer_urls": {
-      "amazon": "https://www.amazon.com/dp/B0D1CSNVF3?tag=gearmatch-20"
-    },
     "image_url_fallback": "https://m.media-amazon.com/images/I/61uO8r2sCdL._AC_SL1500_.jpg"
   },
   {
@@ -77067,9 +76711,6 @@
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/vancer-gretxa.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "out_of_stock",
     "mouse_weight_class": "light",
-    "retailer_urls": {
-      "amazon": "https://www.amazon.com/dp/B098PP7CV3?tag=gearmatch-20"
-    },
     "image_url_fallback": "https://m.media-amazon.com/images/I/61iaEqvjJ1L._AC_SL1428_.jpg"
   },
   {
@@ -78199,8 +77840,7 @@
     "image_url": "https://i5.walmartimages.com/asr/37cad498-bd6c-4a09-b25d-3a12617b1ab9.4d6cbe63a5b7c3fd12042ec9e5715720.jpeg?odnHeight=450&odnWidth=450&odnBg=ffffff",
     "product_url": "https://www.amazon.com/dp/B0F8J6DRWW?tag=gearmatch-20",
     "retailer_urls": {
-      "walmart": "https://www.walmart.com/ip/17370005801",
-      "amazon": "https://www.amazon.com/dp/B0F8J6DRWW?tag=gearmatch-20"
+      "walmart": "https://www.walmart.com/ip/17370005801"
     },
     "recommendation_tags": [
       "4k_polling",
@@ -78756,10 +78396,7 @@
     },
     "image_url": "https://ggezgadgets.com/wp-content/uploads/2025/10/VXER1SEPW-scaled.webp",
     "mouse_stock_status": "in_stock",
-    "mouse_weight_class": "light",
-    "retailer_urls": {
-      "amazon": "https://www.amazon.com/dp/B0FGDHKN38?tag=gearmatch-20"
-    }
+    "mouse_weight_class": "light"
   },
   {
     "id": "vgn_r1_pro",
@@ -79327,10 +78964,7 @@
     },
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/vxe-r1-s.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "in_stock",
-    "mouse_weight_class": "light",
-    "retailer_urls": {
-      "amazon": "https://www.amazon.com/dp/B0FGDHKN38?tag=gearmatch-20"
-    }
+    "mouse_weight_class": "light"
   },
   {
     "id": "vxe_r1_pro",
@@ -79852,9 +79486,6 @@
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/waizowl-ogm-one.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "in_stock",
     "mouse_weight_class": "medium",
-    "retailer_urls": {
-      "amazon": "https://www.amazon.com/dp/B0C99J4VGP?tag=gearmatch-20"
-    },
     "image_url_fallback": "https://m.media-amazon.com/images/I/51qnHbDiimL._AC_SL1500_.jpg"
   },
   {
@@ -79920,9 +79551,6 @@
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/waizowl-ogm-pro.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "in_stock",
     "mouse_weight_class": "light",
-    "retailer_urls": {
-      "amazon": "https://www.amazon.com/dp/B0C99PM2HV?tag=gearmatch-20"
-    },
     "image_url_fallback": "https://m.media-amazon.com/images/I/41ffis9Q+0L._AC_SL1500_.jpg"
   },
   {
@@ -79997,9 +79625,6 @@
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/waizowl-ogm-pro-v2.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "in_stock",
     "mouse_weight_class": "light",
-    "retailer_urls": {
-      "amazon": "https://www.amazon.com/dp/B0D95J86R6?tag=gearmatch-20"
-    },
     "image_url_fallback": "https://m.media-amazon.com/images/I/51L-yGpfjcL._AC_SL1000_.jpg"
   },
   {
@@ -80078,9 +79703,6 @@
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/wlmouse-beast-miao.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "in_stock",
     "mouse_weight_class": "ultra_light",
-    "retailer_urls": {
-      "amazon": "https://www.amazon.com/dp/B0F9Q285Q6?tag=gearmatch-20"
-    },
     "image_url_fallback": "https://m.media-amazon.com/images/I/61RPzXq9i3L._AC_SL1500_.jpg"
   },
   {
@@ -80484,9 +80106,6 @@
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/wlmouse-ying.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "in_stock",
     "mouse_weight_class": "ultra_light",
-    "retailer_urls": {
-      "amazon": "https://www.amazon.com/dp/B0F9PVKBH3?tag=gearmatch-20"
-    },
     "image_url_fallback": "https://m.media-amazon.com/images/I/71J57lk0i0L._AC_SL1500_.jpg"
   },
   {
@@ -81024,9 +80643,6 @@
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/xtrfy-m42-wireless.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "in_stock",
     "mouse_weight_class": "light",
-    "retailer_urls": {
-      "amazon": "https://www.amazon.com/dp/B0B3XWW98C?tag=gearmatch-20"
-    },
     "image_url_fallback": "https://m.media-amazon.com/images/I/51ypdMebmcL._AC_SL1500_.jpg"
   },
   {
@@ -81095,9 +80711,6 @@
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/xtrfy-m8-wireless.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "in_stock",
     "mouse_weight_class": "light",
-    "retailer_urls": {
-      "amazon": "https://www.amazon.com/dp/B0BMLHTL22?tag=gearmatch-20"
-    },
     "image_url_fallback": "https://m.media-amazon.com/images/I/41ifW5MwO2L._AC_SL1500_.jpg"
   },
   {
@@ -81166,9 +80779,6 @@
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/xtrfy-mz1.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "in_stock",
     "mouse_weight_class": "light",
-    "retailer_urls": {
-      "amazon": "https://www.amazon.com/dp/B097Q2NYRF?tag=gearmatch-20"
-    },
     "image_url_fallback": "https://m.media-amazon.com/images/I/51mhiQBnclL._AC_SL1078_.jpg"
   },
   {
@@ -81239,9 +80849,6 @@
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/xtrfy-mz1-wireless.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "in_stock",
     "mouse_weight_class": "light",
-    "retailer_urls": {
-      "amazon": "https://www.amazon.com/dp/B0B1249252?tag=gearmatch-20"
-    },
     "image_url_fallback": "https://m.media-amazon.com/images/I/41kWkUy0wNL._AC_SL1500_.jpg"
   },
   {
@@ -82496,9 +82103,6 @@
     "mouse_stock_status": "limited",
     "mouse_weight_class": "medium",
     "mouse_discontinued": true,
-    "retailer_urls": {
-      "amazon": "https://www.amazon.com/dp/B077K3W9BJ?tag=gearmatch-20"
-    },
     "image_url_fallback": "https://m.media-amazon.com/images/I/81uztifvSJL._AC_SL1500_.jpg"
   },
   {
@@ -82710,9 +82314,6 @@
     },
     "mouse_stock_status": "in_stock",
     "mouse_weight_class": "medium",
-    "retailer_urls": {
-      "amazon": "https://www.amazon.com/dp/B0BZSQ9NJZ?tag=gearmatch-20"
-    },
     "image_url": "https://m.media-amazon.com/images/I/61HIJnrPojL._AC_SS345_.jpg"
   },
   {
@@ -82985,9 +82586,6 @@
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/zowie-ec3-c.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "in_stock",
     "mouse_weight_class": "medium",
-    "retailer_urls": {
-      "amazon": "https://www.amazon.com/dp/B0989ZZWZ9?tag=gearmatch-20"
-    },
     "image_url_fallback": "https://m.media-amazon.com/images/I/414eD7qjMaL._AC_SL1000_.jpg"
   },
   {
@@ -83193,9 +82791,6 @@
     "mouse_stock_status": "limited",
     "mouse_weight_class": "medium",
     "mouse_discontinued": true,
-    "retailer_urls": {
-      "amazon": "https://www.amazon.com/dp/B08BZVRKLD?tag=gearmatch-20"
-    },
     "image_url_fallback": "https://m.media-amazon.com/images/I/41Vda23CjSL._AC_SL1260_.jpg"
   },
   {
@@ -83333,9 +82928,6 @@
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/zowie-fk1-c.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "in_stock",
     "mouse_weight_class": "medium",
-    "retailer_urls": {
-      "amazon": "https://www.amazon.com/dp/B09CTMVKZH?tag=gearmatch-20"
-    },
     "image_url_fallback": "https://m.media-amazon.com/images/I/41jevatZYcL._AC_SL1000_.jpg"
   },
   {
@@ -83401,9 +82993,6 @@
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/zowie-fk2-b.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "out_of_stock",
     "mouse_weight_class": "medium",
-    "retailer_urls": {
-      "amazon": "https://www.amazon.com/dp/B08BZTVC4M?tag=gearmatch-20"
-    },
     "image_url_fallback": "https://m.media-amazon.com/images/I/41UsH+MHbuL._AC_SL1134_.jpg"
   },
   {
@@ -83537,9 +83126,6 @@
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/zowie-fk2-c.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "in_stock",
     "mouse_weight_class": "medium",
-    "retailer_urls": {
-      "amazon": "https://www.amazon.com/dp/B09CTNLS71?tag=gearmatch-20"
-    },
     "image_url_fallback": "https://m.media-amazon.com/images/I/41JOhhPBzEL._AC_SL1000_.jpg"
   },
   {
@@ -83745,9 +83331,6 @@
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/zowie-s1-b.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "out_of_stock",
     "mouse_weight_class": "medium",
-    "retailer_urls": {
-      "amazon": "https://www.amazon.com/dp/B07T5QHC3B?tag=gearmatch-20"
-    },
     "image_url_fallback": "https://m.media-amazon.com/images/I/51FxBzpD76L._AC_SL1200_.jpg"
   },
   {
@@ -83811,9 +83394,6 @@
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/zowie-s1-b.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "limited",
     "mouse_weight_class": "medium",
-    "retailer_urls": {
-      "amazon": "https://www.amazon.com/dp/B0BB17VRN4?tag=gearmatch-20"
-    },
     "image_url_fallback": "https://m.media-amazon.com/images/I/41KzHLG0QCL._AC_SL1000_.jpg"
   },
   {
@@ -83877,9 +83457,6 @@
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/zowie-s1-c.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "in_stock",
     "mouse_weight_class": "medium",
-    "retailer_urls": {
-      "amazon": "https://www.amazon.com/dp/B09G64NN3X?tag=gearmatch-20"
-    },
     "image_url_fallback": "https://m.media-amazon.com/images/I/31+l2aOCmBL._AC_SL1000_.jpg"
   },
   {
@@ -83943,9 +83520,6 @@
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/zowie-s2-b.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "out_of_stock",
     "mouse_weight_class": "medium",
-    "retailer_urls": {
-      "amazon": "https://www.amazon.com/dp/B07T2G2K62?tag=gearmatch-20"
-    },
     "image_url_fallback": "https://m.media-amazon.com/images/I/41eBtGMWZEL._AC_SL1200_.jpg"
   },
   {
@@ -84075,9 +83649,6 @@
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/zowie-s2-c.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "out_of_stock",
     "mouse_weight_class": "light",
-    "retailer_urls": {
-      "amazon": "https://www.amazon.com/dp/B09G6F7463?tag=gearmatch-20"
-    },
     "image_url_fallback": "https://m.media-amazon.com/images/I/31+l2aOCmBL._AC_SL1000_.jpg"
   },
   {
@@ -84357,9 +83928,6 @@
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/zowie-za11-c.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "in_stock",
     "mouse_weight_class": "medium",
-    "retailer_urls": {
-      "amazon": "https://www.amazon.com/dp/B09MF3JXQ3?tag=gearmatch-20"
-    },
     "image_url_fallback": "https://m.media-amazon.com/images/I/41u47S5W6GL._AC_SL1000_.jpg"
   },
   {
@@ -84428,9 +83996,6 @@
     "mouse_stock_status": "out_of_stock",
     "mouse_weight_class": "medium",
     "mouse_discontinued": true,
-    "retailer_urls": {
-      "amazon": "https://www.amazon.com/dp/B08BZTQL9B?tag=gearmatch-20"
-    },
     "image_url_fallback": "https://m.media-amazon.com/images/I/41dF13+wJIL._AC_SL1000_.jpg"
   },
   {
@@ -84498,9 +84063,6 @@
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/zowie-za12-c.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "in_stock",
     "mouse_weight_class": "medium",
-    "retailer_urls": {
-      "amazon": "https://www.amazon.com/dp/B09MF3JXQ4?tag=gearmatch-20"
-    },
     "image_url_fallback": "https://m.media-amazon.com/images/I/41h840otM-L._AC_SL1000_.jpg"
   },
   {
@@ -84566,9 +84128,6 @@
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/zowie-za13-b.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "limited",
     "mouse_weight_class": "medium",
-    "retailer_urls": {
-      "amazon": "https://www.amazon.com/dp/B08BZCVXB3?tag=gearmatch-20"
-    },
     "image_url_fallback": "https://m.media-amazon.com/images/I/41l7JWEaLsL._AC_SL1260_.jpg"
   },
   {
@@ -84634,9 +84193,6 @@
     "image_url": "https://qyjffrmfirkwcwempawu.supabase.co/storage/v1/render/image/public/images/products/zowie-za13-c.png?width=512&height=512&resize=contain",
     "mouse_stock_status": "in_stock",
     "mouse_weight_class": "light",
-    "retailer_urls": {
-      "amazon": "https://www.amazon.com/dp/B09MF3MMZ8?tag=gearmatch-20"
-    },
     "image_url_fallback": "https://m.media-amazon.com/images/I/41aXGO5A+XL._AC_SL1000_.jpg"
   },
   {
