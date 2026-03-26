@@ -313,7 +313,13 @@ const RecommendationCard = memo(function RecommendationCard({
       const ptMap: Record<string, string> = { IPS: "ips", VA: "va", OLED: "oled", "QD-OLED": "oled", TN: "ips", "Mini-LED": "ips" };
       params.set("panel-type", ptMap[mn.monitor_panel_type] ?? "ips");
     }
-    navigate(`/quiz/${product.category}/results?${params.toString()}`);
+    toast.success(`Finding products similar to ${product.name}...`, { duration: 2000 });
+    // Scroll to top before navigating so the user sees the new results
+    window.scrollTo({ top: 0, behavior: "smooth" });
+    // Small delay so the toast is visible before navigation
+    setTimeout(() => {
+      navigate(`/quiz/${product.category}/results?${params.toString()}`);
+    }, 300);
   };
 
   // Compact (list) view
