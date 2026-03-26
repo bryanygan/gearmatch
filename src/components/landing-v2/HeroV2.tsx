@@ -320,7 +320,7 @@ const HeroV2 = () => {
                   background: "var(--v2-border-bright)",
                 }}
               />
-              <StatItem value="2,000+" label="products" />
+              <StatItem value="2,200+" label="products" />
               <div
                 style={{
                   width: "1px",

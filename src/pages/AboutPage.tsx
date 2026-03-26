@@ -161,7 +161,7 @@ const AboutPage = () => {
               What We <span className="text-gradient">Cover</span>
             </h2>
             <p className="text-muted-foreground text-lg">
-              Currently supporting 4 categories with 1,983+ products and growing.
+              Currently supporting 4 categories with 2,218+ products and growing.
             </p>
           </div>
 

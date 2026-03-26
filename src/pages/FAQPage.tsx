@@ -181,13 +181,13 @@ const faqCategories: FAQCategory[] = [
         question: "How many products are in the database?",
         answer: (
           <>
-            <p className="mb-3">We currently have 1,983+ products across 4 categories:</p>
+            <p className="mb-3">We currently have 2,218+ products across 4 categories:</p>
             <ul className="list-disc list-inside space-y-1 mb-3">
               <li>
                 <strong>Mice</strong>: 1,130 products
               </li>
               <li>
-                <strong>Audio</strong>: 197 products (headsets, headphones, IEMs)
+                <strong>Audio</strong>: 432 products (headsets, headphones, IEMs, earbuds)
               </li>
               <li>
                 <strong>Keyboards</strong>: 278 products

@@ -256,14 +256,14 @@ const HowItWorksPage = () => {
               Our <span className="text-gradient">Database</span>
             </h2>
             <p className="text-muted-foreground text-lg">
-              1,983+ products across 4 categories, with detailed specs and real performance data.
+              2,218+ products across 4 categories, with detailed specs and real performance data.
             </p>
           </div>
 
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-4xl mx-auto mb-12">
             {[
               { icon: MousePointer2, count: "1,130", label: "Mice", color: "text-primary" },
-              { icon: Headphones, count: "197", label: "Audio", color: "text-accent" },
+              { icon: Headphones, count: "432", label: "Audio", color: "text-accent" },
               { icon: Keyboard, count: "278", label: "Keyboards", color: "text-white" },
               { icon: Monitor, count: "378", label: "Monitors", color: "text-violet-500" },
             ].map((cat) => (
