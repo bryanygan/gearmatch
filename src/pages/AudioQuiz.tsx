@@ -1,5 +1,6 @@
+import { useMemo } from "react";
 import { usePageTitle } from "@/hooks/usePageTitle";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useSearchParams } from "react-router-dom";
 import QuizContainer from "@/components/quiz/QuizContainer";
 import { audioQuestions, type ExtendedAudioQuizAnswers } from "@/lib/quiz/questions";
 import { usePrefetchProducts } from "@/hooks/use-prefetch-products";
@@ -13,7 +14,19 @@ import { usePrefetchProducts } from "@/hooks/use-prefetch-products";
 const AudioQuiz = () => {
   usePageTitle("Audio Quiz");
   const navigate = useNavigate();
+  const [searchParams] = useSearchParams();
   usePrefetchProducts("audio");
+
+  const initialAnswers = useMemo(() => {
+    if (searchParams.get("edit") !== "1") return undefined;
+    const answers: Record<string, string | string[]> = {};
+    searchParams.forEach((value, key) => {
+      if (key !== "edit") {
+        answers[key] = value.includes(",") ? value.split(",") : value;
+      }
+    });
+    return Object.keys(answers).length > 0 ? answers : undefined;
+  }, [searchParams]);
 
   const handleComplete = (answers: ExtendedAudioQuizAnswers) => {
     // Encode answers to URL parameters
@@ -32,6 +45,7 @@ const AudioQuiz = () => {
       category="audio"
       accentColor="accent"
       onComplete={handleComplete}
+      initialAnswers={initialAnswers}
     />
   );
 };
