@@ -28280,7 +28280,7 @@
   },
   {
     "id": "acer_predator_x32_fpbmiiiiphuzx",
-    "name": "Acer ‎Predator X32 Fpbmiiiiphuzx",
+    "name": "Acer \u200ePredator X32 Fpbmiiiiphuzx",
     "brand": "Acer",
     "category": "monitor",
     "price_range_usd": [
@@ -43358,14 +43358,13 @@
         "fps"
       ],
       "monitor_use_fit": [
-        "competitive_gaming",
-        "fps"
+        "pc_gaming"
       ],
       "monitor_feature_tags": [
         "high_refresh",
         "low_input_lag",
         "freesync",
-        "gsync_compatible",
+        "gsync",
         "hdr"
       ],
       "monitor_value_pick": false
