@@ -74,6 +74,10 @@ const categoryDisplayNames: Record<string, string> = {
   featuresMatch: "Features",
   curvedPreference: "Curved Preference",
   bonusPoints: "Bonus Points",
+  quality_availability: "Quality & Availability",
+  switchTechnology: "Switch Technology",
+  mediaControls: "Media Controls",
+  keycapMaterial: "Keycap Material",
 };
 
 function getCategoryName(key: string): string {
