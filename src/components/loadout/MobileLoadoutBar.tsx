@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { ShoppingBag } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import {
@@ -40,7 +40,7 @@ export default function MobileLoadoutBar({ state }: MobileLoadoutBarProps) {
               {state.itemCount} {state.itemCount === 1 ? "item" : "items"}
             </span>
             <span className="font-mono text-sm font-bold text-emerald-400">
-              ${state.totalPriceRange[0]}–${state.totalPriceRange[1]}
+              ${state.totalPriceRange[0].toLocaleString()}–${state.totalPriceRange[1].toLocaleString()}
             </span>
           </div>
 

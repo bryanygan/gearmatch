@@ -14,9 +14,12 @@ export function applyPreFilters<TAnswers, TProduct extends Product>(
   const filtered = products.filter((product) =>
     filters.every((filter) => filter(answers, product))
   );
+  const filteredIds = new Set(filtered.map(p => p.id));
+  const eliminatedProducts = products.filter(p => !filteredIds.has(p.id));
   return {
     filtered,
     eliminated: total - filtered.length,
     total,
+    eliminatedProducts,
   };
 }

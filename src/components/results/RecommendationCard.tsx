@@ -1,12 +1,16 @@
 import { memo, useMemo } from "react";
-import { Check, AlertTriangle, Trophy, Star, ExternalLink, Building2, ShoppingBag } from "lucide-react";
+import { Check, AlertTriangle, Trophy, Star, ExternalLink, Building2, ShoppingBag, PackageX, Scale, Sliders } from "lucide-react";
+import { useNavigate } from "react-router-dom";
+import { toast } from "sonner";
 import type { ScoredProduct } from "@/lib/scoring";
-import type { MouseProduct, AudioProduct, KeyboardProduct, MonitorProduct } from "@/types/products";
+import type { MouseProduct, AudioProduct, KeyboardProduct, MonitorProduct, MouseCoreAttributes, AudioCoreAttributes, KeyboardCoreAttributes } from "@/types/products";
+import type { MonitorCoreAttributes } from "@/types/monitor";
 import { getMatchQuality, getTopReasons, getTopConcerns } from "@/lib/scoring";
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import ScoreBreakdown from "./ScoreBreakdown";
 import { cn } from "@/lib/utils";
+import { sanitizeUrl } from "@/utils/sanitize-url";
 
 interface RecommendationCardProps {
   scoredProduct: ScoredProduct<MouseProduct | AudioProduct | KeyboardProduct | MonitorProduct>;
@@ -14,6 +18,11 @@ interface RecommendationCardProps {
   isTopPick: boolean;
   accentColor: "primary" | "accent" | "secondary" | "tertiary";
   onViewDetails?: () => void;
+  compact?: boolean;
+  onExclude?: () => void;
+  onCompareToggle?: () => void;
+  isCompareSelected?: boolean;
+  compareDisabled?: boolean;
 }
 
 // Helper to get display-friendly spec tags for mouse products
@@ -190,6 +199,7 @@ function getSpecTags(
 }
 
 function getScoreColorClass(score: number, accentColor: "primary" | "accent" | "secondary" | "tertiary"): string {
+  if (score === 100) return "text-green-400";
   if (score >= 90) return "text-green-400";
   if (score >= 80) {
     if (accentColor === "primary") return "text-primary";
@@ -218,8 +228,14 @@ const RecommendationCard = memo(function RecommendationCard({
   isTopPick,
   accentColor,
   onViewDetails,
+  compact = false,
+  onExclude,
+  onCompareToggle,
+  isCompareSelected = false,
+  compareDisabled = false,
 }: RecommendationCardProps) {
   const { product, score, breakdown } = scoredProduct;
+  const navigate = useNavigate();
 
   // Memoize expensive calculations
   const matchQuality = useMemo(() => getMatchQuality(score), [score]);
@@ -235,6 +251,121 @@ const RecommendationCard = memo(function RecommendationCard({
 
   // Determine if this is the #1 pick
   const isFirstPick = rank === 1 && isTopPick;
+
+  // Find similar handler
+  const handleFindSimilar = () => {
+    const params = new URLSearchParams();
+    const priceBudgetMap: Record<string, string> = {
+      budget: "budget",
+      lower_midrange: "mid-range",
+      midrange: "mid-range",
+      upper_midrange: "premium",
+      premium: "premium",
+      flagship: "no-limit",
+    };
+    if (product.category === "mouse") {
+      const m = (product as MouseProduct).core_attributes as MouseCoreAttributes;
+      params.set("hand-size", m.mouse_size_class);
+      if (m.mouse_grip_fit.length > 0) params.set("grip-style", m.mouse_grip_fit[0]);
+      const wc = m.mouse_weight_class === "ultralight" ? "ultralight"
+        : m.mouse_weight_class === "light" ? "light"
+        : (m.mouse_weight_class === "mid" || m.mouse_weight_class === "medium") ? "medium"
+        : "heavy";
+      params.set("weight-preference", wc);
+      params.set("wireless", m.wireless ? "wireless" : "wired");
+      params.set("primary-use", m.mouse_game_fit.includes("fps") ? "precision" : "mixed");
+    } else if (product.category === "audio") {
+      const a = (product as AudioProduct).core_attributes as AudioCoreAttributes;
+      params.set("form-factor", a.category_subtype === "iem" ? "iem" : "over-ear");
+      params.set("mic-needs", a.audio_has_mic ? "nice-to-have" : "not-needed");
+      const comfort = a.audio_comfort === "great" ? "all-day" : a.audio_comfort === "good" ? "long" : "medium";
+      params.set("session-length", comfort);
+      params.set("budget", priceBudgetMap[a.price_tier] ?? "mid-range");
+      params.set("primary-use", product.recommendation_tags.includes("competitive") ? "competitive" : "mixed");
+    } else if (product.category === "keyboard") {
+      const k = (product as KeyboardProduct).core_attributes as KeyboardCoreAttributes;
+      params.set("primary-use", product.recommendation_tags.includes("competitive") ? "competitive-gaming" : "productivity");
+      // Map form factor
+      const ffMap: Record<string, string> = {
+        "60_percent": "60-65-percent",
+        "65_percent": "60-65-percent",
+        "75_percent": "75-percent",
+        "tkl_80_percent": "tkl",
+        "full_size_100_percent": "full-size",
+        "96_percent": "full-size",
+        "alice": "full-size",
+        "ortholinear": "full-size",
+        "split": "full-size",
+      };
+      params.set("form-factor", ffMap[k.keyboard_form_factor] ?? "full-size");
+      params.set("switch-type", k.keyboard_switch_feel ?? "no-preference");
+      params.set("gaming-features", k.keyboard_supports_rapid_trigger ? "essential" : "nice-to-have");
+      params.set("connectivity", k.wireless ? "wireless-preferred" : "wired-preferred");
+      params.set("priority-feature", "performance");
+      params.set("budget", priceBudgetMap[k.price_tier] ?? "mid-range");
+    } else if (product.category === "monitor") {
+      const mn = (product as MonitorProduct).core_attributes as MonitorCoreAttributes;
+      params.set("primary-use", product.recommendation_tags.includes("gaming") ? "gaming" : "mixed");
+      params.set("size-preference", mn.monitor_size_class);
+      params.set("resolution", mn.monitor_resolution_class);
+      const rr = mn.monitor_max_refresh_hz < 100 ? "basic" : mn.monitor_max_refresh_hz < 200 ? "standard" : "high";
+      params.set("refresh-rate", rr);
+      const ptMap: Record<string, string> = { IPS: "ips", VA: "va", OLED: "oled", "QD-OLED": "oled", TN: "ips", "Mini-LED": "ips" };
+      params.set("panel-type", ptMap[mn.monitor_panel_type] ?? "ips");
+    }
+    toast.success(`Finding products similar to ${product.name}...`, { duration: 2000 });
+    // Scroll to top before navigating so the user sees the new results
+    window.scrollTo({ top: 0, behavior: "smooth" });
+    // Small delay so the toast is visible before navigation
+    setTimeout(() => {
+      navigate(`/quiz/${product.category}/results?${params.toString()}`);
+    }, 300);
+  };
+
+  // Compact (list) view
+  if (compact) {
+    const primaryUrl = sanitizeUrl(product.product_url);
+    return (
+      <Card className="border border-border/50 hover:border-border transition-all">
+        <div className="flex items-center gap-3 px-4 py-3">
+          <span className={cn(
+            "shrink-0 font-display font-bold text-lg",
+            getScoreColorClass(score, accentColor)
+          )}>
+            {score}%
+          </span>
+          <div className="flex-1 min-w-0">
+            <p className="font-medium truncate">{product.name}</p>
+            <p className="text-xs text-muted-foreground">{product.brand}</p>
+          </div>
+          <span className="shrink-0 text-sm text-muted-foreground">
+            {formatPriceRange(product.price_range_usd)}
+          </span>
+          {primaryUrl && (
+            <a
+              href={primaryUrl}
+              target="_blank"
+              rel="noopener noreferrer" referrerPolicy="no-referrer"
+              aria-label={`Buy ${product.name}`}
+              className="shrink-0 inline-flex items-center gap-1 px-2 py-1 rounded-md text-xs font-medium bg-secondary text-secondary-foreground hover:bg-secondary/80 transition-colors"
+            >
+              <ExternalLink className="h-3 w-3" />
+              Buy
+            </a>
+          )}
+          {onExclude && (
+            <button
+              onClick={() => { onExclude(); toast.info("Product excluded from results"); }}
+              aria-label="I own this product"
+              className="shrink-0 rounded p-1 text-muted-foreground hover:bg-secondary hover:text-foreground transition-colors"
+            >
+              <PackageX className="h-3.5 w-3.5" />
+            </button>
+          )}
+        </div>
+      </Card>
+    );
+  }
 
   return (
     <Card
@@ -312,6 +443,28 @@ const RecommendationCard = memo(function RecommendationCard({
               {product.name}
             </h3>
             <p className="text-sm text-muted-foreground">{product.brand}</p>
+            {/* Data source badge */}
+            {product.data_quality.data_confidence === "high" && product.data_quality.source_name === "RTINGS" && (
+              <span className="inline-block rounded bg-green-500/10 px-1.5 py-0.5 text-[10px] font-medium text-green-600">
+                Verified RTINGS
+              </span>
+            )}
+            {product.data_quality.data_confidence === "high" && product.data_quality.source_name !== "RTINGS" && (
+              <span className="inline-block rounded bg-green-500/10 px-1.5 py-0.5 text-[10px] font-medium text-green-600">
+                Verified
+              </span>
+            )}
+            {product.data_quality.data_confidence === "low" && (
+              <span className="inline-block rounded bg-yellow-500/10 px-1.5 py-0.5 text-[10px] font-medium text-yellow-600">
+                Limited data
+              </span>
+            )}
+            {/* Released year badge */}
+            {product.data_quality.released_year !== undefined && product.data_quality.released_year >= 2025 && (
+              <span className="inline-block rounded bg-emerald-500/10 px-1.5 py-0.5 text-[10px] font-medium text-emerald-600">
+                New in {product.data_quality.released_year}
+              </span>
+            )}
           </div>
 
           {/* Score */}
@@ -393,19 +546,21 @@ const RecommendationCard = memo(function RecommendationCard({
         </div>
 
         {/* Retailer buttons */}
-        {(product.product_url || product.manufacturer_url || (product.retailer_urls && Object.keys(product.retailer_urls).length > 0)) && (
+        {(sanitizeUrl(product.product_url) || sanitizeUrl(product.manufacturer_url) || (product.retailer_urls && Object.keys(product.retailer_urls).length > 0)) && (
           <div className="flex flex-wrap items-center gap-2 pt-2">
+            <span className="w-full text-[10px] text-muted-foreground/50 -mb-1">affiliate links — same price for you</span>
             {/* Product URL button - Amazon-branded if amazon domain, neutral otherwise */}
-            {product.product_url && (() => {
+            {sanitizeUrl(product.product_url) && (() => {
+              const safeUrl = sanitizeUrl(product.product_url)!;
               const isAmazon = (() => {
-                try { return new URL(product.product_url!).hostname.includes("amazon."); }
+                try { return new URL(safeUrl).hostname.includes("amazon."); }
                 catch { return false; }
               })();
               return isAmazon ? (
                 <a
-                  href={product.product_url}
+                  href={safeUrl}
                   target="_blank"
-                  rel="noopener noreferrer"
+                  rel="noopener noreferrer" referrerPolicy="no-referrer"
                   aria-label={`View ${product.name} on Amazon`}
                   className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-md text-sm font-medium text-white bg-[#FF9900] hover:bg-[#E68A00] transition-colors"
                 >
@@ -414,9 +569,9 @@ const RecommendationCard = memo(function RecommendationCard({
                 </a>
               ) : (
                 <a
-                  href={product.product_url}
+                  href={safeUrl}
                   target="_blank"
-                  rel="noopener noreferrer"
+                  rel="noopener noreferrer" referrerPolicy="no-referrer"
                   aria-label={`View ${product.name} product page`}
                   className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-md text-sm font-medium bg-secondary text-secondary-foreground hover:bg-secondary/80 transition-colors"
                 >
@@ -425,22 +580,24 @@ const RecommendationCard = memo(function RecommendationCard({
                 </a>
               );
             })()}
-            
+
             {/* Manufacturer/Brand button */}
-            {product.manufacturer_url && (
+            {sanitizeUrl(product.manufacturer_url) && (
               <a
-                href={product.manufacturer_url}
+                href={sanitizeUrl(product.manufacturer_url)!}
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="noopener noreferrer" referrerPolicy="no-referrer"
                 className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-md text-sm font-medium bg-secondary text-secondary-foreground hover:bg-secondary/80 transition-colors"
               >
                 <Building2 className="w-3.5 h-3.5" />
                 {product.brand}
               </a>
             )}
-            
+
             {/* Additional retailer buttons (up to 2) */}
             {product.retailer_urls && Object.entries(product.retailer_urls).slice(0, 2).map(([retailer, url]) => {
+              const safeRetailerUrl = sanitizeUrl(url);
+              if (!safeRetailerUrl) return null;
               const RETAILER_DISPLAY_NAMES: Record<string, string> = {
                 hifigo: "HiFiGo",
                 linsoul: "Linsoul",
@@ -451,9 +608,9 @@ const RecommendationCard = memo(function RecommendationCard({
               return (
                 <a
                   key={retailer}
-                  href={url}
+                  href={safeRetailerUrl}
                   target="_blank"
-                  rel="noopener noreferrer"
+                  rel="noopener noreferrer" referrerPolicy="no-referrer"
                   className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-md text-sm font-medium bg-muted text-muted-foreground hover:bg-muted/80 transition-colors"
                 >
                   <ExternalLink className="w-3.5 h-3.5" />
@@ -461,6 +618,50 @@ const RecommendationCard = memo(function RecommendationCard({
                 </a>
               );
             })}
+          </div>
+        )}
+
+        {/* Action buttons row */}
+        {(onExclude || isTopPick || onCompareToggle) && (
+          <div className="flex flex-wrap items-center gap-2 pt-1">
+            {onExclude && (
+              <button
+                onClick={() => { onExclude(); toast.info("Product excluded from results"); }}
+                aria-label="I own this product"
+                className="inline-flex items-center gap-1.5 rounded-md px-2 py-1 text-xs text-muted-foreground hover:bg-secondary hover:text-foreground transition-colors"
+              >
+                <PackageX className="h-3.5 w-3.5" />
+                Own it
+              </button>
+            )}
+            {isTopPick && (
+              <button
+                onClick={handleFindSimilar}
+                aria-label="Find similar products"
+                className="inline-flex items-center gap-1.5 rounded-md px-2 py-1 text-xs text-muted-foreground hover:bg-secondary hover:text-foreground transition-colors"
+              >
+                <Sliders className="h-3.5 w-3.5" />
+                Find Similar
+              </button>
+            )}
+            {onCompareToggle && (
+              <button
+                onClick={onCompareToggle}
+                disabled={compareDisabled}
+                aria-label={isCompareSelected ? "Remove from comparison" : "Add to comparison"}
+                className={cn(
+                  "inline-flex items-center gap-1.5 rounded-md px-2 py-1 text-xs transition-colors",
+                  isCompareSelected
+                    ? "bg-primary/10 text-primary"
+                    : compareDisabled
+                    ? "cursor-not-allowed text-muted-foreground/40"
+                    : "text-muted-foreground hover:bg-secondary hover:text-foreground"
+                )}
+              >
+                <Scale className="h-3.5 w-3.5" />
+                {isCompareSelected ? "Comparing" : "Compare"}
+              </button>
+            )}
           </div>
         )}
 

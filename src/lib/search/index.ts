@@ -5,7 +5,7 @@
  * Index is built lazily when search is first opened.
  */
 
-import Fuse from "fuse.js";
+import Fuse, { type IFuseOptions } from "fuse.js";
 import type { Product } from "@/types/products";
 
 export interface SearchableProduct {
@@ -36,7 +36,7 @@ export function toSearchable(product: Product): SearchableProduct {
   };
 }
 
-const FUSE_OPTIONS: Fuse.IFuseOptions<SearchableProduct> = {
+const FUSE_OPTIONS: IFuseOptions<SearchableProduct> = {
   keys: [
     { name: "name", weight: 0.5 },
     { name: "brand", weight: 0.3 },

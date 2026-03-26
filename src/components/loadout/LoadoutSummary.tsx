@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import {
   Mouse,
   Headphones,
@@ -10,9 +10,11 @@ import {
   ExternalLink,
   ShoppingCart,
   ChevronDown,
+  AlertTriangle,
   type LucideIcon,
 } from "lucide-react";
 import { toast } from "sonner";
+import { sanitizeUrl } from "@/utils/sanitize-url";
 import { Button } from "@/components/ui/button";
 import {
   Popover,
@@ -117,8 +119,33 @@ export default function LoadoutSummary({
     }
   };
 
+  // Check for discontinued items
+  const discontinuedItems = Array.from(loadoutItems.values()).filter((item) => {
+    const product = productMap.get(item.productId);
+    return product?.recommendation_tags?.includes("discontinued");
+  });
+  const firstDiscontinuedCategory = discontinuedItems.length > 0
+    ? (productMap.get(discontinuedItems[0].productId)?.category ?? "mouse")
+    : null;
+
   return (
     <div className="w-full max-w-2xl rounded-xl border border-slate-700/50 bg-slate-900/80 backdrop-blur-md">
+      {/* Discontinued banner */}
+      {discontinuedItems.length > 0 && (
+        <div className="flex items-start gap-2 rounded-t-xl border-b border-yellow-700/40 bg-yellow-950/40 px-4 py-3">
+          <AlertTriangle size={14} className="mt-0.5 shrink-0 text-yellow-500" />
+          <p className="text-xs text-yellow-300">
+            <span className="font-medium">{discontinuedItems.length} item{discontinuedItems.length !== 1 ? "s" : ""} in your loadout may be discontinued.</span>{" "}
+            <a
+              href={`/quiz/${firstDiscontinuedCategory}`}
+              className="underline hover:text-yellow-100"
+            >
+              Find replacements &rarr;
+            </a>
+          </p>
+        </div>
+      )}
+
       {/* Category groups */}
       <div className="divide-y divide-slate-700/30">
         {categories.map((meta) => {
@@ -292,18 +319,18 @@ function ClearLoadoutButton({
 function RetailerLinks({ product }: { product: Product }) {
   const retailers = product.retailer_urls;
   const hasRetailers = retailers && Object.keys(retailers).length > 0;
-  const hasPrimaryUrl = !!product.product_url;
+  const safePrimaryUrl = sanitizeUrl(product.product_url);
 
   // No links at all — render nothing
-  if (!hasPrimaryUrl && !hasRetailers) return null;
+  if (!safePrimaryUrl && !hasRetailers) return null;
 
   // Only primary URL, no retailer_urls — single icon link (no popover)
-  if (hasPrimaryUrl && !hasRetailers) {
+  if (safePrimaryUrl && !hasRetailers) {
     return (
       <a
-        href={product.product_url}
+        href={safePrimaryUrl}
         target="_blank"
-        rel="noopener noreferrer"
+        rel="noopener noreferrer" referrerPolicy="no-referrer"
         className="shrink-0 rounded p-1 text-slate-500 hover:bg-slate-700 hover:text-slate-300 transition-colors"
         aria-label={`View ${product.name}`}
       >
@@ -332,30 +359,37 @@ function RetailerLinks({ product }: { product: Product }) {
         <p className="px-2 py-1 text-[10px] font-mono font-bold uppercase tracking-wider text-slate-500">
           Buy from
         </p>
-        {hasPrimaryUrl && (
+        <p className="px-2 pb-1 text-[9px] text-slate-600">
+          affiliate links — same price for you
+        </p>
+        {safePrimaryUrl && (
           <a
-            href={product.product_url}
+            href={safePrimaryUrl}
             target="_blank"
-            rel="noopener noreferrer"
+            rel="noopener noreferrer" referrerPolicy="no-referrer"
             className="flex items-center gap-2 rounded-md px-2 py-1.5 text-xs text-slate-200 hover:bg-slate-800 transition-colors"
           >
             <ExternalLink size={11} className="shrink-0 text-slate-500" />
-            Search
+            {safePrimaryUrl.includes("amazon.com") ? "Amazon" : "Search"}
           </a>
         )}
         {retailers &&
-          Object.entries(retailers).map(([key, url]) => (
-            <a
-              key={key}
-              href={url}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center gap-2 rounded-md px-2 py-1.5 text-xs text-slate-200 hover:bg-slate-800 transition-colors"
-            >
-              <ExternalLink size={11} className="shrink-0 text-slate-500" />
-              {formatRetailerName(key)}
-            </a>
-          ))}
+          Object.entries(retailers).map(([key, url]) => {
+            const safeUrl = sanitizeUrl(url);
+            if (!safeUrl) return null;
+            return (
+              <a
+                key={key}
+                href={safeUrl}
+                target="_blank"
+                rel="noopener noreferrer" referrerPolicy="no-referrer"
+                className="flex items-center gap-2 rounded-md px-2 py-1.5 text-xs text-slate-200 hover:bg-slate-800 transition-colors"
+              >
+                <ExternalLink size={11} className="shrink-0 text-slate-500" />
+                {formatRetailerName(key)}
+              </a>
+            );
+          })}
       </PopoverContent>
     </Popover>
   );

@@ -1,4 +1,3 @@
-import React from "react";
 import { Wifi } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import type { Product } from "@/types/products";
@@ -103,7 +102,7 @@ export default function ProductSpecBadges({
   accentColor,
 }: ProductSpecBadgesProps) {
   const category = product.category as LoadoutCategory;
-  const attrs = (product as Record<string, unknown>)["core_attributes"] as
+  const attrs = (product as unknown as Record<string, unknown>)["core_attributes"] as
     | Record<string, unknown>
     | undefined;
 

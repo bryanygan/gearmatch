@@ -102,6 +102,7 @@ export const onRequestGet: PagesFunction<Env> = async (context) => {
         hasNextPage: page < totalPages,
         hasPreviousPage: page > 1,
       },
-    })
+    }),
+    { headers: { "Content-Type": "application/json" } }
   );
 };

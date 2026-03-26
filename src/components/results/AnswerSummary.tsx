@@ -1,337 +1,345 @@
+import { useState, useCallback } from "react";
 import type { MouseQuizAnswers, AudioQuizAnswers, KeyboardQuizAnswers, MonitorQuizAnswers } from "@/lib/scoring";
 import { cn } from "@/lib/utils";
+import { useSearchParams } from "react-router-dom";
+import { Pencil, Check } from "lucide-react";
+import { toast } from "sonner";
+import {
+  Popover,
+  PopoverContent,
+  PopoverTrigger,
+} from "@/components/ui/popover";
 
 interface AnswerSummaryProps {
   answers: MouseQuizAnswers | AudioQuizAnswers | KeyboardQuizAnswers | MonitorQuizAnswers;
   category: "mouse" | "audio" | "keyboard" | "monitor";
+  quizPath?: string;
+  searchParams?: URLSearchParams;
 }
 
-// Display label mappings for mouse quiz answers
-const mouseAnswerLabels: Partial<Record<keyof MouseQuizAnswers, Record<string, string>>> = {
+// Each entry: { key, label, options: [{value, label}] }
+interface AnswerPill {
+  key: string;
+  label: string;
+  currentValue: string;
+  options: { value: string; label: string }[];
+}
+
+// ─── Option definitions per category ─────────────────────────────────────────
+
+const mouseOptionDefs: Record<string, { label: string; options: { value: string; label: string }[] }> = {
   "hand-size": {
-    small: "Small hands",
-    medium: "Medium hands",
-    large: "Large hands",
+    label: "Hand Size",
+    options: [
+      { value: "small", label: "Small hands" },
+      { value: "medium", label: "Medium hands" },
+      { value: "large", label: "Large hands" },
+    ],
   },
   "grip-style": {
-    palm: "Palm grip",
-    claw: "Claw grip",
-    fingertip: "Fingertip grip",
-    "relaxed-claw": "Relaxed claw",
+    label: "Grip Style",
+    options: [
+      { value: "palm", label: "Palm grip" },
+      { value: "claw", label: "Claw grip" },
+      { value: "fingertip", label: "Fingertip grip" },
+      { value: "relaxed-claw", label: "Relaxed claw" },
+    ],
   },
   "weight-preference": {
-    ultralight: "Ultralight (<60g)",
-    light: "Light (60-80g)",
-    medium: "Medium (80-100g)",
-    heavy: "Heavy (100g+)",
+    label: "Weight",
+    options: [
+      { value: "ultralight", label: "Ultralight (<60g)" },
+      { value: "light", label: "Light (60-80g)" },
+      { value: "medium", label: "Medium (80-100g)" },
+      { value: "heavy", label: "Heavy (100g+)" },
+    ],
   },
   wireless: {
-    wireless: "Wireless",
-    wired: "Wired",
-    either: "Any connection",
+    label: "Connection",
+    options: [
+      { value: "wireless", label: "Wireless" },
+      { value: "wired", label: "Wired" },
+      { value: "either", label: "Any connection" },
+    ],
   },
   "primary-use": {
-    precision: "Precision/Gaming",
-    productivity: "Productivity",
-    creative: "Creative work",
-    mixed: "Mixed use",
-  },
-  // Optional enhanced quiz fields
-  handedness: {
-    right: "Right-handed",
-    left: "Left-handed",
-    ambidextrous: "Ambidextrous",
-  },
-  "shape-profile": {
-    low_hump: "Low hump",
-    rear_hump: "Rear hump",
-    center_hump: "Center hump",
-    ergo_hump: "Ergonomic hump",
-    any: "Any shape",
-  },
-  "gaming-genre": {
-    fps: "FPS",
-    moba: "MOBA",
-    mmo: "MMO",
-    general: "General gaming",
-  },
-  "button-needs": {
-    minimal: "Minimal buttons",
-    standard: "Standard buttons",
-    many: "Many buttons",
-    mmo_grid: "MMO grid",
+    label: "Primary Use",
+    options: [
+      { value: "precision", label: "Precision/Gaming" },
+      { value: "productivity", label: "Productivity" },
+      { value: "creative", label: "Creative work" },
+      { value: "mixed", label: "Mixed use" },
+    ],
   },
 };
 
-// Display label mappings for audio quiz answers
-const audioAnswerLabels: Partial<Record<keyof AudioQuizAnswers, Record<string, string>>> = {
+const audioOptionDefs: Record<string, { label: string; options: { value: string; label: string }[] }> = {
   "primary-use": {
-    competitive: "Precision audio",
-    immersive: "Immersive",
-    mixed: "Mixed use",
-    streaming: "Streaming",
+    label: "Primary Use",
+    options: [
+      { value: "competitive", label: "Precision audio" },
+      { value: "immersive", label: "Immersive" },
+      { value: "mixed", label: "Mixed use" },
+      { value: "streaming", label: "Streaming" },
+    ],
   },
   "form-factor": {
-    "over-ear": "Over-ear headset",
-    "over-ear-headphone": "Over-ear headphones",
-    iem: "IEMs",
-    "open-back": "Open-back",
+    label: "Form Factor",
+    options: [
+      { value: "over-ear", label: "Over-ear headset" },
+      { value: "over-ear-headphone", label: "Over-ear headphones" },
+      { value: "iem", label: "IEMs" },
+      { value: "open-back", label: "Open-back" },
+    ],
   },
   "mic-needs": {
-    essential: "Mic essential",
-    "nice-to-have": "Mic nice to have",
-    "not-needed": "No mic needed",
+    label: "Microphone",
+    options: [
+      { value: "essential", label: "Mic essential" },
+      { value: "nice-to-have", label: "Mic nice to have" },
+      { value: "not-needed", label: "No mic needed" },
+    ],
   },
   "session-length": {
-    short: "Short sessions",
-    medium: "Medium sessions",
-    long: "Long sessions",
-    "all-day": "All-day comfort",
+    label: "Session Length",
+    options: [
+      { value: "short", label: "Short sessions" },
+      { value: "medium", label: "Medium sessions" },
+      { value: "long", label: "Long sessions" },
+      { value: "all-day", label: "All-day comfort" },
+    ],
   },
   budget: {
-    budget: "Budget (<$75)",
-    "mid-range": "Mid-range ($75-150)",
-    premium: "Premium ($150-300)",
-    "no-limit": "No limit ($300+)",
-  },
-  // Optional enhanced quiz fields
-  "sound-signature": {
-    neutral: "Neutral sound",
-    warm: "Warm sound",
-    v_shaped: "V-shaped",
-    bright: "Bright sound",
-  },
-  "wireless-preference": {
-    "wireless-required": "Wireless required",
-    "wireless-preferred": "Wireless preferred",
-    "wired-preferred": "Wired preferred",
-    either: "Any connection",
-  },
-  "noise-environment": {
-    quiet: "Quiet environment",
-    moderate: "Moderate noise",
-    noisy: "Noisy environment",
+    label: "Budget",
+    options: [
+      { value: "budget", label: "Budget (<$75)" },
+      { value: "mid-range", label: "Mid-range ($75-150)" },
+      { value: "premium", label: "Premium ($150-300)" },
+      { value: "no-limit", label: "No limit ($300+)" },
+    ],
   },
 };
 
-// Display label mappings for keyboard quiz answers
-const keyboardAnswerLabels: Partial<Record<keyof KeyboardQuizAnswers, Record<string, string>>> = {
+const keyboardOptionDefs: Record<string, { label: string; options: { value: string; label: string }[] }> = {
   "primary-use": {
-    "competitive-gaming": "Competitive Gaming",
-    "casual-gaming": "Casual Gaming",
-    productivity: "Productivity",
-    programming: "Programming",
+    label: "Primary Use",
+    options: [
+      { value: "competitive-gaming", label: "Competitive Gaming" },
+      { value: "casual-gaming", label: "Casual Gaming" },
+      { value: "productivity", label: "Productivity" },
+      { value: "programming", label: "Programming" },
+    ],
   },
   "form-factor": {
-    "full-size": "Full-Size",
-    tkl: "TKL (80%)",
-    "75-percent": "75%",
-    "60-65-percent": "60-65%",
+    label: "Form Factor",
+    options: [
+      { value: "full-size", label: "Full-Size" },
+      { value: "tkl", label: "TKL (80%)" },
+      { value: "75-percent", label: "75%" },
+      { value: "60-65-percent", label: "60-65%" },
+    ],
   },
   "switch-type": {
-    linear: "Linear",
-    tactile: "Tactile",
-    clicky: "Clicky",
-    "no-preference": "Any switch",
-  },
-  "gaming-features": {
-    essential: "Gaming essential",
-    "nice-to-have": "Gaming preferred",
-    "not-important": "Gaming optional",
+    label: "Switch Type",
+    options: [
+      { value: "linear", label: "Linear" },
+      { value: "tactile", label: "Tactile" },
+      { value: "clicky", label: "Clicky" },
+      { value: "no-preference", label: "Any switch" },
+    ],
   },
   connectivity: {
-    "wireless-essential": "Wireless essential",
-    "wireless-preferred": "Wireless preferred",
-    "wired-preferred": "Wired preferred",
-    "no-preference": "Any connection",
-  },
-  "priority-feature": {
-    performance: "Performance focus",
-    "typing-feel": "Typing feel",
-    customization: "Customization",
-    quiet: "Quiet operation",
+    label: "Connectivity",
+    options: [
+      { value: "wireless-essential", label: "Wireless essential" },
+      { value: "wireless-preferred", label: "Wireless preferred" },
+      { value: "wired-preferred", label: "Wired preferred" },
+      { value: "no-preference", label: "Any connection" },
+    ],
   },
   budget: {
-    budget: "Budget (<$100)",
-    "mid-range": "Mid-range ($100-175)",
-    premium: "Premium ($175-250)",
-    enthusiast: "Enthusiast ($250+)",
-  },
-  // Optional enhanced quiz fields
-  "switch-technology": {
-    mechanical: "Mechanical",
-    magnetic: "Magnetic",
-    optical: "Optical",
-    any: "Any technology",
-  },
-  "media-controls": {
-    essential: "Media essential",
-    "nice-to-have": "Media preferred",
-    "not-needed": "No media controls",
-  },
-  "keycap-material": {
-    pbt: "PBT keycaps",
-    abs: "ABS keycaps",
-    any: "Any material",
+    label: "Budget",
+    options: [
+      { value: "budget", label: "Budget (<$100)" },
+      { value: "mid-range", label: "Mid-range ($100-175)" },
+      { value: "premium", label: "Premium ($175-250)" },
+      { value: "enthusiast", label: "Enthusiast ($250+)" },
+    ],
   },
 };
 
-// Display label mappings for monitor quiz answers
-const monitorAnswerLabels: Partial<Record<keyof MonitorQuizAnswers, Record<string, string>>> = {
+const monitorOptionDefs: Record<string, { label: string; options: { value: string; label: string }[] }> = {
   "primary-use": {
-    gaming: "Gaming",
-    "content-creation": "Content Creation",
-    office: "Office/Productivity",
-    mixed: "Mixed Use",
+    label: "Primary Use",
+    options: [
+      { value: "gaming", label: "Gaming" },
+      { value: "content-creation", label: "Content Creation" },
+      { value: "office", label: "Office/Productivity" },
+      { value: "mixed", label: "Mixed Use" },
+    ],
   },
   "size-preference": {
-    compact: "24-25\"",
-    standard: "27\"",
-    large: "32\"",
-    ultrawide: "Ultrawide 34\"+",
-    any: "Any size",
+    label: "Size",
+    options: [
+      { value: "compact", label: "24-25\"" },
+      { value: "standard", label: "27\"" },
+      { value: "large", label: "32\"" },
+      { value: "ultrawide", label: "Ultrawide 34\"+" },
+      { value: "any", label: "Any size" },
+    ],
   },
   resolution: {
-    "1080p": "1080p",
-    "1440p": "1440p",
-    "4k": "4K",
-    any: "Any resolution",
+    label: "Resolution",
+    options: [
+      { value: "1080p", label: "1080p" },
+      { value: "1440p", label: "1440p" },
+      { value: "4k", label: "4K" },
+      { value: "any", label: "Any resolution" },
+    ],
   },
   "refresh-rate": {
-    basic: "60-75Hz",
-    standard: "120-165Hz",
-    high: "240Hz+",
-    any: "Any refresh",
+    label: "Refresh Rate",
+    options: [
+      { value: "basic", label: "60-75Hz" },
+      { value: "standard", label: "120-165Hz" },
+      { value: "high", label: "240Hz+" },
+      { value: "any", label: "Any refresh" },
+    ],
   },
   "panel-type": {
-    ips: "IPS",
-    va: "VA",
-    oled: "OLED",
-    any: "Any panel",
+    label: "Panel Type",
+    options: [
+      { value: "ips", label: "IPS" },
+      { value: "va", label: "VA" },
+      { value: "oled", label: "OLED" },
+      { value: "any", label: "Any panel" },
+    ],
   },
   budget: {
-    budget: "<$300",
-    "mid-range": "$300-600",
-    premium: "$600-1000",
-    enthusiast: "$1000+",
-  },
-  curved: {
-    flat: "Flat",
-    curved: "Curved",
-    either: "Either",
-  },
-  "color-accuracy": {
-    basic: "Basic color",
-    standard: "Standard color",
-    professional: "Professional color",
-  },
-  "hdr-needs": {
-    "not-needed": "No HDR",
-    "nice-to-have": "HDR preferred",
-    important: "HDR important",
-  },
-  features: {
-    "usb-c": "USB-C",
-    ergonomics: "Ergonomic stand",
-    speakers: "Built-in speakers",
-    any: "Any features",
+    label: "Budget",
+    options: [
+      { value: "budget", label: "<$300" },
+      { value: "mid-range", label: "$300-600" },
+      { value: "premium", label: "$600-1000" },
+      { value: "enthusiast", label: "$1000+" },
+    ],
   },
 };
 
-function getMouseLabel(key: keyof MouseQuizAnswers, value: string | string[]): string {
-  const labels = mouseAnswerLabels[key];
-  if (Array.isArray(value)) {
-    return value.map((v) => labels?.[v] || v).join(", ");
-  }
-  return labels?.[value] || value;
-}
+const categoryOptionDefs = {
+  mouse: mouseOptionDefs,
+  audio: audioOptionDefs,
+  keyboard: keyboardOptionDefs,
+  monitor: monitorOptionDefs,
+};
 
-function getAudioLabel(key: keyof AudioQuizAnswers, value: string | string[]): string {
-  const labels = audioAnswerLabels[key];
-  if (Array.isArray(value)) {
-    return value.map((v) => labels?.[v] || v).join(", ");
-  }
-  return labels?.[value] || value;
-}
+// ─── Keys to display per category (in display order) ────────────────────────
 
-function getKeyboardLabel(key: keyof KeyboardQuizAnswers, value: string | string[]): string {
-  const labels = keyboardAnswerLabels[key];
-  if (Array.isArray(value)) {
-    return value.map((v) => labels?.[v] || v).join(", ");
-  }
-  return labels?.[value] || value;
-}
+const categoryDisplayKeys: Record<string, string[]> = {
+  mouse: ["grip-style", "hand-size", "weight-preference", "wireless", "primary-use"],
+  audio: ["primary-use", "form-factor", "mic-needs", "session-length", "budget"],
+  keyboard: ["primary-use", "form-factor", "switch-type", "connectivity", "budget"],
+  monitor: ["primary-use", "size-preference", "resolution", "refresh-rate", "panel-type", "budget"],
+};
 
-function getMonitorLabel(key: keyof MonitorQuizAnswers, value: string | string[]): string {
-  const labels = monitorAnswerLabels[key];
-  if (Array.isArray(value)) {
-    return value.map((v) => labels?.[v] || v).join(", ");
-  }
-  return labels?.[value] || value;
-}
+// ─── Component ──────────────────────────────────────────────────────────────
 
 const AnswerSummary = ({ answers, category }: AnswerSummaryProps) => {
+  const [, setSearchParams] = useSearchParams();
+  const [openKey, setOpenKey] = useState<string | null>(null);
+  const [flashKey, setFlashKey] = useState<string | null>(null);
+
   const accentColor = category === "mouse" ? "primary" : category === "audio" ? "accent" : category === "monitor" ? "tertiary" : "secondary";
+  const optionDefs = categoryOptionDefs[category];
+  const displayKeys = categoryDisplayKeys[category];
 
-  const labels: string[] = [];
+  const pills: AnswerPill[] = displayKeys
+    .filter((key) => {
+      const val = (answers as unknown as Record<string, unknown>)[key];
+      return val !== undefined && val !== "";
+    })
+    .map((key) => {
+      const def = optionDefs[key];
+      const rawVal = (answers as unknown as Record<string, unknown>)[key];
+      const currentValue = Array.isArray(rawVal) ? rawVal.join(",") : String(rawVal);
+      const label = def
+        ? (Array.isArray(rawVal)
+            ? rawVal.map((v) => def.options.find((o) => o.value === v)?.label || v).join(", ")
+            : def.options.find((o) => o.value === currentValue)?.label || currentValue)
+        : currentValue;
+      return {
+        key,
+        label,
+        currentValue,
+        options: def?.options || [],
+      };
+    });
 
-  if (category === "mouse") {
-    const mouseAnswers = answers as MouseQuizAnswers;
-    // Order: grip, hands, weight, connection, use
-    labels.push(getMouseLabel("grip-style", mouseAnswers["grip-style"]));
-    labels.push(getMouseLabel("hand-size", mouseAnswers["hand-size"]));
-    labels.push(getMouseLabel("weight-preference", mouseAnswers["weight-preference"]));
-    labels.push(getMouseLabel("wireless", mouseAnswers["wireless"]));
-    labels.push(getMouseLabel("primary-use", mouseAnswers["primary-use"]));
-  } else if (category === "audio") {
-    const audioAnswers = answers as AudioQuizAnswers;
-    // Order: use, form, mic, session, budget
-    labels.push(getAudioLabel("primary-use", audioAnswers["primary-use"]));
-    labels.push(getAudioLabel("form-factor", audioAnswers["form-factor"]));
-    labels.push(getAudioLabel("mic-needs", audioAnswers["mic-needs"]));
-    labels.push(getAudioLabel("session-length", audioAnswers["session-length"]));
-    labels.push(getAudioLabel("budget", audioAnswers["budget"]));
-  } else if (category === "keyboard") {
-    const keyboardAnswers = answers as KeyboardQuizAnswers;
-    // Order: use, form, switch, connectivity, budget
-    labels.push(getKeyboardLabel("primary-use", keyboardAnswers["primary-use"]));
-    labels.push(getKeyboardLabel("form-factor", keyboardAnswers["form-factor"]));
-    labels.push(getKeyboardLabel("switch-type", keyboardAnswers["switch-type"]));
-    labels.push(getKeyboardLabel("connectivity", keyboardAnswers["connectivity"]));
-    labels.push(getKeyboardLabel("budget", keyboardAnswers["budget"]));
-  } else {
-    const monitorAnswers = answers as MonitorQuizAnswers;
-    // Order: use, size, resolution, refresh, panel, budget
-    labels.push(getMonitorLabel("primary-use", monitorAnswers["primary-use"]));
-    labels.push(getMonitorLabel("size-preference", monitorAnswers["size-preference"]));
-    labels.push(getMonitorLabel("resolution", monitorAnswers["resolution"]));
-    if (monitorAnswers["refresh-rate"]) {
-      labels.push(getMonitorLabel("refresh-rate", monitorAnswers["refresh-rate"]));
-    }
-    if (monitorAnswers["panel-type"]) {
-      labels.push(getMonitorLabel("panel-type", monitorAnswers["panel-type"]));
-    }
-    if (monitorAnswers["budget"]) {
-      labels.push(getMonitorLabel("budget", monitorAnswers["budget"]));
-    }
-  }
+  const handleSelect = useCallback((key: string, newValue: string, newLabel: string) => {
+    setOpenKey(null);
+    setFlashKey(key);
+    setTimeout(() => setFlashKey(null), 1200);
+    setSearchParams((prev) => {
+      const next = new URLSearchParams(prev);
+      next.set(key, newValue);
+      return next;
+    });
+    toast.success(`Updated to "${newLabel}" — recalculated matches!`, { duration: 2500 });
+  }, [setSearchParams]);
 
   return (
     <div className="flex flex-wrap items-center justify-center gap-2">
-      {labels.map((label, index) => (
-        <span key={index} className="flex items-center gap-2">
-          <span
-            className={cn(
-              "rounded-full px-3 py-1 text-sm",
-              accentColor === "primary" && "bg-primary/10 text-primary",
-              accentColor === "accent" && "bg-accent/10 text-accent",
-              accentColor === "secondary" && "bg-secondary text-foreground",
-              accentColor === "tertiary" && "bg-violet-500/10 text-violet-600 dark:text-violet-400"
-            )}
-          >
-            {label}
-          </span>
-          {index < labels.length - 1 && (
+      {pills.map((pill, index) => (
+        <span key={pill.key} className="flex items-center gap-2">
+          <Popover open={openKey === pill.key} onOpenChange={(open) => setOpenKey(open ? pill.key : null)}>
+            <PopoverTrigger asChild>
+              <button
+                type="button"
+                title={`Click to change: ${pill.label}`}
+                className={cn(
+                  "group flex items-center rounded-full px-3 py-1 text-sm cursor-pointer hover:ring-1 hover:ring-current transition-all",
+                  accentColor === "primary" && "bg-primary/10 text-primary",
+                  accentColor === "accent" && "bg-accent/10 text-accent",
+                  accentColor === "secondary" && "bg-secondary text-foreground",
+                  accentColor === "tertiary" && "bg-violet-500/10 text-violet-600 dark:text-violet-400",
+                  flashKey === pill.key && "animate-pulse ring-1 ring-current"
+                )}
+              >
+                {pill.label}
+                <Pencil className="h-3 w-3 ml-1 opacity-40 group-hover:opacity-70 transition-opacity duration-150" />
+              </button>
+            </PopoverTrigger>
+            <PopoverContent
+              className="w-56 p-1.5"
+              style={{ background: "var(--v2-bg-card)", borderColor: "var(--v2-border-bright)" }}
+            >
+              {pill.options.map((opt) => {
+                const isActive = pill.currentValue === opt.value || pill.currentValue.split(",").includes(opt.value);
+                return (
+                  <button
+                    key={opt.value}
+                    type="button"
+                    onClick={() => handleSelect(pill.key, opt.value, opt.label)}
+                    className={cn(
+                      "flex w-full items-center justify-between rounded-md px-3 py-2 text-sm transition-colors",
+                      isActive
+                        ? cn(
+                            accentColor === "primary" && "bg-primary/15 text-primary",
+                            accentColor === "accent" && "bg-accent/15 text-accent",
+                            accentColor === "secondary" && "bg-secondary text-foreground",
+                            accentColor === "tertiary" && "bg-violet-500/15 text-violet-400"
+                          )
+                        : "text-slate-300 hover:bg-slate-800"
+                    )}
+                  >
+                    {opt.label}
+                    {isActive && <Check className="h-3.5 w-3.5" />}
+                  </button>
+                );
+              })}
+            </PopoverContent>
+          </Popover>
+          {index < pills.length - 1 && (
             <span className="text-muted-foreground">•</span>
           )}
         </span>

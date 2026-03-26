@@ -1,11 +1,12 @@
-import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 import { Mail, MessageSquare, Bug, Lightbulb, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import NavbarV2 from "@/components/landing-v2/NavbarV2";
 import FooterV2 from "@/components/landing-v2/FooterV2";
+import { usePageTitle } from "@/hooks/usePageTitle";
 
 const ContactPage = () => {
+  usePageTitle("Contact");
   return (
     <div className="min-h-screen bg-background">
       <NavbarV2 />

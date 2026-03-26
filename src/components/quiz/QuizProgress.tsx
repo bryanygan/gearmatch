@@ -78,8 +78,8 @@ const QuizProgress = ({
         )}
 
         <div className="flex flex-1 flex-col gap-2">
-          <div className="flex items-center justify-between text-sm">
-            <span className="text-muted-foreground">
+          <div className="flex items-center justify-between text-sm" style={{ fontFamily: "var(--v2-font-ui)" }}>
+            <span style={{ color: "var(--v2-text-muted)", letterSpacing: "0.04em" }}>
               Question {currentStep} of {totalSteps}
             </span>
             <span
@@ -95,7 +95,7 @@ const QuizProgress = ({
             </span>
           </div>
 
-          <div className="relative h-2 w-full overflow-hidden rounded-full bg-secondary">
+          <div className="relative h-2 w-full overflow-hidden rounded-full" style={{ background: "var(--v2-border)" }}>
             <div
               className={cn(
                 "h-full transition-all duration-500 ease-out",

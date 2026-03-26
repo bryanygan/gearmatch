@@ -106,8 +106,16 @@ function scoreProduct<TAnswers, TProduct extends Product>(
     }
   }
 
-  // Final score is already normalized to 0-100 scale via weighted sum
-  const score = Math.round(weightedSum);
+  // Apply calibration curve to raw weighted sum before rounding.
+  // This stretches the display score so genuinely strong matches
+  // reach 100% while poor matches remain low.
+  let score = Math.round(calibrateScore(weightedSum));
+
+  // A product with concerns is not a perfect match — cap at 97 so
+  // 100% is reserved for products with zero tradeoffs.
+  if (concerns.length > 0 && score >= 98) {
+    score = Math.max(95, 98 - concerns.length);
+  }
 
   return {
     product,
@@ -116,6 +124,38 @@ function scoreProduct<TAnswers, TProduct extends Product>(
     matchReasons,
     concerns,
   };
+}
+
+// =============================================================================
+// Score Calibration
+// =============================================================================
+
+/**
+ * Map a raw 0-100 weighted score to a user-facing display score.
+ *
+ * Rationale: the scoring rules reward "good enough" answers with partial
+ * points, so even a product that perfectly matches the user's stated
+ * preferences rarely breaks 90 on the raw scale. This curve stretches
+ * strong matches upward so that near-perfect fits read as 100%, while
+ * leaving poor and moderate matches roughly unchanged.
+ *
+ * Segments (raw → display):
+ *   0  – 60  → 0  – 60   (unchanged — bad matches stay bad)
+ *   60 – 75  → 60 – 80   (moderate matches shown more positively)
+ *   75 – 88  → 80 – 99   (good matches shown as very good / excellent)
+ *   88 – 100 → 100        (near-perfect matches shown as perfect)
+ */
+export function calibrateScore(raw: number): number {
+  if (raw >= 88) return 100;
+  if (raw >= 75) {
+    // linear map 75–88 → 80–99
+    return 80 + ((raw - 75) / 13) * 19;
+  }
+  if (raw >= 60) {
+    // linear map 60–75 → 60–80
+    return 60 + ((raw - 60) / 15) * 20;
+  }
+  return raw;
 }
 
 // =============================================================================
@@ -142,15 +182,19 @@ export async function getMouseRecommendations(
   const allProducts = await getMouseProducts();
 
   // Pre-filter: eliminate obvious mismatches
-  const { filtered: products } = applyPreFilters(answers, allProducts, mousePreFilters);
+  const { filtered: products, eliminatedProducts } = applyPreFilters(answers, allProducts, mousePreFilters);
 
   // Score remaining products
   const scoredProducts = scoreProducts(answers, products, mouseRules);
   const { topPicks, alternates } = applyThresholdAndSplit(scoredProducts, minScore, topPickCount);
 
+  // Score eliminated products so they can be shown in "outside your filters" section
+  const filteredOut = scoreProducts(answers, eliminatedProducts, mouseRules);
+
   return {
     topPicks,
     alternates,
+    filteredOut,
     filters: {
       category: "mouse",
       wireless: answers.wireless === "wireless" ? true : undefined,
@@ -183,15 +227,18 @@ export async function getAudioRecommendations(
   const allProducts = await getAudioProducts();
 
   // Pre-filter: eliminate obvious mismatches
-  const { filtered: products } = applyPreFilters(answers, allProducts, audioPreFilters);
+  const { filtered: products, eliminatedProducts } = applyPreFilters(answers, allProducts, audioPreFilters);
 
   // Score remaining products
   const scoredProducts = scoreProducts(answers, products, audioRules);
   const { topPicks, alternates } = applyThresholdAndSplit(scoredProducts, minScore, topPickCount);
 
+  const filteredOut = scoreProducts(answers, eliminatedProducts, audioRules);
+
   return {
     topPicks,
     alternates,
+    filteredOut,
     filters: {
       category: "audio",
     },
@@ -223,15 +270,18 @@ export async function getKeyboardRecommendations(
   const allProducts = await getKeyboardProducts();
 
   // Pre-filter: eliminate obvious mismatches
-  const { filtered: products } = applyPreFilters(answers, allProducts, keyboardPreFilters);
+  const { filtered: products, eliminatedProducts } = applyPreFilters(answers, allProducts, keyboardPreFilters);
 
   // Score remaining products
   const scoredProducts = scoreProducts(answers, products, keyboardRules);
   const { topPicks, alternates } = applyThresholdAndSplit(scoredProducts, minScore, topPickCount);
 
+  const filteredOut = scoreProducts(answers, eliminatedProducts, keyboardRules);
+
   return {
     topPicks,
     alternates,
+    filteredOut,
     filters: {
       category: "keyboard",
       wireless: answers.connectivity === "wireless-essential" ? true : undefined,
@@ -264,15 +314,18 @@ export async function getMonitorRecommendations(
   const allProducts = await getMonitorProducts();
 
   // Pre-filter: eliminate obvious mismatches
-  const { filtered: products } = applyPreFilters(answers, allProducts, monitorPreFilters);
+  const { filtered: products, eliminatedProducts } = applyPreFilters(answers, allProducts, monitorPreFilters);
 
   // Score remaining products
   const scoredProducts = scoreProducts(answers, products, monitorRules);
   const { topPicks, alternates } = applyThresholdAndSplit(scoredProducts, minScore, topPickCount);
 
+  const filteredOut = scoreProducts(answers, eliminatedProducts, monitorRules);
+
   return {
     topPicks,
     alternates,
+    filteredOut,
     filters: {
       category: "monitor",
     },
@@ -301,10 +354,11 @@ export function formatScore(score: number): string {
  * @returns Human-readable match quality label
  */
 export function getMatchQuality(score: number): string {
-  if (score >= 90) return "Excellent Match";
-  if (score >= 80) return "Great Match";
-  if (score >= 70) return "Good Match";
-  if (score >= 60) return "Decent Match";
+  if (score === 100) return "Perfect Match";
+  if (score >= 95) return "Excellent Match";
+  if (score >= 85) return "Great Match";
+  if (score >= 75) return "Good Match";
+  if (score >= 65) return "Decent Match";
   if (score >= 50) return "Fair Match";
   return "Partial Match";
 }

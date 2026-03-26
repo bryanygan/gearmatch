@@ -167,7 +167,7 @@ const TrustSectionV2 = () => {
                     border: "1px solid var(--v2-border)",
                     background: "var(--v2-primary-dim)",
                     color: "var(--v2-primary)",
-                    transition: "all 0.3s ease",
+                    transition: "background 0.3s ease, color 0.3s ease",
                     clipPath:
                       "polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%)",
                   }}

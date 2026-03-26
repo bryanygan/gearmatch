@@ -3,8 +3,10 @@ import { ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import NavbarV2 from "@/components/landing-v2/NavbarV2";
 import FooterV2 from "@/components/landing-v2/FooterV2";
+import { usePageTitle } from "@/hooks/usePageTitle";
 
 const TermsPage = () => {
+  usePageTitle("Terms of Service");
   return (
     <div className="min-h-screen bg-background">
       <NavbarV2 />
@@ -20,7 +22,7 @@ const TermsPage = () => {
               The rules and guidelines for using GearMatch.
             </p>
             <p className="text-sm text-muted-foreground mt-4">
-              Last updated: February 2026
+              Last updated: March 2026
             </p>
           </div>
         </div>

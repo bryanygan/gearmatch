@@ -63,7 +63,7 @@ const VALID_BUDGET_VALUES = new Set(["no-limit", "enthusiast", "premium", "mid-r
 function getMaxPriceTierIndex(budgetValues: string[]): number | null {
   const unknown = budgetValues.filter((v) => !VALID_BUDGET_VALUES.has(v));
   if (unknown.length > 0) {
-    console.warn(`getMaxPriceTierIndex: unknown budget values: ${unknown.join(", ")}; defaulting to conservative filter`);
+    // Unknown budget value — silently default to conservative filter in production
     return 1; // Conservative: up to "lower_midrange"
   }
 

@@ -1,4 +1,4 @@
-import React, { useState, useCallback, useRef, useEffect } from "react";
+import { useState, useCallback, useRef, useEffect } from "react";
 import {
   Carousel,
   CarouselContent,
@@ -47,11 +47,6 @@ export default function CuratedLoadoutBrowser({
 
     const onWheel = (e: WheelEvent) => {
       if (e.deltaY === 0) return;
-      // Only capture scroll when carousel can move in that direction
-      const canScroll =
-        e.deltaY > 0 ? carouselApi.canScrollNext() : carouselApi.canScrollPrev();
-      if (!canScroll) return; // let page scroll normally
-      e.preventDefault();
       const now = Date.now();
       if (now - lastScrollTime < SCROLL_THROTTLE) return;
       lastScrollTime = now;
@@ -62,7 +57,7 @@ export default function CuratedLoadoutBrowser({
       }
     };
 
-    wrapper.addEventListener("wheel", onWheel, { passive: false });
+    wrapper.addEventListener("wheel", onWheel, { passive: true });
     return () => wrapper.removeEventListener("wheel", onWheel);
   }, [carouselApi]);
 
@@ -101,7 +96,7 @@ export default function CuratedLoadoutBrowser({
       </div>
 
       {/* Desktop carousel */}
-      <div ref={carouselWrapperRef} className="hidden md:block px-12">
+      <div ref={carouselWrapperRef} className="hidden md:block px-12" style={{ overscrollBehavior: "contain" }}>
         <Carousel
           opts={{ align: "start", loop: false }}
           setApi={setCarouselApi}

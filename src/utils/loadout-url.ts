@@ -29,12 +29,17 @@ export function encodeLoadoutUrl(items: LoadoutItem[]): string {
 export function decodeLoadoutUrl(searchParams: URLSearchParams): string[] {
   const raw = searchParams.get("items");
   if (!raw) return [];
+  const MAX_ITEMS = 50;
+  // Reject individual IDs that are suspiciously long (real product IDs
+  // are always well under 128 characters).
+  const MAX_ID_LENGTH = 128;
   const ids = raw
     .split(",")
+    .slice(0, MAX_ITEMS)
     .map((id) => {
       try { return decodeURIComponent(id.trim()); }
       catch { return id.trim(); }
     })
-    .filter(Boolean);
+    .filter((id) => id.length > 0 && id.length <= MAX_ID_LENGTH);
   return [...new Set(ids)];
 }

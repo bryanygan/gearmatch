@@ -1,6 +1,8 @@
-import { Link } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 
 const FooterV2 = () => {
+  const location = useLocation();
+  const navigate = useNavigate();
   return (
     <footer
       style={{
@@ -13,35 +15,22 @@ const FooterV2 = () => {
         <div className="flex flex-col md:flex-row md:justify-between gap-10 md:gap-8">
           {/* Brand Column */}
           <div className="md:max-w-xs">
-            <Link
-              to="/"
+            <button
+              onClick={() => {
+                if (location.pathname === "/") {
+                  window.scrollTo({ top: 0, behavior: "smooth" });
+                } else {
+                  navigate("/");
+                }
+              }}
               className="flex items-center gap-3 mb-4"
-              style={{ textDecoration: "none" }}
+              style={{ textDecoration: "none", background: "none", border: "none", cursor: "pointer", padding: 0 }}
             >
-              <div
-                className="w-7 h-7 flex items-center justify-center"
-                style={{
-                  clipPath:
-                    "polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%)",
-                  background: "var(--v2-primary)",
-                }}
-              >
-                <svg
-                  width="12"
-                  height="12"
-                  viewBox="0 0 16 16"
-                  fill="none"
-                  style={{ color: "#07070D" }}
-                >
-                  <path
-                    d="M8 1L15 5v6l-7 4-7-4V5l7-4z"
-                    stroke="currentColor"
-                    strokeWidth="1.5"
-                    fill="none"
-                  />
-                  <circle cx="8" cy="8" r="2" fill="currentColor" />
-                </svg>
-              </div>
+              <img
+                src="/gearmatchlogo.svg"
+                alt="GearMatch logo"
+                className="w-7 h-7 object-contain"
+              />
               <span
                 style={{
                   fontFamily: "var(--v2-font-display)",
@@ -52,7 +41,7 @@ const FooterV2 = () => {
               >
                 GEARMATCH
               </span>
-            </Link>
+            </button>
             <p
               style={{
                 fontFamily: "var(--v2-font-body)",
@@ -206,29 +195,42 @@ const FooterV2 = () => {
 
         {/* Bottom Bar */}
         <div
-          className="mt-12 pt-8 flex flex-col md:flex-row items-center justify-between gap-4"
+          className="mt-12 pt-8 flex flex-col items-center gap-3"
           style={{ borderTop: "1px solid var(--v2-border)" }}
         >
           <p
             style={{
               fontFamily: "var(--v2-font-mono)",
-              fontSize: "11px",
-              color: "var(--v2-text-dim)",
-              letterSpacing: "0.06em",
-            }}
-          >
-            &copy; {new Date().getFullYear()} GEARMATCH. ALL RIGHTS RESERVED.
-          </p>
-          <p
-            style={{
-              fontFamily: "var(--v2-font-mono)",
               fontSize: "10px",
               color: "var(--v2-text-dim)",
-              letterSpacing: "0.06em",
+              letterSpacing: "0.04em",
+              textAlign: "center",
             }}
           >
-            WE MAY EARN A COMMISSION WHEN YOU BUY THROUGH OUR LINKS.
+            As an Amazon Associate I earn from qualifying purchases. We may also earn commissions through other affiliate links at no additional cost to you.
           </p>
+          <div className="flex flex-col md:flex-row items-center justify-between gap-3 w-full">
+            <p
+              style={{
+                fontFamily: "var(--v2-font-mono)",
+                fontSize: "11px",
+                color: "var(--v2-text-dim)",
+                letterSpacing: "0.06em",
+              }}
+            >
+              &copy; {new Date().getFullYear()} GEARMATCH. ALL RIGHTS RESERVED.
+            </p>
+            <p
+              style={{
+                fontFamily: "var(--v2-font-mono)",
+                fontSize: "10px",
+                color: "var(--v2-text-dim)",
+                letterSpacing: "0.06em",
+              }}
+            >
+              AFFILIATE LINKS — SAME PRICE FOR YOU.
+            </p>
+          </div>
         </div>
       </div>
     </footer>

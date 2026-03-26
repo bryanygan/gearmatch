@@ -1,6 +1,7 @@
 import type { MouseProduct } from "@/types/products";
 import type { MouseQuizAnswers } from "@/lib/scoring/types";
 import type { PreFilter } from "./types";
+import { discontinuedFilter } from "./discontinued-filter";
 
 /**
  * Eliminate products that don't match wireless/wired preference.
@@ -40,6 +41,7 @@ export const handednessFilter: PreFilter<MouseQuizAnswers, MouseProduct> = (
 };
 
 export const mousePreFilters: PreFilter<MouseQuizAnswers, MouseProduct>[] = [
+  discontinuedFilter as PreFilter<MouseQuizAnswers, MouseProduct>,
   wirelessFilter,
   handednessFilter,
 ];

@@ -13,6 +13,7 @@ import { Badge } from "@/components/ui/badge";
 import { cn } from "@/lib/utils";
 import type { Product } from "@/types/products";
 import type { LoadoutCategory } from "@/types/loadout";
+import { sanitizeUrl } from "@/utils/sanitize-url";
 import ProductSpecBadges, { formatTag } from "./ProductSpecBadges";
 
 // ─── Icon map for placeholders ───────────────────────────────────────────────
@@ -42,11 +43,11 @@ const ProductListItem = React.memo(function ProductListItem({
   onToggle,
 }: ProductListItemProps) {
   const [min, max] = product.price_range_usd;
-  const priceLabel = min === max ? `$${min}` : `$${min}–$${max}`;
+  const priceLabel = min === 0 && max === 0 ? "Price N/A" : min === max ? `$${min}` : `$${min}–$${max}`;
   const category = product.category as LoadoutCategory;
   const PlaceholderIcon = CATEGORY_ICON[category] ?? Mouse;
 
-  const linkUrl = product.product_url;
+  const linkUrl = sanitizeUrl(product.product_url);
 
   // Track selection transitions for flash animation
   const [justAdded, setJustAdded] = useState(false);
@@ -120,7 +121,7 @@ const ProductListItem = React.memo(function ProductListItem({
             <a
               href={linkUrl}
               target="_blank"
-              rel="noopener noreferrer"
+              rel="noopener noreferrer" referrerPolicy="no-referrer"
               className="shrink-0 text-slate-500 hover:text-slate-300 transition-colors"
               onClick={(e) => e.stopPropagation()}
               aria-label={`View ${product.name} product page`}
@@ -186,6 +187,12 @@ function ProductThumbnail({
         height={48}
         loading="lazy"
         className="h-12 w-12 rounded-md object-cover"
+        onError={(e) => {
+          const img = e.currentTarget;
+          if (product.image_url_fallback && img.src !== product.image_url_fallback) {
+            img.src = product.image_url_fallback;
+          }
+        }}
       />
     );
   }

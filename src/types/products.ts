@@ -359,6 +359,8 @@ export interface DataQuality {
   last_verified?: string;
   /** Additional notes about data sourcing */
   notes?: string;
+  /** Year the product was released (for surfacing newer options) */
+  released_year?: number;
 }
 
 // =============================================================================
@@ -382,6 +384,8 @@ export interface Product {
   price_range_usd: [number, number];
   /** URL to product image (optional) */
   image_url?: string;
+  /** Fallback image URL if primary fails (optional) */
+  image_url_fallback?: string;
   /** URL to product page or affiliate link (optional) */
   product_url?: string;
   /** URL to manufacturer website (optional) */

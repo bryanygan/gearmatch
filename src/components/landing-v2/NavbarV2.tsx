@@ -1,18 +1,44 @@
 import { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 
 const NavbarV2 = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(
     () => typeof window !== "undefined" && window.scrollY > 20,
   );
+  const location = useLocation();
+  const navigate = useNavigate();
+
+  const scrollToSection = (sectionId: string) => {
+    setIsOpen(false);
+    if (location.pathname !== "/") {
+      navigate("/#" + sectionId);
+      return;
+    }
+    const el = document.getElementById(sectionId);
+    if (el) {
+      el.scrollIntoView({ behavior: "smooth" });
+    }
+  };
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 20);
-    onScroll(); // sync immediately in case page loaded while scrolled
+    onScroll();
     window.addEventListener("scroll", onScroll, { passive: true });
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
+
+  // Handle hash scroll after navigation from another page
+  useEffect(() => {
+    if (location.pathname === "/" && location.hash) {
+      const id = location.hash.replace("#", "");
+      // Small delay to let the page render before scrolling
+      const timer = setTimeout(() => {
+        document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
+      }, 100);
+      return () => clearTimeout(timer);
+    }
+  }, [location]);
 
   return (
     <nav
@@ -21,7 +47,7 @@ const NavbarV2 = () => {
         background: scrolled
           ? "rgba(7, 7, 13, 0.92)"
           : "rgba(7, 7, 13, 0.6)",
-        backdropFilter: "blur(16px)",
+        backdropFilter: "blur(10px)",
         borderBottom: scrolled
           ? "1px solid rgba(0, 255, 157, 0.12)"
           : "1px solid transparent",
@@ -30,10 +56,16 @@ const NavbarV2 = () => {
       <div className="max-w-7xl mx-auto px-5 sm:px-8">
         <div className="flex items-center justify-between h-16 md:h-[72px]">
           {/* Logo */}
-          <Link
-            to="/"
+          <button
+            onClick={() => {
+              if (location.pathname === "/") {
+                window.scrollTo({ top: 0, behavior: "smooth" });
+              } else {
+                navigate("/");
+              }
+            }}
             className="flex items-center gap-3 group"
-            style={{ textDecoration: "none" }}
+            style={{ textDecoration: "none", background: "none", border: "none", cursor: "pointer", padding: 0 }}
           >
             {/* Logo mark */}
             <img
@@ -51,21 +83,26 @@ const NavbarV2 = () => {
             >
               GEARMATCH
             </span>
-          </Link>
+          </button>
 
           {/* Desktop Nav Links */}
           <div
             className="hidden md:flex items-center gap-8"
             style={{ fontFamily: "var(--v2-font-ui)", fontSize: "13px" }}
           >
-            <Link
-              to="/#how-it-works"
+            <button
+              onClick={() => scrollToSection("how-it-works")}
               className="transition-colors duration-200"
               style={{
                 color: "var(--v2-text-muted)",
                 letterSpacing: "0.06em",
                 textTransform: "uppercase",
-                textDecoration: "none",
+                background: "none",
+                border: "none",
+                cursor: "pointer",
+                padding: 0,
+                font: "inherit",
+                fontSize: "inherit",
               }}
               onMouseEnter={(e) =>
                 (e.currentTarget.style.color = "var(--v2-primary)")
@@ -75,15 +112,20 @@ const NavbarV2 = () => {
               }
             >
               How It Works
-            </Link>
-            <Link
-              to="/#categories"
+            </button>
+            <button
+              onClick={() => scrollToSection("categories")}
               className="transition-colors duration-200"
               style={{
                 color: "var(--v2-text-muted)",
                 letterSpacing: "0.06em",
                 textTransform: "uppercase",
-                textDecoration: "none",
+                background: "none",
+                border: "none",
+                cursor: "pointer",
+                padding: 0,
+                font: "inherit",
+                fontSize: "inherit",
               }}
               onMouseEnter={(e) =>
                 (e.currentTarget.style.color = "var(--v2-primary)")
@@ -93,15 +135,20 @@ const NavbarV2 = () => {
               }
             >
               Categories
-            </Link>
-            <Link
-              to="/#why-trust-us"
+            </button>
+            <button
+              onClick={() => scrollToSection("why-trust-us")}
               className="transition-colors duration-200"
               style={{
                 color: "var(--v2-text-muted)",
                 letterSpacing: "0.06em",
                 textTransform: "uppercase",
-                textDecoration: "none",
+                background: "none",
+                border: "none",
+                cursor: "pointer",
+                padding: 0,
+                font: "inherit",
+                fontSize: "inherit",
               }}
               onMouseEnter={(e) =>
                 (e.currentTarget.style.color = "var(--v2-primary)")
@@ -111,7 +158,7 @@ const NavbarV2 = () => {
               }
             >
               Why Trust Us
-            </Link>
+            </button>
             <Link
               to="/loadout"
               className="transition-colors duration-200"
@@ -129,6 +176,24 @@ const NavbarV2 = () => {
               }
             >
               Loadout
+            </Link>
+            <Link
+              to="/browse"
+              className="transition-colors duration-200"
+              style={{
+                color: "var(--v2-text-muted)",
+                letterSpacing: "0.06em",
+                textTransform: "uppercase",
+                textDecoration: "none",
+              }}
+              onMouseEnter={(e) =>
+                (e.currentTarget.style.color = "var(--v2-primary)")
+              }
+              onMouseLeave={(e) =>
+                (e.currentTarget.style.color = "var(--v2-text-muted)")
+              }
+            >
+              Browse
             </Link>
           </div>
 
@@ -195,48 +260,57 @@ const NavbarV2 = () => {
               }
             `}</style>
             <div className="flex flex-col gap-3">
-              <Link
-                to="/#how-it-works"
-                onClick={() => setIsOpen(false)}
+              <button
+                onClick={() => scrollToSection("how-it-works")}
                 style={{
                   color: "var(--v2-text-muted)",
                   fontSize: "13px",
                   letterSpacing: "0.06em",
                   textTransform: "uppercase",
-                  textDecoration: "none",
                   padding: "8px 0",
+                  background: "none",
+                  border: "none",
+                  cursor: "pointer",
+                  textAlign: "left",
+                  font: "inherit",
                 }}
               >
                 How It Works
-              </Link>
-              <Link
-                to="/#categories"
-                onClick={() => setIsOpen(false)}
+              </button>
+              <button
+                onClick={() => scrollToSection("categories")}
                 style={{
                   color: "var(--v2-text-muted)",
                   fontSize: "13px",
                   letterSpacing: "0.06em",
                   textTransform: "uppercase",
-                  textDecoration: "none",
                   padding: "8px 0",
+                  background: "none",
+                  border: "none",
+                  cursor: "pointer",
+                  textAlign: "left",
+                  font: "inherit",
                 }}
               >
                 Categories
-              </Link>
-              <Link
-                to="/#why-trust-us"
-                onClick={() => setIsOpen(false)}
+              </button>
+              <button
+                onClick={() => scrollToSection("why-trust-us")}
                 style={{
                   color: "var(--v2-text-muted)",
                   fontSize: "13px",
                   letterSpacing: "0.06em",
                   textTransform: "uppercase",
-                  textDecoration: "none",
                   padding: "8px 0",
+                  background: "none",
+                  border: "none",
+                  cursor: "pointer",
+                  textAlign: "left",
+                  font: "inherit",
                 }}
               >
                 Why Trust Us
-              </Link>
+              </button>
               <Link
                 to="/loadout"
                 onClick={() => setIsOpen(false)}
@@ -250,6 +324,20 @@ const NavbarV2 = () => {
                 }}
               >
                 Loadout
+              </Link>
+              <Link
+                to="/browse"
+                onClick={() => setIsOpen(false)}
+                style={{
+                  color: "var(--v2-text-muted)",
+                  fontSize: "13px",
+                  letterSpacing: "0.06em",
+                  textTransform: "uppercase",
+                  textDecoration: "none",
+                  padding: "8px 0",
+                }}
+              >
+                Browse
               </Link>
               <Link
                 to="/quiz/mouse"

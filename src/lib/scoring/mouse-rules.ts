@@ -7,6 +7,7 @@
 
 import type { MouseProduct, MouseGripFit, MouseSizeClass } from "@/types/products";
 import type { MouseQuizAnswers, ScoringRule, RuleResult } from "./types";
+import { makeQualityRule } from "./quality-rule";
 
 // =============================================================================
 // Rule 1: Grip Fit (weight: 0.25, max: 25 points)
@@ -755,7 +756,7 @@ export const buttonNeedsRule: ScoringRule<MouseQuizAnswers, MouseProduct> = {
     // Map user preferences to product button classes
     const buttonClassMap: Record<string, string[]> = {
       minimal: ["low"],
-      standard: ["standard"],
+      standard: ["medium"],
       many: ["high"],
       mmo_grid: ["mmo_grid"],
     };
@@ -791,9 +792,9 @@ export const buttonNeedsRule: ScoringRule<MouseQuizAnswers, MouseProduct> = {
 
     // Check for adjacent matches (e.g., user wants "many" but product has "standard")
     const adjacentMatches: Record<string, string[]> = {
-      minimal: ["standard"],
+      minimal: ["medium"],
       standard: ["low", "high"],
-      many: ["standard", "mmo_grid"],
+      many: ["medium", "mmo_grid"],
       mmo_grid: ["high"],
     };
 
@@ -843,4 +844,5 @@ export const mouseRules: ScoringRule<MouseQuizAnswers, MouseProduct>[] = [
   shapeProfileRule,
   gamingGenreRule,
   buttonNeedsRule,
+  makeQualityRule<MouseQuizAnswers, MouseProduct>(),
 ];

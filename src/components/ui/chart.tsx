@@ -58,6 +58,16 @@ const ChartContainer = React.forwardRef<
 });
 ChartContainer.displayName = "Chart";
 
+/**
+ * Sanitize a CSS identifier (chart id or config key) by stripping
+ * any character that is not alphanumeric, hyphen, or underscore.
+ * This prevents CSS selector / variable-name injection when values
+ * are interpolated into the dangerouslySetInnerHTML style block.
+ */
+function sanitizeCssIdentifier(value: string): string {
+  return value.replace(/[^a-zA-Z0-9_-]/g, "");
+}
+
 const ChartStyle = ({ id, config }: { id: string; config: ChartConfig }) => {
   const colorConfig = Object.entries(config).filter(([_, config]) => config.theme || config.color);
 
@@ -65,17 +75,27 @@ const ChartStyle = ({ id, config }: { id: string; config: ChartConfig }) => {
     return null;
   }
 
+  // Sanitize the chart id used in the CSS attribute selector so a
+  // crafted id like `x] body { color: red } [data-chart=x` cannot
+  // inject arbitrary CSS rules.
+  const safeId = sanitizeCssIdentifier(id);
+
   return (
     <style
       dangerouslySetInnerHTML={{
         __html: Object.entries(THEMES)
           .map(
             ([theme, prefix]) => `
-${prefix} [data-chart=${id}] {
+${prefix} [data-chart=${safeId}] {
 ${colorConfig
   .map(([key, itemConfig]) => {
     const color = itemConfig.theme?.[theme as keyof typeof itemConfig.theme] || itemConfig.color;
-    return color ? `  --color-${key}: ${color};` : null;
+    // Strip semicolons and braces from color values to prevent CSS injection
+    const safeCssValue = color ? color.replace(/[;{}]/g, "") : null;
+    // Sanitize the config key used as a CSS custom-property name so a
+    // key like `x}: body { color: red` cannot inject CSS rules.
+    const safeKey = sanitizeCssIdentifier(key);
+    return (safeCssValue && safeKey) ? `  --color-${safeKey}: ${safeCssValue};` : null;
   })
   .join("\n")}
 }

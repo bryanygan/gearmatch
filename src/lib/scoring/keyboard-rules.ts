@@ -7,6 +7,7 @@
 
 import type { KeyboardProduct } from "@/types/products";
 import type { KeyboardQuizAnswers, ScoringRule, RuleResult } from "./types";
+import { makeQualityRule } from "./quality-rule";
 
 // =============================================================================
 // Rule 1: Primary Use Match (weight: 0.25, max: 25 points)
@@ -701,7 +702,7 @@ export const mediaControlsRule: ScoringRule<KeyboardQuizAnswers, KeyboardProduct
 
     const hasKnob = product.core_attributes.keyboard_has_knob;
     const features = product.core_attributes.keyboard_feature_tags;
-    const hasMediaKeys = features.includes("media_keys");
+    const hasMediaKeys = features.includes("volume_wheel");
 
     switch (pref) {
       case "essential":
@@ -804,4 +805,5 @@ export const keyboardRules: ScoringRule<KeyboardQuizAnswers, KeyboardProduct>[] 
   switchTechnologyRule,
   mediaControlsRule,
   keycapMaterialRule,
+  makeQualityRule<KeyboardQuizAnswers, KeyboardProduct>(),
 ];

@@ -29,6 +29,8 @@ interface QuizContainerProps<TAnswers extends object> {
   defaultMode?: QuizMode;
   /** Whether to show mode selection screen (default: true) */
   showModeSelection?: boolean;
+  /** Pre-populated answers for edit mode (skips mode selection) */
+  initialAnswers?: Record<string, string | string[]>;
 }
 
 const categoryIcons = {
@@ -59,16 +61,26 @@ function QuizContainer<TAnswers extends object>({
   onComplete,
   defaultMode = "personalized",
   showModeSelection = true,
+  initialAnswers,
 }: QuizContainerProps<TAnswers>) {
+  // In edit mode, skip mode selection and use expert to expose all questions
+  const isEditMode = Boolean(initialAnswers);
+
   // State
-  const [showModeSelect, setShowModeSelect] = useState(showModeSelection);
-  const [selectedMode, setSelectedMode] = useState<QuizMode>(defaultMode);
+  const [showModeSelect, setShowModeSelect] = useState(isEditMode ? false : showModeSelection);
+  const [selectedMode, setSelectedMode] = useState<QuizMode>(isEditMode ? "expert" : defaultMode);
 
   // Create engine instance (recreated when mode changes)
-  const engine = useMemo(
-    () => new QuizEngine<TAnswers>(questions, selectedMode),
-    [questions, selectedMode]
-  );
+  const engine = useMemo(() => {
+    const eng = new QuizEngine<TAnswers>(questions, selectedMode);
+    // Pre-populate answers in edit mode
+    if (initialAnswers) {
+      for (const [key, value] of Object.entries(initialAnswers)) {
+        eng.setAnswer(key, value);
+      }
+    }
+    return eng;
+  }, [questions, selectedMode, initialAnswers]);
 
   // Force re-render when engine state changes
   const [, forceUpdate] = useState({});

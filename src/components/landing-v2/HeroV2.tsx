@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { useEffect, useState } from "react";
 import ScrollingProductGrid from "@/components/landing/ScrollingProductGrid";
+import { CURATED_LOADOUTS } from "@/data/curated-loadouts";
 
 const HeroV2 = () => {
   const [mounted, setMounted] = useState(false);
@@ -76,7 +77,7 @@ const HeroV2 = () => {
         }}
       >
         <div>v2.0.26</div>
-        <div>1040+ PRODUCTS</div>
+        <div>2000+ PRODUCTS</div>
       </div>
 
       {/* Main Content Grid */}
@@ -319,7 +320,7 @@ const HeroV2 = () => {
                   background: "var(--v2-border-bright)",
                 }}
               />
-              <StatItem value="1040+" label="products" />
+              <StatItem value="2,200+" label="products" />
               <div
                 style={{
                   width: "1px",
@@ -392,7 +393,7 @@ const HeroV2 = () => {
                 style={{
                   background:
                     "radial-gradient(circle, var(--v2-primary-glow), transparent 70%)",
-                  filter: "blur(60px)",
+                  filter: "blur(10px)",
                   opacity: 0.3,
                 }}
               />
@@ -452,188 +453,155 @@ const StatItem = ({ value, label }: { value: string; label: string }) => (
 );
 
 /* ---- RECOMMENDATION PREVIEW V2 ---- */
-const peripheralPacks = [
-  {
-    id: 1,
-    title: "Budget FPS Gaming Setup",
-    category: "Gaming • Competitive",
-    items: [
-      "Logitech G Pro X Superlight 2",
-      "HyperX Cloud III",
-      "Razer BlackWidow V4",
-    ],
-    price: 329.99,
-    accent: "var(--v2-primary)",
-  },
-  {
-    id: 2,
-    title: "Premium Productivity Pack",
-    category: "Work • Ergonomic",
-    items: [
-      "Logitech MX Master 3S",
-      "Sony WH-1000XM5",
-      "Keychron Q1 Pro",
-    ],
-    price: 649.99,
-    accent: "var(--v2-accent)",
-  },
-  {
-    id: 3,
-    title: "Music Production Essentials",
-    category: "Audio • Creative",
-    items: [
-      "Sennheiser HD 600",
-      "Focusrite Scarlett 2i2",
-      "Audio-Technica AT2020",
-    ],
-    price: 479.99,
-    accent: "var(--v2-secondary)",
-  },
-  {
-    id: 4,
-    title: "CS Student Starter Kit",
-    category: "Student • Budget",
-    items: [
-      "Pulsar X2V2",
-      "Moondrop Aria 2",
-      "Royal Kludge RK84",
-    ],
-    price: 199.99,
-    accent: "var(--v2-primary)",
-  },
-  {
-    id: 5,
-    title: "Streamer Pro Setup",
-    category: "Streaming • Content",
-    items: [
-      "Elgato Wave:3",
-      "SteelSeries Arctis Nova Pro",
-      "Razer DeathAdder V3",
-    ],
-    price: 549.99,
-    accent: "var(--v2-tertiary)",
-  },
-  {
-    id: 6,
-    title: "Graphic Designer Bundle",
-    category: "Creative • Precision",
-    items: [
-      "Wacom Intuos Pro",
-      "Logitech MX Anywhere 3",
-      "Apple Magic Keyboard",
-    ],
-    price: 429.99,
-    accent: "var(--v2-accent)",
-  },
-];
+
+/** Product display names for curated loadout items */
+const PRODUCT_NAMES: Record<string, string> = {
+  mchose_l7_pro: "MCHOSE L7 Pro",
+  steelseries_tusq: "SteelSeries TUSQ",
+  mchose_ace_60_pro: "MCHOSE Ace 60 Pro",
+  asus_tuf_vg259qm: "ASUS TUF VG259QM",
+  logitech_mx_master_4: "Logitech MX Master 4",
+  audeze_maxwell: "Audeze Maxwell",
+  keychron_q5_max: "Keychron Q5 Max",
+  dell_u2725qe: "Dell U2725QE",
+  logitech_g_pro_x_superlight_2_dex: "Logitech G Pro X Superlight 2 DEX",
+  hyperx_cloud_alpha_wireless: "HyperX Cloud Alpha Wireless",
+  wooting_80he: "Wooting 80HE",
+  dell_alienware_aw2725df: "Dell Alienware AW2725DF",
+  logitech_g_pro_x2_superstrike: "Logitech G Pro X2 SUPERSTRIKE",
+  razer_blackshark_v2_pro_wireless_2023: "Razer BlackShark V2 Pro 2023",
+  wooting_60he_v2: "Wooting 60HE v2",
+  asus_rog_swift_oled_pg27aqdm: "ASUS ROG Swift OLED PG27AQDM",
+};
+
+/** Accent color + category label per curated loadout */
+const LOADOUT_STYLE: Record<string, { accent: string; category: string }> = {
+  "budget-fps-setup": { accent: "var(--v2-primary)", category: "Gaming • Budget" },
+  "premium-productivity-pack": { accent: "var(--v2-accent)", category: "Work • Ergonomic" },
+  "competitive-esports-kit": { accent: "var(--v2-secondary)", category: "Esports • Competitive" },
+  "streaming-pro-loadout": { accent: "var(--v2-tertiary)", category: "Streaming • Content" },
+};
 
 const PackCardV2 = ({
-  pack,
+  loadout,
 }: {
-  pack: (typeof peripheralPacks)[0];
-}) => (
-  <div
-    className="v2-card group"
-    style={{
-      padding: "20px",
-      clipPath:
-        "polygon(0 0, calc(100% - 16px) 0, 100% 16px, 100% 100%, 16px 100%, 0 calc(100% - 16px))",
-    }}
-  >
-    {/* Accent line */}
-    <div
-      style={{
-        position: "absolute",
-        top: 0,
-        left: 0,
-        width: "3px",
-        height: "40%",
-        background: pack.accent,
-        opacity: 0.6,
-        transition: "height 0.3s ease, opacity 0.3s ease",
-      }}
-      className="group-hover:!h-[60%] group-hover:!opacity-100"
-    />
+  loadout: (typeof CURATED_LOADOUTS)[number];
+}) => {
+  const style = LOADOUT_STYLE[loadout.id] ?? {
+    accent: "var(--v2-primary)",
+    category: "Loadout",
+  };
+  const itemNames = loadout.items.map(
+    (item) => PRODUCT_NAMES[item.productId] ?? item.productId,
+  );
 
-    {/* Category Tag */}
-    <div
+  return (
+    <Link
+      to={`/loadout?loadout=${loadout.id}`}
+      className="v2-card group block"
       style={{
-        fontFamily: "var(--v2-font-mono)",
-        fontSize: "10px",
-        letterSpacing: "0.1em",
-        color: "var(--v2-text-dim)",
-        textTransform: "uppercase",
-        marginBottom: "8px",
+        padding: "20px",
+        clipPath:
+          "polygon(0 0, calc(100% - 16px) 0, 100% 16px, 100% 100%, 16px 100%, 0 calc(100% - 16px))",
+        textDecoration: "none",
+        color: "inherit",
       }}
     >
-      {pack.category}
-    </div>
-
-    {/* Title */}
-    <h3
-      style={{
-        fontFamily: "var(--v2-font-ui)",
-        fontSize: "16px",
-        fontWeight: 700,
-        marginBottom: "12px",
-        color: "var(--v2-text)",
-      }}
-    >
-      {pack.title}
-    </h3>
-
-    {/* Items */}
-    <div style={{ marginBottom: "16px" }}>
-      {pack.items.map((item, idx) => (
-        <div
-          key={idx}
-          style={{
-            fontFamily: "var(--v2-font-body)",
-            fontSize: "14px",
-            color: "var(--v2-text-muted)",
-            lineHeight: 1.6,
-            paddingLeft: "12px",
-            borderLeft: `1px solid var(--v2-border)`,
-          }}
-        >
-          {item}
-        </div>
-      ))}
-    </div>
-
-    {/* Price */}
-    <div
-      style={{
-        borderTop: "1px solid var(--v2-border)",
-        paddingTop: "12px",
-        display: "flex",
-        alignItems: "center",
-        justifyContent: "space-between",
-      }}
-    >
-      <span
+      {/* Accent line */}
+      <div
         style={{
-          fontFamily: "var(--v2-font-display)",
-          fontSize: "18px",
-          color: "var(--v2-text)",
+          position: "absolute",
+          top: 0,
+          left: 0,
+          width: "3px",
+          height: "40%",
+          background: style.accent,
+          opacity: 0.6,
+          transition: "height 0.3s ease, opacity 0.3s ease",
         }}
-      >
-        ${pack.price.toFixed(2)}
-      </span>
-      {/* TODO: Convert to <Link to={`/loadout/${pack.id}`}> once loadout routes are implemented */}
-      <span
+        className="group-hover:!h-[60%] group-hover:!opacity-100"
+      />
+
+      {/* Category Tag */}
+      <div
         style={{
           fontFamily: "var(--v2-font-mono)",
           fontSize: "10px",
-          color: pack.accent,
           letterSpacing: "0.1em",
+          color: "var(--v2-text-dim)",
+          textTransform: "uppercase",
+          marginBottom: "8px",
         }}
       >
-        VIEW LOADOUT →
-      </span>
-    </div>
-  </div>
-);
+        {style.category}
+      </div>
+
+      {/* Title */}
+      <h3
+        style={{
+          fontFamily: "var(--v2-font-ui)",
+          fontSize: "16px",
+          fontWeight: 700,
+          marginBottom: "12px",
+          color: "var(--v2-text)",
+        }}
+      >
+        {loadout.name}
+      </h3>
+
+      {/* Items */}
+      <div style={{ marginBottom: "16px" }}>
+        {itemNames.map((name, index) => (
+          <div
+            key={index}
+            style={{
+              fontFamily: "var(--v2-font-body)",
+              fontSize: "14px",
+              color: "var(--v2-text-muted)",
+              lineHeight: 1.6,
+              paddingLeft: "12px",
+              borderLeft: `1px solid var(--v2-border)`,
+            }}
+          >
+            {name}
+          </div>
+        ))}
+      </div>
+
+      {/* Price Range */}
+      <div
+        style={{
+          borderTop: "1px solid var(--v2-border)",
+          paddingTop: "12px",
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "space-between",
+        }}
+      >
+        <span
+          style={{
+            fontFamily: "var(--v2-font-display)",
+            fontSize: "18px",
+            color: "var(--v2-text)",
+          }}
+        >
+          ${loadout.totalPriceRange[0].toLocaleString()}–$
+          {loadout.totalPriceRange[1].toLocaleString()}
+        </span>
+        <span
+          style={{
+            fontFamily: "var(--v2-font-mono)",
+            fontSize: "10px",
+            color: style.accent,
+            letterSpacing: "0.1em",
+          }}
+        >
+          VIEW LOADOUT →
+        </span>
+      </div>
+    </Link>
+  );
+};
 
 const RecommendationPreviewV2 = () => (
   <div className="w-full max-w-6xl mx-auto">
@@ -701,9 +669,9 @@ const RecommendationPreviewV2 = () => (
 
       {/* Cards Grid */}
       <div className="p-4 md:p-6">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-          {peripheralPacks.map((pack) => (
-            <PackCardV2 key={pack.id} pack={pack} />
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-4">
+          {CURATED_LOADOUTS.map((loadout) => (
+            <PackCardV2 key={loadout.id} loadout={loadout} />
           ))}
         </div>
       </div>

@@ -90,12 +90,13 @@ const QuizModeSelector = memo(function QuizModeSelector({
               aria-checked={isSelected}
               onClick={() => onSelectMode(mode)}
               className={cn(
-                "group relative flex h-full flex-col items-center gap-2 md:gap-3 rounded-xl border-2 p-3 md:p-5 text-center transition-all duration-300",
-                "hover:scale-[1.02] hover:shadow-lg active:scale-[0.98]",
+                "group relative flex h-full flex-col items-center gap-2 md:gap-3 rounded-xl border p-3 md:p-5 text-center transition-all duration-300",
+                "hover:scale-[1.02] active:scale-[0.98]",
                 isSelected
-                  ? `${accent.border} ${accent.bg} shadow-lg ${accent.glow}`
-                  : "border-border bg-card hover:border-muted-foreground/50"
+                  ? `border-2 ${accent.border} ${accent.bg} shadow-lg ${accent.glow}`
+                  : "border-[var(--v2-border)] hover:border-[var(--v2-border-bright)]"
               )}
+              style={!isSelected ? { background: "var(--v2-bg-card)" } : undefined}
             >
               {/* Recommended badge */}
               {isRecommended && (
@@ -156,7 +157,7 @@ const QuizModeSelector = memo(function QuizModeSelector({
               </div>
 
               {/* Time estimate */}
-              <div className="flex items-center gap-1 text-xs text-muted-foreground">
+              <div className={cn("flex items-center gap-1 text-xs text-muted-foreground", isRecommended && "mb-7")}>
                 <Clock className="h-3.5 w-3.5" />
                 <span>~{config.estimatedMinutes} min</span>
               </div>
