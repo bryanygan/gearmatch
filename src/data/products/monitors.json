@@ -43356,7 +43356,19 @@
       "monitor_use_case_fit": [
         "competitive_gaming",
         "fps"
-      ]
+      ],
+      "monitor_use_fit": [
+        "competitive_gaming",
+        "fps"
+      ],
+      "monitor_feature_tags": [
+        "high_refresh",
+        "low_input_lag",
+        "freesync",
+        "gsync_compatible",
+        "hdr"
+      ],
+      "monitor_value_pick": false
     }
   }
 ]

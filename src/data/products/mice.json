@@ -84794,7 +84794,10 @@
         "safe_shape",
         "esports_shape",
         "premium_feel"
-      ]
+      ],
+      "mouse_feet_quality": "great",
+      "mouse_coating": "matte",
+      "mouse_value_pick": false
     }
   }
 ]
