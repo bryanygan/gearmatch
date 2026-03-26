@@ -1,5 +1,6 @@
 name = "gearmatch"
 compatibility_date = "2024-12-01"
+pages_build_output_dir = "dist"
 
 [vars]
 # Dev/preview: allow all origins (wildcard patterns are invalid for ACAO header)
