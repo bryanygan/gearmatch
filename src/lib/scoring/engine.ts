@@ -109,7 +109,13 @@ function scoreProduct<TAnswers, TProduct extends Product>(
   // Apply calibration curve to raw weighted sum before rounding.
   // This stretches the display score so genuinely strong matches
   // reach 100% while poor matches remain low.
-  const score = Math.round(calibrateScore(weightedSum));
+  let score = Math.round(calibrateScore(weightedSum));
+
+  // A product with concerns is not a perfect match — cap at 97 so
+  // 100% is reserved for products with zero tradeoffs.
+  if (concerns.length > 0 && score >= 98) {
+    score = Math.max(95, 98 - concerns.length);
+  }
 
   return {
     product,
