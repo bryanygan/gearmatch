@@ -1,6 +1,6 @@
 import { ReactNode } from "react";
 import { Link } from "react-router-dom";
-import { Crosshair, RotateCcw, Mouse, Headphones, Keyboard, Monitor, Share2 } from "lucide-react";
+import { RotateCcw, Mouse, Headphones, Keyboard, Monitor, Share2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 import { toast } from "sonner";
@@ -51,32 +51,34 @@ const ResultsLayout = ({
   const categoryLabel = config.label;
 
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen" style={{ background: "var(--v2-bg)", color: "var(--v2-text)" }}>
       {/* Header */}
-      <header className="fixed left-0 right-0 top-0 z-50 border-b border-border/50 bg-background/80 backdrop-blur-md">
+      <header
+        className="fixed left-0 right-0 top-0 z-50"
+        style={{
+          background: "rgba(7, 7, 13, 0.92)",
+          backdropFilter: "blur(10px)",
+          borderBottom: "1px solid rgba(0, 255, 157, 0.12)",
+        }}
+      >
         <div className="mx-auto flex h-16 max-w-5xl items-center justify-between px-6">
           <div className="flex items-center gap-4">
-            <Link to="/" className="flex items-center gap-2">
-              <div
-                className={cn(
-                  "flex h-8 w-8 items-center justify-center rounded-lg",
-                  accentColor === "primary" && "bg-primary/20",
-                  accentColor === "accent" && "bg-accent/20",
-                  accentColor === "secondary" && "bg-secondary",
-                  accentColor === "tertiary" && "bg-violet-500/20"
-                )}
+            <Link to="/" className="flex items-center gap-3 group">
+              <img
+                src="/gearmatchlogo.svg"
+                alt="GearMatch logo"
+                className="w-8 h-8 object-contain"
+              />
+              <span
+                style={{
+                  fontFamily: "var(--v2-font-display)",
+                  fontSize: "18px",
+                  letterSpacing: "0.08em",
+                  color: "var(--v2-text)",
+                }}
               >
-                <Crosshair
-                  className={cn(
-                    "h-5 w-5",
-                    accentColor === "primary" && "text-primary",
-                    accentColor === "accent" && "text-accent",
-                    accentColor === "secondary" && "text-foreground",
-                    accentColor === "tertiary" && "text-violet-600 dark:text-violet-400"
-                  )}
-                />
-              </div>
-              <span className="font-display text-lg font-bold">GearMatch</span>
+                GEARMATCH
+              </span>
             </Link>
 
             {/* Category badge */}
