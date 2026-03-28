@@ -72,6 +72,7 @@ const QuizProgress = ({
             size="icon"
             onClick={onBack}
             className="shrink-0"
+            aria-label="Go to previous question"
           >
             <ChevronLeft className="h-5 w-5" />
           </Button>
@@ -95,7 +96,15 @@ const QuizProgress = ({
             </span>
           </div>
 
-          <div className="relative h-2 w-full overflow-hidden rounded-full" style={{ background: "var(--v2-border)" }}>
+          <div
+            className="relative h-2 w-full overflow-hidden rounded-full"
+            style={{ background: "var(--v2-border)" }}
+            role="progressbar"
+            aria-valuenow={Math.round(progress)}
+            aria-valuemin={0}
+            aria-valuemax={100}
+            aria-label={`Quiz progress: question ${currentStep} of ${totalSteps}`}
+          >
             <div
               className={cn(
                 "h-full transition-all duration-500 ease-out",

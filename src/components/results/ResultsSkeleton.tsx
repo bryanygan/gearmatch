@@ -8,7 +8,7 @@ interface ResultsSkeletonProps {
 
 const ResultsSkeleton = ({ accentColor = "primary" }: ResultsSkeletonProps) => {
   return (
-    <div className="space-y-8 animate-in fade-in duration-300" role="status" aria-label="Loading recommendations">
+    <div className="space-y-8 animate-in fade-in duration-300" role="status" aria-live="polite" aria-label="Loading recommendations">
       {/* Header skeleton */}
       <div className="space-y-4 text-center">
         <Skeleton className="mx-auto h-8 w-64" />

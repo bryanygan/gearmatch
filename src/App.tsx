@@ -41,7 +41,7 @@ const SimilarProductsPage = lazy(() => import("./pages/SimilarProductsPage"));
 
 // Loading fallback for lazy-loaded pages
 const PageLoader = () => (
-  <div className="flex items-center justify-center min-h-screen bg-background">
+  <div className="flex items-center justify-center min-h-screen bg-background" role="status" aria-label="Loading page">
     <div className="flex flex-col items-center gap-4">
       <div className="w-8 h-8 border-4 border-primary border-t-transparent rounded-full animate-spin" />
       <p className="text-muted-foreground text-sm">Loading...</p>
@@ -69,6 +69,15 @@ const RouteChangeListener = ({ onRouteChange }: RouteChangeListenerProps) => {
     previousPathRef.current = location.pathname;
   }, [location.pathname, navigationType, onRouteChange]);
 
+  // Announce route changes to screen readers
+  useEffect(() => {
+    const title = document.title;
+    const announcer = document.getElementById("route-announcer");
+    if (announcer) {
+      announcer.textContent = title;
+    }
+  }, [location.pathname]);
+
   return null;
 };
 
@@ -91,8 +100,13 @@ const App = () => {
         <TooltipProvider>
           <Sonner />
           <BrowserRouter>
+            <a href="#main-content" className="sr-only focus:not-sr-only focus:fixed focus:top-2 focus:left-2 focus:z-[100] focus:rounded-md focus:bg-primary focus:px-4 focus:py-2 focus:text-primary-foreground">
+              Skip to content
+            </a>
+            <div id="route-announcer" aria-live="assertive" aria-atomic="true" role="status" className="sr-only" />
             <RouteChangeListener onRouteChange={handleRouteChange} />
             <SearchBar />
+            <main id="main-content">
             <Suspense fallback={<PageLoader />}>
               <SentryRoutes>
                 <Route
@@ -121,6 +135,7 @@ const App = () => {
                 <Route path="*" element={<NotFound />} />
               </SentryRoutes>
             </Suspense>
+            </main>
           </BrowserRouter>
         </TooltipProvider>
       </QueryClientProvider>
