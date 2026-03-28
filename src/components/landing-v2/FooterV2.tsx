@@ -94,6 +94,12 @@ const FooterV2 = () => {
                       onMouseLeave={(e) =>
                         (e.currentTarget.style.color = "var(--v2-text-muted)")
                       }
+                      onFocus={(e) =>
+                        (e.currentTarget.style.color = "var(--v2-text)")
+                      }
+                      onBlur={(e) =>
+                        (e.currentTarget.style.color = "var(--v2-text-muted)")
+                      }
                     >
                       {link.label}
                     </Link>
@@ -139,6 +145,12 @@ const FooterV2 = () => {
                       onMouseLeave={(e) =>
                         (e.currentTarget.style.color = "var(--v2-text-muted)")
                       }
+                      onFocus={(e) =>
+                        (e.currentTarget.style.color = "var(--v2-text)")
+                      }
+                      onBlur={(e) =>
+                        (e.currentTarget.style.color = "var(--v2-text-muted)")
+                      }
                     >
                       {link.label}
                     </Link>
@@ -181,6 +193,12 @@ const FooterV2 = () => {
                         (e.currentTarget.style.color = "var(--v2-text)")
                       }
                       onMouseLeave={(e) =>
+                        (e.currentTarget.style.color = "var(--v2-text-muted)")
+                      }
+                      onFocus={(e) =>
+                        (e.currentTarget.style.color = "var(--v2-text)")
+                      }
+                      onBlur={(e) =>
                         (e.currentTarget.style.color = "var(--v2-text-muted)")
                       }
                     >

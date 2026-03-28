@@ -110,6 +110,12 @@ const NavbarV2 = () => {
               onMouseLeave={(e) =>
                 (e.currentTarget.style.color = "var(--v2-text-muted)")
               }
+              onFocus={(e) =>
+                (e.currentTarget.style.color = "var(--v2-primary)")
+              }
+              onBlur={(e) =>
+                (e.currentTarget.style.color = "var(--v2-text-muted)")
+              }
             >
               How It Works
             </button>
@@ -131,6 +137,12 @@ const NavbarV2 = () => {
                 (e.currentTarget.style.color = "var(--v2-primary)")
               }
               onMouseLeave={(e) =>
+                (e.currentTarget.style.color = "var(--v2-text-muted)")
+              }
+              onFocus={(e) =>
+                (e.currentTarget.style.color = "var(--v2-primary)")
+              }
+              onBlur={(e) =>
                 (e.currentTarget.style.color = "var(--v2-text-muted)")
               }
             >
@@ -156,6 +168,12 @@ const NavbarV2 = () => {
               onMouseLeave={(e) =>
                 (e.currentTarget.style.color = "var(--v2-text-muted)")
               }
+              onFocus={(e) =>
+                (e.currentTarget.style.color = "var(--v2-primary)")
+              }
+              onBlur={(e) =>
+                (e.currentTarget.style.color = "var(--v2-text-muted)")
+              }
             >
               Why Trust Us
             </button>
@@ -174,6 +192,12 @@ const NavbarV2 = () => {
               onMouseLeave={(e) =>
                 (e.currentTarget.style.color = "var(--v2-text-muted)")
               }
+              onFocus={(e) =>
+                (e.currentTarget.style.color = "var(--v2-primary)")
+              }
+              onBlur={(e) =>
+                (e.currentTarget.style.color = "var(--v2-text-muted)")
+              }
             >
               Loadout
             </Link>
@@ -190,6 +214,12 @@ const NavbarV2 = () => {
                 (e.currentTarget.style.color = "var(--v2-primary)")
               }
               onMouseLeave={(e) =>
+                (e.currentTarget.style.color = "var(--v2-text-muted)")
+              }
+              onFocus={(e) =>
+                (e.currentTarget.style.color = "var(--v2-primary)")
+              }
+              onBlur={(e) =>
                 (e.currentTarget.style.color = "var(--v2-text-muted)")
               }
             >
