@@ -3,8 +3,7 @@ import { Check, AlertTriangle, Trophy, Star, ExternalLink, Building2, ShoppingBa
 import { useNavigate } from "react-router-dom";
 import { toast } from "sonner";
 import type { ScoredProduct } from "@/lib/scoring";
-import type { MouseProduct, AudioProduct, KeyboardProduct, MonitorProduct, MouseCoreAttributes, AudioCoreAttributes, KeyboardCoreAttributes } from "@/types/products";
-import type { MonitorCoreAttributes } from "@/types/monitor";
+import type { MouseProduct, AudioProduct, KeyboardProduct, MonitorProduct } from "@/types/products";
 import { getMatchQuality, getTopReasons, getTopConcerns } from "@/lib/scoring";
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -252,74 +251,9 @@ const RecommendationCard = memo(function RecommendationCard({
   // Determine if this is the #1 pick
   const isFirstPick = rank === 1 && isTopPick;
 
-  // Find similar handler
+  // Find similar handler — navigates to dedicated similar products page
   const handleFindSimilar = () => {
-    const params = new URLSearchParams();
-    const priceBudgetMap: Record<string, string> = {
-      budget: "budget",
-      lower_midrange: "mid-range",
-      midrange: "mid-range",
-      upper_midrange: "premium",
-      premium: "premium",
-      flagship: "no-limit",
-    };
-    if (product.category === "mouse") {
-      const m = (product as MouseProduct).core_attributes as MouseCoreAttributes;
-      params.set("hand-size", m.mouse_size_class);
-      if (m.mouse_grip_fit.length > 0) params.set("grip-style", m.mouse_grip_fit[0]);
-      const wc = m.mouse_weight_class === "ultralight" ? "ultralight"
-        : m.mouse_weight_class === "light" ? "light"
-        : (m.mouse_weight_class === "mid" || m.mouse_weight_class === "medium") ? "medium"
-        : "heavy";
-      params.set("weight-preference", wc);
-      params.set("wireless", m.wireless ? "wireless" : "wired");
-      params.set("primary-use", m.mouse_game_fit.includes("fps") ? "precision" : "mixed");
-    } else if (product.category === "audio") {
-      const a = (product as AudioProduct).core_attributes as AudioCoreAttributes;
-      params.set("form-factor", a.category_subtype === "iem" ? "iem" : "over-ear");
-      params.set("mic-needs", a.audio_has_mic ? "nice-to-have" : "not-needed");
-      const comfort = a.audio_comfort === "great" ? "all-day" : a.audio_comfort === "good" ? "long" : "medium";
-      params.set("session-length", comfort);
-      params.set("budget", priceBudgetMap[a.price_tier] ?? "mid-range");
-      params.set("primary-use", product.recommendation_tags.includes("competitive") ? "competitive" : "mixed");
-    } else if (product.category === "keyboard") {
-      const k = (product as KeyboardProduct).core_attributes as KeyboardCoreAttributes;
-      params.set("primary-use", product.recommendation_tags.includes("competitive") ? "competitive-gaming" : "productivity");
-      // Map form factor
-      const ffMap: Record<string, string> = {
-        "60_percent": "60-65-percent",
-        "65_percent": "60-65-percent",
-        "75_percent": "75-percent",
-        "tkl_80_percent": "tkl",
-        "full_size_100_percent": "full-size",
-        "96_percent": "full-size",
-        "alice": "full-size",
-        "ortholinear": "full-size",
-        "split": "full-size",
-      };
-      params.set("form-factor", ffMap[k.keyboard_form_factor] ?? "full-size");
-      params.set("switch-type", k.keyboard_switch_feel ?? "no-preference");
-      params.set("gaming-features", k.keyboard_supports_rapid_trigger ? "essential" : "nice-to-have");
-      params.set("connectivity", k.wireless ? "wireless-preferred" : "wired-preferred");
-      params.set("priority-feature", "performance");
-      params.set("budget", priceBudgetMap[k.price_tier] ?? "mid-range");
-    } else if (product.category === "monitor") {
-      const mn = (product as MonitorProduct).core_attributes as MonitorCoreAttributes;
-      params.set("primary-use", product.recommendation_tags.includes("gaming") ? "gaming" : "mixed");
-      params.set("size-preference", mn.monitor_size_class);
-      params.set("resolution", mn.monitor_resolution_class);
-      const rr = mn.monitor_max_refresh_hz < 100 ? "basic" : mn.monitor_max_refresh_hz < 200 ? "standard" : "high";
-      params.set("refresh-rate", rr);
-      const ptMap: Record<string, string> = { IPS: "ips", VA: "va", OLED: "oled", "QD-OLED": "oled", TN: "ips", "Mini-LED": "ips" };
-      params.set("panel-type", ptMap[mn.monitor_panel_type] ?? "ips");
-    }
-    toast.success(`Finding products similar to ${product.name}...`, { duration: 2000 });
-    // Scroll to top before navigating so the user sees the new results
-    window.scrollTo({ top: 0, behavior: "smooth" });
-    // Small delay so the toast is visible before navigation
-    setTimeout(() => {
-      navigate(`/quiz/${product.category}/results?${params.toString()}`);
-    }, 300);
+    navigate(`/similar/${product.category}/${product.id}`);
   };
 
   // Compact (list) view
