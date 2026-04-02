@@ -102,6 +102,7 @@ const ScoreBreakdown = ({ breakdown, accentColor: _accentColor }: ScoreBreakdown
     <div className="mt-4 border-t border-border/50 pt-4">
       <button
         onClick={() => setIsOpen(!isOpen)}
+        aria-expanded={isOpen}
         className={cn(
           "flex w-full items-center justify-between text-sm transition-colors",
           "text-muted-foreground hover:text-foreground"

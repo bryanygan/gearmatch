@@ -241,7 +241,11 @@ describe("AnswerSummary", () => {
       wireless: "either",
       "primary-use": ["precision"],
     };
-    render(<AnswerSummary answers={answers} category="mouse" />);
+    render(
+      <MemoryRouter>
+        <AnswerSummary answers={answers} category="mouse" />
+      </MemoryRouter>
+    );
     expect(screen.getByText("Claw grip")).toBeDefined();
     expect(screen.getByText("Medium hands")).toBeDefined();
     expect(screen.getByText("Ultralight (<60g)")).toBeDefined();
@@ -255,7 +259,11 @@ describe("AnswerSummary", () => {
       "session-length": ["long"],
       budget: ["mid-range"],
     };
-    render(<AnswerSummary answers={answers} category="audio" />);
+    render(
+      <MemoryRouter>
+        <AnswerSummary answers={answers} category="audio" />
+      </MemoryRouter>
+    );
     expect(screen.getByText("Precision audio")).toBeDefined();
     expect(screen.getByText("Mic essential")).toBeDefined();
   });
@@ -270,7 +278,11 @@ describe("AnswerSummary", () => {
       "priority-feature": ["performance"],
       budget: ["mid-range"],
     };
-    render(<AnswerSummary answers={answers} category="keyboard" />);
+    render(
+      <MemoryRouter>
+        <AnswerSummary answers={answers} category="keyboard" />
+      </MemoryRouter>
+    );
     expect(screen.getByText("Competitive Gaming")).toBeDefined();
     expect(screen.getByText("Linear")).toBeDefined();
   });
@@ -281,7 +293,11 @@ describe("AnswerSummary", () => {
       "size-preference": "standard",
       resolution: "1440p",
     };
-    render(<AnswerSummary answers={answers} category="monitor" />);
+    render(
+      <MemoryRouter>
+        <AnswerSummary answers={answers} category="monitor" />
+      </MemoryRouter>
+    );
     expect(screen.getByText("Gaming")).toBeDefined();
     expect(screen.getByText("1440p")).toBeDefined();
   });
@@ -294,7 +310,11 @@ describe("AnswerSummary", () => {
       wireless: "either",
       "primary-use": ["precision"],
     };
-    render(<AnswerSummary answers={answers} category="mouse" />);
+    render(
+      <MemoryRouter>
+        <AnswerSummary answers={answers} category="mouse" />
+      </MemoryRouter>
+    );
     expect(screen.getByText("Palm grip, Claw grip")).toBeDefined();
   });
 });

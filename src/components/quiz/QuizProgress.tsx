@@ -24,7 +24,8 @@ const QuizProgress = ({
 }: QuizProgressProps) => {
   // Progress is based on completed questions, so last question shows (n-1)/n
   // This reserves 100% for the results page
-  const progress = ((currentStep - 1) / totalSteps) * 100;
+  const rawProgress = totalSteps > 0 ? ((currentStep - 1) / totalSteps) * 100 : 0;
+  const progress = Math.min(100, Math.max(0, rawProgress));
 
   return (
     <div className="space-y-1.5">
@@ -72,6 +73,7 @@ const QuizProgress = ({
             size="icon"
             onClick={onBack}
             className="shrink-0"
+            aria-label="Go to previous question"
           >
             <ChevronLeft className="h-5 w-5" />
           </Button>
@@ -95,7 +97,15 @@ const QuizProgress = ({
             </span>
           </div>
 
-          <div className="relative h-2 w-full overflow-hidden rounded-full" style={{ background: "var(--v2-border)" }}>
+          <div
+            className="relative h-2 w-full overflow-hidden rounded-full"
+            style={{ background: "var(--v2-border)" }}
+            role="progressbar"
+            aria-valuenow={Math.round(progress)}
+            aria-valuemin={0}
+            aria-valuemax={100}
+            aria-label={`Quiz progress: question ${currentStep} of ${totalSteps}`}
+          >
             <div
               className={cn(
                 "h-full transition-all duration-500 ease-out",
