@@ -24,7 +24,9 @@ const QuizProgress = ({
 }: QuizProgressProps) => {
   // Progress is based on completed questions, so last question shows (n-1)/n
   // This reserves 100% for the results page
-  const progress = ((currentStep - 1) / totalSteps) * 100;
+  const progress = totalSteps > 0
+    ? Math.min(100, Math.max(0, Math.round(((currentStep - 1) / totalSteps) * 100)))
+    : 0;
 
   return (
     <div className="space-y-1.5">
@@ -92,7 +94,7 @@ const QuizProgress = ({
                 accentColor === "tertiary" && "text-violet-600 dark:text-violet-400"
               )}
             >
-              {Math.round(progress)}%
+              {progress}%
             </span>
           </div>
 
@@ -100,7 +102,7 @@ const QuizProgress = ({
             className="relative h-2 w-full overflow-hidden rounded-full"
             style={{ background: "var(--v2-border)" }}
             role="progressbar"
-            aria-valuenow={Math.round(progress)}
+            aria-valuenow={progress}
             aria-valuemin={0}
             aria-valuemax={100}
             aria-label={`Quiz progress: question ${currentStep} of ${totalSteps}`}

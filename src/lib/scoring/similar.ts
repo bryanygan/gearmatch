@@ -74,7 +74,14 @@ function deriveAudioAnswers(product: AudioProduct): AudioQuizAnswers {
     flagship: "no-limit",
   };
 
-  const formFactor = a.category_subtype === "iem" ? "iem" : "over-ear";
+  const formFactor: "over-ear" | "over-ear-headphone" | "iem" | "open-back" =
+    a.category_subtype === "iem" || a.category_subtype === "earbud"
+      ? "iem"
+      : a.audio_open_back
+        ? "open-back"
+        : a.category_subtype === "headphone"
+          ? "over-ear-headphone"
+          : "over-ear";
   const sessionLength = a.audio_comfort === "great" ? "all-day"
     : a.audio_comfort === "good" ? "long"
     : "medium";
@@ -82,7 +89,7 @@ function deriveAudioAnswers(product: AudioProduct): AudioQuizAnswers {
   return {
     "primary-use": product.recommendation_tags.includes("competitive")
       ? ["competitive"] : ["mixed"],
-    "form-factor": [formFactor as "over-ear" | "iem"],
+    "form-factor": [formFactor],
     "mic-needs": a.audio_has_mic ? "nice-to-have" : "not-needed",
     "session-length": [sessionLength as "medium" | "long" | "all-day"],
     budget: [priceBudgetMap[a.price_tier] ?? "mid-range"],
@@ -149,7 +156,11 @@ function deriveMonitorAnswers(product: MonitorProduct): MonitorQuizAnswers {
   return {
     "primary-use": product.recommendation_tags.includes("gaming") ? ["gaming"] : ["mixed"],
     "size-preference": sizeMap[mn.monitor_size_class] ?? "any",
-    resolution: mn.monitor_resolution_class as "1080p" | "1440p" | "4k" | "any",
+    resolution: (["1080p", "1440p", "4k"] as const).includes(
+      mn.monitor_resolution_class as "1080p" | "1440p" | "4k"
+    )
+      ? (mn.monitor_resolution_class as "1080p" | "1440p" | "4k")
+      : "any",
     "refresh-rate": rrVal as "basic" | "standard" | "high",
     "panel-type": [ptMap[mn.monitor_panel_type] ?? "ips"],
   };

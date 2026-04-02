@@ -51,7 +51,7 @@ const SimilarProductsPage = () => {
     if (window.history.length > 1) {
       navigate(-1);
     } else {
-      navigate(`/quiz/${category}/results`);
+      navigate(validCategory ? `/quiz/${validCategory}/results` : "/");
     }
   };
 
