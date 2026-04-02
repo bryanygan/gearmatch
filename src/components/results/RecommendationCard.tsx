@@ -253,7 +253,9 @@ const RecommendationCard = memo(function RecommendationCard({
 
   // Find similar handler — navigates to dedicated similar products page
   const handleFindSimilar = () => {
-    navigate(`/similar/${product.category}/${product.id}`);
+    navigate(`/similar/${encodeURIComponent(product.category)}/${encodeURIComponent(product.id)}`, {
+      state: { fromResults: true },
+    });
   };
 
   // Compact (list) view

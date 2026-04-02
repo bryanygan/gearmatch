@@ -103,7 +103,7 @@ const App = () => {
             <a href="#main-content" className="sr-only focus:not-sr-only focus:fixed focus:top-2 focus:left-2 focus:z-[100] focus:rounded-md focus:bg-primary focus:px-4 focus:py-2 focus:text-primary-foreground">
               Skip to content
             </a>
-            <div id="route-announcer" aria-live="assertive" aria-atomic="true" role="status" className="sr-only" />
+            <div id="route-announcer" aria-live="polite" aria-atomic="true" role="status" className="sr-only" />
             <RouteChangeListener onRouteChange={handleRouteChange} />
             <SearchBar />
             <main id="main-content">

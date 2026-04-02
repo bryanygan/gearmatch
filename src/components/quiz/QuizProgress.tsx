@@ -24,7 +24,8 @@ const QuizProgress = ({
 }: QuizProgressProps) => {
   // Progress is based on completed questions, so last question shows (n-1)/n
   // This reserves 100% for the results page
-  const progress = ((currentStep - 1) / totalSteps) * 100;
+  const rawProgress = totalSteps > 0 ? ((currentStep - 1) / totalSteps) * 100 : 0;
+  const progress = Math.min(100, Math.max(0, rawProgress));
 
   return (
     <div className="space-y-1.5">

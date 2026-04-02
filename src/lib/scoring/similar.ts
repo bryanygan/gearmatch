@@ -5,6 +5,7 @@
  * then uses the existing scoring engine to find similar products.
  */
 
+import { z } from "zod";
 import type { MouseProduct, AudioProduct, KeyboardProduct } from "@/types/products";
 import type { MonitorProduct } from "@/types/monitor";
 import type { Product } from "@/types/products";
@@ -74,7 +75,16 @@ function deriveAudioAnswers(product: AudioProduct): AudioQuizAnswers {
     flagship: "no-limit",
   };
 
-  const formFactor = a.category_subtype === "iem" ? "iem" : "over-ear";
+  let formFactor: "iem" | "over-ear" | "open-back" | "over-ear-headphone";
+  if (a.audio_open_back === true) {
+    formFactor = "open-back";
+  } else if (a.category_subtype === "iem") {
+    formFactor = "iem";
+  } else if (a.audio_type === "headphone") {
+    formFactor = "over-ear-headphone";
+  } else {
+    formFactor = "over-ear";
+  }
   const sessionLength = a.audio_comfort === "great" ? "all-day"
     : a.audio_comfort === "good" ? "long"
     : "medium";
@@ -82,7 +92,7 @@ function deriveAudioAnswers(product: AudioProduct): AudioQuizAnswers {
   return {
     "primary-use": product.recommendation_tags.includes("competitive")
       ? ["competitive"] : ["mixed"],
-    "form-factor": [formFactor as "over-ear" | "iem"],
+    "form-factor": [formFactor],
     "mic-needs": a.audio_has_mic ? "nice-to-have" : "not-needed",
     "session-length": [sessionLength as "medium" | "long" | "all-day"],
     budget: [priceBudgetMap[a.price_tier] ?? "mid-range"],
@@ -146,10 +156,17 @@ function deriveMonitorAnswers(product: MonitorProduct): MonitorQuizAnswers {
     IPS: "ips", VA: "va", OLED: "oled", "QD-OLED": "oled", TN: "ips", "Mini-LED": "ips",
   };
 
+  const isValidResolution = (res: string): res is "1080p" | "1440p" | "4k" | "any" => {
+    return ["1080p", "1440p", "4k", "any"].includes(res);
+  };
+  const validatedResolution = isValidResolution(mn.monitor_resolution_class)
+    ? mn.monitor_resolution_class
+    : "any";
+
   return {
     "primary-use": product.recommendation_tags.includes("gaming") ? ["gaming"] : ["mixed"],
     "size-preference": sizeMap[mn.monitor_size_class] ?? "any",
-    resolution: mn.monitor_resolution_class as "1080p" | "1440p" | "4k" | "any",
+    resolution: validatedResolution,
     "refresh-rate": rrVal as "basic" | "standard" | "high",
     "panel-type": [ptMap[mn.monitor_panel_type] ?? "ips"],
   };
@@ -158,6 +175,9 @@ function deriveMonitorAnswers(product: MonitorProduct): MonitorQuizAnswers {
 // =============================================================================
 // Public API
 // =============================================================================
+
+const SimilarCategorySchema = z.enum(["mouse", "audio", "keyboard", "monitor"]);
+const ProductIdSchema = z.string().min(1);
 
 /**
  * Find products similar to a given source product.
@@ -168,6 +188,14 @@ export async function getSimilarProducts(
   category: SimilarCategory,
   productId: string
 ): Promise<SimilarProductsResult | null> {
+  // Validate inputs
+  const categoryParse = SimilarCategorySchema.safeParse(category);
+  const productIdParse = ProductIdSchema.safeParse(productId);
+
+  if (!categoryParse.success || !productIdParse.success) {
+    return null;
+  }
+
   let sourceProduct: Product | undefined;
   let recommendations: RecommendationResult<Product>;
 

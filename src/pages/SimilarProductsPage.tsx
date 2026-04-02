@@ -1,6 +1,6 @@
 import { usePageTitle } from "@/hooks/usePageTitle";
 import { useState } from "react";
-import { useNavigate, useParams, Link } from "react-router-dom";
+import { useNavigate, useParams, useLocation, Link } from "react-router-dom";
 import { useQuery } from "@tanstack/react-query";
 import { ArrowLeft, ChevronDown, Home } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -27,6 +27,7 @@ const CATEGORY_LABELS: Record<SimilarCategory, string> = {
 const SimilarProductsPage = () => {
   const { category, productId } = useParams<{ category: string; productId: string }>();
   const navigate = useNavigate();
+  const location = useLocation();
 
   // Validate params
   const validCategory = VALID_CATEGORIES.has(category as SimilarCategory)
@@ -47,11 +48,11 @@ const SimilarProductsPage = () => {
   });
 
   const handleGoBack = () => {
-    // If there's browser history, go back; otherwise go to quiz results
-    if (window.history.length > 1) {
+    // If navigated from results page, go back; otherwise go to quiz results
+    if (location.state?.fromResults) {
       navigate(-1);
     } else {
-      navigate(`/quiz/${category}/results`);
+      navigate(`/quiz/${validCategory}/results`);
     }
   };
 
